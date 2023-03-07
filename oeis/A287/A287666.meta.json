@@ -1,0 +1,19 @@
+{
+  "description": "Number of set partitions of [n] such that j is member of block b only if b = 1 or at least one of j-1, ..., j-3 is member of a block >= b-1.",
+  "id": "A287666",
+  "mentions": [
+    "A000110",
+    "A287641"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:00",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

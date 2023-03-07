@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of 'nu', a coefficient related to the variance for searching corresponding to patricia tries.",
+  "id": "A245675",
+  "mentions": [
+    "A086311",
+    "A086312"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Triangle read by rows: number of nilpotent partial transformations (of an n-element set) of height r (height(alpha) = |Im(alpha)|), 0 <= r < n.",
+  "id": "A141618",
+  "mentions": [
+    "A000272",
+    "A001263",
+    "A007318",
+    "A019538",
+    "A028246",
+    "A036040",
+    "A048993",
+    "A055302",
+    "A058877",
+    "A127671",
+    "A134264",
+    "A145271",
+    "A198204",
+    "A248927"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

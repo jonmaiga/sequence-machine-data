@@ -1,0 +1,26 @@
+{
+  "description": "Compound filter: a(n) = 2*A286364(n) + floor(A072400(n)/4).",
+  "id": "A286369",
+  "mentions": [
+    "A000027",
+    "A010877",
+    "A072400",
+    "A286361",
+    "A286363",
+    "A286364",
+    "A286366",
+    "A286370",
+    "A286371"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

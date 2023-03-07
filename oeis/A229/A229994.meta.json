@@ -1,0 +1,20 @@
+{
+  "description": "For every positive integer m, let u(m) = (d(1),d(2),...,d(k)) be the unitary divisors of m in increasing order. Let Q be the concatenation of the vectors (d(k)/d(1), d(k-1)/d(2), ..., d(1)/d(k)), so that every positive rational number appears in Q exactly once. The numerators form A229994; the denominators, A077610.",
+  "id": "A229994",
+  "mentions": [
+    "A034444",
+    "A077610",
+    "A229996"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:47",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

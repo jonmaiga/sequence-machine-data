@@ -1,0 +1,20 @@
+{
+  "description": "Dirichlet inverse of A091862, characteristic function of numbers for which A267116(n) = bigomega(n), where A267116 is the bitwise-OR of the exponents of primes in the prime factorization of n.",
+  "id": "A355935",
+  "mentions": [
+    "A091862",
+    "A267116",
+    "A268375"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

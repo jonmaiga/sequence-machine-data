@@ -1,0 +1,23 @@
+{
+  "description": "Interspersion of the signature sequence of tau^2, where tau = (1 + sqrt(5))/2 = golden ratio.",
+  "id": "A283938",
+  "mentions": [
+    "A118276",
+    "A182801",
+    "A283961",
+    "A283968",
+    "A283969"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

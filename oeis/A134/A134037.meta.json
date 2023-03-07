@@ -1,0 +1,21 @@
+{
+  "description": "Concatenated first and last digits of Mersenne prime reversals.",
+  "id": "A134037",
+  "mentions": [
+    "A134038",
+    "A134039"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

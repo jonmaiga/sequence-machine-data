@@ -1,0 +1,27 @@
+{
+  "description": "Count of the first 10^n primes containing at least one 9's digit.",
+  "id": "A231796",
+  "mentions": [
+    "A091634",
+    "A091643",
+    "A228413",
+    "A228421",
+    "A231412",
+    "A231726",
+    "A231790",
+    "A231792"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Numerator of Bernoulli(n, 1/4).",
+  "id": "A157817",
+  "mentions": [
+    "A053382",
+    "A053383",
+    "A141459",
+    "A157818",
+    "A196838",
+    "A196839",
+    "A225467",
+    "A225473",
+    "A285061"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

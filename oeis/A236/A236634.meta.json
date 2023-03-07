@@ -1,0 +1,21 @@
+{
+  "description": "Number of unbalanced partitions of n: the largest part is not equal to the number of parts.",
+  "id": "A236634",
+  "mentions": [
+    "A000041",
+    "A047993",
+    "A064173",
+    "A209616"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

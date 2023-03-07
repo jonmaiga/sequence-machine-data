@@ -1,0 +1,30 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of n X k nonnegative integer matrices with all column sums n and row sums k.",
+  "id": "A333901",
+  "mentions": [
+    "A000012",
+    "A002426",
+    "A110058",
+    "A172743",
+    "A172816",
+    "A172868",
+    "A172904",
+    "A172931",
+    "A172947",
+    "A172961",
+    "A257462",
+    "A257493"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

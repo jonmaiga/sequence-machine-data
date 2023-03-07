@@ -1,0 +1,26 @@
+{
+  "description": "Coefficient of x of the OmegaPolynomials (A318146), T(n, k) = [x] P(n, k) with n>=1 and k>=0, square array read by ascending antidiagonals.",
+  "id": "A318253",
+  "mentions": [
+    "A000182",
+    "A010763",
+    "A063524",
+    "A181937",
+    "A273352",
+    "A293951",
+    "A318146",
+    "A318258"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

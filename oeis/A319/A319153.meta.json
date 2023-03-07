@@ -1,0 +1,26 @@
+{
+  "description": "Number of integer partitions of n that reduce to 2, meaning their Heinz number maps to 2 under A304464.",
+  "id": "A319153",
+  "mentions": [
+    "A000837",
+    "A098859",
+    "A181819",
+    "A182850",
+    "A304464",
+    "A304465",
+    "A304634",
+    "A305563",
+    "A317245",
+    "A319149"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Continued fraction of a constant t with partial denominators {a(n), n>=0} such that the continued fraction of 4*t yields partial denominators {6*a(n), n>=0}.",
+  "id": "A320410",
+  "mentions": [
+    "A320411",
+    "A320832",
+    "A320834",
+    "A320952"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:24",
+    "offset": 0,
+    "size": 145,
+    "source": "joeis"
+  }
+}

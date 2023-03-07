@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of optimal rules (partitions) for A241216(n).",
+  "id": "A255399",
+  "mentions": [
+    "A241216",
+    "A255394"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

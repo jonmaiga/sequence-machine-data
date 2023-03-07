@@ -1,0 +1,18 @@
+{
+  "description": "Rank of (5-r)*n when all the numbers (5-r)*j and (5+r)*k, where r = sqrt(2), j>=1, k>=1, are jointly ranked.",
+  "id": "A292642",
+  "mentions": [
+    "A292643"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

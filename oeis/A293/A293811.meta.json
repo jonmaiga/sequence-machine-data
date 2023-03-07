@@ -1,0 +1,17 @@
+{
+  "description": "\"Look twice to the left\" sequence starting with 1,2 (see comment).",
+  "id": "A293811",
+  "mentions": [
+    "A293630"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

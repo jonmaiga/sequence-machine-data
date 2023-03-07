@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = n^4 + 28*n^3 + 252*n^2 + 784*n + 448.",
+  "id": "A346514",
+  "mentions": [
+    "A152691",
+    "A190577",
+    "A239035",
+    "A346376",
+    "A346515"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 15:53:07",
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "description": "Triangle read by rows: T(n, k) = binomial(n, floor((n+k+1)/2) with k <= n.",
+  "id": "A335322",
+  "mentions": [
+    "A000372",
+    "A001405",
+    "A004526",
+    "A007318",
+    "A007695",
+    "A037951",
+    "A037952",
+    "A037953",
+    "A037954",
+    "A037955",
+    "A037956",
+    "A037957",
+    "A037958",
+    "A045621",
+    "A266696",
+    "A325982",
+    "A325983"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Number of nonisomorphic systems enumerated by A102897; that is, the number of inequivalent Horn functions, under permutation of variables.",
+  "id": "A193675",
+  "mentions": [
+    "A102894",
+    "A102895",
+    "A102896",
+    "A102897",
+    "A108798",
+    "A108800",
+    "A193674",
+    "A326867",
+    "A326875",
+    "A326904",
+    "A326907",
+    "A326908"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

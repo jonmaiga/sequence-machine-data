@@ -1,0 +1,19 @@
+{
+  "description": "Primes dividing numbers k such that k divides the k-th Lucas number A000032(k).",
+  "id": "A129729",
+  "mentions": [
+    "A000032",
+    "A016089",
+    "A140258"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

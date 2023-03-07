@@ -1,0 +1,20 @@
+{
+  "description": "Number of solutions to the equation x^2+5y^2 = n with x and y > 0.",
+  "id": "A216279",
+  "mentions": [
+    "A000161",
+    "A025426",
+    "A092573",
+    "A119395"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

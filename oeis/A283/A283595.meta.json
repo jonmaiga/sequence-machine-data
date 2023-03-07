@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of Motzkin prefixes (i.e., left factors of Motzkin paths) of length n and height k.",
+  "id": "A283595",
+  "mentions": [
+    "A000225",
+    "A005773",
+    "A097862",
+    "A282869",
+    "A283667"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:54",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

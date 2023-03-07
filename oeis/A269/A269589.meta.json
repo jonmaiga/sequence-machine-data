@@ -1,0 +1,20 @@
+{
+  "description": "Number of triples 0 <= i, j, k < n such that bitwise AND of i, j, k is 0.",
+  "id": "A269589",
+  "mentions": [
+    "A080100",
+    "A268239",
+    "A268524"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

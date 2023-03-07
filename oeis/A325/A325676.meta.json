@@ -1,0 +1,29 @@
+{
+  "description": "Number of compositions of n such that every distinct consecutive subsequence has a different sum.",
+  "id": "A325676",
+  "mentions": [
+    "A000079",
+    "A103295",
+    "A108917",
+    "A169942",
+    "A235998",
+    "A321143",
+    "A325466",
+    "A325545",
+    "A325680",
+    "A325682",
+    "A325685",
+    "A325687",
+    "A325688"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of distinct terms such that every integer k appears twice, at distance a(k).",
+  "id": "A336200",
+  "mentions": [
+    "A001462",
+    "A026242"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

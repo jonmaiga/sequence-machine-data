@@ -1,0 +1,37 @@
+{
+  "description": "Numbers in decimal representation with distinct digits, such that in Russian their digits are in alphabetic order.",
+  "id": "A247811",
+  "mentions": [
+    "A010784",
+    "A053433",
+    "A247761",
+    "A247800",
+    "A247801",
+    "A247802",
+    "A247803",
+    "A247804",
+    "A247805",
+    "A247806",
+    "A247807",
+    "A247808",
+    "A247809",
+    "A247810",
+    "A247812",
+    "A247813",
+    "A247814"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

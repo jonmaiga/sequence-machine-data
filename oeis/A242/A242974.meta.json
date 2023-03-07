@@ -1,0 +1,26 @@
+{
+  "description": "Let M_n = A002110(n) (the n-th primorial), let N*(n)(N**(n), respectively) be the number of numbers k in [1, M_n] for which lpf(k-3) > lpf(k-1) >= prime(n) (lpf(k-1) > lpf(k-3) >= prime(n), respectively) such that k-3, k-1 are not twin primes, where lpf=least prime factor. Then a(n) = N*(n) - N**(n).",
+  "id": "A242974",
+  "mentions": [
+    "A000882",
+    "A002110",
+    "A020639",
+    "A242719",
+    "A242720",
+    "A242758",
+    "A243803",
+    "A243804",
+    "A243867"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 3,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

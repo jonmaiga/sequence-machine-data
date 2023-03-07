@@ -1,0 +1,25 @@
+{
+  "description": "Label only the prime-numbered position cells of the infinite 2D square lattice with the square spiral (or Ulam spiral), starting with 1 at the center; sequence lists primes that are visible from square 1.",
+  "id": "A332583",
+  "mentions": [
+    "A000040",
+    "A063826",
+    "A156859",
+    "A157426",
+    "A157428",
+    "A325604",
+    "A325606",
+    "A331400",
+    "A332582"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

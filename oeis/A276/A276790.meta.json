@@ -1,0 +1,18 @@
+{
+  "description": "Trajectory of 0 under repeated applications of the map psi: 0 -> 0121, 1 -> 0121121, 2 -> 012121.",
+  "id": "A276790",
+  "mentions": [
+    "A275925",
+    "A276788"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

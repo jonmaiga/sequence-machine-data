@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f.: Product_{k>=1} cos(x^k) [even terms only].",
+  "id": "A270663",
+  "mentions": [
+    "A000262",
+    "A229263",
+    "A270294",
+    "A270662"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:34",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

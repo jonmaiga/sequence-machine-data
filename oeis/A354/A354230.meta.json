@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of e.g.f. 1/(1 - log(1 + x)^5).",
+  "id": "A354230",
+  "mentions": [
+    "A006252",
+    "A353200",
+    "A354135",
+    "A354229",
+    "A354232"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

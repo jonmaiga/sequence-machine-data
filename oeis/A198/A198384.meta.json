@@ -1,0 +1,25 @@
+{
+  "description": "First of a triple of squares in arithmetic progression.",
+  "id": "A198384",
+  "mentions": [
+    "A198385",
+    "A198386",
+    "A198387",
+    "A198388",
+    "A198390",
+    "A198409",
+    "A198435",
+    "A198441"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

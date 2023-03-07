@@ -1,0 +1,24 @@
+{
+  "description": "All factorials n! along with powers of the numbers n and n+1 that fall in between n! and (n+1)!, in increasing order.",
+  "id": "A256774",
+  "mentions": [
+    "A000142",
+    "A039960",
+    "A060151",
+    "A074181",
+    "A074182",
+    "A074184",
+    "A111683"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that the k-th composition in standard order (row k of A066099) has weakly decreasing non-adjacent parts.",
+  "id": "A334966",
+  "mentions": [
+    "A028859",
+    "A032020",
+    "A066099",
+    "A072706",
+    "A072707",
+    "A227038",
+    "A332834",
+    "A332872",
+    "A333148",
+    "A333150",
+    "A333193"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

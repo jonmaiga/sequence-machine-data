@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of Sum_{i>=1} mu(i)^2*x^i / (1 - Sum_{j>=1} mu(j)^2*x^j)^2, where mu() is the Moebius function (A008683).",
+  "id": "A281812",
+  "mentions": [
+    "A005117",
+    "A008683",
+    "A121304",
+    "A280194"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

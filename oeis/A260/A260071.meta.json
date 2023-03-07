@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that sigma(p) = sigma(p+1) - sigma(p-1).",
+  "id": "A260071",
+  "mentions": [
+    "A000203",
+    "A076530",
+    "A246852",
+    "A260420"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

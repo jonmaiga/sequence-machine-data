@@ -1,0 +1,19 @@
+{
+  "description": "Möbius values of triangular numbers under divisibility relation.",
+  "id": "A350682",
+  "mentions": [
+    "A000217",
+    "A008683",
+    "A076982"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

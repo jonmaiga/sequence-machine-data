@@ -1,0 +1,17 @@
+{
+  "description": "Number of nondecreasing arrangements of n numbers in -8..8 with sum zero and sum of squares not greater than n*72/3",
+  "id": "A183926",
+  "mentions": [
+    "A183927"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:08",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

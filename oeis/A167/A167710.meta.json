@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 10*2^n - 3*A083658(n+2).",
+  "id": "A167710",
+  "mentions": [
+    "A083658",
+    "A162436"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:51",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

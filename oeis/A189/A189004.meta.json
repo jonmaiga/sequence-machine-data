@@ -1,0 +1,21 @@
+{
+  "description": "Number of domino tilings of the 7 X n grid with upper left corner removed iff n is odd.",
+  "id": "A189004",
+  "mentions": [
+    "A003696",
+    "A028469",
+    "A189006"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

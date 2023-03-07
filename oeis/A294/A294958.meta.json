@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of Product_{k>=1} 1/(1 - x^k)^(k*((k-2)^2+k)/2).",
+  "id": "A294958",
+  "mentions": [
+    "A003633",
+    "A057145",
+    "A060354",
+    "A294959"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

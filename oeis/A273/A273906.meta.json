@@ -1,0 +1,25 @@
+{
+  "description": "Primes equal to the concatenation of two nonzero palindromic numbers.",
+  "id": "A273906",
+  "mentions": [
+    "A000040",
+    "A002113",
+    "A004022",
+    "A014950",
+    "A096489",
+    "A249647"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

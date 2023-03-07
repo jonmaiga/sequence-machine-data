@@ -1,0 +1,19 @@
+{
+  "description": "Let k = A239161(n); then a(n) = (sum of divisors of k) /(sum of divisors d of k with d <= sqrt(k)).",
+  "id": "A238502",
+  "mentions": [
+    "A000203",
+    "A066839",
+    "A239161"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

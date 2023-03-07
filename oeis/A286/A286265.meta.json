@@ -1,0 +1,19 @@
+{
+  "description": "Totient abundant numbers: numbers k such that A092693(k) > k.",
+  "id": "A286265",
+  "mentions": [
+    "A000010",
+    "A082897",
+    "A092693"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

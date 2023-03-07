@@ -1,0 +1,20 @@
+{
+  "description": "The smallest of four consecutive primes whose sum is a perfect cube.",
+  "id": "A248587",
+  "mentions": [
+    "A000040",
+    "A000578",
+    "A061308",
+    "A210205"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

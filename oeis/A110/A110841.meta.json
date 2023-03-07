@@ -1,0 +1,33 @@
+{
+  "description": "a(n) is the number of prime factors, with multiplicity, of abs(A014509(n)).",
+  "id": "A110841",
+  "mentions": [
+    "A001222",
+    "A014509",
+    "A073276",
+    "A075178",
+    "A076547",
+    "A076549",
+    "A079294",
+    "A083687",
+    "A084217",
+    "A085092",
+    "A085737",
+    "A089170",
+    "A089644",
+    "A089655"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "less",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least k such that A049417(A049417(k)) = n*k, where A049417 is the infinitary sigma function, or 0 if no such k exists.",
+  "id": "A318272",
+  "mentions": [
+    "A049417",
+    "A272930",
+    "A318182",
+    "A318242"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

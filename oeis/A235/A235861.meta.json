@@ -1,0 +1,19 @@
+{
+  "description": "Regular continued fraction expansion of square root of 4729494.",
+  "id": "A235861",
+  "mentions": [
+    "A096151"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cofr",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:30:47",
+    "offset": 0,
+    "size": 93,
+    "source": "joeis"
+  }
+}

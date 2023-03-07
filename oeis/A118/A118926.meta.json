@@ -1,0 +1,19 @@
+{
+  "description": "Invariant column vector V under matrix product A104546*V = V: a(n) = Sum_{k=0,[n/2]} A104546(n,k)*a(k).",
+  "id": "A118926",
+  "mentions": [
+    "A104546",
+    "A118927"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

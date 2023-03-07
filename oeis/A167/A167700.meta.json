@@ -1,0 +1,26 @@
+{
+  "description": "Number of partitions of n into distinct odd squares.",
+  "id": "A167700",
+  "mentions": [
+    "A000700",
+    "A016754",
+    "A033461",
+    "A111900",
+    "A167661",
+    "A167701",
+    "A167702",
+    "A167703"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:51",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

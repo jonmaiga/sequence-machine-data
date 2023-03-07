@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the number m such that F(prime(m)) is the greatest prime Fibonacci divisor of F(n)^2 + 1 where F(n) is the n-th Fibonacci number, or 0 if no such prime factor exists.",
+  "id": "A339082",
+  "mentions": [
+    "A000040",
+    "A000045",
+    "A000720",
+    "A005478",
+    "A245306",
+    "A335568",
+    "A338762",
+    "A338794"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

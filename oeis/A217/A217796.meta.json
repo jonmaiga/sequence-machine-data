@@ -1,0 +1,20 @@
+{
+  "description": "Primes of the form n^4+1 such that (n+2)^4+1 is also prime.",
+  "id": "A217796",
+  "mentions": [
+    "A000068",
+    "A002523",
+    "A037896",
+    "A217795"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

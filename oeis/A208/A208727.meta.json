@@ -1,0 +1,21 @@
+{
+  "description": "T(n,k)=Number of 2n-bead necklaces labeled with numbers 1..k not allowing reversal, with neighbors differing by exactly 1.",
+  "id": "A208727",
+  "mentions": [
+    "A000031",
+    "A186740",
+    "A198632",
+    "A232441"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

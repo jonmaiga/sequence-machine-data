@@ -1,0 +1,19 @@
+{
+  "description": "Number of composite integers k less than 10^n such that lambda(k) divides 2k-2, where lambda is the Carmichael lambda function (A002322).",
+  "id": "A232167",
+  "mentions": [
+    "A002322",
+    "A055553"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

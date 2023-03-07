@@ -1,0 +1,26 @@
+{
+  "description": "Sum of the squarefree parts of the partitions of n into 6 parts.",
+  "id": "A309481",
+  "mentions": [
+    "A008683",
+    "A309458",
+    "A309478",
+    "A309479",
+    "A309480",
+    "A309482",
+    "A309484",
+    "A309485",
+    "A309486"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

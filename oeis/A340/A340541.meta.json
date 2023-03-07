@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that the product of (p mod q) for primes q < p is a multiple of the sum of (p mod q) for primes q < p.",
+  "id": "A340541",
+  "mentions": [
+    "A033955",
+    "A102647"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "description": "Number of ordered ways to write n as x^3 + y^2 + z*(3z+1), where x, y and z are integers with x positive and y nonnegative.",
+  "id": "A271325",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A000326",
+    "A000578",
+    "A001318",
+    "A160325",
+    "A160326",
+    "A262813",
+    "A262815",
+    "A262816",
+    "A270469",
+    "A270488",
+    "A270516",
+    "A270533",
+    "A270559",
+    "A270566",
+    "A271106"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:35",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

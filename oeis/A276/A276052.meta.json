@@ -1,0 +1,19 @@
+{
+  "description": "Least k > 1 such that phi(k*n-1) = phi(k*n+1), or -1 if no such k exists.",
+  "id": "A276052",
+  "mentions": [
+    "A000010",
+    "A066812",
+    "A275412"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

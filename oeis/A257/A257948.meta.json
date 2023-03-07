@@ -1,0 +1,20 @@
+{
+  "description": "Length of cycle in which n ends under iteration of sum-of-squares-of-two-digits map s_2.",
+  "id": "A257948",
+  "mentions": [
+    "A007770",
+    "A055616",
+    "A257795"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

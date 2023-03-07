@@ -1,0 +1,21 @@
+{
+  "description": "Even dodecagonal numbers: 4*n*(5*n - 2).",
+  "id": "A193872",
+  "mentions": [
+    "A016885",
+    "A051624",
+    "A147874"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:07:07",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Number A(n,k) of k-dimensional lattice walks from {n}^k to {0}^k using steps that decrease the Euclidean distance to the origin and that change each coordinate by at most 1; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A347811",
+  "mentions": [
+    "A000012",
+    "A089759",
+    "A187783",
+    "A335570",
+    "A346539",
+    "A346840",
+    "A347810",
+    "A347812",
+    "A347813"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:21",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

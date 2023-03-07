@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = A007947(A331595(n)).",
+  "id": "A331597",
+  "mentions": [
+    "A007947",
+    "A064989",
+    "A122111",
+    "A241909",
+    "A331595",
+    "A331596"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "T(n,k)=Number of idempotent n X n -k..k matrices of rank 2",
+  "id": "A220472",
+  "mentions": [
+    "A223452"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

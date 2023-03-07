@@ -1,0 +1,30 @@
+{
+  "description": "Numerators of the higher order exponential integral constants alpha(k,4).",
+  "id": "A163927",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000302",
+    "A002450",
+    "A007407",
+    "A008955",
+    "A009980",
+    "A090998",
+    "A163928",
+    "A163929",
+    "A163931"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

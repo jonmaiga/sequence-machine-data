@@ -1,0 +1,25 @@
+{
+  "description": "Odd numbers with exactly 2 distinct prime factors.",
+  "id": "A225375",
+  "mentions": [
+    "A001221",
+    "A024556",
+    "A046315",
+    "A046388",
+    "A046390",
+    "A046404",
+    "A056913",
+    "A098905",
+    "A272592"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

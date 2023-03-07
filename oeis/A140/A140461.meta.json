@@ -1,0 +1,19 @@
+{
+  "description": "Numbers in A008364 but not in A038511.",
+  "id": "A140461",
+  "mentions": [
+    "A008364",
+    "A038511"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

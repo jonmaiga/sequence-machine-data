@@ -1,0 +1,27 @@
+{
+  "description": "Sum of the squares of the divisor complements of the odd proper divisors of n.",
+  "id": "A352048",
+  "mentions": [
+    "A091954",
+    "A352047",
+    "A352049",
+    "A352050",
+    "A352051",
+    "A352052",
+    "A352053",
+    "A352054",
+    "A352055",
+    "A352056"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

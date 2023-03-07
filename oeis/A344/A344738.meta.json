@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that are the sum of three fourth powers in exactly eight ways.",
+  "id": "A344738",
+  "mentions": [
+    "A344730",
+    "A344737",
+    "A344751",
+    "A344925",
+    "A345088"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

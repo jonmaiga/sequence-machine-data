@@ -1,0 +1,31 @@
+{
+  "description": "Irregular triangle read by rows where T(n,k) is the number of finite topologies with n points and k nonempty open sets, 0 <= k <= 2^n - 1.",
+  "id": "A326882",
+  "mentions": [
+    "A000079",
+    "A000798",
+    "A001930",
+    "A014466",
+    "A102894",
+    "A102895",
+    "A102896",
+    "A102897",
+    "A281774",
+    "A306445",
+    "A326876",
+    "A326878",
+    "A326881"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

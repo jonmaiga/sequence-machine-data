@@ -1,0 +1,20 @@
+{
+  "description": "Let S(1)={1} and, for n>1 let S(n) be the smallest set containing x, x+1, 2x and 3x for each element x in S(n-1). a(n) is the number of elements in S(n).",
+  "id": "A123247",
+  "mentions": [
+    "A000292",
+    "A122554",
+    "A168043"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

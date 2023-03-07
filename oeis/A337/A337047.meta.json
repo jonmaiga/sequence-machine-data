@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that A001414(k) and A001414(A004086(k)) are twin primes p, p+2.",
+  "id": "A337047",
+  "mentions": [
+    "A001097",
+    "A001414",
+    "A004086",
+    "A100118"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

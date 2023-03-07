@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of paths in the first quadrant from (0,0) to (n,k), consisting of steps U=(1,1), D=(1,-1), h=(1,0) and H=(2,0) (0<=k<=n).",
+  "id": "A132276",
+  "mentions": [
+    "A059397",
+    "A059398",
+    "A128720"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:45",
+    "offset": 0,
+    "size": 63,
+    "source": "joeis"
+  }
+}

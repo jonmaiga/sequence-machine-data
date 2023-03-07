@@ -1,0 +1,32 @@
+{
+  "description": "Number of crossing, non-capturing set partitions of {1..n}.",
+  "id": "A326245",
+  "mentions": [
+    "A000108",
+    "A000110",
+    "A001519",
+    "A016098",
+    "A054391",
+    "A058681",
+    "A095661",
+    "A324170",
+    "A326212",
+    "A326237",
+    "A326243",
+    "A326246",
+    "A326248",
+    "A326249",
+    "A326254"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

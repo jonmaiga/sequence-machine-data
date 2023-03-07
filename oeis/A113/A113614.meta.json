@@ -1,0 +1,20 @@
+{
+  "description": "Least number whose absolute difference of successive digits gives the n-th palindrome (A002113), or 0 if no such number exists.",
+  "id": "A113614",
+  "mentions": [
+    "A002113"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "more",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 10,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

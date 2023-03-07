@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = one-based position in the round in which n is removed in the Flavius sieve, 0 if n is never removed (when n is one of the terms of A000960).",
+  "id": "A278529",
+  "mentions": [
+    "A000960",
+    "A100287",
+    "A278169",
+    "A278507",
+    "A278528",
+    "A278539"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

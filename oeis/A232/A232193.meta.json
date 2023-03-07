@@ -1,0 +1,26 @@
+{
+  "description": "Numerators of the expected value of the length of a random cycle in a random n-permutation.",
+  "id": "A232193",
+  "mentions": [
+    "A002657",
+    "A028417",
+    "A028418",
+    "A091137",
+    "A102928",
+    "A132393",
+    "A175441",
+    "A232248"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:50",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

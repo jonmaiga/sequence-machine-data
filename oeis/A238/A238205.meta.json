@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest prime such that 2n=p1+p2*p3 where Max(p1,p2,p3)=a(n) and p1, p2 p3 are odd primes.",
+  "id": "A238205",
+  "mentions": [
+    "A002375"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 6,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

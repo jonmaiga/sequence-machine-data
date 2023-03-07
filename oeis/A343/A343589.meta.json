@@ -1,0 +1,21 @@
+{
+  "description": "Smallest prime of the form n^k-(n-1) or 0 if no such prime exists.",
+  "id": "A343589",
+  "mentions": [
+    "A076846",
+    "A084741",
+    "A084745",
+    "A113516",
+    "A346154"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 2,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

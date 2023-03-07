@@ -1,0 +1,21 @@
+{
+  "description": "Repeat: Take next nonprime, next prime, next nonprime, then reverse the order.",
+  "id": "A175938",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A002808",
+    "A018252",
+    "A115316"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "T(n,k)=Number of nXk 0..3 arrays with some element plus some horizontally, antidiagonally or vertically adjacent neighbor totalling three no more than once.",
+  "id": "A269143",
+  "mentions": [
+    "A120926"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:31",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

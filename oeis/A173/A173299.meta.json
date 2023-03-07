@@ -1,0 +1,20 @@
+{
+  "description": "Numerators of fractions x^n + y^n, where x + y = 1 and x^2 + y^2 = 2.",
+  "id": "A173299",
+  "mentions": [
+    "A152422",
+    "A173300"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:57",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

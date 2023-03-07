@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest positive integer not occurring earlier in the sequence such that sum{k=1 to n} a(k) = j^r, j = any positive integer, r = any integer >= 2.",
+  "id": "A125219",
+  "mentions": [
+    "A001597"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

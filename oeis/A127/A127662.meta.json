@@ -1,0 +1,23 @@
+{
+  "description": "Integers whose infinitary aliquot sequences end in an infinitary perfect number (A007357).",
+  "id": "A127662",
+  "mentions": [
+    "A007357",
+    "A049417",
+    "A063990",
+    "A126168",
+    "A127661",
+    "A127667"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

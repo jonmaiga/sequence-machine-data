@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of permutations of {1,2,...,n} having k increasing cycles (0<=k<=n). A cycle (b(1), b(2), ...) is said to be increasing if, when written with its smallest element in the first position, it satisfies b(1) < b(2) < b(3) < ... .",
+  "id": "A186754",
+  "mentions": [
+    "A000142",
+    "A002627",
+    "A186755",
+    "A186756",
+    "A186757",
+    "A186758",
+    "A186759",
+    "A186760",
+    "A349788"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:11",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

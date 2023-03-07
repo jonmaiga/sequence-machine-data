@@ -1,0 +1,18 @@
+{
+  "description": "Number of isomorphism classes of partial Latin squares of order n.",
+  "id": "A279691",
+  "mentions": [
+    "A279692"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

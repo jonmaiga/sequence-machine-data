@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of unlabeled 3-connected graphs with n nodes and k edges (n >= 4, ceiling(3*n/2) <= k <= n*(n-1)/2).",
+  "id": "A339072",
+  "mentions": [
+    "A006290",
+    "A054924",
+    "A123542",
+    "A338511",
+    "A339071"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 4,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

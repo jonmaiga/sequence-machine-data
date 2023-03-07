@@ -1,0 +1,22 @@
+{
+  "description": "Square array A, read by antidiagonals, with entry n in row k given by A(k,0) = A028387(k) and A(k,n) = A(k,n-1) + floor(sqrt(A(k,n-1))), n>0, k>=0.",
+  "id": "A159016",
+  "mentions": [
+    "A002984",
+    "A008865",
+    "A014209",
+    "A028387",
+    "A028392"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

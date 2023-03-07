@@ -1,0 +1,21 @@
+{
+  "description": "Lexicographically earliest sequence of positive terms such that for any distinct i and j, a(i) | a(j+1) <> a(j) | a(j+1) (where \"|\" corresponds to binary concatenation, A163621).",
+  "id": "A330524",
+  "mentions": [
+    "A088177",
+    "A163621",
+    "A318225",
+    "A330525"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

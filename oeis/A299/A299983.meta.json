@@ -1,0 +1,23 @@
+{
+  "description": "Lexicographic first sequence of nonnegative integers such that a(n) + a(n+1) has a digit 3, and no term occurs twice.",
+  "id": "A299983",
+  "mentions": [
+    "A299957",
+    "A299969",
+    "A299970",
+    "A299973",
+    "A299982",
+    "A299988"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Square array T(n,k) read by antidiagonals in which column k lists each number A000009 followed by k-1 zeros, for k>0.",
+  "id": "A168120",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A168019",
+    "A168021",
+    "A168121",
+    "A168122"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers whose sum of digits is 10 and which contain no 0 digits.",
+  "id": "A179955",
+  "mentions": [
+    "A007953",
+    "A017173",
+    "A052224"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

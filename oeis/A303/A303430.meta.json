@@ -1,0 +1,21 @@
+{
+  "description": "Number of binary words of length n with exactly twice as many occurrences of subword 101 as occurrences of subword 010.",
+  "id": "A303430",
+  "mentions": [
+    "A005251",
+    "A164146",
+    "A260668",
+    "A284449",
+    "A303696"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

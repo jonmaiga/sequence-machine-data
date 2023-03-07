@@ -1,0 +1,29 @@
+{
+  "description": "Periodic sequence: repeat 7,1.",
+  "id": "A176415",
+  "mentions": [
+    "A000012",
+    "A010688",
+    "A010727",
+    "A020707",
+    "A047521",
+    "A058187",
+    "A092290",
+    "A176414"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cofr",
+    "cons",
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:38:49",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

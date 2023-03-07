@@ -1,0 +1,18 @@
+{
+  "description": "Number of colored compositions using all colors of an n-set such that all parts have different color patterns and the patterns for parts i have i distinct colors in increasing order.",
+  "id": "A327585",
+  "mentions": [
+    "A327583",
+    "A327584"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

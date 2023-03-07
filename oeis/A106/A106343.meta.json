@@ -1,0 +1,18 @@
+{
+  "description": "Column 0 of triangle A106342, which is the matrix inverse of the triangle A008278 of Stirling numbers of 2nd kind.",
+  "id": "A106343",
+  "mentions": [
+    "A008278",
+    "A106342"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

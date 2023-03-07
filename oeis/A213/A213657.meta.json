@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of dominating subsets with k vertices of the graph G(n) consisting of an edge ab, n vertices c_1, c_2, ..., c_n, and 2n edges ac_i, bc_i (i=1..n). (n triangles with a common edge).",
+  "id": "A213657",
+  "mentions": [
+    "A181565"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

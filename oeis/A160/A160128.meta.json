@@ -1,0 +1,29 @@
+{
+  "description": "a(n) = number of grid points that are covered after (2^n)th stage of A139250.",
+  "id": "A160128",
+  "mentions": [
+    "A000079",
+    "A000695",
+    "A007583",
+    "A014825",
+    "A073724",
+    "A139250",
+    "A139251",
+    "A139252",
+    "A139560",
+    "A147614",
+    "A210985"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 05:48:23",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

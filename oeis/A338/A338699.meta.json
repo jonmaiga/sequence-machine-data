@@ -1,0 +1,18 @@
+{
+  "description": "Sequence A is the primes. Sequence B is the \"smallest\" sequence of nondecreasing powers of two whose sum over the first N terms is at least equal to the sum over the first N terms of Sequence A. a(n) is the amount by which the sum of the first n terms of Sequence B exceeds the sum of the first n terms of Sequence A.",
+  "id": "A338699",
+  "mentions": [
+    "A000040",
+    "A000079"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of lattice paths from (0,0) to (n,n) using steps E=(1,0), N=(0,1) and D=(1,1) (i.e., bilateral Schroeder paths), having k D=(1,1) steps.",
+  "id": "A104684",
+  "mentions": [
+    "A000984",
+    "A001850",
+    "A006480",
+    "A054142",
+    "A060693",
+    "A063007",
+    "A084938",
+    "A092392",
+    "A130595"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

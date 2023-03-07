@@ -1,0 +1,18 @@
+{
+  "description": "Numbers m > 1 such that the fractional part of log_10(m!) is greater than at any smaller m > 1.",
+  "id": "A250022",
+  "mentions": [
+    "A177901",
+    "A249829"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

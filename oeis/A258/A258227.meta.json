@@ -1,0 +1,20 @@
+{
+  "description": "Concatenate the natural numbers, then partition into minimal strings so that adjacent terms have a common divisor greater than 1.",
+  "id": "A258227",
+  "mentions": [
+    "A002782",
+    "A007376"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

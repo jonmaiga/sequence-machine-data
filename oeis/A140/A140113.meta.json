@@ -1,0 +1,21 @@
+{
+  "description": "a(1)=1, a(n)=a(n-1)+n if n odd, a(n)=a(n-1)+ n^2 if n is even.",
+  "id": "A140113",
+  "mentions": [
+    "A100178",
+    "A136047",
+    "A185872"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:06:57",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

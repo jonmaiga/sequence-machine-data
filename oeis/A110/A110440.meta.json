@@ -1,0 +1,25 @@
+{
+  "description": "Triangular array formed by the little Schröder numbers s(n,k).",
+  "id": "A110440",
+  "mentions": [
+    "A001003",
+    "A038255",
+    "A065096",
+    "A225887",
+    "A232246"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:44",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

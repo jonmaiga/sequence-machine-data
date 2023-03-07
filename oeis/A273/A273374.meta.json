@@ -1,0 +1,26 @@
+{
+  "description": "Squares ending in digit 9.",
+  "id": "A273374",
+  "mentions": [
+    "A000290",
+    "A016754",
+    "A017377",
+    "A017379",
+    "A063226",
+    "A273373"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

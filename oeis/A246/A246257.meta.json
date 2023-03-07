@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array read by rows: T(n, k) = S(n, [n/2]-k) and S(n,k) = C(n, 2*k)*(2*k-1)!!*((2*k-1)!! + 1)/2, n>=0, 0<=k<=[n/2].",
+  "id": "A246257",
+  "mentions": [
+    "A002771",
+    "A096713",
+    "A246256"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

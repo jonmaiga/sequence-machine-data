@@ -1,0 +1,17 @@
+{
+  "description": "For a polynomial P(m) with rational coefficients, denote by lcmd(P) the LCM of the denominators of all its coefficients. Then a(n) = lcmd(Sum_{i=1..m} (i^n*Sum_{j=1..i} j^n))/ lcmd((Sum_{i=1..m} i^n)^2).",
+  "id": "A202533",
+  "mentions": [
+    "A064538"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

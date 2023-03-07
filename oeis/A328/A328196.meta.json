@@ -1,0 +1,24 @@
+{
+  "description": "First differences of A328190.",
+  "id": "A328196",
+  "mentions": [
+    "A298468",
+    "A328190",
+    "A328979",
+    "A328983",
+    "A328984",
+    "A328985",
+    "A329190",
+    "A329982"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

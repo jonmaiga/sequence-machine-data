@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Lucas(6^n).",
+  "id": "A144838",
+  "mentions": [
+    "A001566",
+    "A001622",
+    "A006267",
+    "A144836",
+    "A144837",
+    "A144839"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "bref",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

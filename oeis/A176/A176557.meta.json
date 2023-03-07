@@ -1,0 +1,17 @@
+{
+  "description": "Primes of the form 7*x^2 - 5*y^2, where x and y are successive natural numbers.",
+  "id": "A176557",
+  "mentions": [
+    "A176470"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

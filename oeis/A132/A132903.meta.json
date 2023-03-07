@@ -1,0 +1,22 @@
+{
+  "description": "Numbers formed by concatenating 3 consecutive prime numbers.",
+  "id": "A132903",
+  "mentions": [
+    "A000040",
+    "A007795",
+    "A045533",
+    "A091762"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:22",
+    "offset": 1,
+    "size": 29,
+    "source": "joeis"
+  }
+}

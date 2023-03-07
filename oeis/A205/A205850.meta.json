@@ -1,0 +1,24 @@
+{
+  "description": "[s(k)-s(j)]/4, where the pairs (k,j) are given by A205847 and A205848, and s(k) denotes the (k+1)-st Fibonacci number.",
+  "id": "A205850",
+  "mentions": [
+    "A204892",
+    "A204922",
+    "A205840",
+    "A205845",
+    "A205846",
+    "A205847",
+    "A205848",
+    "A205849"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 10:39:50",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

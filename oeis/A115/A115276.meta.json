@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of {1,...,n} into block sizes not a multiple of 4.",
+  "id": "A115276",
+  "mentions": [
+    "A001935",
+    "A003724",
+    "A115275",
+    "A115277"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

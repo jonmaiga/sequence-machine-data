@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 1 + Sum_{d|n, d>1} d * a(n/d).",
+  "id": "A197953",
+  "mentions": [
+    "A067824",
+    "A129374",
+    "A307607"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

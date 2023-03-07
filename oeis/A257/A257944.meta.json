@@ -1,0 +1,21 @@
+{
+  "description": "Lexicographically earliest sequence of positive integers such that the terms and their absolute first differences are all distinct and no term is the sum of two distinct terms.",
+  "id": "A257944",
+  "mentions": [
+    "A005228",
+    "A030124",
+    "A095115",
+    "A140778",
+    "A257941"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

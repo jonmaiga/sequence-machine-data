@@ -1,0 +1,22 @@
+{
+  "description": "Triangle of the numbers of different forests of m unrooted trees of smallest order 2, i.e., without isolated vertices, on N labeled nodes.",
+  "id": "A105786",
+  "mentions": [
+    "A000272",
+    "A033185",
+    "A105599",
+    "A264428"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

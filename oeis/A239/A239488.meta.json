@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of 1/x-4/(-sqrt(x^2-10*x+1)-x+1)-3.",
+  "id": "A239488",
+  "mentions": [
+    "A103210",
+    "A116412"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:05:52",
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

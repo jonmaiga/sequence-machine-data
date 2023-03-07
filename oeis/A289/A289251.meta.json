@@ -1,0 +1,19 @@
+{
+  "description": "Triangle T(n, k), n > 0 and 0 <= k < n, read by rows; if gcd(n, k) = 1, then T(n, k) = modular inverse of k (mod n), otherwise T(n, k) = k.",
+  "id": "A289251",
+  "mentions": [
+    "A102057",
+    "A124223"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:03",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

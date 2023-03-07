@@ -1,0 +1,19 @@
+{
+  "description": "Squares s such that s + 2 and s - 2 are semiprime.",
+  "id": "A278022",
+  "mentions": [
+    "A000290",
+    "A001358",
+    "A105571"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:44",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 1/11*(binomial(n,11) - floor(n/11)).",
+  "id": "A215054",
+  "mentions": [
+    "A002620",
+    "A014125",
+    "A032169",
+    "A178904",
+    "A215052",
+    "A215053"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:12",
+    "offset": 12,
+    "size": 31,
+    "source": "joeis"
+  }
+}

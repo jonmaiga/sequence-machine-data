@@ -1,0 +1,20 @@
+{
+  "description": "Primes n that are concatenation of two 3-digit primes p",
+  "id": "A168529",
+  "mentions": [
+    "A105184"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:52",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

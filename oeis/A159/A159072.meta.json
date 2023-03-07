@@ -1,0 +1,23 @@
+{
+  "description": "Count of numbers k in the range 1<=k<= n such that set of proper divisors of k is not a subset of the set of the proper divisors of n.",
+  "id": "A159072",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A032741",
+    "A036234",
+    "A158974",
+    "A159070"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

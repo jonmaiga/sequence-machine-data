@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of k-colored graphs on n nodes with restricted labels, n>=0, 0<=k<=n.",
+  "id": "A335330",
+  "mentions": [
+    "A006125",
+    "A046860",
+    "A335343"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

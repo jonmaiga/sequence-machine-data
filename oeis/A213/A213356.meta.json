@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are not the sum of distinct primes with prime subscripts.",
+  "id": "A213356",
+  "mentions": [
+    "A006450",
+    "A185723",
+    "A185724",
+    "A214296"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

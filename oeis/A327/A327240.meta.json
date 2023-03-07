@@ -1,0 +1,19 @@
+{
+  "description": "3-smooth numbers k such that k-1 and (k-2)/2 are prime.",
+  "id": "A327240",
+  "mentions": [
+    "A003586",
+    "A325204",
+    "A325255"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:54",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

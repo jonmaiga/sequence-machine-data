@@ -1,0 +1,20 @@
+{
+  "description": "Total sum of lengths of formula representations of n using addition, multiplication and the constant 1.",
+  "id": "A214835",
+  "mentions": [
+    "A005245",
+    "A005408",
+    "A213923",
+    "A214833"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

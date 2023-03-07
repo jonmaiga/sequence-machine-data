@@ -1,0 +1,19 @@
+{
+  "description": "Primes p where largest digit of p minus sum of all other digits is equal to 1.",
+  "id": "A281226",
+  "mentions": [
+    "A000040",
+    "A280915"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

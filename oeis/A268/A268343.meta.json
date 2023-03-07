@@ -1,0 +1,21 @@
+{
+  "description": "Hermit primes: primes which are not a nearest neighbor of another prime.",
+  "id": "A268343",
+  "mentions": [
+    "A006562",
+    "A007510",
+    "A087770",
+    "A269734"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

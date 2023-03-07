@@ -1,0 +1,20 @@
+{
+  "description": "T(n,k) are the values of a variant of the Chebyshev polynomials P(n,x) of order n evaluated at x = k, where T(n,k), n >= 0, k <= n is a triangle read by rows. P(0,x) = 1, P(1,x) = x, P(n,x) = x*P(n-1,x) - P(n-2,x).",
+  "id": "A357892",
+  "mentions": [
+    "A001353",
+    "A001906",
+    "A097690"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

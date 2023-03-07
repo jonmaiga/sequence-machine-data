@@ -1,0 +1,21 @@
+{
+  "description": "First of two variations by Per Nørgård of his \"infinity sequence\", cf. A004718: u(0) = 0; u(3*n) = -u(n); u(3*n+1) = u(n) - 2; u(3*n+2) = u(n) - 1.",
+  "id": "A256184",
+  "mentions": [
+    "A004718",
+    "A085144",
+    "A087808",
+    "A255723",
+    "A256185"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

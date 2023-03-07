@@ -1,0 +1,24 @@
+{
+  "description": "Binary encodings of reducible polynomials over GF(2)that are fixed by blue code: a(n) = A091242(A234749(n)).",
+  "id": "A234752",
+  "mentions": [
+    "A014580",
+    "A091242",
+    "A118666",
+    "A193231",
+    "A234745",
+    "A234746",
+    "A234749"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

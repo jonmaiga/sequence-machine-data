@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that 18n - 5 and 18n + 5 are primes.",
+  "id": "A172209",
+  "mentions": [
+    "A000040",
+    "A172147",
+    "A172154"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:23",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

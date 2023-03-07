@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the minimal number of nodes in a binary tree of height n.",
+  "id": "A102379",
+  "mentions": [
+    "A000123",
+    "A018819",
+    "A033485",
+    "A040039",
+    "A102378"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:22",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

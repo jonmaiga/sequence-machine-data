@@ -1,0 +1,30 @@
+{
+  "description": "Square array A(i,j) = A003188(A006068(i) + A006068(j)), read by antidiagonals as A(0,0), A(0,1), A(1,0), A(0,2), A(1,1), A(2,0), ...",
+  "id": "A268715",
+  "mentions": [
+    "A001477",
+    "A001969",
+    "A002262",
+    "A003188",
+    "A006068",
+    "A025581",
+    "A268714",
+    "A268717",
+    "A268719",
+    "A268725",
+    "A268820",
+    "A268837"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

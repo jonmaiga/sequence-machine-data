@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X n 0..4 arrays of sums of 2X2 subblocks of some (n+1)X(n+1) binary array with rows and columns of the latter in lexicographically nondecreasing order",
+  "id": "A226987",
+  "mentions": [
+    "A226992"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

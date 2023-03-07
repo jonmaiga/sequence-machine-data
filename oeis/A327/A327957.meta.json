@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of neutron magnetic moment to Bohr magneton ratio, negated.",
+  "id": "A327957",
+  "mentions": [
+    "A238200",
+    "A303127",
+    "A327956"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": -2,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

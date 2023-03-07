@@ -1,0 +1,23 @@
+{
+  "description": "Mersenne primes p such that the Mersenne number M(p) = 2^p - 1 is composite.",
+  "id": "A103902",
+  "mentions": [
+    "A000043",
+    "A000668",
+    "A001348",
+    "A077585",
+    "A077586",
+    "A103901"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

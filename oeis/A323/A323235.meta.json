@@ -1,0 +1,22 @@
+{
+  "description": "Lexicographically earliest sequence such that a(i) = a(j) => f(i) = f(j), where f(1) = 0, f(n) = -1 if n is an odd number > 1, and f(n) = A323234(n) for even numbers >= 4.",
+  "id": "A323235",
+  "mentions": [
+    "A053644",
+    "A053645",
+    "A079944",
+    "A319701",
+    "A323234",
+    "A323241"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:47",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

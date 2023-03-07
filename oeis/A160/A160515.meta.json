@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the integer (640320^3 + 744)^2 * 70^2 = 337736875876935471466319632507953926400.",
+  "id": "A160515",
+  "mentions": [
+    "A160514"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cons",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:14:13",
+    "offset": 39,
+    "size": 39,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Nonnegative numbers k such that k == 0 (mod 3) or k == 0 (mod 5).",
+  "id": "A281746",
+  "mentions": [
+    "A008585",
+    "A008587",
+    "A229829"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:03:59",
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

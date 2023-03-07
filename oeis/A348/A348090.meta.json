@@ -1,0 +1,19 @@
+{
+  "description": "Place the numbers 1 to n on a square grid and sum both numbers in all created orthogonally adjacent pairs; a(n) gives the maximum possible value of the sum of all pair sums.",
+  "id": "A348090",
+  "mentions": [
+    "A003056",
+    "A005408",
+    "A346069"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

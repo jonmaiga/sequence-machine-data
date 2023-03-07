@@ -1,0 +1,22 @@
+{
+  "description": "Number of permutations of [n] where the length of the longest increasing subsequence is larger than the length of the longest decreasing subsequence.",
+  "id": "A321314",
+  "mentions": [
+    "A000142",
+    "A003316",
+    "A321313",
+    "A321315",
+    "A321316"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

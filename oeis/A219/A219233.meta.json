@@ -1,0 +1,24 @@
+{
+  "description": "Alternating row sums of Riordan triangle A110162.",
+  "id": "A219233",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A005248",
+    "A099837",
+    "A110162",
+    "A127677"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

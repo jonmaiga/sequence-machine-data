@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = number of odd decimal digits of n-th prime + number of prime decimal digits of n-th prime.",
+  "id": "A156607",
+  "mentions": [
+    "A000040",
+    "A104638"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

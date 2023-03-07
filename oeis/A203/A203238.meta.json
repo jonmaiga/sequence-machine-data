@@ -1,0 +1,17 @@
+{
+  "description": "a(n)=(n-1)-st elementary symmetric function of the first n terms of (2, -4, 6, -8, 10, ...).",
+  "id": "A203238",
+  "mentions": [
+    "A181174"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

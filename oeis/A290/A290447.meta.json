@@ -1,0 +1,27 @@
+{
+  "description": "Consider n equally spaced points along a line and join every pair of points by a semicircle above the line; a(n) is the number of intersection points.",
+  "id": "A290447",
+  "mentions": [
+    "A000332",
+    "A006561",
+    "A290461",
+    "A290465",
+    "A290726",
+    "A290865",
+    "A290866",
+    "A290867",
+    "A290876",
+    "A331452",
+    "A332723"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

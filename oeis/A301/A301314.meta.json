@@ -1,0 +1,34 @@
+{
+  "description": "Number of ways to write n as x^2 + y^2 + z^2 + w^2, where w is a positive integer and x,y,z are nonnegative integers such that x + 3*y + 9*z = 2^k*m^3 for some k,m = 0,1,2,....",
+  "id": "A301314",
+  "mentions": [
+    "A000118",
+    "A000290",
+    "A271510",
+    "A271513",
+    "A271518",
+    "A281976",
+    "A300666",
+    "A300667",
+    "A300708",
+    "A300712",
+    "A300751",
+    "A300752",
+    "A300791",
+    "A300792",
+    "A300844",
+    "A300908",
+    "A301303",
+    "A301304"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

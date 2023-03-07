@@ -1,0 +1,30 @@
+{
+  "description": "a(n) is the smallest number whose deficiency or abundance is equal to n, or a(n) = 0 if such a number does not exist.",
+  "id": "A294347",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A005100",
+    "A005101",
+    "A028982",
+    "A033879",
+    "A033880",
+    "A234285",
+    "A234286",
+    "A294386",
+    "A294393",
+    "A294406"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

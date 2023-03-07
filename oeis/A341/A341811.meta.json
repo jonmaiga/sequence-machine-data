@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 1/(Sum_{k=1..n} 1/phi(A341810(n)*k)).",
+  "id": "A341811",
+  "mentions": [
+    "A000010",
+    "A341810",
+    "A341814"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

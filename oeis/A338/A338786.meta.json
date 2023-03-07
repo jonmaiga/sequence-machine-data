@@ -1,0 +1,32 @@
+{
+  "description": "Numbers in A166981 that are neither superior highly composite nor colossally abundant.",
+  "id": "A338786",
+  "mentions": [
+    "A000705",
+    "A001221",
+    "A002110",
+    "A002182",
+    "A002201",
+    "A004394",
+    "A004490",
+    "A073751",
+    "A166981",
+    "A189228",
+    "A224078",
+    "A304234",
+    "A304235"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

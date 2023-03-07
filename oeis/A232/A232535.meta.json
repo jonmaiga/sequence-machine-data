@@ -1,0 +1,31 @@
+{
+  "description": "Triangle T(n,k), 0 <= k <= n, read by rows defined by: T(n,k) = (binomial(2*n,2*k) + binomial(2*n+1,2*k))/2.",
+  "id": "A232535",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A001019",
+    "A001105",
+    "A001653",
+    "A002001",
+    "A086645",
+    "A091042",
+    "A131423",
+    "A164111",
+    "A166965",
+    "A180324",
+    "A228329"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:30:37",
+    "offset": 0,
+    "size": 58,
+    "source": "joeis"
+  }
+}

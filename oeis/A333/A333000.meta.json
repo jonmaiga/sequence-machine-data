@@ -1,0 +1,20 @@
+{
+  "description": "Sum of integers (with multiplicity) encountered on all possible paths from n to 1 when iterating with nondeterministic map k -> k- k/p, where p is any prime factor of k.",
+  "id": "A333000",
+  "mentions": [
+    "A332904",
+    "A333001",
+    "A333123"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

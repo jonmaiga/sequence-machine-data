@@ -1,0 +1,21 @@
+{
+  "description": "Sum of digits of n in fractional base 5/4.",
+  "id": "A245335",
+  "mentions": [
+    "A007953",
+    "A024634",
+    "A053824",
+    "A245355"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

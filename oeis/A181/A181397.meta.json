@@ -1,0 +1,21 @@
+{
+  "description": "Summed lengths of nonintersecting rook paths on a 6 X n board.",
+  "id": "A181397",
+  "mentions": [
+    "A181394",
+    "A181395",
+    "A181396",
+    "A181398",
+    "A181399"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:04",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

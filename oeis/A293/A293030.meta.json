@@ -1,0 +1,19 @@
+{
+  "description": "Square array read by antidiagonals downwards: a(n, k) is smallest number m > a(n, k-1) that is not in a previous row, and that avoids any 3-term arithmetic progression in a(n, 1), a(n, 2), ..., a(n, k-1), m.",
+  "id": "A293030",
+  "mentions": [
+    "A003278"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

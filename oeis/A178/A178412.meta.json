@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is defined recursively as the Sum{d|n} ((-1)^(n/d))*a(d) = 1, with a(1) = a(2) = 1.",
+  "id": "A178412",
+  "mentions": [
+    "A039956",
+    "A056911",
+    "A178411"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

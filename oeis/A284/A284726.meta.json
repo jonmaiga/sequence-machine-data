@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (1/4) * smallest multiple of 4 missing from [A280864(1), ..., A280864(n-1)].",
+  "id": "A284726",
+  "mentions": [
+    "A064413",
+    "A280725",
+    "A280864",
+    "A284724"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:56",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

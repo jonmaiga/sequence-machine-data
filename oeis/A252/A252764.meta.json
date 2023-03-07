@@ -1,0 +1,22 @@
+{
+  "description": "Number of length n primitive (=aperiodic or period n) n-ary words.",
+  "id": "A252764",
+  "mentions": [
+    "A008683",
+    "A074650",
+    "A075147",
+    "A143324",
+    "A143325"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:11",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

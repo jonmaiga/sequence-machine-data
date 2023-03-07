@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest odd prime p that has exactly n consecutive distinct prime \"prime gaps\" between p and a larger prime.",
+  "id": "A300556",
+  "mentions": [
+    "A000040",
+    "A065091"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

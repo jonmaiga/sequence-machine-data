@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle T(n,k) with row n listing A003586(j) not divisible by 12 such that A352072(A003586(j)) = n.",
+  "id": "A353383",
+  "mentions": [
+    "A003586",
+    "A352072"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

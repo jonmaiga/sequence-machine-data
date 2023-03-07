@@ -1,0 +1,30 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of binary pattern classes in the (7,n)-rectangular grid with k '1's and (7n-k) '0's: two patterns are in same class if one of them can be obtained by a reflection or 180-degree rotation of the other.",
+  "id": "A228166",
+  "mentions": [
+    "A005418",
+    "A034851",
+    "A225812",
+    "A225826",
+    "A225827",
+    "A225828",
+    "A225829",
+    "A225830",
+    "A225831",
+    "A226048",
+    "A226290",
+    "A228022",
+    "A228165"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

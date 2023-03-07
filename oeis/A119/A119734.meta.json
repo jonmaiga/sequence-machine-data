@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = least k such that 2^k + n is a perfect power, or -1 if no such k exists.",
+  "id": "A119734",
+  "mentions": [
+    "A001597"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

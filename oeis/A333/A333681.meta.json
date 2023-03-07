@@ -1,0 +1,21 @@
+{
+  "description": "Number of non-isomorphic n X n binary matrices with all row and column sums equal up to permutation of rows and columns.",
+  "id": "A333681",
+  "mentions": [
+    "A000519",
+    "A067209",
+    "A133687",
+    "A333160"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

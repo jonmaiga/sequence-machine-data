@@ -1,0 +1,18 @@
+{
+  "description": "Integers that can be expressed as the sum of 2 double factorials.",
+  "id": "A116965",
+  "mentions": [
+    "A111222"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

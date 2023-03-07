@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(k, n) read by rows, where the entries of the triangle are lengths of longest runs of consecutive sums of k-length combinations of first n primes. Specially, T(0, n) = 1.",
+  "id": "A327742",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A002386",
+    "A005250"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

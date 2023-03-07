@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of (5+sqrt(85))/6, which has periodic continued fractions [2,2,1,2,2,1,...] and [5/2, 1, 5/2, 1, ...].",
+  "id": "A189968",
+  "mentions": [
+    "A188635",
+    "A189966",
+    "A189967"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

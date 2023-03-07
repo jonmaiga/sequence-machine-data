@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways of writing n=p+f with p a prime and f a factorial.",
+  "id": "A175940",
+  "mentions": [
+    "A000142",
+    "A062602",
+    "A175931",
+    "A175933"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:00",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

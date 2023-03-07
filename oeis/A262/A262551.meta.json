@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: coefficients in Bell's formula for number of ways of making change with a certain set of coins.",
+  "id": "A262551",
+  "mentions": [
+    "A002575"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

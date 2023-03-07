@@ -1,0 +1,25 @@
+{
+  "description": "Array read by antidiagonals: T(m,n) is the number of minimum total dominating sets in the m X n king graph.",
+  "id": "A303335",
+  "mentions": [
+    "A302654",
+    "A303114",
+    "A303156",
+    "A303293",
+    "A303378",
+    "A332390",
+    "A350815",
+    "A350817"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

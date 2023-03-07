@@ -1,0 +1,20 @@
+{
+  "description": "Number of connected jeu de taquin posets with n elements.",
+  "id": "A124483",
+  "mentions": [
+    "A000112",
+    "A124480",
+    "A124481"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

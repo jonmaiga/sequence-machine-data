@@ -1,0 +1,20 @@
+{
+  "description": "Smallest odd prime number Q such that Q*2^P+1 is also prime, where P is a Mersenne prime exponent A000043(n).",
+  "id": "A249384",
+  "mentions": [
+    "A000043",
+    "A249382",
+    "A249383"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

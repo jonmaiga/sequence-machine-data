@@ -1,0 +1,27 @@
+{
+  "description": "Sum of the fourth largest parts of the partitions of n into 8 primes.",
+  "id": "A326460",
+  "mentions": [
+    "A010051",
+    "A259198",
+    "A326455",
+    "A326456",
+    "A326457",
+    "A326458",
+    "A326459",
+    "A326461",
+    "A326462",
+    "A326463"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Total number of cells that are ON at stage n in Wolfram's 2-D cellular automaton defined by Rule 942.",
+  "id": "A169649",
+  "mentions": [
+    "A000695",
+    "A139250",
+    "A169648"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:47",
+    "offset": -1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

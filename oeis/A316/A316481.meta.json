@@ -1,0 +1,22 @@
+{
+  "description": "Squares whose arithmetic mean of digits is 1 (i.e., the sum of digits equals the number of digits).",
+  "id": "A316481",
+  "mentions": [
+    "A000290",
+    "A056991",
+    "A061384",
+    "A069711",
+    "A316480"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

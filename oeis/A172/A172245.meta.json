@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = number of ways of writing n = i+j such that i<=j, gcd(i,j,n)=1, and the values of N(i,j,n) are distinct, where N(i,j,n) = product of distinct prime divisors of i*j*n.",
+  "id": "A172245",
+  "mentions": [
+    "A023022",
+    "A172246",
+    "A172247",
+    "A172248"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:56",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

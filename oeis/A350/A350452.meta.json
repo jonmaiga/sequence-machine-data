@@ -1,0 +1,28 @@
+{
+  "description": "Number T(n,k) of endofunctions on [n] with exactly k connected components and no fixed points; triangle T(n,k), n>=0, 0<=k<=floor(n/2), read by rows.",
+  "id": "A350452",
+  "mentions": [
+    "A000007",
+    "A000435",
+    "A001147",
+    "A007830",
+    "A060281",
+    "A061356",
+    "A065440",
+    "A071720",
+    "A106828",
+    "A350446"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

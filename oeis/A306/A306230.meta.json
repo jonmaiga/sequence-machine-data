@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive terms such that for any n > 0, G(n) <> G(a(n)) (where G denotes the Golomb's sequence A001462).",
+  "id": "A306230",
+  "mentions": [
+    "A001462",
+    "A306229"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

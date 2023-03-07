@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: rad(n) along left edge (n, 1) and core(n) along right edge (n, n), with (n, k) = core((n - 1, k - 1) + (n - 1, k)) for 1 < k < n when n > 2.",
+  "id": "A144911",
+  "mentions": [
+    "A007913",
+    "A007947",
+    "A144909",
+    "A144910"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

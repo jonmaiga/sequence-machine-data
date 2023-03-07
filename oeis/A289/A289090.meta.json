@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of (E(|x|^3))^(1/3), with x being a normally distributed random variable.",
+  "id": "A289090",
+  "mentions": [
+    "A011002",
+    "A011350",
+    "A060294",
+    "A076668",
+    "A289091"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:12",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Squares visited by a knight on a square-spiral numbered board and moving to the lowest available unvisited square at each step, where the step is not in the same direction as the previous step.",
+  "id": "A336208",
+  "mentions": [
+    "A316667",
+    "A323714",
+    "A323808",
+    "A329519",
+    "A329520",
+    "A336038"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

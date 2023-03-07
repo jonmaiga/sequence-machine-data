@@ -1,0 +1,17 @@
+{
+  "description": "Lexicographically smallest sequence of primes such that Legendre symbol (a(1)*...*a(n-1) / a(n)) = 1 for all n.",
+  "id": "A258249",
+  "mentions": [
+    "A167604"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Small factors of some highly composite numbers.",
+  "id": "A161894",
+  "mentions": [
+    "A002110",
+    "A002182",
+    "A161812"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

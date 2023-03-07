@@ -1,0 +1,30 @@
+{
+  "description": "The length of the shortest path from n to 1 when using the transitions x -> A003415(x) and x -> A003961(x), or -1 if no 1 can ever be reached from n.",
+  "id": "A353515",
+  "mentions": [
+    "A003415",
+    "A003961",
+    "A048103",
+    "A051903",
+    "A099307",
+    "A099308",
+    "A099309",
+    "A100716",
+    "A327969",
+    "A343221",
+    "A344027",
+    "A349905",
+    "A353484"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

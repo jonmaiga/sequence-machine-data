@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = the n-th order Taylor polynomial (centered at 0) of c(x)^(3*n) evaluated at x = 1, where c(x) = (1 - sqrt(1 - 4*x))/(2*x) is the o.g.f. of the sequence of Catalan numbers A000108.",
+  "id": "A333095",
+  "mentions": [
+    "A000012",
+    "A000108",
+    "A099837",
+    "A100219",
+    "A118970",
+    "A333090",
+    "A333093",
+    "A333094",
+    "A333096",
+    "A333097"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:24",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

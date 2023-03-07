@@ -1,0 +1,22 @@
+{
+  "description": "Array read by antidiagonals: the binomial transform of the sequence (1,2,..n,0,0,0..) in row n.",
+  "id": "A116445",
+  "mentions": [
+    "A001629",
+    "A001792",
+    "A104249",
+    "A139488"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

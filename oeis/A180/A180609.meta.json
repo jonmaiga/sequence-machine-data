@@ -1,0 +1,21 @@
+{
+  "description": "G.f. L(x) satisfies: L(x) = L(exp(x)-1)*(1-exp(-x))/x = Sum_{n>=1} a(n)*x^n/(n!*(n+1)!).",
+  "id": "A180609",
+  "mentions": [
+    "A134242",
+    "A134243",
+    "A180610"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

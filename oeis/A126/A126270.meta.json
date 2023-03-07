@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = order of Galois group of the polynomial P(x) + n if P(x) + n (after dividing by the gcd of its coefficients) is irreducible, otherwise a(n) = 0, where P(x) = x^8 - 8*x^6 + 20*x^4 - 16*x^2 + 2.",
+  "id": "A126270",
+  "mentions": [
+    "A124827",
+    "A126271",
+    "A136362"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

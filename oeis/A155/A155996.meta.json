@@ -1,0 +1,21 @@
+{
+  "description": "Nearest integer to 2^n*Pi/4.",
+  "id": "A155996",
+  "mentions": [
+    "A003881",
+    "A068425",
+    "A121349",
+    "A155482"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

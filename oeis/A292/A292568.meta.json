@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = a(n-1) + sum of base-1000 digits of a(n-1), a(0)=1.",
+  "id": "A292568",
+  "mentions": [
+    "A004207",
+    "A286660"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "The number of times that the n-th digit of A154703(n) occurs in A154703(n).",
+  "id": "A191233",
+  "mentions": [
+    "A004676",
+    "A154703",
+    "A190480",
+    "A191248"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

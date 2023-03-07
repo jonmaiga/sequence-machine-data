@@ -1,0 +1,23 @@
+{
+  "description": "Numbers with a record value of the ratio of the number of abundant divisors to the total number of divisors.",
+  "id": "A335541",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A005100",
+    "A025487",
+    "A080224",
+    "A335540"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

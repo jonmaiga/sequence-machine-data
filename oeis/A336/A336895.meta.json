@@ -1,0 +1,19 @@
+{
+  "description": "The prime sandwiches sequence (see Comments lines for definition).",
+  "id": "A336895",
+  "mentions": [
+    "A335600",
+    "A336894"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

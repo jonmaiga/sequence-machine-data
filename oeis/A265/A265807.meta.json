@@ -1,0 +1,26 @@
+{
+  "description": "Denominators of primes-only best approximates (POBAs) to 1/(golden ratio) = 1/tau; see Comments.",
+  "id": "A265807",
+  "mentions": [
+    "A000040",
+    "A265759",
+    "A265796",
+    "A265797",
+    "A265798",
+    "A265799",
+    "A265800",
+    "A265806"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "frac",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

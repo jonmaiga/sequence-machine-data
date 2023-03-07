@@ -1,0 +1,22 @@
+{
+  "description": "Numbers such that the sum, sum of the squares, and sum of the cubes of the decimal digits are each a perfect square.",
+  "id": "A197129",
+  "mentions": [
+    "A028839",
+    "A175396",
+    "A197039",
+    "A197125"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:18",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

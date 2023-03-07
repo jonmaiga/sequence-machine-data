@@ -1,0 +1,21 @@
+{
+  "description": "Earliest start of a run of n numbers divisible by a seventh power larger than one.",
+  "id": "A330486",
+  "mentions": [
+    "A001015",
+    "A045882",
+    "A271443"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

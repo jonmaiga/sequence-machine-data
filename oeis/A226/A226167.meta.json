@@ -1,0 +1,24 @@
+{
+  "description": "Array read by antidiagonals: a(i,j) is the number of ways of labeling a tableau of shape (i,1^j) with the integers 1, 2, ... i+j-2 (each label being used once) such that the first row is decreasing, and the first column has m-1 labels.",
+  "id": "A226167",
+  "mentions": [
+    "A000178",
+    "A001710",
+    "A009575",
+    "A023999",
+    "A136659",
+    "A138772"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

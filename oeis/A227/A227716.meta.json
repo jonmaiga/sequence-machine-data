@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: Number of (2n+1)-step self-avoiding walks on diamond lattice ending at point with x = 2k+1.",
+  "id": "A227716",
+  "mentions": [
+    "A001394",
+    "A001395",
+    "A001396",
+    "A001397",
+    "A001398",
+    "A227715"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabl",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

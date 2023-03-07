@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = gcd_{k=1..n} (prime(k+1)^n-1)/2.",
+  "id": "A297402",
+  "mentions": [
+    "A006519",
+    "A059159",
+    "A074723",
+    "A127922",
+    "A171977",
+    "A202318"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:17",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

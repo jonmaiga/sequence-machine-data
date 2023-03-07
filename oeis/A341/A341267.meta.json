@@ -1,0 +1,18 @@
+{
+  "description": "Gaps between first elements of quadruple primes of the form {p, p+2, p+6, p+12).",
+  "id": "A341267",
+  "mentions": [
+    "A172454"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

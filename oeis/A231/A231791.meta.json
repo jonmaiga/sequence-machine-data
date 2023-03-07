@@ -1,0 +1,20 @@
+{
+  "description": "Integers n such that A231589(n) = floor(n*(n-1)/4) - n.",
+  "id": "A231791",
+  "mentions": [
+    "A002144",
+    "A003173",
+    "A231589",
+    "A231754"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

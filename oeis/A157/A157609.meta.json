@@ -1,0 +1,20 @@
+{
+  "description": "2662n - 22.",
+  "id": "A157609",
+  "mentions": [
+    "A157040",
+    "A157610"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that A090086(p+1) < p.",
+  "id": "A317851",
+  "mentions": [
+    "A000040",
+    "A090086"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

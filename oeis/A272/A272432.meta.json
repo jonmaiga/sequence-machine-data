@@ -1,0 +1,17 @@
+{
+  "description": "Number of ordered set partitions of {1,2,...,n} such that no part has the same size as any of its four immediate predecessors.",
+  "id": "A272432",
+  "mentions": [
+    "A261959"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

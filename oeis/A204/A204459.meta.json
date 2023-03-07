@@ -1,0 +1,39 @@
+{
+  "description": "Square array A(n,k), n>=0, k>=0, read by antidiagonals: A(n,k) is the number of k-element subsets that can be chosen from {1,2,...,k*n} having element sum k*(k*n+1)/2.",
+  "id": "A204459",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000035",
+    "A001477",
+    "A052456",
+    "A063074",
+    "A109655",
+    "A204460",
+    "A204461",
+    "A204462",
+    "A204463",
+    "A204464",
+    "A204465",
+    "A204466",
+    "A204467",
+    "A204468",
+    "A204469",
+    "A204470",
+    "A204471",
+    "A204472",
+    "A204473",
+    "A204474"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:25",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

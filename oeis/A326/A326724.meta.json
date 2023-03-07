@@ -1,0 +1,21 @@
+{
+  "description": "Triangle with Euler (secant) numbers, read by rows, T(n, k) for 0 <= k <= n.",
+  "id": "A326724",
+  "mentions": [
+    "A000364",
+    "A012816",
+    "A326722"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

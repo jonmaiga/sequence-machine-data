@@ -1,0 +1,43 @@
+{
+  "description": "Irregular triangle T(n,m) (n >= 0) read by rows: row n lists numbers of distinct parts of partitions of n in Abramowitz-Stegun order.",
+  "id": "A103921",
+  "mentions": [
+    "A000005",
+    "A000041",
+    "A000070",
+    "A001221",
+    "A026791",
+    "A027750",
+    "A036036",
+    "A036037",
+    "A036043",
+    "A049085",
+    "A080577",
+    "A112798",
+    "A115621",
+    "A115623",
+    "A124734",
+    "A185974",
+    "A193073",
+    "A228531",
+    "A334301",
+    "A334302",
+    "A334433",
+    "A334435",
+    "A334439",
+    "A334440",
+    "A334441"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

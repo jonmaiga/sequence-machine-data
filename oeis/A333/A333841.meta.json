@@ -1,0 +1,21 @@
+{
+  "description": "Integers n such that n! = x^2 + y^3 + z^4 where x, y and z are nonnegative integers, is soluble.",
+  "id": "A333841",
+  "mentions": [
+    "A123053",
+    "A267414",
+    "A337046"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Positive pentagonal numbers (A000326) that are triangular numbers (A000217) divided by 2.",
+  "id": "A259161",
+  "mentions": [
+    "A000217",
+    "A000326",
+    "A074378",
+    "A259156",
+    "A259160",
+    "A259162",
+    "A259167"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

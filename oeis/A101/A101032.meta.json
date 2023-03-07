@@ -1,0 +1,25 @@
+{
+  "description": "Table (read by rows) giving the coefficients of sum formulas of n-th Lucas numbers (A000204). The k-th row (k>=1) contains T(i,k) for i=1 to k, where k=[2*n+1+(-1)^(n-1)]/4 and T(i,k) satisfies L(n) = Sum_{i=1..k} T(i,k) * n^(k-i) / (k-1)!.",
+  "id": "A101032",
+  "mentions": [
+    "A000045",
+    "A000108",
+    "A000204",
+    "A094216",
+    "A094638",
+    "A099731",
+    "A100492",
+    "A101033"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

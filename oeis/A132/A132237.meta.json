@@ -1,0 +1,24 @@
+{
+  "description": "Primes congruent to {7, 23} mod 30.",
+  "id": "A132237",
+  "mentions": [
+    "A000040",
+    "A007510",
+    "A039949",
+    "A068229",
+    "A129807",
+    "A132231",
+    "A227869"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:49:11",
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

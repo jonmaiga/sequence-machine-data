@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that 10^n - 1 divides 10^(10^(10^100)) - 10.",
+  "id": "A227245",
+  "mentions": [
+    "A173394",
+    "A178070",
+    "A200879"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

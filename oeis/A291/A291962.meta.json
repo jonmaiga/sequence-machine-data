@@ -1,0 +1,23 @@
+{
+  "description": "Decimal repunits written in base 2.",
+  "id": "A291962",
+  "mentions": [
+    "A000225",
+    "A002275",
+    "A007088",
+    "A088911"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

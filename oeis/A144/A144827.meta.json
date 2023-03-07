@@ -1,0 +1,32 @@
+{
+  "description": "Partial products of successive terms of A017029; a(0)=1.",
+  "id": "A144827",
+  "mentions": [
+    "A001715",
+    "A002866",
+    "A007559",
+    "A008546",
+    "A017029",
+    "A045754",
+    "A047053",
+    "A048994",
+    "A049209",
+    "A049308",
+    "A051188",
+    "A084947",
+    "A132393",
+    "A144739",
+    "A147585"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

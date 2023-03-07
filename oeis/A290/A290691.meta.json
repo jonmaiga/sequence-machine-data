@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: infinite braid made of periodically-colored yarns in which the crossing of two adjacent yarns occurs when two color 0's are side by side (see comments).",
+  "id": "A290691",
+  "mentions": [
+    "A293578"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

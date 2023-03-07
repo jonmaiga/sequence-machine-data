@@ -1,0 +1,26 @@
+{
+  "description": "The exponent of the highest power of 2 dividing A339821(n).",
+  "id": "A339822",
+  "mentions": [
+    "A000010",
+    "A003972",
+    "A007814",
+    "A019565",
+    "A023506",
+    "A053574",
+    "A339814",
+    "A339815",
+    "A339821"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

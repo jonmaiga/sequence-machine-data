@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k coprime to 10 such that there are exactly two values of A for which k^2+4*A and k^2-4*A are perfect squares.",
+  "id": "A325421",
+  "mentions": [
+    "A002144",
+    "A309812"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

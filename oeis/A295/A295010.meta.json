@@ -1,0 +1,19 @@
+{
+  "description": "Self-slideable numbers: numbers which can reproduce themselves by sliding each digit d by d places either to the left or to the right.",
+  "id": "A295010",
+  "mentions": [
+    "A010785",
+    "A296242"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

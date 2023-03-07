@@ -1,0 +1,19 @@
+{
+  "description": "Maximum number of queens on an n X n chessboard such that no queen attacks more than one other queen.",
+  "id": "A260113",
+  "mentions": [
+    "A004773",
+    "A260090"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of r_5, the 5th smallest radius < 1 for which a compact packing of the plane exists, with disks of radius 1 and r_5.",
+  "id": "A246727",
+  "mentions": [
+    "A002193",
+    "A246723",
+    "A246724",
+    "A246725",
+    "A246726",
+    "A246728",
+    "A246729",
+    "A246730"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = the number of \"isolated divisors\" of n(n+1)/2. A positive divisor k of n is isolated if neither k-1 nor k+1 divides n.",
+  "id": "A133950",
+  "mentions": [
+    "A000217",
+    "A063440",
+    "A132881",
+    "A133948",
+    "A133949"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

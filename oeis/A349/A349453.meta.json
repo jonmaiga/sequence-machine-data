@@ -1,0 +1,23 @@
+{
+  "description": "Dirichlet inverse of A133494, 3^(n-1).",
+  "id": "A349453",
+  "mentions": [
+    "A133494",
+    "A349449",
+    "A349450",
+    "A349451",
+    "A349452",
+    "A349568"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

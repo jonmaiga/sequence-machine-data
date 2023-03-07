@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the first positive real root of ((1 - sqrt(5))*((1 + sqrt(5)) /2)^x - (1 + sqrt(5))*((1 - sqrt(5))/2)^x)/(2*sqrt(5)).",
+  "id": "A353920",
+  "mentions": [
+    "A001622",
+    "A089260",
+    "A353595"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

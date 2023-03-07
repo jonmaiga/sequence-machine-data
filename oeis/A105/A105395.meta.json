@@ -1,0 +1,21 @@
+{
+  "description": "A simple \"Fractal Jump Sequence\" (FJS).",
+  "id": "A105395",
+  "mentions": [
+    "A003215",
+    "A105397"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:21:15",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

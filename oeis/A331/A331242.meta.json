@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = number of triangles with integer sides i <= j <= k with radius of enclosing circle <= n.",
+  "id": "A331242",
+  "mentions": [
+    "A331229",
+    "A331240",
+    "A331243",
+    "A331244",
+    "A331245",
+    "A331246"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

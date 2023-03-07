@@ -1,0 +1,18 @@
+{
+  "description": "Least positive integer j such that n divides k^4-j^4, where k, as in A205789, is the least number for which there is such a j.",
+  "id": "A205790",
+  "mentions": [
+    "A204892",
+    "A205789"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 09:25:28",
+    "offset": 1,
+    "size": 90,
+    "source": "joeis"
+  }
+}

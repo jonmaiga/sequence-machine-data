@@ -1,0 +1,19 @@
+{
+  "description": "Integers k such that the remainder of the sum of the first k primes divided by the k-th prime is equal to k.",
+  "id": "A301852",
+  "mentions": [
+    "A000040",
+    "A071089"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

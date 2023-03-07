@@ -1,0 +1,22 @@
+{
+  "description": "Number of factors needed in the unique factorization of positive integers into terms of A186285 where any term is used at most twice.",
+  "id": "A240231",
+  "mentions": [
+    "A028234",
+    "A053735",
+    "A067029",
+    "A186285",
+    "A240230"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:57",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

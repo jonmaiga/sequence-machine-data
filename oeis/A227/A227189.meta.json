@@ -1,0 +1,29 @@
+{
+  "description": "Square array A(n>=0,k>=0) where A(n,k) gives the (k+1)-th part of the unordered partition which has been encoded in the binary expansion of n, as explained in A227183. The array is scanned antidiagonally as A(0,0), A(0,1), A(1,0), A(0,2), A(1,1), etc.",
+  "id": "A227189",
+  "mentions": [
+    "A002262",
+    "A005811",
+    "A025581",
+    "A136480",
+    "A163575",
+    "A227183",
+    "A227184",
+    "A227185",
+    "A227186",
+    "A227188",
+    "A227368",
+    "A227739"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

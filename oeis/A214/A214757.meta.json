@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = smallest Ramanujan prime R_k in A104272 that is >= A000101(n).",
+  "id": "A214757",
+  "mentions": [
+    "A000101",
+    "A001223",
+    "A002386",
+    "A104272",
+    "A179196",
+    "A214756",
+    "A214924",
+    "A214925",
+    "A214926"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

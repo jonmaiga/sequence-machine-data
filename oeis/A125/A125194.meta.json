@@ -1,0 +1,24 @@
+{
+  "description": "Numerator of generalized harmonic number H((p-1)/2,2p)= Sum[ 1/k^(2p), {k,1,(p-1)/2}] divided by p^2 for prime p>3.",
+  "id": "A125194",
+  "mentions": [
+    "A001008",
+    "A007406",
+    "A007408",
+    "A007410",
+    "A119722",
+    "A120290"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 3,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

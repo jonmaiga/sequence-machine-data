@@ -1,0 +1,23 @@
+{
+  "description": "Last term of arithmetic progression of exactly n primes with difference A033188(n) and first term = A354743(n).",
+  "id": "A354744",
+  "mentions": [
+    "A033188",
+    "A033189",
+    "A113872",
+    "A354376",
+    "A354377",
+    "A354743"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f.: S(x) = Series_Reversion( Integral 1/(1-x^5)^(1/5) dx ), where the constant of integration is zero.",
+  "id": "A258924",
+  "mentions": [
+    "A258878",
+    "A258900",
+    "A258925",
+    "A258927"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

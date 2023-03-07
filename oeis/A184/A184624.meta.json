@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = floor(n*r +h), where r=sqrt(2), h=-1/4; complement of A184619.",
+  "id": "A184624",
+  "mentions": [
+    "A184618",
+    "A184619",
+    "A184625"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:09",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

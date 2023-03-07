@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence starting with a(1) = 12 with no duplicate terms such that [a(n) - (the n-th digit of the sequence)] is prime.",
+  "id": "A306375",
+  "mentions": [
+    "A306321"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

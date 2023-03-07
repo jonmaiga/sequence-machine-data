@@ -1,0 +1,23 @@
+{
+  "description": "Numbers whose sum of divisors is equal to the product of the number of divisors of their k first powers, for some k.",
+  "id": "A283758",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A270389",
+    "A270713",
+    "A275660",
+    "A283757",
+    "A283759"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:54",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

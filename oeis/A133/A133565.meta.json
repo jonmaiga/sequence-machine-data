@@ -1,0 +1,18 @@
+{
+  "description": "a(1)=1. a(n+1) = sum{k=non-isolated divisors of n} a(k). A non-isolated divisor, k, of n is a positive divisor of n where (k-1) or (k+1) divides n.",
+  "id": "A133565",
+  "mentions": [
+    "A132748",
+    "A133564"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

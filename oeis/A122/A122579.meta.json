@@ -1,0 +1,19 @@
+{
+  "description": "Integer sequence arising from the nested radical R(m)=sqrt(4^0+sqrt(4^1+sqrt(....+sqrt(4^m)...) (see comment).",
+  "id": "A122579",
+  "mentions": [
+    "A028361",
+    "A083864"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Table read by rows: trajectories under iteration of Carmichael's lambda function (cf. A002322).",
+  "id": "A246700",
+  "mentions": [
+    "A002322",
+    "A185816"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

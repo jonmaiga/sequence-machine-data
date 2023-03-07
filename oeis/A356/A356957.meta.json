@@ -1,0 +1,40 @@
+{
+  "description": "Number of set partitions of strict integer partitions of n into intervals, where an interval is a set of positive integers with all differences of adjacent elements equal to 1.",
+  "id": "A356957",
+  "mentions": [
+    "A000009",
+    "A000012",
+    "A000041",
+    "A000110",
+    "A001055",
+    "A001227",
+    "A001970",
+    "A010054",
+    "A011782",
+    "A055887",
+    "A061260",
+    "A073485",
+    "A107742",
+    "A270995",
+    "A294617",
+    "A304969",
+    "A349050",
+    "A349055",
+    "A356936",
+    "A356937",
+    "A356938",
+    "A356939",
+    "A356940",
+    "A356941"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

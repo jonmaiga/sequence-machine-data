@@ -1,0 +1,21 @@
+{
+  "description": "Number of minimal total dominating sets in the n-antiprism graph.",
+  "id": "A302763",
+  "mentions": [
+    "A290377",
+    "A302255",
+    "A302652",
+    "A302760"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:34:10",
+    "offset": 1,
+    "size": 32,
+    "source": "joeis"
+  }
+}

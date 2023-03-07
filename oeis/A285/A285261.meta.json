@@ -1,0 +1,21 @@
+{
+  "description": "a(2n-1) and a(2n) represent the smallest fraction a(2n-1)/a(2n) needing n unit fractions.",
+  "id": "A285261",
+  "mentions": [
+    "A097048",
+    "A097049"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

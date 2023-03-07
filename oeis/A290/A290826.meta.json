@@ -1,0 +1,20 @@
+{
+  "description": "The sequence b(n,m) of the m polynomial coefficients of the n-th order B-spline wavelet scaled by n!2^n, read by rows, with n in {0,1,2,...} and m in {1,2,3,...,2(n+1)^2}.",
+  "id": "A290826",
+  "mentions": [
+    "A007318",
+    "A289358"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

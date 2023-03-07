@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of free polyiamonds of n cells with chessboard coloring.",
+  "id": "A359689",
+  "mentions": [
+    "A000577",
+    "A001933"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

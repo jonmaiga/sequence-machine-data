@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = prime(composite(n)) - prime(n).",
+  "id": "A275991",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A088982"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "A(n,k) is the sum of the k-th powers of the descent set statistics for permutations of [n]; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A334622",
+  "mentions": [
+    "A000012",
+    "A000142",
+    "A007395",
+    "A011782",
+    "A052548",
+    "A060350",
+    "A060351",
+    "A291902",
+    "A291903",
+    "A334623",
+    "A335545"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

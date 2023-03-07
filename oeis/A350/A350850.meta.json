@@ -1,0 +1,22 @@
+{
+  "description": "Members of A350836 that are not in A002385.",
+  "id": "A350850",
+  "mentions": [
+    "A002385",
+    "A103168",
+    "A340592",
+    "A350836"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of (theta_2(q)^8 + 4 * theta_2(q^2)^8) / 256 in powers of q^2.",
+  "id": "A204386",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A004018",
+    "A007331",
+    "A010054",
+    "A010815",
+    "A045823",
+    "A050468",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:23",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

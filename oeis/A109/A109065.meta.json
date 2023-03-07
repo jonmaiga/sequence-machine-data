@@ -1,0 +1,24 @@
+{
+  "description": "Numerator of the fraction due in month n of the total interest for a one-year installment loan based on the Rule of 78s (each denominator is 78).",
+  "id": "A109065",
+  "mentions": [
+    "A000217",
+    "A004736",
+    "A022968"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "fini",
+    "formulas",
+    "frac",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

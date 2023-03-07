@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of a function approximation constant which is the analog of Gibbs's constant 2*G/Pi (A036793) for de la Vallée-Poussin sums.",
+  "id": "A272335",
+  "mentions": [
+    "A036792",
+    "A036793",
+    "A243267",
+    "A243268",
+    "A245535"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Squares that are divisible by both the sum of their digits and the product of their nonzero digits.",
+  "id": "A339999",
+  "mentions": [
+    "A000290",
+    "A005349",
+    "A055471",
+    "A118547",
+    "A342262",
+    "A342650"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

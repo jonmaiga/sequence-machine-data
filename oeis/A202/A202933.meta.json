@@ -1,0 +1,18 @@
+{
+  "description": "Number of (n+3) X 5 binary arrays with consecutive windows of four bits considered as a binary number nondecreasing in every row and column.",
+  "id": "A202933",
+  "mentions": [
+    "A202939"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:36:41",
+    "offset": 1,
+    "size": 27,
+    "source": "joeis"
+  }
+}

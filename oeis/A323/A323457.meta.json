@@ -1,0 +1,19 @@
+{
+  "description": "Largest cardinality of any set that is \"special above n\".",
+  "id": "A323457",
+  "mentions": [
+    "A014221",
+    "A191550"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

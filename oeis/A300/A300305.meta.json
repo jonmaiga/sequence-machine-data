@@ -1,0 +1,22 @@
+{
+  "description": "Expected rounded number of draws until two persons simultaneously drawing cards with replacement from two decks of cards with m and n cards, respectively, both obtain complete collections, written as triangle T(m,n), 1 <= n <= m.",
+  "id": "A300305",
+  "mentions": [
+    "A073593",
+    "A090582",
+    "A135736",
+    "A300306"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

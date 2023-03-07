@@ -1,0 +1,19 @@
+{
+  "description": "Symmetric square array, read by antidiagonals, such that the inverse binomial transform of row n forms the sequence: {C(n,k)*A101514(k), 0<=k<=n}, where A101514 equals the main diagonal shift right.",
+  "id": "A101515",
+  "mentions": [
+    "A101514",
+    "A101516"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

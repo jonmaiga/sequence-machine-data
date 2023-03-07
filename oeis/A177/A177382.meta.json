@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f.: Sum_{n>=0} Product_{k=1..n} tan(k*x).",
+  "id": "A177382",
+  "mentions": [
+    "A000182",
+    "A006752",
+    "A335618"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = binomial(5*n+3,n)/(n+1).",
+  "id": "A118971",
+  "mentions": [
+    "A006632",
+    "A118968",
+    "A130564",
+    "A130565",
+    "A234466"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of Hamiltonian paths in a 9 X n grid starting at the lower left corner and finishing in the upper right corner.",
+  "id": "A333584",
+  "mentions": [
+    "A014584",
+    "A333580"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:04",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

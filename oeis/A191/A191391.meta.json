@@ -1,0 +1,19 @@
+{
+  "description": "Number of horizontal segments in all dispersed Dyck paths of length n (i.e., in all Motzkin paths of length n with no (1,0)-steps at positive heights; a horizontal segment is a maximal sequence of consecutive (1,0)-steps).",
+  "id": "A191391",
+  "mentions": [
+    "A045621",
+    "A191390"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

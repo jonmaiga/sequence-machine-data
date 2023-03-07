@@ -1,0 +1,21 @@
+{
+  "description": "a(n) begins the first run of exactly n consecutive binary Smith numbers (A278909).",
+  "id": "A331465",
+  "mentions": [
+    "A278909",
+    "A329942",
+    "A331464"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Values of n such that 4^n ends in n, or expomorphic numbers in base 4.",
+  "id": "A288845",
+  "mentions": [
+    "A003226",
+    "A033819",
+    "A064541",
+    "A133614",
+    "A183613"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

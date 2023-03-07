@@ -1,0 +1,25 @@
+{
+  "description": "Perimeters in increasing order of integer-sided triangles whose sides a < b < c are in arithmetic progression.",
+  "id": "A336754",
+  "mentions": [
+    "A004526",
+    "A024164",
+    "A307136",
+    "A335897",
+    "A336750",
+    "A336751",
+    "A336753",
+    "A336755"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

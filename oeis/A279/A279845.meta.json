@@ -1,0 +1,28 @@
+{
+  "description": "E.g.f. satisfies: A(x - Integral 2*A(x) dx) = x - Integral A(x) dx.",
+  "id": "A279845",
+  "mentions": [
+    "A210949",
+    "A277403",
+    "A277410",
+    "A279843",
+    "A279844",
+    "A280570",
+    "A280571",
+    "A280572",
+    "A280573",
+    "A280574",
+    "A280575"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

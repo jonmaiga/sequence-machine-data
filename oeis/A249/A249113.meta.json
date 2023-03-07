@@ -1,0 +1,21 @@
+{
+  "description": "Take n and successively add 1, 2, ..., a(n) until reaching a prime for the third time.",
+  "id": "A249113",
+  "mentions": [
+    "A000217",
+    "A085415",
+    "A249112"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

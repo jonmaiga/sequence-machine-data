@@ -1,0 +1,24 @@
+{
+  "description": "Array, read by antidiagonals, numbers with an odd number of 1's in base k expansion.",
+  "id": "A136081",
+  "mentions": [
+    "A000069",
+    "A005408",
+    "A137469",
+    "A138103"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

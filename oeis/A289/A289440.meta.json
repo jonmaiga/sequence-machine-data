@@ -1,0 +1,18 @@
+{
+  "description": "The arithmetic function v_3(n,5).",
+  "id": "A289440",
+  "mentions": [
+    "A289439",
+    "A289441"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:20:27",
+    "offset": 2,
+    "size": 69,
+    "source": "joeis"
+  }
+}

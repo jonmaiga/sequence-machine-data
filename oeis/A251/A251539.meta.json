@@ -1,0 +1,21 @@
+{
+  "description": "First differences of A251538.",
+  "id": "A251539",
+  "mentions": [
+    "A098548",
+    "A251535",
+    "A251538",
+    "A251767",
+    "A251768"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:09",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

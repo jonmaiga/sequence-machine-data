@@ -1,0 +1,20 @@
+{
+  "description": "Triangle of coefficients T(n, k) (n > 0, k < n) in expansion of sin(u*x) * sin(v*x) / (cos(u*x) + cos(v*x)), read by rows.",
+  "id": "A224873",
+  "mentions": [
+    "A024235",
+    "A110501"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

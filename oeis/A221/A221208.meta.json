@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of the Borwein integral with 8 sinc functions.",
+  "id": "A221208",
+  "mentions": [
+    "A000796",
+    "A019669",
+    "A068214",
+    "A068215",
+    "A091473",
+    "A144616"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

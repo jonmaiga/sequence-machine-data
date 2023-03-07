@@ -1,0 +1,33 @@
+{
+  "description": "Number T(n,k) of compositions of n into distinct parts with exactly k descents; triangle T(n,k), n>=0, 0<=k<=max(floor((sqrt(1+8*n)-3)/2),0), read by rows.",
+  "id": "A241719",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A000217",
+    "A032020",
+    "A052146",
+    "A241720",
+    "A241721",
+    "A241722",
+    "A241723",
+    "A241724",
+    "A241725",
+    "A241726",
+    "A241727",
+    "A241728",
+    "A241729"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

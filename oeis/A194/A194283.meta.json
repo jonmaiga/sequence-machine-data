@@ -1,0 +1,24 @@
+{
+  "description": "Numbers n such that at stage n of A194270 appears for first time a new distinct polygonal shape in the structure.",
+  "id": "A194283",
+  "mentions": [
+    "A194270",
+    "A194276",
+    "A194277",
+    "A194278",
+    "A194440",
+    "A194442"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

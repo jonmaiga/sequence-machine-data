@@ -1,0 +1,23 @@
+{
+  "description": "The number of biconnected squaregraphs with n vertices.",
+  "id": "A194092",
+  "mentions": [
+    "A194088",
+    "A194089",
+    "A194090",
+    "A194091",
+    "A194093"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

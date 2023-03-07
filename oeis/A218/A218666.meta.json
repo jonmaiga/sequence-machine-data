@@ -1,0 +1,19 @@
+{
+  "description": "Triangular array read by rows: T(n,k) is the number of unlabeled rooted trees with n nodes in which the largest subtree (of the root) has exactly k nodes; n>=2, 1<=k<=n-1.",
+  "id": "A218666",
+  "mentions": [
+    "A000081"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:36",
+    "offset": 2,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

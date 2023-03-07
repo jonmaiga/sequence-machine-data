@@ -1,0 +1,19 @@
+{
+  "description": "Number of lunar divisors (in base 10) of the n-th number whose decimal expansion contains only 0's and 1's and begins and ends with a 1 (A099821(n)).",
+  "id": "A186943",
+  "mentions": [
+    "A087029",
+    "A099821"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:11",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

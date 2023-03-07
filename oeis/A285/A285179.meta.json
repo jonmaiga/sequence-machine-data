@@ -1,0 +1,20 @@
+{
+  "description": "Number of disjoint non-ordered pairs of n^2 X n^2 S-permutation matrices.",
+  "id": "A285179",
+  "mentions": [
+    "A107739",
+    "A285178",
+    "A285180"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

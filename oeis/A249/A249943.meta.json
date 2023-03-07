@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = smallest k such that the numbers 1..n appear among A098550(1), ..., A098550(k), or a(n) = 0 if there is no such k.",
+  "id": "A249943",
+  "mentions": [
+    "A098550",
+    "A098551",
+    "A251620",
+    "A251621"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

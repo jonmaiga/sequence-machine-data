@@ -1,0 +1,21 @@
+{
+  "description": "Triangular numbers t(n) with a zeroless decimal representation such that (product of decimal digits of t(n)) / n is an integer.",
+  "id": "A307812",
+  "mentions": [
+    "A000217",
+    "A007954",
+    "A052382",
+    "A307792"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

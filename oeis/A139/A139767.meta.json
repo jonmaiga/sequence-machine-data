@@ -1,0 +1,19 @@
+{
+  "description": "Let e = 2n+1; consider the cyclotomic cosets C_i of 2 mod e; a(n) = maximal value of minimal number of copies of C_1 needed to add together to get any coset C_i.",
+  "id": "A139767",
+  "mentions": [
+    "A001122",
+    "A006694",
+    "A140364"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:27",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

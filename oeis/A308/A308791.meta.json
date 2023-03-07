@@ -1,0 +1,25 @@
+{
+  "description": "Primes p such that A001175(p) = (p-1)/6.",
+  "id": "A308791",
+  "mentions": [
+    "A001175",
+    "A003147",
+    "A308787",
+    "A308788",
+    "A308789",
+    "A308790",
+    "A308792",
+    "A308793",
+    "A308794"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

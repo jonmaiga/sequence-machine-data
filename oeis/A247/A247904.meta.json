@@ -1,0 +1,27 @@
+{
+  "description": "Start with a single pentagon; at n-th generation add a pentagon at each expandable vertex (this is the \"vertex to side\" version); a(n) is the sum of all label values at n-th generation. (See comment for construction rules.)",
+  "id": "A247904",
+  "mentions": [
+    "A000225",
+    "A005891",
+    "A061777",
+    "A101946",
+    "A247618",
+    "A247619",
+    "A247620",
+    "A247903",
+    "A247905"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

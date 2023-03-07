@@ -1,0 +1,26 @@
+{
+  "description": "Determinant of a Hankel matrix with factorial elements.",
+  "id": "A108078",
+  "mentions": [
+    "A000178",
+    "A002514",
+    "A024356",
+    "A056886",
+    "A056887",
+    "A059332",
+    "A074962",
+    "A293707"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Positive numbers all of whose divisors are negabinary palindromes (A331891).",
+  "id": "A331896",
+  "mentions": [
+    "A039724",
+    "A062687",
+    "A329419",
+    "A331891"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

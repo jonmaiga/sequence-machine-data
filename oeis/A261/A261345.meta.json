@@ -1,0 +1,21 @@
+{
+  "description": "Number of distinct prime divisors among the numbers k^2 + 1 for k in 1 <= k <= n.",
+  "id": "A261345",
+  "mentions": [
+    "A002144",
+    "A002496",
+    "A002522",
+    "A005528",
+    "A089122"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

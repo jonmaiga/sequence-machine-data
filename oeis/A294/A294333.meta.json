@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of n into cubes dividing n.",
+  "id": "A294333",
+  "mentions": [
+    "A003108",
+    "A004709",
+    "A018818",
+    "A030078",
+    "A061704",
+    "A284345"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

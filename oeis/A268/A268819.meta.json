@@ -1,0 +1,25 @@
+{
+  "description": "Column 32769 of array A269158: a(n) = F(n,65537), function F as defined in A269158.",
+  "id": "A268819",
+  "mentions": [
+    "A010873",
+    "A052928",
+    "A165471",
+    "A165472",
+    "A268728",
+    "A269157",
+    "A269158"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

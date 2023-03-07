@@ -1,0 +1,21 @@
+{
+  "description": "Prime sieve of Pi.",
+  "id": "A245770",
+  "mentions": [
+    "A000796",
+    "A246022",
+    "A248804",
+    "A248831"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

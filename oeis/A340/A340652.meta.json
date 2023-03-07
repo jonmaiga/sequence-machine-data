@@ -1,0 +1,41 @@
+{
+  "description": "Number of non-isomorphic twice-balanced multiset partitions of weight n.",
+  "id": "A340652",
+  "mentions": [
+    "A001055",
+    "A001221",
+    "A001222",
+    "A007716",
+    "A007717",
+    "A007718",
+    "A047993",
+    "A106529",
+    "A303975",
+    "A316980",
+    "A316983",
+    "A319616",
+    "A320663",
+    "A339888",
+    "A340596",
+    "A340597",
+    "A340599",
+    "A340600",
+    "A340651",
+    "A340653",
+    "A340654",
+    "A340655",
+    "A340656",
+    "A340657"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

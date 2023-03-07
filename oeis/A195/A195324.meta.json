@@ -1,0 +1,18 @@
+{
+  "description": "Even numbers that cannot be represented as the sum of an odd prime and a safe prime (A005385).",
+  "id": "A195324",
+  "mentions": [
+    "A000040",
+    "A005385"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

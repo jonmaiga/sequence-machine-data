@@ -1,0 +1,18 @@
+{
+  "description": "Least k such that the product of the first n primes of the form m^2+1 (A002496) divides k^2+1.",
+  "id": "A260576",
+  "mentions": [
+    "A002496",
+    "A005574"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=2. a(n) = the smallest positive multiple of a(n-1) that is > a(n-1) and has the same number of 0's as 1's in its binary representation.",
+  "id": "A143147",
+  "mentions": [
+    "A031443",
+    "A143146"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

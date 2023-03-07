@@ -1,0 +1,23 @@
+{
+  "description": "Number of vertices in an equilateral triangle when n internal equilateral triangles are drawn between the 3n points that divide each side into n+1 equal parts.",
+  "id": "A357007",
+  "mentions": [
+    "A091908",
+    "A092866",
+    "A333026",
+    "A344657",
+    "A356984",
+    "A357008"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

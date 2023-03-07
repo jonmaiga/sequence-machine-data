@@ -1,0 +1,25 @@
+{
+  "description": "Number of partitions of n into squares dividing n.",
+  "id": "A284345",
+  "mentions": [
+    "A000290",
+    "A001156",
+    "A018818",
+    "A046951",
+    "A066882",
+    "A161148",
+    "A225244",
+    "A284289"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

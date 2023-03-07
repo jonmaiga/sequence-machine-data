@@ -1,0 +1,29 @@
+{
+  "description": "Characteristic function of the prime numbers mod 9 over the set {2,4,8,1,5,7}.",
+  "id": "A246500",
+  "mentions": [
+    "A000040",
+    "A038194",
+    "A061237",
+    "A061238",
+    "A061239",
+    "A061240",
+    "A061241",
+    "A061242",
+    "A075743",
+    "A153110",
+    "A156706"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 1,
+    "size": 136,
+    "source": "oeis-bfile"
+  }
+}

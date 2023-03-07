@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of constant x such that the continued fraction expansion of 2*x (A109170) yields the continued fraction expansion of x (A109168) interleaved with positive even numbers.",
+  "id": "A109169",
+  "mentions": [
+    "A109168",
+    "A109170",
+    "A109171"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

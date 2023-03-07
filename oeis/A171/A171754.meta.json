@@ -1,0 +1,18 @@
+{
+  "description": "Hyperbolic sine of the prime numbers, rounded to the nearest integer.",
+  "id": "A171754",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

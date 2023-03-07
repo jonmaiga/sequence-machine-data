@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = n^n * Product_{p|n, p prime} (1 + 1/p^n).",
+  "id": "A320974",
+  "mentions": [
+    "A001615",
+    "A008683",
+    "A065958",
+    "A065959",
+    "A065960",
+    "A067858",
+    "A320973"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

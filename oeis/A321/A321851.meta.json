@@ -1,0 +1,22 @@
+{
+  "description": "Number of solutions to |dft(a)^2 + dft(b)^2 + dft(d)^2| + |dft(c)^2| = 4n, where a,b,c,d are +1,-1 sequences of length n and dft(x) denotes the discrete Fourier transform of x.",
+  "id": "A321851",
+  "mentions": [
+    "A020985",
+    "A185064",
+    "A258218",
+    "A319594",
+    "A321338"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

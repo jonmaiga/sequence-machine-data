@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 2^(prime(n)-1) mod prime(n)^2.",
+  "id": "A196202",
+  "mentions": [
+    "A000040",
+    "A001220",
+    "A001917",
+    "A049084",
+    "A061286"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

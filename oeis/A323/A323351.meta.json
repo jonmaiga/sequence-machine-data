@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways to fill a (not necessarily square) matrix with n zeros and ones.",
+  "id": "A323351",
+  "mentions": [
+    "A000005",
+    "A049311",
+    "A120733",
+    "A323295",
+    "A323300"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

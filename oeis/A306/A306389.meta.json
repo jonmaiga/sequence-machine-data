@@ -1,0 +1,23 @@
+{
+  "description": "Partial sums of (k-th digit of decimal expansion of Pi multiplied by (-1)^k).",
+  "id": "A306389",
+  "mentions": [
+    "A000796",
+    "A046974",
+    "A099816",
+    "A099817"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

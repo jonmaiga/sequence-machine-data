@@ -1,0 +1,17 @@
+{
+  "description": "Smallest prime of the form n*k + 1, where each k may be used in the sequence only once.",
+  "id": "A111296",
+  "mentions": [
+    "A087559"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

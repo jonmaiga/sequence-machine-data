@@ -1,0 +1,18 @@
+{
+  "description": "Number of parts that are larger than the number of 1's in the partition having Heinz number n.",
+  "id": "A257988",
+  "mentions": [
+    "A215366",
+    "A257989"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

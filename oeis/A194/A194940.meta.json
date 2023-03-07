@@ -1,0 +1,22 @@
+{
+  "description": "The Square Peg in the Round Hole constant.",
+  "id": "A194940",
+  "mentions": [
+    "A000796",
+    "A019704",
+    "A127454"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "changed",
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 0,
+    "size": 111,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Median of 2^X + 2^Y where X and Y are independent random variables with B(n,1/2) distributions.",
+  "id": "A288346",
+  "mentions": [
+    "A288347",
+    "A288416"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:01",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

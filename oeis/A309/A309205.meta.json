@@ -1,0 +1,19 @@
+{
+  "description": "Denominators of coefficients of odd powers of x in expansion of f(x) = x cos (x cos (x cos( ... .",
+  "id": "A309205",
+  "mentions": [
+    "A309204",
+    "A309206"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Positive integers n such that the sum of the Pell numbers A000129(0) + ... + A000129(n-1) is divisible by n.",
+  "id": "A270342",
+  "mentions": [
+    "A000040",
+    "A000129",
+    "A048739"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:33",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

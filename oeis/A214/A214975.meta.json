@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k for which A116543(k) < A007895(k); i.e., the Lucas representation of k is shorter than the Zeckendorf representation.",
+  "id": "A214975",
+  "mentions": [
+    "A007895",
+    "A116543",
+    "A214974",
+    "A214976"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

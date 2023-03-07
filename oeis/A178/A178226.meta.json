@@ -1,0 +1,26 @@
+{
+  "description": "Characteristic function of A154809 (numbers that are not binary palindromes)",
+  "id": "A178226",
+  "mentions": [
+    "A030101",
+    "A057891",
+    "A086757",
+    "A154809",
+    "A178225",
+    "A280505",
+    "A280506"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

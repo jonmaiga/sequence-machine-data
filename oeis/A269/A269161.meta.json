@@ -1,0 +1,25 @@
+{
+  "description": "Formula for Wolfram's Rule 86 cellular automaton: a(n) = 4n XOR (2n OR n).",
+  "id": "A269161",
+  "mentions": [
+    "A003714",
+    "A003986",
+    "A003987",
+    "A048727",
+    "A057889",
+    "A163617",
+    "A265281",
+    "A269160"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:31",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

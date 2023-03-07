@@ -1,0 +1,23 @@
+{
+  "description": "Square array A(n,k): A(0, n) = n; A(k, n) = A(k-1, floor(n*(k+1)/k)), for k >= 1, read by descending antidiagonals as A(0,0), A(0,1), A(1,0), A(0,2), A(1,1), A(2,0), ...",
+  "id": "A278482",
+  "mentions": [
+    "A002262",
+    "A025581",
+    "A278483",
+    "A278484",
+    "A278492"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

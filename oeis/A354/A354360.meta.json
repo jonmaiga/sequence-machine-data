@@ -1,0 +1,18 @@
+{
+  "description": "Positions of 1's in A354366.",
+  "id": "A354360",
+  "mentions": [
+    "A354365",
+    "A354366"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

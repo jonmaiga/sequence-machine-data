@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k that are a substring of xPy where k=concatenation(x,y) and xPy is the number of permutations A008279(x,y).",
+  "id": "A359012",
+  "mentions": [
+    "A008279"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

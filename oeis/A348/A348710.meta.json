@@ -1,0 +1,25 @@
+{
+  "description": "In the binary expansion of n, decrease the length of each run of 1-bits by one.",
+  "id": "A348710",
+  "mentions": [
+    "A003714",
+    "A007088",
+    "A090077",
+    "A106151",
+    "A175048",
+    "A213540",
+    "A318921"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

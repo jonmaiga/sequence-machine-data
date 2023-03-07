@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest composite k such that Sum_{composites j = 4, ..., k} 1/j exceeds n/2.",
+  "id": "A331930",
+  "mentions": [
+    "A016088",
+    "A019774",
+    "A076751",
+    "A103592"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

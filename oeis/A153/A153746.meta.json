@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that there are 8 digits in k^2 and for each factor f of 8 (1,2,4) the sum of digit groupings of size f is a square.",
+  "id": "A153746",
+  "mentions": [
+    "A061910",
+    "A153745"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

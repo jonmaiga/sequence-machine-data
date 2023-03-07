@@ -1,0 +1,19 @@
+{
+  "description": "Indices of primes in sequence A000586.",
+  "id": "A319267",
+  "mentions": [
+    "A000586",
+    "A319264",
+    "A319266"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

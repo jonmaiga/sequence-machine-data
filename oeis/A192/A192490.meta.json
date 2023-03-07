@@ -1,0 +1,19 @@
+{
+  "description": "Characteristic function of ludic numbers (A003309).",
+  "id": "A192490",
+  "mentions": [
+    "A003309",
+    "A192512",
+    "A192607"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

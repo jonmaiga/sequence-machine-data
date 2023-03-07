@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. Sum_{k>=1} prime(k)*log(1 + x)^k/k!.",
+  "id": "A307772",
+  "mentions": [
+    "A000040",
+    "A085507",
+    "A307771",
+    "A307773"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Cubes c(n) such that cube(n)-square(n)-1 and cube(n)+square(n)+1 are primes.",
+  "id": "A155930",
+  "mentions": [
+    "A155929"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

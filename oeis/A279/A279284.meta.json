@@ -1,0 +1,21 @@
+{
+  "description": "Self-composition of the pentagonal numbers; g.f.: A(x) = G(G(x)), where G(x) = g.f. of A000326.",
+  "id": "A279284",
+  "mentions": [
+    "A000326",
+    "A030279",
+    "A030280"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:23:27",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

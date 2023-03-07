@@ -1,0 +1,19 @@
+{
+  "description": "Integers k that have the property that there exists an integer x with n+1 digits, such that 1 <= k/x < 2 and k/x = 1 + (x-10^n)/(10^n-1), i.e., the same digits appear in the denominator and in the recurring decimal.",
+  "id": "A288782",
+  "mentions": [
+    "A285273",
+    "A288781"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:02",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

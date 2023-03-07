@@ -1,0 +1,21 @@
+{
+  "description": "Product of the nonzero elements of the n-th row of A166139.",
+  "id": "A166140",
+  "mentions": [
+    "A007947",
+    "A014963",
+    "A080305",
+    "A126988",
+    "A166139"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

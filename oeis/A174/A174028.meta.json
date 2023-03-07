@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n,k) = 2+4k read by rows.",
+  "id": "A174028",
+  "mentions": [
+    "A001105",
+    "A016825",
+    "A158405",
+    "A167268"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that sum of digits of n^2 is 7.",
+  "id": "A262711",
+  "mentions": [
+    "A004159",
+    "A052216",
+    "A061910",
+    "A156638",
+    "A262712",
+    "A262713"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

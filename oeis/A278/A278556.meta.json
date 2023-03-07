@@ -1,0 +1,28 @@
+{
+  "description": "Expansion of Product_{n>=1} (1 - x^(5*n))^18/(1 - x^n)^19 in powers of x.",
+  "id": "A278556",
+  "mentions": [
+    "A071734",
+    "A160460",
+    "A160461",
+    "A160462",
+    "A160463",
+    "A160506",
+    "A160521",
+    "A278555",
+    "A278557",
+    "A278558",
+    "A278559"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

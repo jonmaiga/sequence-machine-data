@@ -1,0 +1,22 @@
+{
+  "description": "G.f.: 1 / Product_{n>=0} (1 - x^(n+6))^((n+1)*(n+2)*(n+3)*(n+4)*(n+5)/5!).",
+  "id": "A264926",
+  "mentions": [
+    "A000417",
+    "A052847",
+    "A264923",
+    "A264924",
+    "A264925"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

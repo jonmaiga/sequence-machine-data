@@ -1,0 +1,21 @@
+{
+  "description": "Number of rectangles with semiprime area and dimensions p,q where n = p+q and p <= q.",
+  "id": "A303336",
+  "mentions": [
+    "A001222",
+    "A303115",
+    "A303337"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

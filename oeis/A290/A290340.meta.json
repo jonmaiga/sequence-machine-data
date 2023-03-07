@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that each of the four consecutive integers n, n+1, n+2, n+3 have squarefree rank 1.",
+  "id": "A290340",
+  "mentions": [
+    "A162642",
+    "A228056",
+    "A229125",
+    "A277225"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

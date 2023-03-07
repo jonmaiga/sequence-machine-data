@@ -1,0 +1,20 @@
+{
+  "description": "Perfect powers n with no primes between n and the next smaller perfect power, which is in A116086.",
+  "id": "A116455",
+  "mentions": [
+    "A001597",
+    "A068435",
+    "A116086"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

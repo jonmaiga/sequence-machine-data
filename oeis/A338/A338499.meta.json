@@ -1,0 +1,18 @@
+{
+  "description": "Fixed points of A335615.",
+  "id": "A338499",
+  "mentions": [
+    "A335615"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

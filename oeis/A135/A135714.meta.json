@@ -1,0 +1,19 @@
+{
+  "description": "Number of primes of the form p(n)#/p(k) - 1, where 1 <= k <= n.",
+  "id": "A135714",
+  "mentions": [
+    "A002110",
+    "A135715",
+    "A135716"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

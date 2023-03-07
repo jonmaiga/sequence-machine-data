@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that are a product of distinct numbers in row 2 of the Wythoff array, A035513.",
+  "id": "A274286",
+  "mentions": [
+    "A035513",
+    "A160009",
+    "A274280"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of decay rate for random parking and halving.",
+  "id": "A276515",
+  "mentions": [
+    "A050996"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 129,
+    "source": "oeis-entry"
+  }
+}

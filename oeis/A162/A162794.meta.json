@@ -1,0 +1,25 @@
+{
+  "description": "Number of toothpicks added to the toothpick structure A139250 at the n-th even round.",
+  "id": "A162794",
+  "mentions": [
+    "A000695",
+    "A139250",
+    "A139251",
+    "A159791",
+    "A159792",
+    "A162793",
+    "A162795",
+    "A162796",
+    "A162797"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

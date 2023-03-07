@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 1 if n > 1 and n is a power of a Pythagorean prime (prime of the form 4m+1), otherwise 0.",
+  "id": "A354031",
+  "mentions": [
+    "A002144",
+    "A024362",
+    "A120960",
+    "A174275",
+    "A354030",
+    "A354033"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 1,
+    "size": 125,
+    "source": "oeis-bfile"
+  }
+}

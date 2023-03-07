@@ -1,0 +1,35 @@
+{
+  "description": "Toothpick sequence from a diagram of compositions of the positive integers (see Comments lines for definition).",
+  "id": "A228370",
+  "mentions": [
+    "A001511",
+    "A005187",
+    "A006519",
+    "A006520",
+    "A011782",
+    "A139250",
+    "A187816",
+    "A187818",
+    "A206437",
+    "A225600",
+    "A228350",
+    "A228351",
+    "A228366",
+    "A228367",
+    "A228368",
+    "A228371",
+    "A228525",
+    "A228526"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:23",
+    "offset": 0,
+    "size": 65,
+    "source": "joeis"
+  }
+}

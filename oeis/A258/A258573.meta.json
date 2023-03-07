@@ -1,0 +1,18 @@
+{
+  "description": "Number of primes between A002110(n) - A007504(n) and A002110(n) + A007504(n) exclusive where A002110(n) is the primorial numbers and A007504(n) is the sum of first n primes.",
+  "id": "A258573",
+  "mentions": [
+    "A002110",
+    "A007504"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

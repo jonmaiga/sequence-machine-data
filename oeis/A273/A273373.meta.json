@@ -1,0 +1,30 @@
+{
+  "description": "Squares ending in digit 6.",
+  "id": "A273373",
+  "mentions": [
+    "A000290",
+    "A017270",
+    "A017330",
+    "A017341",
+    "A017343",
+    "A047221",
+    "A090773",
+    "A273372",
+    "A273374",
+    "A273375"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Least m such that the first n digits (after the decimal point) of e and Sum_{k=0..m} 1/k! are the same.",
+  "id": "A347932",
+  "mentions": [
+    "A001113"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

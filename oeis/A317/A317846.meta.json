@@ -1,0 +1,23 @@
+{
+  "description": "Numerators of rational valued sequence whose Dirichlet convolution with itself yields sequence A051953 (cototient of n) + A063524 (1, 0, 0, 0, ...).",
+  "id": "A317846",
+  "mentions": [
+    "A046644",
+    "A051953",
+    "A063524",
+    "A317845",
+    "A317925"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:37",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

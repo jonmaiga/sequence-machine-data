@@ -1,0 +1,21 @@
+{
+  "description": "Number T(n,k) of standard Young tableaux with n cells where k is the largest value in the last row; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A238727",
+  "mentions": [
+    "A000085",
+    "A051920",
+    "A238728",
+    "A246818"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

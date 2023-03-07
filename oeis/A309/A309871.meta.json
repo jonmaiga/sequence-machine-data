@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n for which 18n+1, 18n+5, 18n+7, 18n+11, 18n+13 and 18n+17 are primes.",
+  "id": "A309871",
+  "mentions": [
+    "A007811",
+    "A056956",
+    "A123985",
+    "A123986"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

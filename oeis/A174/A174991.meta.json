@@ -1,0 +1,21 @@
+{
+  "description": "A005606 applied to itself.",
+  "id": "A174991",
+  "mentions": [
+    "A005606",
+    "A114332"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:57:59",
+    "offset": 0,
+    "size": 71,
+    "source": "joeis"
+  }
+}

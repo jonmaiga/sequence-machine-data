@@ -1,0 +1,22 @@
+{
+  "description": "Values of n for which pi_{3,2}(p_n) - pi_{3,1}(p_n) = -1, where p_n is the n-th prime and pi_{m,a}(x) is the number of primes <= x which are congruent to a (mod m).",
+  "id": "A297005",
+  "mentions": [
+    "A007352",
+    "A096449",
+    "A096629",
+    "A096630",
+    "A098044",
+    "A297006"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:17",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

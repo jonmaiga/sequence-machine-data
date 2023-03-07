@@ -1,0 +1,18 @@
+{
+  "description": "Concatenation of the first n powerful numbers A001694.",
+  "id": "A162965",
+  "mentions": [
+    "A001694"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 14,
+    "source": "joeis"
+  }
+}

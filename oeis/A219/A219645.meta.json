@@ -1,0 +1,23 @@
+{
+  "description": "Greatest inverse of A219642; a(n) = maximal i such that A219642(i) = n.",
+  "id": "A219645",
+  "mentions": [
+    "A014417",
+    "A173601",
+    "A219642",
+    "A219643",
+    "A219644",
+    "A219655"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

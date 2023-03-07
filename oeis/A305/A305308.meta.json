@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of Lagrange(4) = sqrt(1517)/13.",
+  "id": "A305308",
+  "mentions": [
+    "A001622",
+    "A002163",
+    "A002193",
+    "A002559",
+    "A010466",
+    "A177841",
+    "A200991"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:14:33",
+    "offset": 1,
+    "size": 103,
+    "source": "joeis"
+  }
+}

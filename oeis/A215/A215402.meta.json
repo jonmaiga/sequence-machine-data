@@ -1,0 +1,28 @@
+{
+  "description": "Number of rooted maps of (orientable) genus 4 containing n edges.",
+  "id": "A215402",
+  "mentions": [
+    "A000168",
+    "A005159",
+    "A006300",
+    "A006301",
+    "A104742",
+    "A215019",
+    "A238355",
+    "A238356",
+    "A238357",
+    "A238358",
+    "A238359",
+    "A238360"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:01",
+    "offset": 8,
+    "size": 16,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "First digit to appear n times in the decimal expansion of the Euler-Mascheroni constant gamma.",
+  "id": "A280811",
+  "mentions": [
+    "A001620",
+    "A096567",
+    "A195138",
+    "A195139",
+    "A195141",
+    "A195847"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

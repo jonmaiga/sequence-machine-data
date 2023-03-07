@@ -1,0 +1,18 @@
+{
+  "description": "Indices n for which A046825(n) is not larger than A046825(n-1).",
+  "id": "A214440",
+  "mentions": [
+    "A046825",
+    "A214432"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

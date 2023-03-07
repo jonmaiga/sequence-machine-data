@@ -1,0 +1,18 @@
+{
+  "description": "Greater value of a coprime pair (x,y) satisfying x^3+y^3=z^2.",
+  "id": "A282639",
+  "mentions": [
+    "A099533",
+    "A106322"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:52",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

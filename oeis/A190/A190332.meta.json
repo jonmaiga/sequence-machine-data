@@ -1,0 +1,20 @@
+{
+  "description": "n + [n*s/r] + [n*t/r]; r=1, s=sqrt(3), t=1/s.",
+  "id": "A190332",
+  "mentions": [
+    "A190329",
+    "A190333",
+    "A190334"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

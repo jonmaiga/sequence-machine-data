@@ -1,0 +1,20 @@
+{
+  "description": "Partial sums of A003459.",
+  "id": "A172059",
+  "mentions": [
+    "A003459"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

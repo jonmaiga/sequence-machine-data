@@ -1,0 +1,22 @@
+{
+  "description": "Product of A078899(x) for all x encountered when map x -> A252463(x) is iterated, starting from x = A252463(n); a(1) = 1.",
+  "id": "A319694",
+  "mentions": [
+    "A005940",
+    "A006530",
+    "A064989",
+    "A078899",
+    "A252463",
+    "A319689"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

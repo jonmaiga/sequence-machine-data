@@ -1,0 +1,19 @@
+{
+  "description": "The number of parents of successive approximations used in a greedy approach to creating a Garden of Eden in Conway's Game of Life.",
+  "id": "A196447",
+  "mentions": [
+    "A197734"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:18",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

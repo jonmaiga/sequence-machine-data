@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. A(x) satisfies: A'(x) = A(x)^2 + A(x)^4.",
+  "id": "A228608",
+  "mentions": [
+    "A112487",
+    "A124214"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

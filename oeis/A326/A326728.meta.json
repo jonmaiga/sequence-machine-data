@@ -1,0 +1,29 @@
+{
+  "description": "A(n, k) = n*(k - 1)*k/2 - k, square array for n >= 0 and k >= 0 read by ascending antidiagonals.",
+  "id": "A326728",
+  "mentions": [
+    "A001489",
+    "A008585",
+    "A014107",
+    "A016933",
+    "A017329",
+    "A067998",
+    "A080956",
+    "A095794",
+    "A139600",
+    "A270710",
+    "A326725"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of pairs of 2 X 2 matrices (X,Y) over Z/nZ such that X*Y = 0 and Y*X <> 0.",
+  "id": "A338099",
+  "mentions": [
+    "A227433"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

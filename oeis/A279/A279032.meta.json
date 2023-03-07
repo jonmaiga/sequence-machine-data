@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the greatest integer such that binomial(a(n),n)*2^(1 - binomial(n,2)) < 1.",
+  "id": "A279032",
+  "mentions": [
+    "A212954"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:46",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

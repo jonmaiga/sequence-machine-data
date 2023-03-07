@@ -1,0 +1,21 @@
+{
+  "description": "Triangle, read by rows, where T(0,0) = 1, T(n,k) = 2^n*T(n-1,k) - T(n-1,k-1).",
+  "id": "A108085",
+  "mentions": [
+    "A005329",
+    "A014236",
+    "A077957",
+    "A084938"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:58:54",
+    "offset": 0,
+    "size": 42,
+    "source": "joeis"
+  }
+}

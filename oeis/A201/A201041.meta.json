@@ -1,0 +1,18 @@
+{
+  "description": "Number of -7..7 arrays of n elements with adjacent element differences also in -7..7",
+  "id": "A201041",
+  "mentions": [
+    "A201042"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:21",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

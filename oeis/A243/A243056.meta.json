@@ -1,0 +1,29 @@
+{
+  "description": "If n is the i-th prime, p_i = A000040(i), then a(n) = i, otherwise the difference between the indices of the smallest and the largest prime dividing n: for n = p_i * ... * p_k, where p_i <= ... <= p_k, a(n) = (k-i); a(1) = 0 by convention.",
+  "id": "A243056",
+  "mentions": [
+    "A000040",
+    "A025475",
+    "A027748",
+    "A049084",
+    "A055396",
+    "A061395",
+    "A241917",
+    "A241919",
+    "A242411",
+    "A243055",
+    "A243057",
+    "A243059"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

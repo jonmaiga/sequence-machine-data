@@ -1,0 +1,21 @@
+{
+  "description": "Eigensequence of triangle A054142.",
+  "id": "A144251",
+  "mentions": [
+    "A054142",
+    "A085478",
+    "A125273",
+    "A144252"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

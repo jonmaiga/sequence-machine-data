@@ -1,0 +1,20 @@
+{
+  "description": "a(0)=0, a(1)=49, thereafter a(n) = 14*a(n-1)-a(n-2)+42.",
+  "id": "A350982",
+  "mentions": [
+    "A144929",
+    "A350979",
+    "A350980",
+    "A350981"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

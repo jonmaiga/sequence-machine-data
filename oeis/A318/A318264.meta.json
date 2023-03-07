@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of Product_{k>=1} (1 + C(k)*x^k), where C(k) is the Catalan number A000108.",
+  "id": "A318264",
+  "mentions": [
+    "A000108",
+    "A022629",
+    "A179381",
+    "A318248",
+    "A318263"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:38",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Consider the base-5 Kaprekar map x->K(x) described in A165032. Sequence gives the smallest number that belongs to a cycle of length n under repeated iteration of this map, or -1 if there is no cycle of length n",
+  "id": "A165047",
+  "mentions": [
+    "A151959",
+    "A153881",
+    "A165008",
+    "A165028",
+    "A165032",
+    "A165036",
+    "A165037",
+    "A165039",
+    "A165041",
+    "A165043",
+    "A165067",
+    "A165086",
+    "A165106",
+    "A165126"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:48",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

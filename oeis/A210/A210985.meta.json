@@ -1,0 +1,24 @@
+{
+  "description": "Number of segments needed to draw the toothpick structure of A139250 as it is after 2^n stages.",
+  "id": "A210985",
+  "mentions": [
+    "A007583",
+    "A039301",
+    "A139250",
+    "A139252",
+    "A147614",
+    "A160128"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:41:35",
+    "offset": 0,
+    "size": 9,
+    "source": "joeis"
+  }
+}

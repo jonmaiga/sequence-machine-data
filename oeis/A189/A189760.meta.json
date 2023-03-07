@@ -1,0 +1,29 @@
+{
+  "description": "Least nonnegative number whose n-th arithmetic derivative (A003415) is zero and lower derivatives are nonzero.",
+  "id": "A189760",
+  "mentions": [
+    "A003415",
+    "A048103",
+    "A098699",
+    "A099307",
+    "A256750",
+    "A327965",
+    "A327966",
+    "A327967",
+    "A327968",
+    "A327975",
+    "A327977"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

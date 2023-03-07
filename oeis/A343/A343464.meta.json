@@ -1,0 +1,18 @@
+{
+  "description": "The number of n-vertex graphs that are minimally non-Hamming-embeddable.",
+  "id": "A343464",
+  "mentions": [
+    "A343463"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

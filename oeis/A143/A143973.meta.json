@@ -1,0 +1,20 @@
+{
+  "description": "Distances between multiples of 3 in A000010.",
+  "id": "A143973",
+  "mentions": [
+    "A000010",
+    "A008585",
+    "A066498"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Zero followed by partial sums of A059100, starting at n=1.",
+  "id": "A145068",
+  "mentions": [
+    "A002522",
+    "A005563",
+    "A008865",
+    "A051925",
+    "A059100",
+    "A145066",
+    "A145067"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:53:05",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

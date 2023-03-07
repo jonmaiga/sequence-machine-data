@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n,k) = (-1)^(k+n)*A054655(n,n-k), 0<=k",
+  "id": "A177938",
+  "mentions": [
+    "A001813",
+    "A054655"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

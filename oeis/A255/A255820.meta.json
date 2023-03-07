@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the heliocentric gravitational constant in SI units.",
+  "id": "A255820",
+  "mentions": [
+    "A070058",
+    "A125125",
+    "A248569"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 21,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

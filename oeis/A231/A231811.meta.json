@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that p-1 divides n+1 for every prime divisor p of n.",
+  "id": "A231811",
+  "mentions": [
+    "A231810"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Numbers n such that sigma(n) + tau(n) + phi(n) is a prime, where sigma(n) = A000203(n), tau(n) = A000005(n) and phi(n) = A000010(n).",
+  "id": "A229265",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A000203",
+    "A009087",
+    "A023194",
+    "A038344",
+    "A055813",
+    "A062700",
+    "A064205",
+    "A115919",
+    "A141242",
+    "A229264",
+    "A229266",
+    "A229268"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of proper colorings of the 2n-gon with 2 instances of each of n colors under rotational symmetry.",
+  "id": "A284664",
+  "mentions": [
+    "A274634",
+    "A284747"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

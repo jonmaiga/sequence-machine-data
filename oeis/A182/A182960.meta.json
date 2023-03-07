@@ -1,0 +1,23 @@
+{
+  "description": "G.f.: exp( Sum_{n>=1} C(6n-1,2n-1)*x^n/n ).",
+  "id": "A182960",
+  "mentions": [
+    "A001764",
+    "A025174",
+    "A060941",
+    "A182959",
+    "A300386",
+    "A300389"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

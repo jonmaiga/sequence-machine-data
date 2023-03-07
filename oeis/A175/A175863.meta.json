@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n with property that 2^(n-1)=1(mod n) and (x-1)=2*n; where 2^(n-1)=x(mod n*n)",
+  "id": "A175863",
+  "mentions": [
+    "A128465"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

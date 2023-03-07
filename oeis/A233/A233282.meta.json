@@ -1,0 +1,22 @@
+{
+  "description": "Positions of records in partial LCM-products (A233287) of Fibonacci entry points (A001177).",
+  "id": "A233282",
+  "mentions": [
+    "A001175",
+    "A001176",
+    "A001177",
+    "A233281",
+    "A233283",
+    "A233287"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = C(n) if n is odd, else C(n) - C(n/2); C(n) are Catalan numbers.",
+  "id": "A187916",
+  "mentions": [
+    "A000108",
+    "A000912"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

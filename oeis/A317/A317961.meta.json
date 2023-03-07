@@ -1,0 +1,18 @@
+{
+  "description": "Trajectory of 10 under the morphism f: X -> XYX, where Y=1 if X contains an odd number of 1's, otherwise Y = 0.",
+  "id": "A317961",
+  "mentions": [
+    "A317959",
+    "A317960"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

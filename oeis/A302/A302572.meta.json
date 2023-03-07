@@ -1,0 +1,20 @@
+{
+  "description": "Unitary barely deficient numbers: unitary deficient numbers k such that usigma(k)/k > usigma(m)/m for all unitary deficient numbers m < k, where usigma(k) is the sum of the unitary divisors of k (A034448).",
+  "id": "A302572",
+  "mentions": [
+    "A034448",
+    "A071927",
+    "A302570"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

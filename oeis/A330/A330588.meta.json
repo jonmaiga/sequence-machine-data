@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the first index m such that A330439(m) = n.",
+  "id": "A330588",
+  "mentions": [
+    "A316774",
+    "A330439",
+    "A330587"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

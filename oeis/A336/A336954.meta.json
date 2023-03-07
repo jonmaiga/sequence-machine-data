@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive terms such that, in the concatenation of the decimal representations of the terms, for any digit d at position p, d appears at some position q such that abs(p-q) = d.",
+  "id": "A336954",
+  "mentions": [
+    "A322467",
+    "A336880"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

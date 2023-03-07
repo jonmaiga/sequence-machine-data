@@ -1,0 +1,21 @@
+{
+  "description": "E_8 numbers: a(n) = 2^(2*n) * 3^(3*n) * 5^n * 839^n. (Constants are prime numbers).",
+  "id": "A134888",
+  "mentions": [
+    "A064730",
+    "A134950",
+    "A134960",
+    "A135639"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:22",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

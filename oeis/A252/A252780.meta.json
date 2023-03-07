@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways of n-coloring the square grid graph G_(4,4) such that no rectangle exists with sides parallel to the axes having all 4 corners of the same color.",
+  "id": "A252780",
+  "mentions": [
+    "A200045",
+    "A252778",
+    "A252779",
+    "A252839"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:42:29",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

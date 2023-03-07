@@ -1,0 +1,21 @@
+{
+  "description": "Sequence needed for the nonpositive powers of rho(11) = 2*cos(Pi/11) in terms of the power basis of the degree 5 number field Q(rho(11)). Coefficients of the first power.",
+  "id": "A230080",
+  "mentions": [
+    "A038342",
+    "A069006",
+    "A230081"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:46:12",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Renewal array for aerated central binomial coefficients.",
+  "id": "A111959",
+  "mentions": [
+    "A026671",
+    "A038231",
+    "A046521",
+    "A054335",
+    "A098615",
+    "A111960"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:44",
+    "offset": 0,
+    "size": 82,
+    "source": "joeis"
+  }
+}

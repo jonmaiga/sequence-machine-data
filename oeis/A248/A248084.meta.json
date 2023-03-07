@@ -1,0 +1,18 @@
+{
+  "description": "Subsequence of lesser of 3 terms of A095301 that are 2 apart.",
+  "id": "A248084",
+  "mentions": [
+    "A095301",
+    "A248083"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

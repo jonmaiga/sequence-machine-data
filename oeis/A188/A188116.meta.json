@@ -1,0 +1,18 @@
+{
+  "description": "Number of strictly increasing arrangements of n nonzero numbers in -(n+1)..(n+1) with sum zero",
+  "id": "A188116",
+  "mentions": [
+    "A188114",
+    "A188122"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:12",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

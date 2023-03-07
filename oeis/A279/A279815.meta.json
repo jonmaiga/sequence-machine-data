@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that the average of the squares of the numbers less than n that do not divide n is an integer.",
+  "id": "A279815",
+  "mentions": [
+    "A020486",
+    "A049820",
+    "A140826",
+    "A276984"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:47",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k and k^6 have no digits in common.",
+  "id": "A281148",
+  "mentions": [
+    "A001014",
+    "A281678"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

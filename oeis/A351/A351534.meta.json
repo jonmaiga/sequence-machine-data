@@ -1,0 +1,22 @@
+{
+  "description": "Odd numbers for which sigma(k) is congruent to 2 modulo 4 and the 3-adic valuation of k is one larger than the 3-adic valuation of sigma(k).",
+  "id": "A351534",
+  "mentions": [
+    "A000203",
+    "A007949",
+    "A008585",
+    "A191218",
+    "A351533",
+    "A351536"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

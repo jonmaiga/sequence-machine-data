@@ -1,0 +1,25 @@
+{
+  "description": "a(1) = 2; thereafter a(n) = a(n-1) + (-1)^(n + 1)*(prime(n) - prime(n - 1) - 1) (where prime(k) denotes the k-th prime).",
+  "id": "A330545",
+  "mentions": [
+    "A000040",
+    "A008347",
+    "A014692",
+    "A330339",
+    "A330399",
+    "A330546",
+    "A330547"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

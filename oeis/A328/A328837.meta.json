@@ -1,0 +1,28 @@
+{
+  "description": "Numbers k for which A328403(k) = A276086(A276086(A276086(k))) is squarefree.",
+  "id": "A328837",
+  "mentions": [
+    "A008966",
+    "A276086",
+    "A276087",
+    "A276156",
+    "A328313",
+    "A328394",
+    "A328398",
+    "A328403",
+    "A328828",
+    "A328836"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

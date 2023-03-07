@@ -1,0 +1,19 @@
+{
+  "description": "Number of distinct values obtained when each of the operators # in the expression 1#2#3#...#n is replaced by + (add) or x (multiply) in all possible ways, for n=1,2,3,...",
+  "id": "A138651",
+  "mentions": [
+    "A069765",
+    "A078389"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

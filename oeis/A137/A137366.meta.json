@@ -1,0 +1,18 @@
+{
+  "description": "Subsequence of A137365 where it is possible to choose p1, p2, p3 so that p1+p2+p3 = prime.",
+  "id": "A137366",
+  "mentions": [
+    "A137365",
+    "A138556"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:25",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

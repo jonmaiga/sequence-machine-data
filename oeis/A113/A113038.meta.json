@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways the set {1,2,...,n} can be split into three subsets of which the sum of one is one more than the equal sums of both other subsets.",
+  "id": "A113038",
+  "mentions": [
+    "A112972"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

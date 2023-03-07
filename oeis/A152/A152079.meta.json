@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that A000695(p) are also prime.",
+  "id": "A152079",
+  "mentions": [
+    "A000695",
+    "A077718",
+    "A152021",
+    "A152022",
+    "A152023",
+    "A152078"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

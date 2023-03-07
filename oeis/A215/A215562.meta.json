@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations of n indistinguishable copies of 1..4 with every partial sum <= the same partial sum averaged over all permutations.",
+  "id": "A215562",
+  "mentions": [
+    "A215561"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

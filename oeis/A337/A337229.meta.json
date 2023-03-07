@@ -1,0 +1,22 @@
+{
+  "description": "Irregular table read by rows: row n gives the number of 3-gon to k-gon contacts, with k>=3, for an n X 2 grid of congruent rectangles divided by drawing diagonals of all possible rectangles (cf. A335701).",
+  "id": "A337229",
+  "mentions": [
+    "A331454",
+    "A331763",
+    "A331766",
+    "A335701",
+    "A336731"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

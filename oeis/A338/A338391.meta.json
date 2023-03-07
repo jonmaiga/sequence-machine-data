@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that there are exactly four biquadratefree powerful numbers (A338325) between k^2 and (k+1)^2.",
+  "id": "A338391",
+  "mentions": [
+    "A338325",
+    "A338326",
+    "A338327",
+    "A338387",
+    "A338388",
+    "A338389",
+    "A338390",
+    "A338392"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

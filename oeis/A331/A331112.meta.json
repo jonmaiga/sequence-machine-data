@@ -1,0 +1,24 @@
+{
+  "description": "Sum of the digits of the n-th prime number in balanced ternary.",
+  "id": "A331112",
+  "mentions": [
+    "A000040",
+    "A007605",
+    "A065363",
+    "A117966",
+    "A239619"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

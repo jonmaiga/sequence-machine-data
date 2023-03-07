@@ -1,0 +1,20 @@
+{
+  "description": "Index at which the first n appears in A248625 = least nonnegative sequence with no AP (a(n), a(n+d), a(n+2d)).",
+  "id": "A248627",
+  "mentions": [
+    "A229037",
+    "A241752",
+    "A248625"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

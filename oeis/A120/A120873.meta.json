@@ -1,0 +1,23 @@
+{
+  "description": "Fractal sequence of the Wythoff difference array (A080164).",
+  "id": "A120873",
+  "mentions": [
+    "A000201",
+    "A001622",
+    "A001950",
+    "A003603",
+    "A003622",
+    "A035513",
+    "A080164"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

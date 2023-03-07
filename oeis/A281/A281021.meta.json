@@ -1,0 +1,18 @@
+{
+  "description": "Primes k with (say) j digits that produce two other primes, x and y, from the sums x = Sum_{i=1..j} (k mod 10^i) and y = Sum_{i=0..j-1} (floor(k/10^i)).",
+  "id": "A281021",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

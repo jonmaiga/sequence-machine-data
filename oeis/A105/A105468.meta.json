@@ -1,0 +1,21 @@
+{
+  "description": "Number of irregular primes less than or equal to the 10^n-th prime.",
+  "id": "A105468",
+  "mentions": [
+    "A000928",
+    "A006988",
+    "A105463"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

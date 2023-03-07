@@ -1,0 +1,24 @@
+{
+  "description": "T(n,k) = 1/k! * Sum_{i=0..k} (-1)^(k-i) *C(k,i) * A258222(n,i); triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A258223",
+  "mentions": [
+    "A000108",
+    "A001147",
+    "A258220",
+    "A258222",
+    "A258224",
+    "A292695"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

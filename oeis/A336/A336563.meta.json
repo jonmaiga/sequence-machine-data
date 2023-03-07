@@ -1,0 +1,28 @@
+{
+  "description": "Sum of proper divisors of n that are divisible by every prime that divides n.",
+  "id": "A336563",
+  "mentions": [
+    "A001065",
+    "A003557",
+    "A005117",
+    "A007947",
+    "A033879",
+    "A057723",
+    "A335341",
+    "A336564",
+    "A336565",
+    "A336566",
+    "A336567"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

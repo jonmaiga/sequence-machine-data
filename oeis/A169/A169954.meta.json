@@ -1,0 +1,21 @@
+{
+  "description": "Maximal entry in row n of triangle in A169950.",
+  "id": "A169954",
+  "mentions": [
+    "A061909",
+    "A169940",
+    "A169950"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

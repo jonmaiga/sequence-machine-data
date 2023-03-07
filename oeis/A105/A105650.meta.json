@@ -1,0 +1,18 @@
+{
+  "description": "Smallest member of set of 5 consecutive numbers which are Smith numbers.",
+  "id": "A105650",
+  "mentions": [
+    "A006753"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

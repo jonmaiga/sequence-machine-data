@@ -1,0 +1,21 @@
+{
+  "description": "Zero-free primes with digit sum equal to 7.",
+  "id": "A118703",
+  "mentions": [
+    "A052221",
+    "A119461"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that p*(p+1)/2 + 1 is a prime.",
+  "id": "A231847",
+  "mentions": [
+    "A000040",
+    "A000217",
+    "A002145",
+    "A231988",
+    "A231989",
+    "A357218"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

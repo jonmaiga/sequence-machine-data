@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least number k such that exactly fraction 1/n of the members of the reduced residue system mod k are prime, or 0 if there is no such k.",
+  "id": "A307711",
+  "mentions": [
+    "A000010",
+    "A048865",
+    "A307712",
+    "A307713"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 2,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Triangular array: t(n,k) = number of partitions p = {x(1) >= x(2) >= ... >= x(k)} such that max(x(j) - x(j-1)) = k.",
+  "id": "A238710",
+  "mentions": [
+    "A000041",
+    "A032741",
+    "A237665",
+    "A238353",
+    "A238709"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

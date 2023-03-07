@@ -1,0 +1,28 @@
+{
+  "description": "Triangle read by rows: inverse binomial transform of A059576",
+  "id": "A157898",
+  "mentions": [
+    "A004526",
+    "A008805",
+    "A011782",
+    "A058187",
+    "A059576",
+    "A059841",
+    "A097076",
+    "A130595",
+    "A189976"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

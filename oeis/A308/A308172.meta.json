@@ -1,0 +1,17 @@
+{
+  "description": "a(0)=1; thereafter a(n) = smallest number missing from A081145 after A081145(n) has been calculated.",
+  "id": "A308172",
+  "mentions": [
+    "A081145"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

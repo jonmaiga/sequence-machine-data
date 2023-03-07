@@ -1,0 +1,20 @@
+{
+  "description": "Canyon numbers. Numbers with exactly one locally minimal digit and with exactly two locally maximal digits which are the same digit and nonadjacent.",
+  "id": "A134970",
+  "mentions": [
+    "A134971"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

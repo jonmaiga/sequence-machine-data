@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the first integer k for which b(b(...b(n)...))=5, where the transformation b(m), the m-th term of A008474, is taken k-1 times.",
+  "id": "A109496",
+  "mentions": [
+    "A008474"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 5,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

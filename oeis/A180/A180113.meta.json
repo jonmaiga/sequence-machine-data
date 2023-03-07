@@ -1,0 +1,19 @@
+{
+  "description": "Numbers A179462(n) with a gap of 2 to the following element A179462(n+1).",
+  "id": "A180113",
+  "mentions": [
+    "A179462"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

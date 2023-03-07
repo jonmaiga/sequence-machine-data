@@ -1,0 +1,22 @@
+{
+  "description": "Value of the critical density of the Universe in g/cm^3 multiplied by dimensionless scale factor h^(-2).",
+  "id": "A327854",
+  "mentions": [
+    "A070058",
+    "A163103",
+    "A217572"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": -28,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

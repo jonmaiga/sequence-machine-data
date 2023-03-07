@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of Product_{k>=1} (1 + x^k)^(k*(k+1)*(4*k-1)/6).",
+  "id": "A294843",
+  "mentions": [
+    "A002412",
+    "A003633",
+    "A028377",
+    "A258343",
+    "A281156",
+    "A294836",
+    "A294842",
+    "A294844",
+    "A294845"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:16:37",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

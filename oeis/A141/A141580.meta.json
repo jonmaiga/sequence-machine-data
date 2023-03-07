@@ -1,0 +1,26 @@
+{
+  "description": "Number of unlabeled non-mating graphs with n vertices.",
+  "id": "A141580",
+  "mentions": [
+    "A000088",
+    "A004110",
+    "A006023",
+    "A028242",
+    "A059167",
+    "A245797",
+    "A327335",
+    "A327371",
+    "A327379"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:30",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

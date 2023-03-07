@@ -1,0 +1,24 @@
+{
+  "description": "Positions of ones in A264977; positions of twos in A277330.",
+  "id": "A277701",
+  "mentions": [
+    "A001105",
+    "A260443",
+    "A264977",
+    "A277330",
+    "A277710",
+    "A277712",
+    "A277713"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

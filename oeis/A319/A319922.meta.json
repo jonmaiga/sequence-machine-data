@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways of writing n as a sum of exactly 10 powers of 2.",
+  "id": "A319922",
+  "mentions": [
+    "A000079",
+    "A089052"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

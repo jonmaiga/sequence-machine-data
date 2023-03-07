@@ -1,0 +1,26 @@
+{
+  "description": "Order of (6,n) cage, i.e., minimal order of 6-regular graph of girth n.",
+  "id": "A218554",
+  "mentions": [
+    "A000066",
+    "A037233",
+    "A054760",
+    "A191595",
+    "A198306",
+    "A218553",
+    "A218555"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 3,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "description": "Number T(n,k) of permutations of [n] with exactly k (possibly overlapping) occurrences of the consecutive step pattern given by the binary expansion of n, where 1=up and 0=down; triangle T(n,k), n>=0, read by rows.",
+  "id": "A242783",
+  "mentions": [
+    "A000142",
+    "A008292",
+    "A008303",
+    "A162975",
+    "A220183",
+    "A227884",
+    "A230695",
+    "A230797",
+    "A242784",
+    "A242785",
+    "A242819",
+    "A242820",
+    "A243105",
+    "A246221",
+    "A246222",
+    "A246223",
+    "A246224",
+    "A246225",
+    "A246226",
+    "A246227",
+    "A246228",
+    "A246229",
+    "A249249",
+    "A295987",
+    "A335308"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

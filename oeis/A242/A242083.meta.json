@@ -1,0 +1,20 @@
+{
+  "description": "3^p - 2^p - 1, where p is prime.",
+  "id": "A242083",
+  "mentions": [
+    "A000040",
+    "A083321",
+    "A204768"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

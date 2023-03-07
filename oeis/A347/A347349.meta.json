@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest positive integer which can be represented as the sum of distinct Lucas numbers (A000032) in exactly n ways.",
+  "id": "A347349",
+  "mentions": [
+    "A000032",
+    "A013583",
+    "A055635",
+    "A067595",
+    "A083853"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

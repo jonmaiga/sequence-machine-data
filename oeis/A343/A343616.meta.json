@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of P_{3,2}(6) = Sum 1/p^6 over primes == 2 (mod 3).",
+  "id": "A343616",
+  "mentions": [
+    "A001014",
+    "A003627",
+    "A021733",
+    "A085966",
+    "A085995",
+    "A086036",
+    "A343612",
+    "A343619",
+    "A343626"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

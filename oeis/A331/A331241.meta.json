@@ -1,0 +1,20 @@
+{
+  "description": "Integer values that can be assumed by the squared radius of the circumcircle of a triangle with integer sides.",
+  "id": "A331241",
+  "mentions": [
+    "A331227",
+    "A331228"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

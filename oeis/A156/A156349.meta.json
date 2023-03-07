@@ -1,0 +1,17 @@
+{
+  "description": "a(n)=sum_{k=1..n} r(k) where r(k)=A000002(k) if A000002(k+1)=2 and r(k)=0 if A000002(k+1)=1",
+  "id": "A156349",
+  "mentions": [
+    "A000002"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

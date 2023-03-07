@@ -1,0 +1,24 @@
+{
+  "description": "A total of n married couples, including a mathematician M and his wife, are to be seated at the 2n chairs around a circular table, with no man seated next to his wife. After the ladies are seated at every other chair, M is the first man allowed to choose one of the remaining chairs. The sequence gives the number of ways of seating the other men, with no man seated next to his wife, if M chooses the chair that is 3 seats clockwise from his wife's chair.",
+  "id": "A258664",
+  "mentions": [
+    "A000166",
+    "A000179",
+    "A258665",
+    "A258666",
+    "A258667",
+    "A258673",
+    "A259212"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

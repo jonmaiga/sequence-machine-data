@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of c(x^2+x^3), c(x) the g.f. of A000108.",
+  "id": "A115178",
+  "mentions": [
+    "A000108",
+    "A001006",
+    "A007477",
+    "A117434"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

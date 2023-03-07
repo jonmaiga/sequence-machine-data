@@ -1,0 +1,20 @@
+{
+  "description": "Positive numbers k such that k^2 == 2 (mod 89).",
+  "id": "A159008",
+  "mentions": [
+    "A159007"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:12:59",
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

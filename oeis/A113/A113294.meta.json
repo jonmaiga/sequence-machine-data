@@ -1,0 +1,28 @@
+{
+  "description": "First differences of Lucas 4-step numbers.",
+  "id": "A113294",
+  "mentions": [
+    "A000040",
+    "A001644",
+    "A073817",
+    "A113188",
+    "A113194",
+    "A113238",
+    "A113239",
+    "A113244",
+    "A113293",
+    "A113295"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

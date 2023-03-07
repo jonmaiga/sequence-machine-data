@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = denominator of the coefficient c(n) of x^n in sqrt(1+x)/Product_{0 < k < n} 1 + c(k)*x^k, n = 1, 2, 3, ...",
+  "id": "A170923",
+  "mentions": [
+    "A157162",
+    "A170922",
+    "A353583",
+    "A353584",
+    "A353586",
+    "A353587"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

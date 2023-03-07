@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of distinct values in the sequence s defined by s(1) = 0 and for any k > 0, s(k+1) = (s(k)^2+1) mod n.",
+  "id": "A332965",
+  "mentions": [
+    "A003095",
+    "A332966"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

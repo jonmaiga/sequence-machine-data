@@ -1,0 +1,19 @@
+{
+  "description": "Number of pairs of odd numbers that separate two consecutive twin prime pairs",
+  "id": "A145061",
+  "mentions": [
+    "A001359",
+    "A006512"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

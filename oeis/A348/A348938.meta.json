@@ -1,0 +1,21 @@
+{
+  "description": "Odd numbers k for which A064989(sigma(k)) < A064989(k), and which are of the form p^(1+4k) * r^2, where p is prime of the form 1+4m, r > 1, and gcd(p,r) = 1.",
+  "id": "A348938",
+  "mentions": [
+    "A064989",
+    "A228058",
+    "A326042",
+    "A348748",
+    "A348939"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

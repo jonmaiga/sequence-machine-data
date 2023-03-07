@@ -1,0 +1,20 @@
+{
+  "description": "Squares s such that prime(s) + 2 is a square.",
+  "id": "A299118",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A011757"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

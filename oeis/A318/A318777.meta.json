@@ -1,0 +1,23 @@
+{
+  "description": "Coefficients in expansion of 1/(1 - x - 2*x^5).",
+  "id": "A318777",
+  "mentions": [
+    "A013609",
+    "A038207",
+    "A143447",
+    "A318775",
+    "A318776"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:00:11",
+    "offset": 0,
+    "size": 46,
+    "source": "joeis"
+  }
+}

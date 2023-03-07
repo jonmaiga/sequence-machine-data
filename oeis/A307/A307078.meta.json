@@ -1,0 +1,27 @@
+{
+  "description": "Square array A(n,k), n >= 0, k >= 1, read by antidiagonals, where column k is the expansion of g.f. ((1-x)^(k-2))/((1-x)^k-x^k).",
+  "id": "A307078",
+  "mentions": [
+    "A000079",
+    "A024494",
+    "A038504",
+    "A119336",
+    "A126646",
+    "A133476",
+    "A306846",
+    "A306915",
+    "A307079"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

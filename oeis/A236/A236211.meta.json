@@ -1,0 +1,17 @@
+{
+  "description": "Numbers c > 0 for which there exist integers a > 1 and b > 1 such that the equation a^x - b^y = c has two solutions in positive integers x, y.",
+  "id": "A236211",
+  "mentions": [
+    "A207079"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

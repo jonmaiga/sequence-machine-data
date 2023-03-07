@@ -1,0 +1,22 @@
+{
+  "description": "ASCII codes of letter keys by rows on standard U.S. \"QWERTY\" keyboard.",
+  "id": "A286898",
+  "mentions": [
+    "A002252",
+    "A130764"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

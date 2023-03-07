@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the maximum prime factor of the concatenation of all the previous terms, with a(1)=1, a(2)=2.",
+  "id": "A280893",
+  "mentions": [
+    "A280894"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

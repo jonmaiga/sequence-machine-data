@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k for which rank of the elliptic curve y^2 = x^3 - k*x is 5.",
+  "id": "A309100",
+  "mentions": [
+    "A002156",
+    "A002157",
+    "A309029",
+    "A309032",
+    "A309033",
+    "A309034"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

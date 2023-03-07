@@ -1,0 +1,21 @@
+{
+  "description": "Number of 0's in odd position in all Fibonacci binary words of length n. A Fibonacci binary word is a binary word having no 00 subword.",
+  "id": "A129720",
+  "mentions": [
+    "A001870",
+    "A030267",
+    "A129719",
+    "A129722"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:26:10",
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

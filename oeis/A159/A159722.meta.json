@@ -1,0 +1,20 @@
+{
+  "description": "Number of permutations of 3 indistinguishable copies of 1..n arranged in a circle with exactly 2 local maxima.",
+  "id": "A159722",
+  "mentions": [
+    "A159716",
+    "A334772"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 2,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

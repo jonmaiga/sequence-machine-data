@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that 2*p^2 + 2*p - 9 is prime.",
+  "id": "A308269",
+  "mentions": [
+    "A308268"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

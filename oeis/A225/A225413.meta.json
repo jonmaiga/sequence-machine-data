@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows: T(n,k) = (A101164(n,k) - A014473(n,k))/2.",
+  "id": "A225413",
+  "mentions": [
+    "A000217",
+    "A007318",
+    "A008288",
+    "A014473",
+    "A027480",
+    "A101164",
+    "A140356",
+    "A155454"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Eigensequence of A061554 regarded as a triangle: a(n) = Sum_{k=0..n-1} A061554(n-1,k)*a(k) with a(0)=1.",
+  "id": "A125094",
+  "mentions": [
+    "A061554"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

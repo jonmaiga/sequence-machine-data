@@ -1,0 +1,20 @@
+{
+  "description": "Maximum number of circles with unit area that can be packed into an equilateral triangle with an area of n.",
+  "id": "A337019",
+  "mentions": [
+    "A093766",
+    "A269110"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

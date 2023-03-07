@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n! * [x^n] (exp(x)+x^2/2!)^n.",
+  "id": "A245493",
+  "mentions": [
+    "A245405",
+    "A245406",
+    "A245496"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

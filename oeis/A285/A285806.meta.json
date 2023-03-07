@@ -1,0 +1,19 @@
+{
+  "description": "Square array A(m,n) = number whose binary expansion is the concatenation of those of { m, m+1, ..., m+n }, with m, n >= 1, read by falling antidiagonals.",
+  "id": "A285806",
+  "mentions": [
+    "A285807"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

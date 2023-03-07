@@ -1,0 +1,23 @@
+{
+  "description": "Numbers prime(k) such that D(prime(k), 3) > 0, where D( * , 3) = 3rd difference.",
+  "id": "A258030",
+  "mentions": [
+    "A064149",
+    "A258027",
+    "A258028",
+    "A258029",
+    "A258031"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

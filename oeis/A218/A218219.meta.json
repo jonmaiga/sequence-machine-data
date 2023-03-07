@@ -1,0 +1,17 @@
+{
+  "description": "Define a(x,y) to be 1 if x is 0 or 1 and y*a(x-1,y)-a(x-2,y) otherwise. Then the n-th term of the sequence is a(n,n).",
+  "id": "A218219",
+  "mentions": [
+    "A218220"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

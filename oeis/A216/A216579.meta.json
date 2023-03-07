@@ -1,0 +1,18 @@
+{
+  "description": "Number of positive integer solutions to the equation a^2 + 10*b^2 = n.",
+  "id": "A216579",
+  "mentions": [
+    "A020673",
+    "A033201"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

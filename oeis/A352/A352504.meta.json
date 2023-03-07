@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k > 1 such that log(A005179(k))/k is a record low.",
+  "id": "A352504",
+  "mentions": [
+    "A005179",
+    "A175495"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

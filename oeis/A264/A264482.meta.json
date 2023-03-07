@@ -1,0 +1,18 @@
+{
+  "description": "Triangle T(n,k) (1 <= k <= n) read by rows: row n lists the set of n coprime numbers that minimizes the difference between first and last terms, and then minimizes the average of the terms.",
+  "id": "A264482",
+  "mentions": [
+    "A260652"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

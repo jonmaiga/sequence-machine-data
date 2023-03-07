@@ -1,0 +1,24 @@
+{
+  "description": "Addition table of A337656, read by antidiagonals.",
+  "id": "A338032",
+  "mentions": [
+    "A337656",
+    "A337657",
+    "A337660",
+    "A337973",
+    "A338015",
+    "A338031",
+    "A338034"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

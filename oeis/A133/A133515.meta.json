@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X n binary matrices with every 1 vertically or horizontally adjacent to some 0.",
+  "id": "A133515",
+  "mentions": [
+    "A218354"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

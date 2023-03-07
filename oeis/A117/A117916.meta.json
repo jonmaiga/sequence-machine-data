@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 4; a(n) is smallest semiprime > 3*a(n-1).",
+  "id": "A117916",
+  "mentions": [
+    "A001358",
+    "A055496",
+    "A076656"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

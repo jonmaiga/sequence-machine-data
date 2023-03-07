@@ -1,0 +1,18 @@
+{
+  "description": "Number of parts in all n-times partitions of n into distinct parts.",
+  "id": "A327623",
+  "mentions": [
+    "A327619",
+    "A327622"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

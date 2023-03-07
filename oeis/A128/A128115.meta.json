@@ -1,0 +1,21 @@
+{
+  "description": "Mobius inversion of A103221.",
+  "id": "A128115",
+  "mentions": [
+    "A008615",
+    "A008683",
+    "A055684",
+    "A103221"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-entry"
+  }
+}

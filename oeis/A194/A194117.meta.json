@@ -1,0 +1,17 @@
+{
+  "description": "Sum{floor(j*((1+sqrt(3))/2) : 1<=j<=n}; n-th partial sum of Beatty sequence for sqrt(13).",
+  "id": "A194117",
+  "mentions": [
+    "A003511"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Numbers whose trajectory under iteration of the map k -> (sigma(k)+phi(k))/2 consists only of integers and is unbounded.",
+  "id": "A291790",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A289997",
+    "A290001",
+    "A290447",
+    "A291787",
+    "A291789",
+    "A292108",
+    "A292766"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

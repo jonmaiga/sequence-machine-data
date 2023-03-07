@@ -1,0 +1,32 @@
+{
+  "description": "Square array read by antidiagonals: A(n,k) = T(2*(n AND k), n XOR k), where T(n,k) is sequence A001477 considered as a two-dimensional table, AND is bitwise-and (A004198) and XOR is bitwise-xor (A003987).",
+  "id": "A286108",
+  "mentions": [
+    "A000217",
+    "A001477",
+    "A002262",
+    "A003056",
+    "A003987",
+    "A004198",
+    "A014106",
+    "A025581",
+    "A286098",
+    "A286109",
+    "A286145",
+    "A286147",
+    "A286150",
+    "A286151"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:57",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

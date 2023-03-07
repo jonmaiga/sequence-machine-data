@@ -1,0 +1,17 @@
+{
+  "description": "Numbers c such that there is a Pythagorean triple (a,b,c) such that (A001414(a), A001414(b), A001414(c)) is also a Pythagorean triple.",
+  "id": "A337540",
+  "mentions": [
+    "A001414"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

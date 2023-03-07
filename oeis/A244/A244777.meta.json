@@ -1,0 +1,20 @@
+{
+  "description": "Prime numbers ending in the prime number 89.",
+  "id": "A244777",
+  "mentions": [
+    "A141883",
+    "A141938",
+    "A244763"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:48:29",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

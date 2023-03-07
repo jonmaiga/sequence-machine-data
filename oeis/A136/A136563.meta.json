@@ -1,0 +1,20 @@
+{
+  "description": "Leftmost column of triangle A136561.",
+  "id": "A136563",
+  "mentions": [
+    "A035311",
+    "A035312",
+    "A136561",
+    "A136562"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

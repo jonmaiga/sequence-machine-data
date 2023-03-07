@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n,k) = A277648(n,k)^2 * A005117(k), read by rows.",
+  "id": "A278101",
+  "mentions": [
+    "A005117",
+    "A277647",
+    "A277648",
+    "A278100",
+    "A278103"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:44",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

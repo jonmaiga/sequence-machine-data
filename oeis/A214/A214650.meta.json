@@ -1,0 +1,18 @@
+{
+  "description": "Number of distinct connected unicyclic bipartite graphs with n vertices.",
+  "id": "A214650",
+  "mentions": [
+    "A000081",
+    "A001429"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

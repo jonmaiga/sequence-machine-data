@@ -1,0 +1,19 @@
+{
+  "description": "Paschal full moon dates expressed as days after March 21 (Julian calendar).",
+  "id": "A349710",
+  "mentions": [
+    "A348924"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

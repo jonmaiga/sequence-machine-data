@@ -1,0 +1,19 @@
+{
+  "description": "Adjusted joint rank sequence of (f(i)) and (g(j)) with f(i) after g(j) when f(i)=g(j), where f and g are the squares and hexagonal numbers. Complement of A186317.",
+  "id": "A186318",
+  "mentions": [
+    "A186315",
+    "A186316",
+    "A186317"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:34:43",
+    "offset": 1,
+    "size": 83,
+    "source": "joeis"
+  }
+}

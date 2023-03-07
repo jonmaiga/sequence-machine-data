@@ -1,0 +1,25 @@
+{
+  "description": "Primes that are not base-10 deletable primes (written in base 10).",
+  "id": "A322474",
+  "mentions": [
+    "A080603",
+    "A080608",
+    "A081027",
+    "A096235",
+    "A096246",
+    "A305352",
+    "A321657"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

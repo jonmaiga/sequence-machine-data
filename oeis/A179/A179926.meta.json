@@ -1,0 +1,25 @@
+{
+  "description": "Number of permutations of the divisors of n of the form d_1=n, d_2, d_3, ..., d_tau(n) such that d_(i+1)/d_i is a prime or 1/prime for all i.",
+  "id": "A179926",
+  "mentions": [
+    "A000005",
+    "A001221",
+    "A003042",
+    "A003043",
+    "A119842",
+    "A173675",
+    "A180026",
+    "A295785"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

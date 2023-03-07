@@ -1,0 +1,26 @@
+{
+  "description": "Number of invertible 4 X 4 matrices mod n.",
+  "id": "A305186",
+  "mentions": [
+    "A000010",
+    "A000056",
+    "A000252",
+    "A011785",
+    "A011786",
+    "A064767",
+    "A316622"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

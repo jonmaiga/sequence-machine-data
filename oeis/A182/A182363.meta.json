@@ -1,0 +1,22 @@
+{
+  "description": "a(n+1) = a(n) + floor(a(n)/10) with a(0)=10.",
+  "id": "A182363",
+  "mentions": [
+    "A061418",
+    "A100585",
+    "A182305",
+    "A182308",
+    "A182361",
+    "A182362"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:25:17",
+    "offset": 0,
+    "size": 57,
+    "source": "joeis"
+  }
+}

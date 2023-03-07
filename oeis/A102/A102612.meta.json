@@ -1,0 +1,20 @@
+{
+  "description": "First nonzero terms in the sequences formed by the unique count of primes between an and (a+1)n.",
+  "id": "A102612",
+  "mentions": [
+    "A084141"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

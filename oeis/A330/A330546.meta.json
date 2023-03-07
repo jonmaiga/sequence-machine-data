@@ -1,0 +1,18 @@
+{
+  "description": "List of k such that prime(k) is an element of A330339.",
+  "id": "A330546",
+  "mentions": [
+    "A330339",
+    "A330545"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

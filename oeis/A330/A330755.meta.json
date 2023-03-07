@@ -1,0 +1,20 @@
+{
+  "description": "Number of values of k, 1 <= k <= n, with A034684(k) = A034684(n), where A034684 gives the smallest unitary divisor of n that is larger than 1.",
+  "id": "A330755",
+  "mentions": [
+    "A034684",
+    "A034699",
+    "A078898",
+    "A303759"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

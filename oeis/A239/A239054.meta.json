@@ -1,0 +1,19 @@
+{
+  "description": "Maximum of the partition function on the set of all partitions of n.",
+  "id": "A239054",
+  "mentions": [
+    "A000041",
+    "A239314"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

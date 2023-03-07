@@ -1,0 +1,22 @@
+{
+  "description": "Product of Lucas and Catalan numbers: a(n) = A000032(n+1)*A000108(n).",
+  "id": "A216541",
+  "mentions": [
+    "A000032",
+    "A000108",
+    "A098614",
+    "A098616",
+    "A215931"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 02:52:21",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

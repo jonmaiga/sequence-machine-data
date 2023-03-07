@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X n nonnegative integer arrays with each row and column increasing from zero by 0 or 1.",
+  "id": "A202751",
+  "mentions": [
+    "A202756"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

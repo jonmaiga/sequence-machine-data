@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = n + floor(n/t) + floor(n/t^2), where t is the tribonacci constant.",
+  "id": "A184820",
+  "mentions": [
+    "A058265",
+    "A184812",
+    "A184821",
+    "A184822",
+    "A184823",
+    "A184835"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 135,
+    "source": "oeis-entry"
+  }
+}

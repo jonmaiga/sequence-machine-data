@@ -1,0 +1,23 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into distinct Lucas numbers (beginning with 1).",
+  "id": "A331922",
+  "mentions": [
+    "A000204",
+    "A003263",
+    "A054770",
+    "A067592",
+    "A067595",
+    "A218396",
+    "A288039"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

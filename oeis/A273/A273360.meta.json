@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that the decimal number concat(5,n) is a square.",
+  "id": "A273360",
+  "mentions": [
+    "A272671",
+    "A273357",
+    "A273358",
+    "A273359",
+    "A273361",
+    "A273362",
+    "A273363",
+    "A273364"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "G.f. satisfies: A(x) = 1 + x*Sum_{n>=0} (A(x)^n - 1)^n.",
+  "id": "A232192",
+  "mentions": [
+    "A122400",
+    "A192945",
+    "A192946",
+    "A192947",
+    "A192948",
+    "A317855"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:50",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

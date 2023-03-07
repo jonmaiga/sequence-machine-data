@@ -1,0 +1,19 @@
+{
+  "description": "Composite numbers which contain their sum of aliquot parts as a substring.",
+  "id": "A225417",
+  "mentions": [
+    "A000396",
+    "A208270"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Iccanobirt semiprime indices (13 of 15): Indices of semiprime numbers in A102123.",
+  "id": "A102183",
+  "mentions": [
+    "A001358",
+    "A102123",
+    "A102171",
+    "A102185",
+    "A102203"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "formulas",
+    "less",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

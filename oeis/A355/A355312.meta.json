@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows, in which the rows list groups of consecutive integers taking the same number of halving and tripling steps to reach 1 in '3X+1' problem. Groups are in order of the number of steps required, and in numerical order among those with the same number of steps.",
+  "id": "A355312",
+  "mentions": [
+    "A006577",
+    "A078417",
+    "A127824"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Generalized Lucas numbers: square array A(n,k) read by antidiagonals, A(n,k)=(-1)^(k+1)*k*[x^k](-log((1+sum_{j=1..n}(-1)^(j+1)*x^j))^(-1))), (n>=0, k>=0).",
+  "id": "A247505",
+  "mentions": [
+    "A000032",
+    "A000225",
+    "A001644",
+    "A073817",
+    "A074048",
+    "A074584",
+    "A104621",
+    "A105754",
+    "A125127",
+    "A247506"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

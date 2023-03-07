@@ -1,0 +1,26 @@
+{
+  "description": "Starts of runs of 6 consecutive even numbers that are all totient numbers (A002202).",
+  "id": "A333023",
+  "mentions": [
+    "A000010",
+    "A002202",
+    "A005277",
+    "A063512",
+    "A083533",
+    "A333019",
+    "A333020",
+    "A333021",
+    "A333022",
+    "A333024"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

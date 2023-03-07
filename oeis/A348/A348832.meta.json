@@ -1,0 +1,26 @@
+{
+  "description": "Positive numbers whose square starts and ends with exactly 444.",
+  "id": "A348832",
+  "mentions": [
+    "A017317",
+    "A039685",
+    "A045858",
+    "A273375",
+    "A305719",
+    "A328886",
+    "A346892",
+    "A348488",
+    "A348831"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

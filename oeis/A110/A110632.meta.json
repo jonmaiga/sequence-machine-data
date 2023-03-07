@@ -1,0 +1,21 @@
+{
+  "description": "Every 6th term of A083946 starting from position 0.",
+  "id": "A110632",
+  "mentions": [
+    "A083946",
+    "A110631",
+    "A110633",
+    "A110634",
+    "A110635"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

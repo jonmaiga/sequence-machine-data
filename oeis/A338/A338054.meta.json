@@ -1,0 +1,20 @@
+{
+  "description": "\"Early\" terms in A336957, arranged in increasing order.",
+  "id": "A338054",
+  "mentions": [
+    "A336957",
+    "A338050",
+    "A338051",
+    "A338053"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

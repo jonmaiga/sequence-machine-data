@@ -1,0 +1,23 @@
+{
+  "description": "Terms of the cycles reached after iterations of numerator(sigma(n)/n) = A017665(n).",
+  "id": "A234534",
+  "mentions": [
+    "A000203",
+    "A014567",
+    "A017665",
+    "A069059",
+    "A098007",
+    "A216200"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

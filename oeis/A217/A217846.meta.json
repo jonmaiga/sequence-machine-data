@@ -1,0 +1,22 @@
+{
+  "description": "Numbers which are the sums of consecutive sixth powers.",
+  "id": "A217846",
+  "mentions": [
+    "A001014",
+    "A008516",
+    "A034705",
+    "A217843",
+    "A217850"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

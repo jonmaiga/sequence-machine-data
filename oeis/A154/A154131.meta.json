@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that the fractional part of (4/3)^n is less than 1/n.",
+  "id": "A154131",
+  "mentions": [
+    "A002379",
+    "A064628",
+    "A137994",
+    "A153662",
+    "A153670",
+    "A153702",
+    "A154139",
+    "A154147"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

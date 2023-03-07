@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest k such that A350877(k) = prime(n), or -1 if prime(n) does not appear in A350877.",
+  "id": "A350621",
+  "mentions": [
+    "A350618",
+    "A350620",
+    "A350877"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X n (-1,0,1) arrays of determinants of 2X2 subblocks of some (n+1)X(n+1) binary array",
+  "id": "A226709",
+  "mentions": [
+    "A226717"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

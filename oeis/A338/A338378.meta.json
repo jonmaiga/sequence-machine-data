@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 4. a(n) is the smallest semiprime number, which is not an earlier term, for which a(n - 1) + a(n) is a brilliant semiprime number (A078972).",
+  "id": "A338378",
+  "mentions": [
+    "A001358",
+    "A078972"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

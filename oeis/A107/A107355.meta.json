@@ -1,0 +1,18 @@
+{
+  "description": "Nonprimes of the form r(r(r(r(r(n)+1)+1)+1)+1)+1, where A141468(n)=r(n)=n-th nonprime.",
+  "id": "A107355",
+  "mentions": [
+    "A000040",
+    "A141468"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

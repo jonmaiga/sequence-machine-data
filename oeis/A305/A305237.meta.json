@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that n, n+1 and n+2 all have primitive roots.",
+  "id": "A305237",
+  "mentions": [
+    "A003306",
+    "A003307",
+    "A014224",
+    "A028491",
+    "A033948",
+    "A051783",
+    "A171381"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

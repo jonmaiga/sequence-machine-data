@@ -1,0 +1,35 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of {-1,0,1} n X k matrices with all rows and columns summing to zero.",
+  "id": "A334549",
+  "mentions": [
+    "A000012",
+    "A002426",
+    "A008300",
+    "A172633",
+    "A172634",
+    "A172635",
+    "A172636",
+    "A172637",
+    "A172638",
+    "A172639",
+    "A172640",
+    "A172641",
+    "A172642",
+    "A172643",
+    "A172644",
+    "A172645",
+    "A333901"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

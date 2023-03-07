@@ -1,0 +1,24 @@
+{
+  "description": "Triangle T(n,k) is the number of ways to assign n people to k unlabeled groups of equal size.",
+  "id": "A200472",
+  "mentions": [
+    "A001147",
+    "A025035",
+    "A025036",
+    "A038041",
+    "A200473"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

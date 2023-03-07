@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that the deficiency of k^2 is itself a square > 1.",
+  "id": "A289274",
+  "mentions": [
+    "A000079",
+    "A033879",
+    "A288144",
+    "A289275"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

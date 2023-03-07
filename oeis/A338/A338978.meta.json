@@ -1,0 +1,21 @@
+{
+  "description": "Number of labeled 5-regular graphs on 2n nodes.",
+  "id": "A338978",
+  "mentions": [
+    "A001205",
+    "A002829",
+    "A005815",
+    "A059441",
+    "A165626"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

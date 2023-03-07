@@ -1,0 +1,20 @@
+{
+  "description": "Positions of 2's in A106216.",
+  "id": "A106218",
+  "mentions": [
+    "A106216",
+    "A106217",
+    "A106219"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

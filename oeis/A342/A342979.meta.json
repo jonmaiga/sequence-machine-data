@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 2. For n > 1, a(n) is the smallest prime p > a(n-1) such that a(n-1) + p is a 4-almost prime (A014613).",
+  "id": "A342979",
+  "mentions": [
+    "A000040",
+    "A014613"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

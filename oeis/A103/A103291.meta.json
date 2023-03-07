@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that sigma(2^k-1) >= 2*(2^k-1)-1, i.e., the number 2^k-1 is perfect, abundant, or least deficient.",
+  "id": "A103291",
+  "mentions": [
+    "A014663",
+    "A023196",
+    "A096399",
+    "A103288",
+    "A103289",
+    "A103292"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

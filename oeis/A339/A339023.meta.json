@@ -1,0 +1,27 @@
+{
+  "description": "Replace each digit d in the decimal representation of n with the digital root of n*d.",
+  "id": "A339023",
+  "mentions": [
+    "A010888",
+    "A056992",
+    "A059729",
+    "A106649",
+    "A106746",
+    "A139337",
+    "A316347",
+    "A322131"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k such that sigma(k) <= 2k < A003961(k).",
+  "id": "A341614",
+  "mentions": [
+    "A000396",
+    "A003961",
+    "A246282",
+    "A263837",
+    "A326134",
+    "A337372",
+    "A341610",
+    "A341611",
+    "A341612",
+    "A341615"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

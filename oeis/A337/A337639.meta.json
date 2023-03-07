@@ -1,0 +1,20 @@
+{
+  "description": "Consider the Conant Gasket G_{2n+1}, as in A328078; a(n) = area of largest cell when G_{2n+1} is drawn on a scale at which the cells along the base have width 1/2.",
+  "id": "A337639",
+  "mentions": [
+    "A328078",
+    "A328080",
+    "A337638"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

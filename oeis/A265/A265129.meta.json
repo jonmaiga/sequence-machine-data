@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows, formed as the sum of the two versions of the natural numbers filling an equilateral triangle.",
+  "id": "A265129",
+  "mentions": [
+    "A002522",
+    "A034262",
+    "A049581",
+    "A069894",
+    "A071237"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:41:39",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

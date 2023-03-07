@@ -1,0 +1,31 @@
+{
+  "description": "Number of positive subset-sum trees of weight n.",
+  "id": "A301934",
+  "mentions": [
+    "A000108",
+    "A000712",
+    "A108917",
+    "A122768",
+    "A262671",
+    "A262673",
+    "A275972",
+    "A276024",
+    "A284640",
+    "A299701",
+    "A301854",
+    "A301855",
+    "A301856",
+    "A301935"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

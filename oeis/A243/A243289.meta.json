@@ -1,0 +1,25 @@
+{
+  "description": "n minus the index of the greatest prime dividing n-th squarefree number: a(n) = n - A243290(n).",
+  "id": "A243289",
+  "mentions": [
+    "A005117",
+    "A006530",
+    "A049084",
+    "A243290",
+    "A243291",
+    "A243348",
+    "A243349",
+    "A243351"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

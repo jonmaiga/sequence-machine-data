@@ -1,0 +1,19 @@
+{
+  "description": "Number of closed paths of length 17n whose steps are 17th roots of unity.",
+  "id": "A198803",
+  "mentions": [
+    "A089759",
+    "A187783"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "For n <= 4, a(n) = n, for n > 4, if n is prime, a(n) = 3 + 2*A000035(A000720(n)), otherwise a(n) = 3 + n - A000720(n).",
+  "id": "A331304",
+  "mentions": [
+    "A000035",
+    "A000720",
+    "A071986",
+    "A305801",
+    "A319704",
+    "A329647",
+    "A329903"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

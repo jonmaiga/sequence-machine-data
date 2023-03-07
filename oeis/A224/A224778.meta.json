@@ -1,0 +1,18 @@
+{
+  "description": "One half of the even numbers that are the sum of four nonzero squares.",
+  "id": "A224778",
+  "mentions": [
+    "A000414"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

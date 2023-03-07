@@ -1,0 +1,19 @@
+{
+  "description": "Least Fibonacci number smaller than prime(n)/2 which is a quadratic nonresidue modulo prime(n), or 0 if such a Fibonacci number does not exist.",
+  "id": "A241604",
+  "mentions": [
+    "A000040",
+    "A000045",
+    "A241568"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

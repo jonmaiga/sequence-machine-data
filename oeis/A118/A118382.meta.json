@@ -1,0 +1,22 @@
+{
+  "description": "Primitive Orloj clock sequences; row n sums to 2n-1.",
+  "id": "A118382",
+  "mentions": [
+    "A000224",
+    "A028355",
+    "A117484",
+    "A118383"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

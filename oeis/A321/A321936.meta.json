@@ -1,0 +1,30 @@
+{
+  "description": "Number of integer partitions of n containing no 1's, prime powers, or squarefree numbers.",
+  "id": "A321936",
+  "mentions": [
+    "A000607",
+    "A000961",
+    "A002095",
+    "A005117",
+    "A023893",
+    "A023894",
+    "A078135",
+    "A114374",
+    "A126706",
+    "A246655",
+    "A321346",
+    "A321347",
+    "A321378",
+    "A321665"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

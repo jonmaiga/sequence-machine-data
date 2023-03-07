@@ -1,0 +1,25 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into distinct parts >= 4.",
+  "id": "A339102",
+  "mentions": [
+    "A008484",
+    "A017898",
+    "A025149",
+    "A032020",
+    "A032022",
+    "A339101",
+    "A339103",
+    "A339104"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:24",
+    "offset": 0,
+    "size": 53,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Numbers whose square has a number of divisors coprime to 6.",
+  "id": "A350014",
+  "mentions": [
+    "A000005",
+    "A000290",
+    "A001651",
+    "A001694",
+    "A007494",
+    "A051676",
+    "A240976"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

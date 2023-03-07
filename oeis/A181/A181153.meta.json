@@ -1,0 +1,32 @@
+{
+  "description": "Number of connected 7-regular simple graphs on 2n vertices with girth at least 4.",
+  "id": "A181153",
+  "mentions": [
+    "A014371",
+    "A014377",
+    "A033886",
+    "A058275",
+    "A058276",
+    "A181154",
+    "A181170",
+    "A184963",
+    "A184964",
+    "A185114",
+    "A185274",
+    "A185374",
+    "A186714",
+    "A186724"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

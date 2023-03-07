@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(a,b) read by rows: sum_{k=1..a-1} floor(k*b/a).",
+  "id": "A245251",
+  "mentions": [
+    "A000217"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

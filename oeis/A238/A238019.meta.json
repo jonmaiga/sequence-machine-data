@@ -1,0 +1,19 @@
+{
+  "description": "The first position of the first cycle of sequence {b_k}={b_k}(n) in A237671.",
+  "id": "A238019",
+  "mentions": [
+    "A237568",
+    "A237671"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 2,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

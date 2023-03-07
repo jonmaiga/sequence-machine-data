@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle T(n,k) read by rows, where T(n,k) is the number of preference profiles in the stable marriage problem with n men and n women such that there exists a stable matching with an egalitarian cost of k.",
+  "id": "A344691",
+  "mentions": [
+    "A185141",
+    "A343698",
+    "A344692"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

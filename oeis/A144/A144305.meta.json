@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: prime numbers p(n) along left edge (n, 1) and totient phi(n) along right edge (n, n), with (n, k) = (n - 1, k - 1) + (n - 1, k) for 1 < k < n when n > 2.",
+  "id": "A144305",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A049084"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

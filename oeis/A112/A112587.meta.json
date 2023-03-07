@@ -1,0 +1,22 @@
+{
+  "description": "Numbers m such that phi(m) <= 2*tau(m), where phi=A000010 and tau=A000005.",
+  "id": "A112587",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A020488",
+    "A112588"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

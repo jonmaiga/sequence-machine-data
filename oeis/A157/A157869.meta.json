@@ -1,0 +1,21 @@
+{
+  "description": "Palindromic primes having both a prime middle digit and a prime digital root.",
+  "id": "A157869",
+  "mentions": [
+    "A002385",
+    "A076611",
+    "A157868"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

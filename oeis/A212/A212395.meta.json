@@ -1,0 +1,23 @@
+{
+  "description": "Number of move operations required to sort all permutations of [n] by insertion sort.",
+  "id": "A212395",
+  "mentions": [
+    "A001008",
+    "A002805",
+    "A159324",
+    "A212396",
+    "A212397",
+    "A279683"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Last term of a 2 X n generalized arithmetic progression (GAP) of primes with smallest last term.",
+  "id": "A113831",
+  "mentions": [
+    "A005150",
+    "A113827",
+    "A113828",
+    "A113830"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 2,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

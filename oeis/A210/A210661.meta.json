@@ -1,0 +1,19 @@
+{
+  "description": "The total number of ways to linearly order the connected components of each functional digraph over all functions f:{1,2,...,n}->{1,2,...,n}.",
+  "id": "A210661",
+  "mentions": [
+    "A000169",
+    "A060281"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

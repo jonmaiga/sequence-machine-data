@@ -1,0 +1,21 @@
+{
+  "description": "G.f. A(x) satisfies: A(x) = 1 + x * A(x^3/(1 - x)^3) / (1 - x)^3.",
+  "id": "A354695",
+  "mentions": [
+    "A119685",
+    "A351816",
+    "A352045",
+    "A354696"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

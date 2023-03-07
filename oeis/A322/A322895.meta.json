@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. S(x) = Integral C(x) * C(S(x)) dx, such that C(x)^2 - S(x)^2 = 1, where S(x) = Sum_{n>=0} a(n)*x^(2*n+1)/(2*n+1)!, with coefficients a(n) starting at n = 0.",
+  "id": "A322895",
+  "mentions": [
+    "A322896",
+    "A322897"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

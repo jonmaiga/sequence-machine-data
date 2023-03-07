@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that 8*k^2 + 8*k - 7 is a square.",
+  "id": "A358682",
+  "mentions": [
+    "A002315",
+    "A006452",
+    "A011900",
+    "A053142",
+    "A077443",
+    "A077446",
+    "A106328",
+    "A106329",
+    "A216134"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

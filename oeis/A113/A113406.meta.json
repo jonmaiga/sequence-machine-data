@@ -1,0 +1,22 @@
+{
+  "description": "Half the number of integer solutions to x^2 + 4 * y^2 = n.",
+  "id": "A113406",
+  "mentions": [
+    "A003881",
+    "A004018",
+    "A004531",
+    "A008441"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

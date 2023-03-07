@@ -1,0 +1,19 @@
+{
+  "description": "a(0)=1, a(n) = a(n-1) + a(2*n AND n), where AND is the bitwise AND operator.",
+  "id": "A215488",
+  "mentions": [
+    "A213370"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Third column of A162170.",
+  "id": "A162171",
+  "mentions": [
+    "A000111",
+    "A162170"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

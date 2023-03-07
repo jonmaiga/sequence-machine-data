@@ -1,0 +1,19 @@
+{
+  "description": "Number of shortest paths from one vertex of a cube (side = n units) to farthest vertex, along the grid on 3 surfaces meeting at another vertex.",
+  "id": "A225050",
+  "mentions": [
+    "A060774"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

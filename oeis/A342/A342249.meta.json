@@ -1,0 +1,30 @@
+{
+  "description": "Number of partitions of n into nine powers of 2.",
+  "id": "A342249",
+  "mentions": [
+    "A000079",
+    "A000123",
+    "A018819",
+    "A075897",
+    "A089048",
+    "A089049",
+    "A089050",
+    "A089051",
+    "A089052",
+    "A209229",
+    "A319922",
+    "A342247",
+    "A342248",
+    "A342252"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 9,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

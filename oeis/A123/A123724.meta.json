@@ -1,0 +1,22 @@
+{
+  "description": "Partial sums of (-1)^floor(n*2^(1/3)).",
+  "id": "A123724",
+  "mentions": [
+    "A123737",
+    "A123738",
+    "A123739"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "look",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = number of occurrences of the decimal representation of n in the concatenation of all terms preceding a(n), or n if there are no such occurrences.",
+  "id": "A322094",
+  "mentions": [
+    "A048991",
+    "A048992"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

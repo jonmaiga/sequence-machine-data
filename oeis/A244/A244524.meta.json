@@ -1,0 +1,19 @@
+{
+  "description": "Number of pairs (f,g) of commuting maps {0,..,n-1}->{0,..,n-1} with 0 <= f(k), g(k) <= k.",
+  "id": "A244524",
+  "mentions": [
+    "A053529",
+    "A181162"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = distance of n-th prime to nearest prime power p^k, k=0 and k >= 2 (A025475).",
+  "id": "A301630",
+  "mentions": [
+    "A000040",
+    "A000961",
+    "A025475",
+    "A047972",
+    "A047973",
+    "A061670",
+    "A246547",
+    "A246655"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

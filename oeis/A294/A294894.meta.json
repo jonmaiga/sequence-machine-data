@@ -1,0 +1,26 @@
+{
+  "description": "Number of divisors d of n such that either d=1 or Stern polynomial B(d,x) is reducible.",
+  "id": "A294894",
+  "mentions": [
+    "A000005",
+    "A033273",
+    "A186891",
+    "A283991",
+    "A294884",
+    "A294891",
+    "A294892",
+    "A294893",
+    "A294904"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

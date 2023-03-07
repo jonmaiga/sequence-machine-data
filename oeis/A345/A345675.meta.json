@@ -1,0 +1,20 @@
+{
+  "description": "Numbers m such that D_{m-1} is the smallest base b > 1 for which b^{m-1} == 1 (mod m), where D_k is the denominator (A027642) of Bernoulli number B_k.",
+  "id": "A345675",
+  "mentions": [
+    "A027642",
+    "A105222",
+    "A121707",
+    "A316940"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

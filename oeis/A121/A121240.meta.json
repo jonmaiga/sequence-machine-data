@@ -1,0 +1,22 @@
+{
+  "description": "Numerator of sum_{k=1..n} 1/2^prime(k).",
+  "id": "A121240",
+  "mentions": [
+    "A010051",
+    "A034785",
+    "A051006",
+    "A072762"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

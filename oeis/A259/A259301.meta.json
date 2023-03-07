@@ -1,0 +1,18 @@
+{
+  "description": "Taken over all those prime-partitionable numbers m for which there exists a 2-partition of the set of primes < m that has one subset containing two primes only, a(n) is the frequency with which the smaller prime occurs, where n is the prime index.",
+  "id": "A259301",
+  "mentions": [
+    "A059756",
+    "A245664"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

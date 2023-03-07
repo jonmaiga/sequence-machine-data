@@ -1,0 +1,21 @@
+{
+  "description": "Numbers such that the number formed by digits in even position divides, or is divisible by, the number formed by the digits in odd position; both must be nonzero.",
+  "id": "A267085",
+  "mentions": [
+    "A080463",
+    "A080464",
+    "A080465",
+    "A267086"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:28",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

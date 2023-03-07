@@ -1,0 +1,26 @@
+{
+  "description": "Dirichlet convolution of Fibonacci numbers with A349452 (Dirichlet inverse of A011782, 2^(n-1)).",
+  "id": "A349565",
+  "mentions": [
+    "A000045",
+    "A011782",
+    "A034738",
+    "A034748",
+    "A349452",
+    "A349563",
+    "A349566",
+    "A349567",
+    "A349569"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

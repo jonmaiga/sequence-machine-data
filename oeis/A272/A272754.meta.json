@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that p + 2 is a Carmichael number (A002997).",
+  "id": "A272754",
+  "mentions": [
+    "A002997",
+    "A135437"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

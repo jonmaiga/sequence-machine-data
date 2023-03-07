@@ -1,0 +1,19 @@
+{
+  "description": "Minimum integers equal to (sum_{i=n..n+k} F(i)) / (F(n) - 1), where F(i) are Fibonacci numbers (A000045).",
+  "id": "A226842",
+  "mentions": [
+    "A000045",
+    "A000071",
+    "A226841"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

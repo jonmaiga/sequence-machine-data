@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of unordered pairs of vertices at distance k in the cycle C_n (1 <= k <= floor(n/2)).",
+  "id": "A143939",
+  "mentions": [
+    "A000217",
+    "A034828"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 2,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

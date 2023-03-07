@@ -1,0 +1,25 @@
+{
+  "description": "Heinz numbers of integer partitions whose consecutive subsequence-sums cover an initial interval of positive integers.",
+  "id": "A325763",
+  "mentions": [
+    "A002033",
+    "A002865",
+    "A103295",
+    "A103300",
+    "A169942",
+    "A325676",
+    "A325685",
+    "A325764",
+    "A325765"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

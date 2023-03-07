@@ -1,0 +1,18 @@
+{
+  "description": "G.f. satisfies: A(x) = Sum_{n>=0} x^n*A(x)^n/sf(n) where A(x) = Sum_{n>=0} a(n)*x^n/sf(n), and sf(n) = Product_{k=0..n} k! is the superfactorial of n (A000178).",
+  "id": "A194937",
+  "mentions": [
+    "A000178"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

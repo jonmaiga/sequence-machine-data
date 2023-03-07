@@ -1,0 +1,22 @@
+{
+  "description": "Square array T(n,k): concatenate the absolute differences of the digits of n and k (the smaller one padded with leading zeros), read by antidiagonals, n, k >= 0.",
+  "id": "A330240",
+  "mentions": [
+    "A049581",
+    "A053616",
+    "A330237",
+    "A330238"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 120,
+    "source": "oeis-entry"
+  }
+}

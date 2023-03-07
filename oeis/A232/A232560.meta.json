@@ -1,0 +1,19 @@
+{
+  "description": "Inverse permutation of the sequence of positive integers at A232559.",
+  "id": "A232560",
+  "mentions": [
+    "A000045",
+    "A232559"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:50",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

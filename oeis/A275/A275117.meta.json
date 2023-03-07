@@ -1,0 +1,23 @@
+{
+  "description": "Direction where Langton's ant is looking after n moves: 1 if looking in starting direction, 2 if looking 90 degrees clockwise from starting direction, 3 if looking 90 degrees counterclockwise from starting direction, or 4 if looking in direction opposite to starting direction.",
+  "id": "A275117",
+  "mentions": [
+    "A102358",
+    "A102369",
+    "A204810",
+    "A255938",
+    "A261990",
+    "A269757"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

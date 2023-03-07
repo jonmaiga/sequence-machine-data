@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that (2730n)^12+488669 is prime.",
+  "id": "A126897",
+  "mentions": [
+    "A066386",
+    "A122131",
+    "A126893",
+    "A126894",
+    "A126895"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

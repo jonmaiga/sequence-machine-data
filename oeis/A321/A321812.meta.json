@@ -1,0 +1,32 @@
+{
+  "description": "Sum of 8th powers of odd divisors of n.",
+  "id": "A321812",
+  "mentions": [
+    "A000265",
+    "A013667",
+    "A013956",
+    "A050999",
+    "A051000",
+    "A051001",
+    "A051002",
+    "A285425",
+    "A321543",
+    "A321565",
+    "A321807",
+    "A321810",
+    "A321816",
+    "A321836"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

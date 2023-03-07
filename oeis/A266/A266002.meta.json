@@ -1,0 +1,22 @@
+{
+  "description": "Positions in Pi, e, and the Golden Ratio indicate a common digit.",
+  "id": "A266002",
+  "mentions": [
+    "A000796",
+    "A001113",
+    "A001622",
+    "A257492",
+    "A257494"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:26",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

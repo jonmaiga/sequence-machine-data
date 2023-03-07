@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest k > 6 such that k is a Niven number at least in all the bases from 1 to n.",
+  "id": "A226320",
+  "mentions": [
+    "A005349",
+    "A225427",
+    "A226169",
+    "A226319"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

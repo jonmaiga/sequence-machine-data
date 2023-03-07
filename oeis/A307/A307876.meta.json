@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest m such that there are prime(n) Pythagorean triangles with a leg (not hypotenuse) of length m, or -1 if no such m exists.",
+  "id": "A307876",
+  "mentions": [
+    "A000040",
+    "A005384",
+    "A046079"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

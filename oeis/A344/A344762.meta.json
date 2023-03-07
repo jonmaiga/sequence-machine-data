@@ -1,0 +1,26 @@
+{
+  "description": "\"Twisted variant\" of A342002: a(n) = A342001(A328627(n)) = A342002(A328626(n)).",
+  "id": "A344762",
+  "mentions": [
+    "A003415",
+    "A003557",
+    "A276086",
+    "A328626",
+    "A328627",
+    "A342001",
+    "A342002",
+    "A344761"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

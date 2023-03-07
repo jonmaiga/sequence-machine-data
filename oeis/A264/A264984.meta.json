@@ -1,0 +1,25 @@
+{
+  "description": "Even bisection of A263273; terms of A263262 doubled.",
+  "id": "A264984",
+  "mentions": [
+    "A000035",
+    "A010673",
+    "A010873",
+    "A263262",
+    "A263272",
+    "A263273",
+    "A264975",
+    "A264983"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

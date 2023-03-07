@@ -1,0 +1,20 @@
+{
+  "description": "Integers that are one third of their arithmetic derivatives.",
+  "id": "A282771",
+  "mentions": [
+    "A003415",
+    "A072873",
+    "A165558"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

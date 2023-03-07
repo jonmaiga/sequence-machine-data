@@ -1,0 +1,20 @@
+{
+  "description": "a(0) = 1, a(1) = 4, a(2) = 11, and a(n) = 4*a(n-1) - 4*a(n-2) for n >= 3.",
+  "id": "A339252",
+  "mentions": [
+    "A106472",
+    "A207615"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

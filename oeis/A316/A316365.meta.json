@@ -1,0 +1,26 @@
+{
+  "description": "Number of factorizations of n into factors > 1 such that every distinct subset of the factors has a different sum.",
+  "id": "A316365",
+  "mentions": [
+    "A001055",
+    "A108917",
+    "A275972",
+    "A292886",
+    "A293627",
+    "A294150",
+    "A299702",
+    "A316313",
+    "A316314",
+    "A316364"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

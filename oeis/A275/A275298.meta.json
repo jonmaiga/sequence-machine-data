@@ -1,0 +1,21 @@
+{
+  "description": "Number of ordered ways to write n as w^3 + x^2 + y^2 + z^2 with x - w a square, where x,y,z,w are nonnegative integers with y <= z > w.",
+  "id": "A275298",
+  "mentions": [
+    "A000290",
+    "A000578",
+    "A271518",
+    "A275297",
+    "A275299"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

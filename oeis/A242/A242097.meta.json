@@ -1,0 +1,21 @@
+{
+  "description": "Sp = reversal of some square s where s = x^2 for x = 1,2,.. (ignoring leading zeros). Sp is in the sequence if it is semiprime.",
+  "id": "A242097",
+  "mentions": [
+    "A001358",
+    "A115710",
+    "A115711"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

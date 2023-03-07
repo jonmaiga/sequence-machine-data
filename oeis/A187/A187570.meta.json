@@ -1,0 +1,22 @@
+{
+  "description": "Rank transform of the sequence ceiling(n/3); complement of A187571.",
+  "id": "A187570",
+  "mentions": [
+    "A000027",
+    "A002264",
+    "A045749",
+    "A045750",
+    "A187224",
+    "A187571"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 14:52:47",
+    "offset": 1,
+    "size": 92,
+    "source": "joeis"
+  }
+}

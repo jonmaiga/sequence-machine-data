@@ -1,0 +1,19 @@
+{
+  "description": "Nonprimes n such that either n+-1 is prime.",
+  "id": "A171689",
+  "mentions": [
+    "A100317"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

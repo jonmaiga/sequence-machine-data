@@ -1,0 +1,21 @@
+{
+  "description": "Denominator of the square of the radius of the largest circle, centered at the origin, around which a Racetrack car (using von Neumann neighborhood) can run a full lap in n steps.",
+  "id": "A351352",
+  "mentions": [
+    "A351042",
+    "A351350",
+    "A351351"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "frac",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 8,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

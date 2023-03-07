@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = A022998(n)^2.",
+  "id": "A154615",
+  "mentions": [
+    "A000290",
+    "A016754",
+    "A022998",
+    "A061038"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:38:15",
+    "offset": 0,
+    "size": 49,
+    "source": "joeis"
+  }
+}

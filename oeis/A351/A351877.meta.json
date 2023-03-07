@@ -1,0 +1,19 @@
+{
+  "description": "Nonnegative integers whose trajectory under iteration of taking the absolute value of the alternating sum of the cubes of the digits includes zero.",
+  "id": "A351877",
+  "mentions": [
+    "A345680",
+    "A351985"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

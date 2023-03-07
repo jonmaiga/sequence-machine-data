@@ -1,0 +1,17 @@
+{
+  "description": "A sequence which changes by one or zero: a(n) = a(n-1-a(a(n-1))) + a(a(a(n-1))) for n > 1, a(n) = n for n < 2.",
+  "id": "A320063",
+  "mentions": [
+    "A093878"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

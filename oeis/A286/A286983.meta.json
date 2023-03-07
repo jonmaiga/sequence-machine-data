@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest integer that can appear as the n-th term of two distinct nondecreasing sequences of positive integers that satisfy the Fibonacci recurrence relation.",
+  "id": "A286983",
+  "mentions": [
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

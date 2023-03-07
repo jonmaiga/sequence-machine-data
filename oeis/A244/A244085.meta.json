@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that the concatenation of p and 2*p-1 is also prime.",
+  "id": "A244085",
+  "mentions": [
+    "A168164"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k for which there exist no palindromic decagonal numbers (also known as 10-gonals) of length k.",
+  "id": "A307830",
+  "mentions": [
+    "A001107",
+    "A082722",
+    "A307827",
+    "A307829"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

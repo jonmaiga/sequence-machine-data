@@ -1,0 +1,19 @@
+{
+  "description": "G.f.: 1 = Sum_{n>=0} a(n)*x^n * [ Sum_{k=0..n+1} binomial(n+1, k)^2*(-x)^k ]^2.",
+  "id": "A212370",
+  "mentions": [
+    "A006013",
+    "A212371",
+    "A247031"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

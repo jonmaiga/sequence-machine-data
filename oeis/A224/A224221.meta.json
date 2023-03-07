@@ -1,0 +1,20 @@
+{
+  "description": "a(0)=3; for n>0, a(n) is the smallest odd prime q not already in the sequence such that the n-th prime p(n) divides a(n-1)+q. If no such prime q exists, the sequence terminates.",
+  "id": "A224221",
+  "mentions": [
+    "A134204",
+    "A224222"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

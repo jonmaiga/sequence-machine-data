@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least nonnegative integer, not yet present in the sequence, such that sums of some of the terms up to a(n) produce exactly n distinct primes.",
+  "id": "A317750",
+  "mentions": [
+    "A000040",
+    "A001223"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

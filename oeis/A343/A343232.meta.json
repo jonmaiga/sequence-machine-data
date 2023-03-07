@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle T read by rows: T(n, m) gives the solutions j of the congruence A002061(j+1) = j^2 + j + 1 == 0 (mod k(n)), with k(n) = A034017(n+1), for j from {0, 1, ..., k(n)-1}, and n >= 1.",
+  "id": "A343232",
+  "mentions": [
+    "A002061",
+    "A034017",
+    "A341422"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

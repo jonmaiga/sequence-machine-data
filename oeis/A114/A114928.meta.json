@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that sigma(n)=4*reversal(n).",
+  "id": "A114928",
+  "mentions": [
+    "A069216",
+    "A105324",
+    "A114927"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

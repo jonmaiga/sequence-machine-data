@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = k if the first appearance of n in A077618 is at index k, or 0 if k does not appear in A077618.",
+  "id": "A291056",
+  "mentions": [
+    "A077618"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

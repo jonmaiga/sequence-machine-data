@@ -1,0 +1,25 @@
+{
+  "description": "Sum(mu(i)*sigma(j): i+j=n), with mu=A008683 and sigma=A000203.",
+  "id": "A112964",
+  "mentions": [
+    "A000203",
+    "A000385",
+    "A008683",
+    "A024916",
+    "A068341",
+    "A112962",
+    "A112963",
+    "A112966",
+    "A112968"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

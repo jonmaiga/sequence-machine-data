@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n whose Euler's totient function phi(n), divided by two, plus one, p = (phi(n) / 2) + 1, is a divisor of n.",
+  "id": "A256241",
+  "mentions": [
+    "A000010"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

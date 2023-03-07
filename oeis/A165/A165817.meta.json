@@ -1,0 +1,30 @@
+{
+  "description": "Number of compositions (= ordered integer partitions) of n into 2n parts.",
+  "id": "A165817",
+  "mentions": [
+    "A000079",
+    "A001700",
+    "A001764",
+    "A004319",
+    "A005809",
+    "A006013",
+    "A013698",
+    "A025174",
+    "A045721",
+    "A059481",
+    "A081204",
+    "A117671",
+    "A236194"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:49",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

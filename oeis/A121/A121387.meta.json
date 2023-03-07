@@ -1,0 +1,24 @@
+{
+  "description": "Semiprimes p*q with p and q primes of the form 4k+1 (A002144).",
+  "id": "A121387",
+  "mentions": [
+    "A002144",
+    "A080109",
+    "A080774",
+    "A107978",
+    "A108181",
+    "A121388",
+    "A131574"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

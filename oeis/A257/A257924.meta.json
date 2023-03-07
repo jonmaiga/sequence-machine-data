@@ -1,0 +1,23 @@
+{
+  "description": "Primes p with p-1, p+1, prime(p)-1 and prime(p)+1 all practical.",
+  "id": "A257924",
+  "mentions": [
+    "A000040",
+    "A005153",
+    "A209236",
+    "A210479",
+    "A257922",
+    "A258838",
+    "A259539"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

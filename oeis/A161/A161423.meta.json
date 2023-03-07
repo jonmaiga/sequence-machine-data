@@ -1,0 +1,21 @@
+{
+  "description": "Primes in A161420.",
+  "id": "A161423",
+  "mentions": [
+    "A000695",
+    "A139253",
+    "A161420",
+    "A161421"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

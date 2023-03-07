@@ -1,0 +1,23 @@
+{
+  "description": "Irregular array read by rows: T(n, k) giving in row n the divisors of nonprime numbers that are 3 (mod 4).",
+  "id": "A273164",
+  "mentions": [
+    "A004767",
+    "A078703",
+    "A091236",
+    "A273165"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

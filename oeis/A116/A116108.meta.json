@@ -1,0 +1,20 @@
+{
+  "description": "Squares that are equal to the sum of 3 consecutive cubes.",
+  "id": "A116108",
+  "mentions": [
+    "A027602",
+    "A218979"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

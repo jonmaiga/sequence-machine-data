@@ -1,0 +1,19 @@
+{
+  "description": "G.f.: (z^12+1-z^11-z^10+z^8-z^6+z^5-z^3+z)/((z+1)*(z-1)^2).",
+  "id": "A136746",
+  "mentions": [
+    "A000051",
+    "A003003"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:37:59",
+    "offset": 0,
+    "size": 76,
+    "source": "joeis"
+  }
+}

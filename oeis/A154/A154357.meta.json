@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 25*n^2 - 14*n + 2.",
+  "id": "A154357",
+  "mentions": [
+    "A154355",
+    "A154358",
+    "A154359",
+    "A154360",
+    "A154361"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:36",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

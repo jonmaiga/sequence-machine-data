@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of possible values of (x^3 + y^3) mod n, where x and y are any integers.",
+  "id": "A305211",
+  "mentions": [
+    "A155918"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

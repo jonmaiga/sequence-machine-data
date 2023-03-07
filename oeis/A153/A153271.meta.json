@@ -1,0 +1,35 @@
+{
+  "description": "Triangle T(n, k) = Product_{j=0..k} (j*n + prime(m)), with T(n, 0) = prime(m) and m = 3, read by rows.",
+  "id": "A153271",
+  "mentions": [
+    "A001147",
+    "A001710",
+    "A001720",
+    "A007696",
+    "A008543",
+    "A008545",
+    "A032031",
+    "A034000",
+    "A047056",
+    "A051577",
+    "A052562",
+    "A144739",
+    "A144758",
+    "A147585",
+    "A147625",
+    "A147629",
+    "A153272"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

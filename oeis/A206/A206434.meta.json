@@ -1,0 +1,24 @@
+{
+  "description": "Total number of even parts in the last section of the set of partitions of n.",
+  "id": "A206434",
+  "mentions": [
+    "A006128",
+    "A066898",
+    "A135010",
+    "A138121",
+    "A138137",
+    "A182703",
+    "A206433"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

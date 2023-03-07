@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest k such that k!'s prime(n)-smooth part is less than its prime(n+1)-rough part.",
+  "id": "A360316",
+  "mentions": [
+    "A000142"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Row products of table A244365.",
+  "id": "A245722",
+  "mentions": [
+    "A000040",
+    "A001221",
+    "A001222",
+    "A006530",
+    "A008966",
+    "A020639",
+    "A182134",
+    "A244365",
+    "A245396"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

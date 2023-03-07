@@ -1,0 +1,22 @@
+{
+  "description": "Numbers m such that (4^m + 5) / 3 is prime.",
+  "id": "A261539",
+  "mentions": [
+    "A163834",
+    "A253772",
+    "A261577",
+    "A261578",
+    "A261579"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

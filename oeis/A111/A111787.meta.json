@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least k >= 3 such that n can be written as sum of k consecutive integers. a(n)=0 if such a k does not exist.",
+  "id": "A111787",
+  "mentions": [
+    "A109814",
+    "A111774",
+    "A111775"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "O.g.f. exp( Sum_{n >= 1} A211421(n)*x^n/n ).",
+  "id": "A262740",
+  "mentions": [
+    "A000108",
+    "A007297",
+    "A066357",
+    "A100100",
+    "A211421",
+    "A262737",
+    "A262738",
+    "A262739"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:12",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

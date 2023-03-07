@@ -1,0 +1,21 @@
+{
+  "description": "Prime(n) without odd prime digits of n.",
+  "id": "A155479",
+  "mentions": [
+    "A000027",
+    "A000040",
+    "A002808",
+    "A141468"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

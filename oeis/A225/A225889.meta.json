@@ -1,0 +1,18 @@
+{
+  "description": "Least prime p_m such that n = p_m-p_{m-1}+...+(-1)^(m-k)*p_k for some 0",
+  "id": "A225889",
+  "mentions": [
+    "A000040",
+    "A222579"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

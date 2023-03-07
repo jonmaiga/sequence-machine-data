@@ -1,0 +1,26 @@
+{
+  "description": "In prime factorization of n: replace each factor with its largest decimal digit.",
+  "id": "A262401",
+  "mentions": [
+    "A001222",
+    "A002473",
+    "A006530",
+    "A027746",
+    "A054055",
+    "A060418",
+    "A068191"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

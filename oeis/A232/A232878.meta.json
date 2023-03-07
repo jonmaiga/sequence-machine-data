@@ -1,0 +1,22 @@
+{
+  "description": "Twin prime pairs which sum to perfect squares.",
+  "id": "A232878",
+  "mentions": [
+    "A001097",
+    "A054735",
+    "A069496",
+    "A077800",
+    "A152786"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

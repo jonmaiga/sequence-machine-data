@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: numerators of coefficients of the polynomials phi_s(t) used for asymptotic elementary function expansions of parabolic cylinder functions U(a, x), V(a, x).",
+  "id": "A158503",
+  "mentions": [
+    "A001164"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

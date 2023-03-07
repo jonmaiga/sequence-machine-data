@@ -1,0 +1,22 @@
+{
+  "description": "Correlation triangle for floor((n+4)/4).",
+  "id": "A115268",
+  "mentions": [
+    "A115269",
+    "A115270",
+    "A115271"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:45:51",
+    "offset": 0,
+    "size": 91,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of Motzkin n-paths with two kinds of level steps both of which are final steps.",
+  "id": "A253918",
+  "mentions": [
+    "A143013"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

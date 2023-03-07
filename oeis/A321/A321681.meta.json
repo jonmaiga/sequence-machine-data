@@ -1,0 +1,31 @@
+{
+  "description": "Number of non-isomorphic weight-n connected strict antichains of multisets with multiset density -1.",
+  "id": "A321681",
+  "mentions": [
+    "A006126",
+    "A007718",
+    "A056156",
+    "A096827",
+    "A285572",
+    "A293993",
+    "A293994",
+    "A305052",
+    "A319557",
+    "A319565",
+    "A319719",
+    "A319721",
+    "A321585",
+    "A321680"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

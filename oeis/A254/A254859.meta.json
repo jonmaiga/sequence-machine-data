@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that are both a sum and a product of two or more consecutive primes.",
+  "id": "A254859",
+  "mentions": [
+    "A050936",
+    "A097889"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

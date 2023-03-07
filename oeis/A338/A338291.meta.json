@@ -1,0 +1,25 @@
+{
+  "description": "Matrix inverse of the rascal triangle (A077028), read across rows..",
+  "id": "A338291",
+  "mentions": [
+    "A000007",
+    "A000142",
+    "A077028",
+    "A167374",
+    "A296180",
+    "A338817"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

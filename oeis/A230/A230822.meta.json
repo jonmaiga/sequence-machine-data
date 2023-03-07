@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest integer that makes A230762(n) the commonest number of decompositions of 2k into an unordered sum of two odd primes, where 3 <= k <= a(n).",
+  "id": "A230822",
+  "mentions": [
+    "A002375",
+    "A230762"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:48",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

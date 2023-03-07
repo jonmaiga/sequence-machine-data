@@ -1,0 +1,22 @@
+{
+  "description": "Number of nonludic numbers (A192607) not greater than n.",
+  "id": "A236863",
+  "mentions": [
+    "A065855",
+    "A091245",
+    "A192512",
+    "A192607",
+    "A237427"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

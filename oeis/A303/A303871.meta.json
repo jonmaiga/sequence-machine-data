@@ -1,0 +1,19 @@
+{
+  "description": "Number of noncrossing partitions up to rotation and reflection composed of n blocks of size 5.",
+  "id": "A303871",
+  "mentions": [
+    "A054365",
+    "A303929"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

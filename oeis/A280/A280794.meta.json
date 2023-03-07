@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f.: cosh( Integral exp(x^2) dx )^2.",
+  "id": "A280794",
+  "mentions": [
+    "A001813",
+    "A279840"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

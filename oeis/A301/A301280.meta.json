@@ -1,0 +1,22 @@
+{
+  "description": "Nearest integer to variance of n-th row of Pascal's triangle.",
+  "id": "A301280",
+  "mentions": [
+    "A000265",
+    "A054650",
+    "A084623",
+    "A301278",
+    "A301279"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n, k) = (-1)^(n - k) * binomial(2n + 1, n - k) * L(2k + 1), 0 <= k <= n, where L(k) is the k-th Lucas number (A000032).",
+  "id": "A326832",
+  "mentions": [
+    "A000032",
+    "A007318"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

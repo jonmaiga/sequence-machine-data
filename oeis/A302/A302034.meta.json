@@ -1,0 +1,32 @@
+{
+  "description": "A028234 analog for a factorization process based on the Ludic sieve (A255127); Discard all instances of the (smallest) Ludic factor A272565(n) from n.",
+  "id": "A302034",
+  "mentions": [
+    "A000265",
+    "A003309",
+    "A028234",
+    "A255127",
+    "A260738",
+    "A260739",
+    "A269379",
+    "A269380",
+    "A272565",
+    "A302025",
+    "A302026",
+    "A302032",
+    "A302035",
+    "A302036",
+    "A302044"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

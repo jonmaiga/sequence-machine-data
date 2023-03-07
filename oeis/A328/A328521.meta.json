@@ -1,0 +1,28 @@
+{
+  "description": "Smallest highly composite number that has n prime factors counted with multiplicity.",
+  "id": "A328521",
+  "mentions": [
+    "A001222",
+    "A002182",
+    "A025487",
+    "A056239",
+    "A108951",
+    "A112778",
+    "A133411",
+    "A329902",
+    "A330743",
+    "A330748",
+    "A354880"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:57",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

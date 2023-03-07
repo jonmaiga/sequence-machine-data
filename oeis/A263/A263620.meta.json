@@ -1,0 +1,24 @@
+{
+  "description": "Number of nonzero palindromic squares with at most 2n digits.",
+  "id": "A263620",
+  "mentions": [
+    "A002778",
+    "A002779",
+    "A263617",
+    "A263618",
+    "A263619"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

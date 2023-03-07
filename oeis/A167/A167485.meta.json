@@ -1,0 +1,20 @@
+{
+  "description": "Smallest positive integer m such that n can be expressed as the sum of an initial subsequence of the divisors of m, or 0 if no such m exists.",
+  "id": "A167485",
+  "mentions": [
+    "A000203",
+    "A001065",
+    "A051444",
+    "A078587"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:51",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

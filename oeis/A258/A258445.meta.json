@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle related to Pascal's triangle.",
+  "id": "A258445",
+  "mentions": [
+    "A005408",
+    "A007318",
+    "A164991"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

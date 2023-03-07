@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways to write n as the sum of three unordered generalized heptagonal numbers.",
+  "id": "A256171",
+  "mentions": [
+    "A085787",
+    "A255934"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least semiprime congruent to 1 (mod n-th semiprime).",
+  "id": "A343670",
+  "mentions": [
+    "A001358",
+    "A108181",
+    "A112771"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

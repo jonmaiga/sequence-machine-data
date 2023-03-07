@@ -1,0 +1,21 @@
+{
+  "description": "Partial sums of f(n) = A192490(2n+1); least monotonic left inverse of A266409.",
+  "id": "A266350",
+  "mentions": [
+    "A192490",
+    "A266409",
+    "A266417",
+    "A266637"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:27",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

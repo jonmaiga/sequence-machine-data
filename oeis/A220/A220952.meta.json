@@ -1,0 +1,21 @@
+{
+  "description": "A twisted enumeration of the nonnegative integers.",
+  "id": "A220952",
+  "mentions": [
+    "A300855",
+    "A300857"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the asymptotic mean of 2^omega(k)/d(k), where omega(k) is the number of distinct prime divisors of k (A001221) and d(k) is its number of divisors (A000005).",
+  "id": "A308043",
+  "mentions": [
+    "A000005",
+    "A001221",
+    "A034444",
+    "A307870"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

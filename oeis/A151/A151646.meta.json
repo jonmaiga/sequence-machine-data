@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations of 4 indistinguishable copies of 1..n with exactly 8 adjacent element pairs in decreasing order.",
+  "id": "A151646",
+  "mentions": [
+    "A236463"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

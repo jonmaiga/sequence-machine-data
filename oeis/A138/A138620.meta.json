@@ -1,0 +1,17 @@
+{
+  "description": "Nonnegative integers n such that 12*n-1 is prime.",
+  "id": "A138620",
+  "mentions": [
+    "A068231"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

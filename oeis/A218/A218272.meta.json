@@ -1,0 +1,23 @@
+{
+  "description": "Infinitesimal generator for transpose of the Pascal matrix A007318 (as upper triangular matrices).",
+  "id": "A218272",
+  "mentions": [
+    "A007318",
+    "A021009",
+    "A132440",
+    "A134402"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

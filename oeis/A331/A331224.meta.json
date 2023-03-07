@@ -1,0 +1,25 @@
+{
+  "description": "Numerator of squared radius of circumscribed circle of a triangle with integer sides i <= j <= k, such that the number of triangles with this radius sets a new record. Denominators are A331225.",
+  "id": "A331224",
+  "mentions": [
+    "A331040",
+    "A331041",
+    "A331225",
+    "A331226",
+    "A331227",
+    "A331228"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "frac",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

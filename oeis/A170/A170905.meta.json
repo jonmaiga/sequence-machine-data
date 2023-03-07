@@ -1,0 +1,26 @@
+{
+  "description": "Consider the hexagonal cellular automaton defined in A151723, A151724; a(n) = number of cells that go from OFF to ON at stage n, if we only look at a 60-degree wedge (including the two bounding edges).",
+  "id": "A170905",
+  "mentions": [
+    "A000079",
+    "A000695",
+    "A011782",
+    "A151723",
+    "A151724",
+    "A169778",
+    "A169780",
+    "A170898"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:54",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

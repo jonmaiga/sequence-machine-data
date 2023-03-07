@@ -1,0 +1,34 @@
+{
+  "description": "Array T(n,k) = k^2 + (2n-4)*floor(k/2)^2, n >= 0, k >= 0, read by descending antidiagonals.",
+  "id": "A354596",
+  "mentions": [
+    "A000290",
+    "A003991",
+    "A008794",
+    "A133728",
+    "A213037",
+    "A247375",
+    "A266222",
+    "A266439",
+    "A319929",
+    "A322630",
+    "A322744",
+    "A327259",
+    "A327263",
+    "A354594",
+    "A354595"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of (2n-1)-step self-avoiding paths between two adjacent sites of a 2-dimensional square lattice.",
+  "id": "A225877",
+  "mentions": [
+    "A002931",
+    "A010566"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

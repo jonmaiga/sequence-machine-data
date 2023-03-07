@@ -1,0 +1,24 @@
+{
+  "description": "Table read by rows: T(n,k) = number of k-sided polygons in an equal-armed cross with arms of length n (see Comments in A331456 for definition) for k = 3,4,5,6,7.",
+  "id": "A333037",
+  "mentions": [
+    "A331451",
+    "A331456",
+    "A332723",
+    "A333025",
+    "A333035",
+    "A333036"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

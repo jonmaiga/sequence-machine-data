@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that sigma(phi(n)) - phi(n) = n + phi(sigma(n)-n); that is, f(g(n)) - g(f(n)) = n where f = A001065 and g = A000010.",
+  "id": "A291869",
+  "mentions": [
+    "A000010",
+    "A001065",
+    "A062401",
+    "A062402"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

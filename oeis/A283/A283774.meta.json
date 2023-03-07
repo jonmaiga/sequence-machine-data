@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that U(k) == 2 mod 3, where U = A001950 = upper Wythoff sequence.",
+  "id": "A283774",
+  "mentions": [
+    "A000201",
+    "A001622",
+    "A001950",
+    "A283772",
+    "A283773"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:54",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

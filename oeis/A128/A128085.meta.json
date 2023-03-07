@@ -1,0 +1,21 @@
+{
+  "description": "Central coefficients of q in the q-analog of the even double factorials: a(n) = [q^([n^2/2])] Product_{j=1..n} (1-q^(2j))/(1-q).",
+  "id": "A128085",
+  "mentions": [
+    "A000140",
+    "A000165",
+    "A128081",
+    "A128084",
+    "A128086"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

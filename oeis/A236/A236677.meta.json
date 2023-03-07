@@ -1,0 +1,25 @@
+{
+  "description": "a(0)=1; for n>0, a(n) = (1-a(floor(log_2(n)))) * a(n-msb(n)); characteristic function of A079599.",
+  "id": "A236677",
+  "mentions": [
+    "A000523",
+    "A034798",
+    "A047467",
+    "A053645",
+    "A079599",
+    "A125999",
+    "A126002",
+    "A236678"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 0,
+    "size": 121,
+    "source": "joeis"
+  }
+}

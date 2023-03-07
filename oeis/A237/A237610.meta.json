@@ -1,0 +1,27 @@
+{
+  "description": "Positive integers k such that x^2 - 10xy + y^2 + k = 0 has integer solutions.",
+  "id": "A237610",
+  "mentions": [
+    "A001079",
+    "A031363",
+    "A072256",
+    "A074061",
+    "A080806",
+    "A084917",
+    "A129445",
+    "A237351",
+    "A237599",
+    "A237606",
+    "A237609"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

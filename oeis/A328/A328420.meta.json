@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that A317993(k) sets a new record; numbers k such that (Z/mZ)* = (Z/kZ)* has more solutions for m than all k' < k, where (Z/mZ)* is the multiplicative group of integers modulo m.",
+  "id": "A328420",
+  "mentions": [
+    "A317993",
+    "A328421"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

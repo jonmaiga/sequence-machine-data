@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that can be written as sum of one or more distinct elements of A000043. Numbers k for which sigma(A180162(k))=2^k, k>=2.",
+  "id": "A180221",
+  "mentions": [
+    "A000043",
+    "A046528",
+    "A078426",
+    "A180162",
+    "A180169"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

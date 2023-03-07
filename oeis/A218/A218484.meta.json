@@ -1,0 +1,17 @@
+{
+  "description": "Square numbers n for which sigma(n) - d(n) is also a perfect square.",
+  "id": "A218484",
+  "mentions": [
+    "A221856"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Square array read by antidiagonals: T(m,n) = number of Eulerian circuits in the Cartesian product of two directed cycles of lengths m and n.",
+  "id": "A212801",
+  "mentions": [
+    "A003462",
+    "A006239",
+    "A006240",
+    "A212802",
+    "A212803",
+    "A298117",
+    "A298119"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

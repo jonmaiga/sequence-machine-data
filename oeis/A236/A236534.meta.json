@@ -1,0 +1,18 @@
+{
+  "description": "Let f be a Fibonacci-like sequence seeded by f(1)=1, f(2)=k. a(n) is the smallest k > 0 such that f(n) is a square, or 0 if no such k exists.",
+  "id": "A236534",
+  "mentions": [
+    "A000045",
+    "A236506"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

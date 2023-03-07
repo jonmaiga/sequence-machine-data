@@ -1,0 +1,32 @@
+{
+  "description": "Triangle read by rows: T(n,k), n>=1, k>=1, in which column k lists the numbers A016945 interleaved with k-1 zeros, and the first element of column k is in row k(k+1)/2.",
+  "id": "A272026",
+  "mentions": [
+    "A000203",
+    "A000217",
+    "A001227",
+    "A003056",
+    "A016945",
+    "A074400",
+    "A196020",
+    "A236106",
+    "A237048",
+    "A237593",
+    "A239050",
+    "A239662",
+    "A244050",
+    "A272027"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

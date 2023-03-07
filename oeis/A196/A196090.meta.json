@@ -1,0 +1,19 @@
+{
+  "description": "Positive integers c for which there is a (5/3)-Pythagorean triple (a,b,c) satisfying a<=b.",
+  "id": "A196090",
+  "mentions": [
+    "A195770",
+    "A196088",
+    "A196093"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

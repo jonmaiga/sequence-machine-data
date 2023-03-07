@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X n 0..4 arrays with each element equal to the number of its horizontal and vertical neighbors within one of itself",
+  "id": "A196011",
+  "mentions": [
+    "A196017"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

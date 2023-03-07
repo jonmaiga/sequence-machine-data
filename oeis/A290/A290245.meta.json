@@ -1,0 +1,18 @@
+{
+  "description": "Number of larger members of primitive friendly pairs <= 10^n.",
+  "id": "A290245",
+  "mentions": [
+    "A233039"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

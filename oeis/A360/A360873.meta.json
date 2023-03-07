@@ -1,0 +1,28 @@
+{
+  "description": "Array read by antidiagonals: T(m,n) is the number of (non-null) connected induced subgraphs in the rook graph K_m X K_n.",
+  "id": "A360873",
+  "mentions": [
+    "A000225",
+    "A183109",
+    "A262307",
+    "A286189",
+    "A360850",
+    "A360851",
+    "A360853",
+    "A360874",
+    "A360875"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

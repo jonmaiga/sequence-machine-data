@@ -1,0 +1,19 @@
+{
+  "description": "Least multiple of n in which the n-th digit from left is 1.",
+  "id": "A113556",
+  "mentions": [
+    "A113557"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

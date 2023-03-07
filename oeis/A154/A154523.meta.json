@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that the smallest decimal digit of k equals the smallest decimal digit of prime(k).",
+  "id": "A154523",
+  "mentions": [
+    "A020472",
+    "A054054",
+    "A106110"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:36",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the largest (2n+1)-digit palindrome that is the product of two numbers having an equal number of digits.",
+  "id": "A327435",
+  "mentions": [
+    "A002113",
+    "A308803",
+    "A308983",
+    "A327897"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

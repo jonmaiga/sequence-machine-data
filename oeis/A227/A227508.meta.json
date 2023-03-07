@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that n! is divisible by R(n), the digit reversal of n.",
+  "id": "A227508",
+  "mentions": [
+    "A000142",
+    "A004086"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

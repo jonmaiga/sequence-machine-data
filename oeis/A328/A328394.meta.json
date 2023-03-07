@@ -1,0 +1,24 @@
+{
+  "description": "Maximal digit value in primorial base expansion of A276087(n): a(n) = A328114(A276087(n)).",
+  "id": "A328394",
+  "mentions": [
+    "A051903",
+    "A276086",
+    "A276087",
+    "A328114",
+    "A328322",
+    "A328389",
+    "A328403"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:57",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

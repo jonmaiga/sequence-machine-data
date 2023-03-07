@@ -1,0 +1,22 @@
+{
+  "description": "Odd composite integers m such that A001906(3*m-J(m,5)) == 3*J(m,5) (mod m), where J(m,5) is the Jacobi symbol.",
+  "id": "A340239",
+  "mentions": [
+    "A001906",
+    "A071904",
+    "A340097",
+    "A340122",
+    "A340240",
+    "A340241"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:45",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

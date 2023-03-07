@@ -1,0 +1,22 @@
+{
+  "description": "Primes p with prime(p) + 2 and prime(p) + 6 both prime.",
+  "id": "A236464",
+  "mentions": [
+    "A000040",
+    "A022004",
+    "A236457",
+    "A236458",
+    "A236462",
+    "A236472"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

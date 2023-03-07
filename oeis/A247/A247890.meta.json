@@ -1,0 +1,24 @@
+{
+  "description": "Number of digits in (R_n)^n.",
+  "id": "A247890",
+  "mentions": [
+    "A002061",
+    "A002275",
+    "A014206",
+    "A055642",
+    "A245593"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

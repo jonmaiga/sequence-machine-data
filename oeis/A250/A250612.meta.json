@@ -1,0 +1,17 @@
+{
+  "description": "Number of (n+1)X(n+1) 0..2 arrays with nondecreasing maximum of every two consecutive values in every row and column",
+  "id": "A250612",
+  "mentions": [
+    "A250620"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

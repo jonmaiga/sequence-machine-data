@@ -1,0 +1,21 @@
+{
+  "description": "Absolute discriminants of imaginary quadratic number fields with elementary bicyclic 7-class group (7,7).",
+  "id": "A359872",
+  "mentions": [
+    "A242863",
+    "A359296",
+    "A359871"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

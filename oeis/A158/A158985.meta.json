@@ -1,0 +1,24 @@
+{
+  "description": "Coefficients of polynomials (in descending powers of x) P(n,x) := 1 + P(n-1,x)^2, where P(1,x) = x + 1.",
+  "id": "A158985",
+  "mentions": [
+    "A003095",
+    "A062013",
+    "A158982",
+    "A158983",
+    "A158984",
+    "A158986"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

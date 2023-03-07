@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n! * Sum_{k=0..n} k^(3*n)/k!.",
+  "id": "A356688",
+  "mentions": [
+    "A256016",
+    "A337001",
+    "A349901",
+    "A356673",
+    "A356687"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

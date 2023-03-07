@@ -1,0 +1,22 @@
+{
+  "description": "Sum of A129283 and its Dirichlet inverse.",
+  "id": "A347085",
+  "mentions": [
+    "A003415",
+    "A129283",
+    "A347083",
+    "A347084",
+    "A347086"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

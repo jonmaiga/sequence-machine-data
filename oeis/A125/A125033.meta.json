@@ -1,0 +1,18 @@
+{
+  "description": "Number of labeled nodes in generation n of a rooted tree where a node with label k has k child nodes with distinct labels, such that each child node is assigned the least unused label in the path that leads back to the root node with label '1'.",
+  "id": "A125033",
+  "mentions": [
+    "A007889",
+    "A029768"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

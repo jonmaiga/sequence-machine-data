@@ -1,0 +1,24 @@
+{
+  "description": "Table T read by rows, where T(n, k) is the sum of the largest k primes up to and including prime(n), for 1 <= k <= n.",
+  "id": "A194939",
+  "mentions": [
+    "A000040",
+    "A007504",
+    "A014285",
+    "A067377",
+    "A143121"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

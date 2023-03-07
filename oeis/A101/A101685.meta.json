@@ -1,0 +1,18 @@
+{
+  "description": "First differences of A101684.",
+  "id": "A101685",
+  "mentions": [
+    "A007814",
+    "A101684"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

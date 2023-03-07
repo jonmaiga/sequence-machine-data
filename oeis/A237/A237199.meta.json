@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of e - phi.",
+  "id": "A237199",
+  "mentions": [
+    "A001113",
+    "A001622"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:00:41",
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

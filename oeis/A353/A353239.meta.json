@@ -1,0 +1,21 @@
+{
+  "description": "Lexicographically earliest infinite sequence of distinct positive numbers such that, for n > 2, a(n) has either a common factor with a(n-1) but not with a(n-2), or with a(n-2) but not with a(n-1).",
+  "id": "A353239",
+  "mentions": [
+    "A064413",
+    "A084937",
+    "A098550",
+    "A270139",
+    "A336957"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

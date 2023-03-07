@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n / gcd(A309639(n), A319626(n)).",
+  "id": "A330742",
+  "mentions": [
+    "A309639",
+    "A319626",
+    "A330692",
+    "A330741",
+    "A330749"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

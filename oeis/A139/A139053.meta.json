@@ -1,0 +1,23 @@
+{
+  "description": "Array read by rows: row n lists the first 3 primes with n digits.",
+  "id": "A139053",
+  "mentions": [
+    "A000040",
+    "A003617",
+    "A073914",
+    "A139052",
+    "A139054"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:27",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

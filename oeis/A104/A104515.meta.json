@@ -1,0 +1,20 @@
+{
+  "description": "Difference between the maximum number of consecutive integers and the least number >1 of consecutive integers, the sum of which equals 2n.",
+  "id": "A104515",
+  "mentions": [
+    "A104512",
+    "A104513",
+    "A104514",
+    "A104516"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

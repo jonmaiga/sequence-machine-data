@@ -1,0 +1,19 @@
+{
+  "description": "Baron Munchhausen's Omni-Sequence.",
+  "id": "A186313",
+  "mentions": [
+    "A174541"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

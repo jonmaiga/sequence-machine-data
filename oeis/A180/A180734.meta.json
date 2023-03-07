@@ -1,0 +1,25 @@
+{
+  "description": "Numbers the absolute value of whose deficiency is a deficient number.",
+  "id": "A180734",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A005100",
+    "A005101",
+    "A005843",
+    "A033630",
+    "A033879"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

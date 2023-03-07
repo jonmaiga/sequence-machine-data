@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = n! * Sum_{k=0..floor(n/2)} (n - 2*k)^k/(n - 2*k)!.",
+  "id": "A356628",
+  "mentions": [
+    "A216688",
+    "A354436",
+    "A356629",
+    "A356630",
+    "A356632",
+    "A358064"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "\"Correlation triangle\" for 2^n.",
+  "id": "A115216",
+  "mentions": [
+    "A002450",
+    "A003983",
+    "A102301",
+    "A115217",
+    "A202678",
+    "A202868"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:44:29",
+    "offset": 0,
+    "size": 60,
+    "source": "joeis"
+  }
+}

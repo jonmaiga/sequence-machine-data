@@ -1,0 +1,29 @@
+{
+  "description": "Prime shadow of primorial base exp-function: a(n) = A181819(A276086(n)).",
+  "id": "A328835",
+  "mentions": [
+    "A001222",
+    "A007814",
+    "A061395",
+    "A181819",
+    "A181821",
+    "A267263",
+    "A275735",
+    "A276086",
+    "A278226",
+    "A286626",
+    "A328114",
+    "A328614"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

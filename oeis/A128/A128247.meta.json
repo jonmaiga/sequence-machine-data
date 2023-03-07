@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = A001783(n)/A038610(n).",
+  "id": "A128247",
+  "mentions": [
+    "A001783",
+    "A038610"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

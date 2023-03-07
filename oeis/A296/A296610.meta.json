@@ -1,0 +1,20 @@
+{
+  "description": "Toothpick sequence on triangular grid in an infinite 60-degree wedge (see Comments lines for precise definition).",
+  "id": "A296610",
+  "mentions": [
+    "A139250",
+    "A296510",
+    "A296611",
+    "A296612"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

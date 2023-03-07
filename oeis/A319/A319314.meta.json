@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that 2^phi(k) == phi(k)^2 (mod k^2).",
+  "id": "A319314",
+  "mentions": [
+    "A077815",
+    "A077816",
+    "A246568",
+    "A292544"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

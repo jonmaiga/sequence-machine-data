@@ -1,0 +1,30 @@
+{
+  "description": "Even nonsquare D values which admit proper solutions to the Pell equation x^2 - D*y^2 = +8.",
+  "id": "A264354",
+  "mentions": [
+    "A000037",
+    "A033313",
+    "A033317",
+    "A216246",
+    "A261246",
+    "A261247",
+    "A261248",
+    "A263012",
+    "A264355",
+    "A264357",
+    "A264386",
+    "A264438",
+    "A264439"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

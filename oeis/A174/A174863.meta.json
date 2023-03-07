@@ -1,0 +1,23 @@
+{
+  "description": "Little omega analog to Liouville's function L(n).",
+  "id": "A174863",
+  "mentions": [
+    "A001222",
+    "A002321",
+    "A002819",
+    "A076479",
+    "A275547",
+    "A346617"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

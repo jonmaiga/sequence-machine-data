@@ -1,0 +1,25 @@
+{
+  "description": "Least k>1 such that binomial(2k,k) is not divisible by any of the first n odd primes.",
+  "id": "A129489",
+  "mentions": [
+    "A000984",
+    "A030979",
+    "A129488",
+    "A266366",
+    "A267823"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "bref",
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

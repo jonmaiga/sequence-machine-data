@@ -1,0 +1,29 @@
+{
+  "description": "Number of ways to choose a set partition of the parts of a strict integer composition of n.",
+  "id": "A336140",
+  "mentions": [
+    "A000009",
+    "A000110",
+    "A001055",
+    "A008289",
+    "A032020",
+    "A035470",
+    "A050315",
+    "A063834",
+    "A072574",
+    "A137341",
+    "A279375",
+    "A294617"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

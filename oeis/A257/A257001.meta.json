@@ -1,0 +1,22 @@
+{
+  "description": "Numbers such that the largest missing digit is a divisor.",
+  "id": "A257001",
+  "mentions": [
+    "A000030",
+    "A050278",
+    "A116667",
+    "A171102",
+    "A230959"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

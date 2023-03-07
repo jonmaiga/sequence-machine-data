@@ -1,0 +1,19 @@
+{
+  "description": "Number of permutations tau of {1,...,n} with tau(n) = n such that tau(1)^tau(2) + ... + tau(n-1)^tau(n) + tau(n)^tau(1) is a square.",
+  "id": "A342965",
+  "mentions": [
+    "A000290",
+    "A342966"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 2,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

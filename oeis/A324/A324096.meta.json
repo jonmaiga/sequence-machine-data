@@ -1,0 +1,21 @@
+{
+  "description": "Number of simple non-isomorphic n-vertex graphs of edge-connectivity 7.",
+  "id": "A324096",
+  "mentions": [
+    "A007146",
+    "A052447",
+    "A263296",
+    "A324088"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

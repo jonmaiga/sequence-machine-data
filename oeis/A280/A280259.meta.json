@@ -1,0 +1,20 @@
+{
+  "description": "Partial sums of A280258.",
+  "id": "A280259",
+  "mentions": [
+    "A001783",
+    "A280258",
+    "A280260"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Bisect sequence A057113.",
+  "id": "A141826",
+  "mentions": [
+    "A055089",
+    "A057112",
+    "A057113"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

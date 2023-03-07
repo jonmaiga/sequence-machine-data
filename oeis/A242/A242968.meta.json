@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of an Ising constant related to the triangular lattice.",
+  "id": "A242968",
+  "mentions": [
+    "A242967",
+    "A242969"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

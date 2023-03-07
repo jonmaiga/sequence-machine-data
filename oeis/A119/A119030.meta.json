@@ -1,0 +1,19 @@
+{
+  "description": "Difference between numerator and denominator of the sum of all matrix elements of n X n Hilbert matrix M(i,j)=1/(i+j-1) (i,j = 1..n), A117731[n] - A117664[n].",
+  "id": "A119030",
+  "mentions": [
+    "A117664",
+    "A117731"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

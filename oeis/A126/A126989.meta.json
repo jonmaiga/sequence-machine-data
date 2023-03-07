@@ -1,0 +1,21 @@
+{
+  "description": "Gaps associated with the first and smallest arithmetic progressions of n consecutive primes in A006560.",
+  "id": "A126989",
+  "mentions": [
+    "A005115",
+    "A006560",
+    "A093364"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

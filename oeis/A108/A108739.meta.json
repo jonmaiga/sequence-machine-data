@@ -1,0 +1,21 @@
+{
+  "description": "Mills' constant A generates a sequence of primes via b(n)= floor(A^3^n). This sequence is a(n) = b(n+1)-b(n)^3.",
+  "id": "A108739",
+  "mentions": [
+    "A051021",
+    "A051254"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

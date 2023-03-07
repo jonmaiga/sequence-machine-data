@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion, negated, of the location of the first occurrence of a negative minimum of the function P(x,m) = Sum_{k=1..m} prime(k)*x^(k-1), with m chosen such that P(x) has 2 real zeros, which occurs for m = 2436. The corresponding function value is A346443.",
+  "id": "A346442",
+  "mentions": [
+    "A346443",
+    "A346444",
+    "A346445",
+    "A346663"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

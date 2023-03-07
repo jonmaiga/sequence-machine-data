@@ -1,0 +1,29 @@
+{
+  "description": "a(n) = 1 if the number of trailing zeros in primorial base representation of n is odd, otherwise 0.",
+  "id": "A353525",
+  "mentions": [
+    "A000035",
+    "A000720",
+    "A002110",
+    "A049345",
+    "A053669",
+    "A059841",
+    "A132120",
+    "A257993",
+    "A276084",
+    "A342050",
+    "A353529"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

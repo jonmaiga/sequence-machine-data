@@ -1,0 +1,20 @@
+{
+  "description": "a(1)=1; starting with n>1, concatenate distinct divisors which are in A050376 in increasing order and repeat until a term of A050376 is reached (a(n)=0 if no term of A050376 is ever reached).",
+  "id": "A248713",
+  "mentions": [
+    "A037274",
+    "A050376",
+    "A084318"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

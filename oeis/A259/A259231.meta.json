@@ -1,0 +1,17 @@
+{
+  "description": "Primitive numbers whose abundance is odd.",
+  "id": "A259231",
+  "mentions": [
+    "A156903"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

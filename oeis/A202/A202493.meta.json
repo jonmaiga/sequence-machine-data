@@ -1,0 +1,23 @@
+{
+  "description": "Column k = 4 of triangular array in A165241.",
+  "id": "A202493",
+  "mentions": [
+    "A011782",
+    "A084858",
+    "A165241",
+    "A202480",
+    "A202481"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

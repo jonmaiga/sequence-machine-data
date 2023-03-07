@@ -1,0 +1,26 @@
+{
+  "description": "A014138 (= partial sums of Catalan numbers starting with 1,2,5) mod 3.",
+  "id": "A137993",
+  "mentions": [
+    "A000108",
+    "A014137",
+    "A014138",
+    "A107755",
+    "A137821",
+    "A137822",
+    "A137824",
+    "A137992"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

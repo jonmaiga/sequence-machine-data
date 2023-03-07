@@ -1,0 +1,21 @@
+{
+  "description": "Restricted growth sequence transform of A292265; a filter related to Shevelev's algorithm for computing A002326.",
+  "id": "A292266",
+  "mentions": [
+    "A000265",
+    "A002326",
+    "A019565",
+    "A292239",
+    "A292265"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:07",
+    "offset": 0,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

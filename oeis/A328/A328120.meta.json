@@ -1,0 +1,20 @@
+{
+  "description": "Exponential superperfect numbers (or e-superperfect numbers): numbers m such that esigma(esigma(m)) = 2m, where esigma(m) is the sum of exponential divisors of m (A051377).",
+  "id": "A328120",
+  "mentions": [
+    "A019279",
+    "A038843",
+    "A051377"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

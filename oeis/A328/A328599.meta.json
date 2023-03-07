@@ -1,0 +1,32 @@
+{
+  "description": "Number of compositions of n with no part circularly followed by a divisor or a multiple.",
+  "id": "A328599",
+  "mentions": [
+    "A000740",
+    "A008965",
+    "A167606",
+    "A318729",
+    "A318748",
+    "A328171",
+    "A328460",
+    "A328508",
+    "A328593",
+    "A328598",
+    "A328600",
+    "A328601",
+    "A328603",
+    "A328608",
+    "A328609",
+    "A328674"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:57",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

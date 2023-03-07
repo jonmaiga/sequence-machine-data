@@ -1,0 +1,22 @@
+{
+  "description": "List of numbers L - 1, L, and L+1, where L = A000032, the Lucas numbers, sorted into increasing order and duplicates removed.",
+  "id": "A259627",
+  "mentions": [
+    "A000032",
+    "A258085",
+    "A259623",
+    "A259626"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = smallest n-digit prime which differs from the previous n-digit prime at every corresponding digit (or 0 if no such prime exists).",
+  "id": "A114017",
+  "mentions": [
+    "A114016"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

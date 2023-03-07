@@ -1,0 +1,23 @@
+{
+  "description": "Number of regions after n generations of symmetrized Conant Gasket.",
+  "id": "A335703",
+  "mentions": [
+    "A139250",
+    "A160124",
+    "A328078",
+    "A328080",
+    "A337267",
+    "A337268",
+    "A337269"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

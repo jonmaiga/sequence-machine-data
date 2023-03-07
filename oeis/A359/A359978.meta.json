@@ -1,0 +1,20 @@
+{
+  "description": "Prime numbers whose decimal representation can be split into two nonempty parts without leading 0, say x and y (in that order), and such that the concatenation of y and x yields a different prime number.",
+  "id": "A359978",
+  "mentions": [
+    "A061461",
+    "A225035",
+    "A246944"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

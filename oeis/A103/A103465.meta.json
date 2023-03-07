@@ -1,0 +1,32 @@
+{
+  "description": "Number of polyominoes that can be formed from n regular unit pentagons (or polypents of order n).",
+  "id": "A103465",
+  "mentions": [
+    "A000105",
+    "A000228",
+    "A000577",
+    "A051738",
+    "A103466",
+    "A103467",
+    "A103468",
+    "A103469",
+    "A103470",
+    "A103471",
+    "A103472",
+    "A103473",
+    "A120102",
+    "A120103",
+    "A120104"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

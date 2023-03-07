@@ -1,0 +1,28 @@
+{
+  "description": "Number of solutions to 1 +- 2 +- 3 +- ... +- n == 0 (mod n).",
+  "id": "A300190",
+  "mentions": [
+    "A000016",
+    "A000325",
+    "A016825",
+    "A026119",
+    "A053656",
+    "A058377",
+    "A063776",
+    "A300268",
+    "A300269",
+    "A300307",
+    "A300328"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:24",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

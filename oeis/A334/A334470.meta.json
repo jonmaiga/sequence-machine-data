@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Product_{d|n} (A253139(n) / tau(d)) where A253139(n) = lcm_{d|n} tau(d).",
+  "id": "A334470",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A211776",
+    "A253139",
+    "A334471"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

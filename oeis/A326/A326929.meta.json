@@ -1,0 +1,23 @@
+{
+  "description": "Numbers whose divisors and arithmetic mean of divisors are palindromic.",
+  "id": "A326929",
+  "mentions": [
+    "A002113",
+    "A003601",
+    "A062687",
+    "A259050"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

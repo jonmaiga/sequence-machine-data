@@ -1,0 +1,18 @@
+{
+  "description": "G.f.: 1/(1-x) = Sum_{n>=0} a(n) * x^n / Product_{k=1..n} (1 + k*x)^2.",
+  "id": "A208829",
+  "mentions": [
+    "A118804",
+    "A215529"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

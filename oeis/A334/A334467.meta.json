@@ -1,0 +1,49 @@
+{
+  "description": "Square array read by antidiagonals upwards: T(n,k) is the sum of all parts of all partitions of n into consecutive parts that differ by k, with n >= 1, k >= 0.",
+  "id": "A334467",
+  "mentions": [
+    "A000005",
+    "A000027",
+    "A000203",
+    "A000217",
+    "A000290",
+    "A000326",
+    "A000384",
+    "A000566",
+    "A000567",
+    "A001227",
+    "A001477",
+    "A038040",
+    "A038548",
+    "A060872",
+    "A066839",
+    "A117277",
+    "A204217",
+    "A245579",
+    "A323345",
+    "A327262",
+    "A330889",
+    "A334461",
+    "A334463",
+    "A334464",
+    "A334466",
+    "A334541",
+    "A334732",
+    "A334733",
+    "A334948",
+    "A334949",
+    "A334953"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

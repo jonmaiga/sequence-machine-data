@@ -1,0 +1,20 @@
+{
+  "description": "Third column (m=3) of triangle A144881 (S1hat(3).",
+  "id": "A144884",
+  "mentions": [
+    "A144881",
+    "A144883"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

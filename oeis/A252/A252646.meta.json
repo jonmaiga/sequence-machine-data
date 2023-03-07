@@ -1,0 +1,17 @@
+{
+  "description": "Number of (6+2)X(n+2) 0..3 arrays with every 3X3 subblock row and diagonal sum equal to 0 3 4 6 or 7 and every 3X3 column and antidiagonal sum not equal to 0 3 4 6 or 7",
+  "id": "A252646",
+  "mentions": [
+    "A252640"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:10",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

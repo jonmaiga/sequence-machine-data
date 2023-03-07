@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that Sum_{k=1..n} (-1)^(n-k) *tau(k) is prime.",
+  "id": "A181053",
+  "mentions": [
+    "A000005"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:04",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

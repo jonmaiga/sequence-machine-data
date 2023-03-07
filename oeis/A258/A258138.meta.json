@@ -1,0 +1,18 @@
+{
+  "description": "Smallest m, such that there are exactly n solutions of the equation (m+k)' = m' + k', where 1 <= k <= 2*m and x' = A003415(x), the arithmetic derivative of x.",
+  "id": "A258138",
+  "mentions": [
+    "A003415",
+    "A099305"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

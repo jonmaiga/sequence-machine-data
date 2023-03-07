@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that n!*n!! - 1 is prime.",
+  "id": "A202426",
+  "mentions": [
+    "A000142",
+    "A006882",
+    "A202424"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

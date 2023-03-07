@@ -1,0 +1,23 @@
+{
+  "description": "Product of Fibonacci and Motzkin numbers: a(n) = A000045(n+1)*A001006(n).",
+  "id": "A200539",
+  "mentions": [
+    "A000045",
+    "A001006",
+    "A098614",
+    "A098616",
+    "A200538",
+    "A200540"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

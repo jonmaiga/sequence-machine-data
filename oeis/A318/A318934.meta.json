@@ -1,0 +1,20 @@
+{
+  "description": "Numbers whose binary expansion begins with exactly two 1's.",
+  "id": "A318934",
+  "mentions": [
+    "A004758",
+    "A007088"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

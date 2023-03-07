@@ -1,0 +1,24 @@
+{
+  "description": "Row n of table gives prime metasignature of n: count total appearances of each distinct integer that appears in the prime signature of n, then arrange totals in nonincreasing order.",
+  "id": "A238747",
+  "mentions": [
+    "A001221",
+    "A071625",
+    "A115621",
+    "A181819",
+    "A212171",
+    "A238748"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 2,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

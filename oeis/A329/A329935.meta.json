@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k and k+1 are both hoax numbers (A019506).",
+  "id": "A329935",
+  "mentions": [
+    "A006753",
+    "A019506",
+    "A050219",
+    "A235766"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

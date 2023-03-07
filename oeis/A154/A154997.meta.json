@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 6*a(n-1) + 30*a(n-2), n>2; a(0)=1, a(1)=1, a(2)=11.",
+  "id": "A154997",
+  "mentions": [
+    "A154929",
+    "A154996",
+    "A154999",
+    "A155000",
+    "A155001"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:37",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the largest prime factor of the sum of the largest prime factors of numbers from 2 to n.",
+  "id": "A133133",
+  "mentions": [
+    "A006530",
+    "A088822"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 2,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

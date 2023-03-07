@@ -1,0 +1,18 @@
+{
+  "description": "Number of nX6 binary arrays with every 1 having exactly one king-move neighbor equal to 1",
+  "id": "A183439",
+  "mentions": [
+    "A183442"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:07",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Positions of 2 in decimal expansion of 0.1231232331232332333..., whose definition is given below.",
+  "id": "A229470",
+  "mentions": [
+    "A002262",
+    "A010054"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

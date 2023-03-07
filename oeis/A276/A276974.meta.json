@@ -1,0 +1,25 @@
+{
+  "description": "Number T(n,k) of permutations of [n] where the minimal distance between elements of the same cycle equals k (k=n for the identity permutation in S_n); triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A276974",
+  "mentions": [
+    "A000007",
+    "A000142",
+    "A005493",
+    "A138378",
+    "A239145",
+    "A263757",
+    "A276975",
+    "A277031"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

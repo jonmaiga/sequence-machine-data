@@ -1,0 +1,28 @@
+{
+  "description": "Number of steps to reach a fixed point starting with n and repeatedly taking the quotient by the maximum divisor whose prime multiplicities are distinct (A327498, A327499).",
+  "id": "A327500",
+  "mentions": [
+    "A000005",
+    "A002110",
+    "A056239",
+    "A098859",
+    "A112798",
+    "A124010",
+    "A130091",
+    "A255231",
+    "A327498",
+    "A327499",
+    "A327503",
+    "A351564"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

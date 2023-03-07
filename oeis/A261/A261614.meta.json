@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that are neither prime (A000040) nor practical (A005153).",
+  "id": "A261614",
+  "mentions": [
+    "A000040",
+    "A005153",
+    "A225223"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

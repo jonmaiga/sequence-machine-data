@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that can be expressed as the sum of their first k consecutive arithmetic derivatives for some k > 1.",
+  "id": "A216384",
+  "mentions": [
+    "A003415",
+    "A051674"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

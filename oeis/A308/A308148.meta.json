@@ -1,0 +1,18 @@
+{
+  "description": "Number of length-n binary words avoiding (5+sqrt(5))/2-powers.",
+  "id": "A308148",
+  "mentions": [
+    "A296184"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

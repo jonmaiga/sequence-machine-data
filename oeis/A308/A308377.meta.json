@@ -1,0 +1,21 @@
+{
+  "description": "\"Autotomy numbers\" that have exactly 10 distinct decimal digits. Subtracting their last digit from the remaining part produces a shorter autotomy number (still with no duplicate digit). This process is iterated until the remaining part has only one digit (details in the Example section).",
+  "id": "A308377",
+  "mentions": [
+    "A050278",
+    "A171102",
+    "A308393"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that 1/n is a difference of Egyptian fractions with all denominators < n.",
+  "id": "A278638",
+  "mentions": [
+    "A000961",
+    "A001284",
+    "A005279",
+    "A072207",
+    "A328226"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

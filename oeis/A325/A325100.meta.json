@@ -1,0 +1,29 @@
+{
+  "description": "Heinz numbers of strict integer partitions with no binary carries.",
+  "id": "A325100",
+  "mentions": [
+    "A050315",
+    "A056239",
+    "A080572",
+    "A112798",
+    "A247935",
+    "A267610",
+    "A325095",
+    "A325096",
+    "A325097",
+    "A325101",
+    "A325103",
+    "A325110",
+    "A325119"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

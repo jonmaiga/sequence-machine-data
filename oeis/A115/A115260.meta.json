@@ -1,0 +1,26 @@
+{
+  "description": "Prime numbers in the sequence of the absolute difference of the sum of digits in odd positions and the sum of digits in even positions of prime numbers.",
+  "id": "A115260",
+  "mentions": [
+    "A005017",
+    "A040164",
+    "A040997",
+    "A041000",
+    "A042939",
+    "A063792",
+    "A087593",
+    "A115259",
+    "A115261"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

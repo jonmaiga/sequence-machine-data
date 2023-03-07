@@ -1,0 +1,24 @@
+{
+  "description": "Completely multiplicative with a(prime(n)) = prime(n)^((n+1) mod 2).",
+  "id": "A248101",
+  "mentions": [
+    "A001222",
+    "A027746",
+    "A031215",
+    "A031368",
+    "A049084",
+    "A247503"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

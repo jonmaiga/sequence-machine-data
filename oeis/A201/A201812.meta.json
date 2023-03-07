@@ -1,0 +1,18 @@
+{
+  "description": "Number of arrays of 4 integers in -n..n with sum zero and equal numbers of elements greater than zero and less than zero.",
+  "id": "A201812",
+  "mentions": [
+    "A201811"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:33:55",
+    "offset": 1,
+    "size": 37,
+    "source": "joeis"
+  }
+}

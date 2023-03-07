@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of pieces of the simplest continuous piecewise linear function that agrees with n mod k for all positive integer k.",
+  "id": "A318126",
+  "mentions": [
+    "A048058"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

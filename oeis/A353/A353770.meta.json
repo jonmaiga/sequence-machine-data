@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of the gravitational acceleration generated at a vertex by a unit-mass cube with edge length 2 in units where the gravitational constant is G = 1.",
+  "id": "A353770",
+  "mentions": [
+    "A070058",
+    "A336274",
+    "A353407",
+    "A353769",
+    "A353771",
+    "A353772",
+    "A353773"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

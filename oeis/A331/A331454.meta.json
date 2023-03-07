@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,m) (n >= m >= 1) = number of line segments formed by drawing the lines connecting any two of the 2*(m+n) perimeter points of an m X n grid of squares.",
+  "id": "A331454",
+  "mentions": [
+    "A288187",
+    "A331448",
+    "A331452",
+    "A331453",
+    "A331757",
+    "A331765"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

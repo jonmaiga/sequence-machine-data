@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = primepi(A039634(prime(n)^2-1)).",
+  "id": "A346063",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A039634",
+    "A339991",
+    "A340008",
+    "A340418",
+    "A340419"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

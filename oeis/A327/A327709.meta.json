@@ -1,0 +1,19 @@
+{
+  "description": "The numbers n that are a multiple or divisor of A053392(n), the concatenation of the sum of the consecutive digits of n.",
+  "id": "A327709",
+  "mentions": [
+    "A048378",
+    "A053392"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

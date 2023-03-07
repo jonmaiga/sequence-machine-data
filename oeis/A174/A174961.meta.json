@@ -1,0 +1,21 @@
+{
+  "description": "Number of non-unitary divisors of a nonsquarefree number n.",
+  "id": "A174961",
+  "mentions": [
+    "A000005",
+    "A001221",
+    "A013929",
+    "A048105"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

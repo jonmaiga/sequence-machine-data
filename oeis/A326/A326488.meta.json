@@ -1,0 +1,23 @@
+{
+  "description": "Numbers m such that A327566(m) = Sum_{k=1..m} isigma(k) is divisible by m, where isigma(k) is the sum of infinitary divisors of k (A049417).",
+  "id": "A326488",
+  "mentions": [
+    "A049417",
+    "A056550",
+    "A064611",
+    "A307043",
+    "A307161",
+    "A327566"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

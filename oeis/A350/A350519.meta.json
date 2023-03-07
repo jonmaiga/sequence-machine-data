@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = A(n,n) where A(1,n) = A(n,1) = prime(n+1) and A(m,n) = A(m-1,n) + A(m,n-1) + A(m-1,n-1) for m > 1 and n > 1.",
+  "id": "A350519",
+  "mentions": [
+    "A000040",
+    "A001850",
+    "A002002",
+    "A050151",
+    "A344576"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

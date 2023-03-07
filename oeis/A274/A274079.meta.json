@@ -1,0 +1,23 @@
+{
+  "description": "Table read by rows: the n-th row is the list of numbers diagonally up and to the right of n in the natural numbers read by antidiagonals.",
+  "id": "A274079",
+  "mentions": [
+    "A000027",
+    "A269526",
+    "A273823",
+    "A273824",
+    "A273825",
+    "A274080"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

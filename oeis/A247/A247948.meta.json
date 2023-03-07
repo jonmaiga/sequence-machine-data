@@ -1,0 +1,25 @@
+{
+  "description": "Five-digit odd semiprimes with all digits distinct.",
+  "id": "A247948",
+  "mentions": [
+    "A001358",
+    "A046315",
+    "A074671",
+    "A074673",
+    "A235690",
+    "A247947"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

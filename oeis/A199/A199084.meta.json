@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{k=1..n} (-1)^(k+1) gcd(k,n).",
+  "id": "A199084",
+  "mentions": [
+    "A018804",
+    "A106475",
+    "A344371",
+    "A344372",
+    "A344373"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:20",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

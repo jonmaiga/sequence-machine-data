@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = least integer m>1 such that m divides none of P_i + P_j with 0",
+  "id": "A210186",
+  "mentions": [
+    "A000040",
+    "A207982",
+    "A208494",
+    "A208643",
+    "A210144"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

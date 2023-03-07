@@ -1,0 +1,26 @@
+{
+  "description": "Starting values for which iteration of the map x->A175420(x) never reaches a single-digit value.",
+  "id": "A175426",
+  "mentions": [
+    "A175419",
+    "A175420",
+    "A175421",
+    "A175422",
+    "A175423",
+    "A175424",
+    "A175425",
+    "A175427"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

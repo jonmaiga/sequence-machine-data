@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n for which abs(n-A277911(n)) = 1.",
+  "id": "A277908",
+  "mentions": [
+    "A007310",
+    "A277907",
+    "A277909",
+    "A277910",
+    "A277911"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

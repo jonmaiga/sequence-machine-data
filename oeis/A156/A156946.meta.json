@@ -1,0 +1,17 @@
+{
+  "description": "Geodesic growth sequence for Richard Thompson's group F with the standard generating set x_0, x_1.",
+  "id": "A156946",
+  "mentions": [
+    "A156945"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

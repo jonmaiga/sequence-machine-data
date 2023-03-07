@@ -1,0 +1,22 @@
+{
+  "description": "Coefficient of x^(2n+1) in the expansion of (1+x+x^2+x^3+x^4)^n.",
+  "id": "A104631",
+  "mentions": [
+    "A005191",
+    "A027907",
+    "A035343",
+    "A104632"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

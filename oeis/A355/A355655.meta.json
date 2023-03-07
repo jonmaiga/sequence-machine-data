@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 1 if the smallest b > 1 such that b^(p-1) == 1 (mod p^2) is prime, 0 otherwise, with p = prime(n).",
+  "id": "A355655",
+  "mentions": [
+    "A010051",
+    "A039678",
+    "A355656",
+    "A355657"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

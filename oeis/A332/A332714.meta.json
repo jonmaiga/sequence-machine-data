@@ -1,0 +1,19 @@
+{
+  "description": "The number of placements of zero or more dominoes on the n X n grid where the number of vertical dominoes differs from the number of horizontal dominoes by at most 1.",
+  "id": "A332714",
+  "mentions": [
+    "A028420",
+    "A330658",
+    "A332865"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

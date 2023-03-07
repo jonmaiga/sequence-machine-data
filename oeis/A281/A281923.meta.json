@@ -1,0 +1,20 @@
+{
+  "description": "Least prime p such that p^n is a concatenation of two primes.",
+  "id": "A281923",
+  "mentions": [
+    "A000040",
+    "A281924"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

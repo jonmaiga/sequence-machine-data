@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{i+j<=m+1} t_i * t_j, where t_1 < ... < t_m are the totatives of n.",
+  "id": "A341063",
+  "mentions": [
+    "A038566"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

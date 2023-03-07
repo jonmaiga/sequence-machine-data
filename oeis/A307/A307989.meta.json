@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n - pi(2*n) + pi(n-1), where pi is the prime counting function.",
+  "id": "A307989",
+  "mentions": [
+    "A000720",
+    "A035250"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:47:33",
+    "offset": 1,
+    "size": 68,
+    "source": "joeis"
+  }
+}

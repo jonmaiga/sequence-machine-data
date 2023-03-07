@@ -1,0 +1,20 @@
+{
+  "description": "Recurrence: a(n) = Sum_{k=0..n-1} (k+1)*(n-k)*a(k)*a(n-k-1) for n>0, with a(0)=1.",
+  "id": "A112915",
+  "mentions": [
+    "A088716",
+    "A112916",
+    "A238223"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of exp( Sum_{n>=1} sigma(6*n)*x^n/n ) in powers of x.",
+  "id": "A283119",
+  "mentions": [
+    "A000203",
+    "A182818",
+    "A182819",
+    "A182820",
+    "A182821",
+    "A224613",
+    "A283077",
+    "A283120",
+    "A283121",
+    "A283164"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 02:22:13",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

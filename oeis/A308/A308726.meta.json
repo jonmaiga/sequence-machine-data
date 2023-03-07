@@ -1,0 +1,19 @@
+{
+  "description": "The number of permutations of length n and tier at most 1, that is, the number of permutations of length n sortable by two passes through a stack where outputting the longest prefix matching the identity permutation is prioritized.",
+  "id": "A308726",
+  "mentions": [
+    "A122890",
+    "A158830"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:41:32",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

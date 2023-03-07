@@ -1,0 +1,32 @@
+{
+  "description": "Number A(n,k) of ordered rooted trees with n non-root nodes and all outdegrees <= k; square array A(n,k), n >= 0, k >= 0, read by antidiagonals.",
+  "id": "A288942",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000108",
+    "A001006",
+    "A001453",
+    "A036765",
+    "A036766",
+    "A036767",
+    "A036768",
+    "A036769",
+    "A203717",
+    "A291823",
+    "A291824",
+    "A291825"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:02",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of chains of length n in the lattice of set partitions of [2n] ordered by refinement.",
+  "id": "A332244",
+  "mentions": [
+    "A331955"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

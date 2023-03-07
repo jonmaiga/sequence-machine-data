@@ -1,0 +1,20 @@
+{
+  "description": "Smallest k such that none of k + 1, k + 3,... k + 2n - 1 are squarefree and all of k + 2, k + 4,... k + 2n are squarefree.",
+  "id": "A257115",
+  "mentions": [
+    "A257108",
+    "A257116"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

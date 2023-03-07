@@ -1,0 +1,21 @@
+{
+  "description": "Composites that are the sum of two, three, four and five consecutive composite numbers.",
+  "id": "A151745",
+  "mentions": [
+    "A151740",
+    "A151741",
+    "A151742",
+    "A151743"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

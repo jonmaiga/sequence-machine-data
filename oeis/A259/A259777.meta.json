@@ -1,0 +1,20 @@
+{
+  "description": "Number of permutations p of [n] with no fixed points and displacement of elements restricted by four: 1 <= |p(i)-i| <= 4.",
+  "id": "A259777",
+  "mentions": [
+    "A259776",
+    "A260092"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

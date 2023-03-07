@@ -1,0 +1,29 @@
+{
+  "description": "Irregular triangle read by rows in which row n lists the first n - 2 terms of A000005 together with the sum of A000005(n-1) and A000005(n), with a(1) = 1.",
+  "id": "A346562",
+  "mentions": [
+    "A000005",
+    "A006218",
+    "A028310",
+    "A092405",
+    "A221529",
+    "A237270",
+    "A237593",
+    "A260196",
+    "A336811",
+    "A338156",
+    "A340035",
+    "A346533"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

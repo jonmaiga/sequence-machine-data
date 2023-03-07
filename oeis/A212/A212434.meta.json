@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows, related to Stern's diatomic series A002487, or fusc(n). See Comments for precise definition.",
+  "id": "A212434",
+  "mentions": [
+    "A002487"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Values of n >= 0 such that 3*n-36+360/(n+10) is an integer.",
+  "id": "A169922",
+  "mentions": [
+    "A169923"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

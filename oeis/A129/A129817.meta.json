@@ -1,0 +1,23 @@
+{
+  "description": "Number of alternating fixed-point-free permutations on n letters.",
+  "id": "A129817",
+  "mentions": [
+    "A000111",
+    "A000166",
+    "A007779",
+    "A129815",
+    "A162979"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that the Enots Wolley sequence A336957(k) is odd.",
+  "id": "A338062",
+  "mentions": [
+    "A042948",
+    "A336957",
+    "A338063",
+    "A338069"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

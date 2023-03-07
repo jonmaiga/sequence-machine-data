@@ -1,0 +1,19 @@
+{
+  "description": "Location of the first gap of exactly n in Ulam numbers, or zero if none is known. The zero terms are conjectural.",
+  "id": "A214603",
+  "mentions": [
+    "A002858",
+    "A080287",
+    "A080288"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

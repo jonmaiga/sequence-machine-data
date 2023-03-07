@@ -1,0 +1,20 @@
+{
+  "description": "If n = 2^k then a(n) = 3^k, otherwise a(n) = 0.",
+  "id": "A259346",
+  "mentions": [
+    "A005821"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

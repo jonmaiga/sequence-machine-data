@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the constant Sum_{n>=0} 1/A112373(n), where the partial quotients of the continued fraction A114551 satisfy A114551(2n) = A112373(n) and A114551(2n+1) = A112373(n+1)/A112373(n).",
+  "id": "A114550",
+  "mentions": [
+    "A112373",
+    "A114551",
+    "A114552"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

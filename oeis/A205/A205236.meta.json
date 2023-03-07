@@ -1,0 +1,17 @@
+{
+  "description": "Least prime p > 3 such that 2^n + p*2^k - 1 is prime for some k with n/3 < k < n+1",
+  "id": "A205236",
+  "mentions": [
+    "A205237"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:25",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

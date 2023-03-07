@@ -1,0 +1,19 @@
+{
+  "description": "Number of parts in all the compositions of n into Fibonacci numbers (i.e., in all ordered sequences of Fibonacci numbers having sum n; only one 1 is considered as a Fibonacci number).",
+  "id": "A121551",
+  "mentions": [
+    "A000045",
+    "A121548"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

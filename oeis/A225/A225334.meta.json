@@ -1,0 +1,28 @@
+{
+  "description": "Look-and-repeat: similar to look-and-say except frequency is repeated (seed 3).",
+  "id": "A225334",
+  "mentions": [
+    "A005150",
+    "A221646",
+    "A225212",
+    "A225224",
+    "A225329",
+    "A225330",
+    "A225331",
+    "A225332",
+    "A225333"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

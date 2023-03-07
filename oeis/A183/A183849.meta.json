@@ -1,0 +1,18 @@
+{
+  "description": "Number of (n+1)X5 0..3 arrays with each element of every 2X2 subblock being the sum mod 4 of two others",
+  "id": "A183849",
+  "mentions": [
+    "A183854"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:08",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Wythoff representation of natural numbers.",
+  "id": "A189921",
+  "mentions": [
+    "A000201",
+    "A001950",
+    "A135817",
+    "A189920",
+    "A317208"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

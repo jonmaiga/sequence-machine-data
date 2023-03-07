@@ -1,0 +1,21 @@
+{
+  "description": "Number of stable n-celled patterns (\"still lifes\") in the Move (a.k.a. Morley; B368/S245) cellular automaton.",
+  "id": "A175001",
+  "mentions": [
+    "A019473",
+    "A166476",
+    "A175000"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

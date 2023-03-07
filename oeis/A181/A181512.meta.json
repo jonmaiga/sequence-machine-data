@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle a(n,k) = A181415(n,k) / A036040(n,k).",
+  "id": "A181512",
+  "mentions": [
+    "A000041",
+    "A036040",
+    "A181415",
+    "A181511",
+    "A181513"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

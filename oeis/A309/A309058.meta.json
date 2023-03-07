@@ -1,0 +1,22 @@
+{
+  "description": "Partitions of n with parts having at most 3 distinct magnitudes.",
+  "id": "A309058",
+  "mentions": [
+    "A000005",
+    "A002133",
+    "A002134",
+    "A116608",
+    "A265250"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

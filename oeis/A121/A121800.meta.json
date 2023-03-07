@@ -1,0 +1,20 @@
+{
+  "description": "a(n)= 4*a(n-1) +18*a(n-2) -48*a(n-3) -60*a(n-4) +80*a(n-5) +56*a(n-6).",
+  "id": "A121800",
+  "mentions": [
+    "A000079",
+    "A007070",
+    "A081180"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:28:31",
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

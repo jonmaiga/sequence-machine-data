@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the coefficient of asymptotic expression of m(n), the number of multiplicative compositions of n.",
+  "id": "A217598",
+  "mentions": [
+    "A074206",
+    "A107311",
+    "A173382"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

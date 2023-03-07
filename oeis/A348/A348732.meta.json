@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = A003959(n) - A034448(n), where A003959 is multiplicative with a(p^e) = (p+1)^e and A034448 (usigma) is multiplicative with a(p^e) = (p^e)+1.",
+  "id": "A348732",
+  "mentions": [
+    "A003959",
+    "A005117",
+    "A034448",
+    "A034460",
+    "A048146",
+    "A348029",
+    "A348507"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

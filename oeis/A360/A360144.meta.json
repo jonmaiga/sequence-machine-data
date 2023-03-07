@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(2*n+3*k,n-k).",
+  "id": "A360144",
+  "mentions": [
+    "A000108",
+    "A000344",
+    "A000984",
+    "A001700",
+    "A032443",
+    "A108080",
+    "A360143"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

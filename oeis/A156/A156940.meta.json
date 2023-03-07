@@ -1,0 +1,21 @@
+{
+  "description": "Primes of the form 2^k + 11.",
+  "id": "A156940",
+  "mentions": [
+    "A057733",
+    "A102633",
+    "A104066",
+    "A123250"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that the prime factorizations of composite(k) and composite(k+1) have the same number of primes (including multiplicities).",
+  "id": "A176292",
+  "mentions": [
+    "A001222",
+    "A002808",
+    "A045920",
+    "A045939"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

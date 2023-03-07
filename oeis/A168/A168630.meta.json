@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that n, n+1, and the sum of those two numbers each have 4 or more distinct prime factors.",
+  "id": "A168630",
+  "mentions": [
+    "A140077",
+    "A140078",
+    "A168626",
+    "A168628",
+    "A168629"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:52",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

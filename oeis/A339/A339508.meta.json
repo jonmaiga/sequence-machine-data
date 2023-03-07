@@ -1,0 +1,20 @@
+{
+  "description": "Number of subsets of {2..n} such that the product of the elements is a decimal palindrome.",
+  "id": "A339508",
+  "mentions": [
+    "A002113",
+    "A093888",
+    "A339507"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

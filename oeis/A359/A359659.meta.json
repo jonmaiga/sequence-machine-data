@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Sum_{k=0..n} k^(k * (n-k+1)).",
+  "id": "A359659",
+  "mentions": [
+    "A003101",
+    "A026898",
+    "A031971",
+    "A349836",
+    "A349882",
+    "A349883",
+    "A349893",
+    "A359658"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

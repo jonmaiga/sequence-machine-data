@@ -1,0 +1,25 @@
+{
+  "description": "Prime factors of generalized Fermat numbers of the form 6^(2^m) + 1 with m >= 0.",
+  "id": "A273947",
+  "mentions": [
+    "A023394",
+    "A072982",
+    "A078303",
+    "A268663",
+    "A273945",
+    "A273946",
+    "A273948",
+    "A273949",
+    "A273950"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

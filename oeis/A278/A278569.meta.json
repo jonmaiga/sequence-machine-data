@@ -1,0 +1,23 @@
+{
+  "description": "Numbers of the form p^i*q^j*r^k where p,q,r are distinct odd primes and i,j,k >= 1.",
+  "id": "A278569",
+  "mentions": [
+    "A005408",
+    "A033992",
+    "A046389",
+    "A046390",
+    "A046391",
+    "A216918"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

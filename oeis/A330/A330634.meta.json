@@ -1,0 +1,21 @@
+{
+  "description": "The number of iterations of A330633, the concatenation of the product of adjacent digits, for starting value n before reaching 0, or -1 if this never happens.",
+  "id": "A330634",
+  "mentions": [
+    "A035931",
+    "A329198",
+    "A329624",
+    "A330633"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

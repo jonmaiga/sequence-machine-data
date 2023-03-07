@@ -1,0 +1,22 @@
+{
+  "description": "a(1)=2; thereafter a(n) = mpf(1+Product_{k=1..n-1} a(k)), where mpf(n) = f-th prime factor with multiplicity of n, for f=ceiling(bigomega(n)/2).",
+  "id": "A261564",
+  "mentions": [
+    "A000945",
+    "A000946",
+    "A001222",
+    "A079879"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

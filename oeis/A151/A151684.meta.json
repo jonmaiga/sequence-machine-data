@@ -1,0 +1,19 @@
+{
+  "description": "Let c(n) = x^(2^n-1)*(1-x^(2^n)), g(n) = 1 + x^(2^n-1) + x^(2^n), h(n) = Product_{i=1..n} g(i); then use g.f. (1+2*x) - Sum_{n>=1} c(n)/h(n).",
+  "id": "A151684",
+  "mentions": [
+    "A151552",
+    "A151676",
+    "A160573"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

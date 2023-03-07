@@ -1,0 +1,27 @@
+{
+  "description": "Triangular numbers which have one or more occurrences of exactly six different digits.",
+  "id": "A241789",
+  "mentions": [
+    "A000217",
+    "A045914",
+    "A062691",
+    "A162304",
+    "A241787",
+    "A241788",
+    "A241790",
+    "A241791",
+    "A241792",
+    "A241812"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of local binary search trees (i.e., labeled binary trees such that every left child has a smaller label than its parent and every right child has a larger label than its parent) with n vertices such that the root has only one child.",
+  "id": "A100526",
+  "mentions": [
+    "A007889",
+    "A038049",
+    "A273952"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

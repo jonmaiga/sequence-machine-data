@@ -1,0 +1,20 @@
+{
+  "description": "Lesser of two consecutive semiprimes whose difference is also semiprime.",
+  "id": "A272307",
+  "mentions": [
+    "A001358",
+    "A272306",
+    "A272308",
+    "A272309"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

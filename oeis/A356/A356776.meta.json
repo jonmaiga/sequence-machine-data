@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = coefficient in the power series expansion of A(x) = Sum_{n=-oo..+oo} x^n * (1-x)^n * ((1-x)^n + x^n)^n.",
+  "id": "A356776",
+  "mentions": [
+    "A319016"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

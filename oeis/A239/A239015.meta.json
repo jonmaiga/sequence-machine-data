@@ -1,0 +1,29 @@
+{
+  "description": "Exponents m such that the decimal expansion of 11^m exhibits its first zero from the right later than any previous exponent.",
+  "id": "A239015",
+  "mentions": [
+    "A001020",
+    "A020665",
+    "A030706",
+    "A031142",
+    "A239008",
+    "A239009",
+    "A239010",
+    "A239011",
+    "A239012",
+    "A239013",
+    "A239014"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

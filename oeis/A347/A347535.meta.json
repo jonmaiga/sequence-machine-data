@@ -1,0 +1,19 @@
+{
+  "description": "Number of minimum dominating sets in the complete bipartite graph K_n,n.",
+  "id": "A347535",
+  "mentions": [
+    "A000290"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:56",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

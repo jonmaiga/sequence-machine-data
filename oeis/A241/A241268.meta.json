@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that (n+1)^7-n^7 is not prime.",
+  "id": "A241268",
+  "mentions": [
+    "A113826"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

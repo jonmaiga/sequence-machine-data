@@ -1,0 +1,20 @@
+{
+  "description": "Let prime(0) = 1 and f(n) = product prime(d), where d ranges over all the decimal digits of n. The sequence gives numbers n such that f(n) == 0 (mod n).",
+  "id": "A113735",
+  "mentions": [
+    "A097227",
+    "A113581"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

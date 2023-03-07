@@ -1,0 +1,32 @@
+{
+  "description": "Triangle read by rows giving coefficients T(n,k) of [x^(n-k)] in Sum_{i=0..n} (x-1)^i, 0 <= n <= k.",
+  "id": "A220074",
+  "mentions": [
+    "A000124",
+    "A001045",
+    "A003600",
+    "A026641",
+    "A054651",
+    "A057427",
+    "A059259",
+    "A071920",
+    "A080242",
+    "A108561",
+    "A112555",
+    "A223718",
+    "A257890"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

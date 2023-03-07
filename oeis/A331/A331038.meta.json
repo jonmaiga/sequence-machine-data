@@ -1,0 +1,30 @@
+{
+  "description": "Residues of the Lucas-Lehmer primality test for M(127) = 2^127 - 1.",
+  "id": "A331038",
+  "mentions": [
+    "A000043",
+    "A000668",
+    "A001566",
+    "A095847",
+    "A129219",
+    "A129220",
+    "A129221",
+    "A129222",
+    "A129223",
+    "A129224",
+    "A129225"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

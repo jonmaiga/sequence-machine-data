@@ -1,0 +1,24 @@
+{
+  "description": "Square array read by falling antidiagonals, where A(n,k) = floor(A337472(n, k)/A337470(n, k)); Abundancy index of A337470(n, k) floored down.",
+  "id": "A337473",
+  "mentions": [
+    "A003961",
+    "A108951",
+    "A337470",
+    "A337472",
+    "A337474",
+    "A337476"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

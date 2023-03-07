@@ -1,0 +1,20 @@
+{
+  "description": "Let f(n) be equal to n + S(n) + S(S(n)) ... + S(S(S..(n))), where the last term is less than 10 and S(n) is the sum of digits. This is the sequence of numbers k such that the equation f(x) = k has a record number of solutions.",
+  "id": "A309393",
+  "mentions": [
+    "A006064",
+    "A007953"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

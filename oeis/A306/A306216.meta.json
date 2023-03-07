@@ -1,0 +1,19 @@
+{
+  "description": "Successive concatenation of the current sequence with the first differences of the sequence, a(1) = a(2) = 1.",
+  "id": "A306216",
+  "mentions": [
+    "A107946",
+    "A306211"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

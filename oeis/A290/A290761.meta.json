@@ -1,0 +1,27 @@
+{
+  "description": "Irregular triangle, read by rows, of coefficients of polynomials that are the \"nonstandard\" factor of polynomials yielding the columns (up to sign) of triangle A290053, beginning with column 3.",
+  "id": "A290761",
+  "mentions": [
+    "A000012",
+    "A000096",
+    "A053657",
+    "A260326",
+    "A290030",
+    "A290053",
+    "A290061",
+    "A290071",
+    "A290127",
+    "A290723"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

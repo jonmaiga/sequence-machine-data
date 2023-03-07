@@ -1,0 +1,19 @@
+{
+  "description": "Least monotonic left inverse for A261089; a(n) = largest k for which A261089(k) <= n.",
+  "id": "A263089",
+  "mentions": [
+    "A155043",
+    "A261089",
+    "A263259"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

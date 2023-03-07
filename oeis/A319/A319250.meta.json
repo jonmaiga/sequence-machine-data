@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that 24k + 11 and 24k + 13 are a pair of twin primes in A001122.",
+  "id": "A319250",
+  "mentions": [
+    "A001122",
+    "A002822",
+    "A319248",
+    "A319249"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Minimal order of degree-n irreducible polynomials over GF(11).",
+  "id": "A218359",
+  "mentions": [
+    "A213224",
+    "A218336",
+    "A274910"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

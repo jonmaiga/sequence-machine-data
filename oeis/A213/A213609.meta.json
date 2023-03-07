@@ -1,0 +1,18 @@
+{
+  "description": "Smallest number k such that the number of distinct prime divisors of binomial(2k,k) equals n, otherwise 0.",
+  "id": "A213609",
+  "mentions": [
+    "A067434",
+    "A071853"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

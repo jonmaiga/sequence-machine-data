@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n for which sigma(n)/n=k+2/3 with integer k.",
+  "id": "A160321",
+  "mentions": [
+    "A159907",
+    "A160320"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

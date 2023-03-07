@@ -1,0 +1,28 @@
+{
+  "description": "Least positive integer m relatively prime to n such that phi(m*n) = phi(m)*phi(n) is a fourth power, where phi is Euler's totient function (A000010).",
+  "id": "A334350",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A000583",
+    "A039770",
+    "A039771",
+    "A078164",
+    "A259915",
+    "A259916",
+    "A280988",
+    "A334337",
+    "A334339",
+    "A334353"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

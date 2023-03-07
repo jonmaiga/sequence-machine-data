@@ -1,0 +1,22 @@
+{
+  "description": "Shorthand for A157033, the smallest prime with 2^n digits.",
+  "id": "A157034",
+  "mentions": [
+    "A033873",
+    "A157033",
+    "A157036"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

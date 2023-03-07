@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the far-difference representation of n written in balanced ternary.",
+  "id": "A358915",
+  "mentions": [
+    "A003714",
+    "A097083",
+    "A105446",
+    "A117966"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

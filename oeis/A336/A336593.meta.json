@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that k/A008835(k) is cubeful (A036966), where A008835(k) is the largest 4th power dividing k.",
+  "id": "A336593",
+  "mentions": [
+    "A002117",
+    "A008835",
+    "A013662",
+    "A036966",
+    "A176297",
+    "A252849",
+    "A336592",
+    "A336594"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

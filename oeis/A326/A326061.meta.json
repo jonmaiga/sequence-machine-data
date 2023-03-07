@@ -1,0 +1,22 @@
+{
+  "description": "Sum of all other divisors of n except the largest proper divisor. a(1) = 0 by convention.",
+  "id": "A326061",
+  "mentions": [
+    "A000203",
+    "A032742",
+    "A318505",
+    "A326053",
+    "A326062"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

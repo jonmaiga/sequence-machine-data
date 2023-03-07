@@ -1,0 +1,20 @@
+{
+  "description": "Smallest integer that can be expressed as the sum of one or more consecutive semiprimes in exactly n ways.",
+  "id": "A186337",
+  "mentions": [
+    "A001358",
+    "A112020",
+    "A186336"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

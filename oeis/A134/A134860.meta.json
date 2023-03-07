@@ -1,0 +1,36 @@
+{
+  "description": "Wythoff AAB numbers; also, Fib101 numbers: those n for which the Zeckendorf expansion A014417(n) ends with 1,0,1.",
+  "id": "A134860",
+  "mentions": [
+    "A000201",
+    "A001622",
+    "A001950",
+    "A003622",
+    "A003623",
+    "A014417",
+    "A035336",
+    "A035337",
+    "A035338",
+    "A035513",
+    "A095089",
+    "A095098",
+    "A101864",
+    "A134859",
+    "A134861",
+    "A134862",
+    "A134863",
+    "A134864"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:22",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

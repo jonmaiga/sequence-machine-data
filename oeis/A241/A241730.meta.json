@@ -1,0 +1,22 @@
+{
+  "description": "Number of digits in the decimal expansion of n! minus the number of digits in the decimal expansion of n.",
+  "id": "A241730",
+  "mentions": [
+    "A034886",
+    "A055642",
+    "A101506"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

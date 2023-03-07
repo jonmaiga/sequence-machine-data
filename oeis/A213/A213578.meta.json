@@ -1,0 +1,22 @@
+{
+  "description": "Antidiagonal sums of the convolution array A213576.",
+  "id": "A213578",
+  "mentions": [
+    "A000045",
+    "A213500",
+    "A213576",
+    "A213577"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

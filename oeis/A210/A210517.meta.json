@@ -1,0 +1,20 @@
+{
+  "description": "Number of rectangles dissectable into n squares, unique up to aspect ratio.",
+  "id": "A210517",
+  "mentions": [
+    "A160911",
+    "A221839"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Smallest limiting value of n under iteration of \"Sum of its digits raised to its digits power\" (A045512).",
+  "id": "A214301",
+  "mentions": [
+    "A045512",
+    "A046253"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

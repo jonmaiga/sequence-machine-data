@@ -1,0 +1,22 @@
+{
+  "description": "Number of cycles in range [A014137(n-1)..A014138(n-1)] of permutations A130919/A130920.",
+  "id": "A130967",
+  "mentions": [
+    "A014137",
+    "A014138",
+    "A057513",
+    "A130919",
+    "A130920",
+    "A130968"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Inverse of permutation in A119898.",
+  "id": "A119643",
+  "mentions": [
+    "A119898"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "less",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

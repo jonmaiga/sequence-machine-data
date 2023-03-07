@@ -1,0 +1,26 @@
+{
+  "description": "Numbers whose maximal digit in their primorial base expansion is not larger than the maximal exponent in their prime factorization.",
+  "id": "A351038",
+  "mentions": [
+    "A051903",
+    "A276086",
+    "A328114",
+    "A350074",
+    "A350075",
+    "A351039",
+    "A351069",
+    "A351070",
+    "A351075"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the first prime that is the start of a sequence of exactly n consecutive primes that are in A354589.",
+  "id": "A354590",
+  "mentions": [
+    "A007652",
+    "A354589"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

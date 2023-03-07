@@ -1,0 +1,29 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of achiral rows of n colors using up to k colors.",
+  "id": "A321391",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A003992",
+    "A056449",
+    "A056450",
+    "A056451",
+    "A056452",
+    "A060546",
+    "A277504",
+    "A293500"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

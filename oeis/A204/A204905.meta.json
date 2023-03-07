@@ -1,0 +1,25 @@
+{
+  "description": "Least k such that n divides k^2-j^2 for some j satisfying 1<=j",
+  "id": "A204905",
+  "mentions": [
+    "A000290",
+    "A120070",
+    "A204892",
+    "A204994",
+    "A204995",
+    "A204996",
+    "A204997",
+    "A204998",
+    "A204999"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 09:23:37",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

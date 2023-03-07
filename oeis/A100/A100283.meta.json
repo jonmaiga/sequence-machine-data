@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = floor(p*(n+1)) - floor(p*(n)) - 1 where p = Padovan plastic number = 1.324718... (cf. A060006).",
+  "id": "A100283",
+  "mentions": [
+    "A000931",
+    "A005614",
+    "A060006"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

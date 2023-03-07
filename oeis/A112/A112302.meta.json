@@ -1,0 +1,30 @@
+{
+  "description": "Decimal expansion of quadratic recurrence constant sqrt(1 * sqrt(2 * sqrt(3 * sqrt(4 * ...)))).",
+  "id": "A112302",
+  "mentions": [
+    "A036039",
+    "A052129",
+    "A055209",
+    "A090998",
+    "A114124",
+    "A116603",
+    "A123851",
+    "A123852",
+    "A123853",
+    "A123854",
+    "A135002",
+    "A274181"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

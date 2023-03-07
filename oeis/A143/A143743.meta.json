@@ -1,0 +1,23 @@
+{
+  "description": "The number of digits in the next largest juggler number.",
+  "id": "A143743",
+  "mentions": [
+    "A007320",
+    "A094670",
+    "A094679",
+    "A094683",
+    "A094684",
+    "A095908"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

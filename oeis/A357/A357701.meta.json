@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows where row n is the vertex depths of the rooted binary tree with Colijn-Plazzotta tree number n, traversed in pre-order, numerically larger child first.",
+  "id": "A357701",
+  "mentions": [
+    "A002024",
+    "A002260",
+    "A064002",
+    "A357702"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

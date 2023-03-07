@@ -1,0 +1,26 @@
+{
+  "description": "Number of neighbors of each new term in an isosceles triangle read by rows.",
+  "id": "A275015",
+  "mentions": [
+    "A007395",
+    "A008585",
+    "A047931",
+    "A057427",
+    "A122553",
+    "A158799",
+    "A278290",
+    "A278317",
+    "A278354"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

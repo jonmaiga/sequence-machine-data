@@ -1,0 +1,19 @@
+{
+  "description": "Products of two primes (i.e., \"semiprimes\") that are the sum of three consecutive primes.",
+  "id": "A188651",
+  "mentions": [
+    "A034961",
+    "A034962",
+    "A080665"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

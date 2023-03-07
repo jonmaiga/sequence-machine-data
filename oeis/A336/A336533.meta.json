@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest sequence of positive terms such that for any n > 0, n = Sum_{k >= 0} b(k)*a(k+1) where Sum_{k >= 0} b(k)*2^k is the binary expansion of a(n).",
+  "id": "A336533",
+  "mentions": [
+    "A029931",
+    "A133457"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

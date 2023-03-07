@@ -1,0 +1,19 @@
+{
+  "description": "Primes of the form p = a^2 + b^2 where |a^2 - b^2| is composite.",
+  "id": "A266965",
+  "mentions": [
+    "A002313",
+    "A067756",
+    "A266954"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(0) = 0; a(n) = (floor(n/S2(n))) mod 2 for n >= 1, where S2(n) is the binary weight of n.",
+  "id": "A135993",
+  "mentions": [
+    "A007953",
+    "A010060",
+    "A135941"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

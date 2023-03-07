@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the smallest prime p such that all the n numbers reversal(p^k), k",
+  "id": "A165697",
+  "mentions": [
+    "A118212",
+    "A118213",
+    "A165696",
+    "A165698"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

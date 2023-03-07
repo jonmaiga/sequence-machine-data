@@ -1,0 +1,19 @@
+{
+  "description": "Prime numbers congruent to 1 modulo 20 representable by both x^2 + 20*y^2 and x^2 + 100*y^2.",
+  "id": "A325071",
+  "mentions": [
+    "A141881",
+    "A325067",
+    "A325072"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

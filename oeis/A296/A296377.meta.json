@@ -1,0 +1,19 @@
+{
+  "description": "Natural numbers y such that 7y^2 = x^2 + x + 1 has a solution in natural numbers.",
+  "id": "A296377",
+  "mentions": [
+    "A296376"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:15",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

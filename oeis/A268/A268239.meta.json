@@ -1,0 +1,18 @@
+{
+  "description": "Given an n X n X n grid of points, a(n) is the maximum number of points that can be painted red so that, if any 8 of the red points are chosen, they do not form a cube with sides parallel to the grid.",
+  "id": "A268239",
+  "mentions": [
+    "A227133"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

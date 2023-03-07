@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n with property that 6n-1 is in A053182.",
+  "id": "A147683",
+  "mentions": [
+    "A053182"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

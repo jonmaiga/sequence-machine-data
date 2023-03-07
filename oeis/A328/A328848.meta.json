@@ -1,0 +1,23 @@
+{
+  "description": "Number of terms in Zeckendorf expansion needed to write the second Fibonacci based variant of arithmetic derivative of n.",
+  "id": "A328848",
+  "mentions": [
+    "A000045",
+    "A007895",
+    "A072649",
+    "A324905",
+    "A328846",
+    "A328847"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

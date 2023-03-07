@@ -1,0 +1,18 @@
+{
+  "description": "Members of A014574 with sum of prime factors (with multiplicity) also in A014574.",
+  "id": "A349455",
+  "mentions": [
+    "A001414",
+    "A014574"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

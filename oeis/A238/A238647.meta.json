@@ -1,0 +1,22 @@
+{
+  "description": "Primes which are not the concatenation of two primes.",
+  "id": "A238647",
+  "mentions": [
+    "A105184",
+    "A141409",
+    "A238056",
+    "A238057",
+    "A238499"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

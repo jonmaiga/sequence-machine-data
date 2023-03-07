@@ -1,0 +1,21 @@
+{
+  "description": "Number of digits of Hyperfactorial(n).",
+  "id": "A261175",
+  "mentions": [
+    "A002109",
+    "A055642",
+    "A061010",
+    "A260262"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

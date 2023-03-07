@@ -1,0 +1,35 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the area of the k-th region of the diagram with n rows described in A237591.",
+  "id": "A302800",
+  "mentions": [
+    "A000203",
+    "A000217",
+    "A003056",
+    "A004125",
+    "A024206",
+    "A024916",
+    "A196020",
+    "A235791",
+    "A236104",
+    "A237048",
+    "A237591",
+    "A237593",
+    "A244050",
+    "A245092",
+    "A261348",
+    "A262626",
+    "A286000",
+    "A286001"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

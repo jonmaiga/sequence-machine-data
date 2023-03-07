@@ -1,0 +1,20 @@
+{
+  "description": "A010062(2^n-1)",
+  "id": "A228952",
+  "mentions": [
+    "A010062",
+    "A092391",
+    "A229167"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

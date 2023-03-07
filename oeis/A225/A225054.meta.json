@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: Eulerian numbers T(n,k) = A008292(n,k) reduced mod n+1.",
+  "id": "A225054",
+  "mentions": [
+    "A008292",
+    "A225043"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

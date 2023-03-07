@@ -1,0 +1,21 @@
+{
+  "description": "'APE(n,k)' triangle read by rows. APE(n,k) is the number of aperiodic k-palindromes of n up to cyclic equivalence.",
+  "id": "A179317",
+  "mentions": [
+    "A051159",
+    "A056513",
+    "A179519"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

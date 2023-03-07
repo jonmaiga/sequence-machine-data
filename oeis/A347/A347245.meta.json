@@ -1,0 +1,26 @@
+{
+  "description": "Number of iterations of the map x -> A000593(x), when starting from x = n, needed to reach a number whose largest prime factor is at least as large as that of n itself (= A006530(n)). If 1 is reached without encountering such a number, then a(n) = 0.",
+  "id": "A347245",
+  "mentions": [
+    "A000265",
+    "A000593",
+    "A006530",
+    "A336361",
+    "A347240",
+    "A347242",
+    "A347243",
+    "A347244",
+    "A347246"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

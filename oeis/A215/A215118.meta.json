@@ -1,0 +1,20 @@
+{
+  "description": "G.f. satisfies: A(x) = x + 4*x^2 + x*A(A(A(A(A(x))))).",
+  "id": "A215118",
+  "mentions": [
+    "A213010",
+    "A215114",
+    "A215116",
+    "A215119"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

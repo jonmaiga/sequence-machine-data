@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n - A057521(n), where A057521 gives the powerful part of n.",
+  "id": "A326186",
+  "mentions": [
+    "A010848",
+    "A057521",
+    "A326185"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

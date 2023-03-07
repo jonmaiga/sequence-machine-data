@@ -1,0 +1,23 @@
+{
+  "description": "If A262686(n) = 0, a(n) = 1, otherwise a(n) = 1 + a(A262686(n)), where A262686(n) = largest number k such that k - d(k) = n, or 0 if no such number exists, and d(n) = the number of divisors of n (A000005).",
+  "id": "A264971",
+  "mentions": [
+    "A000005",
+    "A049820",
+    "A060990",
+    "A262686",
+    "A263271",
+    "A264970"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

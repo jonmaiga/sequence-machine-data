@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=4..n} ( binomial(n,k)*(k-2)*(2^k-2*k-2) ) - (2^n-n-1).",
+  "id": "A328088",
+  "mentions": [
+    "A000460"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 4,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

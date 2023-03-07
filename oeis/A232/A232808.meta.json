@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of the surface area of a 3D sphere with unit volume.",
+  "id": "A232808",
+  "mentions": [
+    "A000796",
+    "A019673",
+    "A019694",
+    "A019699",
+    "A087198",
+    "A087199"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:04",
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

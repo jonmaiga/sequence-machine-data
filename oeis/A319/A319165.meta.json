@@ -1,0 +1,27 @@
+{
+  "description": "Perfect powers whose prime indices are not relatively prime.",
+  "id": "A319165",
+  "mentions": [
+    "A001597",
+    "A056239",
+    "A072774",
+    "A181819",
+    "A289509",
+    "A296150",
+    "A298748",
+    "A319151",
+    "A319161",
+    "A319163",
+    "A319164"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

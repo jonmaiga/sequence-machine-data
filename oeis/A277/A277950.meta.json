@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows, in which row n gives coefficients in expansion of ((x^n - 1)/(x - 1))^5.",
+  "id": "A277950",
+  "mentions": [
+    "A000332",
+    "A004737",
+    "A077044",
+    "A109439",
+    "A154286",
+    "A273975",
+    "A277949",
+    "A277951"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:44",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

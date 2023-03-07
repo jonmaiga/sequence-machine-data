@@ -1,0 +1,18 @@
+{
+  "description": "A255279(2^n-1).",
+  "id": "A255280",
+  "mentions": [
+    "A255279"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:02:20",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

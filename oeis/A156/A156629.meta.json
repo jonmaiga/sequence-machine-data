@@ -1,0 +1,17 @@
+{
+  "description": "Column 4 of square array A156628.",
+  "id": "A156629",
+  "mentions": [
+    "A156628"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

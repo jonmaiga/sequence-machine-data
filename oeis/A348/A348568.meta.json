@@ -1,0 +1,23 @@
+{
+  "description": "Highly composite numbers (A002182) such that the exponents of 2 and 3 in their prime factorization are equal.",
+  "id": "A348568",
+  "mentions": [
+    "A000005",
+    "A002182",
+    "A064615",
+    "A134592"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

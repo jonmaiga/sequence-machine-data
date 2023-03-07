@@ -1,0 +1,22 @@
+{
+  "description": "Terms of A123239 which are prime in Z(i), Z(rho) and Z(sqrt(2)).",
+  "id": "A168539",
+  "mentions": [
+    "A002145",
+    "A003627",
+    "A003629",
+    "A107007",
+    "A123239",
+    "A168454"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

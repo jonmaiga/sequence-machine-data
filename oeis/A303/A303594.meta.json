@@ -1,0 +1,19 @@
+{
+  "description": "Number of bits in binary expansion of A294994(n).",
+  "id": "A303594",
+  "mentions": [
+    "A035100",
+    "A294994",
+    "A303593"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

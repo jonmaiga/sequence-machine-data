@@ -1,0 +1,25 @@
+{
+  "description": "Number of ordered triples (i, j, k) of integers such that n = i^2 + 4*j^2 + 4*k^2.",
+  "id": "A329290",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A005875",
+    "A010054",
+    "A010815",
+    "A045834",
+    "A121373",
+    "A169783"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:56:21",
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

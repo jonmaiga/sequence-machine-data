@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that 9p^2 is a penholodigital square (A036744).",
+  "id": "A204139",
+  "mentions": [
+    "A036744",
+    "A071519"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

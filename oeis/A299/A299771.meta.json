@@ -1,0 +1,30 @@
+{
+  "description": "a(n) is the number of elements added at n-th stage in the structure of the finite cellular automaton of A299770.",
+  "id": "A299771",
+  "mentions": [
+    "A139251",
+    "A160173",
+    "A194701",
+    "A220501",
+    "A289841",
+    "A290221",
+    "A294021",
+    "A294963",
+    "A294981",
+    "A296612",
+    "A299770"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

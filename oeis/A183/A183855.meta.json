@@ -1,0 +1,18 @@
+{
+  "description": "n+floor(sqrt(3n-3)); complement of A128422.",
+  "id": "A183855",
+  "mentions": [
+    "A128422"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:20:17",
+    "offset": 1,
+    "size": 80,
+    "source": "joeis"
+  }
+}

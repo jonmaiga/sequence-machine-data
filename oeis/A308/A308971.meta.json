@@ -1,0 +1,25 @@
+{
+  "description": "Largest prime factor of A001008(n), numerator of n-th harmonic number; a(1) = 1.",
+  "id": "A308971",
+  "mentions": [
+    "A000254",
+    "A001008",
+    "A006530",
+    "A120299",
+    "A308967",
+    "A308968",
+    "A308969",
+    "A308970"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

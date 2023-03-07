@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = n minus (carryless base-2 product of run lengths in binary representation of n) = n - A284579(n).",
+  "id": "A284581",
+  "mentions": [
+    "A048720",
+    "A227190",
+    "A283972",
+    "A284560",
+    "A284579"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

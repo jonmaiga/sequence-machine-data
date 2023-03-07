@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) = T(n-k,k-1) with T(0,0) = 1 and T(n,0) = -1/n * Sum_{k=1..A003056(n)} (-1)^k * (2*k+1) * (n+1-A060544(k+1)) * T(n,k).",
+  "id": "A292781",
+  "mentions": [
+    "A000594",
+    "A003056",
+    "A060544"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

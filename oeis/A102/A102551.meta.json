@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = [prime(n)/(prime(n+1)-prime(n))], where [x] means the integer part of x.",
+  "id": "A102551",
+  "mentions": [
+    "A001223"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:53",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

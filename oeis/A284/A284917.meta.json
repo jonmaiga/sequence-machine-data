@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest infinite sequence of positive integers such that the Taxicab distance is unique to each pair of distinct points ((n, a(n)), (k, a(k)).",
+  "id": "A284917",
+  "mentions": [
+    "A005282",
+    "A284916"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:56",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

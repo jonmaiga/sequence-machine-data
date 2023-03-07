@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of covering relations in the poset P of n X n idempotent matrices over GF(2) ordered by A <= B if and only if AB = BA = A.",
+  "id": "A357410",
+  "mentions": [
+    "A002884",
+    "A132186",
+    "A296548",
+    "A342245"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

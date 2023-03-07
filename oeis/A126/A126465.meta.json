@@ -1,0 +1,27 @@
+{
+  "description": "Triangle T, read by rows, where row n equals row (n-1) of matrix power T^(n(n+1)/2) concatenated with a trailing '1', for n>0, with T(0,0) = 1.",
+  "id": "A126465",
+  "mentions": [
+    "A101479",
+    "A126445",
+    "A126450",
+    "A126454",
+    "A126457",
+    "A126460",
+    "A126466",
+    "A126467",
+    "A126468",
+    "A126469"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

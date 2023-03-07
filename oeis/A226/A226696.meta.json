@@ -1,0 +1,21 @@
+{
+  "description": "Discriminants D of indefinite binary quadratic forms (given in A079896) which allow a solution of the Pell equation x^2 - D*y^2 = -4.",
+  "id": "A226696",
+  "mentions": [
+    "A003653",
+    "A079896",
+    "A226165",
+    "A226693"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

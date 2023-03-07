@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that A099378(k) | (A099377(k) - 1).",
+  "id": "A348865",
+  "mentions": [
+    "A001599",
+    "A099377",
+    "A099378",
+    "A348866"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

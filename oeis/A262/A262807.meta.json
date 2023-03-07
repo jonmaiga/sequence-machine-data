@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (Product_{k=1..n} prime(k+1)) mod (Sum_{k=1..n} prime(k+1)) where prime(k) is the k-th prime number.",
+  "id": "A262807",
+  "mentions": [
+    "A065091",
+    "A070826",
+    "A071089",
+    "A071148",
+    "A259643"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:02:21",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

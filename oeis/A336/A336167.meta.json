@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangular array read by rows. T(n,k) is the number of forests on n unlabeled nodes with exactly k distinct isomorphism classes of trees.",
+  "id": "A336167",
+  "mentions": [
+    "A005195",
+    "A035054"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of Sum_{k>0} k * x^k / (1 - k * x^k)^(k+1).",
+  "id": "A360823",
+  "mentions": [
+    "A338658",
+    "A360794",
+    "A360824"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

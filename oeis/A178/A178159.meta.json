@@ -1,0 +1,21 @@
+{
+  "description": "Modified variant of A006645, the self-convolution of the Pell series.",
+  "id": "A178159",
+  "mentions": [
+    "A000129",
+    "A006645",
+    "A089098"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

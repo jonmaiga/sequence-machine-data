@@ -1,0 +1,19 @@
+{
+  "description": "Number of closed lambda-terms of size n with size 1 for the variables.",
+  "id": "A135501",
+  "mentions": [
+    "A062980",
+    "A220894"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

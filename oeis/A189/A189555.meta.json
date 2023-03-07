@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that x' = n has two solutions, where x' is the arithmetic derivative (A003415) of x.",
+  "id": "A189555",
+  "mentions": [
+    "A003415",
+    "A098700",
+    "A099302",
+    "A189481",
+    "A189556"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

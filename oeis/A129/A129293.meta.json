@@ -1,0 +1,20 @@
+{
+  "description": "Numbers m such that m^4-1 has no divisors d with 1",
+  "id": "A129293",
+  "mentions": [
+    "A070155",
+    "A129292",
+    "A129295",
+    "A129297"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

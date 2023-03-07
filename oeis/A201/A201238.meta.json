@@ -1,0 +1,25 @@
+{
+  "description": "Number of ways to place 4 non-attacking wazirs on an n X n toroidal board.",
+  "id": "A201238",
+  "mentions": [
+    "A172227",
+    "A201236",
+    "A201237",
+    "A201239",
+    "A201240",
+    "A201241",
+    "A201242"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:29:25",
+    "offset": 1,
+    "size": 27,
+    "source": "joeis"
+  }
+}

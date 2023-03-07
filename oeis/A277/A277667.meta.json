@@ -1,0 +1,19 @@
+{
+  "description": "Number of n-length words over a quaternary alphabet {a_1,a_2,...,a_4} avoiding consecutive letters a_i, a_{i+1}.",
+  "id": "A277667",
+  "mentions": [
+    "A277666"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

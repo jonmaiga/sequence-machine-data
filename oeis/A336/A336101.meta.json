@@ -1,0 +1,30 @@
+{
+  "description": "Numbers divisible by exactly one odd prime.",
+  "id": "A336101",
+  "mentions": [
+    "A000265",
+    "A001221",
+    "A005009",
+    "A005015",
+    "A005029",
+    "A005087",
+    "A007283",
+    "A020714",
+    "A038550",
+    "A061345",
+    "A065091",
+    "A246655",
+    "A267895"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

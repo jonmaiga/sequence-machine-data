@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that both sigma_{-1}(k) > 2 and sigma_0(k)/sigma_{-1}(k) are integers.",
+  "id": "A340864",
+  "mentions": [
+    "A001599",
+    "A007691",
+    "A166069",
+    "A325025"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

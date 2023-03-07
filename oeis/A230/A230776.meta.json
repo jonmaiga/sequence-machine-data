@@ -1,0 +1,22 @@
+{
+  "description": "Record values in A228098.",
+  "id": "A230776",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A228098",
+    "A230777",
+    "A230778"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

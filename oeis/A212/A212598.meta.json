@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = n - m!, where m is the largest number such that m! <= n.",
+  "id": "A212598",
+  "mentions": [
+    "A000142",
+    "A001563",
+    "A084558",
+    "A136437",
+    "A212266",
+    "A220656"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

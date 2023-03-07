@@ -1,0 +1,17 @@
+{
+  "description": "Unchanging value maps: number of n X n binary arrays indicating the locations of corresponding elements unequal to no horizontal, antidiagonal or vertical neighbor in a random 0..1 n X n array",
+  "id": "A219149",
+  "mentions": [
+    "A219156"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Seed values of hailstone sequences for which, by the time they first reach 1, the ratio of odd terms to even terms is exactly 1/2. (The seed value itself is included in the ratio calculation.)",
+  "id": "A316783",
+  "mentions": [
+    "A006370",
+    "A006666",
+    "A078719"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:35",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of lim_{n->infinity} E(2*n, n)/n^(2*n), where E(n, x) is the n-th Euler polynomial.",
+  "id": "A349003",
+  "mentions": [
+    "A004174",
+    "A292782",
+    "A349004"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

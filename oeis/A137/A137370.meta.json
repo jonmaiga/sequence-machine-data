@@ -1,0 +1,20 @@
+{
+  "description": "Brahmagupta matrix in a Markov matrix recursion produces a set of polynomials: the special values of x->Sqrt[z];y->1;t->n gives a set of polynomials as determinants. The triangular sequence of the Coefficients of these polynomials are except for signs A055134.",
+  "id": "A137370",
+  "mentions": [
+    "A055134"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

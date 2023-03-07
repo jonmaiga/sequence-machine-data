@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of pairs (i,j) such that 0 < i < j < n-1 and the points (i, a(i)), (j, a(j)) and (n-1, a(n-1)) are aligned.",
+  "id": "A308639",
+  "mentions": [
+    "A308638"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Triangular array of polynomials related to the Motzkin triangle and to rooted polyominoes, coefficients in ascending order, read by rows, for 0 <= k <= n.",
+  "id": "A301475",
+  "mentions": [
+    "A000217",
+    "A000244",
+    "A026300",
+    "A038622",
+    "A064189",
+    "A089942",
+    "A126954",
+    "A301477"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

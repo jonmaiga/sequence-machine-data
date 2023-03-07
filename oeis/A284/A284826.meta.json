@@ -1,0 +1,31 @@
+{
+  "description": "Irregular triangle T(n,k) for 1 <= k <= (n+1)/2: T(n,k) = number of primitive (aperiodic) palindromic structures of length n using exactly k different symbols.",
+  "id": "A284826",
+  "mentions": [
+    "A056391",
+    "A056476",
+    "A056477",
+    "A056478",
+    "A056479",
+    "A056480",
+    "A056481",
+    "A056482",
+    "A056483",
+    "A056484",
+    "A056485",
+    "A284823",
+    "A284841"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:56",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

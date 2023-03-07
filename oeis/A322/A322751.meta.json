@@ -1,0 +1,19 @@
+{
+  "description": "Number of directed graphs of 2*n vertices each having an in-degree and out-degree of 1 such that the graph specifies a pairwise connected gift exchange.",
+  "id": "A322751",
+  "mentions": [
+    "A010050",
+    "A322750"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X 3 integer arrays with each element equal to the number of horizontal and antidiagonal neighbors not equal to itself.",
+  "id": "A265987",
+  "mentions": [
+    "A265991"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:28:29",
+    "offset": 1,
+    "size": 29,
+    "source": "joeis"
+  }
+}

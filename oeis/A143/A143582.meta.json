@@ -1,0 +1,18 @@
+{
+  "description": "Denominators of coefficient of x^(n+1/2) in the series expansion of the haversine.",
+  "id": "A143582",
+  "mentions": [
+    "A143581"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

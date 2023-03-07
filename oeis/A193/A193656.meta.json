@@ -1,0 +1,18 @@
+{
+  "description": "Q-residue of the triangle p(n,k)=(2^(n - k))*5^k, 0<=k<=n, where Q is the triangular array (t(i,j)) given by t(i,j)=1. (See Comments.)",
+  "id": "A193656",
+  "mentions": [
+    "A193649"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

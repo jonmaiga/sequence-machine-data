@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the k value that corresponds to A185729(n).",
+  "id": "A185811",
+  "mentions": [
+    "A064510",
+    "A185729"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

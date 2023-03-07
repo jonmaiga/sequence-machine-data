@@ -1,0 +1,29 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the sum of the elements of the k-th column of the difference table of the divisors of n.",
+  "id": "A273263",
+  "mentions": [
+    "A000005",
+    "A000027",
+    "A161857",
+    "A187202",
+    "A272210",
+    "A273102",
+    "A273103",
+    "A273135",
+    "A273136",
+    "A273261",
+    "A273262",
+    "A274533"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

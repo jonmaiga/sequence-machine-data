@@ -1,0 +1,23 @@
+{
+  "description": "Numbers not in range of A269160; indices of zeros in A269162 from n >= 1 onward.",
+  "id": "A269164",
+  "mentions": [
+    "A269160",
+    "A269162",
+    "A269163",
+    "A269166",
+    "A269168",
+    "A269169"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:31",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Numbers > 100 such that all the substrings of length = 2 are primes.",
+  "id": "A211683",
+  "mentions": [
+    "A019546",
+    "A035232",
+    "A039996",
+    "A046034",
+    "A069488",
+    "A085823",
+    "A131648",
+    "A211681",
+    "A211682"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

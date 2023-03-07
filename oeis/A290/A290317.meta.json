@@ -1,0 +1,32 @@
+{
+  "description": "Triangle read by rows. Row n gives the numerators of the coefficients of the Bernoulli polynomials of the second kind (in rising powers).",
+  "id": "A290317",
+  "mentions": [
+    "A002208",
+    "A002209",
+    "A002790",
+    "A006232",
+    "A027641",
+    "A027642",
+    "A051716",
+    "A051717",
+    "A157982",
+    "A164869",
+    "A165226",
+    "A290318"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

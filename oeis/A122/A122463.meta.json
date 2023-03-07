@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest integer such that all its prime factors are <= its n-th root, and such that the equivalent limitation holds also for a(n)-1.",
+  "id": "A122463",
+  "mentions": [
+    "A006530",
+    "A116486",
+    "A122464",
+    "A122465"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

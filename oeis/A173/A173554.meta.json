@@ -1,0 +1,19 @@
+{
+  "description": "Primes of form 5+38*n^2.",
+  "id": "A173554",
+  "mentions": [
+    "A173552",
+    "A173553",
+    "A173555"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:34:01",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

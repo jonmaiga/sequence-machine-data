@@ -1,0 +1,21 @@
+{
+  "description": "Minimum number of colors needed to color the faces of the Platonic solids such that no two faces meeting at a common edge share the same color (in the order tetrahedron, cube, octahedron, dodecahedron, icosahedron).",
+  "id": "A244951",
+  "mentions": [
+    "A098112",
+    "A158478",
+    "A198861"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

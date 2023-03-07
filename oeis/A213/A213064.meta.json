@@ -1,0 +1,21 @@
+{
+  "description": "Bitwise AND of 2n with the one's-complement of n.",
+  "id": "A213064",
+  "mentions": [
+    "A048724",
+    "A292272"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

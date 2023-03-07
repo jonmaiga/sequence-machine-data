@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=1..n} (k+2)!/k! = Sum_{k=1..n} (k+2)*(k+1).",
+  "id": "A180118",
+  "mentions": [
+    "A005718",
+    "A033487",
+    "A050534"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:01:25",
+    "offset": 0,
+    "size": 44,
+    "source": "joeis"
+  }
+}

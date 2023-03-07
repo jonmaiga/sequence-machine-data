@@ -1,0 +1,25 @@
+{
+  "description": "Dirichlet g.f.: Product_{k>=2} 1 / (1 - k^(-s))^binomial(k+4,5).",
+  "id": "A344205",
+  "mentions": [
+    "A000389",
+    "A000417",
+    "A001055",
+    "A050367",
+    "A329124",
+    "A344203",
+    "A344204",
+    "A344206",
+    "A344207"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

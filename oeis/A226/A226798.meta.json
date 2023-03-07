@@ -1,0 +1,18 @@
+{
+  "description": "List of triples {a,b,c} with 0 < a < b < c such that a! b! c! is a square, ordered by their sum a + b + c.",
+  "id": "A226798",
+  "mentions": [
+    "A226799"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

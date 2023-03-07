@@ -1,0 +1,20 @@
+{
+  "description": "Dimension of space of invariant tensors in 2n-th tensor power of natural representation of Sp(8).",
+  "id": "A251598",
+  "mentions": [
+    "A251593",
+    "A251594",
+    "A251596"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

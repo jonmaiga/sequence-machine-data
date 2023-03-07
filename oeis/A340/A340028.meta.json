@@ -1,0 +1,23 @@
+{
+  "description": "Number of unlabeled 2-connected graphs with n vertices rooted at a pair of noninterchangeable vertices.",
+  "id": "A340028",
+  "mentions": [
+    "A002218",
+    "A004115",
+    "A241768",
+    "A304070",
+    "A304074",
+    "A339645",
+    "A340029"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

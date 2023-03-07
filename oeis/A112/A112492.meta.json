@@ -1,0 +1,28 @@
+{
+  "description": "Triangle from inverse scaled Pochhammer symbols.",
+  "id": "A112492",
+  "mentions": [
+    "A000012",
+    "A000225",
+    "A001240",
+    "A001241",
+    "A001242",
+    "A008969",
+    "A111885",
+    "A111886",
+    "A111888"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

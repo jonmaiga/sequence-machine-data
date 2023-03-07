@@ -1,0 +1,22 @@
+{
+  "description": "Composite non-Carmichael numbers k such that rad(phi(k)) divides k-1, where rad(k) is the squarefree kernel of k (A007947) and phi is the Euler totient function (A000010).",
+  "id": "A333314",
+  "mentions": [
+    "A000010",
+    "A002997",
+    "A007947",
+    "A187731",
+    "A238574",
+    "A238575"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

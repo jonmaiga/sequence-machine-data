@@ -1,0 +1,27 @@
+{
+  "description": "Start with a single cell at coordinates (0, 0, 0), then iteratively subdivide the grid into 3 X 3 X 3 cells and remove the cells whose sum of modulo 2 coordinates is 2; a(n) is the number of cells after n iterations.",
+  "id": "A285396",
+  "mentions": [
+    "A285391",
+    "A285392",
+    "A285393",
+    "A285394",
+    "A285395",
+    "A285397",
+    "A285398",
+    "A285399",
+    "A285400"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:57",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

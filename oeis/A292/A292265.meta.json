@@ -1,0 +1,26 @@
+{
+  "description": "A multiplicative encoding (compressed) for the exponents of 2 obtained when using Shevelev's algorithm for computing A002326.",
+  "id": "A292265",
+  "mentions": [
+    "A000265",
+    "A002326",
+    "A002623",
+    "A007814",
+    "A019565",
+    "A048675",
+    "A179680",
+    "A292239",
+    "A292266"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:07",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

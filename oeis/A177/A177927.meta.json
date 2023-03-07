@@ -1,0 +1,22 @@
+{
+  "description": "3-Monica numbers.",
+  "id": "A177927",
+  "mentions": [
+    "A006753",
+    "A007953",
+    "A102217",
+    "A102219",
+    "A118503"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

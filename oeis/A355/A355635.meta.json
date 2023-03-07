@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows. Row n gives the coefficients of Product_{k=0..n-1} (x - binomial(n-1,k)) expanded in decreasing powers of x, with row 0 = {1}.",
+  "id": "A355635",
+  "mentions": [
+    "A000079",
+    "A000346",
+    "A001142",
+    "A025131",
+    "A025133",
+    "A025134",
+    "A025135"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

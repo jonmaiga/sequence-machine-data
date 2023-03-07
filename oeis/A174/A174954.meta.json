@@ -1,0 +1,20 @@
+{
+  "description": "a(1)=1 and a(2)=2, a(n) = square of the sum of previous terms.",
+  "id": "A174954",
+  "mentions": [
+    "A082732",
+    "A174864"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

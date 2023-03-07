@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are both 10-gonal numbers (A001107) and 10-gonal pyramidal numbers (A007585).",
+  "id": "A344280",
+  "mentions": [
+    "A001107",
+    "A007585",
+    "A027568",
+    "A344376",
+    "A344377"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

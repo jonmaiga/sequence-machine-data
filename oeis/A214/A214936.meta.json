@@ -1,0 +1,21 @@
+{
+  "description": "a(0) = 1, a(n) = a(n - 1) * (length of binary representation of n).",
+  "id": "A214936",
+  "mentions": [
+    "A070939",
+    "A083652"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of odd primes p < 2*n with prime(n*(p-1)/2)^2 - 2 prime.",
+  "id": "A238576",
+  "mentions": [
+    "A000040",
+    "A049002",
+    "A062326",
+    "A237413",
+    "A237578",
+    "A238573"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

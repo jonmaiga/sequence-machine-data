@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the integral over the square [0,1]x[0,1] of sqrt(1+(x-y)^2) dx dy.",
+  "id": "A247674",
+  "mentions": [
+    "A244921"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

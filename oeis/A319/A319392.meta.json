@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (-1)^(n-k)*binomial(n,k)*k!*n^k.",
+  "id": "A319392",
+  "mentions": [
+    "A000166",
+    "A000180",
+    "A000354",
+    "A001907",
+    "A001908",
+    "A277452",
+    "A320032"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

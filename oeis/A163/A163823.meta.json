@@ -1,0 +1,18 @@
+{
+  "description": "Number of initial segments of signature sequences of length n.",
+  "id": "A163823",
+  "mentions": [
+    "A163822"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

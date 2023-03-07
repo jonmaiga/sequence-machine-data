@@ -1,0 +1,28 @@
+{
+  "description": "Odd coreful abundant numbers: the odd terms of A308053.",
+  "id": "A339936",
+  "mentions": [
+    "A005231",
+    "A005408",
+    "A057723",
+    "A094889",
+    "A112643",
+    "A127666",
+    "A129485",
+    "A293186",
+    "A308053",
+    "A321147",
+    "A333950",
+    "A356871"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

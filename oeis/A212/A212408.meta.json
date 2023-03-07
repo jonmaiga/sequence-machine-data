@@ -1,0 +1,18 @@
+{
+  "description": "Number of binary arrays of length 2*n+6 with no more than n ones in any length 2n subsequence (=50% duty cycle).",
+  "id": "A212408",
+  "mentions": [
+    "A212402"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

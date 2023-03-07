@@ -1,0 +1,33 @@
+{
+  "description": "Triangle read by rows: T(n,k), n>=1, k>=1, in which column k lists the twice odd numbers (A016825) interleaved with k-1 zeros, and the first element of column k is in row k(k+1)/2.",
+  "id": "A236106",
+  "mentions": [
+    "A000203",
+    "A000217",
+    "A001227",
+    "A003056",
+    "A016825",
+    "A074400",
+    "A196020",
+    "A211343",
+    "A228813",
+    "A231345",
+    "A231347",
+    "A235791",
+    "A235794",
+    "A236104",
+    "A236112"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

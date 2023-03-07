@@ -1,0 +1,25 @@
+{
+  "description": "A positive integer n is included if n written in binary can be subdivided into a number of runs all of equal-length, the first run from the left consisting of all 1's, the next run consisting of all 0's, the next run consisting of all 1's, the next run consisting of all 0's, etc.",
+  "id": "A140690",
+  "mentions": [
+    "A000225",
+    "A002450",
+    "A015565",
+    "A020522",
+    "A043291",
+    "A093134",
+    "A101211",
+    "A298644"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:29",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

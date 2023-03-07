@@ -1,0 +1,22 @@
+{
+  "description": "Row sums of triangle A116672, in which the binomial transform of the n-th row lists the Euler transform of the n-th sequence in A007318 (Pascal's Triangle).",
+  "id": "A116673",
+  "mentions": [
+    "A007318",
+    "A007326",
+    "A096751",
+    "A096806",
+    "A096807",
+    "A116672"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

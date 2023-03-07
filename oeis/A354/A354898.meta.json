@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n! * Sum_{d|n} d^(n - d) / (d! * (n/d)!).",
+  "id": "A354898",
+  "mentions": [
+    "A121860",
+    "A354845",
+    "A354891",
+    "A354893",
+    "A354897"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

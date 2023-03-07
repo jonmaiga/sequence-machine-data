@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n + [n*r/s] + [n*t/s]; r=1, s=sin(Pi/8), t=cos(Pi/8).",
+  "id": "A189938",
+  "mentions": [
+    "A189926",
+    "A189937",
+    "A189939"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

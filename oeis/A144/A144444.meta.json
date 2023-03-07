@@ -1,0 +1,30 @@
+{
+  "description": "Triangle read by rows: T(n, k) = (1-n+k)*T(n-1, k-1) + (2-k)*T(n-1, k) - T(n-2, k-1) with T(n, 1) = T(n, n) = 1.",
+  "id": "A144444",
+  "mentions": [
+    "A075374",
+    "A144431",
+    "A144432",
+    "A144435",
+    "A144436",
+    "A144438",
+    "A144439",
+    "A144440",
+    "A144441",
+    "A144442",
+    "A144443",
+    "A144445"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

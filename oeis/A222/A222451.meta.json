@@ -1,0 +1,17 @@
+{
+  "description": "Number of nX3 0..1 arrays with exactly floor(nX3/2) elements unequal to at least one horizontal, vertical or antidiagonal neighbor, with new values introduced in row major 0..1 order",
+  "id": "A222451",
+  "mentions": [
+    "A222456"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

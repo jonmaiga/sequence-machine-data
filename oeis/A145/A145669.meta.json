@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = smallest member of the n-th term in S(2) (defined in Comments).",
+  "id": "A145669",
+  "mentions": [
+    "A014234",
+    "A104080",
+    "A145667",
+    "A145674"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

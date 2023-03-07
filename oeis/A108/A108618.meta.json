@@ -1,0 +1,22 @@
+{
+  "description": "A quaternion-generated sequence calculated using the rules given in the comment box with initial seed x = .5'i + .5'j + .5'k + .5e; version: \"tes\".",
+  "id": "A108618",
+  "mentions": [
+    "A108619",
+    "A108620",
+    "A108621",
+    "A272693"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hear",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

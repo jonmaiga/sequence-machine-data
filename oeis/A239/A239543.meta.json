@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the minimum number greater than a(n-1) such that the concatenation a(n) U a(n-1) U ... U a(1) is a Niven number, starting with a(1)=1.",
+  "id": "A239543",
+  "mentions": [
+    "A005349",
+    "A239542"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:56",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (Sum_{k=0..n-1} C(n-1,k)^2*C(-n-1,k)^2/C(k+2,2))/n.",
+  "id": "A246875",
+  "mentions": [
+    "A243101",
+    "A246460",
+    "A246511",
+    "A246543",
+    "A246567"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

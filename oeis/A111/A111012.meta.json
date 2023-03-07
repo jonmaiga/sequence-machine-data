@@ -1,0 +1,21 @@
+{
+  "description": "Primes in A002532.",
+  "id": "A111012",
+  "mentions": [
+    "A000040",
+    "A002532",
+    "A002533"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

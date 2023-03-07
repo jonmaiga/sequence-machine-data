@@ -1,0 +1,25 @@
+{
+  "description": "E.g.f.: exp(1 / (1 - arcsin(x)) - 1).",
+  "id": "A331615",
+  "mentions": [
+    "A006228",
+    "A189780",
+    "A189815",
+    "A331607",
+    "A331608",
+    "A331616",
+    "A331617",
+    "A331618"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:24",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

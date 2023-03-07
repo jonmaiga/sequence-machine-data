@@ -1,0 +1,18 @@
+{
+  "description": "Number of primitive Pythagorean-like triples a^2+b^2=c^2+k for k=-1 with c<=10^n.",
+  "id": "A121082",
+  "mentions": [
+    "A101931"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

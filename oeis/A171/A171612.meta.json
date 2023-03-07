@@ -1,0 +1,22 @@
+{
+  "description": "Integers n such that (25*10^n)+1 is prime.",
+  "id": "A171612",
+  "mentions": [
+    "A056797",
+    "A056804",
+    "A056805",
+    "A056806",
+    "A056807"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

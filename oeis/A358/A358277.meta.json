@@ -1,0 +1,23 @@
+{
+  "description": "a(1) = 1, a(2) = 2; for n > 2, a(n) is the smallest positive number not occurring earlier such that a(n) is coprime to the previous Omega(a(n-1)) terms.",
+  "id": "A358277",
+  "mentions": [
+    "A000040",
+    "A001222",
+    "A093714",
+    "A336957",
+    "A356850",
+    "A356851",
+    "A356903"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

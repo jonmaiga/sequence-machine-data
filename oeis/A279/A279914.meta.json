@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = sigma(n) + phi(n) - mu(n).",
+  "id": "A279914",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A008683"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:29:33",
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

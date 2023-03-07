@@ -1,0 +1,23 @@
+{
+  "description": "Divide A036039(n) by A036040(n).",
+  "id": "A107106",
+  "mentions": [
+    "A036039",
+    "A036040",
+    "A107107",
+    "A134133"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:52",
+    "offset": 1,
+    "size": 81,
+    "source": "joeis"
+  }
+}

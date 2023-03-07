@@ -1,0 +1,27 @@
+{
+  "description": "Numbers with exactly 9 semiprime divisors.",
+  "id": "A350416",
+  "mentions": [
+    "A033993",
+    "A220264",
+    "A345381",
+    "A345382",
+    "A346041",
+    "A350371",
+    "A350372",
+    "A350373",
+    "A350374",
+    "A350375"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

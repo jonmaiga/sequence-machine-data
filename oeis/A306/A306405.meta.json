@@ -1,0 +1,20 @@
+{
+  "description": "T(n,k) = k*Sum_{i=0..(n-k)/2} C(k,2*k+2*i-n)*C(k+2*i-1,i))/(k+i), triangle read by rows for n >= 1 and 1 <= k <= n.",
+  "id": "A306405",
+  "mentions": [
+    "A000108",
+    "A274115"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

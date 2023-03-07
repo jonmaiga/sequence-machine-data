@@ -1,0 +1,23 @@
+{
+  "description": "Three consecutive elements of the sequence built from a quadratic form over four consecutive Fibonacci numbers A000045.",
+  "id": "A114695",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A001654",
+    "A007598",
+    "A128535"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

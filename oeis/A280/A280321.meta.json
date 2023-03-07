@@ -1,0 +1,20 @@
+{
+  "description": "Number of 2 X 2 matrices with all elements in {0,..,n} having determinant = n*permanent.",
+  "id": "A280321",
+  "mentions": [
+    "A016754",
+    "A273743",
+    "A273789"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:15:43",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

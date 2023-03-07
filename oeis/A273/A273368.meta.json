@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that 10*k+9 is a perfect square.",
+  "id": "A273368",
+  "mentions": [
+    "A033583",
+    "A085787",
+    "A132356",
+    "A273365",
+    "A273366",
+    "A273367"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:19:23",
+    "offset": 0,
+    "size": 43,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Expansion of phi(x) * f(x^3, x^5) in powers of x where phi(), f() are Ramanujan theta functions.",
+  "id": "A246862",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A008441",
+    "A010054",
+    "A010815",
+    "A113407",
+    "A116604",
+    "A121373",
+    "A125079",
+    "A129447",
+    "A134343",
+    "A138741",
+    "A214264",
+    "A226192",
+    "A246863"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:59:17",
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

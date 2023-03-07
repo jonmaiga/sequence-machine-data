@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest positive integer which can be represented as the sum of distinct positive Fibonacci n-step numbers (with a single type of 1) in exactly n ways, or -1 if no such integer exists.",
+  "id": "A359631",
+  "mentions": [
+    "A000119",
+    "A013583",
+    "A117546",
+    "A287656",
+    "A288120"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

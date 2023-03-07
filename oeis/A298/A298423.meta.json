@@ -1,0 +1,25 @@
+{
+  "description": "Number of integer partitions of n such that the predecessor of each part is divisible by the number of parts.",
+  "id": "A298423",
+  "mentions": [
+    "A000005",
+    "A000041",
+    "A067538",
+    "A143773",
+    "A280954",
+    "A298422",
+    "A298424",
+    "A298426"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

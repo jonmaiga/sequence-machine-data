@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of distinct ratios > 1 for which there exist A341051(n) n-digit integers (the maximum possible) that are in geometric progression.",
+  "id": "A341052",
+  "mentions": [
+    "A341051",
+    "A341053"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

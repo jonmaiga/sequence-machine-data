@@ -1,0 +1,19 @@
+{
+  "description": "Smallest numbers with a given factorization pattern in their sequence of divisors.",
+  "id": "A191743",
+  "mentions": [
+    "A025487",
+    "A054753",
+    "A055932"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

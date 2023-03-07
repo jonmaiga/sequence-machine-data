@@ -1,0 +1,25 @@
+{
+  "description": "One of the two successive approximations up to 2^n for 2-adic integer sqrt(-3/5). This is the 3 (mod 4) case.",
+  "id": "A341601",
+  "mentions": [
+    "A145231",
+    "A318960",
+    "A318961",
+    "A341538",
+    "A341539",
+    "A341600",
+    "A341603"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 2,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

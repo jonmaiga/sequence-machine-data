@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = BS2(n) * W(n) where BS2 = sum_{k=0..n} ((-1)^k*k!/(k+1)) S_{2}(n, k) and S_{2}(n, k) are the Stirling-Frobenius subset numbers A039755(n, k). W(n) = product{p primes <= n+1 such that p divides n+1 or p-1 divides n} = A225481(n).",
+  "id": "A226157",
+  "mentions": [
+    "A039755",
+    "A141056",
+    "A225481",
+    "A226156"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

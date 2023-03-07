@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that the sum of k, the divisors of k, and the numbers < k that are coprime to k, is a perfect power.",
+  "id": "A352876",
+  "mentions": [
+    "A000203",
+    "A001597",
+    "A023896"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

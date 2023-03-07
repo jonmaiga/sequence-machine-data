@@ -1,0 +1,19 @@
+{
+  "description": "Least positive k such that k * [RSA-2048]^n + 1 is prime, where RSA-2048 is the 617 decimal digit RSA challenge number.",
+  "id": "A108881",
+  "mentions": [
+    "A108375",
+    "A108573"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

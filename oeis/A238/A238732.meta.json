@@ -1,0 +1,21 @@
+{
+  "description": "Number of primes p < n with floor((n-p)/3) a square.",
+  "id": "A238732",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A237706",
+    "A238134",
+    "A238701"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

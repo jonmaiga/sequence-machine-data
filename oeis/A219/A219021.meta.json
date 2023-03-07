@@ -1,0 +1,21 @@
+{
+  "description": "Sum of cubes of first n terms of Lucas sequence U(4,1) (A001353) divided by sum of their first powers.",
+  "id": "A219021",
+  "mentions": [
+    "A001353",
+    "A061278",
+    "A219020"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

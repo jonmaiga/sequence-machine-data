@@ -1,0 +1,23 @@
+{
+  "description": "Let k = A000396(n) be the n-th perfect number, a(n) is the least number m such that k*d*m + 1 is prime for all of the proper divisors d of k so their product is a Carmichael number.",
+  "id": "A319008",
+  "mentions": [
+    "A000396",
+    "A002997",
+    "A033502",
+    "A046025",
+    "A067199"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

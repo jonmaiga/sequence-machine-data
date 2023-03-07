@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are the sum of seven fifth powers in seven or more ways.",
+  "id": "A345629",
+  "mentions": [
+    "A345573",
+    "A345609",
+    "A345615",
+    "A345630",
+    "A345721",
+    "A346284"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:19",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

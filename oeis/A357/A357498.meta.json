@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows where each term in row n is the next greater multiple of n..1 divided by n..1.",
+  "id": "A357498",
+  "mentions": [
+    "A007952",
+    "A357431",
+    "A358435"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

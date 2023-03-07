@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = coefficient of x^n, n >= 0, in A(x) such that: 1 = Sum_{n=-oo..+oo} x^n * (2*A(x) - x^n)^(n-1).",
+  "id": "A357227",
+  "mentions": [
+    "A355865",
+    "A355868",
+    "A357232",
+    "A358937",
+    "A358961",
+    "A358962",
+    "A358963",
+    "A358964",
+    "A358965"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

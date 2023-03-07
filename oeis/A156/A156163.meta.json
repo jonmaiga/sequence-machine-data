@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of (19+6*sqrt(2))/17.",
+  "id": "A156163",
+  "mentions": [
+    "A002193",
+    "A155923",
+    "A156035",
+    "A156159",
+    "A156164"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Square array T(n,k) read by upward antidiagonals: each term is the least positive integer not yet appearing in the array that is coprime to all the terms in its associated row, column, diagonal and antidiagonal.",
+  "id": "A284189",
+  "mentions": [
+    "A284145"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

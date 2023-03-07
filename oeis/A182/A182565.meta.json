@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Madelung constant (negated) for cuprous oxide Cu_2O.",
+  "id": "A182565",
+  "mentions": [
+    "A085469",
+    "A181152"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of n-length words w over a 10-ary alphabet {a1,a2,...,a10} such that #(w,a1) >= #(w,a2) >= ... >= #(w,a10) >= 0, where #(w,x) counts the letters x in word w.",
+  "id": "A226880",
+  "mentions": [
+    "A005651",
+    "A226873"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

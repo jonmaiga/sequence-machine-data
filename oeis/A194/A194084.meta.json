@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: a(n)=A135929(n) + A192011(n). Row n gives coefficients of polynomials BC(n,x) in order of decreasing exponents.",
+  "id": "A194084",
+  "mentions": [
+    "A057079",
+    "A057083",
+    "A135929",
+    "A192011",
+    "A192174"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

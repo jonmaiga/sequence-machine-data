@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the first emirp that starts a chain of exactly n emirps under the mapping f(x) = x + reverse(x) + 1.",
+  "id": "A345217",
+  "mentions": [
+    "A006567"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

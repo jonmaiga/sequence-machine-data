@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Pochhammer(n+1, n)/Clausen(n, 1) = A001813(n) / A160014(n, 1).",
+  "id": "A268432",
+  "mentions": [
+    "A001813",
+    "A027642",
+    "A160014",
+    "A264437"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

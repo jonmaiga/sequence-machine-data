@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of theta_3(q) * theta_3(q^3) * theta_3(q^5) * theta_3(q^7), where theta_3() is the Jacobi theta function.",
+  "id": "A320240",
+  "mentions": [
+    "A000122",
+    "A033716",
+    "A320078",
+    "A320239"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Number of 2 X n 0-1 matrices avoiding simultaneously the right angled numbered polyomino patterns (ranpp) (00;1), (01;0), (10;0) and (01;1).",
+  "id": "A100314",
+  "mentions": [
+    "A000051",
+    "A000079",
+    "A001787",
+    "A002064",
+    "A005126",
+    "A005843",
+    "A052548",
+    "A058331",
+    "A099003",
+    "A100315",
+    "A100316",
+    "A131830",
+    "A132750",
+    "A176691"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Nonprime numbers k such that k divides A014137(k).",
+  "id": "A128287",
+  "mentions": [
+    "A000108",
+    "A014137",
+    "A045309"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

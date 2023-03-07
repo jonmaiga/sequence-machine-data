@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that A182134(n) = 4, i.e., there exist exactly four primes p with prime(n) < p < prime(n)^(1+1/n).",
+  "id": "A249566",
+  "mentions": [
+    "A000040",
+    "A002386",
+    "A005669",
+    "A182134",
+    "A246781",
+    "A246782"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest number k>0 such that -n is not a quadratic residue modulo k.",
+  "id": "A354597",
+  "mentions": [
+    "A139401"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Emirps using all nonprime digits (0, 1, 4, 6, 8, 9) and no others.",
+  "id": "A157533",
+  "mentions": [
+    "A006567",
+    "A128390"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

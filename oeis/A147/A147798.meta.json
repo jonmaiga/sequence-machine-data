@@ -1,0 +1,26 @@
+{
+  "description": "Minimal value of A007947(m*(11^n-m)) with m coprime to 11.",
+  "id": "A147798",
+  "mentions": [
+    "A007947",
+    "A147298",
+    "A147799",
+    "A147800",
+    "A147801",
+    "A147802",
+    "A147803",
+    "A147804",
+    "A147805"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

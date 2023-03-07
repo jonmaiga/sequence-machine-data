@@ -1,0 +1,21 @@
+{
+  "description": "Semiprimes sp of the form p^2 + q + 1 where p and q are consecutive primes.",
+  "id": "A242243",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A045636",
+    "A145292",
+    "A228183"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

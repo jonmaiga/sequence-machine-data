@@ -1,0 +1,21 @@
+{
+  "description": "Minimum size of a partial order that contains all partial orders of size n.",
+  "id": "A340318",
+  "mentions": [
+    "A000112",
+    "A001035",
+    "A004401",
+    "A097911"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

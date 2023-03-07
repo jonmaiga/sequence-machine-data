@@ -1,0 +1,29 @@
+{
+  "description": "Triangle T(n,k), read by rows, given by (1, -2, 1, 0, 0, 0, 0, 0, 0, 0, ...) DELTA (1, 0, 0, 0, 0, 0, 0, 0, 0, 0, ...) where DELTA is the operator defined in A084938.",
+  "id": "A206831",
+  "mentions": [
+    "A000007",
+    "A007318",
+    "A010892",
+    "A057077",
+    "A078050",
+    "A084938",
+    "A087960",
+    "A129267",
+    "A147703",
+    "A147721"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:06:45",
+    "offset": 0,
+    "size": 60,
+    "source": "joeis"
+  }
+}

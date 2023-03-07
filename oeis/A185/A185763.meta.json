@@ -1,0 +1,18 @@
+{
+  "description": "Number of (n+1) X 4 binary arrays with no 2 X 2 subblock trace equal to any horizontal or vertical neighbor 2 X 2 subblock trace.",
+  "id": "A185763",
+  "mentions": [
+    "A185769"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

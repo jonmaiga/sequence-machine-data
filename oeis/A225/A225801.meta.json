@@ -1,0 +1,19 @@
+{
+  "description": "The only semiprime s such that 2*a < s < 2*b where a, b are consecutive semiprimes.",
+  "id": "A225801",
+  "mentions": [
+    "A001358",
+    "A166251",
+    "A217561"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that sigma(sigma(k^4)) == 0 (mod k^2).",
+  "id": "A320425",
+  "mentions": [
+    "A202994"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

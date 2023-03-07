@@ -1,0 +1,20 @@
+{
+  "description": "Nonprimes k that are a totative of only one primorial P in A002110.",
+  "id": "A287390",
+  "mentions": [
+    "A000720",
+    "A002110",
+    "A048863",
+    "A285784"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

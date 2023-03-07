@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that (3*p+q)/2, (p+3*q)/2, (3*q+r)/2 and (q+3*r)/2 are all prime, where q and r are the next primes after p.",
+  "id": "A332848",
+  "mentions": [
+    "A329151"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:02",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

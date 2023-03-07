@@ -1,0 +1,21 @@
+{
+  "description": "Degree of SO(n,C), the special orthogonal group, as an algebraic variety.",
+  "id": "A280921",
+  "mentions": [
+    "A086645",
+    "A103328",
+    "A280922",
+    "A280923"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 2,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: row n gives number of nonisomorphic generalized Petersen graphs P(n,k) with girth 8 on n vertices for 1<=k<=floor[(n-1)/2].",
+  "id": "A107457",
+  "mentions": [
+    "A077105",
+    "A107452",
+    "A107460"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 18,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

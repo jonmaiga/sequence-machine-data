@@ -1,0 +1,37 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of n X n symmetric binary matrices with k ones in every row and column.",
+  "id": "A333157",
+  "mentions": [
+    "A000012",
+    "A000085",
+    "A000666",
+    "A000986",
+    "A059441",
+    "A110040",
+    "A122082",
+    "A139670",
+    "A139671",
+    "A139673",
+    "A139674",
+    "A139675",
+    "A188448",
+    "A295193",
+    "A322698",
+    "A333158",
+    "A333159",
+    "A333161",
+    "A333164"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

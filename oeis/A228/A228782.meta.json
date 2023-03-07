@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows: coefficients of minimal polynomial of a certain algebraic number S2(2*k) from Q(2*cos(Pi/(2*k))) related to the regular (2*k)-gon.",
+  "id": "A228782",
+  "mentions": [
+    "A055034",
+    "A108716",
+    "A187360",
+    "A228780",
+    "A228781"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

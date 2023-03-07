@@ -1,0 +1,23 @@
+{
+  "description": "The number of ways to color the faces of a regular icosahedron with n colors, counting mirror images as one.",
+  "id": "A252704",
+  "mentions": [
+    "A000332",
+    "A054472",
+    "A128766",
+    "A198833",
+    "A252705"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:42:23",
+    "offset": 1,
+    "size": 14,
+    "source": "joeis"
+  }
+}

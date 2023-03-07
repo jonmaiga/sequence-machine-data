@@ -1,0 +1,22 @@
+{
+  "description": "G.f. satisfies A(x) = 1/Product_{n>=1} (1 - x^n*A(x)^2).",
+  "id": "A196150",
+  "mentions": [
+    "A145267",
+    "A145268",
+    "A196151",
+    "A206637",
+    "A206639"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

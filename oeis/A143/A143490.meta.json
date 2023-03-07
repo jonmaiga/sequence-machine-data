@@ -1,0 +1,25 @@
+{
+  "description": "\"Fourth down, Extream [sic] between the two farthest Bells from it\" in bell-ringing is a sequence of permutations p_1=(1,2,3,4), p_2=(1,2,4,3), .. which runs through all permutations of {1,2,3,4} with period 24; sequence gives position of bell 3 in n-th permutation.",
+  "id": "A143490",
+  "mentions": [
+    "A090281",
+    "A143484",
+    "A143485",
+    "A143486",
+    "A143487",
+    "A143488",
+    "A143489"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:35:21",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

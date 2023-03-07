@@ -1,0 +1,22 @@
+{
+  "description": "The smallest starting prime which reaches prime(n) by repeated application of the map x->A060308(x).",
+  "id": "A164918",
+  "mentions": [
+    "A006992",
+    "A060308",
+    "A104272",
+    "A164288",
+    "A164368",
+    "A164917"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

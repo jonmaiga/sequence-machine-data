@@ -1,0 +1,23 @@
+{
+  "description": "Number of (marked) cyclic n-bit binary strings containing no runs of length > 3.",
+  "id": "A316699",
+  "mentions": [
+    "A001644",
+    "A007040",
+    "A092297",
+    "A176563",
+    "A218034"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:35",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

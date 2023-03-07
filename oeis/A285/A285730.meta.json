@@ -1,0 +1,24 @@
+{
+  "description": "Square array: If A001222(n) < k, then A(n,k) = n, otherwise A(n,k) = product of k largest prime factors of n (taken with multiplicity), read by descending antidiagonals.",
+  "id": "A285730",
+  "mentions": [
+    "A001222",
+    "A002260",
+    "A004736",
+    "A006530",
+    "A052126",
+    "A285731"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:57",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

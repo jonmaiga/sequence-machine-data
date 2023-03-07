@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of Carmichael numbers whose largest prime factor is prime(n).",
+  "id": "A283715",
+  "mentions": [
+    "A002997",
+    "A081702",
+    "A280617"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

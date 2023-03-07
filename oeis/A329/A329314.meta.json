@@ -1,0 +1,33 @@
+{
+  "description": "Irregular triangle read by rows where row n gives the lengths of the components in the Lyndon factorization of the binary expansion of n.",
+  "id": "A329314",
+  "mentions": [
+    "A001037",
+    "A029837",
+    "A059966",
+    "A070939",
+    "A102659",
+    "A211097",
+    "A211100",
+    "A275692",
+    "A296372",
+    "A328596",
+    "A329312",
+    "A329313",
+    "A329315",
+    "A329318",
+    "A329325",
+    "A329327"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

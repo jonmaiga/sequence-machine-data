@@ -1,0 +1,18 @@
+{
+  "description": "Nonsquare positive integers that are sums of consecutive integer squares.",
+  "id": "A212015",
+  "mentions": [
+    "A062861",
+    "A212016"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

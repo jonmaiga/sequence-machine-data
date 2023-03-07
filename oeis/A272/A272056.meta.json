@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the variance of the degree (valency) of the root of a random rooted tree with n vertices.",
+  "id": "A272056",
+  "mentions": [
+    "A000081",
+    "A051491",
+    "A261124"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-entry"
+  }
+}

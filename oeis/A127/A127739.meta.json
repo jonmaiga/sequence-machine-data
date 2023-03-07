@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows, in which row n contains the triangular number T(n) = A000217(n) repeated n times; smallest triangular number greater than or equal to n.",
+  "id": "A127739",
+  "mentions": [
+    "A000217",
+    "A000384",
+    "A002024",
+    "A002411",
+    "A003057",
+    "A057944",
+    "A123578"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 18:17:33",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

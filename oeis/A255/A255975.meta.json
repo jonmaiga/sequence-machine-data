@@ -1,0 +1,21 @@
+{
+  "description": "Rectangular array T(i,j) read by downwards antidiagonals: an interspersion associated with the fractal sequence A022328.",
+  "id": "A255975",
+  "mentions": [
+    "A022328",
+    "A022428",
+    "A051037"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

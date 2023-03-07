@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that k^2 + 12 is prime.",
+  "id": "A114275",
+  "mentions": [
+    "A005574",
+    "A007591",
+    "A049422",
+    "A067201",
+    "A078402",
+    "A114269",
+    "A114270",
+    "A114271",
+    "A114272",
+    "A114273",
+    "A114274"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:44:35",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of partitions into distinct parts having rank k, 0<=k",
+  "id": "A117195",
+  "mentions": [
+    "A000009",
+    "A010054",
+    "A063995",
+    "A105806",
+    "A117192",
+    "A117193",
+    "A117194"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

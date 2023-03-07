@@ -1,0 +1,22 @@
+{
+  "description": "Numbers of paths for moving a king from a corner to the opposite one in an n X n chessboard, provided that each cell must be reached exactly once.",
+  "id": "A272445",
+  "mentions": [
+    "A001184",
+    "A140518",
+    "A158651",
+    "A288033"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

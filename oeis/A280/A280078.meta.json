@@ -1,0 +1,22 @@
+{
+  "description": "Partial products of A007429 (Sum_{d|n} sigma(d)).",
+  "id": "A280078",
+  "mentions": [
+    "A000203",
+    "A007429",
+    "A211776",
+    "A280075",
+    "A280077"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

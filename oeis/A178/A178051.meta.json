@@ -1,0 +1,21 @@
+{
+  "description": "Peak values of mountain numbers (cf. A134941).",
+  "id": "A178051",
+  "mentions": [
+    "A054055",
+    "A134941"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = the smallest possible number of positive divisors of the sum of any two distinct positive divisors of n.",
+  "id": "A136529",
+  "mentions": [
+    "A136528"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 2,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

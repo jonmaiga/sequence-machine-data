@@ -1,0 +1,20 @@
+{
+  "description": "Record (maximal) gaps between primes of the form 8k + 3.",
+  "id": "A269420",
+  "mentions": [
+    "A000010",
+    "A007520",
+    "A269421",
+    "A269422"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

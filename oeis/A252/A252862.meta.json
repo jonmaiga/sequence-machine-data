@@ -1,0 +1,21 @@
+{
+  "description": "Initial members of prime sextuples (n, n+2, n+6, n+8, n+18, n+20).",
+  "id": "A252862",
+  "mentions": [
+    "A030430",
+    "A077800",
+    "A128467",
+    "A132232",
+    "A172456"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:11",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

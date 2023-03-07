@@ -1,0 +1,24 @@
+{
+  "description": "Triangle of coefficients of the polynomials defined by q^binomial(n, 2)*QPochhammer(x, 1/q, n), where q = -2.",
+  "id": "A157785",
+  "mentions": [
+    "A007318",
+    "A022166",
+    "A084938",
+    "A135950",
+    "A157963",
+    "A158020"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

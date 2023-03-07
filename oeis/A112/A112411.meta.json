@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = smallest positive integer, not occurring earlier in the sequence and not equal to n, that has the same number of (non-leading) 0's in its binary representation as n.",
+  "id": "A112411",
+  "mentions": [
+    "A023416",
+    "A094510"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

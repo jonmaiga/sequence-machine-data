@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that 2^n, 3^n, 5^n, 7^n, 11^n, 13^n, 17^n and 19^n have even digit sum.",
+  "id": "A119897",
+  "mentions": [
+    "A118734",
+    "A118867",
+    "A119894",
+    "A119895",
+    "A119896"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

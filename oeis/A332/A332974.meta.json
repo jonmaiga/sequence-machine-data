@@ -1,0 +1,28 @@
+{
+  "description": "Solutions k of the equation s(k) = s(k-1) + s(k-2) where s(k) = usigma(k) - k is the sum of proper unitary divisors of k (A063919).",
+  "id": "A332974",
+  "mentions": [
+    "A063919",
+    "A065557",
+    "A065900",
+    "A075565",
+    "A076136",
+    "A145469",
+    "A291126",
+    "A291176",
+    "A292033",
+    "A294995",
+    "A332973"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

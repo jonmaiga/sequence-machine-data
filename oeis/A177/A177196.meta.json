@@ -1,0 +1,18 @@
+{
+  "description": "Number of distinct representations of A163143(n) as a \"zipper number\".",
+  "id": "A177196",
+  "mentions": [
+    "A163143"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

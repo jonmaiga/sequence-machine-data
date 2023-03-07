@@ -1,0 +1,26 @@
+{
+  "description": "Smallest prime of the form (q^p+1)/(q+1), where p = prime(n) and q is also prime (q = A123627(n)); or 1 if such a prime does not exist.",
+  "id": "A123628",
+  "mentions": [
+    "A000978",
+    "A000979",
+    "A001045",
+    "A049883",
+    "A103795",
+    "A107036",
+    "A123487",
+    "A123488",
+    "A123627"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

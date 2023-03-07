@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that k/A008834(k) is squarefree, where A008834(k) is the largest cube dividing k.",
+  "id": "A336590",
+  "mentions": [
+    "A000005",
+    "A002117",
+    "A005117",
+    "A008834",
+    "A013661",
+    "A059269",
+    "A211337",
+    "A211338",
+    "A253905"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

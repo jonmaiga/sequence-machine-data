@@ -1,0 +1,18 @@
+{
+  "description": "n+[nr/t]+[ns/t]; r=1, s=arcsin(3/5), t=arcsin(4/5).",
+  "id": "A189535",
+  "mentions": [
+    "A189533",
+    "A189534"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:55:27",
+    "offset": 1,
+    "size": 84,
+    "source": "joeis"
+  }
+}

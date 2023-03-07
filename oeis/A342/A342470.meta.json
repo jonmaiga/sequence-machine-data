@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{d|n} phi(d)^4.",
+  "id": "A342470",
+  "mentions": [
+    "A000010",
+    "A013663",
+    "A029939",
+    "A338997",
+    "A342471"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

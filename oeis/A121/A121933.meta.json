@@ -1,0 +1,20 @@
+{
+  "description": "Number of labeled digraphs with n arcs for which every vertex has indegree at least one and outdegree at least one.",
+  "id": "A121933",
+  "mentions": [
+    "A086193",
+    "A121252"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

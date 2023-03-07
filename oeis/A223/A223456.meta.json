@@ -1,0 +1,24 @@
+{
+  "description": "Composite numbers whose number of proper divisors has a prime number of proper divisors.",
+  "id": "A223456",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A010051",
+    "A032741",
+    "A063806",
+    "A223457"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:41",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

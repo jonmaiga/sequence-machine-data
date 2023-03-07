@@ -1,0 +1,33 @@
+{
+  "description": "Number of semistandard rectangular plane partitions of n.",
+  "id": "A323432",
+  "mentions": [
+    "A000219",
+    "A003293",
+    "A047966",
+    "A089299",
+    "A101509",
+    "A114736",
+    "A117433",
+    "A299968",
+    "A319066",
+    "A323301",
+    "A323307",
+    "A323429",
+    "A323430",
+    "A323431",
+    "A323435",
+    "A323436",
+    "A323438"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Ordered set partitions of the set {1, 2, ..., 3*n} with all block sizes divisible by 3, irregular triangle T(n, k) for n >= 0 and 0 <= k < A000041(n), read by rows.",
+  "id": "A327023",
+  "mentions": [
+    "A000041",
+    "A002115",
+    "A014606",
+    "A072233",
+    "A080577",
+    "A133314",
+    "A178803",
+    "A243664",
+    "A278073",
+    "A281479",
+    "A327022",
+    "A327024"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

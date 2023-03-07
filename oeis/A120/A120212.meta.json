@@ -1,0 +1,17 @@
+{
+  "description": "\"a\" values providing solution x = b in A120211 (i.e., y^2 = b^2*(a^2 - b)*(b + 1) with a, b legs in primitive Pythagorean triangles).",
+  "id": "A120212",
+  "mentions": [
+    "A120211"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

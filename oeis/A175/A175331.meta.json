@@ -1,0 +1,27 @@
+{
+  "description": "Array A092921(n,k) without the first two rows, read by antidiagonals.",
+  "id": "A175331",
+  "mentions": [
+    "A000045",
+    "A000073",
+    "A000078",
+    "A048004",
+    "A048887",
+    "A048888",
+    "A092921",
+    "A126198"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 2,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

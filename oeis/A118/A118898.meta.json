@@ -1,0 +1,19 @@
+{
+  "description": "Number of binary sequences of length n containing exactly one subsequence 0000.",
+  "id": "A118898",
+  "mentions": [
+    "A118897"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:08:10",
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

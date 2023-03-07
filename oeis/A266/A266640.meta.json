@@ -1,0 +1,22 @@
+{
+  "description": "Reversed reduced frequency counts for A004001: a(n) = A265754(A054429(n)).",
+  "id": "A266640",
+  "mentions": [
+    "A000079",
+    "A004001",
+    "A054429",
+    "A265754"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:27",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

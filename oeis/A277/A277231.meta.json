@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangular array T(n, k) giving in row n the so-called slope of the Ferrers diagram of the k-th partition of n into distinct parts. The partitions of n are taken in Abramowitz-Stegun order but with decreasing parts. See a comment for the definition of this 'slope'.",
+  "id": "A277231",
+  "mentions": [
+    "A000009",
+    "A003056",
+    "A277230"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 136,
+    "source": "oeis-entry"
+  }
+}

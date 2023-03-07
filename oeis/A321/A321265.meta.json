@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = [x^n] Product_{k>=1} (1 + x^k)^J_n(k), where J_() is the Jordan function.",
+  "id": "A321265",
+  "mentions": [
+    "A059379",
+    "A059380",
+    "A299069",
+    "A301876",
+    "A321042",
+    "A321264"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Triangle read by rows: T(m,n) = number of partitions of the multiset with m elements and signature corresponding to n-th integer partition (A194602).",
+  "id": "A249620",
+  "mentions": [
+    "A000041",
+    "A000110",
+    "A035098",
+    "A035310",
+    "A091437",
+    "A096443",
+    "A126442",
+    "A129306",
+    "A169587",
+    "A169588",
+    "A194602",
+    "A249619"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

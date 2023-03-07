@@ -1,0 +1,21 @@
+{
+  "description": "Primes of the form kk*k+k+1, where kk is the concatenation of k with itself.",
+  "id": "A222962",
+  "mentions": [
+    "A020338",
+    "A157711"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "changed",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

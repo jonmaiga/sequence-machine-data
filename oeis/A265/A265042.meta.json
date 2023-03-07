@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = the unique number k such that T(p + n) == k mod p for all primes p, where T(n) = A000798(n) = number of topologies on n points.",
+  "id": "A265042",
+  "mentions": [
+    "A000798",
+    "A001035"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

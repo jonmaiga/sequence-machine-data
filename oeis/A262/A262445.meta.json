@@ -1,0 +1,22 @@
+{
+  "description": "Number of exact 3-colored partitions such that no adjacent parts have the same color.",
+  "id": "A262445",
+  "mentions": [
+    "A000041",
+    "A139582",
+    "A262444",
+    "A262495",
+    "A320545"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

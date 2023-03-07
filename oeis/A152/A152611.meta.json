@@ -1,0 +1,20 @@
+{
+  "description": "Assign weights to the nonnegative integers as in A073327, then sort them by weight.",
+  "id": "A152611",
+  "mentions": [
+    "A004740",
+    "A073327",
+    "A108067"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

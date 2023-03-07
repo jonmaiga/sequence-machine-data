@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of 'c', a constant such that in N steps, the mean longest random walk duration records grow as c*N.",
+  "id": "A241033",
+  "mentions": [
+    "A084945"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Period of Perrin (0,2,3,2,5,5,..., A001608) sequence mod n.",
+  "id": "A104217",
+  "mentions": [
+    "A001175",
+    "A001608",
+    "A033217",
+    "A046738"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

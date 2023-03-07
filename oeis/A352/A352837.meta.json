@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that, if q is the next prime, p + q^2 is a prime times a power of 10.",
+  "id": "A352837",
+  "mentions": [
+    "A349660",
+    "A352848"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of n that include a pair of consecutive integers.",
+  "id": "A237666",
+  "mentions": [
+    "A000041",
+    "A116931",
+    "A237665"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

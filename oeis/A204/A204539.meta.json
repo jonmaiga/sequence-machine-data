@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of integers N=4k whose \"basin\" sequence (cf. comment) ends in n^2.",
+  "id": "A204539",
+  "mentions": [
+    "A002491",
+    "A007952",
+    "A028913",
+    "A028914",
+    "A104738",
+    "A108696",
+    "A204540"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:25",
+    "offset": 2,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

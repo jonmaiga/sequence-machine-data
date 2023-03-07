@@ -1,0 +1,21 @@
+{
+  "description": "The maximum number of times one reaches a single position during the grasshopper procedure.",
+  "id": "A329231",
+  "mentions": [
+    "A282442",
+    "A329230",
+    "A329232",
+    "A329233"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

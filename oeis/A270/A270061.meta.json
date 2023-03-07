@@ -1,0 +1,30 @@
+{
+  "description": "Number A(n,k) of tilings of a k X n rectangle using monominoes and trominoes of any shape; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A270061",
+  "mentions": [
+    "A000012",
+    "A000930",
+    "A233320",
+    "A270062",
+    "A270063",
+    "A270064",
+    "A270065",
+    "A270066",
+    "A270067",
+    "A270068",
+    "A270069",
+    "A270070",
+    "A270071"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:32",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

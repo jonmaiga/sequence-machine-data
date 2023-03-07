@@ -1,0 +1,21 @@
+{
+  "description": "When A002487 is written as a triangle the n-th row has length 2^(n-1); a(n) is the maximal multiplicity of any entry in that row, considering the entries strictly between the initial 1 and the central 2.",
+  "id": "A293957",
+  "mentions": [
+    "A002487",
+    "A049456",
+    "A135510",
+    "A293160"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Let CK(m) denote the complete elliptic integral of the first kind. a(n) is the n-th smallest integer k such that [(CK(1/k)] = [CK(1/(k-1)] + 1.",
+  "id": "A172259",
+  "mentions": [
+    "A001934",
+    "A001936",
+    "A001937",
+    "A001938",
+    "A001939",
+    "A001940",
+    "A001941",
+    "A002318",
+    "A002753",
+    "A002754",
+    "A004005",
+    "A006089"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

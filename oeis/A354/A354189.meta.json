@@ -1,0 +1,28 @@
+{
+  "description": "Numbers k for which phi(A267099(k)) is equal to phi(k), where A267099 is fully multiplicative involution swapping the positions of 4k+1 and 4k+3 primes, and phi is Euler totient function.",
+  "id": "A354189",
+  "mentions": [
+    "A000010",
+    "A000079",
+    "A072202",
+    "A267099",
+    "A354101",
+    "A354102",
+    "A354106",
+    "A354109",
+    "A354188",
+    "A354192",
+    "A354194"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

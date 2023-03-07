@@ -1,0 +1,25 @@
+{
+  "description": "Smallest powerful number that is a multiple of n.",
+  "id": "A197863",
+  "mentions": [
+    "A001694",
+    "A007948",
+    "A027748",
+    "A086463",
+    "A087320",
+    "A124010"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

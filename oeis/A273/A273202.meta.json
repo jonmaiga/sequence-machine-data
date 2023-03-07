@@ -1,0 +1,19 @@
+{
+  "description": "Minimal terms of A274720.",
+  "id": "A273202",
+  "mentions": [
+    "A001220",
+    "A002326",
+    "A274720"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

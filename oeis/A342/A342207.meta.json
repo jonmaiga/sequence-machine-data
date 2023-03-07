@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = U(n,n+1) where U(n,x) is a Chebyshev polynomial of the second kind.",
+  "id": "A342207",
+  "mentions": [
+    "A107995",
+    "A323118",
+    "A342168",
+    "A342205"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

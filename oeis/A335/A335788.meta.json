@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. 2*sec(exp(x)-1) - 2*tan(exp(x)-1) - exp(x).",
+  "id": "A335788",
+  "mentions": [
+    "A001250",
+    "A317022"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

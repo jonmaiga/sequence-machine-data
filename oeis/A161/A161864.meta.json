@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that n^2 + n + 5 and n^2 + n - 5 are both prime.",
+  "id": "A161864",
+  "mentions": [
+    "A088485",
+    "A161863"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

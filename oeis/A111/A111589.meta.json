@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: number of idempotent order-preserving partial transformations (of an n-element totally ordered set) of width k (width(alpha) = |Dom(alpha)|",
+  "id": "A111589",
+  "mentions": [
+    "A001906"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

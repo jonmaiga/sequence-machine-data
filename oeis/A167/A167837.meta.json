@@ -1,0 +1,19 @@
+{
+  "description": "Length of sections with distinct digits in decimal expansion of e (A001113).",
+  "id": "A167837",
+  "mentions": [
+    "A001113",
+    "A104807"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

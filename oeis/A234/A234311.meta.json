@@ -1,0 +1,21 @@
+{
+  "description": "Least number which can be written as a sum of at least 2 consecutive squares in at least n different ways.",
+  "id": "A234311",
+  "mentions": [
+    "A062681",
+    "A111044",
+    "A174069"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

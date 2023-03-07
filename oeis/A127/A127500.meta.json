@@ -1,0 +1,20 @@
+{
+  "description": "On the triangular peg solitaire board of side n, the shortest solution to any problem beginning with one peg missing and ending with one peg.",
+  "id": "A127500",
+  "mentions": [
+    "A000217",
+    "A102422"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 4,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

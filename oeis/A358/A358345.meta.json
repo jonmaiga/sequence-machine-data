@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of even square divisors of n.",
+  "id": "A358345",
+  "mentions": [
+    "A016742",
+    "A046951",
+    "A187941",
+    "A222171",
+    "A235127",
+    "A298735"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

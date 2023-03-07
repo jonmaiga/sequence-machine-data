@@ -1,0 +1,17 @@
+{
+  "description": "First differences of A065094 and also arithmetic means of initial terms of A065094.",
+  "id": "A241772",
+  "mentions": [
+    "A065094"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

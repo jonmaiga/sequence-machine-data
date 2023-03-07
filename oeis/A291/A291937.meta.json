@@ -1,0 +1,22 @@
+{
+  "description": "G.f.: Sum_{n=-oo..+oo} n * x^n * (1 - x^n)^n.",
+  "id": "A291937",
+  "mentions": [
+    "A262007",
+    "A292177",
+    "A292184",
+    "A293129"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

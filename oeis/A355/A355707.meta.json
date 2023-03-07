@@ -1,0 +1,22 @@
+{
+  "description": "Nonsquare numbers k such that tau(sigma(tau(k))) = sigma(tau(sigma(k))), where tau is A000005 and sigma is A000203.",
+  "id": "A355707",
+  "mentions": [
+    "A000005",
+    "A000037",
+    "A000203",
+    "A076361",
+    "A237613"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

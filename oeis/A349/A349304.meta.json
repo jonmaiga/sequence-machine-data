@@ -1,0 +1,21 @@
+{
+  "description": "Terms of sequence A133342 interpreted as numbers written in base 2 and converted here to base 10.",
+  "id": "A349304",
+  "mentions": [
+    "A000225",
+    "A003590",
+    "A007318",
+    "A133342"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

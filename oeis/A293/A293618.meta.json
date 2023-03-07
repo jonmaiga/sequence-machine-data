@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n that equal the sum of their first k consecutive aliquot bi-unitary divisors, but not all of them (i.e k < A286324(n)-1).",
+  "id": "A293618",
+  "mentions": [
+    "A188999",
+    "A194472",
+    "A222266",
+    "A286324"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

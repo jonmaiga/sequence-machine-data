@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that the sum of the triangular numbers T(n) and T(n+1) is equal to the sum of two pentagonal numbers P(m) and P(m+1) for some m.",
+  "id": "A251730",
+  "mentions": [
+    "A000217",
+    "A000326",
+    "A122770"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:09",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

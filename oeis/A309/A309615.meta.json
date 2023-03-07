@@ -1,0 +1,32 @@
+{
+  "description": "Number of T_0 set-systems covering n vertices that are closed under intersection.",
+  "id": "A309615",
+  "mentions": [
+    "A003465",
+    "A048994",
+    "A059052",
+    "A059201",
+    "A182507",
+    "A319637",
+    "A326880",
+    "A326881",
+    "A326901",
+    "A326902",
+    "A326905",
+    "A326943",
+    "A326944",
+    "A326945"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

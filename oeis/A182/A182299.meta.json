@@ -1,0 +1,19 @@
+{
+  "description": "Number of achiral simplicial 4-clusters with n cells.",
+  "id": "A182299",
+  "mentions": [
+    "A007175",
+    "A182322"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

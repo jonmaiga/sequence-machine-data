@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that Omega(p + 1)^(p - 1) == 1 (mod p^2), where Omega is A001222.",
+  "id": "A306909",
+  "mentions": [
+    "A001220",
+    "A001222",
+    "A260377",
+    "A267487"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

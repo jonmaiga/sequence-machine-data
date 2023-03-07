@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of 1/((1-2*x)*(1-3*x+3*x^2)*(1-4*x+6*x^2-4*x^3)).",
+  "id": "A201458",
+  "mentions": [
+    "A000581",
+    "A099855"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Table B(m,n), read by antidiagonals, where B(m,n) is the number of ways integers 1,..,m*n can be put into an m X n grid so that every adjacent (NESW) pair of integers are coprime.",
+  "id": "A116542",
+  "mentions": [
+    "A076220"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Number of maximal Golomb rulers of length n.",
+  "id": "A325683",
+  "mentions": [
+    "A000079",
+    "A103295",
+    "A108917",
+    "A143823",
+    "A169942",
+    "A276024",
+    "A325676",
+    "A325677",
+    "A325678",
+    "A325679",
+    "A325681",
+    "A325687"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

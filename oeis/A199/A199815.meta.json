@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of volume of the Lambert cube, allegedly the volume of the smallest, large, Coxeter hyperbolic polyhedron.",
+  "id": "A199815",
+  "mentions": [
+    "A144222"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "cons",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

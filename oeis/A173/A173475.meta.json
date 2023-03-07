@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n, k) = c(n)/(c(k)*c(n-k)) where c(n) = Product_{j=0..n} A051179(j), read by rows.",
+  "id": "A173475",
+  "mentions": [
+    "A051179"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "less",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:57",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

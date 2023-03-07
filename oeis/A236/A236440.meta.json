@@ -1,0 +1,22 @@
+{
+  "description": "Positive integers m with A000009(m)^2 + A047967(m)^2 prime.",
+  "id": "A236440",
+  "mentions": [
+    "A000009",
+    "A000040",
+    "A047967",
+    "A236413",
+    "A236418",
+    "A236439"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

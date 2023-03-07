@@ -1,0 +1,27 @@
+{
+  "description": "Numerator of prime(n)#/n!, where prime(n)# is the prime factorial function.",
+  "id": "A271387",
+  "mentions": [
+    "A000040",
+    "A000142",
+    "A000720",
+    "A002110",
+    "A007947",
+    "A034386",
+    "A049614",
+    "A090586",
+    "A135568"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:35",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

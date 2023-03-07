@@ -1,0 +1,23 @@
+{
+  "description": "Signed version of A094953.",
+  "id": "A248345",
+  "mentions": [
+    "A001057",
+    "A007518",
+    "A007590",
+    "A094953"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Triangle of the denominators of the coefficients [x^k] P(n,x) defined in A141904.",
+  "id": "A142048",
+  "mentions": [
+    "A141904"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Smallest c which can be split into positive integers a,b with a+b=c, such that a*b*c is divisible by each of the first n primes.",
+  "id": "A346970",
+  "mentions": [
+    "A002110",
+    "A346971"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

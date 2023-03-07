@@ -1,0 +1,22 @@
+{
+  "description": "n + floor(r*n), where r = sqrt(2/3); complement of A184809.",
+  "id": "A184808",
+  "mentions": [
+    "A182760",
+    "A184809",
+    "A184810",
+    "A184811",
+    "A249096"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:23:01",
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

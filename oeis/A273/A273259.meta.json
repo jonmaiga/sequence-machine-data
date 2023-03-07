@@ -1,0 +1,21 @@
+{
+  "description": "Twin amicable numbers (m,n) where there is not any part of another amicable pair between m and n.",
+  "id": "A273259",
+  "mentions": [
+    "A002025",
+    "A002046",
+    "A063990",
+    "A259180",
+    "A259933"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

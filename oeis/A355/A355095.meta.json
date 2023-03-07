@@ -1,0 +1,18 @@
+{
+  "description": "Taxicab numbers (sums of 2 cubes in more than 1 way) which are products of five distinct primes.",
+  "id": "A355095",
+  "mentions": [
+    "A001235",
+    "A046387"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

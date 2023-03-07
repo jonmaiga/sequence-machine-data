@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1; if the sum of the digits of 2*a(n-1) + 1 is not yet in the sequence then a(n) = 2*a(n-1) + 1; otherwise a(n) is the sum of digits of a(n-1).",
+  "id": "A348483",
+  "mentions": [
+    "A007953",
+    "A348400",
+    "A348433"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

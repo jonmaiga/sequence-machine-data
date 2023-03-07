@@ -1,0 +1,21 @@
+{
+  "description": "Numbers whose squares have an odd number of digits.",
+  "id": "A288657",
+  "mentions": [
+    "A288658",
+    "A288659",
+    "A288660"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:01",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Table read by antidiagonals of \"less regular\" truncated tetrahedron numbers built of face-centered-cubic sphere packing.",
+  "id": "A160248",
+  "mentions": [
+    "A000292",
+    "A005900",
+    "A005906"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

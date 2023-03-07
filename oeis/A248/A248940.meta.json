@@ -1,0 +1,24 @@
+{
+  "description": "Wrecker ball sequence starting with 7.",
+  "id": "A248940",
+  "mentions": [
+    "A228474",
+    "A248939",
+    "A248941",
+    "A248942",
+    "A248952",
+    "A248953"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "fini",
+    "full",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

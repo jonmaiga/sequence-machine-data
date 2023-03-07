@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that the number of distinct sums of distinct unitary divisors of k sets a new record.",
+  "id": "A342401",
+  "mentions": [
+    "A002093",
+    "A119347",
+    "A342400"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

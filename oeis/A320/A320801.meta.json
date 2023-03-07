@@ -1,0 +1,28 @@
+{
+  "description": "Regular triangle read by rows where T(n,k) is the number of nonnegative integer matrices up to row and column permutations with no zero rows or columns and k nonzero entries summing to n.",
+  "id": "A320801",
+  "mentions": [
+    "A007716",
+    "A049311",
+    "A316980",
+    "A316983",
+    "A317533",
+    "A318805",
+    "A319616",
+    "A319721",
+    "A320796",
+    "A320808",
+    "A321194"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

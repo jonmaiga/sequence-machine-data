@@ -1,0 +1,29 @@
+{
+  "description": "Table of elementary symmetric function a_k(3,4,...,n+2) (no 1 and 2).",
+  "id": "A196845",
+  "mentions": [
+    "A001710",
+    "A001711",
+    "A001712",
+    "A024183",
+    "A024184",
+    "A024185",
+    "A048994",
+    "A055998",
+    "A145324",
+    "A196841"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:12",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Index of A141468(n) in the isolated nonprimes A014574 or the non-isolated nonprimes A164276.",
+  "id": "A167516",
+  "mentions": [
+    "A014574",
+    "A141468",
+    "A164276"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

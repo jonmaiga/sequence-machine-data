@@ -1,0 +1,20 @@
+{
+  "description": "Numbers which when written in German do not contain the letter \"e\".",
+  "id": "A322033",
+  "mentions": [
+    "A006933"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

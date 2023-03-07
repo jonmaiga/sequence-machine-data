@@ -1,0 +1,27 @@
+{
+  "description": "Dirichlet convolution of A353350 with A353418 (the Dirichlet inverse of A353269).",
+  "id": "A353422",
+  "mentions": [
+    "A003961",
+    "A048675",
+    "A156552",
+    "A348717",
+    "A353269",
+    "A353350",
+    "A353352",
+    "A353362",
+    "A353418",
+    "A353421"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

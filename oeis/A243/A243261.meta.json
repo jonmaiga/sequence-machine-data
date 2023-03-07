@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of a Shapiro-Drinfeld constant, known as Gauchman's constant, related to the difference of cyclic sums (negated).",
+  "id": "A243261",
+  "mentions": [
+    "A086277",
+    "A086278",
+    "A335809",
+    "A335810"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

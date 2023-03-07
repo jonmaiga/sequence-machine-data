@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of preference profiles in the stable marriage problem with n men and n women that generate exactly 1 possible stable matching.",
+  "id": "A344668",
+  "mentions": [
+    "A069124",
+    "A185141",
+    "A344666",
+    "A344667",
+    "A344669"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

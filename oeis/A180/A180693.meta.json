@@ -1,0 +1,21 @@
+{
+  "description": "Smallest power of 13 that begins with n.",
+  "id": "A180693",
+  "mentions": [
+    "A180691",
+    "A180694",
+    "A180695"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

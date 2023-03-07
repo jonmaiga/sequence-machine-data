@@ -1,0 +1,26 @@
+{
+  "description": "Self-inverse permutation of natural numbers: a(1)=1, a(A269360(n)) = A250469(1+a(n)), a(A250469(1+n)) = A269360(a(n)).",
+  "id": "A269359",
+  "mentions": [
+    "A244319",
+    "A250469",
+    "A268674",
+    "A269360",
+    "A269863",
+    "A269864",
+    "A269865",
+    "A269866",
+    "A269867"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:31",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

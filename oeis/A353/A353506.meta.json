@@ -1,0 +1,42 @@
+{
+  "description": "Number of integer partitions of n whose parts have the same product as their multiplicities.",
+  "id": "A353506",
+  "mentions": [
+    "A000792",
+    "A003586",
+    "A003963",
+    "A005361",
+    "A008284",
+    "A008619",
+    "A085629",
+    "A098859",
+    "A114640",
+    "A116608",
+    "A118914",
+    "A124010",
+    "A130091",
+    "A266477",
+    "A266480",
+    "A266499",
+    "A319000",
+    "A325702",
+    "A339095",
+    "A353394",
+    "A353398",
+    "A353399",
+    "A353500",
+    "A353503",
+    "A353507",
+    "A353698"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

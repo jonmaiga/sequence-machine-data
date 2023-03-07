@@ -1,0 +1,22 @@
+{
+  "description": "A natural number transform, companion to A127701.",
+  "id": "A128132",
+  "mentions": [
+    "A127701",
+    "A128133",
+    "A128134"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

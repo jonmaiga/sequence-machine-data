@@ -1,0 +1,28 @@
+{
+  "description": "Area A of the triangles such that A and the sides are integers.",
+  "id": "A188158",
+  "mentions": [
+    "A007237",
+    "A009112",
+    "A024153",
+    "A024365",
+    "A051516",
+    "A051584",
+    "A051585",
+    "A055592",
+    "A055593",
+    "A055594",
+    "A055595",
+    "A083875"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:12",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the Y-coordinate of the n-th point of the space filling curve P defined in Comments section; sequence A334576 gives X-coordinates.",
+  "id": "A334577",
+  "mentions": [
+    "A020990",
+    "A334576"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

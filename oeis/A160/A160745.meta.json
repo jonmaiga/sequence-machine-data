@@ -1,0 +1,23 @@
+{
+  "description": "First differences of A160744.",
+  "id": "A160745",
+  "mentions": [
+    "A000695",
+    "A060632",
+    "A139251",
+    "A151566",
+    "A160743",
+    "A160744"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 75,
+    "source": "joeis"
+  }
+}

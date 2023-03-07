@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of Product_{k>=1} (1 - exp(-2*k*Pi/sqrt(3))).",
+  "id": "A354296",
+  "mentions": [
+    "A292828"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

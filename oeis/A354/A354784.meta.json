@@ -1,0 +1,21 @@
+{
+  "description": "First differences of A000213, also twice A000073.",
+  "id": "A354784",
+  "mentions": [
+    "A000073",
+    "A000213",
+    "A135491"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:45",
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Number of Euler tours of the complete graph on n vertices (minus a matching if n is even).",
+  "id": "A350028",
+  "mentions": [
+    "A007082",
+    "A135388",
+    "A232545",
+    "A356366",
+    "A357855",
+    "A357856",
+    "A357857",
+    "A357885",
+    "A357886",
+    "A357887"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 3,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

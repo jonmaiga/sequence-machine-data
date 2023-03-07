@@ -1,0 +1,18 @@
+{
+  "description": "Partial sums of prime numbers of measurement A002049.",
+  "id": "A173702",
+  "mentions": [
+    "A002049"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:23",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

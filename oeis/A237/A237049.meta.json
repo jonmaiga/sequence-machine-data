@@ -1,0 +1,21 @@
+{
+  "description": "Number of ordered ways to write n = i + j + k (0 < i <= j <= k) with i,j,k not all equal such that sigma(i)*sigma(j)*sigma(k) is a cube, where sigma(m) denotes the sum of all positive divisors of m.",
+  "id": "A237049",
+  "mentions": [
+    "A000203",
+    "A000578",
+    "A233386",
+    "A236998",
+    "A237016"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

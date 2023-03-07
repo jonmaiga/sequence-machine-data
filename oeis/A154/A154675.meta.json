@@ -1,0 +1,23 @@
+{
+  "description": "Averages of twin prime pairs k such that k*13 and k/13 are squares.",
+  "id": "A154675",
+  "mentions": [
+    "A154670",
+    "A154671",
+    "A154672",
+    "A154673",
+    "A154674",
+    "A154775"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:36",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

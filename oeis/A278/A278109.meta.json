@@ -1,0 +1,24 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) = floor(n/prime(k)^2) for 1 <= prime(k)^2 <= n.",
+  "id": "A278109",
+  "mentions": [
+    "A000040",
+    "A056811",
+    "A277648",
+    "A278108",
+    "A278110"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:44",
+    "offset": 4,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

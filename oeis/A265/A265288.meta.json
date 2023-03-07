@@ -1,0 +1,42 @@
+{
+  "description": "Decimal expansion of Sum_{n >= 1} (phi - c(2*n-1)), where phi is the golden ratio (A001622), and c(n) is the n-th convergent to the continued fraction expansion of phi.",
+  "id": "A265288",
+  "mentions": [
+    "A000045",
+    "A001227",
+    "A001622",
+    "A153386",
+    "A265289",
+    "A265290",
+    "A265291",
+    "A265292",
+    "A265293",
+    "A265294",
+    "A265295",
+    "A265296",
+    "A265297",
+    "A265298",
+    "A265299",
+    "A265300",
+    "A265301",
+    "A265302",
+    "A265303",
+    "A265304",
+    "A265305",
+    "A265306",
+    "A265307",
+    "A265308"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

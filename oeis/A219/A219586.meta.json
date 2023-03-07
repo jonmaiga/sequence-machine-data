@@ -1,0 +1,20 @@
+{
+  "description": "Greatest prime factor of Product_{x=1..n} (x^2 + 1).",
+  "id": "A219586",
+  "mentions": [
+    "A002496",
+    "A002522",
+    "A005574",
+    "A014442"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

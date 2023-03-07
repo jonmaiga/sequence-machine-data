@@ -1,0 +1,19 @@
+{
+  "description": "S_3-primes: let S_3 = {1,4,7,...,3i+1,...}; then an S_3-prime is in S_3 but is not divisible by any elements of S_3 except for itself and 1.",
+  "id": "A348156",
+  "mentions": [
+    "A016777",
+    "A054520",
+    "A057948"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

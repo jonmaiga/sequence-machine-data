@@ -1,0 +1,27 @@
+{
+  "description": "Number of magic labelings of the prism graph I X C_5 with magic sum n.",
+  "id": "A244497",
+  "mentions": [
+    "A002721",
+    "A006325",
+    "A019298",
+    "A061927",
+    "A244873",
+    "A244879",
+    "A244880",
+    "A289992",
+    "A292281"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:31:09",
+    "offset": 0,
+    "size": 38,
+    "source": "joeis"
+  }
+}

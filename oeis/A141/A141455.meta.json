@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle showing the set of all possible values of primes modulo n in row n.",
+  "id": "A141455",
+  "mentions": [
+    "A027748",
+    "A038566",
+    "A039701",
+    "A039704",
+    "A057859"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:30",
+    "offset": 2,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

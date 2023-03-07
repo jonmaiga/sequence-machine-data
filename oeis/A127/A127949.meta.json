@@ -1,0 +1,23 @@
+{
+  "description": "A000012 as an infinite lower triangular matrix with all 1's; A127899 = a simple transform; then A000012 * A127899. Given A051340, change all 1's to -1. Triangle read by rows, (n-1) -1's followed by \"n\".",
+  "id": "A127949",
+  "mentions": [
+    "A000012",
+    "A000217",
+    "A051340",
+    "A126615",
+    "A127899"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of positive integers possessing exactly n Fibonacci representations (A000121).",
+  "id": "A274262",
+  "mentions": [
+    "A000121",
+    "A067595"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

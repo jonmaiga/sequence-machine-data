@@ -1,0 +1,18 @@
+{
+  "description": "Bisection of A139103.",
+  "id": "A139109",
+  "mentions": [
+    "A139103"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

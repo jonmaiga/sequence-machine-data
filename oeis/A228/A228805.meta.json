@@ -1,0 +1,18 @@
+{
+  "description": "Number of distinct denominators of rational numbers whose continued fraction consists exclusively of 1s and 2s and has length <=n.",
+  "id": "A228805",
+  "mentions": [
+    "A228803"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

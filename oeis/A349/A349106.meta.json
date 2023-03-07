@@ -1,0 +1,18 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of permutations of {1,2,...,n} with cycle descent number equal to k.",
+  "id": "A349106",
+  "mentions": [
+    "A000110"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

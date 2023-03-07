@@ -1,0 +1,20 @@
+{
+  "description": "The generalized Conway-Guy sequence d_2(n).",
+  "id": "A225178",
+  "mentions": [
+    "A002024",
+    "A005230",
+    "A005318"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

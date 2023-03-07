@@ -1,0 +1,30 @@
+{
+  "description": "Dispersion of (4n-floor(n*sqrt(3))), by antidiagonals.",
+  "id": "A191538",
+  "mentions": [
+    "A000040",
+    "A003603",
+    "A007067",
+    "A022343",
+    "A035506",
+    "A035513",
+    "A114537",
+    "A114538",
+    "A133299",
+    "A191426",
+    "A191455",
+    "A191536",
+    "A191545"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

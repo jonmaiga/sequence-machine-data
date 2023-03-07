@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of circumference of 4 x^2 + 9 y^2 = 36.",
+  "id": "A334849",
+  "mentions": [
+    "A333202",
+    "A334848"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

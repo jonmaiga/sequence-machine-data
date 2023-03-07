@@ -1,0 +1,19 @@
+{
+  "description": "a(n+1) is the maximum number of groups which can be built from the terms in this sequence so far and using each term only once which result in a(n) as their product with a(1) = 1.",
+  "id": "A338759",
+  "mentions": [
+    "A001222",
+    "A162247",
+    "A332518"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

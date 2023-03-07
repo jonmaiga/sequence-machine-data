@@ -1,0 +1,28 @@
+{
+  "description": "Triangle T(n, k) = binomial(n*(n+1)/2 + k, k), read by rows.",
+  "id": "A176566",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000292",
+    "A000579",
+    "A001287",
+    "A010968",
+    "A010974",
+    "A107868",
+    "A158498"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:00",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

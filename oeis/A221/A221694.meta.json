@@ -1,0 +1,18 @@
+{
+  "description": "Number of 2 X n arrays of occupancy after each element stays put or moves to some horizontal or antidiagonal neighbor, without consecutive moves in the same direction.",
+  "id": "A221694",
+  "mentions": [
+    "A221693"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

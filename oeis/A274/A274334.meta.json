@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that n^3 is the sum of 4 positive cubes.",
+  "id": "A274334",
+  "mentions": [
+    "A003327"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

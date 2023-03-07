@@ -1,0 +1,18 @@
+{
+  "description": "a(1)=1, a(n+1) = prime(a(n)+1) - a(n).",
+  "id": "A207573",
+  "mentions": [
+    "A000040",
+    "A006508"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Lexicographically earliest infinite sequence such that a(i) = a(j) => f(i) = f(j), where f(n) = min(n, A263273(n)), and A263273 is bijective base-3 reverse.",
+  "id": "A331303",
+  "mentions": [
+    "A030102",
+    "A263273",
+    "A331173",
+    "A331300"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 0,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

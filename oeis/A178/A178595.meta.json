@@ -1,0 +1,21 @@
+{
+  "description": "Natural numbers sorted by the sum of square roots of prime factors.",
+  "id": "A178595",
+  "mentions": [
+    "A001222",
+    "A027746",
+    "A064364",
+    "A168521"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

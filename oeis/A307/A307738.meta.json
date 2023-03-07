@@ -1,0 +1,26 @@
+{
+  "description": "Number of partitions of n^3 into at most n cubes.",
+  "id": "A307738",
+  "mentions": [
+    "A000578",
+    "A025446",
+    "A025454",
+    "A030272",
+    "A105152",
+    "A259792",
+    "A298671",
+    "A298672",
+    "A307643",
+    "A307739"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

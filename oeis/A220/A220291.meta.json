@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest positive integer that makes p1*a(n)+1 divisible by p2, where p1*p2 (p1 < p2) is the n-th odd squarefree semiprime.",
+  "id": "A220291",
+  "mentions": [
+    "A046388"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

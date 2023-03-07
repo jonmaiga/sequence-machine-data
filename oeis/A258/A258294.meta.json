@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of 4*n^2 into parts that are at most n.",
+  "id": "A258294",
+  "mentions": [
+    "A206226",
+    "A258293",
+    "A258295",
+    "A258296"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

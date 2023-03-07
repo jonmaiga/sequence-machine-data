@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of consecutive even prime gap pairs (g1, g2) satisfying g1 == 0 (mod 6) and g2 == 0 (mod 6) out of the first 2^n consecutive even prime gap pairs.",
+  "id": "A345332",
+  "mentions": [
+    "A340948",
+    "A341531",
+    "A341532",
+    "A345333",
+    "A345334"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

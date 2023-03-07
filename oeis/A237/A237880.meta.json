@@ -1,0 +1,24 @@
+{
+  "description": "Conjectured number of distinct integers < 10^n that are Sierpiński or Riesel or simultaneously Sierpiński and Riesel numbers.",
+  "id": "A237880",
+  "mentions": [
+    "A076335",
+    "A076336",
+    "A076337",
+    "A101036",
+    "A236320",
+    "A236321"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

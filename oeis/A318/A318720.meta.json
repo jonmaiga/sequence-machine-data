@@ -1,0 +1,39 @@
+{
+  "description": "Numbers k such that there exists a strict relatively prime factorization of k in which no pair of factors is relatively prime.",
+  "id": "A318720",
+  "mentions": [
+    "A001055",
+    "A001221",
+    "A001222",
+    "A005117",
+    "A007716",
+    "A036785",
+    "A045778",
+    "A051185",
+    "A056170",
+    "A078374",
+    "A154945",
+    "A190641",
+    "A281116",
+    "A303140",
+    "A303283",
+    "A305843",
+    "A305854",
+    "A317748",
+    "A318715",
+    "A318717",
+    "A318721",
+    "A324833",
+    "A338539"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

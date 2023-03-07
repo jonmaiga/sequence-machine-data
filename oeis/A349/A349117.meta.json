@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{m=1..n} (Sum_{k=1..m} (Sum_{j=1..k} j^k)).",
+  "id": "A349117",
+  "mentions": [
+    "A068996",
+    "A086787",
+    "A185393",
+    "A349116"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

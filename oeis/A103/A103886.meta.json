@@ -1,0 +1,21 @@
+{
+  "description": "Rearrangement of prime numbers p according to number of divisors of p-/+1.",
+  "id": "A103886",
+  "mentions": [
+    "A067889",
+    "A103664",
+    "A103665",
+    "A103887"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

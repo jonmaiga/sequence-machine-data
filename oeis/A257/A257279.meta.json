@@ -1,0 +1,26 @@
+{
+  "description": "Zeroless prime powers p^m with p <= m.",
+  "id": "A257279",
+  "mentions": [
+    "A000961",
+    "A011540",
+    "A025475",
+    "A051674",
+    "A052382",
+    "A122494",
+    "A168046",
+    "A195943",
+    "A257278"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

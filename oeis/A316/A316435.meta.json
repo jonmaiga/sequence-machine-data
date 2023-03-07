@@ -1,0 +1,19 @@
+{
+  "description": "Number of maximal subgroups of alternating group A_n, counting conjugates as distinct.",
+  "id": "A316435",
+  "mentions": [
+    "A029725",
+    "A066113",
+    "A290138"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 2,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

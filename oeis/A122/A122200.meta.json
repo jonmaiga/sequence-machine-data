@@ -1,0 +1,32 @@
+{
+  "description": "Signature permutations of RIBS-transformations of non-recursive Catalan automorphisms in table A089840.",
+  "id": "A122200",
+  "mentions": [
+    "A000108",
+    "A001477",
+    "A025581",
+    "A089840",
+    "A122201",
+    "A122203",
+    "A122204",
+    "A122282",
+    "A122283",
+    "A122284",
+    "A122285",
+    "A122288",
+    "A122289",
+    "A122290",
+    "A123694"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

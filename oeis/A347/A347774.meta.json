@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f.: Product_{k>=1} 1 / (1 - x^k)^tan(x).",
+  "id": "A347774",
+  "mentions": [
+    "A000203",
+    "A346547",
+    "A346841",
+    "A346941"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

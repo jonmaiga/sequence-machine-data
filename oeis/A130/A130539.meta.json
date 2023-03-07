@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of q^(-1/3) * a(q) * b(q) * c(q) / 3 in powers of q where a(), b(), c() are cubic AGM theta functions.",
+  "id": "A130539",
+  "mentions": [
+    "A000731",
+    "A004016",
+    "A005882",
+    "A005928",
+    "A030206",
+    "A033687"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

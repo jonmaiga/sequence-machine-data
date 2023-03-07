@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of sets containing from 0 to n elements into blocks of at least 2 elements.",
+  "id": "A160181",
+  "mentions": [
+    "A000110",
+    "A000296",
+    "A005001"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:26:24",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of e.g.f. arcsinh(x)/(1 - x).",
+  "id": "A296727",
+  "mentions": [
+    "A001818",
+    "A009628",
+    "A081358",
+    "A186763",
+    "A281964",
+    "A296726"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:50:03",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

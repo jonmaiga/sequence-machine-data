@@ -1,0 +1,18 @@
+{
+  "description": "Triangular numbers n*(n+1)/2 with n composite, where number of prime factors of n, counted with multiplicity, is less than the number of prime factors in n+1.",
+  "id": "A144524",
+  "mentions": [
+    "A000040",
+    "A000392"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

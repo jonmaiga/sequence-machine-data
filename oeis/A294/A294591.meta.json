@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of Product_{k>=1} 1/((1 - x^(2*k-1))^(k*(3*k-1)/2)*(1 - x^(2*k))^(k*(3*k+1)/2)).",
+  "id": "A294591",
+  "mentions": [
+    "A000294",
+    "A001318",
+    "A095699",
+    "A278768",
+    "A294654",
+    "A294655",
+    "A294667",
+    "A294669"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

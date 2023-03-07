@@ -1,0 +1,19 @@
+{
+  "description": "Number of maximum independent vertex sets in the n-triangular honeycomb grid graph.",
+  "id": "A297537",
+  "mentions": [
+    "A033536",
+    "A244506"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

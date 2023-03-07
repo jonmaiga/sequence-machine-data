@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways to use the elements of {1,..,k}, 0<=k<=2n, once each to form a collection of n (possibly empty) lists, each of length at most 2.",
+  "id": "A105747",
+  "mentions": [
+    "A001517",
+    "A082765",
+    "A105748"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:56",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

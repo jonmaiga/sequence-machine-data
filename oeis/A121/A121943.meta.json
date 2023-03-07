@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that the central binomial coefficient C(2k,k) is divisible by k^2.",
+  "id": "A121943",
+  "mentions": [
+    "A000108",
+    "A000984",
+    "A014847",
+    "A282163",
+    "A282346",
+    "A282672",
+    "A283073",
+    "A283074"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

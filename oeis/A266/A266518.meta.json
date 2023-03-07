@@ -1,0 +1,21 @@
+{
+  "description": "Number of ordered partitions of a 2n-set with nondecreasing block sizes and maximal block size equal to n.",
+  "id": "A266518",
+  "mentions": [
+    "A247551",
+    "A262071",
+    "A327801",
+    "A328156"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:27",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

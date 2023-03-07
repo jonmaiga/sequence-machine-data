@@ -1,0 +1,17 @@
+{
+  "description": "a(1)=1. a(n) = sum of the earlier terms, a(k) (for 1<=k<=n-1), where every integer coprime to a(k) and <= a(k) is also coprime to n.",
+  "id": "A126215",
+  "mentions": [
+    "A126214"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

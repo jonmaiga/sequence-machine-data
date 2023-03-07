@@ -1,0 +1,19 @@
+{
+  "description": "Erdős-Turán Golomb rulers, triangle read by rows.",
+  "id": "A217793",
+  "mentions": [
+    "A065091"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

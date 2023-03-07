@@ -1,0 +1,27 @@
+{
+  "description": "Numbers n with the property that the concatenation of the proper divisors of n (i.e., excluding 1 and n) is a prime.",
+  "id": "A120712",
+  "mentions": [
+    "A037274",
+    "A037278",
+    "A037279",
+    "A106708",
+    "A120713",
+    "A120716",
+    "A130139",
+    "A130140",
+    "A130141",
+    "A130142"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

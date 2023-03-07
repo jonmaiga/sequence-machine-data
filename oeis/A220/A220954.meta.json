@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that floor(sqrt(2) + sqrt(3) + sqrt(5) + ... + sqrt(p)) is prime.",
+  "id": "A220954",
+  "mentions": [
+    "A062009"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

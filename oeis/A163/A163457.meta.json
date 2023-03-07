@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = the smallest divisor of n such that this and all greater divisors of n are non-coprime to each other.",
+  "id": "A163457",
+  "mentions": [
+    "A162325"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 2,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of lattice paths from NW to SE corner in an L-shaped grid.",
+  "id": "A240594",
+  "mentions": [
+    "A000984",
+    "A240567"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

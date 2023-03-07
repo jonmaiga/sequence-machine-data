@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) = number of meanders with n bridges in which the first bridge is bridge k.",
+  "id": "A259974",
+  "mentions": [
+    "A005316",
+    "A006660",
+    "A006661",
+    "A006662",
+    "A008828"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

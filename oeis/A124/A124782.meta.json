@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = (n+3)/gcd(A(n), A(n+2)) where A(n) = A000522(n) = Sum_{k=0..n} n!/k!.",
+  "id": "A124782",
+  "mentions": [
+    "A000522",
+    "A093101",
+    "A123899",
+    "A123900",
+    "A123901",
+    "A124779",
+    "A124780",
+    "A124781"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

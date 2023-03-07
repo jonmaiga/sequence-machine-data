@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n-th derivative of Sec(Exp(z)-1) at z=0.",
+  "id": "A139134",
+  "mentions": [
+    "A080832"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:27",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

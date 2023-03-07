@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: coefficients of polynomials p_{n,n-1}(x) arising in enumeration of two-line arrays.",
+  "id": "A212207",
+  "mentions": [
+    "A001263"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

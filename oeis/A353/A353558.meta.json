@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 1 if n is an odd number with an odd number of prime factors (counted with multiplicity), otherwise 0.",
+  "id": "A353558",
+  "mentions": [
+    "A000035",
+    "A066829",
+    "A067019",
+    "A353555",
+    "A353556",
+    "A353557"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 1,
+    "size": 125,
+    "source": "oeis-bfile"
+  }
+}

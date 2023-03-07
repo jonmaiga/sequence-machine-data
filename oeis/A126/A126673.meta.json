@@ -1,0 +1,19 @@
+{
+  "description": "Third diagonal of A126671.",
+  "id": "A126673",
+  "mentions": [
+    "A126671",
+    "A129178"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:14",
+    "offset": 2,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Minimal width k for a paper tape such that n symbols can be encoded on a k-hole paper tape so that a used paper tape can always be reused at least once.",
+  "id": "A253548",
+  "mentions": [
+    "A253426"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

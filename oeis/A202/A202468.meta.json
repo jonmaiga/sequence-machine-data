@@ -1,0 +1,17 @@
+{
+  "description": "Number of (n+2)X7 binary arrays with no more than two of any consecutive three bits set in any row or column",
+  "id": "A202468",
+  "mentions": [
+    "A202471"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

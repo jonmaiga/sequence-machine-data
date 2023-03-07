@@ -1,0 +1,27 @@
+{
+  "description": "Numbers n such that the k-th arithmetic derivative of A276086(n) is zero for some k.",
+  "id": "A328116",
+  "mentions": [
+    "A002110",
+    "A003415",
+    "A099308",
+    "A276086",
+    "A327969",
+    "A328114",
+    "A328306",
+    "A328307",
+    "A351255",
+    "A351256"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

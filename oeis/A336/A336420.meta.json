@@ -1,0 +1,44 @@
+{
+  "description": "Irregular triangle read by rows where T(n,k) is the number of divisors of the n-th superprimorial A006939(n) with distinct prime multiplicities and k prime factors counted with multiplicity.",
+  "id": "A336420",
+  "mentions": [
+    "A000005",
+    "A000110",
+    "A000124",
+    "A000142",
+    "A001222",
+    "A006939",
+    "A008278",
+    "A008302",
+    "A022915",
+    "A027423",
+    "A071625",
+    "A076954",
+    "A124010",
+    "A130091",
+    "A146291",
+    "A181796",
+    "A181818",
+    "A317829",
+    "A327498",
+    "A336417",
+    "A336419",
+    "A336421",
+    "A336426",
+    "A336498",
+    "A336499",
+    "A336500",
+    "A336568"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(0)=0; thereafter a(n) = noz(n+a(n-1)), where noz(n) = A004719(n).",
+  "id": "A243658",
+  "mentions": [
+    "A004719",
+    "A242350",
+    "A243063",
+    "A243657"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "hear",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 14:52:19",
+    "offset": 0,
+    "size": 68,
+    "source": "joeis"
+  }
+}

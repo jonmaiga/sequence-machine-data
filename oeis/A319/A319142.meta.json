@@ -1,0 +1,18 @@
+{
+  "description": "Total number of binary digits in the partitions of n into odd parts.",
+  "id": "A319142",
+  "mentions": [
+    "A000009",
+    "A070939"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

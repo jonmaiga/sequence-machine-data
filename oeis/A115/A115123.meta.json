@@ -1,0 +1,20 @@
+{
+  "description": "Number of imprimitive (periodic) bracelets (or necklaces) with n red and blue beads such that the beads switch colors when bracelet is turned over.",
+  "id": "A115123",
+  "mentions": [
+    "A006080",
+    "A066315"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

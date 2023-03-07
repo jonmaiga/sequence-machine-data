@@ -1,0 +1,17 @@
+{
+  "description": "Number of permutations p of [n] such that seven is the maximum of the number of elements in any integer interval [p(i)..i+n*[i",
+  "id": "A324634",
+  "mentions": [
+    "A324563"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 7,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

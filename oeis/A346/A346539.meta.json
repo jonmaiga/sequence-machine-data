@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of paths in the Z X Z grid joining (0,0) and (n,n) each of whose steps increases the Euclidean distance to the origin and has coordinates with absolute value at most 1.",
+  "id": "A346539",
+  "mentions": [
+    "A001850",
+    "A008288",
+    "A225042",
+    "A346538",
+    "A347811"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

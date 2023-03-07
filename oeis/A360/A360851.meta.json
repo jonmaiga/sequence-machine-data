@@ -1,0 +1,24 @@
+{
+  "description": "Array read by antidiagonals: T(m,n) is the number of induced paths in the rook graph K_m X K_n.",
+  "id": "A360851",
+  "mentions": [
+    "A000217",
+    "A000578",
+    "A360199",
+    "A360850",
+    "A360852"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

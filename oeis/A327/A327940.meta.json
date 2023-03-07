@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of e.g.f. exp(Sum_{i>=1} Sum_{j=1..i-1} x^(i*j) / (i*j)).",
+  "id": "A327940",
+  "mentions": [
+    "A000005",
+    "A026424",
+    "A028342",
+    "A056924",
+    "A206303",
+    "A327927"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

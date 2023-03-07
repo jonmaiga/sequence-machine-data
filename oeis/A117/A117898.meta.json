@@ -1,0 +1,23 @@
+{
+  "description": "Number triangle 2^abs(L(C(n,2)/3) - L(C(k,2)/3))*[k<=n] where L(j/p) is the Legendre symbol of j and p.",
+  "id": "A117898",
+  "mentions": [
+    "A117899",
+    "A117900",
+    "A117901",
+    "A117904"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:31:53",
+    "offset": 0,
+    "size": 91,
+    "source": "joeis"
+  }
+}

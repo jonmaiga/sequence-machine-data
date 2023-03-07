@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of (1+x+x^2)*(1-8*x^3-14*x^4+8*x^7+x^8)/(1+x^4)^3.",
+  "id": "A188477",
+  "mentions": [
+    "A188476"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:20:45",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

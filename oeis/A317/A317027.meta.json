@@ -1,0 +1,19 @@
+{
+  "description": "Perfect powers that appear more than once in the Catalan triangle.",
+  "id": "A317027",
+  "mentions": [
+    "A009766",
+    "A275586"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

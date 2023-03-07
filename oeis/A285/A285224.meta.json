@@ -1,0 +1,18 @@
+{
+  "description": "Indices of primes in A027998.",
+  "id": "A285224",
+  "mentions": [
+    "A027998",
+    "A035359"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

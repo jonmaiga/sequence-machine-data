@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,m) = Sum_{k=0..n} C(k-1,m-1)*C(k,m-1)*C(n+k-1,n-k)/m.",
+  "id": "A257142",
+  "mentions": [
+    "A001263",
+    "A001906"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

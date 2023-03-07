@@ -1,0 +1,19 @@
+{
+  "description": "Solution a( ) of the complementary equation a(n) = 2*b(n-1) + b(n-2) - b(n-3), where a(0) = 1, a(1) = 2, a(2) = 3; see Comments.",
+  "id": "A299543",
+  "mentions": [
+    "A022424",
+    "A299544"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:34:23",
+    "offset": 0,
+    "size": 59,
+    "source": "joeis"
+  }
+}

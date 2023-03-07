@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = binomial(4*n + 2,n).",
+  "id": "A257633",
+  "mentions": [
+    "A002293",
+    "A004331",
+    "A005810",
+    "A052203",
+    "A224274",
+    "A262977"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:10:55",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

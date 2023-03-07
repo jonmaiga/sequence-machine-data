@@ -1,0 +1,29 @@
+{
+  "description": "Number of powerful uniform rooted trees with n nodes.",
+  "id": "A318689",
+  "mentions": [
+    "A000081",
+    "A003238",
+    "A072774",
+    "A317705",
+    "A317707",
+    "A317710",
+    "A317717",
+    "A317718",
+    "A318611",
+    "A318612",
+    "A318690",
+    "A318691",
+    "A318692"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

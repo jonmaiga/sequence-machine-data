@@ -1,0 +1,18 @@
+{
+  "description": "Number of integer-sided triangles with perimeter n and sides a, b and c such that a <= b <= c and the length of side a is coprime to b.",
+  "id": "A308212",
+  "mentions": [
+    "A308211"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

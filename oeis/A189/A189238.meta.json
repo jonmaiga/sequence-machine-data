@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f. x/cos(x)*exp(x/cos(x))",
+  "id": "A189238",
+  "mentions": [
+    "A009843"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Number of times the k-th term is equal to k in the modified Collatz trajectory of n, when counting the initial term n as the term zero: n, A014682(n), A014682(A014682(n)), ...",
+  "id": "A258825",
+  "mentions": [
+    "A014682",
+    "A070168",
+    "A258769",
+    "A258828"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 1,
+    "size": 107,
+    "source": "oeis-bfile"
+  }
+}

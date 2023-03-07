@@ -1,0 +1,19 @@
+{
+  "description": "Table T(n,k) read by downward antidiagonals: A quotient belonging to a generalization of Euler's theorem.",
+  "id": "A347277",
+  "mentions": [
+    "A074650"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

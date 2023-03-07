@@ -1,0 +1,20 @@
+{
+  "description": "a(1)=1. a(n) = a(n-1) + sum of the triangular numbers which are among the first (n-1) terms of the sequence.",
+  "id": "A100963",
+  "mentions": [
+    "A101135",
+    "A129895",
+    "A255260",
+    "A255261"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

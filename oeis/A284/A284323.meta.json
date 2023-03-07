@@ -1,0 +1,27 @@
+{
+  "description": "Numbers n such that product of digits of n is a power of 4.",
+  "id": "A284323",
+  "mentions": [
+    "A002275",
+    "A028846",
+    "A032822",
+    "A174813",
+    "A276037",
+    "A276038",
+    "A276039",
+    "A284295",
+    "A284324",
+    "A284375"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

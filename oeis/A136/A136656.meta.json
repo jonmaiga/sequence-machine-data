@@ -1,0 +1,29 @@
+{
+  "description": "Coefficients for rewriting generalized falling factorials into ordinary falling factorials.",
+  "id": "A136656",
+  "mentions": [
+    "A001710",
+    "A008284",
+    "A008297",
+    "A036040",
+    "A048993",
+    "A136657",
+    "A136659",
+    "A136660",
+    "A136661",
+    "A264428"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

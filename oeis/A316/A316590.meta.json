@@ -1,0 +1,23 @@
+{
+  "description": "G.f. A(x,y) satisfies: A(x,y) + A(1/x,y) = Sum_{m>=0} (x^m + y + 1/x^m)^m, ignoring the infinite constant term; this is the triangle, read by rows, of coefficients T(n,k) of x^n*y^k in A(x,y) for n >= 1, k = 0..n-1.",
+  "id": "A316590",
+  "mentions": [
+    "A304638",
+    "A316591",
+    "A316592",
+    "A316593",
+    "A316594",
+    "A316595"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:35",
+    "offset": 1,
+    "size": 136,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Greatest integer x such that x' = 2n+1, or 0 if there is no such x, where x' is the arithmetic derivative (A003415).",
+  "id": "A189762",
+  "mentions": [
+    "A003415",
+    "A098700",
+    "A099303",
+    "A102084"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

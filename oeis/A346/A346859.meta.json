@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of the (n+6)-multiset {0,...,0,1,2,...,6} with n 0's.",
+  "id": "A346859",
+  "mentions": [
+    "A346426",
+    "A346826"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

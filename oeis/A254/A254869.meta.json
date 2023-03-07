@@ -1,0 +1,32 @@
+{
+  "description": "Seventh partial sums of cubes (A000578).",
+  "id": "A254869",
+  "mentions": [
+    "A000537",
+    "A000578",
+    "A003215",
+    "A008588",
+    "A024166",
+    "A101094",
+    "A101097",
+    "A101102",
+    "A254469",
+    "A254640",
+    "A254647",
+    "A254870",
+    "A254871",
+    "A254872"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:06:59",
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

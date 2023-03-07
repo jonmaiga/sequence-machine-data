@@ -1,0 +1,22 @@
+{
+  "description": "3^n concatenated with itself.",
+  "id": "A206527",
+  "mentions": [
+    "A000244",
+    "A020338",
+    "A178664"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

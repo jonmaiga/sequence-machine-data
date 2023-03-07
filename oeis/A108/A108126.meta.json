@@ -1,0 +1,18 @@
+{
+  "description": "Maximal number of squares of side 1 in an ellipse of semiaxes n,2n.",
+  "id": "A108126",
+  "mentions": [
+    "A125228"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

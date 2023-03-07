@@ -1,0 +1,22 @@
+{
+  "description": "Number of nonisomorphic arrangements of n lines in the real projective plane, including the arrangement where all the lines pass through a common point.",
+  "id": "A132346",
+  "mentions": [
+    "A003036",
+    "A048872",
+    "A048873",
+    "A121510"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Triangle A(k,n) = (-2)^k+2^n read by rows.",
+  "id": "A140589",
+  "mentions": [
+    "A000051",
+    "A000079",
+    "A000217",
+    "A122803",
+    "A140513",
+    "A140529"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

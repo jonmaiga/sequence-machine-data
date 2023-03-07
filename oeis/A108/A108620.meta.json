@@ -1,0 +1,20 @@
+{
+  "description": "2*a(n) = A108618(n) + 3*A108619(n).",
+  "id": "A108620",
+  "mentions": [
+    "A108618",
+    "A108619"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

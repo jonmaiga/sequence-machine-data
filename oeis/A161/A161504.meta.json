@@ -1,0 +1,25 @@
+{
+  "description": "Primes congruent to {1, 2, 10, 11, 19, 20} mod 21.",
+  "id": "A161504",
+  "mentions": [
+    "A117223",
+    "A124826",
+    "A141888",
+    "A141892",
+    "A141893",
+    "A141897",
+    "A141898",
+    "A160495"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:17:29",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

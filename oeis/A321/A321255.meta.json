@@ -1,0 +1,26 @@
+{
+  "description": "Number of connected multiset partitions with multiset density -1, of strongly normal multisets of size n, with no singletons.",
+  "id": "A321255",
+  "mentions": [
+    "A000272",
+    "A030019",
+    "A052888",
+    "A134954",
+    "A304867",
+    "A317672",
+    "A321228",
+    "A321229",
+    "A321253"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

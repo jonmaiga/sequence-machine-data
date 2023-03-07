@@ -1,0 +1,29 @@
+{
+  "description": "Numbers k for which A003961(k) < 2*k; Numbers n such that if n = product_{k >= 1} (p_k)^(c_k), then product_{k >= 1} (p_{k+1})^(c_k) < 2*n, where p_k indicates the k-th prime, A000040(k).",
+  "id": "A246281",
+  "mentions": [
+    "A000040",
+    "A003961",
+    "A005100",
+    "A048673",
+    "A048674",
+    "A246282",
+    "A246351",
+    "A246361",
+    "A252742",
+    "A252748",
+    "A286385",
+    "A336836",
+    "A337345"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

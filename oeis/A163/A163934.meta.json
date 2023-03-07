@@ -1,0 +1,38 @@
+{
+  "description": "Triangle related to the asymptotic expansion of E(x,m=4,n).",
+  "id": "A163934",
+  "mentions": [
+    "A000292",
+    "A000399",
+    "A000454",
+    "A000457",
+    "A000482",
+    "A001233",
+    "A001234",
+    "A001707",
+    "A001713",
+    "A001718",
+    "A001723",
+    "A027777",
+    "A028421",
+    "A048994",
+    "A130534",
+    "A163931",
+    "A163932",
+    "A163935",
+    "A163939"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:46",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

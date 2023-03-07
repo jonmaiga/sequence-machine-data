@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows, T(n,k) = (-1)^k*(2*n)!*P[n,k](1/(n+1)) where P is the P-transform, for n>=0 and 0<=k<=n.",
+  "id": "A268437",
+  "mentions": [
+    "A000680",
+    "A001761",
+    "A268438",
+    "A269939",
+    "A269941"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

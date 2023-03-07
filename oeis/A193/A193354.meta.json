@@ -1,0 +1,23 @@
+{
+  "description": "Triangle: T(n,k) = (-1)^(n-i) * r16(n-i) * 2^(3*b(i)) * sigma_3(O(i)), for k=1 to n, for n>=1 (see comments for terms used).",
+  "id": "A193354",
+  "mentions": [
+    "A000152",
+    "A000265",
+    "A000594",
+    "A001158",
+    "A007814",
+    "A051000"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

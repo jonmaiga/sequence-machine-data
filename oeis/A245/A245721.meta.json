@@ -1,0 +1,29 @@
+{
+  "description": "The set of 16 consecutive primes forming a 4 X 4 pandiagonal magic square with the smallest magic constant, 682775764735680 = A256234(1).",
+  "id": "A245721",
+  "mentions": [
+    "A073519",
+    "A073520",
+    "A073521",
+    "A073522",
+    "A073523",
+    "A104157",
+    "A210710",
+    "A256234",
+    "A320873",
+    "A320874",
+    "A320876"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

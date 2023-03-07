@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that A217015(p) is a prime number. That is, when applying the walk of a square spiral to the data of rotated-square spiral, on step p a prime number is hit.",
+  "id": "A225590",
+  "mentions": [
+    "A214526",
+    "A215468",
+    "A217015",
+    "A217296",
+    "A225754"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

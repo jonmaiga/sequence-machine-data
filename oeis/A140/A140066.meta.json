@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (5*n^2 - 11*n + 8)/2.",
+  "id": "A140066",
+  "mentions": [
+    "A000217",
+    "A007318",
+    "A020821"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:06:19",
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

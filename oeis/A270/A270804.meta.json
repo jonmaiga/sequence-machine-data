@@ -1,0 +1,19 @@
+{
+  "description": "0 followed by the positions of the 1's in the inverse Thue-Morse sequence A270803.",
+  "id": "A270804",
+  "mentions": [
+    "A010060",
+    "A270803"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

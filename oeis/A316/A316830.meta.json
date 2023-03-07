@@ -1,0 +1,19 @@
+{
+  "description": "Replace successive blocks of length 3 in the Thue-Morse sequence A010060 with their decimal equivalents.",
+  "id": "A316830",
+  "mentions": [
+    "A010060",
+    "A293162"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:35",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

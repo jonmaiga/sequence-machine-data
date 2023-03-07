@@ -1,0 +1,24 @@
+{
+  "description": "A binary sequence due to Harold Jeffreys.",
+  "id": "A275973",
+  "mentions": [
+    "A000035",
+    "A000523",
+    "A030301",
+    "A154269",
+    "A275974",
+    "A275975"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 109,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "description": "Expansion of e.g.f. arcsin(x*sec(x)) (odd powers only).",
+  "id": "A296741",
+  "mentions": [
+    "A001818",
+    "A003700",
+    "A009118",
+    "A009119",
+    "A009562",
+    "A009563",
+    "A009765",
+    "A009843",
+    "A102072",
+    "A191003",
+    "A296464",
+    "A296466",
+    "A296679",
+    "A296680",
+    "A296742",
+    "A296743"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:25:03",
+    "offset": 0,
+    "size": 15,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = the smallest squarefree number (A005117) with n prime factors in a 2p-1 progression.",
+  "id": "A231816",
+  "mentions": [
+    "A000040",
+    "A005117",
+    "A057330",
+    "A231814",
+    "A231815"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

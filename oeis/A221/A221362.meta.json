@@ -1,0 +1,23 @@
+{
+  "description": "Number of distinct groups of order n that are the torsion subgroup of an elliptic curve over the rationals Q.",
+  "id": "A221362",
+  "mentions": [
+    "A059765",
+    "A146879"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "changed",
+    "easy",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the largest number x such that for m=n to n+x-1, A006530(m) decreases.",
+  "id": "A100387",
+  "mentions": [
+    "A006530",
+    "A070087",
+    "A070089",
+    "A071870",
+    "A079748",
+    "A100376",
+    "A100385",
+    "A100386"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

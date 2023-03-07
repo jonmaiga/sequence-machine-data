@@ -1,0 +1,19 @@
+{
+  "description": "Convolution of A000108 (Catalan numbers) and A001764 (ternary trees): a(n) = Sum_{k=0..n} C(2k,k) * C(3(n-k),n-k) / [(k+1)(2(n-k)+1)].",
+  "id": "A130579",
+  "mentions": [
+    "A000108",
+    "A001764"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

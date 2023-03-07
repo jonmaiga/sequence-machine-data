@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k divides (k-1)!! - 1.",
+  "id": "A129516",
+  "mentions": [
+    "A002145",
+    "A006882",
+    "A129517",
+    "A129518"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

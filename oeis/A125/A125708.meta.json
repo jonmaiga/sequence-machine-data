@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that A115963(k) is prime.",
+  "id": "A125708",
+  "mentions": [
+    "A024451",
+    "A061015",
+    "A092062",
+    "A109628",
+    "A115963"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

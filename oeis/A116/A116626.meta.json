@@ -1,0 +1,21 @@
+{
+  "description": "a(1)=1; a(odd n) = a(n-1) XOR a(n-2), for a(even n) we find the first i > 1 such that neither i nor (i XOR A116626(n-1)) is present in A116626(1..n-1), in which case a(n) = (i XOR A116626(n-1)).",
+  "id": "A116626",
+  "mentions": [
+    "A003987",
+    "A116624",
+    "A116625",
+    "A116627",
+    "A116648"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

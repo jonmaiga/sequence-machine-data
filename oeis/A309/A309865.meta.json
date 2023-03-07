@@ -1,0 +1,30 @@
+{
+  "description": "Number T(n,k) of k-uniform hypergraphs on n unlabeled nodes; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A309865",
+  "mentions": [
+    "A000027",
+    "A000088",
+    "A000665",
+    "A007395",
+    "A051240",
+    "A051249",
+    "A309858",
+    "A309860",
+    "A309861",
+    "A309862",
+    "A309863",
+    "A309864"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

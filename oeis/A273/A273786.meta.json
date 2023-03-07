@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n where a prime p < n exists such that n^(p-1) == 1 (mod p^2), i.e., such that p is a base-n Wieferich prime.",
+  "id": "A273786",
+  "mentions": [
+    "A255920",
+    "A255921",
+    "A273785"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

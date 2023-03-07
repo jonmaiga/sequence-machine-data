@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = least triangular number t > 0 such that n*t is a triangular number, or 0 if no such t exists.",
+  "id": "A227054",
+  "mentions": [
+    "A000217",
+    "A166478",
+    "A225502",
+    "A225503"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 26,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

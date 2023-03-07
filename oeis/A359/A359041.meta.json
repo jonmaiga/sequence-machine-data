@@ -1,0 +1,39 @@
+{
+  "description": "Number of finite sets of integer partitions with all equal sums and total sum n.",
+  "id": "A359041",
+  "mentions": [
+    "A000005",
+    "A000041",
+    "A001970",
+    "A034691",
+    "A038041",
+    "A055887",
+    "A063834",
+    "A074854",
+    "A098407",
+    "A133494",
+    "A261049",
+    "A271619",
+    "A279787",
+    "A289078",
+    "A304961",
+    "A305551",
+    "A305552",
+    "A306017",
+    "A336342",
+    "A358904",
+    "A358906",
+    "A358907"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

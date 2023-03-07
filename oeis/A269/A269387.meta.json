@@ -1,0 +1,26 @@
+{
+  "description": "Tree of Ludic sieve: a(0) = 1, a(1) = 2; after which, a(2n) = A269379(a(n)), a(2n+1) = 2*a(n).",
+  "id": "A269387",
+  "mentions": [
+    "A003309",
+    "A252753",
+    "A260741",
+    "A269171",
+    "A269377",
+    "A269379",
+    "A269385",
+    "A269388"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:31",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

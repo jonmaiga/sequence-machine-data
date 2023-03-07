@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that are the sum of five third powers in exactly six ways.",
+  "id": "A345175",
+  "mentions": [
+    "A294740",
+    "A343988",
+    "A344941",
+    "A345149",
+    "A345174",
+    "A345181",
+    "A345768"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

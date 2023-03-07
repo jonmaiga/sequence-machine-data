@@ -1,0 +1,20 @@
+{
+  "description": "Composites in sequence A114518.",
+  "id": "A114520",
+  "mentions": [
+    "A008475",
+    "A047820",
+    "A114518",
+    "A114521"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that s' + t' = k = s + t, for some s,t in 1 <= s <= t.",
+  "id": "A348277",
+  "mentions": [
+    "A003415"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

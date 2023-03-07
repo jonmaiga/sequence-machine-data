@@ -1,0 +1,23 @@
+{
+  "description": "Least prime factor of 2^n + 5^n.",
+  "id": "A122118",
+  "mentions": [
+    "A020639",
+    "A074600",
+    "A094473",
+    "A094475",
+    "A122119",
+    "A337429"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 0,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

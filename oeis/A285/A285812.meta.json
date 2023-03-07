@@ -1,0 +1,21 @@
+{
+  "description": "Primes equal to a centered 9-gonal number plus 1.",
+  "id": "A285812",
+  "mentions": [
+    "A000040",
+    "A060544",
+    "A285809",
+    "A285810",
+    "A285811"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:57",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

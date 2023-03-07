@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 4; for n > 1, a(n) is the least positive number not yet in the sequence such that Sum_{k=1..n} a(k) divides Sum_{k=1..n} a(k)^3.",
+  "id": "A318359",
+  "mentions": [
+    "A000027",
+    "A000217",
+    "A000537",
+    "A318358"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:39",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "\"3-Portolan numbers\": number of regions formed by n-secting the angles of an equilateral triangle.",
+  "id": "A277402",
+  "mentions": [
+    "A092098",
+    "A273096",
+    "A335411",
+    "A335412",
+    "A335413"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

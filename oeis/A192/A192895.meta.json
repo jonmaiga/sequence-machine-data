@@ -1,0 +1,26 @@
+{
+  "description": "A000120-deficiency of n.",
+  "id": "A192895",
+  "mentions": [
+    "A000120",
+    "A033879",
+    "A093653",
+    "A175522",
+    "A175524",
+    "A175526",
+    "A257691",
+    "A292257",
+    "A294905"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

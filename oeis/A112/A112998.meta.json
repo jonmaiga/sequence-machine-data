@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that n, n+1 and n+2 are 1,2,3-almost primes.",
+  "id": "A112998",
+  "mentions": [
+    "A186696"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n! * [x^n] (Sum_{k=0..n} prime(k+1)*x^k/k!)^n.",
+  "id": "A300631",
+  "mentions": [
+    "A000007",
+    "A000040",
+    "A014345",
+    "A014347",
+    "A014352"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

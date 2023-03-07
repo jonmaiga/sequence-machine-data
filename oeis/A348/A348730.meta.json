@@ -1,0 +1,19 @@
+{
+  "description": "Largest remainder of an n-digit number when divided by its sum of digits.",
+  "id": "A348730",
+  "mentions": [
+    "A070635",
+    "A348900"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

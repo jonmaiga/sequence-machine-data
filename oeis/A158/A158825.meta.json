@@ -1,0 +1,36 @@
+{
+  "description": "Square array of coefficients in the successive iterations of x*C(x) = (1-sqrt(1-4*x))/2 where C(x) is the g.f. of the Catalan numbers (A000108); read by antidiagonals.",
+  "id": "A158825",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000108",
+    "A002378",
+    "A033184",
+    "A121988",
+    "A122888",
+    "A158826",
+    "A158827",
+    "A158828",
+    "A158829",
+    "A158830",
+    "A158831",
+    "A158832",
+    "A158833",
+    "A158834",
+    "A158835",
+    "A160378"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Integers Xd which are divisible by X, where d is the last decimal digit.",
+  "id": "A359841",
+  "mentions": [
+    "A008592",
+    "A034837",
+    "A059995",
+    "A178157",
+    "A292683"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

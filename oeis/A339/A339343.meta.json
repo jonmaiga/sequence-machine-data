@@ -1,0 +1,30 @@
+{
+  "description": "Abundant pseudoperfect numbers k such that no subset of the nontrivial divisors {d|k : 1 < d < k} sums to k.",
+  "id": "A339343",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A000668",
+    "A005100",
+    "A005101",
+    "A005835",
+    "A006036",
+    "A006037",
+    "A033880",
+    "A070824",
+    "A088831",
+    "A122036",
+    "A136446",
+    "A308710"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

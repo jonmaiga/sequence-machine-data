@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that the sum of the squares of the first k primes is divisible by k.",
+  "id": "A111441",
+  "mentions": [
+    "A002322",
+    "A024450",
+    "A045345",
+    "A217599",
+    "A217600"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

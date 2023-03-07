@@ -1,0 +1,23 @@
+{
+  "description": "a(1)=1. a(n) = the smallest positive integer not occurring earlier in the sequence such that the n-th prime is congruent to a(n) (mod n).",
+  "id": "A125718",
+  "mentions": [
+    "A004648",
+    "A125715",
+    "A125717",
+    "A125727",
+    "A127149",
+    "A127150",
+    "A249678"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

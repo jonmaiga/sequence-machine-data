@@ -1,0 +1,19 @@
+{
+  "description": "Let m = A244052(n) = n-th highly regular number; a(n) = number of numbers r <= m, all of whose prime divisors p also divide m.",
+  "id": "A244053",
+  "mentions": [
+    "A002183",
+    "A010846",
+    "A244052"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

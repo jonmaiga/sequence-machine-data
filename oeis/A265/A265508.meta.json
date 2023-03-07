@@ -1,0 +1,21 @@
+{
+  "description": "Number of unordered pairs {p,q} of partitions of n into distinct parts such that p and q are incomparable in the dominance order.",
+  "id": "A265508",
+  "mentions": [
+    "A000009",
+    "A000217",
+    "A248476",
+    "A265506"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

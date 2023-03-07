@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of n not containing 2*(number of parts) as a part.",
+  "id": "A238488",
+  "mentions": [
+    "A000041",
+    "A008483"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

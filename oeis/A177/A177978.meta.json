@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,k) read by rows: A051731(n,k) - A051731(n-1,k).",
+  "id": "A177978",
+  "mentions": [
+    "A000007",
+    "A051731",
+    "A134540",
+    "A177517"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

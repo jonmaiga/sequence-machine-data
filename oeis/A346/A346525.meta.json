@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of gamma/(1 - gamma), where gamma is the Euler-Mascheroni constant.",
+  "id": "A346525",
+  "mentions": [
+    "A001620",
+    "A002852",
+    "A091556",
+    "A346589"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:56",
+    "offset": 1,
+    "size": 85,
+    "source": "joeis"
+  }
+}

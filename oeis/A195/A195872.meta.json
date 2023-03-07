@@ -1,0 +1,22 @@
+{
+  "description": "Positive integers a for which there is a (-1/2)-Pythagorean triple (a,b,c) satisfying a<=b.",
+  "id": "A195872",
+  "mentions": [
+    "A195770",
+    "A195873",
+    "A195874",
+    "A195875",
+    "A195876",
+    "A195877"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

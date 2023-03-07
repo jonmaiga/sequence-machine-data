@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = denominator(R(n,3)), where R(n,d) = (Product_{j prime to d)} Pochhammer(j/d, n)) / n!.",
+  "id": "A344402",
+  "mentions": [
+    "A000012",
+    "A001790",
+    "A046161",
+    "A273194"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

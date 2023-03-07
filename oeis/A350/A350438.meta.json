@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of integers that can be represented in a 7-segment display by using only n segments (version A010371).",
+  "id": "A350438",
+  "mentions": [
+    "A010371",
+    "A331530"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:45",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

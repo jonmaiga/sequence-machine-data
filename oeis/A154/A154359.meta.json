@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 1250*n^2 - 700*n + 99.",
+  "id": "A154359",
+  "mentions": [
+    "A154357",
+    "A154361"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:36",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

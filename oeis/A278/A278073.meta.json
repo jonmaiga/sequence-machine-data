@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows, coefficients of the polynomials P(m, n) = Sum_{k=1..n} binomial(m*n, m*k)* P(m, n-k)*z with P(m, 0) = 1 and m = 3.",
+  "id": "A278073",
+  "mentions": [
+    "A002115",
+    "A014606",
+    "A097805",
+    "A131689",
+    "A241171",
+    "A243664",
+    "A278074",
+    "A281479",
+    "A327023"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Catalan(n) - A000245(n-2).",
+  "id": "A220902",
+  "mentions": [
+    "A000108",
+    "A000245"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 2,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

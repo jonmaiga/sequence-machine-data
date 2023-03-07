@@ -1,0 +1,25 @@
+{
+  "description": "Let A(0) = 1, B(0) = 0; A(n+1) = Sum_{k=0..n} binomial(n,k)*B(k), B(n+1) = Sum_{k=0..n} -binomial(n,k)*A(k); entry gives B sequence (cf. A121867).",
+  "id": "A121868",
+  "mentions": [
+    "A000587",
+    "A024429",
+    "A024430",
+    "A121867",
+    "A143623",
+    "A143624",
+    "A143628",
+    "A143631"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Ordered and uniqued length of side common to the two angles, one being the double of the other, of a primitive integer-sided triangle.",
+  "id": "A106505",
+  "mentions": [
+    "A106410",
+    "A106420",
+    "A106430",
+    "A106499",
+    "A106506",
+    "A321499",
+    "A343063",
+    "A343064",
+    "A343065",
+    "A343066",
+    "A343067"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

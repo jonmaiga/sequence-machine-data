@@ -1,0 +1,20 @@
+{
+  "description": "Starting position of the n-th prime in the almost-natural numbers sequence A007376.",
+  "id": "A105930",
+  "mentions": [
+    "A007376",
+    "A103575"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 2,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

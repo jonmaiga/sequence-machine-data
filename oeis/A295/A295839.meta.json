@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of ways of inserting parentheses into the expression i^i^i^...^i with n i's such that the result is a real value.",
+  "id": "A295839",
+  "mentions": [
+    "A000108",
+    "A198683"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

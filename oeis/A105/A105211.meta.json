@@ -1,0 +1,22 @@
+{
+  "description": "a(1) = 412; for n > 1, a(n) = a(n-1) + 1 + sum of distinct prime factors of a(n-1) that are < a(n-1).",
+  "id": "A105211",
+  "mentions": [
+    "A003508",
+    "A027748",
+    "A105210",
+    "A105212",
+    "A105213"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:56",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

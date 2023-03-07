@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = sum of the divisors of n which equal any d(k) for 1<=k<=n, where d(k) is the number of positive divisors of k.",
+  "id": "A126212",
+  "mentions": [
+    "A000005",
+    "A126131",
+    "A126213"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:14",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

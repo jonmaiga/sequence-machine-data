@@ -1,0 +1,20 @@
+{
+  "description": "Let b(k) be the k-th term of the flattened irregular array where the m-th row contains the positive divisors of m. (b(k) = A027750(k).) Let c(k) be the k-th term of the flattened irregular array where the m-th row contains the positive integers that are <= m and are coprime to m. (c(k) = A038566(k).) Then a(n) = gcd(b(n),c(n)).",
+  "id": "A132587",
+  "mentions": [
+    "A027750",
+    "A038566",
+    "A132588",
+    "A132589"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

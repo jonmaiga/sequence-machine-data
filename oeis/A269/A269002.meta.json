@@ -1,0 +1,19 @@
+{
+  "description": "Indices of records in the integer sums 1/x0 + x2/x1 +...+ x0/xq of A248954.",
+  "id": "A269002",
+  "mentions": [
+    "A248954"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

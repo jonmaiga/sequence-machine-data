@@ -1,0 +1,24 @@
+{
+  "description": "Table read by antidiagonals: T(n,k) (n >= 1, k >= 1) is the number of regions formed by straight line segments when connecting the k-1 points along the top side of a rectangle to each of the k-1 points along the bottom side that divide these sides into k equal parts, along with straight lines that directly connect the n-1 points along the left side to the diametrically opposite point on the right side that divide these sides into n equal parts.",
+  "id": "A356790",
+  "mentions": [
+    "A146951",
+    "A290131",
+    "A306302",
+    "A331452",
+    "A355798",
+    "A355902"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

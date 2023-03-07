@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = sigma(n)^n.",
+  "id": "A217872",
+  "mentions": [
+    "A000203",
+    "A023887",
+    "A156217",
+    "A215140",
+    "A215141"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

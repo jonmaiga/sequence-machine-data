@@ -1,0 +1,19 @@
+{
+  "description": "Number of different figures obtained by a putting two Young diagrams of partitions lambda and mu, such that |lambda| + |mu| = n on top of each other.",
+  "id": "A225751",
+  "mentions": [
+    "A000041",
+    "A000070"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

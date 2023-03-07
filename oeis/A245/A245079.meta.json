@@ -1,0 +1,21 @@
+{
+  "description": "Number of bipolar Boolean functions, that is, Boolean functions that are monotone or antimonotone in each argument.",
+  "id": "A245079",
+  "mentions": [
+    "A006126"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "changed",
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

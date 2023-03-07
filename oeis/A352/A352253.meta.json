@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of e.g.f. 1 / (1 - x * sinh(x) / 2) (even powers only).",
+  "id": "A352253",
+  "mentions": [
+    "A006153",
+    "A006154",
+    "A094088",
+    "A205571",
+    "A352251",
+    "A352254"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

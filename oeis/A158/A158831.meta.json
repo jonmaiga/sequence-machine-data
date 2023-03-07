@@ -1,0 +1,22 @@
+{
+  "description": "A diagonal in the array A158825 of coefficients of successive iterations of x*C(x), where C(x) is the Catalan function (A000108).",
+  "id": "A158831",
+  "mentions": [
+    "A000108",
+    "A158825",
+    "A158832",
+    "A158833",
+    "A158834",
+    "A158835"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

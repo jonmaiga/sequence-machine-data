@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Pell(n)*A033719(n) for n>=1, with a(0)=1, where A033719 lists the coefficients in theta_3(q)*theta_3(q^7).",
+  "id": "A209454",
+  "mentions": [
+    "A000129",
+    "A002203",
+    "A033719",
+    "A204270",
+    "A205974",
+    "A209453",
+    "A209455"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

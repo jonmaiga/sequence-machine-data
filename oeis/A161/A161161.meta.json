@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle of differences T(n,k) = A083906(n,k)-A083906(n-1,k) of q-Binomial coefficients.",
+  "id": "A161161",
+  "mentions": [
+    "A000079",
+    "A002865",
+    "A033638",
+    "A083906"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

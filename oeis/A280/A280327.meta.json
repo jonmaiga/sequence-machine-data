@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is obtained by applying the map k -> composite(k) n times, starting at n.",
+  "id": "A280327",
+  "mentions": [
+    "A002808",
+    "A058009"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

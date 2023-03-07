@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = the smallest number x >= 2 such that for m = x to x + n - 1, A006530(m) increases.",
+  "id": "A100384",
+  "mentions": [
+    "A006530",
+    "A070089",
+    "A071869",
+    "A100376",
+    "A100385",
+    "A358890"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Integers n such that A112528(n) - A103274(n) = 1.",
+  "id": "A285915",
+  "mentions": [
+    "A000040",
+    "A063638",
+    "A103274",
+    "A112528"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

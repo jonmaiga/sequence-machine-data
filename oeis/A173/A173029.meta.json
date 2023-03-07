@@ -1,0 +1,21 @@
+{
+  "description": "Partial sums of naughty primes A164968.",
+  "id": "A173029",
+  "mentions": [
+    "A000040",
+    "A164968"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

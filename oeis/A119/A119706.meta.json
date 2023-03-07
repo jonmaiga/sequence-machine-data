@@ -1,0 +1,25 @@
+{
+  "description": "Total length of longest runs of 1's in all bitstrings of length n.",
+  "id": "A119706",
+  "mentions": [
+    "A000225",
+    "A007059",
+    "A008466",
+    "A038374",
+    "A048004",
+    "A050231",
+    "A050232",
+    "A334833"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

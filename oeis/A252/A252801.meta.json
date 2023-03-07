@@ -1,0 +1,22 @@
+{
+  "description": "Primes whose trajectories under the map x -> A039951(x) enter the cycle {2, 1093}.",
+  "id": "A252801",
+  "mentions": [
+    "A039951",
+    "A244550",
+    "A252802",
+    "A252812"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

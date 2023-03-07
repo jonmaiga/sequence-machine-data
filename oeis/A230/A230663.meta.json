@@ -1,0 +1,18 @@
+{
+  "description": "Least prime p such that x^2 + 3*x + p produces primes for x = 0..n-1 but not x = n.",
+  "id": "A230663",
+  "mentions": [
+    "A164926"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

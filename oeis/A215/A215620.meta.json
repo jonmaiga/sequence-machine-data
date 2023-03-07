@@ -1,0 +1,18 @@
+{
+  "description": "Numbers of apex graphs (graphs which become or remain planar upon the removal of a single vertex) on n vertices.",
+  "id": "A215620",
+  "mentions": [
+    "A215621"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

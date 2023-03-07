@@ -1,0 +1,21 @@
+{
+  "description": "Zero-one sequence based on squares: a(A000290(k))=a(k); a(A000037(k))=1-a(k); a(1)=0.",
+  "id": "A188973",
+  "mentions": [
+    "A000037",
+    "A000290",
+    "A188967",
+    "A188974",
+    "A188975"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:41:23",
+    "offset": 1,
+    "size": 135,
+    "source": "joeis"
+  }
+}

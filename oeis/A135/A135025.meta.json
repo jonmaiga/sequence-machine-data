@@ -1,0 +1,20 @@
+{
+  "description": "Let b(1) = 2; and for n>= 2, if b(n-1) < prime(n) then b(n) = b(n-1) + prime(n) otherwise b(n) = b(n-1) - prime(n). The sequence gives the indices n where b(n-1) < b(n) < b(n+1).",
+  "id": "A135025",
+  "mentions": [
+    "A008348",
+    "A135026",
+    "A309226"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

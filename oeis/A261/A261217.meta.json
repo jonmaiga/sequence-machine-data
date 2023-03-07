@@ -1,0 +1,33 @@
+{
+  "description": "A(i,j) = rank (in A060118) of the composition of the i-th and the j-th permutation in table A060118, which lists all finite permutations.",
+  "id": "A261217",
+  "mentions": [
+    "A001477",
+    "A004442",
+    "A060117",
+    "A060118",
+    "A060119",
+    "A060120",
+    "A060125",
+    "A060126",
+    "A060127",
+    "A089839",
+    "A261096",
+    "A261097",
+    "A261216",
+    "A261218",
+    "A261219"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 0,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Following the successive antidiagonals in A065188, let the n-th queen appear in square (x(n),y(n)); sequence gives x(n).",
+  "id": "A275899",
+  "mentions": [
+    "A065188",
+    "A275900",
+    "A275901",
+    "A275902"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

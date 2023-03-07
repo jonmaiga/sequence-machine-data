@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of integer partitions of n for which the crank is equal to the index of the seaweed algebra formed by the integer partition paired with its weight.",
+  "id": "A318238",
+  "mentions": [
+    "A237832",
+    "A318176",
+    "A318177",
+    "A318178",
+    "A318196",
+    "A318203"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

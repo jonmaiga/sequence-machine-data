@@ -1,0 +1,25 @@
+{
+  "description": "Greatest common divisor of n! and n+1.",
+  "id": "A181569",
+  "mentions": [
+    "A000142",
+    "A006093",
+    "A010051",
+    "A014973",
+    "A050873",
+    "A088140",
+    "A135683"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:51",
+    "offset": 1,
+    "size": 78,
+    "source": "joeis"
+  }
+}

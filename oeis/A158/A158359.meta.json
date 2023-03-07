@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n,k) read by rows: coefficient [x^(n-k)] of the characteristic polynomial of the n X n matrix A(r,c)=1 (if c > r) and A(r,c)=c (if c <= r).",
+  "id": "A158359",
+  "mentions": [
+    "A000522"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

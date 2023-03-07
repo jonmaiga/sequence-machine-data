@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of different pairs (p,q) mod n not of the form (x*y,x+y) mod n for any (x,y).",
+  "id": "A261929",
+  "mentions": [
+    "A261928"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

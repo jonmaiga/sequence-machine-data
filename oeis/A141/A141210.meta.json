@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows, A140207^2.",
+  "id": "A141210",
+  "mentions": [
+    "A000070",
+    "A001255",
+    "A140207",
+    "A141211"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Prime numbers p == 2 (mod 3) such that p-1 has exactly one distinct odd prime divisor and p+1 has exactly one distinct prime divisor > 3.",
+  "id": "A343478",
+  "mentions": [
+    "A003627",
+    "A215504",
+    "A336101",
+    "A343479",
+    "A343480"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

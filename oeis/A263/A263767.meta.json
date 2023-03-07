@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of phi(-x) * psi(-x^8) * chi(x^24) in powers of x where phi(), psi(), chi() are Ramanujan theta functions.",
+  "id": "A263767",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A121373",
+    "A256574"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 0,
+    "size": 83,
+    "source": "joeis"
+  }
+}

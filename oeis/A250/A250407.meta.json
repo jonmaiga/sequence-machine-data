@@ -1,0 +1,23 @@
+{
+  "description": "Near-Wilson primes (p = prime(n) satisfying (p-1)! == -1-A250406(n)*p (mod p^2)) with A250406(n) < 10.",
+  "id": "A250407",
+  "mentions": [
+    "A000040",
+    "A007540",
+    "A007619",
+    "A246568",
+    "A250406"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

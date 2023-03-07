@@ -1,0 +1,19 @@
+{
+  "description": "A variation on Pascal's triangle: every term inside the triangle is the sum of the two integers immediately above it, with no duplicate term. See the Comments section to understand the sequence and the building process.",
+  "id": "A320143",
+  "mentions": [
+    "A007318"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

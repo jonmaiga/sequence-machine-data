@@ -1,0 +1,23 @@
+{
+  "description": "Irregular array read by rows: Row n gives the number of elements in the multiplicative group mod n, (Z/nZ, *), that have order d for each divisor d of the exponent of the group.",
+  "id": "A265120",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A002322",
+    "A066800",
+    "A155828",
+    "A258446"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 2,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

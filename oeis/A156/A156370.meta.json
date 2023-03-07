@@ -1,0 +1,19 @@
+{
+  "description": "Numerator of Euler(n, 5/14).",
+  "id": "A156370",
+  "mentions": [
+    "A156359",
+    "A208680"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

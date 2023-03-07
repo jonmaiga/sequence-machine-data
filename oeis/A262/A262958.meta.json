@@ -1,0 +1,20 @@
+{
+  "description": "Numbers whose base-b expansions, for both b=3 and b=4, include no digits other than 1 and b-1.",
+  "id": "A262958",
+  "mentions": [
+    "A207079",
+    "A258981",
+    "A261970"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

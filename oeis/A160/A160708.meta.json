@@ -1,0 +1,21 @@
+{
+  "description": "Convolution triangle by rows, row sums = the Robbins sequence, A005130 starting with offset 1.",
+  "id": "A160708",
+  "mentions": [
+    "A005130",
+    "A160707"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "less",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

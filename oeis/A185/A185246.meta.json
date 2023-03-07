@@ -1,0 +1,28 @@
+{
+  "description": "Number of disconnected 4-regular simple graphs on n vertices with girth at least 6.",
+  "id": "A185246",
+  "mentions": [
+    "A033483",
+    "A058348",
+    "A185206",
+    "A185216",
+    "A185226",
+    "A185236",
+    "A185244",
+    "A185245",
+    "A185346"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

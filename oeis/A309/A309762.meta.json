@@ -1,0 +1,25 @@
+{
+  "description": "Numbers that are the sum of 3 nonzero 4th powers in more than one way.",
+  "id": "A309762",
+  "mentions": [
+    "A003337",
+    "A008917",
+    "A018786",
+    "A024796",
+    "A193243",
+    "A309763",
+    "A344192",
+    "A344239",
+    "A345010"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:12:43",
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Solution to Popular Computing Problem 56 (binary).",
+  "id": "A257341",
+  "mentions": [
+    "A020652",
+    "A038567",
+    "A257342"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

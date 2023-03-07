@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of r_7, the 7th smallest radius < 1 for which a compact packing of the plane exists, with disks of radius 1 and r_7.",
+  "id": "A246728",
+  "mentions": [
+    "A002193",
+    "A246723",
+    "A246724",
+    "A246725",
+    "A246726",
+    "A246727",
+    "A246729",
+    "A246730"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "description": "Heinz numbers of integer partitions whose length is twice their alternating sum.",
+  "id": "A357848",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A000720",
+    "A001221",
+    "A001222",
+    "A003963",
+    "A025047",
+    "A056239",
+    "A097805",
+    "A103919",
+    "A262977",
+    "A301987",
+    "A344651",
+    "A357136",
+    "A357182",
+    "A357183",
+    "A357184",
+    "A357189",
+    "A357485",
+    "A357486",
+    "A357488",
+    "A357709",
+    "A357847"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

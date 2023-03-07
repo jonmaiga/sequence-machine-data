@@ -1,0 +1,19 @@
+{
+  "description": "Numerators T(0,k) of a top row sequence which generates a signed variant (-1)^n*T(n,0) of itself in the column k=0 under repeated application of the Akiyama-Tanigawa transform.",
+  "id": "A174419",
+  "mentions": [
+    "A054977"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "eigen",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Lucas-Carmichael numbers with 10 prime factors.",
+  "id": "A349029",
+  "mentions": [
+    "A006972",
+    "A046314",
+    "A216925",
+    "A216926",
+    "A216927",
+    "A216928",
+    "A217002",
+    "A217003",
+    "A217091",
+    "A349028",
+    "A349030"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

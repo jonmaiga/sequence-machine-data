@@ -1,0 +1,20 @@
+{
+  "description": "Smallest term in the tribonacci Zeckendorf representation of n.",
+  "id": "A275392",
+  "mentions": [
+    "A000073",
+    "A006519",
+    "A139764"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

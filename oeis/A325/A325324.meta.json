@@ -1,0 +1,31 @@
+{
+  "description": "Number of integer partitions of n whose differences (with the last part taken to be 0) are distinct.",
+  "id": "A325324",
+  "mentions": [
+    "A007862",
+    "A049988",
+    "A098859",
+    "A130091",
+    "A240026",
+    "A320348",
+    "A320466",
+    "A320509",
+    "A325325",
+    "A325349",
+    "A325366",
+    "A325367",
+    "A325368",
+    "A325404",
+    "A325407"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

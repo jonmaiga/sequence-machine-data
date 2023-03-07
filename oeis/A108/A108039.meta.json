@@ -1,0 +1,18 @@
+{
+  "description": "Replace each entry 2^i(2j+1) of the triangle in A008280 with i and replace 0's with *'s; then the entries n in the new triangle do not occur beyond diagonal a(n), measured from the left edge and taking the left edge to be diagonal number 1.",
+  "id": "A108039",
+  "mentions": [
+    "A008280"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

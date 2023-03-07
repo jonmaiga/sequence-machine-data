@@ -1,0 +1,18 @@
+{
+  "description": "Integers k such that ceiling(Pi^k) is prime.",
+  "id": "A111937",
+  "mentions": [
+    "A001673"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

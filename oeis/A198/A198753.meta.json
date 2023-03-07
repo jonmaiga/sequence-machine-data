@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the absolute minimum of f(x)+f(2x)+f(3x)+f(4x)+f(5x)+f(6x), where f(x)=sin(x)-cos(x).",
+  "id": "A198753",
+  "mentions": [
+    "A198745",
+    "A198754"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that prime(n)-1 and prime(n+1)-1 have the same largest prime factor.",
+  "id": "A105403",
+  "mentions": [
+    "A023503"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

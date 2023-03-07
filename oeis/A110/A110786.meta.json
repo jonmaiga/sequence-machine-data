@@ -1,0 +1,21 @@
+{
+  "description": "To obtain a(n), take the n-th palindrome P = A002113(n) and concatenate it with the smallest palindrome Q such that PQ is a prime.",
+  "id": "A110786",
+  "mentions": [
+    "A002113",
+    "A030675",
+    "A110787"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

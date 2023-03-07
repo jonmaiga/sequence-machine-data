@@ -1,0 +1,23 @@
+{
+  "description": "Number of 3-almost primes t such that 2^n < t <= 2^(n+1).",
+  "id": "A120034",
+  "mentions": [
+    "A014612",
+    "A036378",
+    "A072114",
+    "A109251",
+    "A120033",
+    "A120043",
+    "A127396"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

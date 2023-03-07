@@ -1,0 +1,20 @@
+{
+  "description": "Number of permutations of [n] cyclically avoiding the consecutive step pattern UDU (U=up, D=down).",
+  "id": "A232899",
+  "mentions": [
+    "A177477",
+    "A232933",
+    "A245758"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

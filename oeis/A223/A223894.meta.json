@@ -1,0 +1,23 @@
+{
+  "description": "Triangular array read by rows: T(n,k) is the number of connected components with size k summed over all simple labeled graphs on n nodes; n>=1, 1<=k<=n.",
+  "id": "A223894",
+  "mentions": [
+    "A001187",
+    "A006125",
+    "A123903",
+    "A125207",
+    "A182166"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:41",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

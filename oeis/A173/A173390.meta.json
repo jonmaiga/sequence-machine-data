@@ -1,0 +1,20 @@
+{
+  "description": "n-th difference between consecutive natural noncomposite numbers = n-th difference between consecutive prime numbers.",
+  "id": "A173390",
+  "mentions": [
+    "A001223",
+    "A066875",
+    "A075526"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

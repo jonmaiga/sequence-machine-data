@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of isolated totatives of n.",
+  "id": "A132952",
+  "mentions": [
+    "A000010",
+    "A061345",
+    "A132953"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

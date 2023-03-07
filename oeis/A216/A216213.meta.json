@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that sigma*(k) = Sum_{j=anti-divisors of k} sigma*(j), where sigma*(k) is the sum of the anti-divisors of k.",
+  "id": "A216213",
+  "mentions": [
+    "A066272",
+    "A178029",
+    "A191580",
+    "A191581",
+    "A192282",
+    "A192284"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

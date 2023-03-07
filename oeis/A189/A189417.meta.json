@@ -1,0 +1,18 @@
+{
+  "description": "Number of kites on an n X n grid (or geoboard).",
+  "id": "A189417",
+  "mentions": [
+    "A189413",
+    "A189414"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

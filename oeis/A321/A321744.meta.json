@@ -1,0 +1,30 @@
+{
+  "description": "Irregular triangle read by rows where T(H(u),H(v)) is the coefficient of m(v) in h(u), where H is Heinz number, m is monomial symmetric functions, and h is homogeneous symmetric functions.",
+  "id": "A321744",
+  "mentions": [
+    "A000041",
+    "A005651",
+    "A007716",
+    "A008480",
+    "A056239",
+    "A124794",
+    "A124795",
+    "A255906",
+    "A300121",
+    "A321742",
+    "A321745",
+    "A321765",
+    "A321854"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

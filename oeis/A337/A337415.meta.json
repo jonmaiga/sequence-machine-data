@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of ways to tile a size n triangle in the triangular grid with n n-cell polyiamonds, up to rotation and reflection of the triangle.",
+  "id": "A337415",
+  "mentions": [
+    "A000577",
+    "A328020"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Column 12 of an array illustrated in A089584 and related to A034261.",
+  "id": "A110553",
+  "mentions": [
+    "A000330",
+    "A034261",
+    "A086602",
+    "A089574",
+    "A089584",
+    "A107600",
+    "A107601",
+    "A108538",
+    "A109125",
+    "A109126",
+    "A109820",
+    "A109821",
+    "A110624"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:07:39",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

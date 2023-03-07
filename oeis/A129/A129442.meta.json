@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of c(x)*c(x*c(x)) where c(x) is the g.f. of A000108.",
+  "id": "A129442",
+  "mentions": [
+    "A000108",
+    "A014137",
+    "A106566",
+    "A121988"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:17",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "First differences of the 3D toothpick numbers A160160.",
+  "id": "A160161",
+  "mentions": [
+    "A000695",
+    "A011782",
+    "A033484",
+    "A139250",
+    "A139251",
+    "A160120",
+    "A160121",
+    "A160160",
+    "A160171",
+    "A170875",
+    "A176449"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

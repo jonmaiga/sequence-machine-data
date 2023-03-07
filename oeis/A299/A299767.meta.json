@@ -1,0 +1,18 @@
+{
+  "description": "Partial sums of A299037.",
+  "id": "A299767",
+  "mentions": [
+    "A299037"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

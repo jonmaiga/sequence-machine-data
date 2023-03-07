@@ -1,0 +1,17 @@
+{
+  "description": "Integers m that divide A120492(m) = 1 + Sum_{k=1..m} prime(k)^(m-1).",
+  "id": "A121166",
+  "mentions": [
+    "A120492"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Second numbers with the same values for sigma_0(n) and sigma(n) as one or more other numbers.",
+  "id": "A162280",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A162279",
+    "A162281",
+    "A162282",
+    "A162283"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

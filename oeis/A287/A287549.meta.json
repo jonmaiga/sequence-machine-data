@@ -1,0 +1,23 @@
+{
+  "description": "Total number of unordered factorizations of all positive integers <= n into distinct factors greater than 1.",
+  "id": "A287549",
+  "mentions": [
+    "A000009",
+    "A001055",
+    "A036469",
+    "A045778",
+    "A086435",
+    "A096276"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:24:41",
+    "offset": 1,
+    "size": 75,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Scrambled version of the first 8 terms of the Fibonacci sequence appearing as one of the clues in _The Da Vinci Code_.",
+  "id": "A117540",
+  "mentions": [
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "dumb",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

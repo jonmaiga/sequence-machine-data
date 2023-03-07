@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = (3 + 2*n - 3*n^2 + 4*n^3 - 3*((-1 + n) mod 2))/6.",
+  "id": "A304487",
+  "mentions": [
+    "A045991",
+    "A085046",
+    "A126224",
+    "A228958",
+    "A317298",
+    "A317614"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

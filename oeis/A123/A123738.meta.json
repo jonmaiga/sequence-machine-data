@@ -1,0 +1,20 @@
+{
+  "description": "Partial sums of (-1)^floor(n*Pi).",
+  "id": "A123738",
+  "mentions": [
+    "A123724",
+    "A123737",
+    "A123739"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

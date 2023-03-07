@@ -1,0 +1,26 @@
+{
+  "description": "Irregular table read by rows: n-th row lists the prime factors of A173426(n), with repetition.",
+  "id": "A260589",
+  "mentions": [
+    "A001222",
+    "A027746",
+    "A075023",
+    "A075024",
+    "A173426",
+    "A260587",
+    "A260588"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

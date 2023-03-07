@@ -1,0 +1,32 @@
+{
+  "description": "Square array T(b,m), read by descending antidiagonals: Number of winning length m strings with a b-symbol alphabet in \"same game\" (b >= 2, m >= 0).",
+  "id": "A323844",
+  "mentions": [
+    "A035615",
+    "A035617",
+    "A065237",
+    "A065238",
+    "A065239",
+    "A065240",
+    "A065241",
+    "A065242",
+    "A065243",
+    "A238879",
+    "A309874",
+    "A323812"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabl",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

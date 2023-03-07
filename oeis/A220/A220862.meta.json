@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = smallest m>0 such that the n-th rational prime p splits in the imaginary quadratic extension field K = Q(sqrt(-m)).",
+  "id": "A220862",
+  "mentions": [
+    "A088192",
+    "A220861",
+    "A220863"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

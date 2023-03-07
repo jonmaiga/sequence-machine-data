@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 17*3^n.",
+  "id": "A258598",
+  "mentions": [
+    "A000244",
+    "A258597"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:02:48",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

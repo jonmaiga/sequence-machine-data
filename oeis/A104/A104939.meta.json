@@ -1,0 +1,19 @@
+{
+  "description": "Primes from merging of 5 successive digits in decimal expansion of the Euler-Mascheroni Constant.",
+  "id": "A104939",
+  "mentions": [
+    "A001620"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:56",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

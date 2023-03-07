@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that the result of swapping the 3rd and next to the next to the last digit of a number is prime.",
+  "id": "A111348",
+  "mentions": [
+    "A095179",
+    "A111347",
+    "A111349"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

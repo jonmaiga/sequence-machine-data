@@ -1,0 +1,21 @@
+{
+  "description": "Maximum spillway height for a zero or one bend minimal area lake in a number square.",
+  "id": "A285766",
+  "mentions": [
+    "A054247",
+    "A114949",
+    "A201126",
+    "A268311"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:45:29",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

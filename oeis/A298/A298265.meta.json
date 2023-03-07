@@ -1,0 +1,25 @@
+{
+  "description": "Number of nonisomorphic proper colorings of partition multicycle graph using five colors.",
+  "id": "A298265",
+  "mentions": [
+    "A297567",
+    "A297568",
+    "A297569",
+    "A297570",
+    "A298263",
+    "A298264",
+    "A298266"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

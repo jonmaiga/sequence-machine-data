@@ -1,0 +1,23 @@
+{
+  "description": "Lexicographically earliest such sequence a that a(i) = a(j) => f(i) = f(j) for all i, j, where f(1) = 0 if n is a prime power > 2, f(2) = -1, and f(n) = A322990(n) for all other numbers.",
+  "id": "A322988",
+  "mentions": [
+    "A289271",
+    "A289272",
+    "A305976",
+    "A322805",
+    "A322822",
+    "A322989",
+    "A322990"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

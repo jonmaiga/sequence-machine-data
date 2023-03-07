@@ -1,0 +1,35 @@
+{
+  "description": "Number of multiset partitions of integer partitions of n with all distinct block sizes.",
+  "id": "A358836",
+  "mentions": [
+    "A000009",
+    "A001970",
+    "A007837",
+    "A063834",
+    "A141199",
+    "A271619",
+    "A273873",
+    "A279375",
+    "A279785",
+    "A279790",
+    "A296122",
+    "A319066",
+    "A326533",
+    "A336342",
+    "A356932",
+    "A358334",
+    "A358830",
+    "A358832"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

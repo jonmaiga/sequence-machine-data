@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows: row n gives coefficients C(n,j) for a Sheffer sequence (binomial-type) with lowering operator (D-1)/2 + T{ (1/2) * exp[(D-1)/2] } where T(x) is Cayley's Tree function.",
+  "id": "A135494",
+  "mentions": [
+    "A000169",
+    "A000311",
+    "A008277",
+    "A074051",
+    "A126617",
+    "A134991",
+    "A153881",
+    "A264428",
+    "A298673"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

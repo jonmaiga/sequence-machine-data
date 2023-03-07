@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (50^n-1)/49.",
+  "id": "A218752",
+  "mentions": [
+    "A165800",
+    "A269025"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:36",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

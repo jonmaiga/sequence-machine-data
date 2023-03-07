@@ -1,0 +1,18 @@
+{
+  "description": "Least positive integer k such that n divides C(k)-C(j) for some j in [1,k-1], where C=A007598 (squared Fibonacci numbers).",
+  "id": "A205780",
+  "mentions": [
+    "A007598",
+    "A204892"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 09:55:29",
+    "offset": 1,
+    "size": 89,
+    "source": "joeis"
+  }
+}

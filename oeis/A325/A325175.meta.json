@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that s(k) = s(k+1) = s(k+2) = s(k+3) where s(k) is the sum of divisors of k that are smaller than sqrt(k) (A070039).",
+  "id": "A325175",
+  "mentions": [
+    "A070039",
+    "A324295",
+    "A324310"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

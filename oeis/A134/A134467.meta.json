@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n(n+1) - A000120(n), where A000120(n) = number of 1's in binary expansion of n.",
+  "id": "A134467",
+  "mentions": [
+    "A000120",
+    "A134097",
+    "A134098"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:22",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

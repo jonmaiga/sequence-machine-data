@@ -1,0 +1,22 @@
+{
+  "description": "The number of regular hexagons found by constructing n equally-spaced points on each side of the hexagon and drawing lines parallel to the hexagon side.",
+  "id": "A128828",
+  "mentions": [
+    "A000330",
+    "A002717",
+    "A128127",
+    "A128153"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Trajectory of 0 under repeated application of the morphism 0 -> 01, 1 -> 21, 2 -> 13, 3 -> 33.",
+  "id": "A316831",
+  "mentions": [
+    "A086747",
+    "A316832"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:35",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

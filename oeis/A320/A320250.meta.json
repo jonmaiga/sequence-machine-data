@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of Product_{k>=1} (1 + x^k)^(A048272(k)).",
+  "id": "A320250",
+  "mentions": [
+    "A048272",
+    "A158441",
+    "A295794"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:51:01",
+    "offset": 0,
+    "size": 62,
+    "source": "joeis"
+  }
+}

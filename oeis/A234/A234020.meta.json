@@ -1,0 +1,21 @@
+{
+  "description": "Offsets from the middle point of each row of A233270 to the nearest point containing a maximum value of that range.",
+  "id": "A234020",
+  "mentions": [
+    "A233268",
+    "A233270",
+    "A233274",
+    "A234018",
+    "A234019"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

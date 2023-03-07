@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the moment derivative W_4'(0) associated with the radial probability distribution of a 4-step uniform random walk.",
+  "id": "A244997",
+  "mentions": [
+    "A244996"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

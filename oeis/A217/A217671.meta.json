@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least prime of the set of the smallest n consecutive primes a(n)=q_1(n), q_2(n),..., such that between (1/2)*q_i and (1/2)q_(i+1), i=1,...,n-1, there exists a prime, or a(n)=0 if no such set of primes exists.",
+  "id": "A217671",
+  "mentions": [
+    "A166251",
+    "A182405",
+    "A182426",
+    "A182523"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 2,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of regions in a \"cross\" of width 3 and height n (see Comments for definition).",
+  "id": "A331455",
+  "mentions": [
+    "A007678",
+    "A330848",
+    "A330850",
+    "A330851",
+    "A331452",
+    "A331456"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 2,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

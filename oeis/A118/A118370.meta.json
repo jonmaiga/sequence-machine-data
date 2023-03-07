@@ -1,0 +1,21 @@
+{
+  "description": "Divisorial primes: Primes p such that p = 1 + Product_{d|n} d for some n (ordered by n).",
+  "id": "A118370",
+  "mentions": [
+    "A007955",
+    "A014545",
+    "A088332",
+    "A118369",
+    "A258455"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

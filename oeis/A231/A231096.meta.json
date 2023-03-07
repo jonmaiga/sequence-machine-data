@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the power tower of the inverse of golden ratio.",
+  "id": "A231096",
+  "mentions": [
+    "A001622",
+    "A094214",
+    "A231095"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Ranks of (odd i)+(odd j)*r when all i+j*r are ranked, where r=golden ratio, i>=0, j>=0.",
+  "id": "A183989",
+  "mentions": [
+    "A183987",
+    "A183988",
+    "A183990",
+    "A183991",
+    "A183992",
+    "A183993"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

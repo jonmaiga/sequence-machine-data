@@ -1,0 +1,18 @@
+{
+  "description": "Number a(n) of columns in each row of the irregular triangles in A187800 and A228594.",
+  "id": "A228726",
+  "mentions": [
+    "A187800",
+    "A228594"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

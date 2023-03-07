@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n,d): the number of subgroups of order d of the symmetric group S_n as d runs through the divisors of n!.",
+  "id": "A243748",
+  "mentions": [
+    "A001189",
+    "A005432",
+    "A027423",
+    "A218913",
+    "A277566",
+    "A284210"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

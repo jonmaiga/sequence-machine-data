@@ -1,0 +1,22 @@
+{
+  "description": "E.g.f.: Product_{k>=1} 1/(1 - (exp(x) - 1)^k)^(1/k!).",
+  "id": "A345756",
+  "mentions": [
+    "A048993",
+    "A140585",
+    "A209902",
+    "A345757",
+    "A345758"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

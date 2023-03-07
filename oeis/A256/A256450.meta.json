@@ -1,0 +1,38 @@
+{
+  "description": "Numbers that have at least one 1-digit in their factorial base representation (A007623).",
+  "id": "A256450",
+  "mentions": [
+    "A000142",
+    "A007623",
+    "A059590",
+    "A225901",
+    "A227187",
+    "A255341",
+    "A255342",
+    "A255343",
+    "A255411",
+    "A257262",
+    "A257263",
+    "A257503",
+    "A257505",
+    "A257511",
+    "A257679",
+    "A257680",
+    "A258198",
+    "A258199",
+    "A273662",
+    "A273670"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

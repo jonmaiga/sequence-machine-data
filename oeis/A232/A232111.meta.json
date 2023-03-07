@@ -1,0 +1,19 @@
+{
+  "description": "Numerator of smallest nonnegative fraction of form +- 1 +- 1/2 +- 1/3 ... +- 1/n.",
+  "id": "A232111",
+  "mentions": [
+    "A231692",
+    "A232112"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

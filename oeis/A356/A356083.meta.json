@@ -1,0 +1,21 @@
+{
+  "description": "Matula-Goebel number of the complete ternary tree of n levels.",
+  "id": "A356083",
+  "mentions": [
+    "A007097",
+    "A356082",
+    "A356084"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

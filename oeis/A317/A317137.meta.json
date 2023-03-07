@@ -1,0 +1,35 @@
+{
+  "description": "a(n) is the number of nonzero triangular numbers <= n-th prime.",
+  "id": "A317137",
+  "mentions": [
+    "A000040",
+    "A000203",
+    "A000217",
+    "A003056",
+    "A123387",
+    "A196020",
+    "A235791",
+    "A236104",
+    "A237048",
+    "A237270",
+    "A237271",
+    "A237591",
+    "A237593",
+    "A245092",
+    "A262626",
+    "A280850",
+    "A296508"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:48:29",
+    "offset": 1,
+    "size": 79,
+    "source": "joeis"
+  }
+}

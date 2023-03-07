@@ -1,0 +1,26 @@
+{
+  "description": "Irregular triangle read by rows: the group of 2n + 1 integers starting at A014105(n).",
+  "id": "A161983",
+  "mentions": [
+    "A000196",
+    "A000290",
+    "A014105",
+    "A014106",
+    "A027480",
+    "A162917",
+    "A237593",
+    "A317304"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

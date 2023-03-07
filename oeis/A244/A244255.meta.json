@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = the frequency of the most common 2-digit ending of a prime with n digits.",
+  "id": "A244255",
+  "mentions": [
+    "A244190"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 2,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

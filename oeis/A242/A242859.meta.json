@@ -1,0 +1,20 @@
+{
+  "description": "Denominators of convergents to 2*Pi.",
+  "id": "A242859",
+  "mentions": [
+    "A002485",
+    "A002486",
+    "A046947",
+    "A046955"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

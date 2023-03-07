@@ -1,0 +1,22 @@
+{
+  "description": "Exponential series expansion of (cos(x) - sin(x))*cosh(t*x) + sinh(t*x).",
+  "id": "A162169",
+  "mentions": [
+    "A000111",
+    "A007318",
+    "A162170",
+    "A177994"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

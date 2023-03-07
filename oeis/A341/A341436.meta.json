@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k divides Sum_{j=1..k} j^(k+1-j).",
+  "id": "A341436",
+  "mentions": [
+    "A003101",
+    "A128981",
+    "A188775",
+    "A341437"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

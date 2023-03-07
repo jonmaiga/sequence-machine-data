@@ -1,0 +1,20 @@
+{
+  "description": "A triangle of polynomial coefficients: q(x,n)=-((x - 1)^(2*n + 1)/x^n)*Sum[(2*k + 1)^n*Binomial[k, n]*x^k, {k, 0, Infinity}]; p(x,n)=q(x,n)+x^n*q(1/x,n).",
+  "id": "A155915",
+  "mentions": [
+    "A155164"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

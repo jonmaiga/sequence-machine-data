@@ -1,0 +1,25 @@
+{
+  "description": "Orderly numbers: a number n is orderly if there exists some number k > tau(n) such that the set of the divisors of n is congruent to the set {1,2,...,tau(n)} mod k.",
+  "id": "A167408",
+  "mentions": [
+    "A001122",
+    "A002858",
+    "A019334",
+    "A019335",
+    "A167409",
+    "A167410",
+    "A167411",
+    "A168003"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:51",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

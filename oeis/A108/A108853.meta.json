@@ -1,0 +1,18 @@
+{
+  "description": "Indices of prime Knuth numbers; that is, integers n such that the n-th Knuth number is prime. Indices of primes in A007448.",
+  "id": "A108853",
+  "mentions": [
+    "A007448"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

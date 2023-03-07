@@ -1,0 +1,21 @@
+{
+  "description": "Square array T(v, m), read by antidiagonals, for the Rogel-Klee arithmetic function: number of positive integers h in the set [m] for which gcd(h, m) is v-th-power-free, i.e., gcd(h, m) is not divisible by any v-th power of an integer > 1 (with v, m >= 1).",
+  "id": "A309287",
+  "mentions": [
+    "A000010",
+    "A063659",
+    "A254926"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

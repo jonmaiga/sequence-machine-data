@@ -1,0 +1,18 @@
+{
+  "description": "a(0)=0; thereafter a(n) is the number of matches between the first n terms circularly shifted by s and the reverse of the first n terms, maximized over s.",
+  "id": "A276638",
+  "mentions": [
+    "A272727"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

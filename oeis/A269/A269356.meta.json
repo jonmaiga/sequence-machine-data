@@ -1,0 +1,26 @@
+{
+  "description": "Permutation of natural numbers: a(n) = A268674(A269379(n)).",
+  "id": "A269356",
+  "mentions": [
+    "A083221",
+    "A255127",
+    "A255408",
+    "A266646",
+    "A268674",
+    "A269172",
+    "A269355",
+    "A269358",
+    "A269379"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:31",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

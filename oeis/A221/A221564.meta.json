@@ -1,0 +1,19 @@
+{
+  "description": "The number of FO4C3 moves required to restore a packet of n playing cards to its original state (order and orientation), where each move Flips Over the top four (4) as a unit and then Cuts three (3) cards from the top to bottom.",
+  "id": "A221564",
+  "mentions": [
+    "A225232"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 19:29:15",
+    "offset": 4,
+    "size": 60,
+    "source": "joeis"
+  }
+}

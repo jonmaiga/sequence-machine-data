@@ -1,0 +1,18 @@
+{
+  "description": "Sorted list of prime numbers in the union of 7-tuples (a,b,c,d,e,f,g) satisfying a^2 + b^2 + c^2 + d^2 + e^2 + f^2 + g^2 = a*b*c*d*e*f*g.",
+  "id": "A339062",
+  "mentions": [
+    "A178444",
+    "A227208"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

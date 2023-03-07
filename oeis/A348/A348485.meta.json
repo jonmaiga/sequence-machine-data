@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of positive integers in which, for all positive k, there are exactly k contiguous pairs whose product is k, and a(k) * a(k+1) <> a(k+1) * a(k+2).",
+  "id": "A348485",
+  "mentions": [
+    "A307720",
+    "A348486"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:22",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the least integer that can be expressed as the difference of two hexagonal numbers in exactly n ways.",
+  "id": "A334035",
+  "mentions": [
+    "A000384",
+    "A016813",
+    "A038547",
+    "A068314",
+    "A333816",
+    "A334010",
+    "A334034",
+    "A334036",
+    "A334037"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

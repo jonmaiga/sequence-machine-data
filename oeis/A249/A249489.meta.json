@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = [x^n/n!] Sum_{k=0..n} cosh(k*x)^k.",
+  "id": "A249489",
+  "mentions": [
+    "A221077",
+    "A221078",
+    "A224899",
+    "A245322",
+    "A249459"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

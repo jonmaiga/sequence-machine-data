@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{i=1..m} e(i) * 10^(m-i) where e(1) <= ... <= e(m) are the nonzero exponents in the prime factorization of n: a representation of the prime signature of n.",
+  "id": "A139393",
+  "mentions": [
+    "A037916",
+    "A046523",
+    "A101296",
+    "A118914"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:27",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

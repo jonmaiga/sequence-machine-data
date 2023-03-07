@@ -1,0 +1,19 @@
+{
+  "description": "Primitive terms of A336442: terms k of A336442 such that none of the proper divisors of k are in A336442.",
+  "id": "A336443",
+  "mentions": [
+    "A005279",
+    "A302022",
+    "A336442"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

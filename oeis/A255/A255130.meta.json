@@ -1,0 +1,18 @@
+{
+  "description": "Inverse permutation to A255129.",
+  "id": "A255130",
+  "mentions": [
+    "A255128",
+    "A255129"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

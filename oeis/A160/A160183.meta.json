@@ -1,0 +1,22 @@
+{
+  "description": "Triangle, read by rows, obtained by dropping right diagonal from A160182.",
+  "id": "A160183",
+  "mentions": [
+    "A003238",
+    "A054525",
+    "A068336",
+    "A160182"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

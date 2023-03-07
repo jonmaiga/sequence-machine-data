@@ -1,0 +1,25 @@
+{
+  "description": "Number of ordered ways of writing n^3 as a sum of n squares.",
+  "id": "A319223",
+  "mentions": [
+    "A000290",
+    "A000578",
+    "A066535",
+    "A218494",
+    "A232173",
+    "A298671",
+    "A298938",
+    "A298939"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

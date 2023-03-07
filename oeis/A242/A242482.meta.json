@@ -1,0 +1,31 @@
+{
+  "description": "Numbers n such that A242481(n) = ((n*(n+1)/2) mod n + sigma(n) mod n + antisigma(n) mod n) / n = 1.",
+  "id": "A242482",
+  "mentions": [
+    "A000040",
+    "A000203",
+    "A000217",
+    "A005408",
+    "A024816",
+    "A054024",
+    "A142150",
+    "A229110",
+    "A239719",
+    "A242480",
+    "A242481",
+    "A242483",
+    "A242484",
+    "A242485",
+    "A242486"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

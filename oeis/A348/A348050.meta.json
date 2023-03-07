@@ -1,0 +1,30 @@
+{
+  "description": "Palindromes setting a new record of their number of prime divisors A001222.",
+  "id": "A348050",
+  "mentions": [
+    "A001222",
+    "A002113",
+    "A046328",
+    "A046329",
+    "A046330",
+    "A046331",
+    "A046332",
+    "A046333",
+    "A046334",
+    "A046335",
+    "A046336",
+    "A046399",
+    "A335645"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

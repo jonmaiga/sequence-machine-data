@@ -1,0 +1,21 @@
+{
+  "description": "G.f.: Product_{k>=1} (1 + x^(k*(k+1)/2)) / (1 - x^k).",
+  "id": "A280421",
+  "mentions": [
+    "A000041",
+    "A024940",
+    "A280204",
+    "A280423"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:48",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

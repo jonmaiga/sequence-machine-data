@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least number k such that the continued fraction of the abundancy index of k contains n elements that are all distinct, or -1 is no such k exists.",
+  "id": "A349691",
+  "mentions": [
+    "A349503",
+    "A349685",
+    "A349690"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "List of pairs (a,b) where in the n-th pair, a = number of even divisors of n and b = number of odd divisors of n.",
+  "id": "A299485",
+  "mentions": [
+    "A000005",
+    "A001227",
+    "A027750",
+    "A048272",
+    "A183063",
+    "A299480"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

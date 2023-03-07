@@ -1,0 +1,31 @@
+{
+  "description": "Number of maximal subsets of {1..n} containing n whose product is divisible by their sum.",
+  "id": "A326180",
+  "mentions": [
+    "A053632",
+    "A057567",
+    "A057568",
+    "A059529",
+    "A060462",
+    "A063865",
+    "A301987",
+    "A326153",
+    "A326154",
+    "A326156",
+    "A326158",
+    "A326178",
+    "A326179"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

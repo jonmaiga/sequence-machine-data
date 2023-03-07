@@ -1,0 +1,26 @@
+{
+  "description": "Numbers n such that k^n + (k-1)^n + ... + 3^n + 2^n + 1 is prime for some k.",
+  "id": "A164312",
+  "mentions": [
+    "A000215",
+    "A019434",
+    "A070592",
+    "A092506",
+    "A093179",
+    "A100270",
+    "A123599",
+    "A164307"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

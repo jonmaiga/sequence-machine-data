@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1; thereafter a(n) = a(n-1) / lpf(n) if lpf(n) divides a(n-1), otherwise a(n) = a(n-1) * lpf(n), where lpf is the least prime factor function A020639.",
+  "id": "A337643",
+  "mentions": [
+    "A020639",
+    "A326889",
+    "A327442",
+    "A336823"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Composite numbers m such that for any positive integers a < b, if a * b = m then b - a is a perfect square.",
+  "id": "A268585",
+  "mentions": [
+    "A143416"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

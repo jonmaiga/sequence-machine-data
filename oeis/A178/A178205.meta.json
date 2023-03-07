@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = a(n-1) + 10*a(n-3) for n > 2; a(0) = a(1) = a(2) = 1.",
+  "id": "A178205",
+  "mentions": [
+    "A000930"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

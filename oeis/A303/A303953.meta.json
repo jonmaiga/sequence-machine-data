@@ -1,0 +1,25 @@
+{
+  "description": "A fractal-like sequence: erasing all pairs of contiguous terms that sum up to a square leaves the sequence unchanged.",
+  "id": "A303953",
+  "mentions": [
+    "A000290",
+    "A274329",
+    "A302389",
+    "A303845",
+    "A303936",
+    "A303948",
+    "A303950",
+    "A303951"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

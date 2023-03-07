@@ -1,0 +1,22 @@
+{
+  "description": "Number of non-equivalent (mod D_3) ways to arrange 4 indistinguishable points on a triangular grid of side n so that no three points are collinear.",
+  "id": "A234352",
+  "mentions": [
+    "A194132",
+    "A234350",
+    "A234351",
+    "A234353",
+    "A234354"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 3,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

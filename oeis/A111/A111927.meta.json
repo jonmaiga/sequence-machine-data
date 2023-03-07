@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of x^3 / ((x-1)*(2*x-1)*(x^2-x+1)).",
+  "id": "A111927",
+  "mentions": [
+    "A000225",
+    "A000295",
+    "A024495",
+    "A087204",
+    "A111926",
+    "A131708"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

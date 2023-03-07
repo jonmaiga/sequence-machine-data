@@ -1,0 +1,21 @@
+{
+  "description": "a(n)=x is the smallest solution to abs(sigma(x+1)-sigma(x))=n, or 0 if no solution exists.",
+  "id": "A112647",
+  "mentions": [
+    "A000203",
+    "A007369",
+    "A112645",
+    "A112646"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

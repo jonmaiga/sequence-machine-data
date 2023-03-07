@@ -1,0 +1,20 @@
+{
+  "description": "Numbers of the form n^2 plus the sum of squared digits of n^2.",
+  "id": "A225065",
+  "mentions": [
+    "A062028",
+    "A176995",
+    "A209303"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "The length of the initial ascent 123... in the n-th Catalan numeral, A239903(n).",
+  "id": "A236859",
+  "mentions": [
+    "A001453",
+    "A081291",
+    "A126307",
+    "A236855",
+    "A239903"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "The Diophantine equation x^2 - x*y - G*y^2 = -1, G a positive integer, D = 4*G + 1 not a perfect square, has no solution precisely for G = a(n).",
+  "id": "A217470",
+  "mentions": [
+    "A002378",
+    "A077057",
+    "A077058",
+    "A077427",
+    "A078358"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

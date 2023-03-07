@@ -1,0 +1,22 @@
+{
+  "description": "Numerators in the asymptotic expansion of the Barnes G-function.",
+  "id": "A260447",
+  "mentions": [
+    "A000178",
+    "A001163",
+    "A001164",
+    "A260448"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

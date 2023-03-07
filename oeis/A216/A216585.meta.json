@@ -1,0 +1,21 @@
+{
+  "description": "G.f.: exp( Sum_{n>=1} A000984(n)*A002426(n)*x^n/n ), where A000984 is the central binomial coefficients and A002426 is the central trinomial coefficients.",
+  "id": "A216585",
+  "mentions": [
+    "A000984",
+    "A002426",
+    "A216584",
+    "A216586"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

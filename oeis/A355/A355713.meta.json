@@ -1,0 +1,28 @@
+{
+  "description": "Numbers k such that k and k+1 have the same sum of 5-smooth divisors.",
+  "id": "A355713",
+  "mentions": [
+    "A000203",
+    "A002961",
+    "A013929",
+    "A018255",
+    "A064115",
+    "A064125",
+    "A068781",
+    "A293183",
+    "A306985",
+    "A333949",
+    "A355582",
+    "A355584"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

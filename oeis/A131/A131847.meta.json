@@ -1,0 +1,17 @@
+{
+  "description": "Positive integers n which each have at least one \"isolated isolated divisor\". An isolated isolated divisor is an isolated divisor that is not adjacent to any other isolated divisors in the list of all positive divisors of n. A divisor, k, of n is isolated if neither (k-1) nor (k+1) divides n.",
+  "id": "A131847",
+  "mentions": [
+    "A133779"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

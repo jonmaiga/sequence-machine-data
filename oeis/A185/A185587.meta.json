@@ -1,0 +1,18 @@
+{
+  "description": "Irregular triangle read by rows: row n gives a list of the lengths of the free spaces at the n-th stage in a Rule 18 cellular automaton.",
+  "id": "A185587",
+  "mentions": [
+    "A070886"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 128,
+    "source": "oeis-bfile"
+  }
+}

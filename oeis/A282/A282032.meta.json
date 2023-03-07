@@ -1,0 +1,22 @@
+{
+  "description": "Additive number system based on U.S. coins.",
+  "id": "A282032",
+  "mentions": [
+    "A032174",
+    "A282033",
+    "A282034"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:16:09",
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

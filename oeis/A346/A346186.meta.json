@@ -1,0 +1,21 @@
+{
+  "description": "a(0) = 1; a(n) = Sum_{k=0..n-1} binomial(n-1,k)^3 * a(k) * a(n-k-1).",
+  "id": "A346186",
+  "mentions": [
+    "A000142",
+    "A132228",
+    "A181543",
+    "A346185",
+    "A346187"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

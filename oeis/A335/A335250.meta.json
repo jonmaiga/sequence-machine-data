@@ -1,0 +1,19 @@
+{
+  "description": "Numbers m such that twice the number of unordered Goldbach partitions of 2m equals the number of unordered Goldbach partitions of 4m.",
+  "id": "A335250",
+  "mentions": [
+    "A002375",
+    "A335226"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

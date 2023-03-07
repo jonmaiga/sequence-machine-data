@@ -1,0 +1,23 @@
+{
+  "description": "The first representative in A014486 for each equivalence class of non-oriented binary tree corresponding to the oriented (plane) binary tree encoded by A014486(n).",
+  "id": "A153835",
+  "mentions": [
+    "A001190",
+    "A014137",
+    "A014138",
+    "A014486",
+    "A069770",
+    "A127302",
+    "A154103"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

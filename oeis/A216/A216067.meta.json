@@ -1,0 +1,20 @@
+{
+  "description": "Prime numbers p such that p is odd and is congruent to 2 (mod 5) or 3 (mod 5), but the period of the irreducible polynomial x^2-x-1 in GF(p^2) is not 2*(p+1).",
+  "id": "A216067",
+  "mentions": [
+    "A001175",
+    "A060305",
+    "A071774",
+    "A071776"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

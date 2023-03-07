@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the minimum number of Z x Z lattice points inside or on a circle of radius n^(1/2) for any position of the center of the circle.",
+  "id": "A356435",
+  "mentions": [
+    "A057655",
+    "A123689",
+    "A291259"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

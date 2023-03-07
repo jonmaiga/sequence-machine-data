@@ -1,0 +1,34 @@
+{
+  "description": "Number T(n,k) of k-element subsets of [n] whose sum is a triangular number; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A284249",
+  "mentions": [
+    "A000012",
+    "A000217",
+    "A003056",
+    "A008619",
+    "A008747",
+    "A281871",
+    "A284250",
+    "A284251",
+    "A320848",
+    "A320849",
+    "A320850",
+    "A320851",
+    "A320852",
+    "A320853",
+    "A320854",
+    "A320855",
+    "A320856"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

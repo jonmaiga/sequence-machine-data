@@ -1,0 +1,22 @@
+{
+  "description": "Analog clock times where the minute hand is on the hour hand (in hhmm format).",
+  "id": "A242063",
+  "mentions": [
+    "A178181",
+    "A183032",
+    "A183033"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

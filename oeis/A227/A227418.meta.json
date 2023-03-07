@@ -1,0 +1,40 @@
+{
+  "description": "Array A(n,k) with all numbers m such that 3*m^2 +- 3^k is a square and their corresponding square roots, read downward by diagonals.",
+  "id": "A227418",
+  "mentions": [
+    "A000244",
+    "A001075",
+    "A001353",
+    "A001834",
+    "A001835",
+    "A001921",
+    "A001922",
+    "A002605",
+    "A005320",
+    "A007655",
+    "A011916",
+    "A011922",
+    "A038754",
+    "A082841",
+    "A084156",
+    "A090018",
+    "A099842",
+    "A103974",
+    "A122770",
+    "A141041",
+    "A151961",
+    "A228405",
+    "A228879"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of Pythagorean quadruples (a, b, c, d) with d < 10^n.",
+  "id": "A225206",
+  "mentions": [
+    "A006752",
+    "A169580",
+    "A225207"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

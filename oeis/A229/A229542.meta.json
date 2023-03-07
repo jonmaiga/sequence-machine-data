@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that (19^n - 2^n)/17 is prime.",
+  "id": "A229542",
+  "mentions": [
+    "A006035",
+    "A128032",
+    "A225807",
+    "A225955"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

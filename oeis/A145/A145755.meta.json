@@ -1,0 +1,18 @@
+{
+  "description": "Terms in A003325 which are sum of three subsequent terms in A003325.",
+  "id": "A145755",
+  "mentions": [
+    "A003325",
+    "A145732"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

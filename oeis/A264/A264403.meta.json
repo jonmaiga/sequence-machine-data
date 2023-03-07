@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of partitions of n in which the sum of the parts of multiplicity 1 is equal to k (0<=k<=n).",
+  "id": "A264403",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A007690",
+    "A103628"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

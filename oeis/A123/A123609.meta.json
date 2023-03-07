@@ -1,0 +1,23 @@
+{
+  "description": "Quasiperiodic 9-gonal (nonagonal) sequence as a 1-dimensional tiling.",
+  "id": "A123609",
+  "mentions": [
+    "A006357",
+    "A076264",
+    "A091024",
+    "A123508"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "obsc",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Smallest i such that prime(n) divides gcd(sigma(i), phi(i)) (cf. A009223).",
+  "id": "A222714",
+  "mentions": [
+    "A009223",
+    "A222713"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

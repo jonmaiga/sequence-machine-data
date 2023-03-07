@@ -1,0 +1,32 @@
+{
+  "description": "Triangle T(n,m) = numerator of 1/n^2 - 1/m^2, read by rows, with T(n,0) = -1.",
+  "id": "A172157",
+  "mentions": [
+    "A005563",
+    "A061037",
+    "A061039",
+    "A061041",
+    "A061043",
+    "A061045",
+    "A061047",
+    "A061049",
+    "A070262",
+    "A120072",
+    "A165795",
+    "A172370",
+    "A174233"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "frac",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:56",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

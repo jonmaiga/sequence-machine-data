@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the total number of pentagrams in a variant of pentagram fractal after n iterations.",
+  "id": "A256582",
+  "mentions": [
+    "A255870",
+    "A256429",
+    "A256569",
+    "A256571",
+    "A256583",
+    "A256597"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

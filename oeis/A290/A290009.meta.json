@@ -1,0 +1,22 @@
+{
+  "description": "Coefficients in expansion of 691*E_4*E_8*E_12.",
+  "id": "A290009",
+  "mentions": [
+    "A004009",
+    "A008410",
+    "A008411",
+    "A029828",
+    "A290010"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:04",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

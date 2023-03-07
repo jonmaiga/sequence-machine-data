@@ -1,0 +1,25 @@
+{
+  "description": "Total number of parts in all overpartitions of n.",
+  "id": "A235792",
+  "mentions": [
+    "A006128",
+    "A015128",
+    "A211971",
+    "A235790",
+    "A235793",
+    "A235797",
+    "A235798",
+    "A236000",
+    "A236001"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:53",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

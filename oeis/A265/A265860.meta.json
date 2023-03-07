@@ -1,0 +1,17 @@
+{
+  "description": "Number of nX2 arrays containing 2 copies of 0..n-1 with no element plus any vertical neighbor equal to n-1.",
+  "id": "A265860",
+  "mentions": [
+    "A265863"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Let b(n) be the number of permutations {c_1..c_n} of {1..n} for which c_1 - c_2 + ... + (-1)^(n-1)*c_n are triangular numbers (A000217). Then a(n) = b(n)/A010551(n).",
+  "id": "A294811",
+  "mentions": [
+    "A000217",
+    "A010551",
+    "A293857",
+    "A293984"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

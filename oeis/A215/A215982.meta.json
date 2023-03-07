@@ -1,0 +1,20 @@
+{
+  "description": "Number of simple unlabeled graphs on n nodes with exactly 2 connected components that are trees or cycles.",
+  "id": "A215982",
+  "mentions": [
+    "A051491",
+    "A215852",
+    "A215977"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 2,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

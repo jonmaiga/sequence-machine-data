@@ -1,0 +1,18 @@
+{
+  "description": "Sum of the areas of the integer-sided triangles with perimeter n and integer area.",
+  "id": "A308091",
+  "mentions": [
+    "A051516"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

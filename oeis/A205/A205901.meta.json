@@ -1,0 +1,17 @@
+{
+  "description": "Number of primes between two consecutive primes of the form n^2 + 1.",
+  "id": "A205901",
+  "mentions": [
+    "A002496"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

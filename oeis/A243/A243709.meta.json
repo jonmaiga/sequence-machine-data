@@ -1,0 +1,21 @@
+{
+  "description": "Coxeter numbers of the D-type Niemeier root systems.",
+  "id": "A243709",
+  "mentions": [
+    "A091401",
+    "A133848"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

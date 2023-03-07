@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that 2p+1, 4p+3, 6p+5, 8p+7, 10p+9, 12p+11 are all primes.",
+  "id": "A107023",
+  "mentions": [
+    "A005384",
+    "A007700",
+    "A107020",
+    "A107021",
+    "A107022",
+    "A107024"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:58",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

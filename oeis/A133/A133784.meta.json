@@ -1,0 +1,19 @@
+{
+  "description": "Positive integers n such that the sum of all primes <= n divides n(n+1)/2.",
+  "id": "A133784",
+  "mentions": [
+    "A000217",
+    "A007504",
+    "A051349"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

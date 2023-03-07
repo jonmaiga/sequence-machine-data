@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n, k) = A045545(k) if gcd(n,k) = 1, 0 otherwise, read by rows.",
+  "id": "A143656",
+  "mentions": [
+    "A045545",
+    "A054521"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

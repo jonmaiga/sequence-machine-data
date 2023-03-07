@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) (n>=1, 0<=k<=n(n-1)/2) is such that Sum_k T(n,k)*p^k gives the expectation of the number of connected components after deleting every edge of the complete graph on n labeled vertices with probability p.",
+  "id": "A125208",
+  "mentions": [
+    "A125205",
+    "A125206",
+    "A125209",
+    "A125210"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (n+3)*Sum_{i=0..n} binomial(3*n-2*i+2,n-i)/(2*n-i+3).",
+  "id": "A277957",
+  "mentions": [
+    "A001764",
+    "A242798",
+    "A262394",
+    "A277956"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:44",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

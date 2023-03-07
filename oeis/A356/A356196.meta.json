@@ -1,0 +1,20 @@
+{
+  "description": "Consider pairs of consecutive primes {p,q} such that p, q, q-p and q+p all with distinct digits. Sequence gives lesser primes p.",
+  "id": "A356196",
+  "mentions": [
+    "A029743"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

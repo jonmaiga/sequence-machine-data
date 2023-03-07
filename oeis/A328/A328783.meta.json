@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that k and k^2 contain at least one zero but not the same number of 0's.",
+  "id": "A328783",
+  "mentions": [
+    "A052040",
+    "A104315",
+    "A134844",
+    "A328780",
+    "A328781",
+    "A328782"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

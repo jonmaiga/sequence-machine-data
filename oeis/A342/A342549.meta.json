@@ -1,0 +1,23 @@
+{
+  "description": "Factors k > 0 such that the polynomial 2*k*x^3 + 1 produces a record of its Hardy-Littlewood constant.",
+  "id": "A342549",
+  "mentions": [
+    "A331945",
+    "A331950",
+    "A342547",
+    "A342548",
+    "A342566"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

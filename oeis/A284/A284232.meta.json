@@ -1,0 +1,19 @@
+{
+  "description": "Binary representation of generation n in the reversible cellular automaton RCA(2) when started with a single ON cell at generation 0.",
+  "id": "A284232",
+  "mentions": [
+    "A283324",
+    "A284234"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

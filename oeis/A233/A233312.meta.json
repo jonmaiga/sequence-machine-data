@@ -1,0 +1,23 @@
+{
+  "description": "Terms of A114994 which are c-equivalent to \"c-squares\" (A020330).",
+  "id": "A233312",
+  "mentions": [
+    "A020330",
+    "A114994",
+    "A171791",
+    "A233249",
+    "A267508",
+    "A268032"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

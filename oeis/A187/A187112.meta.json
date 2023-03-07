@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = cube root of the largest proper divisor of A187104(n).",
+  "id": "A187112",
+  "mentions": [
+    "A032742",
+    "A048766",
+    "A187104"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:11",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

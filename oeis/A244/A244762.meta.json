@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (5*3^n-2*n-1)/4.",
+  "id": "A244762",
+  "mentions": [
+    "A000340",
+    "A047926",
+    "A060816",
+    "A108765",
+    "A164039"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:13:08",
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

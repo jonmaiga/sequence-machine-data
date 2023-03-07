@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Pi^4/105.",
+  "id": "A347329",
+  "mentions": [
+    "A008836",
+    "A182448",
+    "A347328",
+    "A347330",
+    "A347331"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 17:18:43",
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

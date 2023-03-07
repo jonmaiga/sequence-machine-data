@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 2 * floor( (2*n + 1) / 3) + 1.",
+  "id": "A222657",
+  "mentions": [
+    "A168053",
+    "A168056"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:13:49",
+    "offset": 0,
+    "size": 67,
+    "source": "joeis"
+  }
+}

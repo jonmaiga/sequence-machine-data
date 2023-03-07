@@ -1,0 +1,22 @@
+{
+  "description": "Number of (2,0)-separable partitions of n; see Comments.",
+  "id": "A239482",
+  "mentions": [
+    "A165652",
+    "A239467",
+    "A239483",
+    "A239484",
+    "A239485"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 3,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

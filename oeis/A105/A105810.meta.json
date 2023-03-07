@@ -1,0 +1,25 @@
+{
+  "description": "Inverse of a Fibonacci-Pascal matrix A105809.",
+  "id": "A105810",
+  "mentions": [
+    "A006232",
+    "A105809",
+    "A105811",
+    "A105812",
+    "A132916",
+    "A248155"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:34:35",
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

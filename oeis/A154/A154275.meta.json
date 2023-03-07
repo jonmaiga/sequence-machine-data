@@ -1,0 +1,22 @@
+{
+  "description": "Primes p=prime(k) such that abs(sum of digits of p - sum of digits of k) is prime.",
+  "id": "A154275",
+  "mentions": [
+    "A000040",
+    "A007605",
+    "A007953",
+    "A090431"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:36",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

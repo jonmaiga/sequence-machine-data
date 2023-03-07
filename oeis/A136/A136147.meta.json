@@ -1,0 +1,18 @@
+{
+  "description": "Length of the cycles in which finish the sequences a(k+1)=sopfr(n a(k)+ D), with sopfr=A001414 and D=2. Similar to A136140 which has D=1.",
+  "id": "A136147",
+  "mentions": [
+    "A001414",
+    "A136140"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Composite numbers of the form 4 + some prime.",
+  "id": "A164383",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A046132",
+    "A107986"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

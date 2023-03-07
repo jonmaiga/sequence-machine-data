@@ -1,0 +1,21 @@
+{
+  "description": "Number of terms of the cycle index polynomial Z(D_n) for the dihedral group D_n.",
+  "id": "A212356",
+  "mentions": [
+    "A000005",
+    "A161886",
+    "A212355"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n for which r(n) = 3 * S(n)/2, where r(n) = number of digits of n and S(n) = sum of digits of n; n in binary notation.",
+  "id": "A137254",
+  "mentions": [
+    "A000120",
+    "A070939",
+    "A225222"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

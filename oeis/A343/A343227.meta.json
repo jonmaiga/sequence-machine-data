@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = sigma(n) / gcd(sigma(n), n+A003415(n)), where A003415 is the arithmetic derivative, and sigma is the sum of divisors of n.",
+  "id": "A343227",
+  "mentions": [
+    "A000203",
+    "A003415",
+    "A129283",
+    "A343226"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

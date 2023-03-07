@@ -1,0 +1,18 @@
+{
+  "description": "Values A063741(A100827).",
+  "id": "A101373",
+  "mentions": [
+    "A063741",
+    "A100827"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

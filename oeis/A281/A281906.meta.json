@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of Sum_{p prime, i>=1} p^i*x^(p^i)/(1 - x^(p^i)) / Product_{j>=1} (1 - x^j).",
+  "id": "A281906",
+  "mentions": [
+    "A000041",
+    "A023889",
+    "A066186",
+    "A073118",
+    "A246655"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

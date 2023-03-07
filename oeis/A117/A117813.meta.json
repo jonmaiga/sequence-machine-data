@@ -1,0 +1,18 @@
+{
+  "description": "Consider 1-D random walk with jumps up to the third neighbor, i.e., set of possible jumps is {-3,-2,-1,+1,+2,+3}. Sequence gives number of paths of length n ending at origin.",
+  "id": "A117813",
+  "mentions": [
+    "A092765"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

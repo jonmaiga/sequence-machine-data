@@ -1,0 +1,18 @@
+{
+  "description": "Numbers m such that there exists at least one integer k < m where m^2 + 2 and k^2 + 2 have the same prime factors.",
+  "id": "A348889",
+  "mentions": [
+    "A227897",
+    "A282092"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

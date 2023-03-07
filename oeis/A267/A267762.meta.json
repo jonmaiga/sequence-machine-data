@@ -1,0 +1,21 @@
+{
+  "description": "Indices of records in A267760 (last digit of a(n) + first digit of a(n+1) occurs as substring in a(n+1)).",
+  "id": "A267762",
+  "mentions": [
+    "A267760",
+    "A267761",
+    "A267771",
+    "A267772"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

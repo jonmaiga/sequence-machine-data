@@ -1,0 +1,17 @@
+{
+  "description": "Inverse to A296423.",
+  "id": "A296424",
+  "mentions": [
+    "A296423"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:16",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

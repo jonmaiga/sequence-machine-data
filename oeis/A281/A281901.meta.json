@@ -1,0 +1,28 @@
+{
+  "description": "Number of scenarios in the Gift Exchange Game with n players and n wrapped gifts when a gift can be stolen at most n times.",
+  "id": "A281901",
+  "mentions": [
+    "A001515",
+    "A144416",
+    "A144508",
+    "A144509",
+    "A144510",
+    "A144512",
+    "A149187",
+    "A281358",
+    "A281359",
+    "A281360",
+    "A281361"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

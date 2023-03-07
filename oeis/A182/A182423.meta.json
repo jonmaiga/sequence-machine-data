@@ -1,0 +1,21 @@
+{
+  "description": "Number of primes in interval (A194598(n), A164368(n)).",
+  "id": "A182423",
+  "mentions": [
+    "A164368",
+    "A166251",
+    "A182405",
+    "A182426",
+    "A194598"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

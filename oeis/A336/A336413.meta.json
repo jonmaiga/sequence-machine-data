@@ -1,0 +1,30 @@
+{
+  "description": "Squares visited by a chess rook moving on a square-spiral numbered board where the rook moves to the closest unvisited square containing a prime number. In case of a tie it chooses the square with the smallest prime number.",
+  "id": "A336413",
+  "mentions": [
+    "A000040",
+    "A063826",
+    "A115258",
+    "A136626",
+    "A214664",
+    "A214665",
+    "A330979",
+    "A331027",
+    "A336402",
+    "A336446",
+    "A336447"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

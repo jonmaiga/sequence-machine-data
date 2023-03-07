@@ -1,0 +1,19 @@
+{
+  "description": "Product of Fibonacci and Padovan numbers: a(n) = A000045(n+1)*A000931(n+5).",
+  "id": "A200220",
+  "mentions": [
+    "A000045",
+    "A000931"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:20:09",
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

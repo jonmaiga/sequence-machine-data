@@ -1,0 +1,26 @@
+{
+  "description": "Primes of the form 34k+1 generated recursively. Initial prime is 103. General term is a(n) = Min {p is prime; p divides (R^17 - 1)/(R - 1); p == 1 (mod 17)}, where Q is the product of previous terms in the sequence and R = 17*Q.",
+  "id": "A125038",
+  "mentions": [
+    "A000945",
+    "A051308",
+    "A051335",
+    "A057204",
+    "A057208",
+    "A124984",
+    "A125037",
+    "A125045"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "changed",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

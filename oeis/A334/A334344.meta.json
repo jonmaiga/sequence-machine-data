@@ -1,0 +1,20 @@
+{
+  "description": "Binary Moran numbers: numbers k such that k divided by its binary weight (A000120) is a prime number.",
+  "id": "A334344",
+  "mentions": [
+    "A000120",
+    "A001101",
+    "A049445"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

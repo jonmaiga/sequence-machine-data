@@ -1,0 +1,25 @@
+{
+  "description": "The tree of Farey fractions (or the Stern-Brocot tree), read across rows (the fraction i/j is represented as the pair i,j).",
+  "id": "A294446",
+  "mentions": [
+    "A007305",
+    "A007306",
+    "A049455",
+    "A049456",
+    "A086596",
+    "A293160",
+    "A293165",
+    "A294442"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = the single integer k, where p(n) <= k <= p(n+1), that is divisible by (p(n+1)-p(n)+1), where p(n) is the n-th prime.",
+  "id": "A140785",
+  "mentions": [
+    "A076368",
+    "A113709"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:29",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

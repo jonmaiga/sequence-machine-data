@@ -1,0 +1,28 @@
+{
+  "description": "Square roots of discriminants of cyclic cubic fields.",
+  "id": "A343001",
+  "mentions": [
+    "A002476",
+    "A006832",
+    "A160498",
+    "A343000",
+    "A343002",
+    "A343003",
+    "A343022",
+    "A343023",
+    "A343024",
+    "A343025"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

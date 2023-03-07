@@ -1,0 +1,18 @@
+{
+  "description": "Primes which cannot be written as x^2+5*y^2, where x > 0, y > 0.",
+  "id": "A216286",
+  "mentions": [
+    "A033205",
+    "A216277"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

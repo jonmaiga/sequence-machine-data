@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = b(n+2)*b(n+1)/b(n), where b() = A160256().",
+  "id": "A160257",
+  "mentions": [
+    "A075076",
+    "A160256"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows, A104762 * (A000129 * 0^(n-k)).",
+  "id": "A155002",
+  "mentions": [
+    "A000045",
+    "A000129",
+    "A003633",
+    "A104762",
+    "A215928"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "eigen",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Transmutable primes: Primes with distinct digits d_i, i=1,m (2<=m<=4) such that simultaneously exchanging all occurrences of any one pair (d_i,d_j), i<>j results in a prime.",
+  "id": "A108388",
+  "mentions": [
+    "A002385",
+    "A003459",
+    "A004022",
+    "A006567",
+    "A068652",
+    "A083983",
+    "A108382",
+    "A108383",
+    "A108384",
+    "A108385",
+    "A108386",
+    "A108387",
+    "A108389"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

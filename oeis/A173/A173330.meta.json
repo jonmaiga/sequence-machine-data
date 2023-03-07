@@ -1,0 +1,24 @@
+{
+  "description": "First of two intermediate sequences for integral solution of A002144(n)=x^2+y^2.",
+  "id": "A173330",
+  "mentions": [
+    "A000142",
+    "A001700",
+    "A002144",
+    "A002972",
+    "A005098",
+    "A010050",
+    "A173331"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

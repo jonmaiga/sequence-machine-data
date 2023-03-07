@@ -1,0 +1,19 @@
+{
+  "description": "The difference between the largest part and the smallest part summed over all those partitions of n in which every integer from the smallest part to the largest part occurs.",
+  "id": "A117471",
+  "mentions": [
+    "A034296",
+    "A117470"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

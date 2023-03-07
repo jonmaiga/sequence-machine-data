@@ -1,0 +1,19 @@
+{
+  "description": "Semiprimes whose both factors are Fermat primes.",
+  "id": "A333788",
+  "mentions": [
+    "A006995",
+    "A019434",
+    "A334102"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

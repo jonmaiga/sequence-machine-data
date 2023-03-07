@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of aperiodic binary sequences of length n with curling number <= k (1 <= k <= n).",
+  "id": "A218870",
+  "mentions": [
+    "A027375",
+    "A122536",
+    "A216955",
+    "A218869"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

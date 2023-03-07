@@ -1,0 +1,21 @@
+{
+  "description": "Combined weight, as defined at A244094, of the distinct-parts partitions of n.",
+  "id": "A234924",
+  "mentions": [
+    "A234097",
+    "A234923",
+    "A244093",
+    "A244094"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

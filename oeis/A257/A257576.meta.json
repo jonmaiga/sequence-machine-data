@@ -1,0 +1,19 @@
+{
+  "description": "Continued square root map applied to powers of 2, 1,2,4,8,16,...",
+  "id": "A257576",
+  "mentions": [
+    "A000079",
+    "A257574"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "E.g.f.: Sum_{n>=0} Product_{k=1..n} cosh(k*x).",
+  "id": "A249698",
+  "mentions": [
+    "A177385",
+    "A177387",
+    "A224899",
+    "A249489",
+    "A249737"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

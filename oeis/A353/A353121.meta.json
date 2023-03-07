@@ -1,0 +1,18 @@
+{
+  "description": "Jackpot integers: number of steps needed by n to win a \"jackpot\" (see the explanation below in the Comments and Example sections) or -1 if this will never occur.",
+  "id": "A353121",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 10,
+    "size": 107,
+    "source": "oeis-entry"
+  }
+}

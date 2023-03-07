@@ -1,0 +1,32 @@
+{
+  "description": "Constant term in the reduction by (x^2 -> x + 1) of the polynomial p(n,x) defined below at Comments.",
+  "id": "A192904",
+  "mentions": [
+    "A000045",
+    "A001519",
+    "A001906",
+    "A069403",
+    "A103609",
+    "A192232",
+    "A192744",
+    "A192872",
+    "A192905",
+    "A192907",
+    "A192908",
+    "A192909",
+    "A192910",
+    "A193609"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

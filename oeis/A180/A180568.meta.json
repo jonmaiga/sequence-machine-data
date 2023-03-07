@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of unordered pairs of nodes at distance k in the grid P_3 x P_n (1<=k<=n), where P_j denotes the path graph on j nodes.",
+  "id": "A180568",
+  "mentions": [
+    "A062741",
+    "A180569"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

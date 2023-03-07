@@ -1,0 +1,26 @@
+{
+  "description": "Primes whose binary expansion contains more 1's than 0's but at least one 0.",
+  "id": "A340466",
+  "mentions": [
+    "A000040",
+    "A000225",
+    "A000668",
+    "A066196",
+    "A095070",
+    "A095071",
+    "A138837"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:29",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of knapsack partitions of n with largest part 5.",
+  "id": "A343321",
+  "mentions": [
+    "A108917",
+    "A275972",
+    "A326017",
+    "A326034",
+    "A344310"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

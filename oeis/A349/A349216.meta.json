@@ -1,0 +1,22 @@
+{
+  "description": "Number of ternary triples (u,v,w) with 1 <= u < v < w <= n.",
+  "id": "A349216",
+  "mentions": [
+    "A005704",
+    "A007089",
+    "A007997",
+    "A038500",
+    "A061866"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

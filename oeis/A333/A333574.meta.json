@@ -1,0 +1,22 @@
+{
+  "description": "Number of Hamiltonian paths in the n X 2 grid graph which start at any of the n vertices on left side of the graph and terminate at any of the n vertices on the right side.",
+  "id": "A333574",
+  "mentions": [
+    "A103128",
+    "A333510",
+    "A333571",
+    "A339399"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:12:01",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "For n > 0, a(n) is the number of 1's among the first T(n) terms of the sequence 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, ..., k 1's, k 0's, where T(n) is the n-th triangular number.",
+  "id": "A338546",
+  "mentions": [
+    "A000217",
+    "A118175"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

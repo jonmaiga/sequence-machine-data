@@ -1,0 +1,22 @@
+{
+  "description": "Three-dimensional array of numbers N(r,p,m) read by triangular slices, each slice being read across rows: N(r,p,m) is the number of \"r-panes in a (p,m) structure\".",
+  "id": "A249042",
+  "mentions": [
+    "A008278",
+    "A019538",
+    "A181854"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "description": "Least common multiple of the n-th composition in standard order.",
+  "id": "A333226",
+  "mentions": [
+    "A000120",
+    "A029931",
+    "A048793",
+    "A066099",
+    "A070939",
+    "A074971",
+    "A076078",
+    "A124758",
+    "A233564",
+    "A271410",
+    "A285572",
+    "A289508",
+    "A289509",
+    "A290103",
+    "A324837",
+    "A326674",
+    "A333225",
+    "A333227",
+    "A333492"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

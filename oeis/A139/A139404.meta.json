@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that 24*k + 5 and 24*k + 7 are twin primes.",
+  "id": "A139404",
+  "mentions": [
+    "A125821",
+    "A125822",
+    "A139402"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:27",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

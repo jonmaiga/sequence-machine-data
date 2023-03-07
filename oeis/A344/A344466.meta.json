@@ -1,0 +1,19 @@
+{
+  "description": "Primes that occur as p + (digit product of p) for p in A092518.",
+  "id": "A344466",
+  "mentions": [
+    "A053666",
+    "A092518"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

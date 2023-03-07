@@ -1,0 +1,18 @@
+{
+  "description": "Number of sets of nonempty words with a total of n letters over quaternary alphabet such that all letters occur at least once in the set.",
+  "id": "A320205",
+  "mentions": [
+    "A319501",
+    "A320214"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 4,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

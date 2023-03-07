@@ -1,0 +1,21 @@
+{
+  "description": "Coefficients in expansion of E_4*Delta^3 where Delta is the generating function of Ramanujan's tau function (A000594).",
+  "id": "A290152",
+  "mentions": [
+    "A000594",
+    "A004009",
+    "A290048",
+    "A290178"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 3,
+    "size": 19,
+    "source": "joeis"
+  }
+}

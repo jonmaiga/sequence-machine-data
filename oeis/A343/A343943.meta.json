@@ -1,0 +1,44 @@
+{
+  "description": "Number of distinct possible alternating sums of permutations of the multiset of prime factors of n.",
+  "id": "A343943",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A001414",
+    "A008549",
+    "A027746",
+    "A032443",
+    "A056239",
+    "A071321",
+    "A071322",
+    "A083399",
+    "A096825",
+    "A097805",
+    "A103919",
+    "A108917",
+    "A112798",
+    "A114921",
+    "A276024",
+    "A299701",
+    "A299702",
+    "A305611",
+    "A316524",
+    "A334968",
+    "A342343",
+    "A344609",
+    "A344612",
+    "A344616",
+    "A345926",
+    "A345957"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

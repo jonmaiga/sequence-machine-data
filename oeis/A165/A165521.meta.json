@@ -1,0 +1,20 @@
+{
+  "description": "The number of 4321-avoiding separable permutations of length n.",
+  "id": "A165521",
+  "mentions": [
+    "A034943",
+    "A165522",
+    "A165523"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:48",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k such that 6k-1, 12k-1 and 18k-1 are all primes.",
+  "id": "A290810",
+  "mentions": [
+    "A002997",
+    "A006972",
+    "A024898",
+    "A046025",
+    "A067256",
+    "A087788",
+    "A138620",
+    "A138918",
+    "A216925"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

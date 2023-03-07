@@ -1,0 +1,20 @@
+{
+  "description": "G.f.: exp( Sum_{n>=1} A322207(n)*x^n/n ), where A322207(n) is the coefficient of x^(3*n)*y^n/n in Sum_{n>=1} -log(1 - (x^n + y^n)).",
+  "id": "A322208",
+  "mentions": [
+    "A322200",
+    "A322203",
+    "A322205",
+    "A322207"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

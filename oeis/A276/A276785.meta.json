@@ -1,0 +1,20 @@
+{
+  "description": "Number of binary strings of length n containing the substring 11011.",
+  "id": "A276785",
+  "mentions": [
+    "A210021",
+    "A277678"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:00:32",
+    "offset": 0,
+    "size": 38,
+    "source": "joeis"
+  }
+}

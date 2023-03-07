@@ -1,0 +1,21 @@
+{
+  "description": "Consider all Pythagorean triples (X,X+1,Z) ordered by increasing Z; sequence gives Z-X values.",
+  "id": "A115599",
+  "mentions": [
+    "A001652",
+    "A001653",
+    "A055997"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:18:34",
+    "offset": 1,
+    "size": 23,
+    "source": "joeis"
+  }
+}

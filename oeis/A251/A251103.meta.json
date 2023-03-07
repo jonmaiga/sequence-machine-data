@@ -1,0 +1,21 @@
+{
+  "description": "Largest prime factor of A098550(n).",
+  "id": "A251103",
+  "mentions": [
+    "A006530",
+    "A098548",
+    "A098550",
+    "A251101",
+    "A251104"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:08",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Integers that are the sum of two consecutive semiprimes, as well as the product of two consecutive semiprimes.",
+  "id": "A288955",
+  "mentions": [
+    "A001358",
+    "A108215",
+    "A118717"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

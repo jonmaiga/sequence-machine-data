@@ -1,0 +1,21 @@
+{
+  "description": "The terms of this sequence are integer values of consecutive denominators (with signs) from the fractional expansion (using only fractions with numerators to be positive 1's) of the BBP polynomial ( 4/(8*k+1) - 2/(8*k+4) - 1/(8*k+5) - 1/(8*k+6) ) for all k (starting from 0 to infinity); for k>=1 the Erdos-Straus conjecture is applied to the first fraction - so it is always replaced by exactly three fractions.",
+  "id": "A154962",
+  "mentions": [
+    "A073101",
+    "A075245",
+    "A075246",
+    "A075247",
+    "A154925"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

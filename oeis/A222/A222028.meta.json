@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of terms in the expansion of (x-y)(x^3-y^3)*(x^6-y^6)*(x^10-y^10)*...*(x^T_i-y^T_i), where T_i is the i-th triangular number.",
+  "id": "A222028",
+  "mentions": [
+    "A000124",
+    "A086781",
+    "A086795",
+    "A086796",
+    "A086817",
+    "A221991",
+    "A225549"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

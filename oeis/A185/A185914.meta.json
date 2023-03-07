@@ -1,0 +1,23 @@
+{
+  "description": "Array: T(n,k)=k-n+1 for k>=n; T(n,k)=0 for k",
+  "id": "A185914",
+  "mentions": [
+    "A144112",
+    "A184915",
+    "A184916",
+    "A185915",
+    "A185916"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:28:45",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

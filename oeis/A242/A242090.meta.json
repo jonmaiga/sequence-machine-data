@@ -1,0 +1,19 @@
+{
+  "description": "Number of triples (a,b,c) with 0 < a < b < c < p and a + b + c == 0 mod p, where 2*b < p = prime(n).",
+  "id": "A242090",
+  "mentions": [
+    "A030006",
+    "A242089"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

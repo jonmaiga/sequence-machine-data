@@ -1,0 +1,21 @@
+{
+  "description": "Denominators of minimum possible graph likelihood for a graph on n nodes.",
+  "id": "A234235",
+  "mentions": [
+    "A234234",
+    "A234236",
+    "A234237"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "frac",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

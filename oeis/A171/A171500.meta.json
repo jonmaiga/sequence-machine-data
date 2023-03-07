@@ -1,0 +1,22 @@
+{
+  "description": "\"Kaprekar quintuples\": digits of X^5 taken D at a time sum to X (where D is number of digits in X.)",
+  "id": "A171500",
+  "mentions": [
+    "A006886",
+    "A006887",
+    "A045913",
+    "A053816",
+    "A171493"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:55",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

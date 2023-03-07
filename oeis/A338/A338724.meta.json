@@ -1,0 +1,18 @@
+{
+  "description": "Number of matchings avoiding a certain pattern (see Cervetti-Ferrari, Cor. 3.1(i)).",
+  "id": "A338724",
+  "mentions": [
+    "A338725"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

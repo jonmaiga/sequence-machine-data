@@ -1,0 +1,24 @@
+{
+  "description": "The number of edges on a vesica piscis formed by the straight line segments mutually connecting all vertices and all points that divide the sides into n equal parts.",
+  "id": "A342152",
+  "mentions": [
+    "A135565",
+    "A332376",
+    "A340613",
+    "A340687",
+    "A341877",
+    "A341878",
+    "A342153"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

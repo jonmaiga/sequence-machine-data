@@ -1,0 +1,17 @@
+{
+  "description": "a(6n+k) = 3a(6n+k-1)-3a(6n+k-2)+2a(6n+k-3), k = 0, 1, 3, 4, 5; a(6n+2) = 3a(6n+1)-3a(6n). a(0) = a(1) = 0, a(2) = 1.",
+  "id": "A132658",
+  "mentions": [
+    "A024495"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

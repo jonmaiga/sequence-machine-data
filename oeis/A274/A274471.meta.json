@@ -1,0 +1,19 @@
+{
+  "description": "Numbers missing from A134419 despite satisfying the necessary congruence conditions (see comments).",
+  "id": "A274471",
+  "mentions": [
+    "A134419",
+    "A274469",
+    "A274470"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

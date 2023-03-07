@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that 156/101*(10^(4n)-1)-1 is prime.",
+  "id": "A178322",
+  "mentions": [
+    "A072394",
+    "A178321"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

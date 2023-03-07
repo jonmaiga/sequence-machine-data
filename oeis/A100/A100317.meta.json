@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that exactly one of k - 1 and k + 1 is prime.",
+  "id": "A100317",
+  "mentions": [
+    "A001477",
+    "A014574",
+    "A099049",
+    "A100318",
+    "A169546",
+    "A171689"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

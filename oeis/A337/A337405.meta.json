@@ -1,0 +1,19 @@
+{
+  "description": "A fractal spiral on a 2D square lattice, one digit per cell, starting at the origin with 0. The odd digits reproduce the spiral itself at another scale (design of the digits is shown below).",
+  "id": "A337405",
+  "mentions": [
+    "A126803",
+    "A337115"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

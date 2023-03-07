@@ -1,0 +1,20 @@
+{
+  "description": "Computing a(n) modulo (digit sum of a(n)) for the successive terms of the sequence results in a sequence that has the same succession of digits as this one.",
+  "id": "A341162",
+  "mentions": [
+    "A007953",
+    "A070635",
+    "A229110"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

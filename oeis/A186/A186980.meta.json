@@ -1,0 +1,18 @@
+{
+  "description": "Number of ordered 9-tuples of distinct pairwise coprime positive integers with largest element n.",
+  "id": "A186980",
+  "mentions": [
+    "A186972",
+    "A186985"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:11",
+    "offset": 19,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

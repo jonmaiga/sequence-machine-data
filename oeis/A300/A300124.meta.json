@@ -1,0 +1,29 @@
+{
+  "description": "Number of ways to tile the diagram of an integer partition of n using connected skew partitions.",
+  "id": "A300124",
+  "mentions": [
+    "A000085",
+    "A000898",
+    "A006958",
+    "A138178",
+    "A259479",
+    "A259480",
+    "A296561",
+    "A297388",
+    "A299926",
+    "A300120",
+    "A300122",
+    "A300123"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

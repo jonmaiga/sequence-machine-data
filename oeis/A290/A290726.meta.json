@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = maximal number of semicircles that pass through an intersection point in the configuration A290447(n).",
+  "id": "A290726",
+  "mentions": [
+    "A290447"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

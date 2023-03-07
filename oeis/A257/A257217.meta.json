@@ -1,0 +1,19 @@
+{
+  "description": "A257213 - A003059, where A257213(n) = min{d>0 | floor(n/d) = floor(n/(d+1))}, A003059(n) = ceiling(sqrt(n)).",
+  "id": "A257217",
+  "mentions": [
+    "A003059",
+    "A257213"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

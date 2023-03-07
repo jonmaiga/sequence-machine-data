@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k for which rank of the elliptic curve y^2=x^3+k*x is 3.",
+  "id": "A309030",
+  "mentions": [
+    "A002158",
+    "A002159",
+    "A076329",
+    "A309031",
+    "A309033"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

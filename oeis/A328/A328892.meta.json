@@ -1,0 +1,22 @@
+{
+  "description": "If n = Product (p_j^k_j) then a(n) = Sum (2^(k_j - 1)).",
+  "id": "A328892",
+  "mentions": [
+    "A000040",
+    "A008481",
+    "A011782",
+    "A162510",
+    "A324910"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Irregular triangle read by rows in which the n-th row lists multinomials for partitions of 3n which have only parts which are multiples of 3, in Hindenburg order.",
+  "id": "A327003",
+  "mentions": [
+    "A000012",
+    "A000041",
+    "A080575",
+    "A257490",
+    "A260876",
+    "A291451",
+    "A291973",
+    "A327004"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

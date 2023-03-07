@@ -1,0 +1,27 @@
+{
+  "description": "Number of chiral pairs of colorings of the edges (or triangular faces) of a regular 4-dimensional simplex with n available colors.",
+  "id": "A331352",
+  "mentions": [
+    "A063843",
+    "A327085",
+    "A331350",
+    "A331353",
+    "A331356",
+    "A331360",
+    "A337885",
+    "A338954",
+    "A338966"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:32:13",
+    "offset": 1,
+    "size": 21,
+    "source": "joeis"
+  }
+}

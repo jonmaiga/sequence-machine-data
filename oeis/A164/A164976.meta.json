@@ -1,0 +1,26 @@
+{
+  "description": "Inverse of A164975.",
+  "id": "A164976",
+  "mentions": [
+    "A000045",
+    "A000073",
+    "A000079",
+    "A000244",
+    "A010892",
+    "A164965",
+    "A164975"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "more",
+    "sign",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

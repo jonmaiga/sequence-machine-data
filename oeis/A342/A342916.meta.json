@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (1+n) / gcd(1+n, A001615(n)), where A001615 is Dedekind psi, n * Product_{p|n, p prime} (1 + 1/p).",
+  "id": "A342916",
+  "mentions": [
+    "A000040",
+    "A001615",
+    "A160596",
+    "A342915",
+    "A342917",
+    "A342918"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

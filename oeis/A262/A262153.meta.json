@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Sum_{p prime} 1/(2^p-1), a prime equivalent of the Erdős-Borwein constant.",
+  "id": "A262153",
+  "mentions": [
+    "A001221",
+    "A001348",
+    "A051006",
+    "A065442"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

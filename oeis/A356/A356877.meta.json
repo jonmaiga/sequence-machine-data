@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least number k such that (the binary weight of k) - (the binary weight of k^2) = n.",
+  "id": "A356877",
+  "mentions": [
+    "A000120",
+    "A159918",
+    "A260986",
+    "A357750"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

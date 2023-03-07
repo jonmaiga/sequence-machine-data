@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that the average digit in the concatenation of the numbers from 1 through k is an integer.",
+  "id": "A316492",
+  "mentions": [
+    "A033713",
+    "A034967",
+    "A037123",
+    "A058183",
+    "A114136"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

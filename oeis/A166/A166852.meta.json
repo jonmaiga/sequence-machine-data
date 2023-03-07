@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that n^n + 3 is prime.",
+  "id": "A166852",
+  "mentions": [
+    "A087037",
+    "A100407",
+    "A100408",
+    "A166853"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

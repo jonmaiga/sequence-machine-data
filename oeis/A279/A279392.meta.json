@@ -1,0 +1,23 @@
+{
+  "description": "Bisection of primes congruent to 1 modulo 4 (A002144), depending on the corresponding sum of the A002972 and 2*A002973 entries being congruent to 1 modulo 4 or not. Here we give the first case.",
+  "id": "A279392",
+  "mentions": [
+    "A002144",
+    "A002972",
+    "A002973",
+    "A278720",
+    "A279393"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

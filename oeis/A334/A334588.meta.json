@@ -1,0 +1,18 @@
+{
+  "description": "Distance of closest integer power of 10 to the n-th power of 2.",
+  "id": "A334588",
+  "mentions": [
+    "A000079",
+    "A011557"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

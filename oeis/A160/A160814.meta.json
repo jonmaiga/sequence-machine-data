@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1; a(n+1) = a(n)^n + n^a(n).",
+  "id": "A160814",
+  "mentions": [
+    "A055652",
+    "A076980",
+    "A093898"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

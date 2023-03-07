@@ -1,0 +1,20 @@
+{
+  "description": "Triangle of coefficients of the inverse of A058071.",
+  "id": "A141679",
+  "mentions": [
+    "A058071",
+    "A136705"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:30",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

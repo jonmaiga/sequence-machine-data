@@ -1,0 +1,25 @@
+{
+  "description": "Positive integers that are the product of two integers ending with 4.",
+  "id": "A347253",
+  "mentions": [
+    "A017341",
+    "A053742",
+    "A139245",
+    "A324297",
+    "A346950",
+    "A347254",
+    "A347255"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

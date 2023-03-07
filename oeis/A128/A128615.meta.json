@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of x/(1+x+x^2-x^3-x^4-x^5).",
+  "id": "A128615",
+  "mentions": [
+    "A087508"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:41:57",
+    "offset": 0,
+    "size": 57,
+    "source": "joeis"
+  }
+}

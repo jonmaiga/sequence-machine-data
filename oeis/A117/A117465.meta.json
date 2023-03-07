@@ -1,0 +1,21 @@
+{
+  "description": "Denominator of -16/((n+2)*n*(n-2)*(n-4)).",
+  "id": "A117465",
+  "mentions": [
+    "A052762",
+    "A072346"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:26:43",
+    "offset": 1,
+    "size": 38,
+    "source": "joeis"
+  }
+}

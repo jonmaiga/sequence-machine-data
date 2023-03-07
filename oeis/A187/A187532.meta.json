@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 4^n mod 19.",
+  "id": "A187532",
+  "mentions": [
+    "A036120",
+    "A070342",
+    "A070373",
+    "A070395",
+    "A070421"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:15:07",
+    "offset": 0,
+    "size": 81,
+    "source": "joeis"
+  }
+}

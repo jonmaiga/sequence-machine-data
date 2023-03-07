@@ -1,0 +1,18 @@
+{
+  "description": "Take the sequence bb with two integer \"seeds\", e.g. a(1)=0, a(2)=1 and the relating list cc consisting of all digits of bb, e.g. cc={0,1}. Take n=3, calculate d=abs[cc(n-1)-cc(n-2)] = abs(2-3)=1; then next term of bb, a(n), is the smallest \"new\" (not in bb) number containing digit d, e.g. a(3)=10 => bb={0,1,10} and cc={0,1,1,0}; we proceed: n=4, d = 0, a(4)=20, bb={0,1,10,20}, cc={0,1,1,0,2,0}, n=5, d = 1, a(5)=11, bb={0,1,10,20,11}, cc={0,1,1,0,2,0,1,1}, etc.",
+  "id": "A107859",
+  "mentions": [
+    "A107860"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

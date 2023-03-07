@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that both k and sigma(k)=A000203(k) are powerful, i.e., are terms of A001694.",
+  "id": "A337044",
+  "mentions": [
+    "A000203",
+    "A001694",
+    "A180090",
+    "A337045"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Array read by antidiagonals: consider a semi-infinite chessboard with squares labeled (i,j), i >= 0, j >= 0; T(i,j) = number of king-paths of length max{i,j} from (0,0) to (i,j).",
+  "id": "A114929",
+  "mentions": [
+    "A020474",
+    "A026300",
+    "A111808",
+    "A114972"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

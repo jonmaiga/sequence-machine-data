@@ -1,0 +1,28 @@
+{
+  "description": "Table, t, read by antidiagonals: t(b,e) is the smallest k such that k*b^e is a sum of two successive primes.",
+  "id": "A180138",
+  "mentions": [
+    "A010716",
+    "A179975",
+    "A180130",
+    "A180131",
+    "A180132",
+    "A180133",
+    "A180134",
+    "A180135",
+    "A180136",
+    "A180137"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "\"Stapled\" intervals are defined in A090318. Call a stapled interval \"minimal\" if it does not contain any proper stapled subinterval. Sequence gives starting points of minimal stapled intervals.",
+  "id": "A130171",
+  "mentions": [
+    "A090318",
+    "A130170",
+    "A130173"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

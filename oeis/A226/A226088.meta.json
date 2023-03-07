@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of the distinct quadrilaterals in a regular n-gon, which Q3 type are excluded.",
+  "id": "A226088",
+  "mentions": [
+    "A001399",
+    "A001917",
+    "A004652",
+    "A005232"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 3,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

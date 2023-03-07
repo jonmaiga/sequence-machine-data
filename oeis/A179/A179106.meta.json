@@ -1,0 +1,21 @@
+{
+  "description": "Integers n for which quintic x^5-x+/-n is the product of an irreducible quadratic and an irreducible cubic polynomials.",
+  "id": "A179106",
+  "mentions": [
+    "A178868",
+    "A193524"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "bref",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

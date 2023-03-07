@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of gamma - 2*Ei(-1), one of the Tauberian constants, where Ei is the exponential integral function.",
+  "id": "A249385",
+  "mentions": [
+    "A001620",
+    "A073003",
+    "A099285",
+    "A202501",
+    "A248472"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

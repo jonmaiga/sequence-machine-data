@@ -1,0 +1,27 @@
+{
+  "description": "Array read by ascending antidiagonals: T(n, k) is the number of n-core partitions with k corners.",
+  "id": "A355010",
+  "mentions": [
+    "A000012",
+    "A001263",
+    "A005408",
+    "A005891",
+    "A006007",
+    "A063490",
+    "A160747",
+    "A161680",
+    "A355011"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 2,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

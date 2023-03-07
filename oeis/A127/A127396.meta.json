@@ -1,0 +1,22 @@
+{
+  "description": "Number of 3-almostprimes <= 2^n.",
+  "id": "A127396",
+  "mentions": [
+    "A072114",
+    "A109251",
+    "A125527",
+    "A126279"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

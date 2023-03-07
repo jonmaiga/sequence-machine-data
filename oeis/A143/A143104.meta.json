@@ -1,0 +1,27 @@
+{
+  "description": "Infinite Redheffer matrix read by upwards antidiagonals.",
+  "id": "A143104",
+  "mentions": [
+    "A000217",
+    "A002033",
+    "A002321",
+    "A008683",
+    "A051731",
+    "A077049",
+    "A143142",
+    "A144193",
+    "A144201"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of Sum_{n >= 1} G_n/n^2, where G_n are Gregory's coefficients.",
+  "id": "A270857",
+  "mentions": [
+    "A001620",
+    "A002206",
+    "A002207",
+    "A195189",
+    "A269330",
+    "A270859"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:34",
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

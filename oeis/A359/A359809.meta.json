@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the positive solution to tanh(x) = x/2.",
+  "id": "A359809",
+  "mentions": [
+    "A309211"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

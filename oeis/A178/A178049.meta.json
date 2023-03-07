@@ -1,0 +1,18 @@
+{
+  "description": "The number of iterations of the map x -> x + d(x) to reach a repdigit (cf. A010785), starting at n, where the decimals of d(x) are the first differences of the decimals of x.",
+  "id": "A178049",
+  "mentions": [
+    "A010785"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 10,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

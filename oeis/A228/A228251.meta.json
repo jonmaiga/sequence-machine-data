@@ -1,0 +1,22 @@
+{
+  "description": "Fundamental discriminant of least absolute value with class group of 2-rank n.",
+  "id": "A228251",
+  "mentions": [
+    "A002110",
+    "A003657",
+    "A003658",
+    "A100672"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

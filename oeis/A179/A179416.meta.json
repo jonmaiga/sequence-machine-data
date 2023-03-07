@@ -1,0 +1,19 @@
+{
+  "description": "a(n)=1 if (n modulo 65536)+1 is a quadratic residue of 65537, 0 otherwise.",
+  "id": "A179416",
+  "mentions": [
+    "A165471",
+    "A165472"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

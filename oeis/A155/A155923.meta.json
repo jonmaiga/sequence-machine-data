@@ -1,0 +1,26 @@
+{
+  "description": "Positive numbers y such that y^2 is of the form x^2+(x+17)^2 with integer x.",
+  "id": "A155923",
+  "mentions": [
+    "A066436",
+    "A118120",
+    "A156035",
+    "A156156",
+    "A156157",
+    "A156158",
+    "A156163",
+    "A157649"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:52:45",
+    "offset": 1,
+    "size": 32,
+    "source": "joeis"
+  }
+}

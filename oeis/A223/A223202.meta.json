@@ -1,0 +1,19 @@
+{
+  "description": "T(n,k)=Rolling cube face footprints: number of nXk 0..5 arrays starting with 0 where 0..5 label faces of a cube and every array movement to a horizontal or vertical neighbor moves across a corresponding cube edge",
+  "id": "A223202",
+  "mentions": [
+    "A000302"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:41",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

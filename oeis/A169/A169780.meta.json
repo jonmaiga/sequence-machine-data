@@ -1,0 +1,21 @@
+{
+  "description": "Total number of ON cells after n-th stage in one-sixth slice of hexagonal CA defined in A151723 (including both boundaries).",
+  "id": "A169780",
+  "mentions": [
+    "A151723",
+    "A169779",
+    "A169781",
+    "A170905"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:53",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

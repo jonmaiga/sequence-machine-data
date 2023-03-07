@@ -1,0 +1,19 @@
+{
+  "description": "Define Sophie Germain isolated primes to be primes p such that 2p+1 is also prime and so that p-2 and p+2 are not primes. The sequence contains Sophie Germain isolated primes p such that the previous prime to p and the succeeding prime to p are both also Sophie Germain isolated primes.",
+  "id": "A171162",
+  "mentions": [
+    "A005384",
+    "A007510",
+    "A130286"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:54",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

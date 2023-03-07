@@ -1,0 +1,20 @@
+{
+  "description": "G.f. A(x) satisfies: A(x) = Sum_{n>=0} x^n / (1 - x^(n+1)*A(x)^2).",
+  "id": "A340356",
+  "mentions": [
+    "A340329",
+    "A340338",
+    "A340355"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "a(1) = 0, and for n > 1, a(n) = 2*a(A252463(n)) + [n == 1 (mod 2)]*[J(3|n) == -1], where J is the Jacobi-symbol.",
+  "id": "A292255",
+  "mentions": [
+    "A003987",
+    "A004198",
+    "A005940",
+    "A163511",
+    "A243071",
+    "A252463",
+    "A292253",
+    "A292256",
+    "A292263",
+    "A292383",
+    "A292385",
+    "A292941",
+    "A292943",
+    "A292945"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:07",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

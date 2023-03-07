@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k equals the product of the sum of its first i digits, with i going from 1 to the total number of digits of k.",
+  "id": "A349190",
+  "mentions": [
+    "A055642",
+    "A349194"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

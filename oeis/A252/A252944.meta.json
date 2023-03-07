@@ -1,0 +1,22 @@
+{
+  "description": "Fermat pseudoprimes that are not Carmichael numbers and have only composite XOR couples as defined in A182108.",
+  "id": "A252944",
+  "mentions": [
+    "A001567",
+    "A153508",
+    "A182108",
+    "A182116",
+    "A252943"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

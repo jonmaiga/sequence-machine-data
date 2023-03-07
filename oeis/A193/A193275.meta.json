@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of psi(x^2) * phi(x^17) - x^4 * phi(x) * psi(x^34) in powers of x^4 where phi(), psi() are Ramanujan theta functions.",
+  "id": "A193275",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

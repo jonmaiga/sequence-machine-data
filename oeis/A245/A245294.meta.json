@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the square root of 6/5.",
+  "id": "A245294",
+  "mentions": [
+    "A050970",
+    "A050971",
+    "A176057",
+    "A244091",
+    "A245198"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

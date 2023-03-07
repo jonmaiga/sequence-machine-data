@@ -1,0 +1,21 @@
+{
+  "description": "Smallest sets of 5 consecutive primes with equal digital sum. The initial prime is listed.",
+  "id": "A227931",
+  "mentions": [
+    "A066540",
+    "A071613",
+    "A209396",
+    "A210629"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

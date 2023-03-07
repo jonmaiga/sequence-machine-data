@@ -1,0 +1,22 @@
+{
+  "description": "n times n+3 gives the concatenation of two numbers m and m-1.",
+  "id": "A116280",
+  "mentions": [
+    "A116149",
+    "A116274",
+    "A116279",
+    "A116281",
+    "A116287"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:44",
+    "offset": 1,
+    "size": 22,
+    "source": "joeis"
+  }
+}

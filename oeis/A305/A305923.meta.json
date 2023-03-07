@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of e.g.f. exp(x)/(1 - log(1 + x) - log(1 + x)^2).",
+  "id": "A305923",
+  "mentions": [
+    "A000045",
+    "A000556",
+    "A001622",
+    "A005444",
+    "A005923",
+    "A291981"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:30:45",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

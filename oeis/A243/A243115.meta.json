@@ -1,0 +1,22 @@
+{
+  "description": "Starting values of the reduced Collatz function (A014682) where 2 to the power of the \"dropping time\" is greater than the starting value.",
+  "id": "A243115",
+  "mentions": [
+    "A014682",
+    "A060412",
+    "A076227",
+    "A126241",
+    "A177789",
+    "A239126"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

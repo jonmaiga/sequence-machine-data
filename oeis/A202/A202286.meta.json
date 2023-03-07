@@ -1,0 +1,23 @@
+{
+  "description": "Smallest prime which is equal to a multiple of its reversal +- a prime smaller than itself in exactly n ways.",
+  "id": "A202286",
+  "mentions": [
+    "A004086",
+    "A099180",
+    "A182239",
+    "A209063"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "fini",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

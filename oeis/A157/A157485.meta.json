@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k-+1 are divisible by exactly 5 primes, counted with multiplicity.",
+  "id": "A157485",
+  "mentions": [
+    "A014612",
+    "A124936",
+    "A157483",
+    "A157484"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

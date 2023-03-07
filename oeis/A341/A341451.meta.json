@@ -1,0 +1,27 @@
+{
+  "description": "Number of partitions of n into 4 nonprime parts.",
+  "id": "A341451",
+  "mentions": [
+    "A002095",
+    "A005171",
+    "A018252",
+    "A062610",
+    "A259194",
+    "A341408",
+    "A341452",
+    "A341453",
+    "A341454",
+    "A341455",
+    "A341457"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 4,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

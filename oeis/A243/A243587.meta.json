@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that sum of digits + 7 is prime.",
+  "id": "A243587",
+  "mentions": [
+    "A243586"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

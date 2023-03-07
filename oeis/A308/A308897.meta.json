@@ -1,0 +1,18 @@
+{
+  "description": "Walk a rook along the square spiral numbered 1, 2, 3, ... (cf. A274640); a(n) = mex of earlier values the rook can move to.",
+  "id": "A308897",
+  "mentions": [
+    "A274640",
+    "A308896"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

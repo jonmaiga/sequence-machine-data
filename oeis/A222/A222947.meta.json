@@ -1,0 +1,19 @@
+{
+  "description": "Number of distinct sums i+j+k with |i|, |j|, |k|, |i*j*k| <= n and gcd(i,j,k) <= 1.",
+  "id": "A222947",
+  "mentions": [
+    "A222945",
+    "A226357",
+    "A226359"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

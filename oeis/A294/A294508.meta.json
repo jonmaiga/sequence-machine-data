@@ -1,0 +1,21 @@
+{
+  "description": "Regular triangular array read by rows: T(n,m) = pi(n*m) - pi(n)*pi(m) for n > 0 and 0 < m <= n.",
+  "id": "A294508",
+  "mentions": [
+    "A000720",
+    "A291440",
+    "A294509"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

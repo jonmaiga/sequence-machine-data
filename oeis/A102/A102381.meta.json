@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations of 1..n in which every pair of adjacent numbers as well as the first and the last entries are relatively prime.",
+  "id": "A102381",
+  "mentions": [
+    "A076220",
+    "A086595"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

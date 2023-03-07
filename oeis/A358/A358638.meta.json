@@ -1,0 +1,24 @@
+{
+  "description": "Number of partitions of n into at most 2 distinct nonprime parts.",
+  "id": "A358638",
+  "mentions": [
+    "A005171",
+    "A018252",
+    "A096258",
+    "A302479",
+    "A347788",
+    "A358639",
+    "A358640"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

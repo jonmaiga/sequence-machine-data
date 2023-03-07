@@ -1,0 +1,20 @@
+{
+  "description": "Primes in A122150[n] = Numerator[ Sum[ (-1)^(k+1) * 1/2^Prime[k], {k,1,n} ] ].",
+  "id": "A122152",
+  "mentions": [
+    "A122150",
+    "A122151",
+    "A122153"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

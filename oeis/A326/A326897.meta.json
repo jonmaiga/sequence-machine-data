@@ -1,0 +1,19 @@
+{
+  "description": "Prime numbers p such that 0 < pi(p;10,(9,1)) = pi(p;10,(3,9)) where pi(x;q,(a,b)) is the number of primes p_n <= x such that p_n == a (mod q) and p_(n+1) == b (mod q).",
+  "id": "A326897",
+  "mentions": [
+    "A030431",
+    "A030433",
+    "A326896"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

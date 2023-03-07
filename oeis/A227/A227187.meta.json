@@ -1,0 +1,30 @@
+{
+  "description": "Numbers n whose factorial base representation A007623(n) contains at least one nonleading zero. (Zero is also included as a(0)).",
+  "id": "A227187",
+  "mentions": [
+    "A000142",
+    "A007623",
+    "A132371",
+    "A153880",
+    "A208575",
+    "A227130",
+    "A227132",
+    "A227157",
+    "A232744",
+    "A232745",
+    "A256450",
+    "A257260",
+    "A257510"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

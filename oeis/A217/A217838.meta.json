@@ -1,0 +1,18 @@
+{
+  "description": "Number of n element 0..1 arrays with each element the minimum of 7 adjacent elements of a random 0..1 array of n+6 elements.",
+  "id": "A217838",
+  "mentions": [
+    "A217839"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

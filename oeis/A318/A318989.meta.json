@@ -1,0 +1,23 @@
+{
+  "description": "Limiting value of A318970(k) mod n as k grows.",
+  "id": "A318989",
+  "mentions": [
+    "A227944",
+    "A245970",
+    "A254410",
+    "A254411",
+    "A318970",
+    "A318971"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

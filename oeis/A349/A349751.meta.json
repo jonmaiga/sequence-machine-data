@@ -1,0 +1,23 @@
+{
+  "description": "Odd numbers k such that sigma(k) == -k (mod 3), where sigma is the sum of divisors function.",
+  "id": "A349751",
+  "mentions": [
+    "A000203",
+    "A010872",
+    "A074941",
+    "A155085",
+    "A349749",
+    "A349750",
+    "A349752"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

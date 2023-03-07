@@ -1,0 +1,20 @@
+{
+  "description": "Numbers which are the sides that belong to only one primitive Pythagorean triangle.",
+  "id": "A110133",
+  "mentions": [
+    "A002145",
+    "A024357",
+    "A024363",
+    "A110134"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

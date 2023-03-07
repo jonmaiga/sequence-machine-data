@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that sigma_0(k-1) + sigma_0(k) + sigma_0(k+1) = 10, where sigma_0(k) = A000005(k).",
+  "id": "A317670",
+  "mentions": [
+    "A000005"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:37",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

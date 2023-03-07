@@ -1,0 +1,29 @@
+{
+  "description": "Expansion of f(x, x^8) in powers of x where f(, ) is Ramanujan's general theta function.",
+  "id": "A281814",
+  "mentions": [
+    "A010054",
+    "A010815",
+    "A080995",
+    "A089801",
+    "A133100",
+    "A186742",
+    "A195160",
+    "A205988",
+    "A214263",
+    "A274179",
+    "A281490",
+    "A281815"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:04:47",
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Partial sums of A037276.",
+  "id": "A287883",
+  "mentions": [
+    "A037276"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:00",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

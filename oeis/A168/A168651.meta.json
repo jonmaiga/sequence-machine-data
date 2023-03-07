@@ -1,0 +1,19 @@
+{
+  "description": "Integers that can be generated with a C/C++ expression that is two or more characters shorter than their decimal representation.",
+  "id": "A168651",
+  "mentions": [
+    "A168650",
+    "A168652"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:52",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of sqrt(Pi^2 - e^2)/(Pi/2).",
+  "id": "A106152",
+  "mentions": [
+    "A019669",
+    "A096437"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:35",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

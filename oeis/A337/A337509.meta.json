@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n into two distinct parts (s,t), such that (t-s) | n, and where n/(t-s) <= s < t.",
+  "id": "A337509",
+  "mentions": [
+    "A337976"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

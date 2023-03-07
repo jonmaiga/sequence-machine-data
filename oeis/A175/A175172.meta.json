@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that 3*2^p+1 is also prime.",
+  "id": "A175172",
+  "mentions": [
+    "A000040",
+    "A002253"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

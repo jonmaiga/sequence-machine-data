@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = OP(sum{i=0,...,n} OP(binomial(n,i))), where OP(n) is the odd part of n (A000265).",
+  "id": "A249401",
+  "mentions": [
+    "A000120",
+    "A000225",
+    "A000265",
+    "A001316",
+    "A007318"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

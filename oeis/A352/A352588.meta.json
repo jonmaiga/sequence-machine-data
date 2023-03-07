@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1, a(2) = 2; for n > 2, a(n) is the smallest positive number that has not yet appeared that is coprime to a(n-1) but does not equal a(n-1)+1.",
+  "id": "A352588",
+  "mentions": [
+    "A064413",
+    "A093714",
+    "A121216",
+    "A347113"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

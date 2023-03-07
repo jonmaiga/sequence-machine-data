@@ -1,0 +1,26 @@
+{
+  "description": "Numbers n such that m = floor(n/4) is not coprime to n and, if nonzero, m is also a term of the sequence.",
+  "id": "A250037",
+  "mentions": [
+    "A005823",
+    "A250036",
+    "A250039",
+    "A250041",
+    "A250043",
+    "A250045",
+    "A250047",
+    "A250049",
+    "A250051"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

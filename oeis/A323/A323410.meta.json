@@ -1,0 +1,22 @@
+{
+  "description": "Unitary analog of cototient function A051953: a(n) = n - A047994(n).",
+  "id": "A323410",
+  "mentions": [
+    "A034460",
+    "A047994",
+    "A051953",
+    "A323409",
+    "A323413"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:47",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

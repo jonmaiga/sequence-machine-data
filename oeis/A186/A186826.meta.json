@@ -1,0 +1,25 @@
+{
+  "description": "Riordan array (s(x),x*S(x)) where s(x) is the g.f. of the little Schroeder numbers A001003, and S(x) is the g.f. of the large Schroeder numbers A006318.",
+  "id": "A186826",
+  "mentions": [
+    "A001003",
+    "A006318",
+    "A010683",
+    "A144944",
+    "A186827",
+    "A186828"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:11",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

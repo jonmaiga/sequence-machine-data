@@ -1,0 +1,23 @@
+{
+  "description": "Number of squarefree positive integers less than n^2.",
+  "id": "A278100",
+  "mentions": [
+    "A005117",
+    "A013928",
+    "A059956",
+    "A277648",
+    "A278101"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:44",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k which are the product of a cube greater than 1 and a prime, and where k-1 and k-2 are semiprimes.",
+  "id": "A350284",
+  "mentions": [
+    "A000578",
+    "A001358"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

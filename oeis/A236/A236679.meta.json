@@ -1,0 +1,42 @@
+{
+  "description": "Number T(n,k) of equivalence classes of ways of placing k 2 X 2 tiles in an n X n square under all symmetry operations of the square; irregular triangle T(n,k), n>=2, 0<=k<=floor(n/2)^2, read by rows.",
+  "id": "A236679",
+  "mentions": [
+    "A000217",
+    "A002623",
+    "A014409",
+    "A054252",
+    "A131474",
+    "A131941",
+    "A193580",
+    "A236560",
+    "A236757",
+    "A236800",
+    "A236829",
+    "A236865",
+    "A236915",
+    "A236936",
+    "A236939",
+    "A275869",
+    "A279111",
+    "A279112",
+    "A279113",
+    "A279114",
+    "A279115",
+    "A279116",
+    "A279117",
+    "A279118"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 2,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "description": "Numerator of the variance of the random number of comparisons in quicksort applied to lists of length n.",
+  "id": "A330895",
+  "mentions": [
+    "A063090",
+    "A067699",
+    "A093418",
+    "A096620",
+    "A115107",
+    "A288964",
+    "A288965",
+    "A288970",
+    "A288971",
+    "A329001",
+    "A330852",
+    "A330860",
+    "A330875",
+    "A330876",
+    "A330907"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

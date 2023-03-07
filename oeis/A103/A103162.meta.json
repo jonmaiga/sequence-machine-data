@@ -1,0 +1,19 @@
+{
+  "description": "GCD of reverse(3^n) and reverse(3^(n+1)).",
+  "id": "A103162",
+  "mentions": [
+    "A004167"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

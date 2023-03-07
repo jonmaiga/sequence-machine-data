@@ -1,0 +1,23 @@
+{
+  "description": "Integers which are prime power-like but not prime powers.",
+  "id": "A273201",
+  "mentions": [
+    "A000040",
+    "A000961",
+    "A246655",
+    "A273102",
+    "A273130",
+    "A273199",
+    "A273200"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

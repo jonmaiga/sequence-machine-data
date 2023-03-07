@@ -1,0 +1,17 @@
+{
+  "description": "a(n+1)=a(n)/x+x, with x = Max(a(k): 0<=k",
+  "id": "A101504",
+  "mentions": [
+    "A101505"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

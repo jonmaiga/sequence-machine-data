@@ -1,0 +1,20 @@
+{
+  "description": "Triangle of the numbers of different forests with m rooted trees having distinct orders.",
+  "id": "A106236",
+  "mentions": [
+    "A000081",
+    "A106234"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:57",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

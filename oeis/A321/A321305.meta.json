@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(n,f): the number of signed cubic graphs on 2n vertices with f edges of the first sign.",
+  "id": "A321305",
+  "mentions": [
+    "A002851",
+    "A302939",
+    "A321304"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

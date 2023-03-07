@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of terms in row n of irregular table A175327. For n >= 1, a(n) = number of runs (of both 0's and 1's) in the binary representation of A175326(n).",
+  "id": "A175328",
+  "mentions": [
+    "A175326",
+    "A175327"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

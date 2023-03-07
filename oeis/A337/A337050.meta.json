@@ -1,0 +1,30 @@
+{
+  "description": "Numbers without an exponent 2 in their prime factorization.",
+  "id": "A337050",
+  "mentions": [
+    "A001694",
+    "A003557",
+    "A005117",
+    "A007947",
+    "A036537",
+    "A036966",
+    "A038109",
+    "A048109",
+    "A057521",
+    "A175496",
+    "A268335",
+    "A304364",
+    "A330596",
+    "A336590"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 1 if n is a pentanacci number, 0 otherwise; characteristic function for A001591.",
+  "id": "A296209",
+  "mentions": [
+    "A001591",
+    "A010056",
+    "A102460",
+    "A147612",
+    "A288120",
+    "A294878"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:15",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

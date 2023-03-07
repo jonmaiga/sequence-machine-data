@@ -1,0 +1,21 @@
+{
+  "description": "Triangle, row sums = a signed, shifted version of A000587, the Rao Uppuluri-Carpenter numbers.",
+  "id": "A144185",
+  "mentions": [
+    "A000587",
+    "A118433",
+    "A118434"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

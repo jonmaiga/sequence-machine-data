@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of (eta(q) * eta(q^4) / eta(q^2)^2)^24 in powers of q.",
+  "id": "A100130",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A014103",
+    "A097340",
+    "A121373",
+    "A195130"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

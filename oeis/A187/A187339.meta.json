@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = floor((7+sqrt(5))*n/4); complement of A187330.",
+  "id": "A187339",
+  "mentions": [
+    "A187330"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:15:01",
+    "offset": 1,
+    "size": 63,
+    "source": "joeis"
+  }
+}

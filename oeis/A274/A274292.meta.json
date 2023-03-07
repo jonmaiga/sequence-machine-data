@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) (0<=k<=n) given by T(n,0)=1, T(n,n) = binomial(2n,n); otherwise T(n,k) = T(n,k-1)+T(n-1,k).",
+  "id": "A274292",
+  "mentions": [
+    "A009766",
+    "A039597",
+    "A274293"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

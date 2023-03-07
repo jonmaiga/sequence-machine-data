@@ -1,0 +1,22 @@
+{
+  "description": "28th powers: a(n) = n^28.",
+  "id": "A122969",
+  "mentions": [
+    "A010813",
+    "A089081",
+    "A122968"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:11",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

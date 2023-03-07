@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1, a(2) = 5, a(n+1) = least number of the form k*(a(n-1)) - a(n), not included earlier.",
+  "id": "A114746",
+  "mentions": [
+    "A114743",
+    "A114744",
+    "A114745"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

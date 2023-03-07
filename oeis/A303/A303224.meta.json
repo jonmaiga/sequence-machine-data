@@ -1,0 +1,21 @@
+{
+  "description": "a(0)=0, a(1)=1; for n>1, a(n) = n*a(n-1) - 3*a(n-2).",
+  "id": "A303224",
+  "mentions": [
+    "A058798",
+    "A221913",
+    "A222470",
+    "A222472"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

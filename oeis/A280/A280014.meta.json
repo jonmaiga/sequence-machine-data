@@ -1,0 +1,20 @@
+{
+  "description": "Numbers m == +- 2 (mod 10) but not m == 2 (mod 6).",
+  "id": "A280014",
+  "mentions": [
+    "A056619",
+    "A057077"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:06:11",
+    "offset": 1,
+    "size": 69,
+    "source": "joeis"
+  }
+}

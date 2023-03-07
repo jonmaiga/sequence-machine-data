@@ -1,0 +1,18 @@
+{
+  "description": "Number of complete non-collateral matches with lattice points on the edges of an n X n square.",
+  "id": "A290166",
+  "mentions": [
+    "A139267",
+    "A290167"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

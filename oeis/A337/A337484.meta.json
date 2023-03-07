@@ -1,0 +1,44 @@
+{
+  "description": "Number of ordered triples of positive integers summing to n that are neither strictly increasing nor strictly decreasing.",
+  "id": "A337484",
+  "mentions": [
+    "A000212",
+    "A000217",
+    "A001399",
+    "A001523",
+    "A001840",
+    "A007318",
+    "A014311",
+    "A046691",
+    "A069905",
+    "A097805",
+    "A115981",
+    "A128422",
+    "A140106",
+    "A156040",
+    "A211540",
+    "A218004",
+    "A242771",
+    "A332745",
+    "A332834",
+    "A332835",
+    "A337461",
+    "A337481",
+    "A337482",
+    "A337483",
+    "A337561",
+    "A337603",
+    "A337604"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

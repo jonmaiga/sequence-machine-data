@@ -1,0 +1,24 @@
+{
+  "description": "Indices n of Gram points g(n) for successive positive maxima of the Riemann zeta function on critical line.",
+  "id": "A327543",
+  "mentions": [
+    "A114856",
+    "A254297",
+    "A255739",
+    "A255742",
+    "A325932",
+    "A326502",
+    "A326890",
+    "A326891"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(n,k) * binomial(n+k,k) * (-n)^(n-k).",
+  "id": "A335310",
+  "mentions": [
+    "A098332",
+    "A116091",
+    "A126869",
+    "A307884",
+    "A307885",
+    "A331657",
+    "A335309"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

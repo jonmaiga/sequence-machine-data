@@ -1,0 +1,19 @@
+{
+  "description": "Smallest k such that A000217(n)+k and A000217(n)-k are both prime.",
+  "id": "A177460",
+  "mentions": [
+    "A000217",
+    "A172989",
+    "A172990"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 2,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

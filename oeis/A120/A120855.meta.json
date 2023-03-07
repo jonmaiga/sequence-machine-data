@@ -1,0 +1,23 @@
+{
+  "description": "Row sums of triangle A120854, which is the matrix log of triangle A117939.",
+  "id": "A120855",
+  "mentions": [
+    "A053735",
+    "A062756",
+    "A081603",
+    "A117939",
+    "A117947",
+    "A120854"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

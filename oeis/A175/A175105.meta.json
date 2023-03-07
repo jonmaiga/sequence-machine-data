@@ -1,0 +1,28 @@
+{
+  "description": "Triangle T(n,k) read by rows. T(n,1)=1; T(n,k) = Sum_{i=1..k-1} ( T(n-i,k-1) + T(n-i,k) ), k>1.",
+  "id": "A175105",
+  "mentions": [
+    "A000073",
+    "A001622",
+    "A001891",
+    "A014176",
+    "A051731",
+    "A098316",
+    "A172119",
+    "A176084",
+    "A179748",
+    "A179807"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that binomial(2n,n) is cubefree.",
+  "id": "A110495",
+  "mentions": [
+    "A110496"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "fini",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

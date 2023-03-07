@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that A000975(n-1)/n is an integer. Also numbers n such that arithmetic mean of the first n Jacobsthal numbers is an integer.",
+  "id": "A175212",
+  "mentions": [
+    "A000975",
+    "A001045",
+    "A066488",
+    "A140475"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

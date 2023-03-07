@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = phi(A267099(sigma(n))) - phi(A267099(n)), where A267099 is fully multiplicative involution swapping the positions of 4k+1 and 4k+3 primes.",
+  "id": "A354191",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A267099",
+    "A353636",
+    "A354102",
+    "A354106",
+    "A354190"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

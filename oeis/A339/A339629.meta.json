@@ -1,0 +1,21 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into distinct parts such that the sum of reciprocals of parts is 1.",
+  "id": "A339629",
+  "mentions": [
+    "A051907",
+    "A051908",
+    "A058360",
+    "A339627",
+    "A339628"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

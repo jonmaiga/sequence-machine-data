@@ -1,0 +1,31 @@
+{
+  "description": "Number of partitions of n such that each pair of parts (if any) has a common factor.",
+  "id": "A200976",
+  "mentions": [
+    "A000837",
+    "A018783",
+    "A202425",
+    "A305148",
+    "A305843",
+    "A305854",
+    "A306006",
+    "A316476",
+    "A318717",
+    "A319752",
+    "A328672",
+    "A328673",
+    "A328867",
+    "A328868"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:21",
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

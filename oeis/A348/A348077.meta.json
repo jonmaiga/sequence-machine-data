@@ -1,0 +1,18 @@
+{
+  "description": "Starts of runs of 3 consecutive numbers that have an equal number of even and odd exponents in their prime factorization (A187039).",
+  "id": "A348077",
+  "mentions": [
+    "A187039",
+    "A348076"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:22",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Even numbers 2k such that the smallest prime p satisfying p+q=2k (q prime) is greater than or equal to sqrt(2k).",
+  "id": "A244408",
+  "mentions": [
+    "A002373",
+    "A020481",
+    "A025018",
+    "A025019",
+    "A306746",
+    "A307782"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

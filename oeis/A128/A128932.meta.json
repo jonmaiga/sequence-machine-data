@@ -1,0 +1,23 @@
+{
+  "description": "Define the Fibonacci polynomials by F[1] = 1, F[2] = x; for n > 2, F[n] = x*F[n-1] + F[n-2] (cf. A049310, A053119). Swamy's inequality implies that F[n] <= F[n]^2 <= G[n] = (x^2 + 1)^2*(x^2 + 2)^(n-3) for n >= 3 and x >= 1. The sequence gives a triangle of coefficients of G[n] - F[n] read by rows.",
+  "id": "A128932",
+  "mentions": [
+    "A000045",
+    "A003946",
+    "A049310",
+    "A053119",
+    "A166920"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 3,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

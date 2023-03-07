@@ -1,0 +1,21 @@
+{
+  "description": "Number of representations of n as a sum of the Jacobsthal numbers A078008 (2 is allowed twice as a part).",
+  "id": "A101615",
+  "mentions": [
+    "A026465",
+    "A078008",
+    "A101616"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

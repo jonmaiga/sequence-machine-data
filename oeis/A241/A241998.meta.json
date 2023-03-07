@@ -1,0 +1,22 @@
+{
+  "description": "G.f. satisfies: A(x)^2 = x + A(x*A(x)^6).",
+  "id": "A241998",
+  "mentions": [
+    "A240996",
+    "A240999",
+    "A241996",
+    "A241997",
+    "A241999"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

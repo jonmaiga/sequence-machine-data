@@ -1,0 +1,18 @@
+{
+  "description": "((-1)^n - 1 + 2*(n^floor((n + 1)/2)))/4",
+  "id": "A275574",
+  "mentions": [
+    "A275550"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

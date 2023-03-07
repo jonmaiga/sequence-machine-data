@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 2025*n^2 - 649*n + 52.",
+  "id": "A156853",
+  "mentions": [
+    "A156865",
+    "A157078"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

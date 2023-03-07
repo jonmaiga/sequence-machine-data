@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of values taken by cos(2*Pi/k) mod n for all k in 1..n-1.",
+  "id": "A164831",
+  "mentions": [
+    "A164822",
+    "A164823",
+    "A164846",
+    "A165252"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:47",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n)=9*(a(n-1)a(n-3)-a(n-2)^2)/a(n-4), a(1)=a(2)=a(3)=1, a(4)=-9.",
+  "id": "A160569",
+  "mentions": [
+    "A050512",
+    "A160566",
+    "A160568"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

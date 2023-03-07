@@ -1,0 +1,22 @@
+{
+  "description": "Primes of the form m = b^i + b^j - 1, where i > j > 0, b > 1.",
+  "id": "A239709",
+  "mentions": [
+    "A018900",
+    "A239708",
+    "A239710",
+    "A239711",
+    "A239712",
+    "A239720"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:56",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

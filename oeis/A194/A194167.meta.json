@@ -1,0 +1,17 @@
+{
+  "description": "[sum{(k*r) : 1<=k<=n}], where [ ]=floor, ( )=fractional part, and r=(3+sqrt(5))/2, the golden ratio.",
+  "id": "A194167",
+  "mentions": [
+    "A194168"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

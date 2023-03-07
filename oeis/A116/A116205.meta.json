@@ -1,0 +1,29 @@
+{
+  "description": "Numbers k such that k concatenated with k+7 gives the product of two numbers which differ by 3.",
+  "id": "A116205",
+  "mentions": [
+    "A115429",
+    "A116099",
+    "A116132",
+    "A116139",
+    "A116152",
+    "A116172",
+    "A116173",
+    "A116179",
+    "A116193",
+    "A116269",
+    "A116336",
+    "A116348"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:44",
+    "offset": 1,
+    "size": 20,
+    "source": "joeis"
+  }
+}

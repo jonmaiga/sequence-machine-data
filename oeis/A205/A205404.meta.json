@@ -1,0 +1,18 @@
+{
+  "description": "Least s(k) such that n divides s(k)-s(j) for some j < k, where s(j) = floor((j+1)^2/2)/2.",
+  "id": "A205404",
+  "mentions": [
+    "A204892",
+    "A205402"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 10:39:05",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

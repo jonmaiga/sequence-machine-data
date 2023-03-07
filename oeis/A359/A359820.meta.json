@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = 1 if n and n' are of different parity, otherwise 0. Here n' stands for the arithmetic derivative of n, A003415(n).",
+  "id": "A359820",
+  "mentions": [
+    "A000035",
+    "A003415",
+    "A129283",
+    "A168036",
+    "A347871",
+    "A359821",
+    "A359822",
+    "A359823",
+    "A359824"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 0,
+    "size": 122,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the first term in a chain of at least n consecutive numbers each with exactly 6 distinct prime factors.",
+  "id": "A138206",
+  "mentions": [
+    "A087977",
+    "A087978",
+    "A138207",
+    "A154573"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

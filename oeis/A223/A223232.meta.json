@@ -1,0 +1,17 @@
+{
+  "description": "Rolling icosahedron footprints: number of nX7 0..11 arrays starting with 0 where 0..11 label vertices of an icosahedron and every array movement to a horizontal, diagonal or antidiagonal neighbor moves along an icosahedral edge",
+  "id": "A223232",
+  "mentions": [
+    "A223233"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:41",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

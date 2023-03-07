@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows in which row n is the coefficients of the subword complexity polynomial S(n,x).",
+  "id": "A341761",
+  "mentions": [
+    "A340885"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

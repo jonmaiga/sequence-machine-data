@@ -1,0 +1,32 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of tilings of an (n+4*k) X 1 board using k (1,1;5)-combs and n-k squares.",
+  "id": "A354667",
+  "mentions": [
+    "A005578",
+    "A007318",
+    "A059259",
+    "A123521",
+    "A157897",
+    "A224811",
+    "A335964",
+    "A350110",
+    "A350111",
+    "A350112",
+    "A354665",
+    "A354666",
+    "A354668"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

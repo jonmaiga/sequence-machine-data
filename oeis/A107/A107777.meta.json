@@ -1,0 +1,27 @@
+{
+  "description": "a(1)=6, a(n) = smallest integer not previously used which contains a digit from a(n-1).",
+  "id": "A107777",
+  "mentions": [
+    "A107353",
+    "A107772",
+    "A107773",
+    "A107774",
+    "A107775",
+    "A107776",
+    "A107778",
+    "A107779",
+    "A107780",
+    "A107781"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

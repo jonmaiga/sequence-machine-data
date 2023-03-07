@@ -1,0 +1,18 @@
+{
+  "description": "Integers x > 0 such that x^3 + y^3 = z^2 for some y > 0, z > 0, and gcd(x,y) = 1.",
+  "id": "A103255",
+  "mentions": [
+    "A099426"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

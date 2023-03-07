@@ -1,0 +1,23 @@
+{
+  "description": "Infinitary admirable numbers: numbers k such that there is a proper infinitary divisor d of k such that isigma(k) - 2*d = 2*k, where isigma is the sum of infinitary divisors function (A049417).",
+  "id": "A334974",
+  "mentions": [
+    "A036537",
+    "A049417",
+    "A077609",
+    "A111592",
+    "A129656",
+    "A328328",
+    "A334972"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

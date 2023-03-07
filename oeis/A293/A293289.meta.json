@@ -1,0 +1,19 @@
+{
+  "description": "Number of level n squares on a Sierpinski carpet that intersect the edge of a circle with the same center and diameter.",
+  "id": "A293289",
+  "mentions": [
+    "A094976",
+    "A242118",
+    "A293288"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

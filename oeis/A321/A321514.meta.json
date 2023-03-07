@@ -1,0 +1,31 @@
+{
+  "description": "Number of ways to choose a factorization of each integer from 2 to n into factors > 1.",
+  "id": "A321514",
+  "mentions": [
+    "A001055",
+    "A050336",
+    "A066723",
+    "A076716",
+    "A157612",
+    "A281113",
+    "A300383",
+    "A317144",
+    "A317145",
+    "A321467",
+    "A321468",
+    "A321470",
+    "A321471",
+    "A321472"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of different ratios between consecutive prime gaps among the first n primes.",
+  "id": "A359357",
+  "mentions": [
+    "A001223",
+    "A272863",
+    "A274225",
+    "A274263",
+    "A275785"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 3,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

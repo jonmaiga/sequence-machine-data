@@ -1,0 +1,19 @@
+{
+  "description": "Number of compositions of n such that no two adjacent parts are equal, allowing 0.",
+  "id": "A114900",
+  "mentions": [
+    "A003242",
+    "A114903"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Greatest integer k such that k/2^n < 1/tau, where tau = (1+sqrt(5))/2 = golden ratio.",
+  "id": "A293322",
+  "mentions": [
+    "A001622",
+    "A293313",
+    "A293323",
+    "A293324"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

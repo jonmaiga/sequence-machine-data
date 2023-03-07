@@ -1,0 +1,18 @@
+{
+  "description": "Perimeters of Pythagorean triangles with prime hypotenuse.",
+  "id": "A334804",
+  "mentions": [
+    "A005044",
+    "A010051"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

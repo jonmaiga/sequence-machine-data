@@ -1,0 +1,26 @@
+{
+  "description": "Dirichlet convolution of A342001 with A342002.",
+  "id": "A360121",
+  "mentions": [
+    "A003415",
+    "A003557",
+    "A276086",
+    "A342001",
+    "A342002",
+    "A347389",
+    "A359425",
+    "A360122"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

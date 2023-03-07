@@ -1,0 +1,21 @@
+{
+  "description": "a(3n) = n, otherwise a(n) = a(floor(2n/3)).",
+  "id": "A263390",
+  "mentions": [
+    "A025480",
+    "A087088",
+    "A163491"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

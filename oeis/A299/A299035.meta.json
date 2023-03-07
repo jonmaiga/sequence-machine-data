@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = [x^n] Product_{k=1..n} 1/(1-k^k*x).",
+  "id": "A299035",
+  "mentions": [
+    "A002109",
+    "A007820",
+    "A298851",
+    "A299036"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:22",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

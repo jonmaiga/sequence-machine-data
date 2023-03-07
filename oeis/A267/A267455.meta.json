@@ -1,0 +1,23 @@
+{
+  "description": "Primes which are a square (mod 39).",
+  "id": "A267455",
+  "mentions": [
+    "A038889",
+    "A045373",
+    "A056874",
+    "A106863",
+    "A106881",
+    "A191029"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

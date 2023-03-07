@@ -1,0 +1,19 @@
+{
+  "description": "Least number of terms needed to build n from Fibonacci numbers using + and *.",
+  "id": "A254123",
+  "mentions": [
+    "A000045",
+    "A025282",
+    "A254122"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "G.f.: exp( Sum_{n>=1} binomial(2*n,n)^4 * x^n/n ).",
+  "id": "A224736",
+  "mentions": [
+    "A000984",
+    "A186420",
+    "A224732",
+    "A224734",
+    "A224735"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

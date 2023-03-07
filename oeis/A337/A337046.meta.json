@@ -1,0 +1,19 @@
+{
+  "description": "Integers n such that n! = x^2 + y^3 + z^6 where x, y and z are nonnegative integers, is soluble.",
+  "id": "A337046",
+  "mentions": [
+    "A267414",
+    "A273553"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

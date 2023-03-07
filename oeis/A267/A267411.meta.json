@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the constant describing the mean number of 2-connected components in a random connected labeled planar graph on n vertices.",
+  "id": "A267411",
+  "mentions": [
+    "A266389",
+    "A266392"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:29",
+    "offset": -1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

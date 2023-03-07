@@ -1,0 +1,17 @@
+{
+  "description": "Number of nX3 0..3 arrays with adjacent row and column sums unequal",
+  "id": "A202633",
+  "mentions": [
+    "A202636"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

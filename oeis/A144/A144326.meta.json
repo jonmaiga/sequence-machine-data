@@ -1,0 +1,24 @@
+{
+  "description": "Prime numbers that cannot be Mersenne prime exponents, by conjecture of A144325.",
+  "id": "A144326",
+  "mentions": [
+    "A000040",
+    "A000043",
+    "A000668",
+    "A138694",
+    "A144313",
+    "A144315",
+    "A144325"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

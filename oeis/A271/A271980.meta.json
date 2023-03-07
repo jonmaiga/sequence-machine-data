@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that 3*k^2 + 39*k + 37 is prime.",
+  "id": "A271980",
+  "mentions": [
+    "A005846",
+    "A007635",
+    "A007641",
+    "A048988",
+    "A050265",
+    "A050268",
+    "A256585"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:08:45",
+    "offset": 1,
+    "size": 67,
+    "source": "joeis"
+  }
+}

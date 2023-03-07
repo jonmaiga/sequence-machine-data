@@ -1,0 +1,25 @@
+{
+  "description": "Write n = C(i,3)+C(j,2)+C(k,1) with i>j>k>=0; sequence gives i values.",
+  "id": "A194847",
+  "mentions": [
+    "A002024",
+    "A002262",
+    "A056556",
+    "A056557",
+    "A056558",
+    "A138036",
+    "A194848",
+    "A194849"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 124,
+    "source": "oeis-entry"
+  }
+}

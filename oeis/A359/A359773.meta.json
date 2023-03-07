@@ -1,0 +1,32 @@
+{
+  "description": "Dirichlet inverse of A356163, where A356163 is the characteristic function of the numbers with an even sum of prime factors (counted with multiplicity).",
+  "id": "A359773",
+  "mentions": [
+    "A001414",
+    "A003961",
+    "A036347",
+    "A036348",
+    "A036349",
+    "A067019",
+    "A335657",
+    "A356163",
+    "A359155",
+    "A359763",
+    "A359774",
+    "A359775",
+    "A359776",
+    "A359777",
+    "A359780"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 110,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Number of sets (in the Hausdorff metric geometry) at each location between two sets defining a polygonal configuration consisting of k 4-gonal polygonal components chained with string components of length 1 as k varies.",
+  "id": "A152927",
+  "mentions": [
+    "A152928",
+    "A152929",
+    "A152930",
+    "A152931",
+    "A152932",
+    "A152933",
+    "A152934",
+    "A152935"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

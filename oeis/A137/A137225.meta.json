@@ -1,0 +1,24 @@
+{
+  "description": "Triangle T(k,q) of minimal q-Niven numbers: smallest number such that the sum of its digits in base q equals k, 2<=q<=k+1.",
+  "id": "A137225",
+  "mentions": [
+    "A000225",
+    "A005349",
+    "A052491",
+    "A062318"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

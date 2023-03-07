@@ -1,0 +1,22 @@
+{
+  "description": "a(1) = 1, and for n > 1, a(n) = A276086(n) * a(A064989(n)).",
+  "id": "A324889",
+  "mentions": [
+    "A001222",
+    "A002110",
+    "A064989",
+    "A276086",
+    "A324890"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

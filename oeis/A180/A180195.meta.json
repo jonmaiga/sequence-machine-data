@@ -1,0 +1,20 @@
+{
+  "description": "a(n)=(-1)^n*Sum((-1)^j*b(j), j=1..n), where b(n)=(n-1)!*(n^2 - n + 1) = A001564(n-1) (n>=1).",
+  "id": "A180195",
+  "mentions": [
+    "A001564",
+    "A180193",
+    "A180194"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

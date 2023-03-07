@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = sum of T(n,k) - T(n-1,k) for row n of A347285.",
+  "id": "A347354",
+  "mentions": [
+    "A002110",
+    "A025487",
+    "A089576",
+    "A347284",
+    "A347285",
+    "A347287"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

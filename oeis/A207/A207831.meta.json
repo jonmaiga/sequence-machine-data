@@ -1,0 +1,19 @@
+{
+  "description": "Square array such that T[n+1,k] = | T[n,k] +- T[n,k+1] |, filling antidiagonals with the smallest possible positive integers not occurring earlier.",
+  "id": "A207831",
+  "mentions": [
+    "A207826",
+    "A207829"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

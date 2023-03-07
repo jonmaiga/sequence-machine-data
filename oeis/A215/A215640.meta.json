@@ -1,0 +1,22 @@
+{
+  "description": "Sum of divisors of colossally abundant numbers.",
+  "id": "A215640",
+  "mentions": [
+    "A000203",
+    "A004490",
+    "A058209",
+    "A080130",
+    "A207709"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

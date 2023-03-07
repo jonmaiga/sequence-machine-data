@@ -1,0 +1,23 @@
+{
+  "description": "Minimum m coprime to 5 such that the convergence speed of m^^m := m^(m^^(m-1)) is equal to n >= 0, where A317905(n) represents the convergence speed of m^^m (and m = A047201(n), the n-th non-multiple of 5).",
+  "id": "A337833",
+  "mentions": [
+    "A047201",
+    "A317824",
+    "A317903",
+    "A317905",
+    "A321130",
+    "A337392"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

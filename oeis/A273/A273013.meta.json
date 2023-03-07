@@ -1,0 +1,43 @@
+{
+  "description": "Number of different arrangements of nonnegative integers on a pair of n-sided dice such that the dice can add to any integer from 0 to n^2-1.",
+  "id": "A273013",
+  "mentions": [
+    "A000037",
+    "A000040",
+    "A000290",
+    "A001055",
+    "A028982",
+    "A062312",
+    "A074206",
+    "A111588",
+    "A119620",
+    "A131514",
+    "A174725",
+    "A174726",
+    "A339846",
+    "A339890",
+    "A347437",
+    "A347438",
+    "A347439",
+    "A347440",
+    "A347442",
+    "A347456",
+    "A347459",
+    "A347460",
+    "A347463",
+    "A347464",
+    "A347466"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

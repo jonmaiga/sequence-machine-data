@@ -1,0 +1,18 @@
+{
+  "description": "Permanent of the n-th principal submatrix of A204435.",
+  "id": "A204436",
+  "mentions": [
+    "A204235",
+    "A204435"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(1) = 1, and then a(n) is sum of k*a(k) where k",
+  "id": "A165552",
+  "mentions": [
+    "A002033",
+    "A008578",
+    "A176891"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:48",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "The number of 2 X 2 symmetric positive definite matrices whose entries are integers x,y,z satisfying x^2 + y^2 + z^2 <= n^2.",
+  "id": "A219744",
+  "mentions": [
+    "A219693"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Number of non-nesting connected simple graphs with vertices {1..n}.",
+  "id": "A326350",
+  "mentions": [
+    "A001349",
+    "A006125",
+    "A054726",
+    "A117662",
+    "A136653",
+    "A324169",
+    "A326210",
+    "A326244",
+    "A326293",
+    "A326294",
+    "A326329",
+    "A326340",
+    "A326351"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

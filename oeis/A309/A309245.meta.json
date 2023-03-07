@@ -1,0 +1,20 @@
+{
+  "description": "Least number k > 0 which is not a divisor of n such that k^2 + n is a nonsquare powerful number (A102834).",
+  "id": "A309245",
+  "mentions": [
+    "A001694",
+    "A102834",
+    "A140746",
+    "A309246"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

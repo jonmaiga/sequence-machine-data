@@ -1,0 +1,27 @@
+{
+  "description": "Number of non-isomorphic T_0 set-systems covering a subset of {1..n} that are closed under intersection.",
+  "id": "A327013",
+  "mentions": [
+    "A051185",
+    "A059201",
+    "A309615",
+    "A319559",
+    "A319637",
+    "A326940",
+    "A326944",
+    "A326945",
+    "A326946",
+    "A326959"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

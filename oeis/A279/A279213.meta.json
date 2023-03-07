@@ -1,0 +1,19 @@
+{
+  "description": "Primes formed by concatenating n with n-3.",
+  "id": "A279213",
+  "mentions": [
+    "A052089",
+    "A104332"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:46",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

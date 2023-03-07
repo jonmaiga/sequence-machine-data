@@ -1,0 +1,19 @@
+{
+  "description": "Location of ones in the binary representation of Chaitan's Omega: If[A124027(n)==0, then n.",
+  "id": "A133249",
+  "mentions": [
+    "A079365",
+    "A124027"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

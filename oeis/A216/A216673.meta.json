@@ -1,0 +1,24 @@
+{
+  "description": "Total number of solutions to the equation x^2 + k*y^2 = n with x >= 0, y >= 0, k > 0, or 0 if the number is infinite. (Order does not matter for the equation x^2 + y^2 = n).",
+  "id": "A216673",
+  "mentions": [
+    "A216503",
+    "A216504",
+    "A216505",
+    "A216672",
+    "A216674",
+    "A217834",
+    "A217840",
+    "A217956"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

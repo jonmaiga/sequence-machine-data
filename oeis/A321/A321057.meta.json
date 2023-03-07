@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = [x^n] Product_{k>=1} ((1 + x^k)/(1 - x^k))^sigma_n(k).",
+  "id": "A321057",
+  "mentions": [
+    "A301554",
+    "A301555",
+    "A301556",
+    "A319647",
+    "A321042",
+    "A321068"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

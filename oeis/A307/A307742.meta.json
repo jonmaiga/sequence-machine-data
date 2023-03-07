@@ -1,0 +1,21 @@
+{
+  "description": "Quasi-logarithm A064097(n) of von Mangoldt's exponential function A014963(n).",
+  "id": "A307742",
+  "mentions": [
+    "A008683",
+    "A014963",
+    "A064097",
+    "A307743"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

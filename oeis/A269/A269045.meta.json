@@ -1,0 +1,19 @@
+{
+  "description": "Indices k such that A006255(k) != A070229(k); that is, the k-th term of R. L. Graham's sequence is not equal to k + lpf(k).",
+  "id": "A269045",
+  "mentions": [
+    "A006255",
+    "A070229",
+    "A255363"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:31",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

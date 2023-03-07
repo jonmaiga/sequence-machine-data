@@ -1,0 +1,19 @@
+{
+  "description": "Unhappy numbers which enter the cycle (4, 16, 37, 58, 89, 145, 42, 20) at 20.",
+  "id": "A193572",
+  "mentions": [
+    "A031177",
+    "A039943"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

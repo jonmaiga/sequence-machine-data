@@ -1,0 +1,19 @@
+{
+  "description": "Sequence resulting from an infinite series of reordering steps applied to the sequence of natural numbers A000027: At step n, when number n is at position p, the number k at position p+n is moved to position p+1.",
+  "id": "A164286",
+  "mentions": [
+    "A000027",
+    "A164287"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:46",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

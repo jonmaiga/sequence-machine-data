@@ -1,0 +1,20 @@
+{
+  "description": "Largest prime < 1000*a[n-1], a[1]=2.",
+  "id": "A124361",
+  "mentions": [
+    "A006902",
+    "A040016",
+    "A120031",
+    "A120041"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-27 12:56:37",
+    "offset": 1,
+    "size": 11,
+    "source": "joeis"
+  }
+}

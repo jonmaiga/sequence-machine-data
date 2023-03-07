@@ -1,0 +1,19 @@
+{
+  "description": "Numerators of fractions arranged in Cantor's ordering (1/1, 2/1, 1/2, 1/3, 3/1, 4/1, 3/2, 2/3, 1/4, 1/5, 5/1, 6/1, 5/2, ...) with equivalent fractions removed.",
+  "id": "A157807",
+  "mentions": [
+    "A038566",
+    "A157813"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

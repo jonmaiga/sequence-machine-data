@@ -1,0 +1,25 @@
+{
+  "description": "Unluckiness of n.",
+  "id": "A265859",
+  "mentions": [
+    "A000959",
+    "A050505",
+    "A145649",
+    "A255543",
+    "A255545",
+    "A260437",
+    "A260438",
+    "A271420"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:26",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

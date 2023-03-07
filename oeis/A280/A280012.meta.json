@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = least positive integer k such that sumdigits(k^2) = n*sumdigits(k).",
+  "id": "A280012",
+  "mentions": [
+    "A007953",
+    "A061912",
+    "A099628"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

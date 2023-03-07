@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of one deg^2 expressed in steradians (sr).",
+  "id": "A231982",
+  "mentions": [
+    "A000796",
+    "A019685",
+    "A072097",
+    "A231981",
+    "A231983",
+    "A231984",
+    "A231985",
+    "A231986",
+    "A231987"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:19:35",
+    "offset": -3,
+    "size": 105,
+    "source": "joeis"
+  }
+}

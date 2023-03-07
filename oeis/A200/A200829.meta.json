@@ -1,0 +1,17 @@
+{
+  "description": "Number of nX6 0..5 arrays with every row and column running average nondecreasing rightwards and downwards",
+  "id": "A200829",
+  "mentions": [
+    "A200831"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

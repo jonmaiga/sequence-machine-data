@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = -Sum_{i=1..n} (-1)^floor(n/i).",
+  "id": "A271860",
+  "mentions": [
+    "A000035",
+    "A075989",
+    "A345033"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:36",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Row square-sums of Fibonomial triangle A010048.",
+  "id": "A181927",
+  "mentions": [
+    "A010048",
+    "A056569"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

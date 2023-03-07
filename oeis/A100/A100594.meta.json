@@ -1,0 +1,18 @@
+{
+  "description": "Floor of Pi^(2*n)/Zeta(2*n).",
+  "id": "A100594",
+  "mentions": [
+    "A002432",
+    "A046988"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

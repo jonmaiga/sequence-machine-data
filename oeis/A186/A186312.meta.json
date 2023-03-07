@@ -1,0 +1,19 @@
+{
+  "description": "There appear to be at least n lower twin primes between x/2 and x for all x >= a(n).",
+  "id": "A186312",
+  "mentions": [
+    "A001359",
+    "A088018",
+    "A104272"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n having exactly 2 distinct prime factors, the largest of which is greater than or equal to sqrt(n) (i.e., sqrt(n)-rough numbers with exactly 2 distinct prime factors).",
+  "id": "A115956",
+  "mentions": [
+    "A115957",
+    "A115958",
+    "A115959",
+    "A115960",
+    "A115961"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

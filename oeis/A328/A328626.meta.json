@@ -1,0 +1,26 @@
+{
+  "description": "Inverse permutation to A328625.",
+  "id": "A328626",
+  "mentions": [
+    "A002110",
+    "A049345",
+    "A276085",
+    "A289234",
+    "A328620",
+    "A328623",
+    "A328625",
+    "A328627",
+    "A328629"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:57",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

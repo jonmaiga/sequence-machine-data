@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the success probability associated with the optimal stopping problem on patterns in random binary strings.",
+  "id": "A246771",
+  "mentions": [
+    "A246770"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

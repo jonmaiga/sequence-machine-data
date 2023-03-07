@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the minimal odd odious k>1, such that k^i, i=2,...,n, all are evil, and a(n)=0, if there is no such k.",
+  "id": "A230498",
+  "mentions": [
+    "A000069",
+    "A001969",
+    "A230494",
+    "A230495",
+    "A230496",
+    "A230497"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 2,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

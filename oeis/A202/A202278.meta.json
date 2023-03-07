@@ -1,0 +1,25 @@
+{
+  "description": "Right-truncatable Fibonacci numbers: every prefix is Fibonacci number.",
+  "id": "A202278",
+  "mentions": [
+    "A000045",
+    "A024595",
+    "A025109",
+    "A096275",
+    "A132634",
+    "A132636"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

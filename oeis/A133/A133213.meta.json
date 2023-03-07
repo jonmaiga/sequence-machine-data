@@ -1,0 +1,20 @@
+{
+  "description": "Prime partial sums of digits of decimal expansion of pi (A000796).",
+  "id": "A133213",
+  "mentions": [
+    "A000796",
+    "A046974",
+    "A180231"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "All odd primes a(n) such that for all odd primes q smaller than a(n) the order of 2 modulo a(n)*q is a proper divisor of phi(a(n)*q)/2. The totient function phi is given in A000010.",
+  "id": "A268923",
+  "mentions": [
+    "A000010",
+    "A002326",
+    "A269454"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

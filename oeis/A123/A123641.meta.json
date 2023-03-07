@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array related to sequence A123640 with row sum A001045.",
+  "id": "A123641",
+  "mentions": [
+    "A000079",
+    "A001045",
+    "A059841",
+    "A123640"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

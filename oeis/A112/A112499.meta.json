@@ -1,0 +1,21 @@
+{
+  "description": "Fourth column of second-order Eulerian triangle A008517 divided by 4.",
+  "id": "A112499",
+  "mentions": [
+    "A008517",
+    "A112498",
+    "A112503"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 4,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

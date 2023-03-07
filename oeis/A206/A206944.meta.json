@@ -1,0 +1,20 @@
+{
+  "description": "Numbers Phi_k(m) with integer k > 2, |m| > 1 but k != 2^j (j > 1).",
+  "id": "A206944",
+  "mentions": [
+    "A059054",
+    "A194712",
+    "A206864",
+    "A206942"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

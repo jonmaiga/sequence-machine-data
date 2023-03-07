@@ -1,0 +1,28 @@
+{
+  "description": "Triangle read by rows in which row n lists divisors d of n such that n divides d^n.",
+  "id": "A284318",
+  "mentions": [
+    "A000005",
+    "A000961",
+    "A001221",
+    "A003557",
+    "A005361",
+    "A007774",
+    "A007947",
+    "A027750",
+    "A057723",
+    "A066503"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

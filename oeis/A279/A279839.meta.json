@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f. A(x) satisfies: A( tan( A(x) ) ) = tanh(x).",
+  "id": "A279839",
+  "mentions": [
+    "A279837",
+    "A279838",
+    "A280791",
+    "A280793"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:47",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

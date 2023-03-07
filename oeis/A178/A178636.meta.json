@@ -1,0 +1,20 @@
+{
+  "description": "If n = Product (p_i^k_i) for i = 1, ..., j then a(n) is the sum of the divisors d that are not in the set {1, p_1^k_1, p_2^k_2, ..., p_j^k_j}.",
+  "id": "A178636",
+  "mentions": [
+    "A000203",
+    "A159077",
+    "A167515"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

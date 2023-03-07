@@ -1,0 +1,28 @@
+{
+  "description": "Total number of palindromic primes in base 6 below 6^n.",
+  "id": "A117781",
+  "mentions": [
+    "A029974",
+    "A117701",
+    "A117772",
+    "A117775",
+    "A117777",
+    "A117779",
+    "A117782",
+    "A117783",
+    "A117785",
+    "A117787"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

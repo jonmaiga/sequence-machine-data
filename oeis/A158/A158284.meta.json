@@ -1,0 +1,19 @@
+{
+  "description": "List of pairs p, p+2 where p is prime and p and p+2 contain the same number of prime digits.",
+  "id": "A158284",
+  "mentions": [
+    "A077800"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

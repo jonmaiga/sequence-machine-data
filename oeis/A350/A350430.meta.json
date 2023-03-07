@@ -1,0 +1,28 @@
+{
+  "description": "a(n) is the smallest n-th power which can be represented as the sum of n distinct positive n-th powers in exactly n ways, or -1 if none exists.",
+  "id": "A350430",
+  "mentions": [
+    "A007666",
+    "A025303",
+    "A025401",
+    "A030052",
+    "A039664",
+    "A063923",
+    "A146756",
+    "A230718",
+    "A331675"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

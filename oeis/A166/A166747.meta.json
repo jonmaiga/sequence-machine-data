@@ -1,0 +1,19 @@
+{
+  "description": "Numbers with n digits from the set {1,2,4}, requiring a nondecreasing sequence of digits and a digits sum of A008578(n).",
+  "id": "A166747",
+  "mentions": [
+    "A008578",
+    "A134732"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

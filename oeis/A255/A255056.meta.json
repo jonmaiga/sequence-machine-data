@@ -1,0 +1,46 @@
+{
+  "description": "Trunk of number-of-runs beanstalk: The unique infinite sequence such that a(n-1) = a(n) - number of runs in binary representation of a(n).",
+  "id": "A255056",
+  "mentions": [
+    "A000918",
+    "A179016",
+    "A219648",
+    "A219666",
+    "A236840",
+    "A254113",
+    "A254114",
+    "A255053",
+    "A255055",
+    "A255057",
+    "A255058",
+    "A255061",
+    "A255062",
+    "A255063",
+    "A255064",
+    "A255066",
+    "A255071",
+    "A255072",
+    "A255122",
+    "A255123",
+    "A255124",
+    "A255125",
+    "A255126",
+    "A255327",
+    "A255330",
+    "A255331",
+    "A255332",
+    "A255336"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

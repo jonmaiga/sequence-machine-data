@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of noncrossing path sets on n nodes up to rotation and reflection with k paths and isolated vertices allowed.",
+  "id": "A303868",
+  "mentions": [
+    "A005418",
+    "A302828",
+    "A303731",
+    "A303835",
+    "A303869"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

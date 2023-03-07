@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = n*(2*n^2 + 5*n + 1).",
+  "id": "A163832",
+  "mentions": [
+    "A155156",
+    "A162254",
+    "A163683",
+    "A163815",
+    "A168244"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:08:29",
+    "offset": 0,
+    "size": 39,
+    "source": "joeis"
+  }
+}

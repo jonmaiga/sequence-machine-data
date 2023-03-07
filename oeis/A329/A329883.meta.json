@@ -1,0 +1,21 @@
+{
+  "description": "Nonunitary highly abundant numbers: numbers m such that nusigma(m) > nusigma(k) for all k < m, where s(n) is the sum of nonunitary divisors of n (A048146).",
+  "id": "A329883",
+  "mentions": [
+    "A002093",
+    "A048146",
+    "A064597",
+    "A309141",
+    "A329882"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

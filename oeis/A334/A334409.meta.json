@@ -1,0 +1,23 @@
+{
+  "description": "Numbers m such that the sum of the first k divisors and the last k divisors of m is equal to 2*m for some k that is smaller than half of the number of divisors of m.",
+  "id": "A334409",
+  "mentions": [
+    "A000396",
+    "A005835",
+    "A194472",
+    "A318168",
+    "A334405",
+    "A334410"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

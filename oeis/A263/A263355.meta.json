@@ -1,0 +1,23 @@
+{
+  "description": "Table read by rows: cycles of the permutation A263327, sorted in increasing order of their largest element. The elements in each cycle are listed in decreasing numerical order.",
+  "id": "A263355",
+  "mentions": [
+    "A263327",
+    "A263328",
+    "A263329",
+    "A263383"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

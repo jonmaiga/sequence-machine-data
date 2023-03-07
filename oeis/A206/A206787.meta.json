@@ -1,0 +1,30 @@
+{
+  "description": "Sum of the odd squarefree divisors of n.",
+  "id": "A206787",
+  "mentions": [
+    "A000079",
+    "A000593",
+    "A008683",
+    "A034444",
+    "A048250",
+    "A056911",
+    "A057716",
+    "A065119",
+    "A086761",
+    "A192066",
+    "A206778"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

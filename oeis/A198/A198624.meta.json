@@ -1,0 +1,17 @@
+{
+  "description": "Number of nX5 0..5 arrays with values 0..5 introduced in row major order and each element equal to at least one horizontal or vertical neighbor",
+  "id": "A198624",
+  "mentions": [
+    "A198627"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

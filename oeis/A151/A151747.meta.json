@@ -1,0 +1,25 @@
+{
+  "description": "Except for boundary cases (n <= 3, j = 0, 1, 2^i-1), satisfies a(n) = a(2^i+j) = 2 a(j) + a(j+1), where n = 2^i + j, 0 <= j < 2^i .",
+  "id": "A151747",
+  "mentions": [
+    "A000695",
+    "A139250",
+    "A151725",
+    "A151726",
+    "A151735",
+    "A151748",
+    "A170879",
+    "A170881"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

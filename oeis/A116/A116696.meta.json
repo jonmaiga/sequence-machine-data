@@ -1,0 +1,20 @@
+{
+  "description": "Take an n X n square grid of points in the plane; a(n) = number of non-isomorphic ways to divide the points into two sets using a straight line.",
+  "id": "A116696",
+  "mentions": [
+    "A099957",
+    "A114043"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

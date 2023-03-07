@@ -1,0 +1,26 @@
+{
+  "description": "Beatty-2 (or nested Beatty) sequence for 1/sin(1).",
+  "id": "A108612",
+  "mentions": [
+    "A023800",
+    "A031943",
+    "A037918",
+    "A039215",
+    "A043091",
+    "A047253",
+    "A108120",
+    "A108611",
+    "A108613"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

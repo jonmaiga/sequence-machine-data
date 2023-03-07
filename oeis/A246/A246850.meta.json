@@ -1,0 +1,19 @@
+{
+  "description": "Even numbers which cannot be represented by the surface area of an n1 X n2 X n3 block.",
+  "id": "A246850",
+  "mentions": [
+    "A025052"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "fini",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that 3^6*2^n - 1 is prime.",
+  "id": "A230527",
+  "mentions": [
+    "A002235",
+    "A002236",
+    "A050539",
+    "A050566",
+    "A050880"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

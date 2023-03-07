@@ -1,0 +1,29 @@
+{
+  "description": "Number of distinct nonnegative integers that are reachable from n with some nonempty combination of transitions x -> A032742(x) and x -> A302042(x).",
+  "id": "A326189",
+  "mentions": [
+    "A001222",
+    "A020639",
+    "A032742",
+    "A078898",
+    "A253557",
+    "A302042",
+    "A323888",
+    "A326075",
+    "A326139",
+    "A326190",
+    "A326191",
+    "A326196"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

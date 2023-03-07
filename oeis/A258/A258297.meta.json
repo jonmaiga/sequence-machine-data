@@ -1,0 +1,22 @@
+{
+  "description": "Number of partitions of n*(n+1)*(n+2) into parts that are at most n.",
+  "id": "A258297",
+  "mentions": [
+    "A238608",
+    "A258298",
+    "A258299",
+    "A258300",
+    "A258301"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

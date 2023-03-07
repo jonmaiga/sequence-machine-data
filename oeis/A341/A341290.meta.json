@@ -1,0 +1,22 @@
+{
+  "description": "Weight multiplicities for 30380-dimensional irreducible representation of the Lie algebra E_8.",
+  "id": "A341290",
+  "mentions": [
+    "A004009",
+    "A121732",
+    "A340522",
+    "A340523",
+    "A341289"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 3,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

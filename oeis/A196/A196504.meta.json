@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the least x > 0 satisfying x + tan(x) = 0.",
+  "id": "A196504",
+  "mentions": [
+    "A196500",
+    "A196502",
+    "A196503",
+    "A196505"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:55",
+    "offset": 1,
+    "size": 101,
+    "source": "joeis"
+  }
+}

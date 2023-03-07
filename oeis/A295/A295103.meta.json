@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (1/n) times the n-th derivative of the third tetration of x (power tower of order 3) x^^3 at x=1.",
+  "id": "A295103",
+  "mentions": [
+    "A179230",
+    "A295028"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

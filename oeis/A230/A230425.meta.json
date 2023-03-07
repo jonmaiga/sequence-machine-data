@@ -1,0 +1,27 @@
+{
+  "description": "a(n)=0 if n is in the infinite trunk of factorial beanstalk (in A219666), otherwise 1 + number of steps to reach the farthest leaf in that finite branch of the beanstalk.",
+  "id": "A230425",
+  "mentions": [
+    "A007623",
+    "A213725",
+    "A219658",
+    "A219666",
+    "A230412",
+    "A230418",
+    "A230423",
+    "A230424",
+    "A230426",
+    "A230427"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:48",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

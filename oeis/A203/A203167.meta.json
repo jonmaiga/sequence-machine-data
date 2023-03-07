@@ -1,0 +1,19 @@
+{
+  "description": "(n-1)-st elementary symmetric function of the first n terms of (2,2,1,2,2,1,2,2,1,...)=(A130196 for n>0).",
+  "id": "A203167",
+  "mentions": [
+    "A058582",
+    "A130196"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 14:51:39",
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

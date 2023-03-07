@@ -1,0 +1,20 @@
+{
+  "description": "Number of primes adjacent to prime(n) in a hexagonal spiral of positive integers.",
+  "id": "A354947",
+  "mentions": [
+    "A056105",
+    "A307011",
+    "A307013"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

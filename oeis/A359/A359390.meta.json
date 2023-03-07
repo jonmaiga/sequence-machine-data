@@ -1,0 +1,19 @@
+{
+  "description": "Sequence lists the numbers k such that bottom entry is an integer in the ratio d(i+1)/d(i) triangle of the elements in the divisors of n, where d(1) < d(2) < ... < d(q) denote the divisors of k.",
+  "id": "A359390",
+  "mentions": [
+    "A000290",
+    "A000961",
+    "A323306"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

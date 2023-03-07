@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of unlabeled n-node graphs with intersection number (or edge clique cover number) k; n >= 1, 0 <= k <= floor(n^2/4).",
+  "id": "A355754",
+  "mentions": [
+    "A000088",
+    "A355755"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

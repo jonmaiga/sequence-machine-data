@@ -1,0 +1,26 @@
+{
+  "description": "Square array read by ascending antidiagonals where T(n,k) is the mean number of maxima in a set of n random k-dimensional real vectors (denominators).",
+  "id": "A257895",
+  "mentions": [
+    "A000079",
+    "A000400",
+    "A001021",
+    "A002805",
+    "A051418",
+    "A159991",
+    "A257894"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

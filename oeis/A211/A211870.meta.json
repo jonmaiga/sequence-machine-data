@@ -1,0 +1,21 @@
+{
+  "description": "Difference between sum of largest parts and sum of smallest parts of all partitions of n into an odd number of parts.",
+  "id": "A211870",
+  "mentions": [
+    "A116686",
+    "A211881",
+    "A222044",
+    "A222047"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

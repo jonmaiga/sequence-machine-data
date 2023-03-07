@@ -1,0 +1,20 @@
+{
+  "description": "Indices where primes occur in variant of permutational numbers A134750.",
+  "id": "A134767",
+  "mentions": [
+    "A134640",
+    "A134641",
+    "A134750",
+    "A134766"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

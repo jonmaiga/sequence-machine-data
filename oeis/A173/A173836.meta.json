@@ -1,0 +1,25 @@
+{
+  "description": "Natural numbers n such that the concatenation 1331//n^3 is a prime number.",
+  "id": "A173836",
+  "mentions": [
+    "A102006",
+    "A111393",
+    "A167535",
+    "A168147",
+    "A168219",
+    "A168274",
+    "A173579",
+    "A173733"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Assign weights to the nonnegative integers by multiplying the place value (a = 1, ..., z = 26) of the letters in the US English name (ignoring hyphens and spaces) as in A075831, then sort them by weight. Sort ties by numerical value.",
+  "id": "A158508",
+  "mentions": [
+    "A075831"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

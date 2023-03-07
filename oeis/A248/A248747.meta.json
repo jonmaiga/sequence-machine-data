@@ -1,0 +1,18 @@
+{
+  "description": "The Arecibo message written as binary string: a \"0\" is represented by an \"off\" radio pulse, while a \"1\" is represented by an \"on\" radio pulse.",
+  "id": "A248747",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "dumb",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

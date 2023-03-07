@@ -1,0 +1,19 @@
+{
+  "description": "Index of first appearance of n in the triangular-based nachos numbers A281367.",
+  "id": "A281368",
+  "mentions": [
+    "A280053",
+    "A280054",
+    "A281367"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:50",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

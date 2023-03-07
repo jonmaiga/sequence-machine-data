@@ -1,0 +1,26 @@
+{
+  "description": "If n<=2 then n else (if n is odd then 2*a(n+1) else p*q, where n=p+q, p<=q, primes).",
+  "id": "A104772",
+  "mentions": [
+    "A001222",
+    "A001358",
+    "A010693",
+    "A020481",
+    "A020482",
+    "A046315",
+    "A090967",
+    "A104773",
+    "A104774"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

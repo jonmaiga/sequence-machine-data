@@ -1,0 +1,23 @@
+{
+  "description": "T(n,k)=Number of length-n 0..k arrays with no repeated value differing from the previous repeated value by plus or minus one modulo k+1.",
+  "id": "A269690",
+  "mentions": [
+    "A000027",
+    "A000290",
+    "A000578",
+    "A019274",
+    "A246767"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:32",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

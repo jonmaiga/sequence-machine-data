@@ -1,0 +1,21 @@
+{
+  "description": "Branch term s_n(b), b > 1 of equivalence classes of prime sequences {s_n(k)} for k > 0 derived by records of first differences of Rowland-like recurrences with increasing even start values >= 4.",
+  "id": "A291620",
+  "mentions": [
+    "A134162",
+    "A134734",
+    "A167168",
+    "A291528"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

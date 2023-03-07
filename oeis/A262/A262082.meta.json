@@ -1,0 +1,22 @@
+{
+  "description": "Array of coefficients A(n,k) of the formal power series P(n,x) read by upwards antidiagonals, where P(n,x) = Sum_{k>=0} A(n,k)*x^k = 1 + x*P(n,x)^(1*n) + x^2*P(n,x)^(2*n) + x^3*P(n,x)^(3*n) for n >= 0.",
+  "id": "A262082",
+  "mentions": [
+    "A036765",
+    "A186241",
+    "A200731",
+    "A261440"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

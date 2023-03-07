@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that 65537 * 2^n - 1 is prime.",
+  "id": "A109993",
+  "mentions": [
+    "A112245"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

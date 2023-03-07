@@ -1,0 +1,19 @@
+{
+  "description": "Exponents in the prime factorization of 43252003274489856000, the number of possible moves for a 3 X 3 X 3 Rubik's Cube: 2^27 * 3^14 * 5^3 * 7^2 * 11^1.",
+  "id": "A173896",
+  "mentions": [
+    "A075152"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

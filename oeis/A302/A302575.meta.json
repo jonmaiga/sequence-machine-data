@@ -1,0 +1,20 @@
+{
+  "description": "Numbers x which are the concatenation of y and the product of the digits of y.",
+  "id": "A302575",
+  "mentions": [
+    "A007954",
+    "A108203"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Fibonacci(2n+1) mod 9.",
+  "id": "A154811",
+  "mentions": [
+    "A001519",
+    "A010689",
+    "A010875",
+    "A014217",
+    "A099496",
+    "A122367",
+    "A153990"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 15:14:31",
+    "offset": 0,
+    "size": 72,
+    "source": "joeis"
+  }
+}

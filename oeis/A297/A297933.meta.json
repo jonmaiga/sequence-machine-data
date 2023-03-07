@@ -1,0 +1,21 @@
+{
+  "description": "Rectangular array, by antidiagonals: Row n gives the numbers whose base-2 digits d(m), d(m-1), ..., d(0) having n as maximal run-length of 1's.",
+  "id": "A297933",
+  "mentions": [
+    "A297769",
+    "A297932"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

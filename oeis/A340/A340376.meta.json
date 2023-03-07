@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that there are no 1-digits in the ternary expansion of A048673(k).",
+  "id": "A340376",
+  "mentions": [
+    "A048673",
+    "A304759",
+    "A340377",
+    "A340378",
+    "A340381"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

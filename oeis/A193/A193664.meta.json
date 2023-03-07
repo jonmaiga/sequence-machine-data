@@ -1,0 +1,19 @@
+{
+  "description": "Q-residue of A049310 (triangle of coefficients of Fibonacci polynomials), where Q=Pascal's triangle. (See Comments.)",
+  "id": "A193664",
+  "mentions": [
+    "A000110",
+    "A049310",
+    "A193649"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

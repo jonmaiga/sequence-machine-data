@@ -1,0 +1,19 @@
+{
+  "description": "Smallest number having exactly n divisors ending with 3 or 7.",
+  "id": "A331082",
+  "mentions": [
+    "A085645",
+    "A331029"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

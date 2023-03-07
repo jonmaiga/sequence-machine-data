@@ -1,0 +1,20 @@
+{
+  "description": "Numerator of expression W_n occurring in analysis of bubble sort.",
+  "id": "A190186",
+  "mentions": [
+    "A190187",
+    "A190194"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

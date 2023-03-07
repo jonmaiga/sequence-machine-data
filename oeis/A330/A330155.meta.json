@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows. Given n enumerated cards in a stack, with 1 at the top and n at the bottom, repeat the following process k times: remove the card in the middle (at position (size of the stack)/2, rounding up), and move the card at the bottom of the stack to the top. T(n,k) is the number of the last card removed.",
+  "id": "A330155",
+  "mentions": [
+    "A308432"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

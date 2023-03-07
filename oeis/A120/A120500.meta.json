@@ -1,0 +1,22 @@
+{
+  "description": "Times in hours,minutes and seconds (to the nearest second) at which the smoothly crossing minute and hour hands of an analog clock coincide, over a period of one complete 12-hour sweep of the hour hand.",
+  "id": "A120500",
+  "mentions": [
+    "A121577",
+    "A348758",
+    "A348759"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

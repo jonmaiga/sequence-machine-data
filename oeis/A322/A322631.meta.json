@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 2*binomial(7*n-1,2*n)/(7*n-1).",
+  "id": "A322631",
+  "mentions": [
+    "A274052",
+    "A322632",
+    "A322633"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

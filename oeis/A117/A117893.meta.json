@@ -1,0 +1,20 @@
+{
+  "description": "Add up the positive integers that are coprime to n in order (starting at 1). a(n) is the smallest such partial sum that is >= n.",
+  "id": "A117893",
+  "mentions": [
+    "A092933",
+    "A117892",
+    "A125748",
+    "A125749"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

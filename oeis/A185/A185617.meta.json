@@ -1,0 +1,19 @@
+{
+  "description": "Least m for which A185615(n) divides A000201(A185615(n))^m",
+  "id": "A185617",
+  "mentions": [
+    "A000201",
+    "A185615",
+    "A185616"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:48",
+    "offset": 1,
+    "size": 79,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = A188493(n+1) - A188491(n) - A188495(n).",
+  "id": "A188497",
+  "mentions": [
+    "A188491",
+    "A188493",
+    "A188494",
+    "A188495",
+    "A188498"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

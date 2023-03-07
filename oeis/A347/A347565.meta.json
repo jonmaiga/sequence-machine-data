@@ -1,0 +1,23 @@
+{
+  "description": "Primes p such that A241014(A000720(p)) is +1 or -1.",
+  "id": "A347565",
+  "mentions": [
+    "A000720",
+    "A113650",
+    "A241014",
+    "A296240",
+    "A339855"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

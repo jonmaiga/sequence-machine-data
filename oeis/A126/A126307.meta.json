@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the length of the leftmost ascent (i.e., height of the first peak) in the n-th Dyck path encoded by A014486(n).",
+  "id": "A126307",
+  "mentions": [
+    "A014486",
+    "A057164",
+    "A057504",
+    "A057515",
+    "A063171",
+    "A071156",
+    "A080237",
+    "A090996",
+    "A099563",
+    "A125985"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

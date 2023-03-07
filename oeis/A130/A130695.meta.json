@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways to write n as (a+1)(b+1)(c+1) - abc with a, b, c nonnegative integers.",
+  "id": "A130695",
+  "mentions": [
+    "A238872"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

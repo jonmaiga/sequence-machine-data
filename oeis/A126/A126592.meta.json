@@ -1,0 +1,20 @@
+{
+  "description": "Sum of numbers less than or equal to n which are multiples of 3 or 5.",
+  "id": "A126592",
+  "mentions": [
+    "A126073",
+    "A126590"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:14",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

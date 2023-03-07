@@ -1,0 +1,31 @@
+{
+  "description": "Numbers whose number of factorizations into factors > 1 (A001055) is a power of 2.",
+  "id": "A330977",
+  "mentions": [
+    "A001055",
+    "A002033",
+    "A033833",
+    "A045778",
+    "A045782",
+    "A045783",
+    "A317145",
+    "A326028",
+    "A330972",
+    "A330973",
+    "A330976",
+    "A330989",
+    "A330990",
+    "A330991",
+    "A331022"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

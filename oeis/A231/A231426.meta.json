@@ -1,0 +1,24 @@
+{
+  "description": "Least prime such that at most n digits may be appended to the right, preserving primality at each step.",
+  "id": "A231426",
+  "mentions": [
+    "A232125",
+    "A232126",
+    "A232127",
+    "A232128",
+    "A232129"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

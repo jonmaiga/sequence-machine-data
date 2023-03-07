@@ -1,0 +1,22 @@
+{
+  "description": "The sums of pairs of adjacent terms are the odd palindromic primes in ascending order.",
+  "id": "A181884",
+  "mentions": [
+    "A002385",
+    "A181881",
+    "A181882",
+    "A181883"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

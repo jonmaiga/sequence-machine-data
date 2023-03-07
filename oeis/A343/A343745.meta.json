@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of 12*sqrt(25+10*sqrt(5))/(15+7*sqrt(5)).",
+  "id": "A343745",
+  "mentions": [
+    "A343864"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:11:51",
+    "offset": 1,
+    "size": 94,
+    "source": "joeis"
+  }
+}

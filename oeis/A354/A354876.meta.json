@@ -1,0 +1,20 @@
+{
+  "description": "Sum of A344005 and its Dirichlet inverse, where A344005(n) is the smallest positive m such that n divides the oblong number m*(m+1).",
+  "id": "A354876",
+  "mentions": [
+    "A344005",
+    "A345065",
+    "A354875"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

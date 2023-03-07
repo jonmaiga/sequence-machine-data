@@ -1,0 +1,23 @@
+{
+  "description": "Number of primes p such that n-(p*n'-1) and n+(p*n'-1) are both prime, where n' is 1 or 2 according as n is odd or even.",
+  "id": "A261627",
+  "mentions": [
+    "A000040",
+    "A002372",
+    "A002375",
+    "A046927",
+    "A219055",
+    "A237284",
+    "A261628"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

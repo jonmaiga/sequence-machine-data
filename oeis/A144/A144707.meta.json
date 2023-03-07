@@ -1,0 +1,20 @@
+{
+  "description": "Diagonal sums of the triangle A132047.",
+  "id": "A144707",
+  "mentions": [
+    "A000045",
+    "A132047"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

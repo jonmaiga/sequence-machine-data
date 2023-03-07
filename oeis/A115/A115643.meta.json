@@ -1,0 +1,20 @@
+{
+  "description": "Lengths of k-cycles (k > 1) of permutation A113821 in order of their first appearance.",
+  "id": "A115643",
+  "mentions": [
+    "A113821",
+    "A115641",
+    "A115642"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Number of ways to write n as x^4 + y^2 + z^2 + w^2 with y^2 + 228*y*z + 60*z^2 a square, where x,y,z are nonnegative integers and w is a positive integer.",
+  "id": "A282495",
+  "mentions": [
+    "A000118",
+    "A000290",
+    "A000583",
+    "A271518",
+    "A281976",
+    "A281977",
+    "A282013",
+    "A282014",
+    "A282463",
+    "A282494"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

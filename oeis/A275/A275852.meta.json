@@ -1,0 +1,21 @@
+{
+  "description": "Positions of zeros in A275851.",
+  "id": "A275852",
+  "mentions": [
+    "A060117",
+    "A060118",
+    "A084558",
+    "A273670",
+    "A275851"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

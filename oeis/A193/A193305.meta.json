@@ -1,0 +1,19 @@
+{
+  "description": "Composite numbers of the form 4, p^m, or 2*p^m for p an odd prime. All composites that have a primitive root.",
+  "id": "A193305",
+  "mentions": [
+    "A033948",
+    "A033949",
+    "A279398"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

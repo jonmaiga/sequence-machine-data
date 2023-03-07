@@ -1,0 +1,24 @@
+{
+  "description": "Table of coefficients of up-down polynomials P_n(m) = Sum_{i=0..floor(log_2(2n))} binomial(m,i).",
+  "id": "A203827",
+  "mentions": [
+    "A000364",
+    "A000984",
+    "A002105",
+    "A008292",
+    "A010060",
+    "A089633"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

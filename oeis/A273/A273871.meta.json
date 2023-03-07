@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that (4^(p-1)-1) == 0 mod ((p-1)^2+1).",
+  "id": "A273871",
+  "mentions": [
+    "A019434",
+    "A273870"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "description": "Irregular triangle read by rows: T(n,m) = coefficients in power/Fourier series expansion of an arbitrary anharmonic oscillator's exact differential precession.",
+  "id": "A276817",
+  "mentions": [
+    "A000041",
+    "A000070",
+    "A000984",
+    "A001790",
+    "A038533",
+    "A038534",
+    "A046161",
+    "A056982",
+    "A273496",
+    "A273506",
+    "A273507",
+    "A274076",
+    "A274078",
+    "A274130",
+    "A274131",
+    "A276738",
+    "A276814",
+    "A276815",
+    "A276816"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

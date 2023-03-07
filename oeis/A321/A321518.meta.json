@@ -1,0 +1,20 @@
+{
+  "description": "Smallest k > 1 such that n^k + k^n is prime, i.e., a Leyland prime, or 0 if no such k exists.",
+  "id": "A321518",
+  "mentions": [
+    "A076980",
+    "A094133"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 2,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

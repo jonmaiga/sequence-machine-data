@@ -1,0 +1,18 @@
+{
+  "description": "Number of Eulerian cycles in the graph C_3 X C_n.",
+  "id": "A282621",
+  "mentions": [
+    "A298117"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:52",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

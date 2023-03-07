@@ -1,0 +1,18 @@
+{
+  "description": "Numerators of expansion of eta(5t)^2*eta(10t)^(13/5)*eta(20t)^(-9/5)*eta(40t)^(6/5).",
+  "id": "A135468",
+  "mentions": [
+    "A135469"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 2,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

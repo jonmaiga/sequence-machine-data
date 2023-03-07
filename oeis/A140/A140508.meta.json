@@ -1,0 +1,20 @@
+{
+  "description": "Mobius transform applied twice to A001414.",
+  "id": "A140508",
+  "mentions": [
+    "A001414",
+    "A008683",
+    "A120007",
+    "A140254"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

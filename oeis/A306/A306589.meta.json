@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest positive integer that can be written as the sum or difference of exactly n but no fewer powers of 2 and 3.",
+  "id": "A306589",
+  "mentions": [
+    "A000079",
+    "A000244"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of x in the solution to x^e = e^(-x), where e = exp(1). Also the smallest value of the constant c where there exists a solution to x^c = c^(-x).",
+  "id": "A248200",
+  "mentions": [
+    "A001113",
+    "A068985",
+    "A202357"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:05",
+    "offset": 0,
+    "size": 109,
+    "source": "joeis"
+  }
+}

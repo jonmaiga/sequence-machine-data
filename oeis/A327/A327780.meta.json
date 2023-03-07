@@ -1,0 +1,26 @@
+{
+  "description": "Number of integer partitions of n whose LCM is 2 * n.",
+  "id": "A327780",
+  "mentions": [
+    "A018818",
+    "A074761",
+    "A290103",
+    "A316413",
+    "A326842",
+    "A327775",
+    "A327778",
+    "A327779",
+    "A327781"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of Feynman diagrams (vanishing and non-vanishing) of order 2n for the proper self-energy function of quantum electrodynamics (QED).",
+  "id": "A115974",
+  "mentions": [
+    "A000698",
+    "A001147",
+    "A005411",
+    "A005412",
+    "A167872"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:06",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Start with n, iterate the map k -> A167507(k) until we reach 3, 4, 5 or 6; a(n) = which of 3, 4, 5 or 6 we reach first.",
+  "id": "A174987",
+  "mentions": [
+    "A167507",
+    "A174984",
+    "A174985"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

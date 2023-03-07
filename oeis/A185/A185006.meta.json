@@ -1,0 +1,21 @@
+{
+  "description": "Ramanujan primes R_(4,1)(n): a(n) is the smallest number such that if x >= a(n), then pi_(4,1)(x) - pi_(4,1)(x/2) >= n, where pi_(4,1)(x) is the number of primes==1 (mod 4) <= x.",
+  "id": "A185006",
+  "mentions": [
+    "A104272",
+    "A185004",
+    "A185005",
+    "A185007"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

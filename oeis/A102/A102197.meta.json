@@ -1,0 +1,24 @@
+{
+  "description": "Iccanobirt semiprimes (7 of 15): Semiprime numbers in A102117.",
+  "id": "A102197",
+  "mentions": [
+    "A001358",
+    "A102117",
+    "A102177",
+    "A102191",
+    "A102205"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 18:52:29",
+    "offset": 1,
+    "size": 13,
+    "source": "joeis"
+  }
+}

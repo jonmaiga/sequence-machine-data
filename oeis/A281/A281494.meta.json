@@ -1,0 +1,21 @@
+{
+  "description": "Number of ordered ways to write n as x^2 + y^2 + z^2 + w^2 with x + y + z + w = 2^(floor((ord_2(n)+1)/2)), where ord_2(n) is the 2-adic order of n, and x,y,z,w are integers with |x| <= |y| <= |z| <= |w|.",
+  "id": "A281494",
+  "mentions": [
+    "A000079",
+    "A000118",
+    "A000290",
+    "A272620",
+    "A273458"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:50",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

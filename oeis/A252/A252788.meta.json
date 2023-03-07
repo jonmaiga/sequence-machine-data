@@ -1,0 +1,26 @@
+{
+  "description": "Numbers m such that 3^m + m is a semiprime.",
+  "id": "A252788",
+  "mentions": [
+    "A085745",
+    "A252656",
+    "A252789",
+    "A252790",
+    "A252791",
+    "A252792",
+    "A252793",
+    "A252794",
+    "A252795"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

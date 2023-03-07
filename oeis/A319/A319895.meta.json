@@ -1,0 +1,35 @@
+{
+  "description": "a(n) is the number of partitions of n into consecutive parts, plus the total number of parts in those partitions.",
+  "id": "A319895",
+  "mentions": [
+    "A000079",
+    "A001227",
+    "A065091",
+    "A204217",
+    "A237048",
+    "A237593",
+    "A285898",
+    "A285899",
+    "A285900",
+    "A285901",
+    "A285902",
+    "A286000",
+    "A286001",
+    "A288529",
+    "A288772",
+    "A288773",
+    "A288774",
+    "A299765"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

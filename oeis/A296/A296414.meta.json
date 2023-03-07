@@ -1,0 +1,24 @@
+{
+  "description": "Number of non-isomorphic abstract almost-equidistant graphs on n vertices in R^2. A graph G is abstract almost-equidistant in R^2 if the complement of G does not contain K_3 and G does not contain K_4 nor K_{2,3}.",
+  "id": "A296414",
+  "mentions": [
+    "A006785",
+    "A296415",
+    "A296416",
+    "A296417",
+    "A296418",
+    "A296419"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

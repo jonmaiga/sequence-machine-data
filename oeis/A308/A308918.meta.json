@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of palindromic numbers with 7 digits in base n which are also palindromic in base n+1.",
+  "id": "A308918",
+  "mentions": [
+    "A048268"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 2,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

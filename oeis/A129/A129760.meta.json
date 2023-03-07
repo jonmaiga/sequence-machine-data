@@ -1,0 +1,29 @@
+{
+  "description": "Bitwise AND of binary representation of n-1 and n.",
+  "id": "A129760",
+  "mentions": [
+    "A000120",
+    "A006519",
+    "A038712",
+    "A048881",
+    "A059991",
+    "A086799",
+    "A104594",
+    "A109168",
+    "A220466"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "hear",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:17",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

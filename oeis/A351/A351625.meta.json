@@ -1,0 +1,25 @@
+{
+  "description": "a(1) = 1, a(2) = 2; for n > 2, a(n) is the smallest positive number that has not appeared that shares a factor with the largest previous term.",
+  "id": "A351625",
+  "mentions": [
+    "A064413",
+    "A084937",
+    "A098550",
+    "A270139",
+    "A336957",
+    "A351626",
+    "A352943",
+    "A352968",
+    "A352976"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

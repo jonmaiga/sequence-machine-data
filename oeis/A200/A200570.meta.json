@@ -1,0 +1,18 @@
+{
+  "description": "Integers n such that for all i > n the largest prime factor of product(i+k, {k,0,12}) exceeds the largest prime factor of product(n+k, {k,0,12}).",
+  "id": "A200570",
+  "mentions": [
+    "A200569",
+    "A209837"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:21",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

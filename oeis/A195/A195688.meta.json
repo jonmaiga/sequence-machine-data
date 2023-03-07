@@ -1,0 +1,19 @@
+{
+  "description": "Numerators b(n) of Pythagorean approximations b(n)/a(n) to (1+sqrt(5))/2 (the golden ratio).",
+  "id": "A195688",
+  "mentions": [
+    "A195500",
+    "A195687",
+    "A195689"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

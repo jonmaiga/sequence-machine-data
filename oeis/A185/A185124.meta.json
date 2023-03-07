@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of f(x, -x^5) in powers of x where f(,) is the Ramanujan general theta function.",
+  "id": "A185124",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A001082",
+    "A001651",
+    "A010054",
+    "A010815",
+    "A080902",
+    "A121373",
+    "A185125"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:32:31",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the coefficient 'gamma' (see formula) appearing in Otter's result concerning the asymptotics of T_n, the number of non-isomorphic rooted trees of order n.",
+  "id": "A261875",
+  "mentions": [
+    "A000055",
+    "A000081",
+    "A051491",
+    "A086308",
+    "A187770"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

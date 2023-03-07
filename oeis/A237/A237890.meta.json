@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that p^2 + 4 and p^2 + 10 are also primes.",
+  "id": "A237890",
+  "mentions": [
+    "A000040",
+    "A023200",
+    "A046136",
+    "A230223"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

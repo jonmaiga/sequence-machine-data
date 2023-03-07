@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (1/(2n))*Sum_{k=0..n-1} C(n-1, k)*C(n+k, k)*C(2k, k)*(k+2)*(-3)^(n-1-k).",
+  "id": "A295371",
+  "mentions": [
+    "A000984",
+    "A002426",
+    "A295113",
+    "A295132"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

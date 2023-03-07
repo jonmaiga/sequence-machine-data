@@ -1,0 +1,26 @@
+{
+  "description": "Number of integer partitions of n into Fermi-Dirac primes.",
+  "id": "A316202",
+  "mentions": [
+    "A000586",
+    "A000607",
+    "A050376",
+    "A064547",
+    "A213925",
+    "A279065",
+    "A299755",
+    "A299757",
+    "A305829"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

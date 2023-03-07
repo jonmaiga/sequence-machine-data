@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways to write n as a sum of numbers of the form 2^r * 3^s, where r and s are >= 0, and no summand divides another.",
+  "id": "A355915",
+  "mentions": [
+    "A062051",
+    "A356792"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

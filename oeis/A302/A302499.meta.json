@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically first sequence of distinct terms such that any set of four successive digits can be reordered as {d, d+1, d+2, d+3}, d being the smallest of the four digits.",
+  "id": "A302499",
+  "mentions": [
+    "A228326",
+    "A302173"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

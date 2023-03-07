@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that squarefree part of sigma(k) is equal to squarefree part of 2*k.",
+  "id": "A331752",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A006532",
+    "A007913",
+    "A228058",
+    "A331751",
+    "A332208"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

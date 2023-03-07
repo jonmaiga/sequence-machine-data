@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = A246277(A276086(n)).",
+  "id": "A329038",
+  "mentions": [
+    "A046523",
+    "A246277",
+    "A276086",
+    "A278226",
+    "A329048",
+    "A329345"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

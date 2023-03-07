@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k and usigma(k) have the same set of prime divisors, where usigma(k) is the sum of unitary divisors of k (A034448).",
+  "id": "A329858",
+  "mentions": [
+    "A007947",
+    "A027598",
+    "A034448"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

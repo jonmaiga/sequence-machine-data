@@ -1,0 +1,24 @@
+{
+  "description": "Squares in carryless arithmetic mod 10 with addition of digits defined to be multiplication mod 10 and multiplication of digits defined to be addition mod 10.",
+  "id": "A169918",
+  "mentions": [
+    "A048379",
+    "A059729",
+    "A169916",
+    "A169917",
+    "A169931",
+    "A169933",
+    "A169935"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

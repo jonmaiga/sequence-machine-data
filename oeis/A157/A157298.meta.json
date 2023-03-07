@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of (251+66*sqrt(2))/233.",
+  "id": "A157298",
+  "mentions": [
+    "A002193",
+    "A129625",
+    "A157297",
+    "A157299"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

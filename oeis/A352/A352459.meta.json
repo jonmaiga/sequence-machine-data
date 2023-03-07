@@ -1,0 +1,19 @@
+{
+  "description": "First of four consecutive primes p,q,r,s such that p+q+r+s is divisible by A001414(p+q).",
+  "id": "A352459",
+  "mentions": [
+    "A001414",
+    "A352480",
+    "A352534"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

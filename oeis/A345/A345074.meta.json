@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the largest integer k such that A345073(k) = n.",
+  "id": "A345074",
+  "mentions": [
+    "A001113",
+    "A345073"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 2,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

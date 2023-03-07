@@ -1,0 +1,19 @@
+{
+  "description": "Integers n such that if you insert between each of their digits either \"*\" (times), \"^\" (exponentiation), or \"nothing\" (so that two or more digits are merged to form an integer), then you can recover n in a nontrivial way (however, two \"^\" mustn't be adjacent - you must avoid decompositions containing a^b^c).",
+  "id": "A156322",
+  "mentions": [
+    "A096298",
+    "A116890"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

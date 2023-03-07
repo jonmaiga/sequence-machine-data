@@ -1,0 +1,23 @@
+{
+  "description": "Primes of the form (2^k + k)*2^k + 1.",
+  "id": "A200832",
+  "mentions": [
+    "A200816",
+    "A200817",
+    "A200818",
+    "A200819",
+    "A200821",
+    "A200822",
+    "A200823"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

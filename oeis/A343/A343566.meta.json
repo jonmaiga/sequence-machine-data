@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that A343564(k) is divisible by 2*k.",
+  "id": "A343566",
+  "mentions": [
+    "A343564"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

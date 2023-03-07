@@ -1,0 +1,18 @@
+{
+  "description": "Take all the integer-sided acute triangles with perimeter n and sides a, b, and c such that a <= b <= c. a(n) is the sum of all the b's.",
+  "id": "A307737",
+  "mentions": [
+    "A307736"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

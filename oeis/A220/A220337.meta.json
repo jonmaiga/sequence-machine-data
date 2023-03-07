@@ -1,0 +1,22 @@
+{
+  "description": "A modified Engel expansion for 3*sqrt(15) - 11.",
+  "id": "A220337",
+  "mentions": [
+    "A005828",
+    "A220335",
+    "A220336",
+    "A220338"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

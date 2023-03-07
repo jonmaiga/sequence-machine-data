@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that lambda(k) < A011773(k) < phi(k), where lambda is the Carmichael reduced totient function and phi the Euler totient function.",
+  "id": "A199105",
+  "mentions": [
+    "A000010",
+    "A002322",
+    "A011773"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:20",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

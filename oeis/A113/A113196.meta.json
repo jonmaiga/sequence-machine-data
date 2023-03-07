@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = F(n)/product{p=primes} F(p^(m_{n,p})), where p^(m_{n,p}) is highest power of p dividing n, m= nonnegative integer and F(k) is the k-th Fibonacci number.",
+  "id": "A113196",
+  "mentions": [
+    "A113195"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

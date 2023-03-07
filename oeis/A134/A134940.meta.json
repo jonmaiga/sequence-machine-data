@@ -1,0 +1,20 @@
+{
+  "description": "Define f(n) by e(n+1) = e(n) + 3^{n+1} - 1 + 2*f(n), where the rational numbers e(n) are defined in A134939; then a(n) is the numerator of f(n).",
+  "id": "A134940",
+  "mentions": [
+    "A134939"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 18:36:19",
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

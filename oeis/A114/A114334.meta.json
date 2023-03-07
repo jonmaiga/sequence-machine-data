@@ -1,0 +1,26 @@
+{
+  "description": "Divisors of 6^6.",
+  "id": "A114334",
+  "mentions": [
+    "A000005",
+    "A003586",
+    "A027750",
+    "A175755",
+    "A201266",
+    "A291713"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "The first of three consecutive pentagonal numbers the sum of which is equal to the sum of three consecutive primes.",
+  "id": "A298250",
+  "mentions": [
+    "A000040",
+    "A000326",
+    "A054643",
+    "A298073",
+    "A298168",
+    "A298169",
+    "A298222",
+    "A298223",
+    "A298251"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:19",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

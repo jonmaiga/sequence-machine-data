@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. cos( sqrt(2) * (exp(x) - 1) ).",
+  "id": "A357725",
+  "mentions": [
+    "A121867",
+    "A264036",
+    "A357728",
+    "A357736"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

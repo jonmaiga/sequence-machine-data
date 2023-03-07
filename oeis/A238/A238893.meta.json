@@ -1,0 +1,21 @@
+{
+  "description": "Encoded bases for which A214425(n) is palindromic.",
+  "id": "A238893",
+  "mentions": [
+    "A214423",
+    "A214425",
+    "A214427",
+    "A238338"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:56",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

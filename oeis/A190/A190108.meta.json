@@ -1,0 +1,20 @@
+{
+  "description": "Numbers with prime factorization p*q*r^3*s^3 (where p, q, r, s are distinct primes).",
+  "id": "A190108",
+  "mentions": [
+    "A050326",
+    "A179704",
+    "A190106",
+    "A190107"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

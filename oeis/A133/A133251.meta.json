@@ -1,0 +1,20 @@
+{
+  "description": "Heptagonal numbers A000566 which are the sum of two other heptagonal numbers > 0.",
+  "id": "A133251",
+  "mentions": [
+    "A000326",
+    "A000566",
+    "A136117"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

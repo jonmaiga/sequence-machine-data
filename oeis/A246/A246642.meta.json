@@ -1,0 +1,23 @@
+{
+  "description": "Sequence appearing in the curvature of a certain four circle touching problem: (-3 + 5*A007805(n))/2.",
+  "id": "A246642",
+  "mentions": [
+    "A007805",
+    "A049310",
+    "A115032",
+    "A240926",
+    "A246638"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

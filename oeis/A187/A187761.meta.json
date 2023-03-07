@@ -1,0 +1,24 @@
+{
+  "description": "Number of maps f: [n] -> [n] with f(x)<=x and f(f(x)) = f(f(f(x))).",
+  "id": "A187761",
+  "mentions": [
+    "A000110",
+    "A000949",
+    "A179455",
+    "A187771",
+    "A187824",
+    "A264428"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:12",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "description": "Triangle read by rows: n-th row is length of run of leftmost 1's, followed by length of run of 0's, followed by length of run of 1's, etc., in the binary representation of n.",
+  "id": "A101211",
+  "mentions": [
+    "A005811",
+    "A030308",
+    "A043276",
+    "A056539",
+    "A066099",
+    "A070939",
+    "A090996",
+    "A108244",
+    "A124734",
+    "A167489",
+    "A175911",
+    "A227186",
+    "A227736",
+    "A227737",
+    "A227740",
+    "A227741"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

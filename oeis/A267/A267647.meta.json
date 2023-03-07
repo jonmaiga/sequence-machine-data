@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = g_n(4), where g is the weak Goodstein function defined in A266202.",
+  "id": "A267647",
+  "mentions": [
+    "A056193",
+    "A137411",
+    "A265034",
+    "A266201",
+    "A266202",
+    "A266203",
+    "A267648"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

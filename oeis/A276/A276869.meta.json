@@ -1,0 +1,20 @@
+{
+  "description": "First differences of the Beatty sequence A182769 for 2 + sqrt(1/2).",
+  "id": "A276869",
+  "mentions": [
+    "A182769",
+    "A276888"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

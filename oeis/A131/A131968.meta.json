@@ -1,0 +1,19 @@
+{
+  "description": "Interspersion of the Farey fractal sequence, A131967.",
+  "id": "A131968",
+  "mentions": [
+    "A131967"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

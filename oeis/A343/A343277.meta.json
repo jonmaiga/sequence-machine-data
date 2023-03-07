@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = lcm(denominator(p(n, x))), where p(n, x) are the rational polynomials defined in A342321.",
+  "id": "A343277",
+  "mentions": [
+    "A342321"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

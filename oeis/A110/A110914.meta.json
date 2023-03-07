@@ -1,0 +1,18 @@
+{
+  "description": "\"Self-convolution mod 3\" of central Delannoy numbers (see comment).",
+  "id": "A110914",
+  "mentions": [
+    "A062756"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of free polyominoes with n cells containing a complete self-avoiding walk obeying mortal coil rules.",
+  "id": "A283162",
+  "mentions": [
+    "A252653"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

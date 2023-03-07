@@ -1,0 +1,20 @@
+{
+  "description": "If A307730(n) = i, then a(n) = 1 + number of copies of i that have already appeared in A307730.",
+  "id": "A348245",
+  "mentions": [
+    "A307720",
+    "A307730",
+    "A348243",
+    "A348444"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:22",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

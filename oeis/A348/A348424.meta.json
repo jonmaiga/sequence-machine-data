@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the difference between the index of the prime p = A035345(n)-A002110(n) and n, or 0 if the difference is composite.",
+  "id": "A348424",
+  "mentions": [
+    "A002110",
+    "A035345"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

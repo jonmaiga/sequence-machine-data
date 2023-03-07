@@ -1,0 +1,24 @@
+{
+  "description": "Square array A(n,k) = the nearest common ancestor of n and n*k in Doudna tree (A005940).",
+  "id": "A348043",
+  "mentions": [
+    "A000027",
+    "A005940",
+    "A156552",
+    "A348041",
+    "A348042",
+    "A348044"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

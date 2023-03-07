@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that the first term in {A336957(i): i >= 3} that is divisible by p is 3*p.",
+  "id": "A337649",
+  "mentions": [
+    "A336957",
+    "A337648"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

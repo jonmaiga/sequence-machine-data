@@ -1,0 +1,32 @@
+{
+  "description": "Transpose of square array A261096.",
+  "id": "A261097",
+  "mentions": [
+    "A001477",
+    "A004442",
+    "A055089",
+    "A056019",
+    "A060119",
+    "A060120",
+    "A060126",
+    "A060127",
+    "A195663",
+    "A261096",
+    "A261098",
+    "A261099",
+    "A261216",
+    "A261217"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 0,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

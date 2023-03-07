@@ -1,0 +1,24 @@
+{
+  "description": "Rectangular array: (row n) = b**c, where b(h) = h, c(h) = 3*n-5+3*h, n>=1, h>=1, and ** = convolution.",
+  "id": "A213761",
+  "mentions": [
+    "A002411",
+    "A002419",
+    "A077414",
+    "A172073",
+    "A212500"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-02 14:52:18",
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

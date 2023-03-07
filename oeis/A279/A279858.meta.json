@@ -1,0 +1,20 @@
+{
+  "description": "Next term is uniquely the sum of 4 earlier terms.",
+  "id": "A279858",
+  "mentions": [
+    "A002858",
+    "A007086",
+    "A007087"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

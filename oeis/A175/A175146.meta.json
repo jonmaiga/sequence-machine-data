@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = d(A175145(n)-1)+d(A175145(n)+1), where d(m) is the number of divisors of m.",
+  "id": "A175146",
+  "mentions": [
+    "A000005",
+    "A090481",
+    "A175144",
+    "A175145"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

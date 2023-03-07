@@ -1,0 +1,21 @@
+{
+  "description": "{a(1,n)}, where a(m,n) is defined in sequence A110576.",
+  "id": "A110577",
+  "mentions": [
+    "A110576",
+    "A110578",
+    "A110579",
+    "A110580"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

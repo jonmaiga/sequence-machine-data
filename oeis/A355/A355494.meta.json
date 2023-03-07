@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of Sum_{k>=0} (k * x/(1 - x))^k.",
+  "id": "A355494",
+  "mentions": [
+    "A086331",
+    "A355495",
+    "A355496"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

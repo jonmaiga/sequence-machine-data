@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of 'mu', a Sobolev isoperimetric constant related to the \"rod inequality\", arising from the elasticity study of a rod that is clamped at both ends.",
+  "id": "A244347",
+  "mentions": [
+    "A076414"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

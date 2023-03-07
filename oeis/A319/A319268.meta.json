@@ -1,0 +1,21 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive terms such that for any n > 0, the binary representation of n^2 starts with the binary representation of a(n).",
+  "id": "A319268",
+  "mentions": [
+    "A000290",
+    "A070939",
+    "A272679",
+    "A319499"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

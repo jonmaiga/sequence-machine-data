@@ -1,0 +1,32 @@
+{
+  "description": "a(n) is the smallest positive k such that the count of squarefree numbers <= k that have n prime factors is equal to the count of squarefree numbers <= k that have n-1 prime factors (and the count is positive).",
+  "id": "A356683",
+  "mentions": [
+    "A000040",
+    "A005117",
+    "A006881",
+    "A007304",
+    "A046386",
+    "A046387",
+    "A067885",
+    "A072047",
+    "A115343",
+    "A123321",
+    "A123322",
+    "A281222",
+    "A340316"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

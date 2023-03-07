@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n, k) = T(n, k-1) + (-1)^k*A142458(n+2, k+1) if k <= floor(n/2), otherwise T(n, n-k), with T(n, 0) = T(n, n) = 1, read by rows.",
+  "id": "A225433",
+  "mentions": [
+    "A007318",
+    "A060187",
+    "A142458",
+    "A159041",
+    "A225356"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

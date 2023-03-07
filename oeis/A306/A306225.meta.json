@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways to write n as w + x^5 + pen(y) + pen(z), where w is 0 or 1, and x,y,z are integers with x >= w and pen(y) < pen(z), and where pen(m) denotes the pentagonal number m*(3*m-1)/2.",
+  "id": "A306225",
+  "mentions": [
+    "A000584",
+    "A001318",
+    "A270920",
+    "A306227"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Main diagonal of arrays A265901 and A265903.",
+  "id": "A265900",
+  "mentions": [
+    "A265901",
+    "A265903",
+    "A265909"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

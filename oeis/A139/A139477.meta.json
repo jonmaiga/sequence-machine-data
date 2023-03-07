@@ -1,0 +1,25 @@
+{
+  "description": "Number of binary digits in A001109(n).",
+  "id": "A139477",
+  "mentions": [
+    "A001109",
+    "A070939",
+    "A139473",
+    "A139474",
+    "A139475",
+    "A139476",
+    "A139478"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

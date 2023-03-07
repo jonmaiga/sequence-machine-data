@@ -1,0 +1,19 @@
+{
+  "description": "Permutation breadth triangle: B(n,k) is the number of permutations w in S_n with breadth(w) = k, where breadth(w) = min({ |i-j|+|w(i)-w(j)| : 1 <= i < j <= n }).",
+  "id": "A322481",
+  "mentions": [
+    "A000142",
+    "A129535"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

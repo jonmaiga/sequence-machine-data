@@ -1,0 +1,26 @@
+{
+  "description": "Number of \"digits\" in the binary representation of the multiset of prime factors of n.",
+  "id": "A299090",
+  "mentions": [
+    "A001511",
+    "A051903",
+    "A052409",
+    "A061395",
+    "A070939",
+    "A112798",
+    "A225546",
+    "A329050"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:22",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

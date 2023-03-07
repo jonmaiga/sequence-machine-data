@@ -1,0 +1,23 @@
+{
+  "description": "Table T(n,k) = reciprocal of k modulo prime(n), for 1 <= k < prime(n).",
+  "id": "A124223",
+  "mentions": [
+    "A000040",
+    "A006093",
+    "A102057",
+    "A124224"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

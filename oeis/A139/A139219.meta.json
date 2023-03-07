@@ -1,0 +1,21 @@
+{
+  "description": "Primes of the form 41+(n+n^2)/2=41+A000217(n).",
+  "id": "A139219",
+  "mentions": [
+    "A000217",
+    "A056561",
+    "A139220",
+    "A139221"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:27",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that the sum of divisors of k is divisible by the sum of nontrivial divisors of k (that is, excluding 1 and k).",
+  "id": "A294149",
+  "mentions": [
+    "A000203",
+    "A002808",
+    "A048050",
+    "A063906",
+    "A088831"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

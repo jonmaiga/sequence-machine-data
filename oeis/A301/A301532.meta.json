@@ -1,0 +1,21 @@
+{
+  "description": "Maximum determinant of an n X n matrix with entries 1, 1/2, .., 1/n^2; numerator.",
+  "id": "A301532",
+  "mentions": [
+    "A085000",
+    "A301371",
+    "A301533"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "frac",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

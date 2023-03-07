@@ -1,0 +1,22 @@
+{
+  "description": "Numbers having at least one anagram which is a square.",
+  "id": "A235993",
+  "mentions": [
+    "A000290",
+    "A007936",
+    "A046810",
+    "A055098",
+    "A235994"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:53",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

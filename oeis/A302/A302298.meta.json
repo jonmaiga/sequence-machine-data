@@ -1,0 +1,19 @@
+{
+  "description": "Wiener index of the graph of nodes (i,j) of the square lattice such that abs(i) + abs(j) <= n.",
+  "id": "A302298",
+  "mentions": [
+    "A143945",
+    "A292053"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:36:05",
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

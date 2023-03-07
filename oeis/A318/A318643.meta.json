@@ -1,0 +1,20 @@
+{
+  "description": "G.f. D(x) satisfies: Sum_{n>=0} n * (x + (-1)^n*A(x))^n = 0, where A(x) = D^8(x), the 8th iteration of D(x), and A(x) is the g.f. of A318640.",
+  "id": "A318643",
+  "mentions": [
+    "A318640",
+    "A318641",
+    "A318642"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = 0 whenever n is a practical number (A005153) otherwise least powers of 2 that when multiplied by n becomes practical.",
+  "id": "A279048",
+  "mentions": [
+    "A005153"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:46",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

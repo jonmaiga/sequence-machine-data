@@ -1,0 +1,36 @@
+{
+  "description": "Multiplication operation of a ring over the positive integers that has A059897(.,.) as addition operation and is isomorphic to GF(2)[x] with polynomial x^i mapped to A050376(i+1). Square array read by descending antidiagonals: A(n,k), n >= 1, k >= 1.",
+  "id": "A329330",
+  "mentions": [
+    "A000079",
+    "A000379",
+    "A003159",
+    "A003987",
+    "A048720",
+    "A050376",
+    "A052330",
+    "A052331",
+    "A059897",
+    "A240521",
+    "A240522",
+    "A240524",
+    "A240536",
+    "A241024",
+    "A241025",
+    "A300841",
+    "A329329",
+    "A339690"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

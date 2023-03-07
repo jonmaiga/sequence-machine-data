@@ -1,0 +1,19 @@
+{
+  "description": "Central column (ignoring the zeros) of A349813, or leading entries in rows of A349814.",
+  "id": "A349819",
+  "mentions": [
+    "A349813",
+    "A349814"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

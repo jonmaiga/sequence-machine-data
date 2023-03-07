@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = 3*a(n-1)-4*a(n-3)+a(n-4)+a(n-5)+3*a(n-6)-a(n-7) for n >= 8, with initial values as shown.",
+  "id": "A238823",
+  "mentions": [
+    "A238824",
+    "A238825",
+    "A238826",
+    "A238827",
+    "A238828",
+    "A238829",
+    "A238830",
+    "A238831",
+    "A238832",
+    "A238833"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of (5^(1/4) + 5^(3/4))/2.",
+  "id": "A344363",
+  "mentions": [
+    "A011003",
+    "A090550",
+    "A344362"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:20",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

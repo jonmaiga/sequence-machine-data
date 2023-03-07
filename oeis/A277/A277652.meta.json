@@ -1,0 +1,21 @@
+{
+  "description": "Numerators on factorial moments of order 2 for the number of parts in dissections of rooted and convex polygons.",
+  "id": "A277652",
+  "mentions": [
+    "A001003",
+    "A002695",
+    "A035029"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of 2*sqrt(2 log 2).",
+  "id": "A347423",
+  "mentions": [
+    "A010466",
+    "A257872",
+    "A346713"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

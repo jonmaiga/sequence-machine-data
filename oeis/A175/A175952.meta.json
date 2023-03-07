@@ -1,0 +1,19 @@
+{
+  "description": "The generations in which the transformation described in A072207 does not lead to a doubling of the cardinality of the set of rationals.",
+  "id": "A175952",
+  "mentions": [
+    "A072207"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

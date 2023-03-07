@@ -1,0 +1,35 @@
+{
+  "description": "Permutation of natural numbers induced when A245821 is restricted to nonprime numbers: a(n) = A062298(A245821(A018252(n))).",
+  "id": "A245815",
+  "mentions": [
+    "A002808",
+    "A007821",
+    "A014580",
+    "A018252",
+    "A049078",
+    "A049084",
+    "A062298",
+    "A091205",
+    "A091226",
+    "A091242",
+    "A114537",
+    "A236542",
+    "A245703",
+    "A245813",
+    "A245816",
+    "A245819",
+    "A245821",
+    "A245823"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

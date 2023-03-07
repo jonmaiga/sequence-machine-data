@@ -1,0 +1,17 @@
+{
+  "description": "Records in A181391 (values).",
+  "id": "A171866",
+  "mentions": [
+    "A181391"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:55",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

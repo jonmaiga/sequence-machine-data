@@ -1,0 +1,24 @@
+{
+  "description": "Product of the first n 3-almost primes, divided by product of the first n primes, rounded down.",
+  "id": "A122032",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A014612",
+    "A112141",
+    "A114425",
+    "A123389"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:10:09",
+    "offset": 1,
+    "size": 35,
+    "source": "joeis"
+  }
+}

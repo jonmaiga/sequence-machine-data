@@ -1,0 +1,22 @@
+{
+  "description": "Primes in the sequence 12*n - prime(n), (A245071).",
+  "id": "A245650",
+  "mentions": [
+    "A102281",
+    "A245071",
+    "A245649"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Constant term in the expansion of (1 + (1 + w) * (1 + x) * (1 + y) * (1 + z) + (1 + 1/w) * (1 + 1/x) * (1 + 1/y) * (1 + 1/z))^n.",
+  "id": "A328809",
+  "mentions": [
+    "A005261",
+    "A328750",
+    "A328751",
+    "A328807"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:28:24",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

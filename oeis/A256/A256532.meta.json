@@ -1,0 +1,31 @@
+{
+  "description": "Product of n and the sum of remainders of n mod k, for k = 1, 2, 3, ..., n.",
+  "id": "A256532",
+  "mentions": [
+    "A000203",
+    "A000578",
+    "A004125",
+    "A024916",
+    "A143128",
+    "A175254",
+    "A236104",
+    "A236112",
+    "A237270",
+    "A237271",
+    "A237593",
+    "A244580",
+    "A245092",
+    "A256533"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

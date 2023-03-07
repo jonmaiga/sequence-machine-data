@@ -1,0 +1,26 @@
+{
+  "description": "Duplicate the ternary digits of n, so each 0, 1 or 2 becomes 00, 11 or 22 respectively.",
+  "id": "A338086",
+  "mentions": [
+    "A001196",
+    "A020331",
+    "A037314",
+    "A163325",
+    "A163326",
+    "A163328",
+    "A208665",
+    "A338754"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

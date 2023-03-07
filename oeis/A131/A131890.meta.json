@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the number of shapes of balanced trees with constant branching factor 4 and n nodes. The node is balanced if the size, measured in nodes, of each pair of its children differ by at most one node.",
+  "id": "A131890",
+  "mentions": [
+    "A110316",
+    "A131889",
+    "A131891",
+    "A131892",
+    "A131893",
+    "A221857"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

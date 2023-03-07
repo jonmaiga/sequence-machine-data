@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that the k-th triangular number mod the sum (with multiplicity) of prime factors of k, and the k-th triangular number mod the sum of divisors of k, are the same prime.",
+  "id": "A353002",
+  "mentions": [
+    "A000217",
+    "A001414",
+    "A232324",
+    "A352996",
+    "A353001"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "When adding some positive divisors of n in order from lowest divisor to highest divisor, a(n) is lowest sum achievable which is >= n.",
+  "id": "A117553",
+  "mentions": [
+    "A054024",
+    "A117552",
+    "A125746",
+    "A125747"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Number of ways to write n as x^2 + y^2 + z^2 + w^2 with x,y,z,w nonnegative integers such that x or 2*y or z is a square and (12*x)^2 + (21*y)^2 + (28*z)^2 is also a square.",
+  "id": "A300844",
+  "mentions": [
+    "A000118",
+    "A000290",
+    "A271510",
+    "A271513",
+    "A271518",
+    "A281976",
+    "A300666",
+    "A300667",
+    "A300708",
+    "A300712",
+    "A300751",
+    "A300752",
+    "A300791",
+    "A300792"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

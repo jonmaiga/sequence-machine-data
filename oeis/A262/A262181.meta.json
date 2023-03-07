@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = total number of convex equilateral n-gons with corner angles of m*Pi/n (0 < m <= n).",
+  "id": "A262181",
+  "mentions": [
+    "A103314",
+    "A262244",
+    "A292355",
+    "A321415"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 3,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

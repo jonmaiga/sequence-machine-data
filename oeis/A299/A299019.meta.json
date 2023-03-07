@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of Product_{k>=1} (1 - x^k)^(k+1).",
+  "id": "A299019",
+  "mentions": [
+    "A005380",
+    "A010815",
+    "A073592",
+    "A092346"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:48:18",
+    "offset": 0,
+    "size": 53,
+    "source": "joeis"
+  }
+}

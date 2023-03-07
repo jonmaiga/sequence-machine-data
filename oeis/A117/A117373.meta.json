@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of (1 - 3x)/(1 - x + x^2).",
+  "id": "A117373",
+  "mentions": [
+    "A010872",
+    "A010875",
+    "A010892",
+    "A117372"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:25:51",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

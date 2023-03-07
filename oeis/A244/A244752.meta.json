@@ -1,0 +1,20 @@
+{
+  "description": "Square array read by antidiagonals in which rows are indexed by composite numbers w and row w gives n such that n^(w-1) == 1 (mod w^2).",
+  "id": "A244752",
+  "mentions": [
+    "A001220",
+    "A240719",
+    "A244249"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 2,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

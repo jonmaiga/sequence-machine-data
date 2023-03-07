@@ -1,0 +1,20 @@
+{
+  "description": "Convolution of the Catalan numbers A000108(n) and (-2)^n.",
+  "id": "A167479",
+  "mentions": [
+    "A000108",
+    "A079935"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:51",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

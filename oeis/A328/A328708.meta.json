@@ -1,0 +1,19 @@
+{
+  "description": "Number of non-primitive Pythagorean triples with leg n.",
+  "id": "A328708",
+  "mentions": [
+    "A024361",
+    "A046079"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:57",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

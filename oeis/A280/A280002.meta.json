@@ -1,0 +1,18 @@
+{
+  "description": "Integers n such that A157752 (n) are primes.",
+  "id": "A280002",
+  "mentions": [
+    "A157752",
+    "A280001"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

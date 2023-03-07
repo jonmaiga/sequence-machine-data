@@ -1,0 +1,24 @@
+{
+  "description": "Number of odd primitive abundant numbers with n prime factors, counted with multiplicity.",
+  "id": "A287728",
+  "mentions": [
+    "A001222",
+    "A005231",
+    "A006038",
+    "A188439",
+    "A249263",
+    "A287590"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "description": "Irregular triangle read by rows where T(n,k) is the number of integer partitions of n with partition run-sum trajectory ending in a partition of length k. All zeros removed.",
+  "id": "A353843",
+  "mentions": [
+    "A000041",
+    "A003056",
+    "A008284",
+    "A047966",
+    "A116608",
+    "A225485",
+    "A237685",
+    "A275870",
+    "A300273",
+    "A304442",
+    "A304465",
+    "A325242",
+    "A325268",
+    "A325277",
+    "A325280",
+    "A353832",
+    "A353833",
+    "A353834",
+    "A353837",
+    "A353838",
+    "A353840",
+    "A353841",
+    "A353842",
+    "A353845",
+    "A353846",
+    "A353847",
+    "A353853",
+    "A353856",
+    "A353858",
+    "A353859",
+    "A353864",
+    "A353865",
+    "A353866",
+    "A353867",
+    "A353932"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

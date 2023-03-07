@@ -1,0 +1,19 @@
+{
+  "description": "Number of 5-colorings of the strong product of the complete graph K2 and the cycle graph Cn.",
+  "id": "A229031",
+  "mentions": [
+    "A091000"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 2,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

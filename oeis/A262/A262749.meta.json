@@ -1,0 +1,25 @@
+{
+  "description": "Numbers that are the sum of two distinct nonzero triangular numbers in more than one way.",
+  "id": "A262749",
+  "mentions": [
+    "A000217",
+    "A051533",
+    "A260647",
+    "A265134",
+    "A265135",
+    "A265136",
+    "A265137",
+    "A265138",
+    "A265140"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

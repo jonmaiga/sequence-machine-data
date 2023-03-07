@@ -1,0 +1,27 @@
+{
+  "description": "Continued fraction expansion of the minimum ripple factor for a fifth-order, reflectionless, Chebyshev filter.",
+  "id": "A293768",
+  "mentions": [
+    "A020784",
+    "A040021",
+    "A293409",
+    "A293415",
+    "A293416",
+    "A293417",
+    "A293769",
+    "A293770",
+    "A293882"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cofr",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:10",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Number of distinct chromatic polynomials among all connected graphs on n nodes.",
+  "id": "A245883",
+  "mentions": [
+    "A001187",
+    "A001349",
+    "A006125",
+    "A125702",
+    "A229048",
+    "A240936",
+    "A277203",
+    "A321911",
+    "A322011"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

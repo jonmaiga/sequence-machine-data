@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows: T(n, k) is the q-multinomial coefficient defined by the k-th partition of n in Abramowitz-Stegun order, evaluated at q = 11.",
+  "id": "A347492",
+  "mentions": [
+    "A015011",
+    "A022175",
+    "A036038"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:21",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

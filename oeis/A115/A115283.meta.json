@@ -1,0 +1,19 @@
+{
+  "description": "Diagonal sums of correlation triangle for 3-2*0^n.",
+  "id": "A115283",
+  "mentions": [
+    "A115282"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:47:15",
+    "offset": 0,
+    "size": 49,
+    "source": "joeis"
+  }
+}

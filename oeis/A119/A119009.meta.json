@@ -1,0 +1,19 @@
+{
+  "description": "Number of n X n real symmetric (0,1)-matrices with permanent = 1.",
+  "id": "A119009",
+  "mentions": [
+    "A089482",
+    "A119008"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

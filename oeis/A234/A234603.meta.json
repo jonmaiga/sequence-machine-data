@@ -1,0 +1,23 @@
+{
+  "description": "Numbers of undirected cycles in the n X n black bishop graph.",
+  "id": "A234603",
+  "mentions": [
+    "A234624",
+    "A234630",
+    "A234632",
+    "A234636",
+    "A282889"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 3,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

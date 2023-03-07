@@ -1,0 +1,30 @@
+{
+  "description": "a(n) = difference between the number of toothpicks of A139250 that are orthogonal to the initial toothpick and the number of toothpicks that are parallel to the initial toothpick, after n even rounds.",
+  "id": "A162797",
+  "mentions": [
+    "A000337",
+    "A000695",
+    "A006516",
+    "A058922",
+    "A139250",
+    "A139251",
+    "A159791",
+    "A159792",
+    "A162793",
+    "A162794",
+    "A162795",
+    "A162796",
+    "A173464"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

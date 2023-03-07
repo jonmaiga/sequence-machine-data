@@ -1,0 +1,18 @@
+{
+  "description": "Number of distinct angles in all integer-sided triangles with all sides <= n.",
+  "id": "A123325",
+  "mentions": [
+    "A123323",
+    "A123324"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

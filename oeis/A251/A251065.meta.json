@@ -1,0 +1,20 @@
+{
+  "description": "T(n,k)=Number of (n+1)X(k+1) 0..2 arrays with no 2X2 subblock having x11-x00 less than x10-x01",
+  "id": "A251065",
+  "mentions": [
+    "A184556",
+    "A222993"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:08",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

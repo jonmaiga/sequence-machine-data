@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 1/n * {the least k for which A345992(k) = n}.",
+  "id": "A354932",
+  "mentions": [
+    "A344005",
+    "A345992",
+    "A354931",
+    "A354940"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

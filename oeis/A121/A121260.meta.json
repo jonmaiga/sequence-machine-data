@@ -1,0 +1,18 @@
+{
+  "description": "Beginning with a(1)=0, take a(n) to be the smallest number not equal to the product of two consecutive (not distinct) earlier terms.",
+  "id": "A121260",
+  "mentions": [
+    "A121229"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

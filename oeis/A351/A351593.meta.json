@@ -1,0 +1,43 @@
+{
+  "description": "Number of odd-length integer partitions of n into parts that are alternately equal and strictly decreasing.",
+  "id": "A351593",
+  "mentions": [
+    "A000009",
+    "A000070",
+    "A000984",
+    "A003242",
+    "A027383",
+    "A035363",
+    "A035457",
+    "A053251",
+    "A053738",
+    "A122129",
+    "A122130",
+    "A122134",
+    "A122135",
+    "A236559",
+    "A236914",
+    "A350842",
+    "A350844",
+    "A351003",
+    "A351004",
+    "A351005",
+    "A351006",
+    "A351007",
+    "A351008",
+    "A351010",
+    "A351012",
+    "A351594",
+    "A351595"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

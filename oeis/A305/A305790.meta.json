@@ -1,0 +1,21 @@
+{
+  "description": "Filter-sequence combining prime signature of n (A046523) and similar signature obtained when (0,1)-polynomial encoded in the binary expansion of n is factored over Q (A304751).",
+  "id": "A305790",
+  "mentions": [
+    "A046523",
+    "A101296",
+    "A304751",
+    "A305789",
+    "A305821"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

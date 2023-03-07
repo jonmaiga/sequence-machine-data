@@ -1,0 +1,42 @@
+{
+  "description": "Number of different multisets that can be obtained by choosing a prime index (or a prime factor) of each integer from 2 to n.",
+  "id": "A355746",
+  "mentions": [
+    "A000040",
+    "A000096",
+    "A000142",
+    "A000720",
+    "A001221",
+    "A001222",
+    "A001414",
+    "A002110",
+    "A003963",
+    "A056239",
+    "A070826",
+    "A076610",
+    "A112798",
+    "A131818",
+    "A327486",
+    "A355537",
+    "A355538",
+    "A355731",
+    "A355733",
+    "A355740",
+    "A355741",
+    "A355742",
+    "A355744",
+    "A355745",
+    "A355747"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

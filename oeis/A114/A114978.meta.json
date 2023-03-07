@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that (j^k + k^j) == 0 (mod k+j), j=3 case.",
+  "id": "A114978",
+  "mentions": [
+    "A114977",
+    "A114979",
+    "A114980",
+    "A114981"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "27-gonal numbers: a(n) = n*(25*n-23)/2.",
+  "id": "A255186",
+  "mentions": [
+    "A000217",
+    "A255184"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:09:33",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

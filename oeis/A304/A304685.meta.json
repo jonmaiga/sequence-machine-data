@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = A000699(n) (mod 3).",
+  "id": "A304685",
+  "mentions": [
+    "A000699"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

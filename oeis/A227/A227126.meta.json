@@ -1,0 +1,19 @@
+{
+  "description": "Primes p_i such that 2^(i+1) - p_i is also prime.",
+  "id": "A227126",
+  "mentions": [
+    "A078686",
+    "A244913"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

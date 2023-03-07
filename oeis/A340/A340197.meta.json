@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) = Sum_{d|n, d",
+  "id": "A340197",
+  "mentions": [
+    "A023900",
+    "A318833",
+    "A340140",
+    "A340367"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

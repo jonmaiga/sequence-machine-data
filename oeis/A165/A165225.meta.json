@@ -1,0 +1,25 @@
+{
+  "description": "a(0)=1, a(1)=5, a(n) = 10*a(n-1) - 5*a(n-2) for n > 1.",
+  "id": "A165225",
+  "mentions": [
+    "A000244",
+    "A019934",
+    "A019970",
+    "A108716",
+    "A275546",
+    "A353410",
+    "A353411"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:48",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Array: t(n,k) = number of partitions p of n such that the principal antidiagonal of the Ferrers matrix of p has k 1's.",
+  "id": "A238606",
+  "mentions": [
+    "A000041",
+    "A115994",
+    "A115995",
+    "A237981"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "The non-single or nonisolated numbers whose digits are all square.",
+  "id": "A168042",
+  "mentions": [
+    "A000290",
+    "A157908",
+    "A167707"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

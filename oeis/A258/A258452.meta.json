@@ -1,0 +1,24 @@
+{
+  "description": "Numbers n such that n!! - 512 is prime.",
+  "id": "A258452",
+  "mentions": [
+    "A006882",
+    "A007749",
+    "A094144",
+    "A123910",
+    "A258616",
+    "A262772"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

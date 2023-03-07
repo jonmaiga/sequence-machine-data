@@ -1,0 +1,32 @@
+{
+  "description": "Triangle read by rows: T(n,k) = ((n-1)*(n+2))/2 + 2*k.",
+  "id": "A356754",
+  "mentions": [
+    "A000124",
+    "A004120",
+    "A046691",
+    "A051938",
+    "A055999",
+    "A056000",
+    "A155212",
+    "A167487",
+    "A167499",
+    "A167614",
+    "A246172",
+    "A334563",
+    "A356288"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

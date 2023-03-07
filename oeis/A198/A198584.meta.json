@@ -1,0 +1,26 @@
+{
+  "description": "Odd numbers producing 3 odd numbers in the Collatz (3x+1) iteration.",
+  "id": "A198584",
+  "mentions": [
+    "A002450",
+    "A062053",
+    "A092893",
+    "A198585",
+    "A198586",
+    "A198593",
+    "A228871",
+    "A228872"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

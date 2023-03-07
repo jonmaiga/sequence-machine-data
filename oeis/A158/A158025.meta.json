@@ -1,0 +1,19 @@
+{
+  "description": "Sides of squares which are filled exactly (no holes, no overlaps) by the digits needed to write a subsequence of consecutive Primes starting with 2.",
+  "id": "A158025",
+  "mentions": [
+    "A158022",
+    "A158024"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is obtained from n by removing 2s, 3s, and 5s from the prime factorization of n that do not contribute to a factor of 30.",
+  "id": "A214685",
+  "mentions": [
+    "A214681",
+    "A214682"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

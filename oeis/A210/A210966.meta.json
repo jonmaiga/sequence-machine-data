@@ -1,0 +1,28 @@
+{
+  "description": "Sum of all region numbers of all parts of the n-th region of the shell model of partitions.",
+  "id": "A210966",
+  "mentions": [
+    "A001255",
+    "A135010",
+    "A138121",
+    "A182703",
+    "A187219",
+    "A194446",
+    "A206437",
+    "A210969",
+    "A210971",
+    "A210972"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

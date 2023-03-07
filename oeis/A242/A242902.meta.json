@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = 1 if either of A014574(n) + A014574(n+2) +- 1 is prime or 0 otherwise.",
+  "id": "A242902",
+  "mentions": [
+    "A014574"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

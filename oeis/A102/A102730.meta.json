@@ -1,0 +1,33 @@
+{
+  "description": "Number of factorials contained in n! in binary representation.",
+  "id": "A102730",
+  "mentions": [
+    "A000142",
+    "A007088",
+    "A011371",
+    "A036603",
+    "A093684",
+    "A103670",
+    "A103671",
+    "A103672",
+    "A103673",
+    "A103674",
+    "A103675",
+    "A103676",
+    "A103677",
+    "A103678",
+    "A103679",
+    "A103680",
+    "A103681"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:53",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

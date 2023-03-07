@@ -1,0 +1,24 @@
+{
+  "description": "When F is the Fermat point of a triangle ABC, this sequence lists the integer total distances FA + FB + FC corresponding to primitive triangles in A336328.",
+  "id": "A336329",
+  "mentions": [
+    "A061281",
+    "A336328",
+    "A336330",
+    "A336331",
+    "A336332",
+    "A336333",
+    "A351477"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

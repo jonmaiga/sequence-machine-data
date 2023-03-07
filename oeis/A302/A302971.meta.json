@@ -1,0 +1,38 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the numerator of R(n,k) defined implicitly by the identity Sum_{i=0..l-1} Sum_{j=0..m} R(m,j)*(l-i)^j*i^j = l^(2*m+1) holding for all l,m >= 0.",
+  "id": "A302971",
+  "mentions": [
+    "A000079",
+    "A000146",
+    "A002457",
+    "A002882",
+    "A003245",
+    "A007318",
+    "A027641",
+    "A027642",
+    "A055012",
+    "A074909",
+    "A077028",
+    "A127187",
+    "A127188",
+    "A164555",
+    "A287326",
+    "A300656",
+    "A300785",
+    "A304042"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

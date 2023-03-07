@@ -1,0 +1,19 @@
+{
+  "description": "Arrange nonzero digits of n in increasing order then append the zeros.",
+  "id": "A348287",
+  "mentions": [
+    "A004185",
+    "A328447"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

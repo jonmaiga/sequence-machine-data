@@ -1,0 +1,23 @@
+{
+  "description": "Number A(n,k) of n X k nonconsecutive chess tableaux; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A214088",
+  "mentions": [
+    "A000108",
+    "A214020",
+    "A214021",
+    "A214459",
+    "A214460",
+    "A214461"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

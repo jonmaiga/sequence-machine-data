@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = gcd(phi(n), psi(n)).",
+  "id": "A175732",
+  "mentions": [
+    "A000010",
+    "A001615",
+    "A002110",
+    "A007434",
+    "A078558"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

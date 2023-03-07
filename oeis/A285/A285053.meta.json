@@ -1,0 +1,18 @@
+{
+  "description": "Multiplications between idempotent equivalence classes for n X n matrices over GF(2).",
+  "id": "A285053",
+  "mentions": [
+    "A132186"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

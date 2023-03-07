@@ -1,0 +1,22 @@
+{
+  "description": "Number of pieces formed when an n-dimensional cube is cut by all the hyperplanes defined by any n of the 2^n vertices.",
+  "id": "A333539",
+  "mentions": [
+    "A007847",
+    "A333540",
+    "A333543",
+    "A333544",
+    "A338571"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

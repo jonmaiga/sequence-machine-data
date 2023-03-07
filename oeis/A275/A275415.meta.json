@@ -1,0 +1,18 @@
+{
+  "description": "Pairs of primes (p, q) such that |2p - 3q| = 1.",
+  "id": "A275415",
+  "mentions": [
+    "A222565",
+    "A265761"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

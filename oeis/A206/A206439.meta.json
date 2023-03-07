@@ -1,0 +1,18 @@
+{
+  "description": "Partial sums of A064692.",
+  "id": "A206439",
+  "mentions": [
+    "A064692"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

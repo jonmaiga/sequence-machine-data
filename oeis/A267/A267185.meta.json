@@ -1,0 +1,18 @@
+{
+  "description": "Column 2 of the square array in A267181.",
+  "id": "A267185",
+  "mentions": [
+    "A267181"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:18:55",
+    "offset": 0,
+    "size": 71,
+    "source": "joeis"
+  }
+}

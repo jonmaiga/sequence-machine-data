@@ -1,0 +1,20 @@
+{
+  "description": "Index of E-irregularity of prime(n).",
+  "id": "A308243",
+  "mentions": [
+    "A000364",
+    "A092217",
+    "A092218",
+    "A120337"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Floor( 1/(n*sinh(1/n) + n*sin(1/n) - 2) ).",
+  "id": "A248974",
+  "mentions": [
+    "A000583",
+    "A248968"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:51:15",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

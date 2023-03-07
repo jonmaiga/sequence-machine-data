@@ -1,0 +1,20 @@
+{
+  "description": "Conjectured Hankel transform of A136576(n+1).",
+  "id": "A136577",
+  "mentions": [
+    "A086616",
+    "A136576"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

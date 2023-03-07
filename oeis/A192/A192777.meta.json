@@ -1,0 +1,23 @@
+{
+  "description": "Constant term in the reduction of the n-th Fibonacci polynomial by x^3->x^2+3x+1. See Comments.",
+  "id": "A192777",
+  "mentions": [
+    "A192232",
+    "A192616",
+    "A192744",
+    "A192772",
+    "A192778",
+    "A192779"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:35:00",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

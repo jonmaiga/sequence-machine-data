@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of the n-th Lucas number into Lucas parts (beginning with 1) (A000204).",
+  "id": "A290248",
+  "mentions": [
+    "A000204",
+    "A003263",
+    "A067592",
+    "A098641"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Smallest positive number whose residues modulo the first n primes are all different but whose residues modulo the first n+1 primes are not all different.",
+  "id": "A279074",
+  "mentions": [
+    "A279073"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:46",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

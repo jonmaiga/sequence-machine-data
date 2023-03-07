@@ -1,0 +1,18 @@
+{
+  "description": "Number of nonempty subsets of {1, 2, ..., n} with <=10 pairwise coprime elements.",
+  "id": "A187271",
+  "mentions": [
+    "A187262"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:12",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

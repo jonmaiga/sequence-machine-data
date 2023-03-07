@@ -1,0 +1,23 @@
+{
+  "description": "Half of the gaps A067970 between odd nonprimes A014076.",
+  "id": "A196274",
+  "mentions": [
+    "A014076",
+    "A025549",
+    "A067970",
+    "A142723",
+    "A196276",
+    "A196277"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

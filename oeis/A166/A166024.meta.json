@@ -1,0 +1,21 @@
+{
+  "description": "Define dsf(n) = A045503(n) = n_1^{n_1}+n_2^{n_2}+n_3^{n_3} + n_m^{n_m}, where {n_1,n_2,n_3,...n_m} is the list of the decimal digits of n. dsf(421845123) = 16780890 and dsf(16780890) = 421845123, so these 2 numbers make a loop for the function dsf.",
+  "id": "A166024",
+  "mentions": [
+    "A045503",
+    "A165942"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:33:45",
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

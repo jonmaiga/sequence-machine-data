@@ -1,0 +1,32 @@
+{
+  "description": "A Padovan convolution triangle.",
+  "id": "A104578",
+  "mentions": [
+    "A000073",
+    "A000931",
+    "A001057",
+    "A001608",
+    "A006232",
+    "A008346",
+    "A046521",
+    "A058265",
+    "A228577",
+    "A256893",
+    "A319202",
+    "A319203",
+    "A321196"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:47:11",
+    "offset": 0,
+    "size": 86,
+    "source": "joeis"
+  }
+}

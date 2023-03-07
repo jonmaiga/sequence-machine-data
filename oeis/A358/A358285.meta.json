@@ -1,0 +1,18 @@
+{
+  "description": "Number of connected planar cubic graphs with 2*n nodes and exactly one edge-Kempe equivalence class.",
+  "id": "A358285",
+  "mentions": [
+    "A005964"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 2,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Table T(n,k) = n*(n+2^k-1)/2, n, k > 0 read by antidiagonals.",
+  "id": "A209274",
+  "mentions": [
+    "A000051",
+    "A000079",
+    "A000096",
+    "A000217",
+    "A002260",
+    "A004736",
+    "A055999",
+    "A056121",
+    "A132758"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

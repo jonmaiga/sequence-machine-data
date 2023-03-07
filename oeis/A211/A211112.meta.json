@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest pseudoprime q in A074773 such that f(q) = n, where f: N -> {1..63} is given below.",
+  "id": "A211112",
+  "mentions": [
+    "A074773",
+    "A208847",
+    "A210588"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

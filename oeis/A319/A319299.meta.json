@@ -1,0 +1,32 @@
+{
+  "description": "Irregular triangle where T(n,k) is the number of integer partitions of n with GCD equal to the k-th divisor of n.",
+  "id": "A319299",
+  "mentions": [
+    "A000005",
+    "A000041",
+    "A000837",
+    "A018783",
+    "A027750",
+    "A078374",
+    "A078392",
+    "A168532",
+    "A289508",
+    "A289509",
+    "A303139",
+    "A305563",
+    "A319300"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

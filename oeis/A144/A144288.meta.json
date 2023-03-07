@@ -1,0 +1,25 @@
+{
+  "description": "Fibonacci rabbit sequence number n coded in base n, also diagonal of A144287.",
+  "id": "A144288",
+  "mentions": [
+    "A000045",
+    "A005203",
+    "A005205",
+    "A036299",
+    "A061107",
+    "A144287"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

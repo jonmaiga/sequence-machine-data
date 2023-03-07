@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of distinct numbers whose partial products have mutually distinct exponents in their prime factorization (A130091).",
+  "id": "A343012",
+  "mentions": [
+    "A130091",
+    "A343013"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "(A122536(n)-A003000(n))/2.",
+  "id": "A218874",
+  "mentions": [
+    "A003000",
+    "A122536"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

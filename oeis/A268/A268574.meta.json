@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that (2^k + 1)^2 - 2 is a semiprime.",
+  "id": "A268574",
+  "mentions": [
+    "A091513",
+    "A091514",
+    "A093069",
+    "A269264"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "changed",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

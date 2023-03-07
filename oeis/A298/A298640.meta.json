@@ -1,0 +1,23 @@
+{
+  "description": "Number of compositions (ordered partitions) of n^2 into squares > 1.",
+  "id": "A298640",
+  "mentions": [
+    "A000290",
+    "A006456",
+    "A078134",
+    "A224366",
+    "A280542",
+    "A298642"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:20",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

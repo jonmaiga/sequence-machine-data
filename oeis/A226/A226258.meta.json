@@ -1,0 +1,25 @@
+{
+  "description": "Numerators of mass formula for connected vacuum graphs on n nodes for a phi^4 field theory.",
+  "id": "A226258",
+  "mentions": [
+    "A225697",
+    "A225698",
+    "A226256",
+    "A226257",
+    "A226259",
+    "A226260",
+    "A226261"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

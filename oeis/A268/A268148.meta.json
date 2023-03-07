@@ -1,0 +1,22 @@
+{
+  "description": "A double binomial sum involving absolute values.",
+  "id": "A268148",
+  "mentions": [
+    "A000984",
+    "A002894",
+    "A166337",
+    "A254408"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

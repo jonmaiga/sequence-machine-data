@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = product of distinct terms of row n in triangle A255313.",
+  "id": "A255427",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A006530",
+    "A060265",
+    "A255313",
+    "A255316",
+    "A255395"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

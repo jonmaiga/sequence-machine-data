@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest centered triangular number with exactly n distinct prime factors.",
+  "id": "A358928",
+  "mentions": [
+    "A001221",
+    "A005448",
+    "A076551",
+    "A156329",
+    "A358894",
+    "A358929"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

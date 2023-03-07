@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that A120292(n) = 1.",
+  "id": "A125716",
+  "mentions": [
+    "A120292"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

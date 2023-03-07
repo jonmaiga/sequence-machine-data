@@ -1,0 +1,19 @@
+{
+  "description": "Number of n-bead necklaces of 6 colors allowing reversal, with no adjacent beads having the same color.",
+  "id": "A208542",
+  "mentions": [
+    "A106368",
+    "A208544"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

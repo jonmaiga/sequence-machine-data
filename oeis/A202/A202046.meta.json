@@ -1,0 +1,17 @@
+{
+  "description": "Number of zero-sum nX7 -1..1 arrays with every element unequal to at most two horizontal and vertical neighbors",
+  "id": "A202046",
+  "mentions": [
+    "A202047"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

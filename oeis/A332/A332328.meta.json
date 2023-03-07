@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the least positive zero of the 8th Maclaurin polynomial of cos x.",
+  "id": "A332328",
+  "mentions": [
+    "A019669",
+    "A332326"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

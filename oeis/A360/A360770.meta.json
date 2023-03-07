@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of Sum_{k>0} (x * (k + x^k))^k.",
+  "id": "A360770",
+  "mentions": [
+    "A260148",
+    "A338693",
+    "A360712",
+    "A360771",
+    "A360774",
+    "A360775",
+    "A360776"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

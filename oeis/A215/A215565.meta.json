@@ -1,0 +1,17 @@
+{
+  "description": "Strong pseudoprimes to base 3 of the form 6*k-1.",
+  "id": "A215565",
+  "mentions": [
+    "A020229"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

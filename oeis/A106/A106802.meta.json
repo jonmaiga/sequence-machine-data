@@ -1,0 +1,18 @@
+{
+  "description": "Trajectory of 2 under the morphism 1->{2, 1, 2, 1, 1, 2, 2, 1}, 2->{1, 1, 1, 2, 2, 1, 2}.",
+  "id": "A106802",
+  "mentions": [
+    "A001030",
+    "A006338"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:50:03",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

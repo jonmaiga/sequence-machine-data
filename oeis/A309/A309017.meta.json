@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that divide the sum of the digits of their cubes.",
+  "id": "A309017",
+  "mentions": [
+    "A000578",
+    "A004164"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

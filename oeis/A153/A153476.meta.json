@@ -1,0 +1,21 @@
+{
+  "description": "Sum of first n even superperfect numbers A061652, divided by 2.",
+  "id": "A153476",
+  "mentions": [
+    "A019279",
+    "A061652",
+    "A153474",
+    "A153475"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Primes for which the weight as defined in A117078 is 23.",
+  "id": "A119504",
+  "mentions": [
+    "A001359",
+    "A117078",
+    "A117563",
+    "A118359",
+    "A118380",
+    "A118922",
+    "A118924"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

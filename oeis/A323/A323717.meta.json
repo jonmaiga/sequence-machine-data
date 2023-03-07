@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Product_{k=0..n} (n! + k!).",
+  "id": "A323717",
+  "mentions": [
+    "A036740",
+    "A203308",
+    "A323702"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 16:24:56",
+    "offset": 0,
+    "size": 10,
+    "source": "joeis"
+  }
+}

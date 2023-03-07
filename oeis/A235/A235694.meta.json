@@ -1,0 +1,24 @@
+{
+  "description": "Semiprimes which have one or more occurrences of exactly six different digits.",
+  "id": "A235694",
+  "mentions": [
+    "A001358",
+    "A235154",
+    "A235161",
+    "A235690",
+    "A235693",
+    "A235695",
+    "A235696"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

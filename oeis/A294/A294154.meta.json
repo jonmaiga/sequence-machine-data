@@ -1,0 +1,20 @@
+{
+  "description": "Base-2 logarithm of product of primes between 2^n+1 and 2^(n+1).",
+  "id": "A294154",
+  "mentions": [
+    "A036378",
+    "A293696",
+    "A293697"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

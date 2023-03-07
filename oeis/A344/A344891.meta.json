@@ -1,0 +1,22 @@
+{
+  "description": "Divide the primes into subsets of lengths given by successive primes, then reverse the order of terms in each subset.",
+  "id": "A344891",
+  "mentions": [
+    "A000040",
+    "A034958",
+    "A119645",
+    "A180302",
+    "A343809"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

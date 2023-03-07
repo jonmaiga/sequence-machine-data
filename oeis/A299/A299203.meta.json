@@ -1,0 +1,28 @@
+{
+  "description": "Number of enriched p-trees whose multiset of leaves is the integer partition with Heinz number n.",
+  "id": "A299203",
+  "mentions": [
+    "A000041",
+    "A063834",
+    "A112798",
+    "A196545",
+    "A273873",
+    "A281145",
+    "A289501",
+    "A290261",
+    "A296150",
+    "A299200",
+    "A299201",
+    "A299202"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 112,
+    "source": "oeis-entry"
+  }
+}

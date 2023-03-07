@@ -1,0 +1,22 @@
+{
+  "description": "Central coefficients T(2n,n) of the Catalan triangle A033184.",
+  "id": "A174687",
+  "mentions": [
+    "A000108",
+    "A001764",
+    "A033184",
+    "A214776"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

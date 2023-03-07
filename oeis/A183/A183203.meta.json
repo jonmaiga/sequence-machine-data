@@ -1,0 +1,19 @@
+{
+  "description": "Antidiagonal sums of triangle A183202.",
+  "id": "A183203",
+  "mentions": [
+    "A131338",
+    "A183202"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

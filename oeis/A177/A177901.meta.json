@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n > 1 such that log_10(n!) is closer to an integer than at any smaller n.",
+  "id": "A177901",
+  "mentions": [
+    "A034886",
+    "A249829",
+    "A250022"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k with all digits distinct and nonzero, such that none of k's digits divide k, but all the nonzero digits not in k do divide k.",
+  "id": "A133598",
+  "mentions": [
+    "A133606"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

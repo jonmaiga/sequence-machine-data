@@ -1,0 +1,21 @@
+{
+  "description": "Position of the first time an n-digit number appears twice in a row after the decimal point of e.",
+  "id": "A288291",
+  "mentions": [
+    "A001113",
+    "A287994",
+    "A290984"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

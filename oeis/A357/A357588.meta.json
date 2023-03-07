@@ -1,0 +1,18 @@
+{
+  "description": "The compositional inverse of n -> n^[isprime(n)], where [b] is the Iverson bracket of b.",
+  "id": "A357588",
+  "mentions": [
+    "A089026",
+    "A357368"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

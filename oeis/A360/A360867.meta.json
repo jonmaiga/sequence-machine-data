@@ -1,0 +1,23 @@
+{
+  "description": "Number of unlabeled connected loopless multigraphs with n edges and degree >= 3 at each node.",
+  "id": "A360867",
+  "mentions": [
+    "A076864",
+    "A360863",
+    "A360866",
+    "A360868",
+    "A360869"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

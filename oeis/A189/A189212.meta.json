@@ -1,0 +1,21 @@
+{
+  "description": "Zero-one sequence based on the hexagonal numbers: a(A000384(k))=a(k); a(v(k))=1-a(k), where v=A183218 and a(1)=0.",
+  "id": "A189212",
+  "mentions": [
+    "A000384",
+    "A183218",
+    "A188967",
+    "A189213",
+    "A189214"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:49:27",
+    "offset": 1,
+    "size": 135,
+    "source": "joeis"
+  }
+}

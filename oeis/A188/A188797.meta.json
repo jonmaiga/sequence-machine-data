@@ -1,0 +1,23 @@
+{
+  "description": "Square array read by antidiagonals: T(m,n) (m>=0, n>=0) are the coefficients in an expansion of the Weierstrass sigma-function.",
+  "id": "A188797",
+  "mentions": [
+    "A188798",
+    "A188799",
+    "A188800",
+    "A188801"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

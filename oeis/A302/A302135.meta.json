@@ -1,0 +1,21 @@
+{
+  "description": "Primes of form 9*k^k - 8.",
+  "id": "A302135",
+  "mentions": [
+    "A301870",
+    "A302124",
+    "A302134",
+    "A302137"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

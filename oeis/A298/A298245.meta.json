@@ -1,0 +1,30 @@
+{
+  "description": "Expansion of e.g.f. exp(cos(tanh(x))-1) (even powers only).",
+  "id": "A298245",
+  "mentions": [
+    "A003711",
+    "A009090",
+    "A009201",
+    "A009202",
+    "A009203",
+    "A009204",
+    "A009238",
+    "A009239",
+    "A009240",
+    "A009241",
+    "A009254",
+    "A297214",
+    "A297215"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:13",
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

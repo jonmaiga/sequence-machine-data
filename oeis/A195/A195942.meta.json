@@ -1,0 +1,40 @@
+{
+  "description": "Zeroless prime powers (excluding primes): Intersection of A025475 and A052382.",
+  "id": "A195942",
+  "mentions": [
+    "A007377",
+    "A008839",
+    "A010051",
+    "A010055",
+    "A025475",
+    "A030700",
+    "A030701",
+    "A030702",
+    "A030703",
+    "A030704",
+    "A030705",
+    "A030706",
+    "A052382",
+    "A168046",
+    "A195908",
+    "A195943",
+    "A195944",
+    "A195945",
+    "A195946",
+    "A195948",
+    "A195985"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

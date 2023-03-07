@@ -1,0 +1,26 @@
+{
+  "description": "Triangle, read by rows, where row n equals the coefficients of y^k in R_{n-1}(y+y^2) for k=1..n where R_n(y) is the n-th row polynomial in y for n>1 with R_1(y)=y.",
+  "id": "A187005",
+  "mentions": [
+    "A135080",
+    "A135081",
+    "A187006",
+    "A187007",
+    "A187008",
+    "A187009",
+    "A187115",
+    "A187120"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

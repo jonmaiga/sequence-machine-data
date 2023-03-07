@@ -1,0 +1,25 @@
+{
+  "description": "Exponent of the highest power of 2 dividing number of divisors of n: a(n) = A007814(A000005(n)); 2-adic valuation of tau(n).",
+  "id": "A295664",
+  "mentions": [
+    "A000005",
+    "A000290",
+    "A007814",
+    "A028234",
+    "A056169",
+    "A067029",
+    "A162642",
+    "A295663"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:14",
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

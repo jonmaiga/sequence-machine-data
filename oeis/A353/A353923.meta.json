@@ -1,0 +1,23 @@
+{
+  "description": "Product_{n>=1} (1 + a(n)*x^n) = 1 + Sum_{n>=1} tau(n)*x^n, where tau = A000005.",
+  "id": "A353923",
+  "mentions": [
+    "A000005",
+    "A320779",
+    "A328775",
+    "A353924",
+    "A353925",
+    "A353926"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

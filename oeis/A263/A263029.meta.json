@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that A002322(n) + 1 is not a prime, where A002322 is Carmichael lambda.",
+  "id": "A263029",
+  "mentions": [
+    "A002322",
+    "A039689",
+    "A263027",
+    "A263028",
+    "A296077"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

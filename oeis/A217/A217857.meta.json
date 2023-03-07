@@ -1,0 +1,18 @@
+{
+  "description": "w(n) = w(pqr) = Gpf(p + q)*Gpf(p + r)*Gpf(q + r), defined when n belongs to A217856, with Gpf(m): greatest prime dividing m.",
+  "id": "A217857",
+  "mentions": [
+    "A006530",
+    "A217856"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

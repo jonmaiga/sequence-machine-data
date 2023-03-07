@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n^2 mod p where p is the least prime greater than n.",
+  "id": "A257231",
+  "mentions": [
+    "A000101",
+    "A257230"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

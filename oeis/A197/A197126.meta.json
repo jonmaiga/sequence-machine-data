@@ -1,0 +1,32 @@
+{
+  "description": "Triangle T(n,k), n>=1, 1<=k<=n, read by rows: T(n,k) is the number of cliques of size k in all partitions of n.",
+  "id": "A197126",
+  "mentions": [
+    "A000012",
+    "A000070",
+    "A002865",
+    "A024786",
+    "A116646",
+    "A117524",
+    "A213180",
+    "A222704",
+    "A222705",
+    "A222706",
+    "A222707",
+    "A222708",
+    "A222709",
+    "A222710"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:18",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

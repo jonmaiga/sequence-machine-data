@@ -1,0 +1,20 @@
+{
+  "description": "Let b be the n-th composite number, A002808(n); a(n) is number of base-b digits x,y,z such that (xb+y)/(zb+x)=y/z.",
+  "id": "A259981",
+  "mentions": [
+    "A002808",
+    "A005381",
+    "A144925",
+    "A259983"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

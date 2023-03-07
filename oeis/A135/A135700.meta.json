@@ -1,0 +1,21 @@
+{
+  "description": "Palindromes formed from the reflected decimal expansion of golden ratio phi.",
+  "id": "A135700",
+  "mentions": [
+    "A001622",
+    "A002113",
+    "A138072",
+    "A138073"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

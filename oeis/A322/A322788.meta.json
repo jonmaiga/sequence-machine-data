@@ -1,0 +1,36 @@
+{
+  "description": "Irregular triangle read by rows where if d|n then T(n,d) is the number of uniform multiset partitions of a multiset with d copies of each integer from 1 to n/d.",
+  "id": "A322788",
+  "mentions": [
+    "A001055",
+    "A002110",
+    "A005176",
+    "A038041",
+    "A056239",
+    "A072774",
+    "A100778",
+    "A295193",
+    "A306017",
+    "A319190",
+    "A319612",
+    "A322784",
+    "A322785",
+    "A322786",
+    "A322789",
+    "A322792",
+    "A322794"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

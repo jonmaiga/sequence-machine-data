@@ -1,0 +1,20 @@
+{
+  "description": "Calculated atomic radii (in picometers) of the chemical elements.",
+  "id": "A319904",
+  "mentions": [
+    "A081100",
+    "A081101",
+    "A319914"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

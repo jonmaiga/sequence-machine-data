@@ -1,0 +1,20 @@
+{
+  "description": "Smallest prime of the form (prime(k)+2*n)/(2*n+1), any k.",
+  "id": "A136019",
+  "mentions": [
+    "A136020",
+    "A136026",
+    "A136027"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

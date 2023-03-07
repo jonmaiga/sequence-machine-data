@@ -1,0 +1,18 @@
+{
+  "description": "a(0)=1, a(1)=a(2)=2, a(3)=8 and for n >= 4: if n == 0 (mod 4), a(n)=2, if n == 1 (mod 4), a(n)=8, if n == 2 (mod 4), a(n)=2, if n == 3 (mod 8), a(n)=32, if n = 16k + 15, a(n) = 128*4^k, and if n = 16k+7, a(n) = 128*4^(k-1).",
+  "id": "A174354",
+  "mentions": [
+    "A174353"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

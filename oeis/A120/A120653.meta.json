@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: numbers of isomers of unbranched a-4-catapolyheptagons.",
+  "id": "A120653",
+  "mentions": [
+    "A063376",
+    "A121138",
+    "A121141"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers x such that BCR(x) = R(x), where BCR = binary-complement-and-reverse = take one's complement then reverse bit order and R(x) is the digits reverse of n.",
+  "id": "A279624",
+  "mentions": [
+    "A004086",
+    "A035928",
+    "A036044"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

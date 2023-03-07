@@ -1,0 +1,21 @@
+{
+  "description": "Number of primes p < 10^n such that c - p is prime, where c is the next cube greater than p.",
+  "id": "A146759",
+  "mentions": [
+    "A006880",
+    "A146756",
+    "A146757",
+    "A146760"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

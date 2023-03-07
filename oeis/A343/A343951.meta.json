@@ -1,0 +1,22 @@
+{
+  "description": "Numbers with decimal expansion (d_1, ..., d_k) such that all the sums d_i + ... + d_j with 1 <= i <= j <= k are distinct.",
+  "id": "A343951",
+  "mentions": [
+    "A010784",
+    "A052382",
+    "A101274"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

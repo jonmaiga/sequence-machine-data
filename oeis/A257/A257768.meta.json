@@ -1,0 +1,20 @@
+{
+  "description": "Numbers m such that for some power k, m is the sum of d + d^k as d runs through the digits of m.",
+  "id": "A257768",
+  "mentions": [
+    "A111434",
+    "A115518",
+    "A130680"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

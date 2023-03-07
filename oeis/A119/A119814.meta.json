@@ -1,0 +1,23 @@
+{
+  "description": "Numerators of the convergents to the continued fraction for the constant A119812 defined by binary sums involving Beatty sequences: c = Sum_{n>=1} A049472(n)/2^n = Sum_{n>=1} 1/2^A001951(n).",
+  "id": "A119814",
+  "mentions": [
+    "A001333",
+    "A001951",
+    "A049472",
+    "A119809",
+    "A119812",
+    "A119813"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

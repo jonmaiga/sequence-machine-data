@@ -1,0 +1,18 @@
+{
+  "description": "Image of n under the 3p+1 map, which is a variation of the 3x+1 (Collatz) map.",
+  "id": "A266551",
+  "mentions": [
+    "A006370",
+    "A175871"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 2,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

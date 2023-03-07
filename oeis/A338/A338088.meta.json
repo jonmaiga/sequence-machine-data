@@ -1,0 +1,19 @@
+{
+  "description": "Smallest prime numbers which can be represented as x^2 + h*y^2 with x > 0 for every h in the first n idoneal numbers.",
+  "id": "A338088",
+  "mentions": [
+    "A000926"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

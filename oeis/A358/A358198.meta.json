@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the first member p of A007530 such that, with q = p+2, r = p+6 and s = p+8, (2*p+q)/5 is a prime and (r+2*s)/5^n is a prime.",
+  "id": "A358198",
+  "mentions": [
+    "A007530",
+    "A358149"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

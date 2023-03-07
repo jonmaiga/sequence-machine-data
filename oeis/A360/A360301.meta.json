@@ -1,0 +1,25 @@
+{
+  "description": "Smallest exclusionary square (A029783) with exactly n distinct prime factors.",
+  "id": "A360301",
+  "mentions": [
+    "A002110",
+    "A029783",
+    "A060319",
+    "A083002",
+    "A359960",
+    "A359961"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

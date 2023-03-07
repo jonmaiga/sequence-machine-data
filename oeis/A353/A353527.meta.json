@@ -1,0 +1,24 @@
+{
+  "description": "The smallest prime not dividing 2*n, reduced modulo 4.",
+  "id": "A353527",
+  "mentions": [
+    "A010873",
+    "A053669",
+    "A353487",
+    "A353517",
+    "A353526",
+    "A353528",
+    "A353529"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

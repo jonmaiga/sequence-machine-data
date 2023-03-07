@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows where row n lists primitive first differences in the reduced residue system of A002110(n).",
+  "id": "A331118",
+  "mentions": [
+    "A002110",
+    "A005867",
+    "A048670",
+    "A286941",
+    "A329815"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

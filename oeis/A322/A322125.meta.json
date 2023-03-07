@@ -1,0 +1,21 @@
+{
+  "description": "Minimum number of shaded cells in an n X n Hitori solution grid.",
+  "id": "A322125",
+  "mentions": [
+    "A321684",
+    "A322150"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

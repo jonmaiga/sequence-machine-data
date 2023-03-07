@@ -1,0 +1,30 @@
+{
+  "description": "Positive integers n such that n | (5^n + 6).",
+  "id": "A277348",
+  "mentions": [
+    "A015891",
+    "A015951",
+    "A066603",
+    "A067946",
+    "A123047",
+    "A123052",
+    "A123061",
+    "A123062",
+    "A123091",
+    "A124246",
+    "A125949",
+    "A277350"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

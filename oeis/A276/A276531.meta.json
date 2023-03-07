@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (a(n-1) * a(n-5) + a(n-2) * a(n-3) * a(n-4)) / a(n-6), with a(0) = a(1) = a(2) = a(3) = a(4) = a(5) = 1.",
+  "id": "A276531",
+  "mentions": [
+    "A006721",
+    "A048736"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Square array T(n, k) read by antidiagonals upwards, n > 0 and k > 0: T(n, k) is the distance from n to the nearest prime(k)-smooth number (where prime(k) denotes the k-th prime number).",
+  "id": "A302721",
+  "mentions": [
+    "A053646",
+    "A061395",
+    "A301574",
+    "A303545"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

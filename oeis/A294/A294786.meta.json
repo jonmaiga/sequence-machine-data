@@ -1,0 +1,24 @@
+{
+  "description": "Number of ways to choose a set partition of a factorization of n into distinct factors greater than one such that different blocks have different products.",
+  "id": "A294786",
+  "mentions": [
+    "A000258",
+    "A001055",
+    "A045778",
+    "A279375",
+    "A281113",
+    "A294787",
+    "A294788"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

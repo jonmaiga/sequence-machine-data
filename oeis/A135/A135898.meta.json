@@ -1,0 +1,22 @@
+{
+  "description": "Triangle, read by rows equal to the matrix product P^-1*R, where P = A135880 and R = A135894; P^-1*R equals triangle P shifted right one column.",
+  "id": "A135898",
+  "mentions": [
+    "A135880",
+    "A135885",
+    "A135894",
+    "A135899",
+    "A135900"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

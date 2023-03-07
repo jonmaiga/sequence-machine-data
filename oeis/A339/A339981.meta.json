@@ -1,0 +1,19 @@
+{
+  "description": "Primitive coreful Zumkeller numbers: coreful Zumkeller numbers (A339979) having no coreful Zumkeller aliquot divisor.",
+  "id": "A339981",
+  "mentions": [
+    "A180332",
+    "A307959",
+    "A339979"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

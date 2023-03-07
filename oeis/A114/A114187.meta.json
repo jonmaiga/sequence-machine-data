@@ -1,0 +1,22 @@
+{
+  "description": "Difference between first semiprime >= n! and n!. Least k such that n!+k is semiprime.",
+  "id": "A114187",
+  "mentions": [
+    "A000142",
+    "A001358",
+    "A085747",
+    "A098147"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Triangular table: T(n,k) = 0 if k does not divide n, otherwise T(n,k) = P(A046523(k), n/k), where P is sequence A000027 used as a pairing function N x N -> N. Table is read by rows as T(1,1), T(2,1), T(2,2), etc.",
+  "id": "A286247",
+  "mentions": [
+    "A000027",
+    "A000124",
+    "A000217",
+    "A002024",
+    "A002260",
+    "A004736",
+    "A008683",
+    "A027375",
+    "A046523",
+    "A051731",
+    "A054718",
+    "A286237",
+    "A286245",
+    "A286249"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

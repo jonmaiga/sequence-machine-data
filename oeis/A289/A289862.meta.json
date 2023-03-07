@@ -1,0 +1,17 @@
+{
+  "description": "Primes of the form k!12-2, where k!12 is the 12-way factorial number.",
+  "id": "A289862",
+  "mentions": [
+    "A284132"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:04",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

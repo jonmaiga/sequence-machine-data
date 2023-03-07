@@ -1,0 +1,23 @@
+{
+  "description": "Analog of A084848, replacing \"quadratic residue\" (X^2) with \"value of X(3X-1)/2\". a(n) = A290732(A290729(n)).",
+  "id": "A290730",
+  "mentions": [
+    "A000326",
+    "A084848",
+    "A085635",
+    "A290727",
+    "A290728",
+    "A290729",
+    "A290732"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

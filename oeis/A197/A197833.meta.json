@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of least x > 0 having sin(2*x) = 3*Pi*sin(3*Pi*x).",
+  "id": "A197833",
+  "mentions": [
+    "A197739",
+    "A197834",
+    "A197835",
+    "A197836",
+    "A197837",
+    "A197838"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:55",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

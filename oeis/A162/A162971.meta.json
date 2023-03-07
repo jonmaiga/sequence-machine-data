@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is number of non-derangement permutations of {1,2,...,n} having k cycles (1 <= k <= n).",
+  "id": "A162971",
+  "mentions": [
+    "A001048",
+    "A002467",
+    "A162972"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

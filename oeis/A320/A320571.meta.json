@@ -1,0 +1,20 @@
+{
+  "description": "a(0) = 1; thereafter a(n) is the smallest prime divisor of the number C(6n+1) formeded from the concatenation of 1,2,3,...,6n+1.",
+  "id": "A320571",
+  "mentions": [
+    "A007908",
+    "A075019"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

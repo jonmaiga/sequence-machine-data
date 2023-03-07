@@ -1,0 +1,23 @@
+{
+  "description": "Number of ways to write n as w^2 + x^2 + y^2 + z^2 with w a positive integer and x,y,z nonnegative integers such that x^3 + 4*y*z*(y-z) is a square.",
+  "id": "A279056",
+  "mentions": [
+    "A000118",
+    "A000290",
+    "A271518",
+    "A272332",
+    "A272336",
+    "A272351",
+    "A272888"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:46",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

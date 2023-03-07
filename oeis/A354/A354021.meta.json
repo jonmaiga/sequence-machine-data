@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Sum_{1 <= i < j < k < m <= n} (m*k*j*i)^2.",
+  "id": "A354021",
+  "mentions": [
+    "A000290",
+    "A000330",
+    "A000596",
+    "A000597",
+    "A001298",
+    "A353021"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:45",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Partial sums of A000262.",
+  "id": "A173227",
+  "mentions": [
+    "A000262",
+    "A001263",
+    "A001700",
+    "A002868",
+    "A008297",
+    "A052852",
+    "A066668",
+    "A111596"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:57",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

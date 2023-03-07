@@ -1,0 +1,21 @@
+{
+  "description": "Numerators of binomial(n-1, 2)/(6*n), for n >= 1. Numerators of Dedekind sum s(1, n).",
+  "id": "A264388",
+  "mentions": [
+    "A161680",
+    "A264389"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

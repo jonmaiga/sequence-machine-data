@@ -1,0 +1,29 @@
+{
+  "description": "Number A(n,k) of singular vector tuples for a general k-dimensional {n}^k tensor; square array A(n,k), n>=1, k>=1, read by antidiagonals.",
+  "id": "A284308",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000142",
+    "A271905",
+    "A272551",
+    "A274308",
+    "A283829",
+    "A283830",
+    "A284309",
+    "A287083",
+    "A287084",
+    "A287085"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

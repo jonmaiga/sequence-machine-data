@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of dispersed Dyck prefixes (i.e., left factors of Motzkin paths with no (1,0) steps at positive heights) of length n and height k.",
+  "id": "A282869",
+  "mentions": [
+    "A000071",
+    "A000079",
+    "A191314",
+    "A283799"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:53",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

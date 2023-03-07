@@ -1,0 +1,21 @@
+{
+  "description": "The difference between n and the product of the digits of the n-th prime.",
+  "id": "A213394",
+  "mentions": [
+    "A000027",
+    "A053666"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

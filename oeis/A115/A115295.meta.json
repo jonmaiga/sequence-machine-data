@@ -1,0 +1,20 @@
+{
+  "description": "Partial sums of squares of A115291(n).",
+  "id": "A115295",
+  "mentions": [
+    "A115291",
+    "A115292"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:47:17",
+    "offset": 0,
+    "size": 46,
+    "source": "joeis"
+  }
+}

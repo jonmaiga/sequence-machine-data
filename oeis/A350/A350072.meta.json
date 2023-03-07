@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = sigma(n^2) / gcd(sigma(n^2), A003961(n^2)), where A003961 shifts the prime factorization of n one step towards larger primes, and sigma is the sum of divisors function.",
+  "id": "A350072",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A008848",
+    "A064989",
+    "A065764",
+    "A069070",
+    "A336547",
+    "A349162",
+    "A349756",
+    "A350071",
+    "A350073"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

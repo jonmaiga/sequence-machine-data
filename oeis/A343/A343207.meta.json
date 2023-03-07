@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that there exists a unique partition of k into positive integers x,y,z such that x+y, y+z and x+z divide x*y, y*z and x*z, respectively.",
+  "id": "A343207",
+  "mentions": [
+    "A005279",
+    "A010814",
+    "A343126"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

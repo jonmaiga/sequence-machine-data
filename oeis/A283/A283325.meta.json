@@ -1,0 +1,17 @@
+{
+  "description": "Lengths of runs of successive zeros in A283683.",
+  "id": "A283325",
+  "mentions": [
+    "A283683"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:54",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

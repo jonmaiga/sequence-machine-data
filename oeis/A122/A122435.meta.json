@@ -1,0 +1,19 @@
+{
+  "description": "Complex numbers a+bi which are divisible by the sum of their complex prime factors with repetition (complex sopfr). The prime factors are from the first quadrant only, as defined in A103431. This sequence gives the real part a of these numbers, the imaginary part b is in A122436.",
+  "id": "A122435",
+  "mentions": [
+    "A103431",
+    "A103432",
+    "A122436"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

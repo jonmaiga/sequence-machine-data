@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the smallest integer that has exactly n Lucas divisors (A000032).",
+  "id": "A356062",
+  "mentions": [
+    "A000032",
+    "A087997",
+    "A129655",
+    "A304092",
+    "A333456",
+    "A356063"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

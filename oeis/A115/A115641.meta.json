@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that are the least element of a k-cycle (k > 1) of permutation A113821.",
+  "id": "A115641",
+  "mentions": [
+    "A113821",
+    "A115640",
+    "A115642"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

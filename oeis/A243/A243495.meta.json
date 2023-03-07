@@ -1,0 +1,21 @@
+{
+  "description": "Indices in A014486 for the oriented trees that stay the same when \"deep-rotated\": fixed points of A057511/A057512.",
+  "id": "A243495",
+  "mentions": [
+    "A014486",
+    "A057511",
+    "A057512",
+    "A243496",
+    "A243497"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

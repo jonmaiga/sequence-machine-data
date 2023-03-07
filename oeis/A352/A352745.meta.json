@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the number of Lyndon factors of the Fibonacci string of length n.",
+  "id": "A352745",
+  "mentions": [
+    "A000045",
+    "A014707",
+    "A074650",
+    "A117248",
+    "A211100",
+    "A352744",
+    "A352746"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

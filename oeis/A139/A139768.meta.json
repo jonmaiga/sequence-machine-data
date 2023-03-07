@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that (10^(n+1) mod 9^(n+1))/(10^n mod 9^n)=10, or A139739(n+1)/A139739(n)=10.",
+  "id": "A139768",
+  "mentions": [
+    "A065566",
+    "A139739"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:27",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

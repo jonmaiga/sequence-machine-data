@@ -1,0 +1,27 @@
+{
+  "description": "Primes p for which A049820(x) = p has no solution.",
+  "id": "A263091",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A002182",
+    "A002183",
+    "A010051",
+    "A045765",
+    "A049591",
+    "A049820",
+    "A060990",
+    "A067774",
+    "A263090"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

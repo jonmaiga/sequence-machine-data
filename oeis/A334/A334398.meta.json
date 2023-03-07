@@ -1,0 +1,19 @@
+{
+  "description": "Number of endless self-avoiding walks of length n for the square lattice up to rotation, reflection, and path reversal.",
+  "id": "A334398",
+  "mentions": [
+    "A334322"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

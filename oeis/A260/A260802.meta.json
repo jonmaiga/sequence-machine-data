@@ -1,0 +1,20 @@
+{
+  "description": "Odd numbers x = 2n - 1 such that the concatenation of A019519(n) and A038395(n-1) is prime.",
+  "id": "A260802",
+  "mentions": [
+    "A019519",
+    "A038395"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

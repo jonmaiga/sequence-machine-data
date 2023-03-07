@@ -1,0 +1,30 @@
+{
+  "description": "Numbers k such that Product_{d|k^2, gcd(d,k^2/d) is prime} gcd(d,k^2/d) = k^2.",
+  "id": "A296205",
+  "mentions": [
+    "A000196",
+    "A004709",
+    "A006881",
+    "A007774",
+    "A054753",
+    "A056239",
+    "A085986",
+    "A112798",
+    "A118914",
+    "A295666",
+    "A296204",
+    "A307370",
+    "A325240"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:32:27",
+    "offset": 1,
+    "size": 73,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Position of zeros in A137161.",
+  "id": "A137162",
+  "mentions": [
+    "A137161",
+    "A137163"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

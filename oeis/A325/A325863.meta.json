@@ -1,0 +1,31 @@
+{
+  "description": "Number of integer partitions of n such that every distinct non-singleton submultiset has a different sum.",
+  "id": "A325863",
+  "mentions": [
+    "A002033",
+    "A055212",
+    "A108917",
+    "A143823",
+    "A196723",
+    "A276024",
+    "A299702",
+    "A325856",
+    "A325862",
+    "A325864",
+    "A325865",
+    "A325866",
+    "A325867",
+    "A325877"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

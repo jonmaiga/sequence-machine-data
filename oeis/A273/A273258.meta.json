@@ -1,0 +1,29 @@
+{
+  "description": "Write the distinct prime divisors p of n in the (PrimePi(p) - 1)-th place, ignoring multiplicity. Decode the resulting number after first reversing the code, ignoring any leading zeros.",
+  "id": "A273258",
+  "mentions": [
+    "A007947",
+    "A019565",
+    "A030101",
+    "A039956",
+    "A054841",
+    "A069799",
+    "A087207",
+    "A137502",
+    "A276379",
+    "A293448"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

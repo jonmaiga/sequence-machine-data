@@ -1,0 +1,23 @@
+{
+  "description": "Trisection A022998(3n+1).",
+  "id": "A166138",
+  "mentions": [
+    "A016921",
+    "A017617",
+    "A022998",
+    "A165988",
+    "A166304"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:35:15",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

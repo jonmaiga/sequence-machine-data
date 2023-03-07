@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,m) = (n/k)^(k-1), where k is the m-th divisor of n, 1 <= m <= tau(n).",
+  "id": "A213919",
+  "mentions": [
+    "A000005",
+    "A027750",
+    "A087909",
+    "A167401",
+    "A208239"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

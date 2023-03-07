@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that 16*n+3 is not prime.",
+  "id": "A153348",
+  "mentions": [
+    "A092022"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

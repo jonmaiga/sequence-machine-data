@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest prime q such that, for the previous prime p and the following prime r, the fraction (q-p)/(r-q) has denominator n (or 0, if such a prime does not exist).",
+  "id": "A168253",
+  "mentions": [
+    "A001223",
+    "A179210",
+    "A179234"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:52",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Ordinal transform of A300721, which is Möbius transform of A060681.",
+  "id": "A322873",
+  "mentions": [
+    "A060681",
+    "A081373",
+    "A300721",
+    "A303756",
+    "A322871",
+    "A322874"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

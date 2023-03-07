@@ -1,0 +1,22 @@
+{
+  "description": "Triangular array: sums of two distinct upper Wythoff numbers.",
+  "id": "A259601",
+  "mentions": [
+    "A000045",
+    "A001950",
+    "A259556",
+    "A259600"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 2,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

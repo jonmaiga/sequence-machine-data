@@ -1,0 +1,25 @@
+{
+  "description": "Triangle T(n,k) read by rows: Number of order-reversing full contraction mappings (of an n-chain) with 1 fixed point and height exactly k.",
+  "id": "A221879",
+  "mentions": [
+    "A059570",
+    "A221876",
+    "A221877",
+    "A221878",
+    "A221880",
+    "A221881",
+    "A221882"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

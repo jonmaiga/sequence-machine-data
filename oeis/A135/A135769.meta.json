@@ -1,0 +1,23 @@
+{
+  "description": "Pentagonal numbers > 0 which are not the difference of two other pentagonal numbers > 0.",
+  "id": "A135769",
+  "mentions": [
+    "A000326",
+    "A135768",
+    "A135771",
+    "A136112",
+    "A136113",
+    "A136118"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

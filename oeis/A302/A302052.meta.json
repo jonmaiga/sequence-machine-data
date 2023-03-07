@@ -1,0 +1,35 @@
+{
+  "description": "Characteristic function for A302053; an analog of A010052 (char. fun of squares) for the nonstandard factorization based on the sieve of Eratosthenes (A083221).",
+  "id": "A302052",
+  "mentions": [
+    "A000265",
+    "A001511",
+    "A003961",
+    "A010052",
+    "A020639",
+    "A055396",
+    "A078898",
+    "A083221",
+    "A250246",
+    "A253557",
+    "A302039",
+    "A302041",
+    "A302044",
+    "A302045",
+    "A302050",
+    "A302051",
+    "A302053",
+    "A302055"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 0,
+    "size": 116,
+    "source": "oeis-bfile"
+  }
+}

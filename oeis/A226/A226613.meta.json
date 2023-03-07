@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the conjectured number of primitive cycles of positive integers under iteration by the Collatz-like 3x+k function, where n=floor(k/3)+1.",
+  "id": "A226613",
+  "mentions": [
+    "A226607",
+    "A226611",
+    "A226612",
+    "A226629",
+    "A226663"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

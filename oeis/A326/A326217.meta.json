@@ -1,0 +1,35 @@
+{
+  "description": "Number of labeled n-vertex digraphs (without loops) containing a Hamiltonian path.",
+  "id": "A326217",
+  "mentions": [
+    "A000595",
+    "A002416",
+    "A003024",
+    "A003216",
+    "A053763",
+    "A057864",
+    "A283420",
+    "A326204",
+    "A326206",
+    "A326208",
+    "A326213",
+    "A326214",
+    "A326216",
+    "A326219",
+    "A326221",
+    "A326225"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "changed",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

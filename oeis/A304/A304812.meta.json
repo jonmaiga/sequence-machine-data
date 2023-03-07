@@ -1,0 +1,19 @@
+{
+  "description": "Solution (b(n)) of the complementary equation a(n) = b(2n) + b(5n); see Comments.",
+  "id": "A304812",
+  "mentions": [
+    "A304799",
+    "A304811"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

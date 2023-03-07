@@ -1,0 +1,47 @@
+{
+  "description": "Number of ordered triples of positive integers summing to n whose set of distinct parts is pairwise coprime, where a singleton is not considered coprime unless it is (1).",
+  "id": "A337603",
+  "mentions": [
+    "A000217",
+    "A000740",
+    "A001399",
+    "A001840",
+    "A007318",
+    "A007359",
+    "A014311",
+    "A051424",
+    "A069905",
+    "A087087",
+    "A097805",
+    "A101268",
+    "A178472",
+    "A211540",
+    "A220377",
+    "A284825",
+    "A302696",
+    "A304711",
+    "A305713",
+    "A307719",
+    "A327516",
+    "A333227",
+    "A333228",
+    "A335235",
+    "A335238",
+    "A337461",
+    "A337561",
+    "A337601",
+    "A337602",
+    "A337665",
+    "A337695"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of n-step self-avoiding walks starting at the origin that are restricted to the boundary walls of the first octant of the cubic lattice.",
+  "id": "A330079",
+  "mentions": [
+    "A000937",
+    "A001411",
+    "A001412",
+    "A099155"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

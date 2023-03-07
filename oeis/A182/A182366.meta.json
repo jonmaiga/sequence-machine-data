@@ -1,0 +1,22 @@
+{
+  "description": "Records in A194217.",
+  "id": "A182366",
+  "mentions": [
+    "A080359",
+    "A104272",
+    "A193507",
+    "A194184",
+    "A194186",
+    "A194217"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

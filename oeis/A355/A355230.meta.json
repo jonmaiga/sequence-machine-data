@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f. A(x) satisfies A'(x) = 1 - log(1-x) * A(2*x).",
+  "id": "A355230",
+  "mentions": [
+    "A355086",
+    "A355229",
+    "A355231"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

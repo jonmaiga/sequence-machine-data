@@ -1,0 +1,31 @@
+{
+  "description": "Characteristic function of cubefree numbers, A004709.",
+  "id": "A212793",
+  "mentions": [
+    "A000005",
+    "A000007",
+    "A001221",
+    "A004709",
+    "A008966",
+    "A046099",
+    "A053864",
+    "A060431",
+    "A073184",
+    "A088453",
+    "A112526",
+    "A124010",
+    "A307423"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

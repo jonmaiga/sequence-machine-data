@@ -1,0 +1,21 @@
+{
+  "description": "Smallest prime factor of prime(n)! - prime(n)# + 1.",
+  "id": "A103856",
+  "mentions": [
+    "A020639",
+    "A103855",
+    "A103857",
+    "A103891"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

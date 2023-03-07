@@ -1,0 +1,25 @@
+{
+  "description": "Pascal-like triangle with trigonometric properties, row sums = powers of 4; generated from shifted columns of triangle A180062.",
+  "id": "A180063",
+  "mentions": [
+    "A000302",
+    "A001835",
+    "A003835",
+    "A007318",
+    "A125076",
+    "A152063",
+    "A180062"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

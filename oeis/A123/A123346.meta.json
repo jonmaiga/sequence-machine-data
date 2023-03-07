@@ -1,0 +1,34 @@
+{
+  "description": "Mirror image of the Bell triangle A011971, which is also called the Pierce triangle or Aitken's array.",
+  "id": "A123346",
+  "mentions": [
+    "A000110",
+    "A005493",
+    "A011965",
+    "A011966",
+    "A011968",
+    "A011969",
+    "A011971",
+    "A011972",
+    "A040027",
+    "A046934",
+    "A094577",
+    "A095149",
+    "A106436",
+    "A108041",
+    "A108042",
+    "A108043"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

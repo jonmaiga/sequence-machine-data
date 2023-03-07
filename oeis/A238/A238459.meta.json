@@ -1,0 +1,23 @@
+{
+  "description": "Number of primes p < n with q(n-p) + 1 prime, where q(.) is the strict partition function (A000009).",
+  "id": "A238459",
+  "mentions": [
+    "A000009",
+    "A000040",
+    "A237705",
+    "A237768",
+    "A237769",
+    "A238457",
+    "A238458"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Triangle T(n,k), n>=1, 1<=k<=n, read by rows, where sequence a_k of column k begins with (k+1) 1's and a_k(n) shifts k places down under Dirichlet convolution.",
+  "id": "A144374",
+  "mentions": [
+    "A000005",
+    "A000012",
+    "A038044",
+    "A144366",
+    "A144367",
+    "A144368",
+    "A144369",
+    "A144370",
+    "A144371",
+    "A144372",
+    "A144373"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "eigen",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

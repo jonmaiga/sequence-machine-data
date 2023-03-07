@@ -1,0 +1,22 @@
+{
+  "description": "Numbers of the form (x - y)(x^2 - y^2) with x > y > 0.",
+  "id": "A321499",
+  "mentions": [
+    "A106505",
+    "A321491",
+    "A321498",
+    "A321501"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:51:43",
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

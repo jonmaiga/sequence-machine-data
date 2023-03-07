@@ -1,0 +1,26 @@
+{
+  "description": "Least positive integer x such that n + x^2 = y^3 + z^4 for some positive integers y and z, or 0 if no such x exists.",
+  "id": "A266363",
+  "mentions": [
+    "A000290",
+    "A000578",
+    "A000583",
+    "A266152",
+    "A266153",
+    "A266230",
+    "A266231",
+    "A266277",
+    "A266314",
+    "A266364"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:27",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

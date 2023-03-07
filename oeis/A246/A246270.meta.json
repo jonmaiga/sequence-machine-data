@@ -1,0 +1,23 @@
+{
+  "description": "Number of prime factors of the form 4k+3 (counted with multiplicity) in A003961(n): a(n) = A065339(A003961(n)).",
+  "id": "A246270",
+  "mentions": [
+    "A001222",
+    "A003961",
+    "A007949",
+    "A065339",
+    "A246269",
+    "A246272"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

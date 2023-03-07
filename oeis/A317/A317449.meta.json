@@ -1,0 +1,29 @@
+{
+  "description": "Regular triangle where T(n,k) is the number of multiset partitions of strongly normal multisets of size n into k blocks, where a multiset is strongly normal if it spans an initial interval of positive integers with weakly decreasing multiplicities.",
+  "id": "A317449",
+  "mentions": [
+    "A000041",
+    "A001055",
+    "A007716",
+    "A035310",
+    "A045778",
+    "A255906",
+    "A281116",
+    "A317584",
+    "A317654",
+    "A317755",
+    "A317775",
+    "A317776"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:36",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

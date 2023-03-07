@@ -1,0 +1,19 @@
+{
+  "description": "Positions where the monotonicity of A061712 is broken.",
+  "id": "A211998",
+  "mentions": [
+    "A061712",
+    "A211997"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

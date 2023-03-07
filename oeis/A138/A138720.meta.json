@@ -1,0 +1,22 @@
+{
+  "description": "Concatenation of k digits 1, k digits 0 and k digits 1, where k is the n-th positive triangular number.",
+  "id": "A138720",
+  "mentions": [
+    "A000217",
+    "A138179",
+    "A138721",
+    "A138722"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

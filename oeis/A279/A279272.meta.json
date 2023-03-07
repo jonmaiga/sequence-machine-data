@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k^7 - 1 and k^7 + 1 are semiprimes.",
+  "id": "A279272",
+  "mentions": [
+    "A105041",
+    "A108278",
+    "A261436",
+    "A268043",
+    "A276905"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

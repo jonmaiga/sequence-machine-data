@@ -1,0 +1,19 @@
+{
+  "description": "Prime transformed products of prime factors of the composites, the largest prime decremented by 2, the smallest by 1.",
+  "id": "A141465",
+  "mentions": [
+    "A002808",
+    "A052369",
+    "A056608"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that there is no prime p between k and (9/8)k, exclusive.",
+  "id": "A331125",
+  "mentions": [
+    "A285586",
+    "A327802"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

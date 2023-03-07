@@ -1,0 +1,21 @@
+{
+  "description": "Number of permutations p of [n] such that p(p(i)) = i for all i or p(n+1-p(i)) = n+1-i for all i.",
+  "id": "A297708",
+  "mentions": [
+    "A000085",
+    "A001813",
+    "A006882",
+    "A135401"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:18",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

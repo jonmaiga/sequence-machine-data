@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{i=0..n} digsum_4(i), where digsum_4(i) = A053737(i).",
+  "id": "A231664",
+  "mentions": [
+    "A053737",
+    "A231665",
+    "A231666",
+    "A231667"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

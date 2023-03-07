@@ -1,0 +1,22 @@
+{
+  "description": "a(1) = 1; a(n+1) = Sum_{d|n} (-1)^(n/d+d)*a(d).",
+  "id": "A307777",
+  "mentions": [
+    "A003238",
+    "A281487",
+    "A307776",
+    "A307778",
+    "A307779"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Factorial expansion of (1-sqrt(5))/2 = Sum_{n>=1} a(n)/n!.",
+  "id": "A322119",
+  "mentions": [
+    "A001622",
+    "A068451",
+    "A094214"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Numbers n such that prime(n)^2-2 is prime.",
+  "id": "A137291",
+  "mentions": [
+    "A000040",
+    "A010051",
+    "A049001",
+    "A049002",
+    "A049084",
+    "A062326",
+    "A103960",
+    "A210481",
+    "A242719",
+    "A242720",
+    "A246824"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:25",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "description": "Number A(n,k) of partitions of n into parts of the k-th list of distinct parts in the order given by A246688; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A246720",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000115",
+    "A001399",
+    "A002266",
+    "A008616",
+    "A008619",
+    "A008620",
+    "A008621",
+    "A008642",
+    "A008676",
+    "A008679",
+    "A025767",
+    "A059841",
+    "A079978",
+    "A079979",
+    "A079998",
+    "A082784",
+    "A097992",
+    "A103221",
+    "A121262",
+    "A246688",
+    "A246690",
+    "A246721"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

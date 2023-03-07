@@ -1,0 +1,22 @@
+{
+  "description": "Primes p with prime(p) - p + 1 and (p^2 - 1)/4 - prime(p) both prime.",
+  "id": "A235920",
+  "mentions": [
+    "A000040",
+    "A234695",
+    "A235727",
+    "A235806",
+    "A235914",
+    "A235919"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:53",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

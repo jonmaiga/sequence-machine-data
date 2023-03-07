@@ -1,0 +1,21 @@
+{
+  "description": "Rational parts of the Q(sqrt(3)) integers giving the square of the radii for lattice point circles for the Archimedean tiling (3, 4, 6, 4).",
+  "id": "A249870",
+  "mentions": [
+    "A245094",
+    "A249871",
+    "A251627",
+    "A251628"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

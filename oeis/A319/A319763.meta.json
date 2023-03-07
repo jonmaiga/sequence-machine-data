@@ -1,0 +1,33 @@
+{
+  "description": "Number of non-isomorphic strict intersecting multiset partitions (sets of multisets) of weight n with empty intersection.",
+  "id": "A319763",
+  "mentions": [
+    "A007716",
+    "A281116",
+    "A283877",
+    "A305854",
+    "A306006",
+    "A316980",
+    "A317757",
+    "A318715",
+    "A318717",
+    "A319752",
+    "A319759",
+    "A319762",
+    "A319764",
+    "A319765",
+    "A319779",
+    "A319781"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

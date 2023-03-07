@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least k such that p^k >= n for any prime factor p of n.",
+  "id": "A307908",
+  "mentions": [
+    "A000040",
+    "A001248",
+    "A020639",
+    "A307907"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 2,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

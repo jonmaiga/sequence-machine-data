@@ -1,0 +1,21 @@
+{
+  "description": "Positions of even terms in A318649.",
+  "id": "A318654",
+  "mentions": [
+    "A318511",
+    "A318512",
+    "A318649",
+    "A318652",
+    "A318655"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

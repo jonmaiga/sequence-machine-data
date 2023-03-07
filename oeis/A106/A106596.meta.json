@@ -1,0 +1,28 @@
+{
+  "description": "Belgian-3 numbers.",
+  "id": "A106596",
+  "mentions": [
+    "A106039",
+    "A106439",
+    "A106518",
+    "A106631",
+    "A106792",
+    "A107014",
+    "A107018",
+    "A107032",
+    "A107043",
+    "A257770"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:58",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of k-regular multigraphs on n labeled nodes, loops allowed, n >= 0, k >= 0.",
+  "id": "A333467",
+  "mentions": [
+    "A000012",
+    "A002135",
+    "A005814",
+    "A005816",
+    "A006003",
+    "A008619",
+    "A059441",
+    "A059841",
+    "A123023",
+    "A167625",
+    "A333351"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

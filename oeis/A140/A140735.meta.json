@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows, X^n * [1,0,0,0,...]; where X = a tridiagonal matrix with (1,2,3,...) in the main diagonal and (1,1,1,...) in the sub and subsubdiagonals.",
+  "id": "A140735",
+  "mentions": [
+    "A080337",
+    "A140733",
+    "A140744",
+    "A293181"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

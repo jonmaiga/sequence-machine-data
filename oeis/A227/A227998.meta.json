@@ -1,0 +1,21 @@
+{
+  "description": "Number T(n,k,s) of partitions of an n X k rectangle into s integer-sided squares, considering only the list of parts; irregular triangle T(n,k,s), 1 <= k <= n, s >= 1, read by rows.",
+  "id": "A227998",
+  "mentions": [
+    "A034295",
+    "A224697",
+    "A226912"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

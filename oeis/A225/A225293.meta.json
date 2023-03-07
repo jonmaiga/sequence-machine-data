@@ -1,0 +1,21 @@
+{
+  "description": "G.f. satisfies: A(x) = Sum_{n>=0} x^n*A(x)^n / Product_{k=1..n} (1 - k*x).",
+  "id": "A225293",
+  "mentions": [
+    "A000110",
+    "A019538",
+    "A224922",
+    "A225294"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

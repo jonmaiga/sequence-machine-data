@@ -1,0 +1,36 @@
+{
+  "description": "Maximum adjusted frequency depth among integer partitions of n.",
+  "id": "A325282",
+  "mentions": [
+    "A008284",
+    "A011784",
+    "A032741",
+    "A116608",
+    "A127002",
+    "A181819",
+    "A225485",
+    "A225486",
+    "A275870",
+    "A323014",
+    "A323023",
+    "A325242",
+    "A325245",
+    "A325254",
+    "A325258",
+    "A325268",
+    "A325278",
+    "A325280",
+    "A325283"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

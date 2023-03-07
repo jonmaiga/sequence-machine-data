@@ -1,0 +1,27 @@
+{
+  "description": "Square array A(n,k), n>=1, k>=0, read by antidiagonals, where column k is the expansion of Sum_{j>=1} (2*j - 1)^k*x^(2*j-1)/(1 - x^(2*j-1)).",
+  "id": "A285425",
+  "mentions": [
+    "A000593",
+    "A001227",
+    "A050999",
+    "A051000",
+    "A051001",
+    "A051002",
+    "A109974",
+    "A279394",
+    "A292919"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:19:09",
+    "offset": 1,
+    "size": 78,
+    "source": "joeis"
+  }
+}

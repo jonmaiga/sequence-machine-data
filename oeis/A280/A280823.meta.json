@@ -1,0 +1,26 @@
+{
+  "description": "Numbers with an odd number of digits and with an odd number of distinct digits.",
+  "id": "A280823",
+  "mentions": [
+    "A000035",
+    "A001633",
+    "A043537",
+    "A055642",
+    "A280824",
+    "A280825",
+    "A280826"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

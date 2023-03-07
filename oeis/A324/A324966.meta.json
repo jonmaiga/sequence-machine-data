@@ -1,0 +1,28 @@
+{
+  "description": "Number of distinct odd prime indices of n.",
+  "id": "A324966",
+  "mentions": [
+    "A000720",
+    "A001221",
+    "A003963",
+    "A005087",
+    "A066208",
+    "A112798",
+    "A257991",
+    "A257992",
+    "A289509",
+    "A324929",
+    "A324967"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

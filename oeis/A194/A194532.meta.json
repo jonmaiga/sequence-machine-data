@@ -1,0 +1,23 @@
+{
+  "description": "Jordan function ratio J_6(n)/J_2(n).",
+  "id": "A194532",
+  "mentions": [
+    "A000583",
+    "A007434",
+    "A065959",
+    "A069091"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

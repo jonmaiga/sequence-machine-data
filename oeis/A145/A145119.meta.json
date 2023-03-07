@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Product_{k=1..n-1} (ceiling(n/k) - ceiling(n/k) mod 2).",
+  "id": "A145119",
+  "mentions": [
+    "A010786",
+    "A131385",
+    "A131387"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:38:43",
+    "offset": 1,
+    "size": 27,
+    "source": "joeis"
+  }
+}

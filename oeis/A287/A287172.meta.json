@@ -1,0 +1,18 @@
+{
+  "description": "Years when a President of the USA died in office.",
+  "id": "A287172",
+  "mentions": [
+    "A090232",
+    "A230052"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

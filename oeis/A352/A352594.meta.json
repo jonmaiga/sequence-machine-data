@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of square root of the golden ratio phi in base phi.",
+  "id": "A352594",
+  "mentions": [
+    "A001622",
+    "A139339",
+    "A173857",
+    "A202108",
+    "A244847",
+    "A331692"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 107,
+    "source": "oeis-entry"
+  }
+}

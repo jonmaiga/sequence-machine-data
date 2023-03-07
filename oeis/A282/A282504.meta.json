@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of 1/(1 - Sum_{k>=0} x^(2*k*(k+1)+1)).",
+  "id": "A282504",
+  "mentions": [
+    "A001844",
+    "A006456",
+    "A280951"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

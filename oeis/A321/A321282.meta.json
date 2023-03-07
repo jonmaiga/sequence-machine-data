@@ -1,0 +1,22 @@
+{
+  "description": "Number of set partitions of [n^2] into n subsets having the same sum.",
+  "id": "A321282",
+  "mentions": [
+    "A007785",
+    "A275714",
+    "A317807",
+    "A321230"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Triangle read by rows: row n (n>=0) gives the coefficients of the polynomial p(n,x) of degree n defined in comments.",
+  "id": "A159041",
+  "mentions": [
+    "A007312",
+    "A008292",
+    "A034870",
+    "A060187",
+    "A142458",
+    "A142459",
+    "A171692",
+    "A225076",
+    "A225356",
+    "A225398",
+    "A225415",
+    "A225433",
+    "A225434"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

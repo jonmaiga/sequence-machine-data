@@ -1,0 +1,19 @@
+{
+  "description": "Concatenation of letters of words obtained from axiom \"1\" and the iterates of the substitutions '1' -> \"12\", '2' -> \"3\", '3' -> \"4\", '4' -> \"1\".",
+  "id": "A105265",
+  "mentions": [
+    "A073058"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:56",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

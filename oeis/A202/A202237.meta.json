@@ -1,0 +1,20 @@
+{
+  "description": "Odd numbers with the same number of prime factors of the form 4*k+1 and 4*k+3.",
+  "id": "A202237",
+  "mentions": [
+    "A065339",
+    "A072202",
+    "A080774",
+    "A083025"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

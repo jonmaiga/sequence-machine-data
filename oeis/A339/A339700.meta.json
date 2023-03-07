@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the n-th nonnegative number to light exactly n segments when displayed on a calculator.",
+  "id": "A339700",
+  "mentions": [
+    "A006942",
+    "A216261",
+    "A331529"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 5,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

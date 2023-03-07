@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of self-conjugate partitions of n which represent Chomp positions with Sprague-Grundy value 10.",
+  "id": "A285007",
+  "mentions": [
+    "A112471",
+    "A112472",
+    "A112473",
+    "A284784"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

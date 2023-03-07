@@ -1,0 +1,20 @@
+{
+  "description": "Number of n-step closed walks on the kagomé lattice.",
+  "id": "A338672",
+  "mentions": [
+    "A001665",
+    "A005397"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

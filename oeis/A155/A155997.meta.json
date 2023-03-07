@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n, k) = f(n, k) + f(n, n-k), where f(n, k) = binomial(n, k)*(1 + (-1)^k)/2.",
+  "id": "A155997",
+  "mentions": [
+    "A140253"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

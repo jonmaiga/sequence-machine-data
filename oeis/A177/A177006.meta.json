@@ -1,0 +1,18 @@
+{
+  "description": "Nonprime numbers k such that k^k == 1 (mod phi(k)).",
+  "id": "A177006",
+  "mentions": [
+    "A000010",
+    "A177012"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

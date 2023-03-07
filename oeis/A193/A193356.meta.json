@@ -1,0 +1,27 @@
+{
+  "description": "If n is even then 0, otherwise n.",
+  "id": "A193356",
+  "mentions": [
+    "A000004",
+    "A000010",
+    "A000179",
+    "A005408",
+    "A027656",
+    "A042948",
+    "A057211",
+    "A196020"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:54:29",
+    "offset": 1,
+    "size": 75,
+    "source": "joeis"
+  }
+}

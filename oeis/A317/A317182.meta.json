@@ -1,0 +1,18 @@
+{
+  "description": "Consider integer triangles as listed in rows of table A316841. Sequence gives sorted and uniqued values of 16*area^2 for these triangles.",
+  "id": "A317182",
+  "mentions": [
+    "A316841",
+    "A316853"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:36",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

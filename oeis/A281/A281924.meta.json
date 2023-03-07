@@ -1,0 +1,20 @@
+{
+  "description": "Least prime p such that p*n is a concatenation of two primes, -1 if it does not exist.",
+  "id": "A281924",
+  "mentions": [
+    "A000040",
+    "A281923"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

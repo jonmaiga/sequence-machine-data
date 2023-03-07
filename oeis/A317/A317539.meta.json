@@ -1,0 +1,20 @@
+{
+  "description": "Indices m for which A317413(m) = 3.",
+  "id": "A317539",
+  "mentions": [
+    "A317413",
+    "A317538",
+    "A317540"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:36",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

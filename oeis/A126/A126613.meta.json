@@ -1,0 +1,17 @@
+{
+  "description": "a(1)=1. a(n) = a(n-1) + (number of terms, from among terms a(1) through a(n-1), which are powers of primes {including 1}).",
+  "id": "A126613",
+  "mentions": [
+    "A131073"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

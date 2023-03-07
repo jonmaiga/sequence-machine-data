@@ -1,0 +1,23 @@
+{
+  "description": "Numerators of \"Farey fraction\" approximations to e.",
+  "id": "A119014",
+  "mentions": [
+    "A002965",
+    "A006258",
+    "A097545",
+    "A097546",
+    "A119015"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

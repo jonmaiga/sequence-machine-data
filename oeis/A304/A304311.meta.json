@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n,k) read by rows: number of bicolored connected graphs with n nodes and k nodes of the first color.",
+  "id": "A304311",
+  "mentions": [
+    "A001349",
+    "A054921",
+    "A126100",
+    "A294783",
+    "A303831"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

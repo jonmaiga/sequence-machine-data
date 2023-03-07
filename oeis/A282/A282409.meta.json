@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n for which the number of odd members and the number of even members in the Collatz (3x+1) trajectory are both prime.",
+  "id": "A282409",
+  "mentions": [
+    "A006666",
+    "A006667",
+    "A078719"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

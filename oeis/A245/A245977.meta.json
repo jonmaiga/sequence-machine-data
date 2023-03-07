@@ -1,0 +1,23 @@
+{
+  "description": "Limit-reverse of the infinite Fibonacci word A014675 = (s(0),s(1),...) = (2,1,2,2,1,2,1,2, ...) using initial block (s(2),s(3)) = (2,2).",
+  "id": "A245977",
+  "mentions": [
+    "A014675",
+    "A059426",
+    "A082389",
+    "A245920",
+    "A245921",
+    "A245978",
+    "A245979"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

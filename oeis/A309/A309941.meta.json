@@ -1,0 +1,22 @@
+{
+  "description": "Number of prime factors of n^n - 1, counted with multiplicity.",
+  "id": "A309941",
+  "mentions": [
+    "A006486",
+    "A048861",
+    "A085723",
+    "A116895",
+    "A125135"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 2,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) = Product_{d|n} A019565(d)^[moebius(d) = +1].",
+  "id": "A320017",
+  "mentions": [
+    "A008683",
+    "A019565",
+    "A048675",
+    "A300831",
+    "A300832",
+    "A318674",
+    "A320018"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

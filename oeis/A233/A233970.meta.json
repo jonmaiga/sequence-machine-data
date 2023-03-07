@@ -1,0 +1,28 @@
+{
+  "description": "Toothpick sequence on hexagonal net starting from the vertex of a 60-degree wedge (see Comments lines for precise definition).",
+  "id": "A233970",
+  "mentions": [
+    "A139250",
+    "A161206",
+    "A161830",
+    "A169780",
+    "A182632",
+    "A182634",
+    "A182840",
+    "A233760",
+    "A233764",
+    "A233780",
+    "A233971",
+    "A233972"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

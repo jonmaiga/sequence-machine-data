@@ -1,0 +1,24 @@
+{
+  "description": "An idempotent self-orthogonal Latin square of order 11, read by rows.",
+  "id": "A279650",
+  "mentions": [
+    "A160368",
+    "A279648",
+    "A279649",
+    "A279849",
+    "A279850"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-entry"
+  }
+}

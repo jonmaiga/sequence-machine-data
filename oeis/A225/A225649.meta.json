@@ -1,0 +1,21 @@
+{
+  "description": "Positions of non-ones in A225650, numbers n such that n and A000793(n) have at least one common divisor > 1.",
+  "id": "A225649",
+  "mentions": [
+    "A000793",
+    "A225640",
+    "A225648",
+    "A225650",
+    "A225651"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

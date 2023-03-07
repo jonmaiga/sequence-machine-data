@@ -1,0 +1,22 @@
+{
+  "description": "Horizontal para-Narayana sequence: says which column of 3rd-order Zeckendorf array (starting column count at 0) contains n.",
+  "id": "A166238",
+  "mentions": [
+    "A000930",
+    "A014417",
+    "A035614",
+    "A136189"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

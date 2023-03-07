@@ -1,0 +1,19 @@
+{
+  "description": "Van Eck's sequence (cf. A181391), but outputting 2 for a new number, not 0.",
+  "id": "A309363",
+  "mentions": [
+    "A171911",
+    "A171918",
+    "A181391"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

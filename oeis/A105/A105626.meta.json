@@ -1,0 +1,23 @@
+{
+  "description": "Triangular matrix T, read by rows, that satisfies T^2 = A105615^3; also equals the matrix cube of triangle A105623.",
+  "id": "A105626",
+  "mentions": [
+    "A105615",
+    "A105617",
+    "A105623",
+    "A105627",
+    "A105628"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Decimal representation of the x-axis, from the left edge to the origin, of the n-th stage of growth of the two-dimensional cellular automaton defined by \"Rule 414\", based on the 5-celled von Neumann neighborhood.",
+  "id": "A282008",
+  "mentions": [
+    "A282006",
+    "A282007",
+    "A282009"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 02:15:19",
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

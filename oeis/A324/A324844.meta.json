@@ -1,0 +1,35 @@
+{
+  "description": "Number of unlabeled rooted trees with n nodes where the branches of no non-leaf branch of any terminal subtree form a submultiset of the branches of the same subtree.",
+  "id": "A324844",
+  "mentions": [
+    "A000081",
+    "A290689",
+    "A306844",
+    "A318185",
+    "A324694",
+    "A324738",
+    "A324744",
+    "A324749",
+    "A324754",
+    "A324759",
+    "A324765",
+    "A324768",
+    "A324838",
+    "A324843",
+    "A324845",
+    "A324846",
+    "A324847",
+    "A324848",
+    "A324849"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

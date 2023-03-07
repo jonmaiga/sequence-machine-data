@@ -1,0 +1,23 @@
+{
+  "description": "Approximation of the 2-adic integer exp(4) up to 2^n.",
+  "id": "A320814",
+  "mentions": [
+    "A000120",
+    "A007814",
+    "A092391",
+    "A320815",
+    "A320840",
+    "A321689"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

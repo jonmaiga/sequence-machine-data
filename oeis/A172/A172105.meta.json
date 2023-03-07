@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that n-th partial sum of A167020 - n-th partial sum of A167021 = 0 (or A172103(n) - A172104(n) = 0).",
+  "id": "A172105",
+  "mentions": [
+    "A167020",
+    "A167021",
+    "A172103",
+    "A172104"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

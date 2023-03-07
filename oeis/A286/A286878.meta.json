@@ -1,0 +1,22 @@
+{
+  "description": "One of the two successive approximations up to 17^n for 17-adic integer sqrt(-1). Here the 13 (mod 17) case (except for n=0).",
+  "id": "A286878",
+  "mentions": [
+    "A048898",
+    "A048899",
+    "A286840",
+    "A286841",
+    "A286877"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

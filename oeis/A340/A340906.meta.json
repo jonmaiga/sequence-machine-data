@@ -1,0 +1,31 @@
+{
+  "description": "Number of ways to write n as an ordered sum of 7 squares of positive integers.",
+  "id": "A340906",
+  "mentions": [
+    "A000290",
+    "A008451",
+    "A010052",
+    "A025431",
+    "A045849",
+    "A063691",
+    "A063725",
+    "A063730",
+    "A337165",
+    "A340481",
+    "A340905",
+    "A340915",
+    "A340946",
+    "A340947"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 7,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

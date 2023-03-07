@@ -1,0 +1,19 @@
+{
+  "description": "Run lengths in A039704.",
+  "id": "A288915",
+  "mentions": [
+    "A039704",
+    "A057620",
+    "A057622"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:02",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

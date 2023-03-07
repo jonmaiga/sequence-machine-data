@@ -1,0 +1,29 @@
+{
+  "description": "Array T(m,n) = nim-product(2^m,2^n) (m>=0, n>=0) read by antidiagonals.",
+  "id": "A223541",
+  "mentions": [
+    "A000079",
+    "A002487",
+    "A006017",
+    "A051775",
+    "A134683",
+    "A223540",
+    "A223542",
+    "A223543",
+    "A335159",
+    "A335160",
+    "A335161"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:41",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

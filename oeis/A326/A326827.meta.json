@@ -1,0 +1,30 @@
+{
+  "description": "Expansion of 1 / (chi(-x)^10 * chi(-x^2)^4) in powers of x where chi() is a Ramanujan theta function.",
+  "id": "A326827",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A007096",
+    "A010054",
+    "A093160",
+    "A121373",
+    "A123655",
+    "A189925",
+    "A212318",
+    "A215348",
+    "A215349",
+    "A232358",
+    "A232772"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:46:24",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

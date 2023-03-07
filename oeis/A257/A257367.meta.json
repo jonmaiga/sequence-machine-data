@@ -1,0 +1,19 @@
+{
+  "description": "Composite numbers n equal to the sum of prime factors, counted with multiplicity, of the numbers in the interval [n-k,n+k], for some k.",
+  "id": "A257367",
+  "mentions": [
+    "A001414",
+    "A257524",
+    "A257525"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Base 3 sum of digits of prime(n).",
+  "id": "A239619",
+  "mentions": [
+    "A000040",
+    "A007605",
+    "A014499",
+    "A053735"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:56",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "List of arithmetic triples (three numbers in arithmetic progression) derived from pairs of terms in A005836.",
+  "id": "A273516",
+  "mentions": [
+    "A005836",
+    "A074940"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

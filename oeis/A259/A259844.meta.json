@@ -1,0 +1,22 @@
+{
+  "description": "Number A(n,k) of n X n upper triangular matrices (m_{i,j}) of nonnegative integers with k = Sum_{j=h..n} m_{h,j} - Sum_{i=1..h-1} m_{i,h} for all h in {1,...,n}; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A259844",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A002412",
+    "A008608",
+    "A259919"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

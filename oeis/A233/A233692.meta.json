@@ -1,0 +1,22 @@
+{
+  "description": "The smallest prime that produces a set of n primes such that every prime after the first one is equal to the previous plus the product of its nonzero digits.",
+  "id": "A233692",
+  "mentions": [
+    "A051801",
+    "A063114",
+    "A233783"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

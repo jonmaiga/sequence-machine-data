@@ -1,0 +1,20 @@
+{
+  "description": "Largest number b for which A181780(n) is a Fermat pseudoprime.",
+  "id": "A211457",
+  "mentions": [
+    "A181780",
+    "A211455",
+    "A211456",
+    "A211458"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

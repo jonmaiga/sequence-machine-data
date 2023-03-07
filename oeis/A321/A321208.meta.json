@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = [x^(n*(n+1)*(2*n+1)/6)] Product_{k=1..n} Sum_{m>=0} x^(k*m^2).",
+  "id": "A321208",
+  "mentions": [
+    "A000122",
+    "A320932",
+    "A321181",
+    "A321186"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Ordinal transform of cototient (A051953).",
+  "id": "A303753",
+  "mentions": [
+    "A000040",
+    "A051953",
+    "A065385",
+    "A081373",
+    "A303754"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

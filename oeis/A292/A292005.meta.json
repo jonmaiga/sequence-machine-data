@@ -1,0 +1,20 @@
+{
+  "description": "Composite numbers k such that psi(k - phi(k)) = phi(psi(k) - k).",
+  "id": "A292005",
+  "mentions": [
+    "A000010",
+    "A001615",
+    "A176875",
+    "A290002"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

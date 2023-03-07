@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of the generating function of quartic rooted planar Eulerian orientations, counted by vertices.",
+  "id": "A324314",
+  "mentions": [
+    "A324311",
+    "A324312",
+    "A324313"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

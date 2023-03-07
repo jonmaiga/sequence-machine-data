@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of Product_{k>=1} 1/(1 - psi(k)*x^k), where psi() is the Dedekind psi function (A001615).",
+  "id": "A306483",
+  "mentions": [
+    "A001615",
+    "A156303",
+    "A319111"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the total number of parts of size k^2, 1 <= k <= n, in the set of partitions of an n X n square lattice into squares, considering only the list of parts.",
+  "id": "A226906",
+  "mentions": [
+    "A034295",
+    "A226897"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

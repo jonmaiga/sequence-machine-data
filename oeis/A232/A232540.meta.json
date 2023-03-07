@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that (n(n+1)/2) modulo sigma(n) = 1.",
+  "id": "A232540",
+  "mentions": [
+    "A000203",
+    "A024816",
+    "A076617",
+    "A112774",
+    "A232324",
+    "A232538"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:50",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

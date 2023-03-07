@@ -1,0 +1,21 @@
+{
+  "description": "Triangular numbers that are squares of triangular numbers.",
+  "id": "A240129",
+  "mentions": [
+    "A000217",
+    "A001110"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "bref",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

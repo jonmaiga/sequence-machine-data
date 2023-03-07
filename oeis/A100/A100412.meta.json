@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 8*10^n - 7.",
+  "id": "A100412",
+  "mentions": [
+    "A100413",
+    "A136543"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:08:21",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

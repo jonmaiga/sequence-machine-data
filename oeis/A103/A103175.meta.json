@@ -1,0 +1,19 @@
+{
+  "description": "A001787 written in base 2.",
+  "id": "A103175",
+  "mentions": [
+    "A001787",
+    "A089398"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:00:45",
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

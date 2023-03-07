@@ -1,0 +1,20 @@
+{
+  "description": "Call any positive integer that is a palindrome when written in binary a \"binary palindrome\". a(n) = the smallest product (the n-th binary palindrome)*(any binary palindrome) that is not a binary palindrome.",
+  "id": "A175241",
+  "mentions": [
+    "A006995",
+    "A175240"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 3,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

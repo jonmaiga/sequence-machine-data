@@ -1,0 +1,22 @@
+{
+  "description": "Primes p = k*2^m + 1 such that k + 2^m is not prime, where k and m are the odd part and 2-valuation, respectively, of p-1.",
+  "id": "A332078",
+  "mentions": [
+    "A000040",
+    "A000265",
+    "A007814",
+    "A141882",
+    "A332075",
+    "A332079"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

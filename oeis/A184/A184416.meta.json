@@ -1,0 +1,18 @@
+{
+  "description": "Upper s(n)-Wythoff sequence, where s(n)=floor[(n+2)/3]. Complement of A184415.",
+  "id": "A184416",
+  "mentions": [
+    "A184117",
+    "A184415"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

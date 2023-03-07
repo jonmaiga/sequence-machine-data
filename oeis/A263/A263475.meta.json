@@ -1,0 +1,30 @@
+{
+  "description": "Total number of positive integers < 10^n with multiplicative digital root value 8.",
+  "id": "A263475",
+  "mentions": [
+    "A000027",
+    "A000217",
+    "A000292",
+    "A002283",
+    "A031347",
+    "A034055",
+    "A263470",
+    "A263471",
+    "A263472",
+    "A263473",
+    "A263474",
+    "A263481"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

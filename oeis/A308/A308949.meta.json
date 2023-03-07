@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the greatest divisor of A000129(n) that is coprime to A000129(m) for all positive integers m < n.",
+  "id": "A308949",
+  "mentions": [
+    "A000129",
+    "A008555",
+    "A178763",
+    "A214028",
+    "A238736"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

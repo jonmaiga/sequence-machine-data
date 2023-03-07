@@ -1,0 +1,20 @@
+{
+  "description": "Coefficients of x+(x+1)^2+(x+2)^3+(x+3)^4+(x+4)^5+(x+5)^6+(x+6)^7+(x+7)^8, highest power first.",
+  "id": "A179466",
+  "mentions": [
+    "A179465"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

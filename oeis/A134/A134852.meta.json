@@ -1,0 +1,25 @@
+{
+  "description": "Number of distinct prime factors of the Fibonacci numbers in A050937.",
+  "id": "A134852",
+  "mentions": [
+    "A000045",
+    "A001221",
+    "A001605",
+    "A050937",
+    "A075737",
+    "A090819",
+    "A134787",
+    "A134851"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:22",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

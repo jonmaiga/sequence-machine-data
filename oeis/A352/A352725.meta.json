@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest sequence of distinct nonnegative integers such that for any n >= 0, the binary expansions of a(n) and a(n+1) have no common runs of consecutive 1's.",
+  "id": "A352725",
+  "mentions": [
+    "A109812",
+    "A332565",
+    "A352724"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

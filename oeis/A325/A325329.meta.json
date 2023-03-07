@@ -1,0 +1,26 @@
+{
+  "description": "Number of integer partitions of n whose multiplicities appear with distinct multiplicities.",
+  "id": "A325329",
+  "mentions": [
+    "A098859",
+    "A130091",
+    "A317081",
+    "A320348",
+    "A325326",
+    "A325330",
+    "A325331",
+    "A325333",
+    "A325337",
+    "A325369"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

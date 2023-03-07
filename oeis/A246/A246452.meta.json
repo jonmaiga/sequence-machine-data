@@ -1,0 +1,18 @@
+{
+  "description": "Let A be the set of all numbers m for which m^2+1 is prime (see A005574). The sequence lists the pairs of numbers (a, b) such that every m > 1 included in A can be written in the form m = a + b for a <= b both in A and a minimum.",
+  "id": "A246452",
+  "mentions": [
+    "A002496",
+    "A005574"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

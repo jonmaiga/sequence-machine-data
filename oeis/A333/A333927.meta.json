@@ -1,0 +1,26 @@
+{
+  "description": "Recursive perfect numbers: numbers k such that A333926(k) = 2*k.",
+  "id": "A333927",
+  "mentions": [
+    "A000396",
+    "A002827",
+    "A007357",
+    "A049599",
+    "A049603",
+    "A054979",
+    "A064591",
+    "A282446",
+    "A333926"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

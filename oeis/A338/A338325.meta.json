@@ -1,0 +1,25 @@
+{
+  "description": "Biquadratefree powerful numbers: numbers whose exponents in their prime factorization are either 2 or 3.",
+  "id": "A338325",
+  "mentions": [
+    "A001694",
+    "A005117",
+    "A046100",
+    "A062503",
+    "A062838",
+    "A090699",
+    "A244000",
+    "A330595"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

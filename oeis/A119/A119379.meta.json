@@ -1,0 +1,18 @@
+{
+  "description": "Untouchable semiprimes: semiprimes which are not the sum of the aliquot parts of any number.",
+  "id": "A119379",
+  "mentions": [
+    "A001358",
+    "A005114"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

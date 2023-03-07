@@ -1,0 +1,23 @@
+{
+  "description": "Smallest odd prime that is relatively prime to n.",
+  "id": "A284723",
+  "mentions": [
+    "A007947",
+    "A020639",
+    "A053669",
+    "A239278",
+    "A284721",
+    "A355001"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:56",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

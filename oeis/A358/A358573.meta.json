@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = smallest prime p such that q, r and s are all prime, where q = p + 2*(2*n + 1), r = (p - 2*n - 1)/2, and s = (q + 2*n + 1)/2.",
+  "id": "A358573",
+  "mentions": [
+    "A001097",
+    "A001359",
+    "A006512",
+    "A023201",
+    "A077800",
+    "A158870",
+    "A254636",
+    "A255361",
+    "A256386"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Sum of the asymmetry degrees of all compositions of n with parts in {1,2,3}.",
+  "id": "A275445",
+  "mentions": [
+    "A000073",
+    "A057077",
+    "A073778",
+    "A275444"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

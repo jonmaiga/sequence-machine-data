@@ -1,0 +1,25 @@
+{
+  "description": "Number of walks within N^3 (the first octant of Z^3) starting at (0,0,0) and consisting of n steps taken from {(-1, 0, 0), (1, 0, 0), (1, 0, 1), (1, 1, 0), (1, 1, 1)}.",
+  "id": "A151254",
+  "mentions": [
+    "A000108",
+    "A001405",
+    "A120730",
+    "A151162",
+    "A151281",
+    "A151403",
+    "A156058"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

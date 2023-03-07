@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of Sum_{n>=0} n^n*x^n/(1 - n*x)^n.",
+  "id": "A195242",
+  "mentions": [
+    "A001710",
+    "A053506",
+    "A242449"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Positive integers k such that the continued fraction expansion sqrt(k) = c(1) + c(1)/(c(2) + c(2)/(c(3) + c(3)/...)) is periodic.",
+  "id": "A233592",
+  "mentions": [
+    "A233582",
+    "A233584",
+    "A233585",
+    "A233586",
+    "A233587",
+    "A233593"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

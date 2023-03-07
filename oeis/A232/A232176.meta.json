@@ -1,0 +1,25 @@
+{
+  "description": "Least positive k such that n^2 + triangular(k) is a square.",
+  "id": "A232176",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A038202",
+    "A055527",
+    "A101157",
+    "A220186",
+    "A232175",
+    "A232178",
+    "A232179"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

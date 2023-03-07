@@ -1,0 +1,20 @@
+{
+  "description": "Not the sum of three perfect powers greater than 1.",
+  "id": "A135393",
+  "mentions": [
+    "A113505",
+    "A135367",
+    "A135402",
+    "A135693"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

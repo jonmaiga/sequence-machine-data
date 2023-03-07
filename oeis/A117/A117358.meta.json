@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = A032742(A032742(A032742(n))) = ((n/lpf(n))/lpf(n/lpf(n)))/lpf((n/lpf(n))/lpf(n/lpf(n))), where lpf=A020639, least prime factor.",
+  "id": "A117358",
+  "mentions": [
+    "A014673",
+    "A020639",
+    "A032742",
+    "A033987",
+    "A037144",
+    "A054576",
+    "A115561"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

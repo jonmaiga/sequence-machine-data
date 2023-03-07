@@ -1,0 +1,20 @@
+{
+  "description": "a(0) = 0, a(1) = 1 and a(n) = 6*a(n-1)/(n-1) + 4*a(n-2) for n > 1.",
+  "id": "A305032",
+  "mentions": [
+    "A100071",
+    "A304944",
+    "A305031"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

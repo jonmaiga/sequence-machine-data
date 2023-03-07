@@ -1,0 +1,24 @@
+{
+  "description": "The square of the distance from the origin for the points visited by a knight moving on a 3D cubic lattice using the rules given in the Comments.",
+  "id": "A343678",
+  "mentions": [
+    "A316667",
+    "A329520",
+    "A330189",
+    "A343746",
+    "A343747",
+    "A343748",
+    "A343749"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

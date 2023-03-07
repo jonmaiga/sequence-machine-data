@@ -1,0 +1,20 @@
+{
+  "description": "Decimal representation of the diagonal from the origin to the corner of the n-th stage of growth of the two-dimensional cellular automaton defined by \"Rule 403\", based on the 5-celled von Neumann neighborhood.",
+  "id": "A288019",
+  "mentions": [
+    "A288016",
+    "A288017",
+    "A288018"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:01:06",
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

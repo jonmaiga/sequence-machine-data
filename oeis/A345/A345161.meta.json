@@ -1,0 +1,27 @@
+{
+  "description": "If n = Product (p_j^k_j) then a(n) = max (nextprime(p_j) - p_j), where nextprime = A151800.",
+  "id": "A345161",
+  "mentions": [
+    "A000079",
+    "A000720",
+    "A001223",
+    "A006530",
+    "A061395",
+    "A063095",
+    "A151800",
+    "A327441",
+    "A347101",
+    "A347102"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

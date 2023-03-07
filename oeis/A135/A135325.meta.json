@@ -1,0 +1,19 @@
+{
+  "description": "Smallest n such that pi(n)=Floor[n/log((n-pi(n))/e)].",
+  "id": "A135325",
+  "mentions": [
+    "A000720",
+    "A057834",
+    "A058289"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

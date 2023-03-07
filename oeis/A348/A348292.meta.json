@@ -1,0 +1,19 @@
+{
+  "description": "Binary expansion of the smallest binary number starting with a(0)=1 that is prime when the final number is 1 and composite when the final number is 0.",
+  "id": "A348292",
+  "mentions": [
+    "A084435"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

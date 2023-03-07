@@ -1,0 +1,21 @@
+{
+  "description": "Coordination sequence for the Manhattan lattice.",
+  "id": "A336627",
+  "mentions": [
+    "A008574",
+    "A117633"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:20",
+    "offset": 0,
+    "size": 58,
+    "source": "joeis"
+  }
+}

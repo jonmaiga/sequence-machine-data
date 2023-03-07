@@ -1,0 +1,29 @@
+{
+  "description": "Number of partitions of n into distinct parts (a_1, a_2, ... , a_m) (a_1 > a_2 > ... > a_m and Sum_{k=1..m} a_k = n) such that a1 - a2, a2 - a3, ..., a_{m-1} - a_m are different.",
+  "id": "A320347",
+  "mentions": [
+    "A000009",
+    "A003114",
+    "A003242",
+    "A005117",
+    "A049980",
+    "A238710",
+    "A320348",
+    "A325325",
+    "A325368",
+    "A325545",
+    "A342514",
+    "A342520",
+    "A342530"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

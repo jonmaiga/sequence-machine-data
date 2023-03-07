@@ -1,0 +1,20 @@
+{
+  "description": "First differences of A354414.",
+  "id": "A354415",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A354414"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

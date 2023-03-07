@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (n^(2n)-1)/(n^2-1) for n > 1, a(1) = 1.",
+  "id": "A343009",
+  "mentions": [
+    "A005563",
+    "A023037",
+    "A117812",
+    "A124899",
+    "A132411",
+    "A210461"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

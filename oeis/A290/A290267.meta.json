@@ -1,0 +1,17 @@
+{
+  "description": "Length of runs of equal terms in A007944.",
+  "id": "A290267",
+  "mentions": [
+    "A007944"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

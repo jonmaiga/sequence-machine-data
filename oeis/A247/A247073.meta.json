@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of k-th prime powers up to 2^n, for k = 1 to n.",
+  "id": "A247073",
+  "mentions": [
+    "A000961",
+    "A007053",
+    "A025474",
+    "A060967"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

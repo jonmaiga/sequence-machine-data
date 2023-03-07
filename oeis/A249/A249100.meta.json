@@ -1,0 +1,23 @@
+{
+  "description": "Triangular array read by rows: row n gives the coefficients of the polynomial p(n,x) defined in Comments.",
+  "id": "A249100",
+  "mentions": [
+    "A087299",
+    "A235136",
+    "A245136",
+    "A249101"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Primes that are the sum of three consecutive primes as well as the sum of three consecutive composite numbers.",
+  "id": "A133659",
+  "mentions": [
+    "A034962",
+    "A060328"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

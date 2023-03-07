@@ -1,0 +1,36 @@
+{
+  "description": "Number A(n,k) of permutations of [n] within distance k of a fixed permutation; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A306209",
+  "mentions": [
+    "A000012",
+    "A000045",
+    "A000142",
+    "A001564",
+    "A002524",
+    "A002526",
+    "A040000",
+    "A048163",
+    "A072856",
+    "A092552",
+    "A130152",
+    "A154654",
+    "A154655",
+    "A154656",
+    "A154657",
+    "A154658",
+    "A154659",
+    "A306267"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

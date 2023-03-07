@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of 11+3*sqrt(2).",
+  "id": "A157121",
+  "mentions": [
+    "A010474",
+    "A083729",
+    "A157119",
+    "A157120",
+    "A157122",
+    "A157123"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 20:14:39",
+    "offset": 2,
+    "size": 105,
+    "source": "joeis"
+  }
+}

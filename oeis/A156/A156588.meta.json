@@ -1,0 +1,20 @@
+{
+  "description": "A triangle of q factorial type based on Stirling first polynomials: t(n,k)=If[m == 0, n!, Product[Sum[(-1)^(i + k)*StirlingS1[k - 1, i]*(m + 1)^i, {i, 0, k - 1}], {k, 1, n}]].",
+  "id": "A156588",
+  "mentions": [
+    "A009963"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

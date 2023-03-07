@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows: Possible numbers of pieces resulting from cutting a convex n-sided polygon along all its diagonals.",
+  "id": "A230150",
+  "mentions": [
+    "A006522",
+    "A007678",
+    "A160860"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 3,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

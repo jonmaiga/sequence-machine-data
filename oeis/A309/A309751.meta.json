@@ -1,0 +1,19 @@
+{
+  "description": "Approximation of the 2-adic integer arctan(2) up to 2^n.",
+  "id": "A309751",
+  "mentions": [
+    "A309752",
+    "A309753"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

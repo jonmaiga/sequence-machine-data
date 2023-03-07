@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the n-th number m that divides n^m + 1 (or 0 if m does not exist).",
+  "id": "A333430",
+  "mentions": [
+    "A333429",
+    "A333433"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

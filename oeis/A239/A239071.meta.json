@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k+x+y is a triangular number (A000217), where x and y are the two triangular numbers nearest to k.",
+  "id": "A239071",
+  "mentions": [
+    "A000217",
+    "A011916",
+    "A238489",
+    "A238599"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

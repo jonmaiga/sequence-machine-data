@@ -1,0 +1,23 @@
+{
+  "description": "Anti-Chowla's function: sum of anti-divisors of n except the largest.",
+  "id": "A216982",
+  "mentions": [
+    "A048050",
+    "A066272",
+    "A066417",
+    "A066481",
+    "A130799",
+    "A218767"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Number of strict (distinct parts) plane partitions of n with relatively prime parts.",
+  "id": "A323587",
+  "mentions": [
+    "A000219",
+    "A000837",
+    "A003293",
+    "A006951",
+    "A026007",
+    "A100883",
+    "A117433",
+    "A300275",
+    "A303546",
+    "A320802",
+    "A323584",
+    "A323585"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

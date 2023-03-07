@@ -1,0 +1,23 @@
+{
+  "description": "E.g.f.: (sin(3*x) + sin(4*x)) / sin(7*x).",
+  "id": "A273033",
+  "mentions": [
+    "A002439",
+    "A156196",
+    "A272158",
+    "A272467",
+    "A273031",
+    "A273032"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 02:30:42",
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

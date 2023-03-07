@@ -1,0 +1,19 @@
+{
+  "description": "The decimal expansion of b^b^b^..., where b equals e-2 (A001113).",
+  "id": "A221566",
+  "mentions": [
+    "A001113",
+    "A225053"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

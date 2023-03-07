@@ -1,0 +1,22 @@
+{
+  "description": "a(0)=1, a(n+1) = (a(n)*6) XOR a(n).",
+  "id": "A182556",
+  "mentions": [
+    "A001317",
+    "A038183",
+    "A100311"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:35:45",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of practical numbers q such that n+(n mod 2)-q and n-(n mod 2)+q are both practical numbers.",
+  "id": "A261641",
+  "mentions": [
+    "A005153",
+    "A209312",
+    "A261627"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

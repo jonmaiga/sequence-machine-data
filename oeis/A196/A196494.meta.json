@@ -1,0 +1,21 @@
+{
+  "description": "Indices of palindromic centered 22-gonal numbers. (A195902)",
+  "id": "A196494",
+  "mentions": [
+    "A069173",
+    "A195902"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

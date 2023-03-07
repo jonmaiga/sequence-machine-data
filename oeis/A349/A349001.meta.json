@@ -1,0 +1,25 @@
+{
+  "description": "The number of Lyndon words of size n from an alphabet of 5 letters and 1st and 2nd letter of the alphabet with equal frequency in the words.",
+  "id": "A349001",
+  "mentions": [
+    "A001692",
+    "A008683",
+    "A022553",
+    "A026375",
+    "A060165",
+    "A081671",
+    "A290277",
+    "A294035"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

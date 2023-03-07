@@ -1,0 +1,21 @@
+{
+  "description": "Number of labeled relations on {1,2,...,n} such that 1 and 2 are in the same component.",
+  "id": "A226358",
+  "mentions": [
+    "A002416",
+    "A062738",
+    "A224510",
+    "A226349"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

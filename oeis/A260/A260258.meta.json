@@ -1,0 +1,21 @@
+{
+  "description": "T(n,k) is the array read by rows, n>0 and k=1..q (with q = number of prime distinct divisors of n^2+1) giving the number of occurrences of the k-th prime divisor of n^2+1 counted from the prime divisors of m^2+1 for m=1..n.",
+  "id": "A260258",
+  "mentions": [
+    "A002312",
+    "A002313",
+    "A005574",
+    "A128428"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

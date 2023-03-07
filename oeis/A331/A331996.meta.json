@@ -1,0 +1,17 @@
+{
+  "description": "Number of Pythagorean triples mod n: total number of solutions (x,y,z) to x^2 + y^2 = z^2 mod n with x <= y.",
+  "id": "A331996",
+  "mentions": [
+    "A062775"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

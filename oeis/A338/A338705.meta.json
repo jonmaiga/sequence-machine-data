@@ -1,0 +1,17 @@
+{
+  "description": "Products p*q*r of three distinct primes such that s=(p*q) mod r, t=(p*r) mod q and u=(q*r) mod p, and s+t+u are all prime.",
+  "id": "A338705",
+  "mentions": [
+    "A338704"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

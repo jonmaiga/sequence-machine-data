@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle T(n, k) = [x^k]( p(n, x) ), where p(n, x) = (1-x)^(2*n+3)*( Sum_{j >= 0} (2*j+ 1)^n*x^j )*( Sum_{j >= 0} j^(n+1)*x^j ), read by rows.",
+  "id": "A165883",
+  "mentions": [
+    "A158782",
+    "A165889",
+    "A165890",
+    "A165891"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:49",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

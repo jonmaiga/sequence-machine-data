@@ -1,0 +1,20 @@
+{
+  "description": "Records in A218344.",
+  "id": "A218345",
+  "mentions": [
+    "A218344",
+    "A354740"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

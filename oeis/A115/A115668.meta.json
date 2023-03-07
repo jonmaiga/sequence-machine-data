@@ -1,0 +1,20 @@
+{
+  "description": "Brilliant numbers (A078972) whose digit reversal is a square.",
+  "id": "A115668",
+  "mentions": [
+    "A078972",
+    "A115667",
+    "A115669"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

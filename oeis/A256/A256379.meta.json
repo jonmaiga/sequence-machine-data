@@ -1,0 +1,22 @@
+{
+  "description": "Cumulative sum for n in base 10 when alternately adding and subtracting each digit of a particular value.",
+  "id": "A256379",
+  "mentions": [
+    "A037123",
+    "A167232",
+    "A256100",
+    "A256851"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

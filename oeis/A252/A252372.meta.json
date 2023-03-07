@@ -1,0 +1,25 @@
+{
+  "description": "Characteristic function for A251726: a(n) = 1 if n > 1 and gpf(n) < spf(n)^2, otherwise 0; here spf(n) and gpf(n) (smallest and greatest prime factor of n) are sequences A020639(n) and A006530(n).",
+  "id": "A252372",
+  "mentions": [
+    "A006530",
+    "A020639",
+    "A066048",
+    "A251726",
+    "A252373",
+    "A252375",
+    "A252459",
+    "A252757"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:10",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

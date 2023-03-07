@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: coefficients of polynomials P_n(x) arising from RNA combinatorics.",
+  "id": "A270791",
+  "mentions": [
+    "A035309",
+    "A035319",
+    "A270790"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:34",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

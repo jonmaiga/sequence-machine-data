@@ -1,0 +1,19 @@
+{
+  "description": "Number of subsets of {1..n} whose cardinality is equal to the root-mean-square of the elements.",
+  "id": "A339569",
+  "mentions": [
+    "A092670",
+    "A339454",
+    "A339484"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n >= 0 such that n^2 + n*(n+1)/2 is a square.",
+  "id": "A220186",
+  "mentions": [
+    "A005449",
+    "A011916",
+    "A014105",
+    "A084703",
+    "A098308",
+    "A108741",
+    "A220185"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:13:53",
+    "offset": 1,
+    "size": 15,
+    "source": "joeis"
+  }
+}

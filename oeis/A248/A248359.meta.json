@@ -1,0 +1,20 @@
+{
+  "description": "Least number k such that cos(Pi/k) + 1/(k*n) > 1.",
+  "id": "A248359",
+  "mentions": [
+    "A102753",
+    "A248360"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Row sums of coefficient triangle of the monic associated Laguerre polynomials of order 1.",
+  "id": "A199578",
+  "mentions": [
+    "A002793",
+    "A199577"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:20",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

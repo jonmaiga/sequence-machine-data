@@ -1,0 +1,18 @@
+{
+  "description": "4^n-2^n+2.",
+  "id": "A170939",
+  "mentions": [
+    "A134169"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:17:37",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

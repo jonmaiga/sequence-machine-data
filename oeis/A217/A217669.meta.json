@@ -1,0 +1,22 @@
+{
+  "description": "G.f.: Sum_{n>=0} (x + x^n)^n.",
+  "id": "A217669",
+  "mentions": [
+    "A217667",
+    "A217668",
+    "A325997",
+    "A325998",
+    "A325999"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

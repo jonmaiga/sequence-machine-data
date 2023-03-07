@@ -1,0 +1,21 @@
+{
+  "description": "Vertex number of a rectangular spiral. The first differences (A160791) are the edge lengths of the spiral. The distances between two nearest edges, that are parallel to the initial edge, are the natural numbers.",
+  "id": "A160790",
+  "mentions": [
+    "A000217",
+    "A160791",
+    "A160792"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:14:23",
+    "offset": 0,
+    "size": 61,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of Product_{n>=2} (1-n^(-8)).",
+  "id": "A175619",
+  "mentions": [
+    "A109219",
+    "A144667",
+    "A175615",
+    "A175617",
+    "A334411"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:20:41",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=1, a(2)=2. Thereafter, if there are prime divisors p | a(n-1) that are coprime to a(n-2), a(n) is the least novel multiple of the product of these primes. Otherwise a(n) is the least novel multiple of the squarefree kernel of a(n-1). See comments.",
+  "id": "A357942",
+  "mentions": [
+    "A007947",
+    "A064413",
+    "A357963"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

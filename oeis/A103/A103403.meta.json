@@ -1,0 +1,23 @@
+{
+  "description": "Palindromic primes q derived from palindromes p such that pi(p) = q.",
+  "id": "A103403",
+  "mentions": [
+    "A046941",
+    "A046942",
+    "A103357",
+    "A103358",
+    "A103402"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

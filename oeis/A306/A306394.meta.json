@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k == 0 or 2 (mod 6) which are not the sum of a prime and the square of a prime.",
+  "id": "A306394",
+  "mentions": [
+    "A005384",
+    "A109136"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

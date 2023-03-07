@@ -1,0 +1,19 @@
+{
+  "description": "Row sums of triangle A144334, binomial transform of [1, 2, 6, 7, 3, 0, 0, 0, ...].",
+  "id": "A144335",
+  "mentions": [
+    "A144334"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:44:43",
+    "offset": 1,
+    "size": 38,
+    "source": "joeis"
+  }
+}

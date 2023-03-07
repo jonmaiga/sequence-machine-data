@@ -1,0 +1,20 @@
+{
+  "description": "First difference of A252022.",
+  "id": "A262604",
+  "mentions": [
+    "A252022"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

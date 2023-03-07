@@ -1,0 +1,24 @@
+{
+  "description": "Product of A325907(n) and its 9's complement.",
+  "id": "A327266",
+  "mentions": [
+    "A002283",
+    "A084021",
+    "A178630",
+    "A325493",
+    "A325907",
+    "A325910",
+    "A327294"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Array read by antidiagonals: T(m,n) is the number of induced cycles in the rook graph K_m X K_n.",
+  "id": "A360853",
+  "mentions": [
+    "A000292",
+    "A000330",
+    "A360196",
+    "A360849",
+    "A360851",
+    "A360854"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Each entry is the first of four consecutive primes with equal digital sum.",
+  "id": "A210629",
+  "mentions": [
+    "A066540",
+    "A209396",
+    "A209663"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

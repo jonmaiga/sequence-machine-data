@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest prime that can be written as the sum of a prime number of consecutive primes in exactly n ways, or -1 if no such number exists.",
+  "id": "A348791",
+  "mentions": [
+    "A082283",
+    "A348790"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

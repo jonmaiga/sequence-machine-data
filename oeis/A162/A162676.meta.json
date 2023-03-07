@@ -1,0 +1,21 @@
+{
+  "description": "Number of different fixed (possibly) disconnected n-ominoes bounded (not necessarily tightly) by an n*n square.",
+  "id": "A162676",
+  "mentions": [
+    "A162673",
+    "A162674",
+    "A162675",
+    "A162677"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

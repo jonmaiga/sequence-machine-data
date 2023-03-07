@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Pi*BesselY(0,2)/(2*BesselJ(0,2)) - gamma, where BesselJ and BesselY are the Bessel functions of the first and second kind, respectively, and gamma is Euler's constant (A001620).",
+  "id": "A337981",
+  "mentions": [
+    "A001008",
+    "A001620",
+    "A002805",
+    "A073004",
+    "A091681"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

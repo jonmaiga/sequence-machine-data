@@ -1,0 +1,17 @@
+{
+  "description": "Vertex-transitive TLF-planar graphs of degree n (see reference for precise definition).",
+  "id": "A151718",
+  "mentions": [
+    "A151717"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

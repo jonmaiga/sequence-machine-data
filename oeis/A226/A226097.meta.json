@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = ((-1)^n + 2*n - 38)*(2*n - 38) + 41.",
+  "id": "A226097",
+  "mentions": [
+    "A000040",
+    "A005846",
+    "A060566",
+    "A202018"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:53:31",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

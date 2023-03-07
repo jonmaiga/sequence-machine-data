@@ -1,0 +1,26 @@
+{
+  "description": "Least positive integer m such that m + n divides A(m) + A(n), where A(.) is given by A005259.",
+  "id": "A248142",
+  "mentions": [
+    "A005259",
+    "A247824",
+    "A247937",
+    "A247940",
+    "A248124",
+    "A248125",
+    "A248133",
+    "A248136",
+    "A248137",
+    "A248139"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

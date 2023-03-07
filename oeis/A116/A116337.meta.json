@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that k*(k+4) gives the concatenation of two numbers m and m+7.",
+  "id": "A116337",
+  "mentions": [
+    "A116173",
+    "A116257",
+    "A116304",
+    "A116323",
+    "A116336",
+    "A116338",
+    "A116350"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:44",
+    "offset": 1,
+    "size": 4,
+    "source": "joeis"
+  }
+}

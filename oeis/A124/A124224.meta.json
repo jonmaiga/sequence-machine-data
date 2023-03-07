@@ -1,0 +1,23 @@
+{
+  "description": "Table T(n,k) = reciprocal of k-th number prime to n, modulo n, for 1 <= k <= phi(n).",
+  "id": "A124224",
+  "mentions": [
+    "A000010",
+    "A023896",
+    "A038566",
+    "A102057",
+    "A124223"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

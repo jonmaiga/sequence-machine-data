@@ -1,0 +1,36 @@
+{
+  "description": "Triangle read by rows T(n,k) in which column k lists the partial sums of the k-th column of triangle A236104.",
+  "id": "A262612",
+  "mentions": [
+    "A000203",
+    "A000217",
+    "A000330",
+    "A003056",
+    "A005993",
+    "A024916",
+    "A092353",
+    "A175254",
+    "A196020",
+    "A235791",
+    "A236104",
+    "A237048",
+    "A237270",
+    "A237271",
+    "A237591",
+    "A237593",
+    "A245092",
+    "A261699",
+    "A262626"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

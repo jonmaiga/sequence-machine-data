@@ -1,0 +1,21 @@
+{
+  "description": "Composite numbers k such that k - number of divisors of k = prime.",
+  "id": "A158338",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A002808",
+    "A035004",
+    "A067531"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

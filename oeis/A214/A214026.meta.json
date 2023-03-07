@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that 2n is the average of two distinct k-almost primes (generalization of semiprimes) in more ways than for any smaller even number.",
+  "id": "A214026",
+  "mentions": [
+    "A002375",
+    "A045917",
+    "A053033",
+    "A214154"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

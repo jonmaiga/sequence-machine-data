@@ -1,0 +1,20 @@
+{
+  "description": "If k > 1 and k divides DedekindPsi(k) then A358015(k)/2 is a term of this sequence.",
+  "id": "A357587",
+  "mentions": [
+    "A001615",
+    "A003586",
+    "A033845",
+    "A358015"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

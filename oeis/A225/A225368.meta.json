@@ -1,0 +1,18 @@
+{
+  "description": "Number of minimal palindromic words of length n over {1,2} that begin with 1.",
+  "id": "A225368",
+  "mentions": [
+    "A225189"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

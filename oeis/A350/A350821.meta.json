@@ -1,0 +1,20 @@
+{
+  "description": "Number of minimum dominating sets in the grid graph P_3 X P_n.",
+  "id": "A350821",
+  "mentions": [
+    "A347558",
+    "A347633",
+    "A350820"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

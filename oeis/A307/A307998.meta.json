@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows, n > 0 and k = 0..PrimePi(n): T(n, k) is the number of Q-linearly independent subsets of { log(1), ..., log(n) } with k elements (where PrimePi corresponds to A000720, the prime-counting function).",
+  "id": "A307998",
+  "mentions": [
+    "A000720",
+    "A307984"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Eight white kings and one red king on a 3 X 3 chessboard. G.f.: (1 + 2*x - 4*x^2)/(1 - 2*x - 8*x^2).",
+  "id": "A179607",
+  "mentions": [
+    "A003947",
+    "A083424",
+    "A100284",
+    "A179596",
+    "A179597"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:16:20",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

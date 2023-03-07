@@ -1,0 +1,20 @@
+{
+  "description": "Convolution related to array A205497 and to generating functions for the rows of the array form of A050446.",
+  "id": "A205495",
+  "mentions": [
+    "A050446",
+    "A050447",
+    "A205497"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:54:18",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

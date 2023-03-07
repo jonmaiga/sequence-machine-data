@@ -1,0 +1,31 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of divisors of n that are >= k.",
+  "id": "A135539",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A023645",
+    "A032741",
+    "A051731",
+    "A321014",
+    "A338648",
+    "A338649",
+    "A338650",
+    "A338651",
+    "A338652",
+    "A338653"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

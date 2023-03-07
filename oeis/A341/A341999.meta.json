@@ -1,0 +1,29 @@
+{
+  "description": "a(n) = 1 if the k-th arithmetic derivative is nonzero for all k >= 0, otherwise 0.",
+  "id": "A341999",
+  "mentions": [
+    "A003415",
+    "A099308",
+    "A099309",
+    "A100716",
+    "A129251",
+    "A256750",
+    "A328308",
+    "A341996",
+    "A341997",
+    "A342023",
+    "A359542",
+    "A359546"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

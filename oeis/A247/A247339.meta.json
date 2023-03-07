@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least number k such that the greatest prime divisor of k^2+1 is the smallest prime divisor of n^2+1.",
+  "id": "A247339",
+  "mentions": [
+    "A002522",
+    "A014442",
+    "A089120"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

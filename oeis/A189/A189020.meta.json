@@ -1,0 +1,31 @@
+{
+  "description": "Sum_{k = 1..10^n} tau_4(k), where tau_4 is the number of ordered factorizations into 4 factors (A007426)",
+  "id": "A189020",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A000203",
+    "A007425",
+    "A007426",
+    "A008683",
+    "A034444",
+    "A057494",
+    "A061202",
+    "A064018",
+    "A072692",
+    "A084237",
+    "A180361",
+    "A180365"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

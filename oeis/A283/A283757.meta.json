@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that phi(n) = Sum_{j=1..k} d(n^j) for some k, where phi(n) is the Euler totient function of n and d(n) is the number of divisors of n.",
+  "id": "A283757",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A270389",
+    "A270713",
+    "A275660"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

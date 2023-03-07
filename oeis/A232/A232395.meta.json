@@ -1,0 +1,22 @@
+{
+  "description": "(ceiling(sqrt(n^3 + n^2 + n + 1)))^2 - (n^3 + n^2 + n + 1).",
+  "id": "A232395",
+  "mentions": [
+    "A000290",
+    "A048761",
+    "A053698",
+    "A068527",
+    "A135034"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:50",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

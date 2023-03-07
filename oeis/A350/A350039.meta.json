@@ -1,0 +1,19 @@
+{
+  "description": "Perimeters of more than one primitive 60-degree integer triangle.",
+  "id": "A350039",
+  "mentions": [
+    "A024408",
+    "A242039",
+    "A350038"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

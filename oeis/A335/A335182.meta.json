@@ -1,0 +1,25 @@
+{
+  "description": "Sum of the refactorable divisors of n.",
+  "id": "A335182",
+  "mentions": [
+    "A000005",
+    "A033950",
+    "A335665",
+    "A336040",
+    "A336041",
+    "A349322",
+    "A349658"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

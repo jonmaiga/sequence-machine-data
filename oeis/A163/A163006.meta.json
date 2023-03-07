@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X 6 binary arrays with all 1's connected and a path of 1's from upper left corner to lower right corner.",
+  "id": "A163006",
+  "mentions": [
+    "A359573"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

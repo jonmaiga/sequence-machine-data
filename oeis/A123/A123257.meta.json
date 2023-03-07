@@ -1,0 +1,26 @@
+{
+  "description": "Multiplicative encoding of nim sum triangle: Product p(i+1)^BitXOR(n,i).",
+  "id": "A123257",
+  "mentions": [
+    "A000040",
+    "A000225",
+    "A002110",
+    "A003987",
+    "A007188",
+    "A007318",
+    "A009766",
+    "A124061"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

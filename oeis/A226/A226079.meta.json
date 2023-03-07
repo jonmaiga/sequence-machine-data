@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that p plus its decimal reversal is a cube.",
+  "id": "A226079",
+  "mentions": [
+    "A059799",
+    "A080179"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

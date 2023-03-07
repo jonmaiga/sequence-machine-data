@@ -1,0 +1,21 @@
+{
+  "description": "Square array T(n,k) (n>=0, k>=0) read by antidiagonals downwards: T(n,k) = A005836(n) + 2*A005836(k).",
+  "id": "A289869",
+  "mentions": [
+    "A005836",
+    "A289813",
+    "A289814"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:04",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

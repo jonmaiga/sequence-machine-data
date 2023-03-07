@@ -1,0 +1,18 @@
+{
+  "description": "Number of arrays of 8 nondecreasing integers in -n..n with sum zero and equal numbers greater than zero and less than zero",
+  "id": "A203294",
+  "mentions": [
+    "A203291"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

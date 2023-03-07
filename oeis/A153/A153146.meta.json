@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that 2*n + 19 and 2*n - 19 are prime.",
+  "id": "A153146",
+  "mentions": [
+    "A097932",
+    "A153041",
+    "A153143"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:22",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

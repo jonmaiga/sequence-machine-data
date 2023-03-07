@@ -1,0 +1,19 @@
+{
+  "description": "Numbers such that the sum of the cube of the odd divisors is prime.",
+  "id": "A195332",
+  "mentions": [
+    "A005010",
+    "A066100",
+    "A195268"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of compositions of n where the difference between largest and smallest parts equals 2 and adjacent parts are unequal.",
+  "id": "A214271",
+  "mentions": [
+    "A214269"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 3,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

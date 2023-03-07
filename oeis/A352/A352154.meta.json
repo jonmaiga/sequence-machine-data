@@ -1,0 +1,34 @@
+{
+  "description": "Numbers m whose decimal expansion of 1/m contains the digit 0, ignoring leading and trailing 0's.",
+  "id": "A352154",
+  "mentions": [
+    "A000533",
+    "A002275",
+    "A002277",
+    "A002281",
+    "A003592",
+    "A333402",
+    "A341383",
+    "A350814",
+    "A352153",
+    "A352155",
+    "A352156",
+    "A352157",
+    "A352158",
+    "A352159",
+    "A352160",
+    "A352161"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

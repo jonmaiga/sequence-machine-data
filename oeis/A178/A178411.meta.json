@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=2, a(2)=1; for n>=3, a(n) is defined by recursion: Sum_{d|n}((-1)^(n/d))*a(d) = -1.",
+  "id": "A178411",
+  "mentions": [
+    "A008683",
+    "A209229"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

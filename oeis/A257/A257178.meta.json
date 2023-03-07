@@ -1,0 +1,20 @@
+{
+  "description": "Number of 3-Motzkin paths of length n with no level steps at odd level.",
+  "id": "A257178",
+  "mentions": [
+    "A000108",
+    "A086622",
+    "A090344"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

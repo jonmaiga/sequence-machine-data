@@ -1,0 +1,19 @@
+{
+  "description": "Number of nonseparable trivalent maps with n nodes up to orientation preserving automorphisms.",
+  "id": "A341855",
+  "mentions": [
+    "A005027",
+    "A005028",
+    "A262586"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 3,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

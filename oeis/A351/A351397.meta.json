@@ -1,0 +1,20 @@
+{
+  "description": "Sum of the exponents in the prime factorizations of the prime power divisors of n.",
+  "id": "A351397",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A246655"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

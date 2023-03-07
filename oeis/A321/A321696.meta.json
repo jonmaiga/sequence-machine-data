@@ -1,0 +1,19 @@
+{
+  "description": "For any sequence f of positive integers, let g(f) be the unique Golomb-like sequence with run lengths given by f and let k(f) be the unique Kolakoski-like sequence with run lengths given by f and initial term 1; this sequence is the unique sequence f satisfying f = k(g(f)).",
+  "id": "A321696",
+  "mentions": [
+    "A000002",
+    "A001462",
+    "A321695"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

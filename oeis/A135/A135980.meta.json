@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k such that the Mersenne number 2^prime(k)-1 is composite.",
+  "id": "A135980",
+  "mentions": [
+    "A000225",
+    "A054723",
+    "A065341",
+    "A134852",
+    "A135975",
+    "A135976",
+    "A135977",
+    "A135978",
+    "A135979"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

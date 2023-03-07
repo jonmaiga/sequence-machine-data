@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 5*a(n-1) + 45*a(n-3) - 225*a(n-4), a(0)=0, a(1)=4, a(2)=24, a(3)=60, a(4)=480.",
+  "id": "A112611",
+  "mentions": [
+    "A079978",
+    "A104180",
+    "A104181"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

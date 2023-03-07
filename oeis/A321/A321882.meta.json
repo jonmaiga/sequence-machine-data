@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least base b > 1 such that the sum n + n can be computed without carry.",
+  "id": "A321882",
+  "mentions": [
+    "A000120",
+    "A005836",
+    "A007091",
+    "A319478"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

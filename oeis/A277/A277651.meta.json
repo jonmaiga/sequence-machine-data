@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the first derivative of the infinite power tower function x^x^x... at x = 1/4.",
+  "id": "A277651",
+  "mentions": [
+    "A002162",
+    "A277522",
+    "A277559",
+    "A293009",
+    "A300916"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:10",
+    "offset": 0,
+    "size": 104,
+    "source": "joeis"
+  }
+}

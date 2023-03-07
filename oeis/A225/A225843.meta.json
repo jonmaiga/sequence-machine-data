@@ -1,0 +1,23 @@
+{
+  "description": "Integral parts of sums of the reciprocals of the Collatz (3x+1) sequence starting with n.",
+  "id": "A225843",
+  "mentions": [
+    "A000079",
+    "A006577",
+    "A057716",
+    "A070165",
+    "A225761",
+    "A225784"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

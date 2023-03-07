@@ -1,0 +1,29 @@
+{
+  "description": "Decimal expansion of cosh(Pi/2)/Pi.",
+  "id": "A330865",
+  "mentions": [
+    "A042972",
+    "A049006",
+    "A049541",
+    "A156648",
+    "A175615",
+    "A308715",
+    "A308716",
+    "A308718",
+    "A323982",
+    "A330864",
+    "A334402"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:24:15",
+    "offset": 0,
+    "size": 110,
+    "source": "joeis"
+  }
+}

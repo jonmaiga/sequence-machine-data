@@ -1,0 +1,18 @@
+{
+  "description": "Powers of e^(1/e) rounded up.",
+  "id": "A107586",
+  "mentions": [
+    "A017984",
+    "A061481"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

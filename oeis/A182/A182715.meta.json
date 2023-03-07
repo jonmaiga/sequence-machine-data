@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows in which row n lists in nonincreasing order the smallest part of every partition of n.",
+  "id": "A182715",
+  "mentions": [
+    "A000041",
+    "A001477",
+    "A026807",
+    "A046746",
+    "A135010",
+    "A138121",
+    "A141285",
+    "A182699",
+    "A182709",
+    "A196931"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

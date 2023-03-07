@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 1 iff 6*n+1 and 6*n-1 are both prime numbers (0 otherwise).",
+  "id": "A100923",
+  "mentions": [
+    "A000040",
+    "A002822",
+    "A100924",
+    "A100925"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:46:27",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

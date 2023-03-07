@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that arithmetic mean of squares of the first n tribonacci numbers is an integer.",
+  "id": "A140973",
+  "mentions": [
+    "A000073",
+    "A107239"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

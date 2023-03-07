@@ -1,0 +1,21 @@
+{
+  "description": "Numbers whose sum of anti-divisors is equal to the sum of its unitary divisors.",
+  "id": "A273992",
+  "mentions": [
+    "A034448",
+    "A066272",
+    "A066417",
+    "A074751",
+    "A178029"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

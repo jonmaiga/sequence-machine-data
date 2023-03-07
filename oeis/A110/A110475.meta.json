@@ -1,0 +1,26 @@
+{
+  "description": "Number of symbols '*' and '^' to write the canonical prime factorization of n.",
+  "id": "A110475",
+  "mentions": [
+    "A000040",
+    "A001221",
+    "A001358",
+    "A007304",
+    "A008578",
+    "A025475",
+    "A046386",
+    "A050252",
+    "A056170",
+    "A118914"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

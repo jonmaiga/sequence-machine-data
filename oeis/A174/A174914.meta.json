@@ -1,0 +1,19 @@
+{
+  "description": "A symmetrical triangle sequence T(n, m) = 2 + binomial(n, m)^3 - 3*binomial(n, m)*Eulerian(n+1, m) + Eulerian(n+1, m)^3.",
+  "id": "A174914",
+  "mentions": [
+    "A008292"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

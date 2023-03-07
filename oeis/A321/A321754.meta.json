@@ -1,0 +1,31 @@
+{
+  "description": "Irregular triangle read by rows where T(H(u),H(v)) is the coefficient of h(v) in p(u), where H is Heinz number, p is power sum symmetric functions, and h is homogeneous symmetric functions.",
+  "id": "A321754",
+  "mentions": [
+    "A000041",
+    "A005651",
+    "A008480",
+    "A056239",
+    "A124794",
+    "A124795",
+    "A135278",
+    "A319193",
+    "A319225",
+    "A319226",
+    "A321742",
+    "A321752",
+    "A321765",
+    "A321854"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

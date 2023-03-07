@@ -1,0 +1,50 @@
+{
+  "description": "Unique sequence satisfying SumXOR_{d divides n} a(d) = n^2 for any n > 0, where SumXOR is the analog of summation under the binary XOR operation.",
+  "id": "A295901",
+  "mentions": [
+    "A000004",
+    "A000010",
+    "A000027",
+    "A000040",
+    "A000079",
+    "A000203",
+    "A000290",
+    "A000720",
+    "A001157",
+    "A003987",
+    "A005132",
+    "A005187",
+    "A006068",
+    "A006370",
+    "A007434",
+    "A008683",
+    "A008966",
+    "A055895",
+    "A063524",
+    "A087207",
+    "A156552",
+    "A178910",
+    "A227320",
+    "A248663",
+    "A256739",
+    "A296203",
+    "A296206",
+    "A296207",
+    "A296208",
+    "A297106",
+    "A297108",
+    "A297110"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:14",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k divisible by A101337(k) (narcissistic function).",
+  "id": "A306361",
+  "mentions": [
+    "A005188",
+    "A007088",
+    "A007953",
+    "A101337",
+    "A306354",
+    "A306360"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

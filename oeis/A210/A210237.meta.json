@@ -1,0 +1,23 @@
+{
+  "description": "Triangle of distinct values M(n) of multinomial coefficients for partitions of n in increasing order of n and M(n).",
+  "id": "A210237",
+  "mentions": [
+    "A036038",
+    "A070289",
+    "A078760",
+    "A080577",
+    "A209936",
+    "A210238"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

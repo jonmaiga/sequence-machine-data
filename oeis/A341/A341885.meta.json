@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the sum of A000217(p) over the prime factors p of n, counted with multiplicity.",
+  "id": "A341885",
+  "mentions": [
+    "A000217",
+    "A001414",
+    "A340834"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

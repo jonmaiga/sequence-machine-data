@@ -1,0 +1,33 @@
+{
+  "description": "Number T(n,k) of ordered partitions of an n-set with nondecreasing block sizes and maximal block size equal to k; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A262071",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000142",
+    "A005651",
+    "A262072",
+    "A266518",
+    "A272492",
+    "A272493",
+    "A272494",
+    "A272495",
+    "A272496",
+    "A272497",
+    "A272498",
+    "A272499",
+    "A272500"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:21",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Dirichlet inverse of A359770, where A359770(n) = 1 if n and bigomega(n) are of different parity, otherwise 0.",
+  "id": "A359815",
+  "mentions": [
+    "A001222",
+    "A003961",
+    "A069345",
+    "A353556",
+    "A353557",
+    "A358777",
+    "A359763",
+    "A359770",
+    "A359814",
+    "A359816",
+    "A359817"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

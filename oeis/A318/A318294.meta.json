@@ -1,0 +1,18 @@
+{
+  "description": "Prime-indexed primes p such that 2*p + 1 is also a prime-indexed prime.",
+  "id": "A318294",
+  "mentions": [
+    "A005384",
+    "A006450"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

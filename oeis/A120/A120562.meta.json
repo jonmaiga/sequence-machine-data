@@ -1,0 +1,38 @@
+{
+  "description": "Sum of binomial coefficients binomial(i+j, i) modulo 2 over all pairs (i,j) of positive integers satisfying 3i+j=n.",
+  "id": "A120562",
+  "mentions": [
+    "A000012",
+    "A000045",
+    "A000071",
+    "A000119",
+    "A000930",
+    "A001316",
+    "A001595",
+    "A001610",
+    "A001911",
+    "A002487",
+    "A014739",
+    "A027961",
+    "A047999",
+    "A111314",
+    "A112970",
+    "A154691",
+    "A177444",
+    "A177445",
+    "A180662",
+    "A191373"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(n, k) = f(n-k) + f(k) - f(n), where f(n) = -3*n with f(0) = 1, f(1) = -2, read by rows.",
+  "id": "A172090",
+  "mentions": [
+    "A151798"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:56",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

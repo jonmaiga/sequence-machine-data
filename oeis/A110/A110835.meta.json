@@ -1,0 +1,17 @@
+{
+  "description": "Smallest m > 0 such that there are no primes between n*m and n*(m+1) inclusive.",
+  "id": "A110835",
+  "mentions": [
+    "A014085"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

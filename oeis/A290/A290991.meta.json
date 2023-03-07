@@ -1,0 +1,23 @@
+{
+  "description": "p-INVERT of (0,0,1,2,3,4,5,...), the nonnegative integers A000027 preceded by one zero, where p(S) = 1 - S - S^2.",
+  "id": "A290991",
+  "mentions": [
+    "A000027",
+    "A033453",
+    "A289780",
+    "A290890",
+    "A290990"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

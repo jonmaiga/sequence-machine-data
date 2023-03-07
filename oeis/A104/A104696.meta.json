@@ -1,0 +1,22 @@
+{
+  "description": "Rearrangement of positive integers: change odd digits d to 10-d.",
+  "id": "A104696",
+  "mentions": [
+    "A104697",
+    "A104702",
+    "A104703",
+    "A104704"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

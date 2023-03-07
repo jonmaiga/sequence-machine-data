@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form prime(x)^2 + (prime(x) - 1)^2.",
+  "id": "A147718",
+  "mentions": [
+    "A008846",
+    "A020882"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=1..n} n^(k'), where ' is the arithmetic derivative.",
+  "id": "A348376",
+  "mentions": [
+    "A003415"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

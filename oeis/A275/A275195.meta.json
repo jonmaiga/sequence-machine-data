@@ -1,0 +1,20 @@
+{
+  "description": "Sum of n-th powers of the roots of x^3 - 7*x^2 - 49*x - 49.",
+  "id": "A275195",
+  "mentions": [
+    "A108716",
+    "A215794"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

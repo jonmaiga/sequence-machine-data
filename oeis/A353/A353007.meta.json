@@ -1,0 +1,18 @@
+{
+  "description": "Nonnegative integers in which any odd digit, if present, occurs an even number of times, and any even digit, if present, occurs an odd number of times.",
+  "id": "A353007",
+  "mentions": [
+    "A333369"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

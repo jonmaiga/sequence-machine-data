@@ -1,0 +1,22 @@
+{
+  "description": "Semiprimes p such that next semiprime after p is p + 50.",
+  "id": "A282424",
+  "mentions": [
+    "A001358",
+    "A131109",
+    "A217030",
+    "A217335",
+    "A217357",
+    "A282407"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that are both binary Niven numbers and binary Smith numbers.",
+  "id": "A334531",
+  "mentions": [
+    "A049445",
+    "A278909",
+    "A334527"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

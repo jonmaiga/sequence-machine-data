@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least number of repetitions such that the result of the repeated execution of the division f <- f/n started at f=1 produces 0, when the division is performed using Commodore BASIC.",
+  "id": "A337068",
+  "mentions": [
+    "A336777",
+    "A336781"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 2,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

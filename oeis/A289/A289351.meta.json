@@ -1,0 +1,22 @@
+{
+  "description": "Starting from one digit move right by x steps, being x the value of the digit. If the steps go beyond the LSD they continue from the left side. Then repeat the process from the reached digit. The sequence lists the numbers such that all the digits are touched just one time and the last run end in the initial digit.",
+  "id": "A289351",
+  "mentions": [
+    "A014261",
+    "A071073",
+    "A284515",
+    "A284591"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:03",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

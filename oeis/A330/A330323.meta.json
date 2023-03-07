@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Moebius(n)*Moebius(n+1).",
+  "id": "A330323",
+  "mentions": [
+    "A002378",
+    "A007674",
+    "A008683",
+    "A330324"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

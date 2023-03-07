@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of (1+4*x-12*x^2-16*x^3)/((2*x+1)*(2*x-1)*(4*x^2+4*x-1)).",
+  "id": "A110046",
+  "mentions": [
+    "A110047",
+    "A110048",
+    "A110049",
+    "A110050"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

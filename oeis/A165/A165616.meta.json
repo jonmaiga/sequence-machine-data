@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form (p^2 - 1)/16 - p, where p is also a prime.",
+  "id": "A165616",
+  "mentions": [
+    "A165615"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:48",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

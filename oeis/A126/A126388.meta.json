@@ -1,0 +1,25 @@
+{
+  "description": "Denominators in a series for the \"alternating Euler constant\" log(4/Pi).",
+  "id": "A126388",
+  "mentions": [
+    "A037861",
+    "A066879",
+    "A094640",
+    "A094641",
+    "A110625",
+    "A110626",
+    "A126389"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 2,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

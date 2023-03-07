@@ -1,0 +1,19 @@
+{
+  "description": "Primes of the form r(r(r(r(r(r(r(k)+1)+1)+1)+1)+1)+1)+1, where r(k) = A141468(k) = k-th nonprime.",
+  "id": "A131604",
+  "mentions": [
+    "A000040",
+    "A141468"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

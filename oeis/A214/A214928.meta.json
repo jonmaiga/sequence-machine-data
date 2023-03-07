@@ -1,0 +1,33 @@
+{
+  "description": "A209293 as table read layer by layer clockwise.",
+  "id": "A214928",
+  "mentions": [
+    "A000096",
+    "A000124",
+    "A000217",
+    "A000982",
+    "A034856",
+    "A055998",
+    "A060734",
+    "A060736",
+    "A097063",
+    "A152948",
+    "A152950",
+    "A185180",
+    "A209278",
+    "A209279",
+    "A209293"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

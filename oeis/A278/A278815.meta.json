@@ -1,0 +1,22 @@
+{
+  "description": "Number of tilings of a 2 X n grid with monomers, dimers, and trimers.",
+  "id": "A278815",
+  "mentions": [
+    "A030186",
+    "A052961",
+    "A129682",
+    "A219866"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

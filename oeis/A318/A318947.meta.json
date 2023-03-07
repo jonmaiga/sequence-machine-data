@@ -1,0 +1,18 @@
+{
+  "description": "Column 2 of triangle A318945.",
+  "id": "A318947",
+  "mentions": [
+    "A318945"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

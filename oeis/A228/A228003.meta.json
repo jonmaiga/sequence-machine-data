@@ -1,0 +1,19 @@
+{
+  "description": "Places of records of A227321.",
+  "id": "A228003",
+  "mentions": [
+    "A006512",
+    "A227321"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

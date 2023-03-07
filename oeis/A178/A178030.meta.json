@@ -1,0 +1,19 @@
+{
+  "description": "Array read by antidiagonals: T(0,m)=2, T(1,m)=1, T(n,m)=A000032(n) and recursively T(n,m)=( T(n-1,m)^2 + (4*m + 1)*(-1)^n) / T(n-2, m), n>=0, m>=1.",
+  "id": "A178030",
+  "mentions": [
+    "A000032"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

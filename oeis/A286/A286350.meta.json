@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 2*a(n-1) - a(n-2) + a(n-4) for n>3, a(0)=0, a(1)=a(2)=2, a(3)=3.",
+  "id": "A286350",
+  "mentions": [
+    "A022086",
+    "A128834",
+    "A226956",
+    "A286311"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

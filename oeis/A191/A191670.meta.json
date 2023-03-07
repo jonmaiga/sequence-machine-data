@@ -1,0 +1,36 @@
+{
+  "description": "Dispersion of A042968 (>1 and congruent to 1 or 2 or 3 mod 4), by antidiagonals.",
+  "id": "A191670",
+  "mentions": [
+    "A004767",
+    "A004772",
+    "A004773",
+    "A008486",
+    "A008586",
+    "A016813",
+    "A016825",
+    "A042965",
+    "A042968",
+    "A155167",
+    "A171861",
+    "A191426",
+    "A191452",
+    "A191667",
+    "A191668",
+    "A191669",
+    "A191671",
+    "A191672",
+    "A191673"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

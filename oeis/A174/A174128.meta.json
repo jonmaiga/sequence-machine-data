@@ -1,0 +1,31 @@
+{
+  "description": "Irregular triangle read by rows: row n (n > 0) is the expansion of Sum_{m=1..n} A001263(n,m)*x^(m - 1)*(1 - x)^(n - m).",
+  "id": "A174128",
+  "mentions": [
+    "A001263",
+    "A122753",
+    "A123018",
+    "A123019",
+    "A123021",
+    "A123027",
+    "A123199",
+    "A123202",
+    "A123217",
+    "A123221",
+    "A141720",
+    "A144387",
+    "A144400"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

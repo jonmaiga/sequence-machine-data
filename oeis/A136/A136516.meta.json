@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = (2^n+1)^n.",
+  "id": "A136516",
+  "mentions": [
+    "A014050",
+    "A055601",
+    "A202989",
+    "A243918",
+    "A264871",
+    "A326011",
+    "A326012"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

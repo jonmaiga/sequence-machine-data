@@ -1,0 +1,20 @@
+{
+  "description": "Products of a semiprime times a larger prime.",
+  "id": "A252478",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A137428"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

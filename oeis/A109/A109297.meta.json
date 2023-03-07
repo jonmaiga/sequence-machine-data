@@ -1,0 +1,34 @@
+{
+  "description": "Primal codes of finite permutations on positive integers.",
+  "id": "A109297",
+  "mentions": [
+    "A056239",
+    "A076954",
+    "A106177",
+    "A108352",
+    "A108371",
+    "A109298",
+    "A109301",
+    "A112798",
+    "A114640",
+    "A118914",
+    "A130091",
+    "A324524",
+    "A324525",
+    "A324571",
+    "A325127",
+    "A325128",
+    "A325130",
+    "A325131"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

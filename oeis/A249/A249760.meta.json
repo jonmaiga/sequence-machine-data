@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that k+1 and sigma(kn) are both primes.",
+  "id": "A249760",
+  "mentions": [
+    "A000203",
+    "A000668",
+    "A019434",
+    "A023194",
+    "A249759",
+    "A249761"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

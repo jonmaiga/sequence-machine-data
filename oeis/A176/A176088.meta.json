@@ -1,0 +1,18 @@
+{
+  "description": "Table T(n,k) = ceiling(10^n/(10^k-1)), n >= 0, k >= 1, read by antidiagonals.",
+  "id": "A176088",
+  "mentions": [
+    "A047855"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

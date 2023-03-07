@@ -1,0 +1,29 @@
+{
+  "description": "Positive integers which are never the quotient of phi(n)/tau(n).",
+  "id": "A290634",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A015733",
+    "A020488",
+    "A020491",
+    "A062516",
+    "A112954",
+    "A112955",
+    "A119480",
+    "A175667",
+    "A279287",
+    "A279288",
+    "A289585"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

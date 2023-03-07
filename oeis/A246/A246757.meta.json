@@ -1,0 +1,20 @@
+{
+  "description": "Largest n-digit number divisible by the product of its decimal digits.",
+  "id": "A246757",
+  "mentions": [
+    "A000042",
+    "A002275",
+    "A007602"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

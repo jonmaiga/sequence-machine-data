@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = ((2*n)-th semiprime) minus 2*(n-th semiprime).",
+  "id": "A175509",
+  "mentions": [
+    "A066066",
+    "A075818",
+    "A099981"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:26:54",
+    "offset": 1,
+    "size": 79,
+    "source": "joeis"
+  }
+}

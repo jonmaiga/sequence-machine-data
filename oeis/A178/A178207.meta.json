@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 4*n - 2*A000120(n) + 1 where A000120(n) = number of nonzero digits in the binary representation of n.",
+  "id": "A178207",
+  "mentions": [
+    "A000120",
+    "A005187",
+    "A008586",
+    "A059997",
+    "A124153"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

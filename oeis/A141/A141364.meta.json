@@ -1,0 +1,22 @@
+{
+  "description": "a(n)=C(n)-1+0^n where C(n)=A000108(n).",
+  "id": "A141364",
+  "mentions": [
+    "A000108",
+    "A001453",
+    "A141351",
+    "A141365"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

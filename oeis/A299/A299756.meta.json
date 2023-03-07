@@ -1,0 +1,29 @@
+{
+  "description": "Triangle read by rows in which row n is the finite increasing sequence, or set of positive integers, with FDH number n.",
+  "id": "A299756",
+  "mentions": [
+    "A005117",
+    "A050376",
+    "A064547",
+    "A112798",
+    "A213925",
+    "A246867",
+    "A277098",
+    "A296150",
+    "A299090",
+    "A299755",
+    "A299757",
+    "A299759"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

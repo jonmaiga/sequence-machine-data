@@ -1,0 +1,20 @@
+{
+  "description": "G.f.: sqrt( Sum_{n>=0} x^n / (1-x)^(4*n+3) * [Sum_{k=0..2*n+1} C(2*n+1,k)^2 * x^k]^2 ).",
+  "id": "A246573",
+  "mentions": [
+    "A246563",
+    "A246570",
+    "A246571",
+    "A246572"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

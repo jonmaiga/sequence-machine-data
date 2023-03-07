@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of 'lambda', the Lyapunov exponent characterizing the asymptotic growth rate of the number of odd coefficients in Pascal trinomial triangle mod 2, where coefficients are from (1+x+x^2)^n.",
+  "id": "A242049",
+  "mentions": [
+    "A241002",
+    "A242021",
+    "A242022",
+    "A242047",
+    "A242048",
+    "A242208",
+    "A338294"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "T(n, k) = denominator([x^k] [z^n] ((1 - i*z)/(1 + i*z))^(i*x)*(1 + z^2)^(-3/4)). Denominators of the coefficients of the symmetric Meixner-Pollaczek polynomials P^(3/4)_{n}(x, Pi/2). Triangle read by rows, T(n, k) for 0 <= k <= n.",
+  "id": "A344910",
+  "mentions": [
+    "A049606",
+    "A088802",
+    "A123854",
+    "A344909"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

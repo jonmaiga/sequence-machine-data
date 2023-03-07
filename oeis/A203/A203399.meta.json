@@ -1,0 +1,22 @@
+{
+  "description": "T(n, k), a triangular array read by rows, is the number of classes of equivalent 2-color n-bead necklaces (turning over is allowed) that contain k necklaces.",
+  "id": "A203399",
+  "mentions": [
+    "A000029",
+    "A032239",
+    "A056493",
+    "A203398"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 1,
+    "size": 110,
+    "source": "oeis-bfile"
+  }
+}

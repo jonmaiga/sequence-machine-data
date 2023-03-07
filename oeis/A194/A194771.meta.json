@@ -1,0 +1,19 @@
+{
+  "description": "Even numbers that divide the sum of their even divisors.",
+  "id": "A194771",
+  "mentions": [
+    "A007691",
+    "A146076"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

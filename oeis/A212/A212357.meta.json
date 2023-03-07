@@ -1,0 +1,24 @@
+{
+  "description": "Coefficients for the cycle index polynomial for the cyclic group C_n multiplied by n, n>=1, read as partition polynomial.",
+  "id": "A212357",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A000041",
+    "A036036",
+    "A054523",
+    "A102190"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

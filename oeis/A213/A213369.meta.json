@@ -1,0 +1,22 @@
+{
+  "description": "The twisted Stern sequence: a(0) = 0, a(1) = 1 and a(2n) = -a(n), a(2n + 1) = -a(n)-a(n + 1) for n>=1.",
+  "id": "A213369",
+  "mentions": [
+    "A002487",
+    "A020944",
+    "A287729",
+    "A287730"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

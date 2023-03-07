@@ -1,0 +1,24 @@
+{
+  "description": "Number of strict integer partitions of 2*n with no subset summing to n.",
+  "id": "A321142",
+  "mentions": [
+    "A002219",
+    "A006827",
+    "A108917",
+    "A237258",
+    "A275972",
+    "A279791",
+    "A284640",
+    "A305551"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

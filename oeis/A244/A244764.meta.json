@@ -1,0 +1,20 @@
+{
+  "description": "Prime numbers ending in the prime number 17.",
+  "id": "A244764",
+  "mentions": [
+    "A166579",
+    "A244763"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:48:27",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Diagonal of the Euler-Seidel matrix for the Catalan numbers.",
+  "id": "A283298",
+  "mentions": [
+    "A000108",
+    "A106534",
+    "A280470"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:24",
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

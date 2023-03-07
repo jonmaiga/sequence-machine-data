@@ -1,0 +1,21 @@
+{
+  "description": "Inflation orbit counts b^{(2)}_n for 2D cut and project patterns with tau-inflation.",
+  "id": "A324484",
+  "mentions": [
+    "A001350",
+    "A031367",
+    "A152152",
+    "A324485"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

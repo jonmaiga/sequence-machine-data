@@ -1,0 +1,22 @@
+{
+  "description": "Number of conjugacy classes in Chevalley group E_8(q) as q runs through the prime powers (A246655).",
+  "id": "A225938",
+  "mentions": [
+    "A188161",
+    "A224790",
+    "A225928",
+    "A225937",
+    "A246655"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

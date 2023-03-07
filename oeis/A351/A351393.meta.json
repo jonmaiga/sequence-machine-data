@@ -1,0 +1,20 @@
+{
+  "description": "Maximum k for which the grid graph P_4 X P_k is an induced subgraph of the n X n knight graph.",
+  "id": "A351393",
+  "mentions": [
+    "A351390",
+    "A351391",
+    "A351392"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 3,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

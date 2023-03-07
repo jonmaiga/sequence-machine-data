@@ -1,0 +1,26 @@
+{
+  "description": "Main diagonal of array T(k,n) = n-th number in which the number of distinct base 10 digits is k.",
+  "id": "A220111",
+  "mentions": [
+    "A031969",
+    "A043537",
+    "A050278",
+    "A218019",
+    "A219743",
+    "A220076"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

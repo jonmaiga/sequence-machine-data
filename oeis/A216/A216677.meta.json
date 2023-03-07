@@ -1,0 +1,21 @@
+{
+  "description": "Number of squares s^2 that divide the product of the divisors of n, such that rad(s) = rad(n), where rad(n) = A007947.",
+  "id": "A216677",
+  "mentions": [
+    "A000005",
+    "A007947",
+    "A007955",
+    "A216864"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

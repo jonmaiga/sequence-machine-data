@@ -1,0 +1,19 @@
+{
+  "description": "Number of steps it takes the terms in A029742 and their reversals to reach the value 9 when the smaller term is successively subtracted from the larger term.",
+  "id": "A243359",
+  "mentions": [
+    "A002113",
+    "A029742"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

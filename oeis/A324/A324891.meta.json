@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = sigma(A170818(n)), where A170818(n) is the part of n composed of prime factors of form 4k+1.",
+  "id": "A324891",
+  "mentions": [
+    "A000203",
+    "A000593",
+    "A170818",
+    "A324893"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

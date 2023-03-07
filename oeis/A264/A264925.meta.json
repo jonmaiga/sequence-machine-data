@@ -1,0 +1,23 @@
+{
+  "description": "G.f.: 1 / Product_{n>=0} (1 - x^(n+5))^((n+1)*(n+2)*(n+3)*(n+4)/4!).",
+  "id": "A264925",
+  "mentions": [
+    "A000391",
+    "A052847",
+    "A255052",
+    "A264923",
+    "A264924",
+    "A264926"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

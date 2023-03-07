@@ -1,0 +1,20 @@
+{
+  "description": "First coefficient of the lindep transform of sigma(n).",
+  "id": "A339790",
+  "mentions": [
+    "A000203",
+    "A339791",
+    "A339792"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

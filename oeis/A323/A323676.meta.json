@@ -1,0 +1,19 @@
+{
+  "description": "Odd coefficients in Sum_{n>=0} x^n * (x^n + i)^n / (1 + i*x^(n+1))^(n+1), where i^2 = -1.",
+  "id": "A323676",
+  "mentions": [
+    "A323675",
+    "A323679"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:48",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

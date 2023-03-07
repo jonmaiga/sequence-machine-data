@@ -1,0 +1,26 @@
+{
+  "description": "Difference of sums of two subsets of divisors of n, those obtained by repeatedly dividing with the smallest remaining prime factor (A332993) and those obtained by repeatedly dividing with the largest remaining prime factor (A332994).",
+  "id": "A333791",
+  "mentions": [
+    "A000961",
+    "A006022",
+    "A032742",
+    "A052126",
+    "A322382",
+    "A332993",
+    "A332994",
+    "A333783",
+    "A333784"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:04",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

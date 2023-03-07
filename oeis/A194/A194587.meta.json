@@ -1,0 +1,23 @@
+{
+  "description": "A triangle whose rows add up to the numerators of the Bernoulli numbers (with B(1) = 1/2). T(n, k) for n >= 0, 0 <= k <= n.",
+  "id": "A194587",
+  "mentions": [
+    "A027641",
+    "A131689",
+    "A141056",
+    "A164555",
+    "A325871"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = (3*n)! * [z^(3*n)] exp(-(exp(z)/3 + 2*exp(-z/2)*cos(z*sqrt(3)/2)/3 - 1)).",
+  "id": "A291974",
+  "mentions": [
+    "A291451"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

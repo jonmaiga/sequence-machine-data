@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that the n-th cyclotomic polynomial has a root mod 11.",
+  "id": "A245480",
+  "mentions": [
+    "A000079",
+    "A038754",
+    "A245478",
+    "A245479",
+    "A245481"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

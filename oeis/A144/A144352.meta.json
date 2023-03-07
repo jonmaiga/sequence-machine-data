@@ -1,0 +1,21 @@
+{
+  "description": "Third column (m=3) of triangle A144351.",
+  "id": "A144352",
+  "mentions": [
+    "A000142",
+    "A024419",
+    "A144351"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of n-digit numbers in which more than half of the digits are the same.",
+  "id": "A353182",
+  "mentions": [
+    "A353181",
+    "A353183"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

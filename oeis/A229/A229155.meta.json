@@ -1,0 +1,24 @@
+{
+  "description": "Number of digits of the n-th term of the decimal expansion of e = exp(1) cut into chunks of primes.",
+  "id": "A229155",
+  "mentions": [
+    "A001113",
+    "A007512",
+    "A047658",
+    "A047777",
+    "A064118",
+    "A121267"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

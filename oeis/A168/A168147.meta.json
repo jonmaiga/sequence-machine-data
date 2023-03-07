@@ -1,0 +1,23 @@
+{
+  "description": "Primes of the form 10*n^3 + 1.",
+  "id": "A168147",
+  "mentions": [
+    "A030430",
+    "A167535",
+    "A168219"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:44:41",
+    "offset": 1,
+    "size": 29,
+    "source": "joeis"
+  }
+}

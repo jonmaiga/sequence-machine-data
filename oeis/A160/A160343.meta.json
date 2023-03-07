@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that the two closest numbers above and below k, which are in A010784 and which have no common digit with k, have the same distance to k.",
+  "id": "A160343",
+  "mentions": [
+    "A010784"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

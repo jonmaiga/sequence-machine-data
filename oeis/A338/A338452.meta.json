@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that k and k+1 have the same total binary weight of their divisors (A093653).",
+  "id": "A338452",
+  "mentions": [
+    "A000120",
+    "A000668",
+    "A002961",
+    "A005237",
+    "A054004",
+    "A064125",
+    "A093653",
+    "A238380",
+    "A293183",
+    "A306985"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

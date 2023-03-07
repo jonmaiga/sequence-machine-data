@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) = number of Havender tableaux of height 2 with n columns and k empty squares (n >= 0, 0 <= k <= 2*n).",
+  "id": "A259992",
+  "mentions": [
+    "A000108",
+    "A007345"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

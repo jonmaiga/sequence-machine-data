@@ -1,0 +1,19 @@
+{
+  "description": "Index of matching grid point in the bijection between two infinite quadratic grids with one grid rotated by Pi/4 around the common point (0,0), using an enumeration of the grid points by A305575 and A305576.",
+  "id": "A307110",
+  "mentions": [
+    "A305575",
+    "A305576",
+    "A307731"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k for which prime(1) + ... + prime(k) = 2*prime(m) for some m.",
+  "id": "A228490",
+  "mentions": [
+    "A013916",
+    "A228491"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

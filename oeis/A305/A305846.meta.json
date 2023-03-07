@@ -1,0 +1,22 @@
+{
+  "description": "Inverse Weigh transform of the Bell numbers (A000110).",
+  "id": "A305846",
+  "mentions": [
+    "A000110",
+    "A085686",
+    "A168246",
+    "A305850",
+    "A305853"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: denominator of h(n-k)*h(k)/h(n) where h(x) = zeta(2*x)*(4^x-2), 0<=k<=n.",
+  "id": "A246052",
+  "mentions": [
+    "A240978",
+    "A246051",
+    "A246053"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

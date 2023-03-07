@@ -1,0 +1,22 @@
+{
+  "description": "Integers i such that the equation A088387(i) = p has N > 1 solutions in the interval prevprime(i)..nextprime(i).",
+  "id": "A308617",
+  "mentions": [
+    "A007917",
+    "A007918",
+    "A034699",
+    "A038610",
+    "A088387",
+    "A308752"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

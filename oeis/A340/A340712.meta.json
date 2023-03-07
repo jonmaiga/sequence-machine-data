@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that p divides (2 + product of primes < p).",
+  "id": "A340712",
+  "mentions": [
+    "A034386",
+    "A062347",
+    "A338543"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

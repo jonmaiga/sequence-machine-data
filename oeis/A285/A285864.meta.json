@@ -1,0 +1,29 @@
+{
+  "description": "Triangle read by rows: a(n,m) = numerator(binomial(n,m)*2^(n-m)*B(n-m) with B(k) the Bernoulli numbers A027641(k)/A027642(k).",
+  "id": "A285864",
+  "mentions": [
+    "A027641",
+    "A027642",
+    "A141459",
+    "A157779",
+    "A196838",
+    "A196839",
+    "A285863",
+    "A285865",
+    "A285866"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

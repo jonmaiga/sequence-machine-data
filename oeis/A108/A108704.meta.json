@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of 112233...nn into n pairs.",
+  "id": "A108704",
+  "mentions": [
+    "A002135"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

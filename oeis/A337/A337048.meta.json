@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n,k) read by rows: the number of fountains of n coins composed of k inseparable fountains of coins placed side-by-side.",
+  "id": "A337048",
+  "mentions": [
+    "A005169",
+    "A291148"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:56",
+    "offset": 1,
+    "size": 96,
+    "source": "joeis"
+  }
+}

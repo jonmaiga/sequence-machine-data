@@ -1,0 +1,27 @@
+{
+  "description": "Colossally abundant numbers that are highly composite, but not superior highly composite.",
+  "id": "A304235",
+  "mentions": [
+    "A001221",
+    "A002110",
+    "A002182",
+    "A002201",
+    "A004394",
+    "A004490",
+    "A166981",
+    "A224078",
+    "A301414",
+    "A304234"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "floor(s*t/(s+t)), where s(n) are the squares, t(n) the triangular numbers.",
+  "id": "A235269",
+  "mentions": [
+    "A000217",
+    "A000290"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:26:23",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

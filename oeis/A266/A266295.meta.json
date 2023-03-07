@@ -1,0 +1,21 @@
+{
+  "description": "2-free tetranacci sequence beginning 1,3,5,7.",
+  "id": "A266295",
+  "mentions": [
+    "A000265",
+    "A232666",
+    "A233248",
+    "A233526"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:27",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

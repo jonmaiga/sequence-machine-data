@@ -1,0 +1,23 @@
+{
+  "description": "E.g.f. S(y,x) = Integral C(y,x)^2 * C(x,y) dy, where C(y,x)^2 - S(y,x)^2 = 1 and C(x,y) = Integral S(x,y)*C(x,y)*C(y,x) dx.",
+  "id": "A324612",
+  "mentions": [
+    "A000182",
+    "A000364",
+    "A324609",
+    "A324610",
+    "A324611"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Minimal Goedel number of endofunctions on k points, by row and sorted within rows (number of points).",
+  "id": "A125024",
+  "mentions": [
+    "A001372",
+    "A002110",
+    "A074736",
+    "A076954",
+    "A125023"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

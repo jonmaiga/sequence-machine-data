@@ -1,0 +1,21 @@
+{
+  "description": "Primes from merging of 10 successive digits in the decimal expansion of exp(2).",
+  "id": "A225141",
+  "mentions": [
+    "A072334",
+    "A104998",
+    "A105005",
+    "A105006"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:03",
+    "offset": 1,
+    "size": 21,
+    "source": "joeis"
+  }
+}

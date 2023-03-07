@@ -1,0 +1,23 @@
+{
+  "description": "Denominator of x(n) = Sum_{k=1..n} ((odd part of k)/(k^3)).",
+  "id": "A111919",
+  "mentions": [
+    "A000265",
+    "A013661",
+    "A111918",
+    "A111921",
+    "A111923",
+    "A111930"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

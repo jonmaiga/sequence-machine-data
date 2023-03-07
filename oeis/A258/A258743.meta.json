@@ -1,0 +1,19 @@
+{
+  "description": "Fixed points in A055266.",
+  "id": "A258743",
+  "mentions": [
+    "A055266",
+    "A100208",
+    "A181730"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

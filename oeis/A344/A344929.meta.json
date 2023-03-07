@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that are the sum of four fourth powers in exactly ten ways.",
+  "id": "A344929",
+  "mentions": [
+    "A341898",
+    "A344861",
+    "A344927",
+    "A344928",
+    "A345156"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

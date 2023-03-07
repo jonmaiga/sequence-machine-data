@@ -1,0 +1,24 @@
+{
+  "description": "Number of ways to place 5 points on a triangular grid of side n so that no two of them are adjacent.",
+  "id": "A239571",
+  "mentions": [
+    "A239567",
+    "A239568",
+    "A239569",
+    "A239570",
+    "A239575",
+    "A282998"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:32:47",
+    "offset": 3,
+    "size": 26,
+    "source": "joeis"
+  }
+}

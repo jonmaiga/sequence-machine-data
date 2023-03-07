@@ -1,0 +1,19 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into abundant numbers (A005101).",
+  "id": "A282568",
+  "mentions": [
+    "A005101",
+    "A097798"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 0,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

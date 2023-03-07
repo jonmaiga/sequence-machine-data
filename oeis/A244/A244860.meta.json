@@ -1,0 +1,19 @@
+{
+  "description": "Number of Fibonacci numbers in generation n of the tree at A232559.",
+  "id": "A244860",
+  "mentions": [
+    "A000045",
+    "A232559"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Partial sums of walks of length n+1 on a tetrahedron A001998.",
+  "id": "A178778",
+  "mentions": [
+    "A000228",
+    "A001444",
+    "A001997",
+    "A001998",
+    "A002216",
+    "A005963",
+    "A036359",
+    "A038766"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

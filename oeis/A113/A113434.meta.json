@@ -1,0 +1,27 @@
+{
+  "description": "Semi-Pierpont semiprimes which are also Pierpont semiprimes.",
+  "id": "A113434",
+  "mentions": [
+    "A001358",
+    "A003586",
+    "A005109",
+    "A055600",
+    "A111153",
+    "A111206",
+    "A113432",
+    "A113433"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

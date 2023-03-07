@@ -1,0 +1,22 @@
+{
+  "description": "Juggler sequence starting at 37.",
+  "id": "A284987",
+  "mentions": [
+    "A007320",
+    "A094670",
+    "A094683"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

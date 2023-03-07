@@ -1,0 +1,23 @@
+{
+  "description": "Number of subsets of [n] in which exactly half of the elements are Fibonacci numbers.",
+  "id": "A357927",
+  "mentions": [
+    "A000045",
+    "A037031",
+    "A072649",
+    "A102366",
+    "A180272",
+    "A357812"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

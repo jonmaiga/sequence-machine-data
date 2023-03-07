@@ -1,0 +1,37 @@
+{
+  "description": "Number T(n,k) of set partitions of [n] with alternating parity of elements and exactly k blocks; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A274581",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A001477",
+    "A052955",
+    "A057427",
+    "A077043",
+    "A124419",
+    "A274310",
+    "A274547",
+    "A305777",
+    "A305778",
+    "A305779",
+    "A305780",
+    "A305781",
+    "A305782",
+    "A305783",
+    "A305784",
+    "A305785",
+    "A305823"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

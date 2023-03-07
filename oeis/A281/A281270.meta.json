@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of closed BCK (a.k.a. affine) lambda terms of size n.",
+  "id": "A281270",
+  "mentions": [
+    "A062980",
+    "A073950",
+    "A262301",
+    "A267827"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

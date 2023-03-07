@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Product_{k=0..n} q(k)^k, where q(k) = partition numbers into distinct parts (A000009).",
+  "id": "A265097",
+  "mentions": [
+    "A000009",
+    "A058694",
+    "A152827",
+    "A259373"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

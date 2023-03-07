@@ -1,0 +1,23 @@
+{
+  "description": "Least integer k such that k/n^2 > (-1 + sqrt(5))/2 (the golden ratio).",
+  "id": "A293407",
+  "mentions": [
+    "A001622",
+    "A152738",
+    "A293401",
+    "A293403",
+    "A293408"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Monotonic justified array of all positive Fibonacci sequences.",
+  "id": "A160271",
+  "mentions": [
+    "A000045",
+    "A002878",
+    "A035506",
+    "A035513"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

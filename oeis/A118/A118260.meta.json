@@ -1,0 +1,21 @@
+{
+  "description": "Number of weakly carefree couples (a,b) with a,b<=n.",
+  "id": "A118260",
+  "mentions": [
+    "A005117",
+    "A118258",
+    "A118259",
+    "A118261"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 27225*n^2 - 12098*n + 1344.",
+  "id": "A157796",
+  "mentions": [
+    "A157797",
+    "A157798"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

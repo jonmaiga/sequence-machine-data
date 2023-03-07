@@ -1,0 +1,27 @@
+{
+  "description": "Least positive multiple of n which is palindromic in base 2, allowing for leading zeros (or: ignoring trailing zeros).",
+  "id": "A141709",
+  "mentions": [
+    "A000265",
+    "A050782",
+    "A062279",
+    "A141707",
+    "A141708",
+    "A178225",
+    "A203070"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:30",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

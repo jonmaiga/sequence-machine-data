@@ -1,0 +1,27 @@
+{
+  "description": "Sum of the 6th powers of the square divisors of n.",
+  "id": "A351311",
+  "mentions": [
+    "A035316",
+    "A046951",
+    "A351307",
+    "A351308",
+    "A351309",
+    "A351310",
+    "A351313",
+    "A351314",
+    "A351315"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

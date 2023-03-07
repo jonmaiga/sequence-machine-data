@@ -1,0 +1,19 @@
+{
+  "description": "Even integers not of the form prime(prime(x)) + prime(prime(y)) with x > y > 0.",
+  "id": "A316460",
+  "mentions": [
+    "A000040",
+    "A006450",
+    "A282251"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Successive prime factors of 10^(10^100) - 10.",
+  "id": "A200924",
+  "mentions": [
+    "A200861",
+    "A200879"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

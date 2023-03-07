@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k^2 + 1 == 0 (mod 41^2).",
+  "id": "A157116",
+  "mentions": [
+    "A157105",
+    "A157111"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 20:14:39",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

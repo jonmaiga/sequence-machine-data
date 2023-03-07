@@ -1,0 +1,25 @@
+{
+  "description": "Irregular triangle read by rows, where row n contains the distinct primes that are contained in the binary representation of n as substrings; first row = [1] by convention.",
+  "id": "A225243",
+  "mentions": [
+    "A004676",
+    "A007088",
+    "A078826",
+    "A078832",
+    "A078833",
+    "A119709",
+    "A165416"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

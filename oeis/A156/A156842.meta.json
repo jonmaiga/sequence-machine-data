@@ -1,0 +1,21 @@
+{
+  "description": "529n^2 - 746n + 263.",
+  "id": "A156842",
+  "mentions": [
+    "A156844",
+    "A156845",
+    "A156849"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

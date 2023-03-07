@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = index of n in A269367 or 0 if n is not present in that sequence.",
+  "id": "A269368",
+  "mentions": [
+    "A266122",
+    "A269363",
+    "A269367"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:31",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

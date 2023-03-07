@@ -1,0 +1,22 @@
+{
+  "description": "Final elements in rows when A322050 is displayed as a triangle.",
+  "id": "A322048",
+  "mentions": [
+    "A319018",
+    "A319019",
+    "A322049",
+    "A322050"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

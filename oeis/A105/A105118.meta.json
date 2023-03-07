@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = prime(n) + prime(n+k) mod 3, where k = (1/2)*(prime(n+1) - prime(n)).",
+  "id": "A105118",
+  "mentions": [
+    "A103270"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 2,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

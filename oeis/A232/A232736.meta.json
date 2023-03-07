@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of the imaginary part of I^(1/7), or sin(Pi/14).",
+  "id": "A232736",
+  "mentions": [
+    "A010503",
+    "A019818",
+    "A019819",
+    "A019824",
+    "A019827",
+    "A182168",
+    "A232735",
+    "A232738"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:36:13",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

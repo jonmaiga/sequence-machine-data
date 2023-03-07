@@ -1,0 +1,32 @@
+{
+  "description": "Irregular triangle T, read by rows, in which row n lists the distances between n and the two primes whose sum makes 2n in decreasing order (Goldbach conjecture).",
+  "id": "A182138",
+  "mentions": [
+    "A045917",
+    "A047160",
+    "A047949",
+    "A067076",
+    "A089038",
+    "A089192",
+    "A089253",
+    "A097932",
+    "A098090",
+    "A105760",
+    "A153143",
+    "A184995",
+    "A198292"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 2,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

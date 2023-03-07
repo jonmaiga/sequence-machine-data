@@ -1,0 +1,29 @@
+{
+  "description": "Decimal expansion of 2*sin(15*Pi/32).",
+  "id": "A302711",
+  "mentions": [
+    "A049310",
+    "A127672",
+    "A179260",
+    "A187360",
+    "A272534",
+    "A302712",
+    "A302713",
+    "A302714",
+    "A302715",
+    "A302716"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:36:25",
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

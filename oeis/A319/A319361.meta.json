@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = [x^n] exp(Sum_{k>=1} sigma_n(k)*x^k/k).",
+  "id": "A319361",
+  "mentions": [
+    "A144048",
+    "A252782",
+    "A305207"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

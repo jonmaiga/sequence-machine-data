@@ -1,0 +1,25 @@
+{
+  "description": "The least nonsquarefree number on row n of Pascal's triangle, or 1 if all the terms on that row are squarefree.",
+  "id": "A249716",
+  "mentions": [
+    "A005117",
+    "A007318",
+    "A013929",
+    "A048277",
+    "A048278",
+    "A249442",
+    "A249717",
+    "A249718"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

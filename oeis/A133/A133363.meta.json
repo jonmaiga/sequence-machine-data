@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that 1+Sum[3k, k=1,2,...,n] is prime.",
+  "id": "A133363",
+  "mentions": [
+    "A067196",
+    "A134460"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

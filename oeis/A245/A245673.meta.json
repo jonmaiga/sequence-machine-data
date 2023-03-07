@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of C, a coin tossing constant related to the asymptotic variance of the length of the longest run of consecutive heads.",
+  "id": "A245673",
+  "mentions": [
+    "A244293"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:05",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

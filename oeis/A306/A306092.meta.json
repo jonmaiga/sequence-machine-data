@@ -1,0 +1,19 @@
+{
+  "description": "G.f. A(x) satisfies: (1 + A(x))^A(x) = (1+x)^x, where A(x) = Sum_{n>=1} a(n)*x^n/(2*n-1)!.",
+  "id": "A306092",
+  "mentions": [
+    "A306090",
+    "A306091"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

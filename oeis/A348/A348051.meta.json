@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(j,k) of numerators of relativistically added fractional velocities w(u,v)=(u+v)/(u*v+1), with velocities enumerated by the Farey series, i.e., u(m) = v(m) = A007305(m)/A007306(m), m>=2.",
+  "id": "A348051",
+  "mentions": [
+    "A007305",
+    "A007306",
+    "A348052",
+    "A348131",
+    "A348132"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 2,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that are the sum of eight fifth powers in exactly one way.",
+  "id": "A346326",
+  "mentions": [
+    "A003353",
+    "A345833",
+    "A346278",
+    "A346327",
+    "A346336"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

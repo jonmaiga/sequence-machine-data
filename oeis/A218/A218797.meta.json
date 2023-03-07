@@ -1,0 +1,23 @@
+{
+  "description": "Number of ways to write 2n - 1 as p + q + r with p <= q <= r and p, q, r, p^2 + q^2 + r^2 all prime.",
+  "id": "A218797",
+  "mentions": [
+    "A000040",
+    "A054860",
+    "A085317",
+    "A218585",
+    "A218654",
+    "A218656",
+    "A218754"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:36",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

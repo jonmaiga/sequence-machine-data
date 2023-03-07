@@ -1,0 +1,21 @@
+{
+  "description": "Sums of two squares obtained by expanding a k X k matrix to (k+1) X (k+1) and taking the not yet seen squared distances of all positions in the matrix.",
+  "id": "A353386",
+  "mentions": [
+    "A001105",
+    "A001481",
+    "A047800",
+    "A353387"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Positions of words in A341258 starting with 0 and ending with 0.",
+  "id": "A344956",
+  "mentions": [
+    "A341258",
+    "A342910",
+    "A344957",
+    "A344959"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

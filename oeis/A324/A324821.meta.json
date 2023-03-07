@@ -1,0 +1,29 @@
+{
+  "description": "Xor-Moebius transform of A324819, where A324819(n) = bitor(2*A156552(n), A323243(n)), where bitor is A003986.",
+  "id": "A324821",
+  "mentions": [
+    "A000040",
+    "A000120",
+    "A000225",
+    "A000523",
+    "A003986",
+    "A156552",
+    "A323243",
+    "A324815",
+    "A324819",
+    "A324820",
+    "A324876",
+    "A324878"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

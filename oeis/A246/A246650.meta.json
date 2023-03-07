@@ -1,0 +1,32 @@
+{
+  "description": "Expansion of phi(x) * chi(-x) * psi(x^3) in powers of x where phi(), psi(), chi() are Ramanujan theta functions",
+  "id": "A246650",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A033687",
+    "A097195",
+    "A121361",
+    "A121373",
+    "A122861",
+    "A123884",
+    "A129451",
+    "A131961",
+    "A131962",
+    "A131963",
+    "A131964"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 0,
+    "size": 80,
+    "source": "joeis"
+  }
+}

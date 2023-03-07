@@ -1,0 +1,29 @@
+{
+  "description": "Initial digit of the decimal expansion of n^(n^(n^n)) or n^^4 (in Don Knuth's up-arrow notation).",
+  "id": "A244059",
+  "mentions": [
+    "A241291",
+    "A241292",
+    "A241293",
+    "A241294",
+    "A241295",
+    "A241296",
+    "A241297",
+    "A241299",
+    "A243913",
+    "A324220"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

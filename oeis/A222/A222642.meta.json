@@ -1,0 +1,17 @@
+{
+  "description": "Integer nearest to (Li(n) - Li(sqrt(n))), where Li(x) = integral(0..x, dt/log(t)).",
+  "id": "A222642",
+  "mentions": [
+    "A047743"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 2,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

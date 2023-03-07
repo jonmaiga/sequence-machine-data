@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: row n gives coefficients of expansion of q-reduced tangent number d_{n}(q) in powers of q.",
+  "id": "A143195",
+  "mentions": [
+    "A143194"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

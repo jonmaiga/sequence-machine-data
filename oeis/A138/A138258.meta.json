@@ -1,0 +1,25 @@
+{
+  "description": "Smallest positive integer m such that n divides [5^m/m] (=A129795(m)).",
+  "id": "A138258",
+  "mentions": [
+    "A129795",
+    "A138255",
+    "A138256",
+    "A138257",
+    "A138259",
+    "A138260",
+    "A138261",
+    "A138262",
+    "A138263"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

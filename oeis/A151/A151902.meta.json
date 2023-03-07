@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = wt(k) + f(j) if n = 6k+j, 0 <= j < 6, where wt() = A000120(), f() = A151899().",
+  "id": "A151902",
+  "mentions": [
+    "A000120",
+    "A151899",
+    "A151904",
+    "A151907"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

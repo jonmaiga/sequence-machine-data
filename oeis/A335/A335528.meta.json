@@ -1,0 +1,21 @@
+{
+  "description": "Irregular table read by rows: T(n,k) = number of k-sided polygons formed by n-secting the angles of a square for k >= 3.",
+  "id": "A335528",
+  "mentions": [
+    "A278823",
+    "A335413",
+    "A335526",
+    "A335527"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

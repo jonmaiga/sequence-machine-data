@@ -1,0 +1,24 @@
+{
+  "description": "Number of (undirected) paths in the m X n king graph (triangle read by rows with m = 1..n and n = 1..).",
+  "id": "A307026",
+  "mentions": [
+    "A288033",
+    "A288518",
+    "A339750",
+    "A339751",
+    "A358626",
+    "A358920"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

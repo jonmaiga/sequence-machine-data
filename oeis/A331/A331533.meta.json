@@ -1,0 +1,20 @@
+{
+  "description": "Irregular table read by rows; for n >= 0, the n-th row corresponds to the nonnegative integers k such that (n^2) AND (k^2) = k^2, in ascending order (where AND denotes the bitwise AND operator).",
+  "id": "A331533",
+  "mentions": [
+    "A295989",
+    "A331532"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

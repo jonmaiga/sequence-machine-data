@@ -1,0 +1,23 @@
+{
+  "description": "Zeckendorf-infinitary perfect numbers: numbers k such that A331107(k) = 2*k.",
+  "id": "A331108",
+  "mentions": [
+    "A007357",
+    "A014417",
+    "A038182",
+    "A074849",
+    "A097464",
+    "A331107"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

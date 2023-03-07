@@ -1,0 +1,44 @@
+{
+  "description": "Coefficients of list partition transform: reciprocal of an exponential generating function (e.g.f.).",
+  "id": "A133314",
+  "mentions": [
+    "A000041",
+    "A000110",
+    "A000129",
+    "A000262",
+    "A000587",
+    "A000670",
+    "A001286",
+    "A007318",
+    "A019538",
+    "A049019",
+    "A084358",
+    "A094587",
+    "A105278",
+    "A110327",
+    "A110330",
+    "A127671",
+    "A128229",
+    "A132440",
+    "A132681",
+    "A132710",
+    "A134685",
+    "A145271",
+    "A263633",
+    "A263634",
+    "A356144",
+    "A356145"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Prime numbers p such that there is no prime between 10*p and 10*p+9 inclusive.",
+  "id": "A119289",
+  "mentions": [
+    "A032352",
+    "A239747"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

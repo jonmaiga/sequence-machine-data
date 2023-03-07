@@ -1,0 +1,21 @@
+{
+  "description": "Number of unlabeled connected simple graphs with n nodes of degree 4 or less and degree at least 2 which are not 4-regular graphs.",
+  "id": "A289990",
+  "mentions": [
+    "A006820",
+    "A121941",
+    "A289989",
+    "A289991"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

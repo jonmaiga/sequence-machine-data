@@ -1,0 +1,20 @@
+{
+  "description": "Primes in A005150.",
+  "id": "A100108",
+  "mentions": [
+    "A005150"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

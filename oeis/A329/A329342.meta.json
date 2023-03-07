@@ -1,0 +1,25 @@
+{
+  "description": "Irregular table whose rows list the nontrivial cycles of the ghost iteration A329201, starting with the smallest member.",
+  "id": "A329342",
+  "mentions": [
+    "A010785",
+    "A040115",
+    "A329196",
+    "A329198",
+    "A329200",
+    "A329201",
+    "A329341"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

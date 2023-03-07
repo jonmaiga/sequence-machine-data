@@ -1,0 +1,25 @@
+{
+  "description": "A generalized Motzkin triangle.",
+  "id": "A124790",
+  "mentions": [
+    "A001006",
+    "A002026",
+    "A005043",
+    "A124305",
+    "A124788",
+    "A124791"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

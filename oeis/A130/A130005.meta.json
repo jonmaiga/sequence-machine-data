@@ -1,0 +1,27 @@
+{
+  "description": "Nonnegative values x of solutions (x, y) to the Diophantine equation x^2+(x+577)^2 = y^2.",
+  "id": "A130005",
+  "mentions": [
+    "A001652",
+    "A066436",
+    "A118673",
+    "A118674",
+    "A129836",
+    "A156035",
+    "A159626",
+    "A159627",
+    "A159628"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:44:32",
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

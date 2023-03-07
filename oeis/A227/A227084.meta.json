@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X n binary arrays indicating whether each 2X2 subblock of a larger binary array has lexicographically increasing rows and columns, for some larger (n+1)X(n+1) binary array with rows and columns of the latter in lexicographically nondecreasing order",
+  "id": "A227084",
+  "mentions": [
+    "A227089"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

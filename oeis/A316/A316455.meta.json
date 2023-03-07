@@ -1,0 +1,20 @@
+{
+  "description": "T(n,k)=Number of nXk 0..1 arrays with every element unequal to 1, 2, 4, 5, 6 or 8 king-move adjacent elements, with upper left element zero.",
+  "id": "A316455",
+  "mentions": [
+    "A000045",
+    "A304052"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

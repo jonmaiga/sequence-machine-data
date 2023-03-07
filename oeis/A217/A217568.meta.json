@@ -1,0 +1,24 @@
+{
+  "description": "Rows of the 8 magic squares of order 3 and magic sum 15, lexicographically sorted.",
+  "id": "A217568",
+  "mentions": [
+    "A073519",
+    "A320871",
+    "A320872",
+    "A320873"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

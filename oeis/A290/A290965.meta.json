@@ -1,0 +1,19 @@
+{
+  "description": "Let n = p1^e1*...*pj^ej*...*pm^em be the prime factorization of n > 1, with the primes in increasing order and ej > 0. If for some j < m the sum p1^2 + ... + pj^2 > p(j+1), then n is in the sequence.",
+  "id": "A290965",
+  "mentions": [
+    "A000027",
+    "A013929",
+    "A289484"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

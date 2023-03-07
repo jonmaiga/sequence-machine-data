@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of (1 - theta_4(q)*theta_4(q^3))/2 in powers of q.",
+  "id": "A115979",
+  "mentions": [
+    "A033716",
+    "A096936",
+    "A115978"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:06",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

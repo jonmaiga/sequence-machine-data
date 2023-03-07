@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n whose square representation in base 10 can be split into three parts whose sum is n.",
+  "id": "A254648",
+  "mentions": [
+    "A000217",
+    "A006886",
+    "A093177",
+    "A170955"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

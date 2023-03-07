@@ -1,0 +1,21 @@
+{
+  "description": "Consider a partition of n into distinct parts with the summands written in binary notation. a(n) is the number of such partitions whose binary representation has an odd number of binary ones.",
+  "id": "A316996",
+  "mentions": [
+    "A000009",
+    "A000120",
+    "A102437",
+    "A317239"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:35",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

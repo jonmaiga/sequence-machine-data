@@ -1,0 +1,17 @@
+{
+  "description": "Number of length 7+5 0..n arrays with no disjoint triples in any consecutive six terms having the same sum",
+  "id": "A248002",
+  "mentions": [
+    "A247995"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

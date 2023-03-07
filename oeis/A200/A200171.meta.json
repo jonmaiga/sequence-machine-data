@@ -1,0 +1,22 @@
+{
+  "description": "Triangle, read by rows, such that row n equals the coefficients of x^(n^2+n-1+k) in F(x,n) for k = 1..n, where F(x,n) = (1 + x*F(x,n))*(1 + x^n/F(x,n)), for n>=1.",
+  "id": "A200171",
+  "mentions": [
+    "A000108",
+    "A200140",
+    "A200172",
+    "A200173"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:21",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

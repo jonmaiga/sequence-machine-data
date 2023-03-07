@@ -1,0 +1,21 @@
+{
+  "description": "Primes formed by the concatenation of exactly three successive composite numbers.",
+  "id": "A342214",
+  "mentions": [
+    "A087341",
+    "A099150",
+    "A281684",
+    "A342049"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

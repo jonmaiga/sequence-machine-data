@@ -1,0 +1,18 @@
+{
+  "description": "List of 7-powerful numbers (for the definition of k-powerful see A323395).",
+  "id": "A323614",
+  "mentions": [
+    "A323395",
+    "A323610"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

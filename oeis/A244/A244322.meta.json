@@ -1,0 +1,27 @@
+{
+  "description": "Permutation of natural numbers: a(1)=1, a(2n) = A244991(a(n)), a(2n+1) = A244990(1+a(n)).",
+  "id": "A244322",
+  "mentions": [
+    "A000035",
+    "A227413",
+    "A237126",
+    "A243288",
+    "A243344",
+    "A243346",
+    "A244321",
+    "A244990",
+    "A244991",
+    "A244992"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Number of self-avoiding polygons on a 3-dimensional cubic lattice where each walk consists of steps with incrementing length from 1 to n.",
+  "id": "A342800",
+  "mentions": [
+    "A001413",
+    "A002896",
+    "A002899",
+    "A010566",
+    "A334720",
+    "A334877",
+    "A335305",
+    "A342807"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

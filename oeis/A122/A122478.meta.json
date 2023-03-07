@@ -1,0 +1,20 @@
+{
+  "description": "Minimum number k>0 such that ((2n+1)^k - (2n-1)^k)/2 is prime.",
+  "id": "A122478",
+  "mentions": [
+    "A028491",
+    "A121877"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

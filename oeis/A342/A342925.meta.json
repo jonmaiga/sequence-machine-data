@@ -1,0 +1,39 @@
+{
+  "description": "a(n) = A003415(sigma(n)), where A003415 is the arithmetic derivative, and sigma is the sum of divisors of n.",
+  "id": "A342925",
+  "mentions": [
+    "A000961",
+    "A003415",
+    "A023194",
+    "A342021",
+    "A342922",
+    "A342923",
+    "A342924",
+    "A342926",
+    "A343216",
+    "A343217",
+    "A343218",
+    "A343220",
+    "A344024",
+    "A347870",
+    "A347872",
+    "A347873",
+    "A347877",
+    "A347878",
+    "A351568",
+    "A351569",
+    "A351570",
+    "A351571"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

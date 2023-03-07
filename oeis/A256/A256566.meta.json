@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the central term of the (2n-1)-st row of triangle A256440.",
+  "id": "A256566",
+  "mentions": [
+    "A005100",
+    "A256440"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

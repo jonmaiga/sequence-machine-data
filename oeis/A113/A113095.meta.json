@@ -1,0 +1,27 @@
+{
+  "description": "Triangle T, read by rows, that satisfies the recurrence: T(n,k) = [T^4](n-1,k-1) + [T^4](n-1,k) for n>k>=0, with T(n,n)=1 for n>=0, where T^4 is the matrix 4th power of T.",
+  "id": "A113095",
+  "mentions": [
+    "A097710",
+    "A113084",
+    "A113092",
+    "A113096",
+    "A113097",
+    "A113099",
+    "A113100",
+    "A113101",
+    "A113106"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

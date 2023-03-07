@@ -1,0 +1,32 @@
+{
+  "description": "Thue-Morse sequence: let A_k denote the first 2^k terms; then A_0 = 1 and for k >= 0, A_{k+1} = A_k B_k, where B_k is obtained from A_k by interchanging 1's and -1's.",
+  "id": "A106400",
+  "mentions": [
+    "A000069",
+    "A000120",
+    "A001969",
+    "A003714",
+    "A005599",
+    "A005940",
+    "A008836",
+    "A010060",
+    "A018819",
+    "A036040",
+    "A038712",
+    "A132971",
+    "A292118",
+    "A309303"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:57",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

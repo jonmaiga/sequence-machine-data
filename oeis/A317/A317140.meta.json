@@ -1,0 +1,19 @@
+{
+  "description": "Number of permutations of [2n+1] with exactly n increasing runs of length two.",
+  "id": "A317140",
+  "mentions": [
+    "A097592",
+    "A317139"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:36",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

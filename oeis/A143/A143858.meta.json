@@ -1,0 +1,23 @@
+{
+  "description": "Number of pairwise disjoint unions of m integer-to-integer subintervals of [0,n]; a rectangular array by antidiagonals, n>=2m-1, m>=1.",
+  "id": "A143858",
+  "mentions": [
+    "A007318",
+    "A025174",
+    "A085478",
+    "A109954",
+    "A258993"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

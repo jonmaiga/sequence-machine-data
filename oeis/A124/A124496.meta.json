@@ -1,0 +1,31 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of set partitions of {1,2,...,n} in which the size of the last block is k, 1<=k<=n; the blocks are ordered with increasing least elements.",
+  "id": "A124496",
+  "mentions": [
+    "A000096",
+    "A000110",
+    "A008275",
+    "A008277",
+    "A040027",
+    "A045499",
+    "A045500",
+    "A045501",
+    "A055831",
+    "A121207",
+    "A160185",
+    "A186020",
+    "A297924"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of ordered set partitions of [n] into nine blocks such that equal-sized blocks are ordered with increasing least elements.",
+  "id": "A285924",
+  "mentions": [
+    "A285824",
+    "A285860"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:57",
+    "offset": 9,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

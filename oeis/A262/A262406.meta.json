@@ -1,0 +1,25 @@
+{
+  "description": "Squarefree k such that phi(k) is a perfect square.",
+  "id": "A262406",
+  "mentions": [
+    "A000010",
+    "A002496",
+    "A004171",
+    "A005117",
+    "A007614",
+    "A039770",
+    "A068560",
+    "A114063"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

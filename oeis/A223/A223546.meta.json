@@ -1,0 +1,18 @@
+{
+  "description": "Composite numbers in the sequence A217723.",
+  "id": "A223546",
+  "mentions": [
+    "A002808",
+    "A217723"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:41",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

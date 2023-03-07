@@ -1,0 +1,18 @@
+{
+  "description": "Number of nX3 integer arrays with each element equal to the number of horizontal, diagonal and antidiagonal neighbors exactly one smaller than itself.",
+  "id": "A266126",
+  "mentions": [
+    "A266131"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:26",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

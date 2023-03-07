@@ -1,0 +1,20 @@
+{
+  "description": "Numbers p such that p, 2p-1, 3p-2, 4p-3, 5p-4, 6p-5, 7p-6, 8p-7 are primes.",
+  "id": "A336060",
+  "mentions": [
+    "A005382",
+    "A057327",
+    "A101769",
+    "A336059"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

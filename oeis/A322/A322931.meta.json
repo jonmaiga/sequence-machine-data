@@ -1,0 +1,24 @@
+{
+  "description": "Digits of the 8-adic integer 3^(1/3).",
+  "id": "A322931",
+  "mentions": [
+    "A225404",
+    "A290563",
+    "A309698",
+    "A322932",
+    "A322933"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

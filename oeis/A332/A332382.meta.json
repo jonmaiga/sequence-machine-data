@@ -1,0 +1,29 @@
+{
+  "description": "If n = Sum (2^e_k) then a(n) = Product (prime(e_k + 2)).",
+  "id": "A332382",
+  "mentions": [
+    "A002110",
+    "A003961",
+    "A003987",
+    "A019565",
+    "A029930",
+    "A048675",
+    "A056911",
+    "A059897",
+    "A121663",
+    "A225546",
+    "A331590",
+    "A334748"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

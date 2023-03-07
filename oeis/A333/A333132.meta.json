@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = n for n <= 3; thereafter a(n) = 2^(a(n-1)-1) + a(n-1).",
+  "id": "A333132",
+  "mentions": [
+    "A004249",
+    "A007516",
+    "A011782",
+    "A014221",
+    "A034797",
+    "A103527"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

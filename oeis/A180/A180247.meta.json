@@ -1,0 +1,39 @@
+{
+  "description": "Prime Brier numbers: primes p such that for all k >= 1 the numbers p*2^k + 1 and p*2^k - 1 are composite.",
+  "id": "A180247",
+  "mentions": [
+    "A003261",
+    "A038699",
+    "A040076",
+    "A040081",
+    "A050921",
+    "A052333",
+    "A064699",
+    "A076335",
+    "A076336",
+    "A076337",
+    "A103963",
+    "A103964",
+    "A194591",
+    "A194600",
+    "A194603",
+    "A194606",
+    "A194607",
+    "A194608",
+    "A194635",
+    "A194636",
+    "A194637",
+    "A194638",
+    "A194639"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

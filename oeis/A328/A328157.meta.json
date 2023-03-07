@@ -1,0 +1,18 @@
+{
+  "description": "Number of n-uniform hypergraphs on 2n unlabeled nodes with at least one (possibly empty) hyperedge.",
+  "id": "A328157",
+  "mentions": [
+    "A309876"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-bfile"
+  }
+}

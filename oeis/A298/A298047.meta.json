@@ -1,0 +1,21 @@
+{
+  "description": "The odd edge of a primitive 3-simplex (0, b=A031173, c=A031174, d=A031175).",
+  "id": "A298047",
+  "mentions": [
+    "A031173",
+    "A031174",
+    "A031175",
+    "A298044",
+    "A298046"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

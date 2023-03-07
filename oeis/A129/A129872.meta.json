@@ -1,0 +1,21 @@
+{
+  "description": "Sequence M_n arising in enumeration of arrays of directed blocks (see 2007 Quaintance reference for precise definition). [The next term is not an integer.]",
+  "id": "A129872",
+  "mentions": [
+    "A006013",
+    "A129873",
+    "A129880",
+    "A129886"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

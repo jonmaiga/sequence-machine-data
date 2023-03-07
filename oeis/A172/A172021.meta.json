@@ -1,0 +1,22 @@
+{
+  "description": "Start with the triangle A171661, reverse its rows, add missing powers of 2 at beginning of each row.",
+  "id": "A172021",
+  "mentions": [
+    "A004070",
+    "A030662",
+    "A171661",
+    "A171698"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

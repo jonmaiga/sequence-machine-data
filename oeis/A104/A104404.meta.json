@@ -1,0 +1,22 @@
+{
+  "description": "Number of groups of order n all of whose subgroups are normal.",
+  "id": "A104404",
+  "mentions": [
+    "A000001",
+    "A000688",
+    "A104488"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

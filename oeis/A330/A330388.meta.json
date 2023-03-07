@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of e.g.f. Sum_{k>=1} (-1)^(k + 1) * log(1 + x)^k / (k * (1 - log(1 + x)^k)).",
+  "id": "A330388",
+  "mentions": [
+    "A000009",
+    "A000593",
+    "A008275",
+    "A088311",
+    "A089064",
+    "A265024",
+    "A298905",
+    "A330354",
+    "A330387"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

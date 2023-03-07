@@ -1,0 +1,19 @@
+{
+  "description": "A symmetrical triangle of weight coefficients using the Divisors Sigma function: t(n,m) = Sigma_0(n-m+1)*Sigma_0(m+1).",
+  "id": "A114896",
+  "mentions": [
+    "A000005"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

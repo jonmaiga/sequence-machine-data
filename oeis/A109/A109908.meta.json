@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = greatest prime of the form k*(n-k)-1, or 0 if no such prime exists.",
+  "id": "A109908",
+  "mentions": [
+    "A026728",
+    "A109904",
+    "A109905",
+    "A109907",
+    "A109909"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

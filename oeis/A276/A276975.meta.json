@@ -1,0 +1,20 @@
+{
+  "description": "Number of permutations of [n] such that the minimal distance between elements of the same cycle equals one, a(1)=1 by convention.",
+  "id": "A276975",
+  "mentions": [
+    "A002467",
+    "A180191",
+    "A276974",
+    "A277032"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of labeled graphs on n nodes with degree set {2,4}, with multiple edges and loops allowed.",
+  "id": "A228696",
+  "mentions": [
+    "A228697"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

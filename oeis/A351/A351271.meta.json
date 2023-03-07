@@ -1,0 +1,31 @@
+{
+  "description": "Sum of the 8th powers of the squarefree divisors of n.",
+  "id": "A351271",
+  "mentions": [
+    "A008683",
+    "A013661",
+    "A013667",
+    "A034444",
+    "A048250",
+    "A351265",
+    "A351266",
+    "A351267",
+    "A351268",
+    "A351269",
+    "A351270",
+    "A351272",
+    "A351273"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

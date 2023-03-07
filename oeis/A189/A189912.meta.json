@@ -1,0 +1,27 @@
+{
+  "description": "Extended Motzkin numbers, Sum_{k>=0} C(n,k)C(k), C(k) the extended Catalan number A057977(k).",
+  "id": "A189912",
+  "mentions": [
+    "A001006",
+    "A001700",
+    "A005717",
+    "A055151",
+    "A057977",
+    "A126120",
+    "A138364",
+    "A180000",
+    "A217539",
+    "A217540"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

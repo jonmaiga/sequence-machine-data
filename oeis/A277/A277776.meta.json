@@ -1,0 +1,26 @@
+{
+  "description": "Triangle T(n,k) in which the n-th row contains the increasing list of nontrivial square roots of unity mod n; n>=1.",
+  "id": "A277776",
+  "mentions": [
+    "A033948",
+    "A033949",
+    "A046144",
+    "A060594",
+    "A082568",
+    "A228179",
+    "A277777",
+    "A357099"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

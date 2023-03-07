@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{k=1..n} k^2*tau(k), where tau is A000005.",
+  "id": "A319085",
+  "mentions": [
+    "A000005",
+    "A000330",
+    "A001620",
+    "A006218",
+    "A034714",
+    "A143127"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:12",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

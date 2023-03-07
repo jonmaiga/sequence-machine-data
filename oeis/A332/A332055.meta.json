@@ -1,0 +1,26 @@
+{
+  "description": "Tower of 8's modulo n.",
+  "id": "A332055",
+  "mentions": [
+    "A000010",
+    "A240162",
+    "A245970",
+    "A245971",
+    "A245972",
+    "A245973",
+    "A245974",
+    "A246496",
+    "A332054"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

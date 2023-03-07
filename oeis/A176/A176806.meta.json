@@ -1,0 +1,21 @@
+{
+  "description": "Consider asymmetric 1-D random walk with set of possible jumps {-1,+1,+2}. Sequence gives number of paths of length n ending at origin.",
+  "id": "A176806",
+  "mentions": [
+    "A001005",
+    "A321201",
+    "A321203"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:07:03",
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

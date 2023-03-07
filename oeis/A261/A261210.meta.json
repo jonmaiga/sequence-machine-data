@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = gpf(1 + Product_{k=0..4} prime(n+k)), where gpf is greatest prime factor and prime(i) is the i-th prime.",
+  "id": "A261210",
+  "mentions": [
+    "A006530",
+    "A046303"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

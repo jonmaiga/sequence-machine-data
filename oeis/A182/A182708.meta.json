@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the sum of the smallest parts of all partitions of n that do not contain 1 as a part.",
+  "id": "A182708",
+  "mentions": [
+    "A000041",
+    "A046746",
+    "A135010",
+    "A138121",
+    "A182707",
+    "A182709"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

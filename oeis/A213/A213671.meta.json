@@ -1,0 +1,20 @@
+{
+  "description": "The odd part of n^2 - n + 2.",
+  "id": "A213671",
+  "mentions": [
+    "A000265",
+    "A014206"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

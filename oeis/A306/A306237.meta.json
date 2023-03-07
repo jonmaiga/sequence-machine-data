@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = primorial prime(n)#/prime(n - 1).",
+  "id": "A306237",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A000720",
+    "A002110",
+    "A006530"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 2,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

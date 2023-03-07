@@ -1,0 +1,17 @@
+{
+  "description": "Primes that are not of the form p*q +- 2 where p and q are primes (not necessarily distinct).",
+  "id": "A346659",
+  "mentions": [
+    "A207526"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

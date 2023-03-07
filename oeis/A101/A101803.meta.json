@@ -1,0 +1,21 @@
+{
+  "description": "Nearest integer to n*(phi-1), where phi is golden ratio 1.618033988749895... (A001622).",
+  "id": "A101803",
+  "mentions": [
+    "A001622",
+    "A007067",
+    "A029922",
+    "A099267"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:22",
+    "offset": 0,
+    "size": 75,
+    "source": "joeis"
+  }
+}

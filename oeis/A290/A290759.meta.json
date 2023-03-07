@@ -1,0 +1,33 @@
+{
+  "description": "Square array A(n,k), n>=0, k>=0, read by antidiagonals, where column k is the expansion of continued fraction 1/(1 - x/(1 - k*x/(1 - k^2*x/(1 - k^3*x/(1 - k^4*x/(1 - ...)))))).",
+  "id": "A290759",
+  "mentions": [
+    "A000012",
+    "A000108",
+    "A015083",
+    "A015084",
+    "A015085",
+    "A015086",
+    "A015089",
+    "A015091",
+    "A015092",
+    "A015093",
+    "A015095",
+    "A015096",
+    "A090182",
+    "A290777",
+    "A290789"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

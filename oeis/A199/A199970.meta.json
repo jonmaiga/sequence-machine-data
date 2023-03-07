@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = the smallest number m with the smallest non-divisor n such that 1",
+  "id": "A199970",
+  "mentions": [
+    "A199968",
+    "A199969"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

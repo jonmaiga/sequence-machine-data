@@ -1,0 +1,18 @@
+{
+  "description": "G.f.: Limit_{K->oo} Sum_{n=-oo..+oo} x^(n-K) * (1 - x^n + n*(n+1)/6 * x^(n+K))^n.",
+  "id": "A292177",
+  "mentions": [
+    "A291937"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:07",
+    "offset": 2,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

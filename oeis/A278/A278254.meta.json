@@ -1,0 +1,24 @@
+{
+  "description": "Least number with the prime signature of n^2; square of the least number with the prime signature of n.",
+  "id": "A278254",
+  "mentions": [
+    "A000290",
+    "A046523",
+    "A278160",
+    "A278162",
+    "A278238",
+    "A278253",
+    "A278259"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

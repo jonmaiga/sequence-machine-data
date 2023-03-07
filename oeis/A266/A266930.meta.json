@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X 3 binary arrays with rows lexicographically nondecreasing and columns lexicographically nondecreasing and row sums nondecreasing and column sums nonincreasing.",
+  "id": "A266930",
+  "mentions": [
+    "A266935"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:28",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

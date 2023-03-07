@@ -1,0 +1,21 @@
+{
+  "description": "Fractal sequence of the interspersion A163253.",
+  "id": "A163256",
+  "mentions": [
+    "A163253",
+    "A163254",
+    "A163255",
+    "A163257",
+    "A163258"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

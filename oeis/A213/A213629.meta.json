@@ -1,0 +1,33 @@
+{
+  "description": "In binary representation: T(n,k) = number of (possibly overlapping) occurrences of k in n, triangle read by rows, 1<=k<=n.",
+  "id": "A213629",
+  "mentions": [
+    "A000120",
+    "A005811",
+    "A007088",
+    "A007302",
+    "A014081",
+    "A014082",
+    "A029931",
+    "A030308",
+    "A033264",
+    "A056978",
+    "A056979",
+    "A056980",
+    "A057427",
+    "A122953",
+    "A136412"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

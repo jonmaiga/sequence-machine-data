@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows, M * Q; M = an infinite lower triangular Toeplitz matrix with (1, 1, 2, 3, 4, 5, ...) in every column. Q = a matrix with A034943: (1, 1, 2, 5, 12, 28, ...) as the main diagonal and the rest zeros.",
+  "id": "A159974",
+  "mentions": [
+    "A034943"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 2,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

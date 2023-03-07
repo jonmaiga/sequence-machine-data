@@ -1,0 +1,21 @@
+{
+  "description": "Signature-permutation of a Catalan bijection induced by wreath recursion a=s(b,c), b=s(c,a), c=(c,c), starting from state a.",
+  "id": "A154458",
+  "mentions": [
+    "A057163",
+    "A069770",
+    "A153141",
+    "A154448",
+    "A154457"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:36",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

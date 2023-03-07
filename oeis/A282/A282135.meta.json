@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of (Sum_{k = p*q, p prime, q prime} x^k)^3.",
+  "id": "A282135",
+  "mentions": [
+    "A001358",
+    "A098238",
+    "A199331"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Primes in A213650.",
+  "id": "A213734",
+  "mentions": [
+    "A213650"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

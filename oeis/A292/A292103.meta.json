@@ -1,0 +1,19 @@
+{
+  "description": "Number of points that are the intersections of exactly two semicircles in the configuration A290447(n).",
+  "id": "A292103",
+  "mentions": [
+    "A290447",
+    "A290867",
+    "A292104"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

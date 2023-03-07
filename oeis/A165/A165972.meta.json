@@ -1,0 +1,21 @@
+{
+  "description": "Nonprimes k such that the sum of the smallest and largest divisor of k is prime.",
+  "id": "A165972",
+  "mentions": [
+    "A000040",
+    "A006093",
+    "A018252"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

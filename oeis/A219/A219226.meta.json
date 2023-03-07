@@ -1,0 +1,20 @@
+{
+  "description": "Number of rooted unlabeled ordered (plane) trees with 2n leaves such that i) every internal node has an even number of children and ii) every path from the root to a leaf is the same length.",
+  "id": "A219226",
+  "mentions": [
+    "A014535",
+    "A027826"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

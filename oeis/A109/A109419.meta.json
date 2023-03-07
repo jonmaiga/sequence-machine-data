@@ -1,0 +1,20 @@
+{
+  "description": "Primes in both A108702 and A109416.",
+  "id": "A109419",
+  "mentions": [
+    "A108702",
+    "A109416",
+    "A109420"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of length-n sequences covering an initial interval of positive integers with k maximal anti-runs.",
+  "id": "A337506",
+  "mentions": [
+    "A000670",
+    "A003242",
+    "A005649",
+    "A019472",
+    "A052841",
+    "A060223",
+    "A106351",
+    "A106356",
+    "A124762",
+    "A124767",
+    "A238130",
+    "A238279",
+    "A269134",
+    "A325535",
+    "A333381",
+    "A333382",
+    "A333489",
+    "A333755",
+    "A333769",
+    "A335461",
+    "A337505",
+    "A337507",
+    "A337564",
+    "A337565"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

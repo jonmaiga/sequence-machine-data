@@ -1,0 +1,19 @@
+{
+  "description": "Primes prime(n) such that prime(n) + 5*n is also prime.",
+  "id": "A254462",
+  "mentions": [
+    "A061067",
+    "A231232",
+    "A231383"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

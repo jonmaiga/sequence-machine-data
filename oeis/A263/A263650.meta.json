@@ -1,0 +1,21 @@
+{
+  "description": "A variation on A098550 (the Yellowstone permutation): a(n)=n for 1 <= n <= 3, a(4)=5; otherwise a(n) = smallest number not yet appearing in the sequence which is coprime to a(n-1) and not coprime to a(n-2).",
+  "id": "A263650",
+  "mentions": [
+    "A098550",
+    "A119718",
+    "A254077",
+    "A255582",
+    "A263648"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

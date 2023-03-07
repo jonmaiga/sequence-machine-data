@@ -1,0 +1,19 @@
+{
+  "description": "Pandigital primes that become zeroless pandigital primes when the digit 0 is deleted.",
+  "id": "A159569",
+  "mentions": [
+    "A050288",
+    "A050290"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

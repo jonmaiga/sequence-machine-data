@@ -1,0 +1,27 @@
+{
+  "description": "Greatest integer N such that the number of base-n-zero containing numbers [<= N] <= the number of base-n-zerofree numbers [<= N].",
+  "id": "A306442",
+  "mentions": [
+    "A011540",
+    "A052382",
+    "A306195",
+    "A306521",
+    "A306526",
+    "A324154",
+    "A324155",
+    "A324160",
+    "A324161"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 2,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

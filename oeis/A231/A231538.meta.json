@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X 2 0..1 arrays with no element less than a strict majority of its horizontal, vertical and antidiagonal neighbors.",
+  "id": "A231538",
+  "mentions": [
+    "A231544"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

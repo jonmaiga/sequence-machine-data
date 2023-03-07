@@ -1,0 +1,38 @@
+{
+  "description": "Number T(n,k) of sequences in {1,...,n}^n with longest increasing subsequence of length k; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A245667",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000312",
+    "A001700",
+    "A047874",
+    "A088218",
+    "A152618",
+    "A239295",
+    "A239299",
+    "A268869",
+    "A268870",
+    "A268871",
+    "A268872",
+    "A268873",
+    "A268874",
+    "A268875",
+    "A268876",
+    "A268877",
+    "A268936",
+    "A268949",
+    "A275576"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

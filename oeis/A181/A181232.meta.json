@@ -1,0 +1,21 @@
+{
+  "description": "Number of nX(n+2) binary matrices with all rows unique and all columns unique",
+  "id": "A181232",
+  "mentions": [
+    "A088310",
+    "A181230",
+    "A181231",
+    "A181233"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

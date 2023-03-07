@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of z_(3-12-12), the bulk limit of the number of spanning trees on a 3-12-12 lattice.",
+  "id": "A245740",
+  "mentions": [
+    "A218387",
+    "A242967",
+    "A245725",
+    "A245736",
+    "A245737",
+    "A245739"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "The union of the disjoint prime sequences A000057 and A106535.",
+  "id": "A214029",
+  "mentions": [
+    "A000057",
+    "A001177",
+    "A106535"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

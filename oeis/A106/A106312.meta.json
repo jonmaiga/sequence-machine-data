@@ -1,0 +1,17 @@
+{
+  "description": "Possible negative values of the discriminant of irreducible monic integral cubic polynomials.",
+  "id": "A106312",
+  "mentions": [
+    "A023679"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

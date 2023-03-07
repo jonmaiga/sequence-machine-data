@@ -1,0 +1,18 @@
+{
+  "description": "Number of k in [1,n] for which + > 1, where < > = fractional part and r = (1+sqrt(5))/2 (the golden ratio); row sums of A164661.",
+  "id": "A194662",
+  "mentions": [
+    "A164661",
+    "A194661"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

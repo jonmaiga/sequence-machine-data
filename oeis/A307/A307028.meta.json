@@ -1,0 +1,18 @@
+{
+  "description": "Longest path length in the stacked book graph S_{n+1} square P_n.",
+  "id": "A307028",
+  "mentions": [
+    "A307461"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Nonsquarefree numbers whose sum of exponential divisors (A051377) is odd.",
+  "id": "A357015",
+  "mentions": [
+    "A005117",
+    "A013929",
+    "A051377",
+    "A056911",
+    "A185199",
+    "A357014",
+    "A357017"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

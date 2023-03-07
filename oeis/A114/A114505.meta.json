@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that the n-th hexagonal number is a 7-almost prime.",
+  "id": "A114505",
+  "mentions": [
+    "A000384",
+    "A001222",
+    "A001358",
+    "A005382",
+    "A046308"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

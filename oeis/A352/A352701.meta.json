@@ -1,0 +1,20 @@
+{
+  "description": "G.f. (1/x)*Series_Reversion( x*(1-x)*(3 - 2*x + sqrt(1+4*x-4*x^2))/4 ).",
+  "id": "A352701",
+  "mentions": [
+    "A000108",
+    "A351771",
+    "A352383"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

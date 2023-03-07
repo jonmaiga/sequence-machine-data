@@ -1,0 +1,25 @@
+{
+  "description": "T(n,k)=Number of (n*k)Xk binary arrays with nonzero rows in decreasing order, no more than 2 ones in any row and exactly n ones in every column",
+  "id": "A188448",
+  "mentions": [
+    "A000085",
+    "A000986",
+    "A110040",
+    "A139670",
+    "A139671",
+    "A139673",
+    "A139674",
+    "A139675"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:12",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

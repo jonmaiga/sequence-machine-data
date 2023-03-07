@@ -1,0 +1,32 @@
+{
+  "description": "BII-numbers of set-systems covering an initial interval of positive integers.",
+  "id": "A326754",
+  "mentions": [
+    "A000120",
+    "A003465",
+    "A006126",
+    "A048793",
+    "A070939",
+    "A293510",
+    "A309314",
+    "A326031",
+    "A326701",
+    "A326702",
+    "A326703",
+    "A326704",
+    "A326749",
+    "A326750",
+    "A326751",
+    "A326752"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

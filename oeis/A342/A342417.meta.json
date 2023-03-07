@@ -1,0 +1,22 @@
+{
+  "description": "Dirichlet inverse of Čiurlionis sequence, A342002.",
+  "id": "A342417",
+  "mentions": [
+    "A038838",
+    "A122132",
+    "A342002",
+    "A342419",
+    "A353627",
+    "A359427"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

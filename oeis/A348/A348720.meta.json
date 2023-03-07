@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of 4*cos(2*Pi/13)*cos(3*Pi/13).",
+  "id": "A348720",
+  "mentions": [
+    "A005471",
+    "A160389",
+    "A255240",
+    "A255241",
+    "A255249",
+    "A348721",
+    "A348722",
+    "A348729"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

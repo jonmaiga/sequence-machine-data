@@ -1,0 +1,22 @@
+{
+  "description": "Sequence is {a(0,n)}, where a(m,0)=1, a(m,n) = a(m-1,n)+a(m,n-1) and a(0,n+1) is such that a(n+1,n+1) = a(0,n).",
+  "id": "A111518",
+  "mentions": [
+    "A111519",
+    "A111520",
+    "A111521",
+    "A111522",
+    "A111523"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

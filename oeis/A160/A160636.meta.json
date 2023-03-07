@@ -1,0 +1,22 @@
+{
+  "description": "Hankel transform of A114464.",
+  "id": "A160636",
+  "mentions": [
+    "A004524",
+    "A011848",
+    "A114464",
+    "A160637"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

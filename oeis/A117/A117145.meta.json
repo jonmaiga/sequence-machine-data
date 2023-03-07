@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of partitions of n into parts of the form 2^j-1, j=1,2,... and having k parts (n>=1, k>=1). Partitions into parts of the form 2^j-1, j=1,2,... are called s-partitions.",
+  "id": "A117145",
+  "mentions": [
+    "A000929",
+    "A117146"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Least number requiring n terms to express it as a sum of signed terms of the form 2^k-1.",
+  "id": "A192101",
+  "mentions": [
+    "A192099"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

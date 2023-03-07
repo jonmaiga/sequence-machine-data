@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (1/n) * lcm(n,p1,p2,...,pk) for that partition of n which maximizes this value among all partitions [p1,p2,...,pk] of n.",
+  "id": "A225652",
+  "mentions": [
+    "A225558",
+    "A225636",
+    "A225637",
+    "A225646",
+    "A225656"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

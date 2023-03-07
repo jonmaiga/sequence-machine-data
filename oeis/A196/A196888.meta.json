@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n^10 into powers of 10.",
+  "id": "A196888",
+  "mentions": [
+    "A196879"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:18",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "By concatenating the standard compositions of each part of the a(n)-th standard composition, we get a weakly increasing sequence.",
+  "id": "A358330",
+  "mentions": [
+    "A000120",
+    "A001511",
+    "A029931",
+    "A048896",
+    "A058891",
+    "A066099",
+    "A070939",
+    "A333766",
+    "A335404",
+    "A357134",
+    "A357135",
+    "A357137",
+    "A357186"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Numbers such that all numbers are composite when replacing exactly one digit with another, except the leading digit with zero.",
+  "id": "A192545",
+  "mentions": [
+    "A000040",
+    "A048853",
+    "A050249",
+    "A118118",
+    "A143641",
+    "A158124",
+    "A158125"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

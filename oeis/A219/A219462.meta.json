@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Sum_{k = 1..2*n} binomial(2*n,k) * Fibonacci(2*k).",
+  "id": "A219462",
+  "mentions": [
+    "A000045",
+    "A000351",
+    "A001906",
+    "A007318",
+    "A034870",
+    "A036291",
+    "A087453"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of triangles in the standard triangulation of the n-th approximation of the Koch snowflake fractal.",
+  "id": "A277491",
+  "mentions": [
+    "A277492"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:57:52",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

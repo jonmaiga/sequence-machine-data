@@ -1,0 +1,18 @@
+{
+  "description": "Primes formed by inserting a semiprime between the semiprime's ordered factors.",
+  "id": "A229480",
+  "mentions": [
+    "A001358"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

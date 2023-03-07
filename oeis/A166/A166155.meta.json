@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that number of divisors of n + number of perfect partitions of (n-1) is prime.",
+  "id": "A166155",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A002033"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

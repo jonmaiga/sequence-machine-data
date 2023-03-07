@@ -1,0 +1,27 @@
+{
+  "description": "Numbers m with the property that shifting the rightmost digit of m to the left end multiplies the number by 9.",
+  "id": "A291353",
+  "mentions": [
+    "A092697",
+    "A097717",
+    "A146088",
+    "A146561",
+    "A146569",
+    "A146754",
+    "A291215",
+    "A291321",
+    "A291354"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 1,
+    "size": 2,
+    "source": "oeis-bfile"
+  }
+}

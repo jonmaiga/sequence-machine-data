@@ -1,0 +1,17 @@
+{
+  "description": "Lowest edge indices of an edge-connected n-gon chain (beginning with n = 3, and increasing by one for each subsequent n-gon), such that no n-gons in the sequence overlap.",
+  "id": "A346373",
+  "mentions": [
+    "A346112"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

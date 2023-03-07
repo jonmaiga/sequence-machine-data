@@ -1,0 +1,18 @@
+{
+  "description": "Number of primitive Heronian triangles with area 6n.",
+  "id": "A227003",
+  "mentions": [
+    "A051585",
+    "A083875"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

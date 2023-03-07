@@ -1,0 +1,23 @@
+{
+  "description": "Table read by rows: row n gives triples (u, k, m) such that k and m are the smallest integers that respectively satisfy A352810(n) = u = A000203(k) = A024816(m).",
+  "id": "A352811",
+  "mentions": [
+    "A000203",
+    "A002191",
+    "A024816",
+    "A076617",
+    "A231365",
+    "A352810"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "n^2+Smallest cube, (Smallest cube >= n^2).",
+  "id": "A176583",
+  "mentions": [
+    "A065733",
+    "A075847",
+    "A077116",
+    "A176580",
+    "A176581",
+    "A176582"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

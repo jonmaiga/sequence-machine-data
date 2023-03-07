@@ -1,0 +1,22 @@
+{
+  "description": "Smallest number requiring n 1's to build using +, -, *, and ^.",
+  "id": "A347983",
+  "mentions": [
+    "A003037",
+    "A005220",
+    "A005520",
+    "A091334",
+    "A255641"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

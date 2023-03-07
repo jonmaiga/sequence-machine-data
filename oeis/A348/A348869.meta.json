@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n,c) counting Motzkin Paths of length n with c sections starting with an up-step at level 0.",
+  "id": "A348869",
+  "mentions": [
+    "A002026",
+    "A086615"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 2,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

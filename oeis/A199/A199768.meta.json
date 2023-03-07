@@ -1,0 +1,20 @@
+{
+  "description": "Numbers whose greatest prime factor is less than their number of divisors.",
+  "id": "A199768",
+  "mentions": [
+    "A000005",
+    "A006530",
+    "A036878"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:20",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

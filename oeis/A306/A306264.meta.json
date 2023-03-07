@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 1 + d*a(n/d); a(1)=0. If n has only one prime divisor, then d=n, otherwise d is the greatest proper unitary divisor of n.",
+  "id": "A306264",
+  "mentions": [
+    "A006022",
+    "A077610",
+    "A111284",
+    "A324388"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

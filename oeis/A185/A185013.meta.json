@@ -1,0 +1,28 @@
+{
+  "description": "Characteristic function of {3}.",
+  "id": "A185013",
+  "mentions": [
+    "A000007",
+    "A063524",
+    "A079978",
+    "A179184",
+    "A185012",
+    "A185014",
+    "A185015",
+    "A185016",
+    "A185017",
+    "A185114"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:26:59",
+    "offset": 0,
+    "size": 86,
+    "source": "joeis"
+  }
+}

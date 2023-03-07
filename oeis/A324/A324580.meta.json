@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = n * A276086(n).",
+  "id": "A324580",
+  "mentions": [
+    "A002110",
+    "A276086",
+    "A324198",
+    "A324577",
+    "A324578",
+    "A324579",
+    "A324582"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

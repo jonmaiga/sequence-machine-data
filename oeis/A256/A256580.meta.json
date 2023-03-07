@@ -1,0 +1,21 @@
+{
+  "description": "Number of quadruples (x, x+1, x+2, x+3) with 1 < x < p-3 of consecutive integers whose product is 1 mod p.",
+  "id": "A256580",
+  "mentions": [
+    "A038872",
+    "A086937",
+    "A256567",
+    "A256572"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 168,
+    "source": "oeis-entry"
+  }
+}

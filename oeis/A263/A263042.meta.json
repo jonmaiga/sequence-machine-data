@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Sum_{i >= 1} d_i(n) * prime(i) where d_i(n) is the i-th digit of n in base 10, and prime(i) is the i-th prime.",
+  "id": "A263042",
+  "mentions": [
+    "A019565",
+    "A054842",
+    "A089625",
+    "A101278",
+    "A262478"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "n such that phi(n) represents a new lower bound for the phi function.",
+  "id": "A219930",
+  "mentions": [
+    "A000010",
+    "A014197",
+    "A036912",
+    "A057635"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

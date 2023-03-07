@@ -1,0 +1,20 @@
+{
+  "description": "Coefficient list length of Poincaré-like polynomials made from A047845, indices of 4*n+1 nonprimes as the m(i) exponents.",
+  "id": "A107615",
+  "mentions": [
+    "A045751",
+    "A047845"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

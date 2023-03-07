@@ -1,0 +1,23 @@
+{
+  "description": "An integer n is included if n is the smallest positive integer with its particular multiset of run-lengths (of either 0 or 1 considered together) in its binary representation.",
+  "id": "A175020",
+  "mentions": [
+    "A000975",
+    "A002865",
+    "A175021",
+    "A175022",
+    "A175023",
+    "A175024"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

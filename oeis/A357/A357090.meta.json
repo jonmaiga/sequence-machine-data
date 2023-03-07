@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f. satisfies A(x) = (1 - x * A(x))^(log(1 - x * A(x)) * A(x)).",
+  "id": "A357090",
+  "mentions": [
+    "A349556",
+    "A357028",
+    "A357091"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

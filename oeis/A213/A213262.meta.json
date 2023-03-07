@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: R*(n,k) (n>=2, k from 2 to n-1 (to 2 if n = 2), where R*(n,k) = number of trees with n nodes and k unlabeled end-nodes.",
+  "id": "A213262",
+  "mentions": [
+    "A001258",
+    "A151880"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 2,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "description": "Square array A(n,k), n>=0, k>=0, read by antidiagonals: A(n,k) is the number of partitions of n^k into powers of k.",
+  "id": "A196879",
+  "mentions": [
+    "A000012",
+    "A145514",
+    "A145515",
+    "A196880",
+    "A196881",
+    "A196882",
+    "A196883",
+    "A196884",
+    "A196885",
+    "A196886",
+    "A196887",
+    "A196888",
+    "A196889",
+    "A196890",
+    "A196891",
+    "A196892",
+    "A196893",
+    "A196894",
+    "A196895",
+    "A196896",
+    "A196897"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:18",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

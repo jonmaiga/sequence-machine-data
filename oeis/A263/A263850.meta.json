@@ -1,0 +1,19 @@
+{
+  "description": "Let R = Z((1+sqrt{5})/2) denote the ring of integers in the real quadratic number field of discriminant 5. Then a(n) is the number of ways of writing a totally positive element of norm n as a sum of three squares in R, or 0 if there is no totally positive element of norm n.",
+  "id": "A263850",
+  "mentions": [
+    "A031363",
+    "A035187",
+    "A263849"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

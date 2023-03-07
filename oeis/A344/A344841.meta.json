@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least positive number not of the form a(k) XOR ... XOR a(m) with 1 <= k <= m < n (where XOR denotes the bitwise XOR operator).",
+  "id": "A344841",
+  "mentions": [
+    "A002048",
+    "A246360"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

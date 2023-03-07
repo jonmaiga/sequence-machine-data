@@ -1,0 +1,26 @@
+{
+  "description": "Champernowne primes.",
+  "id": "A176942",
+  "mentions": [
+    "A007376",
+    "A007908",
+    "A033307",
+    "A053546",
+    "A058183",
+    "A071620",
+    "A073175",
+    "A265043"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:00",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-bfile"
+  }
+}

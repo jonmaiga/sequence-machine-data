@@ -1,0 +1,21 @@
+{
+  "description": "Number of tangled bicolored graphs on n labeled vertices.",
+  "id": "A221493",
+  "mentions": [
+    "A047863",
+    "A079145",
+    "A221492"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

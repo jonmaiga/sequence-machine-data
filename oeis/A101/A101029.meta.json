@@ -1,0 +1,25 @@
+{
+  "description": "Denominator of partial sums of a certain series.",
+  "id": "A101029",
+  "mentions": [
+    "A001008",
+    "A002805",
+    "A005249",
+    "A086881",
+    "A098118",
+    "A101028"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

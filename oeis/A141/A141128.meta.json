@@ -1,0 +1,19 @@
+{
+  "description": "Sum over unitary prime power divisors p^k of n of A025528(p^k).",
+  "id": "A141128",
+  "mentions": [
+    "A025528",
+    "A056239"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

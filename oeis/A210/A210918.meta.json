@@ -1,0 +1,18 @@
+{
+  "description": "Number of transitive reflexive early confluent binary relations R on n labeled elements where |{y : xRy}| <= 10 for all x.",
+  "id": "A210918",
+  "mentions": [
+    "A135302"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

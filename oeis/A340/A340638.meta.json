@@ -1,0 +1,26 @@
+{
+  "description": "Integers whose number of divisors that are Zuckerman numbers sets a new record.",
+  "id": "A340638",
+  "mentions": [
+    "A007602",
+    "A087997",
+    "A093036",
+    "A335037",
+    "A335038",
+    "A337941",
+    "A340548",
+    "A340549",
+    "A340637"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

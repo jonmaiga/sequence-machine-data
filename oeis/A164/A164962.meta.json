@@ -1,0 +1,28 @@
+{
+  "description": "a(n) is the least prime from the union {2,3} and A164333, beginning with which the n-th prime p_n is obtained by some number of iterations of the S operator g(see A164960).",
+  "id": "A164962",
+  "mentions": [
+    "A006992",
+    "A055496",
+    "A080359",
+    "A104272",
+    "A164288",
+    "A164333",
+    "A164368",
+    "A164917",
+    "A164918",
+    "A164960"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "more",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

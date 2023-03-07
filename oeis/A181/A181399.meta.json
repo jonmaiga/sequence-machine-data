@@ -1,0 +1,23 @@
+{
+  "description": "Summed lengths of nonintersecting rook paths on an n X k board (square array by antidiagonals).",
+  "id": "A181399",
+  "mentions": [
+    "A064298",
+    "A181394",
+    "A181395",
+    "A181396",
+    "A181397",
+    "A181398"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:04",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

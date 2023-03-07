@@ -1,0 +1,23 @@
+{
+  "description": "a(0)=0, a(1)=1, a(2n)=17*a(n), a(2n+1)=a(2n)+1.",
+  "id": "A197351",
+  "mentions": [
+    "A001026",
+    "A010060",
+    "A030308",
+    "A104257"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 19:10:13",
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

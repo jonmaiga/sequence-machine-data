@@ -1,0 +1,23 @@
+{
+  "description": "Numerators of fractional partial quotients appearing in a continued fraction for the power series Sum_{n>=0} x^(2^n - 1)/(n+1)^s.",
+  "id": "A123725",
+  "mentions": [
+    "A007814",
+    "A073089",
+    "A089080",
+    "A123726"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "cofr",
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

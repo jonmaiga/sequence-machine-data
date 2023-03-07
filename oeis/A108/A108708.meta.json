@@ -1,0 +1,23 @@
+{
+  "description": "Maximum side length in Pythagorean triangles with hypotenuse n.",
+  "id": "A108708",
+  "mentions": [
+    "A009000",
+    "A009003",
+    "A046080",
+    "A046083",
+    "A046084",
+    "A083025",
+    "A108707"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

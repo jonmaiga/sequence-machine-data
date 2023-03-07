@@ -1,0 +1,21 @@
+{
+  "description": "Row square-sums of triangle A096815.",
+  "id": "A212265",
+  "mentions": [
+    "A096815",
+    "A096816",
+    "A212264",
+    "A212421",
+    "A212422"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

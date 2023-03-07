@@ -1,0 +1,29 @@
+{
+  "description": "a(n) = r * (n-1)! where r is the rational number that satisfies the equation Sum_{k>=n} (-1)^(k + n)/C(k,n) = n*2^(n-1)*log(2) - r.",
+  "id": "A242091",
+  "mentions": [
+    "A000217",
+    "A000292",
+    "A000332",
+    "A000389",
+    "A000579",
+    "A000580",
+    "A001787",
+    "A002162",
+    "A007318",
+    "A068102",
+    "A242023",
+    "A242024"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

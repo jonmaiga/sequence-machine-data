@@ -1,0 +1,18 @@
+{
+  "description": "Number of ON cells after n generations of the odd-rule cellular automaton defined by OddRule 527 when started with a single ON cell.",
+  "id": "A255295",
+  "mentions": [
+    "A255296",
+    "A255462"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

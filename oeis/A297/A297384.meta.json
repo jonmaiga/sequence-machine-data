@@ -1,0 +1,20 @@
+{
+  "description": "Number of Eulerian cycles in the n-antiprism graph.",
+  "id": "A297384",
+  "mentions": [
+    "A003500",
+    "A039301"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:17",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

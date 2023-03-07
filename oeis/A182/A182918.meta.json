@@ -1,0 +1,20 @@
+{
+  "description": "Denominators of the swinging Bernoulli number b_n.",
+  "id": "A182918",
+  "mentions": [
+    "A056040",
+    "A120082",
+    "A180000"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Numbers n such that n = tau(n) * phi(n-2) + 1.",
+  "id": "A263810",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A019434",
+    "A203966",
+    "A249541",
+    "A254576",
+    "A263811"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

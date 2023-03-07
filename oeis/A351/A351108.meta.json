@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(m,n) is the number of simple paths for a Racetrack car (using von Neumann neighborhood) with initial velocity zero, going from one corner to the diagonally opposite corner on an m X n grid, 1 <= n <= m.",
+  "id": "A351108",
+  "mentions": [
+    "A064297",
+    "A291896",
+    "A351042",
+    "A351106",
+    "A351109"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

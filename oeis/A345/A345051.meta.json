@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that A345048(k) is equal to A345049(k).",
+  "id": "A345051",
+  "mentions": [
+    "A000396",
+    "A051709",
+    "A166374",
+    "A173557",
+    "A342001",
+    "A345001",
+    "A345003",
+    "A345048",
+    "A345049",
+    "A345050"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

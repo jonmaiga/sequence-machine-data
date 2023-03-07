@@ -1,0 +1,23 @@
+{
+  "description": "E.g.f. A(x) satisfies: A(x) = exp(x) * A(x^2)^2*A(x^3)^3*A(x^4)^4* ... *A(x^k)^k* ...",
+  "id": "A307615",
+  "mentions": [
+    "A050369",
+    "A074206",
+    "A107311",
+    "A129375",
+    "A247667",
+    "A307604"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Sorted list of positions of first appearances in the sequence counting permutations of Matula-Goebel trees (A206487).",
+  "id": "A358507",
+  "mentions": [
+    "A000081",
+    "A000108",
+    "A001263",
+    "A032027",
+    "A061775",
+    "A127301",
+    "A196050",
+    "A206487",
+    "A214577",
+    "A358377",
+    "A358378",
+    "A358506",
+    "A358508",
+    "A358521",
+    "A358522"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

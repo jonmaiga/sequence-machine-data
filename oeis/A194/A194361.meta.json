@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of log(127) / log(16).",
+  "id": "A194361",
+  "mentions": [
+    "A143935",
+    "A144256"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:54",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

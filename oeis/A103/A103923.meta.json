@@ -1,0 +1,30 @@
+{
+  "description": "Triangle of partitions of n with parts of sizes 1,2,...,m, each of two different kinds, m>=1.",
+  "id": "A103923",
+  "mentions": [
+    "A000041",
+    "A000070",
+    "A000097",
+    "A000098",
+    "A000217",
+    "A000710",
+    "A000712",
+    "A008951",
+    "A103924",
+    "A103929",
+    "A124577"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

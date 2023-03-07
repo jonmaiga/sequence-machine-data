@@ -1,0 +1,17 @@
+{
+  "description": "Numbers that factorize into a set of prime factors that are each raised to a different prime exponent.",
+  "id": "A114129",
+  "mentions": [
+    "A130091"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Odd numbers n such that A196189(n) is odd.",
+  "id": "A196190",
+  "mentions": [
+    "A196189",
+    "A217092"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

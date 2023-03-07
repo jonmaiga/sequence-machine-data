@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of phi(x) * phi(-x^6) / chi(-x^2) in powers of x where phi(), chi() are Ramanujan theta functions.",
+  "id": "A123884",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A093829",
+    "A121373",
+    "A131961",
+    "A131962",
+    "A131963",
+    "A248886"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:46:59",
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

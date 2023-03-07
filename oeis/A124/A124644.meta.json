@@ -1,0 +1,29 @@
+{
+  "description": "Mirror image of A098474 formatted as a triangular array.",
+  "id": "A124644",
+  "mentions": [
+    "A000108",
+    "A005043",
+    "A007317",
+    "A007318",
+    "A030528",
+    "A064613",
+    "A091867",
+    "A098474",
+    "A104455",
+    "A104597",
+    "A126930"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

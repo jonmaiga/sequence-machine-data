@@ -1,0 +1,20 @@
+{
+  "description": "Smallest numbers in the coordinates of the isolated visible lattice points in the infinite square grid.",
+  "id": "A216467",
+  "mentions": [
+    "A157428",
+    "A157429",
+    "A178793",
+    "A178794"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

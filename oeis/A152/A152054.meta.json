@@ -1,0 +1,22 @@
+{
+  "description": "Bouncy numbers (numbers whose digits are in neither increasing nor decreasing order).",
+  "id": "A152054",
+  "mentions": [
+    "A009994",
+    "A009996",
+    "A152464",
+    "A204692"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

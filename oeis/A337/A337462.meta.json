@@ -1,0 +1,41 @@
+{
+  "description": "Number of pairwise coprime compositions of n, where a singleton is not considered coprime unless it is (1).",
+  "id": "A337462",
+  "mentions": [
+    "A000740",
+    "A001523",
+    "A007360",
+    "A051424",
+    "A087087",
+    "A101268",
+    "A178472",
+    "A220377",
+    "A302569",
+    "A305713",
+    "A307719",
+    "A326675",
+    "A327516",
+    "A328673",
+    "A333227",
+    "A333228",
+    "A335235",
+    "A335238",
+    "A335239",
+    "A337461",
+    "A337561",
+    "A337562",
+    "A337664",
+    "A337667"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

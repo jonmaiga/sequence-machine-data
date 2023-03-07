@@ -1,0 +1,19 @@
+{
+  "description": "For numbers m such that rad(n) divides sigma(n), this sequence gives the minimum exponent k such that sigma(m)^k divides m.",
+  "id": "A264154",
+  "mentions": [
+    "A000203",
+    "A007947",
+    "A175200"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

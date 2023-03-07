@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of cosecant of 36 degrees = csc(Pi/5) = 1/sin(Pi/5).",
+  "id": "A121570",
+  "mentions": [
+    "A001622",
+    "A019845",
+    "A179290",
+    "A182007"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

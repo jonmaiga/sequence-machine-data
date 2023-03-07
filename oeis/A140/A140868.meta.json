@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = floor(floor(n*alpha)*alpha) where alpha = 1+sqrt(2) = A014176.",
+  "id": "A140868",
+  "mentions": [
+    "A003151",
+    "A006337",
+    "A014176",
+    "A080763",
+    "A159684",
+    "A276862",
+    "A276864"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:29",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

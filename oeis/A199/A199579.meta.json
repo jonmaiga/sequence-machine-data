@@ -1,0 +1,22 @@
+{
+  "description": "Average number of round trips of length n on the Laguerre graph L_4.",
+  "id": "A199579",
+  "mentions": [
+    "A201198",
+    "A201199",
+    "A201200"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:20",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

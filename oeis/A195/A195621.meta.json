@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of arccsc(4).",
+  "id": "A195621",
+  "mentions": [
+    "A195628",
+    "A244644"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:55",
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Numbers that are a product of zero, one, or three (not necessarily distinct) prime numbers.",
+  "id": "A298207",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A001399",
+    "A008578",
+    "A014591",
+    "A014612",
+    "A026424",
+    "A028260",
+    "A037144",
+    "A298120",
+    "A298204",
+    "A298205"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:19",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

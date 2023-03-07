@@ -1,0 +1,25 @@
+{
+  "description": "After 1, all numbers that are either primes in Z or whose binary representation encodes a polynomial irreducible over GF(2).",
+  "id": "A257688",
+  "mentions": [
+    "A008578",
+    "A010051",
+    "A014580",
+    "A091212",
+    "A091225",
+    "A186891",
+    "A206074",
+    "A257689",
+    "A257691"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

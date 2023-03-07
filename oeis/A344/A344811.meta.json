@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that are the sum of six squares in seven or more ways.",
+  "id": "A344811",
+  "mentions": [
+    "A344800",
+    "A344810",
+    "A344812",
+    "A345484",
+    "A345516"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 17:59:44",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

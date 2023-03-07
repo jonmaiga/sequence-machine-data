@@ -1,0 +1,21 @@
+{
+  "description": "Even bisection of A360613: a(n) = A360613(2*n).",
+  "id": "A360628",
+  "mentions": [
+    "A360613",
+    "A360627",
+    "A360633"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

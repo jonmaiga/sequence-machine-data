@@ -1,0 +1,22 @@
+{
+  "description": "Smallest triangular number whose number of divisors is the n-th triangular number, or 0 if no such number exists.",
+  "id": "A323747",
+  "mentions": [
+    "A000217",
+    "A081978",
+    "A116541",
+    "A242585",
+    "A292989"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

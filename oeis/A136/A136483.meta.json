@@ -1,0 +1,23 @@
+{
+  "description": "Number of unit square lattice cells inside quadrant of origin-centered circle of diameter n.",
+  "id": "A136483",
+  "mentions": [
+    "A001182",
+    "A019683",
+    "A136484",
+    "A136485",
+    "A136513"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

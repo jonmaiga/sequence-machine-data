@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = the largest divisor of n that is coprime to A000005(n). (A000005(n) = the number of positive divisors of n.)",
+  "id": "A137926",
+  "mentions": [
+    "A000005",
+    "A046642",
+    "A120737",
+    "A137927"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

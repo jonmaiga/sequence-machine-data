@@ -1,0 +1,21 @@
+{
+  "description": "Numbers with mutually distinct exponents in their prime factorization (A130091) with a record gap to the next term of A130091.",
+  "id": "A342032",
+  "mentions": [
+    "A130091",
+    "A342028",
+    "A342029",
+    "A342030",
+    "A342031"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

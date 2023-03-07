@@ -1,0 +1,24 @@
+{
+  "description": "Identity matrices minus Steinbach matrices as characteristic polynomials to give a triangular array I[n]-An[i,j]-> P[k,x] P[k,n]->T[n,m).",
+  "id": "A122160",
+  "mentions": [
+    "A065941",
+    "A066170",
+    "A122610",
+    "A122767",
+    "A123218"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

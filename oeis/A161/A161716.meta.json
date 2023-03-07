@@ -1,0 +1,33 @@
+{
+  "description": "Number of reduced words of length n in the Weyl group B_7.",
+  "id": "A161716",
+  "mentions": [
+    "A008137",
+    "A008576",
+    "A128084",
+    "A161409",
+    "A161696",
+    "A161699",
+    "A161717",
+    "A161733",
+    "A161755",
+    "A161776",
+    "A161858",
+    "A267167",
+    "A267175"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:17:39",
+    "offset": 0,
+    "size": 39,
+    "source": "joeis"
+  }
+}

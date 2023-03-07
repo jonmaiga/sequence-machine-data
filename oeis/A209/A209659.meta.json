@@ -1,0 +1,30 @@
+{
+  "description": "Partition numbers p(n) having opposite parity of n.",
+  "id": "A209659",
+  "mentions": [
+    "A000041",
+    "A052001",
+    "A052003",
+    "A067567",
+    "A127219",
+    "A154795",
+    "A154796",
+    "A154797",
+    "A154798",
+    "A163096",
+    "A163097",
+    "A194798",
+    "A209658",
+    "A209920"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

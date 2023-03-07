@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 1 + Sum_{k=1..n} Sum_{d|k} mu(k/d)*p(d), where p(d) = number of partitions of d (A000041).",
+  "id": "A306912",
+  "mentions": [
+    "A000041",
+    "A000070",
+    "A000837",
+    "A008683",
+    "A036469"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:31:33",
+    "offset": 0,
+    "size": 46,
+    "source": "joeis"
+  }
+}

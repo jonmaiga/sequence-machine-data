@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 16*n^3 + 10*n^2 + 4*n + 1.",
+  "id": "A272130",
+  "mentions": [
+    "A144965",
+    "A158187",
+    "A272039"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:09:45",
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

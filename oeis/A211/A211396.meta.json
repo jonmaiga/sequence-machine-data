@@ -1,0 +1,21 @@
+{
+  "description": "Smallest prime substring of n, or 0 if no such substring exists.",
+  "id": "A211396",
+  "mentions": [
+    "A039997",
+    "A047814",
+    "A062115"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

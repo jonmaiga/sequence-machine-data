@@ -1,0 +1,22 @@
+{
+  "description": "Secondary diagonal of triangle A100235 divided by row number: a(n) = A100235(n+1,n)/(n+1) for n >= 0.",
+  "id": "A100237",
+  "mentions": [
+    "A052918",
+    "A100234",
+    "A100235",
+    "A100236"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

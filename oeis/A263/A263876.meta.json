@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that n^2 + 1 has two distinct prime divisors less than n.",
+  "id": "A263876",
+  "mentions": [
+    "A085722",
+    "A144255",
+    "A256011",
+    "A263877"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

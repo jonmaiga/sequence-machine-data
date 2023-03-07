@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = a(n-1) + a(n-2) - a(n-4) starting a(0)=0, a(1)=1, a(2)=a(3)=3.",
+  "id": "A168637",
+  "mentions": [
+    "A000931",
+    "A007307",
+    "A060006"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:52",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

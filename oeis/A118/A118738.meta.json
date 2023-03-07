@@ -1,0 +1,22 @@
+{
+  "description": "Number of ones in binary expansion of 5^n.",
+  "id": "A118738",
+  "mentions": [
+    "A000120",
+    "A061785",
+    "A118737"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

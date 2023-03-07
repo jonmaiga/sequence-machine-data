@@ -1,0 +1,24 @@
+{
+  "description": "The number of paths of length 13*n from the origin to the line y = 2*x/11 with unit East and North steps that stay below the line or touch it.",
+  "id": "A300389",
+  "mentions": [
+    "A001764",
+    "A060941",
+    "A300386",
+    "A300387",
+    "A300388"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:24",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

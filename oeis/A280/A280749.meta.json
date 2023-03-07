@@ -1,0 +1,21 @@
+{
+  "description": "One of a set of five sequences arising in the enumeration of optimal {0,1,-1}-configurations.",
+  "id": "A280749",
+  "mentions": [
+    "A280747",
+    "A280748",
+    "A280750",
+    "A280751"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

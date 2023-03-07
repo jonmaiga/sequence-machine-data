@@ -1,0 +1,20 @@
+{
+  "description": "Denominator of 8/(9n^2) divided by 9.",
+  "id": "A152020",
+  "mentions": [
+    "A152018",
+    "A195055"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:13:23",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Left-truncatable primes in base-10 bijective numeration.",
+  "id": "A308711",
+  "mentions": [
+    "A024785",
+    "A033664"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

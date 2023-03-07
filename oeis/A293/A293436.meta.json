@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the sum of the proper divisors of n that are Fibonacci numbers (A000045).",
+  "id": "A293436",
+  "mentions": [
+    "A000045",
+    "A005092",
+    "A010056",
+    "A293434",
+    "A293435"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

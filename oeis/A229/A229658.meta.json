@@ -1,0 +1,27 @@
+{
+  "description": "8-section a(8n+k) gives k-th differences of a for k=0..7 with a(n)=0 for n",
+  "id": "A229658",
+  "mentions": [
+    "A005590",
+    "A229653",
+    "A229654",
+    "A229655",
+    "A229656",
+    "A229657",
+    "A229659",
+    "A229660"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "eigen",
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:47",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

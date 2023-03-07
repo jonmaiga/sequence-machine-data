@@ -1,0 +1,19 @@
+{
+  "description": "Average of n-th twin prime pair minus total number of prime factors of average of n-th twin prime pair.",
+  "id": "A176915",
+  "mentions": [
+    "A014574",
+    "A078571"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:43:47",
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

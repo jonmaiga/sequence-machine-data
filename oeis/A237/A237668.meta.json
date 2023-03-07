@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n such that some part is a sum of two or more other parts.",
+  "id": "A237668",
+  "mentions": [
+    "A179009",
+    "A237667"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

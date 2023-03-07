@@ -1,0 +1,17 @@
+{
+  "description": "Number of ways to partition an n X 8 grid into 8 connected equal-area regions",
+  "id": "A167258",
+  "mentions": [
+    "A172477"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

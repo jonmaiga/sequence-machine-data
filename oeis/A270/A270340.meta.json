@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that equal the sum of the squares of the digits of their own square in base 13.",
+  "id": "A270340",
+  "mentions": [
+    "A270295",
+    "A270304",
+    "A270341"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

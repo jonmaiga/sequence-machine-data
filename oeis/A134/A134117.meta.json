@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that q-p = 36, where q is the next prime after p.",
+  "id": "A134117",
+  "mentions": [
+    "A134116",
+    "A134118"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:22",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

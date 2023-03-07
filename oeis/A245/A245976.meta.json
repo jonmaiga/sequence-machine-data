@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the number whose continued fraction is given by A245920 (limit-reverse of an infinite Fibonacci word).",
+  "id": "A245976",
+  "mentions": [
+    "A014675",
+    "A245920",
+    "A245975"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

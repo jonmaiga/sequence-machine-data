@@ -1,0 +1,30 @@
+{
+  "description": "Heinz numbers of non-constant integer partitions whose length and maximum both divide their sum.",
+  "id": "A326838",
+  "mentions": [
+    "A001222",
+    "A047993",
+    "A056239",
+    "A061395",
+    "A067538",
+    "A112798",
+    "A316413",
+    "A326836",
+    "A326837",
+    "A326843",
+    "A326847",
+    "A326848",
+    "A326851",
+    "A326852"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

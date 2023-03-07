@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: TR(n,k) is the number of unordered vertex pairs at distance k of the hexagonal triangle T_n, defined in the He et al. reference (1<=k<=2n+1).",
+  "id": "A248093",
+  "mentions": [
+    "A002061",
+    "A028872",
+    "A033544",
+    "A140091",
+    "A248094"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

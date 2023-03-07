@@ -1,0 +1,20 @@
+{
+  "description": "Semiprimes of the form p*q where p < q such that q divides p^(q+1) + 1 and (q-p)^(q+1) + 1.",
+  "id": "A278921",
+  "mentions": [
+    "A001358",
+    "A002144",
+    "A006881",
+    "A279024"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

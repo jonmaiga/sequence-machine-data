@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest k such that there are exactly n primes between k*(k-1) and k^2 and exactly n primes between k^2 and k*(k+1), or 0 if no such k exists.",
+  "id": "A271383",
+  "mentions": [
+    "A000720",
+    "A002386",
+    "A005250"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

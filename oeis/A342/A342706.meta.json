@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form (p^2 - p*q + q^2)/3, where p and q are consecutive primes.",
+  "id": "A342706",
+  "mentions": [
+    "A339698",
+    "A342705"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

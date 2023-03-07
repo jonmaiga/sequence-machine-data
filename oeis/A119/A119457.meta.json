@@ -1,0 +1,33 @@
+{
+  "description": "Triangle read by rows: T(n,1)=n, T(n,2)=(n-1)*2 for n>1 and T(n,k)=T(n-1,k-1)+T(n-2,k-2) for 2",
+  "id": "A119457",
+  "mentions": [
+    "A000045",
+    "A001891",
+    "A005843",
+    "A006355",
+    "A008585",
+    "A008587",
+    "A008590",
+    "A008595",
+    "A008603",
+    "A022086",
+    "A022087",
+    "A022088",
+    "A022089",
+    "A022090",
+    "A023607"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

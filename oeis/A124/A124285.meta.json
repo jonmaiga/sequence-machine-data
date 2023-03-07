@@ -1,0 +1,21 @@
+{
+  "description": "Number of integer-sided pentagons having perimeter n.",
+  "id": "A124285",
+  "mentions": [
+    "A057886",
+    "A069906",
+    "A124286",
+    "A124287"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

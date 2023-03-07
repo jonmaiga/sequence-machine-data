@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of 1/(1 - x/(1 - 2*x/(1 - 2*x/(1 - 4*x/(1 - 4*x/(1 - 6*x/(1 - 6*x/(1 - ...)))))))), a continued fraction.",
+  "id": "A305535",
+  "mentions": [
+    "A000165",
+    "A051295",
+    "A051296",
+    "A112934",
+    "A141307",
+    "A292778"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

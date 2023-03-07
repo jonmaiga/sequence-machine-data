@@ -1,0 +1,20 @@
+{
+  "description": "Products of 2 primes that are the difference of 2 primes.",
+  "id": "A178378",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A124588"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

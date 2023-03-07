@@ -1,0 +1,22 @@
+{
+  "description": "Oblong (or pronic) numbers of the form x_n.y_n where z_n indicates the digit z repeated n times.",
+  "id": "A289980",
+  "mentions": [
+    "A002378",
+    "A181718",
+    "A276532"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:04",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

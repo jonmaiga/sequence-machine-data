@@ -1,0 +1,24 @@
+{
+  "description": "Primes p of the form p = 2^k * m + 1, where (i) m is squarefree and odd, (ii) all primes that divide m are in the sequence, and (iii) k is 0, 1, or 2.",
+  "id": "A229289",
+  "mentions": [
+    "A007814",
+    "A066651",
+    "A226960",
+    "A227007",
+    "A229290",
+    "A229291",
+    "A289355",
+    "A341858"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

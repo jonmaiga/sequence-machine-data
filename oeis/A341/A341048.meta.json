@@ -1,0 +1,20 @@
+{
+  "description": "Numbers m such that there is a group of order m that is not supersolvable (NSS) but \"converse Lagrange theorem\" (CLT).",
+  "id": "A341048",
+  "mentions": [
+    "A066085",
+    "A340511",
+    "A340517"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

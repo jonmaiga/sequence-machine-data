@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = p(49*n + 47)/49, where p(k) denotes the k-th partition number (i.e., A000041).",
+  "id": "A327771",
+  "mentions": [
+    "A000041",
+    "A052462",
+    "A052463",
+    "A052465",
+    "A052466",
+    "A071746",
+    "A213261",
+    "A327582",
+    "A327714",
+    "A327770"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

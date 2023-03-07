@@ -1,0 +1,25 @@
+{
+  "description": "Concatenated indices of primes in prime factorization of n.",
+  "id": "A127668",
+  "mentions": [
+    "A000041",
+    "A001222",
+    "A054841",
+    "A056239",
+    "A112798",
+    "A127669"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 2,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

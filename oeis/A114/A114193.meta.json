@@ -1,0 +1,26 @@
+{
+  "description": "Riordan array (1/(1+2xc(-2x)),xc(-2x)/(1+2xc(-2x)), c(x) the g.f. of A000108.",
+  "id": "A114193",
+  "mentions": [
+    "A000108",
+    "A039599",
+    "A084938",
+    "A114191",
+    "A114192",
+    "A114194",
+    "A256893"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

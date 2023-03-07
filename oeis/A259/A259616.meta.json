@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of J'_1(1), the first root of the derivative of the Bessel function J_1.",
+  "id": "A259616",
+  "mentions": [
+    "A115369",
+    "A259617",
+    "A259618",
+    "A259619",
+    "A259620"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

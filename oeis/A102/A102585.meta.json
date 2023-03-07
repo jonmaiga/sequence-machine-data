@@ -1,0 +1,18 @@
+{
+  "description": "Column 0 of triangular matrix A102583, in which row n is formed from the first differences of row (n-1) of its inverse matrix square.",
+  "id": "A102585",
+  "mentions": [
+    "A102583",
+    "A102586"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

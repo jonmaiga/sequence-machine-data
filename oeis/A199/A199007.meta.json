@@ -1,0 +1,20 @@
+{
+  "description": "Related to number of cocyclic Hadamard matrices of order 4n.",
+  "id": "A199007",
+  "mentions": [
+    "A007299",
+    "A199005",
+    "A199006"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

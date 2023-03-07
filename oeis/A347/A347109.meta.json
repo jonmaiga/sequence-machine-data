@@ -1,0 +1,18 @@
+{
+  "description": "Primes p congruent to 1 mod 15 such that the 15 X 15 integer circulant determinants take the form 3^2*p or 5^2*p.",
+  "id": "A347109",
+  "mentions": [
+    "A132230"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

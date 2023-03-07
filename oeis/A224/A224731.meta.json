@@ -1,0 +1,18 @@
+{
+  "description": "b(n+1) - b(n) + n where b(n) = A095114(n).",
+  "id": "A224731",
+  "mentions": [
+    "A095114",
+    "A109512"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

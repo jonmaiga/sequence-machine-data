@@ -1,0 +1,19 @@
+{
+  "description": "Prime at which the cumulative sum in A117503 is prime.",
+  "id": "A117504",
+  "mentions": [
+    "A117503"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

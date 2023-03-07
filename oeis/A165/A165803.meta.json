@@ -1,0 +1,20 @@
+{
+  "description": "Integers n such that the trajectory of n under repeated applications of the map k->(k-3)/2 is a chain of primes that reaches 2 or 3 (n itself need not be a prime).",
+  "id": "A165803",
+  "mentions": [
+    "A165801",
+    "A165802"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

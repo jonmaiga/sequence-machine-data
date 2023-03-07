@@ -1,0 +1,18 @@
+{
+  "description": "Types of signatures of partitions of n (ordered firstly by decreasing greatest parts, then by decreasing sum of parts, then by increasing number of parts). Irregular triangle read by rows, length of row n is A088887(n).",
+  "id": "A328917",
+  "mentions": [
+    "A088887"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Denominator of Bernoulli(2*n,1/2) / Period of length 2: repeat 12, 60.",
+  "id": "A212655",
+  "mentions": [
+    "A000302",
+    "A027642",
+    "A027762",
+    "A033469",
+    "A040874",
+    "A165734",
+    "A165949"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:07:51",
+    "offset": 1,
+    "size": 10,
+    "source": "joeis"
+  }
+}

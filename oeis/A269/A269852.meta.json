@@ -1,0 +1,25 @@
+{
+  "description": "Permutation of natural numbers: a(1) = 0, after which, a(2n) = A087686(1+a(n)), a(2n+1) = A088359(a(A268674(2n+1))).",
+  "id": "A269852",
+  "mentions": [
+    "A004001",
+    "A087686",
+    "A088359",
+    "A252756",
+    "A267112",
+    "A268674",
+    "A269851",
+    "A269856"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

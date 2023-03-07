@@ -1,0 +1,30 @@
+{
+  "description": "Numbers k such that the square of k is the concatenation of two numbers m and m-8.",
+  "id": "A115446",
+  "mentions": [
+    "A030467",
+    "A106497",
+    "A115427",
+    "A115435",
+    "A115438",
+    "A115439",
+    "A115440",
+    "A115441",
+    "A115442",
+    "A115443",
+    "A115444",
+    "A115445",
+    "A115447"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

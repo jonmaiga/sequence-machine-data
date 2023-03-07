@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k) = sum of all parts of all partitions of n into k distinct parts.",
+  "id": "A255767",
+  "mentions": [
+    "A000217",
+    "A003056",
+    "A038040",
+    "A066186",
+    "A116608",
+    "A255768"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Highest power of 6 dividing n.",
+  "id": "A234959",
+  "mentions": [
+    "A006519",
+    "A038500",
+    "A122841",
+    "A234957",
+    "A243758"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

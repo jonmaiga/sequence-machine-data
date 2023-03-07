@@ -1,0 +1,23 @@
+{
+  "description": "Möbius transform of A332223.",
+  "id": "A332463",
+  "mentions": [
+    "A003972",
+    "A008683",
+    "A156552",
+    "A324201",
+    "A324543",
+    "A332223"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

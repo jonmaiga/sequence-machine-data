@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways to linearly order the components of a simple labeled graph on n nodes so that the label 1 is in the first component.",
+  "id": "A335378",
+  "mentions": [
+    "A006125",
+    "A335356"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

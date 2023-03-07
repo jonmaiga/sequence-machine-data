@@ -1,0 +1,31 @@
+{
+  "description": "Decimal expansion of 2^521 - 1.",
+  "id": "A169685",
+  "mentions": [
+    "A000043",
+    "A000668",
+    "A169681",
+    "A169684",
+    "A204063",
+    "A248931",
+    "A248932",
+    "A248933",
+    "A248934",
+    "A248935",
+    "A248936"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:53",
+    "offset": 157,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

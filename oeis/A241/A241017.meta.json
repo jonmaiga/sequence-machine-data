@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of Sierpiński's S constant, which appears in a series involving the function r(n), defined as the number of representations of the positive integer n as a sum of two squares. This S constant is the usual Sierpiński K constant divided by Pi.",
+  "id": "A241017",
+  "mentions": [
+    "A001620",
+    "A062089",
+    "A062539",
+    "A068466",
+    "A086058",
+    "A088538",
+    "A115252"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

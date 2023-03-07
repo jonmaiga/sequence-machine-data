@@ -1,0 +1,22 @@
+{
+  "description": "First differences of A273670: a(n) = A273670(n) - A273670(n-1).",
+  "id": "A276948",
+  "mentions": [
+    "A273670",
+    "A276947",
+    "A276950",
+    "A276952"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

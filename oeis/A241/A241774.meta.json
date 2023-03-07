@@ -1,0 +1,17 @@
+{
+  "description": "Number of standard Young tableaux with n cells and exactly three successions.",
+  "id": "A241774",
+  "mentions": [
+    "A238125"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 4,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

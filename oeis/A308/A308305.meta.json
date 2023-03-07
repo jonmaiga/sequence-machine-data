@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = s(n,n) + s(n,n-1) + s(n,n-2), where s(n,k) are the unsigned Stirling numbers of the first kind (see A132393).",
+  "id": "A308305",
+  "mentions": [
+    "A008275",
+    "A087645",
+    "A132393"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:48:27",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

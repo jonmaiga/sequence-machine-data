@@ -1,0 +1,17 @@
+{
+  "description": "Equals two maps: number of nX4 binary arrays indicating the locations of corresponding elements equal to exactly two of their horizontal, vertical and antidiagonal neighbors in a random 0..2 nX4 array",
+  "id": "A221187",
+  "mentions": [
+    "A221188"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

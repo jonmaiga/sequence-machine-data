@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 14641*n^2 - 24684*n + 10405.",
+  "id": "A157442",
+  "mentions": [
+    "A017485",
+    "A157440",
+    "A157441"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:11:07",
+    "offset": 1,
+    "size": 26,
+    "source": "joeis"
+  }
+}

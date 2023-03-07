@@ -1,0 +1,32 @@
+{
+  "description": "Square array sigma_k(n) read down antidiagonals: sum of the k-th powers of the divisors of n.",
+  "id": "A319278",
+  "mentions": [
+    "A000012",
+    "A000051",
+    "A000203",
+    "A001157",
+    "A001158",
+    "A001159",
+    "A001576",
+    "A023887",
+    "A034472",
+    "A034474",
+    "A034488",
+    "A082771",
+    "A319194"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

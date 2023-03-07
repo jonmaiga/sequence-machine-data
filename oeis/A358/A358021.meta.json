@@ -1,0 +1,23 @@
+{
+  "description": "Lexicographically earliest sequence of distinct nonnegative integers on a square spiral such that no number shares a digit with any of its eight surrounding neighbors.",
+  "id": "A358021",
+  "mentions": [
+    "A343530",
+    "A344325",
+    "A344367",
+    "A354111",
+    "A358048"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

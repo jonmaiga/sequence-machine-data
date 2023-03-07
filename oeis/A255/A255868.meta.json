@@ -1,0 +1,21 @@
+{
+  "description": "Least m > 0 such that gcd(m^n+18, (m+1)^n+18) > 1, or 0 if there is no such m.",
+  "id": "A255868",
+  "mentions": [
+    "A118119",
+    "A255832",
+    "A255852",
+    "A255869"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

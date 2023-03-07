@@ -1,0 +1,18 @@
+{
+  "description": "Maximal number of squares of side 1 in a disk of radius n.",
+  "id": "A125228",
+  "mentions": [
+    "A001182"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

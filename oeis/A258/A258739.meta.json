@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of (f(-x)^3 / f(-x^2))^6 - 64 * x * (f(-x^2)^3 / f(-x))^6 in powers of x where f() is a Ramanujan theta function.",
+  "id": "A258739",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A000729",
+    "A002171",
+    "A008441",
+    "A010054",
+    "A010815",
+    "A121373",
+    "A215472",
+    "A215601"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

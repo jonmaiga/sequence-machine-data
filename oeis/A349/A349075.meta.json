@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = U(n, 2*n), where U(n, x) is the Chebyshev polynomial of the second kind.",
+  "id": "A349075",
+  "mentions": [
+    "A323118",
+    "A349073",
+    "A349076"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

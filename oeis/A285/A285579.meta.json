@@ -1,0 +1,18 @@
+{
+  "description": "Circumdiameters of non-Pythagorean primitive Heronian triangles (no repetitions).",
+  "id": "A285579",
+  "mentions": [
+    "A120961",
+    "A329148"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:57",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

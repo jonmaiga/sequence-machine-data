@@ -1,0 +1,19 @@
+{
+  "description": "T(n,k)=Number of nXk (-1,0,1) arrays of determinants of 2X2 subblocks of some (n+1)X(k+1) binary array with rows and columns of the latter in lexicographically nondecreasing order",
+  "id": "A226870",
+  "mentions": [
+    "A000124"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that the n-th noncomposite number plus the (n+2)nd noncomposite number is an even semiprime.",
+  "id": "A173891",
+  "mentions": [
+    "A006562",
+    "A008578",
+    "A100484",
+    "A173390"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

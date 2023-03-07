@@ -1,0 +1,25 @@
+{
+  "description": "Number of ways to write n as x^2 + y^k + 2^a + 2^b, where x,y,a,b are nonnegative integers with x >= y and a >= b, and k is either 2 or 3.",
+  "id": "A349787",
+  "mentions": [
+    "A000079",
+    "A000290",
+    "A000578",
+    "A001597",
+    "A002760",
+    "A273812",
+    "A303363",
+    "A303637",
+    "A349778"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 2,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

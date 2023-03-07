@@ -1,0 +1,19 @@
+{
+  "description": "Total of the chromatic numbers of all simple graphs on n nodes.",
+  "id": "A348620",
+  "mentions": [
+    "A084268"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

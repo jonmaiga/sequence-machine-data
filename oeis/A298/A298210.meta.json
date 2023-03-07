@@ -1,0 +1,28 @@
+{
+  "description": "Smallest n such that A001542(a(n)) == 0 (mod n), i.e., x=A001541(a(n)) and y=A001542(a(n)) is the fundamental solution of the Pell equation x^2 - 2*(n*y)^2 = 1.",
+  "id": "A298210",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A001541",
+    "A001542",
+    "A002349",
+    "A002350",
+    "A005384",
+    "A005385",
+    "A091337",
+    "A298211",
+    "A298212"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:19",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

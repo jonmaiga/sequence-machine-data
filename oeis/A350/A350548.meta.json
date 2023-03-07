@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle T(n,k) read by rows in which row n lists the iterates of the A350515 map from n to 0.",
+  "id": "A350548",
+  "mentions": [
+    "A070165",
+    "A349407",
+    "A350279",
+    "A350515"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

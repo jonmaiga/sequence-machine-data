@@ -1,0 +1,20 @@
+{
+  "description": "Indices of the irregular primes.",
+  "id": "A105018",
+  "mentions": [
+    "A000040",
+    "A000928",
+    "A105019"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:56",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

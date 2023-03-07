@@ -1,0 +1,22 @@
+{
+  "description": "Numerators of A002110 divided by A102647, starting from the second term of both.",
+  "id": "A165657",
+  "mentions": [
+    "A002110",
+    "A102647",
+    "A165658",
+    "A165659",
+    "A165660"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

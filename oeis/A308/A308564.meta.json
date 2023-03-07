@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. Sum_{k>=1} phi(k)*(exp(x) - 1)^k/k!, where phi = Euler totient function (A000010).",
+  "id": "A308564",
+  "mentions": [
+    "A000010",
+    "A306988"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

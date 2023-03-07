@@ -1,0 +1,32 @@
+{
+  "description": "Prime terms in the tribonacci-like sequence A214827.",
+  "id": "A242325",
+  "mentions": [
+    "A001590",
+    "A020992",
+    "A100683",
+    "A141523",
+    "A214727",
+    "A214825",
+    "A214827",
+    "A214899",
+    "A231574",
+    "A231575",
+    "A232543",
+    "A233554",
+    "A234696",
+    "A235862",
+    "A235873",
+    "A242324"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

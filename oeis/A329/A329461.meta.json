@@ -1,0 +1,18 @@
+{
+  "description": "Poulet numbers (Fermat pseudoprimes to base 2) k, whose sum of proper divisors sigma(k)-k is also a Poulet number.",
+  "id": "A329461",
+  "mentions": [
+    "A001065",
+    "A001567"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

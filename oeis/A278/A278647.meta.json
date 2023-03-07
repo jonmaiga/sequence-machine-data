@@ -1,0 +1,18 @@
+{
+  "description": "First differences of Hypotenuse numbers A009003.",
+  "id": "A278647",
+  "mentions": [
+    "A009003"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

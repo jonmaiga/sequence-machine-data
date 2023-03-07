@@ -1,0 +1,22 @@
+{
+  "description": "Number of polycubes with n cells, allowing edge connections as well as face connections, distinguishing mirror images.",
+  "id": "A270862",
+  "mentions": [
+    "A000162",
+    "A030222",
+    "A268666"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Largest divisor < n of n^2 + 1, a(1) = 1.",
+  "id": "A152823",
+  "mentions": [
+    "A147809"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

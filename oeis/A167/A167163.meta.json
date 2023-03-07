@@ -1,0 +1,20 @@
+{
+  "description": "Number of times n is \"catapulted\" in generation of the Catapult Sequence (A167161).",
+  "id": "A167163",
+  "mentions": [
+    "A167161",
+    "A167162",
+    "A167164",
+    "A167165"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:50",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

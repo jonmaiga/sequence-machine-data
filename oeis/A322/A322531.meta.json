@@ -1,0 +1,33 @@
+{
+  "description": "Heinz numbers of integer partitions whose parts all have the same number of prime factors (counted with or without multiplicity) and whose product of parts is a squarefree number.",
+  "id": "A322531",
+  "mentions": [
+    "A003963",
+    "A005117",
+    "A038041",
+    "A056239",
+    "A073576",
+    "A112798",
+    "A302242",
+    "A302505",
+    "A302521",
+    "A306017",
+    "A319056",
+    "A319169",
+    "A320324",
+    "A321717",
+    "A321718",
+    "A322526",
+    "A322528"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

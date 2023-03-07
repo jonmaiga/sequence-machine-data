@@ -1,0 +1,28 @@
+{
+  "description": "Write n in binary, then increase each run of 0's by one 0. a(n) is the decimal equivalent of the result.",
+  "id": "A175047",
+  "mentions": [
+    "A007088",
+    "A030308",
+    "A033264",
+    "A070939",
+    "A084471",
+    "A106151",
+    "A171598",
+    "A171599",
+    "A175046",
+    "A175048"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

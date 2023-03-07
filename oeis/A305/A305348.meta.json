@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest number k such that k * A002202(n) is not a term of A000010.",
+  "id": "A305348",
+  "mentions": [
+    "A000010",
+    "A002202",
+    "A005277"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

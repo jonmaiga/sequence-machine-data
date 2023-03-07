@@ -1,0 +1,22 @@
+{
+  "description": "Positions k in row n of triangles S(n,k) = T(n,k) = 0, where A054521 = S and A349297 = T, or 0 if there are no such k.",
+  "id": "A349298",
+  "mentions": [
+    "A003586",
+    "A007310",
+    "A047229",
+    "A054521",
+    "A349297"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

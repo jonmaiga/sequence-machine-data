@@ -1,0 +1,29 @@
+{
+  "description": "Numbers which cannot be obtained by adding some digit of a number m to m.",
+  "id": "A241175",
+  "mentions": [
+    "A241173",
+    "A241174",
+    "A241176",
+    "A241177",
+    "A241178",
+    "A241179",
+    "A241180",
+    "A241181",
+    "A241182",
+    "A241183"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Triangle of the value of Bell polynomials of the second kind B(n,m)(6,30,120,360,720,720) in row n, column m.",
+  "id": "A188062",
+  "mentions": [
+    "A264428"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

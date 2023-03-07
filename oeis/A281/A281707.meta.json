@@ -1,0 +1,20 @@
+{
+  "description": "Even integers k such that phi(sum of even divisors of k) = sum of odd divisors of k.",
+  "id": "A281707",
+  "mentions": [
+    "A000010",
+    "A000593",
+    "A000668",
+    "A146076"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

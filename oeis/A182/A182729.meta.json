@@ -1,0 +1,26 @@
+{
+  "description": "Square array T(n,k) = (n*k-1)*A000041(n) read by antidiagonals upwards.",
+  "id": "A182729",
+  "mentions": [
+    "A000041",
+    "A135010",
+    "A182724",
+    "A182728",
+    "A183009",
+    "A183010",
+    "A183011"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

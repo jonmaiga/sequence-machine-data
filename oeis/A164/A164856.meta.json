@@ -1,0 +1,21 @@
+{
+  "description": "Row sums of generalized Lucas-Pascal triangle: A164855",
+  "id": "A164856",
+  "mentions": [
+    "A000032",
+    "A164849",
+    "A164855"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:03:32",
+    "offset": 0,
+    "size": 13,
+    "source": "joeis"
+  }
+}

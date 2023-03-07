@@ -1,0 +1,20 @@
+{
+  "description": "Perimeters of primitive Heronian triangles whose smallest side length is prime.",
+  "id": "A334584",
+  "mentions": [
+    "A010051",
+    "A096468",
+    "A334586",
+    "A334587"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

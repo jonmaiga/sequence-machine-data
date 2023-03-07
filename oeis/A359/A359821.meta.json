@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k whose arithmetic derivative, A003415(k), has the opposite parity to k.",
+  "id": "A359821",
+  "mentions": [
+    "A003415",
+    "A129283",
+    "A168036",
+    "A359820",
+    "A359822"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

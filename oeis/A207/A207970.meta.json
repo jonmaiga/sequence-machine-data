@@ -1,0 +1,25 @@
+{
+  "description": "G.f.: exp( Sum_{n>=1} 5*Fibonacci(n)^6 * x^n/n ).",
+  "id": "A207970",
+  "mentions": [
+    "A001622",
+    "A054888",
+    "A077916",
+    "A203806",
+    "A207834",
+    "A207969",
+    "A207971",
+    "A207972"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

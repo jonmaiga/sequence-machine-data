@@ -1,0 +1,34 @@
+{
+  "description": "Positions of adjacent unequal terms in the sequence of differences between primes.",
+  "id": "A333214",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A054353",
+    "A064113",
+    "A084758",
+    "A106356",
+    "A124762",
+    "A124767",
+    "A238279",
+    "A258025",
+    "A258026",
+    "A333216",
+    "A333230",
+    "A333231",
+    "A333254",
+    "A333490",
+    "A333491"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

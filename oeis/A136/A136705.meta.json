@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows where the n-th row gives the coefficients of the characteristic polynomial for a Fibonacci-type matrix with a=1 and b=1.",
+  "id": "A136705",
+  "mentions": [
+    "A141679"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

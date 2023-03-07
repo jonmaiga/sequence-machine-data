@@ -1,0 +1,19 @@
+{
+  "description": "Number of totally symmetric Latin squares of order n.",
+  "id": "A350025",
+  "mentions": [
+    "A076019",
+    "A350026"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

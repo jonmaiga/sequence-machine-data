@@ -1,0 +1,22 @@
+{
+  "description": "Number of polyominoes with perimeter at most 2n.",
+  "id": "A130622",
+  "mentions": [
+    "A000105",
+    "A057730",
+    "A130866",
+    "A131482"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

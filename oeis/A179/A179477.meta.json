@@ -1,0 +1,19 @@
+{
+  "description": "Antonym of A014824: each term is 10 times the previous term minus n.",
+  "id": "A179477",
+  "mentions": [
+    "A014824"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

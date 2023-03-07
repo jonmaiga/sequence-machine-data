@@ -1,0 +1,32 @@
+{
+  "description": "Array read by antidiagonals of higher order Bell numbers.",
+  "id": "A153277",
+  "mentions": [
+    "A000110",
+    "A000258",
+    "A000307",
+    "A000326",
+    "A000357",
+    "A000405",
+    "A001669",
+    "A005945",
+    "A081624",
+    "A081629",
+    "A081697",
+    "A081740",
+    "A111672",
+    "A144150"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

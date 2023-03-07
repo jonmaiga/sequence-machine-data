@@ -1,0 +1,21 @@
+{
+  "description": "Number of n-step self-avoiding walks on the b.c.c. lattice with no non-contiguous adjacencies.",
+  "id": "A336906",
+  "mentions": [
+    "A001666",
+    "A174319",
+    "A336907"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

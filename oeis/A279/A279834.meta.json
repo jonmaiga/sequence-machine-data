@@ -1,0 +1,21 @@
+{
+  "description": "Numerators of the coefficients in g.f. A(x) such that: sn(x,-A(x)) = x, where sn(x,m) is a Jacobi elliptic function.",
+  "id": "A279834",
+  "mentions": [
+    "A060628",
+    "A279832",
+    "A279833",
+    "A279835"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:47",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Pierpont 4-almost primes: numbers with exactly 4 prime divisors, not necessarily distinct, of the form 2^K*3^L + 1.",
+  "id": "A111344",
+  "mentions": [
+    "A005109",
+    "A014613",
+    "A055600",
+    "A111345",
+    "A111346",
+    "A112797",
+    "A113432",
+    "A113739",
+    "A113740",
+    "A113741"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

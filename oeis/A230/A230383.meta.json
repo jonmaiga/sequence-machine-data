@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers such that the first difference contains only distinct positive or negative squares.",
+  "id": "A230383",
+  "mentions": [
+    "A081145",
+    "A175498",
+    "A230455",
+    "A230560"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:47",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

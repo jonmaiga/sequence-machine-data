@@ -1,0 +1,24 @@
+{
+  "description": "Number of snake-like polyominoes with the maximum possible number of unit squares in an n X n square.",
+  "id": "A331986",
+  "mentions": [
+    "A059525",
+    "A099155",
+    "A331968",
+    "A332920",
+    "A332921"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

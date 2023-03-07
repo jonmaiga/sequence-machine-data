@@ -1,0 +1,21 @@
+{
+  "description": "Numbers x such that 0 < |x^7 - y^4| < x^(17/4) for some number y.",
+  "id": "A173358",
+  "mentions": [
+    "A078933",
+    "A116884",
+    "A173348",
+    "A173379"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

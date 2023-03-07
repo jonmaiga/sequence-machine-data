@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{m=1..n} (A000045(m)*(A004001(m+1) - 2*A004001(m) + A004001(m-1)).",
+  "id": "A120475",
+  "mentions": [
+    "A000045",
+    "A004001",
+    "A120474"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

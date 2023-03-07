@@ -1,0 +1,17 @@
+{
+  "description": "G.f. A(x) satisfies: A(x)^3 = Sum_{n>=0} A247031(n)*x^n.",
+  "id": "A245658",
+  "mentions": [
+    "A247031"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

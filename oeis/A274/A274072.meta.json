@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = 5^n-(-1)^n.",
+  "id": "A274072",
+  "mentions": [
+    "A010673",
+    "A015531",
+    "A062157",
+    "A062510",
+    "A105723",
+    "A247281",
+    "A274073"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

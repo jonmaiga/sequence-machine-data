@@ -1,0 +1,23 @@
+{
+  "description": "Greatest inverse of A071542, i.e., a(n) = maximal i such that A071542(i) = n.",
+  "id": "A173601",
+  "mentions": [
+    "A071542",
+    "A086876",
+    "A179016",
+    "A213708",
+    "A218604",
+    "A218608"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:57",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Number of partitions of 3n+1 into parts >= 3.",
+  "id": "A182807",
+  "mentions": [
+    "A008483",
+    "A026796",
+    "A135010",
+    "A138121",
+    "A182746",
+    "A182747",
+    "A182806",
+    "A182808"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

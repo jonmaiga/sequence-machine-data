@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = smallest m such that b(m) is prime and b(m+2)/b(m) = prime(n), where b() = A098550().",
+  "id": "A251543",
+  "mentions": [
+    "A098550",
+    "A098850",
+    "A251542"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

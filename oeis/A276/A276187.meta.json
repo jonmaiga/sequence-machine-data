@@ -1,0 +1,43 @@
+{
+  "description": "Number of subsets of {1,..,n} of cardinality >= 2 such that the elements of each counted subset are pairwise coprime.",
+  "id": "A276187",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A002088",
+    "A007360",
+    "A015614",
+    "A018805",
+    "A051026",
+    "A063647",
+    "A084422",
+    "A085945",
+    "A186971",
+    "A186972",
+    "A186974",
+    "A187106",
+    "A302696",
+    "A305713",
+    "A320423",
+    "A320426",
+    "A320430",
+    "A320436",
+    "A326077",
+    "A326675",
+    "A327516",
+    "A337485",
+    "A343655",
+    "A343659"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

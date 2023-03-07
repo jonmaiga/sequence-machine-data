@@ -1,0 +1,19 @@
+{
+  "description": "Unique solution x of the congruence x^2 = -1 (mod m(n)), with m(n) = A002559(n) (Markoff numbers) in the interval [1, floor(m(n)/2)], assuming the Markoff uniqueness conjecture, for n >= 3.",
+  "id": "A324601",
+  "mentions": [
+    "A002559",
+    "A305310",
+    "A309161"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 3,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Central terms in even-indexed rows of triangle A105556 and thus equals the n-th row sum of the n-th matrix power of the Narayana triangle A001263.",
+  "id": "A105558",
+  "mentions": [
+    "A001263",
+    "A105556",
+    "A155926"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

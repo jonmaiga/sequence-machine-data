@@ -1,0 +1,21 @@
+{
+  "description": "a(0)=1. Let S = string of digits of a(0),a(1),a(2),... To get a(n+1) (n>=0), subtract next element of S from a(n) if that would give a positive number different from a(0),...,a(n), otherwise add it to a(n).",
+  "id": "A210023",
+  "mentions": [
+    "A005132",
+    "A210022",
+    "A210025",
+    "A210026"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

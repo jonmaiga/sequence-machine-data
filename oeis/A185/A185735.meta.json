@@ -1,0 +1,21 @@
+{
+  "description": "Array by antidiagonals: R(i,j)=the number of the row of the left-justified Wythoff array W' which includes the sum of rows i and j of W'.",
+  "id": "A185735",
+  "mentions": [
+    "A035513",
+    "A165357",
+    "A165359",
+    "A165360"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

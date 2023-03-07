@@ -1,0 +1,24 @@
+{
+  "description": "Numbers n with property that A062234(n)=A062234(n+1)=A062234(n+2)=A062234(n+3)=A062234(n+4).",
+  "id": "A257951",
+  "mentions": [
+    "A062234",
+    "A257762",
+    "A257892",
+    "A258383",
+    "A258432",
+    "A258437",
+    "A258449",
+    "A258469"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

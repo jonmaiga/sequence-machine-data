@@ -1,0 +1,19 @@
+{
+  "description": "Integers k such that A003266(k) is not divisible by k.",
+  "id": "A270777",
+  "mentions": [
+    "A000057",
+    "A003266",
+    "A270653"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:34",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

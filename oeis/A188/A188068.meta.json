@@ -1,0 +1,22 @@
+{
+  "description": "[nr]-[kr]-[nr-kr], where r=sqrt(3), k=1, [ ]=floor.",
+  "id": "A188068",
+  "mentions": [
+    "A007538",
+    "A188014",
+    "A188069",
+    "A188070",
+    "A275855"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:12",
+    "offset": 1,
+    "size": 123,
+    "source": "oeis-bfile"
+  }
+}

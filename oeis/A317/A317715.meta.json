@@ -1,0 +1,29 @@
+{
+  "description": "Number of ways to split an integer partition of n into consecutive subsequences with equal sums.",
+  "id": "A317715",
+  "mentions": [
+    "A000041",
+    "A001970",
+    "A063834",
+    "A316223",
+    "A316245",
+    "A317508",
+    "A317545",
+    "A317546",
+    "A318434",
+    "A318683",
+    "A318684",
+    "A319001",
+    "A319794"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:37",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

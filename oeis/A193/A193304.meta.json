@@ -1,0 +1,20 @@
+{
+  "description": "Squarefree numbers multiplied by powers of 5.",
+  "id": "A193304",
+  "mentions": [
+    "A008683",
+    "A132739",
+    "A240370"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 109,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Number T(n,k) of entries in the k-th cycles of all permutations of [n] when cycles are ordered by increasing lengths (and increasing smallest elements); triangle T(n,k), n>=1, 1<=k<=n, read by rows.",
+  "id": "A322383",
+  "mentions": [
+    "A001563",
+    "A028417",
+    "A185105",
+    "A322384",
+    "A332906",
+    "A332907",
+    "A332908",
+    "A332909",
+    "A332910",
+    "A332911",
+    "A332912",
+    "A332913",
+    "A332914"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

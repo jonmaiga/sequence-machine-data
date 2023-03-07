@@ -1,0 +1,19 @@
+{
+  "description": "A cubic quadratic sequence arranged so that the modulo-3 equals one cubic sequence is just ahead of the quadratic sequence (called here the Maestro sequence).",
+  "id": "A117580",
+  "mentions": [
+    "A018226"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

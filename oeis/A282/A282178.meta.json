@@ -1,0 +1,22 @@
+{
+  "description": "Primes for which the sum of all preceding odd-indexed prime gaps is exactly one greater than the sum of all preceding even-indexed prime gaps.",
+  "id": "A282178",
+  "mentions": [
+    "A001223",
+    "A127596",
+    "A278603",
+    "A330339",
+    "A330545",
+    "A330547"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

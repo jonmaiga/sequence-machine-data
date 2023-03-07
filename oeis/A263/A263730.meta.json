@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle read by rows in which row n > 1 lists k such that (k^2 + k*n)/(k + 1) is an integer.",
+  "id": "A263730",
+  "mentions": [
+    "A000005",
+    "A027750",
+    "A065608",
+    "A263729"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:23:21",
+    "offset": 2,
+    "size": 91,
+    "source": "joeis"
+  }
+}

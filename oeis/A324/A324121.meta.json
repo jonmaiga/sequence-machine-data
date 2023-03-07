@@ -1,0 +1,30 @@
+{
+  "description": "a(n) = gcd(n*d(n), sigma(n)), where d(n) = number of divisors of n (A000005) and sigma(n) = sum of divisors of n (A000203).",
+  "id": "A324121",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A001599",
+    "A038040",
+    "A106315",
+    "A106316",
+    "A156552",
+    "A324045",
+    "A324046",
+    "A324047",
+    "A324058",
+    "A324122"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:49",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

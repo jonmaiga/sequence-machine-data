@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of divisors of the n-th highly abundant number (A002093).",
+  "id": "A349608",
+  "mentions": [
+    "A000005",
+    "A002093",
+    "A034885",
+    "A349607"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Expansion of Product_{k=1..12} theta_3(q^k), where theta_3() is the Jacobi theta function.",
+  "id": "A320246",
+  "mentions": [
+    "A000122",
+    "A029594",
+    "A033715",
+    "A320067",
+    "A320139",
+    "A320231",
+    "A320232",
+    "A320233",
+    "A320234",
+    "A320241",
+    "A320242",
+    "A320247"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

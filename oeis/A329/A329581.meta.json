@@ -1,0 +1,30 @@
+{
+  "description": "For every n >= 0, exactly 11 sums are prime among a(n+i) + a(n+j), 0 <= i < j < 8: lexicographically earliest such sequence of distinct nonnegative numbers.",
+  "id": "A329581",
+  "mentions": [
+    "A329333",
+    "A329405",
+    "A329411",
+    "A329425",
+    "A329449",
+    "A329450",
+    "A329452",
+    "A329453",
+    "A329454",
+    "A329455",
+    "A329566",
+    "A329577",
+    "A329579",
+    "A329580"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

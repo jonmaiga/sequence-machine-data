@@ -1,0 +1,23 @@
+{
+  "description": "Number of permutations of [n] avoiding ascents from odd to even numbers.",
+  "id": "A231601",
+  "mentions": [
+    "A061711",
+    "A081123",
+    "A110138",
+    "A199660",
+    "A231777",
+    "A285672"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

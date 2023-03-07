@@ -1,0 +1,20 @@
+{
+  "description": "Number of hypermaps which are self-equivalent with respect to reversing the colors of the nodes and which have n edges.",
+  "id": "A289678",
+  "mentions": [
+    "A057005",
+    "A234278"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

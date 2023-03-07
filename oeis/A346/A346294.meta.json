@@ -1,0 +1,22 @@
+{
+  "description": "Numbers with two or more distinct prime factors such that the number and all its prime factors fall on a single straight line when they are plotted on a square spiral.",
+  "id": "A346294",
+  "mentions": [
+    "A027748",
+    "A214664",
+    "A214665",
+    "A330979",
+    "A335661",
+    "A335710"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

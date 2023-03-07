@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form 2*n^2 + 22*n + 9.",
+  "id": "A154601",
+  "mentions": [
+    "A154600"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:36:33",
+    "offset": 1,
+    "size": 35,
+    "source": "joeis"
+  }
+}

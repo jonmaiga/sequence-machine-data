@@ -1,0 +1,20 @@
+{
+  "description": "Prime numbers such that the difference between any pair of digits is 1, 2, 3, 5 or 7.",
+  "id": "A181526",
+  "mentions": [
+    "A172508",
+    "A181525"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

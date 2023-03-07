@@ -1,0 +1,21 @@
+{
+  "description": "State of one-dimensional cellular automaton 'sigma' (Rule 30): 000,001,010,011,100,101,110,111 -> 0,0,0,1,1,1,1,0 at generation n, regarded as a binary number.",
+  "id": "A245549",
+  "mentions": [
+    "A070950",
+    "A070952",
+    "A074890",
+    "A110240",
+    "A269160"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

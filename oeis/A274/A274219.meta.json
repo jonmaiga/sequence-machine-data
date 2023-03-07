@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that n^k is the average of a positive square and a positive cube for all k > 0.",
+  "id": "A274219",
+  "mentions": [
+    "A055394"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

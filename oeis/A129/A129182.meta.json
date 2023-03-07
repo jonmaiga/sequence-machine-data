@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of Dyck paths of semilength n such that the area between the x-axis and the path is k (n>=0; 0<=k<=n^2).",
+  "id": "A129182",
+  "mentions": [
+    "A000108",
+    "A005169",
+    "A008549",
+    "A139262",
+    "A143951",
+    "A239927",
+    "A240008"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:16",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

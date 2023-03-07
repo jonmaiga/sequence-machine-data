@@ -1,0 +1,20 @@
+{
+  "description": "Nuclear charge numbers in Eric Scerri's periodic table of the elements read down columns.",
+  "id": "A173788",
+  "mentions": [
+    "A093907"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "fini",
+    "less",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows, arising in enumeration of permutations by cyclic peaks, cycles and fixed points.",
+  "id": "A216963",
+  "mentions": [
+    "A000166",
+    "A000296",
+    "A000364"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

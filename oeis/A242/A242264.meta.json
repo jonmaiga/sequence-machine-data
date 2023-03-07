@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that can be written as a sum of numbers using all nonzero decimal digits in descending order and also all nonzero decimal digits in ascending order.",
+  "id": "A242264",
+  "mentions": [
+    "A008591",
+    "A242226",
+    "A242263"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

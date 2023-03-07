@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = sigma(n) / gcd(sigma(n), sigma(A003961(n))), where A003961 is fully multiplicative with a(p) = nextprime(p), and sigma is the sum of divisors function.",
+  "id": "A355934",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A003973",
+    "A336849",
+    "A349162",
+    "A355932",
+    "A355933",
+    "A355940",
+    "A355941"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

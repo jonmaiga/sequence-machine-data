@@ -1,0 +1,21 @@
+{
+  "description": "Number of directed Hamiltonian paths on the n X n king graph.",
+  "id": "A158651",
+  "mentions": [
+    "A003763",
+    "A096969",
+    "A137891",
+    "A140521"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

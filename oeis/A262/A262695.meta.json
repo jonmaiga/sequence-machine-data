@@ -1,0 +1,29 @@
+{
+  "description": "a(n)=0 if n is in A259934, otherwise 1 + number of steps to reach the farthest leaf in that finite branch of the tree defined by edge-relation A049820(child) = parent.",
+  "id": "A262695",
+  "mentions": [
+    "A000005",
+    "A045765",
+    "A049820",
+    "A060990",
+    "A082284",
+    "A213725",
+    "A259934",
+    "A262522",
+    "A262686",
+    "A262693",
+    "A262696",
+    "A262697"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

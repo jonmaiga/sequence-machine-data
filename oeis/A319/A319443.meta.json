@@ -1,0 +1,32 @@
+{
+  "description": "Number of distinct Eisenstein primes in the factorization of n.",
+  "id": "A319443",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A000203",
+    "A001221",
+    "A001222",
+    "A002322",
+    "A008683",
+    "A086275",
+    "A121940",
+    "A319442",
+    "A319444",
+    "A319445",
+    "A319446",
+    "A319448",
+    "A319449"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

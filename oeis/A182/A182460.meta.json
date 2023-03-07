@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (3/5)*2^(4n+1) - (1/5).",
+  "id": "A182460",
+  "mentions": [
+    "A016129",
+    "A112627",
+    "A153893"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:59:07",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

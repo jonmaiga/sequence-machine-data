@@ -1,0 +1,26 @@
+{
+  "description": "Number of tilings of a 4 X n rectangle using tetrominoes of shapes L, T, Z.",
+  "id": "A233266",
+  "mentions": [
+    "A084480",
+    "A174248",
+    "A226322",
+    "A230031",
+    "A232497",
+    "A233139",
+    "A233191",
+    "A242636"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

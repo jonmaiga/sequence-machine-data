@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (36*n^6 - 60*n^5 + 30*n^4 + 4*n^3 + 8*n^2 - 4*n + 1 - (-1)^n)/8.",
+  "id": "A260334",
+  "mentions": [
+    "A002047",
+    "A260333"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:10:45",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

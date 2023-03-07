@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that k and k+1 have the same number of Fermi-Dirac factors (A064547).",
+  "id": "A343819",
+  "mentions": [
+    "A005237",
+    "A006049",
+    "A037445",
+    "A064547",
+    "A086263",
+    "A306985",
+    "A343818"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

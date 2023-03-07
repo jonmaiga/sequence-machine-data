@@ -1,0 +1,27 @@
+{
+  "description": "A convolution triangle of numbers obtained from A146559.",
+  "id": "A221179",
+  "mentions": [
+    "A001477",
+    "A030523",
+    "A057682",
+    "A084938",
+    "A104597",
+    "A146559",
+    "A161680",
+    "A181472",
+    "A220399"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 19:29:13",
+    "offset": 0,
+    "size": 60,
+    "source": "joeis"
+  }
+}

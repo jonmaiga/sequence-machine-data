@@ -1,0 +1,21 @@
+{
+  "description": "Numbers which, when written in French, contain exactly one instance of the letter E.",
+  "id": "A351799",
+  "mentions": [
+    "A006933",
+    "A349887",
+    "A349888"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "less",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

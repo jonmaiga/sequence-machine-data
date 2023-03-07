@@ -1,0 +1,17 @@
+{
+  "description": "Number of nonnegative integer arrays of length n+7 with new values 0 upwards introduced in order, no three adjacent elements equal, and containing the value 7",
+  "id": "A211834",
+  "mentions": [
+    "A211836"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

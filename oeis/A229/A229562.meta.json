@@ -1,0 +1,17 @@
+{
+  "description": "Number of arrays of length n that are sums of 4 consecutive elements of length n+3 permutations of 0..n+2.",
+  "id": "A229562",
+  "mentions": [
+    "A229565"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

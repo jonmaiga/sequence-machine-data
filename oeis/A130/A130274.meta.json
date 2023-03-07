@@ -1,0 +1,20 @@
+{
+  "description": "Table of Encoded Bell Multisets using A064553 (cf. A129305).",
+  "id": "A130274",
+  "mentions": [
+    "A000040",
+    "A000110",
+    "A064553",
+    "A129305"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

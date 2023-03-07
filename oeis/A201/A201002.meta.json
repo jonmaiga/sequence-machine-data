@@ -1,0 +1,17 @@
+{
+  "description": "Primes in the Lucas U(5,-2) sequence.",
+  "id": "A201002",
+  "mentions": [
+    "A015535"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

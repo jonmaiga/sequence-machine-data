@@ -1,0 +1,23 @@
+{
+  "description": "Numerators of triangle S(n,k), n>=0, 0<=k<=ceiling((3n+1)/2): S(n,k) is the coefficient of x^k in polynomial s_n(x), used to define continuous and n times differentiable sigmoidal transfer functions.",
+  "id": "A144702",
+  "mentions": [
+    "A144703",
+    "A144815",
+    "A144816"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "frac",
+    "look",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

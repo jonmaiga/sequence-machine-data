@@ -1,0 +1,20 @@
+{
+  "description": "1728000n - 1343760.",
+  "id": "A157843",
+  "mentions": [
+    "A157842",
+    "A157844"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

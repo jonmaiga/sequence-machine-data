@@ -1,0 +1,23 @@
+{
+  "description": "\"Early Bird\" numbers n such that n-1 is not an Early Bird (cf. A116700).",
+  "id": "A132132",
+  "mentions": [
+    "A033307",
+    "A116700",
+    "A117804",
+    "A131881",
+    "A132131",
+    "A132133"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

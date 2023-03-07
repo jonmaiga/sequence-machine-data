@@ -1,0 +1,17 @@
+{
+  "description": "Number of 5Xn integer arrays with each element equal to the number of horizontal and antidiagonal neighbors less than itself.",
+  "id": "A266037",
+  "mentions": [
+    "A266033"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:26",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

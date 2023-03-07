@@ -1,0 +1,22 @@
+{
+  "description": "List of pairs of unitary amicable numbers (m, n) with record value of m/n.",
+  "id": "A292019",
+  "mentions": [
+    "A002952",
+    "A002953",
+    "A063991",
+    "A287026"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

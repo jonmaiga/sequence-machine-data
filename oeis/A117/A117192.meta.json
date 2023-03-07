@@ -1,0 +1,25 @@
+{
+  "description": "Number of partitions of n into distinct parts with an even rank.",
+  "id": "A117192",
+  "mentions": [
+    "A000009",
+    "A003406",
+    "A010054",
+    "A101708",
+    "A101709",
+    "A117193",
+    "A117194",
+    "A117195"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

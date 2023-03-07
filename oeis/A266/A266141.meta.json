@@ -1,0 +1,30 @@
+{
+  "description": "Number of n-digit primes in which n-1 of the digits are 2's.",
+  "id": "A266141",
+  "mentions": [
+    "A084832",
+    "A096506",
+    "A099409",
+    "A099410",
+    "A265733",
+    "A266142",
+    "A266143",
+    "A266144",
+    "A266145",
+    "A266146",
+    "A266147",
+    "A266148",
+    "A266149"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:27",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

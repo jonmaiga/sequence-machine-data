@@ -1,0 +1,19 @@
+{
+  "description": "Least number in A001764 divisible by 3^n: a(n) = A001764(3^n-1).",
+  "id": "A135760",
+  "mentions": [
+    "A001764",
+    "A135759"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

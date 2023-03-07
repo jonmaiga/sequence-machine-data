@@ -1,0 +1,20 @@
+{
+  "description": "Coefficients of mock modular form H_2^(4) (divided by 16).",
+  "id": "A256209",
+  "mentions": [
+    "A053270",
+    "A256052",
+    "A257640"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

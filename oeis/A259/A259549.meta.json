@@ -1,0 +1,25 @@
+{
+  "description": "Triangle T(n,k) with rows of length 2n-1 filled with consecutive integers, each appearing twice except for the last term, T(n,2n-1) = n(n+1)/2.",
+  "id": "A259549",
+  "mentions": [
+    "A000217",
+    "A006002",
+    "A006003",
+    "A071028",
+    "A081436",
+    "A258445",
+    "A259052"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:12",
+    "offset": 1,
+    "size": 68,
+    "source": "joeis"
+  }
+}

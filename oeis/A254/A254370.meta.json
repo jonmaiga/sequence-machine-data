@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 35*2^n + 5*4^n + 15*3^n + 5^n + 70.",
+  "id": "A254370",
+  "mentions": [
+    "A168614",
+    "A254368",
+    "A254369"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

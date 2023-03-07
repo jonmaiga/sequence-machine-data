@@ -1,0 +1,30 @@
+{
+  "description": "Triangle read by rows: T(n,k) = (n-k)/gcd(n,k), 1 <= k <= n.",
+  "id": "A167192",
+  "mentions": [
+    "A000004",
+    "A000012",
+    "A000034",
+    "A001477",
+    "A025581",
+    "A026741",
+    "A050873",
+    "A051176",
+    "A054531",
+    "A060819",
+    "A144437",
+    "A164306"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:43:21",
+    "offset": 1,
+    "size": 102,
+    "source": "joeis"
+  }
+}

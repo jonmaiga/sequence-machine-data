@@ -1,0 +1,24 @@
+{
+  "description": "Primes in the tribonacci-like sequence, A020992.",
+  "id": "A232498",
+  "mentions": [
+    "A001590",
+    "A020992",
+    "A100683",
+    "A214899",
+    "A231574",
+    "A231575",
+    "A232543",
+    "A233554"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

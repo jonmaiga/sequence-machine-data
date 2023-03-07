@@ -1,0 +1,23 @@
+{
+  "description": "Array T(m,n) read by antidiagonals: number of m X n rectangular patterns of precisely half black squares and half white squares that are tilable with black and white colored dominoes, for m >= 1, n >= 1.",
+  "id": "A295214",
+  "mentions": [
+    "A004003",
+    "A099390",
+    "A295215",
+    "A295216"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

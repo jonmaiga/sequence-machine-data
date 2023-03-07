@@ -1,0 +1,21 @@
+{
+  "description": "For all cyclic quadrilaterals with four consecutive primes as sides that have an area that is prime after rounding, the sequence gives the first of these four consecutive primes.",
+  "id": "A131020",
+  "mentions": [
+    "A000040",
+    "A106171",
+    "A131019"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Minesweeper sequence: a(n) is the first nonprime number, k, not occurring previously in the sequence nor the absolute value of its first forward difference among the first differences and a(1)=1.",
+  "id": "A117622",
+  "mentions": [
+    "A081145",
+    "A117623"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

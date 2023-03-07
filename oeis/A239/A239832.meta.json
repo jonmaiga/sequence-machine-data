@@ -1,0 +1,22 @@
+{
+  "description": "Number of partitions of n having 1 more even part than odd, so that there is an ordering of parts for which the even and odd parts alternate and the first and last terms are even.",
+  "id": "A239832",
+  "mentions": [
+    "A045931",
+    "A239833",
+    "A239835",
+    "A239871",
+    "A240009"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Sum{floor(kn/5), k=1,2,3,4,5}; complement of A187335.",
+  "id": "A187334",
+  "mentions": [
+    "A187335"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

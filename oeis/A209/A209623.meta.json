@@ -1,0 +1,19 @@
+{
+  "description": "Primes separated from their adjacent next primes by a prime number of successive composites.",
+  "id": "A209623",
+  "mentions": [
+    "A046933",
+    "A098015",
+    "A209618"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers x whose 10's complements y have the same sum of divisors of x, with x <> y.",
+  "id": "A300796",
+  "mentions": [
+    "A000203",
+    "A055120",
+    "A300447"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

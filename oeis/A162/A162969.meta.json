@@ -1,0 +1,19 @@
+{
+  "description": "Number of permutations of {1,2,...,n} in which the fixed points and the non-fixed points alternate.",
+  "id": "A162969",
+  "mentions": [
+    "A000166"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:23",
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

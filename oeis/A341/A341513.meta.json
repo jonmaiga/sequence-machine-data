@@ -1,0 +1,22 @@
+{
+  "description": "Sum of digits in A097801-base.",
+  "id": "A341513",
+  "mentions": [
+    "A002110",
+    "A049345",
+    "A097801",
+    "A276150",
+    "A341356"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of Gamma(11/4).",
+  "id": "A257095",
+  "mentions": [
+    "A068465",
+    "A068466",
+    "A068467",
+    "A203130",
+    "A257094"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:07",
+    "offset": 1,
+    "size": 104,
+    "source": "joeis"
+  }
+}

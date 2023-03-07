@@ -1,0 +1,20 @@
+{
+  "description": "Number of binary relations R on [n] such that R is contained in R^2.",
+  "id": "A355730",
+  "mentions": [
+    "A006905",
+    "A121337"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

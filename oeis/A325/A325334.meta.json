@@ -1,0 +1,28 @@
+{
+  "description": "Number of integer partitions of n with adjusted frequency depth 3 whose parts cover an initial interval of positive integers.",
+  "id": "A325334",
+  "mentions": [
+    "A007862",
+    "A181819",
+    "A182850",
+    "A320348",
+    "A323014",
+    "A325245",
+    "A325280",
+    "A325326",
+    "A325335",
+    "A325336",
+    "A325374"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:54:43",
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

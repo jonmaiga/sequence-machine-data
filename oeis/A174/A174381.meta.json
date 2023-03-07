@@ -1,0 +1,32 @@
+{
+  "description": "Triangle for denominators of half extended Rydberg-Ritz spectrum of the hydrogenic spectra. a(n) is an antidiagonal writing of array in A171522 without first column.",
+  "id": "A174381",
+  "mentions": [
+    "A000004",
+    "A000290",
+    "A005563",
+    "A061037",
+    "A061038",
+    "A061039",
+    "A061040",
+    "A061041",
+    "A061042",
+    "A067998",
+    "A120073",
+    "A171522",
+    "A171709",
+    "A172157"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Least k such that prime(n) + 2^(k+L) - 2^L is a prime, where L is the length of binary representation of prime(n): L = A070939(A000040(n)). a(n) = -1 if no such k exists.",
+  "id": "A232084",
+  "mentions": [
+    "A000040",
+    "A023758",
+    "A065047",
+    "A070939",
+    "A094076"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 2,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

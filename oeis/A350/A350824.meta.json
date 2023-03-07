@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of patterns of length n with all distinct run lengths and maximum value k, n >= 0, k = 0..floor((sqrtint(8*n+1)+1)/2).",
+  "id": "A350824",
+  "mentions": [
+    "A000217",
+    "A001044",
+    "A003056",
+    "A008289",
+    "A351292",
+    "A351637",
+    "A351640"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

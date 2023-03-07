@@ -1,0 +1,21 @@
+{
+  "description": "Array read by antidiagonals: the number of automata over an n-letter alphabet whose states are determined by the last k symbols read.",
+  "id": "A248905",
+  "mentions": [
+    "A000110"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

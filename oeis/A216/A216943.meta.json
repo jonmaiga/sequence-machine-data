@@ -1,0 +1,17 @@
+{
+  "description": "Number of side-7 hexagonal 0..n arrays with values nondecreasing E, SW and SE",
+  "id": "A216943",
+  "mentions": [
+    "A216937"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Second coordinate, divided by 2, of path in rotated lattice corresponding to A307446 and A307447. A307482 gives first coordinate.",
+  "id": "A307483",
+  "mentions": [
+    "A307446",
+    "A307447",
+    "A307482"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

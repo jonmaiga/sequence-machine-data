@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of n such that 5*(greatest part) = (number of parts).",
+  "id": "A348164",
+  "mentions": [
+    "A350879",
+    "A350897",
+    "A350899"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n)=(-1)^floor(n/2)/det(M_n) where M_n is the n X n matrix of terms 1/(i+j)! i and j ranging from 1 to n.",
+  "id": "A103207",
+  "mentions": [
+    "A062381",
+    "A074962"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

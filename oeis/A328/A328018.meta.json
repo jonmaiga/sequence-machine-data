@@ -1,0 +1,19 @@
+{
+  "description": "If n is the k-th number divisible by 7 or containing a digit 7 (in base 10) then a(n) = a(k) otherwise a(n) = n.",
+  "id": "A328018",
+  "mentions": [
+    "A092433"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

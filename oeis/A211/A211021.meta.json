@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that a new circle appears in the structure of A211000.",
+  "id": "A211021",
+  "mentions": [
+    "A000040",
+    "A187210",
+    "A211000",
+    "A211003",
+    "A211010",
+    "A211011",
+    "A211020",
+    "A211022",
+    "A211024"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

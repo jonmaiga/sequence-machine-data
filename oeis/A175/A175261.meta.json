@@ -1,0 +1,19 @@
+{
+  "description": "Each term is the smallest positive integer both coprime to all earlier terms of the sequence and with a different number of divisors than all earlier terms. (a(1)=1.)",
+  "id": "A175261",
+  "mentions": [
+    "A175231"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "changed",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

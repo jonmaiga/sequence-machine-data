@@ -1,0 +1,25 @@
+{
+  "description": "Numerators of the triangle of polynomial coefficients P(0,x)=1, 2*P(n)=(1+x)*((1+x)^(n-1)+x^(n-1)). Of the first array of A133135.",
+  "id": "A233508",
+  "mentions": [
+    "A007395",
+    "A060096",
+    "A060097",
+    "A133135",
+    "A133138",
+    "A193815"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of 1/(1 + x/(1 + x^8/(1 + x^27/(1 + x^64/(1 + x^125/(1 + ... + x^(k^3)/(1 + ...))))))), a continued fraction.",
+  "id": "A291169",
+  "mentions": [
+    "A007325",
+    "A285408"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

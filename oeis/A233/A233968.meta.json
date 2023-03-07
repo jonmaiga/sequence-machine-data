@@ -1,0 +1,40 @@
+{
+  "description": "Number of steps between two valleys at height 0 in the infinite Dyck path in which the k-th ascending line segment has A141285(k) steps and the k-th descending line segment has A194446(k) steps, k >= 1.",
+  "id": "A233968",
+  "mentions": [
+    "A000041",
+    "A006128",
+    "A135010",
+    "A138137",
+    "A139582",
+    "A141285",
+    "A182699",
+    "A182709",
+    "A186412",
+    "A193870",
+    "A194446",
+    "A194447",
+    "A206437",
+    "A207779",
+    "A211009",
+    "A211978",
+    "A211992",
+    "A220517",
+    "A225600",
+    "A225610",
+    "A228109",
+    "A228110",
+    "A229946"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:06:26",
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

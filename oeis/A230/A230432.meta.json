@@ -1,0 +1,25 @@
+{
+  "description": "Simple self-inverse permutation of natural numbers: after zero, list each block of A219661(n) numbers in reverse order, from A226061(n+1) to A219665(n).",
+  "id": "A230432",
+  "mentions": [
+    "A218602",
+    "A219661",
+    "A219665",
+    "A219666",
+    "A226061",
+    "A230411",
+    "A230416",
+    "A230431"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:48",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

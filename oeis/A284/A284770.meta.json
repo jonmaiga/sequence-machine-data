@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X 7 0..1 arrays with the number of 1's horizontally or vertically adjacent to some 0 one less than the number of 0's adjacent to some 1.",
+  "id": "A284770",
+  "mentions": [
+    "A284771"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:56",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

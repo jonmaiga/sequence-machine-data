@@ -1,0 +1,28 @@
+{
+  "description": "Expansion of q^(-2/3) * (psi(-q^3) / psi(-q)^3) * (c(q^2) / 3) in powers of q where psi() is a Ramanujan theta function and c() is a cubic AGM theta function.",
+  "id": "A132978",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A004016",
+    "A005882",
+    "A005928",
+    "A010054",
+    "A010815",
+    "A045833",
+    "A121373",
+    "A132974",
+    "A132975"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 16:35:08",
+    "offset": 0,
+    "size": 38,
+    "source": "joeis"
+  }
+}

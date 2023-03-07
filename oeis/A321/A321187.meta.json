@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows, T(n, k) is the determinant of the matrix [s(n,k), s(n,k+1); s(n+1,k), s(n+1,k+1)] where s is the triangle A110440 of little Schroeder numbers.",
+  "id": "A321187",
+  "mentions": [
+    "A110440"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

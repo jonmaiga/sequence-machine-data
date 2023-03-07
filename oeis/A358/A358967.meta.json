@@ -1,0 +1,22 @@
+{
+  "description": "a(n+1) gives the number of occurrences of the smallest digit of a(n) so far, up to and including a(n), with a(0)=0.",
+  "id": "A358967",
+  "mentions": [
+    "A248034",
+    "A249009",
+    "A336514",
+    "A356348",
+    "A358851"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

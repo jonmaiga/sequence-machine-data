@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of x * (1-x) / ( 1 - 2*x - 3*x^2 + x^3 ).",
+  "id": "A122299",
+  "mentions": [
+    "A095310"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:11",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

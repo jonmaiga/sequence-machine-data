@@ -1,0 +1,20 @@
+{
+  "description": "Decimal representation of the diagonal from the corner to the origin of the n-th stage of growth of the two-dimensional cellular automaton defined by \"Rule 433\", based on the 5-celled von Neumann neighborhood.",
+  "id": "A288201",
+  "mentions": [
+    "A288198",
+    "A288200",
+    "A288202"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:51:43",
+    "offset": 0,
+    "size": 38,
+    "source": "joeis"
+  }
+}

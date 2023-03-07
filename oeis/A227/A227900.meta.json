@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of eta(q)^9 * eta(q^5)^3 in powers of q.",
+  "id": "A227900",
+  "mentions": [
+    "A227901"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:19:03",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

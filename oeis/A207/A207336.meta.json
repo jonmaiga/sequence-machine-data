@@ -1,0 +1,20 @@
+{
+  "description": "One half of smallest positive nontrivial even solution of the congruence x^2 == 1 (mod A001748(n+2)), n>=1.",
+  "id": "A207336",
+  "mentions": [
+    "A000040",
+    "A001748",
+    "A208296"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:27",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triangle where T(n,k) = -n!/(n-k)!*[x^k] ( x/log(1-x-x^2) )^(n+1), for n>=k>=0, read by rows.",
+  "id": "A118793",
+  "mentions": [
+    "A052886",
+    "A118791",
+    "A118794",
+    "A118795"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

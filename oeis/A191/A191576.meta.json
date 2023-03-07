@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that number of divisors of n equals the number of 1's in Gray code for n.",
+  "id": "A191576",
+  "mentions": [
+    "A000005",
+    "A005811"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

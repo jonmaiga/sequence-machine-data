@@ -1,0 +1,17 @@
+{
+  "description": "Primes p separated from their adjacent primes on both sides by a prime number of successive composites, while the adjacent primes of p are separated by a prime number of integers.",
+  "id": "A272367",
+  "mentions": [
+    "A209617"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "The total number of components of size 2 over all simple labeled graphs on n nodes.",
+  "id": "A182166",
+  "mentions": [
+    "A000217",
+    "A006125"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 2,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

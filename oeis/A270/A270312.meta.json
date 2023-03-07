@@ -1,0 +1,21 @@
+{
+  "description": "Numerator of Fibonacci(n)/n.",
+  "id": "A270312",
+  "mentions": [
+    "A000045",
+    "A023172",
+    "A127787",
+    "A270313"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

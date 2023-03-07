@@ -1,0 +1,19 @@
+{
+  "description": "Number of chains of binary reflexive matrices of order n.",
+  "id": "A330301",
+  "mentions": [
+    "A007047",
+    "A328044"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

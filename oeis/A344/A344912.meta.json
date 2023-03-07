@@ -1,0 +1,30 @@
+{
+  "description": "Irregular triangle read by rows, Trow(n) = Seq_{k=0..n/3} Seq_{j=0..n-3*k} (n! * binomial(n - 3*k, j)) / (k!*(n - 3*k)!*3^k).",
+  "id": "A344912",
+  "mentions": [
+    "A000079",
+    "A000085",
+    "A000244",
+    "A001470",
+    "A005425",
+    "A007318",
+    "A046816",
+    "A100861",
+    "A109649",
+    "A118931",
+    "A336614",
+    "A344678",
+    "A344911"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

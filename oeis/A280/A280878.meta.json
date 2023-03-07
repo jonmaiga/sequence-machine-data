@@ -1,0 +1,18 @@
+{
+  "description": "Occurrences of decrease of the probability density P(n) of coprime numbers k,m, satisfying 1 <= k <= a(n) and 1 <= m <= a(n), and a(n) congruent to 1(mod 2) and a(n) congruent to {3,9,21,27}(mod 30).",
+  "id": "A280878",
+  "mentions": [
+    "A000010",
+    "A280877"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

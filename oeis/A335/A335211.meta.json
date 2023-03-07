@@ -1,0 +1,21 @@
+{
+  "description": "Number of Heronian triangles with perimeter A335104(n) whose largest side length is a square.",
+  "id": "A335211",
+  "mentions": [
+    "A010052",
+    "A335104",
+    "A335191",
+    "A335208"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

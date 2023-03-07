@@ -1,0 +1,49 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of integer partitions of n with k parts on or below the diagonal (weak non-excedances).",
+  "id": "A353315",
+  "mentions": [
+    "A000041",
+    "A000700",
+    "A000701",
+    "A001522",
+    "A002620",
+    "A003106",
+    "A006918",
+    "A008290",
+    "A008292",
+    "A008930",
+    "A064428",
+    "A088902",
+    "A098825",
+    "A114088",
+    "A115720",
+    "A115994",
+    "A122111",
+    "A123125",
+    "A173018",
+    "A219282",
+    "A238352",
+    "A238874",
+    "A257990",
+    "A300788",
+    "A352490",
+    "A352515",
+    "A352522",
+    "A352822",
+    "A352826",
+    "A352827",
+    "A353318",
+    "A353319"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

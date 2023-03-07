@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (2/n)*Sum_{k=1..n} (2k+1)*M(k)^2 where M(k) is the Motzkin number A001006(k).",
+  "id": "A295132",
+  "mentions": [
+    "A001006",
+    "A005043",
+    "A295112",
+    "A295113"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

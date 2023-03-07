@@ -1,0 +1,18 @@
+{
+  "description": "Number of inequivalent solutions to the problem of the maximal number of squares that can be formed from n points in the plane (see A051602).",
+  "id": "A348768",
+  "mentions": [
+    "A051602"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 6,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

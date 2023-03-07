@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that the smallest exponent k for n and n^k to have common digits is 4.",
+  "id": "A253602",
+  "mentions": [
+    "A029790",
+    "A103173",
+    "A189056",
+    "A253600",
+    "A253601"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of 3 X n binary matrices that are \"primitive\"; that is, they cannot be expressed as a \"tiling\" by a smaller matrix.",
+  "id": "A290754",
+  "mentions": [
+    "A027375",
+    "A102536",
+    "A265627",
+    "A291070",
+    "A291071"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

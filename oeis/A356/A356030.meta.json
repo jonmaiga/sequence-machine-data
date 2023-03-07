@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the real root of x^3 - x - 2.",
+  "id": "A356030",
+  "mentions": [
+    "A289265",
+    "A356031"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:29",
+    "offset": 1,
+    "size": 76,
+    "source": "joeis"
+  }
+}

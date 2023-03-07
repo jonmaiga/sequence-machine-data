@@ -1,0 +1,19 @@
+{
+  "description": "Number of maximally-clustered hexagon-avoiding permutations in S_n; the maximally-clustered hexagon-avoiding permutations are those that avoid 3421, 4312, 4321, 46718235, 46781235, 56718234, 56781234.",
+  "id": "A129776",
+  "mentions": [
+    "A058094",
+    "A108600"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 17:57:21",
+    "offset": 1,
+    "size": 26,
+    "source": "joeis"
+  }
+}

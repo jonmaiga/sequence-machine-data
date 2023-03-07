@@ -1,0 +1,37 @@
+{
+  "description": "Number of widely totally co-strongly normal integer partitions of n.",
+  "id": "A332278",
+  "mentions": [
+    "A000009",
+    "A100883",
+    "A107429",
+    "A133808",
+    "A181819",
+    "A316496",
+    "A317245",
+    "A317491",
+    "A329746",
+    "A332277",
+    "A332279",
+    "A332289",
+    "A332290",
+    "A332291",
+    "A332292",
+    "A332293",
+    "A332296",
+    "A332297",
+    "A332337",
+    "A332576"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

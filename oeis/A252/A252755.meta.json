@@ -1,0 +1,32 @@
+{
+  "description": "Tree of Eratosthenes, mirrored: a(0) = 1, a(1) = 2; after which, a(2n) = 2*a(n), a(2n+1) = A250469(a(n)).",
+  "id": "A252755",
+  "mentions": [
+    "A054429",
+    "A083221",
+    "A135141",
+    "A163511",
+    "A249814",
+    "A250245",
+    "A250469",
+    "A252753",
+    "A252756",
+    "A253555",
+    "A253787",
+    "A253788",
+    "A269865"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:11",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

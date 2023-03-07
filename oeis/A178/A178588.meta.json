@@ -1,0 +1,20 @@
+{
+  "description": "Primes that are the average of the members of exactly 2 emirp pairs.",
+  "id": "A178588",
+  "mentions": [
+    "A178581",
+    "A178587",
+    "A178589"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

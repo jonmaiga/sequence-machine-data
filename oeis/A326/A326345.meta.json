@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of arm movements when expressing n in flag semaphore, counting the movement of each arm separately.",
+  "id": "A326345",
+  "mentions": [
+    "A321332"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "more",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

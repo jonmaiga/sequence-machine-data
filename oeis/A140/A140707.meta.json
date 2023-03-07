@@ -1,0 +1,22 @@
+{
+  "description": "A positive integer n is included if n written in binary contains the same number of 0's as the number of distinct primes that divide n.",
+  "id": "A140707",
+  "mentions": [
+    "A001221",
+    "A023416",
+    "A071594",
+    "A080791"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:29",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

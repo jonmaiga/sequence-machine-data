@@ -1,0 +1,30 @@
+{
+  "description": "Decimal expansion of negated cotangent of the golden ratio. That is, the decimal expansion of -cot((1+sqrt(5))/2).",
+  "id": "A139348",
+  "mentions": [
+    "A001622",
+    "A002390",
+    "A094214",
+    "A098317",
+    "A104457",
+    "A139339",
+    "A139340",
+    "A139341",
+    "A139342",
+    "A139345",
+    "A139346",
+    "A139347"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:50:47",
+    "offset": 0,
+    "size": 104,
+    "source": "joeis"
+  }
+}

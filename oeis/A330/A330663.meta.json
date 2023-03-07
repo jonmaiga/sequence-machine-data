@@ -1,0 +1,33 @@
+{
+  "description": "Number of non-isomorphic balanced reduced multisystems of weight n and maximum depth.",
+  "id": "A330663",
+  "mentions": [
+    "A000111",
+    "A000311",
+    "A004114",
+    "A005121",
+    "A006472",
+    "A007716",
+    "A048816",
+    "A141268",
+    "A306186",
+    "A330470",
+    "A330474",
+    "A330655",
+    "A330664",
+    "A330675",
+    "A330676",
+    "A330677"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

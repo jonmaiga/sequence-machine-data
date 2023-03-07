@@ -1,0 +1,23 @@
+{
+  "description": "Number of times n can be written as concatenation of exactly two nonzero squares in decimal representation.",
+  "id": "A193095",
+  "mentions": [
+    "A010052",
+    "A038670",
+    "A191933",
+    "A192993",
+    "A193096",
+    "A193097"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

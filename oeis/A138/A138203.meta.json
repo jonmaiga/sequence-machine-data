@@ -1,0 +1,17 @@
+{
+  "description": "Sieve: start with the natural numbers; at the n-th step in the sieve remove every A138204(n)-th term from the sequence remaining in the prior step, where A138204 is the complement to this sequence starting with A138204(1)=2.",
+  "id": "A138203",
+  "mentions": [
+    "A138204"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

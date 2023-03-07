@@ -1,0 +1,24 @@
+{
+  "description": "Zero-one sequence based on pentagonal numbers: a(A000325(k))=a(k); a(A183217(k))=1-a(k); a(1)=0.",
+  "id": "A189014",
+  "mentions": [
+    "A000217",
+    "A000325",
+    "A014132",
+    "A183217",
+    "A188967",
+    "A189015",
+    "A189016"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:42:05",
+    "offset": 1,
+    "size": 135,
+    "source": "joeis"
+  }
+}

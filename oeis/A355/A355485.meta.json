@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that neither g-1 nor g+1 is prime, where g is the gap from p to the next prime.",
+  "id": "A355485",
+  "mentions": [
+    "A001223",
+    "A061673"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

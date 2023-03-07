@@ -1,0 +1,19 @@
+{
+  "description": "List of B-spline interpolation matrices M(n,i,j) of orders n >= 1 read by rows (0 <= i < n, 0 <= j < n).",
+  "id": "A276321",
+  "mentions": [
+    "A007318"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

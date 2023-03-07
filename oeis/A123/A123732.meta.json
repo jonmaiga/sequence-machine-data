@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Sum_{m>=1} (-1)Sigma(m)/m^3.",
+  "id": "A123732",
+  "mentions": [
+    "A049060",
+    "A123733",
+    "A123734",
+    "A183699"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

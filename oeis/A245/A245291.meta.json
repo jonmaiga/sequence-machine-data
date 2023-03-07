@@ -1,0 +1,19 @@
+{
+  "description": "Number of normalized graph Laplacian matrices of nonempty labeled graphs of 2n vertices that are entangled in C^2 x C^n as density matrices in quantum mechanics.",
+  "id": "A245291",
+  "mentions": [
+    "A229865",
+    "A245290"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

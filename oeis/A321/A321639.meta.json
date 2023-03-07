@@ -1,0 +1,25 @@
+{
+  "description": "Number of (6-n)-faces of the 2_31 polytope.",
+  "id": "A321639",
+  "mentions": [
+    "A321635",
+    "A321636",
+    "A321637",
+    "A321638",
+    "A321640",
+    "A321641",
+    "A321642"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

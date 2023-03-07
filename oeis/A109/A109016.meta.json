@@ -1,0 +1,19 @@
+{
+  "description": "Concatenate n and the sum of factorials of the digits of n.",
+  "id": "A109016",
+  "mentions": [
+    "A061602"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of eigensequences (including eigenvalues, where they exist) of the Fibonacci recurrence in Zp where p is prime(n).",
+  "id": "A344309",
+  "mentions": [
+    "A001602",
+    "A270532"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

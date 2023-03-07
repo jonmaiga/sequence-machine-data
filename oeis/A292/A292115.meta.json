@@ -1,0 +1,21 @@
+{
+  "description": "Records in A039655.",
+  "id": "A292115",
+  "mentions": [
+    "A039654",
+    "A039655",
+    "A039656",
+    "A292114"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

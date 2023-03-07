@@ -1,0 +1,18 @@
+{
+  "description": "Iterated golden sieve: Iterate indefinitively the procedure giving A099267 (S2) from the natural numbers (S1) with the single difference that the rank of the deleted terms is f(n) + (p-2) to get Sp from Sp-1.",
+  "id": "A131512",
+  "mentions": [
+    "A099267"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

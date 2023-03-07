@@ -1,0 +1,20 @@
+{
+  "description": "Iterations at which Langton's Ant living on triangular tiling reaches the distance of n from the origin for the first time.",
+  "id": "A275303",
+  "mentions": [
+    "A269757",
+    "A275302",
+    "A275304",
+    "A275305"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

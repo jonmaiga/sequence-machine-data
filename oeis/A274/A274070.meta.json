@@ -1,0 +1,20 @@
+{
+  "description": "Integer part of the sum of the inverses of the first n primes.",
+  "id": "A274070",
+  "mentions": [
+    "A000040",
+    "A024451",
+    "A046024"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

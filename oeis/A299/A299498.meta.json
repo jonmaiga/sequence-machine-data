@@ -1,0 +1,25 @@
+{
+  "description": "Integers primitively represented by cyclotomic binary forms.",
+  "id": "A299498",
+  "mentions": [
+    "A293654",
+    "A296095",
+    "A299214",
+    "A299733",
+    "A299928",
+    "A299929",
+    "A299930",
+    "A299956",
+    "A299964"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

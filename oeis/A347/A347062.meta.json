@@ -1,0 +1,19 @@
+{
+  "description": "Record the number of zero terms having a following term, then the number of terms equal to 1 having a following term, then 2, 3, etc. until recording a zero, whereupon the count is reset.",
+  "id": "A347062",
+  "mentions": [
+    "A342585",
+    "A347564"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Bases with a record -- new or tie -- smallest 'stem value' for which a prime by concatenation of decrements exists.",
+  "id": "A220402",
+  "mentions": [
+    "A217681"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

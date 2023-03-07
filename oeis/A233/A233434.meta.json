@@ -1,0 +1,19 @@
+{
+  "description": "Primes p in prime triples (p, p+2, p+6) at the end of the maximal gaps in A201598.",
+  "id": "A233434",
+  "mentions": [
+    "A022004",
+    "A201598",
+    "A201599"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of proper many times partitions of n.",
+  "id": "A327644",
+  "mentions": [
+    "A327639",
+    "A327648"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

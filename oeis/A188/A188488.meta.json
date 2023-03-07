@@ -1,0 +1,21 @@
+{
+  "description": "Abundances of numbers in A188486.",
+  "id": "A188488",
+  "mentions": [
+    "A033880",
+    "A188486"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

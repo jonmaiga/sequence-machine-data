@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) (1 <= k <= n) is the number of 3-extensions of an n-set over all choices of 3-partitions of the n-set.",
+  "id": "A348451",
+  "mentions": [
+    "A000392",
+    "A007051",
+    "A055248"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "(n+2)^(n+2) mod n^n.",
+  "id": "A225190",
+  "mentions": [
+    "A066611",
+    "A176823",
+    "A176824"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Result of the final iteration of doubling in A117462 to equal or exceed n.",
+  "id": "A117463",
+  "mentions": [
+    "A007953",
+    "A117462",
+    "A169805"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

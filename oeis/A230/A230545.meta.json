@@ -1,0 +1,20 @@
+{
+  "description": "Solutions of the equation n' = n + phi(n), where n' is the arithmetic derivative of n.",
+  "id": "A230545",
+  "mentions": [
+    "A000010",
+    "A002808",
+    "A003415",
+    "A260624"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:48",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

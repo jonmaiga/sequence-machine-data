@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{p|n, p prime} p^nextprime(p), where nextprime(n) is the smallest prime > n.",
+  "id": "A351367",
+  "mentions": [
+    "A151800",
+    "A345280",
+    "A345281"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

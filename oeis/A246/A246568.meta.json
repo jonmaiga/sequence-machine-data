@@ -1,0 +1,24 @@
+{
+  "description": "Near-Wieferich primes (primes p satisfying 2^((p-1)/2) == +-1 + A*p (mod p^2)) with |A| < 10.",
+  "id": "A246568",
+  "mentions": [
+    "A000040",
+    "A001220",
+    "A007663",
+    "A195988",
+    "A241014",
+    "A244801",
+    "A258367"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Positive numbers such that half of the set of divisors are of the form x^2 + x*y + y^2 (A003136) and half not (A034020).",
+  "id": "A230902",
+  "mentions": [
+    "A000037",
+    "A003136",
+    "A027750",
+    "A034020",
+    "A230851"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

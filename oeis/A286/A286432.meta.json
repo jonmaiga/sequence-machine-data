@@ -1,0 +1,20 @@
+{
+  "description": "Numbers of labeled rooted Greg trees (A005264) with n nodes and root degree 2.",
+  "id": "A286432",
+  "mentions": [
+    "A005263",
+    "A005264",
+    "A005624"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

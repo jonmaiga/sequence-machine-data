@@ -1,0 +1,25 @@
+{
+  "description": "a(n) counts the bases b in the interval 2 to p = prime(n), where p if written in base b gives again a prime number in base b if all digits are written in reverse order.",
+  "id": "A359113",
+  "mentions": [
+    "A000040",
+    "A002385",
+    "A007500",
+    "A135551",
+    "A228768",
+    "A331486"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

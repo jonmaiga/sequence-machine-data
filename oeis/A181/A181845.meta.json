@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) = max_{c in P(n,n-k+1)} lcm(c) where P(n,m) = A008284(n,m) is the number of partitions of n into m parts.",
+  "id": "A181845",
+  "mentions": [
+    "A007318",
+    "A008284",
+    "A181842",
+    "A181843",
+    "A181844"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

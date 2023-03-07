@@ -1,0 +1,18 @@
+{
+  "description": "Consider N = numerator( 1/p! + 1/q! ) where p = prime(n), q = prime(n+1) for n = 1,2,3,.... Append N to sequence if it is a prime.",
+  "id": "A235714",
+  "mentions": [
+    "A000040",
+    "A120833"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:53",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Exact differential base (a B_2 sequence) constructed as follows: Start with a(0)=0. For n>=1, let S be the set of all differences a(j)-a(i) for 0 <= i < j <= n-1, and let d be the smallest positive integer not in S. If, for every i in 1..n-1, a(n-1) + d - a(i) is not in S, then a(n) = a(n-1) + d. Otherwise, let r be the smallest positive integer such that, for every i in 1..n-1, neither a(n-1) + r - a(i) nor a(n-1) + r + d - a(i) is in S; then a(n) = a(n-1) + r and a(n+1) = a(n) + d.",
+  "id": "A247556",
+  "mentions": [
+    "A001856",
+    "A005282",
+    "A025582",
+    "A080200"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

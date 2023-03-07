@@ -1,0 +1,20 @@
+{
+  "description": "Number of permutations of length n which avoid the patterns 231, 3214, 4312.",
+  "id": "A116712",
+  "mentions": [
+    "A000045",
+    "A257113"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:07:27",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

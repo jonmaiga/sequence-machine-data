@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(n,k) where, if n-k and n+k are prime, T(n,k) = n+k is the greater term of a Goldbach partition of 2n into two odd primes, or zero otherwise.",
+  "id": "A354836",
+  "mentions": [
+    "A061397",
+    "A085090",
+    "A145091",
+    "A354805"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 3,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

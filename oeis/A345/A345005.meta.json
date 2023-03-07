@@ -1,0 +1,23 @@
+{
+  "description": "Odd numbers whose arithmetic derivative (A003415) is equal to Dedekind psi (A001615) applied to the same number.",
+  "id": "A345005",
+  "mentions": [
+    "A001615",
+    "A003415",
+    "A301939",
+    "A344998",
+    "A344999",
+    "A345003"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

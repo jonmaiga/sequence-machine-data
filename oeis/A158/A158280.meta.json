@@ -1,0 +1,20 @@
+{
+  "description": "Octosection: A145511(8n+4) or A145501(8n+4).",
+  "id": "A158280",
+  "mentions": [
+    "A145501",
+    "A145511",
+    "A158315"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:12:55",
+    "offset": 0,
+    "size": 70,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers a(n) which count the linear extensions of the zigzag poset Z of length 2n where each minimal element in Z additionally covers a new element.",
+  "id": "A332471",
+  "mentions": [
+    "A000111"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

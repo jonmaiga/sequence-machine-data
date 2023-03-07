@@ -1,0 +1,19 @@
+{
+  "description": "Numbers m such that more than half the distinct positive terms of the sequence -k^2 + m*k - 1 are primes.",
+  "id": "A335984",
+  "mentions": [
+    "A059036",
+    "A109909"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

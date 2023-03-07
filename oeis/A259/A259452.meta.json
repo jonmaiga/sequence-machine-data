@@ -1,0 +1,18 @@
+{
+  "description": "Number of 5 up, 5 down, 5 up, ... permutations of length 5n+1.",
+  "id": "A259452",
+  "mentions": [
+    "A005981",
+    "A005983"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

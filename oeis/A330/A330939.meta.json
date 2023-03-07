@@ -1,0 +1,19 @@
+{
+  "description": "Composite numbers k such that k = q_1^b_1 * ... * q_r^b_r with r >= 2, where q_1 < q_2 < ... < q_r are the prime factors of k and there exists some positive integer m that satisfies k = q_1^m + q_2 + q_3 + ... + q_r.",
+  "id": "A330939",
+  "mentions": [
+    "A024619",
+    "A246655"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

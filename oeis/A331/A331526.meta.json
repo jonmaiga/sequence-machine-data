@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least positive k such that A100273(n) - k^3 is a fifth power.",
+  "id": "A331526",
+  "mentions": [
+    "A000584",
+    "A100273",
+    "A331435"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

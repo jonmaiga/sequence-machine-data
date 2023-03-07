@@ -1,0 +1,35 @@
+{
+  "description": "Numbers k such that the k-th composition in standard order is an ordered triple of distinct positive integers.",
+  "id": "A337453",
+  "mentions": [
+    "A000212",
+    "A000217",
+    "A001399",
+    "A007304",
+    "A014311",
+    "A014612",
+    "A066099",
+    "A069905",
+    "A211540",
+    "A220377",
+    "A233564",
+    "A307534",
+    "A337459",
+    "A337460",
+    "A337461",
+    "A337561",
+    "A337603",
+    "A337604"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of maximum independent vertex sets and minimum vertex covers in the n-polygon diagonal intersection graph.",
+  "id": "A292923",
+  "mentions": [
+    "A291948",
+    "A292356",
+    "A296517",
+    "A300569"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 3,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Triangle T(n,k) = n*A051731(n,k) read by rows.",
+  "id": "A127446",
+  "mentions": [
+    "A038040",
+    "A051731",
+    "A126988",
+    "A244051",
+    "A328362"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

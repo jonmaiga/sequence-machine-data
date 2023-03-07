@@ -1,0 +1,18 @@
+{
+  "description": "Index of n^2 in A111273.",
+  "id": "A309199",
+  "mentions": [
+    "A111273",
+    "A113658"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

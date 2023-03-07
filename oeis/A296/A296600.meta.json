@@ -1,0 +1,18 @@
+{
+  "description": "Number of pairs of binary strings (u,v) with u of length n, v of length 2n, and u and v mutually overlapping.",
+  "id": "A296600",
+  "mentions": [
+    "A295863"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

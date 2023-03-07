@@ -1,0 +1,21 @@
+{
+  "description": "The number of steps for a knight to be trapped when moving on a spirally numbered hexagonal board to the lowest available unvisited cell and starting at cell n.",
+  "id": "A333683",
+  "mentions": [
+    "A306291",
+    "A309918",
+    "A327131",
+    "A328894",
+    "A333684"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

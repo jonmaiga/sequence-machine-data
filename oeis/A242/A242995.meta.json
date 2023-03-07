@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = a(n-1)^2 + a(n-1)*a(n-2)^2 - a(n-2)^4 with a(1) = 2, a(2) = 3.",
+  "id": "A242995",
+  "mentions": [
+    "A127814",
+    "A242996"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

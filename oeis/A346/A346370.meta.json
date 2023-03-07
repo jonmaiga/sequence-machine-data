@@ -1,0 +1,21 @@
+{
+  "description": "Upper bound for the number of solutions of the TRINTUM cube puzzle n X 1 X 1 (cuboid formed by 4n + 2 parts) different by the set of parts, which are distinguished by the amount of surface area they contribute to the assembled cuboid.",
+  "id": "A346370",
+  "mentions": [
+    "A008733",
+    "A093907",
+    "A102214"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 15:46:15",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

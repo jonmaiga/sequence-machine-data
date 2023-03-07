@@ -1,0 +1,17 @@
+{
+  "description": "Records values in A072994.",
+  "id": "A251642",
+  "mentions": [
+    "A072994"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

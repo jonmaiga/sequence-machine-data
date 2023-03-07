@@ -1,0 +1,20 @@
+{
+  "description": "Number of inequivalent expressions involving n operands, ignoring sign.",
+  "id": "A247982",
+  "mentions": [
+    "A140606",
+    "A182173"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

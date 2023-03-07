@@ -1,0 +1,19 @@
+{
+  "description": "Smallest index m such that from the m-th term on, the sequence {k^k mod A192135(n): k >= 0} enters into a cycle.",
+  "id": "A328914",
+  "mentions": [
+    "A192135",
+    "A328920"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Restricted growth sequence transform of a(1) = -1, a(n) = A297168(n) for n > 1.",
+  "id": "A297169",
+  "mentions": [
+    "A061395",
+    "A156552",
+    "A297112",
+    "A297167",
+    "A297168",
+    "A300827"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:17",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

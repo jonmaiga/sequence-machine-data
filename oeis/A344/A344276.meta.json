@@ -1,0 +1,19 @@
+{
+  "description": "Number of halving and tripling steps to reach 3 in the '3x+3' problem, or -1 if 3 is never reached.",
+  "id": "A344276",
+  "mentions": [
+    "A006577",
+    "A067896"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

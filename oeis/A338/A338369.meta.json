@@ -1,0 +1,28 @@
+{
+  "description": "Triangle read by rows: T(n,k) = (Sum_{i=0..n-k}(1+k*i)^3)/(Sum_{i=0..n-k} (1+k*i)) for 0 <= k <= n.",
+  "id": "A338369",
+  "mentions": [
+    "A000012",
+    "A000217",
+    "A002061",
+    "A056109",
+    "A056220",
+    "A081271",
+    "A085473",
+    "A118057",
+    "A272039"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

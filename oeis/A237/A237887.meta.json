@@ -1,0 +1,17 @@
+{
+  "description": "Numerator of a(n) where a(0) = a(1) = a(2) = 1, a(n) * (a(n) + a(n+3)) = (a(n) + 2*a(n+2)) * (a(n) + a(n+2)).",
+  "id": "A237887",
+  "mentions": [
+    "A237914"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

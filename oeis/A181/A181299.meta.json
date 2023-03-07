@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of 2-compositions of n having k columns in which the top entry is equal to the bottom entry (0<=k<=floor(n/2)). A 2-composition of n is a nonnegative matrix with two rows, such that each column has at least one nonzero entry and whose entries sum up to n.",
+  "id": "A181299",
+  "mentions": [
+    "A003480",
+    "A181300",
+    "A181301"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

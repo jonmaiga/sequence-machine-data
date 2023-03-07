@@ -1,0 +1,29 @@
+{
+  "description": "Numbers which are factored to the same set of primes in Z as to the binary codes of irreducible polynomials in GF(2)[X].",
+  "id": "A235032",
+  "mentions": [
+    "A001222",
+    "A048720",
+    "A091206",
+    "A091222",
+    "A234741",
+    "A234742",
+    "A235033",
+    "A235034",
+    "A235035",
+    "A235036",
+    "A235039",
+    "A235045",
+    "A236380"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

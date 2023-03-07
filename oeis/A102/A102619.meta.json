@@ -1,0 +1,26 @@
+{
+  "description": "Numbers which are the sum of two positive cubes and divisible by 19.",
+  "id": "A102619",
+  "mentions": [
+    "A003325",
+    "A094447",
+    "A099178",
+    "A101421",
+    "A101806",
+    "A101852",
+    "A102618",
+    "A102658",
+    "A224483"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:53",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

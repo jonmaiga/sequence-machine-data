@@ -1,0 +1,29 @@
+{
+  "description": "Primes p such that 2^p + 9 is also prime.",
+  "id": "A262098",
+  "mentions": [
+    "A057196",
+    "A057736",
+    "A155780",
+    "A175173",
+    "A175234",
+    "A175235",
+    "A175236",
+    "A262099",
+    "A262100",
+    "A262201",
+    "A262934",
+    "A262962"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

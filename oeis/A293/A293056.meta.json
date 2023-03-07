@@ -1,0 +1,20 @@
+{
+  "description": "Rectangular array by antidiagonals: T(n,m) = rank of n*log(2)+m when all the numbers k*log(2)+h, for k >= 1, h >= 0, are jointly ranked.",
+  "id": "A293056",
+  "mentions": [
+    "A283962"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

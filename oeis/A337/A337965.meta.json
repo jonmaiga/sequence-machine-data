@@ -1,0 +1,19 @@
+{
+  "description": "Total number of graceful labelings of cubic graphs with 2n vertices.",
+  "id": "A337965",
+  "mentions": [
+    "A334613",
+    "A337274"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

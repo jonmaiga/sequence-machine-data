@@ -1,0 +1,23 @@
+{
+  "description": "Number of n-element subsets of {1,2,...,2n-1} whose elements sum to a multiple of n.",
+  "id": "A145855",
+  "mentions": [
+    "A000571",
+    "A003239",
+    "A131868",
+    "A227532",
+    "A227543",
+    "A309148"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

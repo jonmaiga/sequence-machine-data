@@ -1,0 +1,23 @@
+{
+  "description": "Highly abundant numbers that are not superabundant, i.e., the complement of A004394 w.r.t. A002093.",
+  "id": "A128699",
+  "mentions": [
+    "A000203",
+    "A002093",
+    "A004394",
+    "A128700",
+    "A128701",
+    "A128702"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

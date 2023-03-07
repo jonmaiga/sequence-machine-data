@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the largest positive integers whose partitions into consecutive parts can be totally represented in the first n rows of the table described in A286000.",
+  "id": "A288774",
+  "mentions": [
+    "A237593",
+    "A286000",
+    "A286001",
+    "A288529",
+    "A288772",
+    "A288773"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

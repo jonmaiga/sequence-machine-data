@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of Product_{k>=1} (1 + x^prime(k))/(1 - x^prime(k)).",
+  "id": "A300413",
+  "mentions": [
+    "A000040",
+    "A000586",
+    "A000607",
+    "A015128",
+    "A080054",
+    "A103265",
+    "A280263",
+    "A280366",
+    "A300414",
+    "A300415"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

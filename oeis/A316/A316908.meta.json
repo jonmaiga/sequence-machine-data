@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest k with n prime factors such that 2^(k-1) == 1 (mod k) and p-1 does not divide k-1 for every prime p dividing k.",
+  "id": "A316908",
+  "mentions": [
+    "A001567",
+    "A006931",
+    "A121707",
+    "A316907"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 2,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

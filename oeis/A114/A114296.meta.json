@@ -1,0 +1,24 @@
+{
+  "description": "First row of Modified Schroeder numbers for q=3 (A114292).",
+  "id": "A114296",
+  "mentions": [
+    "A112833",
+    "A112844",
+    "A114292",
+    "A114299",
+    "A224776",
+    "A225041",
+    "A286761"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Fractal sequence related to Stern's diatomic sequence (A002487).",
+  "id": "A272464",
+  "mentions": [
+    "A002487",
+    "A181391"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

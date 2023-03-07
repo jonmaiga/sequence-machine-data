@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the maximum value reached by the function -2*x*log(x)-2*x*(1-x) in the interval (0,1].",
+  "id": "A226469",
+  "mentions": [
+    "A106533"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

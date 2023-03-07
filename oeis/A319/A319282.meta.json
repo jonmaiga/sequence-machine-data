@@ -1,0 +1,22 @@
+{
+  "description": "Numbers of the form 16^i*(16*j + 15).",
+  "id": "A319282",
+  "mentions": [
+    "A004215",
+    "A125169",
+    "A191257",
+    "A234000",
+    "A319281"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

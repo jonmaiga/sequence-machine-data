@@ -1,0 +1,21 @@
+{
+  "description": "Numbers whose set of decimal digits coincides with the set of the indices of their prime factors.",
+  "id": "A318298",
+  "mentions": [
+    "A001221",
+    "A080683",
+    "A097227",
+    "A290675"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:38",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

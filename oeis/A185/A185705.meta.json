@@ -1,0 +1,21 @@
+{
+  "description": "Characteristic function of positive numbers that are primes ending in 1.",
+  "id": "A185705",
+  "mentions": [
+    "A030430",
+    "A185706",
+    "A185708",
+    "A185709"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

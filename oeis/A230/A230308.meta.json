@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that the sum over the k-th powers of all Gaussian integers in the k X k base square in the first quadrant is == 0 (mod k).",
+  "id": "A230308",
+  "mentions": [
+    "A073763",
+    "A230309",
+    "A230310",
+    "A230761"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:47",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Sequence obtained by swapping each (k*(2n))-th element of the nonnegative integers with the (k*(2n+1))-th element, for all k>0 in ascending order, omitting the first term.",
+  "id": "A327119",
+  "mentions": [
+    "A004442",
+    "A327093",
+    "A327120",
+    "A327420"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:54",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

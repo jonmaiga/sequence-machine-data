@@ -1,0 +1,33 @@
+{
+  "description": "Number of non-crossing set partitions whose block sizes are the prime indices of n.",
+  "id": "A306438",
+  "mentions": [
+    "A000041",
+    "A000108",
+    "A000110",
+    "A000670",
+    "A001222",
+    "A001263",
+    "A001764",
+    "A008480",
+    "A056239",
+    "A112624",
+    "A112798",
+    "A124794",
+    "A125181",
+    "A134264",
+    "A296150",
+    "A306437"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

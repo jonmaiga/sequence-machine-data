@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n + floor(n*t) + floor(n*t^2) + floor(n/t), where t is the tetranacci constant.",
+  "id": "A184825",
+  "mentions": [
+    "A086088",
+    "A184812",
+    "A184823",
+    "A184824",
+    "A184826"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

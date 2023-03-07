@@ -1,0 +1,21 @@
+{
+  "description": "Numbers divisible by prime(d) for each digit d in their base-4 representation, none of which may be zero.",
+  "id": "A256874",
+  "mentions": [
+    "A256786",
+    "A256875",
+    "A256879",
+    "A256884"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Partial sums of A028388 good primes (version 2).",
+  "id": "A172166",
+  "mentions": [
+    "A000040",
+    "A028388"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:47",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

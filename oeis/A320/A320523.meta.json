@@ -1,0 +1,20 @@
+{
+  "description": "Smallest m > 1 such that either n^m == n (mod 25) or n^m == 0 (mod 25).",
+  "id": "A320523",
+  "mentions": [
+    "A067251",
+    "A317905"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:51:05",
+    "offset": 1,
+    "size": 75,
+    "source": "joeis"
+  }
+}

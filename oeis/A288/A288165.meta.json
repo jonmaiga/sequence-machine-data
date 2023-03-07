@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of x^4/((1-x^4)*(1-x^3)*(1-x^6)*(1-x^9)).",
+  "id": "A288165",
+  "mentions": [
+    "A001400",
+    "A005044",
+    "A029253",
+    "A288166"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:00",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

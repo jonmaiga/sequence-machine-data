@@ -1,0 +1,19 @@
+{
+  "description": "Central moment sequence of tr(A^2) in USp(6).",
+  "id": "A138542",
+  "mentions": [
+    "A138540",
+    "A138541"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

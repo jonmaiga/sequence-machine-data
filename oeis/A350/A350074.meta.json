@@ -1,0 +1,27 @@
+{
+  "description": "Difference between the maximal digit in the primorial base expansion of n and the maximal exponent in the prime factorization of n.",
+  "id": "A350074",
+  "mentions": [
+    "A051903",
+    "A276086",
+    "A328114",
+    "A350070",
+    "A350075",
+    "A350076",
+    "A351038",
+    "A351039",
+    "A351074"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

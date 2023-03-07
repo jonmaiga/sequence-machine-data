@@ -1,0 +1,18 @@
+{
+  "description": "The Faulhaber-Knuth a(0,n) sequence.",
+  "id": "A251926",
+  "mentions": [
+    "A093556",
+    "A093557"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 4,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

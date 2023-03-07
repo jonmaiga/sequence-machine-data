@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the sum of the numbers adjacent to n in a triangle in which the nonnegative integers are placed from top to bottom and from left to right.",
+  "id": "A340459",
+  "mentions": [
+    "A214177"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

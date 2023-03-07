@@ -1,0 +1,21 @@
+{
+  "description": "Number of binary arrangements of total n 1's, without adjacent 1's on n X n array connected n-s",
+  "id": "A197989",
+  "mentions": [
+    "A067966",
+    "A197990"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

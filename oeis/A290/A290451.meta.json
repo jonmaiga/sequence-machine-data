@@ -1,0 +1,27 @@
+{
+  "description": "Irregular triangle read by rows: row n (n>=1) lists the distinct areas of integer-sided triangles whose area equals n times their perimeter.",
+  "id": "A290451",
+  "mentions": [
+    "A098030",
+    "A289155",
+    "A289156",
+    "A289218",
+    "A289219",
+    "A289220",
+    "A289221",
+    "A289253",
+    "A332689",
+    "A332879"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

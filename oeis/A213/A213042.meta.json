@@ -1,0 +1,20 @@
+{
+  "description": "Convolution of (1,0,2,0,3,0,...) and (1,0,0,2,0,0,3,0,0,...); i.e., (A027656(n)) and (A175676(n+2)).",
+  "id": "A213042",
+  "mentions": [
+    "A027656",
+    "A175676"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:38:35",
+    "offset": 0,
+    "size": 57,
+    "source": "joeis"
+  }
+}

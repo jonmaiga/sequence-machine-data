@@ -1,0 +1,20 @@
+{
+  "description": "Peaceable coexisting armies of queens on torus: the maximum number m such that m white queens and m black queens can coexist on an n X n toroidal chessboard without attacking each other.",
+  "id": "A279405",
+  "mentions": [
+    "A250000",
+    "A279406"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

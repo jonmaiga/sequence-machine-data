@@ -1,0 +1,19 @@
+{
+  "description": "Total sum of n-th powers of parts in all partitions of n.",
+  "id": "A252761",
+  "mentions": [
+    "A066633",
+    "A213191"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:11",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "description": "Successively add the smallest nonzero binary number that is not a substring.",
+  "id": "A260273",
+  "mentions": [
+    "A030308",
+    "A062383",
+    "A261015",
+    "A261016",
+    "A261017",
+    "A261018",
+    "A261019",
+    "A261281",
+    "A261396",
+    "A261416",
+    "A261461",
+    "A261644",
+    "A261922",
+    "A261923",
+    "A262279",
+    "A262288"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

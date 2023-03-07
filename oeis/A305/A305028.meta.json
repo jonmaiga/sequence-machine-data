@@ -1,0 +1,28 @@
+{
+  "description": "Number of unlabeled blobs spanning n vertices without singleton edges.",
+  "id": "A305028",
+  "mentions": [
+    "A030019",
+    "A035053",
+    "A048143",
+    "A054921",
+    "A134957",
+    "A144959",
+    "A275307",
+    "A286520",
+    "A293607",
+    "A304118",
+    "A304717",
+    "A304867"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

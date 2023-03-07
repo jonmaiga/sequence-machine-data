@@ -1,0 +1,18 @@
+{
+  "description": "Continued fraction of constant in A100941: solution of y^2-y-Pi=0.",
+  "id": "A100942",
+  "mentions": [
+    "A100941"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

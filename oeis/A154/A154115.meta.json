@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that n + 3 is prime.",
+  "id": "A154115",
+  "mentions": [
+    "A005097",
+    "A067076",
+    "A086801",
+    "A140719",
+    "A154111",
+    "A154112",
+    "A154113"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:00:35",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "T(n,k) = Number of (n+1) X (k+1) 0..2 arrays with the number of clockwise edge increases in every 2 X 2 subblock equal to the number of counterclockwise edge increases.",
+  "id": "A209517",
+  "mentions": [
+    "A138977",
+    "A138978",
+    "A138979"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

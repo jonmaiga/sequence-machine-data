@@ -1,0 +1,18 @@
+{
+  "description": "Least positive k such that both prime(n)+k and prime(n)+2k are prime, or 0 if no such k exists.",
+  "id": "A120627",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

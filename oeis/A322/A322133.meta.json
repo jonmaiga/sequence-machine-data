@@ -1,0 +1,30 @@
+{
+  "description": "Regular triangle read by rows where T(n,k) is the number of non-isomorphic connected multiset partitions of weight n with k vertices.",
+  "id": "A322133",
+  "mentions": [
+    "A000664",
+    "A007716",
+    "A007718",
+    "A054923",
+    "A191646",
+    "A191970",
+    "A275421",
+    "A286520",
+    "A317672",
+    "A319719",
+    "A321155",
+    "A321254",
+    "A322114"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

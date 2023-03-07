@@ -1,0 +1,20 @@
+{
+  "description": "Table read by antidiagonals: the m-th row gives the sequence constructed by repeatedly choosing the smallest positive number not already in the row such that for each k = 1, ..., m, the k-th differences are distinct.",
+  "id": "A327844",
+  "mentions": [
+    "A175498",
+    "A327743",
+    "A327845"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

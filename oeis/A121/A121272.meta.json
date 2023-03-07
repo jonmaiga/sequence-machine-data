@@ -1,0 +1,19 @@
+{
+  "description": "Number of outcomes of unlabeled n-team round-robin tournaments that are not uniquely defined by their score vectors.",
+  "id": "A121272",
+  "mentions": [
+    "A000568",
+    "A000570"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:52",
+    "offset": 1,
+    "size": 17,
+    "source": "joeis"
+  }
+}

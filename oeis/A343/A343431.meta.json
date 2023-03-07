@@ -1,0 +1,29 @@
+{
+  "description": "Part of n composed of prime factors of the form 6k-1.",
+  "id": "A343431",
+  "mentions": [
+    "A000265",
+    "A065330",
+    "A065331",
+    "A097706",
+    "A170818",
+    "A170825",
+    "A248909",
+    "A259548",
+    "A343430",
+    "A355582"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:24",
+    "offset": 1,
+    "size": 90,
+    "source": "joeis"
+  }
+}

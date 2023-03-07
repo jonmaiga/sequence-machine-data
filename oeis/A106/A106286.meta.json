@@ -1,0 +1,21 @@
+{
+  "description": "Number of orbits of the 4-step recursion mod n.",
+  "id": "A106286",
+  "mentions": [
+    "A015134",
+    "A106285",
+    "A106287",
+    "A106289",
+    "A106308"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

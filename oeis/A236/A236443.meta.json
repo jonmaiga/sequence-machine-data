@@ -1,0 +1,19 @@
+{
+  "description": "Primes which start a Cunningham chain of length 4 where every entity of the chain is smallest of twin prime.",
+  "id": "A236443",
+  "mentions": [
+    "A005602",
+    "A059763",
+    "A178421"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of binary rooted trees with n leaves of k colors and all non-leaf nodes having out-degree 2.",
+  "id": "A319539",
+  "mentions": [
+    "A001190",
+    "A083563",
+    "A220816",
+    "A220817",
+    "A220818",
+    "A241555",
+    "A319254",
+    "A319541",
+    "A319580"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:12",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of 2n X 2 0..4 arrays with values 0..4 introduced in row major order and each element equal to exactly one horizontal and vertical neighbor.",
+  "id": "A198405",
+  "mentions": [
+    "A198408"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

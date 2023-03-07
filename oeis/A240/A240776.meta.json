@@ -1,0 +1,19 @@
+{
+  "description": "Define a square array B(m,n) (m>=0, n>=0) by B(n, n) = A212196(n)/A181131(n), B(n, n+1) = -A212196(n)/A181131(n), B(m, n) = B(m, n-1) + B(m+1, n-1); a(n) = numerator of B(0,n).",
+  "id": "A240776",
+  "mentions": [
+    "A181131",
+    "A212196"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

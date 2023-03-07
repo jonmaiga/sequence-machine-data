@@ -1,0 +1,20 @@
+{
+  "description": "Positive integers that cannot be written as the sum of a fourth power, a square and a positive triangular number.",
+  "id": "A262959",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A000583",
+    "A262956"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

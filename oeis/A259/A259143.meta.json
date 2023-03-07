@@ -1,0 +1,20 @@
+{
+  "description": "Number of distinct digits needed to write the calendar date of n-th day of a non-leap year in decimal representation, without leading zeros.",
+  "id": "A259143",
+  "mentions": [
+    "A008685"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

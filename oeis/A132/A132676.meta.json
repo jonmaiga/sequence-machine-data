@@ -1,0 +1,22 @@
+{
+  "description": "Decimal number representations of hexadecimal numbers whose form spells an American-English word found in a standard dictionary in numerical order.",
+  "id": "A132676",
+  "mentions": [
+    "A057946",
+    "A132675"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

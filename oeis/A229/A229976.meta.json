@@ -1,0 +1,19 @@
+{
+  "description": "Inverse permutation to A228784.",
+  "id": "A229976",
+  "mentions": [
+    "A046959",
+    "A046964",
+    "A228784"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

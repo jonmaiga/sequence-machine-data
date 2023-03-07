@@ -1,0 +1,19 @@
+{
+  "description": "Number of multiset permutations of the n initial elements of A005229 with additional element A005229(0)=1.",
+  "id": "A169638",
+  "mentions": [
+    "A005229",
+    "A169637"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:53",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Let p_n=prime(n), n>=1. Then a(n) is the least prime p which differs from p_n, for which the intervals (p/2,p_n/2), (p,p_n], if pp_n, contain the same number of primes, and a(n)=0, if no such prime p exists.",
+  "id": "A212493",
+  "mentions": [
+    "A080359",
+    "A104272",
+    "A164554"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

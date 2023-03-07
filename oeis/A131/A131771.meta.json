@@ -1,0 +1,18 @@
+{
+  "description": "First differences (A131772) equal this sequence with zeros inserted at positions {m*(m+1)/2, m>=0}.",
+  "id": "A131771",
+  "mentions": [
+    "A131770",
+    "A131772"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

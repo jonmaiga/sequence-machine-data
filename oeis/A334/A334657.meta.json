@@ -1,0 +1,26 @@
+{
+  "description": "Dirichlet g.f.: 1 / zeta(s-2).",
+  "id": "A334657",
+  "mentions": [
+    "A000290",
+    "A008683",
+    "A046970",
+    "A053822",
+    "A055615",
+    "A334659",
+    "A334660"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

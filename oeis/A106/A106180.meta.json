@@ -1,0 +1,30 @@
+{
+  "description": "Matrix inverse of number triangle A046854.",
+  "id": "A106180",
+  "mentions": [
+    "A000007",
+    "A000108",
+    "A007318",
+    "A039598",
+    "A039599",
+    "A046854",
+    "A063886",
+    "A084938",
+    "A105523",
+    "A106181",
+    "A124448"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

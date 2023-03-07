@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of subfields of the (2n)-th cyclotomic field Q(zeta_(2n)) = Q(exp(2*Pi*i/(2n))).",
+  "id": "A341443",
+  "mentions": [
+    "A272831"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

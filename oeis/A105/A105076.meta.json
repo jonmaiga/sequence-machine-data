@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that 60*k^2 + 60*k + 1 is a square.",
+  "id": "A105076",
+  "mentions": [
+    "A001090",
+    "A103200"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:01:13",
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Least k such that A359247(k) = n, or 0 if no such k exists.",
+  "id": "A359657",
+  "mentions": [
+    "A070165",
+    "A187203",
+    "A359247"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

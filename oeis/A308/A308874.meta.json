@@ -1,0 +1,25 @@
+{
+  "description": "Composite numbers that are neither squares nor oblongs.",
+  "id": "A308874",
+  "mentions": [
+    "A000037",
+    "A000290",
+    "A002378",
+    "A002808",
+    "A078358",
+    "A326386",
+    "A326387",
+    "A326388",
+    "A326389"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

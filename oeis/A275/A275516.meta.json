@@ -1,0 +1,22 @@
+{
+  "description": "Table read by rows: list of prime triples of the form (p, p+4, p+6).",
+  "id": "A275516",
+  "mentions": [
+    "A022005",
+    "A270999",
+    "A271000",
+    "A275515"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

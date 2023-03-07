@@ -1,0 +1,17 @@
+{
+  "description": "Number of nonequivalent n-column nonnegative integer matrices with column sums 4 and any number of nonzero rows up to permutation of rows and columns.",
+  "id": "A331721",
+  "mentions": [
+    "A331485"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

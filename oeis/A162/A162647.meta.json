@@ -1,0 +1,28 @@
+{
+  "description": "Numerators associated with denominators A000215(n) approximating the complementary Thue-Morse constant.",
+  "id": "A162647",
+  "mentions": [
+    "A000215",
+    "A010060",
+    "A014571",
+    "A051179",
+    "A081706",
+    "A085394",
+    "A085395",
+    "A161627",
+    "A161639",
+    "A162634"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

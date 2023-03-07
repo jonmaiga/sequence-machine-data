@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is a generalized pentagonal number such that 2*a(n) is also a generalized pentagonal number.",
+  "id": "A305539",
+  "mentions": [
+    "A001318",
+    "A029546",
+    "A305538"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:39:06",
+    "offset": 1,
+    "size": 18,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n)= smallest k>=2 such that n divides Fibonacci(k-1)+13, or 0 if no such k exists..",
+  "id": "A214793",
+  "mentions": [
+    "A214787",
+    "A214788"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

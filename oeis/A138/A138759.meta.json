@@ -1,0 +1,22 @@
+{
+  "description": "Indices for which A001203 (continued fraction for Pi) is prime.",
+  "id": "A138759",
+  "mentions": [
+    "A000040",
+    "A001203",
+    "A005042",
+    "A107892",
+    "A138758"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

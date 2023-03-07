@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the Damerau-Levenshtein distance between n and k in binary representation, 0 <= k <= n.",
+  "id": "A322285",
+  "mentions": [
+    "A152487"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

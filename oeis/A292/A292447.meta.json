@@ -1,0 +1,23 @@
+{
+  "description": "Primes p such that sigma((p + 1) / 2) is a prime q.",
+  "id": "A292447",
+  "mentions": [
+    "A000203",
+    "A000668",
+    "A178490",
+    "A249902",
+    "A292448"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:07",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

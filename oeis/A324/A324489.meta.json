@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = A324488(n)/n.",
+  "id": "A324489",
+  "mentions": [
+    "A001350",
+    "A060280",
+    "A324485",
+    "A324486",
+    "A324487",
+    "A324488"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle t(n,m) = 1 + (2+n)*abs(n-2m) read by rows, 0<=m<=n.",
+  "id": "A143183",
+  "mentions": [
+    "A007590"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

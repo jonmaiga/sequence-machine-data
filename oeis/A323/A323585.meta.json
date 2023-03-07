@@ -1,0 +1,28 @@
+{
+  "description": "Third Moebius transform of A000219. Number of plane partitions of n whose multiset of rows is aperiodic and whose multiset of columns is also aperiodic and whose parts are relatively prime.",
+  "id": "A323585",
+  "mentions": [
+    "A000219",
+    "A000837",
+    "A003293",
+    "A008683",
+    "A100953",
+    "A300275",
+    "A303546",
+    "A320802",
+    "A321390",
+    "A323584",
+    "A323587"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:48",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

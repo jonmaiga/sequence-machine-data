@@ -1,0 +1,34 @@
+{
+  "description": "Difference between the n-th and the first (identity) permutation of (0,...,m-1), interpreted as a decimal number, divided by 9 (for any m for which 10! >= m! >= n).",
+  "id": "A215940",
+  "mentions": [
+    "A000000",
+    "A019566",
+    "A030299",
+    "A033638",
+    "A050289",
+    "A083449",
+    "A107346",
+    "A123456",
+    "A207324",
+    "A209280",
+    "A211869",
+    "A217626",
+    "A219664",
+    "A220664",
+    "A987654"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

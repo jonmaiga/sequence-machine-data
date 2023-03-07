@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that S(2^k) is a perfect square, where S(t) is the sum of decimal digits of t.",
+  "id": "A333475",
+  "mentions": [
+    "A000079",
+    "A007953",
+    "A028839"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

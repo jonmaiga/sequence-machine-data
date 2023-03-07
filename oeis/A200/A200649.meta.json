@@ -1,0 +1,23 @@
+{
+  "description": "Number of 1's in the Stolarsky representation of n.",
+  "id": "A200649",
+  "mentions": [
+    "A072649",
+    "A130312",
+    "A135818",
+    "A200648",
+    "A200650",
+    "A200651"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

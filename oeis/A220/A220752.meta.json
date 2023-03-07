@@ -1,0 +1,20 @@
+{
+  "description": "Terms of A220698 that appear in A224218.",
+  "id": "A220752",
+  "mentions": [
+    "A000217",
+    "A220698",
+    "A224218"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

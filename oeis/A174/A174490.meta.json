@@ -1,0 +1,20 @@
+{
+  "description": "Numerator in the coefficient of x^n in exp( Sum_{m>=1} x^m/(m*2^(m^2)) ).",
+  "id": "A174490",
+  "mentions": [
+    "A006519",
+    "A174491"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

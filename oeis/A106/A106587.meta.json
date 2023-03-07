@@ -1,0 +1,23 @@
+{
+  "description": "Sum of n-th prime squared and n-th perfect square.",
+  "id": "A106587",
+  "mentions": [
+    "A000290",
+    "A001248",
+    "A014688",
+    "A075526",
+    "A076368"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:58",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

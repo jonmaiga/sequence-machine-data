@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the largest real solution of 2*x = 2 + log(4*x - 1).",
+  "id": "A358644",
+  "mentions": [
+    "A358643"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

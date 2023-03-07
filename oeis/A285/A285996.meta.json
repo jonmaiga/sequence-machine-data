@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows, 1<=k<=n, T(n,k) = number of arrangements of n circles in the affine plane having k separated islands.",
+  "id": "A285996",
+  "mentions": [
+    "A000012",
+    "A249752",
+    "A250001",
+    "A252158",
+    "A275923"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "hard",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

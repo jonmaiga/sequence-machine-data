@@ -1,0 +1,22 @@
+{
+  "description": "A014486-indices for rooted plane trees where non-leaf branching can occur only at the leftmost branch of any level, but nowhere else.",
+  "id": "A209643",
+  "mentions": [
+    "A014486",
+    "A071163",
+    "A080300",
+    "A209641",
+    "A209644"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

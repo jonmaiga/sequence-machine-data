@@ -1,0 +1,24 @@
+{
+  "description": "Triangular array of coefficients of polynomials q defined in Comments; the coefficients are written in the order of decreasing powers of x.",
+  "id": "A248670",
+  "mentions": [
+    "A248665",
+    "A248666",
+    "A248667",
+    "A248668",
+    "A248669"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "1 and the nonsquares in A167761, sorted to natural order.",
+  "id": "A175092",
+  "mentions": [
+    "A000290",
+    "A167761"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

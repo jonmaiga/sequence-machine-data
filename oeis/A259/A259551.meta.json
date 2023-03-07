@@ -1,0 +1,28 @@
+{
+  "description": "Expansion of f(x^2, x^3) * f(-x^4, -x^6) / f(-x^2) in powers of x where f(,) is the Ramanujan general theta function.",
+  "id": "A259551",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A003106",
+    "A003114",
+    "A010054",
+    "A010815",
+    "A053258",
+    "A053266",
+    "A121373",
+    "A255065",
+    "A259910"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:49:01",
+    "offset": 0,
+    "size": 65,
+    "source": "joeis"
+  }
+}

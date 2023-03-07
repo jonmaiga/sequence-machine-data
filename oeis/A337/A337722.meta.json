@@ -1,0 +1,20 @@
+{
+  "description": "Maximum number of knights within an n X n chessboard, where each knight has a path off the board.",
+  "id": "A337722",
+  "mentions": [
+    "A335445",
+    "A337746"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

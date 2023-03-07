@@ -1,0 +1,19 @@
+{
+  "description": "Unitary arithmetic numbers k whose mean unitary divisor is a unitary divisor of k.",
+  "id": "A353039",
+  "mentions": [
+    "A006086",
+    "A007340",
+    "A103826"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

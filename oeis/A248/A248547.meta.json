@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that 75^n+2 is prime.",
+  "id": "A248547",
+  "mentions": [
+    "A051783",
+    "A087885",
+    "A090649",
+    "A109076",
+    "A113480",
+    "A138048",
+    "A138049",
+    "A138050"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Decades whose semiprime pattern is the same as semiprime pattern in the previous decade.",
+  "id": "A220063",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A219996",
+    "A277459",
+    "A277460"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

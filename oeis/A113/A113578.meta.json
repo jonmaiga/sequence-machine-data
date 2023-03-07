@@ -1,0 +1,22 @@
+{
+  "description": "a(1) = 1, then the rearrangement of odd palindromes such that every concatenation is a prime for n > 1.",
+  "id": "A113578",
+  "mentions": [
+    "A002113",
+    "A029950",
+    "A083754",
+    "A113577",
+    "A113579"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

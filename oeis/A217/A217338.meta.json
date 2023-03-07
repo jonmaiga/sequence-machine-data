@@ -1,0 +1,21 @@
+{
+  "description": "Number of inequivalent ways to color a 4 X 4 checkerboard using at most n colors allowing rotations and reflections.",
+  "id": "A217338",
+  "mentions": [
+    "A002817",
+    "A217331",
+    "A343097"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 17:31:51",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

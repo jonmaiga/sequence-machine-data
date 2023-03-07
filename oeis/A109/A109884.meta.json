@@ -1,0 +1,19 @@
+{
+  "description": "Indices k of members of A109883 such that A109883(k) is a divisor of k. Also k is a term if A109883(k) = 0.",
+  "id": "A109884",
+  "mentions": [
+    "A064510",
+    "A109883"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form prime(n+1)*prime(n+3) - prime(n)*prime(n+2) - 1, ordered by n.",
+  "id": "A118624",
+  "mentions": [
+    "A117854"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

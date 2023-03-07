@@ -1,0 +1,20 @@
+{
+  "description": "The n-th number m such that a nontrivial prime(n)-th root of unity modulo m exists.",
+  "id": "A305828",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A277915"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

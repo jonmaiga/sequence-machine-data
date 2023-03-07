@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of (2*cos(Pi/9))^2 = A332437^2.",
+  "id": "A332438",
+  "mentions": [
+    "A094256",
+    "A094829",
+    "A127672",
+    "A130880",
+    "A187360",
+    "A332437"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:54:13",
+    "offset": 1,
+    "size": 98,
+    "source": "joeis"
+  }
+}

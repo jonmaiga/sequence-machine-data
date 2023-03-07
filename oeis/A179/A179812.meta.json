@@ -1,0 +1,38 @@
+{
+  "description": "Records of minima of positive distance d between a fifteenth power of positive integer x and a square of integer y such that d = x^15 - y^2 (x<>k^2 and y<>k^15).",
+  "id": "A179812",
+  "mentions": [
+    "A179107",
+    "A179108",
+    "A179109",
+    "A179386",
+    "A179387",
+    "A179388",
+    "A179407",
+    "A179408",
+    "A179784",
+    "A179785",
+    "A179786",
+    "A179790",
+    "A179791",
+    "A179792",
+    "A179793",
+    "A179794",
+    "A179795",
+    "A179798",
+    "A179799",
+    "A179800",
+    "A179813",
+    "A179814"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers not of the form abc + abd + acd + bcd, with 0 < a < b < c < d.",
+  "id": "A179797",
+  "mentions": [
+    "A027563",
+    "A179796"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

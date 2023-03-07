@@ -1,0 +1,26 @@
+{
+  "description": "Integers d such that the largest possible arithmetic progression (AP) of primes with common difference d has exactly four elements.",
+  "id": "A359409",
+  "mentions": [
+    "A007921",
+    "A008588",
+    "A123556",
+    "A206037",
+    "A206039",
+    "A206041",
+    "A342309",
+    "A359408",
+    "A359410"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

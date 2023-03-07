@@ -1,0 +1,20 @@
+{
+  "description": "Length of cycle mentioned in A151957.",
+  "id": "A151958",
+  "mentions": [
+    "A151957",
+    "A151967",
+    "A151968"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 2,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

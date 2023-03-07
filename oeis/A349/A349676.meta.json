@@ -1,0 +1,18 @@
+{
+  "description": "Iterated Pillai's arithmetical function: a(1) = 2, for n >= 2, a(n) = A018804(a(n-1)).",
+  "id": "A349676",
+  "mentions": [
+    "A018804"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

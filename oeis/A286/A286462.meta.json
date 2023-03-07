@@ -1,0 +1,23 @@
+{
+  "description": "Compound filter (3-adic valuation & the length of rightmost run of 1's in base-2): a(n) = P(A051064(n), A089309(n)), where P(n,k) is sequence A000027 used as a pairing function.",
+  "id": "A286462",
+  "mentions": [
+    "A000027",
+    "A051064",
+    "A089309",
+    "A286362",
+    "A286463",
+    "A286464"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 116,
+    "source": "oeis-bfile"
+  }
+}

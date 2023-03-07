@@ -1,0 +1,20 @@
+{
+  "description": "The cumulative sum (1st digit + 2nd digit + 3rd digit + ... + n-th digit of the sequence) is prime.",
+  "id": "A341696",
+  "mentions": [
+    "A001223"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "p-INVERT of (1,1,1,1,1,...), where p(S) = (1 - S)(1 - 2*S)(1 - 3*S)(1 - 4*S).",
+  "id": "A291003",
+  "mentions": [
+    "A000012",
+    "A033453",
+    "A289780",
+    "A291000"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

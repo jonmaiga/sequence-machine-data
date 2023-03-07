@@ -1,0 +1,26 @@
+{
+  "description": "Primes of the form 8k+1 generated recursively. Initial prime is 17. General term is a(n)=Min {p is prime; p divides (2Q)^4 + 1}, where Q is the product of previous terms in the sequence.",
+  "id": "A125039",
+  "mentions": [
+    "A000945",
+    "A007519",
+    "A051308",
+    "A051335",
+    "A057204",
+    "A057208",
+    "A124984",
+    "A124993",
+    "A125037",
+    "A125045"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

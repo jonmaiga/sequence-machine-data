@@ -1,0 +1,20 @@
+{
+  "description": "Number of perfect matchings on a Möbius strip of width 3 and length 2n.",
+  "id": "A263200",
+  "mentions": [
+    "A001835",
+    "A020878"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 2,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

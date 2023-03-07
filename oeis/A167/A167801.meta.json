@@ -1,0 +1,17 @@
+{
+  "description": "Numbers with primitive root -5.",
+  "id": "A167801",
+  "mentions": [
+    "A105877"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:51",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

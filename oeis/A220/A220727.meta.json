@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways to reciprocally link elements of an 3Xn array either to themselves or to exactly two horizontal, diagonal or antidiagonal neighbors",
+  "id": "A220727",
+  "mentions": [
+    "A220725"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

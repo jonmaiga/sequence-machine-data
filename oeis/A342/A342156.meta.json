@@ -1,0 +1,19 @@
+{
+  "description": "For n > 2, a(n) = 0,1,2, or 3 when (prime(n+1) mod 6, prime(n) mod 6) = (1,1),(1,5),(5,1), or (5,5), respectively.",
+  "id": "A342156",
+  "mentions": [
+    "A341765",
+    "A341952"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 3,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

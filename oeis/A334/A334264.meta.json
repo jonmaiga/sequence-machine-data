@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k > 1 such that (3/2)^k sets a new record for closest fractional part to 1/2.",
+  "id": "A334264",
+  "mentions": [
+    "A002379",
+    "A034082",
+    "A081464",
+    "A179523"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

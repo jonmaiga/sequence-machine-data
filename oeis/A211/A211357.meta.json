@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of noncrossing partitions up to rotation of an n-set that contain k singleton blocks.",
+  "id": "A211357",
+  "mentions": [
+    "A054357",
+    "A091867",
+    "A171128",
+    "A211359",
+    "A295198"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

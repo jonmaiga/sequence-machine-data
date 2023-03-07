@@ -1,0 +1,22 @@
+{
+  "description": "Number of even Latin squares of order n.",
+  "id": "A114628",
+  "mentions": [
+    "A002860",
+    "A065711",
+    "A114629",
+    "A114630"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that n=s^pi(pi(s)) where s is sum of its digits.",
+  "id": "A135237",
+  "mentions": [
+    "A135234",
+    "A135235",
+    "A135236"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

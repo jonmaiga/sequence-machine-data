@@ -1,0 +1,23 @@
+{
+  "description": "Number of strings of n digits from 1...9 such that a signed summation of the digits exists making the sum = 0.",
+  "id": "A288550",
+  "mentions": [
+    "A065024",
+    "A065025",
+    "A065086",
+    "A288351",
+    "A288352"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:01",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the minimal position at which the maximal value of row n appears in row n of triangle A080936.",
+  "id": "A259899",
+  "mentions": [
+    "A080936",
+    "A259885",
+    "A265179"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

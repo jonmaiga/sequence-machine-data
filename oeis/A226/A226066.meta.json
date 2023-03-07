@@ -1,0 +1,22 @@
+{
+  "description": "Smallest k such that n numbers can be picked in {1,...,k} with no six terms in arithmetic progression.",
+  "id": "A226066",
+  "mentions": [
+    "A003002",
+    "A003005",
+    "A065825",
+    "A225745",
+    "A225859"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

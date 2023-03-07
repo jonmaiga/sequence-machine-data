@@ -1,0 +1,29 @@
+{
+  "description": "Sum of all parts minus the total number of parts of the shell model of partitions with n regions.",
+  "id": "A182276",
+  "mentions": [
+    "A000041",
+    "A006128",
+    "A066186",
+    "A135010",
+    "A138121",
+    "A182181",
+    "A182244",
+    "A186114",
+    "A187219",
+    "A196087",
+    "A206437",
+    "A207035"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

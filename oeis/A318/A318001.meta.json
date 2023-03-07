@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. A(x) satisfies: cosh(A(x) - A(-x)) - sinh(A(x) + A(-x)) = 1.",
+  "id": "A318001",
+  "mentions": [
+    "A318000",
+    "A318006"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:38",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

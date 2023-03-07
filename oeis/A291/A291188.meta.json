@@ -1,0 +1,19 @@
+{
+  "description": "Number of inequivalent 2 X n Sudoku grids ((2*n) X (2*n) grids divided into 2 X n boxes).",
+  "id": "A291188",
+  "mentions": [
+    "A109741",
+    "A291187"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 2,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

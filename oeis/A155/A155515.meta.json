@@ -1,0 +1,22 @@
+{
+  "description": "Number of partitions of n into as many primes as nonprimes.",
+  "id": "A155515",
+  "mentions": [
+    "A000041",
+    "A000607",
+    "A002095",
+    "A027187",
+    "A355306"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:37",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

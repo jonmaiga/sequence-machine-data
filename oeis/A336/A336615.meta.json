@@ -1,0 +1,25 @@
+{
+  "description": "Numbers of the form p * m^2, where p is prime and m > 0 is not divisible by p.",
+  "id": "A336615",
+  "mentions": [
+    "A000040",
+    "A007913",
+    "A008833",
+    "A013661",
+    "A054753",
+    "A179643",
+    "A229125",
+    "A335275"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of 2^(3/2) / (sqrt(Pi)*Gamma(3/4)^2).",
+  "id": "A278146",
+  "mentions": [
+    "A278141",
+    "A278142"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:44",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

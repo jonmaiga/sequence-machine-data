@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: Number of walks from (0,0) to (3n,3k) on the square lattice with up and right steps where squares (x,y)=(1,1) mod 3 or (x,y)=(2,2) mod 3 are not entered.",
+  "id": "A348595",
+  "mentions": [
+    "A085363",
+    "A307584"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

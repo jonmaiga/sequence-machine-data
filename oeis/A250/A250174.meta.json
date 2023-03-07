@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that Phi_14(n) is prime, where Phi is the cyclotomic polynomial.",
+  "id": "A250174",
+  "mentions": [
+    "A100330",
+    "A250177"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:15:23",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

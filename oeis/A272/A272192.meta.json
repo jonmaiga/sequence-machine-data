@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the radius of convergence of the generating function of A000625 (alcohol stereoisomers enumeration).",
+  "id": "A272192",
+  "mentions": [
+    "A000625",
+    "A239803"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

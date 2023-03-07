@@ -1,0 +1,17 @@
+{
+  "description": "Number of factors of length 2n of the Thue-Morse sequence (A010060) that are abelian squares.",
+  "id": "A267311",
+  "mentions": [
+    "A010060"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

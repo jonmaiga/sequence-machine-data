@@ -1,0 +1,33 @@
+{
+  "description": "Triangular array: the fission of ((x+1)^n) by ((x+1)^n); i.e., the self-fission of Pascal's triangle.",
+  "id": "A193844",
+  "mentions": [
+    "A000012",
+    "A000225",
+    "A000337",
+    "A005408",
+    "A027608",
+    "A055580",
+    "A056220",
+    "A059260",
+    "A119258",
+    "A145661",
+    "A193842",
+    "A193845",
+    "A199899",
+    "A211386",
+    "A211388"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:07:03",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

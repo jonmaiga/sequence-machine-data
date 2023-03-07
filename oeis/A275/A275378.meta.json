@@ -1,0 +1,22 @@
+{
+  "description": "Number of odd prime factors (with multiplicity) of generalized Fermat number 5^(2^n) + 1.",
+  "id": "A275378",
+  "mentions": [
+    "A001222",
+    "A199591",
+    "A273946"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

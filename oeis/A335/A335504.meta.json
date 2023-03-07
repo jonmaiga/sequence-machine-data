@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows, 0 <= k < n, n >= 1: T(n,k) is the eventual period of the sequence x(j) (or 0 if x(j) never enters a cycle) defined as follows: x(0) = 1 and for j > 1 x(j) is obtained from 4*x(j-1) by deleting all occurrences of the digit k in base n.",
+  "id": "A335504",
+  "mentions": [
+    "A243846",
+    "A306569",
+    "A306773",
+    "A335502",
+    "A335503",
+    "A335505",
+    "A335506"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

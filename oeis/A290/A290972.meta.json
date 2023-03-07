@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that the sum of the squares of digits of p equals the sum of digits of p^2.",
+  "id": "A290972",
+  "mentions": [
+    "A000040",
+    "A017353",
+    "A017377",
+    "A123157",
+    "A165550"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

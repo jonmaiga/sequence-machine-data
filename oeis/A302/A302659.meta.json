@@ -1,0 +1,21 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive terms such that, for any n > 0, A065368(a(n) * a(n+1)) = 0.",
+  "id": "A302659",
+  "mentions": [
+    "A065359",
+    "A065368",
+    "A225693",
+    "A302544"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

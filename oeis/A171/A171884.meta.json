@@ -1,0 +1,23 @@
+{
+  "description": "Lexicographically earliest injective nonnegative sequence a(n) satisfying |a(n+1) - a(n)| = n for all n.",
+  "id": "A171884",
+  "mentions": [
+    "A005132",
+    "A008776",
+    "A048473",
+    "A118201",
+    "A181655",
+    "A198643"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:55",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Difference between 3-almostprime(n) and 3-almostprime(n+3).",
+  "id": "A115402",
+  "mentions": [
+    "A014612",
+    "A056809",
+    "A067813",
+    "A113789",
+    "A115403"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

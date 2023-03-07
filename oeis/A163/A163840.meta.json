@@ -1,0 +1,26 @@
+{
+  "description": "Triangle interpolating the binomial transform of the swinging factorial (A163865) with the swinging factorial (A056040).",
+  "id": "A163840",
+  "mentions": [
+    "A056040",
+    "A076571",
+    "A163650",
+    "A163841",
+    "A163842",
+    "A163843",
+    "A163865",
+    "A180000"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

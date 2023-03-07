@@ -1,0 +1,23 @@
+{
+  "description": "Total number of regions in all arrangements of n circles in the affine plane, including the regions that do not belong to the circles.",
+  "id": "A274822",
+  "mentions": [
+    "A250001",
+    "A274776",
+    "A274818",
+    "A274823"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

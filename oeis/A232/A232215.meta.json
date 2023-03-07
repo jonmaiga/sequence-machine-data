@@ -1,0 +1,19 @@
+{
+  "description": "Number of n X n matrices (up to permutation of their rows and columns) with nonnegative integer entries with all row and column sums equal to 3.",
+  "id": "A232215",
+  "mentions": [
+    "A328159",
+    "A333733"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

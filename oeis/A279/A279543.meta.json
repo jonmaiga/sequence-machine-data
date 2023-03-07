@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = a(n-1) + 3^n * a(n-2) with a(0) = 1 and a(1) = 1.",
+  "id": "A279543",
+  "mentions": [
+    "A015460",
+    "A128915",
+    "A280294",
+    "A280340"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:47",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

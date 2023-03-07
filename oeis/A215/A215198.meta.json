@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that n and n + 1 are both of the form p*q^5 where p and q are distinct primes.",
+  "id": "A215198",
+  "mentions": [
+    "A074172",
+    "A178740",
+    "A215173",
+    "A215197"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

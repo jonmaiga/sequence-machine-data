@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = a(n-1) + a(n-2) - floor(a(n-2)/2), starting 2,1.",
+  "id": "A173497",
+  "mentions": [
+    "A000032",
+    "A064323"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:57",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

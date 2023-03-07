@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k divides A109227(k); or k such that A109227(k) is a Niven number.",
+  "id": "A109228",
+  "mentions": [
+    "A005349",
+    "A109227"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

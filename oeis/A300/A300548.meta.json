@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = [x^n] Product_{d|n} 1/(1 + x^d).",
+  "id": "A300548",
+  "mentions": [
+    "A018818",
+    "A033630",
+    "A065091",
+    "A081362",
+    "A300547",
+    "A300549"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

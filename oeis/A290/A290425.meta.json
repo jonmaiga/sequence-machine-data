@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that the reverse of 4*p is the nextprime(p+1).",
+  "id": "A290425",
+  "mentions": [
+    "A093672",
+    "A198972"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

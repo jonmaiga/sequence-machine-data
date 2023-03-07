@@ -1,0 +1,29 @@
+{
+  "description": "Number of distinct prime factors of A104357(n) = A104350(n) - 1.",
+  "id": "A104360",
+  "mentions": [
+    "A001221",
+    "A054989",
+    "A066877",
+    "A104350",
+    "A104357",
+    "A104358",
+    "A104359",
+    "A104361",
+    "A104362",
+    "A104363",
+    "A104364",
+    "A104368"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 2,
+    "size": 110,
+    "source": "oeis-bfile"
+  }
+}

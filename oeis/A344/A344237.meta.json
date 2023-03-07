@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that are the sum of five fourth powers in exactly two ways.",
+  "id": "A344237",
+  "mentions": [
+    "A048927",
+    "A342686",
+    "A344190",
+    "A344193",
+    "A344238",
+    "A344244",
+    "A345814"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

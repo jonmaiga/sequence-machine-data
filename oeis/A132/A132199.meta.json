@@ -1,0 +1,24 @@
+{
+  "description": "Rowland's prime-generating sequence: first differences of A106108.",
+  "id": "A132199",
+  "mentions": [
+    "A106108",
+    "A134734",
+    "A134743",
+    "A134744",
+    "A137613",
+    "A191304",
+    "A247090"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

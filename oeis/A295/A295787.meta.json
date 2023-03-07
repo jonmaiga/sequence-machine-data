@@ -1,0 +1,17 @@
+{
+  "description": "Positive integers m such that m, m + 1 and m + 2 are a sum of a positive square and a positive cube.",
+  "id": "A295787",
+  "mentions": [
+    "A055394"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:14",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

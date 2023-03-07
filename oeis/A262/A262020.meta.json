@@ -1,0 +1,20 @@
+{
+  "description": "Inverse binomial transform of double factorial n!! = A006882(n).",
+  "id": "A262020",
+  "mentions": [
+    "A000166",
+    "A006882",
+    "A263529"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:21",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

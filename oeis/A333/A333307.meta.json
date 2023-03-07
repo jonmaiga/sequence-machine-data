@@ -1,0 +1,22 @@
+{
+  "description": "Lexicographically earliest sequence over {0,1,2} that has the shortest palindromic or square subsequence (see Comments for precise definition).",
+  "id": "A333307",
+  "mentions": [
+    "A006345",
+    "A007814",
+    "A100833",
+    "A157238",
+    "A283131",
+    "A333325"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

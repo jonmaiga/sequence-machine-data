@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that n = phi(d_1)!*phi(d_2)!* ... *phi(d_k)! where d_1 d_2 ... d_k is the decimal expansion of n and assume that phi(0)=0.",
+  "id": "A102279",
+  "mentions": [
+    "A097655",
+    "A102280",
+    "A102281"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Parameters k for which the Tate-Shafarevich group Ш of the elliptic curve y^2=x^3+k has order 16.",
+  "id": "A179130",
+  "mentions": [
+    "A001014",
+    "A002151",
+    "A002153",
+    "A002155",
+    "A031507",
+    "A179127",
+    "A179128",
+    "A179129",
+    "A179138",
+    "A179144"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

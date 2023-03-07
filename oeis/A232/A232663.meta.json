@@ -1,0 +1,19 @@
+{
+  "description": "Number of permutations of order n such that no proper partial sum is zero modulo n.",
+  "id": "A232663",
+  "mentions": [
+    "A232664"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

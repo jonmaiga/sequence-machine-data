@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the largest j such that A278101(n,k) strictly decreases for k=1..j.",
+  "id": "A278102",
+  "mentions": [
+    "A277647",
+    "A278101",
+    "A278103",
+    "A278104",
+    "A278106"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:44",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

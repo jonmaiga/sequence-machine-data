@@ -1,0 +1,20 @@
+{
+  "description": "Number of symmetry classes of 3x3 semimagic squares with distinct positive values and magic sum n.",
+  "id": "A173725",
+  "mentions": [
+    "A173547",
+    "A173723",
+    "A173726"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 15,
+    "size": 48,
+    "source": "joeis"
+  }
+}

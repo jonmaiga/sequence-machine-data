@@ -1,0 +1,18 @@
+{
+  "description": "Emirps p such that the average of p and its digit reversal is an emirp.",
+  "id": "A357098",
+  "mentions": [
+    "A006567"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

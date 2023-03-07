@@ -1,0 +1,28 @@
+{
+  "description": "Number of integer partitions of n whose Heinz number (product of primes of parts) is divisible by all parts.",
+  "id": "A330952",
+  "mentions": [
+    "A056239",
+    "A057568",
+    "A112798",
+    "A120383",
+    "A324756",
+    "A324925",
+    "A326149",
+    "A326155",
+    "A330950",
+    "A330953",
+    "A330954",
+    "A331383"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

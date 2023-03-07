@@ -1,0 +1,17 @@
+{
+  "description": "Main diagonal of A332372.",
+  "id": "A332373",
+  "mentions": [
+    "A332372"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 2,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

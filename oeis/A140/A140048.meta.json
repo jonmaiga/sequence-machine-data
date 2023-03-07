@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (1/2)*Sum_{j=0..2^n-1} j^(n-1) for n>=1.",
+  "id": "A140048",
+  "mentions": [
+    "A010060",
+    "A140047"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

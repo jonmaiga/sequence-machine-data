@@ -1,0 +1,23 @@
+{
+  "description": "A linear-recurrent solution to Hofstadter's Q recurrence.",
+  "id": "A283880",
+  "mentions": [
+    "A005185",
+    "A188670",
+    "A244477",
+    "A269328",
+    "A275153",
+    "A283881"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:54",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

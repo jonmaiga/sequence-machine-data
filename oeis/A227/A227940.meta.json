@@ -1,0 +1,17 @@
+{
+  "description": "Number of runs of strictly increasing numbers of 2 X 2 squares in the list of partitions of n^2 into squares, where partition sorting order is ascending with larger squares taking higher precedence.",
+  "id": "A227940",
+  "mentions": [
+    "A037444"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

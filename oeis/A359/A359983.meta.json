@@ -1,0 +1,22 @@
+{
+  "description": "Numbers with exactly two nonzero decimal digits and not ending with 0.",
+  "id": "A359983",
+  "mentions": [
+    "A038687",
+    "A359098",
+    "A359651"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

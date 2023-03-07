@@ -1,0 +1,23 @@
+{
+  "description": "Each row of triangle T(n,k) has a sorted list of n values such that sigma(T(n,k)) = A007368(n).",
+  "id": "A201915",
+  "mentions": [
+    "A002025",
+    "A002046",
+    "A007368",
+    "A180164",
+    "A184393",
+    "A184394"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

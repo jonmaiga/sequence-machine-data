@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = Sum_{k=0..n} E2(n, k)*2^k, where E2(n, k) are the second-order Eulerian numbers A340556.",
+  "id": "A112487",
+  "mentions": [
+    "A032034",
+    "A032188",
+    "A042977",
+    "A112486",
+    "A134685",
+    "A134991",
+    "A135338",
+    "A340556"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

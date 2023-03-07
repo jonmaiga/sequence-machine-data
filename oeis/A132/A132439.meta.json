@@ -1,0 +1,20 @@
+{
+  "description": "Square array a(m,n) read by antidiagonals, where a(m,n) is the number of ways to move a chess queen from the lower left corner to square (m,n), with the queen moving only up, right, or diagonally up-right.",
+  "id": "A132439",
+  "mentions": [
+    "A035002"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

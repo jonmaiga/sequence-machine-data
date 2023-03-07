@@ -1,0 +1,20 @@
+{
+  "description": "Denominators of convergents to continued fraction expansion of tribonacci constant (A058265, A019712).",
+  "id": "A319429",
+  "mentions": [
+    "A019712",
+    "A058265",
+    "A319428"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

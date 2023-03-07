@@ -1,0 +1,33 @@
+{
+  "description": "a(n) is the common denominator of the A338197(n) rational resistance values that can be obtained from a network of exactly n one-ohm resistors, but not by a network of fewer than n one-ohm resistors.",
+  "id": "A338600",
+  "mentions": [
+    "A048211",
+    "A051389",
+    "A180414",
+    "A337517",
+    "A338197",
+    "A338580",
+    "A338590",
+    "A338595",
+    "A338596",
+    "A338597",
+    "A338598",
+    "A338599",
+    "A338605",
+    "A338606",
+    "A338607",
+    "A338608",
+    "A338609"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

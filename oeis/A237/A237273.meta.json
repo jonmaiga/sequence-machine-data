@@ -1,0 +1,35 @@
+{
+  "description": "Triangle read by rows: T(n,k) = k+m, if k < m and k*m = n, or T(n,k) = k, if k^2 = n. Otherwise T(n,k) = 0. With n>=1 and 1<=k<=A000196(n).",
+  "id": "A237273",
+  "mentions": [
+    "A000196",
+    "A000203",
+    "A000290",
+    "A008578",
+    "A018253",
+    "A027750",
+    "A065475",
+    "A196020",
+    "A210959",
+    "A212119",
+    "A212120",
+    "A228812",
+    "A228814",
+    "A231347",
+    "A236104",
+    "A236631",
+    "A237519",
+    "A237593"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

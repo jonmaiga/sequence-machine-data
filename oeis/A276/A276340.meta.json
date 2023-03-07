@@ -1,0 +1,27 @@
+{
+  "description": "Shift left the greedy A001563-base (A276326) representation of n (append 0 to the right, then convert back to decimal).",
+  "id": "A276340",
+  "mentions": [
+    "A001563",
+    "A153880",
+    "A255411",
+    "A276091",
+    "A276326",
+    "A276335",
+    "A276338",
+    "A276339",
+    "A276341"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

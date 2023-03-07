@@ -1,0 +1,20 @@
+{
+  "description": "Smallest composite that is not an n-th power, but can be written as the sum of the n-th powers of two or more of its distinct prime factors.",
+  "id": "A283449",
+  "mentions": [
+    "A058041",
+    "A257659"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 2,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

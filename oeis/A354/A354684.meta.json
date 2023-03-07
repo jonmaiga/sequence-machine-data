@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the horizontal distance between the equal-height endpoints of a suspended unit-length chain for which the area between the chord joining the endpoints and the chain has a maximum value.",
+  "id": "A354684",
+  "mentions": [
+    "A225146"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

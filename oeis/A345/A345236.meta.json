@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: The rightmost column contains the terms of A002262 starting at A002262(1). Each time a column's value is zero (except for a(0)), the column to its left starts at the next term in A002262, or if that column does not yet exist, it starts at A002262(2).",
+  "id": "A345236",
+  "mentions": [
+    "A002262",
+    "A006893",
+    "A052146"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

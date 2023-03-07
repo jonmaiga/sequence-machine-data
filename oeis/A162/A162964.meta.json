@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = sigma(sigma(sigma(sigma(sigma(n))))).",
+  "id": "A162964",
+  "mentions": [
+    "A000203",
+    "A049107",
+    "A051027",
+    "A066971",
+    "A129076"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

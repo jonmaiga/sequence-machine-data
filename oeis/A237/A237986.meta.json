@@ -1,0 +1,20 @@
+{
+  "description": "Area of smallest square containing n L's with short side lengths 1, 2, ..., n.",
+  "id": "A237986",
+  "mentions": [
+    "A211372"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

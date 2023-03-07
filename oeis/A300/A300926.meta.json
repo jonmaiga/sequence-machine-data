@@ -1,0 +1,18 @@
+{
+  "description": "Number of nX4 0..1 arrays with every element equal to 1, 2, 3, 4 or 5 horizontally, vertically or antidiagonally adjacent elements, with upper left element zero.",
+  "id": "A300926",
+  "mentions": [
+    "A300930"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

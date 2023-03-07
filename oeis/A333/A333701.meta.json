@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways to write n as the sum of two positive integers with the same number of distinct prime factors.",
+  "id": "A333701",
+  "mentions": [
+    "A001221",
+    "A333708"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

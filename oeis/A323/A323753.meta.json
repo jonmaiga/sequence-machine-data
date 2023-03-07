@@ -1,0 +1,27 @@
+{
+  "description": "Lesser member of primitive exponential amicable pairs.",
+  "id": "A323753",
+  "mentions": [
+    "A049419",
+    "A051377",
+    "A054979",
+    "A054980",
+    "A055231",
+    "A126164",
+    "A126165",
+    "A126166",
+    "A126167",
+    "A323754"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

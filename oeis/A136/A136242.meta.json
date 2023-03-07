@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n among A008864 such that n^2 - n + 1 is prime.",
+  "id": "A136242",
+  "mentions": [
+    "A008864",
+    "A053182",
+    "A053183",
+    "A136243"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Quet transform of A002260.",
+  "id": "A101387",
+  "mentions": [
+    "A002260",
+    "A065562",
+    "A065579",
+    "A100661"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

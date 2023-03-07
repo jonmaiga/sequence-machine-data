@@ -1,0 +1,17 @@
+{
+  "description": "Sums of at least 2 squares s', for s >= 4.",
+  "id": "A176209",
+  "mentions": [
+    "A000290"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

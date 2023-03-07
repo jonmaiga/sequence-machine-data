@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of the second Malmsten integral: Integer_{x >= 1} log(log(x))/(1 + x + x^2) dx, negated.",
+  "id": "A256127",
+  "mentions": [
+    "A002194",
+    "A002391",
+    "A061444",
+    "A073005",
+    "A115252",
+    "A256128",
+    "A256129",
+    "A256165"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

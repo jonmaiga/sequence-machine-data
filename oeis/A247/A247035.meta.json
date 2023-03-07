@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of 2*(x+1)*(x^4+6*x^3+5*x^2+6*x+1)/(x^6-18*x^3+1).",
+  "id": "A247035",
+  "mentions": [
+    "A000045",
+    "A002878"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Absolute primes, alternative definition: every permutation of digits is a prime and there are at least two different digits.",
+  "id": "A129338",
+  "mentions": [
+    "A003459"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

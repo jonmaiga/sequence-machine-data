@@ -1,0 +1,23 @@
+{
+  "description": "Power ceiling-floor sequence of 2 + sqrt(3).",
+  "id": "A214998",
+  "mentions": [
+    "A001353",
+    "A001654",
+    "A001835",
+    "A109437",
+    "A214992"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Coefficients in expansion of E_10^(1/2).",
+  "id": "A289294",
+  "mentions": [
+    "A004009",
+    "A013974",
+    "A289024",
+    "A289291",
+    "A289292",
+    "A289293",
+    "A289295"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:03",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

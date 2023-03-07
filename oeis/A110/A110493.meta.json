@@ -1,0 +1,19 @@
+{
+  "description": "Largest prime p such that p^2 divides binomial(2n,n), or 0 if binomial(2n,n) is squarefree.",
+  "id": "A110493",
+  "mentions": [
+    "A059097",
+    "A110494"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 0,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

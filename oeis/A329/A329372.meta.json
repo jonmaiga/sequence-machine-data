@@ -1,0 +1,26 @@
+{
+  "description": "Dirichlet convolution of the identity function with A156552.",
+  "id": "A329372",
+  "mentions": [
+    "A000203",
+    "A000265",
+    "A061395",
+    "A156552",
+    "A297112",
+    "A297167",
+    "A329371",
+    "A329373",
+    "A329374"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

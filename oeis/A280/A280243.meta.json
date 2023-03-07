@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of (Sum_{k>=2} floor(1/omega(k))*x^k)^3, where omega(k) is the number of distinct prime factors (A001221).",
+  "id": "A280243",
+  "mentions": [
+    "A001221",
+    "A098238",
+    "A246655"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:48",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

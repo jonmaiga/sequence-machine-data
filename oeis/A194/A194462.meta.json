@@ -1,0 +1,19 @@
+{
+  "description": "Numbers m such that Sum_{k=1..m} ( - ) > 0, where r=(1+sqrt(5))/2 and c=(-1+sqrt(5))/4, and < > denotes fractional part.",
+  "id": "A194462",
+  "mentions": [
+    "A184461",
+    "A184462",
+    "A194368"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:48",
+    "offset": 1,
+    "size": 68,
+    "source": "joeis"
+  }
+}

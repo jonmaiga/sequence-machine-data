@@ -1,0 +1,19 @@
+{
+  "description": "Catalan(n)^2 mod prime(n).",
+  "id": "A246763",
+  "mentions": [
+    "A000040",
+    "A000108",
+    "A246714"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

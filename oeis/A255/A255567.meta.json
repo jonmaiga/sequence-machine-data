@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1, a(2) = 2, after which, a(2n+1) = 1 + a(2n), a(2n) = A255411(a(n)).",
+  "id": "A255567",
+  "mentions": [
+    "A255411",
+    "A255566",
+    "A256450"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

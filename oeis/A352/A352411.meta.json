@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f.: x / LambertW( x/(1-x) ).",
+  "id": "A352411",
+  "mentions": [
+    "A352410",
+    "A352412",
+    "A352448"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

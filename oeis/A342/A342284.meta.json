@@ -1,0 +1,19 @@
+{
+  "description": "Number of friendly 3-watermelons of length n.",
+  "id": "A342284",
+  "mentions": [
+    "A001181",
+    "A342282"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

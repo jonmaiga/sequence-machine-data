@@ -1,0 +1,20 @@
+{
+  "description": "Number of fixed polytans (polyaboloes) with n cells.",
+  "id": "A353978",
+  "mentions": [
+    "A001168",
+    "A006074",
+    "A151519"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

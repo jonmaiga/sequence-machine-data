@@ -1,0 +1,22 @@
+{
+  "description": "Table read by rows: T(n, k) is the last k bits of n interpreted as a base-2 representation of a number and converted to decimal, 0 <= k <= A070939(n).",
+  "id": "A309576",
+  "mentions": [
+    "A070939",
+    "A309577"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

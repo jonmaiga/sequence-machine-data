@@ -1,0 +1,27 @@
+{
+  "description": "Numbers m such that gcd(d(m),6) = 1.",
+  "id": "A352475",
+  "mentions": [
+    "A000005",
+    "A000290",
+    "A001694",
+    "A007310",
+    "A047233",
+    "A076400",
+    "A100044",
+    "A336590",
+    "A350014"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

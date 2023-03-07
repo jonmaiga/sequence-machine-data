@@ -1,0 +1,25 @@
+{
+  "description": "Indices k such that A292547(k) = 0.",
+  "id": "A292740",
+  "mentions": [
+    "A001476",
+    "A022555",
+    "A031980",
+    "A276517",
+    "A279329",
+    "A279486",
+    "A279529",
+    "A290276",
+    "A292547"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

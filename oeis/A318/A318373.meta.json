@@ -1,0 +1,24 @@
+{
+  "description": "The 10-adic integer c = ...6921651002 satisfying c^3 + 1 = d, d^3 + 1 = a, a^3 + 1 = b and b^3 + 1 = c.",
+  "id": "A318373",
+  "mentions": [
+    "A317698",
+    "A318299",
+    "A318300",
+    "A318302",
+    "A318352",
+    "A318353",
+    "A318374"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:39",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of non-attacking bishop positions on a cylindrical 3 X 2n chessboard.",
+  "id": "A287168",
+  "mentions": [
+    "A286810",
+    "A287169"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:59",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

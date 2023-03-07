@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k / rad(k) > m / rad(m) for all m < k.",
+  "id": "A334151",
+  "mentions": [
+    "A003557",
+    "A006899",
+    "A007947",
+    "A064549"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "The hyper-Wiener index of the Fibonacci cube Gamma(n) (n>=1).",
+  "id": "A246175",
+  "mentions": [
+    "A001871",
+    "A001906",
+    "A246176",
+    "A246178"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:59:58",
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

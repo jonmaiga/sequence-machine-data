@@ -1,0 +1,20 @@
+{
+  "description": "Floor(M(g(n-1)+1,..,g(n))), where M = harmonic mean and g(n) = n*(n + 1)*(n + 2)*(n + 3)/24.",
+  "id": "A227018",
+  "mentions": [
+    "A227012",
+    "A227016"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:03:31",
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the coefficient A_k in the transformation of 1 + x + x^2 + ... + x^n to the polynomial A_k*(x+3)^k for 0 <= k <= n.",
+  "id": "A248811",
+  "mentions": [
+    "A014983",
+    "A077925",
+    "A191008",
+    "A193843"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Each term is the number of letters in the Spanish name of the previous term.",
+  "id": "A101432",
+  "mentions": [
+    "A000655",
+    "A011762",
+    "A061504",
+    "A328263"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:43:39",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

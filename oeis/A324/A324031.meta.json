@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the conversion factor from the old SI unit A (ampere) to the combination of 2019 SI units e*Δν_{Cs}.",
+  "id": "A324031",
+  "mentions": [
+    "A081823",
+    "A230458",
+    "A322415"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": -9,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

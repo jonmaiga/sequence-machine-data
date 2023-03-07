@@ -1,0 +1,26 @@
+{
+  "description": "Concentric triangular numbers (see Comments lines for definition).",
+  "id": "A194273",
+  "mentions": [
+    "A000217",
+    "A008486",
+    "A032528",
+    "A069131",
+    "A152751",
+    "A194272",
+    "A194274",
+    "A194275"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:09:15",
+    "offset": 0,
+    "size": 56,
+    "source": "joeis"
+  }
+}

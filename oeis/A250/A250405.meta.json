@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that the multiset of all values of phi of all divisors of n equals the multiset of all proper divisors of n+1 where phi is the Euler totient function (A000010).",
+  "id": "A250405",
+  "mentions": [
+    "A000010",
+    "A050474",
+    "A051179",
+    "A116518",
+    "A250404"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

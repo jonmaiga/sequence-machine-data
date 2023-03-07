@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the number of prime powers (not including 1) that are bi-unitary divisors of n.",
+  "id": "A349326",
+  "mentions": [
+    "A000961",
+    "A001222",
+    "A122756",
+    "A222266",
+    "A246655",
+    "A268335",
+    "A286324",
+    "A349258",
+    "A349281"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

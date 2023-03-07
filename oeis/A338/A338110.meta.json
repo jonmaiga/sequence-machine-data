@@ -1,0 +1,21 @@
+{
+  "description": "Number of spanning trees in the join of the disjoint union of two complete graphs each on n vertices with the empty graph on n vertices.",
+  "id": "A338110",
+  "mentions": [
+    "A011655",
+    "A193131",
+    "A204437",
+    "A338104"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

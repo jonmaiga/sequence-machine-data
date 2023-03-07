@@ -1,0 +1,20 @@
+{
+  "description": "Coefficients in the expansion of 1/([r]-[2r]x+[3r]x^2-...); [ ]=floor, r=sqrt(e).",
+  "id": "A288235",
+  "mentions": [
+    "A078140",
+    "A288236"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

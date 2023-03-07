@@ -1,0 +1,40 @@
+{
+  "description": "Triangle read by rows: coefficients in polynomials P_n(u) arising from the expansion of D^(n-1) (tan x) in increasing powers of tan x for n>=1 and 1 for n=0.",
+  "id": "A155100",
+  "mentions": [
+    "A000142",
+    "A000165",
+    "A000182",
+    "A000367",
+    "A000436",
+    "A000831",
+    "A002301",
+    "A002445",
+    "A008292",
+    "A008293",
+    "A019538",
+    "A101343",
+    "A104035",
+    "A156073",
+    "A156075",
+    "A156076",
+    "A156102",
+    "A156103",
+    "A156108",
+    "A156122",
+    "A185896"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:37",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

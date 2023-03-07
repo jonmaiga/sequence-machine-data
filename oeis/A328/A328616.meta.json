@@ -1,0 +1,26 @@
+{
+  "description": "Number of digits in primorial base expansion of n that are maximal possible in their positions.",
+  "id": "A328616",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A049345",
+    "A057588",
+    "A260736",
+    "A276086",
+    "A328114",
+    "A328614",
+    "A328615"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:57",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

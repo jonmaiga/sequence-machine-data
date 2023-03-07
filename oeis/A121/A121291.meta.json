@@ -1,0 +1,18 @@
+{
+  "description": "Rounded partial sum of atomic weights of first n elements.",
+  "id": "A121291",
+  "mentions": [
+    "A007656",
+    "A070217"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

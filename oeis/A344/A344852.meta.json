@@ -1,0 +1,19 @@
+{
+  "description": "Number of rooted binary trees with n leaves with minimal Symmetry Nodes Index (SNI) or, equivalently, with the maximal number of symmetry nodes.",
+  "id": "A344852",
+  "mentions": [
+    "A000120",
+    "A001147"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:06:05",
+    "offset": 1,
+    "size": 96,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Smallest integer m > n such that the multiset of nonzero decimal digits of m is exactly the same as the multiset of nonzero decimal digits of n.",
+  "id": "A360443",
+  "mentions": [
+    "A009994",
+    "A057168",
+    "A354049"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "easy",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

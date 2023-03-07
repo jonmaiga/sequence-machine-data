@@ -1,0 +1,18 @@
+{
+  "description": "Natural numbers with number of perfect partitions equal to a perfect power.",
+  "id": "A166982",
+  "mentions": [
+    "A001597",
+    "A002033"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

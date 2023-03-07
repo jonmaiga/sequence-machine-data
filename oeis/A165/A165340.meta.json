@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,0) = smallest number m such that A165331(m)=n and A165330(m)=153; T(n,k+1) = sum of cubes of digits of T(n,k), 0<=k",
+  "id": "A165340",
+  "mentions": [
+    "A008585",
+    "A055012",
+    "A165330",
+    "A165331"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:48",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

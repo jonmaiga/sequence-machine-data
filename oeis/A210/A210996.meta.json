@@ -1,0 +1,27 @@
+{
+  "description": "Number of free polyominoes with 2n cells.",
+  "id": "A210996",
+  "mentions": [
+    "A000105",
+    "A000988",
+    "A056785",
+    "A056786",
+    "A210986",
+    "A210988",
+    "A210997",
+    "A213376",
+    "A216492",
+    "A216583"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

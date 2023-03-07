@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Sum_{k>=0} binomial(4*k, 2*k)/2^(6*k).",
+  "id": "A145439",
+  "mentions": [
+    "A010503",
+    "A020760",
+    "A020763"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

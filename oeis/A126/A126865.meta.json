@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = gcd(Product_{p|n} (p+1)^b(p,n), Product_{p|n} (p-1)^b(p,n)), where the products are over the distinct primes, p, that divide n and p^b(p,n) is the highest power of p dividing n.",
+  "id": "A126865",
+  "mentions": [
+    "A003958",
+    "A003959",
+    "A007947",
+    "A066086",
+    "A322362"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:14",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

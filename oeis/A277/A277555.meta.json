@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that k/5^m == 3 (mod 5), where 5^m is the greatest power of 5 that divides k.",
+  "id": "A277555",
+  "mentions": [
+    "A132739",
+    "A277543",
+    "A277548",
+    "A277550",
+    "A277551"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

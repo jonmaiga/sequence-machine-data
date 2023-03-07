@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = smallest prime p such that there is a gap of n*(n+1) between p and the next prime.",
+  "id": "A241886",
+  "mentions": [
+    "A000101",
+    "A000230",
+    "A001223"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

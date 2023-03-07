@@ -1,0 +1,24 @@
+{
+  "description": "Triangle T(n,k) read by rows: the (n-k)-th term of the k-fold iterated partial sum of the pentagonal numbers.",
+  "id": "A125232",
+  "mentions": [
+    "A000326",
+    "A001296",
+    "A002411",
+    "A051836",
+    "A051923",
+    "A095264"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

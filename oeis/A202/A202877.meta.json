@@ -1,0 +1,20 @@
+{
+  "description": "Array: row n shows the coefficients of the characteristic polynomial of the n-th principal submatrix of the symmetric matrix A202875; by antidiagonals.",
+  "id": "A202877",
+  "mentions": [
+    "A202605",
+    "A202875",
+    "A202876"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:37:11",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

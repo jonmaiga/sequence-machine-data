@@ -1,0 +1,23 @@
+{
+  "description": "Apply the transformation 0 -> 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 0 to the digits of n written in base 8, then convert back to base 10.",
+  "id": "A256298",
+  "mentions": [
+    "A035327",
+    "A048379",
+    "A256293",
+    "A256299",
+    "A256308"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:50:51",
+    "offset": 0,
+    "size": 60,
+    "source": "joeis"
+  }
+}

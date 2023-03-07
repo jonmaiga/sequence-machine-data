@@ -1,0 +1,18 @@
+{
+  "description": "Number of spanning trees of the n-barbell graph.",
+  "id": "A193129",
+  "mentions": [
+    "A000272"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

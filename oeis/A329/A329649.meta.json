@@ -1,0 +1,21 @@
+{
+  "description": "Let D = A042948(n) be the n-th positive integer congruent to 0 or 1 mod 4, then a(n) = b(D) := Sum_{i=1..D} Kronecker(D,i)*i^2, where Kronecker(D,i) is the Kronecker symbol.",
+  "id": "A329649",
+  "mentions": [
+    "A003658",
+    "A042948",
+    "A053818",
+    "A316860"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

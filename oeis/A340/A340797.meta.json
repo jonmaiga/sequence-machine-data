@@ -1,0 +1,28 @@
+{
+  "description": "Integers whose number of divisors that are Brazilian sets a new record.",
+  "id": "A340797",
+  "mentions": [
+    "A002182",
+    "A093036",
+    "A125134",
+    "A220570",
+    "A308851",
+    "A340548",
+    "A340549",
+    "A340637",
+    "A340638",
+    "A340795",
+    "A340796"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

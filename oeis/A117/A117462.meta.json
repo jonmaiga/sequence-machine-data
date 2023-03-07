@@ -1,0 +1,21 @@
+{
+  "description": "The number of doubling steps of SOD(n) to exceed or equal n.",
+  "id": "A117462",
+  "mentions": [
+    "A007953",
+    "A117463"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "The number of partitions of 2n into exactly two parts such that the smaller and larger parts are not both prime.",
+  "id": "A227065",
+  "mentions": [
+    "A045917"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:05:51",
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

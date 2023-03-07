@@ -1,0 +1,25 @@
+{
+  "description": "Number of octic primitive Dirichlet characters modulo n.",
+  "id": "A329272",
+  "mentions": [
+    "A114643",
+    "A160498",
+    "A160499",
+    "A247257",
+    "A307380",
+    "A307381",
+    "A307382"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

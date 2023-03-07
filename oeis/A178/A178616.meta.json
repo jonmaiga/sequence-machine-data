@@ -1,0 +1,24 @@
+{
+  "description": "Triangle by columns, odd columns of Pascal's triangle A007318, otherwise (1, 0, 0, 0, ...).",
+  "id": "A178616",
+  "mentions": [
+    "A007318",
+    "A052950",
+    "A065619",
+    "A095704",
+    "A162109",
+    "A162169"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

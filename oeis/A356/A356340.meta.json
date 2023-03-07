@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=1..n} binomial(2*n, n-k) * phi(k), where phi is the Euler totient function.",
+  "id": "A356340",
+  "mentions": [
+    "A000010",
+    "A002088",
+    "A306988",
+    "A351146"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

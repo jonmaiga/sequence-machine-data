@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of n into pentanacci numbers 1,2,4,8,16,31, ... (A001591).",
+  "id": "A357454",
+  "mentions": [
+    "A001591",
+    "A003107",
+    "A240844",
+    "A288120",
+    "A357452",
+    "A357455"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

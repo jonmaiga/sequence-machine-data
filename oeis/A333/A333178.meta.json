@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{d|n, gcd(d, n/d) = 1} prime(d).",
+  "id": "A333178",
+  "mentions": [
+    "A000040",
+    "A001221",
+    "A007445",
+    "A076479",
+    "A333177"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

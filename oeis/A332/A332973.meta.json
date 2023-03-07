@@ -1,0 +1,27 @@
+{
+  "description": "Solutions k of the equation usigma(k) = usigma(k-1) + usigma(k-2) where usigma(k) is the sum of unitary divisors of k (A034448).",
+  "id": "A332973",
+  "mentions": [
+    "A034448",
+    "A065557",
+    "A065900",
+    "A075565",
+    "A076136",
+    "A145469",
+    "A291126",
+    "A291176",
+    "A292033",
+    "A294995",
+    "A332974"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

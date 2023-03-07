@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of triangular numbers, from among (T(1), T(2), T(3), ..., T(n)), which are coprime to T(n), where T(n) = n(n+1)/2 is the n-th triangular number.",
+  "id": "A126247",
+  "mentions": [
+    "A000217"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

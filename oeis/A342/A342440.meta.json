@@ -1,0 +1,20 @@
+{
+  "description": "The longest length of consecutive primes which sums to prime = A342439(n) < 10^n.",
+  "id": "A342440",
+  "mentions": [
+    "A342439",
+    "A342443",
+    "A342444"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

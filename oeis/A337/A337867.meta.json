@@ -1,0 +1,19 @@
+{
+  "description": "Number of polyfetts (or polifetti) with n cells, identifying mirror images.",
+  "id": "A337867",
+  "mentions": [
+    "A006074"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

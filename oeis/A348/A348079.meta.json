@@ -1,0 +1,20 @@
+{
+  "description": "Starts of runs of 5 consecutive numbers that have an equal number of even and odd exponents in their prime factorization (A187039).",
+  "id": "A348079",
+  "mentions": [
+    "A187039",
+    "A348076",
+    "A348077",
+    "A348078"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

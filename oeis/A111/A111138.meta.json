@@ -1,0 +1,19 @@
+{
+  "description": "Let b(n) denote the number of nontriangular numbers less than or equal to n. Then a(n) = b(n-1) + a(b(n-1)), with a(1) = a(2) = 0, a(3) = 1.",
+  "id": "A111138",
+  "mentions": [
+    "A002262",
+    "A083920"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:35:49",
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

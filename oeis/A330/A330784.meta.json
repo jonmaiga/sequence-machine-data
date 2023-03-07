@@ -1,0 +1,38 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of balanced reduced multisystems of depth k with n equal atoms.",
+  "id": "A330784",
+  "mentions": [
+    "A000041",
+    "A000111",
+    "A000669",
+    "A001055",
+    "A001970",
+    "A002846",
+    "A005121",
+    "A007042",
+    "A196545",
+    "A213427",
+    "A318812",
+    "A318813",
+    "A320160",
+    "A330474",
+    "A330475",
+    "A330655",
+    "A330667",
+    "A330679",
+    "A330727"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 2,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

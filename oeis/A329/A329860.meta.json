@@ -1,0 +1,32 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of binary words of length n with cuts-resistance k.",
+  "id": "A329860",
+  "mentions": [
+    "A000975",
+    "A027383",
+    "A164707",
+    "A261983",
+    "A318921",
+    "A318928",
+    "A319411",
+    "A319416",
+    "A319420",
+    "A319421",
+    "A329738",
+    "A329767",
+    "A329861",
+    "A329865"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

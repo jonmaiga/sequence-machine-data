@@ -1,0 +1,17 @@
+{
+  "description": "Sequence of pairs k,g such that k is the smallest and k*2^n+1-g, k*2^n+1, k*2^n+1+g are three consecutive primes in arithmetic progression.",
+  "id": "A231578",
+  "mentions": [
+    "A231576"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

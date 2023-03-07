@@ -1,0 +1,33 @@
+{
+  "description": "Number of uniform multiset partitions of uniform multisets of size n whose union is an initial interval of positive integers.",
+  "id": "A322785",
+  "mentions": [
+    "A000040",
+    "A038041",
+    "A072774",
+    "A100778",
+    "A299353",
+    "A306017",
+    "A306018",
+    "A306021",
+    "A317583",
+    "A317584",
+    "A319056",
+    "A319189",
+    "A321721",
+    "A322705",
+    "A322784",
+    "A322788"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

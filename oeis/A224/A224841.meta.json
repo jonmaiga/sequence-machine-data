@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(n,k) read by rows: Substring of k digits of sequence A007376, ending at position n, 1 <= k <= n.",
+  "id": "A224841",
+  "mentions": [
+    "A007376",
+    "A162711"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

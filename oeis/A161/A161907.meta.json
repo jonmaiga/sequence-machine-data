@@ -1,0 +1,17 @@
+{
+  "description": "Primes of the form n^3+n+91.",
+  "id": "A161907",
+  "mentions": [
+    "A133160"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:17:59",
+    "offset": 1,
+    "size": 31,
+    "source": "joeis"
+  }
+}

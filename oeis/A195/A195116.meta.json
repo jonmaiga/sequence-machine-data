@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (2+3^n)*(3+2^n).",
+  "id": "A195116",
+  "mentions": [
+    "A021029",
+    "A060013"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

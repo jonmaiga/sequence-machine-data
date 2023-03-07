@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that sum of the divisors of n equals the sum of the reversals of the divisors of n. Numbers with all palindrome divisors are not in the sequence.",
+  "id": "A196677",
+  "mentions": [
+    "A000203",
+    "A062687",
+    "A069192",
+    "A069942",
+    "A080716"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:18",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

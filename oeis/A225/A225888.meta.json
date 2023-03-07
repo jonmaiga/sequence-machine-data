@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that neither 2 nor 3 are primitive roots, but together 2 and 3 generate the nonzero residues mod p.",
+  "id": "A225888",
+  "mentions": [
+    "A001122",
+    "A001123"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

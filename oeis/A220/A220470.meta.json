@@ -1,0 +1,18 @@
+{
+  "description": "Smallest order of a group with an irreducible complex representation of dimension n.",
+  "id": "A220470",
+  "mentions": [
+    "A224503"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

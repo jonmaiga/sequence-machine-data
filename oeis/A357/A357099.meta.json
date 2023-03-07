@@ -1,0 +1,19 @@
+{
+  "description": "Second nontrivial square root of unity mod A033949(n), i.e., second smallest x > 1 such that x^2 == 1 mod the n-th positive integer that does not have a primitive root.",
+  "id": "A357099",
+  "mentions": [
+    "A033949",
+    "A082568",
+    "A277776"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

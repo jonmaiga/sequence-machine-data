@@ -1,0 +1,21 @@
+{
+  "description": "Numerators of the series expansion of the ground-state energy of the Hubbard model in the limits of strong coupling and infinite dimensions.",
+  "id": "A226584",
+  "mentions": [
+    "A198760",
+    "A198761",
+    "A226585"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "frac",
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 2,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

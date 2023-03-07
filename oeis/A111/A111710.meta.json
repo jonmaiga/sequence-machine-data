@@ -1,0 +1,22 @@
+{
+  "description": "Consider the triangle shown below in which the n-th row contains the n smallest numbers greater than those in the previous row such that the arithmetic mean is an integer. Sequence contains the leading diagonal.",
+  "id": "A111710",
+  "mentions": [
+    "A080512",
+    "A085787",
+    "A111711",
+    "A111712"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:04:41",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

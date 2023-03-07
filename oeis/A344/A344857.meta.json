@@ -1,0 +1,26 @@
+{
+  "description": "Number of polygons formed when every pair of vertices of a regular n-gon are joined by an infinite line.",
+  "id": "A344857",
+  "mentions": [
+    "A002378",
+    "A007678",
+    "A146212",
+    "A344311",
+    "A344866",
+    "A344899",
+    "A344938",
+    "A345025",
+    "A347320"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

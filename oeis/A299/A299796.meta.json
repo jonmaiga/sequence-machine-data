@@ -1,0 +1,20 @@
+{
+  "description": "Largest number k that is not the sum of 3 squares and a nonnegative (2n+5)-th power.",
+  "id": "A299796",
+  "mentions": [
+    "A004215",
+    "A022552",
+    "A297970"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:23",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

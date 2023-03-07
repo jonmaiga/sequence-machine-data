@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k equal to half of the product of the nonzero (base-10) digits of k^2.",
+  "id": "A218030",
+  "mentions": [
+    "A218013",
+    "A218072"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

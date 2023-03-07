@@ -1,0 +1,20 @@
+{
+  "description": "Absolute row sums of triangle A103364, which equals the matrix inverse of the Narayana triangle (A001263).",
+  "id": "A103367",
+  "mentions": [
+    "A001263",
+    "A103364",
+    "A103365",
+    "A103366"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 2,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

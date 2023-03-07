@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the area of the region bounded by y = 1 and y = Gamma(x).",
+  "id": "A335929",
+  "mentions": [
+    "A335960"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

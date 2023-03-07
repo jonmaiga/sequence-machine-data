@@ -1,0 +1,26 @@
+{
+  "description": "Odd prime powers with prime exponents.",
+  "id": "A280609",
+  "mentions": [
+    "A000961",
+    "A034785",
+    "A053810",
+    "A061345",
+    "A078422",
+    "A246547",
+    "A246551",
+    "A246655"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

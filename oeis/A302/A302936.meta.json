@@ -1,0 +1,22 @@
+{
+  "description": "Bi-unitary highly composite deficient numbers: bi-unitary deficient numbers k whose number of bi-unitary divisors bd(k) > bd(m) for all bi-unitary deficient numbers m < k.",
+  "id": "A302936",
+  "mentions": [
+    "A188999",
+    "A286324",
+    "A292982",
+    "A293185",
+    "A302934"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

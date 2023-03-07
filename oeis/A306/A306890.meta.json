@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of prime digits used in writing out all primes up to and including the n-th prime.",
+  "id": "A306890",
+  "mentions": [
+    "A068670",
+    "A109066"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

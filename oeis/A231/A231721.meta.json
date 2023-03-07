@@ -1,0 +1,21 @@
+{
+  "description": "Partial sums of phitorials: a(n) = A001088(1)+A001088(2)+...+A001088(n).",
+  "id": "A231721",
+  "mentions": [
+    "A001088",
+    "A007489",
+    "A231716",
+    "A231722"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

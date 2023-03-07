@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) = A(k,n-k), 1 <= k < n, 2 <= n, where A(m,n) is the number of distinct strings consisting of one X, m+n-1 Y's and m+n-1 Z's in which the X lies to the right of at least m Y's and at least m Z's.",
+  "id": "A351585",
+  "mentions": [
+    "A000984",
+    "A253487",
+    "A351583",
+    "A351584"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 2,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

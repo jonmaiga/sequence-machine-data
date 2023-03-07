@@ -1,0 +1,21 @@
+{
+  "description": "Prime numbers p not of the form 10k+1 for which the quintic polynomial x^5-x-1 modulus p is factorizable into five binomials.",
+  "id": "A135845",
+  "mentions": [
+    "A135842",
+    "A135843",
+    "A135844",
+    "A135846",
+    "A135847"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

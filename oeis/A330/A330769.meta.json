@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Product_{k=n..2*n} prime(k).",
+  "id": "A330769",
+  "mentions": [
+    "A000040",
+    "A002110"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Catalan(n+1)*Bell(n).",
+  "id": "A289680",
+  "mentions": [
+    "A000108",
+    "A000110",
+    "A064299",
+    "A289679"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:04",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

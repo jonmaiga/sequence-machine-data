@@ -1,0 +1,24 @@
+{
+  "description": "Number of times that n appears in n-th OEIS sequence (A_n), or -1 if n appears infinitely many times.",
+  "id": "A250219",
+  "mentions": [
+    "A000001",
+    "A000002",
+    "A000003",
+    "A000004",
+    "A000006",
+    "A000010",
+    "A000019"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

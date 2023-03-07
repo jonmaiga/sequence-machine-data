@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is number of Grand Motzkin paths of length n having k hills (i.e., ud's starting at level 0). (A Grand Motzkin path is a path in the half-plane x>=0, starting at (0,0), ending at (n,0) and consisting of steps u=(1,1), d=(1,-1) and h=(1,0).).",
+  "id": "A109191",
+  "mentions": [
+    "A001006",
+    "A002426",
+    "A015518",
+    "A109192"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

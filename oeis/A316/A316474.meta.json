@@ -1,0 +1,28 @@
+{
+  "description": "Number of locally stable rooted identity trees with n nodes, meaning no branch is a subset of any other branch of the same root.",
+  "id": "A316474",
+  "mentions": [
+    "A000081",
+    "A004111",
+    "A276625",
+    "A277098",
+    "A285572",
+    "A285573",
+    "A303362",
+    "A304713",
+    "A316467",
+    "A316471",
+    "A316475"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

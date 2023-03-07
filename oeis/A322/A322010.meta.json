@@ -1,0 +1,21 @@
+{
+  "description": "Inverse permutation to A322000.",
+  "id": "A322010",
+  "mentions": [
+    "A000123",
+    "A028897",
+    "A072170",
+    "A322000",
+    "A322003"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

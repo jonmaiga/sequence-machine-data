@@ -1,0 +1,25 @@
+{
+  "description": "Numbers that in factorial-base representation have digits with an alternating parity.",
+  "id": "A351897",
+  "mentions": [
+    "A000975",
+    "A007623",
+    "A030141",
+    "A033068",
+    "A033312",
+    "A138524",
+    "A179970",
+    "A341900"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

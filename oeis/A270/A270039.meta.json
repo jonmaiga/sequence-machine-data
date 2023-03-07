@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Smallest m >= 7 containing no threes when represented in any base from 4 through n.",
+  "id": "A270039",
+  "mentions": [
+    "A216192",
+    "A270029",
+    "A270037",
+    "A270045"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 4,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

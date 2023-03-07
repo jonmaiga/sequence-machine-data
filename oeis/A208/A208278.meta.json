@@ -1,0 +1,18 @@
+{
+  "description": "Row sums of Pascal's triangle mod 10 (A008975).",
+  "id": "A208278",
+  "mentions": [
+    "A008975"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

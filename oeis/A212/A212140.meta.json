@@ -1,0 +1,18 @@
+{
+  "description": "Number of k-element subsets S of {1,...,n} such that mean(S) is not equal to median(S).",
+  "id": "A212140",
+  "mentions": [
+    "A212148",
+    "A212149"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

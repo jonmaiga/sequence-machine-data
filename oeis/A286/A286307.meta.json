@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the numerator of r(n), where r(n) = r(n-1) + r(n-2)/(2*(n-1)) with r(0) = 0, r(1) = 1.",
+  "id": "A286307",
+  "mentions": [
+    "A019609",
+    "A268363"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

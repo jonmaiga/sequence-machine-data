@@ -1,0 +1,22 @@
+{
+  "description": "Number of n-digit cuban primes.",
+  "id": "A221792",
+  "mentions": [
+    "A002407",
+    "A113478",
+    "A221793"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

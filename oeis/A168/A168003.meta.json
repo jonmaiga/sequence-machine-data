@@ -1,0 +1,20 @@
+{
+  "description": "Orderly numbers (mod tau(n)+3).",
+  "id": "A168003",
+  "mentions": [
+    "A001122",
+    "A003629",
+    "A167408"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

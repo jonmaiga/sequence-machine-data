@@ -1,0 +1,25 @@
+{
+  "description": "Square array T(n,k), n>=0, k>=0, read by antidiagonals, where column k is the expansion of e.g.f. exp(2 * (exp(x) - Sum_{j=0..k} x^j/j!)).",
+  "id": "A336345",
+  "mentions": [
+    "A000007",
+    "A001861",
+    "A194689",
+    "A293024",
+    "A339014",
+    "A339017",
+    "A339027"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

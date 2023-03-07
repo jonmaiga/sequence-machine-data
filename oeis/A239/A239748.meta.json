@@ -1,0 +1,19 @@
+{
+  "description": "Number of distinct sequences defined by the elements of powers >= 0 of n X n (0,1) matrices.",
+  "id": "A239748",
+  "mentions": [
+    "A238596"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

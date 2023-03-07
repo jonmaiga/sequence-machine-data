@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of polyhedra with n faces and k vertices (n >= 4, k=4..2n-4).",
+  "id": "A212438",
+  "mentions": [
+    "A000944",
+    "A002840",
+    "A002856",
+    "A049337",
+    "A058787",
+    "A239893"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 4,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Integrals of the absolute value of the Z function between successive zeros greater than or equal to the integral corresponding to 12. If we define the normalized Z function by z(x) = Z(2*Pi*x/log(2)), then the 33rd and 34th zeros are approximately 11.82 and 12.25. Integrating |z(x)| between these values gives a quantity I and the above sequence is defined as the midpoints of all successive zeros of z(x) such that the integral of |z(x)| is greater than or equal to I.",
+  "id": "A117539",
+  "mentions": [
+    "A054540",
+    "A117536",
+    "A117537",
+    "A117538"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

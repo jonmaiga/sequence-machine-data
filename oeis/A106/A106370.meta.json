@@ -1,0 +1,22 @@
+{
+  "description": "Smallest b>1 such that n contains no zeros in its base b representation.",
+  "id": "A106370",
+  "mentions": [
+    "A000225",
+    "A032924",
+    "A106371",
+    "A106372",
+    "A119352"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:57",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

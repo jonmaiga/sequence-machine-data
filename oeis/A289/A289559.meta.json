@@ -1,0 +1,18 @@
+{
+  "description": "Number of modulo n residues among sums of two fourth powers.",
+  "id": "A289559",
+  "mentions": [
+    "A155918"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:03",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

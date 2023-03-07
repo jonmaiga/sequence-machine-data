@@ -1,0 +1,19 @@
+{
+  "description": "Square array read by rows: H_k(n,n), with rows n >= 0 and columns 0 <= k <= 3, where H_n is the n-th hyperoperation.",
+  "id": "A280267",
+  "mentions": [
+    "A054871",
+    "A280265"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

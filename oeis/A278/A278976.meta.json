@@ -1,0 +1,22 @@
+{
+  "description": "In the ternary Pi race between digits one and two, where the race leader changes.",
+  "id": "A278976",
+  "mentions": [
+    "A004602",
+    "A278920",
+    "A278974",
+    "A278975",
+    "A278979"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:46",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Number of integer partitions of n whose length and maximum both divide n.",
+  "id": "A326843",
+  "mentions": [
+    "A018818",
+    "A047993",
+    "A067538",
+    "A326837",
+    "A326842",
+    "A326849",
+    "A326851",
+    "A326852"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

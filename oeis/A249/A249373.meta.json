@@ -1,0 +1,26 @@
+{
+  "description": "Prime numbers Q such that the concatenation Q,d,Q is prime for at least one d in the set {1, 2, 3, 4, 5, 6, 7, 8, 9}.",
+  "id": "A249373",
+  "mentions": [
+    "A249350",
+    "A249374",
+    "A249375",
+    "A249376",
+    "A249377",
+    "A249378",
+    "A249379",
+    "A249380",
+    "A249381"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

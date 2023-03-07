@@ -1,0 +1,21 @@
+{
+  "description": "Logarithmic derivative, wrt x, of triangle A227543, as read by terms k=0..n*(n-1)/2 in rows n>=1.",
+  "id": "A227532",
+  "mentions": [
+    "A001700",
+    "A145855",
+    "A153338",
+    "A227543"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

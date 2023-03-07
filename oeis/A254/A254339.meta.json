@@ -1,0 +1,23 @@
+{
+  "description": "Final digits of A254143 in decimal representation.",
+  "id": "A254339",
+  "mentions": [
+    "A010879",
+    "A237424",
+    "A254143",
+    "A254323",
+    "A254338",
+    "A254398"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

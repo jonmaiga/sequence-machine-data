@@ -1,0 +1,20 @@
+{
+  "description": "A 4 x 4 permutation-free magic square.",
+  "id": "A125519",
+  "mentions": [
+    "A080992"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

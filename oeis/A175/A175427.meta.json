@@ -1,0 +1,27 @@
+{
+  "description": "Starting values which reach a single-digit number after a finite number of iterations of the map x->A175429(x).",
+  "id": "A175427",
+  "mentions": [
+    "A175419",
+    "A175420",
+    "A175421",
+    "A175422",
+    "A175423",
+    "A175424",
+    "A175425",
+    "A175426",
+    "A175429"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

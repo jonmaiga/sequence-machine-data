@@ -1,0 +1,33 @@
+{
+  "description": "Total number of vertices in all finite n-dimensional convex regular polytopes, or 0 if the number is infinite.",
+  "id": "A140800",
+  "mentions": [
+    "A000943",
+    "A000944",
+    "A019503",
+    "A053016",
+    "A060296",
+    "A063924",
+    "A063925",
+    "A063926",
+    "A063927",
+    "A065984",
+    "A086653",
+    "A093478",
+    "A093479",
+    "A105230",
+    "A105231"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:29",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

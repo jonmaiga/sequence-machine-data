@@ -1,0 +1,21 @@
+{
+  "description": "Row lengths of triangle in A224075.",
+  "id": "A224076",
+  "mentions": [
+    "A064272",
+    "A214583",
+    "A224075"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 1 and a(n) is the smallest number greater than a(n-1) with no square difference with any preceding term.",
+  "id": "A224839",
+  "mentions": [
+    "A010052",
+    "A210570"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

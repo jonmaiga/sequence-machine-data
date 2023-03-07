@@ -1,0 +1,18 @@
+{
+  "description": "Self-convolution square of A090845.",
+  "id": "A222082",
+  "mentions": [
+    "A090845",
+    "A222083"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

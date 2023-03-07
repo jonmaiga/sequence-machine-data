@@ -1,0 +1,17 @@
+{
+  "description": "Number of 4Xn 0..1 arrays with no element unequal to a strict majority of its horizontal, diagonal and antidiagonal neighbors, with the exception of exactly one element, and with new values introduced in order 0 sequentially upwards.",
+  "id": "A281768",
+  "mentions": [
+    "A281765"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

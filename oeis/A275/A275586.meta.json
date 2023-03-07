@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k that appear more than once in c_{m,n} for integers m >= n >= 1 where c_{m,n} = ((m+n)!(m-n+1))/((n)!(m+1)!).",
+  "id": "A275586",
+  "mentions": [
+    "A009766",
+    "A275481"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

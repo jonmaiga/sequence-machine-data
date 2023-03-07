@@ -1,0 +1,19 @@
+{
+  "description": "Highest exponents of triangular numbers.",
+  "id": "A176166",
+  "mentions": [
+    "A000217",
+    "A005361",
+    "A135939"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

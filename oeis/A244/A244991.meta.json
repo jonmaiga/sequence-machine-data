@@ -1,0 +1,43 @@
+{
+  "description": "Numbers whose greatest prime factor is a prime with an odd index; n such that A006530(n) is in A031368.",
+  "id": "A244991",
+  "mentions": [
+    "A000009",
+    "A001222",
+    "A006530",
+    "A026424",
+    "A026804",
+    "A027193",
+    "A031368",
+    "A056239",
+    "A058695",
+    "A061395",
+    "A066208",
+    "A072233",
+    "A112798",
+    "A122111",
+    "A160786",
+    "A244321",
+    "A244322",
+    "A244989",
+    "A244990",
+    "A300063",
+    "A300272",
+    "A340101",
+    "A340385",
+    "A340386",
+    "A340604",
+    "A340931"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

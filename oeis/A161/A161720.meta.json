@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (prime(n) - 7)/2.",
+  "id": "A161720",
+  "mentions": [
+    "A000040",
+    "A005097",
+    "A105760",
+    "A178674"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:17:39",
+    "offset": 3,
+    "size": 56,
+    "source": "joeis"
+  }
+}

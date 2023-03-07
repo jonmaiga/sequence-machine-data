@@ -1,0 +1,24 @@
+{
+  "description": "Inverse Moebius transform of A035263.",
+  "id": "A174273",
+  "mentions": [
+    "A000005",
+    "A000035",
+    "A000203",
+    "A001511",
+    "A001620",
+    "A035263"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

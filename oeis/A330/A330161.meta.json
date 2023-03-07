@@ -1,0 +1,19 @@
+{
+  "description": "Fundamental discriminant D < 0 with the least absolute value such that the smallest prime p such that Kronecker(D,p) = 1 is p = prime(n), negated.",
+  "id": "A330161",
+  "mentions": [
+    "A306538",
+    "A330221"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

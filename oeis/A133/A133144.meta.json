@@ -1,0 +1,19 @@
+{
+  "description": "Start with n and repeatedly apply the powerback map of A133048. Sequence gives number of steps to the point where the next number would be one that has appeared before.",
+  "id": "A133144",
+  "mentions": [
+    "A131571",
+    "A133048"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Rank transform of the sequence floor((2-sqrt(2))n); complement of A187900.",
+  "id": "A187899",
+  "mentions": [
+    "A000027",
+    "A187224",
+    "A187900"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

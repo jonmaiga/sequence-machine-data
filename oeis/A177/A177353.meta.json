@@ -1,0 +1,19 @@
+{
+  "description": "n! (mod n^2+1).",
+  "id": "A177353",
+  "mentions": [
+    "A002522",
+    "A120416",
+    "A131451"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers m such that m^2 - 1 is the product of three distinct Fibonacci numbers > 1.",
+  "id": "A242103",
+  "mentions": [
+    "A000204",
+    "A242074",
+    "A245688"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

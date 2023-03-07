@@ -1,0 +1,18 @@
+{
+  "description": "Nonprimes b with result 1 under iterations of {r mod (max prime p < r)} starting at r = b.",
+  "id": "A175074",
+  "mentions": [
+    "A175071",
+    "A175073"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

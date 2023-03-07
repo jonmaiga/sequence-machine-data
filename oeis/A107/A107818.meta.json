@@ -1,0 +1,19 @@
+{
+  "description": "Slowest increasing sequence where (product of 2 consecutive integers)-1 is prime.",
+  "id": "A107818",
+  "mentions": [
+    "A070916"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

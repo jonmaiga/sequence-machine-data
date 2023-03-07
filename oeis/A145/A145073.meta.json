@@ -1,0 +1,20 @@
+{
+  "description": "Coefficient of x^(3^n) in Q(x)^(n+1), where Q(x) = Sum_{k>=0} (x^(3^k) + x^(2*3^k)).",
+  "id": "A145073",
+  "mentions": [
+    "A007178",
+    "A145074",
+    "A145075",
+    "A145076"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

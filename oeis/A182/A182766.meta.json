@@ -1,0 +1,19 @@
+{
+  "description": "Beatty sequence for 5 - 2*sqrt(2).",
+  "id": "A182766",
+  "mentions": [
+    "A182760",
+    "A182765"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

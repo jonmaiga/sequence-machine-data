@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 2*n * core(2*n).",
+  "id": "A145109",
+  "mentions": [
+    "A007913",
+    "A016742",
+    "A053143"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

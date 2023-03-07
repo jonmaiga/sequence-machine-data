@@ -1,0 +1,24 @@
+{
+  "description": "The smaller term of the pair (a(n), a(n+1)) is always prime and in each pair there is a composite number; a(1) = 2 and the sequence is always extended with the smallest integer not yet present and not leading to a contradiction.",
+  "id": "A308598",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A008864",
+    "A067747",
+    "A073846",
+    "A073898",
+    "A282649"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Number of (undirected) Hamiltonian paths in the n X n grid graph.",
+  "id": "A120443",
+  "mentions": [
+    "A000532",
+    "A001184",
+    "A003685",
+    "A003695",
+    "A003763",
+    "A003778",
+    "A007764",
+    "A096969",
+    "A121785",
+    "A121789",
+    "A145157",
+    "A145402",
+    "A271507",
+    "A332307"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

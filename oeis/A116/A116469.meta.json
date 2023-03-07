@@ -1,0 +1,29 @@
+{
+  "description": "Square array read by antidiagonals: T(m,n) = number of spanning trees in an m X n grid.",
+  "id": "A116469",
+  "mentions": [
+    "A000012",
+    "A001353",
+    "A003696",
+    "A003779",
+    "A006238",
+    "A007341",
+    "A139400",
+    "A334002",
+    "A334003",
+    "A334004",
+    "A334005"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:06",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

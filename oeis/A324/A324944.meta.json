@@ -1,0 +1,30 @@
+{
+  "description": "Number of cyclic change-ringing sequences of length n for 5 bells.",
+  "id": "A324944",
+  "mentions": [
+    "A000071",
+    "A324942",
+    "A324943",
+    "A324945",
+    "A324946",
+    "A324947",
+    "A324948",
+    "A324949",
+    "A324950",
+    "A324951",
+    "A324952",
+    "A324953"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "fini",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

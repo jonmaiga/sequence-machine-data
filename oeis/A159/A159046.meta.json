@@ -1,0 +1,22 @@
+{
+  "description": "Dimension of the space of newforms of weight 2 on the subgroup Gamma_1(n).",
+  "id": "A159046",
+  "mentions": [
+    "A007247",
+    "A007427",
+    "A029937",
+    "A029938",
+    "A127788"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

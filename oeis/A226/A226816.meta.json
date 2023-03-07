@@ -1,0 +1,20 @@
+{
+  "description": "Numbers of the form 3^j + 7^k, for j and k >= 0.",
+  "id": "A226816",
+  "mentions": [
+    "A004050",
+    "A226791",
+    "A226806",
+    "A226832"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

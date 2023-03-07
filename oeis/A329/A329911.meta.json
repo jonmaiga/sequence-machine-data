@@ -1,0 +1,25 @@
+{
+  "description": "The number of rooted chains of reflexive matrices of order n.",
+  "id": "A329911",
+  "mentions": [
+    "A000629",
+    "A007047",
+    "A038719",
+    "A328044",
+    "A330301",
+    "A330302",
+    "A330804",
+    "A331957"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

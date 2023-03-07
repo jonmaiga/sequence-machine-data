@@ -1,0 +1,20 @@
+{
+  "description": "The list of positive integers that do not appear in the addition or multiplication tables of A338012.",
+  "id": "A338013",
+  "mentions": [
+    "A337657",
+    "A337658",
+    "A337947",
+    "A338012"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

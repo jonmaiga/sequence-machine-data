@@ -1,0 +1,22 @@
+{
+  "description": "G.f.: g(x)^2 * g(x^2), where g(x) is the g.f. of A000081.",
+  "id": "A339985",
+  "mentions": [
+    "A000081",
+    "A051491",
+    "A217781",
+    "A339984",
+    "A339986"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

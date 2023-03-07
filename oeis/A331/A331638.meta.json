@@ -1,0 +1,19 @@
+{
+  "description": "Number of binary matrices with nonzero rows, a total of n ones and each column with the same number of ones and columns in nonincreasing lexicographic order.",
+  "id": "A331638",
+  "mentions": [
+    "A330942",
+    "A331639"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

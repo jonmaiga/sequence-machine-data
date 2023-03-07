@@ -1,0 +1,23 @@
+{
+  "description": "Number of ways to write 2*n as 3^i (i >= 0) plus a prime.",
+  "id": "A350957",
+  "mentions": [
+    "A006285",
+    "A058517",
+    "A282432",
+    "A350628",
+    "A350630",
+    "A350958"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

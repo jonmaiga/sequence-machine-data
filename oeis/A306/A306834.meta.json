@@ -1,0 +1,22 @@
+{
+  "description": "Numerator of the barycenter of first n primes defined as a(n) = numerator(Sum_{i=1..n} (i*prime(i)) / Sum_{i=1..n} prime(i)).",
+  "id": "A306834",
+  "mentions": [
+    "A007504",
+    "A014285",
+    "A272206"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "frac",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

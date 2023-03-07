@@ -1,0 +1,18 @@
+{
+  "description": "Positive integers k that are the sum of divisors of some positive integer but there exists no divisor d where 1 < d, k/d of k such that d and k/d have this property.",
+  "id": "A322376",
+  "mentions": [
+    "A000203",
+    "A002191"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that (k + A000010(k))/2 and (k - A000010(k))/2 are prime.",
+  "id": "A337049",
+  "mentions": [
+    "A000010"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

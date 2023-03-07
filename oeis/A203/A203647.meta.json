@@ -1,0 +1,30 @@
+{
+  "description": "T(n,k) = number of arrays of n 0..k integers with new values introduced in order 0..k but otherwise unconstrained. Array read by antidiagonals.",
+  "id": "A203647",
+  "mentions": [
+    "A000079",
+    "A000110",
+    "A007051",
+    "A007581",
+    "A056272",
+    "A056273",
+    "A099262",
+    "A099263",
+    "A102661",
+    "A164863",
+    "A164864",
+    "A278984"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

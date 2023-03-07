@@ -1,0 +1,26 @@
+{
+  "description": "Exponent of 2 in the hyperfactorials: a(n) = A007814(A002109(n)).",
+  "id": "A249152",
+  "mentions": [
+    "A002109",
+    "A007814",
+    "A011371",
+    "A091512",
+    "A133457",
+    "A143157",
+    "A174605",
+    "A187059",
+    "A249153"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 0,
+    "size": 60,
+    "source": "joeis"
+  }
+}

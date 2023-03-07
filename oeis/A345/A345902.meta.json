@@ -1,0 +1,21 @@
+{
+  "description": "a(0) = 1; for n >= 1, a(n) = A004185(a(n-1)*n).",
+  "id": "A345902",
+  "mentions": [
+    "A000142",
+    "A004185",
+    "A057615",
+    "A069638"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

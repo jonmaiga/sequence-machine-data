@@ -1,0 +1,20 @@
+{
+  "description": "Fifth right hand column of triangle A163940.",
+  "id": "A163942",
+  "mentions": [
+    "A163940",
+    "A163941"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:46",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that k-1 and k+1 are both digitally balanced.",
+  "id": "A191292",
+  "mentions": [
+    "A031443"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "The right Aurifeuillian factor of p^p + 1 for primes p congruent to 3 (mod 4).",
+  "id": "A352401",
+  "mentions": [
+    "A002145",
+    "A125136",
+    "A230379",
+    "A352400",
+    "A352711",
+    "A352732"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

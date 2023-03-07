@@ -1,0 +1,25 @@
+{
+  "description": "Square array read by antidiagonals, in which column k starts with k plateaus of lengths k+1, k, k-1, k-2, k-3,..2 and of levels A000124: 1, 2, 4, 7, 11..., if k >= 1, connected by consecutive integers. After the last plateau the length remains 1.",
+  "id": "A210992",
+  "mentions": [
+    "A000005",
+    "A000027",
+    "A000124",
+    "A028310",
+    "A195825",
+    "A210843",
+    "A210959",
+    "A211970"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows: T(n, k) is the number of rotationally inequivalent Ferris Wheel distributions of Omega(n) colored balls of specification number n into precisely k boxes of the Ferris Wheel, with no box empty (0 < k <= Omega(n)).",
+  "id": "A335078",
+  "mentions": [
+    "A000012",
+    "A001222",
+    "A334996",
+    "A334997",
+    "A335079"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 2,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

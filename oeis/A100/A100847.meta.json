@@ -1,0 +1,25 @@
+{
+  "description": "Number of partitions of 2n in which each odd part has even multiplicity and each even part has odd multiplicity.",
+  "id": "A100847",
+  "mentions": [
+    "A001622",
+    "A055922",
+    "A102247",
+    "A117958",
+    "A130126",
+    "A131942",
+    "A263401"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Write n in base 3 as n = b_0 + b_1*3 + b_2*3^2 + b_3*3^3 + ...; then a(n) = Product_{i >= 0} prime(i+1)^b_i.",
+  "id": "A101278",
+  "mentions": [
+    "A004709",
+    "A019565",
+    "A054842"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

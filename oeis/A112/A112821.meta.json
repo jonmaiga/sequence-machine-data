@@ -1,0 +1,30 @@
+{
+  "description": "Numbers n such that lcm(1,2,3,...,n)/19 equals the denominator of the n-th harmonic number H(n).",
+  "id": "A112821",
+  "mentions": [
+    "A002805",
+    "A003418",
+    "A098464",
+    "A110566",
+    "A112813",
+    "A112814",
+    "A112815",
+    "A112816",
+    "A112817",
+    "A112818",
+    "A112819",
+    "A112820",
+    "A112822"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

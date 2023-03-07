@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle (an infinite binary tree) read by rows: see Comments section for definition.",
+  "id": "A360255",
+  "mentions": [
+    "A000217",
+    "A141001",
+    "A141002",
+    "A321535",
+    "A360173"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "changed",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

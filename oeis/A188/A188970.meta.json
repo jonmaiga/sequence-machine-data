@@ -1,0 +1,20 @@
+{
+  "description": "Zero-one sequence based on (4n-3): a(A016813(k))=a(k); a(A004772(k))=1-a(k); a(1)=0.",
+  "id": "A188970",
+  "mentions": [
+    "A004772",
+    "A016813",
+    "A188971",
+    "A188972"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:41:21",
+    "offset": 1,
+    "size": 135,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle read by rows in which row n contains significant digits after the radix point for unit fractions 1/n expanded in factorial base.",
+  "id": "A294168",
+  "mentions": [
+    "A002034",
+    "A007623",
+    "A276350",
+    "A299020"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

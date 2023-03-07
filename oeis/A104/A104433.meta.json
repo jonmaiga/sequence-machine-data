@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways to split 1, 2, 3, ..., 7n into n arithmetic progressions each with 7 terms.",
+  "id": "A104433",
+  "mentions": [
+    "A104429",
+    "A104432",
+    "A104434",
+    "A104443"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

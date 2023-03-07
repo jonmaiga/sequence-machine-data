@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest infinite sequence of distinct positive terms such that for any n > 1, the binary representation of a(n) appears as a substring in the binary representation of Sum_{k=1..n-1} a(k).",
+  "id": "A317788",
+  "mentions": [
+    "A160855"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:37",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

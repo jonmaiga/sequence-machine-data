@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of 'u', an auxiliary constant associated with the asymptotic number of row-convex polyominoes.",
+  "id": "A246772",
+  "mentions": [
+    "A001169",
+    "A006958",
+    "A067675",
+    "A246773"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:57:47",
+    "offset": 0,
+    "size": 103,
+    "source": "joeis"
+  }
+}

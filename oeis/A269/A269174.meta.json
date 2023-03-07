@@ -1,0 +1,31 @@
+{
+  "description": "Formula for Wolfram's Rule 124 cellular automaton: a(n) = (n OR 2n) AND ((n XOR 2n) OR (n XOR 4n)).",
+  "id": "A269174",
+  "mentions": [
+    "A003986",
+    "A003987",
+    "A004198",
+    "A048724",
+    "A048725",
+    "A057889",
+    "A161903",
+    "A163617",
+    "A267357",
+    "A269173",
+    "A269175",
+    "A269176",
+    "A269177",
+    "A269178"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:31",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

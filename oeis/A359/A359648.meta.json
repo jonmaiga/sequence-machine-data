@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows. T(n, k) = (n!)^2 / (k! * (n - k)! * (floor(n/2)!)^2 * (floor(n/2) + 1)).",
+  "id": "A359648",
+  "mentions": [
+    "A000007",
+    "A057977",
+    "A063549",
+    "A240558"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

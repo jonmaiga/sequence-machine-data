@@ -1,0 +1,31 @@
+{
+  "description": "Digits of one of the three 7-adic integers 6^(1/3) that is related to A319097.",
+  "id": "A319297",
+  "mentions": [
+    "A212152",
+    "A212155",
+    "A290563",
+    "A290566",
+    "A309443",
+    "A319097",
+    "A319098",
+    "A319199",
+    "A319305",
+    "A319555",
+    "A321106",
+    "A321107",
+    "A321108"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

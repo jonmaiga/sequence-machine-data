@@ -1,0 +1,40 @@
+{
+  "description": "Number of compositions of n into pairwise relatively prime parts.",
+  "id": "A101268",
+  "mentions": [
+    "A000740",
+    "A007360",
+    "A051424",
+    "A087087",
+    "A178472",
+    "A220377",
+    "A282748",
+    "A302569",
+    "A305713",
+    "A307719",
+    "A326675",
+    "A327516",
+    "A328673",
+    "A332004",
+    "A333227",
+    "A333228",
+    "A335235",
+    "A337461",
+    "A337462",
+    "A337561",
+    "A337562",
+    "A337664",
+    "A337665"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

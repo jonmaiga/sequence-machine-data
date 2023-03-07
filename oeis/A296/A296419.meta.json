@@ -1,0 +1,25 @@
+{
+  "description": "Triangle T(i,j) read by rows: Number of plane bipolar orientations with i+1 vertices and j+1 faces.",
+  "id": "A296419",
+  "mentions": [
+    "A006542",
+    "A047819",
+    "A107915",
+    "A140901",
+    "A140903",
+    "A140907"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

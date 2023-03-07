@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = |{0 < k < n: floor(k*n/3) is prime}|.",
+  "id": "A238703",
+  "mentions": [
+    "A000040",
+    "A237578",
+    "A237615",
+    "A238645",
+    "A238701"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

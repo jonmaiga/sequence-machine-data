@@ -1,0 +1,19 @@
+{
+  "description": "Number of Pythagorean triples (a, b, c) with a^2 + b^2 = c^2 and 0 < a < b < c < n.",
+  "id": "A224921",
+  "mentions": [
+    "A009003",
+    "A046080",
+    "A156685"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

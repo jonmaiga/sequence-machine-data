@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number whose binary expansion is A153500(n).",
+  "id": "A153499",
+  "mentions": [
+    "A135576",
+    "A153497",
+    "A153498",
+    "A153500"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

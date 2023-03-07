@@ -1,0 +1,19 @@
+{
+  "description": "Start the sequence with a(1) = 1 and read the digits one by one from there. The sequence is always extended with the concatenation kd, d being the digit that was read and k the number of d's present so far in the sequence.",
+  "id": "A308232",
+  "mentions": [
+    "A325721",
+    "A325722"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

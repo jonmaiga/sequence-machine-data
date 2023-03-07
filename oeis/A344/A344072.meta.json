@@ -1,0 +1,18 @@
+{
+  "description": "Smallest even k such that h(-k) = 2n, where h(D) is the class number of the quadratic field with discriminant D; or 0 if no such k exists.",
+  "id": "A344072",
+  "mentions": [
+    "A060649",
+    "A225060"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

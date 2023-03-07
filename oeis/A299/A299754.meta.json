@@ -1,0 +1,25 @@
+{
+  "description": "Number of distinct sums of n complex n-th roots of 1.",
+  "id": "A299754",
+  "mentions": [
+    "A103314",
+    "A107753",
+    "A107754",
+    "A107848",
+    "A107861",
+    "A108380",
+    "A108381",
+    "A299807"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

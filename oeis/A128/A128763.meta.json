@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of chi(q^5) * chi(q^10) / ( chi(q) * chi(q^2)) in powers of q where chi() is a Ramanujan theta function.",
+  "id": "A128763",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A121373",
+    "A128762"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:51:09",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

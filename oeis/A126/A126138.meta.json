@@ -1,0 +1,21 @@
+{
+  "description": "Number of polyominoes with n cells that tile a rectangle with congruent copies.",
+  "id": "A126138",
+  "mentions": [
+    "A126139",
+    "A126140",
+    "A126141"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

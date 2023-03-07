@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the sum of reciprocals of the strict partition function (the function giving the number of partitions of an integer into distinct parts).",
+  "id": "A237515",
+  "mentions": [
+    "A000009",
+    "A078506",
+    "A303662"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

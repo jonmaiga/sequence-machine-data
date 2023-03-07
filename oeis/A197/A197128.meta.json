@@ -1,0 +1,21 @@
+{
+  "description": "Nonsquare positive integers n such that the fundamental unit of quadratic field Q(sqrt(n))is not singular.",
+  "id": "A197128",
+  "mentions": [
+    "A087643",
+    "A172000",
+    "A194366",
+    "A197115",
+    "A197127"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

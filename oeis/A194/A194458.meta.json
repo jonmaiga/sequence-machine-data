@@ -1,0 +1,22 @@
+{
+  "description": "Total number of entries in rows 0,1,...,n of Pascal's triangle not divisible by 5.",
+  "id": "A194458",
+  "mentions": [
+    "A001316",
+    "A006046",
+    "A006047",
+    "A006048",
+    "A194459"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

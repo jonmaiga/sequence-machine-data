@@ -1,0 +1,21 @@
+{
+  "description": "Cumulative sum of triple factorial numbers a(n) = n!!! (A007661).",
+  "id": "A114347",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A007661"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

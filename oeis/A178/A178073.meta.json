@@ -1,0 +1,20 @@
+{
+  "description": "Partial sums of sequence A177342.",
+  "id": "A178073",
+  "mentions": [
+    "A035598",
+    "A177342"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

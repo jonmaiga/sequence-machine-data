@@ -1,0 +1,27 @@
+{
+  "description": "Triangle, read by rows, where T(n,k) = k!*C(n, k)*5^(n-k) for n>=0, k=0..n.",
+  "id": "A218016",
+  "mentions": [
+    "A000351",
+    "A053464",
+    "A080954",
+    "A081143",
+    "A084902",
+    "A090802",
+    "A217629",
+    "A218017"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

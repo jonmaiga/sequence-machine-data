@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = [x] OmegaPolynomial(5, n). OmegaPolynomials are defined in A318146.",
+  "id": "A318258",
+  "mentions": [
+    "A000182",
+    "A273352",
+    "A293951",
+    "A318146",
+    "A318253"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

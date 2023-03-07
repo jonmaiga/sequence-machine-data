@@ -1,0 +1,24 @@
+{
+  "description": "Table of Durfee square of partitions in Mathematica order.",
+  "id": "A115722",
+  "mentions": [
+    "A000041",
+    "A080577",
+    "A115720",
+    "A115721",
+    "A115994",
+    "A115995"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:06",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

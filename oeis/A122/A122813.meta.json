@@ -1,0 +1,22 @@
+{
+  "description": "Terms in A005179 where prime signature differs from that of corresponding term in A038547.",
+  "id": "A122813",
+  "mentions": [
+    "A005179",
+    "A038547",
+    "A046523",
+    "A122812",
+    "A122814"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

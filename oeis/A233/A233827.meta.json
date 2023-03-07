@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = 8*binomial(6*n+8,n)/(6*n+8).",
+  "id": "A233827",
+  "mentions": [
+    "A000108",
+    "A002295",
+    "A130564",
+    "A212071",
+    "A212072",
+    "A212073",
+    "A233743",
+    "A233829",
+    "A233830"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers not divisible by the number of their distinct prime factors.",
+  "id": "A185307",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A074946",
+    "A075592",
+    "A134334"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

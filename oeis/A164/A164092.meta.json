@@ -1,0 +1,23 @@
+{
+  "description": "Triangle by 2^n term rows, codes used for generating Petoukhov matrices in a Gray code format.",
+  "id": "A164092",
+  "mentions": [
+    "A036561",
+    "A147995",
+    "A164056",
+    "A164057",
+    "A164091"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

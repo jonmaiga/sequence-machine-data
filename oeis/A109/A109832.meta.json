@@ -1,0 +1,19 @@
+{
+  "description": "Number d such that (A109833(n)+k*d: 0<=k<=A109831(n)) is an arithmetic progression of primes.",
+  "id": "A109832",
+  "mentions": [
+    "A000040",
+    "A109831",
+    "A109833"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 2,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

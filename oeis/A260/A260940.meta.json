@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest index j>n such that g(j)=0 for the sequence g defined (for indices > n) by g(n+1)=n and g(i) = g(i-1) - gcd(i,g(i-1)).",
+  "id": "A260940",
+  "mentions": [
+    "A002476",
+    "A132230",
+    "A186253",
+    "A261301"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Sum of the smallest side lengths of all integer-sided triangles with perimeter n whose sides are nonsquarefree.",
+  "id": "A308426",
+  "mentions": [
+    "A008683",
+    "A308424"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

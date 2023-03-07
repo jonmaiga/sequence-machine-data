@@ -1,0 +1,40 @@
+{
+  "description": "Trajectory of 1999291987030606810 (the largest presently known \"most delayed palindrome\") under the \"Reverse and Add!\" operation.",
+  "id": "A281509",
+  "mentions": [
+    "A023109",
+    "A033672",
+    "A065198",
+    "A065199",
+    "A065320",
+    "A065321",
+    "A065322",
+    "A065323",
+    "A065324",
+    "A065325",
+    "A065326",
+    "A065327",
+    "A070743",
+    "A072216",
+    "A072217",
+    "A072218",
+    "A281301",
+    "A281390",
+    "A281506",
+    "A281507",
+    "A281508"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:50",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

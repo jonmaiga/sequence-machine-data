@@ -1,0 +1,18 @@
+{
+  "description": "Every element of Z/nZ can be expressed as a sum of no more than a(n) squares.",
+  "id": "A288677",
+  "mentions": [
+    "A287286"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:02",
+    "offset": 2,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

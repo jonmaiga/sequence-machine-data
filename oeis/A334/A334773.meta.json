@@ -1,0 +1,28 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of permutations of k indistinguishable copies of 1..n with exactly 2 local maxima.",
+  "id": "A334773",
+  "mentions": [
+    "A152494",
+    "A152499",
+    "A152504",
+    "A152509",
+    "A152513",
+    "A152517",
+    "A152518",
+    "A334772",
+    "A334774",
+    "A334778"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 2,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

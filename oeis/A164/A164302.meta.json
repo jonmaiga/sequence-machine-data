@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = 2* (the n-th positive (odd) integer that is a palindrome when written in base 2).",
+  "id": "A164302",
+  "mentions": [
+    "A006995"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:46",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

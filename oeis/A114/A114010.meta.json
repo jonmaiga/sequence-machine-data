@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = a(2) = 2, Let k(n) = (prime(n) + prime(n+1))/2. Then a(k(n)) = k(n). a(k(n)-i) = prime(n), a(k(n)+i) = prime(n+1) until the next prime occurs.",
+  "id": "A114010",
+  "mentions": [
+    "A024675"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

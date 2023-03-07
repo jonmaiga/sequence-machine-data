@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 1 if A003415(sigma(k)) > k, otherwise 0.",
+  "id": "A343219",
+  "mentions": [
+    "A000203",
+    "A003415",
+    "A343218",
+    "A343220",
+    "A343225"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

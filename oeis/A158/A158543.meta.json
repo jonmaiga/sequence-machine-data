@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 144*n^2 - 12.",
+  "id": "A158543",
+  "mentions": [
+    "A005843",
+    "A158544"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

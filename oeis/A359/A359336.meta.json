@@ -1,0 +1,28 @@
+{
+  "description": "Irregular triangle read by rows: the n-th row lists the values 0..2^n-1 representing all subsets of a set of n elements. When its elements are linearly ordered, the subsets are sorted first by their size and then lexicographically.",
+  "id": "A359336",
+  "mentions": [
+    "A000004",
+    "A000012",
+    "A000079",
+    "A000225",
+    "A006516",
+    "A051459",
+    "A294648",
+    "A351939",
+    "A356028"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 0,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

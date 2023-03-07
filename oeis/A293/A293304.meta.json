@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of Product_{k>=1} (1 + x^(2*k-1) + 2*x^(4*k-2)).",
+  "id": "A293304",
+  "mentions": [
+    "A293072"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

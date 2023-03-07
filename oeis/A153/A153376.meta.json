@@ -1,0 +1,20 @@
+{
+  "description": "Smaller of two consecutive prime numbers such that p1*p2*d + d = average of twin prime pairs, d (delta) = p2 - p1.",
+  "id": "A153376",
+  "mentions": [
+    "A099349",
+    "A153374",
+    "A153375",
+    "A153377"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

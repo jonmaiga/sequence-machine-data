@@ -1,0 +1,21 @@
+{
+  "description": "Final digit of the sum of all the integers from n to 2*n-1.",
+  "id": "A161462",
+  "mentions": [
+    "A000027",
+    "A000326"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:17:27",
+    "offset": 1,
+    "size": 86,
+    "source": "joeis"
+  }
+}

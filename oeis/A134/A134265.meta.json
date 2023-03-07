@@ -1,0 +1,21 @@
+{
+  "description": "Coefficients of the polynomials of a three level Hadamard matrix substitution set based on the game matrix set: MA={{0,1},{1,1}};MB={{1,0},{3,1}} Substitution rule is for m[n]:If[m[n - 1][[i, j]] == 0, {{0, 0}, {0, 0}}, If[m[n - 1][[i, j]] == 1, MA, MB]] Based on the Previte idea of graph substitutions as applied to matrices of graphs in the Fibonacci/ anti-Fibonacci game.",
+  "id": "A134265",
+  "mentions": [
+    "A122947",
+    "A131218"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

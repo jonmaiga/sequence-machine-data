@@ -1,0 +1,23 @@
+{
+  "description": "Nonunitary weird numbers: numbers that are nonunitary abundant but not nonunitary pseudoperfect.",
+  "id": "A327948",
+  "mentions": [
+    "A006037",
+    "A064114",
+    "A064597",
+    "A292986",
+    "A306984",
+    "A321146",
+    "A327945"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

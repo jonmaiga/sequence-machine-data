@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of -int(x*cos(x)/(1+x^2),x=0..infinity).",
+  "id": "A229174",
+  "mentions": [
+    "A086056",
+    "A216184"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 107,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "First differences of A261093; characteristic function for A219640.",
+  "id": "A261092",
+  "mentions": [
+    "A000071",
+    "A079559",
+    "A219640",
+    "A230412",
+    "A261093",
+    "A261094",
+    "A261095"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Intersection of A046346 (numbers that are divisible by the sum of their prime factors, counted with multiplicity) and A097889 (numbers that are products of at least two consecutive primes).",
+  "id": "A266955",
+  "mentions": [
+    "A046346",
+    "A097889",
+    "A159578"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:28",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

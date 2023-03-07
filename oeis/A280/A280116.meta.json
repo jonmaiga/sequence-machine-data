@@ -1,0 +1,22 @@
+{
+  "description": "Partial sums of A266265 (Product_{d|n} pod(d)).",
+  "id": "A280116",
+  "mentions": [
+    "A007955",
+    "A175317",
+    "A266265",
+    "A280114",
+    "A280117"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

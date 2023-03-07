@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{i=0..n} r(i)*r(i+1), where r(n) = A004018(n) is the number of ways of writing n as a sum of two squares.",
+  "id": "A330317",
+  "mentions": [
+    "A004018",
+    "A330315",
+    "A330316",
+    "A330318"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

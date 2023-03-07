@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that no x with an odd arithmetic derivative is encountered when repeatedly prime shifting from k down to 1 with the map x -> A064989(x).",
+  "id": "A353485",
+  "mentions": [
+    "A000265",
+    "A000290",
+    "A001694",
+    "A003415",
+    "A064989",
+    "A165560",
+    "A235991",
+    "A235992",
+    "A353484"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

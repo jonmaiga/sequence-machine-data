@@ -1,0 +1,27 @@
+{
+  "description": "Positive integers k such that (k+1)^4 has a divisor congruent to -1 modulo k.",
+  "id": "A350916",
+  "mentions": [
+    "A001570",
+    "A103974",
+    "A350917",
+    "A350919",
+    "A350920",
+    "A350921",
+    "A350922",
+    "A350923",
+    "A350924",
+    "A350925",
+    "A350926"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

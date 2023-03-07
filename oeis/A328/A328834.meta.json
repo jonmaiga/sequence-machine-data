@@ -1,0 +1,21 @@
+{
+  "description": "Square root of the prime factor form (A276086) of the primorial base expansion, computed for such numbers for which it is a square.",
+  "id": "A328834",
+  "mentions": [
+    "A000196",
+    "A276086",
+    "A328770",
+    "A328849"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Prime numbers ending in the prime number 29.",
+  "id": "A244767",
+  "mentions": [
+    "A141883",
+    "A141930",
+    "A244763"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:48:27",
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

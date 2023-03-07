@@ -1,0 +1,22 @@
+{
+  "description": "Primes whose base-5 representation is a square when read in base 10.",
+  "id": "A267819",
+  "mentions": [
+    "A241246",
+    "A267490",
+    "A267765",
+    "A267817",
+    "A267821"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:29",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

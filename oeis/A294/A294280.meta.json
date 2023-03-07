@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = least positive k such that omega(n+k) > max(omega(n), omega(k)), where omega(m) = A001221(m), the number of distinct primes dividing m.",
+  "id": "A294280",
+  "mentions": [
+    "A001221",
+    "A006549",
+    "A053669",
+    "A077011",
+    "A294277"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

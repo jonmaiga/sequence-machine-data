@@ -1,0 +1,23 @@
+{
+  "description": "Number of distinct squares that can be partitioned into distinct divisors of n.",
+  "id": "A173493",
+  "mentions": [
+    "A000203",
+    "A006532",
+    "A033630",
+    "A072243",
+    "A078705",
+    "A173494"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:57",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

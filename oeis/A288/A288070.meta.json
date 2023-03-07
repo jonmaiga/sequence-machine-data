@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least number that enters a cycle of length 2n in the iteration sequence s(0)=n, s(k+1) = s(k) + (-1)^k*d(s(k)), where d(n) is the number of divisors of n (A000005).",
+  "id": "A288070",
+  "mentions": [
+    "A000005",
+    "A049820",
+    "A062249",
+    "A175304",
+    "A285004"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

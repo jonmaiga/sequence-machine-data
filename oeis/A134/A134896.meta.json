@@ -1,0 +1,22 @@
+{
+  "description": "Ceiling(n*exp(cot n)).",
+  "id": "A134896",
+  "mentions": [
+    "A134890",
+    "A134891",
+    "A134892",
+    "A134893",
+    "A134894",
+    "A134895"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:43:05",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

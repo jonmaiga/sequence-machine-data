@@ -1,0 +1,26 @@
+{
+  "description": "Triangle T(n, k) = A169643(n, k) - A169653(n, 1) + 1, read by rows.",
+  "id": "A169654",
+  "mentions": [
+    "A000262",
+    "A001263",
+    "A008297",
+    "A105278",
+    "A169643",
+    "A169653"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:53",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

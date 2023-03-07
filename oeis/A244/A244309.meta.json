@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = F(n)^3 - F(n)^2, where F(n) is the n-th Fibonacci number (A000045).",
+  "id": "A244309",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A007598",
+    "A045991",
+    "A056570",
+    "A244310"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

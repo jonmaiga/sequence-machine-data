@@ -1,0 +1,21 @@
+{
+  "description": "Triangular numbers t(n) such that n / (product of decimal digits of t(n)) is an integer.",
+  "id": "A307792",
+  "mentions": [
+    "A000217",
+    "A007954",
+    "A052382"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Least multiple of n whose sum of divisors is divisible by n.",
+  "id": "A272349",
+  "mentions": [
+    "A000203",
+    "A097018",
+    "A227470"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

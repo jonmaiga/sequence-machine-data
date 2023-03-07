@@ -1,0 +1,20 @@
+{
+  "description": "Characteristic function of numbers with alternating parities of their digits in decimal representation.",
+  "id": "A228710",
+  "mentions": [
+    "A030141",
+    "A228709"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

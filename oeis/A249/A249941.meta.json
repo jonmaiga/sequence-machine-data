@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f.: Sum_{n>=0} exp(n^3*x) / 2^(n+1).",
+  "id": "A249941",
+  "mentions": [
+    "A000670",
+    "A068942",
+    "A249940"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Coefficients of time series for the spin correlation function C(0,t) at a TASEP (totally asymmetric exclusion process) point.",
+  "id": "A264602",
+  "mentions": [
+    "A264601"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Second of two variations by Per Nørgård of his \"infinity sequence\", cf. A004718: v(0) = 0; v(3*n) = -v(n); v(3*n+1) = v(n) - 3; v(3*n+2) = -2 - v(n).",
+  "id": "A256185",
+  "mentions": [
+    "A004718",
+    "A085144",
+    "A087808",
+    "A255723",
+    "A256184"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

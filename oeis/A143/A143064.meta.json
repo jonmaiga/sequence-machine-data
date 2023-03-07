@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of a Ramanujan false theta series variation of A089801 in powers of x.",
+  "id": "A143064",
+  "mentions": [
+    "A010054",
+    "A089801",
+    "A143062",
+    "A143065",
+    "A185646"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

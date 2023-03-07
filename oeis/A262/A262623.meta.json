@@ -1,0 +1,24 @@
+{
+  "description": "Amicable pairs of odd numbers.",
+  "id": "A262623",
+  "mentions": [
+    "A002025",
+    "A002046",
+    "A005408",
+    "A063990",
+    "A259180",
+    "A262622",
+    "A262625"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

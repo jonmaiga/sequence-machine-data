@@ -1,0 +1,17 @@
+{
+  "description": "E.g.f. satisfies: A(x) = exp( x*exp( x*A'(x)/A(x) ) ), where A'(x)/A(x) = d/dx log(A(x)).",
+  "id": "A161967",
+  "mentions": [
+    "A161968"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

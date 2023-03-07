@@ -1,0 +1,21 @@
+{
+  "description": "Number of terms m <= n, where m is a term in the bisection of Lucas numbers (A005248).",
+  "id": "A345379",
+  "mentions": [
+    "A005248",
+    "A108852",
+    "A130245",
+    "A130260"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

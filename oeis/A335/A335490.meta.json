@@ -1,0 +1,27 @@
+{
+  "description": "Isosceles triangle read by rows in which each term is the least positive integer satisfying the condition that no row, diagonal, or antidiagonal contains a repeated term.",
+  "id": "A335490",
+  "mentions": [
+    "A001844",
+    "A269526",
+    "A274650",
+    "A274651",
+    "A288530",
+    "A288531",
+    "A296339",
+    "A334049"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

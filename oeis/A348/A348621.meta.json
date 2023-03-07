@@ -1,0 +1,22 @@
+{
+  "description": "The number of additions required to compute the permanent of general n X n matrices using Ryser's formula without Gray code ordering.",
+  "id": "A348621",
+  "mentions": [
+    "A000079",
+    "A000337",
+    "A059672",
+    "A160457"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 14:51:03",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

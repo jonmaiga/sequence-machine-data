@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest permutation of the positive integers such that the inverse permutation is also the absolute value of the first differences.",
+  "id": "A180427",
+  "mentions": [
+    "A180428"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

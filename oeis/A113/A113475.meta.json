@@ -1,0 +1,31 @@
+{
+  "description": "a(1)=1 and a(n) for n>1 has the smallest positive value such that Sum_{i=1..n} a(i)^a(n-i+1) is semiprime (A001358).",
+  "id": "A113475",
+  "mentions": [
+    "A001358",
+    "A005408",
+    "A087316",
+    "A113122",
+    "A113153",
+    "A113154",
+    "A113173",
+    "A113208",
+    "A113231",
+    "A113257",
+    "A113258",
+    "A113271",
+    "A113320",
+    "A113336"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

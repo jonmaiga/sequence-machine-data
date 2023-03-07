@@ -1,0 +1,21 @@
+{
+  "description": "Binary representation of the x-axis, from the origin to the right edge, of the n-th stage of growth of the two-dimensional cellular automaton defined by \"Rule 260\", based on the 5-celled von Neumann neighborhood.",
+  "id": "A280372",
+  "mentions": [
+    "A280371",
+    "A280373",
+    "A280374"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:50",
+    "offset": 0,
+    "size": 43,
+    "source": "joeis"
+  }
+}

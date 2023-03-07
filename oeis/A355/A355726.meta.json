@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = a(n-2) + prime(n-1) for a(0) = a(1) = 0.",
+  "id": "A355726",
+  "mentions": [
+    "A008347",
+    "A077126",
+    "A077131",
+    "A330547"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

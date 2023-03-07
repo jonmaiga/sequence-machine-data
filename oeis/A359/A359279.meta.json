@@ -1,0 +1,29 @@
+{
+  "description": "Irregular triangle T(n,k) (n>=1, k>=1) read by rows in which the length of row n equals the partition number A000041(n-1) and every column k gives the positive triangular numbers A000217.",
+  "id": "A359279",
+  "mentions": [
+    "A000027",
+    "A000041",
+    "A000217",
+    "A014153",
+    "A176206",
+    "A299779",
+    "A336811",
+    "A336812",
+    "A359280",
+    "A359350"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

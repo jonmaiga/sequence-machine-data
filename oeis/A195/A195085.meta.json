@@ -1,0 +1,19 @@
+{
+  "description": "Positive integers n for which there exist exactly two integers k in {1,2,3,...,n-1} such that k*n is square.",
+  "id": "A195085",
+  "mentions": [
+    "A005117",
+    "A057918",
+    "A133466"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

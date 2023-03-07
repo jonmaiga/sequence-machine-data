@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of distinct primes produced by starting with the n-th prime p and repeatedly looking at all the prime factors of 2p-1, and then performing the same process (double, subtract 1, find all prime factors) with those primes; a(n) = -1 if this produces infinitely many primes.",
+  "id": "A298904",
+  "mentions": [
+    "A305382"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

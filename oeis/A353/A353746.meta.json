@@ -1,0 +1,30 @@
+{
+  "description": "Numbers k for which phi(sigma(k)) + A064989(sigma(k)) is equal to phi(k) + A064989(k).",
+  "id": "A353746",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A003961",
+    "A003972",
+    "A003973",
+    "A062401",
+    "A064989",
+    "A326042",
+    "A348748",
+    "A348749",
+    "A350073",
+    "A351440",
+    "A353747"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

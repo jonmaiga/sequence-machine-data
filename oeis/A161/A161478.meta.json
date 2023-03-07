@@ -1,0 +1,22 @@
+{
+  "description": "Nonnegative values x of solutions (x, y) to the Diophantine equation x^2+(x+113)^2 = y^2.",
+  "id": "A161478",
+  "mentions": [
+    "A001652",
+    "A156035",
+    "A161479",
+    "A161480",
+    "A161481"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:03:50",
+    "offset": 1,
+    "size": 31,
+    "source": "joeis"
+  }
+}

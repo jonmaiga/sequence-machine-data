@@ -1,0 +1,17 @@
+{
+  "description": "a(1)=2. Thereafter a(n) is the least prime q>a(n-1) such that Omega(a(n-1)+a(n))=3.",
+  "id": "A354726",
+  "mentions": [
+    "A001222"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

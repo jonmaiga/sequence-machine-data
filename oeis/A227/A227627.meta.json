@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that F(5*n)/(5*F(n)) is prime, where F(k) is the k-th Fibonacci number.",
+  "id": "A227627",
+  "mentions": [
+    "A000045",
+    "A001605",
+    "A088545",
+    "A227576"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least k >= 0 such that n divides C(k) (where C(k) are the Catalan numbers A000108).",
+  "id": "A309364",
+  "mentions": [
+    "A000108",
+    "A111273",
+    "A309200"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

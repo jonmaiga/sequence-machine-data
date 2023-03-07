@@ -1,0 +1,24 @@
+{
+  "description": "Unsigned version of A056588.",
+  "id": "A126770",
+  "mentions": [
+    "A000012",
+    "A000045",
+    "A000071",
+    "A056588",
+    "A056589",
+    "A056593"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

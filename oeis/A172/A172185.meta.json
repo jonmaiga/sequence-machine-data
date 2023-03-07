@@ -1,0 +1,22 @@
+{
+  "description": "(9,11) Pascal triangle.",
+  "id": "A172185",
+  "mentions": [
+    "A022114",
+    "A084938",
+    "A093644",
+    "A172179"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:16:23",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

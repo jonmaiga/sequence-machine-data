@@ -1,0 +1,19 @@
+{
+  "description": "Column 0 of triangle A117270, which is the matrix log of triangle A117269.",
+  "id": "A117271",
+  "mentions": [
+    "A117269",
+    "A117270"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:37",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

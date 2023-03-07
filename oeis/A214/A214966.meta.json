@@ -1,0 +1,20 @@
+{
+  "description": "Array T(m,n) = greatest k such that 1/n + ... + 1/(n+k-1) <= m, by rising diagonals.",
+  "id": "A214966",
+  "mentions": [
+    "A002387",
+    "A115515",
+    "A136617"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

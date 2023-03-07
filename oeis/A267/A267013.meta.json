@@ -1,0 +1,24 @@
+{
+  "description": "Number of distinct digital types of n-digit primes in base 10.",
+  "id": "A267013",
+  "mentions": [
+    "A004023",
+    "A164864",
+    "A164904",
+    "A264406",
+    "A266946",
+    "A266991"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

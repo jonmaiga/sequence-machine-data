@@ -1,0 +1,20 @@
+{
+  "description": "Indices k where the sum over k-th powers of the integers in a k X k square in the Gaussian plane (A230308) is not == 0 (mod k).",
+  "id": "A230761",
+  "mentions": [
+    "A073763",
+    "A230308",
+    "A230309",
+    "A230310"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:48",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

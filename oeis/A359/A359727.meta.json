@@ -1,0 +1,20 @@
+{
+  "description": "Beattific 'primes': numbers n > 1 not equal to floor(k*m*phi) or floor(k*m*phi^2) for any smaller element k in this sequence and any positive integer m.",
+  "id": "A359727",
+  "mentions": [
+    "A000201",
+    "A001622",
+    "A001950",
+    "A104457"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

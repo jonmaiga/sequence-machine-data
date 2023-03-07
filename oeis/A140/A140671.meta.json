@@ -1,0 +1,18 @@
+{
+  "description": "Numbers useful in computing A(k), the largest possible magnitude of the x^k coefficient in a cyclotomic polynomial.",
+  "id": "A140671",
+  "mentions": [
+    "A138474",
+    "A138475"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 3,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

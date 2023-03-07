@@ -1,0 +1,20 @@
+{
+  "description": "Let f(n) = minimum of average number of comparisons needed for any sorting method for n elements and let g(n) = n!*f(n). Sequence gives a lower bound on g(n).",
+  "id": "A117627",
+  "mentions": [
+    "A003070",
+    "A036604",
+    "A117628"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

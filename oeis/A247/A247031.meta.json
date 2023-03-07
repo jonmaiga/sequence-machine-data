@@ -1,0 +1,21 @@
+{
+  "description": "G.f.: 1 = Sum_{n>=0} a(n)*x^n * [ Sum_{k=0..n+1} binomial(n+1, k)^3 * (-x)^k ]^3.",
+  "id": "A247031",
+  "mentions": [
+    "A002293",
+    "A006632",
+    "A212370",
+    "A245658",
+    "A247030"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Number of primes between successive pairs of twin primes, for a(n) > 0.",
+  "id": "A130973",
+  "mentions": [
+    "A001223",
+    "A007510",
+    "A027883",
+    "A048198",
+    "A048614",
+    "A052011",
+    "A052012",
+    "A061273",
+    "A073784",
+    "A076777",
+    "A082602",
+    "A088700",
+    "A134797",
+    "A176656",
+    "A179067"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

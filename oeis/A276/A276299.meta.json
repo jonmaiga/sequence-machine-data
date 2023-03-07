@@ -1,0 +1,21 @@
+{
+  "description": "T(n,k)=Number of nXk 0..2 arrays with no element equal to any value at offset (-2,-1) (-1,1) or (0,-1) and new values introduced in order 0..2.",
+  "id": "A276299",
+  "mentions": [
+    "A000079",
+    "A003946",
+    "A007051"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

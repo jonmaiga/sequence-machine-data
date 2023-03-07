@@ -1,0 +1,18 @@
+{
+  "description": "G.f. A(x) satisfies: A(x)^3 = x * A( (A(x) + A(x)^2)^2 ).",
+  "id": "A273030",
+  "mentions": [
+    "A272485"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

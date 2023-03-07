@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of (91443+58282*sqrt(2))/199^2.",
+  "id": "A159550",
+  "mentions": [
+    "A002193",
+    "A129993",
+    "A159548",
+    "A159549"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

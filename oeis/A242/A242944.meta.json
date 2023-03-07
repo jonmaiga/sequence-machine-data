@@ -1,0 +1,20 @@
+{
+  "description": "Primes p_i such that p_i + 2^i is also prime.",
+  "id": "A242944",
+  "mentions": [
+    "A008578",
+    "A056206",
+    "A078686",
+    "A243428"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

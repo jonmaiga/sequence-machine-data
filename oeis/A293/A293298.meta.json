@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows, a generalization of the Eulerian numbers based on Nielsen's generalized polylogarithm (case m = 3).",
+  "id": "A293298",
+  "mentions": [
+    "A123125",
+    "A142249"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

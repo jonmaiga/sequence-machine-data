@@ -1,0 +1,18 @@
+{
+  "description": "Primes a(n) = 1 + p_1 + p_1*p_2 + p_1*p_2*p_3 + ... + p_1*p_2*...*p_n where p_1 < p_2 < ... < p_n are the smallest possible primes, with p_1 = 2.",
+  "id": "A225236",
+  "mentions": [
+    "A006862",
+    "A143293"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

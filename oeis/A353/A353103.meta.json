@@ -1,0 +1,21 @@
+{
+  "description": "Solution to Forest of Numbers (Bosque de Números) puzzle for Opaque Rooks starting with numbers 1 and 2 for an n X n square grid (see Comments).",
+  "id": "A353103",
+  "mentions": [
+    "A350627",
+    "A352814",
+    "A353070",
+    "A353093"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 2,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

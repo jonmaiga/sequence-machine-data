@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = smallest prime p such that p + prime(n)# is next prime after p, where primorial prime(n)# = 2*3*..*prime(n).",
+  "id": "A224700",
+  "mentions": [
+    "A000230",
+    "A001223",
+    "A002110"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

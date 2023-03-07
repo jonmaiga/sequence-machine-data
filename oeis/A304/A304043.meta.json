@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that A022629(k) is divisible by k.",
+  "id": "A304043",
+  "mentions": [
+    "A022629",
+    "A051177",
+    "A056848",
+    "A304028",
+    "A304040"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers d_m arising in Cohen et al.'s investigation of \"ladder relations\" among powers of the Salem number A073011.",
+  "id": "A261407",
+  "mentions": [
+    "A073011"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 2,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Number of nonzero digits when A329886(n) is written in primorial base, where A329886 is the primorial inflation of Doudna-tree.",
+  "id": "A342461",
+  "mentions": [
+    "A001221",
+    "A005940",
+    "A108951",
+    "A267263",
+    "A324341",
+    "A329040",
+    "A329886",
+    "A342456",
+    "A342457",
+    "A342462"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of unlabeled bicolored graphs with no isolated nodes having 2n nodes and k edges, with n nodes of each color. Here n >= 0, 0 <= k <= n^2.",
+  "id": "A123547",
+  "mentions": [
+    "A007139",
+    "A007140",
+    "A106498"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 0,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

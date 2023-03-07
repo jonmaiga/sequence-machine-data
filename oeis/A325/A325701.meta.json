@@ -1,0 +1,32 @@
+{
+  "description": "Nonprime Heinz numbers of integer partitions whose reciprocal factorial sum is the reciprocal of an integer.",
+  "id": "A325701",
+  "mentions": [
+    "A000142",
+    "A002966",
+    "A007489",
+    "A022559",
+    "A064986",
+    "A108731",
+    "A115944",
+    "A284605",
+    "A316854",
+    "A316857",
+    "A325508",
+    "A325616",
+    "A325618",
+    "A325620",
+    "A325622",
+    "A325623"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

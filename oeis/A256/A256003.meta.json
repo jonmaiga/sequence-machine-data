@@ -1,0 +1,31 @@
+{
+  "description": "a(n) = 0 followed by numerators of 2*A176327(n)/A176289(n).",
+  "id": "A256003",
+  "mentions": [
+    "A000027",
+    "A001477",
+    "A027641",
+    "A027642",
+    "A141459",
+    "A164555",
+    "A172086",
+    "A172087",
+    "A176289",
+    "A176327",
+    "A176618",
+    "A195240",
+    "A254667"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Even indices of multidigit primes with digits in strictly increasing order.",
+  "id": "A155776",
+  "mentions": [
+    "A000040",
+    "A005843",
+    "A155079",
+    "A155763"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

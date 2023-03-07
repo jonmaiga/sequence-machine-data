@@ -1,0 +1,23 @@
+{
+  "description": "A Catalan shaped array (A000245) of least prime signatures (A025487) based on staircase Ferrers boards; cf. A136102.",
+  "id": "A136103",
+  "mentions": [
+    "A000108",
+    "A000245",
+    "A006939",
+    "A025487",
+    "A136102"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

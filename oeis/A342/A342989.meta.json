@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of nonseparable rooted toroidal maps with n edges and k faces, n >= 2, k = 1..n-1.",
+  "id": "A342989",
+  "mentions": [
+    "A000292",
+    "A006408",
+    "A006409",
+    "A006410",
+    "A082680",
+    "A269921",
+    "A343089",
+    "A343090",
+    "A343092"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 2,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

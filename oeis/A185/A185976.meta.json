@@ -1,0 +1,22 @@
+{
+  "description": "Number of multiset repetition class defining partitions of N with 1<=N<=n.",
+  "id": "A185976",
+  "mentions": [
+    "A000217",
+    "A007294",
+    "A176723",
+    "A185977"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "oi": 132116,
+  "ps": [
+    {
+      "d": "2021-11-01",
+      "ix": "contfrac[π/sqrt(3)]",
+      "mt": 50,
+      "px": [
+        "π",
+        "3",
+        "sqrt",
+        "/",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2022-06-27",
+      "ix": "contfrac[C093602]%90",
+      "mt": 50,
+      "px": [
+        "C093602",
+        "contfrac",
+        "90",
+        "%"
+      ]
+    },
+    {
+      "d": "2022-08-22",
+      "ix": "or(contfrac[C093602], char[9])",
+      "mt": 50,
+      "px": [
+        "C093602",
+        "contfrac",
+        "9",
+        "char",
+        "or"
+      ]
+    },
+    {
+      "d": "2022-10-20",
+      "ix": "root(contfrac[C093602]^3, 3)",
+      "mt": 50,
+      "px": [
+        "C093602",
+        "contfrac",
+        "3",
+        "^",
+        "3",
+        "root"
+      ]
+    },
+    {
+      "d": "2022-08-12",
+      "ix": "xor(2, xor(2, contfrac[C093602]))",
+      "mt": 50,
+      "px": [
+        "2",
+        "2",
+        "C093602",
+        "contfrac",
+        "xor",
+        "xor"
+      ]
+    },
+    {
+      "d": "2022-10-20",
+      "ix": "contfrac[C093602]^contfrac[ϕ²]",
+      "mt": 50,
+      "px": [
+        "C093602",
+        "contfrac",
+        "ϕ",
+        "²",
+        "contfrac",
+        "^"
+      ]
+    },
+    {
+      "d": "2022-10-20",
+      "ix": "root(contfrac[C093602], contfrac[ϕ²])",
+      "mt": 50,
+      "px": [
+        "C093602",
+        "contfrac",
+        "ϕ",
+        "²",
+        "contfrac",
+        "root"
+      ]
+    },
+    {
+      "d": "2022-07-21",
+      "ix": "contfrac[C093602]^floor(atan(n))",
+      "mt": 50,
+      "px": [
+        "C093602",
+        "contfrac",
+        "n",
+        "atan",
+        "floor",
+        "^"
+      ]
+    },
+    {
+      "d": "2022-08-12",
+      "ix": "or(floor(acot(n)), contfrac[C093602])",
+      "mt": 50,
+      "px": [
+        "n",
+        "acot",
+        "floor",
+        "C093602",
+        "contfrac",
+        "or"
+      ]
+    },
+    {
+      "d": "2022-06-26",
+      "ix": "log2(root(2, 1/contfrac[C093602]))",
+      "mt": 50,
+      "px": [
+        "2",
+        "1",
+        "C093602",
+        "contfrac",
+        "/",
+        "root",
+        "log2"
+      ]
+    }
+  ]
+}

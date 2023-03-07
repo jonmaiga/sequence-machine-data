@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n which divide A260521(n), the concatenation of the positions of the digits 9, 8, ..., 0 in the decimal representation of n, where positions are counted from the right, and 0 if a given digit does not occur.",
+  "id": "A260386",
+  "mentions": [
+    "A260274",
+    "A260275",
+    "A260385",
+    "A260519",
+    "A260521",
+    "A260522"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of simple labeled graphs on n vertices with at most one nontrivial component and all vertex degrees are even.",
+  "id": "A273256",
+  "mentions": [
+    "A033678"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

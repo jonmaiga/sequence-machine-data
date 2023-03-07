@@ -1,0 +1,30 @@
+{
+  "description": "Triangle P, read by rows, that satisfies [P^7](n,k) = P(n+1,k+1) for n>=k>=0, also [P^(7*m)](n,k) = [P^m](n+1,k+1) for all m, where [P^m](n,k) denotes the element at row n, column k, of the matrix power m of P, with P(0,k)=1 and P(k,k)=1 for all k>=0.",
+  "id": "A111830",
+  "mentions": [
+    "A078121",
+    "A078122",
+    "A078536",
+    "A110503",
+    "A111820",
+    "A111825",
+    "A111831",
+    "A111832",
+    "A111833",
+    "A111834",
+    "A111835"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Sum of all compositions [c_1, c_2, ..., c_q] of n encoded as Product_{i=1..q} prime(i)^(c_i).",
+  "id": "A325054",
+  "mentions": [
+    "A000040",
+    "A074140",
+    "A324939"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k that are the products of two distinct primes such that 2*k-1 and 4*k-3 are also products of two distinct primes.",
+  "id": "A177211",
+  "mentions": [
+    "A006881",
+    "A177210"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

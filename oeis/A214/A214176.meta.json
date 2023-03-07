@@ -1,0 +1,23 @@
+{
+  "description": "Sum of the 8 nearest neighbors of n in a spiral with positive integers.",
+  "id": "A214176",
+  "mentions": [
+    "A002061",
+    "A114254",
+    "A137928",
+    "A137930",
+    "A137931",
+    "A214177"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

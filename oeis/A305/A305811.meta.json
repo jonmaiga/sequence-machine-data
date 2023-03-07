@@ -1,0 +1,23 @@
+{
+  "description": "Filter sequence for a(Fibonacci prime) = constant sequences.",
+  "id": "A305811",
+  "mentions": [
+    "A005478",
+    "A010051",
+    "A010056",
+    "A304105",
+    "A305800",
+    "A305820"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the minimal n-digit number which can be the length of a side of a Pythagorean triangle in the largest number of ways.",
+  "id": "A353875",
+  "mentions": [
+    "A046079",
+    "A046080"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

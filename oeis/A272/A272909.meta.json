@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that are the product of two Lucas numbers L(i), for i >= 1, using the Lucas numbers as defined in A000204.",
+  "id": "A272909",
+  "mentions": [
+    "A000204",
+    "A049997"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

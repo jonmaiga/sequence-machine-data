@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least k such that A051037(n) | 60^k.",
+  "id": "A352219",
+  "mentions": [
+    "A051037",
+    "A086415",
+    "A117920"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

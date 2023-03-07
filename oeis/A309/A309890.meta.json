@@ -1,0 +1,23 @@
+{
+  "description": "Lexicographically earliest sequence of positive integers without triples in weakly increasing arithmetic progression.",
+  "id": "A309890",
+  "mentions": [
+    "A003278",
+    "A005836",
+    "A039966",
+    "A229037"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "hear",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

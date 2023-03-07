@@ -1,0 +1,20 @@
+{
+  "description": "Numbers which are the sum of 3 cubes of distinct odd primes.",
+  "id": "A138853",
+  "mentions": [
+    "A024975",
+    "A120398",
+    "A138854"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

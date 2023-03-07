@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = [x^n] G(x)^(2^n)/2^n where G(x) satisfies: [x^(n+1)] G(x)^(2^n) = [x^n] G(x)^(2^n) for n>=0 and G(2x) is the g.f. of A134084.",
+  "id": "A134088",
+  "mentions": [
+    "A134084",
+    "A134085",
+    "A134086",
+    "A134087",
+    "A134089"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the greatest possible height of a binary tree where all nodes hold positive squares and all interior nodes also equal the sum of their two children and the root node has value n^2.",
+  "id": "A309228",
+  "mentions": [
+    "A004144",
+    "A309167"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

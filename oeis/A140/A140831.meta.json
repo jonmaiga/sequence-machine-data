@@ -1,0 +1,21 @@
+{
+  "description": "Numbers in whose canonical prime factorization the powers of the primes do not form an increasing sequence.",
+  "id": "A140831",
+  "mentions": [
+    "A020639",
+    "A126855",
+    "A141809",
+    "A141810"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:29",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

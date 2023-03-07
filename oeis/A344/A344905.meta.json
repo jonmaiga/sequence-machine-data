@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the solution to x^x = sqrt(2).",
+  "id": "A344905",
+  "mentions": [
+    "A030798"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:20",
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

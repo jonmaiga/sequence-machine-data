@@ -1,0 +1,35 @@
+{
+  "description": "Natural numbers placed in table T(n,k) layer by layer. The order of placement - T(n,n), T(1,n), T(n,1), T(2,n), T(n,2),...T(n-1,n), T(n,n-1). Table T(n,k) read by antidiagonals.",
+  "id": "A214871",
+  "mentions": [
+    "A002522",
+    "A059100",
+    "A060734",
+    "A060736",
+    "A087475",
+    "A114948",
+    "A114949",
+    "A114962",
+    "A117619",
+    "A117950",
+    "A117951",
+    "A185725",
+    "A189833",
+    "A189834",
+    "A189836",
+    "A213921",
+    "A213922"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

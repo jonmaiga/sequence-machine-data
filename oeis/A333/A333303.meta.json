@@ -1,0 +1,25 @@
+{
+  "description": "T(n, k) = [x^k] (-2)^n*(B(n, x/2) - B(n, (x+1)/2)) where B(n, x) are the Bernoulli polynomials. Triangle read by rows, for 0 <= k <= n.",
+  "id": "A333303",
+  "mentions": [
+    "A053382",
+    "A053383",
+    "A109449",
+    "A181983",
+    "A226158",
+    "A239977",
+    "A247453"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

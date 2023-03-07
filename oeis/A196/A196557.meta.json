@@ -1,0 +1,20 @@
+{
+  "description": "O.g.f.: Sum_{n>=0} 4*(n+4)^(n-1) * x^n / Product_{k=1..n} (1+k*x).",
+  "id": "A196557",
+  "mentions": [
+    "A058864",
+    "A196555",
+    "A196556"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:18",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Alternated binomial partial sums of the central Stirling numbers of the second kind.",
+  "id": "A187651",
+  "mentions": [
+    "A187653",
+    "A226775"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

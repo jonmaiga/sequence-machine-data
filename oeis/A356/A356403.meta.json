@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the first prime p such that the average of p and the next n-1 primes congruent to p (mod n) is a prime.",
+  "id": "A356403",
+  "mentions": [
+    "A356383"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 3,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(0) = 1; a(n) = |a(n-1) - n| if n is has already appeared in the sequence, otherwise a(n) = a(n-1) + n.",
+  "id": "A118907",
+  "mentions": [
+    "A005132",
+    "A118906"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Write numbers 1, then 2^2 down to 1, then 3^2 down to 1, then 4^2 down to 1 and so on.",
+  "id": "A253902",
+  "mentions": [
+    "A064866",
+    "A074279"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

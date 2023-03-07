@@ -1,0 +1,20 @@
+{
+  "description": "Start with a(1) = 1, a(2) = 2. Thereafter, if a(n) is prime, a(n+1) = a(n) + 1. If a(n) is composite, look for its greatest factor other than itself (k, say) earlier in the sequence. If k is found, a(n+1) = a(n) + the number of steps back to the most recent appearance of k. If k is not found, a(n+1) = a(n) - k.",
+  "id": "A322572",
+  "mentions": [
+    "A032742",
+    "A181391",
+    "A309035",
+    "A326487"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Least sum s of consecutive prime numbers starting with prime(n) such that s is a perfect square.",
+  "id": "A287027",
+  "mentions": [
+    "A007504",
+    "A034707",
+    "A062703",
+    "A080665"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

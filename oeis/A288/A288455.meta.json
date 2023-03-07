@@ -1,0 +1,24 @@
+{
+  "description": "Chebyshev coefficients of density of states of BCC lattice.",
+  "id": "A288455",
+  "mentions": [
+    "A002897",
+    "A288454",
+    "A288456",
+    "A288457",
+    "A288458",
+    "A288459",
+    "A288460",
+    "A288461"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

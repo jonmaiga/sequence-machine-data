@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k that are equal to the product of the largest triangular proper divisor of k and the sum of all triangular proper divisors of k.",
+  "id": "A225881",
+  "mentions": [
+    "A000217",
+    "A225880",
+    "A225882"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

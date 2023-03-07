@@ -1,0 +1,18 @@
+{
+  "description": "Perfect hyper-4 powers: a^^b, where b <> 1.",
+  "id": "A257309",
+  "mentions": [
+    "A002488",
+    "A004231"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

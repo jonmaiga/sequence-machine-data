@@ -1,0 +1,30 @@
+{
+  "description": "Square array read by antidiagonals: T(n,m) (n>=1, m>=0) is the number of partitions of mn that are the sum of m not necessarily distinct partitions of n.",
+  "id": "A213086",
+  "mentions": [
+    "A000027",
+    "A000041",
+    "A000217",
+    "A000330",
+    "A001296",
+    "A002219",
+    "A002220",
+    "A002221",
+    "A002222",
+    "A207361",
+    "A213074",
+    "A284645"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

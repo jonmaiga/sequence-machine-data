@@ -1,0 +1,26 @@
+{
+  "description": "Numbers n such that n-1, n, and n+1 are the product of 4 distinct primes.",
+  "id": "A248203",
+  "mentions": [
+    "A066509",
+    "A093550",
+    "A176167",
+    "A248201",
+    "A248202",
+    "A248204",
+    "A259349",
+    "A259350",
+    "A259801"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

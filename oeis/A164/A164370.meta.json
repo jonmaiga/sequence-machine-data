@@ -1,0 +1,23 @@
+{
+  "description": "Sequence A005418 written in base 2.",
+  "id": "A164370",
+  "mentions": [
+    "A005418",
+    "A163449",
+    "A163664"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:46",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

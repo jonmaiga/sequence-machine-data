@@ -1,0 +1,26 @@
+{
+  "description": "Number of labeled simple graphs with vertices {1..n} such that every edge has a different sum.",
+  "id": "A327904",
+  "mentions": [
+    "A006125",
+    "A006129",
+    "A038041",
+    "A275780",
+    "A321469",
+    "A326030",
+    "A326519",
+    "A326535",
+    "A327903"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

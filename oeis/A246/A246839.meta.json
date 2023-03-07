@@ -1,0 +1,24 @@
+{
+  "description": "Number of trailing zeros in A002109(n).",
+  "id": "A246839",
+  "mentions": [
+    "A002109",
+    "A027868",
+    "A112765",
+    "A122840",
+    "A246817",
+    "A249152"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

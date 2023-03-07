@@ -1,0 +1,19 @@
+{
+  "description": "Number of binary sequences of length n having a conjugate at Hamming distance 2.",
+  "id": "A179674",
+  "mentions": [
+    "A179677",
+    "A226893"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

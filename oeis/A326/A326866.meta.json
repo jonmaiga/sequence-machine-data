@@ -1,0 +1,27 @@
+{
+  "description": "Number of connectedness systems on n vertices.",
+  "id": "A326866",
+  "mentions": [
+    "A072444",
+    "A072446",
+    "A072447",
+    "A102896",
+    "A306445",
+    "A326867",
+    "A326868",
+    "A326870",
+    "A326872"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Somos's sequence {b(4,n)} defined in comment in A078495: a(0)=a(1)=...=a(10)=1; for n>=11, a(n)=(a(n-1)*a(n-10)+a(n-5)*a(n-6))/a(n-11).",
+  "id": "A271949",
+  "mentions": [
+    "A006721",
+    "A078495",
+    "A268199",
+    "A271948"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:36",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

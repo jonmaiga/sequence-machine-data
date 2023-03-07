@@ -1,0 +1,20 @@
+{
+  "description": "Binomial(A319500(n),a(n)) = A006917(n) with 2 <= a(n) <= A319500(n)/2.",
+  "id": "A318955",
+  "mentions": [
+    "A006917",
+    "A006987",
+    "A022912",
+    "A319500"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

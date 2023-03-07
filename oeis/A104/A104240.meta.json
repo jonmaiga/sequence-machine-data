@@ -1,0 +1,19 @@
+{
+  "description": "Nonnegative integers n such that 13*n^2 + 13*n + 1 is a square.",
+  "id": "A104240",
+  "mentions": [
+    "A222390"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:35:38",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

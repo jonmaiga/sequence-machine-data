@@ -1,0 +1,17 @@
+{
+  "description": "A347338(n) is the a(n)-th number having its number of divisors.",
+  "id": "A347408",
+  "mentions": [
+    "A347338"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

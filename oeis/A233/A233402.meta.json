@@ -1,0 +1,18 @@
+{
+  "description": "Number of (n+1) X (1+1) 0..2 arrays with row and column sums nondecreasing, and no adjacent elements equal.",
+  "id": "A233402",
+  "mentions": [
+    "A233408"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:06:51",
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

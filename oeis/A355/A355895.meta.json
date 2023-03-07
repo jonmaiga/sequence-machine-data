@@ -1,0 +1,19 @@
+{
+  "description": "Even terms in A354790, divided by 2, in order of appearance.",
+  "id": "A355895",
+  "mentions": [
+    "A354790",
+    "A355896"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

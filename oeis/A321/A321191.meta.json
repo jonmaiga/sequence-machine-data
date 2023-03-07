@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = [x^n] Product_{k>=1} 1/(1 - x^k)^tau_n(k), where tau_n(k) = number of ordered n-factorizations of k.",
+  "id": "A321191",
+  "mentions": [
+    "A000041",
+    "A006171",
+    "A077592",
+    "A174465",
+    "A280487",
+    "A321192"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

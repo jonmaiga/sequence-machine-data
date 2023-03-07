@@ -1,0 +1,21 @@
+{
+  "description": "Squares whose decimal representation contains no proper subsequence which is a positive square.",
+  "id": "A130448",
+  "mentions": [
+    "A131599",
+    "A238334"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "changed",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

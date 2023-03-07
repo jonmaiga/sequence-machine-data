@@ -1,0 +1,22 @@
+{
+  "description": "Adjusted joint rank sequence of (f(i)) and (g(j)) with f(i) before g(j) when f(i)=g(j), where f and g are the triangular numbers and heptagonal numbers. Complement of A186228.",
+  "id": "A186227",
+  "mentions": [
+    "A000217",
+    "A000566",
+    "A186219",
+    "A186228",
+    "A186237",
+    "A186238"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:31:59",
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

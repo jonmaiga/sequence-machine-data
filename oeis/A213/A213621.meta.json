@@ -1,0 +1,20 @@
+{
+  "description": "The denominator of the Bernoulli polynomial B(n,x) divided by the Clausen number C(n), A144845(n)/A141056(n).",
+  "id": "A213621",
+  "mentions": [
+    "A141056",
+    "A144845",
+    "A160014",
+    "A213623"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

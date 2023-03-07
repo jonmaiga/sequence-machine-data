@@ -1,0 +1,18 @@
+{
+  "description": "Successive record-setters (maxima) in Hofstadter's Q-sequence (A005185).",
+  "id": "A226244",
+  "mentions": [
+    "A005185",
+    "A226245"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

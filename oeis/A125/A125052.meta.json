@@ -1,0 +1,18 @@
+{
+  "description": "Sum of labels for nodes in generation n of the sub-Fibonacci tree (A125051).",
+  "id": "A125052",
+  "mentions": [
+    "A005270",
+    "A125051"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

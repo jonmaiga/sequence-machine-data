@@ -1,0 +1,32 @@
+{
+  "description": "Numbers divisible by at least one of their prime indices > 1.",
+  "id": "A324771",
+  "mentions": [
+    "A003963",
+    "A056239",
+    "A112798",
+    "A120383",
+    "A289509",
+    "A290822",
+    "A304360",
+    "A324695",
+    "A324846",
+    "A324847",
+    "A324848",
+    "A324849",
+    "A324850",
+    "A324851",
+    "A324852",
+    "A324853"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

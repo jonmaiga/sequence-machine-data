@@ -1,0 +1,18 @@
+{
+  "description": "Start of a sequence of n consecutive primes such that the sum of any three consecutive members is also prime.",
+  "id": "A185313",
+  "mentions": [
+    "A072225"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

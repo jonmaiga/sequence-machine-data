@@ -1,0 +1,25 @@
+{
+  "description": "Sum of the prime parts in the partitions of n into 7 parts.",
+  "id": "A309468",
+  "mentions": [
+    "A010051",
+    "A309436",
+    "A309465",
+    "A309466",
+    "A309467",
+    "A309469",
+    "A309470",
+    "A309471"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

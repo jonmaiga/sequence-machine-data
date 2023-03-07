@@ -1,0 +1,28 @@
+{
+  "description": "Mark the points of the Farey series F_n on a strip of paper and wrap it around a circle of circumference 1 so the endpoints 0 and 1 coincide; draw a chord between every pair of the Farey points; a(n) is the number of vertices in the resulting graph.",
+  "id": "A359116",
+  "mentions": [
+    "A005728",
+    "A006533",
+    "A006842",
+    "A006843",
+    "A007569",
+    "A007678",
+    "A358883",
+    "A359117",
+    "A359118",
+    "A359119"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

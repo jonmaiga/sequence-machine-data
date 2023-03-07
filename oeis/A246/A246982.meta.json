@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(n,k) = maximal number of inversions among all k-sorted permutations on n letters (n>=2, 1<=k<=n-1).",
+  "id": "A246982",
+  "mentions": [
+    "A034856"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 2,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

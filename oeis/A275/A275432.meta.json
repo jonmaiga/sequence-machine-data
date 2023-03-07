@@ -1,0 +1,18 @@
+{
+  "description": "P-positions for the subtraction game whose allowed moves are the practical numbers (A005153).",
+  "id": "A275432",
+  "mentions": [
+    "A005153",
+    "A030193"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

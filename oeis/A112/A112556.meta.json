@@ -1,0 +1,19 @@
+{
+  "description": "Sums of squared terms in rows of triangle A112555.",
+  "id": "A112556",
+  "mentions": [
+    "A072547",
+    "A112555"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

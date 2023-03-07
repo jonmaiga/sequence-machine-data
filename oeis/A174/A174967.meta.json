@@ -1,0 +1,20 @@
+{
+  "description": "Smallest number of the form k^2 + k + 1 with n distinct prime divisors.",
+  "id": "A174967",
+  "mentions": [
+    "A001221",
+    "A002383",
+    "A002384"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

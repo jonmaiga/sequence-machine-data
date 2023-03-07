@@ -1,0 +1,20 @@
+{
+  "description": "Number of nonrepeating vectors in a counting procedure that starts with the digits of (n base 3).",
+  "id": "A225661",
+  "mentions": [
+    "A225660",
+    "A225664",
+    "A225665"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

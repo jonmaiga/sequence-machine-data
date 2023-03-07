@@ -1,0 +1,18 @@
+{
+  "description": "Number of essentially different ways of arranging the numbers 1 through 2n around a circle so that the sum of each pair of adjacent numbers is semiprime.",
+  "id": "A253202",
+  "mentions": [
+    "A051252"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

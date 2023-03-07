@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that the periodic part of the continued fraction of sqrt(k) has more ones than any smaller k.",
+  "id": "A206579",
+  "mentions": [
+    "A206578",
+    "A206580"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Row sums of Bell related number triangle A154380.",
+  "id": "A154381",
+  "mentions": [
+    "A000110",
+    "A000178",
+    "A129247",
+    "A154380"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

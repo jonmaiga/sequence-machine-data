@@ -1,0 +1,32 @@
+{
+  "description": "Number of ways to write n as an ordered sum of 6 squares of positive integers.",
+  "id": "A340905",
+  "mentions": [
+    "A000141",
+    "A000290",
+    "A010052",
+    "A025430",
+    "A045848",
+    "A063691",
+    "A063725",
+    "A063730",
+    "A337165",
+    "A340481",
+    "A340906",
+    "A340915",
+    "A340946",
+    "A340947"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 6,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "FP2 polynomials related to the generating functions of the left hand columns of the A156920 triangle.",
+  "id": "A156925",
+  "mentions": [
+    "A000124",
+    "A050488",
+    "A142965",
+    "A142966",
+    "A142968",
+    "A156920",
+    "A156921",
+    "A156926",
+    "A156927",
+    "A156933",
+    "A157703"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "more",
+    "sign",
+    "tabf",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

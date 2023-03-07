@@ -1,0 +1,20 @@
+{
+  "description": "Column 2 of triangle T=A167015: a(n) = T(n+2,2) = [T^(n+2)](n-1,0) for n>0 with a(0)=1.",
+  "id": "A167018",
+  "mentions": [
+    "A167015",
+    "A167016",
+    "A167017",
+    "A167019"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

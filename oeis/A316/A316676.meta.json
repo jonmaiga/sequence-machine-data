@@ -1,0 +1,17 @@
+{
+  "description": "Ordered set of products (P_s(k) + 1)*(P_s'(k') + 1), s,s' >= 3, k,k' in {3,4} with nontrivial polygonal numbers P_s(k).",
+  "id": "A316676",
+  "mentions": [
+    "A090466"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

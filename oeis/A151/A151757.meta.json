@@ -1,0 +1,19 @@
+{
+  "description": "Positive integers n, excluding 1 and 2^i+1 for all i, having wt <= 3.",
+  "id": "A151757",
+  "mentions": [
+    "A000120",
+    "A048645",
+    "A151755"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

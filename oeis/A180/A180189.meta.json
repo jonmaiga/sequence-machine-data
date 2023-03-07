@@ -1,0 +1,20 @@
+{
+  "description": "Number of permutations of [n] having exactly 1 circular succession. A circular succession in a permutation p of [n] is either a pair p(i), p(i+1), where p(i+1)=p(i)+1 or the pair p(n), p(1) if p(1)=p(n)+1.",
+  "id": "A180189",
+  "mentions": [
+    "A000166",
+    "A000387",
+    "A180188"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:23",
+    "offset": 1,
+    "size": 22,
+    "source": "joeis"
+  }
+}

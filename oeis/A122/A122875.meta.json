@@ -1,0 +1,20 @@
+{
+  "description": "Numbers whose square is undulating.",
+  "id": "A122875",
+  "mentions": [
+    "A016073"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Square array T(n,k) = k^n - k + 1 read by antidiagonals.",
+  "id": "A193871",
+  "mentions": [
+    "A000012",
+    "A000225",
+    "A002061",
+    "A006091",
+    "A058481",
+    "A061600",
+    "A141725",
+    "A164783",
+    "A164784",
+    "A164785",
+    "A164786",
+    "A170955",
+    "A177095",
+    "A276135"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

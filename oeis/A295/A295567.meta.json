@@ -1,0 +1,22 @@
+{
+  "description": "Consider numbers k such that A295563(k) > k (see A295566); sequence lists the values A295563(k).",
+  "id": "A295567",
+  "mentions": [
+    "A269526",
+    "A274528",
+    "A295563",
+    "A295564",
+    "A295565",
+    "A295566"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Transform related to the harmonic series.",
+  "id": "A127899",
+  "mentions": [
+    "A002024",
+    "A002260",
+    "A002467",
+    "A003056"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

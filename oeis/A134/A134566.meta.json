@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = least m such that {-m*tau} > {n*tau}, where { } denotes fractional part and tau = (1 + sqrt(5))/2.",
+  "id": "A134566",
+  "mentions": [
+    "A001519",
+    "A134567",
+    "A134570",
+    "A134571"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

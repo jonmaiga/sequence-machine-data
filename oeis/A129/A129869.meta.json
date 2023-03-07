@@ -1,0 +1,21 @@
+{
+  "description": "Number of positive clusters of type D_n.",
+  "id": "A129869",
+  "mentions": [
+    "A001263",
+    "A002061",
+    "A051924"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:17",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

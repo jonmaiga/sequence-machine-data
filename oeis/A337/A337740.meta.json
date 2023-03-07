@@ -1,0 +1,22 @@
+{
+  "description": "Weird numbers (A006037) with an even sum of divisors that are not Zumkeller numbers (A083207).",
+  "id": "A337740",
+  "mentions": [
+    "A000203",
+    "A005835",
+    "A006037",
+    "A023196",
+    "A083207",
+    "A171641"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Irregular table T(n, k) read by rows, n > 0 and k = 1..A334216(n); n-th row corresponds to distinct terms of n-th row of A334215, in ascending order.",
+  "id": "A334217",
+  "mentions": [
+    "A000188",
+    "A261969",
+    "A334215",
+    "A334216"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

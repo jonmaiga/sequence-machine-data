@@ -1,0 +1,18 @@
+{
+  "description": "G.f.: Sum( x^k/(1-2*x+x^k), k=1..oo).",
+  "id": "A186537",
+  "mentions": [
+    "A079500"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:11",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

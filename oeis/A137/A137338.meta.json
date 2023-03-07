@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k), 0 <= k <= n, gives the coefficients of the Charlier polynomials (with parameter a=1), ordered by rising powers.",
+  "id": "A137338",
+  "mentions": [
+    "A216916"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

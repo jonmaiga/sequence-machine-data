@@ -1,0 +1,22 @@
+{
+  "description": "Total number of ON cells at stage 2n of two-dimensional 5-neighbor outer totalistic cellular automaton defined by \"Rule 465\".",
+  "id": "A246331",
+  "mentions": [
+    "A147562",
+    "A169699",
+    "A246316",
+    "A246318",
+    "A246325",
+    "A246326"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

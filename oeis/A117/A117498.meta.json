@@ -1,0 +1,20 @@
+{
+  "description": "Optimal combination of binary and factor methods for finding an addition chain.",
+  "id": "A117498",
+  "mentions": [
+    "A003313",
+    "A064097",
+    "A117497"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

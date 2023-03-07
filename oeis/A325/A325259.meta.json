@@ -1,0 +1,32 @@
+{
+  "description": "Numbers with one fewer distinct prime exponents than distinct prime factors.",
+  "id": "A325259",
+  "mentions": [
+    "A001221",
+    "A056239",
+    "A060687",
+    "A071625",
+    "A090858",
+    "A112798",
+    "A116608",
+    "A118914",
+    "A130091",
+    "A323023",
+    "A325241",
+    "A325242",
+    "A325244",
+    "A325270",
+    "A325281"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

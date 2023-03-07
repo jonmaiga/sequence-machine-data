@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = n + [nr/t] + [ns/t]; r=1, s=Pi/2, t=2/Pi.",
+  "id": "A189517",
+  "mentions": [
+    "A189515",
+    "A189516"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:55:25",
+    "offset": 1,
+    "size": 83,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers of numbers <= n, that are squares when inserting at most one digit in decimal representation (see A157465).",
+  "id": "A157466",
+  "mentions": [
+    "A000196",
+    "A003059",
+    "A157464",
+    "A157465"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

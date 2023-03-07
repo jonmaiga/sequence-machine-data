@@ -1,0 +1,26 @@
+{
+  "description": "Primes of the form 1 + product of the first n 3-almost primes A014612.",
+  "id": "A114430",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A002110",
+    "A005234",
+    "A006862",
+    "A014545",
+    "A014612",
+    "A112141"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

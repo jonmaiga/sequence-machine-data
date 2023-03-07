@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of pentagonal numbers.",
+  "id": "A267709",
+  "mentions": [
+    "A000041",
+    "A000326",
+    "A066655",
+    "A072213"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:29",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

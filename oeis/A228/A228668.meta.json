@@ -1,0 +1,20 @@
+{
+  "description": "Array: row n consists of n-th nonsquare f(n) followed by L(CF(sqrt(f(n)))) followed by L(ACF(sqrt(f(n)))), where L indicates the length of the repeating string; CF indicates continued fraction, and ACF indicates accelerated continued fraction.",
+  "id": "A228668",
+  "mentions": [
+    "A228488",
+    "A228667"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

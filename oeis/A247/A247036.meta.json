@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of 2*G/(Pi*log(2)), a constant appearing in the average root bifurcation ratio of binary trees, where G is Catalan's constant.",
+  "id": "A247036",
+  "mentions": [
+    "A006752",
+    "A245250"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

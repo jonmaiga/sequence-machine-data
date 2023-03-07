@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest multiple of n that is greater than 2n and contains the same number of 1's in its binary representation as n contains.",
+  "id": "A162215",
+  "mentions": [
+    "A000120",
+    "A077459"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Weird numbers m such that the sum of their divisors below A033880(m) is greater than A033880(m) = abundance of m.",
+  "id": "A100696",
+  "mentions": [
+    "A005835",
+    "A006037",
+    "A033880"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

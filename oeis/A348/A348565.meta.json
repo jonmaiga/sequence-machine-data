@@ -1,0 +1,22 @@
+{
+  "description": "Numbers with factorial base expansion (d(1), ..., d(k)) such that, for i = 1..k, either d(i) > 0 and d(d(i)) = i or d(i) = 0.",
+  "id": "A348565",
+  "mentions": [
+    "A000142",
+    "A033312",
+    "A048768",
+    "A153880",
+    "A348056"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Number of oriented colorings of the tetrahedral facets (or vertices) of a regular 4-dimensional simplex using n or fewer colors.",
+  "id": "A337895",
+  "mentions": [
+    "A000389",
+    "A132366",
+    "A324999",
+    "A331350",
+    "A337952",
+    "A337956",
+    "A338948",
+    "A338964"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:47:09",
+    "offset": 1,
+    "size": 33,
+    "source": "joeis"
+  }
+}

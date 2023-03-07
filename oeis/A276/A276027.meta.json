@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways to transform a sequence of n ones to a single number by continually removing two numbers and replacing them with their sum modulo 3.",
+  "id": "A276027",
+  "mentions": [
+    "A002846",
+    "A117143"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

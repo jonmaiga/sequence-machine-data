@@ -1,0 +1,20 @@
+{
+  "description": "Total number of blocks in all set partitions of strict integer partitions of n.",
+  "id": "A330765",
+  "mentions": [
+    "A003056",
+    "A330460",
+    "A330759"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that the numerator and denominator of the reduced fraction Sum_{k=1..n} 1/k have no digits in common.",
+  "id": "A323252",
+  "mentions": [
+    "A001008",
+    "A002805"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

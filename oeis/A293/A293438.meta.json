@@ -1,0 +1,21 @@
+{
+  "description": "Product of deficiencies of proper divisors of n.",
+  "id": "A293438",
+  "mentions": [
+    "A000040",
+    "A000079",
+    "A033879",
+    "A286449"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

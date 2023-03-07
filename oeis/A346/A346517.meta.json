@@ -1,0 +1,37 @@
+{
+  "description": "Number A(n,k) of partitions of the (n+k)-multiset {1,2,...,n,1,2,...,k} into distinct multisets; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A346517",
+  "mentions": [
+    "A000110",
+    "A002110",
+    "A045778",
+    "A087648",
+    "A094574",
+    "A322770",
+    "A322771",
+    "A322772",
+    "A322773",
+    "A322774",
+    "A346500",
+    "A346518",
+    "A346897",
+    "A346898",
+    "A346899",
+    "A346900",
+    "A346901",
+    "A346902",
+    "A346903"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

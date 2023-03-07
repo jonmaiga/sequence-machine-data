@@ -1,0 +1,18 @@
+{
+  "description": "\"Inside numbers\". Pick a term \"t\" and one of its digits \"d\". Now jump to the right over d digits if \"d\" is odd, and to the left over d digits if \"d\" is even. Whatever the \"d\" you choose, you will stay on \"t\".",
+  "id": "A284515",
+  "mentions": [
+    "A284591"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

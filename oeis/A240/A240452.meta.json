@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions p of n such that (sum of parts with multiplicity 1) >= (sum of all other parts).",
+  "id": "A240452",
+  "mentions": [
+    "A000041",
+    "A240447",
+    "A240448",
+    "A240449",
+    "A240451"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

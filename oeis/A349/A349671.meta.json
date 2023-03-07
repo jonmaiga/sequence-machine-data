@@ -1,0 +1,21 @@
+{
+  "description": "Number of iterations x -> (x+1)/2 needed to get 2 or a composite number, when starting with prime(n).",
+  "id": "A349671",
+  "mentions": [
+    "A005383",
+    "A007814",
+    "A181697",
+    "A181715",
+    "A349670"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

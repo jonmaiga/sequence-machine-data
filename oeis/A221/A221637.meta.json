@@ -1,0 +1,28 @@
+{
+  "description": "Numbers n such that (15^n + 14^n)/29 is prime.",
+  "id": "A221637",
+  "mentions": [
+    "A057180",
+    "A128072",
+    "A128343",
+    "A181141",
+    "A185239",
+    "A187819",
+    "A213216",
+    "A217095",
+    "A225097",
+    "A225191"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

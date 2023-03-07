@@ -1,0 +1,21 @@
+{
+  "description": "Let y = y(u,v) be implicitly defined by g(u,v,y(u,v)) = 0. Read as a triangle by rows, the sequence represents the number of terms a(i,k-i) in the expansion of the bivariate divided difference [u_0,...,u_i; v_0,...,v_{k-i}]y in terms of trivariate divided differences of g.",
+  "id": "A172003",
+  "mentions": [
+    "A003262",
+    "A162326",
+    "A172004"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

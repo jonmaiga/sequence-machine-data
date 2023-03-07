@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1, a(n) = -floor(e*a(n/2)) if n is even, a(n) = n - a(n-1) if n is odd.",
+  "id": "A318388",
+  "mentions": [
+    "A001113",
+    "A317825"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:39",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

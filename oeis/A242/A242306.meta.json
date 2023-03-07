@@ -1,0 +1,22 @@
+{
+  "description": "Number of terms in the squares-greedy sum for n.",
+  "id": "A242306",
+  "mentions": [
+    "A000027",
+    "A000290",
+    "A241833",
+    "A242305",
+    "A242307"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 2,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

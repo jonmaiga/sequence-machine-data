@@ -1,0 +1,35 @@
+{
+  "description": "2-1-Fibonacci cohort array, a rectangular array T(n,k) read by downward antidiagonals.",
+  "id": "A345252",
+  "mentions": [
+    "A000027",
+    "A000045",
+    "A000071",
+    "A000201",
+    "A001950",
+    "A019586",
+    "A035513",
+    "A059893",
+    "A083047",
+    "A130233",
+    "A132817",
+    "A191436",
+    "A194030",
+    "A232560",
+    "A345253",
+    "A345254"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

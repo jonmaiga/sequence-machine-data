@@ -1,0 +1,17 @@
+{
+  "description": "Numbers such that arithmetic mean of distinct prime factors is not an integer.",
+  "id": "A176587",
+  "mentions": [
+    "A078174"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Number of toothpicks or D-toothpicks added at n-th stage to the structure of A194440.",
+  "id": "A194441",
+  "mentions": [
+    "A139251",
+    "A160121",
+    "A160407",
+    "A161831",
+    "A194271",
+    "A194440",
+    "A194443",
+    "A194445",
+    "A194692",
+    "A194693",
+    "A194696"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

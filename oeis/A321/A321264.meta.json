@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = [x^n] Product_{k>=1} 1/(1 - x^k)^J_n(k), where J_() is the Jordan function.",
+  "id": "A321264",
+  "mentions": [
+    "A059379",
+    "A059380",
+    "A061255",
+    "A301875",
+    "A319647",
+    "A321265"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

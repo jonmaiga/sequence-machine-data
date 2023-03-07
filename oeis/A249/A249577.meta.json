@@ -1,0 +1,24 @@
+{
+  "description": "List of triples (r,s,t): the matrix M = [[1,4,4][1,3,2][1,2,1]] is raised to successive negative powers, then (r,s,t) are the square roots of M[3,1], M[1,1], M[1,3] respectively.",
+  "id": "A249577",
+  "mentions": [
+    "A000129",
+    "A001333",
+    "A077985",
+    "A163271",
+    "A249576"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

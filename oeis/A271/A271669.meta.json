@@ -1,0 +1,19 @@
+{
+  "description": "Smallest k > n such that n divides k and n^k == n (mod k).",
+  "id": "A271669",
+  "mentions": [
+    "A006935",
+    "A102457"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:36",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

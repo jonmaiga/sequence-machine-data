@@ -1,0 +1,26 @@
+{
+  "description": "Values of y such that x^2 + y^2 = 73^n with x and y coprime and 0 < x < y.",
+  "id": "A230963",
+  "mentions": [
+    "A188949",
+    "A230623",
+    "A230645",
+    "A230711",
+    "A230713",
+    "A230744",
+    "A230760",
+    "A230842",
+    "A230962"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:48",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

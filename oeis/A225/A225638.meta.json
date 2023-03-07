@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the row index where the first term in column n of A225630 equivalent to some term in column n of A225640 is found from.",
+  "id": "A225638",
+  "mentions": [
+    "A225630",
+    "A225632",
+    "A225634",
+    "A225639",
+    "A225640",
+    "A225642",
+    "A225654",
+    "A226055",
+    "A226056"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

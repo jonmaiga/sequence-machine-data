@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = smallest triangular number > a(n-1) with a(n-1) as a substring, a(1) = 1.",
+  "id": "A226360",
+  "mentions": [
+    "A000217"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

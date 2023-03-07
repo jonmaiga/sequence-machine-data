@@ -1,0 +1,18 @@
+{
+  "description": "Composite members of sequence A138244.",
+  "id": "A138246",
+  "mentions": [
+    "A138244"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

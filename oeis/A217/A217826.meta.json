@@ -1,0 +1,20 @@
+{
+  "description": "Number of permutations of length 3n with descent set {3, 6, ...} that avoid a certain pattern of length 4 or 5 (see Lewis, 2012, Appendix, for precise definition).",
+  "id": "A217826",
+  "mentions": [
+    "A181197",
+    "A217799",
+    "A217830"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

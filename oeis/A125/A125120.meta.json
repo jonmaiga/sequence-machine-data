@@ -1,0 +1,21 @@
+{
+  "description": "Sum of values of repunits of length n in base b representation with 1",
+  "id": "A125120",
+  "mentions": [
+    "A076015",
+    "A125118",
+    "A228275"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

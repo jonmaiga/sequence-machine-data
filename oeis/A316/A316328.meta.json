@@ -1,0 +1,37 @@
+{
+  "description": "Lexicographically earliest knight's path on spiral on infinite chessboard.",
+  "id": "A316328",
+  "mentions": [
+    "A174344",
+    "A274923",
+    "A296030",
+    "A316338",
+    "A316588",
+    "A316667",
+    "A323809",
+    "A326413",
+    "A326916",
+    "A326918",
+    "A326922",
+    "A326924",
+    "A328698",
+    "A328908",
+    "A328909",
+    "A328928",
+    "A328929"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

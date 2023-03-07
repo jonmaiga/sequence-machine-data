@@ -1,0 +1,21 @@
+{
+  "description": "Number of (not necessarily connected) simple bridged graphs with n nodes.",
+  "id": "A263915",
+  "mentions": [
+    "A000088",
+    "A007146",
+    "A052446",
+    "A263914"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

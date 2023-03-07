@@ -1,0 +1,22 @@
+{
+  "description": "Primes that are the sum of an integer n and its arithmetic derivative",
+  "id": "A165561",
+  "mentions": [
+    "A000040",
+    "A003415",
+    "A129283",
+    "A165562"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:48",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

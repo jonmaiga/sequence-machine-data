@@ -1,0 +1,20 @@
+{
+  "description": "First number of the periodic part of the \"Say what you see\" trajectory (see A005151) of n.",
+  "id": "A268312",
+  "mentions": [
+    "A005151",
+    "A047841"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

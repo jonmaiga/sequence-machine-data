@@ -1,0 +1,18 @@
+{
+  "description": "Number of equal bit-runs in Wythoff representation of n.",
+  "id": "A200647",
+  "mentions": [
+    "A135817",
+    "A317208"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

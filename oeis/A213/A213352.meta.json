@@ -1,0 +1,23 @@
+{
+  "description": "10-quantum transitions in systems of N >= 10 spin 1/2 particles, in columns by combination indices.",
+  "id": "A213352",
+  "mentions": [
+    "A004316",
+    "A051288",
+    "A172242",
+    "A213343",
+    "A213351"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 10,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Ceiling(5n + log(5n)).",
+  "id": "A212454",
+  "mentions": [
+    "A000523",
+    "A062153",
+    "A102572",
+    "A212445",
+    "A212453"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:32:29",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

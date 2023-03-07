@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 3*a(n-1) - a(n-2) - 3*a(n-3) + 2*a(n-4), where a(0) = 2, a(1) = 4, a(2) = 8, a(3) = 18.",
+  "id": "A288206",
+  "mentions": [
+    "A288203"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:00",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

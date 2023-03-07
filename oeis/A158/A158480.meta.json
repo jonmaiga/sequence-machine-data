@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = 12*n^2 + 1.",
+  "id": "A158480",
+  "mentions": [
+    "A001082",
+    "A005843",
+    "A010014",
+    "A016921",
+    "A016969",
+    "A135453",
+    "A158479"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

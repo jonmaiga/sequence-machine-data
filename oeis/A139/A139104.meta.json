@@ -1,0 +1,29 @@
+{
+  "description": "Numbers whose binary representation shows the distribution of prime numbers up to the n-th prime, using \"0\" for primes and \"1\" for nonprime numbers.",
+  "id": "A139104",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A001348",
+    "A018252",
+    "A118255",
+    "A121240",
+    "A139101",
+    "A139102",
+    "A139103",
+    "A139119",
+    "A139120",
+    "A139122"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:27",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

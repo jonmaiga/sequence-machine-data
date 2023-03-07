@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = largest nonprime nonnegative integer < c(n) which is coprime to c(n), where c(n) is the n-th composite positive integer.",
+  "id": "A113521",
+  "mentions": [
+    "A002808"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

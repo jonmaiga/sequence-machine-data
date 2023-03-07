@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of the central angle in radians corresponding to a circular segment with area r^2 of a circle with radius r.",
+  "id": "A179373",
+  "mentions": [
+    "A049541",
+    "A179374",
+    "A179375",
+    "A179376",
+    "A179377",
+    "A179378"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "changed",
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

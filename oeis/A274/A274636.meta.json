@@ -1,0 +1,20 @@
+{
+  "description": "Square array read by antidiagonals: T(m,n) (m>=0, n>=0) = (2^floor(m/2)+1)*(2^ceiling(n/2)+1).",
+  "id": "A274636",
+  "mentions": [
+    "A183978",
+    "A274635",
+    "A274637"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

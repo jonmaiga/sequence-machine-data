@@ -1,0 +1,30 @@
+{
+  "description": "Array T(n,k) read by rows: number of binary bracelets with n beads, k of them 0, with 00 prohibited, (n >= 2, 0 <= k <= floor(n/2)).",
+  "id": "A143654",
+  "mentions": [
+    "A004526",
+    "A005232",
+    "A005513",
+    "A005514",
+    "A005515",
+    "A005516",
+    "A032279",
+    "A032280",
+    "A032281",
+    "A032282",
+    "A057427",
+    "A069905",
+    "A129526"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 2,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

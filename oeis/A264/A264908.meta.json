@@ -1,0 +1,19 @@
+{
+  "description": "Primes of the form 2^i + 2^j + 2^k - 1, i > j > k > 0.",
+  "id": "A264908",
+  "mentions": [
+    "A000668",
+    "A095077",
+    "A239712"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

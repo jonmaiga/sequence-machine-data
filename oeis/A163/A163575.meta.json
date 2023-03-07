@@ -1,0 +1,24 @@
+{
+  "description": "Remove all trailing bits equal to (n mod 2) in binary representation of n.",
+  "id": "A163575",
+  "mentions": [
+    "A000265",
+    "A042963",
+    "A136480",
+    "A153733",
+    "A227183"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of n X 3 0..2 arrays with row sums 3 and column sums n.",
+  "id": "A172634",
+  "mentions": [
+    "A000172",
+    "A002898",
+    "A006480",
+    "A328725",
+    "A328747",
+    "A334549"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:56",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

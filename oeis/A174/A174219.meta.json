@@ -1,0 +1,21 @@
+{
+  "description": "Integers equal to sqrt of A147846(n)+A147846(n+1)",
+  "id": "A174219",
+  "mentions": [
+    "A000040",
+    "A014574",
+    "A147846",
+    "A164276"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

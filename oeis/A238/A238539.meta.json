@@ -1,0 +1,23 @@
+{
+  "description": "A fourth-order linear divisibility sequence: a(n) := (1/9)*(2^n + (-1)^n)*(2^(3*n) - (-1)^n).",
+  "id": "A238539",
+  "mentions": [
+    "A238536",
+    "A238537",
+    "A238538",
+    "A238540",
+    "A238541"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:57:09",
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

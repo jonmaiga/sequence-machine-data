@@ -1,0 +1,18 @@
+{
+  "description": "Least m>0 such that prime(n)+m and n-m are relatively prime.",
+  "id": "A214069",
+  "mentions": [
+    "A214052"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

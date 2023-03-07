@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (2*n)! * [x^(2*n)] (-log(sqrt(1 - 2*x)))^n/(sqrt(1 - 2*x)*n!).",
+  "id": "A293318",
+  "mentions": [
+    "A028338",
+    "A039757",
+    "A109692",
+    "A265846"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = a(a(n-A001511(n))) + a(n-a(n-A001511(n))) with a(1) = a(2) = 1, where A001511(n) = 1 + exponent of the highest power of 2 dividing n.",
+  "id": "A284006",
+  "mentions": [
+    "A001511",
+    "A004001",
+    "A093049",
+    "A284000",
+    "A284007"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

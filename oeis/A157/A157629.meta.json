@@ -1,0 +1,22 @@
+{
+  "description": "A general recursion triangle with third part a power triangle:m=2; Power triangle: f(n,k,m)=If[n*k*(n - k) == 0, 1, n^m - (k^m + (n - k)^m)]; Recursion: A(n,k,m)=(m*(n - k) + 1)*A(n - 1, k - 1, m) + (m*k + 1)*A(n - 1, k, m) + m*f(n, k, m)*A(n - 2, k - 1, m).",
+  "id": "A157629",
+  "mentions": [
+    "A142459",
+    "A154336",
+    "A157277"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

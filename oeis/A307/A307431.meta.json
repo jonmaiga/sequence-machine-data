@@ -1,0 +1,25 @@
+{
+  "description": "Number T(n,k) of partitions of n into parts whose bitwise OR equals k; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A307431",
+  "mentions": [
+    "A000007",
+    "A000041",
+    "A050314",
+    "A050315",
+    "A057427",
+    "A307432"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "p^2-p+1 central polygonal numbers with prime indices A002061(prime(n)).",
+  "id": "A119959",
+  "mentions": [
+    "A002061",
+    "A002383",
+    "A034915",
+    "A036689",
+    "A068468",
+    "A074268",
+    "A083558",
+    "A085104",
+    "A087126"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:27:55",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that (Z/mZ)* = C_2 X C_(2k) has solutions m, where (Z/mZ)* is the multiplicative group of integers modulo m.",
+  "id": "A328413",
+  "mentions": [
+    "A114871",
+    "A328412",
+    "A328414"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

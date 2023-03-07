@@ -1,0 +1,20 @@
+{
+  "description": "Triangle where a(0,0) = 0; a(n,m) = number of terms in row (n-1) which, when added to m, are primes.",
+  "id": "A114919",
+  "mentions": [
+    "A114905",
+    "A114906",
+    "A114920"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Pairwise listing of the partitions of 2k into two parts, (s,t), with 0 < s <= t ordered by increasing values of s and where k = 1,2,... .",
+  "id": "A342769",
+  "mentions": [
+    "A000194",
+    "A052928",
+    "A103889",
+    "A339399",
+    "A339443",
+    "A342913"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

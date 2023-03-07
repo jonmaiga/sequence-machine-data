@@ -1,0 +1,20 @@
+{
+  "description": "6 followed by numbers with n-1 0's between 1 and 5.",
+  "id": "A133472",
+  "mentions": [
+    "A068128",
+    "A133384"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

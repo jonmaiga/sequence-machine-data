@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that have at least two proper divisors with an equal sum of digits.",
+  "id": "A359076",
+  "mentions": [
+    "A000005",
+    "A007953",
+    "A359074",
+    "A359077"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

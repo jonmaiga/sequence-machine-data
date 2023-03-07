@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k such that 10^k-801 is prime.",
+  "id": "A271618",
+  "mentions": [
+    "A056654",
+    "A268448",
+    "A269303",
+    "A270339",
+    "A270613",
+    "A270831",
+    "A270890",
+    "A270929",
+    "A271269"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

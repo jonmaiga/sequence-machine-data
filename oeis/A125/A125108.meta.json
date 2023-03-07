@@ -1,0 +1,25 @@
+{
+  "description": "Column sums of a Gaussian polynomial-shaped array. Row sums generate the Eulerian array A008292.",
+  "id": "A125108",
+  "mentions": [
+    "A000041",
+    "A000079",
+    "A000142",
+    "A007318",
+    "A008292",
+    "A047970",
+    "A060351",
+    "A105552"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

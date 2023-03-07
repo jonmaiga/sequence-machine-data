@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of \"generalized signotopes\", i.e., mappings X:{{1..n} choose 3}->{+,-} such that for any four indices a < b < c < d, the sequence X(a,b,c), X(a,b,d), X(a,c,d), X(b,c,d) changes its sign at most twice (equivalently +-+- and -+-+ are forbidden).",
+  "id": "A328377",
+  "mentions": [
+    "A006245",
+    "A276109",
+    "A329980"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 3,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

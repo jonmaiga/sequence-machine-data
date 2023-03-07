@@ -1,0 +1,25 @@
+{
+  "description": "The spiral of Champernowne, read along the East ray.",
+  "id": "A244677",
+  "mentions": [
+    "A033307",
+    "A033952",
+    "A054552",
+    "A244678",
+    "A244688",
+    "A244690",
+    "A244692"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

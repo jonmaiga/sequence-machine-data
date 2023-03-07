@@ -1,0 +1,19 @@
+{
+  "description": "The least number j such that 9 divides s(k)-s(j), where k(n)=A205872(n) and s(k) denotes the (k+1)-st Fibonacci number.",
+  "id": "A205873",
+  "mentions": [
+    "A204890",
+    "A205840",
+    "A205872"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 09:35:24",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

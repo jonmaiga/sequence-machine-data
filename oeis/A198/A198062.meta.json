@@ -1,0 +1,32 @@
+{
+  "description": "Array read by antidiagonals, m>=0, n>=0, k>=0, A(m, n, k) = sum{j=0..m} sum{i=0..m} (-1)^(j+i)*C(i,j)*n^j*k^(m-j).",
+  "id": "A198062",
+  "mentions": [
+    "A000012",
+    "A003056",
+    "A007318",
+    "A073254",
+    "A103371",
+    "A194595",
+    "A197653",
+    "A197654",
+    "A197655",
+    "A198060",
+    "A198061",
+    "A198063",
+    "A198064",
+    "A198065"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

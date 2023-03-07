@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) (n>=3, 1<=k<=n-2) = number of uniform realizable oriented matroids with n elements and rank n-k+1.",
+  "id": "A222317",
+  "mentions": [
+    "A018242",
+    "A063851"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 3,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that k iterations of n under the modified Collatz function yield k for some k.",
+  "id": "A258826",
+  "mentions": [
+    "A014682",
+    "A066861",
+    "A070168",
+    "A258825"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

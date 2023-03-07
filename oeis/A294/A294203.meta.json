@@ -1,0 +1,27 @@
+{
+  "description": "Number of partitions of n into distinct Lucas parts (A000204) greater than 1.",
+  "id": "A294203",
+  "mentions": [
+    "A000204",
+    "A001350",
+    "A003263",
+    "A033999",
+    "A054770",
+    "A067592",
+    "A108103",
+    "A239002",
+    "A287775",
+    "A294204"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:08:23",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

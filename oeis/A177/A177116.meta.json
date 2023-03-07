@@ -1,0 +1,23 @@
+{
+  "description": "Partial sums of round(n^2/11).",
+  "id": "A177116",
+  "mentions": [
+    "A173690",
+    "A173691",
+    "A173722",
+    "A177100",
+    "A181120"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:54:11",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

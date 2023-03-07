@@ -1,0 +1,19 @@
+{
+  "description": "Coefficients of polynomials based on the generalized factorial at k=2 (A001147): b(n)=b(n-1+k; a(n)=b(n)*a(n-1); p(x,n)=If[n == 0, 1, a(n - 1)*(x - a(n - 1))*Product[x + 1/b(i), {i, 1, n - 1}]].",
+  "id": "A144457",
+  "mentions": [
+    "A001147"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

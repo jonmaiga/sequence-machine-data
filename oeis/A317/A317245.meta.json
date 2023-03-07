@@ -1,0 +1,27 @@
+{
+  "description": "Number of supernormal integer partitions of n.",
+  "id": "A317245",
+  "mentions": [
+    "A000041",
+    "A181819",
+    "A182850",
+    "A182857",
+    "A275870",
+    "A304660",
+    "A305563",
+    "A317081",
+    "A317086",
+    "A317088",
+    "A317246"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

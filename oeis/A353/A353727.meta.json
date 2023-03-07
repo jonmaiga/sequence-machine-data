@@ -1,0 +1,22 @@
+{
+  "description": "Index in A353715 of the first term divisible by 2^n and no higher power of 2, or -1 if no such term exists.",
+  "id": "A353727",
+  "mentions": [
+    "A353709",
+    "A353715",
+    "A353724",
+    "A353725",
+    "A353726"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

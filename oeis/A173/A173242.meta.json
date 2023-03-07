@@ -1,0 +1,18 @@
+{
+  "description": "Partial sums of A027642.",
+  "id": "A173242",
+  "mentions": [
+    "A027642"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:49",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

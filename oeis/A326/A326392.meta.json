@@ -1,0 +1,20 @@
+{
+  "description": "Lesser of twin primes p for which sigma(p+1)/sigma(p) reaches record value, where sigma(n) is the divisor sum function (A000203).",
+  "id": "A326392",
+  "mentions": [
+    "A000203",
+    "A001359",
+    "A006512",
+    "A008333"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Biharmonic numbers: numbers m such that ( Hd(m)+Cd(m) )/2 is an integer, where Hd(m) and Cd(m) are the harmonic mean and the contraharmonic (or antiharmonic) mean of the divisors of m.",
+  "id": "A210494",
+  "mentions": [
+    "A001157",
+    "A001599",
+    "A020487",
+    "A038040",
+    "A074400",
+    "A189835",
+    "A230214"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

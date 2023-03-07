@@ -1,0 +1,22 @@
+{
+  "description": "Record gaps between numbers that are either primes or semiprimes.",
+  "id": "A275108",
+  "mentions": [
+    "A037143",
+    "A111087",
+    "A275013",
+    "A275014"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

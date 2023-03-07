@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that p+d is composite for all divisors d of p^2-1.",
+  "id": "A295818",
+  "mentions": [
+    "A000720",
+    "A143958",
+    "A295798"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:14",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

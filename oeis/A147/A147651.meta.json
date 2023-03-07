@@ -1,0 +1,21 @@
+{
+  "description": "First trisection of A028560.",
+  "id": "A147651",
+  "mentions": [
+    "A028560",
+    "A144396",
+    "A144454"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:33:15",
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Decimal expansion of Product_{primes p == 3 (mod 5)} 1/(1 - 1/p^4).",
+  "id": "A340927",
+  "mentions": [
+    "A004617",
+    "A340004",
+    "A340127",
+    "A340628",
+    "A340629",
+    "A340665",
+    "A340710",
+    "A340711",
+    "A340794",
+    "A340808",
+    "A340809",
+    "A340926"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

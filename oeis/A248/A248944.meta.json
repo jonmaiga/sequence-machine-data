@@ -1,0 +1,31 @@
+{
+  "description": "T(n,k)=Number of length n arrays x(i), i=1..n with x(i) in i..i+k and no value appearing more than 1 time",
+  "id": "A248944",
+  "mentions": [
+    "A000027",
+    "A001924",
+    "A002061",
+    "A061989",
+    "A079909",
+    "A079910",
+    "A079911",
+    "A079912",
+    "A079922",
+    "A079923",
+    "A079924",
+    "A079925",
+    "A079926"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

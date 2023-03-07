@@ -1,0 +1,20 @@
+{
+  "description": "Permutation of nonnegative integers: a(0) = 0; for n >= 1, a(n) = A225901(1+A225901(n-1)).",
+  "id": "A302851",
+  "mentions": [
+    "A225901",
+    "A302852"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

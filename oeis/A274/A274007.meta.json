@@ -1,0 +1,22 @@
+{
+  "description": "Number of ordered ways to write n as x^5 + 2*y^5 + z*(3*z-1)/2 + w*(3*w+1)/2, where x,y,z,w are nonnegative integers.",
+  "id": "A274007",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A000326",
+    "A000584",
+    "A001318",
+    "A005449"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

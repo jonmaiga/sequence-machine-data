@@ -1,0 +1,20 @@
+{
+  "description": "Least positive integer m with A160325(m) = n.",
+  "id": "A254677",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A000326",
+    "A160325"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

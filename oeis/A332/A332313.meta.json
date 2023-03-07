@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k, k + 1 and k + 2 have the same number of divisors in Gaussian integers.",
+  "id": "A332313",
+  "mentions": [
+    "A005238",
+    "A062327",
+    "A332312",
+    "A332314"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

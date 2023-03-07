@@ -1,0 +1,33 @@
+{
+  "description": "Number of unlabeled simple graphs covering n vertices with exactly two automorphisms.",
+  "id": "A330346",
+  "mentions": [
+    "A000088",
+    "A002494",
+    "A003400",
+    "A055621",
+    "A124059",
+    "A241454",
+    "A330098",
+    "A330227",
+    "A330230",
+    "A330231",
+    "A330294",
+    "A330295",
+    "A330297",
+    "A330343",
+    "A330344",
+    "A330345"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that (k!+n)/k and (k!-n)/k are prime for some k.",
+  "id": "A240164",
+  "mentions": [
+    "A240161",
+    "A240163"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

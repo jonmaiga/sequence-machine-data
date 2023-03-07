@@ -1,0 +1,17 @@
+{
+  "description": "Numbers missing from A079051.",
+  "id": "A117247",
+  "mentions": [
+    "A079051"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

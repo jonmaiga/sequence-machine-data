@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n where 2^n and n have the same digital root.",
+  "id": "A225539",
+  "mentions": [
+    "A010718",
+    "A010888",
+    "A153130"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:42:47",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

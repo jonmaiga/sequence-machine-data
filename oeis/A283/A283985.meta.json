@@ -1,0 +1,24 @@
+{
+  "description": "Sums of distinct terms of A143293: a(n) = Sum_{k>=0} A030308(n,k)*A143293(k).",
+  "id": "A283985",
+  "mentions": [
+    "A002110",
+    "A030308",
+    "A143293",
+    "A276085",
+    "A276156",
+    "A283477",
+    "A283984"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

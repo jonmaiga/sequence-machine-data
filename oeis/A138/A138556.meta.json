@@ -1,0 +1,18 @@
+{
+  "description": "Numbers in A137365 but not in A137366.",
+  "id": "A138556",
+  "mentions": [
+    "A137365",
+    "A137366"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

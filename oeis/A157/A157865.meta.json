@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of numbers of the form 4n+2 in A082542.",
+  "id": "A157865",
+  "mentions": [
+    "A082542"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

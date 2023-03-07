@@ -1,0 +1,18 @@
+{
+  "description": "Rank of (4+r)*n when all the numbers (4-r)*j and (4+r)*k, where r = sqrt(2), j>=1, k>=1, are jointly ranked.",
+  "id": "A292641",
+  "mentions": [
+    "A292640"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

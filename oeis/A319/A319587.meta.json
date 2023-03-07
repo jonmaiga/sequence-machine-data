@@ -1,0 +1,20 @@
+{
+  "description": "The number of distinct solid nets of the six convex regular 4D-polytopes in the order of their 3D-cell count.",
+  "id": "A319587",
+  "mentions": [
+    "A091159",
+    "A201187"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "fini",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Primes of the form (product of 4 consecutive primes) + (sum of the same 4 consecutive primes).",
+  "id": "A349985",
+  "mentions": [
+    "A096342"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

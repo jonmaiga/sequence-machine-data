@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of 'xiHat', a constant used in the asymptotic evaluation of e.g.f. coefficients for the number of labeled mobiles.",
+  "id": "A243395",
+  "mentions": [
+    "A038037",
+    "A242769",
+    "A243396"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

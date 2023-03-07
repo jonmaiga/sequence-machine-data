@@ -1,0 +1,22 @@
+{
+  "description": "a(1)=a(2)=1; thereafter, a(n+1) = a(n) + a(n-1) + 1 if n is a multiple of 5, otherwise a(n+1) = a(n) + a(n-1).",
+  "id": "A124502",
+  "mentions": [
+    "A004695",
+    "A052952",
+    "A080239",
+    "A131132",
+    "A138134"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:40:53",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

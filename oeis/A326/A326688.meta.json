@@ -1,0 +1,29 @@
+{
+  "description": "Sum of the largest parts of the partitions of n into 10 primes.",
+  "id": "A326688",
+  "mentions": [
+    "A010051",
+    "A259201",
+    "A326678",
+    "A326679",
+    "A326680",
+    "A326681",
+    "A326682",
+    "A326683",
+    "A326684",
+    "A326685",
+    "A326686",
+    "A326687"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

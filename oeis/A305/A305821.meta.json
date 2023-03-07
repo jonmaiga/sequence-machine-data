@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 1 if n is composite and its binary expansion encodes an irreducible (0,1)-polynomial when factored over Q, 0 otherwise.",
+  "id": "A305821",
+  "mentions": [
+    "A010051",
+    "A206075",
+    "A257000",
+    "A305790"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

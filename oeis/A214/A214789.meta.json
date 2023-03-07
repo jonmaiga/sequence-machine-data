@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest k>=2 such that n divides A000045(k-1)+8.",
+  "id": "A214789",
+  "mentions": [
+    "A000045",
+    "A214783",
+    "A214784",
+    "A214785",
+    "A214786"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

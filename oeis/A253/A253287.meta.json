@@ -1,0 +1,19 @@
+{
+  "description": "Numbers representable as x^y + x*y and as b^c + b + c, where x, y, b, c are integers > 1.",
+  "id": "A253287",
+  "mentions": [
+    "A250004",
+    "A253775"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

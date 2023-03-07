@@ -1,0 +1,19 @@
+{
+  "description": "Primes p(n) such that gcd(p(n)-1, p(n+1)-1) < gcd(p(n)+1, p(n+1)+1).",
+  "id": "A176182",
+  "mentions": [
+    "A063091",
+    "A176180",
+    "A176181"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

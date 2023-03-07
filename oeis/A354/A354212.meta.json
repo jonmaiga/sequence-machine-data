@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that A297330(k)*k and k have the same digits but in a different order.",
+  "id": "A354212",
+  "mentions": [
+    "A297330"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

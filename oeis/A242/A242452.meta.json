@@ -1,0 +1,21 @@
+{
+  "description": "Number of length n words on {1,2,3} with no more than one consecutive 1 and no more than two consecutive 2's and no more than three consecutive 3's.",
+  "id": "A242452",
+  "mentions": [
+    "A000931",
+    "A007283",
+    "A242464"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

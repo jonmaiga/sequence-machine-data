@@ -1,0 +1,24 @@
+{
+  "description": "Partial sums of the Lucas numbers of the form L(3n+2) (A163063).",
+  "id": "A307268",
+  "mentions": [
+    "A000032",
+    "A001076",
+    "A014448",
+    "A049651",
+    "A099919",
+    "A163063"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n! * [x^n] 1/(2 - exp(x))^n.",
+  "id": "A305919",
+  "mentions": [
+    "A000670",
+    "A005649",
+    "A053492",
+    "A226513",
+    "A226515"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

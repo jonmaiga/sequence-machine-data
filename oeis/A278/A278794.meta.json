@@ -1,0 +1,18 @@
+{
+  "description": "Number of nX3 0..3 arrays with rows in nondecreasing lexicographic order and columns in nonincreasing lexicographic order, but with exactly two mistakes.",
+  "id": "A278794",
+  "mentions": [
+    "A278798"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

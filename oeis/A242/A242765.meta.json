@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 2; for n>1, a(n) = product of digits of (a(n-1)^2).",
+  "id": "A242765",
+  "mentions": [
+    "A163522"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:18:51",
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
+  }
+}

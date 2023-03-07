@@ -1,0 +1,22 @@
+{
+  "description": "Autobiographical numbers: the first digit specifies how many 0's in the number, the next digit specifies how many 1's, etc. This version is not limited to 10 digits.",
+  "id": "A138480",
+  "mentions": [
+    "A046043",
+    "A138481",
+    "A138482"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

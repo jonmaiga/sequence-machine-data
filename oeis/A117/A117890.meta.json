@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that number of non-leading 0's in binary representation of n divides n.",
+  "id": "A117890",
+  "mentions": [
+    "A023416",
+    "A049445",
+    "A095078",
+    "A117891"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

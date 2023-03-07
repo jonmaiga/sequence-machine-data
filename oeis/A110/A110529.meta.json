@@ -1,0 +1,26 @@
+{
+  "description": "Numbers n such that n in ternary representation (A007089) has a block of exactly a prime number of consecutive zeros.",
+  "id": "A110529",
+  "mentions": [
+    "A000040",
+    "A007089",
+    "A037011",
+    "A086747",
+    "A110471",
+    "A110472",
+    "A110474"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

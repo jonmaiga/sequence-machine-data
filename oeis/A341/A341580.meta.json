@@ -1,0 +1,20 @@
+{
+  "description": "Number of steps needed to reach position \"YZ^(n-1)\" in the Towers of Hanoi exchanging disks puzzle with 3 pegs and n disks.",
+  "id": "A341580",
+  "mentions": [
+    "A341579",
+    "A341581"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

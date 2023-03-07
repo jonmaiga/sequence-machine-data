@@ -1,0 +1,22 @@
+{
+  "description": "a(1) = 1; a(n) = Sum_{d|n, d < n} p(n/d) * a(d), where p = A000041 (partition numbers).",
+  "id": "A328424",
+  "mentions": [
+    "A000041",
+    "A050354",
+    "A050369",
+    "A074206",
+    "A308076"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:57",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

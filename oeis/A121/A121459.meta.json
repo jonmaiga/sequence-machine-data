@@ -1,0 +1,19 @@
+{
+  "description": "Let f(n) = A004001(n)^2 - A005185(n)^2. Then a(n) = f(abs(f(n-1))) + f(abs(n - f(n-1))).",
+  "id": "A121459",
+  "mentions": [
+    "A004001",
+    "A005185"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "less",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

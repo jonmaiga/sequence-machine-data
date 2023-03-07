@@ -1,0 +1,19 @@
+{
+  "description": "Successive positions of odd digits in decimal expansion of Pi (position 0 means 3 before comma or decimal point)",
+  "id": "A173999",
+  "mentions": [
+    "A000796",
+    "A174000"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

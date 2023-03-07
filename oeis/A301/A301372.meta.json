@@ -1,0 +1,21 @@
+{
+  "description": "Conjectured best solution for the problem stated in A098072.",
+  "id": "A301372",
+  "mentions": [
+    "A088021",
+    "A098072",
+    "A301757"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that the decimal expansion of n^n contains no zeros.",
+  "id": "A240963",
+  "mentions": [
+    "A007377",
+    "A030700",
+    "A053408",
+    "A240962"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

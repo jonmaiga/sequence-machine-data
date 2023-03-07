@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of the proper divisors of n that are Lucas numbers (A000032, with 2 included).",
+  "id": "A304091",
+  "mentions": [
+    "A000032",
+    "A102460",
+    "A293435",
+    "A300836",
+    "A304092",
+    "A304093"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

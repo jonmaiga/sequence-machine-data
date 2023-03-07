@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = ((n mod d(n)) +1)th divisor of n, where d(n) is number of positive divisors of n.",
+  "id": "A124332",
+  "mentions": [
+    "A000005",
+    "A122377",
+    "A124333"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

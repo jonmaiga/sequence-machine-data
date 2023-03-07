@@ -1,0 +1,28 @@
+{
+  "description": "Seven-column table read by rows: Septuples that have the same value of phi, sigma, and tau.",
+  "id": "A322683",
+  "mentions": [
+    "A134922",
+    "A322679",
+    "A322680",
+    "A322681",
+    "A322682",
+    "A322684",
+    "A322685",
+    "A322686",
+    "A322687",
+    "A322692",
+    "A322693"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Smallest number m such that u + (sum of base-8 digits of u) = m has exactly n solutions.",
+  "id": "A238842",
+  "mentions": [
+    "A006064",
+    "A230303",
+    "A230638",
+    "A230640",
+    "A230867",
+    "A238840",
+    "A238841",
+    "A238843"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

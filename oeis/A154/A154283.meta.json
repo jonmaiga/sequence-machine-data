@@ -1,0 +1,39 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) = Sum_{i=0..k} (-1)^i * binomial(2*n+1,i) * binomial(k+2-i,2)^n, 0 <= k <= 2*(n-1).",
+  "id": "A154283",
+  "mentions": [
+    "A000012",
+    "A000680",
+    "A005799",
+    "A008292",
+    "A061981",
+    "A085438",
+    "A151624",
+    "A151625",
+    "A151626",
+    "A151627",
+    "A151628",
+    "A151629",
+    "A151630",
+    "A151631",
+    "A173018",
+    "A174266",
+    "A236463",
+    "A237202",
+    "A237252",
+    "A334781"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:36",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

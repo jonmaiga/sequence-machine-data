@@ -1,0 +1,23 @@
+{
+  "description": "Numbers whose second arithmetic derivative (A068346) is a squarefree number (A005117), but the first derivative (A003415) is not.",
+  "id": "A328245",
+  "mentions": [
+    "A003415",
+    "A005117",
+    "A008966",
+    "A068346",
+    "A328234",
+    "A328244",
+    "A328253"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

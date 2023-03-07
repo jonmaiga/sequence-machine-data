@@ -1,0 +1,19 @@
+{
+  "description": "The leftmost digit L of a(n) jumps over L+1 digits to the left and is duplicated there; the rightmost digit R of a(n) jumps over R digits to the right and is duplicated there. Lexicographically earliest sequence of distinct positive integers with this property and a(1) = 11.",
+  "id": "A336036",
+  "mentions": [
+    "A336034",
+    "A336035"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

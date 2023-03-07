@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that are the sum of five fifth powers in exactly one way.",
+  "id": "A344643",
+  "mentions": [
+    "A003350",
+    "A342686",
+    "A344190",
+    "A344642",
+    "A346356"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = 4*A002088(n).",
+  "id": "A140466",
+  "mentions": [
+    "A002088",
+    "A018805"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:28",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

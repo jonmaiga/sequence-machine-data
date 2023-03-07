@@ -1,0 +1,19 @@
+{
+  "description": "Ending primes for n-th composite number in the iterated procedure of composite added to sum of prime factors.",
+  "id": "A226218",
+  "mentions": [
+    "A050703",
+    "A050710",
+    "A050778"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

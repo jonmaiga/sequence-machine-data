@@ -1,0 +1,26 @@
+{
+  "description": "An analog of sigma(n)-n (A001065) for nonstandard factorization based on the sieve of Eratosthenes (A083221).",
+  "id": "A324535",
+  "mentions": [
+    "A001065",
+    "A003961",
+    "A020639",
+    "A055396",
+    "A078898",
+    "A083221",
+    "A250246",
+    "A324545",
+    "A324546"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

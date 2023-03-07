@@ -1,0 +1,21 @@
+{
+  "description": "Let m_n denote the number which is obtained from n-base representation of m if its digits are written in nondecreasing order; then a(n) is the smallest period of the sequence which is defined by the recurrence b(0)=0, b(1)=1, b(k)=(b(k-1) + b(k-2))_n, for k>=2, or a(n)=0, if there is no such period.",
+  "id": "A237671",
+  "mentions": [
+    "A004185",
+    "A069638",
+    "A237568",
+    "A306773"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 2,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

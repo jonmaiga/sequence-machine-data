@@ -1,0 +1,18 @@
+{
+  "description": "Integers in (1+A191141)/4; contains A191141 as a proper subsequence.",
+  "id": "A191207",
+  "mentions": [
+    "A191113",
+    "A191141"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:19:29",
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Largest primitive root mod A033948(n).",
+  "id": "A306253",
+  "mentions": [
+    "A033948",
+    "A306252"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

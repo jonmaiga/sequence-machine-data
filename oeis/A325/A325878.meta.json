@@ -1,0 +1,33 @@
+{
+  "description": "Number of maximal subsets of {1..n} such that every orderless pair of distinct elements has a different sum.",
+  "id": "A325878",
+  "mentions": [
+    "A002033",
+    "A108917",
+    "A143823",
+    "A143824",
+    "A196723",
+    "A276024",
+    "A325857",
+    "A325858",
+    "A325859",
+    "A325864",
+    "A325865",
+    "A325867",
+    "A325877",
+    "A325879",
+    "A325880",
+    "A325991"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

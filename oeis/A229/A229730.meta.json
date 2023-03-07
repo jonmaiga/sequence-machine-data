@@ -1,0 +1,18 @@
+{
+  "description": "Number of separable permutations with the maximum number of occurrences of the 1-box pattern on separable permutations.",
+  "id": "A229730",
+  "mentions": [
+    "A229729"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

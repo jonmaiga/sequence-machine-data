@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array read by rows. T(n,k) is the number of functions on n unlabeled nodes that have exactly k unique components (n >= 1, k >= 1).",
+  "id": "A217859",
+  "mentions": [
+    "A000081",
+    "A001372",
+    "A002861"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

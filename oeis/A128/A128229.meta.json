@@ -1,0 +1,24 @@
+{
+  "description": "A natural number transform, inverse of signed A094587.",
+  "id": "A128229",
+  "mentions": [
+    "A000085",
+    "A000522",
+    "A093375",
+    "A094587",
+    "A128227",
+    "A128228"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

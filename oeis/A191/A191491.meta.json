@@ -1,0 +1,17 @@
+{
+  "description": "Diagonal sums of triangle A191490.",
+  "id": "A191491",
+  "mentions": [
+    "A191490"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

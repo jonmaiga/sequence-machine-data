@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that first n digits of A091725 (decimal expansion of second exponential integral at 1, ExpIntegralEi[1]) gives a prime number.",
+  "id": "A228512",
+  "mentions": [
+    "A091725"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

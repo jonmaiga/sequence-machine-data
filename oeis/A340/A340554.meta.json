@@ -1,0 +1,22 @@
+{
+  "description": "T(n, k) = [x^k] hypergeom([-2^n/2, -2^n/2 - 1/2], [1/2], x). Triangle read by rows, T(n, k) for n >= 0.",
+  "id": "A340554",
+  "mentions": [
+    "A000051",
+    "A001146",
+    "A016131",
+    "A028297",
+    "A201461"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

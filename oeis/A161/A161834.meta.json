@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = A161828(n)/3.",
+  "id": "A161834",
+  "mentions": [
+    "A000695",
+    "A160120",
+    "A161422",
+    "A161828",
+    "A161838"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

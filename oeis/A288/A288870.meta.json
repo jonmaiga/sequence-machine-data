@@ -1,0 +1,27 @@
+{
+  "description": "Triangle T from array A(k,n) = (2*k+1)*2^n + 1, k >=0, n >= 0 read by downwards antidiagonals.",
+  "id": "A288870",
+  "mentions": [
+    "A000051",
+    "A083575",
+    "A083683",
+    "A083686",
+    "A083705",
+    "A168596",
+    "A181565",
+    "A288871"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:11:31",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

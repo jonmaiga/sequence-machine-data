@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,0) = 1; for n > 0: T(n,1) = n, for n>1: T(n,n) = T(n-1,n-2); T(n,k) = T(n-2,k-1) + T(n-1,k) for k: 1 < k < n.",
+  "id": "A208101",
+  "mentions": [
+    "A007318",
+    "A074909",
+    "A101461",
+    "A208355",
+    "A208976",
+    "A208983"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

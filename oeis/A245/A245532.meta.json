@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of b_3, a constant associated with the 3rd Du Bois Reymond constant.",
+  "id": "A245532",
+  "mentions": [
+    "A224196"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "changed",
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

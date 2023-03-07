@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=0..n} d(k^2 + 1), where d(k) is the number of divisors of k (A000005).",
+  "id": "A333171",
+  "mentions": [
+    "A000005",
+    "A002522",
+    "A193432"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Squares visited by moving diagonally one square on a spirally numbered board and moving to the lowest available unvisited square at each step.",
+  "id": "A316884",
+  "mentions": [
+    "A316667",
+    "A316671"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:35",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

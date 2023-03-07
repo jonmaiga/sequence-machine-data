@@ -1,0 +1,18 @@
+{
+  "description": "Zeroless numbers n such that the decimal expansion of a/b contains each digit of n, for all a,b > 0 such that concatenate(a,b) = n.",
+  "id": "A265730",
+  "mentions": [
+    "A051626"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

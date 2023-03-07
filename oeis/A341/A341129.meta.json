@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that A341117(k) is divisible by k and k is not a prime or power of a prime.",
+  "id": "A341129",
+  "mentions": [
+    "A341039",
+    "A341117"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Least positive integer m > 1 such that 1 - m^k + m^(2*k) is prime, where k=A003586(n).",
+  "id": "A205506",
+  "mentions": [
+    "A003586",
+    "A056993",
+    "A085398",
+    "A153438"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

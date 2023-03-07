@@ -1,0 +1,19 @@
+{
+  "description": "Least prime p < prime(n) such that 2^p - 1 is a primitive root modulo prime(n), or 0 if such a prime p does not exist.",
+  "id": "A234972",
+  "mentions": [
+    "A000040",
+    "A001348",
+    "A001918"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

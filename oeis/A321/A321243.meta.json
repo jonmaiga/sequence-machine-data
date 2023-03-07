@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the product of n and all its decimal digits individually except the leftmost digit.",
+  "id": "A321243",
+  "mentions": [
+    "A067079"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

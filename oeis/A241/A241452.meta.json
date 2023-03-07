@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = pg(3, n) + pg(4, n) + ... + pg(n, n) where pg(m, n) is the n-th m-th-order polygonal number.",
+  "id": "A241452",
+  "mentions": [
+    "A241453"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:00:09",
+    "offset": 0,
+    "size": 40,
+    "source": "joeis"
+  }
+}

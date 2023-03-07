@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of g.f.: (1+x^6+x^7)/(1-2*x+x^6-x^7-x^8).",
+  "id": "A234589",
+  "mentions": [
+    "A172317",
+    "A234590",
+    "A234591",
+    "A234592"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

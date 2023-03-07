@@ -1,0 +1,26 @@
+{
+  "description": "Number of normal multiset partitions of weight n where every part has the same sum.",
+  "id": "A326518",
+  "mentions": [
+    "A035470",
+    "A038041",
+    "A255906",
+    "A317583",
+    "A321455",
+    "A326517",
+    "A326519",
+    "A326520",
+    "A326521",
+    "A326534"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

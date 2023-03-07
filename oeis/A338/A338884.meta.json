@@ -1,0 +1,23 @@
+{
+  "description": "The smallest number of bits which need to be appended to the binary representation of n to reach a prime greater than n.",
+  "id": "A338884",
+  "mentions": [
+    "A000040",
+    "A005097",
+    "A036378",
+    "A070939",
+    "A108234",
+    "A208241"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

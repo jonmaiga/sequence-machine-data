@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{k=1..n} floor(binomial(n,k)/k).",
+  "id": "A101687",
+  "mentions": [
+    "A011857",
+    "A095718"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

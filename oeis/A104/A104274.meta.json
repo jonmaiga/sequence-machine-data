@@ -1,0 +1,22 @@
+{
+  "description": "Number of partitions of n in which odd squares occur with 2 types c,c* and with multiplicity 1. The even squares and parts that are twice the squares they occur with multiplicity 1.",
+  "id": "A104274",
+  "mentions": [
+    "A080054",
+    "A167661",
+    "A167700",
+    "A292563"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

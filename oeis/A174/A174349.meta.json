@@ -1,0 +1,31 @@
+{
+  "description": "Square array: row n gives the indices i for which prime(i+1) = prime(i) + 2n; read by falling antidiagonals.",
+  "id": "A174349",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A001223",
+    "A029707",
+    "A029709",
+    "A038664",
+    "A116493",
+    "A116495",
+    "A116496",
+    "A116497",
+    "A174350",
+    "A320701",
+    "A320720"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

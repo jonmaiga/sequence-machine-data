@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n of the form 2^k + 1 such that n + k is a prime q (for k >= 0).",
+  "id": "A268211",
+  "mentions": [
+    "A000051",
+    "A061421",
+    "A100359",
+    "A268209"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

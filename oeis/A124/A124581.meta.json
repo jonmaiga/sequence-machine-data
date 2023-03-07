@@ -1,0 +1,19 @@
+{
+  "description": "Abundant cubes.",
+  "id": "A124581",
+  "mentions": [
+    "A000578",
+    "A005101",
+    "A111029"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

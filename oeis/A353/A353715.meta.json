@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = b(n)+b(n+1), where b is A353709.",
+  "id": "A353715",
+  "mentions": [
+    "A353709",
+    "A353724",
+    "A353725",
+    "A353726",
+    "A353727"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 0,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

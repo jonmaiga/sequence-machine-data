@@ -1,0 +1,19 @@
+{
+  "description": "Numbers in which the n-th digit is either a divisor or a nonzero multiple of n.",
+  "id": "A178843",
+  "mentions": [
+    "A069570"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Numbers n such that every divisor greater than 1 contains the digit 0.",
+  "id": "A243825",
+  "mentions": [
+    "A056709",
+    "A062634",
+    "A062653",
+    "A062667",
+    "A062669",
+    "A062671",
+    "A062673",
+    "A062675",
+    "A062677",
+    "A062679",
+    "A243819"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

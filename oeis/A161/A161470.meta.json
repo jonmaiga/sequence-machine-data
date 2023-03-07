@@ -1,0 +1,19 @@
+{
+  "description": "Primes of the form 3^k+2^k+k^3-k^2.",
+  "id": "A161470",
+  "mentions": [
+    "A058765",
+    "A082101",
+    "A161469"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

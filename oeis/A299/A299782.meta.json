@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the total number of k-uniform tilings, for k = 1..n.",
+  "id": "A299782",
+  "mentions": [
+    "A068599",
+    "A068600",
+    "A299780",
+    "A299781"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Row sums of irregular triangle A070168.",
+  "id": "A285098",
+  "mentions": [
+    "A033493",
+    "A070168"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:56",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

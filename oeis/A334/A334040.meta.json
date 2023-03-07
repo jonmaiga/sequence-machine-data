@@ -1,0 +1,21 @@
+{
+  "description": "Number of odd numbers larger than n in the Collatz trajectory of n.",
+  "id": "A334040",
+  "mentions": [
+    "A006370",
+    "A006577",
+    "A070165",
+    "A078719",
+    "A286380"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

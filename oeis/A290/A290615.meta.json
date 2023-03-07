@@ -1,0 +1,26 @@
+{
+  "description": "Number of maximal independent vertex sets (and minimal vertex covers) in the n-triangular honeycomb bishop graph.",
+  "id": "A290615",
+  "mentions": [
+    "A000110",
+    "A007814",
+    "A124758",
+    "A146304",
+    "A243499",
+    "A284005",
+    "A290724",
+    "A329369",
+    "A341392"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

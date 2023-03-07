@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest prime that is not less than prime(n) and is such that prime(n)*a(n)+2 is semiprime.",
+  "id": "A338049",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A092207",
+    "A198327",
+    "A338048"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

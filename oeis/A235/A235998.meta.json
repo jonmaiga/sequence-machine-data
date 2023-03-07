@@ -1,0 +1,29 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of compositions of n having k distinct parts (n>=1, 1<=k<=floor((sqrt(1+8*n)-1)/2)).",
+  "id": "A235998",
+  "mentions": [
+    "A000005",
+    "A000142",
+    "A000217",
+    "A003056",
+    "A011782",
+    "A116608",
+    "A131661",
+    "A235790",
+    "A235999",
+    "A236002"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "look",
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:53",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

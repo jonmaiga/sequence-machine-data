@@ -1,0 +1,18 @@
+{
+  "description": "The number of noncototient numbers <= 10^n.",
+  "id": "A290242",
+  "mentions": [
+    "A005278"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

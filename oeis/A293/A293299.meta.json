@@ -1,0 +1,23 @@
+{
+  "description": "Square array A(n,k), n >= 0, k >= 0, read by antidiagonals, where column k is the expansion of e.g.f. Product_{i>0} 1/(Sum_{j=0..k} x^(j*i)/j!).",
+  "id": "A293299",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A293116",
+    "A293135",
+    "A293300",
+    "A293301"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Perfect powers equal to the sum of 2 factorial numbers.",
+  "id": "A227644",
+  "mentions": [
+    "A065433",
+    "A085692",
+    "A114377",
+    "A227645",
+    "A227646",
+    "A227647",
+    "A227648",
+    "A227649",
+    "A227650",
+    "A227651"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

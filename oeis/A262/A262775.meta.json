@@ -1,0 +1,21 @@
+{
+  "description": "For a(n+1), sift out all numbers congruent to a(n-1) mod a(n) except for a(n-1); a(0)=0, a(1)=2.",
+  "id": "A262775",
+  "mentions": [
+    "A000040",
+    "A000959",
+    "A000960",
+    "A003309"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

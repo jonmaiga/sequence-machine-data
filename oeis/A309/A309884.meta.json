@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that A003132(k^3) = A003132(k), where A003132(n) is the sum of the squares of the digits of n.",
+  "id": "A309884",
+  "mentions": [
+    "A003132",
+    "A058369",
+    "A070276",
+    "A174460",
+    "A176670",
+    "A178213",
+    "A307735",
+    "A309883"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

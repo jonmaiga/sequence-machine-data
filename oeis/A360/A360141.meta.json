@@ -1,0 +1,19 @@
+{
+  "description": "Bitwise encoding of the right half, initially empty, state of the 1D cellular automaton from A359303 after n steps.",
+  "id": "A360141",
+  "mentions": [
+    "A359303"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

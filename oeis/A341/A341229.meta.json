@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that (p^64 + 1)/2 is prime.",
+  "id": "A341229",
+  "mentions": [
+    "A005383",
+    "A048161",
+    "A176116",
+    "A340480",
+    "A341210",
+    "A341224"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

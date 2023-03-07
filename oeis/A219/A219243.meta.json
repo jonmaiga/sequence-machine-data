@@ -1,0 +1,21 @@
+{
+  "description": "Number of permutations of order n at the largest transposition distance (= A065603(n)) from the identity permutation.",
+  "id": "A219243",
+  "mentions": [
+    "A065603",
+    "A164366"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

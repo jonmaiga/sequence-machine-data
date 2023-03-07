@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that are the sum of nine fourth powers in exactly seven ways.",
+  "id": "A345849",
+  "mentions": [
+    "A345591",
+    "A345799",
+    "A345839",
+    "A345848",
+    "A345850",
+    "A345859",
+    "A346342"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:19",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

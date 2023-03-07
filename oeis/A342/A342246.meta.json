@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k-1, k and k+1 are all composite with four, five and six (not necessarily distinct) prime factors respectively.",
+  "id": "A342246",
+  "mentions": [
+    "A001222",
+    "A014613",
+    "A014614",
+    "A046306",
+    "A342258"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

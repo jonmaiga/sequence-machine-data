@@ -1,0 +1,21 @@
+{
+  "description": "Odd numbers which are uniquely decomposable into the sum of a prime and a power of two.",
+  "id": "A283806",
+  "mentions": [
+    "A000215",
+    "A101036",
+    "A109925"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:54",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

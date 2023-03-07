@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are the sum of eight cubes in exactly eight ways.",
+  "id": "A345790",
+  "mentions": [
+    "A345538",
+    "A345780",
+    "A345789",
+    "A345791",
+    "A345800",
+    "A345840"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:19",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

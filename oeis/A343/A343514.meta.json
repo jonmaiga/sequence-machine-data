@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=1..n} (k/gcd(n, k))^4.",
+  "id": "A343514",
+  "mentions": [
+    "A053820",
+    "A057661",
+    "A332654",
+    "A343498",
+    "A343513"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:05:17",
+    "offset": 1,
+    "size": 39,
+    "source": "joeis"
+  }
+}

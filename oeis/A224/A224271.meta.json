@@ -1,0 +1,22 @@
+{
+  "description": "Number of set partitions of {1,2,...,n} such that the element 1 is in an odd-sized block.",
+  "id": "A224271",
+  "mentions": [
+    "A000110",
+    "A003724",
+    "A005046",
+    "A102286",
+    "A124322"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

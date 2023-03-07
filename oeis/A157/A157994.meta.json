@@ -1,0 +1,20 @@
+{
+  "description": "Number of trees with n edges equipped with a cyclic order on their edges, i.e., number of orbits of the action of Z/nZ on the set of edge-labeled trees of size n, given by cyclically permuting the labels.",
+  "id": "A157994",
+  "mentions": [
+    "A000169",
+    "A007830"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

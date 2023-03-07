@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = (1/n) * Sum_{d|n} moebius(n/d) * Lucas(d)^7, where Lucas(n) = A000204(n).",
+  "id": "A203858",
+  "mentions": [
+    "A000204",
+    "A001622",
+    "A203800",
+    "A203808",
+    "A203853",
+    "A203854",
+    "A203855",
+    "A203856",
+    "A203857",
+    "A203859"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:24",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

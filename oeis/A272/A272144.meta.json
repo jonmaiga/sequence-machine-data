@@ -1,0 +1,22 @@
+{
+  "description": "Convolution of A000217 and A001045.",
+  "id": "A272144",
+  "mentions": [
+    "A000217",
+    "A001045",
+    "A011377",
+    "A178420"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:36",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

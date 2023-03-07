@@ -1,0 +1,35 @@
+{
+  "description": "Number T(n,k) of partitions of n into exactly k positive triangular numbers; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A319797",
+  "mentions": [
+    "A000007",
+    "A000217",
+    "A007294",
+    "A010054",
+    "A052344",
+    "A063993",
+    "A117278",
+    "A243148",
+    "A319394",
+    "A319799",
+    "A319814",
+    "A319815",
+    "A319816",
+    "A319817",
+    "A319818",
+    "A319819",
+    "A319820"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "The primes sums formed for each completed 3 X 3 square of numbers in A354441.",
+  "id": "A354442",
+  "mentions": [
+    "A000040",
+    "A257339",
+    "A337116",
+    "A354434",
+    "A354441"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of compositions of n into parts with distinct multiplicities and with exactly seven parts.",
+  "id": "A321777",
+  "mentions": [
+    "A242887"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:51:49",
+    "offset": 7,
+    "size": 45,
+    "source": "joeis"
+  }
+}

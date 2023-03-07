@@ -1,0 +1,21 @@
+{
+  "description": "Third column of triangle A112493 used for e.g.f.s of Stirling2 diagonals.",
+  "id": "A112495",
+  "mentions": [
+    "A000295",
+    "A112493",
+    "A124324"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

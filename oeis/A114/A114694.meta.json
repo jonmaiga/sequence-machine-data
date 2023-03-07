@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that A055081(n) = A055081(n+1).",
+  "id": "A114694",
+  "mentions": [
+    "A055081",
+    "A114585"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

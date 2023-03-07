@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: row n contains the first n numbers whose squares end in n^2.",
+  "id": "A111445",
+  "mentions": [
+    "A111444"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

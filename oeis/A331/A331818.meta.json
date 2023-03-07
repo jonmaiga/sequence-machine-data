@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f.: exp(1 - sec(x)) (even powers only).",
+  "id": "A331818",
+  "mentions": [
+    "A000364",
+    "A005046",
+    "A217502",
+    "A260884"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:19",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

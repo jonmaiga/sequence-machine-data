@@ -1,0 +1,21 @@
+{
+  "description": "Permanent of a square matrix M(n) whose general element M_{i,j} is defined by i*prime(j).",
+  "id": "A330087",
+  "mentions": [
+    "A000040",
+    "A014148",
+    "A014285",
+    "A033286",
+    "A309131"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

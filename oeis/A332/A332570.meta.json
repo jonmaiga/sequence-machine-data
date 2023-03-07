@@ -1,0 +1,24 @@
+{
+  "description": "Numbers that are norm-abundant in Gaussian integers.",
+  "id": "A332570",
+  "mentions": [
+    "A005101",
+    "A103228",
+    "A103229",
+    "A103230",
+    "A332320",
+    "A332321",
+    "A332571",
+    "A332572"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:02",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

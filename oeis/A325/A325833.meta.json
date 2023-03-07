@@ -1,0 +1,33 @@
+{
+  "description": "Number of integer partitions of n whose number of submultisets is less than n.",
+  "id": "A325833",
+  "mentions": [
+    "A000041",
+    "A002033",
+    "A088880",
+    "A088881",
+    "A098859",
+    "A108917",
+    "A307699",
+    "A325694",
+    "A325792",
+    "A325797",
+    "A325828",
+    "A325830",
+    "A325831",
+    "A325832",
+    "A325834",
+    "A325836"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

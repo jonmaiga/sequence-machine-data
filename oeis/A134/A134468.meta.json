@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that 2^n and 3^n have the same leading digit.",
+  "id": "A134468",
+  "mentions": [
+    "A000030",
+    "A008952",
+    "A060956"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that n - A007953(n) contains the same distinct digits as n.",
+  "id": "A248209",
+  "mentions": [
+    "A007953",
+    "A247887"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = number of run-lengths that each occur only once in the binary representation of n.",
+  "id": "A165414",
+  "mentions": [
+    "A005811",
+    "A165413"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:48",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least positive integer k such that it has exactly n triples of divisors (d1, d2, d3) such that they are pairwise coprime and d1 < d2 < d3 < 2*d1.",
+  "id": "A336629",
+  "mentions": [
+    "A083207",
+    "A333966",
+    "A336628"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

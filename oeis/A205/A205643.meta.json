@@ -1,0 +1,19 @@
+{
+  "description": "(2,k)-perfect numbers (A019278) such that the next (2,k)-perfect number has the same value of k (in A098223)",
+  "id": "A205643",
+  "mentions": [
+    "A019278",
+    "A098223"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

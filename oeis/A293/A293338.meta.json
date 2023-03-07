@@ -1,0 +1,22 @@
+{
+  "description": "The integer k that minimizes |k/2^n - e|.",
+  "id": "A293338",
+  "mentions": [
+    "A001113",
+    "A027437",
+    "A293337",
+    "A293341"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

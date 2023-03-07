@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that n^5 + 3 is semiprime.",
+  "id": "A108868",
+  "mentions": [
+    "A104238",
+    "A108814"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

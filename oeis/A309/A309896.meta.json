@@ -1,0 +1,24 @@
+{
+  "description": "Generalized Fibonacci numbers. Square array read by ascending antidiagonals. F(n,k) for n >= 0 and k >= 0.",
+  "id": "A309896",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000045",
+    "A006053",
+    "A188021",
+    "A231181"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

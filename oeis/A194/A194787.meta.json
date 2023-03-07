@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f. A(x) = G(x)^G(x) where G(x) = 1 + x*G(x)^G(x) is the e.g.f. of A194786.",
+  "id": "A194787",
+  "mentions": [
+    "A194786"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

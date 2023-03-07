@@ -1,0 +1,24 @@
+{
+  "description": "Odd abundant numbers not divisible by 3.",
+  "id": "A115414",
+  "mentions": [
+    "A005101",
+    "A005231",
+    "A047802",
+    "A064001",
+    "A112640",
+    "A112644",
+    "A248150",
+    "A325311"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

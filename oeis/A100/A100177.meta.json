@@ -1,0 +1,27 @@
+{
+  "description": "Structured meta-prism numbers, the n-th number from a structured n-gonal prism number sequence.",
+  "id": "A100177",
+  "mentions": [
+    "A000124",
+    "A000578",
+    "A002411",
+    "A006484",
+    "A006597",
+    "A050509",
+    "A060354",
+    "A100145",
+    "A100176"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

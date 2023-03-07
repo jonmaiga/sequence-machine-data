@@ -1,0 +1,22 @@
+{
+  "description": "Indices of centered 11-gonal numbers (A060544) that are also 11-gonal numbers (A051682).",
+  "id": "A280072",
+  "mentions": [
+    "A051682",
+    "A060544",
+    "A131215",
+    "A280071"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:47",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Exponential transform of the fifth powers A000584.",
+  "id": "A279638",
+  "mentions": [
+    "A000584",
+    "A279636"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:47",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = binomial(prime(n+3), prime(n)).",
+  "id": "A126993",
+  "mentions": [
+    "A058077",
+    "A125550",
+    "A126994",
+    "A126995",
+    "A126996",
+    "A126997",
+    "A126998"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:14",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

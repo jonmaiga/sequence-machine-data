@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows: T(n, k) gives the coefficients of the Girard-Waring formula for the sum of n-th power of three indeterminates in terms of their elementary symmetric functions.",
+  "id": "A325477",
+  "mentions": [
+    "A001399",
+    "A115131",
+    "A132460",
+    "A324602"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

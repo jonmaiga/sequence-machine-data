@@ -1,0 +1,17 @@
+{
+  "description": "Positive numbers of the form a^b +- 1 where a is in the sequence and b>1.",
+  "id": "A227802",
+  "mentions": [
+    "A080262"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

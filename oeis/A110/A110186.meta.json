@@ -1,0 +1,19 @@
+{
+  "description": "Strongly rounded Renard series R\"20 of preferred numbers based on 10^(1/20).",
+  "id": "A110186",
+  "mentions": [
+    "A011289"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Array read by descending antidiagonals: T(n,k) is the number of unoriented colorings of the square faces of a regular n-dimensional orthotope (hypercube) using k or fewer colors.",
+  "id": "A337888",
+  "mentions": [
+    "A000027",
+    "A198833",
+    "A325013",
+    "A331355",
+    "A337408",
+    "A337884",
+    "A337887",
+    "A337889",
+    "A337890",
+    "A337892"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 2,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Number of forests on unlabeled nodes with n edges and no single node trees.",
+  "id": "A215930",
+  "mentions": [
+    "A000055",
+    "A005195",
+    "A011782",
+    "A051491",
+    "A088325",
+    "A095133",
+    "A105821",
+    "A136605"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

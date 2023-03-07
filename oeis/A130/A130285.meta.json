@@ -1,0 +1,21 @@
+{
+  "description": "Number of divisors of A026416(n).",
+  "id": "A130285",
+  "mentions": [
+    "A000028",
+    "A026416",
+    "A123193",
+    "A130451"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:45",
+    "offset": 1,
+    "size": 101,
+    "source": "joeis"
+  }
+}

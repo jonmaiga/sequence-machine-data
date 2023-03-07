@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest permutation of the natural numbers such that in decimal representation d(n) is contained in a(n), where d is the digit sequence of the concatenation of the a-sequence, cf. A247149.",
+  "id": "A247143",
+  "mentions": [
+    "A247144",
+    "A247149",
+    "A247167"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

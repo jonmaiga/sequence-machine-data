@@ -1,0 +1,26 @@
+{
+  "description": "Triangle of numerators T(n,k) in the matrix {T(n,k)/(n-k)!,n>=k>=0} that transforms diagonals of the array (A174480) of coefficients in successive iterations of x*exp(x).",
+  "id": "A174485",
+  "mentions": [
+    "A174480",
+    "A174481",
+    "A174482",
+    "A174483",
+    "A174484",
+    "A174486",
+    "A174487",
+    "A174488",
+    "A174489"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triangle, read by rows, of Stirling numbers of second kind, S2(n,k), multiplied by k^k, for n >= 1, 1<=k<=n.",
+  "id": "A105197",
+  "mentions": [
+    "A008277",
+    "A105196"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

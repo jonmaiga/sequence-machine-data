@@ -1,0 +1,18 @@
+{
+  "description": "Lim_{n=1..inf.} A055830^n",
+  "id": "A153344",
+  "mentions": [
+    "A055830"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

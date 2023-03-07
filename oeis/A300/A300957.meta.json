@@ -1,0 +1,20 @@
+{
+  "description": "Fixed points of A300955.",
+  "id": "A300957",
+  "mentions": [
+    "A007814",
+    "A007949",
+    "A279510",
+    "A300955"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

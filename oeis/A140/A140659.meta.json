@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = floor(A140657(n+2)/10).",
+  "id": "A140659",
+  "mentions": [
+    "A000034",
+    "A093387",
+    "A140657"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:29",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

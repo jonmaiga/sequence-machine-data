@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n with property that n reduced mod (sum of all the other digits) is d, for each digit d.",
+  "id": "A172189",
+  "mentions": [
+    "A007953"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:56",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(0) = 0, a(1) = 1, and for any n > 1, a(n) is the number of iterations of the map x -> x - gpf(x) (where gpf(x) denotes the greatest prime factor of x) required to reach 0 starting from n.",
+  "id": "A309892",
+  "mentions": [
+    "A006530",
+    "A052126",
+    "A076563",
+    "A175126"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

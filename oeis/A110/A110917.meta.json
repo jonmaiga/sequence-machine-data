@@ -1,0 +1,21 @@
+{
+  "description": "Conversion to a regular-simple continued-fraction approximation of the limit value (C0=2.7745963816360040537087...) of the continued fraction (numerator = A110976 and denominator = A110977) based on the sequence of the distances of n from closest primes (A051699).",
+  "id": "A110917",
+  "mentions": [
+    "A051699",
+    "A110976",
+    "A110977"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cofr",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

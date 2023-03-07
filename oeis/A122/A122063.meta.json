@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 17, a(n) = sum of digits of all previous terms.",
+  "id": "A122063",
+  "mentions": [
+    "A004207"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

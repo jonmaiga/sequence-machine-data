@@ -1,0 +1,19 @@
+{
+  "description": "s(A205387), where s(j)=(1/2)C(2j,j)).",
+  "id": "A205389",
+  "mentions": [
+    "A204892",
+    "A205386",
+    "A205387"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 09:43:57",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Integer values of the running average of A104865.",
+  "id": "A104869",
+  "mentions": [
+    "A104865",
+    "A104866",
+    "A104867",
+    "A104868",
+    "A104870",
+    "A104871"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

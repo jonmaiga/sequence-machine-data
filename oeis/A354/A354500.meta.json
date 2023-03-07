@@ -1,0 +1,22 @@
+{
+  "description": "The Rijndael S-box used in the Advanced Encryption Standard (AES).",
+  "id": "A354500",
+  "mentions": [
+    "A354501",
+    "A355891"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Years in which Easter falls on the same day and month in both the Julian and Gregorian calendars, starting with 1583.",
+  "id": "A350027",
+  "mentions": [
+    "A060958",
+    "A104019",
+    "A104034"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

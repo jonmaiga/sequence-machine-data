@@ -1,0 +1,26 @@
+{
+  "description": "Number of round trips of length n from any of the four vertices of the cycle graph C_4.",
+  "id": "A199573",
+  "mentions": [
+    "A000004",
+    "A054877",
+    "A078008",
+    "A081294",
+    "A102518",
+    "A103424",
+    "A199571"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:14:10",
+    "offset": 0,
+    "size": 40,
+    "source": "joeis"
+  }
+}

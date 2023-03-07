@@ -1,0 +1,27 @@
+{
+  "description": "Consider a number of k digits n = d_(k)*10^(k-1) + d_(k-1)*10^(k-2) + … + d_(2)*10 + d_(1). Sequence lists the numbers n such that n’ = Sum_{i=1..k-1}{Sum_{j=1..i}{d_(k-j+1)*10^(i-j)}}’, where n’ is the arithmetic derivative of n (see example below).",
+  "id": "A244077",
+  "mentions": [
+    "A003415",
+    "A240894",
+    "A240903",
+    "A241207",
+    "A241502",
+    "A241503",
+    "A244068",
+    "A244069",
+    "A244078"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of 6Xn 0..2 arrays with every repeated value in every row greater than or equal to, and in every column greater than, the previous repeated value.",
+  "id": "A268030",
+  "mentions": [
+    "A268026"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Integers whose number of normal undulating divisors sets a new record.",
+  "id": "A355304",
+  "mentions": [
+    "A002182",
+    "A046952",
+    "A053624",
+    "A093036",
+    "A181808",
+    "A340548",
+    "A340549",
+    "A350756",
+    "A355301",
+    "A355302",
+    "A355303"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

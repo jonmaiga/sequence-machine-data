@@ -1,0 +1,26 @@
+{
+  "description": "Prime powers p^m with p <= m.",
+  "id": "A257278",
+  "mentions": [
+    "A000040",
+    "A000961",
+    "A025475",
+    "A051674",
+    "A122494",
+    "A192135",
+    "A257279",
+    "A257572",
+    "A257573"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

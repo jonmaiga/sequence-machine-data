@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n} C(n,k)*3^(k*(n-k))/2^n.",
+  "id": "A172389",
+  "mentions": [
+    "A047863",
+    "A135079"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

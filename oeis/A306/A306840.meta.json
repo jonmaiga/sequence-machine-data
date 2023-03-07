@@ -1,0 +1,19 @@
+{
+  "description": "Number of singular n X n matrices with elements {0, 1, 2}.",
+  "id": "A306840",
+  "mentions": [
+    "A197487"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Motzkin number M(n) raised to power M(n).",
+  "id": "A132656",
+  "mentions": [
+    "A000312",
+    "A001006",
+    "A008973",
+    "A008974",
+    "A132639"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

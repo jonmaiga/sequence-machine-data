@@ -1,0 +1,19 @@
+{
+  "description": "Number of weighted lattice paths in L_n having no (1,0)-steps at level 0. The members of L_n are paths of weight n that start at (0,0), end on the horizontal axis and whose steps are of the following four kinds: an (1,0)-step with weight 1, an (1,0)-step with weight 2, a (1,1)-step with weight 2, and a (1,-1)-step with weight 1. The weight of a path is the sum of the weights of its steps.",
+  "id": "A182889",
+  "mentions": [
+    "A001622",
+    "A182888"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:23",
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 2*F(n-1) + 9*F(n-4) + 9*F(n-7) where n >= 7 and F = A000045.",
+  "id": "A280931",
+  "mentions": [
+    "A000045",
+    "A022125",
+    "A022130",
+    "A101156",
+    "A280932"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 7,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

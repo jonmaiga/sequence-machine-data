@@ -1,0 +1,20 @@
+{
+  "description": "Table of consecutive numbers with the same sum of divisors.",
+  "id": "A225757",
+  "mentions": [
+    "A002961",
+    "A225756",
+    "A225758"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

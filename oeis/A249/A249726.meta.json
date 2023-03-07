@@ -1,0 +1,27 @@
+{
+  "description": "Numbers n such that there is a multiple of 36 on row n of Pascal's triangle with property that it is also the least multiple of 4 and the least multiple of 9 on the same row.",
+  "id": "A249726",
+  "mentions": [
+    "A000027",
+    "A007318",
+    "A034931",
+    "A044102",
+    "A048278",
+    "A048645",
+    "A051382",
+    "A095143",
+    "A249722",
+    "A249723",
+    "A249724"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

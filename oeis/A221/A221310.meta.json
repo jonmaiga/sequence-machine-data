@@ -1,0 +1,18 @@
+{
+  "description": "Numbers m such that exactly four subsets of {m-1, m, m+1} sum up to a prime number.",
+  "id": "A221310",
+  "mentions": [
+    "A040040",
+    "A117499"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

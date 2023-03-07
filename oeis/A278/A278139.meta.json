@@ -1,0 +1,19 @@
+{
+  "description": "Primes, starting with a(1)=2, whose successive differences are increasing triangular numbers.",
+  "id": "A278139",
+  "mentions": [
+    "A088173",
+    "A275030"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

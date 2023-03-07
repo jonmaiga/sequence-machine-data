@@ -1,0 +1,23 @@
+{
+  "description": "Triangle, read by rows, each row n being defined by g.f. Product_{k=1..n} (k + x + k*x^2), for n >= 0.",
+  "id": "A322235",
+  "mentions": [
+    "A322225",
+    "A322236",
+    "A322237",
+    "A322238",
+    "A322891"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

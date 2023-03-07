@@ -1,0 +1,24 @@
+{
+  "description": "n-th composite number appears n-th prime times.",
+  "id": "A111657",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A111653",
+    "A111654",
+    "A111655",
+    "A111656"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

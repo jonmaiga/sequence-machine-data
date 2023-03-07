@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest positive integer not the sum of one or more nonzero powers of p_0, p_1, ..., p_n, where p_0 = 1 and p_n = prime(n) for n >= 1.",
+  "id": "A351900",
+  "mentions": [
+    "A034875",
+    "A122863",
+    "A351661"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

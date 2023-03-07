@@ -1,0 +1,21 @@
+{
+  "description": "A004736(signed) * A007318.",
+  "id": "A128256",
+  "mentions": [
+    "A004736",
+    "A007318",
+    "A053088"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

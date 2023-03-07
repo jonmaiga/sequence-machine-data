@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the maximal permanent of an n X n symmetric Toeplitz matrix using the integers 0 to n - 1.",
+  "id": "A358327",
+  "mentions": [
+    "A351020",
+    "A358323",
+    "A358324",
+    "A358326"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

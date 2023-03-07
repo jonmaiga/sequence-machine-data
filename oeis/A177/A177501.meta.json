@@ -1,0 +1,20 @@
+{
+  "description": "The number of entries in row n of table A174625 which are multiples of n.",
+  "id": "A177501",
+  "mentions": [
+    "A000010",
+    "A174625",
+    "A221533"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

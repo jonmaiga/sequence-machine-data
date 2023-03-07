@@ -1,0 +1,43 @@
+{
+  "description": "G.f. A(x,y) satisfies: A( x - y*A(x,y)^2, y) = x + (1-y)*A(x,y)^2, where the coefficients T(n,k) of x^n*y^k form a triangle read by rows n>=1, for k=0..n-1.",
+  "id": "A277295",
+  "mentions": [
+    "A000108",
+    "A138156",
+    "A213591",
+    "A275765",
+    "A276360",
+    "A276361",
+    "A276362",
+    "A276363",
+    "A276365",
+    "A277296",
+    "A277297",
+    "A277298",
+    "A277299",
+    "A277300",
+    "A277301",
+    "A277302",
+    "A277303",
+    "A277304",
+    "A277305",
+    "A277306",
+    "A277307",
+    "A277308",
+    "A277309",
+    "A277310",
+    "A277311"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

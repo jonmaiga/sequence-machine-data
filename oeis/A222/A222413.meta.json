@@ -1,0 +1,24 @@
+{
+  "description": "All primes p > 5 such that A001175(p) is smaller than the maximal value permitted by Wall's Theorems 6 and 7.",
+  "id": "A222413",
+  "mentions": [
+    "A001175",
+    "A001176",
+    "A001177",
+    "A060305",
+    "A222414",
+    "A253806",
+    "A296240"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

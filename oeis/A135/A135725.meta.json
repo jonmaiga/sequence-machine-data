@@ -1,0 +1,18 @@
+{
+  "description": "Let d(i) be the i-th digit of the decimal expansion of e = 2.718281828459045235360287471352662..., so that d(0) = 2, d(1) = 7, d(2) = 1, etc. Then a(0) = 2, a(n) = d(d(n)) for n>0.",
+  "id": "A135725",
+  "mentions": [
+    "A155912"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

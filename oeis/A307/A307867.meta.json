@@ -1,0 +1,20 @@
+{
+  "description": "Numbers m such that K(m)/m > K(j)/j for all j < m, where K(m) is the Kalmár function (A074206).",
+  "id": "A307867",
+  "mentions": [
+    "A004394",
+    "A074206",
+    "A163272",
+    "A307866"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

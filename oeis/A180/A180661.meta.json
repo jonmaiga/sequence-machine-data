@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the constant whose continued fraction representation is [Pi^0; Pi^1, Pi^2, Pi^3, Pi^4, ...] where Pi is the ratio of a circle's circumference to its diameter (A000796) and the exponents cycle through all nonnegative integers.",
+  "id": "A180661",
+  "mentions": [
+    "A000796",
+    "A100609"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

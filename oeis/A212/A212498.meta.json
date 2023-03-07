@@ -1,0 +1,19 @@
+{
+  "description": "A finite sequence (of length 39) in which every permutation of [1..7] is a substring.",
+  "id": "A212498",
+  "mentions": [
+    "A212497"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

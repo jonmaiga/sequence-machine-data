@@ -1,0 +1,21 @@
+{
+  "description": "Records in the continued fraction expansion A100864.",
+  "id": "A100865",
+  "mentions": [
+    "A006519",
+    "A100338",
+    "A100863",
+    "A100864",
+    "A100866"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

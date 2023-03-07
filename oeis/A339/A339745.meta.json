@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of Product_{n>=2} (1 - n^(-10)).",
+  "id": "A339745",
+  "mentions": [
+    "A109219",
+    "A175615",
+    "A175616",
+    "A175617",
+    "A175618",
+    "A175619"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:20",
+    "offset": 0,
+    "size": 106,
+    "source": "joeis"
+  }
+}

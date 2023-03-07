@@ -1,0 +1,20 @@
+{
+  "description": "a(n)= 5*a(n-1) -a(n-2) -a(n-3).",
+  "id": "A108143",
+  "mentions": [
+    "A056015",
+    "A056016"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:24:55",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

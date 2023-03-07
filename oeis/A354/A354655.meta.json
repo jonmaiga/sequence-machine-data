@@ -1,0 +1,20 @@
+{
+  "description": "Column 2 of triangle A354650: a(n) = A354650(n,2), for n >= 1.",
+  "id": "A354655",
+  "mentions": [
+    "A354649",
+    "A354650",
+    "A354656"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Unitary barely abundant numbers: unitary abundant numbers k such that usigma(k)/k < usigma(m)/m for all unitary abundant numbers m < k, where usigma(k) is the sum of the unitary divisors of k (A034448).",
+  "id": "A302570",
+  "mentions": [
+    "A034448",
+    "A034683",
+    "A071927",
+    "A302572"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

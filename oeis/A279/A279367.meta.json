@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n for which the number of distinct prime divisors of binomial(n,k) has a \"local maximum\" (see the unusual meaning given in comment) at k = floor(n/2).",
+  "id": "A279367",
+  "mentions": [
+    "A001221",
+    "A019491",
+    "A020731"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

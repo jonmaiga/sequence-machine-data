@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = sum{k=0 to n} A139021(k).",
+  "id": "A139022",
+  "mentions": [
+    "A139020",
+    "A139021"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

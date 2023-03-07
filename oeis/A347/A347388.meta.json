@@ -1,0 +1,23 @@
+{
+  "description": "The first 3-smooth number eventually reached when iterating Dedekind psi function from n, with a(n) = n if n is already a 3-smooth number.",
+  "id": "A347388",
+  "mentions": [
+    "A001615",
+    "A003586",
+    "A006530",
+    "A019269",
+    "A065333",
+    "A347387"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that k divides A353794(k), where A353794(n) = A003958(A003973(n)) * A064989(A003973(n)).",
+  "id": "A353795",
+  "mentions": [
+    "A000010",
+    "A003958",
+    "A003961",
+    "A003973",
+    "A064989",
+    "A353794",
+    "A353796"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

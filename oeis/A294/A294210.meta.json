@@ -1,0 +1,20 @@
+{
+  "description": "Sum of the larger parts in the partitions of n into two squarefree parts or two nonsquarefree parts.",
+  "id": "A294210",
+  "mentions": [
+    "A008966",
+    "A294209"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

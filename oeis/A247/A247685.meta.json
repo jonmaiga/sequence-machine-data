@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of the integral over the square (0,1)x(0,1) of 1/((x+y)*sqrt((1-x)*(1-y))) dx dy.",
+  "id": "A247685",
+  "mentions": [
+    "A006752",
+    "A091518",
+    "A244921",
+    "A247674",
+    "A247675",
+    "A247677",
+    "A247684"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

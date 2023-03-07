@@ -1,0 +1,28 @@
+{
+  "description": "Numbers divisible by the maximal exponent in their prime factorization (A051903).",
+  "id": "A336064",
+  "mentions": [
+    "A005117",
+    "A005349",
+    "A006446",
+    "A007694",
+    "A033950",
+    "A051903",
+    "A074946",
+    "A075592",
+    "A112249",
+    "A124184",
+    "A336063",
+    "A336065"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

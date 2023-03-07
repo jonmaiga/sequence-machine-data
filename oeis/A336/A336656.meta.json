@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k not divisible by 3 such that the multiplicative order of 3 modulo k is squarefree.",
+  "id": "A336656",
+  "mentions": [
+    "A005117",
+    "A007734",
+    "A049149",
+    "A336654",
+    "A336655"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

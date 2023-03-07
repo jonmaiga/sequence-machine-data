@@ -1,0 +1,27 @@
+{
+  "description": "Triangle: Newton expansion of C(n,m)^5, read by rows.",
+  "id": "A262706",
+  "mentions": [
+    "A007318",
+    "A061167",
+    "A078739",
+    "A078741",
+    "A109983",
+    "A122193",
+    "A262704",
+    "A262705"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

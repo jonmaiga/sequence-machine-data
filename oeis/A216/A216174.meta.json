@@ -1,0 +1,19 @@
+{
+  "description": "Number of Schroeder n-paths with no flat steps at ground level and equally spaced returns.",
+  "id": "A216174",
+  "mentions": [
+    "A006318",
+    "A216435"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

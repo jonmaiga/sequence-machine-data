@@ -1,0 +1,19 @@
+{
+  "description": "Primes that can be written as prime(k) + prime(k+1)*m.",
+  "id": "A156312",
+  "mentions": [
+    "A049084",
+    "A156311",
+    "A156313"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

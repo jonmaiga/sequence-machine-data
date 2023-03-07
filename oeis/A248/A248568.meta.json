@@ -1,0 +1,19 @@
+{
+  "description": "Least positive integer m such that phi(m+n) divides m, where phi(.) is Euler's totient function.",
+  "id": "A248568",
+  "mentions": [
+    "A000010",
+    "A248007",
+    "A248058"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways to write n as 3^x + [y^2/3] + [z^2/4], where [.] is the floor function, x is a nonnegative integer, and y and z are positive integers.",
+  "id": "A343400",
+  "mentions": [
+    "A000244",
+    "A000290",
+    "A343387",
+    "A343391",
+    "A343397"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

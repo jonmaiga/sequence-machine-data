@@ -1,0 +1,22 @@
+{
+  "description": "a(n)^2 is the least square that, when written in base n, has exactly n digits n-1.",
+  "id": "A342260",
+  "mentions": [
+    "A179895",
+    "A342545",
+    "A342546"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 2,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

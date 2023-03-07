@@ -1,0 +1,25 @@
+{
+  "description": "Array read by antidiagonals: T(m,n) = number of maximal matchings in the grid graph P_m X P_n.",
+  "id": "A288026",
+  "mentions": [
+    "A099390",
+    "A182097",
+    "A210662",
+    "A286912",
+    "A286945",
+    "A287595",
+    "A288025",
+    "A288028"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:00",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

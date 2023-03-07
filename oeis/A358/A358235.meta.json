@@ -1,0 +1,29 @@
+{
+  "description": "Number of ways n' (the arithmetic derivative of n) can be formed as a sum (x * y') + (x' * y) from two factors x and y of n, with x <= y, so that the said sum does not involve any carries when the addition is done in the primorial base.",
+  "id": "A358235",
+  "mentions": [
+    "A003415",
+    "A038548",
+    "A049345",
+    "A100484",
+    "A276086",
+    "A327936",
+    "A329041",
+    "A358233",
+    "A358672",
+    "A358673",
+    "A358674"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 110,
+    "source": "oeis-bfile"
+  }
+}

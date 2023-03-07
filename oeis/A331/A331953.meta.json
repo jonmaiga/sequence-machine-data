@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least positive k such that floor(n/k) is a square number.",
+  "id": "A331953",
+  "mentions": [
+    "A331954",
+    "A331958",
+    "A332012"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

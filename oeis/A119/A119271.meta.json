@@ -1,0 +1,22 @@
+{
+  "description": "Triangle: number of exactly (m-1)-dimensional partitions of n, for n >= 1, m >= 0.",
+  "id": "A119271",
+  "mentions": [
+    "A007042",
+    "A096806",
+    "A119270"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

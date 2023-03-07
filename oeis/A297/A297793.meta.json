@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{d|n} min(d, n/d)^3.",
+  "id": "A297793",
+  "mentions": [
+    "A117004",
+    "A259825",
+    "A297792",
+    "A297794",
+    "A297795"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:18",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

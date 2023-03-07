@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 4^n + 10*2^n + 4*3^n + 20.",
+  "id": "A254366",
+  "mentions": [
+    "A140504",
+    "A254365",
+    "A254367"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

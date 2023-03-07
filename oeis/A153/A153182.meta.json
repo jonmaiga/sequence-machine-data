@@ -1,0 +1,23 @@
+{
+  "description": "Number of overpartitions of n with even M2-rank minus the number of overpartitions of n with odd M2-rank.",
+  "id": "A153182",
+  "mentions": [
+    "A005875",
+    "A045831",
+    "A213022",
+    "A213624",
+    "A213625",
+    "A256624"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

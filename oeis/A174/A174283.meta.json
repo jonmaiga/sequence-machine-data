@@ -1,0 +1,31 @@
+{
+  "description": "Number of distinct resistances that can be produced using n equal resistors in, series, parallel and/or bridge configurations.",
+  "id": "A174283",
+  "mentions": [
+    "A048211",
+    "A153588",
+    "A174284",
+    "A174285",
+    "A174286",
+    "A176499",
+    "A176500",
+    "A176501",
+    "A176502",
+    "A180414",
+    "A337516",
+    "A337517"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

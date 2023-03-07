@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k and k+1 both have more nonunitary than unitary prime divisors (A348121).",
+  "id": "A348122",
+  "mentions": [
+    "A060355",
+    "A348119",
+    "A348121"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:22",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of set partitions of [n] having exactly five blocks of size > 1.",
+  "id": "A290034",
+  "mentions": [
+    "A124324"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:04",
+    "offset": 10,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

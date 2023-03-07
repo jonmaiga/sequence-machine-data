@@ -1,0 +1,21 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive terms such that the binary representation of the n-th prime contains the binary representation of a(n).",
+  "id": "A286417",
+  "mentions": [
+    "A000040",
+    "A091020",
+    "A160855"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Nonpalindromic numbers n with property that the sum of the reversed divisors of n is equal to n+1.",
+  "id": "A225684",
+  "mentions": [
+    "A000203",
+    "A069192",
+    "A069250"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

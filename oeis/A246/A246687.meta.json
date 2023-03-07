@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of integral_{0..infinity} x*log(x)*(1-eta(x)^2) dx, where the function 'eta' is a solution of the Painlevé III differential equation.",
+  "id": "A246687",
+  "mentions": [
+    "A074962"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Prime shadows of colossally abundant numbers, A004490.",
+  "id": "A353561",
+  "mentions": [
+    "A004490",
+    "A025487",
+    "A122111",
+    "A181819",
+    "A342012",
+    "A353562",
+    "A353568"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Number of ways to write n as a sum of a perfect power (>1) and a prime.",
+  "id": "A253238",
+  "mentions": [
+    "A002471",
+    "A006285",
+    "A014090",
+    "A064233",
+    "A064272",
+    "A109925",
+    "A118954",
+    "A119748",
+    "A196228"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:11",
+    "offset": 1,
+    "size": 128,
+    "source": "oeis-bfile"
+  }
+}

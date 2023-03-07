@@ -1,0 +1,19 @@
+{
+  "description": "Number of arcs covered by other arcs in all RNA secondary structures of size n+5 (i.e., with n+5 nodes).",
+  "id": "A110318",
+  "mentions": [
+    "A004148",
+    "A110317"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

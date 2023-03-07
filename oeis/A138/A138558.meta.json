@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of eta(q^2)^7 * eta(q^5)^2 * eta(q^20)^2 / (eta(q)^2 * eta(q^4)^2 * eta(q^10)^3) in powers of q.",
+  "id": "A138558",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A111580",
+    "A121373",
+    "A138557"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:50:25",
+    "offset": 1,
+    "size": 63,
+    "source": "joeis"
+  }
+}

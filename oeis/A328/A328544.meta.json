@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that k multiplied by any of its digits contains k as a substring.",
+  "id": "A328544",
+  "mentions": [
+    "A328095"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

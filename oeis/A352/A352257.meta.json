@@ -1,0 +1,27 @@
+{
+  "description": "Sum of all parts of all partitions of n into an odd number of consecutive parts.",
+  "id": "A352257",
+  "mentions": [
+    "A066186",
+    "A082647",
+    "A237048",
+    "A245579",
+    "A286000",
+    "A286001",
+    "A299765",
+    "A351824",
+    "A352499",
+    "A352505"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

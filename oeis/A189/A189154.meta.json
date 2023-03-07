@@ -1,0 +1,19 @@
+{
+  "description": "Number of n X 2 binary arrays without the pattern 0 0 1 1 diagonally, vertically or horizontally",
+  "id": "A189154",
+  "mentions": [
+    "A008937",
+    "A189161"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 4*A117384(n) - n; a self-inverse permutation of the natural numbers.",
+  "id": "A118012",
+  "mentions": [
+    "A001614",
+    "A117384",
+    "A118011"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Products of primes the squares of which are Fermi-Dirac divisors of n!",
+  "id": "A240505",
+  "mentions": [
+    "A050376",
+    "A055204",
+    "A240502",
+    "A240504"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:57",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

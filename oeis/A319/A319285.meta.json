@@ -1,0 +1,23 @@
+{
+  "description": "Number of series-reduced locally stable rooted trees whose leaves span an initial interval of positive integers with multiplicities an integer partition of n.",
+  "id": "A319285",
+  "mentions": [
+    "A000081",
+    "A316466",
+    "A316468",
+    "A316469",
+    "A316473",
+    "A316475"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

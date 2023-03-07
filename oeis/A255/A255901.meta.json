@@ -1,0 +1,20 @@
+{
+  "description": "Smallest base b such that there exist exactly n Wieferich primes (primes p satisfying b^(p-1) == 1 (mod p^2)) less than b.",
+  "id": "A255901",
+  "mentions": [
+    "A252232",
+    "A255885"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

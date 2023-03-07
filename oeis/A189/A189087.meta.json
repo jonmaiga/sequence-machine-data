@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f.: sinh(x)/(1-sinh(x)-sinh(x)^2).",
+  "id": "A189087",
+  "mentions": [
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

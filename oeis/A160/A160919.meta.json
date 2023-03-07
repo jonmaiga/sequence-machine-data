@@ -1,0 +1,22 @@
+{
+  "description": "Averages of twin prime pairs that are sums of 5 consecutive averages of twin prime pairs.",
+  "id": "A160919",
+  "mentions": [
+    "A014574",
+    "A040040",
+    "A160916",
+    "A160917",
+    "A160918"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

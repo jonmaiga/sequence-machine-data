@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 8*a(n-1)-14*a(n-2) for n>1; a(0) = 2; a(1) = 9.",
+  "id": "A162356",
+  "mentions": [
+    "A135530",
+    "A161944",
+    "A161947"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:48:54",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

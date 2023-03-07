@@ -1,0 +1,23 @@
+{
+  "description": "Main diagonal of the square array A347270.",
+  "id": "A347272",
+  "mentions": [
+    "A006370",
+    "A033478",
+    "A033479",
+    "A075884",
+    "A076536",
+    "A153727",
+    "A347270"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

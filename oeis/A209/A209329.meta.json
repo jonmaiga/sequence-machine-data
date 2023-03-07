@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of the sum over the inverse products of adjacent odd primes.",
+  "id": "A209329",
+  "mentions": [
+    "A006094",
+    "A085548",
+    "A143206",
+    "A209328",
+    "A210473",
+    "A210477"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "cons",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

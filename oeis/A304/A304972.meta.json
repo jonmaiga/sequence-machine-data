@@ -1,0 +1,29 @@
+{
+  "description": "Triangle read by rows of achiral color patterns (set partitions) for a row or loop of length n. T(n,k) is the number using exactly k colors (sets).",
+  "id": "A304972",
+  "mentions": [
+    "A052551",
+    "A057427",
+    "A080107",
+    "A140735",
+    "A293181",
+    "A304973",
+    "A304974",
+    "A304975",
+    "A304976",
+    "A305008"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:13:47",
+    "offset": 1,
+    "size": 82,
+    "source": "joeis"
+  }
+}

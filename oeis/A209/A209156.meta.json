@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: denominators of Stirling-like triangle of rational numbers.",
+  "id": "A209156",
+  "mentions": [
+    "A209155"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "frac",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

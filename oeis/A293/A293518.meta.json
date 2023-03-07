@@ -1,0 +1,25 @@
+{
+  "description": "Number of surviving even nodes at generation n in the binary tree of persistently squarefree numbers (see A293230).",
+  "id": "A293518",
+  "mentions": [
+    "A000079",
+    "A008966",
+    "A293230",
+    "A293233",
+    "A293441",
+    "A293517",
+    "A293519",
+    "A293521"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

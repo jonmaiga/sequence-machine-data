@@ -1,0 +1,41 @@
+{
+  "description": "Number of paths of length n starting at initial node of the path graph P_9.",
+  "id": "A178381",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000045",
+    "A001405",
+    "A016116",
+    "A028495",
+    "A030436",
+    "A033191",
+    "A038754",
+    "A061551",
+    "A081567",
+    "A094718",
+    "A109106",
+    "A128052",
+    "A147748",
+    "A179131",
+    "A179132",
+    "A179133",
+    "A179135",
+    "A216212",
+    "A336675",
+    "A336678"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

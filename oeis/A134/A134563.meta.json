@@ -1,0 +1,21 @@
+{
+  "description": "Array read by antidiagonals: row n consists of numbers whose 3rd-order Zeckendorf representation has exactly n terms.",
+  "id": "A134563",
+  "mentions": [
+    "A000930",
+    "A134564",
+    "A136189"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

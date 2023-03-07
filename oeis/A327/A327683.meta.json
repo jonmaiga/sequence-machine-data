@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of Product_{k>0} (1+sqrt(1+4*x^k))/2.",
+  "id": "A327683",
+  "mentions": [
+    "A000009",
+    "A268498",
+    "A322204",
+    "A327682",
+    "A327684"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

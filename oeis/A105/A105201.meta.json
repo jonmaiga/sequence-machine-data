@@ -1,0 +1,19 @@
+{
+  "description": "Number of compositions of n such that the least part occurs with even multiplicity.",
+  "id": "A105201",
+  "mentions": [
+    "A096374"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

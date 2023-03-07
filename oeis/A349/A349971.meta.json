@@ -1,0 +1,30 @@
+{
+  "description": "Array read by ascending antidiagonals, A(n, k) = -(-n)^k*FallingFactorial(1/n, k) for n, k >= 1.",
+  "id": "A349971",
+  "mentions": [
+    "A000007",
+    "A001147",
+    "A008543",
+    "A008544",
+    "A008545",
+    "A008546",
+    "A049209",
+    "A049210",
+    "A049211",
+    "A158886",
+    "A256268",
+    "A349731"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

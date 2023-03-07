@@ -1,0 +1,21 @@
+{
+  "description": "Numbers with integer defect at most 1; m such that A350723(m) <= 1.",
+  "id": "A351467",
+  "mentions": [
+    "A000792",
+    "A005245",
+    "A349983",
+    "A350723"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

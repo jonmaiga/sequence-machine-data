@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=0..n} k! * k^(k+n) * |Stirling1(n,k)|.",
+  "id": "A354674",
+  "mentions": [
+    "A320096",
+    "A350721",
+    "A350722",
+    "A351333",
+    "A351769"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

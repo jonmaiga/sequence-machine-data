@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the number snc(2 Pi), where snc is the sine-normal-to-cosine function; see A332500.",
+  "id": "A332506",
+  "mentions": [
+    "A003957",
+    "A332500",
+    "A332523",
+    "A332524"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Sum of divisors d of n for which 2*phi(d) > d.",
+  "id": "A318876",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A000593",
+    "A006519",
+    "A083254",
+    "A187793",
+    "A318874",
+    "A318877",
+    "A318878"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "White to move: King, Knight and Bishop vs. King: Number of positions with mate in n.",
+  "id": "A274683",
+  "mentions": [
+    "A225556",
+    "A274684"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

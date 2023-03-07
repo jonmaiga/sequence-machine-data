@@ -1,0 +1,22 @@
+{
+  "description": "a(2n) = b(a(n)^2), a(2n+1) = b(a(n) + a(n - 1)) where b(k) = abs(k)*(-1)^k; a(0) = 0, a(1) = 1.",
+  "id": "A337253",
+  "mentions": [
+    "A001146",
+    "A002487",
+    "A003603",
+    "A007305",
+    "A047679"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

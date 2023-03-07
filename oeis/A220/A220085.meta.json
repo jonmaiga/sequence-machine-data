@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of sin(log(2)).",
+  "id": "A220085",
+  "mentions": [
+    "A002162",
+    "A219705"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:02",
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

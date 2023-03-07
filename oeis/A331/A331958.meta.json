@@ -1,0 +1,18 @@
+{
+  "description": "a(n)^2 is the greatest square number of the form floor(n/k) where k > 0.",
+  "id": "A331958",
+  "mentions": [
+    "A331953"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

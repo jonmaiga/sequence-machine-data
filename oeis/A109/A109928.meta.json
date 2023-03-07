@@ -1,0 +1,17 @@
+{
+  "description": "Least k such that there are n primes of the form kr+1 with 1<=r<=k. Index of the first occurrence of n in A085053.",
+  "id": "A109928",
+  "mentions": [
+    "A085053"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

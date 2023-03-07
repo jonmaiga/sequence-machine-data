@@ -1,0 +1,18 @@
+{
+  "description": "Composite numbers m such that b^(m-1) == 1 (mod (b^2-1)*m) has a solution b.",
+  "id": "A322121",
+  "mentions": [
+    "A181782",
+    "A322120"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

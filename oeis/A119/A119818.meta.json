@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least nonnegative integer that can appear as the coefficient of x^n in the n-th iteration of any integer function that begins with the same initial n-1 terms as the g.f. of A119817 for n>1, with a(1)=1.",
+  "id": "A119818",
+  "mentions": [
+    "A112317",
+    "A119816",
+    "A119817"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the asymptotic density of numbers k divisible by A007949(k) (A336068).",
+  "id": "A336069",
+  "mentions": [
+    "A007949",
+    "A336067",
+    "A336068"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

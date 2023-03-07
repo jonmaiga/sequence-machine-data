@@ -1,0 +1,27 @@
+{
+  "description": "Number of ways to write the cube of n as a product of the terms of A332820 larger than 1; a(1) = 1 by convention (an empty product).",
+  "id": "A353359",
+  "mentions": [
+    "A000578",
+    "A003961",
+    "A048675",
+    "A332820",
+    "A348717",
+    "A353304",
+    "A353334",
+    "A353350",
+    "A353353",
+    "A353378"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

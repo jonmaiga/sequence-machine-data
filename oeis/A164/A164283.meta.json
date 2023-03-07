@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways to write n as the root-mean-square (RMS) of a set of distinct positive integers.",
+  "id": "A164283",
+  "mentions": [
+    "A000196",
+    "A066571",
+    "A066572",
+    "A072701",
+    "A163974",
+    "A211868"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

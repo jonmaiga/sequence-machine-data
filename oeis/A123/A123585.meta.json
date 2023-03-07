@@ -1,0 +1,30 @@
+{
+  "description": "Triangle T(n,k), 0<=k<=n, given by [1, -1, 1, 0, 0, 0, 0, 0, ...] DELTA [1, 1, -1, 0, 0, 0, 0, 0, ...] where DELTA is the operator defined in A084938.",
+  "id": "A123585",
+  "mentions": [
+    "A000007",
+    "A000045",
+    "A000079",
+    "A001629",
+    "A003269",
+    "A003683",
+    "A006130",
+    "A010892",
+    "A030195",
+    "A084938",
+    "A099254",
+    "A129707"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:43:03",
+    "offset": 0,
+    "size": 61,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Triangular array: row n is least squarefree word of length n using positive integers.",
+  "id": "A225743",
+  "mentions": [
+    "A001511"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Least number m>1 such that m*prime(n)-2 is prime.",
+  "id": "A249420",
+  "mentions": [
+    "A249419"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = number of legs in each part of the symmetric representation of sigma(A279105(n)).",
+  "id": "A279106",
+  "mentions": [
+    "A174793",
+    "A174973",
+    "A237270",
+    "A237271",
+    "A237593",
+    "A279105"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

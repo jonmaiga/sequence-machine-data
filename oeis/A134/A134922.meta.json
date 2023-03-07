@@ -1,0 +1,19 @@
+{
+  "description": "Pairs (j, k) of numbers j",
+  "id": "A134922",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A000203"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

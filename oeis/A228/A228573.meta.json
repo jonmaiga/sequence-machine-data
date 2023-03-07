@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that (17^n + 16^n)/33 is prime.",
+  "id": "A228573",
+  "mentions": [
+    "A221637",
+    "A227046",
+    "A227170",
+    "A228558"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

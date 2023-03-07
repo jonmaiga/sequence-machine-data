@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of n into distinct perfect powers.",
+  "id": "A112345",
+  "mentions": [
+    "A000009",
+    "A001597",
+    "A033461",
+    "A039966",
+    "A112344",
+    "A284171"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "An example of a stereogram: a flat picture that appears three-dimensional when viewed in the correct way.",
+  "id": "A123698",
+  "mentions": [
+    "A123727"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Triangle read by rows formed from nonzero entries in table of number of graphs on n nodes with clique number k.",
+  "id": "A115196",
+  "mentions": [
+    "A000088",
+    "A052450",
+    "A052451",
+    "A052452",
+    "A077392",
+    "A077393",
+    "A077394",
+    "A205577",
+    "A205578",
+    "A263341",
+    "A287024",
+    "A304124",
+    "A304125"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 2,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

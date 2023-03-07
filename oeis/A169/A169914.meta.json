@@ -1,0 +1,19 @@
+{
+  "description": "Number of reducible Boolean polynomials of degree n with constant term 1.",
+  "id": "A169914",
+  "mentions": [
+    "A169912",
+    "A169913"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Triangle of octanomial coefficients read by rows: n-th row is obtained by expanding ((1+x)*(1+x^2)*(1+x^4))^n ] mod 2 and converting to decimal.",
+  "id": "A177897",
+  "mentions": [
+    "A001317",
+    "A177882"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

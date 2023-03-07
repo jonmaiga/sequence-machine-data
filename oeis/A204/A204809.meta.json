@@ -1,0 +1,18 @@
+{
+  "description": "Number of skew-symmetric n X n matrices A = (a_ij) with entries from {-1,0,+1} such that a_wx a_yz + a_wy a_xz + a_wz a_xy = a_wx a_wy a_wz a_xy a_xz a_yz for all distinct w,x,y,z in {1..n}.",
+  "id": "A204809",
+  "mentions": [
+    "A204821"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

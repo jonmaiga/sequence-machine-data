@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{d|n} d^(d + n/d - 2).",
+  "id": "A359701",
+  "mentions": [
+    "A082245",
+    "A124923",
+    "A262843",
+    "A294956"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

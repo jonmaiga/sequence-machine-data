@@ -1,0 +1,22 @@
+{
+  "description": "Number of pairs of terms of the sequence A237929 less than 10^n.",
+  "id": "A243902",
+  "mentions": [
+    "A001414",
+    "A006145",
+    "A228126",
+    "A237929"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Odd composite integers m such that A056854(3*m-J(m,45)) == 47 (mod m) and gcd(m,45)=1, where J(m,45) is the Jacobi symbol.",
+  "id": "A339730",
+  "mentions": [
+    "A056854",
+    "A071904",
+    "A339131",
+    "A339523",
+    "A339728",
+    "A339729"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

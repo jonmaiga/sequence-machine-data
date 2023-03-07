@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = A129283(n) / gcd(sigma(n), A129283(n)), where A129283(n) is the sum of n and its arithmetic derivative.",
+  "id": "A345059",
+  "mentions": [
+    "A000203",
+    "A003415",
+    "A129283",
+    "A211991",
+    "A343226",
+    "A343227"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

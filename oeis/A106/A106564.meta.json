@@ -1,0 +1,29 @@
+{
+  "description": "Perfect squares which are not the difference of two primes.",
+  "id": "A106564",
+  "mentions": [
+    "A020483",
+    "A106544",
+    "A106546",
+    "A106548",
+    "A106562",
+    "A106563",
+    "A106571",
+    "A106573",
+    "A106575",
+    "A106577",
+    "A269345"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:58",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

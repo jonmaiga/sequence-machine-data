@@ -1,0 +1,25 @@
+{
+  "description": "Triangle T(n,k) giving the number of permutations pi of {1,2,...,n} such that for all i, pi(i) is not in {i, i+1, ..., i+k-1} (mod n), with 0 <= k <= n - 1.",
+  "id": "A321352",
+  "mentions": [
+    "A000142",
+    "A000166",
+    "A000179",
+    "A000183",
+    "A004307",
+    "A008305",
+    "A184965",
+    "A189389"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

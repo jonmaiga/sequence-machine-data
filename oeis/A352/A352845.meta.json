@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least k > n such that A109812(n) AND A109812(k) = A109812(n) (where AND denotes the bitwise AND operator).",
+  "id": "A352845",
+  "mentions": [
+    "A109812",
+    "A352846"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

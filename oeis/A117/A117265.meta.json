@@ -1,0 +1,27 @@
+{
+  "description": "Triangle T, read by rows, where matrix power T^-2 has -2^(n+1) in the secondary diagonal: [T^-2](n+1,n) = -2^(n+1), with all 1's in the main diagonal and zeros elsewhere.",
+  "id": "A117265",
+  "mentions": [
+    "A086229",
+    "A117250",
+    "A117252",
+    "A117254",
+    "A117256",
+    "A117258",
+    "A117260",
+    "A117262",
+    "A117266"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

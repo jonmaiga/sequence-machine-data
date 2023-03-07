@@ -1,0 +1,24 @@
+{
+  "description": "Minimal number such that all greater numbers can be written as sums of squares of primes in more than n ways.",
+  "id": "A134755",
+  "mentions": [
+    "A078134",
+    "A078135",
+    "A078136",
+    "A078137",
+    "A078139",
+    "A090677",
+    "A134754"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

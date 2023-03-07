@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows, A168313 * the diagonalized variant of its eigensequence, A168314.",
+  "id": "A168315",
+  "mentions": [
+    "A168313",
+    "A168314"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

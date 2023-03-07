@@ -1,0 +1,26 @@
+{
+  "description": "Solution to stepping stone puzzle if we start with n 1's (see Comments).",
+  "id": "A337663",
+  "mentions": [
+    "A340000",
+    "A342431",
+    "A342434",
+    "A350627",
+    "A350764",
+    "A350785",
+    "A355903"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that 2*P(n)+1, 2*P(n+1)+1, 2*P(n+2)+3, 2*P(n+3)+3 are also consecutive primes with P(i)=i-th prime.",
+  "id": "A103911",
+  "mentions": [
+    "A103912",
+    "A103913"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

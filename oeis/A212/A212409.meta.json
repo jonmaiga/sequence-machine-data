@@ -1,0 +1,18 @@
+{
+  "description": "Numbers m such that m, m' and m'' are in arithmetic progression, where m' and m'' are the first and second arithmetic derivatives of m.",
+  "id": "A212409",
+  "mentions": [
+    "A003415",
+    "A051674"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

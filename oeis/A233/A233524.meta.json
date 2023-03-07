@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that the binary expansion of Fibonacci(n) is a palindrome (leading zero digits are not permitted).",
+  "id": "A233524",
+  "mentions": [
+    "A000045",
+    "A004685",
+    "A007088",
+    "A045504"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

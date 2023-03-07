@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of 1/sqrt(1 - 4*1*x/(1 - 4*2*x/(1 - 4*3*x/(1 - 4*4*x/(1 - 4*5*x/(1 - ...)))))), a continued fraction.",
+  "id": "A360304",
+  "mentions": [
+    "A001147",
+    "A008586"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

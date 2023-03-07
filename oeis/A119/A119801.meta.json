@@ -1,0 +1,22 @@
+{
+  "description": "Decimal representation of continued fraction 1, 1, 2, 3, 5, 8, 13 ... (Fibonacci[n]).",
+  "id": "A119801",
+  "mentions": [
+    "A000045",
+    "A026822",
+    "A071895",
+    "A073822"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of lattice points of the Archimedean tiling (3,4,6,4) on the circles R(n) = sqrt(A249870(n) + A249871(n)* sqrt(3)) around any lattice point. First differences of A251627.",
+  "id": "A251628",
+  "mentions": [
+    "A249870",
+    "A249871",
+    "A251627"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

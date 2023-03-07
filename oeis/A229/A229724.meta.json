@@ -1,0 +1,22 @@
+{
+  "description": "Triangular array read by rows: T(n,k) is the number of partitions of n in which the greatest odd part is equal to 2k-1; n >= 1, 1 <= k <= ceiling(n/2).",
+  "id": "A229724",
+  "mentions": [
+    "A025065",
+    "A058695",
+    "A058696",
+    "A086543"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:47",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

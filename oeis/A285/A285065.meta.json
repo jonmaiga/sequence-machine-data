@@ -1,0 +1,21 @@
+{
+  "description": "Alternating row sums of Sheffer triangle S2[4,1] = A285061.",
+  "id": "A285065",
+  "mentions": [
+    "A000587",
+    "A285061",
+    "A285064"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:11",
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

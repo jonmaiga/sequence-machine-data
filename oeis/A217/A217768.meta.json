@@ -1,0 +1,20 @@
+{
+  "description": "Smallest number k > 0 for which sigma(k - n) = sigma(k + n).",
+  "id": "A217768",
+  "mentions": [
+    "A000203",
+    "A067135",
+    "A175876",
+    "A223091"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=1..n} (k^2*floor(k/2)).",
+  "id": "A285188",
+  "mentions": [
+    "A049779",
+    "A265645"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:56",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

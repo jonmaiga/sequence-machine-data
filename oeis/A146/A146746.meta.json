@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that sigma_1(n+1)*sigma_1(n)/(sigma_1(n+1)+sigma_1(n))=c, c an integer.",
+  "id": "A146746",
+  "mentions": [
+    "A000203",
+    "A063647",
+    "A073541",
+    "A083795"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Sum_{d|n} (bigomega(d) - omega(d)).",
+  "id": "A330018",
+  "mentions": [
+    "A000005",
+    "A001221",
+    "A001222",
+    "A005117",
+    "A046660",
+    "A062799",
+    "A069264",
+    "A268340"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

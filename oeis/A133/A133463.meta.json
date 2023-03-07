@@ -1,0 +1,18 @@
+{
+  "description": "Partial sums of the sequence that starts with 2 and is followed by A111575.",
+  "id": "A133463",
+  "mentions": [
+    "A111575"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:52",
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 0; a(n) = smallest integer not yet in this sequence S such that two neighboring digits of S sum to a semiprime (4, 6, 9, 10, 14, or 15).",
+  "id": "A182364",
+  "mentions": [
+    "A000040",
+    "A001358"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

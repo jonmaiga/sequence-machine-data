@@ -1,0 +1,18 @@
+{
+  "description": "In base 10 lunar arithmetic, a(n) is the smallest number than has exactly n different square roots (or -1 if no such number exists).",
+  "id": "A202174",
+  "mentions": [
+    "A202082"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

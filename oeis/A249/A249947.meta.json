@@ -1,0 +1,19 @@
+{
+  "description": "Number of available orbitals at increasing subshells in multi-electron atoms.",
+  "id": "A249947",
+  "mentions": [
+    "A167268"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

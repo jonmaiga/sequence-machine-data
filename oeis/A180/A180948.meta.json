@@ -1,0 +1,23 @@
+{
+  "description": "Smallest of seven (7) consecutive primes whose sum is a prime.",
+  "id": "A180948",
+  "mentions": [
+    "A000040",
+    "A073681",
+    "A082246",
+    "A152468",
+    "A180950",
+    "A189571",
+    "A226380"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:04",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

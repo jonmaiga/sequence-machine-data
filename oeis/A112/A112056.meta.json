@@ -1,0 +1,20 @@
+{
+  "description": "Odd numbers of the form 4n-1 for which Jacobi-first-non-one(4n-1) differs from Jacobi-first-non-one(4n+1).",
+  "id": "A112056",
+  "mentions": [
+    "A112054",
+    "A112057",
+    "A112058"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

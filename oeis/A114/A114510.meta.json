@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 0. s(0) = {0}. s(n) = s(n-1) U s(a(n)) U {n}, where U represents a concatenation of finite sequences. The sequence {a(n)} is the limit of s(m) as m -> infinity.",
+  "id": "A114510",
+  "mentions": [
+    "A114511",
+    "A114512"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

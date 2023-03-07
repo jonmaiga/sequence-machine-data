@@ -1,0 +1,19 @@
+{
+  "description": "a(n)=Values of cardinality of rooted trees CRT for successive primes.",
+  "id": "A175178",
+  "mentions": [
+    "A058340",
+    "A096827",
+    "A175177"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

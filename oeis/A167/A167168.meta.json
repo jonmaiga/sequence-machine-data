@@ -1,0 +1,23 @@
+{
+  "description": "Sequence of prime gaps which characterize Rowland sequences of prime-generating recurrences.",
+  "id": "A167168",
+  "mentions": [
+    "A084662",
+    "A084663",
+    "A106108",
+    "A116533",
+    "A134162",
+    "A163963",
+    "A167053"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

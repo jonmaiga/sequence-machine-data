@@ -1,0 +1,24 @@
+{
+  "description": "Positive numbers of the form x^4 - 6 * x^2 * y^2 + y^4 (where x,y are integers).",
+  "id": "A135789",
+  "mentions": [
+    "A000404",
+    "A050803",
+    "A057102",
+    "A060803",
+    "A135784",
+    "A135786",
+    "A135787",
+    "A256418"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

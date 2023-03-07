@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (Sum_{k=0..n-1} (4290*k + 367)*3136^(n-1-k)*C(2*k, k)*T_k(14, 1)*T_k(17, 16)) / (n*C(2*n-1, n-1)), where T_k(b, c) denotes the coefficient of x^k in the expansion of (x^2 + b*x + c)^k.",
+  "id": "A336981",
+  "mentions": [
+    "A000796",
+    "A000984",
+    "A002426",
+    "A336982"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

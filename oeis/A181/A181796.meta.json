@@ -1,0 +1,42 @@
+{
+  "description": "a(n) = number of divisors of n whose canonical prime factorizations contain no repeated positive exponents (cf. A130091).",
+  "id": "A181796",
+  "mentions": [
+    "A000005",
+    "A000079",
+    "A000110",
+    "A002110",
+    "A002720",
+    "A006939",
+    "A007916",
+    "A025487",
+    "A045778",
+    "A046523",
+    "A056239",
+    "A085082",
+    "A088873",
+    "A098859",
+    "A118914",
+    "A124010",
+    "A130091",
+    "A181555",
+    "A212168",
+    "A255231",
+    "A327498",
+    "A327523",
+    "A335516",
+    "A335519",
+    "A335549"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

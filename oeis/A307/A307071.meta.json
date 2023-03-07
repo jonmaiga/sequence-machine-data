@@ -1,0 +1,19 @@
+{
+  "description": "Number of simple graphs on n nodes with crossing number 1.",
+  "id": "A307071",
+  "mentions": [
+    "A005470",
+    "A307072"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

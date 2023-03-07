@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of Product_{k>0} (1-k^2*x^k)^(-1/k).",
+  "id": "A151954",
+  "mentions": [
+    "A028342",
+    "A073705",
+    "A077335"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

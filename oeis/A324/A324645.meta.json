@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = gcd(d(n), A276086(n)), where d(n) gives the number of divisors (A000005).",
+  "id": "A324645",
+  "mentions": [
+    "A000005",
+    "A009191",
+    "A276086",
+    "A324644"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

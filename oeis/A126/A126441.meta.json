@@ -1,0 +1,32 @@
+{
+  "description": "Tabular arrangement of the natural numbers: the row on which any nonzero term a(n) appears in is A053645(a(n))=A053645(n+1), and the column is A161511(a(n)). Table is presented by columns with 2^{k-1} items in column k, unused positions are filled with 0's.",
+  "id": "A126441",
+  "mentions": [
+    "A000041",
+    "A000079",
+    "A000523",
+    "A004754",
+    "A004760",
+    "A053644",
+    "A053645",
+    "A055941",
+    "A062383",
+    "A125106",
+    "A161511",
+    "A161920",
+    "A161924",
+    "A166274",
+    "A166275"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:14",
+    "offset": 0,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Triangular array similar to A255935 but with 0's and 2's swapped in the trailing diagonal. The columns alternate in signs.",
+  "id": "A277078",
+  "mentions": [
+    "A000035",
+    "A007318",
+    "A054977",
+    "A131577",
+    "A166920",
+    "A197870",
+    "A255935"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

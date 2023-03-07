@@ -1,0 +1,20 @@
+{
+  "description": "Sum i + j for integers 2^i*3^j (A033845).",
+  "id": "A227861",
+  "mentions": [
+    "A033845",
+    "A191475",
+    "A191476"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

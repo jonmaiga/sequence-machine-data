@@ -1,0 +1,24 @@
+{
+  "description": "Triangle of multinomial coefficients read by rows (ordered by decreasing size of the greatest part).",
+  "id": "A279038",
+  "mentions": [
+    "A000041",
+    "A000142",
+    "A036039",
+    "A102189",
+    "A128628"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:46",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that p - prevprime(p) is not a power of 2.",
+  "id": "A355161",
+  "mentions": [
+    "A000079",
+    "A031925",
+    "A031931",
+    "A130796",
+    "A151800"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Denominator of Euler(n, 1/17).",
+  "id": "A156531",
+  "mentions": [
+    "A156530"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

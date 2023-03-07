@@ -1,0 +1,22 @@
+{
+  "description": "Exponential Riordan array [sec(2x), arctanh(tan(x))].",
+  "id": "A166317",
+  "mentions": [
+    "A012259",
+    "A117435",
+    "A166318",
+    "A264428"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

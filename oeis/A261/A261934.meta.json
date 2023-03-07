@@ -1,0 +1,23 @@
+{
+  "description": "The first of ten consecutive positive integers the sum of the squares of which is equal to the sum of the squares of two consecutive positive integers.",
+  "id": "A261934",
+  "mentions": [
+    "A001652",
+    "A031138",
+    "A261932",
+    "A261933",
+    "A261935"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:21",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

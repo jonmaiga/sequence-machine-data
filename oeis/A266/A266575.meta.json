@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of q * f(-q^4)^6 / phi(-q) in powers of q where phi(), f() are Ramanujan theta functions.",
+  "id": "A266575",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A121373",
+    "A134414",
+    "A245643"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:05:57",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

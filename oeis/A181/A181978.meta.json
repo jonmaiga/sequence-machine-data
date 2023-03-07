@@ -1,0 +1,19 @@
+{
+  "description": "Indices of primes in A181938.",
+  "id": "A181978",
+  "mentions": [
+    "A000040",
+    "A181938"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

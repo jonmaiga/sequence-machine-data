@@ -1,0 +1,21 @@
+{
+  "description": "2^(n-1) mod semiprime(n).",
+  "id": "A175131",
+  "mentions": [
+    "A000079",
+    "A001358",
+    "A175036",
+    "A181615"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

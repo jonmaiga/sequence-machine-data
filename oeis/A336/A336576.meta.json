@@ -1,0 +1,27 @@
+{
+  "description": "The final square number for a walk on a square spiral numbered board when starting on square 1 and stepping to an unvisited square containing the lowest prime number, where the square is within a block of size (2n+1) x (2n+1) centered on the current square. If no unvisited prime numbered squares exist within the block the walk ends.",
+  "id": "A336576",
+  "mentions": [
+    "A000040",
+    "A136626",
+    "A330979",
+    "A332767",
+    "A335364",
+    "A335661",
+    "A335856",
+    "A336092",
+    "A336494"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

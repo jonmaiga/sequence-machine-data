@@ -1,0 +1,22 @@
+{
+  "description": "G.f.: 1/(1-x) = Sum_{n>=0} a(n)*x^n/(1+x)^(n^2).",
+  "id": "A133316",
+  "mentions": [
+    "A141761",
+    "A177447",
+    "A215241",
+    "A215242",
+    "A215243"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

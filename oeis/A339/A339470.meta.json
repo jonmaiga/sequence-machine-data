@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of log(phi)^2, where phi is the golden ratio (A002390^2).",
+  "id": "A339470",
+  "mentions": [
+    "A001622",
+    "A002390",
+    "A002736",
+    "A086467"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:20",
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

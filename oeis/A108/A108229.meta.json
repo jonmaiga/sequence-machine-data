@@ -1,0 +1,22 @@
+{
+  "description": "n occurs Lucas number L(n) times (A000204).",
+  "id": "A108229",
+  "mentions": [
+    "A000045",
+    "A000204",
+    "A001462",
+    "A002024",
+    "A072649"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

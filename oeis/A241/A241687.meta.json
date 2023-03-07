@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that A035014(k) begins with a 3.",
+  "id": "A241687",
+  "mentions": [
+    "A023402",
+    "A035014"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

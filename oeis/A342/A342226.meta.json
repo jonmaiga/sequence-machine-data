@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k with digits in nondecreasing order and satisfying k < (product of digits of k) * (sum of digits of k).",
+  "id": "A342226",
+  "mentions": [
+    "A009994",
+    "A066310"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

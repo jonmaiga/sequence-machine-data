@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of (3 + sqrt(3))/12.",
+  "id": "A321120",
+  "mentions": [
+    "A020805",
+    "A165663",
+    "A321118",
+    "A321119"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:51:25",
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Prime p1 of consecutive primes p1, p2, where p2-p1=10, and p1, p2 are in different centuries.",
+  "id": "A160500",
+  "mentions": [
+    "A031928",
+    "A160370",
+    "A160440"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

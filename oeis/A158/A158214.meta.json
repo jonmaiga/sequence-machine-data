@@ -1,0 +1,19 @@
+{
+  "description": "Smallest palindromic prime made up of 0's and k 1's, where k = A007310(n), odd numbers not divisible by 3.",
+  "id": "A158214",
+  "mentions": [
+    "A007310",
+    "A020449"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 2,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Complement of A219640. Natural numbers that do not occur in A219641.",
+  "id": "A219638",
+  "mentions": [
+    "A007895",
+    "A055938",
+    "A219640",
+    "A219641",
+    "A219648",
+    "A219658"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

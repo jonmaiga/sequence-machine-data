@@ -1,0 +1,23 @@
+{
+  "description": "Array read by antidiagonals: T(m,n) = number of Eulerian cycles in the torus grid graph C_m X C_n.",
+  "id": "A298117",
+  "mentions": [
+    "A212801",
+    "A282621",
+    "A297385",
+    "A298119",
+    "A298197",
+    "A298198"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:19",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

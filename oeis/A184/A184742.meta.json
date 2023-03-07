@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = floor(n*r + h), where r = sqrt(Pi), h = -1/2.",
+  "id": "A184742",
+  "mentions": [
+    "A184743"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:22:59",
+    "offset": 1,
+    "size": 82,
+    "source": "joeis"
+  }
+}

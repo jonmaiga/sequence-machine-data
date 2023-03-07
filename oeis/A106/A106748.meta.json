@@ -1,0 +1,17 @@
+{
+  "description": "Define the morphism f: 1->113, 2->13, 3->2 and let a(0) = 1; then a(n+1) = f(a(n)).",
+  "id": "A106748",
+  "mentions": [
+    "A106749"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

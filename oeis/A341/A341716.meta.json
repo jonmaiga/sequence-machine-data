@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = smallest k such that the decimal concatenation n||n+1||n+2||...||n+k is prime, or -1 if no such prime exists.",
+  "id": "A341716",
+  "mentions": [
+    "A084559",
+    "A140793",
+    "A341715",
+    "A341717"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 2,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

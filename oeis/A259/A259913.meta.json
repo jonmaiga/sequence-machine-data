@@ -1,0 +1,19 @@
+{
+  "description": "Discriminant of the number field containing the number with periodic continued fraction [1,n,1,n,1,n,...].",
+  "id": "A259913",
+  "mentions": [
+    "A004146",
+    "A259911"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

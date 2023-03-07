@@ -1,0 +1,19 @@
+{
+  "description": "a(0) = 0; for n>=0, a(n+1) = a(n) + x where x is the smallest nonnegative number which is not equal to a(i) +/- a(k) or a(i)/2 for any 0<=i<=n, 0<=k<=n.",
+  "id": "A167209",
+  "mentions": [
+    "A047699",
+    "A169799",
+    "A169820"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:50",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

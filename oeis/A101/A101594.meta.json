@@ -1,0 +1,28 @@
+{
+  "description": "Numbers with exactly two distinct decimal digits, neither of which is 0.",
+  "id": "A101594",
+  "mentions": [
+    "A004719",
+    "A031955",
+    "A043537",
+    "A052382",
+    "A083985",
+    "A125290",
+    "A168046"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "less",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

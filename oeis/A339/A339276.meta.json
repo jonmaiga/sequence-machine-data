@@ -1,0 +1,21 @@
+{
+  "description": "Nearest integer to the fourth root of n.",
+  "id": "A339276",
+  "mentions": [
+    "A000194",
+    "A105209",
+    "A255270"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

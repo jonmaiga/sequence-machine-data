@@ -1,0 +1,26 @@
+{
+  "description": "Number of partitions of n into parts <= 4 with the property that all parts have distinct multiplicities.",
+  "id": "A211859",
+  "mentions": [
+    "A026810",
+    "A098859",
+    "A105637",
+    "A211858",
+    "A211860",
+    "A211861",
+    "A211862",
+    "A211863"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:04:55",
+    "offset": 0,
+    "size": 57,
+    "source": "joeis"
+  }
+}

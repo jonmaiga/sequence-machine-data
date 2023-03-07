@@ -1,0 +1,22 @@
+{
+  "description": "One half of the number of primitive reduced binary quadratic forms for discriminant 4*A000037(n), for n >= 1.",
+  "id": "A307236",
+  "mentions": [
+    "A000037",
+    "A079896",
+    "A082174",
+    "A307359",
+    "A324251"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

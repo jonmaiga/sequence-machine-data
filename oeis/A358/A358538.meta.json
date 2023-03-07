@@ -1,0 +1,20 @@
+{
+  "description": "Autobiographical numbers: the first digit of the term counts how many 0's the term in total has, the second how many 1's etc. up to the last digit but no more than b-1, where b is the base of the sequence. This sequence is in base b=10.",
+  "id": "A358538",
+  "mentions": [
+    "A046043",
+    "A138480"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

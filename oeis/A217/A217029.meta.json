@@ -1,0 +1,19 @@
+{
+  "description": "Array T(i,j) read by antidiagonals, where T(i,j) is the height of i/j, that is max(|m|,|n|) with m/n = i/j and gcd(m, n) = 1.",
+  "id": "A217029",
+  "mentions": [
+    "A002246"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

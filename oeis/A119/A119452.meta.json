@@ -1,0 +1,22 @@
+{
+  "description": "Records in A119451.",
+  "id": "A119452",
+  "mentions": [
+    "A118473",
+    "A118533",
+    "A119451",
+    "A119453"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

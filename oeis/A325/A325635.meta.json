@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = A091255(2n, sigma(n)).",
+  "id": "A325635",
+  "mentions": [
+    "A000203",
+    "A091255",
+    "A318467",
+    "A325634",
+    "A325636",
+    "A325638"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

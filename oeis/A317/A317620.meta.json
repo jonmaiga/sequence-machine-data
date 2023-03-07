@@ -1,0 +1,21 @@
+{
+  "description": "Squares visited by a (2,4)-leaper on a spirally numbered board and moving to the lowest available unvisited square at each step.",
+  "id": "A317620",
+  "mentions": [
+    "A317619",
+    "A317622"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:37",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

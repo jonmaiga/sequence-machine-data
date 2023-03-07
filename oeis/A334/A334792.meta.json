@@ -1,0 +1,18 @@
+{
+  "description": "Let L_0 = (0, 1, 2, ...); for k = 1, 2, ..., L_k is obtained by splitting L_{k-1} into runs of k! terms and reversing even-indexed runs; {a(n)} is the limit of L_k as k tends to infinity.",
+  "id": "A334792",
+  "mentions": [
+    "A003188",
+    "A163332"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

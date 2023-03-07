@@ -1,0 +1,26 @@
+{
+  "description": "The Sisyphus sequence: start the sequence S with a(1) = 1 and extend S with a(n)/2 when a(n) is even, otherwise with a(n) + the smallest prime not yet added.",
+  "id": "A350877",
+  "mentions": [
+    "A174221",
+    "A350615",
+    "A350616",
+    "A350617",
+    "A350618",
+    "A350619",
+    "A350620",
+    "A350621",
+    "A350742",
+    "A350833"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

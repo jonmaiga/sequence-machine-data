@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that a digit of n to the power k plus the sum of the other digits of n equals n, where k is a positive integer.",
+  "id": "A257860",
+  "mentions": [
+    "A007953",
+    "A061209",
+    "A130680",
+    "A257766",
+    "A257768",
+    "A257784"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

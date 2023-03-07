@@ -1,0 +1,24 @@
+{
+  "description": "Sum sequence A000522 then subtract 0,1,2,3,4,5,...",
+  "id": "A121726",
+  "mentions": [
+    "A000522",
+    "A002104",
+    "A006231",
+    "A092271",
+    "A339016",
+    "A339033"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:18:15",
+    "offset": 1,
+    "size": 23,
+    "source": "joeis"
+  }
+}

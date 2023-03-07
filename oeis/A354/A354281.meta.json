@@ -1,0 +1,20 @@
+{
+  "description": "Weird numbers k such that k-1 is the sum of a subset of the aliquot divisors of k.",
+  "id": "A354281",
+  "mentions": [
+    "A005835",
+    "A006037",
+    "A354282",
+    "A354283"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

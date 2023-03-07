@@ -1,0 +1,34 @@
+{
+  "description": "Permutation of natural numbers: a(0) = 1, a(1) = 2, a(2n) = A254049(a(n)), a(2n+1) = 3*a(n)-1; composition of A048673 and A005940.",
+  "id": "A244154",
+  "mentions": [
+    "A005940",
+    "A016789",
+    "A048673",
+    "A054429",
+    "A243065",
+    "A243066",
+    "A243505",
+    "A243506",
+    "A244153",
+    "A245608",
+    "A245610",
+    "A245612",
+    "A254049",
+    "A285712",
+    "A285714",
+    "A286613"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

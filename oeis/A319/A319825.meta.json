@@ -1,0 +1,26 @@
+{
+  "description": "LCM of the strict integer partition with FDH number n.",
+  "id": "A319825",
+  "mentions": [
+    "A050376",
+    "A056239",
+    "A064547",
+    "A213925",
+    "A289508",
+    "A289509",
+    "A290103",
+    "A299755",
+    "A299757",
+    "A319826"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

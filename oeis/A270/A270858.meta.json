@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X n checkered tori (see A179043) with at least one 0 and at least one 1 in each row and each column.",
+  "id": "A270858",
+  "mentions": [
+    "A179043"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

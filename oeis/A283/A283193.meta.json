@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = CarrylessSum{k=1..n} A283192(k), where CarrylessSum is the analog of summation for carryless addition.",
+  "id": "A283193",
+  "mentions": [
+    "A169890",
+    "A283192"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:53",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Position of n^r in the joint ranking of {h^r} and {k^s}, where r = sqrt(3), s = sqrt(6), h > 1, k > 1.",
+  "id": "A276218",
+  "mentions": [
+    "A276217"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

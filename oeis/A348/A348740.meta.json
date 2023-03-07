@@ -1,0 +1,22 @@
+{
+  "description": "Positions k where A348733(k) is not multiplicative.",
+  "id": "A348740",
+  "mentions": [
+    "A003959",
+    "A034448",
+    "A344702",
+    "A348733",
+    "A348734",
+    "A348735"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

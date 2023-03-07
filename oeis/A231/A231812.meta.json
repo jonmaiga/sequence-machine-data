@@ -1,0 +1,21 @@
+{
+  "description": "Number of endofunctions on [n] where all nonempty preimages have the same cardinality.",
+  "id": "A231812",
+  "mentions": [
+    "A000312",
+    "A005095",
+    "A231807",
+    "A231915"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

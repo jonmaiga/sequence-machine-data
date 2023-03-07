@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the smallest number which can be represented as the sum of n distinct nonzero squares in exactly n ways, or 0 if no such number exists.",
+  "id": "A350241",
+  "mentions": [
+    "A000290",
+    "A025341",
+    "A025379",
+    "A025415",
+    "A025417",
+    "A052261",
+    "A093195",
+    "A097563",
+    "A215908",
+    "A341040"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

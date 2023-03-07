@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (sigma(2*n) - sigma(n))*Lucas(n) where Lucas(n) = A000204(n) and sigma(n) = A000203(n) is the sum of divisors of n.",
+  "id": "A225525",
+  "mentions": [
+    "A000203",
+    "A000204",
+    "A007310",
+    "A203850",
+    "A225524"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

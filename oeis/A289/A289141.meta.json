@@ -1,0 +1,26 @@
+{
+  "description": "Table of expansion of j_n in powers of j (A000521).",
+  "id": "A289141",
+  "mentions": [
+    "A000521",
+    "A014708",
+    "A288261",
+    "A288840",
+    "A288843",
+    "A288844",
+    "A289116",
+    "A289148",
+    "A289149"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:03",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

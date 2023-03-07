@@ -1,0 +1,23 @@
+{
+  "description": "Number of factorizations of (n,n) into pairs (i,j) with i,j >= 1, not both 1.",
+  "id": "A108462",
+  "mentions": [
+    "A002110",
+    "A002774",
+    "A020557",
+    "A025487",
+    "A108461",
+    "A108463"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

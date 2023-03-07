@@ -1,0 +1,20 @@
+{
+  "description": "Inverse Euler transform of Thue-Morse sequence A001285.",
+  "id": "A316149",
+  "mentions": [
+    "A001285",
+    "A029878",
+    "A358451"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

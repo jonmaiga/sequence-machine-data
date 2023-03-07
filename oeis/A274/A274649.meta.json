@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest odd prime that divides n + the sum of all smaller primes, or 0 if no such prime exists.",
+  "id": "A274649",
+  "mentions": [
+    "A007504",
+    "A007506",
+    "A016777",
+    "A024011",
+    "A274995"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

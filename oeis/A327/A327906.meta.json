@@ -1,0 +1,30 @@
+{
+  "description": "Numbers with only one factorization into factors > 1 with integer mean (namely, as a singleton).",
+  "id": "A327906",
+  "mentions": [
+    "A001055",
+    "A051293",
+    "A067538",
+    "A078175",
+    "A123528",
+    "A123529",
+    "A316413",
+    "A326515",
+    "A326516",
+    "A326622",
+    "A326666",
+    "A326667",
+    "A326671",
+    "A327907"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

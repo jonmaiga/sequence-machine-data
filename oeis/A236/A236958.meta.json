@@ -1,0 +1,22 @@
+{
+  "description": "E.g.f. satisfies: A'(x) = A(x)^7 * A(-x)^5 with A(0) = 1.",
+  "id": "A236958",
+  "mentions": [
+    "A236953",
+    "A236954",
+    "A236955",
+    "A236956",
+    "A236957"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

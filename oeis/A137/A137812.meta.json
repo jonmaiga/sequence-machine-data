@@ -1,0 +1,23 @@
+{
+  "description": "Left- or right-truncatable primes.",
+  "id": "A137812",
+  "mentions": [
+    "A024770",
+    "A024785",
+    "A077390",
+    "A080608",
+    "A298048"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:25",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

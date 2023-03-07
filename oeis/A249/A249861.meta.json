@@ -1,0 +1,20 @@
+{
+  "description": "a(n) are values of k that yield \"record-breaking\" integer sequence lengths for the recursion: b(i) = 3*(b(i-1) + b(i-2))/2, with b(0) = 1 and b(1) = k.",
+  "id": "A249861",
+  "mentions": [
+    "A083858",
+    "A113828"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

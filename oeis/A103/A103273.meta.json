@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways of writing prime(n)-1 in the form prime(i)+prime(j).",
+  "id": "A103273",
+  "mentions": [
+    "A061358"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

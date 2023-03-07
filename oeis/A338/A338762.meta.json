@@ -1,0 +1,19 @@
+{
+  "description": "Greatest prime Fibonacci divisor of F(n)^2 + 1 where F(n) is the n-th Fibonacci number, or 0 if no such prime factor exists.",
+  "id": "A338762",
+  "mentions": [
+    "A000045",
+    "A005478",
+    "A245306"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

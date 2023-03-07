@@ -1,0 +1,19 @@
+{
+  "description": "A222311 sorted and duplicates removed (conjectured).",
+  "id": "A222313",
+  "mentions": [
+    "A222310",
+    "A222311"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

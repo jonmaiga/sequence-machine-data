@@ -1,0 +1,26 @@
+{
+  "description": "Numbers whose square starts and ends with exactly 4 identical digits.",
+  "id": "A346942",
+  "mentions": [
+    "A039685",
+    "A067251",
+    "A346678",
+    "A346774",
+    "A346812",
+    "A346891",
+    "A346892",
+    "A346926",
+    "A346940"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

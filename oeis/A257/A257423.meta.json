@@ -1,0 +1,17 @@
+{
+  "description": "Number of (n+2)X(5+2) 0..1 arrays with every 3X3 subblock diagonal sum plus antidiagonal minimum nondecreasing horizontally, vertically and ne-to-sw antidiagonally",
+  "id": "A257423",
+  "mentions": [
+    "A257426"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

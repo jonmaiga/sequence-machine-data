@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that 2*p is a member of A230624.",
+  "id": "A349820",
+  "mentions": [
+    "A230624",
+    "A349821"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

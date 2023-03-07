@@ -1,0 +1,25 @@
+{
+  "description": "Number triangle T(n,k) = (-1)^(n-k) if binomial(k, n-k) > 0, 0 otherwise, with 0 <= k <= n.",
+  "id": "A187034",
+  "mentions": [
+    "A002260",
+    "A003056",
+    "A101688",
+    "A133872",
+    "A187035",
+    "A187036"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

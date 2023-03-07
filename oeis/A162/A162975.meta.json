@@ -1,0 +1,34 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of permutations of {1,2,...,n} having k doubledescents (0 <= k <= n-2). We say that i is a doubledescent (also called a double fall) of a permutation p if p(i) > p(i+1) > p(i+2).",
+  "id": "A162975",
+  "mentions": [
+    "A000142",
+    "A005990",
+    "A049774",
+    "A162976",
+    "A230621",
+    "A242783",
+    "A242784",
+    "A274997",
+    "A279292",
+    "A279293",
+    "A279294",
+    "A279295",
+    "A279296",
+    "A279297",
+    "A279298",
+    "A279299"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

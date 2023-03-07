@@ -1,0 +1,17 @@
+{
+  "description": "Number of ordered set partitions of the multiset [a,a,1,1,...,1] with two \"a\" and n \"1\".",
+  "id": "A209633",
+  "mentions": [
+    "A093694"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

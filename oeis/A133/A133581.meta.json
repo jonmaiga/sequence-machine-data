@@ -1,0 +1,25 @@
+{
+  "description": "(k^2)-th k-smooth number for k = prime(n).",
+  "id": "A133581",
+  "mentions": [
+    "A000040",
+    "A000079",
+    "A001248",
+    "A002473",
+    "A003586",
+    "A051037",
+    "A051038"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

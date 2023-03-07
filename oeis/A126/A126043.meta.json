@@ -1,0 +1,21 @@
+{
+  "description": "Exponents p of the Mersenne primes 2^p - 1 (see A000043) read mod 3.",
+  "id": "A126043",
+  "mentions": [
+    "A000043",
+    "A010872",
+    "A126044",
+    "A126059"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

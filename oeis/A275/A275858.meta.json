@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = floor(c*r*a(n-1)) - floor(d*s*a(n-2)), where r = (1+sqrt(5))/2, s = r/(r-1), c = 1, d = 1, a(0) = 1, a(1) = 1.",
+  "id": "A275858",
+  "mentions": [
+    "A275856",
+    "A275857",
+    "A275859",
+    "A275860",
+    "A275861"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n, k) is the Skolem number of the parallelogram graph P_{n, k}, with 1 < k <= n.",
+  "id": "A342940",
+  "mentions": [
+    "A002061",
+    "A014206",
+    "A229183",
+    "A342938",
+    "A342939"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 2,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

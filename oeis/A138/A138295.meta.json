@@ -1,0 +1,18 @@
+{
+  "description": "G.f.: A(x) = (1+x) + x*A_2(x)^2; A_2(x) = (1+x)^2 + x*A_3(x)^2; ...; A_{n}(x) = (1+x)^n + x*A_{n+1}(x)^2 for n>=1 with A(x) = A_1(x).",
+  "id": "A138295",
+  "mentions": [
+    "A138294"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

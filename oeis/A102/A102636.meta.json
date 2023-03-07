@@ -1,0 +1,21 @@
+{
+  "description": "Skipping from prime to prime by least powers of 2 using 127 as the seed.",
+  "id": "A102636",
+  "mentions": [
+    "A033875",
+    "A102635",
+    "A102935",
+    "A102937"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

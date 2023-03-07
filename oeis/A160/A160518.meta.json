@@ -1,0 +1,18 @@
+{
+  "description": "List of pairs of twin primes of the form 2k^3 +- 1.",
+  "id": "A160518",
+  "mentions": [
+    "A001359",
+    "A151612"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

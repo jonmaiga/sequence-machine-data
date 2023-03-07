@@ -1,0 +1,25 @@
+{
+  "description": "Great rhombicuboctahedron with faces of centered polygons.",
+  "id": "A193252",
+  "mentions": [
+    "A000330",
+    "A001844",
+    "A003215",
+    "A005408",
+    "A016754",
+    "A069190",
+    "A158591"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:54:23",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

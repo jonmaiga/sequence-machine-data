@@ -1,0 +1,29 @@
+{
+  "description": "Numbers whose numerator and denominator of their abundancy index are both Fibonacci numbers.",
+  "id": "A349687",
+  "mentions": [
+    "A000045",
+    "A000203",
+    "A000396",
+    "A001622",
+    "A005820",
+    "A010056",
+    "A017665",
+    "A017666",
+    "A046060",
+    "A069070",
+    "A216780",
+    "A247086",
+    "A348658"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

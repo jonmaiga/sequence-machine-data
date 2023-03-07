@@ -1,0 +1,22 @@
+{
+  "description": "Least prime not less than the median of all prime divisors of n counted with multiplicity.",
+  "id": "A273289",
+  "mentions": [
+    "A006530",
+    "A079870",
+    "A273283",
+    "A273285",
+    "A273288",
+    "A273291"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 2,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

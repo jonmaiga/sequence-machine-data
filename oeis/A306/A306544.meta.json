@@ -1,0 +1,27 @@
+{
+  "description": "Any positive integer n has a smallest multiple consisting of a succession of 1's followed by a succession of 0's (A052983). This multiple is regarded as a binary number and a(n) is its conversion to base 10.",
+  "id": "A306544",
+  "mentions": [
+    "A000079",
+    "A002275",
+    "A003592",
+    "A007088",
+    "A011557",
+    "A045572",
+    "A052983",
+    "A099679",
+    "A276348",
+    "A276349"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

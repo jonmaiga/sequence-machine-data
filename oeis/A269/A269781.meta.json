@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest k different from n such that (n, k) is an amicably refactorable pair (see the comments).",
+  "id": "A269781",
+  "mentions": [
+    "A000005",
+    "A033950",
+    "A061286",
+    "A268037",
+    "A272353"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 3,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

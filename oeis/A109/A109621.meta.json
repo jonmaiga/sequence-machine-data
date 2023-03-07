@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that the numerator of Sum_{k=0..n} 1/k!, in reduced form, is prime.",
+  "id": "A109621",
+  "mentions": [
+    "A061354"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

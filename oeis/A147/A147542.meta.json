@@ -1,0 +1,25 @@
+{
+  "description": "Product(1 + a(n)*x^n, n=1..infinity) = sum(F(k+1)*x^k, k=1..infinity) = 1/(1-x-x^2), where F(n) = A000045(n) (Fibonacci numbers).",
+  "id": "A147542",
+  "mentions": [
+    "A000045",
+    "A003056",
+    "A006973",
+    "A008289",
+    "A048996",
+    "A137852",
+    "A147541",
+    "A157159"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

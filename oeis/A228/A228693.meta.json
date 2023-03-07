@@ -1,0 +1,20 @@
+{
+  "description": "Largest number of maximal independent sets of nodes in any tree on n nodes.",
+  "id": "A228693",
+  "mentions": [
+    "A000051",
+    "A000079"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

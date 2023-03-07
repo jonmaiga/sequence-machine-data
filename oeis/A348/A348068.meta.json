@@ -1,0 +1,25 @@
+{
+  "description": "Coefficient of x^5 in expansion of n!* Sum_{k=0..n} binomial(x,k).",
+  "id": "A348068",
+  "mentions": [
+    "A000482",
+    "A001233",
+    "A054651",
+    "A190782",
+    "A347987",
+    "A348063",
+    "A348064",
+    "A348065"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 5,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

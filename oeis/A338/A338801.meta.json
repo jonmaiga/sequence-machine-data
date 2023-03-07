@@ -1,0 +1,22 @@
+{
+  "description": "Irregular table read by rows: The number of k-faced polyhedra, where k>=4, created when an n-prism, formed from two n-sided regular polygons joined by n adjacent rectangles, is internally cut by all the planes defined by any three of its vertices.",
+  "id": "A338801",
+  "mentions": [
+    "A333543",
+    "A338622",
+    "A338783",
+    "A338808"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 3,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

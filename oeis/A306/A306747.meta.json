@@ -1,0 +1,20 @@
+{
+  "description": "Untouchable numbers with a record gap to the next untouchable number.",
+  "id": "A306747",
+  "mentions": [
+    "A005114",
+    "A231965"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

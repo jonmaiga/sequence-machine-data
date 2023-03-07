@@ -1,0 +1,40 @@
+{
+  "description": "A convolution triangle of numbers based on A001906 (even indexed Fibonacci numbers).",
+  "id": "A125662",
+  "mentions": [
+    "A000012",
+    "A000244",
+    "A001353",
+    "A001871",
+    "A001906",
+    "A007318",
+    "A008585",
+    "A049310",
+    "A053122",
+    "A062728",
+    "A078812",
+    "A084938",
+    "A101950",
+    "A104562",
+    "A123965",
+    "A123967",
+    "A124025",
+    "A159764",
+    "A207815",
+    "A207823",
+    "A207824"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

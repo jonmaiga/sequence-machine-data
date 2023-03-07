@@ -1,0 +1,25 @@
+{
+  "description": "Concentric 21-gonal numbers.",
+  "id": "A195049",
+  "mentions": [
+    "A032527",
+    "A032528",
+    "A195040",
+    "A195048",
+    "A195058",
+    "A195148",
+    "A195149"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:19:15",
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

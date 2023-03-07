@@ -1,0 +1,23 @@
+{
+  "description": "Increment each prime factor for each term of the least prime sequence A087443.",
+  "id": "A131801",
+  "mentions": [
+    "A003961",
+    "A025487",
+    "A087443",
+    "A131822"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

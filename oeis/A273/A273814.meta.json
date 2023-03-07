@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that (12^k - 7^k)/5 is prime.",
+  "id": "A273814",
+  "mentions": [
+    "A004064",
+    "A062578",
+    "A128348"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

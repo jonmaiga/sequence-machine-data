@@ -1,0 +1,23 @@
+{
+  "description": "Sophie Germain primes equal to the sum of the first k Sophie Germain primes for some k.",
+  "id": "A325957",
+  "mentions": [
+    "A000040",
+    "A005384",
+    "A005385",
+    "A013918",
+    "A066819",
+    "A172037"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

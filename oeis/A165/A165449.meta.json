@@ -1,0 +1,21 @@
+{
+  "description": "Write the prime numbers in a string: 2357111317192329... (cf. A033308). The sequence gives the first position in the string for natural numbers.",
+  "id": "A165449",
+  "mentions": [
+    "A031297",
+    "A033308",
+    "A229190"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:48",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

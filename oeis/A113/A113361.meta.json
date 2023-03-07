@@ -1,0 +1,23 @@
+{
+  "description": "Column 1 of triangle A113360, which equals the matrix cube of triangle A113340.",
+  "id": "A113361",
+  "mentions": [
+    "A113340",
+    "A113341",
+    "A113350",
+    "A113360",
+    "A113362",
+    "A113363",
+    "A113364"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

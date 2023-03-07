@@ -1,0 +1,18 @@
+{
+  "description": "Prime(n)^2 mod (prime(n) + prime(n+1)).",
+  "id": "A227203",
+  "mentions": [
+    "A029707",
+    "A167770"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

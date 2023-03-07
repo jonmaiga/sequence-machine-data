@@ -1,0 +1,19 @@
+{
+  "description": "Position of n-th prime sextuplet A022008(n) among prime 5-tuples A022007.",
+  "id": "A199004",
+  "mentions": [
+    "A022007",
+    "A022008"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:20",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

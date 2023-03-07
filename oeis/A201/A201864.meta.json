@@ -1,0 +1,21 @@
+{
+  "description": "((F(n-1)+F(n-2))-1)/2 if F(n) is odd, otherwise ((F(n-1)+F(n-2))-2)/2, where F(n)=A000045(n) is the n-th Fibonacci number.",
+  "id": "A201864",
+  "mentions": [
+    "A000045",
+    "A130578",
+    "A131534"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

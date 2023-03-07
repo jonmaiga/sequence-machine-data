@@ -1,0 +1,18 @@
+{
+  "description": "G.f.: Sum_{n=-oo..+oo, n<>0} x^(n^2) / (1 - x^n)^(n+1).",
+  "id": "A261608",
+  "mentions": [
+    "A261605"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of nX3 arrays containing 3 copies of 0..n-1 with no element 1 greater than its north, west or southeast neighbor modulo n and the upper left element equal to 0.",
+  "id": "A267545",
+  "mentions": [
+    "A267546"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

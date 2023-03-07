@@ -1,0 +1,23 @@
+{
+  "description": "Number of children that node n has in the tree defined by the edge relation A255131(child) = parent, \"the least squares beanstalk\".",
+  "id": "A278216",
+  "mentions": [
+    "A002828",
+    "A255131",
+    "A276573",
+    "A278489",
+    "A278490",
+    "A278491"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

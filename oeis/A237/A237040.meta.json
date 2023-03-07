@@ -1,0 +1,28 @@
+{
+  "description": "Semiprimes of the form k^3 + 1.",
+  "id": "A237040",
+  "mentions": [
+    "A001358",
+    "A002383",
+    "A002496",
+    "A046315",
+    "A081256",
+    "A096173",
+    "A096174",
+    "A237037",
+    "A237038",
+    "A237039",
+    "A242262"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Smallest sum of three distinct primes of the form n*k+1.",
+  "id": "A194267",
+  "mentions": [
+    "A077318",
+    "A132810",
+    "A193873",
+    "A194266"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

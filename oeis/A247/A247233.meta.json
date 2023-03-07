@@ -1,0 +1,20 @@
+{
+  "description": "Smallest m such that A075323(m) = n-th odd prime, or zero, if no such m exists.",
+  "id": "A247233",
+  "mentions": [
+    "A000040",
+    "A065091",
+    "A075321",
+    "A075323"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

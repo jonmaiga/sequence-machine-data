@@ -1,0 +1,25 @@
+{
+  "description": "Denominators of: MoebiusMu(n)^2*(n/(n - EulerPhi(n))).",
+  "id": "A199515",
+  "mentions": [
+    "A000010",
+    "A008683",
+    "A008966",
+    "A051953",
+    "A191898",
+    "A199155",
+    "A199514"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:20",
+    "offset": 2,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

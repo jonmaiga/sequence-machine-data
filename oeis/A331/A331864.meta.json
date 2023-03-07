@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that R(k) + 2*10^floor(k/2-1) is prime, where R(k) = (10^k-1)/9 (repunit: A002275).",
+  "id": "A331864",
+  "mentions": [
+    "A002275",
+    "A011557",
+    "A105992",
+    "A331860",
+    "A331863",
+    "A331865"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

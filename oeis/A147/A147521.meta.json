@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest value of Euler polynomial x^2 + x + 41 which is divisible by 41^n.",
+  "id": "A147521",
+  "mentions": [
+    "A145292",
+    "A145293",
+    "A145294",
+    "A147520",
+    "A147522"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

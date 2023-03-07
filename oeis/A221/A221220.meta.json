@@ -1,0 +1,20 @@
+{
+  "description": "Numbers with more than one prime factor such that concatenation of its prime factors (without multiplicity) is a prime.",
+  "id": "A221220",
+  "mentions": [
+    "A024619",
+    "A046411"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

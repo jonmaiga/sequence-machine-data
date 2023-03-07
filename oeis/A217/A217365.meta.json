@@ -1,0 +1,19 @@
+{
+  "description": "Series reversion of x + x^2 + x^3 + x^4 + x^5.",
+  "id": "A217365",
+  "mentions": [
+    "A063019",
+    "A103779"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

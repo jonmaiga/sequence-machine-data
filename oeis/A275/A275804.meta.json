@@ -1,0 +1,29 @@
+{
+  "description": "Numbers with at most one nonzero digit on each digit slope of the factorial base representation of n.",
+  "id": "A275804",
+  "mentions": [
+    "A007623",
+    "A008683",
+    "A059590",
+    "A060130",
+    "A060502",
+    "A261220",
+    "A275734",
+    "A275805",
+    "A275811",
+    "A275947",
+    "A275962",
+    "A276005"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

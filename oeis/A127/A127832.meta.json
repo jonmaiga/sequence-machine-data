@@ -1,0 +1,19 @@
+{
+  "description": "Array T by antidiagonals: for h>=0 and k>=0, T(h,k)=number of UR paths from (0,0) to (h,k) that touch the line y=2x/3 only at lattice points. A UR path is a path of steps of length 1 each directed up or right.",
+  "id": "A127832",
+  "mentions": [
+    "A047110",
+    "A127833"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

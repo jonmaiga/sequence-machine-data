@@ -1,0 +1,21 @@
+{
+  "description": "Sociable totient numbers of order 3: numbers k such that s(s(s(k))) = k, but s(k) != k, where s(k) = A092693(k) is the sum of iterated phi function.",
+  "id": "A343243",
+  "mentions": [
+    "A000010",
+    "A082897",
+    "A092693",
+    "A286233"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

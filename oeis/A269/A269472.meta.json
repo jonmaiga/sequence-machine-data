@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Product_{p prime} (1-(p^2+2)/(2(p^2+1)(p+1))) / sqrt(1-1/p), a constant related to the asymptotic average number of squares modulo n.",
+  "id": "A269472",
+  "mentions": [
+    "A046073",
+    "A105612",
+    "A271547"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 108,
+    "source": "oeis-entry"
+  }
+}

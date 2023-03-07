@@ -1,0 +1,21 @@
+{
+  "description": "Number of cycles of length 4 in the queen's graph associated with an n X n chessboard",
+  "id": "A156001",
+  "mentions": [
+    "A144298",
+    "A288916",
+    "A288917"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 19:56:03",
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

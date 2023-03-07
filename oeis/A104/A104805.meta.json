@@ -1,0 +1,18 @@
+{
+  "description": "\"Ceiling of hypotenuses\": a(n) = ceiling(sqrt(a(n-1)^2 + a(n-2)^2)), a(1)=1, a(2)=3.",
+  "id": "A104805",
+  "mentions": [
+    "A104803",
+    "A104804"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

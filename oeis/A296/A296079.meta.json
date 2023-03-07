@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = 1 if 1+phi(n) is prime, 0 otherwise, where phi = A000010, Euler totient function.",
+  "id": "A296079",
+  "mentions": [
+    "A000010",
+    "A010051",
+    "A039649",
+    "A039689",
+    "A039698",
+    "A296077",
+    "A296078",
+    "A296080"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:14",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

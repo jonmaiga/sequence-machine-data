@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = (1+(A034939(n))^2)/5^n.",
+  "id": "A199206",
+  "mentions": [
+    "A034939"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:42:12",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

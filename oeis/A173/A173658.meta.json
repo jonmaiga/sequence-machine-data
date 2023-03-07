@@ -1,0 +1,18 @@
+{
+  "description": "Similar to A093506, but starting with 2, 4.",
+  "id": "A173658",
+  "mentions": [
+    "A001462",
+    "A093506"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:57",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of toothpicks after n stages of 3-D toothpick structure defined in Comments.",
+  "id": "A170876",
+  "mentions": [
+    "A000695",
+    "A139250",
+    "A160160",
+    "A160170",
+    "A170837",
+    "A170875"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Removing the first occurrence of 1, 2, 3, ... reproduces the sequence itself. Each run of consecutive removed terms is separated from the next one by a term a(k) <= a(k-1) such that floor(sqrt(a(k))) equals the length of the run.",
+  "id": "A265650",
+  "mentions": [
+    "A000196",
+    "A003603",
+    "A035513"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

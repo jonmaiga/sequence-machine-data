@@ -1,0 +1,26 @@
+{
+  "description": "Number of 3-generalized 2-Motzkin paths of length n with no level steps H=(3,0) at odd level.",
+  "id": "A257515",
+  "mentions": [
+    "A007317",
+    "A064613",
+    "A086622",
+    "A090344",
+    "A104455",
+    "A104498",
+    "A257178",
+    "A257388",
+    "A257389"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

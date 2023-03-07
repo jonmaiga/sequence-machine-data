@@ -1,0 +1,24 @@
+{
+  "description": "Table with g.f. [1-x*n-sqrt(x^2*n^2-2*n*x+1+4*x^2-4*x)]/(2*x).",
+  "id": "A128888",
+  "mentions": [
+    "A002212",
+    "A005563",
+    "A025238",
+    "A067998",
+    "A106230",
+    "A129170"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

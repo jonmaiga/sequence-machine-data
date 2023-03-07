@@ -1,0 +1,24 @@
+{
+  "description": "Numbers of the form ceiling(A179896(j)/A018252(j)) where A179896(j) mod A018252(j) <> 0.",
+  "id": "A180486",
+  "mentions": [
+    "A000040",
+    "A016789",
+    "A018252",
+    "A045943",
+    "A179545",
+    "A179896"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:05:33",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

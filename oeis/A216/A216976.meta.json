@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that k^5+2 is prime.",
+  "id": "A216976",
+  "mentions": [
+    "A067200",
+    "A067201"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

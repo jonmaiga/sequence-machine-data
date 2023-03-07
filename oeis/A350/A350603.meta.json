@@ -1,0 +1,24 @@
+{
+  "description": "Irregular triangle read by rows: row n lists the elements of the set S_n in increasing order, where S_0 = {0}, and S_n is obtained by applying the operations x -> x+1 and x -> 2*x to S_{n-1}.",
+  "id": "A350603",
+  "mentions": [
+    "A000045",
+    "A000126",
+    "A002977",
+    "A056792",
+    "A122554",
+    "A243571",
+    "A350604"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of subsets of {1..n} whose sum is a perfect power.",
+  "id": "A339554",
+  "mentions": [
+    "A001597",
+    "A126024",
+    "A126111",
+    "A339555"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

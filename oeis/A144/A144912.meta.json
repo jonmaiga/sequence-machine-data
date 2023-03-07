@@ -1,0 +1,31 @@
+{
+  "description": "Unreduced numerators of digital mean, dm_num(b, n), with rows n in {2, 3, 4, ...} and columns b in {2, 3, 4, ..., n}.",
+  "id": "A144912",
+  "mentions": [
+    "A002321",
+    "A031443",
+    "A083058",
+    "A144777",
+    "A144798",
+    "A144799",
+    "A144800",
+    "A144801",
+    "A144812",
+    "A144923",
+    "A240236"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "frac",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 2,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Straight-line numbers > 99.",
+  "id": "A135643",
+  "mentions": [
+    "A010785",
+    "A034840",
+    "A135600",
+    "A135601",
+    "A135602",
+    "A135603",
+    "A135641",
+    "A135642",
+    "A163278",
+    "A167847",
+    "A247616"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

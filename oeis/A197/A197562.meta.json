@@ -1,0 +1,18 @@
+{
+  "description": "Partial sums of A073177 (product of n-th digit of Pi and n-th digit of e).",
+  "id": "A197562",
+  "mentions": [
+    "A073177"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

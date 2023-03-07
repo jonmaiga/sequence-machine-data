@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of exp(Sum_{k>=1} (-1)^(k+1)*x^k/(k*sqrt(1 - 4*x^k))).",
+  "id": "A305256",
+  "mentions": [
+    "A000984",
+    "A194353"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

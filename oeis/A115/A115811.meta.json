@@ -1,0 +1,20 @@
+{
+  "description": "Integers i such that 9*i = 25 X i, but 17*i is not 49 X i.",
+  "id": "A115811",
+  "mentions": [
+    "A048720",
+    "A115801",
+    "A115809",
+    "A115812"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

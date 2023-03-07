@@ -1,0 +1,22 @@
+{
+  "description": "a(0) = 1; n > 0: a(n) = a(n-1) + d, d = -/+1 if n is prime/nonprime.",
+  "id": "A118777",
+  "mentions": [
+    "A000720",
+    "A010051",
+    "A072731",
+    "A097454",
+    "A276090"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

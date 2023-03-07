@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of e.g.f. exp(x) / (1 - x^4).",
+  "id": "A330045",
+  "mentions": [
+    "A000522",
+    "A087208",
+    "A100733",
+    "A158777",
+    "A330044",
+    "A334157"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

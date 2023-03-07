@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are the sum of five squares in five or more ways.",
+  "id": "A344798",
+  "mentions": [
+    "A025370",
+    "A294739",
+    "A343989",
+    "A344797",
+    "A344799",
+    "A344809"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

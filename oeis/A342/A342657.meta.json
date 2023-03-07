@@ -1,0 +1,31 @@
+{
+  "description": "The difference between floor(log_2(.)) of and the number of prime factors in A156552(n) (when counted with multiplicity).",
+  "id": "A342657",
+  "mentions": [
+    "A000523",
+    "A001222",
+    "A003961",
+    "A061395",
+    "A070939",
+    "A156552",
+    "A246277",
+    "A252464",
+    "A322993",
+    "A325134",
+    "A339893",
+    "A339895",
+    "A342655",
+    "A342656"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 2,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

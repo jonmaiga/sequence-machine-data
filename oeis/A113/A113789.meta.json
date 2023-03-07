@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that n, n+1 and n+2 are products of exactly 3 primes.",
+  "id": "A113789",
+  "mentions": [
+    "A014612",
+    "A056809",
+    "A067813",
+    "A180117"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

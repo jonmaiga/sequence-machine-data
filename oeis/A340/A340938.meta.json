@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f. A(x) satisfies: Sum_{n>=0} x^n * exp(x*A(x)^n) / n! = exp(x*A(x) + x/A(x)).",
+  "id": "A340938",
+  "mentions": [
+    "A340939",
+    "A340941"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

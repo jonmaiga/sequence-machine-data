@@ -1,0 +1,18 @@
+{
+  "description": "The only prime p such that 4a < p < 4b where a, b are consecutive primes.",
+  "id": "A217566",
+  "mentions": [
+    "A166251",
+    "A217561"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

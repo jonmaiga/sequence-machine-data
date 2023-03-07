@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. Sum_{k>=1} (cosh(x^k) - 1) (even powers only).",
+  "id": "A330255",
+  "mentions": [
+    "A057625",
+    "A132958",
+    "A176474",
+    "A330254"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

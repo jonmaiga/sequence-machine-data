@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that prime(n)! is divisible by A180491(prime(n))",
+  "id": "A180493",
+  "mentions": [
+    "A000142",
+    "A004125",
+    "A034386",
+    "A180491",
+    "A180492"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

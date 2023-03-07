@@ -1,0 +1,20 @@
+{
+  "description": "Conjectured values of n which are the minimal cycle representatives of finite cycles in the permutation of the natural numbers defined by A098550.",
+  "id": "A251556",
+  "mentions": [
+    "A098550",
+    "A241412",
+    "A251411",
+    "A251412"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

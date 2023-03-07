@@ -1,0 +1,18 @@
+{
+  "description": "Numbers m such that the result of prepending a zero digit to m, removing the least significant digit D, and prepending D, is divisible by m.",
+  "id": "A256005",
+  "mentions": [
+    "A034089"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

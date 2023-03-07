@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of Product_{k>=1} (1 + x^prime(k))/(1 + x^k).",
+  "id": "A302236",
+  "mentions": [
+    "A000586",
+    "A002095",
+    "A018252",
+    "A048165",
+    "A081362",
+    "A096258",
+    "A302234"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:36:11",
+    "offset": 0,
+    "size": 81,
+    "source": "joeis"
+  }
+}

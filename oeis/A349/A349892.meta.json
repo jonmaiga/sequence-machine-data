@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of erf(1/e).",
+  "id": "A349892",
+  "mentions": [
+    "A001113",
+    "A068985",
+    "A099286",
+    "A110894"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the smallest positive number 'c' such that numbers of the form 1+floor(c^(n^1.5)) for all n >= 0 are distinct primes.",
+  "id": "A338837",
+  "mentions": [
+    "A338613",
+    "A338850"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 134,
+    "source": "oeis-entry"
+  }
+}

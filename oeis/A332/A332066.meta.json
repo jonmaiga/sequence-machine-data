@@ -1,0 +1,23 @@
+{
+  "description": "Number of positive integers whose n-th power is not the sum of distinct smaller positive n-th powers.",
+  "id": "A332066",
+  "mentions": [
+    "A030052",
+    "A332065",
+    "A332096",
+    "A332097",
+    "A332098"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

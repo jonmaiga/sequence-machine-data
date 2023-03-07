@@ -1,0 +1,27 @@
+{
+  "description": "Integers whose sum of digits in base b is the same for every prime b up to 17.",
+  "id": "A345296",
+  "mentions": [
+    "A037301",
+    "A135121",
+    "A135127",
+    "A212222",
+    "A212223",
+    "A304201",
+    "A335839"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "hard",
+    "less",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

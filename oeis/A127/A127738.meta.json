@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: the matrix product A004736 * A127701 of two triangular matrices.",
+  "id": "A127738",
+  "mentions": [
+    "A004736",
+    "A008778",
+    "A028387",
+    "A059036",
+    "A094053",
+    "A127701"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

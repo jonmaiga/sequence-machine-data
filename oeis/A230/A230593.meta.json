@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = n * Sum_{q|n} 1 / q, where q are noncomposite numbers (A008578) dividing n.",
+  "id": "A230593",
+  "mentions": [
+    "A000027",
+    "A005117",
+    "A008578",
+    "A069359",
+    "A080339",
+    "A129283",
+    "A329039"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:48",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Sequence c of the mutual recurrence pair: b(0) = 0, b(1) = 1, b(2n) = c(n), b(2n+1) = b(n) + b(n+1), c(0) = c(1) = 0, c(2n) = b(n), c(2n+1) = c(n) + c(n+1).",
+  "id": "A284556",
+  "mentions": [
+    "A000360",
+    "A001222",
+    "A002487",
+    "A102283",
+    "A284554",
+    "A284566"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 0,
+    "size": 119,
+    "source": "oeis-bfile"
+  }
+}

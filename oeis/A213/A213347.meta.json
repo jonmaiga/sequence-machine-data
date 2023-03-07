@@ -1,0 +1,25 @@
+{
+  "description": "5-quantum transitions in systems of N>=5 spin 1/2 particles, in columns by combination indices.",
+  "id": "A213347",
+  "mentions": [
+    "A004311",
+    "A051288",
+    "A054849",
+    "A213343",
+    "A213346",
+    "A213348",
+    "A213352"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 5,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

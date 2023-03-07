@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest number expressible as the sum of n distinct positive n-th powers in exactly n ways.",
+  "id": "A146756",
+  "mentions": [
+    "A230477"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

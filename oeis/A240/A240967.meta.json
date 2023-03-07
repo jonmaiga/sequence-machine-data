@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that end in (..., 128, 128, 128, ...) under the rule: next term = product of the last four digits in the sequence so far.",
+  "id": "A240967",
+  "mentions": [
+    "A238984",
+    "A239419",
+    "A239616",
+    "A239721",
+    "A239722"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

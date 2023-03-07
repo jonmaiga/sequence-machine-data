@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of R/F, where R is the molar gas constant and F is Faraday's constant according to the 2019 SI system.",
+  "id": "A275008",
+  "mentions": [
+    "A070063",
+    "A070064",
+    "A081823",
+    "A163999"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": -4,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

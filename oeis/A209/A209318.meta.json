@@ -1,0 +1,35 @@
+{
+  "description": "Number T(n,k) of partitions of n with k parts in which no part occurs more than twice; triangle T(n,k), n>=0, 0<=k<=A055086(n), read by rows.",
+  "id": "A209318",
+  "mentions": [
+    "A000007",
+    "A000267",
+    "A000726",
+    "A002620",
+    "A004526",
+    "A008289",
+    "A055086",
+    "A057427",
+    "A117147",
+    "A230059",
+    "A320592",
+    "A320593",
+    "A320594",
+    "A320595",
+    "A320596",
+    "A320597",
+    "A320598"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

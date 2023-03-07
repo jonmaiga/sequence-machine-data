@@ -1,0 +1,19 @@
+{
+  "description": "Numbers of (undirected) Hamiltonian paths in the n-Sierpiński sieve graph.",
+  "id": "A246957",
+  "mentions": [
+    "A234635",
+    "A246958",
+    "A246959"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

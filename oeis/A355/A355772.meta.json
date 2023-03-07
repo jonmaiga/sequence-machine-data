@@ -1,0 +1,26 @@
+{
+  "description": "Positions of records in A355770.",
+  "id": "A355772",
+  "mentions": [
+    "A093036",
+    "A093037",
+    "A333369",
+    "A340549",
+    "A350424",
+    "A353735",
+    "A355770",
+    "A355771",
+    "A355773"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

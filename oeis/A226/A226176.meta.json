@@ -1,0 +1,18 @@
+{
+  "description": "Refactorable numbers between a pair of twin primes.",
+  "id": "A226176",
+  "mentions": [
+    "A014574",
+    "A033950"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

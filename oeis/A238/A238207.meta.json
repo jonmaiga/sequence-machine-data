@@ -1,0 +1,27 @@
+{
+  "description": "Square array T(n,k), n>=0, k>=0, read by antidiagonals, where T(0,k) is A032766(k) and T(n,k) = 3*T(n-1,k) + 2 for n>0.",
+  "id": "A238207",
+  "mentions": [
+    "A024023",
+    "A027107",
+    "A032766",
+    "A048473",
+    "A171498",
+    "A198643",
+    "A198644",
+    "A198645",
+    "A198646"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

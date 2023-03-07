@@ -1,0 +1,17 @@
+{
+  "description": "A338833(n) mod 2.",
+  "id": "A352573",
+  "mentions": [
+    "A338833"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 117,
+    "source": "oeis-entry"
+  }
+}

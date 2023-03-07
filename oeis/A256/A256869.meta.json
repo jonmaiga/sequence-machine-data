@@ -1,0 +1,27 @@
+{
+  "description": "Numbers divisible by prime(d+1) for each digit d of their base-9 representation.",
+  "id": "A256869",
+  "mentions": [
+    "A256786",
+    "A256865",
+    "A256866",
+    "A256870",
+    "A256874",
+    "A256879",
+    "A256882",
+    "A256883",
+    "A256884"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

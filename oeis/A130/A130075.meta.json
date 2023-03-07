@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (5^p - 3^p - 2^p)/p, where p = prime(n).",
+  "id": "A130075",
+  "mentions": [
+    "A002476",
+    "A091178",
+    "A130072",
+    "A130073",
+    "A130074",
+    "A130076"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 17:03:32",
+    "offset": 1,
+    "size": 13,
+    "source": "joeis"
+  }
+}

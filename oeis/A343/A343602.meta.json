@@ -1,0 +1,25 @@
+{
+  "description": "For any positive number n, the balanced ternary representation of a(n) is obtained by left-rotating the balanced ternary representation of n until a nonzero digit appears again as the leftmost digit; a(0) = 0.",
+  "id": "A343602",
+  "mentions": [
+    "A005812",
+    "A065363",
+    "A134021",
+    "A139708",
+    "A343600",
+    "A343601",
+    "A343603"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

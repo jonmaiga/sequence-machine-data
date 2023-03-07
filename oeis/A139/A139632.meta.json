@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of chi(q) * chi(-q^5) in powers of q where chi() is a Ramanujan theta function.",
+  "id": "A139632",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A121373",
+    "A139631",
+    "A145703",
+    "A145705"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:50:39",
+    "offset": 0,
+    "size": 75,
+    "source": "joeis"
+  }
+}

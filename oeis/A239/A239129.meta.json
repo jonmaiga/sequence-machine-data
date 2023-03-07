@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 18*n - 1, n >= 1, the second column of triangle A239127 related to the Collatz problem.",
+  "id": "A239129",
+  "mentions": [
+    "A016969",
+    "A239126",
+    "A239127"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:24:41",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

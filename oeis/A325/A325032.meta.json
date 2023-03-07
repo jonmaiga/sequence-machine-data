@@ -1,0 +1,32 @@
+{
+  "description": "Product of products of the multisets of prime indices of each prime index of n.",
+  "id": "A325032",
+  "mentions": [
+    "A000720",
+    "A001055",
+    "A001222",
+    "A003963",
+    "A056239",
+    "A112798",
+    "A302242",
+    "A320325",
+    "A324850",
+    "A324926",
+    "A324930",
+    "A325031",
+    "A325033",
+    "A325034",
+    "A325035"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Largest n-phobe number.",
+  "id": "A349188",
+  "mentions": [
+    "A019532",
+    "A160811",
+    "A348517",
+    "A348518",
+    "A348519",
+    "A348520",
+    "A349189"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 2,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

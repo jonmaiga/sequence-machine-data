@@ -1,0 +1,18 @@
+{
+  "description": "Consider all the differences |a_i-b_j| between sequences A169677 and A169678; the present sequence gives the numbers that are not such differences.",
+  "id": "A169680",
+  "mentions": [
+    "A169677",
+    "A169678"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

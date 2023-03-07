@@ -1,0 +1,21 @@
+{
+  "description": "Greatest integer k such that k/2^n < (1+sqrt(5))/2 (the golden ratio).",
+  "id": "A293313",
+  "mentions": [
+    "A001622",
+    "A293314",
+    "A293315"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

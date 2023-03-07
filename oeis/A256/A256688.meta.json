@@ -1,0 +1,26 @@
+{
+  "description": "From third root of Riemann zeta function: form Dirichlet series Sum b(n)/n^x whose cube is zeta function; sequence gives numerator of b(n).",
+  "id": "A256688",
+  "mentions": [
+    "A046643",
+    "A046644",
+    "A256689",
+    "A256690",
+    "A256691",
+    "A256692",
+    "A256693"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "frac",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

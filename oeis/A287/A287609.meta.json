@@ -1,0 +1,18 @@
+{
+  "description": "Intersection of A034961 and A127345.",
+  "id": "A287609",
+  "mentions": [
+    "A034961",
+    "A127345"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:59",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

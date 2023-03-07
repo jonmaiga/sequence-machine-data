@@ -1,0 +1,33 @@
+{
+  "description": "a(n) = number of strings of length n that can be obtained by starting with abc and repeatedly doubling any substring in place.",
+  "id": "A135473",
+  "mentions": [
+    "A130838",
+    "A135017",
+    "A135156",
+    "A135157",
+    "A135475",
+    "A135479",
+    "A137739",
+    "A137740",
+    "A137741",
+    "A137742",
+    "A137743",
+    "A137744",
+    "A137745",
+    "A137746",
+    "A137747",
+    "A137748"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

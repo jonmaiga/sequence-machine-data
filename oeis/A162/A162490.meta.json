@@ -1,0 +1,21 @@
+{
+  "description": "Least prime of the form x^y+y^x with x = A162488(n) > y > 1.",
+  "id": "A162490",
+  "mentions": [
+    "A094133",
+    "A162486",
+    "A162488",
+    "A162489"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

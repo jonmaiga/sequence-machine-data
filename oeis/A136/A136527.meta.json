@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) = greatest common divisor of n-th and k-th composite number, 1<=k<=n.",
+  "id": "A136527",
+  "mentions": [
+    "A002808",
+    "A050873",
+    "A073783"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

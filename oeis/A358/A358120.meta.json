@@ -1,0 +1,24 @@
+{
+  "description": "Partial inventory of positions as an irregular table; rows 1 and 2 contain 1, for n > 2, row n contains the 1-based positions of 1's, followed by the positions of 2's, 3's, etc. in rows n-1 and n-2 flattened.",
+  "id": "A358120",
+  "mentions": [
+    "A000045",
+    "A001611",
+    "A342585",
+    "A356784",
+    "A358090",
+    "A358124"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

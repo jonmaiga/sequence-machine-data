@@ -1,0 +1,25 @@
+{
+  "description": "Triangular array, inverse of 2*P - I, where P is Pascal's triangle and I is the identity matrix.",
+  "id": "A162312",
+  "mentions": [
+    "A000629",
+    "A000670",
+    "A007047",
+    "A008292",
+    "A080253",
+    "A154921"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

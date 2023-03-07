@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least prime p for which the continued fraction expansion of sqrt(p) has exactly n consecutive 1's starting at position 2.",
+  "id": "A307453",
+  "mentions": [
+    "A010121",
+    "A010129",
+    "A040000",
+    "A040001",
+    "A094214"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

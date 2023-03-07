@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,m) = Sum_{k=m+1..n} (n-1)!/(k-1)!*binomial(2*n-k-1, n-1)*E(k,m) where E(n,m) is Euler's triangle A173018, T(0,0) = 1, n >= m >= 0.",
+  "id": "A316773",
+  "mentions": [
+    "A008279",
+    "A033184",
+    "A173018"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:35",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

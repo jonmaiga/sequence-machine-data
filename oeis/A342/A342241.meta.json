@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the least k > 0 such that the first k bits and the last k bits in the binary expansion of n are the same.",
+  "id": "A342241",
+  "mentions": [
+    "A003000",
+    "A070939",
+    "A091065",
+    "A342242"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

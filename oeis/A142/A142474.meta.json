@@ -1,0 +1,22 @@
+{
+  "description": "1 followed by A141015.",
+  "id": "A142474",
+  "mentions": [
+    "A078039",
+    "A141015",
+    "A141683"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:31",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

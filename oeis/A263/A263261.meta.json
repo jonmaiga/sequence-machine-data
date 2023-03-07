@@ -1,0 +1,21 @@
+{
+  "description": "Row 1 of A263255.",
+  "id": "A263261",
+  "mentions": [
+    "A049820",
+    "A259934",
+    "A262901",
+    "A263254",
+    "A263255"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

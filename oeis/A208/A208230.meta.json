@@ -1,0 +1,21 @@
+{
+  "description": "Number of functions f:{1,2,...,n}->{1,2,...,n} with all cycles of length >= 4.",
+  "id": "A208230",
+  "mentions": [
+    "A000169",
+    "A000312",
+    "A065440",
+    "A134362"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

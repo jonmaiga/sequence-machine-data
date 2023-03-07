@@ -1,0 +1,32 @@
+{
+  "description": "A(n,k) is the n-th positive integer that has exactly k representations of the form 1 + p1 * (1 + p2* ... * (1 + p_j)...), where [p1, ..., p_j] is a (possibly empty) list of distinct primes; square array A(n,k), n>=1, k>=0, read by antidiagonals.",
+  "id": "A317390",
+  "mentions": [
+    "A317241",
+    "A317242",
+    "A317385",
+    "A317391",
+    "A317392",
+    "A317393",
+    "A317394",
+    "A317395",
+    "A317396",
+    "A317397",
+    "A317398",
+    "A317399",
+    "A317400",
+    "A317537"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:36",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

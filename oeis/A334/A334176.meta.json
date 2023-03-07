@@ -1,0 +1,19 @@
+{
+  "description": "Squarefree part of numerator of the squared area of the Heronian triangle with sequential odd sides whose shortest leg is 2*n+1.",
+  "id": "A334176",
+  "mentions": [
+    "A007913",
+    "A334177"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

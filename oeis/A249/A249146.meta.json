@@ -1,0 +1,21 @@
+{
+  "description": "a(0) = 0, after which a(n) gives the total number of runs of the same length as the maximal run in the binary representation of a(n-1) [i.e., A043276(a(n-1))] among the binary expansions of all previous terms, including the runs in a(n-1) itself.",
+  "id": "A249146",
+  "mentions": [
+    "A043276",
+    "A129594",
+    "A248034",
+    "A249144",
+    "A249145"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

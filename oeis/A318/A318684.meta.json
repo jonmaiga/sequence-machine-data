@@ -1,0 +1,25 @@
+{
+  "description": "Number of ways to split a strict integer partition of n into consecutive subsequences with strictly decreasing sums.",
+  "id": "A318684",
+  "mentions": [
+    "A001970",
+    "A063834",
+    "A316245",
+    "A317508",
+    "A317546",
+    "A317715",
+    "A318434",
+    "A318683",
+    "A319794"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

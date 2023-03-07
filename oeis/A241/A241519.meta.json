@@ -1,0 +1,23 @@
+{
+  "description": "Denominators of b(n) = b(n-1)/2 + 1/(2*n), b(0)=0.",
+  "id": "A241519",
+  "mentions": [
+    "A000337",
+    "A003506",
+    "A005430",
+    "A086466",
+    "A241269",
+    "A242376"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

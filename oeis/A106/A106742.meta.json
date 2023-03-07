@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = a(a(a(a(a(n - a(n-1)))))) + a(n - a(n-2)) with a(1) = a(2) = 1.",
+  "id": "A106742",
+  "mentions": [
+    "A004001",
+    "A005185",
+    "A087836",
+    "A087839",
+    "A087842",
+    "A106733"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:58",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

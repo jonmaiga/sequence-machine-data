@@ -1,0 +1,21 @@
+{
+  "description": "Beatty discrepancy of the complementary equation b(n) = a(a(n)) + n.",
+  "id": "A138253",
+  "mentions": [
+    "A136495",
+    "A136496",
+    "A138251",
+    "A138252"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

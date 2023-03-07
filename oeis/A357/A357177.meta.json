@@ -1,0 +1,21 @@
+{
+  "description": "Prime indices of the Heegner numbers (A003173).",
+  "id": "A357177",
+  "mentions": [
+    "A000720",
+    "A003173"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

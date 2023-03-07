@@ -1,0 +1,18 @@
+{
+  "description": "Greedy inverse of A034690: the smallest number m such that sum of digits of all divisors of m equals n; a(n) = 0 if no such number exists.",
+  "id": "A191000",
+  "mentions": [
+    "A034690"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

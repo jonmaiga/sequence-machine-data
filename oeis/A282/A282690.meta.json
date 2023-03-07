@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest number m, such that m+n is the next prime and m-n is the previous prime.",
+  "id": "A282690",
+  "mentions": [
+    "A087378",
+    "A087711",
+    "A282687"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:52",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "The characteristic function of 2 and 3: 1 if n is prime such that either n-1 or n+1 is prime, else 0.",
+  "id": "A171386",
+  "mentions": [
+    "A000007",
+    "A010051",
+    "A052268",
+    "A063524",
+    "A130130",
+    "A181354",
+    "A181376",
+    "A181378",
+    "A181380",
+    "A181384",
+    "A181401",
+    "A181403",
+    "A181405"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:07:25",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

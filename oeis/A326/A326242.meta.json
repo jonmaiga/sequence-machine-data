@@ -1,0 +1,28 @@
+{
+  "description": "Number of degree-n odd permutations of order dividing 12.",
+  "id": "A326242",
+  "mentions": [
+    "A000704",
+    "A048099",
+    "A051695",
+    "A053502",
+    "A061130",
+    "A061131",
+    "A061132",
+    "A061133",
+    "A061134",
+    "A061135",
+    "A326241"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

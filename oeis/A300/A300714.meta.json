@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the total harmonic distortion (THD) of the sawtooth signal filtered by a 1st-order low-pass filter.",
+  "id": "A300714",
+  "mentions": [
+    "A195055",
+    "A300690",
+    "A300713",
+    "A300727"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:34:55",
+    "offset": 0,
+    "size": 103,
+    "source": "joeis"
+  }
+}

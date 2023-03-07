@@ -1,0 +1,24 @@
+{
+  "description": "Record values in A057192, until A350118(n) reaches the smallest prime Sierpiński number and then sequence terminates with a(n) = -1.",
+  "id": "A350119",
+  "mentions": [
+    "A057192",
+    "A076336",
+    "A103964",
+    "A350118"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "fini",
+    "formulas",
+    "hard",
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

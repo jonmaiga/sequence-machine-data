@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways to write n as the sum of two squares and a positive triangular number.",
+  "id": "A254885",
+  "mentions": [
+    "A000217",
+    "A000290"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

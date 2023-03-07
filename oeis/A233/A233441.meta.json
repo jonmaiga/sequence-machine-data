@@ -1,0 +1,23 @@
+{
+  "description": "Floor(2^n / n^3).",
+  "id": "A233441",
+  "mentions": [
+    "A000079",
+    "A000578",
+    "A060505",
+    "A062278",
+    "A230664",
+    "A233442"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:03:37",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

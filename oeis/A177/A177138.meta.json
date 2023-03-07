@@ -1,0 +1,17 @@
+{
+  "description": "Numbers of the form (n!*(n+1))/2 with n or (n+1) prime.",
+  "id": "A177138",
+  "mentions": [
+    "A001710"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

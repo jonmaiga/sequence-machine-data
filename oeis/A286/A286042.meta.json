@@ -1,0 +1,25 @@
+{
+  "description": "Largest prime factor of A285993(n), the largest odd abundant number (A005231) equal to the product of n consecutive primes.",
+  "id": "A286042",
+  "mentions": [
+    "A005231",
+    "A006038",
+    "A006530",
+    "A007707",
+    "A007708",
+    "A007741",
+    "A151800",
+    "A285993"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:57",
+    "offset": 5,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

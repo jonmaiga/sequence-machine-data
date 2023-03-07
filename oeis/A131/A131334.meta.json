@@ -1,0 +1,24 @@
+{
+  "description": "A000012(signed) * A065941.",
+  "id": "A131334",
+  "mentions": [
+    "A000012",
+    "A065941",
+    "A131332",
+    "A131333",
+    "A131335",
+    "A131336"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

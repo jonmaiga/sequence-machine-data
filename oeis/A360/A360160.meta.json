@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the sum of unitary divisors of n that are odd squares.",
+  "id": "A360160",
+  "mentions": [
+    "A006519",
+    "A016754",
+    "A078434",
+    "A108269",
+    "A247041",
+    "A358347",
+    "A360159"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

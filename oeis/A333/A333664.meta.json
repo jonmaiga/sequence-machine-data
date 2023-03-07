@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that k + 2, k^2 + 2^2, k^4 + 2^4, k^8 + 2^8, k^16 + 2^16 and k^32 + 2^32 are primes.",
+  "id": "A333664",
+  "mentions": [
+    "A285390"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:04",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

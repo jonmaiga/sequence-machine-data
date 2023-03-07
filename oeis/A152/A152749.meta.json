@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = (n+1)*(3*n+1)/4 for n odd, a(n) = n*(3*n+2)/4 for n even.",
+  "id": "A152749",
+  "mentions": [
+    "A001318",
+    "A003154",
+    "A005408",
+    "A049450",
+    "A049451",
+    "A062717",
+    "A109043",
+    "A153383",
+    "A194159"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:28:47",
+    "offset": 0,
+    "size": 52,
+    "source": "joeis"
+  }
+}

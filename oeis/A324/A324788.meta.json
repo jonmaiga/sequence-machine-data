@@ -1,0 +1,19 @@
+{
+  "description": "Value of A022837 at its n-th low point.",
+  "id": "A324788",
+  "mentions": [
+    "A022837",
+    "A324787"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

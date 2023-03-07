@@ -1,0 +1,17 @@
+{
+  "description": "Let spm(n) be the sum of all prime factors of n counted with multiplicities (A001414); sequence gives numbers n such that spm(n+spm(n)) divides both n and n+spm(n).",
+  "id": "A131564",
+  "mentions": [
+    "A001414"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

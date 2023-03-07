@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = floor((p - 1)/12) - floor((p^2 - 1)/(24*p)), where p = prime(n).",
+  "id": "A194699",
+  "mentions": [
+    "A000040",
+    "A000041",
+    "A182719",
+    "A194698"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:14:35",
+    "offset": 1,
+    "size": 77,
+    "source": "joeis"
+  }
+}

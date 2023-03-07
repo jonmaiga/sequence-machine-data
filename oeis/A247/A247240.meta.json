@@ -1,0 +1,19 @@
+{
+  "description": "Numbers such that A059248(k), the numerator of Sum_{i=1..k} 1/Fibonacci(i), is not equal to A250744(k), the denominator of the harmonic mean of the first k positive Fibonacci numbers.",
+  "id": "A247240",
+  "mentions": [
+    "A059248",
+    "A250744"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

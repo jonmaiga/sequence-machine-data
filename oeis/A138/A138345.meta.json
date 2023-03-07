@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = -1 if (n+1)-st decimal digit of 1/Pi is smaller than n-th digit of 1/Pi, 0 if they are equal, 1 if larger.",
+  "id": "A138345",
+  "mentions": [
+    "A049541",
+    "A138344"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

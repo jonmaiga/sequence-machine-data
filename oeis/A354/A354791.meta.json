@@ -1,0 +1,18 @@
+{
+  "description": "Indices of nonprime terms in A354790.",
+  "id": "A354791",
+  "mentions": [
+    "A354790",
+    "A354792"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

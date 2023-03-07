@@ -1,0 +1,21 @@
+{
+  "description": "Self-inverse integer permutation induced by Beatty sequences for x and (x+1)/(2*sqrt(2)) with x=sqrt(2)+sqrt(3).",
+  "id": "A110119",
+  "mentions": [
+    "A108591",
+    "A110117",
+    "A110118",
+    "A135611"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:22",
+    "offset": 1,
+    "size": 67,
+    "source": "joeis"
+  }
+}

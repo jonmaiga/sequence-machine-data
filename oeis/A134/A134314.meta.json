@@ -1,0 +1,21 @@
+{
+  "description": "First differences of A134429.",
+  "id": "A134314",
+  "mentions": [
+    "A004525",
+    "A134429"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:31:39",
+    "offset": 0,
+    "size": 52,
+    "source": "joeis"
+  }
+}

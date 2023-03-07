@@ -1,0 +1,21 @@
+{
+  "description": "Largest prime factor of the n-th Pell number, A000129(n).",
+  "id": "A264137",
+  "mentions": [
+    "A000129",
+    "A006530",
+    "A060385",
+    "A246556"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 2,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

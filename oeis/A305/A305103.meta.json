@@ -1,0 +1,27 @@
+{
+  "description": "Heinz numbers of connected integer partitions with z-density -1.",
+  "id": "A305103",
+  "mentions": [
+    "A001221",
+    "A056239",
+    "A112798",
+    "A286518",
+    "A302242",
+    "A303837",
+    "A304714",
+    "A304716",
+    "A305052",
+    "A305078",
+    "A305079"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

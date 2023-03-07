@@ -1,0 +1,21 @@
+{
+  "description": "Possible number of trailing zeros in n!.",
+  "id": "A191610",
+  "mentions": [
+    "A000351",
+    "A000966",
+    "A027868",
+    "A055457"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 1,
+    "size": 111,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Kochanski approximates to sqrt(2) starting with R_0=3, S_0=2.",
+  "id": "A221706",
+  "mentions": [
+    "A191642"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

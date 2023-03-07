@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that 7*10^k + 13 is prime.",
+  "id": "A274676",
+  "mentions": [
+    "A056804",
+    "A097954",
+    "A097970",
+    "A111021",
+    "A270974",
+    "A274677",
+    "A274678",
+    "A274679",
+    "A274692",
+    "A274700"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

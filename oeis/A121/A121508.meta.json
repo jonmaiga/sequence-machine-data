@@ -1,0 +1,17 @@
+{
+  "description": "Conjectured list of numbers whose aliquot sequence eventually reaches a cycle of length two or more, but which are not themselves part of the cycle.",
+  "id": "A121508",
+  "mentions": [
+    "A121507"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

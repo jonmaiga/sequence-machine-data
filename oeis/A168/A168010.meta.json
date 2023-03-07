@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum of all numbers of divisors of all numbers k such that n^2 <= k < (n+1)^2.",
+  "id": "A168010",
+  "mentions": [
+    "A000005",
+    "A168011",
+    "A168012",
+    "A168013"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:52",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of direct sum decompositions of GF(2)^n whose maximal subspace has dimension k, 1<=k<=n, n>=1.",
+  "id": "A298399",
+  "mentions": [
+    "A053601",
+    "A270881",
+    "A298561"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

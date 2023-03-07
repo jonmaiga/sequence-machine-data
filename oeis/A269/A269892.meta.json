@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the [negated] location of the maximum of the Airy function Ai.",
+  "id": "A269892",
+  "mentions": [
+    "A269893"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

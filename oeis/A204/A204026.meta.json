@@ -1,0 +1,21 @@
+{
+  "description": "Symmetric matrix based on f(i,j)=min(F(i+1),F(j+1)), where F=A000045 (Fibonacci numbers), by antidiagonals.",
+  "id": "A204026",
+  "mentions": [
+    "A000045",
+    "A202453",
+    "A204016",
+    "A204027"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:04:57",
+    "offset": 1,
+    "size": 96,
+    "source": "joeis"
+  }
+}

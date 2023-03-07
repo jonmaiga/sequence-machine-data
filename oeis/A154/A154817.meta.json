@@ -1,0 +1,19 @@
+{
+  "description": "Triangle T(n,k) = A060187(n+2,k+2), 1<=k<=n.",
+  "id": "A154817",
+  "mentions": [
+    "A000165",
+    "A060187"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "description": "Numbers k such that there exists a pair of factorizations of k into factors > 1 where no factor of one divides any factor of the other.",
+  "id": "A320632",
+  "mentions": [
+    "A000005",
+    "A001055",
+    "A001221",
+    "A001222",
+    "A050336",
+    "A060687",
+    "A070175",
+    "A113901",
+    "A124010",
+    "A285572",
+    "A303362",
+    "A305149",
+    "A305193",
+    "A307409",
+    "A317144",
+    "A322435",
+    "A322437",
+    "A322438",
+    "A322439",
+    "A322440",
+    "A322441",
+    "A322442",
+    "A323023",
+    "A328956",
+    "A328957",
+    "A328958",
+    "A328959",
+    "A328960",
+    "A328961",
+    "A328963"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

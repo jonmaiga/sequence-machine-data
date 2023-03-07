@@ -1,0 +1,22 @@
+{
+  "description": "G.f.: Sum_{n>=0} n! * x^n * Product_{k=1..n} (1 + k*x) / (1 + k*x + k^2*x^2).",
+  "id": "A208237",
+  "mentions": [
+    "A136127",
+    "A204064",
+    "A204066",
+    "A208236",
+    "A221370"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

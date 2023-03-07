@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the Sprague-Grundy value of the Node-Kayles game played on the generalized Petersen graph P(n,2).",
+  "id": "A316533",
+  "mentions": [
+    "A002186",
+    "A002187"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 5,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

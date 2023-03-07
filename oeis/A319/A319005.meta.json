@@ -1,0 +1,25 @@
+{
+  "description": "Number of integer partitions of n whose product of parts is >= n.",
+  "id": "A319005",
+  "mentions": [
+    "A001055",
+    "A002865",
+    "A069016",
+    "A096276",
+    "A301987",
+    "A318950",
+    "A319000",
+    "A319057",
+    "A319916"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

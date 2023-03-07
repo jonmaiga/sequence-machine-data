@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{d|n} d & (n/d), where & is the bitwise AND operator, with a(0) = 0.",
+  "id": "A327987",
+  "mentions": [
+    "A016754",
+    "A327988",
+    "A327989"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

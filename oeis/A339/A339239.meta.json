@@ -1,0 +1,20 @@
+{
+  "description": "Binary self numbers (A010061) with a record gap to the next binary self number.",
+  "id": "A339239",
+  "mentions": [
+    "A010061",
+    "A339216"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

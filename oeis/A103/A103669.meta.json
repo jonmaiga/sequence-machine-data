@@ -1,0 +1,23 @@
+{
+  "description": "First occurrence of just n semiprimes occurs between the a(n)-th prime and the next prime.",
+  "id": "A103669",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A088700",
+    "A103654",
+    "A103655",
+    "A103668"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

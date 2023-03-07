@@ -1,0 +1,34 @@
+{
+  "description": "Heinz numbers of integer partitions with the same length as alternating sum.",
+  "id": "A357486",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A000712",
+    "A001055",
+    "A004526",
+    "A006330",
+    "A025047",
+    "A051159",
+    "A131044",
+    "A262046",
+    "A301987",
+    "A349159",
+    "A349160",
+    "A357136",
+    "A357182",
+    "A357184",
+    "A357189",
+    "A357487"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

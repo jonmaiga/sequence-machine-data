@@ -1,0 +1,22 @@
+{
+  "description": "Smallest integer expressible as x^3 + 2*y^3 (x, y > 0) in exactly n ways.",
+  "id": "A219783",
+  "mentions": [
+    "A219722",
+    "A219725",
+    "A219726",
+    "A219728"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

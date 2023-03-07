@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest k such that the sum of the first k primes is >= 10^n.",
+  "id": "A323362",
+  "mentions": [
+    "A007504",
+    "A323360",
+    "A323361"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

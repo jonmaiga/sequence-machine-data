@@ -1,0 +1,20 @@
+{
+  "description": "Let p_i = the i-th prime. a(i) is the smallest n>1 such that p_i divides n!-1.",
+  "id": "A270780",
+  "mentions": [
+    "A000040",
+    "A002982",
+    "A270838"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:34",
+    "offset": 3,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

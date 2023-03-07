@@ -1,0 +1,23 @@
+{
+  "description": "Main diagonal of table A162430.",
+  "id": "A162435",
+  "mentions": [
+    "A162429",
+    "A162430",
+    "A162431",
+    "A162432",
+    "A162433",
+    "A162434"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

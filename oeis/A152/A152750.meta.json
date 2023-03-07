@@ -1,0 +1,23 @@
+{
+  "description": "Eight times hexagonal numbers: 8*n*(2*n-1).",
+  "id": "A152750",
+  "mentions": [
+    "A000384",
+    "A002939",
+    "A067239",
+    "A074377",
+    "A085250"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:28:47",
+    "offset": 0,
+    "size": 42,
+    "source": "joeis"
+  }
+}

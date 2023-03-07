@@ -1,0 +1,18 @@
+{
+  "description": "Sum of multinomials M(n; lambda), where lambda ranges over all partitions of n into parts that form a set of size two.",
+  "id": "A327826",
+  "mentions": [
+    "A327803"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

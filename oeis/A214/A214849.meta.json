@@ -1,0 +1,18 @@
+{
+  "description": "Number of n-permutations having all cycles of odd length and at most one fixed point.",
+  "id": "A214849",
+  "mentions": [
+    "A003483"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

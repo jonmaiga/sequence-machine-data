@@ -1,0 +1,28 @@
+{
+  "description": "Triangle read by rows, obtained by subtracting 1 from the terms of A170898 and dividing by 2.",
+  "id": "A170899",
+  "mentions": [
+    "A011782",
+    "A139250",
+    "A151723",
+    "A151724",
+    "A169787",
+    "A170898",
+    "A342272",
+    "A342273",
+    "A342274",
+    "A342278"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabf",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:54",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers of the form x^2 + xy + y^2 (A003136) that are not of the form a^2 + b^2 + c^2 where x, y, a, b and c are integers.",
+  "id": "A267432",
+  "mentions": [
+    "A003136",
+    "A004215"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:29",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

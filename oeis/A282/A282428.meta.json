@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that A264097(k) = A264098(k), so : A264097(k)*2^k-1 and A264098(k)*2^k+1 are twin primes.",
+  "id": "A282428",
+  "mentions": [
+    "A264097",
+    "A264098"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

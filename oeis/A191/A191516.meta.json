@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows: a(n,k) is the number of edges with degree k (k>=1) in the rooted tree with Matula-Goebel number n (n>=3).",
+  "id": "A191516",
+  "mentions": [
+    "A196050",
+    "A198332"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 3,
+    "size": 112,
+    "source": "oeis-entry"
+  }
+}

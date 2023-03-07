@@ -1,0 +1,20 @@
+{
+  "description": "Pandigital numbers n such that sum of all permutations of digits of n is also a pandigital number. Sequence lists the least ones of corresponding permutational classes.",
+  "id": "A276590",
+  "mentions": [
+    "A045876",
+    "A171102",
+    "A276510"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

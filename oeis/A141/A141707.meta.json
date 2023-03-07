@@ -1,0 +1,23 @@
+{
+  "description": "Least k>0 such that (2n-1)k is palindromic in base 2.",
+  "id": "A141707",
+  "mentions": [
+    "A044051",
+    "A050782",
+    "A141708",
+    "A178225"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:30",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

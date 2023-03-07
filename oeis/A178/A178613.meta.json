@@ -1,0 +1,20 @@
+{
+  "description": "The smaller member prime(i) of an emirp pair (prime(i),prime(j)), such that the digit sum of i equals the digit sum of j.",
+  "id": "A178613",
+  "mentions": [
+    "A006567",
+    "A033548",
+    "A156793"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

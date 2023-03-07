@@ -1,0 +1,18 @@
+{
+  "description": "Let z be a sequence of distinct Gaussian integers such that z(1) = 0, z(2) = 2+i (where i denotes the imaginary unit), for n > 1, z(n+1) the Gaussian integer with least norm at one knight move from z(n) (in case of a tie, choose the value such that Im(z(n+1)/z(n))>0); a(n) is the imaginary part of z(n).",
+  "id": "A326171",
+  "mentions": [
+    "A326170"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "fini",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

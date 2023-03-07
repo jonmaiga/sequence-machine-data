@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the a(n-1)-th a(n-2)-dimensional simplex number, starting with the terms 1, 2.",
+  "id": "A260161",
+  "mentions": [
+    "A000217",
+    "A000292",
+    "A000579"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

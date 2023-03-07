@@ -1,0 +1,24 @@
+{
+  "description": "Number of dominating sets in the n-triangular graph.",
+  "id": "A290847",
+  "mentions": [
+    "A000085",
+    "A006129",
+    "A193154",
+    "A287231",
+    "A287689",
+    "A290056",
+    "A290716"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 2,
+    "size": 15,
+    "source": "joeis"
+  }
+}

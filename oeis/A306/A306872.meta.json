@@ -1,0 +1,21 @@
+{
+  "description": "Lesser of augmented unitary amicable pair.",
+  "id": "A306872",
+  "mentions": [
+    "A002952",
+    "A007992",
+    "A034460",
+    "A126174",
+    "A306873"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

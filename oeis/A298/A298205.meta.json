@@ -1,0 +1,32 @@
+{
+  "description": "Matula-Goebel numbers of rooted trees in which all outdegrees are either 0, 1, or 3.",
+  "id": "A298205",
+  "mentions": [
+    "A000081",
+    "A000598",
+    "A014591",
+    "A026424",
+    "A032305",
+    "A061775",
+    "A111299",
+    "A276625",
+    "A292050",
+    "A295461",
+    "A297571",
+    "A298118",
+    "A298120",
+    "A298126",
+    "A298204",
+    "A298207"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

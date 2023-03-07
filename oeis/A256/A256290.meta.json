@@ -1,0 +1,30 @@
+{
+  "description": "Numbers which have only digits 4 and 5 in base 10.",
+  "id": "A256290",
+  "mentions": [
+    "A000523",
+    "A002277",
+    "A007088",
+    "A007931",
+    "A032810",
+    "A032834",
+    "A256077",
+    "A256291",
+    "A256292",
+    "A256340",
+    "A256341"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:50:51",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

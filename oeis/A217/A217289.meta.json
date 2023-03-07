@@ -1,0 +1,19 @@
+{
+  "description": "Where records occur in A217287.",
+  "id": "A217289",
+  "mentions": [
+    "A217287",
+    "A217288",
+    "A217438"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

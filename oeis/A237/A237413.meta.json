@@ -1,0 +1,23 @@
+{
+  "description": "Number of ways to write n = k + m with k > 0 and m > 0 such that p(k)^2 - 2, p(m)^2 - 2 and p(p(m))^2 - 2 are all prime, where p(j) denotes the j-th prime.",
+  "id": "A237413",
+  "mentions": [
+    "A000040",
+    "A049002",
+    "A062326",
+    "A218829",
+    "A237348",
+    "A237367",
+    "A237414"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

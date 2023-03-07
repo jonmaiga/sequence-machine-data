@@ -1,0 +1,35 @@
+{
+  "description": "Numbers whose factorization into factors prime(i)/i does not have weakly decreasing nonzero multiplicities.",
+  "id": "A325608",
+  "mentions": [
+    "A001222",
+    "A007097",
+    "A056239",
+    "A061775",
+    "A109129",
+    "A112798",
+    "A118914",
+    "A196050",
+    "A317713",
+    "A324922",
+    "A324923",
+    "A324924",
+    "A324931",
+    "A324935",
+    "A325613",
+    "A325614",
+    "A325615",
+    "A325660",
+    "A325662"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

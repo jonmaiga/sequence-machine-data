@@ -1,0 +1,29 @@
+{
+  "description": "a(n) is the smallest A (in absolute value) such that for p = prime(n), 2^{(p-1)/2} == +-1 + A*p (mod p^2), i.e., such that p is a near-Wieferich prime.",
+  "id": "A258367",
+  "mentions": [
+    "A001220",
+    "A014664",
+    "A195988",
+    "A241014",
+    "A243905",
+    "A244801",
+    "A246568",
+    "A250406",
+    "A250407",
+    "A306885",
+    "A338646",
+    "A343410"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 2,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Smallest number m such that both 2*n-m and 2*n+m are primes.",
+  "id": "A264526",
+  "mentions": [
+    "A014574",
+    "A040040",
+    "A082467",
+    "A088763",
+    "A260689",
+    "A264527"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 2,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: g.f. = (x+y+x*y)/((1-x-x^2)*(1-y-y^2)).",
+  "id": "A108038",
+  "mentions": [
+    "A000045",
+    "A067331"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

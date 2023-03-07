@@ -1,0 +1,21 @@
+{
+  "description": "Smallest prime >= 4^n.",
+  "id": "A104082",
+  "mentions": [
+    "A014210",
+    "A104080",
+    "A104081"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

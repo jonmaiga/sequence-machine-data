@@ -1,0 +1,19 @@
+{
+  "description": "Number of compositions of n where the (possibly scattered) maximal subsequence of part i with multiplicity j is marked with a word of length j over an a(i-1)-ary alphabet whose letters appear in alphabetical order.",
+  "id": "A261894",
+  "mentions": [
+    "A000108",
+    "A032009"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "eigen",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:21",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

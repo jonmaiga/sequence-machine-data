@@ -1,0 +1,29 @@
+{
+  "description": "Square array T(n,k), n >= 1, k >= 1, read by antidiagonals, where T(n,k) is the number of ordered k-tuples (x_1,x_2, ... ,x_k) with gcd(x_1,x_2, ... ,x_k)=1 (1<= {x_1,x_2, ... ,x_k} <= n).",
+  "id": "A344527",
+  "mentions": [
+    "A000012",
+    "A008292",
+    "A018805",
+    "A071778",
+    "A082540",
+    "A082544",
+    "A332468",
+    "A343510",
+    "A343516",
+    "A343978",
+    "A344479"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

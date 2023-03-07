@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least prime such that each concatenation of 1 <= k <= n consecutive primes beginning with a(n) is prime, or 0 if no such prime exists.",
+  "id": "A309191",
+  "mentions": [
+    "A030996"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

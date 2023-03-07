@@ -1,0 +1,19 @@
+{
+  "description": "Primes of the form 24n+13.",
+  "id": "A139530",
+  "mentions": [
+    "A068228",
+    "A107008",
+    "A139827"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:50:33",
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

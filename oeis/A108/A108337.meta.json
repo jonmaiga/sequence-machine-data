@@ -1,0 +1,19 @@
+{
+  "description": "Positions of the odd terms in A084202, which gives the coefficients b(n) such that (B(x))^2 has coefficients 1 and 2.",
+  "id": "A108337",
+  "mentions": [
+    "A084202",
+    "A108336",
+    "A108783"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

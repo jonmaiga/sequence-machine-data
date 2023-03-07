@@ -1,0 +1,28 @@
+{
+  "description": "Beastly primes (version 1): either 666 followed by 0's and a 1 or 7 at the right end or a palindrome with 666 in the center, 0's surrounding these digits, and 1 or 7 at both ends.",
+  "id": "A186086",
+  "mentions": [
+    "A046720",
+    "A051003",
+    "A131645",
+    "A138563",
+    "A156166",
+    "A164968",
+    "A186521",
+    "A186538",
+    "A186630",
+    "A196023"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "dumb",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of e.g.f. exp((1 - exp(-3*x))/3).",
+  "id": "A317996",
+  "mentions": [
+    "A004212",
+    "A007559",
+    "A009235",
+    "A014182",
+    "A309386",
+    "A318179",
+    "A318180",
+    "A318181"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:37",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

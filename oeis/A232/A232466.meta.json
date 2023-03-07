@@ -1,0 +1,20 @@
+{
+  "description": "Number of dependent sets with largest element n.",
+  "id": "A232466",
+  "mentions": [
+    "A161943",
+    "A232534",
+    "A248112"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

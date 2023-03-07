@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = ((4+sqrt(2))*(2+sqrt(2))^n + (4-sqrt(2))*(2-sqrt(2))^n)/4.",
+  "id": "A161941",
+  "mentions": [
+    "A007070",
+    "A135530",
+    "A161944"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

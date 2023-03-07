@@ -1,0 +1,20 @@
+{
+  "description": "Continued fraction expansion of the Fibonacci binary number.",
+  "id": "A181313",
+  "mentions": [
+    "A006518",
+    "A084119",
+    "A125600"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:04",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

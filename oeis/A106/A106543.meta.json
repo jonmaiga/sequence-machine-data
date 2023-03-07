@@ -1,0 +1,22 @@
+{
+  "description": "Composite numbers that are not perfect powers.",
+  "id": "A106543",
+  "mentions": [
+    "A002808",
+    "A007916",
+    "A089229",
+    "A105642"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:57",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

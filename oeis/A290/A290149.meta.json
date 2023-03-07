@@ -1,0 +1,22 @@
+{
+  "description": "Totient sublime numbers: numbers k such that the number of terms in the iterations of phi(k) from k to 1, A032358(k)+2, and their sum, A092693(k) are both perfect totient numbers (A082897).",
+  "id": "A290149",
+  "mentions": [
+    "A000396",
+    "A032358",
+    "A081357",
+    "A082897",
+    "A092693"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

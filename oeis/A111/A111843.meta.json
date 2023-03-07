@@ -1,0 +1,25 @@
+{
+  "description": "Matrix log of triangle A111840, which shifts columns left and up under matrix cube; these terms are the result of multiplying each element in row n and column k by (n-k)!.",
+  "id": "A111843",
+  "mentions": [
+    "A111810",
+    "A111815",
+    "A111840",
+    "A111844",
+    "A111848",
+    "A111941"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

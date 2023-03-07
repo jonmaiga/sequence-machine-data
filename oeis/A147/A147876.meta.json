@@ -1,0 +1,20 @@
+{
+  "description": "Smallest nonnegative integer containing the n-th letter of the alphabet (in French), or -1 if no such number exists.",
+  "id": "A147876",
+  "mentions": [
+    "A111098"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "fini",
+    "full",
+    "sign",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

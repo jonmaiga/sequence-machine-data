@@ -1,0 +1,24 @@
+{
+  "description": "Numerators of c(n) = (n^2+n+2)/((n+1)*(n+2)*(n+3)) as defined in A241269.",
+  "id": "A241807",
+  "mentions": [
+    "A000124",
+    "A014206",
+    "A054552",
+    "A185438",
+    "A188135",
+    "A241269"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

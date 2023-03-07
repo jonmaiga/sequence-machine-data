@@ -1,0 +1,20 @@
+{
+  "description": "T(n,k) is the number of nonintersecting arch configurations with n arches on a horizontal axis that have a starting parent arch configuration of k arches.",
+  "id": "A331499",
+  "mentions": [
+    "A000108",
+    "A000682"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

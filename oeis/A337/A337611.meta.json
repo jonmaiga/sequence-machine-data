@@ -1,0 +1,22 @@
+{
+  "description": "Positive integers m such that A126288^k(m) = m for some positive integer k.",
+  "id": "A337611",
+  "mentions": [
+    "A052126",
+    "A126288",
+    "A337609",
+    "A337610",
+    "A337612"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

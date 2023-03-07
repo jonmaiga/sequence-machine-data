@@ -1,0 +1,20 @@
+{
+  "description": "Number of twin prime pairs between n^3 and (n+1)^3.",
+  "id": "A276119",
+  "mentions": [
+    "A000578",
+    "A001359",
+    "A006512",
+    "A060199"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers expressible as A*B^A in three or more different ways, with A, B > 1.",
+  "id": "A316745",
+  "mentions": [
+    "A171606",
+    "A171607",
+    "A235368"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:35",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

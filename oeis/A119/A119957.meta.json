@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the sum of p consecutive residues of 2^x modulo n, starting with a sufficiently large x and where p = period of binary representation of 1/n.",
+  "id": "A119957",
+  "mentions": [
+    "A007733"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

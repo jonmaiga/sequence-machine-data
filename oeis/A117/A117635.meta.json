@@ -1,0 +1,19 @@
+{
+  "description": "Royal elements sequence from A018226 plus closed next shell at 168: H,B,Cl,Mn,Ag,Au,X(Unknown).",
+  "id": "A117635",
+  "mentions": [
+    "A018226"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

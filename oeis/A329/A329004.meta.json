@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the largest index in [n] that maximizes tau.",
+  "id": "A329004",
+  "mentions": [
+    "A000005",
+    "A067128"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

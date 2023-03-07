@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Jacobsthal(n)^n, where Jacobsthal(n) = A001045(n), for n>=1.",
+  "id": "A231292",
+  "mentions": [
+    "A001045",
+    "A211893",
+    "A231279"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

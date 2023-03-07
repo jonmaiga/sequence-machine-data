@@ -1,0 +1,21 @@
+{
+  "description": "Integers which have in Roman numerals more distinct symbols than any smaller number.",
+  "id": "A356726",
+  "mentions": [
+    "A038378",
+    "A057226"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

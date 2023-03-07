@@ -1,0 +1,20 @@
+{
+  "description": "Smallest number with exactly n zeros in its digits both in decimal and binary representation.",
+  "id": "A350692",
+  "mentions": [
+    "A023416",
+    "A055641",
+    "A350691"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

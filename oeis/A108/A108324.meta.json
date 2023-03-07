@@ -1,0 +1,21 @@
+{
+  "description": "\"Binary prime squares\": squares whose binary expansions, read as decimal expansions, are primes.",
+  "id": "A108324",
+  "mentions": [
+    "A108322",
+    "A108323",
+    "A108325"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

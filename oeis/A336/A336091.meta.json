@@ -1,0 +1,24 @@
+{
+  "description": "Number of ordered ways of writing the n-th n-gonal pyramidal number as a sum of n n-gonal pyramidal numbers (with 0's allowed).",
+  "id": "A336091",
+  "mentions": [
+    "A006484",
+    "A196010",
+    "A335633",
+    "A336303",
+    "A337797",
+    "A337798",
+    "A337799"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

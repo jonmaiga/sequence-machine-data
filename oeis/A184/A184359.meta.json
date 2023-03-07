@@ -1,0 +1,20 @@
+{
+  "description": "Recurrence: Sum_{n>=0} a(n-k)*a(k) = (n+1)!^2/2^n.",
+  "id": "A184359",
+  "mentions": [
+    "A184358",
+    "A184360",
+    "A184361"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Matrix rank of the number of dots in the pairwise intersections of Ferrers diagrams.",
+  "id": "A290959",
+  "mentions": [
+    "A000005",
+    "A218904",
+    "A218905",
+    "A218906",
+    "A218907",
+    "A246581"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

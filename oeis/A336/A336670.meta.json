@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that have decimal expansion c(1)c(2)...c(n) with distinct digits that satisfy c(1) <> 0, c(1) is the largest digit, and for each i in 1..n there is j in {0, 1} such that c(i) == 2*c(i-1) + j (mod 10) (with c(0): = c(n)).",
+  "id": "A336670",
+  "mentions": [
+    "A023086",
+    "A336661"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

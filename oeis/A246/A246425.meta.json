@@ -1,0 +1,23 @@
+{
+  "description": "In the Collatz 3x+1 problem: start at an odd number 2n+1 and find the next odd number 2m+1 in the trajectory; then a(n) = m-n.",
+  "id": "A246425",
+  "mentions": [
+    "A005408",
+    "A075677",
+    "A087230",
+    "A349414"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "look",
+    "nice",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

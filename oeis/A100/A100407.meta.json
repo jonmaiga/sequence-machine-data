@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that n^n+2 is prime.",
+  "id": "A100407",
+  "mentions": [
+    "A100408"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Composites of the form 2^n-1 or 2^n+1 that are non-multiples of 3.",
+  "id": "A222588",
+  "mentions": [
+    "A014551",
+    "A166977"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Let b_i(k) = 1 for k <= i; for n > i, b_i(n) = b_i(t(n)) + b_i(n-t(n)) where t = A063882. a(n) = 3*b_2(n)-2*n if n is even, a(n) = 3*b_4(n)-n if n is odd.",
+  "id": "A319020",
+  "mentions": [
+    "A063882",
+    "A317686",
+    "A317754",
+    "A317854"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Conjectured list of multisociable numbers.",
+  "id": "A183019",
+  "mentions": [
+    "A000396",
+    "A001065",
+    "A007691",
+    "A063990",
+    "A122726",
+    "A183013",
+    "A183016",
+    "A183022",
+    "A183029"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

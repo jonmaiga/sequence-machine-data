@@ -1,0 +1,22 @@
+{
+  "description": "A188999(m)/m for the integers m such that A188999(m) is divisible by m, where A188999 is the bi-unitary sigma function.",
+  "id": "A318781",
+  "mentions": [
+    "A007691",
+    "A054030",
+    "A188999",
+    "A189000"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

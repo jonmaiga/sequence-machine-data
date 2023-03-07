@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that exactly three d in the range d <= k/2 exist which divide binomial(k-d-1,d-1) and which are not coprime to k.",
+  "id": "A178099",
+  "mentions": [
+    "A023202",
+    "A138389",
+    "A178071",
+    "A178098",
+    "A178101"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "First term of n-th difference sequence of (floor(r*k)), r = log(3), k >= 0.",
+  "id": "A325752",
+  "mentions": [
+    "A002391",
+    "A059543"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:57:17",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

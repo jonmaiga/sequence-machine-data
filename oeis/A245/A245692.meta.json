@@ -1,0 +1,23 @@
+{
+  "description": "Number T(n,k) of endofunctions f on [n] that are self-inverse on [k] but not on [k+1]; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A245692",
+  "mentions": [
+    "A000085",
+    "A000312",
+    "A076728",
+    "A245348",
+    "A245693"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Table of numerators of A120070(n,m)/A002260(n,m), 1 <= m < n.",
+  "id": "A166492",
+  "mentions": [
+    "A002260",
+    "A076537",
+    "A120070",
+    "A120072",
+    "A129326",
+    "A164561"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 2,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

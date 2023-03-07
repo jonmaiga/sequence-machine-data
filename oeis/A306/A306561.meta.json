@@ -1,0 +1,20 @@
+{
+  "description": "Square numbers that are also central polygonal numbers (i.e., square numbers found in the Lazy Caterer's sequence).",
+  "id": "A306561",
+  "mentions": [
+    "A000124",
+    "A000290",
+    "A006452"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of the maximal normal distance between sine and cosine; see Comments",
+  "id": "A332500",
+  "mentions": [
+    "A003957",
+    "A086751",
+    "A332501",
+    "A332502",
+    "A332503",
+    "A332504",
+    "A332505",
+    "A332506",
+    "A332507"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

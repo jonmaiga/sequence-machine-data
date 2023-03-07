@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of steps in John Conway's game of life that it takes for the smallest square checkerboard pattern with a diagonal of n living cells to either die out or enter a cycle; or -1 if it never cycles.",
+  "id": "A352285",
+  "mentions": [
+    "A089520"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways to connect n nodes with n+1 edges to form a 2-edge-connected graph.",
+  "id": "A290011",
+  "mentions": [
+    "A001072",
+    "A052447",
+    "A054596",
+    "A095983"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:04",
+    "offset": 4,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

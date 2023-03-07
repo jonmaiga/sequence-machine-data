@@ -1,0 +1,29 @@
+{
+  "description": "Array T(n,k) read by antidiagonals: the k-th term of the n-th difference of A131531.",
+  "id": "A167613",
+  "mentions": [
+    "A001045",
+    "A024493",
+    "A024495",
+    "A078008",
+    "A092220",
+    "A131531",
+    "A131556",
+    "A131708",
+    "A164359",
+    "A167617"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

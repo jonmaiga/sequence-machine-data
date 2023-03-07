@@ -1,0 +1,20 @@
+{
+  "description": "Prime numbers n such that the Lucas number L(n) can be written in the form a^2 + 3*b^2.",
+  "id": "A215811",
+  "mentions": [
+    "A000032",
+    "A215810",
+    "A215815",
+    "A215816"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

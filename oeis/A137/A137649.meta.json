@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows, A000012 * A008277.",
+  "id": "A137649",
+  "mentions": [
+    "A000012",
+    "A008277",
+    "A024716",
+    "A137650"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "The number of P-positions in the game of Nim with up to four piles, allowing for piles of zero, such that the total number of objects in all piles doesn't exceed 2n.",
+  "id": "A237686",
+  "mentions": [
+    "A130665",
+    "A237711",
+    "A238147",
+    "A241522",
+    "A241718"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

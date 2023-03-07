@@ -1,0 +1,18 @@
+{
+  "description": "List of integers b such that (a1,b,c1) and (a2,b,c2) are primitive Eisenstein triples, max(a1,b,c1,a2,c2)=b, and a1,c1,a3,c3 are distinct.",
+  "id": "A242039",
+  "mentions": [
+    "A089025",
+    "A121992"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

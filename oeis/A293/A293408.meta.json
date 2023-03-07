@@ -1,0 +1,23 @@
+{
+  "description": "The integer k that minimizes |k/n^2 - 1/tau|, where tau = (1+sqrt(5))/2 (golden ratio).",
+  "id": "A293408",
+  "mentions": [
+    "A001622",
+    "A152738",
+    "A293402",
+    "A293404",
+    "A293407"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

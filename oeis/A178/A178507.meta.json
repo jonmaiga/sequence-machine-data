@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n that (n^3 - 4,n^3 - 2) is a twin prime pair.",
+  "id": "A178507",
+  "mentions": [
+    "A001359",
+    "A038600",
+    "A178506"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that the sum of the squares of the odd divisors of k (A050999) is divisible by k.",
+  "id": "A355543",
+  "mentions": [
+    "A007691",
+    "A046762",
+    "A050999"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

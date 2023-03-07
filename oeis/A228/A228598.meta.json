@@ -1,0 +1,19 @@
+{
+  "description": "The Wiener index of the graph obtained by applying Mycielski's construction to the crown graph G(n) (n>=3).",
+  "id": "A228598",
+  "mentions": [
+    "A033428"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:31:23",
+    "offset": 3,
+    "size": 38,
+    "source": "joeis"
+  }
+}

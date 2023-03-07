@@ -1,0 +1,21 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) = number of ways to choose 3 distinct points from an n X k rectangular grid so that they form an obtuse isosceles triangle of nonzero area.",
+  "id": "A272624",
+  "mentions": [
+    "A271910",
+    "A272625",
+    "A272626"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

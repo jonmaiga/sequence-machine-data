@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = start of a sequence of at least n consecutive primes, p_1, p_2, ..., p_n (say), all == 1 mod 4, such that A(p_1) > A(p_2) > ... > A(p_n), where A(p) (see A145010) is the area of the Pythagorean triangle with hypotenuse p.",
+  "id": "A144954",
+  "mentions": [
+    "A002144",
+    "A002330",
+    "A002331",
+    "A144960",
+    "A145010"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

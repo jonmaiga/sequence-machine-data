@@ -1,0 +1,19 @@
+{
+  "description": "Constant T such that Sum_{n>=1} zeta(T*n)=1.",
+  "id": "A338851",
+  "mentions": [
+    "A021002",
+    "A338815"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = the smallest positive integer m with exactly n (no more, no fewer) distinct primes represented in binary as substrings within the binary representation of m.",
+  "id": "A146526",
+  "mentions": [
+    "A078826"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

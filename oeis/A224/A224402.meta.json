@@ -1,0 +1,21 @@
+{
+  "description": "Composite numbers that become prime when their digits are put in nonincreasing order.",
+  "id": "A224402",
+  "mentions": [
+    "A007935",
+    "A068653",
+    "A076055",
+    "A224400"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

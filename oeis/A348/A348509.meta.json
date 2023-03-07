@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the numerator of the harmonic mean of the divisors of A003961(n).",
+  "id": "A348509",
+  "mentions": [
+    "A003961",
+    "A099377",
+    "A336845",
+    "A336846",
+    "A336848"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Largest k < n such that prime(n-k) + prime(n+k) = 2*prime(n).",
+  "id": "A178609",
+  "mentions": [
+    "A006562",
+    "A178670",
+    "A178698",
+    "A178953",
+    "A179835"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

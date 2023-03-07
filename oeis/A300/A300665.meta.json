@@ -1,0 +1,24 @@
+{
+  "description": "Number of n-step paths made by a chess king, starting from the corner of an infinite chessboard, and never revisiting a cell.",
+  "id": "A300665",
+  "mentions": [
+    "A005773",
+    "A038373",
+    "A272469",
+    "A272763",
+    "A272773"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

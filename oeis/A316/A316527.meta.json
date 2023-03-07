@@ -1,0 +1,20 @@
+{
+  "description": "Fibonacci numbers whose sum of digits is not a prime.",
+  "id": "A316527",
+  "mentions": [
+    "A000045",
+    "A065398",
+    "A178837"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n the representation of which in base 3 ends in 2*k or 2*k+1 zeros, where k is odd.",
+  "id": "A217373",
+  "mentions": [
+    "A036554",
+    "A050376",
+    "A145204",
+    "A217319"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

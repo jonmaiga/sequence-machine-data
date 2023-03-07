@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n which are palindromic in more bases b, 1",
+  "id": "A107129",
+  "mentions": [
+    "A037183",
+    "A065531",
+    "A106801",
+    "A135549"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:59",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Number of necklace compositions of n with distinct circular differences.",
+  "id": "A325549",
+  "mentions": [
+    "A000079",
+    "A000740",
+    "A008965",
+    "A034297",
+    "A059966",
+    "A070211",
+    "A318728",
+    "A318748",
+    "A320348",
+    "A325325",
+    "A325545",
+    "A325551",
+    "A325554",
+    "A325556"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

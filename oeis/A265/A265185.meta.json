@@ -1,0 +1,27 @@
+{
+  "description": "Non-vanishing traces of the powers of the adjacency matrix for the simple Lie algebra B_4: 2 * ((2 + sqrt(2))^n + (2 - sqrt(2))^n).",
+  "id": "A265185",
+  "mentions": [
+    "A006012",
+    "A007052",
+    "A007070",
+    "A025192",
+    "A036039",
+    "A056236",
+    "A127672",
+    "A189315",
+    "A263916"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of lower triangles of a 5 X 5 -n..n array with all row and column sums zero.",
+  "id": "A195523",
+  "mentions": [
+    "A195522"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:29:21",
+    "offset": 1,
+    "size": 23,
+    "source": "joeis"
+  }
+}

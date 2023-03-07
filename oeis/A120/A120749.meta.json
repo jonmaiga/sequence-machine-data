@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that {k* sqrt(2)} > 1/2, where { } = fractional part.",
+  "id": "A120749",
+  "mentions": [
+    "A120243",
+    "A120750",
+    "A120751"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

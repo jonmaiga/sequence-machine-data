@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of eta(q^3)^2 * eta(q^4) * eta(q^6)^2 * eta(q^36) / (eta(q) * eta(q^9) * eta(q^12)^2) in powers of q.",
+  "id": "A122864",
+  "mentions": [
+    "A002564",
+    "A019670",
+    "A035154",
+    "A113446",
+    "A122856",
+    "A122865"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:28:59",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the common difference of the increasing arithmetic progression C(m,k), C(m,k+1), C(m,k+2) when C(m,k) = A349736(n).",
+  "id": "A349737",
+  "mentions": [
+    "A007318",
+    "A349476",
+    "A349736"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

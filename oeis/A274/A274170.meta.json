@@ -1,0 +1,19 @@
+{
+  "description": "Christoffel words as binary numbers.",
+  "id": "A274170",
+  "mentions": [
+    "A144595",
+    "A144602"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

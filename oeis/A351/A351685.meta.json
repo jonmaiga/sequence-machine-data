@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the row of the Trithoff (tribonacci) array that contains the tails of the sequence which is n times the tribonacci numbers.",
+  "id": "A351685",
+  "mentions": [
+    "A000073",
+    "A136175",
+    "A351689"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

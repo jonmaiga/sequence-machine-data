@@ -1,0 +1,26 @@
+{
+  "description": "Right-truncatable primes in base 16.",
+  "id": "A237600",
+  "mentions": [
+    "A023107",
+    "A024770",
+    "A237601",
+    "A237602",
+    "A254756"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "full",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

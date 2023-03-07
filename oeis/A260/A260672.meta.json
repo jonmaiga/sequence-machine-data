@@ -1,0 +1,27 @@
+{
+  "description": "Table read by rows: T(n,k) = n - A001318(k), k = 0 .. A193832(n)-1.",
+  "id": "A260672",
+  "mentions": [
+    "A000041",
+    "A001318",
+    "A001477",
+    "A054440",
+    "A087960",
+    "A193832",
+    "A260664",
+    "A260706"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

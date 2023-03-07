@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 4, a(2) = 9; let i = a(n-2) and j = a(n-1); a(n) = least k not already in the sequence such that gcd(j, k) = 1 and 1 < gcd(i, k) != i != k.",
+  "id": "A352097",
+  "mentions": [
+    "A002808",
+    "A045763",
+    "A064413",
+    "A098550",
+    "A240024"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

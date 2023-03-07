@@ -1,0 +1,21 @@
+{
+  "description": "Coefficients of g.f. A(x) where 0 <= a(n) <= 6 for all n>1, with initial terms {1,7}, such that A(x)^(1/7) consists entirely of integer coefficients.",
+  "id": "A106226",
+  "mentions": [
+    "A106216",
+    "A106220",
+    "A106222",
+    "A106224",
+    "A106227"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

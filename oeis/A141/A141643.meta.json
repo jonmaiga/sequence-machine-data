@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that sigma(n)/n = 5/2.",
+  "id": "A141643",
+  "mentions": [
+    "A055153",
+    "A141645",
+    "A159271",
+    "A160678"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

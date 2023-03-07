@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = tau(N), where N = concatenation 1,2,3,...,n.",
+  "id": "A110756",
+  "mentions": [
+    "A000005",
+    "A007908",
+    "A055642",
+    "A110757",
+    "A110758",
+    "A110759",
+    "A110760"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

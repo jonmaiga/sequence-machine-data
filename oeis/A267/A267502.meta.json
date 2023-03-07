@@ -1,0 +1,31 @@
+{
+  "description": "Number of cycles of length 3 of autobiographical numbers (A267491 ... A267498) in base n.",
+  "id": "A267502",
+  "mentions": [
+    "A047841",
+    "A267491",
+    "A267492",
+    "A267493",
+    "A267494",
+    "A267495",
+    "A267496",
+    "A267497",
+    "A267498",
+    "A267499",
+    "A267500",
+    "A267501"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 2,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "G.f. A(x) = (1+x)*G(x) = G(G(x)) where G(x) = g.f. of A067145.",
+  "id": "A107094",
+  "mentions": [
+    "A067145"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "eigen",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

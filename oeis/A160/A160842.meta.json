@@ -1,0 +1,22 @@
+{
+  "description": "Number of lines through at least 2 points of a 2 X n grid of points.",
+  "id": "A160842",
+  "mentions": [
+    "A018808",
+    "A059100",
+    "A107348",
+    "A295707"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

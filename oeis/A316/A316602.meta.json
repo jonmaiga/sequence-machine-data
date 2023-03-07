@@ -1,0 +1,22 @@
+{
+  "description": "Positive determinant values assumed by performing all permutations of entries in the 3 X 3 matrix of A316601.",
+  "id": "A316602",
+  "mentions": [
+    "A088021",
+    "A301372",
+    "A301757",
+    "A316601"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:35",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

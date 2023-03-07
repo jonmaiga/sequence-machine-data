@@ -1,0 +1,25 @@
+{
+  "description": "Concatenation of all the distinct permutations of the first 1, 2, 3, ... (strictly) positive integers, arranged in ascending numerical order.",
+  "id": "A352991",
+  "mentions": [
+    "A000142",
+    "A001292",
+    "A030299",
+    "A058183",
+    "A181129",
+    "A352329"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

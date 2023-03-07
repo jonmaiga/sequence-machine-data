@@ -1,0 +1,19 @@
+{
+  "description": "Number of 3-noncrossing RNA structures, i.e., the number of 3-noncrossing partial matchings over n vertices and without arcs of length 1.",
+  "id": "A133365",
+  "mentions": [
+    "A000108",
+    "A187253"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

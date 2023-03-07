@@ -1,0 +1,19 @@
+{
+  "description": "Production matrix of the Jacobsthal numbers, read by row.",
+  "id": "A155727",
+  "mentions": [
+    "A001045",
+    "A155726"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

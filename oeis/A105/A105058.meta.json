@@ -1,0 +1,28 @@
+{
+  "description": "Expansion of g.f. (1+8*x-x^2)/((1+x)*(1-6*x+x^2)).",
+  "id": "A105058",
+  "mentions": [
+    "A000129",
+    "A001109",
+    "A001333",
+    "A046729",
+    "A077444",
+    "A077445",
+    "A079291",
+    "A082639",
+    "A084158",
+    "A090390"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:56",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

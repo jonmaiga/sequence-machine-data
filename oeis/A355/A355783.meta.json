@@ -1,0 +1,22 @@
+{
+  "description": "Triangular array read by rows. T(n,k) is the number of labeled transitive relations on [n] that have exactly k symmetric points.",
+  "id": "A355783",
+  "mentions": [
+    "A001035",
+    "A006905",
+    "A085628",
+    "A280202"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

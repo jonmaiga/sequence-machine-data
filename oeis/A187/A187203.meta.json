@@ -1,0 +1,21 @@
+{
+  "description": "The bottom entry in the absolute difference triangle of the divisors of n.",
+  "id": "A187203",
+  "mentions": [
+    "A006005",
+    "A027750",
+    "A187202",
+    "A187205",
+    "A187208"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:12",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

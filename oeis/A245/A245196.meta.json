@@ -1,0 +1,32 @@
+{
+  "description": "Write n>=1 as either n=2^k-2^r with 0 <= r <= k-1, in which case a(2^k-2^r)=wt(k-r-1), or as n=2^k-2^r+j with 2 <= r <= k-1, 1 <= j < 2^r-1, in which case a(2^k-2^r+j)=a(j)*wt(k-r-1) (where wt(i) = A000120(i)).",
+  "id": "A245196",
+  "mentions": [
+    "A000120",
+    "A014081",
+    "A038374",
+    "A048896",
+    "A083424",
+    "A160239",
+    "A245180",
+    "A245195",
+    "A245536",
+    "A245537",
+    "A245538",
+    "A245539",
+    "A245541",
+    "A245547"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers x such that sigma(x) + sigma(R(x)) = sigma(x + R(x)), where R(x) is the digit reversal of x and sigma(x) is the sum of the divisors of x.",
+  "id": "A246487",
+  "mentions": [
+    "A000203",
+    "A004086",
+    "A211223"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

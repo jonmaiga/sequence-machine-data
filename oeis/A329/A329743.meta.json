@@ -1,0 +1,29 @@
+{
+  "description": "Number of compositions of n with runs-resistance n - 3.",
+  "id": "A329743",
+  "mentions": [
+    "A000740",
+    "A008965",
+    "A098504",
+    "A242882",
+    "A318928",
+    "A329744",
+    "A329745",
+    "A329746",
+    "A329747",
+    "A329750",
+    "A329767"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

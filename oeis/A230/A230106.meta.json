@@ -1,0 +1,24 @@
+{
+  "description": "Number of m such that m + (product of nonzero digits of m) equals n.",
+  "id": "A230106",
+  "mentions": [
+    "A063108",
+    "A063114",
+    "A063425",
+    "A096922",
+    "A096972",
+    "A230099",
+    "A230104"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

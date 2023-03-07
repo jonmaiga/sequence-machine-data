@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = L(P(n)), where P = A000041 (partition numbers) and L = A000032 (Lucas numbers).",
+  "id": "A100845",
+  "mentions": [
+    "A000032",
+    "A000041"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the Z-coordinate of the n-th nonattacking queen placed by greedy algorithm on N^3 (as described in A326757).",
+  "id": "A326759",
+  "mentions": [
+    "A326757"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

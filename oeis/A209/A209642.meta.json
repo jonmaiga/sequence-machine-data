@@ -1,0 +1,24 @@
+{
+  "description": "A014486-codes for rooted plane trees where non-leaf branching can occur only at the leftmost branch of any level, but nowhere else. Reflected from the corresponding rightward branching codes in A071162, thus not in ascending order.",
+  "id": "A209642",
+  "mentions": [
+    "A014486",
+    "A036044",
+    "A056539",
+    "A071162",
+    "A209641",
+    "A209861"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

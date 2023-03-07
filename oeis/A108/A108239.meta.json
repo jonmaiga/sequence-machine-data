@@ -1,0 +1,20 @@
+{
+  "description": "Number of triangulated surfaces with n vertices.",
+  "id": "A108239",
+  "mentions": [
+    "A000109"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 4,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

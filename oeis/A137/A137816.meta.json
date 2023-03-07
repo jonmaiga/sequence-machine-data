@@ -1,0 +1,20 @@
+{
+  "description": "Nonsquarefree \"year numbers\" (numbers n such that phi(n) = 2 phi(sigma(n)): A137815).",
+  "id": "A137816",
+  "mentions": [
+    "A006872",
+    "A067704",
+    "A137815",
+    "A137819"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

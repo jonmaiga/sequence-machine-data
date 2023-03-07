@@ -1,0 +1,19 @@
+{
+  "description": "Row sums of triangle A104988, which equals the matrix square of triangle A104980.",
+  "id": "A104989",
+  "mentions": [
+    "A104980",
+    "A104988"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:56",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Slowest-growing sequence of 3-almost primes (trientprimes) where 1/(tp+1) sums to 1 without actually reaching it.",
+  "id": "A226527",
+  "mentions": [
+    "A014612",
+    "A181503",
+    "A226526"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 115,
+    "source": "oeis-entry"
+  }
+}

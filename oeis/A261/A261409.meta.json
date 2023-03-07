@@ -1,0 +1,18 @@
+{
+  "description": "Curvatures in a certain bounded, integral, primitive Soddy sphere packing.",
+  "id": "A261409",
+  "mentions": [
+    "A261410"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

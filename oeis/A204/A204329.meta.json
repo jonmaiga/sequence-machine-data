@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) (n >= 2) is the number of cubic graphs on 2*n nodes with diameter k.",
+  "id": "A204329",
+  "mentions": [
+    "A002851",
+    "A294732"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:24",
+    "offset": 2,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

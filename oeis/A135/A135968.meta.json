@@ -1,0 +1,34 @@
+{
+  "description": "Sum of prime factors of the Fibonacci number A050937(n).",
+  "id": "A135968",
+  "mentions": [
+    "A000045",
+    "A001605",
+    "A008472",
+    "A050937",
+    "A075737",
+    "A090819",
+    "A134787",
+    "A134851",
+    "A134852",
+    "A135953",
+    "A135954",
+    "A135955",
+    "A135956",
+    "A135957",
+    "A135958",
+    "A135959",
+    "A135969"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

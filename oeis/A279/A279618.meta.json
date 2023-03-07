@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of w_7/(1 + 13*w_7 + 49*w_7^2) in powers of q, where w_7 = (eta(7*q)/eta(q))^4.",
+  "id": "A279618",
+  "mentions": [
+    "A002652",
+    "A121593",
+    "A279613",
+    "A279619"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

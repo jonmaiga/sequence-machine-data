@@ -1,0 +1,20 @@
+{
+  "description": "Numbers of the form i+j+2*i*j and 2+i+j+2*i*j for i,j >= 1.",
+  "id": "A345447",
+  "mentions": [
+    "A023200",
+    "A046132",
+    "A047845",
+    "A153043"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

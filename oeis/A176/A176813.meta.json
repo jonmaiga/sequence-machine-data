@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that 3*A077800(2n-1)",
+  "id": "A176813",
+  "mentions": [
+    "A001359",
+    "A006512",
+    "A077800"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

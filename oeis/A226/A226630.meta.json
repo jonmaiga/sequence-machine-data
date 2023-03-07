@@ -1,0 +1,17 @@
+{
+  "description": "Positive integers k with at least one primitive cycle of positive integers under iteration by the 3x-k function.",
+  "id": "A226630",
+  "mentions": [
+    "A226633"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

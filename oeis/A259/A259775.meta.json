@@ -1,0 +1,29 @@
+{
+  "description": "Stepped path in P(k,n) array of k-th partial sums of squares (A000290).",
+  "id": "A259775",
+  "mentions": [
+    "A000290",
+    "A000330",
+    "A001405",
+    "A002415",
+    "A005585",
+    "A040977",
+    "A050486",
+    "A053347",
+    "A110813",
+    "A129869",
+    "A220101"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

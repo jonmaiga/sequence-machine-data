@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle with the nonnegative proper fundamental solutions of the binary quadratic form x^2 + x*y - y^2 representing N = N(n) = A089270(n), for n >= 1.",
+  "id": "A308686",
+  "mentions": [
+    "A028387",
+    "A089270"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-entry"
+  }
+}

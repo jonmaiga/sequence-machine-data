@@ -1,0 +1,23 @@
+{
+  "description": "Number of vertices in an diagonal-edged (or diamond-shaped) checkerboard with width and height 2*n-1 (see Comments in A333434 for definition).",
+  "id": "A333459",
+  "mentions": [
+    "A330850",
+    "A333031",
+    "A333035",
+    "A333434",
+    "A333458",
+    "A333460"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

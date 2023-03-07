@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of Product_{k>=1} 1/((1 - x^prime(k))*(1 - x^(prime(k)^2))*(1 - x^(prime(k)^3))).",
+  "id": "A280715",
+  "mentions": [
+    "A000040",
+    "A000607",
+    "A001248",
+    "A023893",
+    "A030078",
+    "A087797",
+    "A090677",
+    "A111901",
+    "A279760",
+    "A280125"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

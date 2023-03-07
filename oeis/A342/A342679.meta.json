@@ -1,0 +1,19 @@
+{
+  "description": "Number of steps for n to reach 1 or n by repeated application of A037916, or -1 if they are never reached.",
+  "id": "A342679",
+  "mentions": [
+    "A000040",
+    "A037916"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 2,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

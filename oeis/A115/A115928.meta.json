@@ -1,0 +1,19 @@
+{
+  "description": "Smallest number which is coprime to the last four predecessors and not occurring earlier; a(1)=1, a(2)=2, a(3)=3 & a(4)=4.",
+  "id": "A115928",
+  "mentions": [
+    "A084937",
+    "A103683"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

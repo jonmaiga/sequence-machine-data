@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers such that the product of two consecutive terms is always divisible by 6.",
+  "id": "A330531",
+  "mentions": [
+    "A330530",
+    "A330577"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

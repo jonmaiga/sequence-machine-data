@@ -1,0 +1,20 @@
+{
+  "description": "Number of n-element subsets that can be chosen from {1,2,...,2*n^3} having element sum n^4.",
+  "id": "A185062",
+  "mentions": [
+    "A185282",
+    "A186730",
+    "A202261",
+    "A204459"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Catalan Unranking function U(size,rank) for totally balanced binary strings (converted to decimal). Each row 'size' of an array lists all A000108(size) such items in standard lexicographic order, followed by an infinite number of zeros.",
+  "id": "A213704",
+  "mentions": [
+    "A000108",
+    "A002262",
+    "A009766",
+    "A014137",
+    "A014486",
+    "A020988",
+    "A025581",
+    "A072643",
+    "A153250",
+    "A215406"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

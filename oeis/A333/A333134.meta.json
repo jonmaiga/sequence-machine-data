@@ -1,0 +1,25 @@
+{
+  "description": "Positive integers k such that 11^k == 2 (mod k).",
+  "id": "A333134",
+  "mentions": [
+    "A015919",
+    "A015960",
+    "A116622",
+    "A124246",
+    "A130421",
+    "A276671",
+    "A277401",
+    "A333269"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

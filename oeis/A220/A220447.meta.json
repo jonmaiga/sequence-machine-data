@@ -1,0 +1,18 @@
+{
+  "description": "Define sequence x(n) by x(1)=1, thereafter x(n) = (x(n-1)+n)/(1-n*x(n-1)); sequence gives denominator(x(n)).",
+  "id": "A220447",
+  "mentions": [
+    "A180657"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

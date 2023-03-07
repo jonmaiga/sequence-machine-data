@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the period of cyclic structures that appear in the 3-state (0,1,2) 1D cellular automaton started from a single cell at state 1 with rule n.",
+  "id": "A319780",
+  "mentions": [
+    "A180001"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

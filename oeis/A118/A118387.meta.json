@@ -1,0 +1,22 @@
+{
+  "description": "Record values in A079300 (number of shortest addition chains of n).",
+  "id": "A118387",
+  "mentions": [
+    "A003313",
+    "A079300",
+    "A118386"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

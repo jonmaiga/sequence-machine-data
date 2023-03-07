@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k! + (k!/2) - 1 is prime.",
+  "id": "A358878",
+  "mentions": [
+    "A070960",
+    "A358805"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Positions of multiples of 7 in A204890 (differences of primes).",
+  "id": "A205697",
+  "mentions": [
+    "A024890",
+    "A204890",
+    "A205558",
+    "A205698"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 09:57:35",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

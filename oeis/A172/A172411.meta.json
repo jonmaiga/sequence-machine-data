@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that 2^n+9 and 2^n+27 are prime.",
+  "id": "A172411",
+  "mentions": [
+    "A057196",
+    "A157007"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

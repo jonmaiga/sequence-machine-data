@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n with property that n, 2n-1 and 2n+1 are composite.",
+  "id": "A195613",
+  "mentions": [
+    "A000027"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

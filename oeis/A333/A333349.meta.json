@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least prime p such that n <= ord(n, p)^n < p, where ord(n, p) is the multiplicative order of n modulo p, or 1, if there is no such p.",
+  "id": "A333349",
+  "mentions": [
+    "A333245"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

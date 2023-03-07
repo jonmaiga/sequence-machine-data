@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Product_{k=1..A003056(n)} prime(T(n,k)), where T(n,k) = k-th term in row n of A235791.",
+  "id": "A348475",
+  "mentions": [
+    "A000040",
+    "A003056",
+    "A067255",
+    "A235791"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:22",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

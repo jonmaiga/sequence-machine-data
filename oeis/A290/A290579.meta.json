@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f. satisfies: A(x) = (1 + sin(x*A(x))) / cos(x*A(x)).",
+  "id": "A290579",
+  "mentions": [
+    "A000111",
+    "A185414",
+    "A290580"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

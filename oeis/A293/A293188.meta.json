@@ -1,0 +1,20 @@
+{
+  "description": "Unitary pseudoperfect numbers: numbers that equal to the sum of a subset of their aliquot unitary divisors.",
+  "id": "A293188",
+  "mentions": [
+    "A002827",
+    "A005835",
+    "A034683",
+    "A064114"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

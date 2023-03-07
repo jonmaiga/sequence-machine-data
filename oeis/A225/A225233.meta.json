@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(n, k) = (2*n + 2 - k)*k, for 0 <= k <= n.",
+  "id": "A225233",
+  "mentions": [
+    "A003991",
+    "A005408",
+    "A005563",
+    "A008586",
+    "A016061",
+    "A016945",
+    "A045944",
+    "A061035"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

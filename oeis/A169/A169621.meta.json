@@ -1,0 +1,19 @@
+{
+  "description": "Hankel transform of quintuple factorial numbers A047055.",
+  "id": "A169621",
+  "mentions": [
+    "A047055"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

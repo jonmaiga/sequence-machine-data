@@ -1,0 +1,18 @@
+{
+  "description": "Values in A115248 that are not in A005123.",
+  "id": "A115249",
+  "mentions": [
+    "A005123",
+    "A115248"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

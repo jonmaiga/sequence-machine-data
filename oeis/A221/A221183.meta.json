@@ -1,0 +1,18 @@
+{
+  "description": "a(0)=0, a(1)=1; thereafter a(n) = gpf(2*a(n-1)+a(n-2)), where gpf = \"greatest prime factor\" (A006530).",
+  "id": "A221183",
+  "mentions": [
+    "A006530",
+    "A175723"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

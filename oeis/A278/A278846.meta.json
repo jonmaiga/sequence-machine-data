@@ -1,0 +1,17 @@
+{
+  "description": "Number of unimodular 2 X 2 matrices having entries in {0,1,...,n} with no entry repeated.",
+  "id": "A278846",
+  "mentions": [
+    "A210000"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

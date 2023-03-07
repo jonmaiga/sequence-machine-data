@@ -1,0 +1,21 @@
+{
+  "description": "Difference between semiprime(n) and semiprime(n+2).",
+  "id": "A113784",
+  "mentions": [
+    "A001358",
+    "A031131",
+    "A056809"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-entry"
+  }
+}

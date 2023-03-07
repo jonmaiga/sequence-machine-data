@@ -1,0 +1,29 @@
+{
+  "description": "Deficiency of n permuted by A163511: a(n) = A033879(A163511(n)) = 2*A163511(n) - sigma(A163511(n)).",
+  "id": "A324185",
+  "mentions": [
+    "A000203",
+    "A033879",
+    "A054429",
+    "A163511",
+    "A324055",
+    "A324182",
+    "A324184",
+    "A324187",
+    "A324188",
+    "A324189",
+    "A324199",
+    "A324200"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:49",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

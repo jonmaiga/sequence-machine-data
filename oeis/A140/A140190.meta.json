@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of groupoids (categories all of whose morphisms are invertible) with m morphisms and m-n objects for any m>=2n.",
+  "id": "A140190",
+  "mentions": [
+    "A140188"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

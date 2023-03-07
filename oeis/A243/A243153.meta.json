@@ -1,0 +1,20 @@
+{
+  "description": "Larger of two consecutive primes whose difference is a semiprime.",
+  "id": "A243153",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A058620",
+    "A118590"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

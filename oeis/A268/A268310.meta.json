@@ -1,0 +1,22 @@
+{
+  "description": "Largest k > 0 such that a base b with 1 < b < c exists such that b^(c-1) == 1 (mod c^k), where c is the n-th composite number, or 0 if no such k exists.",
+  "id": "A268310",
+  "mentions": [
+    "A002808",
+    "A039769",
+    "A244752",
+    "A254444",
+    "A256517",
+    "A267288"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

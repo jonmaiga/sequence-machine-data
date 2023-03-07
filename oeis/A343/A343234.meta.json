@@ -1,0 +1,25 @@
+{
+  "description": "Triangle T read by rows: lower triangular Riordan matrix of the Toeplitz type with first column A067687.",
+  "id": "A343234",
+  "mentions": [
+    "A000041",
+    "A027293",
+    "A067687",
+    "A143866",
+    "A155002",
+    "A186020"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

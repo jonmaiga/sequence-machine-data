@@ -1,0 +1,30 @@
+{
+  "description": "Number of forced tiles in the local empire of the eight possible vertex configurations in a Penrose rhomb tiling, in the order D, J, S, Q, S5, K, S3, S4.",
+  "id": "A242935",
+  "mentions": [
+    "A103906",
+    "A103907",
+    "A235857",
+    "A235858",
+    "A242128",
+    "A242129",
+    "A242894",
+    "A242895",
+    "A243884",
+    "A302176",
+    "A302841",
+    "A302842"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

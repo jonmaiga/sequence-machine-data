@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of log(640320^3)/sqrt(163), a Ramanujan constant producing 16 correct digits of Pi.",
+  "id": "A253214",
+  "mentions": [
+    "A000796",
+    "A060295"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:50:37",
+    "offset": 1,
+    "size": 104,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k with record values of the ratio d(k)/ud(k) between the number of divisors and the number of unitary divisors.",
+  "id": "A307870",
+  "mentions": [
+    "A000005",
+    "A001221",
+    "A001694",
+    "A025487",
+    "A034444",
+    "A285906",
+    "A307869"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

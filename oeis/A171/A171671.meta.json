@@ -1,0 +1,21 @@
+{
+  "description": "Square numbers not of form n + sum of digits of n.",
+  "id": "A171671",
+  "mentions": [
+    "A003052",
+    "A062028",
+    "A171672",
+    "A171673"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Integers for which the Goldbach factorization graph contains exceptional autonomous component (see link for definitions).",
+  "id": "A327772",
+  "mentions": [
+    "A306746"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

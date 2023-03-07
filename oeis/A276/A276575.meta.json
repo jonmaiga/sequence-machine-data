@@ -1,0 +1,23 @@
+{
+  "description": "After a(0)=0, the first differences of A276573.",
+  "id": "A276575",
+  "mentions": [
+    "A001541",
+    "A002828",
+    "A132592",
+    "A260731",
+    "A260733",
+    "A276573"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

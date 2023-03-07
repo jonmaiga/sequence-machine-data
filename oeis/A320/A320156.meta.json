@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the unique real root of x^3 - 3*x^2 + 8*x - 16 = 0, or equivalently, the unique positive root of x^4*(x + 5) - 4^4 = 0.",
+  "id": "A320156",
+  "mentions": [
+    "A320157",
+    "A320158"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

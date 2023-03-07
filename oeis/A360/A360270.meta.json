@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the kelvin-kilogram relationship (k/c^2) according to the 2019 SI system in units kg.",
+  "id": "A360270",
+  "mentions": [
+    "A003678",
+    "A070063"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": -39,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

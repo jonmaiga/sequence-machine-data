@@ -1,0 +1,33 @@
+{
+  "description": "Triangle read by rows: T(k,n) is number of numbers <= 10^n that are products of k primes.",
+  "id": "A126280",
+  "mentions": [
+    "A002283",
+    "A006880",
+    "A036352",
+    "A109251",
+    "A114106",
+    "A114453",
+    "A116430",
+    "A120047",
+    "A120048",
+    "A120049",
+    "A120050",
+    "A120051",
+    "A120052",
+    "A120053",
+    "A126279"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "less",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:14",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Iterate the map A291784: k -> (psi(k)+phi(k))/2, starting with n, until a power of a prime (A000961) is reached, or -1 if that never happens.",
+  "id": "A291785",
+  "mentions": [
+    "A000010",
+    "A000961",
+    "A001615",
+    "A291784",
+    "A291786",
+    "A291787",
+    "A291788"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the numerator of 6 * Sum_{k=0..n} ((k+1)/(n-k+1)^2) * (Catalan(k)/(2^(2*k+1)))^2.",
+  "id": "A281070",
+  "mentions": [
+    "A000108",
+    "A280723"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

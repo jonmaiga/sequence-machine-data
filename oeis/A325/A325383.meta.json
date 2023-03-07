@@ -1,0 +1,21 @@
+{
+  "description": "Lexicographically earliest sequence such that a(i) = a(j) => A000203(i) = A000203(j) and A009194(i) = A009194(j) for all i, j.",
+  "id": "A325383",
+  "mentions": [
+    "A000203",
+    "A009194",
+    "A295300",
+    "A325381",
+    "A325384"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

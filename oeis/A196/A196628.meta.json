@@ -1,0 +1,20 @@
+{
+  "description": "Smallest positive m such that gcd(2^m-3,3^m-2) has a prime divisor A196627(n).",
+  "id": "A196628",
+  "mentions": [
+    "A109768",
+    "A196627"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

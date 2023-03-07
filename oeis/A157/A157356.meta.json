@@ -1,0 +1,32 @@
+{
+  "description": "Products (semiprimes) of two distinct double-safe primes.",
+  "id": "A157356",
+  "mentions": [
+    "A001358",
+    "A005384",
+    "A005385",
+    "A006881",
+    "A007304",
+    "A066179",
+    "A111206",
+    "A157342",
+    "A157344",
+    "A157345",
+    "A157346",
+    "A157347",
+    "A157352",
+    "A157353",
+    "A157354",
+    "A157355"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

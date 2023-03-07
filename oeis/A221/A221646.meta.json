@@ -1,0 +1,20 @@
+{
+  "description": "A continuous \"Look and Say\" sequence (without repetition, method 2).",
+  "id": "A221646",
+  "mentions": [
+    "A005150",
+    "A225212",
+    "A225224"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of Dyck paths of semilength 2n such that the maximal number of peaks per level equals n.",
+  "id": "A287860",
+  "mentions": [
+    "A287822"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:00",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

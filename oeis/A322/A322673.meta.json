@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = numerator of Product_{d|n} (sigma(d)/d) where sigma(k) = the sum of the divisors of k (A000203).",
+  "id": "A322673",
+  "mentions": [
+    "A000040",
+    "A000203",
+    "A299788",
+    "A318491",
+    "A318492"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

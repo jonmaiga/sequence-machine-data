@@ -1,0 +1,24 @@
+{
+  "description": "Array read by antidiagonals: T(m,n) = number of nonzero m X n binary arrays with all 1's connected.",
+  "id": "A287151",
+  "mentions": [
+    "A059020",
+    "A059021",
+    "A059524",
+    "A059525",
+    "A116469",
+    "A286139",
+    "A286189"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:59",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

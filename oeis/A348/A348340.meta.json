@@ -1,0 +1,19 @@
+{
+  "description": "For n >= 1; x = n, then iterate x --> x + h(x) until h(x + h(x)) >= h(x). a(n) gives the number of iteration steps where h(i) is A000120(i).",
+  "id": "A348340",
+  "mentions": [
+    "A000120",
+    "A092391"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 110,
+    "source": "oeis-entry"
+  }
+}

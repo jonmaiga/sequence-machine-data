@@ -1,0 +1,28 @@
+{
+  "description": "Greatest common divisor of n and the smallest positive k such that n divides k*A003961(k), where A003961 is fully multiplicative with a(p) = nextprime(p).",
+  "id": "A356166",
+  "mentions": [
+    "A003961",
+    "A191002",
+    "A345992",
+    "A356151",
+    "A356164",
+    "A356165",
+    "A356167",
+    "A356168",
+    "A356171",
+    "A356172"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Primes p of the form p = prime(n) + prime(n+1) - 5 and p = prime(k) + prime(k+1) + 5.",
+  "id": "A207992",
+  "mentions": [
+    "A072669",
+    "A092738",
+    "A207990",
+    "A207991"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:27",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

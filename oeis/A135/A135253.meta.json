@@ -1,0 +1,17 @@
+{
+  "description": "Primes in A135485.",
+  "id": "A135253",
+  "mentions": [
+    "A135485"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-bfile"
+  }
+}

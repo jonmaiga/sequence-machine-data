@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of n such that the number of even parts is a part and the number of odd parts is not a part.",
+  "id": "A240577",
+  "mentions": [
+    "A240573",
+    "A240574",
+    "A240575",
+    "A240576",
+    "A240578",
+    "A240579"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

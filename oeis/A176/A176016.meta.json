@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of (3+sqrt(15))/6.",
+  "id": "A176016",
+  "mentions": [
+    "A010472",
+    "A010687",
+    "A176020"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:00",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

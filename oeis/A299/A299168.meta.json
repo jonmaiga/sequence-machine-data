@@ -1,0 +1,32 @@
+{
+  "description": "Number of ordered ways of writing n-th prime number as a sum of n primes.",
+  "id": "A299168",
+  "mentions": [
+    "A000040",
+    "A000586",
+    "A000607",
+    "A023360",
+    "A056768",
+    "A070215",
+    "A073610",
+    "A098238",
+    "A117278",
+    "A121303",
+    "A219180",
+    "A224344",
+    "A259254",
+    "A265112",
+    "A341459"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:22",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

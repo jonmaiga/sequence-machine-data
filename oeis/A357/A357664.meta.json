@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of e.g.f. sinh( (exp(2*x) - 1)/sqrt(2) )/sqrt(2).",
+  "id": "A357664",
+  "mentions": [
+    "A009599",
+    "A024429",
+    "A264037",
+    "A357661",
+    "A357665",
+    "A357666"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

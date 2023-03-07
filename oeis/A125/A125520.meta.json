@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the maximal difference between two distinct n-digit numbers with the property that when one of them is typed into a calculator and rotated 180 degrees, the other one is seen.",
+  "id": "A125520",
+  "mentions": [
+    "A125521"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:55:14",
+    "offset": 1,
+    "size": 21,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Triangle read by rows, the ordered Stirling cycle numbers, T(n, k) = k!* s(n, k); n >= 0 k >= 0.",
+  "id": "A225479",
+  "mentions": [
+    "A000007",
+    "A000142",
+    "A001286",
+    "A006252",
+    "A007840",
+    "A048594",
+    "A052517",
+    "A052748",
+    "A052753",
+    "A052767",
+    "A052779",
+    "A104150",
+    "A132393"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-22 20:28:47",
+    "offset": 0,
+    "size": 50,
+    "source": "joeis"
+  }
+}

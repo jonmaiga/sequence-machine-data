@@ -1,0 +1,30 @@
+{
+  "description": "Number of partitions of n such that all parts are equal or all parts are distinct.",
+  "id": "A167932",
+  "mentions": [
+    "A000005",
+    "A000009",
+    "A000041",
+    "A000065",
+    "A032741",
+    "A047967",
+    "A111133",
+    "A134400",
+    "A135010",
+    "A138121",
+    "A167930",
+    "A167931",
+    "A167933"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:43:45",
+    "offset": 0,
+    "size": 56,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that k^k is the average of its nearest 2 primes.",
+  "id": "A333185",
+  "mentions": [
+    "A000312",
+    "A074966",
+    "A074967",
+    "A098681",
+    "A098682",
+    "A161503",
+    "A333184"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "bref",
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

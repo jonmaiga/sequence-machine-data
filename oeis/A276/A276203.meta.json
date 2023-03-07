@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that k^9 + 9^k is prime.",
+  "id": "A276203",
+  "mentions": [
+    "A064539",
+    "A076980",
+    "A094133",
+    "A185277",
+    "A253471"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

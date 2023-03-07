@@ -1,0 +1,21 @@
+{
+  "description": "Number of prime divisors (counted with multiplicity) of n such that the primitive irreducible trinomial x^n + x^k + 1 is a primitive irreducible polynomial (mod 2) for some k with 0 < k < n (A073726).",
+  "id": "A186440",
+  "mentions": [
+    "A001222",
+    "A073726",
+    "A074744"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

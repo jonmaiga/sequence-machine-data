@@ -1,0 +1,17 @@
+{
+  "description": "Integers that are monomially irreducible.",
+  "id": "A350242",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

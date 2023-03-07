@@ -1,0 +1,26 @@
+{
+  "description": "Square array A(n,k) read by falling antidiagonals, where row n gives the sum of the divisors of the {primorial inflation of k, from which all primes <= A000040(n) have been discarded}.",
+  "id": "A337205",
+  "mentions": [
+    "A000040",
+    "A000203",
+    "A034386",
+    "A108951",
+    "A337203",
+    "A337204",
+    "A337470",
+    "A337472"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

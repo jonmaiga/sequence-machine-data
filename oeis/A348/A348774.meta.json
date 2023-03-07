@@ -1,0 +1,23 @@
+{
+  "description": "A348773(2*n+1).",
+  "id": "A348774",
+  "mentions": [
+    "A155067",
+    "A307632",
+    "A307720",
+    "A307730",
+    "A348773",
+    "A348775"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

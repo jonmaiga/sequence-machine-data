@@ -1,0 +1,35 @@
+{
+  "description": "Matula-Goebel numbers of rooted trees in which all outdegrees are even.",
+  "id": "A298126",
+  "mentions": [
+    "A000081",
+    "A001190",
+    "A007097",
+    "A026424",
+    "A028260",
+    "A061775",
+    "A111299",
+    "A214577",
+    "A245824",
+    "A276625",
+    "A277098",
+    "A290760",
+    "A291441",
+    "A291442",
+    "A291636",
+    "A295461",
+    "A297571",
+    "A298118",
+    "A298120"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

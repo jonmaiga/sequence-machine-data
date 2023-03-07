@@ -1,0 +1,22 @@
+{
+  "description": "Power floor sequence of 2+sqrt(8).",
+  "id": "A218988",
+  "mentions": [
+    "A057087",
+    "A086347",
+    "A214992",
+    "A218989"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

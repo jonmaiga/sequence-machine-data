@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = n^n - (PrevPrime(n^n) + NextPrime(n^n)) / 2.",
+  "id": "A333184",
+  "mentions": [
+    "A000312",
+    "A074966",
+    "A074967",
+    "A098681",
+    "A098682",
+    "A161503",
+    "A333185"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 2,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

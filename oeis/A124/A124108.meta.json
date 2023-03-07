@@ -1,0 +1,22 @@
+{
+  "description": "Replace each 1 with 10 in binary representation of n.",
+  "id": "A124108",
+  "mentions": [
+    "A000120",
+    "A007088",
+    "A023416",
+    "A048678",
+    "A056791",
+    "A070939"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

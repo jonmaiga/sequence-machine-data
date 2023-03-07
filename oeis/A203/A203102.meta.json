@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X n binary arrays with every 1 immediately preceded by 0 0 to the left or above",
+  "id": "A203102",
+  "mentions": [
+    "A203108"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

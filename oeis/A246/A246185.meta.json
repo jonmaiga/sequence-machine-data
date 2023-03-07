@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of weighted lattice paths B(n) for which the area between the path and the lines y=0 and y=1 is equal to k. B(n) is the set of lattice paths of weight n that start in (0,0), end on the horizontal axis and never go below this axis, whose steps are of the following four kinds: an (1,0)-step of weight 1; an (1,0)-step of weight 2; a (1,1)-step of weight 2; a (1,-1)-step of weight 1. The weight of a path is the sum of the weights of its steps.",
+  "id": "A246185",
+  "mentions": [
+    "A000045",
+    "A001629",
+    "A004148",
+    "A246177"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

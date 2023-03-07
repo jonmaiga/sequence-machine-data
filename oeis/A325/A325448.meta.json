@@ -1,0 +1,19 @@
+{
+  "description": "Fibonacci numbers whose decimal expansion contains the digit 1.",
+  "id": "A325448",
+  "mentions": [
+    "A000045",
+    "A177195"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Expansion of q * psi(-q) * chi(q^3)^2 * psi(-q^9) in powers of q where psi(), chi() are Ramanujan theta functions.",
+  "id": "A129448",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A002175",
+    "A010054",
+    "A010815",
+    "A030203",
+    "A091400",
+    "A121363",
+    "A121373",
+    "A121444",
+    "A122856",
+    "A122865"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:01:57",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

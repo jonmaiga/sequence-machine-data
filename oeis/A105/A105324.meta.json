@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that 2*reversal(n)=sigma(n).",
+  "id": "A105324",
+  "mentions": [
+    "A093170",
+    "A096507",
+    "A099190",
+    "A105322",
+    "A105323",
+    "A105325",
+    "A105326"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

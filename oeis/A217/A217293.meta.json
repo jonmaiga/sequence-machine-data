@@ -1,0 +1,19 @@
+{
+  "description": "Permutation of natural numbers arising from applying the walk of right triangular type-3 spiral (defined in A214252) to the data of square spiral (e.g. A214526).",
+  "id": "A217293",
+  "mentions": [
+    "A214252",
+    "A214526",
+    "A217012"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

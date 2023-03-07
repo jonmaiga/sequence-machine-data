@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) = (1/k) times the number of functions from an n-element set into but not onto a k-element set.",
+  "id": "A101031",
+  "mentions": [
+    "A019538",
+    "A089072"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

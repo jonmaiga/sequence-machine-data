@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Im(Li(3, (i+1)/2)), where Li(n, z) is the polylogarithm function and i is the imaginary unit.",
+  "id": "A355022",
+  "mentions": [
+    "A001008",
+    "A002805",
+    "A006752"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

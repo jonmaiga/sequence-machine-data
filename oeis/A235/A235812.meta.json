@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the start of the earliest run of n numbers such that the sum of their digits is equal to the sum of the digits of their prime factors.",
+  "id": "A235812",
+  "mentions": [
+    "A006753",
+    "A059754"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

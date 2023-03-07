@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (p+1)/2 if 4 | p+1, and p otherwise, where p is the least prime > n with 2(n+1)-p prime.",
+  "id": "A213187",
+  "mentions": [
+    "A002372",
+    "A222532",
+    "A222566"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

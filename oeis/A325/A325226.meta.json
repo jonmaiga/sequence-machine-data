@@ -1,0 +1,32 @@
+{
+  "description": "Number of prime factors of n that are less than the largest, counted with multiplicity.",
+  "id": "A325226",
+  "mentions": [
+    "A000094",
+    "A000245",
+    "A000961",
+    "A001222",
+    "A052126",
+    "A053585",
+    "A061395",
+    "A062977",
+    "A064989",
+    "A071178",
+    "A105441",
+    "A108951",
+    "A256617",
+    "A307517",
+    "A325230"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

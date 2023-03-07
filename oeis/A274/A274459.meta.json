@@ -1,0 +1,27 @@
+{
+  "description": "Least number of perfect powers that add up to n.",
+  "id": "A274459",
+  "mentions": [
+    "A001597",
+    "A002376",
+    "A002377",
+    "A002804",
+    "A002828",
+    "A063274",
+    "A063275",
+    "A079611",
+    "A113505",
+    "A188462",
+    "A225926"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

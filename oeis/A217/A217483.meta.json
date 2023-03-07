@@ -1,0 +1,24 @@
+{
+  "description": "Alternating sums of the numbers in sequence A080253.",
+  "id": "A217483",
+  "mentions": [
+    "A000670",
+    "A080253",
+    "A217484",
+    "A217485",
+    "A217486",
+    "A217487",
+    "A217488"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:23",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

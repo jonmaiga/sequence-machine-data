@@ -1,0 +1,19 @@
+{
+  "description": "Least k such that the sum of the semiprime divisors equals n times the sum of the prime divisors, or 0 if no such k exists.",
+  "id": "A227419",
+  "mentions": [
+    "A001248",
+    "A008472",
+    "A076290"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 2,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

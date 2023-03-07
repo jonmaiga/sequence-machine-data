@@ -1,0 +1,25 @@
+{
+  "description": "First differences of A151725.",
+  "id": "A151726",
+  "mentions": [
+    "A000695",
+    "A139250",
+    "A139251",
+    "A151725",
+    "A151727",
+    "A151729"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

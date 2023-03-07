@@ -1,0 +1,18 @@
+{
+  "description": "Erroneous version of: Primes from merging of 10 successive digits in decimal expansion of exp(Pi).",
+  "id": "A105015",
+  "mentions": [
+    "A225142"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

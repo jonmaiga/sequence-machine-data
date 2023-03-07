@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = number of length-n binary strings with A006697(n) distinct substrings.",
+  "id": "A134457",
+  "mentions": [
+    "A006697",
+    "A134466"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

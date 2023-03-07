@@ -1,0 +1,26 @@
+{
+  "description": "Toothpick sequence on hexagonal net.",
+  "id": "A182840",
+  "mentions": [
+    "A000695",
+    "A139250",
+    "A151723",
+    "A160120",
+    "A161206",
+    "A182632",
+    "A182634",
+    "A182838",
+    "A182841"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

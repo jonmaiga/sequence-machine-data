@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least k such that k^(tau(n)-1) >= n^tau(n).",
+  "id": "A318279",
+  "mentions": [
+    "A000005",
+    "A291899"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:38",
+    "offset": 2,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

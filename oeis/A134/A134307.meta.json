@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that A^(p-1) == 1 (mod p^2) for some A in the range 2 <= A <= p-1.",
+  "id": "A134307",
+  "mentions": [
+    "A001220",
+    "A039678",
+    "A055578",
+    "A060503",
+    "A143548",
+    "A222184"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:22",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

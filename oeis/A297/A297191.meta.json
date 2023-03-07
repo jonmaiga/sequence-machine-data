@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle read by rows formed by taking every other row of the Delannoy array (A008288) regarded as a triangle.",
+  "id": "A297191",
+  "mentions": [
+    "A000129",
+    "A008288",
+    "A297192"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:17",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

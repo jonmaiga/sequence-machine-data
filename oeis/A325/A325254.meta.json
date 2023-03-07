@@ -1,0 +1,35 @@
+{
+  "description": "Number of integer partitions of n with the maximum adjusted frequency depth for partitions of n.",
+  "id": "A325254",
+  "mentions": [
+    "A008284",
+    "A011784",
+    "A116608",
+    "A181819",
+    "A182850",
+    "A182857",
+    "A225485",
+    "A225486",
+    "A323014",
+    "A323023",
+    "A325242",
+    "A325246",
+    "A325258",
+    "A325268",
+    "A325278",
+    "A325280",
+    "A325281",
+    "A325282",
+    "A325283"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

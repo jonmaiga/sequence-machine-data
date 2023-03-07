@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Integral_{t=0..1} F(t)^F(t) dt, where F(t) is the Cantor function.",
+  "id": "A113223",
+  "mentions": [
+    "A095844",
+    "A095845"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows in which row n gives the number of unlabeled bicolored graphs having k nodes of one color and n-k nodes of the other color, with no isolated nodes; the color classes are not interchangeable.",
+  "id": "A122083",
+  "mentions": [
+    "A007139",
+    "A055192",
+    "A056152"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

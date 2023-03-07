@@ -1,0 +1,19 @@
+{
+  "description": "Numbers with prime factorization pqrst^2.",
+  "id": "A189983",
+  "mentions": [
+    "A178740",
+    "A179644",
+    "A179670"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

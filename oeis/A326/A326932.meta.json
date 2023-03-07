@@ -1,0 +1,18 @@
+{
+  "description": "The number of permutations of GF(2^n) that are of the form x -> g(x), where g is a polynomial with coefficients in GF(2).",
+  "id": "A326932",
+  "mentions": [
+    "A001037"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

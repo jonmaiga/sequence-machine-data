@@ -1,0 +1,21 @@
+{
+  "description": "Number of children the n-th node (counted from the root 0) has in the infinite trunk of least squares beanstalk tree: a(n) = A278216(A276573(n)).",
+  "id": "A278516",
+  "mentions": [
+    "A002828",
+    "A276573",
+    "A278216",
+    "A278518"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

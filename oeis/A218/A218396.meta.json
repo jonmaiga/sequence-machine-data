@@ -1,0 +1,20 @@
+{
+  "description": "Number of compositions of n into distinct (nonzero) Fibonacci numbers.",
+  "id": "A218396",
+  "mentions": [
+    "A000119",
+    "A000700",
+    "A032021",
+    "A076739"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:36",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

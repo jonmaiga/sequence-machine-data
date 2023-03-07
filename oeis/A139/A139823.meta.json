@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of constant c = Sum_{n>=0} C(1/2^n, n).",
+  "id": "A139823",
+  "mentions": [
+    "A139824",
+    "A139825"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:27",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

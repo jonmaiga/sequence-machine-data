@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = n! * Laguerre(n, n*(n-1), -n).",
+  "id": "A295418",
+  "mentions": [
+    "A277373",
+    "A295385",
+    "A295406",
+    "A295407",
+    "A295408",
+    "A295409"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

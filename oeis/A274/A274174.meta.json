@@ -1,0 +1,36 @@
+{
+  "description": "Number of compositions of n if all summand runs are kept together.",
+  "id": "A274174",
+  "mentions": [
+    "A000070",
+    "A000670",
+    "A001339",
+    "A003242",
+    "A056986",
+    "A102726",
+    "A116608",
+    "A181796",
+    "A333175",
+    "A335451",
+    "A335452",
+    "A335460",
+    "A335462",
+    "A335463",
+    "A335470",
+    "A335471",
+    "A335472",
+    "A335473",
+    "A335548"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Indices k such that 4 plus the k-th triangular number is a perfect square.",
+  "id": "A154139",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A006451"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

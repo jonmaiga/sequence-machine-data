@@ -1,0 +1,19 @@
+{
+  "description": "What remains from the sequence of positive integers (A000027) when all prime sums of two successive digits are erased.",
+  "id": "A352963",
+  "mentions": [
+    "A000027",
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

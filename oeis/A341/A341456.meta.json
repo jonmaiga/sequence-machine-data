@@ -1,0 +1,21 @@
+{
+  "description": "Let T be the set of sequences {t(k), k >= 0} such that for any k >= 3, t(k) = t(k-1) + t(k-2) + t(k-3); a(n) is the least possible value of t(0) + t(1) + t(2) for an element t of T containing n.",
+  "id": "A341456",
+  "mentions": [
+    "A000073",
+    "A001590",
+    "A213816",
+    "A249783"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

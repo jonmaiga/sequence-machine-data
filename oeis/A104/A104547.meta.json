@@ -1,0 +1,20 @@
+{
+  "description": "Number of Schroeder paths of length 2n having no UHD, UHHD, UHHHD, ..., where U=(1,1), D=(1,-1), H=(2,0).",
+  "id": "A104547",
+  "mentions": [
+    "A006318",
+    "A104546",
+    "A119370"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

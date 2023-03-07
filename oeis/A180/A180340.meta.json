@@ -1,0 +1,21 @@
+{
+  "description": "Numbers with x digits such that the first x multiples are cyclic permutations of the number, leading 0's omitted (or cyclic numbers).",
+  "id": "A180340",
+  "mentions": [
+    "A001913",
+    "A006883",
+    "A060284"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

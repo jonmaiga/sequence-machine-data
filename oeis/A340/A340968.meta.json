@@ -1,0 +1,26 @@
+{
+  "description": "Square array T(n,k), n >= 0, k >= 0, read by antidiagonals, where T(n,k) = Sum_{j=0..n} k^j*binomial(n,j)*Catalan(j).",
+  "id": "A340968",
+  "mentions": [
+    "A000012",
+    "A000108",
+    "A007317",
+    "A162326",
+    "A290605",
+    "A337167",
+    "A338979",
+    "A340970"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

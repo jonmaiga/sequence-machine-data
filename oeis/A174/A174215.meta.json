@@ -1,0 +1,21 @@
+{
+  "description": "First differences of A174214.",
+  "id": "A174215",
+  "mentions": [
+    "A166945",
+    "A167495",
+    "A174214"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 9,
+    "size": 112,
+    "source": "oeis-entry"
+  }
+}

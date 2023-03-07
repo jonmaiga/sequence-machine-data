@@ -1,0 +1,27 @@
+{
+  "description": "Upper right triangle A(m,n) = least number of symbols required to fill a grid of size n X n row by row in the greedy way such that in no row or column or m X m square a symbol occurs more than once.",
+  "id": "A292671",
+  "mentions": [
+    "A062383",
+    "A292670",
+    "A292672",
+    "A292673",
+    "A292674",
+    "A292675",
+    "A292676",
+    "A292677",
+    "A292678",
+    "A292679"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

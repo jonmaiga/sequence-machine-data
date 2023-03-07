@@ -1,0 +1,21 @@
+{
+  "description": "Sum of the iterated exponential totient function (A072911).",
+  "id": "A331273",
+  "mentions": [
+    "A000010",
+    "A004709",
+    "A046099",
+    "A072911",
+    "A092693"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

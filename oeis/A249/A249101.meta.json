@@ -1,0 +1,19 @@
+{
+  "description": "p(n,1), where p(n,x) is defined in Comments; sum of numbers in row n of the array at A249100.",
+  "id": "A249101",
+  "mentions": [
+    "A249100"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

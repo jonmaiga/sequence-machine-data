@@ -1,0 +1,30 @@
+{
+  "description": "Least number having in its decimal representation each digit n times.",
+  "id": "A217535",
+  "mentions": [
+    "A020666",
+    "A020667",
+    "A049363",
+    "A050278",
+    "A051018",
+    "A061604",
+    "A074205",
+    "A154566",
+    "A171102",
+    "A180489",
+    "A204047"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-bfile"
+  }
+}

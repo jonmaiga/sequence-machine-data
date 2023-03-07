@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that gcd(k, floor(phi*k)) > 1, where phi is the golden ratio.",
+  "id": "A316262",
+  "mentions": [
+    "A000201",
+    "A001622"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

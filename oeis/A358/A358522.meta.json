@@ -1,0 +1,35 @@
+{
+  "description": "Least number k such that the k-th standard ordered tree has Matula-Goebel number n, i.e., A358506(k) = n.",
+  "id": "A358522",
+  "mentions": [
+    "A000081",
+    "A000108",
+    "A001263",
+    "A014486",
+    "A061775",
+    "A066099",
+    "A127301",
+    "A196050",
+    "A206487",
+    "A214577",
+    "A358371",
+    "A358372",
+    "A358377",
+    "A358378",
+    "A358379",
+    "A358505",
+    "A358506",
+    "A358521"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

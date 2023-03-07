@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (Sum_{k=0..n-1}(-1)^k*(39480*k+7321)*29700^(n-1-k)*T_k(14,1)*T_k(11,-11)^2)/n, where T_k(b,c) denotes the coefficient of x^k in the expansion of (x^2+b*x+c)^k.",
+  "id": "A328786",
+  "mentions": [
+    "A329073",
+    "A329105",
+    "A329107"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

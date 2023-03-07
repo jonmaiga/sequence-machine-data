@@ -1,0 +1,23 @@
+{
+  "description": "Number of chains in the power set lattice or the number of fuzzy subsets of an (n+5)-element set X_(n+5) with specification n elements of one kind, 4 elements of another and 1 of yet another kind.",
+  "id": "A107955",
+  "mentions": [
+    "A007047",
+    "A107392",
+    "A107464",
+    "A107953",
+    "A107954"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:46:42",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

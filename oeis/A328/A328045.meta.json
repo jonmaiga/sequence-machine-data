@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = smallest m for which there is a sequence n = b_1 < b_2 < ... < b_t = m such that b_1^c_1*b_2^c_2*...*b_t^c_t is a fourth power, with all c_i < 4.",
+  "id": "A328045",
+  "mentions": [
+    "A006255",
+    "A269045",
+    "A277494",
+    "A300518",
+    "A328218"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

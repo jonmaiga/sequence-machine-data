@@ -1,0 +1,22 @@
+{
+  "description": "Jordan-Polya numbers (A001013) not in A344181.",
+  "id": "A344179",
+  "mentions": [
+    "A000142",
+    "A001013",
+    "A055874",
+    "A076934",
+    "A093411",
+    "A344181"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

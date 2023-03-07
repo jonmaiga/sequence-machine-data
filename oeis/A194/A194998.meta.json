@@ -1,0 +1,19 @@
+{
+  "description": "T(n,k)=Number of lower triangles of an n X n 0..k array with each element differing from all of its horizontal and vertical neighbors by one",
+  "id": "A194998",
+  "mentions": [
+    "A145237"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

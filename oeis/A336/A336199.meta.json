@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the distance between the centers of two unit-radius spheres such that the volume of intersection is equal to the sum of volumes of the two nonoverlapping parts.",
+  "id": "A336199",
+  "mentions": [
+    "A019673",
+    "A019699",
+    "A133749",
+    "A156546",
+    "A255899"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:20",
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

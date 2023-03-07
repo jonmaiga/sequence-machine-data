@@ -1,0 +1,35 @@
+{
+  "description": "Number of ordered ways to write n = k + m with k > 0 and m > 0 such that prime(k) + 2 and prime(prime(m)) + 2 are both prime.",
+  "id": "A218829",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A001359",
+    "A002822",
+    "A006512",
+    "A072281",
+    "A182662",
+    "A199920",
+    "A236531",
+    "A236566",
+    "A236831",
+    "A236968",
+    "A237127",
+    "A237130",
+    "A237168",
+    "A237253",
+    "A237259",
+    "A237260",
+    "A237348"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:36",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

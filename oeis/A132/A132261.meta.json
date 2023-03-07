@@ -1,0 +1,29 @@
+{
+  "description": "Main diagonal of array in A132260.",
+  "id": "A132261",
+  "mentions": [
+    "A000040",
+    "A001016",
+    "A050997",
+    "A120398",
+    "A122616",
+    "A130555",
+    "A130873",
+    "A132214",
+    "A132215",
+    "A132216",
+    "A132260"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

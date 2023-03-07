@@ -1,0 +1,22 @@
+{
+  "description": "Prime powers n such that either n - 1 or n + 1 is a prime power, but not both.",
+  "id": "A264747",
+  "mentions": [
+    "A000668",
+    "A000961",
+    "A019434",
+    "A025475",
+    "A164512",
+    "A174269"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

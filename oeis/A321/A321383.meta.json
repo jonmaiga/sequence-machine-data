@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k such that the concatenation k21 is a square.",
+  "id": "A321383",
+  "mentions": [
+    "A002378",
+    "A008805",
+    "A132356",
+    "A273365",
+    "A273366",
+    "A273367",
+    "A273368"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:51:31",
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

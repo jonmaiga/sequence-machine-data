@@ -1,0 +1,23 @@
+{
+  "description": "Lesser of twin primes p1 such that p1*p2+-6 are prime numbers.",
+  "id": "A174955",
+  "mentions": [
+    "A001359",
+    "A174913",
+    "A174915",
+    "A174916",
+    "A174917",
+    "A174920",
+    "A174922"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

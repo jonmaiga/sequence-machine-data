@@ -1,0 +1,19 @@
+{
+  "description": "Numbers such that e <= p for all p^e in their prime factorization, p prime.",
+  "id": "A207481",
+  "mentions": [
+    "A047592",
+    "A054743",
+    "A185359"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:27",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

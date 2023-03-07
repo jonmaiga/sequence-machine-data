@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the lowest nonnegative exponent k such that n!^k is the product of the divisors of n!.",
+  "id": "A344687",
+  "mentions": [
+    "A000005",
+    "A000142",
+    "A001222",
+    "A027423",
+    "A157672",
+    "A280420"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

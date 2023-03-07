@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X 3 nonnegative integer arrays with upper left 0 and lower right n+3-6 and value increasing by 0 or 1 with every step right or down.",
+  "id": "A252925",
+  "mentions": [
+    "A252930"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:11",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

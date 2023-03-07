@@ -1,0 +1,21 @@
+{
+  "description": "Zero-one sequence based on the sequence (5n-3): a(A016873(k))=a(k); a(A047207(k))=1-a(k), a(1)=0.",
+  "id": "A189129",
+  "mentions": [
+    "A016873",
+    "A047207",
+    "A188967",
+    "A189130",
+    "A189131"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:49:23",
+    "offset": 1,
+    "size": 135,
+    "source": "joeis"
+  }
+}

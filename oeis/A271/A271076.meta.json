@@ -1,0 +1,23 @@
+{
+  "description": "Number of ordered ways to write n as u^5 + v^4 + x^3 + 2*y^3 + 3*z^3, where u, v , x, y and z are nonnegative integers with v > 0.",
+  "id": "A271076",
+  "mentions": [
+    "A000578",
+    "A000583",
+    "A000584",
+    "A266968",
+    "A267826",
+    "A271099",
+    "A271237"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:35",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

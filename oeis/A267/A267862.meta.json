@@ -1,0 +1,21 @@
+{
+  "description": "Number of planar lattice convex polygonal lines joining the origin and the point (n,n).",
+  "id": "A267862",
+  "mentions": [
+    "A002774",
+    "A090806",
+    "A219554"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:29",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

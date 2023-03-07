@@ -1,0 +1,25 @@
+{
+  "description": "E.g.f.: A'(x) = 1 + A(x)^3, with A(0)=1.",
+  "id": "A258969",
+  "mentions": [
+    "A000831",
+    "A024396",
+    "A193534",
+    "A227250",
+    "A258880",
+    "A258970",
+    "A258971",
+    "A258994"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

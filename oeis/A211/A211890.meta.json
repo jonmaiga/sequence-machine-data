@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows, where row n starts with n-th prime, followed by n primes in arithmetic progression; T(0,0) = 1 by convention.",
+  "id": "A211890",
+  "mentions": [
+    "A000040",
+    "A002262",
+    "A007528",
+    "A007652",
+    "A008578",
+    "A132231",
+    "A211889",
+    "A214360"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

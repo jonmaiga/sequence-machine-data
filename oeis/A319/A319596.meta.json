@@ -1,0 +1,22 @@
+{
+  "description": "Base-3 deletable primes (written in base 10).",
+  "id": "A319596",
+  "mentions": [
+    "A080603",
+    "A080608",
+    "A096235",
+    "A096246"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

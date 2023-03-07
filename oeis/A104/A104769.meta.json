@@ -1,0 +1,27 @@
+{
+  "description": "G.f. -x/(1+x-x^3).",
+  "id": "A104769",
+  "mentions": [
+    "A000931",
+    "A050935",
+    "A057597",
+    "A078013",
+    "A104217",
+    "A104770",
+    "A104771",
+    "A247917"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

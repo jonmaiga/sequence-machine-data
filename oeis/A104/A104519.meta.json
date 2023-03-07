@@ -1,0 +1,19 @@
+{
+  "description": "Sufficient number of monominoes to exclude X-pentominoes from an n X n board.",
+  "id": "A104519",
+  "mentions": [
+    "A193764",
+    "A269706"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 3,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

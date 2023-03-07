@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k for which A335915(k) = A335915(sigma(k)).",
+  "id": "A336461",
+  "mentions": [
+    "A000203",
+    "A000265",
+    "A000396",
+    "A005820",
+    "A335915",
+    "A336455",
+    "A336462",
+    "A336463",
+    "A336464"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Positive numbers whose square starts and ends with exactly 44, and no 444.",
+  "id": "A348831",
+  "mentions": [
+    "A017317",
+    "A045858",
+    "A273375",
+    "A305719",
+    "A346774",
+    "A348488",
+    "A348832"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

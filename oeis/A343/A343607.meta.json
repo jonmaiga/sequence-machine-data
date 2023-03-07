@@ -1,0 +1,21 @@
+{
+  "description": "Minimal number of colors required for an edge-coloring of the complete graph K_n with no monochromatic triangle.",
+  "id": "A343607",
+  "mentions": [
+    "A000217",
+    "A003323",
+    "A343606"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Engel expansion of hz = limit_{k -> infinity} 1 + k - Sum_{j = -k..k} exp(-2^j).",
+  "id": "A159835",
+  "mentions": [
+    "A006784",
+    "A158468",
+    "A158469"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

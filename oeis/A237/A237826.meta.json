@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of n such that 4*(least part) = greatest part.",
+  "id": "A237826",
+  "mentions": [
+    "A000041",
+    "A237757",
+    "A237825",
+    "A237827",
+    "A237828",
+    "A237829"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

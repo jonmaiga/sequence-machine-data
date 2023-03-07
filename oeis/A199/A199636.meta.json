@@ -1,0 +1,22 @@
+{
+  "description": "Irregular rows of odd numbers that produce n even numbers in their Collatz iteration.",
+  "id": "A199636",
+  "mentions": [
+    "A131450",
+    "A199637",
+    "A199638",
+    "A199817",
+    "A199818"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:20",
+    "offset": 4,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

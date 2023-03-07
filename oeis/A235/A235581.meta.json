@@ -1,0 +1,17 @@
+{
+  "description": "Number of (n+1)X(3+1) 0..3 arrays with the difference of the upper median and minimum value of each 2X2 subblock in lexicographically nondecreasing order rowwise and columnwise",
+  "id": "A235581",
+  "mentions": [
+    "A235582"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:53",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

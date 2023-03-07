@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 36*n^2 + n.",
+  "id": "A157324",
+  "mentions": [
+    "A157325",
+    "A157326"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

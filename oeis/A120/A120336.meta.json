@@ -1,0 +1,22 @@
+{
+  "description": "Number of solutions (x,y) of Diophantine equation y^2 = x*(a^N - x)*(b^N + x) (Weierstrass elliptic equation) with a and b legs in primitive Pythagorean triangles and N = 2. Sequence ordered in increasing values of leg \"a\".",
+  "id": "A120336",
+  "mentions": [
+    "A009003",
+    "A020884",
+    "A120210",
+    "A120211",
+    "A120212",
+    "A120213"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

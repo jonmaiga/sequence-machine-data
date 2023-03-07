@@ -1,0 +1,20 @@
+{
+  "description": "Regular table of distinct nonnegative integers built by greedy algorithm such the binary expansions of two distinct terms in the same row have no common 1's.",
+  "id": "A358875",
+  "mentions": [
+    "A076034",
+    "A358876"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

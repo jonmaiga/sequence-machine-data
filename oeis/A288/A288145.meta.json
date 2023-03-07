@@ -1,0 +1,19 @@
+{
+  "description": "Square roots of the deficiencies of the squares of A289275.",
+  "id": "A288145",
+  "mentions": [
+    "A288144",
+    "A289274",
+    "A289275"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:00",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

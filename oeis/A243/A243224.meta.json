@@ -1,0 +1,17 @@
+{
+  "description": "Number of odd divisors d of n such that d > 1 and d(1+d/3)/2 <= n <= 3d(d-1)/2.",
+  "id": "A243224",
+  "mentions": [
+    "A243223"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

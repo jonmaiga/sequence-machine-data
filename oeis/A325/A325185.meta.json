@@ -1,0 +1,28 @@
+{
+  "description": "Heinz numbers of integer partitions such that the upper-left square of the Young diagram has strictly greater graph-distance from the lower-right boundary than any other square.",
+  "id": "A325185",
+  "mentions": [
+    "A001222",
+    "A056239",
+    "A061395",
+    "A065770",
+    "A112798",
+    "A188674",
+    "A325169",
+    "A325183",
+    "A325184",
+    "A325186",
+    "A325187",
+    "A325196"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

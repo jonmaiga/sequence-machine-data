@@ -1,0 +1,20 @@
+{
+  "description": "Number of distinct runs in base-6 digits of n.",
+  "id": "A297774",
+  "mentions": [
+    "A043558",
+    "A297770"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:18",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

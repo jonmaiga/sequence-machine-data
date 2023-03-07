@@ -1,0 +1,33 @@
+{
+  "description": "Irregular triangle C(n,g) counting the connected 4-regular simple graphs on n vertices with girth at least g.",
+  "id": "A184941",
+  "mentions": [
+    "A006820",
+    "A033886",
+    "A037233",
+    "A058343",
+    "A058348",
+    "A184940",
+    "A184943",
+    "A184944",
+    "A184945",
+    "A184946",
+    "A184951",
+    "A184961",
+    "A184971",
+    "A184981",
+    "A185131"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "hard",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 5,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

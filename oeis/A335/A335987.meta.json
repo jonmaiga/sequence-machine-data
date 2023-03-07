@@ -1,0 +1,22 @@
+{
+  "description": "Triangular array read by rows: T(n,k) is the number of labeled quasi-orders on [n] that are composed of exactly k irreducible components n>=0, 0<=k<=n.",
+  "id": "A335987",
+  "mentions": [
+    "A000142",
+    "A000798",
+    "A046912",
+    "A354615"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

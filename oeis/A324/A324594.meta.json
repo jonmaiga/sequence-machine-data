@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the smallest number k such that n consecutive integers starting at k have the same number of nonprime divisors (A033273).",
+  "id": "A324594",
+  "mentions": [
+    "A006558",
+    "A033273",
+    "A045983",
+    "A045984",
+    "A323253",
+    "A324593"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Positive integers k that divide 7^k + 3.",
+  "id": "A277371",
+  "mentions": [
+    "A015954",
+    "A066438",
+    "A067947",
+    "A277370",
+    "A277401",
+    "A277554"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

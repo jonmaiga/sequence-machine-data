@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of 3 * a(q^2) * b(q^2) * c(q^2) / (b(q) * c(q)^2) in powers of q where a(), b(), c() are cubic AGM theta functions.",
+  "id": "A263538",
+  "mentions": [
+    "A004016",
+    "A005882",
+    "A005928",
+    "A262930"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 02:30:12",
+    "offset": 0,
+    "size": 42,
+    "source": "joeis"
+  }
+}

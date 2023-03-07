@@ -1,0 +1,21 @@
+{
+  "description": "Length of the cycle reached for the map x->A203639(x), starting at n.",
+  "id": "A203640",
+  "mentions": [
+    "A043289",
+    "A053164",
+    "A063775",
+    "A203639"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

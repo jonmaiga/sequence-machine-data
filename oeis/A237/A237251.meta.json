@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that p*2^(p-1)-1 is prime.",
+  "id": "A237251",
+  "mentions": [
+    "A019434",
+    "A092506",
+    "A230769",
+    "A236752"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

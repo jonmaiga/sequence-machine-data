@@ -1,0 +1,19 @@
+{
+  "description": "Positions of squares of odd primes among odd powerful numbers A062739.",
+  "id": "A200049",
+  "mentions": [
+    "A000040",
+    "A062739"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 71,
+    "source": "joeis"
+  }
+}

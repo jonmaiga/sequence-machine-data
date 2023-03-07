@@ -1,0 +1,20 @@
+{
+  "description": "Every 11th term of A084066 such that the self-convolution 11th power is congruent modulo 121 to A084066, which consists entirely of numbers 1 through 11.",
+  "id": "A110644",
+  "mentions": [
+    "A084066",
+    "A084211",
+    "A111585"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

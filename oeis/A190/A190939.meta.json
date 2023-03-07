@@ -1,0 +1,26 @@
+{
+  "description": "Subgroups of nimber addition interpreted as binary numbers.",
+  "id": "A190939",
+  "mentions": [
+    "A001317",
+    "A006116",
+    "A051179",
+    "A083318",
+    "A122569",
+    "A198260",
+    "A227722",
+    "A227963",
+    "A228540"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

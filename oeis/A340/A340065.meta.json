@@ -1,0 +1,38 @@
+{
+  "description": "Decimal expansion of the Product_{p>=2} 1+p^2/((p-1)^2*(p+1)^2) where p are successive prime numbers A000040.",
+  "id": "A340065",
+  "mentions": [
+    "A000040",
+    "A065483",
+    "A065484",
+    "A065485",
+    "A084920",
+    "A109695",
+    "A111003",
+    "A114362",
+    "A114363",
+    "A116393",
+    "A167864",
+    "A231535",
+    "A307868",
+    "A330523",
+    "A330595",
+    "A335319",
+    "A335762",
+    "A335818",
+    "A339925",
+    "A340066"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:22:01",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

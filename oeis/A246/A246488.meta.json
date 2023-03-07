@@ -1,0 +1,18 @@
+{
+  "description": "Gridgeman pairs in increasing order: pairs of palindromic primes which differ only in their middle digits whose difference is equal to 1.",
+  "id": "A246488",
+  "mentions": [
+    "A002385"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

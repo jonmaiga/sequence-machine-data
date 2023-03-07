@@ -1,0 +1,20 @@
+{
+  "description": "Sequence produced by 14 X 14 Markov chain based on 14-vertex graph formed from direct product of two copies of the graph used in A120714.",
+  "id": "A120715",
+  "mentions": [
+    "A111384",
+    "A120714"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 18:26:32",
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

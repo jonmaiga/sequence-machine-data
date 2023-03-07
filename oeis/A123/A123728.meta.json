@@ -1,0 +1,19 @@
+{
+  "description": "Call (m,n) a \"(-1)SSU amicable pair\" if (-1)Sigma(m)*Sigma(m) = k*UnitaryPhi(m)*(m+n) and (-1)Sigma(n)*Sigma(n) = k*UnitaryPhi(n)*(m+n) for some integer k. Sequence gives values of m, assuming n <= m.",
+  "id": "A123728",
+  "mentions": [
+    "A123582",
+    "A123729"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

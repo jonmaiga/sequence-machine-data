@@ -1,0 +1,30 @@
+{
+  "description": "Number of integer partitions of n with edge-connectivity 1.",
+  "id": "A322391",
+  "mentions": [
+    "A007718",
+    "A013922",
+    "A054921",
+    "A095983",
+    "A218970",
+    "A275307",
+    "A304716",
+    "A305078",
+    "A305079",
+    "A322335",
+    "A322336",
+    "A322387",
+    "A322390"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

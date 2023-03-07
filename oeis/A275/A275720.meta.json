@@ -1,0 +1,23 @@
+{
+  "description": "a(1) = 0; for n > 1, if A003961(n) > A003961(n-1) then a(n) = a(n-1) + 1, otherwise if A003961(n) < A003961(n-1), then a(n) = a(n-1) - 1.",
+  "id": "A275720",
+  "mentions": [
+    "A003961",
+    "A275717",
+    "A275718",
+    "A275719",
+    "A275721",
+    "A275722"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

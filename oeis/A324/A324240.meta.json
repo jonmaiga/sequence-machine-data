@@ -1,0 +1,24 @@
+{
+  "description": "Number of simple 6-connected non-isomorphic n-vertex graphs.",
+  "id": "A324240",
+  "mentions": [
+    "A002218",
+    "A052443",
+    "A259862",
+    "A324088",
+    "A324092",
+    "A324235"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

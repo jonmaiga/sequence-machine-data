@@ -1,0 +1,29 @@
+{
+  "description": "Square array T(n,k) = floor(((k+1)^n-(1+(-1)^k)/2)/2) read by antidiagonals.",
+  "id": "A192396",
+  "mentions": [
+    "A000004",
+    "A000079",
+    "A003462",
+    "A004171",
+    "A004526",
+    "A007590",
+    "A036487",
+    "A081341",
+    "A128531",
+    "A191902",
+    "A191903"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

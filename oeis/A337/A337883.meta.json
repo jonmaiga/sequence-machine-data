@@ -1,0 +1,29 @@
+{
+  "description": "Array read by descending antidiagonals: T(n,k) is the number of oriented colorings of the triangular faces of a regular n-dimensional simplex using k or fewer colors.",
+  "id": "A337883",
+  "mentions": [
+    "A000027",
+    "A006008",
+    "A051168",
+    "A324999",
+    "A327083",
+    "A331350",
+    "A337884",
+    "A337885",
+    "A337886",
+    "A337887",
+    "A337891"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 2,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

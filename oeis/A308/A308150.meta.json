@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that sigma(k) mod k is prime, where sigma = A000203.",
+  "id": "A308150",
+  "mentions": [
+    "A000203",
+    "A000668",
+    "A037020",
+    "A054024",
+    "A075081"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

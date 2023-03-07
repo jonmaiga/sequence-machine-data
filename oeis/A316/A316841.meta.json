@@ -1,0 +1,32 @@
+{
+  "description": "Three-column table read by rows giving integer sides of proper triangles (i,j,k) with i >= j >= k >= 1, j+k > i.",
+  "id": "A316841",
+  "mentions": [
+    "A002620",
+    "A051493",
+    "A070080",
+    "A070081",
+    "A070082",
+    "A070110",
+    "A316842",
+    "A316843",
+    "A316844",
+    "A316845",
+    "A316849",
+    "A316851",
+    "A316853",
+    "A317182"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:35",
+    "offset": 1,
+    "size": 126,
+    "source": "oeis-bfile"
+  }
+}

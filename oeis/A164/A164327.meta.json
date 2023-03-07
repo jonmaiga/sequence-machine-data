@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest n-digit term of A158594 and zero if there is no such number.",
+  "id": "A164327",
+  "mentions": [
+    "A158594",
+    "A164328",
+    "A164330"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

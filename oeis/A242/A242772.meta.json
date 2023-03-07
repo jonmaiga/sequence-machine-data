@@ -1,0 +1,20 @@
+{
+  "description": "The lesser of twin primes p1 such that 2*p1 + p2 is a prime number (A174913) and also the lesser of other twin primes in A174913.",
+  "id": "A242772",
+  "mentions": [
+    "A001359",
+    "A174913",
+    "A174920",
+    "A242773"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

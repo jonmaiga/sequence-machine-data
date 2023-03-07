@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways of choosing the largest subset of {1,2,...,n} such that no two distinct elements differ by a perfect square > 1.",
+  "id": "A131753",
+  "mentions": [
+    "A100719",
+    "A131752",
+    "A131754"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

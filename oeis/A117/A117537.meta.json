@@ -1,0 +1,20 @@
+{
+  "description": "Locations of the midpoints of consecutive zeros of the Riemann zeta function on the critical line with increasingly large normalized spacing.",
+  "id": "A117537",
+  "mentions": [
+    "A117536",
+    "A117538",
+    "A117539"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

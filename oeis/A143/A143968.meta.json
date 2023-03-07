@@ -1,0 +1,19 @@
+{
+  "description": "Denominators of numbers with g.f. exp(1-(1-x)^(1/2)).",
+  "id": "A143968",
+  "mentions": [
+    "A001515",
+    "A143991"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

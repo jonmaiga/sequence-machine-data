@@ -1,0 +1,17 @@
+{
+  "description": "Numbers with more composite divisors than prime divisors such that all the prime divisors are smaller than the composite divisors.",
+  "id": "A253296",
+  "mentions": [
+    "A137428"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

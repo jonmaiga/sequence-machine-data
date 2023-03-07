@@ -1,0 +1,18 @@
+{
+  "description": "Partial sums of the number of active (ON,black) cells in n-th stage of growth of two-dimensional cellular automaton defined by \"Rule 726\", based on the 5-celled von Neumann neighborhood.",
+  "id": "A273451",
+  "mentions": [
+    "A273449"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:50",
+    "offset": 0,
+    "size": 44,
+    "source": "joeis"
+  }
+}

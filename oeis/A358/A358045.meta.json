@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of 2*(gamma + Re(Psi(i))).",
+  "id": "A358045",
+  "mentions": [
+    "A001620",
+    "A006003",
+    "A248177",
+    "A340012"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

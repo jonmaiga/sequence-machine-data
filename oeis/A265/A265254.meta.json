@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n having no even singletons.",
+  "id": "A265254",
+  "mentions": [
+    "A265253"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:44:11",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

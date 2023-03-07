@@ -1,0 +1,22 @@
+{
+  "description": "Largest number k such that the reduced totient function psi(k) = A002174(n).",
+  "id": "A143407",
+  "mentions": [
+    "A002174",
+    "A002322",
+    "A002396",
+    "A006863",
+    "A143408"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

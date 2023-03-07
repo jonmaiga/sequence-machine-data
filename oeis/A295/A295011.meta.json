@@ -1,0 +1,32 @@
+{
+  "description": "Numbers of the form HMMSS with primes H < 24 and MM, SS < 60, for which the number of seconds after midnight, 3600*H+60*MM+SS, is also prime.",
+  "id": "A295011",
+  "mentions": [
+    "A050246",
+    "A118848",
+    "A118849",
+    "A118850",
+    "A159911",
+    "A229106",
+    "A292579",
+    "A295000",
+    "A295002",
+    "A295003",
+    "A295004",
+    "A295013",
+    "A295014"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

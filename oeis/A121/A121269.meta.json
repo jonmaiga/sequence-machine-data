@@ -1,0 +1,25 @@
+{
+  "description": "Number of maximal sum-free subsets of {1,2,...,n}.",
+  "id": "A121269",
+  "mentions": [
+    "A007865",
+    "A103580",
+    "A326020",
+    "A326083",
+    "A326489",
+    "A326495",
+    "A326496",
+    "A326497",
+    "A326498"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

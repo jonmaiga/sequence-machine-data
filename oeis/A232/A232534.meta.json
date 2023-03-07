@@ -1,0 +1,20 @@
+{
+  "description": "Number of subsets of {1,...,n} containing n and having at least one set partition into 3 blocks with equal element sum.",
+  "id": "A232534",
+  "mentions": [
+    "A164934",
+    "A232466",
+    "A248112"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

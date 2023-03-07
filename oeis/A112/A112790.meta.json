@@ -1,0 +1,19 @@
+{
+  "description": "Array where a(1,1)=1 and m-th term of n-th row is number of terms of (n-1)th row which are coprime to the m-th divisor of n.",
+  "id": "A112790",
+  "mentions": [
+    "A000005",
+    "A112791"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

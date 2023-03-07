@@ -1,0 +1,19 @@
+{
+  "description": "Hosoya indices of the 2n-wheel graphs W_{2n}.",
+  "id": "A192858",
+  "mentions": [
+    "A120940"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:24:54",
+    "offset": 1,
+    "size": 31,
+    "source": "joeis"
+  }
+}

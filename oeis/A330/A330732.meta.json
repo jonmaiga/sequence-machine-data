@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest number whose odd hailstone sequence has length n (including 1 and itself) and is in descending order.",
+  "id": "A330732",
+  "mentions": [
+    "A078719",
+    "A092893",
+    "A182078"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

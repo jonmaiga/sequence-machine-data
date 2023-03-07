@@ -1,0 +1,23 @@
+{
+  "description": "1 followed by -1, -1, -1, ... .",
+  "id": "A153881",
+  "mentions": [
+    "A000040",
+    "A057427",
+    "A063524",
+    "A074206",
+    "A134824"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:39:27",
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

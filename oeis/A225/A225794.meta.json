@@ -1,0 +1,21 @@
+{
+  "description": "Sizes of Garden of Eden partitions in Bulgarian Solitaire, given in the same order as the runlength codes of the corresponding partitions (A227753).",
+  "id": "A225794",
+  "mentions": [
+    "A123975",
+    "A226062",
+    "A227183",
+    "A227753"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

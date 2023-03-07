@@ -1,0 +1,20 @@
+{
+  "description": "Smallest k such that when k is divided by all numbers <= k the remainder n occurs most often.",
+  "id": "A230399",
+  "mentions": [
+    "A002182",
+    "A072528",
+    "A230374"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:47",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

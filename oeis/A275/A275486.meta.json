@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Pi_3, the analog of Pi for generalized trigonometric functions of order p=3.",
+  "id": "A275486",
+  "mentions": [
+    "A263498"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

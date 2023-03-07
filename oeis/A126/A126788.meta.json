@@ -1,0 +1,18 @@
+{
+  "description": "Least prime q such that q*prime(n)# - 1 and q*prime(n)# + 1 are twin primes where p(i)# = i-th primorial.",
+  "id": "A126788",
+  "mentions": [
+    "A002110",
+    "A077800"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

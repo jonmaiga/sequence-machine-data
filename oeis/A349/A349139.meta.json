@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{d|n} A322582(d) * A348507(n/d), where A322582(n) = n - A003958(n) and A348507(n) = A003959(n) - n.",
+  "id": "A349139",
+  "mentions": [
+    "A003958",
+    "A003959",
+    "A305809",
+    "A322582",
+    "A348507",
+    "A349129"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

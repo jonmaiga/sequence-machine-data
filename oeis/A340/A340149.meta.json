@@ -1,0 +1,23 @@
+{
+  "description": "Odd part of A340147: a(n) = A000265(A247074(A003961(n))).",
+  "id": "A340149",
+  "mentions": [
+    "A000265",
+    "A003961",
+    "A247074",
+    "A340075",
+    "A340147",
+    "A340150"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

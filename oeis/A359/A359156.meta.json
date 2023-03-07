@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = 1 if the odd part of n is squarefree and the number of prime factors of n (with multiplicity) is even, otherwise 0.",
+  "id": "A359156",
+  "mentions": [
+    "A000265",
+    "A001222",
+    "A065043",
+    "A166486",
+    "A185199",
+    "A353627",
+    "A355689",
+    "A359157",
+    "A359158"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 125,
+    "source": "oeis-bfile"
+  }
+}

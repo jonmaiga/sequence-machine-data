@@ -1,0 +1,21 @@
+{
+  "description": "Primes formed by rearranging five consecutive decimal digits (avoiding leading 0).",
+  "id": "A156119",
+  "mentions": [
+    "A177119"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

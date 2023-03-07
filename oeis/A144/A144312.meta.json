@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 5*n*(5*n + 1)/2.",
+  "id": "A144312",
+  "mentions": [
+    "A000217",
+    "A014105",
+    "A033585",
+    "A081266"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

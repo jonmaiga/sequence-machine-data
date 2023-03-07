@@ -1,0 +1,19 @@
+{
+  "description": "Primes that are sum of three positive Fibonacci numbers.",
+  "id": "A179429",
+  "mentions": [
+    "A000040",
+    "A178576",
+    "A178991"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

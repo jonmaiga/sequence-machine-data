@@ -1,0 +1,20 @@
+{
+  "description": "Numerator of 2*Sum_{k=0..n} binomial(n,k)^2*binomial(n+k,k)^2*(H(n+k)-H(n-k)) where H(n)=Sum_{k=1..n} 1/k.",
+  "id": "A334886",
+  "mentions": [
+    "A001008",
+    "A002805",
+    "A334887"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

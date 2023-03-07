@@ -1,0 +1,17 @@
+{
+  "description": "Numbers which do not reach zero under the repeated iteration x -> floor(sqrt(x)) * (x - floor(sqrt(x))^2).",
+  "id": "A219303",
+  "mentions": [
+    "A007770"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

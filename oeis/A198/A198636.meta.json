@@ -1,0 +1,24 @@
+{
+  "description": "One half of total number of round trips, each of length 2n, on the graph P_6 (o-o-o-o-o-o).",
+  "id": "A198636",
+  "mentions": [
+    "A005248",
+    "A049310",
+    "A198632",
+    "A198633",
+    "A198635"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

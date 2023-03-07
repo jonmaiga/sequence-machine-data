@@ -1,0 +1,31 @@
+{
+  "description": "Numbers with an even number of square divisors.",
+  "id": "A252849",
+  "mentions": [
+    "A000290",
+    "A008833",
+    "A030140",
+    "A038109",
+    "A046951",
+    "A082293",
+    "A182448",
+    "A217319",
+    "A225546",
+    "A252895",
+    "A331590",
+    "A335324",
+    "A336593",
+    "A336594"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:11",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

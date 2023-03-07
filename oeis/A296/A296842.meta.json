@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of e.g.f. cos(x*tan(x/2)) (even powers only).",
+  "id": "A296842",
+  "mentions": [
+    "A001469",
+    "A003710",
+    "A009080",
+    "A110501",
+    "A296839",
+    "A296841"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:13",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

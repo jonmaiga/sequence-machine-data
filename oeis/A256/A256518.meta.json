@@ -1,0 +1,20 @@
+{
+  "description": "Consider numbers n = concat(x,y,z) such that the product x*y*z | n. Leading zeros in y and z allowed. Sequence lists numbers that admit different concatenations.",
+  "id": "A256518",
+  "mentions": [
+    "A007602",
+    "A255725",
+    "A255726"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

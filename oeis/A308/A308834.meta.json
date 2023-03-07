@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest error in trying to solve n^4 = x^4 + y^4. That is, for each n from 2 on, find positive integers x and y, x <= y < n such that |n^4 - x^4 - y^4| is minimal and let a(n) = n^4 - x^4 - y^4.",
+  "id": "A308834",
+  "mentions": [
+    "A135998"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 2,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

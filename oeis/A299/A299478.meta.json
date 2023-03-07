@@ -1,0 +1,23 @@
+{
+  "description": "Toothpick sequence on triangular grid with word \"abcbc\".",
+  "id": "A299478",
+  "mentions": [
+    "A139250",
+    "A160120",
+    "A296510",
+    "A296612",
+    "A299476",
+    "A299479"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

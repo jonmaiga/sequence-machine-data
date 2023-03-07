@@ -1,0 +1,24 @@
+{
+  "description": "a(2) = 1, a(3k) = a(3k+1) = a(2k), a(3k+2) = 2a(2k+1) for k >= 1.",
+  "id": "A205592",
+  "mentions": [
+    "A205591",
+    "A205593",
+    "A205594",
+    "A205595",
+    "A205596",
+    "A335933"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:25",
+    "offset": 2,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

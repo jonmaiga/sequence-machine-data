@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of lim_{m->oo} (1/log(m))*Sum_{k=1..m} 1/usigma(k), where usigma(k) is the sum of unitary divisors of k (A034448).",
+  "id": "A308041",
+  "mentions": [
+    "A034448",
+    "A308039"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

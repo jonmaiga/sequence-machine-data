@@ -1,0 +1,21 @@
+{
+  "description": "Indices i such that A305671(i) != A305671(i-1).",
+  "id": "A305674",
+  "mentions": [
+    "A305671",
+    "A305672",
+    "A305673",
+    "A305675",
+    "A305676"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle T(n,k) read by rows in which row n lists the iterates of the Farkas map (A349407) from 2n-1 to 1.",
+  "id": "A350279",
+  "mentions": [
+    "A070165",
+    "A349407"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Primes p such that (p^2-5)/4 is prime.",
+  "id": "A118941",
+  "mentions": [
+    "A048161",
+    "A062324",
+    "A062326",
+    "A062718",
+    "A109953",
+    "A110589",
+    "A118915",
+    "A118918",
+    "A118939",
+    "A118940",
+    "A118942"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "G.f.: 1/(1-2*x-3*x^2)^(5/2).",
+  "id": "A245551",
+  "mentions": [
+    "A000108",
+    "A001006",
+    "A002426",
+    "A102839"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

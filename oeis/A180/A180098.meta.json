@@ -1,0 +1,21 @@
+{
+  "description": "Sigma(A180097(n)), sum of divisors of A180097(n), numbers n such that sigma(n) is powerful.",
+  "id": "A180098",
+  "mentions": [
+    "A000203",
+    "A001694",
+    "A180090",
+    "A180097"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

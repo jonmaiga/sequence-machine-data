@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the constant describing the average number of edges of a random labeled planar graph with n vertices.",
+  "id": "A267409",
+  "mentions": [
+    "A266389",
+    "A266390",
+    "A267410",
+    "A267412"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:29",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

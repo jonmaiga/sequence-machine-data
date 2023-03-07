@@ -1,0 +1,18 @@
+{
+  "description": "Semiprimes a such that there exist three semiprimes b, c and d with a^3=b^3+c^3+d^3.",
+  "id": "A113490",
+  "mentions": [
+    "A001358",
+    "A114923"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

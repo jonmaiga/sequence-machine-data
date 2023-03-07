@@ -1,0 +1,18 @@
+{
+  "description": "Number of length n+3 0..4 arrays with no four elements in a row with pattern aabb (with a!=b) and new values 0..4 introduced in 0..4 order",
+  "id": "A242580",
+  "mentions": [
+    "A242584"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

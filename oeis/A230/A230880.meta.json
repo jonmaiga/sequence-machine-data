@@ -1,0 +1,22 @@
+{
+  "description": "Number of 2-packed matrices with exactly n nonzero entries.",
+  "id": "A230880",
+  "mentions": [
+    "A048291",
+    "A055599",
+    "A104602",
+    "A230878",
+    "A230879"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:48",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

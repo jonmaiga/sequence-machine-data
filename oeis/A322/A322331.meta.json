@@ -1,0 +1,21 @@
+{
+  "description": "Number of 4-colored connected graphs on n labeled nodes up to permutation of the colors.",
+  "id": "A322331",
+  "mentions": [
+    "A001832",
+    "A058873",
+    "A322064",
+    "A322278",
+    "A322330"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 4,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

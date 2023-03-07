@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the imaginary part (negated) of the limit (2N -> infinity) of Integral_{1..2N} exp(i*Pi*x)*x^(1/x) dx.",
+  "id": "A255728",
+  "mentions": [
+    "A157852",
+    "A255727"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

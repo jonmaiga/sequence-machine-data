@@ -1,0 +1,26 @@
+{
+  "description": "Numbers whose squares remain squares when prepended with 9 and appended with 25 in base 10.",
+  "id": "A250435",
+  "mentions": [
+    "A249621",
+    "A249968",
+    "A249969",
+    "A249970",
+    "A249971",
+    "A249972",
+    "A250433",
+    "A250434"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

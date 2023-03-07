@@ -1,0 +1,18 @@
+{
+  "description": "Number of length n+2 0..9 arrays with no three elements in a row with pattern aba (with a!=b) and new values 0..9 introduced in 0..9 order",
+  "id": "A243606",
+  "mentions": [
+    "A243607"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

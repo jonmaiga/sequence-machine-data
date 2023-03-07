@@ -1,0 +1,19 @@
+{
+  "description": "Largest prime with strictly ascending consecutive digits in base n.",
+  "id": "A344549",
+  "mentions": [
+    "A006055",
+    "A138141"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 3,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

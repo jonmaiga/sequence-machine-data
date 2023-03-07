@@ -1,0 +1,21 @@
+{
+  "description": "Number of canonical generators for Z_3 + Z_n.",
+  "id": "A238101",
+  "mentions": [
+    "A002956",
+    "A082641",
+    "A238100",
+    "A238102"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 2,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

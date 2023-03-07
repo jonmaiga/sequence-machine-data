@@ -1,0 +1,29 @@
+{
+  "description": "Triangle read by rows: coefficients in the expansion cos(x)^n = (1/2)^n * Sum_{k=0..n} T(n,k) * cos(k*x).",
+  "id": "A273496",
+  "mentions": [
+    "A000984",
+    "A001790",
+    "A038533",
+    "A038534",
+    "A046161",
+    "A244420",
+    "A244421",
+    "A273167",
+    "A273168",
+    "A273506",
+    "A273507"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

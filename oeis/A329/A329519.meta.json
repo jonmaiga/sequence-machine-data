@@ -1,0 +1,22 @@
+{
+  "description": "Squares visited by a knight moving on a square-spiral numbered board where the knight moves to an unvisited square with the lowest spiral number and with six or fewer visited neighbors. It only moves to squares with seven or more visited neighbors when no other square is available; if two or more such squares are present it chooses the square with the fewest neighbors, then the square with the lowest spiral number if still tied.",
+  "id": "A329519",
+  "mentions": [
+    "A316667",
+    "A323714",
+    "A329518",
+    "A329520"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "fini",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

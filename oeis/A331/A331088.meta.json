@@ -1,0 +1,24 @@
+{
+  "description": "Positive numbers k such that -k is a negative negaFibonacci-Niven number, i.e., divisible by the number of terms in its negaFibonacci representation (A331084).",
+  "id": "A331088",
+  "mentions": [
+    "A005349",
+    "A215023",
+    "A328208",
+    "A328212",
+    "A331083",
+    "A331084",
+    "A331085"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

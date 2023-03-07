@@ -1,0 +1,22 @@
+{
+  "description": "Transpose of A225630.",
+  "id": "A225631",
+  "mentions": [
+    "A002262",
+    "A025581",
+    "A225630",
+    "A225632",
+    "A225634"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

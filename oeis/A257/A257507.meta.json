@@ -1,0 +1,23 @@
+{
+  "description": "Row 2 of A257264: a(n) = A011371(A055938(n)).",
+  "id": "A257507",
+  "mentions": [
+    "A011371",
+    "A055938",
+    "A179016",
+    "A257264",
+    "A257508",
+    "A257512"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Third accumulation array of the polygonal number array (A086270), by antidiagonals.",
+  "id": "A185734",
+  "mentions": [
+    "A086270",
+    "A144112",
+    "A144257",
+    "A184734",
+    "A185732",
+    "A185733"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

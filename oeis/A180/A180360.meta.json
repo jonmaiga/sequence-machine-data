@@ -1,0 +1,20 @@
+{
+  "description": "Table t(n,k) is the number of ways to partition 1 into k fractions using the Farey fractions of order n, read row by row.",
+  "id": "A180360",
+  "mentions": [
+    "A000012",
+    "A046657",
+    "A119983"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

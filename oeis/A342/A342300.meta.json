@@ -1,0 +1,27 @@
+{
+  "description": "Least nonnegative number greater than the previous number which is simultaneously an n-gonal and (n+1)-gonal number.",
+  "id": "A342300",
+  "mentions": [
+    "A001110",
+    "A036353",
+    "A046180",
+    "A048903",
+    "A048906",
+    "A048924",
+    "A189216",
+    "A203627",
+    "A303295"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:49:57",
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

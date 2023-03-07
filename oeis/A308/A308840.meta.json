@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of n into 5 squarefree parts.",
+  "id": "A308840",
+  "mentions": [
+    "A008683",
+    "A308839"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

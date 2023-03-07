@@ -1,0 +1,23 @@
+{
+  "description": "Primes p such that d(p*(2p+1)) = 8 where d(n) is the number of divisors of n (A000005).",
+  "id": "A276045",
+  "mentions": [
+    "A000005",
+    "A030513",
+    "A030626",
+    "A104164",
+    "A234095",
+    "A276095"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

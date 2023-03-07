@@ -1,0 +1,29 @@
+{
+  "description": "Numbers k such that phi(k) + sigma(k) = reversal(k) - 1.",
+  "id": "A237522",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A004086",
+    "A070272",
+    "A136544",
+    "A230004",
+    "A230005",
+    "A230006",
+    "A230019",
+    "A237521"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

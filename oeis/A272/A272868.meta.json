@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows, T(n,k) = 2^k*GegenbauerC(k,-n,-1/4), for n>=0 and 0<=k<=n.",
+  "id": "A272868",
+  "mentions": [
+    "A084605",
+    "A091147",
+    "A098520"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

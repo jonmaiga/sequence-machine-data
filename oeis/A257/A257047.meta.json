@@ -1,0 +1,19 @@
+{
+  "description": "Numbers not having trace 1 in their enhanced squares representation, see A256913.",
+  "id": "A257047",
+  "mentions": [
+    "A256913",
+    "A256914",
+    "A257046"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(0) = 0; a(n) = n^3 - (1/n) * Sum_{k=1..n-1} binomial(n,k)^2 * (n-k)^3 * k * a(k).",
+  "id": "A337825",
+  "mentions": [
+    "A002190",
+    "A101981",
+    "A300452",
+    "A337590",
+    "A337824",
+    "A337826"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

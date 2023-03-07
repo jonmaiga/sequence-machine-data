@@ -1,0 +1,18 @@
+{
+  "description": "Least k such that n divides the k-th difference between distinct pairs of numbers 3^j-2^j.",
+  "id": "A205106",
+  "mentions": [
+    "A204892",
+    "A205000"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 09:45:32",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

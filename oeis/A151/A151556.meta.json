@@ -1,0 +1,21 @@
+{
+  "description": "Values of (n^5+47*n)/48 as n ranges over the numbers that are == +-1 mod 6.",
+  "id": "A151556",
+  "mentions": [
+    "A001032",
+    "A007310",
+    "A097812"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:11:07",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

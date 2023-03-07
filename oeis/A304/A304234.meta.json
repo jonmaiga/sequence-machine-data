@@ -1,0 +1,27 @@
+{
+  "description": "Superior highly composite numbers that are superabundant but not colossally abundant.",
+  "id": "A304234",
+  "mentions": [
+    "A001221",
+    "A002110",
+    "A002182",
+    "A002201",
+    "A004394",
+    "A004490",
+    "A166981",
+    "A224078",
+    "A301414",
+    "A304235"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

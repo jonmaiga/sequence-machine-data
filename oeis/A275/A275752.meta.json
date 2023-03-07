@@ -1,0 +1,19 @@
+{
+  "description": "Self-convolution square root of the odd bisection of A274965.",
+  "id": "A275752",
+  "mentions": [
+    "A274965",
+    "A275670",
+    "A275751"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

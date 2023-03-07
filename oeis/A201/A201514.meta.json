@@ -1,0 +1,21 @@
+{
+  "description": "A list of 52 distinct numbers such that the sum of their reciprocals is 1 and each number is of the form p*q where p and q are distinct primes.",
+  "id": "A201514",
+  "mentions": [
+    "A201463",
+    "A201464",
+    "A201650"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

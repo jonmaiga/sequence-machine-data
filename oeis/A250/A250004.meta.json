@@ -1,0 +1,18 @@
+{
+  "description": "Numbers representable as x^y + x*y, where x>1, y>1 are integers (without multiplicity).",
+  "id": "A250004",
+  "mentions": [
+    "A024036",
+    "A253775"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

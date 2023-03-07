@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(n,k)*k!!*(n - k)!!.",
+  "id": "A305578",
+  "mentions": [
+    "A000165",
+    "A001563",
+    "A002866",
+    "A006882",
+    "A305577"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

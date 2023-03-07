@@ -1,0 +1,23 @@
+{
+  "description": "Denominator of partial sums of the m=1 member of an m-family of series considered by Hardy with value 4/Pi (see A088538).",
+  "id": "A278145",
+  "mentions": [
+    "A000165",
+    "A001147",
+    "A088538",
+    "A161736"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Split the infinite binary word A030302, from left to right, into the largest possible cubefree chunks; a(n) = length of n-th cubefree chunk.",
+  "id": "A293843",
+  "mentions": [
+    "A028445",
+    "A030190",
+    "A030302",
+    "A286262",
+    "A293867",
+    "A293868"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:10",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Number of different strings of length n obtained from \"abcdef\" by iteratively duplicating any substring.",
+  "id": "A137746",
+  "mentions": [
+    "A135473",
+    "A137740",
+    "A137741",
+    "A137742",
+    "A137743",
+    "A137744",
+    "A137745",
+    "A137747",
+    "A137748"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

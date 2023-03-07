@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = p-s, where s = Sum_{i=1..n} prime(i) and p = primepi(prime(n)^2).",
+  "id": "A276824",
+  "mentions": [
+    "A000879",
+    "A007504"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

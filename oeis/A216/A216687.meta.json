@@ -1,0 +1,19 @@
+{
+  "description": "Odd numbers > 10 that can be written as m*s - m + 1, where s is the sum of their digits and m >= 1.",
+  "id": "A216687",
+  "mentions": [
+    "A002997"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

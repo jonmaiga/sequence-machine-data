@@ -1,0 +1,22 @@
+{
+  "description": "Numerators of approximants of a continued fraction for 4/Pi - 1 = (4 - Pi)/Pi.",
+  "id": "A142969",
+  "mentions": [
+    "A007509",
+    "A024199"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "cofr",
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

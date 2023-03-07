@@ -1,0 +1,21 @@
+{
+  "description": "Primes of the form ((0!)^2+(1!)^2+(2!)^2+...+(n!)^2)/6.",
+  "id": "A101746",
+  "mentions": [
+    "A061062",
+    "A100288",
+    "A100289",
+    "A101747"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-bfile"
+  }
+}

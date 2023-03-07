@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of Product_{k>=2} 1/(1 - x^(Fibonacci(k)^2)).",
+  "id": "A280168",
+  "mentions": [
+    "A000119",
+    "A000121",
+    "A001156",
+    "A003107",
+    "A007000",
+    "A007598",
+    "A238999",
+    "A239002"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:12",
+    "offset": 0,
+    "size": 83,
+    "source": "joeis"
+  }
+}

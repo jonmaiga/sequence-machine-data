@@ -1,0 +1,20 @@
+{
+  "description": "Number whose sum and product of ternary representation digits are equal.",
+  "id": "A337296",
+  "mentions": [
+    "A000325",
+    "A032924",
+    "A034710"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the unsigned ratio of similitude between an equilateral reference triangle and its first Morley triangle.",
+  "id": "A359837",
+  "mentions": [
+    "A019819",
+    "A019829",
+    "A019879",
+    "A020760"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

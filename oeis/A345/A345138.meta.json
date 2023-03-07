@@ -1,0 +1,22 @@
+{
+  "description": "a(1) = 1, a(2) = 0; a(n+2) = Sum_{d|n, d < n} a(d).",
+  "id": "A345138",
+  "mentions": [
+    "A007439",
+    "A074206",
+    "A167865",
+    "A345137",
+    "A345141"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

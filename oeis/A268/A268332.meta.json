@@ -1,0 +1,21 @@
+{
+  "description": "Squarefree numbers differing by more than 3 from any other squarefree number.",
+  "id": "A268332",
+  "mentions": [
+    "A005117",
+    "A073247",
+    "A268331",
+    "A268333",
+    "A268334"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

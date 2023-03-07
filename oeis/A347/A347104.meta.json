@@ -1,0 +1,30 @@
+{
+  "description": "Dirichlet g.f.: primezeta(s-1) * zeta(s-1) / zeta(s).",
+  "id": "A347104",
+  "mentions": [
+    "A000010",
+    "A001221",
+    "A008472",
+    "A010051",
+    "A018804",
+    "A050873",
+    "A061397",
+    "A078439",
+    "A117494",
+    "A122411",
+    "A255655",
+    "A328260",
+    "A329354"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of different fixed (possibly) disconnected trominoes bounded (not necessarily tightly) by an n*n square",
+  "id": "A162673",
+  "mentions": [
+    "A094170",
+    "A162674",
+    "A162676",
+    "A162677"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:18:19",
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Least number which reaches n under the operation introduced in A100787: first differences are the digits of the sequence.",
+  "id": "A211206",
+  "mentions": [
+    "A100787"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

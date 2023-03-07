@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest integer k (k>=2) such that 13...3 (1 followed by n 3's) mod k is even.",
+  "id": "A336019",
+  "mentions": [
+    "A097166"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

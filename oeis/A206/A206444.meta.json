@@ -1,0 +1,20 @@
+{
+  "description": "Least n such that L(n)<-1 and L(n)",
+  "id": "A206444",
+  "mentions": [
+    "A072197",
+    "A206074",
+    "A206284",
+    "A206443"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

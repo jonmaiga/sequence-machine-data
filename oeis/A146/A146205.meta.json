@@ -1,0 +1,25 @@
+{
+  "description": "Number of paths of the simple random walk on condition that the median applied to the partial sums S_0=0, S_1,...,S_n, n odd (n=15 in this example), is equal to half-integer values k+1/2, -[n/2]-1<=k<=[n/2].",
+  "id": "A146205",
+  "mentions": [
+    "A029460",
+    "A029466",
+    "A108347",
+    "A117692",
+    "A135553",
+    "A137272",
+    "A146206",
+    "A146207"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

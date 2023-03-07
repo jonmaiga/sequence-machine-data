@@ -1,0 +1,27 @@
+{
+  "description": "Number of solutions k of prime(k)=prime(n) (mod n), where 1<=k",
+  "id": "A206588",
+  "mentions": [
+    "A057918",
+    "A072480",
+    "A206589",
+    "A206590",
+    "A206713",
+    "A206714",
+    "A206824",
+    "A206825",
+    "A206826",
+    "A206827",
+    "A206828"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 2,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Smallest natural number whose cube is the sum of n cubes of distinct natural numbers, or 0 if no such number exists.",
+  "id": "A130012",
+  "mentions": [
+    "A007666",
+    "A130022"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

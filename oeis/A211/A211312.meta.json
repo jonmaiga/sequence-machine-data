@@ -1,0 +1,20 @@
+{
+  "description": "Square array of Delannoy numbers D(i,j) mod 3 (i >= 0, j >= 0) read by antidiagonals.",
+  "id": "A211312",
+  "mentions": [
+    "A008288",
+    "A211315"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

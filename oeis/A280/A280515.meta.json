@@ -1,0 +1,20 @@
+{
+  "description": "Amicable pairs where only abundant aliquot parts are considered.",
+  "id": "A280515",
+  "mentions": [
+    "A063990",
+    "A259180",
+    "A280516"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

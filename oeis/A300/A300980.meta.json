@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of n into distinct parts having the same number of distinct prime divisors as n.",
+  "id": "A300980",
+  "mentions": [
+    "A001221",
+    "A300977",
+    "A300978",
+    "A300979",
+    "A300982",
+    "A300983"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the median of the primes between n^2 and (n+1)^2.",
+  "id": "A349791",
+  "mentions": [
+    "A000290",
+    "A000720",
+    "A014085",
+    "A309359",
+    "A349792"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 2,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

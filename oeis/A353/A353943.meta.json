@@ -1,0 +1,25 @@
+{
+  "description": "Smallest b > 1 such that b^(p-1) == 1 (mod p^10) for p = prime(n).",
+  "id": "A353943",
+  "mentions": [
+    "A039678",
+    "A249275",
+    "A257833",
+    "A353937",
+    "A353938",
+    "A353939",
+    "A353940",
+    "A353941",
+    "A353942"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

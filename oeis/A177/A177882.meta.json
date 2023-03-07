@@ -1,0 +1,22 @@
+{
+  "description": "Trisection of A001317.",
+  "id": "A177882",
+  "mentions": [
+    "A001317",
+    "A001969",
+    "A005190",
+    "A007318",
+    "A008287"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

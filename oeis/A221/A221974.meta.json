@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that A161914(n) = 0.",
+  "id": "A221974",
+  "mentions": [
+    "A002410",
+    "A161914",
+    "A208436"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

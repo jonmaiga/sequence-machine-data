@@ -1,0 +1,19 @@
+{
+  "description": "Denominators of Egyptian fraction expansion of e, without repetition.",
+  "id": "A243369",
+  "mentions": [
+    "A001113",
+    "A073422",
+    "A243020"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Number of digits in 5^n.",
+  "id": "A210435",
+  "mentions": [
+    "A000351",
+    "A034887",
+    "A034888",
+    "A055642",
+    "A210062",
+    "A210434",
+    "A210436"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

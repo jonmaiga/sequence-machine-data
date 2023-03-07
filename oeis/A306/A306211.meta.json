@@ -1,0 +1,34 @@
+{
+  "description": "Concatenation of the current sequence with the lengths of the runs in the sequence, with a(1) = 1.",
+  "id": "A306211",
+  "mentions": [
+    "A000002",
+    "A090822",
+    "A107946",
+    "A306215",
+    "A306222",
+    "A306223",
+    "A306333",
+    "A323475",
+    "A323476",
+    "A323477",
+    "A323478",
+    "A323479",
+    "A323480",
+    "A323481",
+    "A323826",
+    "A323827",
+    "A323829"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

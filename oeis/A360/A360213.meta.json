@@ -1,0 +1,23 @@
+{
+  "description": "Number of distinct stable marriage problem instances up to gender exchange.",
+  "id": "A360213",
+  "mentions": [
+    "A000217",
+    "A036740",
+    "A185141",
+    "A343700",
+    "A351409"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

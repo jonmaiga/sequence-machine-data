@@ -1,0 +1,20 @@
+{
+  "description": "Values in A054973 larger than 1.",
+  "id": "A159953",
+  "mentions": [
+    "A000203",
+    "A007609",
+    "A054973",
+    "A159886"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

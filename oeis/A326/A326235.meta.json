@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that N = (35k)^6 is a twin rank (A002822: 6N +- 1 are twin primes).",
+  "id": "A326235",
+  "mentions": [
+    "A002822",
+    "A326230",
+    "A326231",
+    "A326232",
+    "A326233",
+    "A326234",
+    "A326236"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

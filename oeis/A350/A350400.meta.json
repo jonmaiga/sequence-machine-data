@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least k with A350399(k) = n, or 0 if there is no such k.",
+  "id": "A350400",
+  "mentions": [
+    "A350399"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

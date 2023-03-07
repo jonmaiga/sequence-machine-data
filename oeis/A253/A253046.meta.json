@@ -1,0 +1,24 @@
+{
+  "description": "An involution of the natural numbers: if n = 2*p_i then replace n with 3*p_{i+1}, and conversely if n = 3*p_i then replace n with 2*p_{i-1}, where p_i denotes the i-th prime.",
+  "id": "A253046",
+  "mentions": [
+    "A000040",
+    "A001748",
+    "A020639",
+    "A049084",
+    "A064614",
+    "A100484",
+    "A251561",
+    "A253106"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:11",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

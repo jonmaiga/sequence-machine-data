@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are representable in at least two ways as sums of four distinct nonvanishing squares.",
+  "id": "A259058",
+  "mentions": [
+    "A004433",
+    "A223727",
+    "A259059",
+    "A259060"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:03:01",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

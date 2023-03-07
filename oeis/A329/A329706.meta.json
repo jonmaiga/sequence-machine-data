@@ -1,0 +1,19 @@
+{
+  "description": "Odd numbers k such that Sum_{j=1..(k-1)/2, gcd(j,k)=1} 1/j == -2*q_2(k) + k*q_2(k)^2 (mod k^3), where q_2(k) = (2^phi(k) - 1)/k is the Euler quotient of k to base 2.",
+  "id": "A329706",
+  "mentions": [
+    "A000010",
+    "A001226"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

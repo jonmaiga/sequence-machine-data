@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(n,k): base-3 digit sum of the Pascal type triangle A102363(n,k).",
+  "id": "A129636",
+  "mentions": [
+    "A053735",
+    "A102363"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

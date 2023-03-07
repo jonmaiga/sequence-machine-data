@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive numbers such that for any n > 0, the first nonzero digit of a(n+1)/a(n) is \"8\".",
+  "id": "A328759",
+  "mentions": [
+    "A328752"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

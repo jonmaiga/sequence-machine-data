@@ -1,0 +1,22 @@
+{
+  "description": "Indices of records in A332040.",
+  "id": "A332041",
+  "mentions": [
+    "A051377",
+    "A145899",
+    "A289132",
+    "A332037",
+    "A332039",
+    "A332040"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

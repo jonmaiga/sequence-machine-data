@@ -1,0 +1,22 @@
+{
+  "description": "G.f. A(x) satisfies: [x^n] (1+x)^(n^2) / A(x) = 0 for n > 0.",
+  "id": "A304191",
+  "mentions": [
+    "A132615",
+    "A132617",
+    "A304190",
+    "A304192",
+    "A304193"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

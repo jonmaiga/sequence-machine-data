@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,k) read by rows: T(n,0) = A002110(n) and T(n,k) = A002110(n)/prime(k) for 1<=k<=n.",
+  "id": "A121281",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A024528",
+    "A070826"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

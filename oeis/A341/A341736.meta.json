@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the label of the square of the n-th element in the semigroup S = {(0,0), (i,j): i >= j >= 1}.",
+  "id": "A341736",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A037270",
+    "A123578",
+    "A161680",
+    "A341317",
+    "A341318"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

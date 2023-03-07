@@ -1,0 +1,23 @@
+{
+  "description": "Row 6 of rectangular table A124460.",
+  "id": "A124466",
+  "mentions": [
+    "A124460",
+    "A124461",
+    "A124462",
+    "A124463",
+    "A124464",
+    "A124465"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

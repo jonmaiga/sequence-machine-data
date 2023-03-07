@@ -1,0 +1,40 @@
+{
+  "description": "A(n,k) is the number of moduli m such that the multiplicative order of k mod m equals n; square array A(n,k), n>=1, k>=1, read by antidiagonals.",
+  "id": "A212957",
+  "mentions": [
+    "A000004",
+    "A000005",
+    "A008683",
+    "A059499",
+    "A059885",
+    "A059886",
+    "A059887",
+    "A059888",
+    "A059889",
+    "A059890",
+    "A059891",
+    "A059892",
+    "A059907",
+    "A059908",
+    "A059909",
+    "A059910",
+    "A059911",
+    "A218256",
+    "A218257",
+    "A218258",
+    "A218259",
+    "A252760"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:48",
+    "offset": 1,
+    "size": 78,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Smallest positive integer k such that the sum of the proper divisors of k gives the n-th prime, or 0 if prime(n) belongs to A005114.",
+  "id": "A177900",
+  "mentions": [
+    "A005114",
+    "A037020",
+    "A070015"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Length of the maximal prefix of noncomposite numbers on row n of A249821.",
+  "id": "A250473",
+  "mentions": [
+    "A000879",
+    "A054272",
+    "A249821",
+    "A250474",
+    "A251721",
+    "A251722"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:49",
+    "offset": 1,
+    "size": 67,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the sum of the two preceding terms if n is odd, or of the two preceding digits if n is even, with a(0) = 0, a(1) = 1.",
+  "id": "A345097",
+  "mentions": [
+    "A000045",
+    "A345095"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

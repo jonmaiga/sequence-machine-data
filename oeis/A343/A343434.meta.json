@@ -1,0 +1,21 @@
+{
+  "description": "Sorted numbers of (undirected) Hamiltonian cycles in the graphs of the Catalan solids (the Archimedean duals).",
+  "id": "A343434",
+  "mentions": [
+    "A268283",
+    "A343211",
+    "A343433"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

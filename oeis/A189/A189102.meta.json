@@ -1,0 +1,23 @@
+{
+  "description": "Greatest common divisor of n! and its arithmetic derivative.",
+  "id": "A189102",
+  "mentions": [
+    "A000142",
+    "A068311",
+    "A083346",
+    "A085731",
+    "A086130",
+    "A189100"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

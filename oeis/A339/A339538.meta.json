@@ -1,0 +1,26 @@
+{
+  "description": "Irregular table read by rows: The number of k-faced polyhedra, where k>=4, created when an elongated n-bipyramid, with faces that are squares and equilateral triangles, is internally cut by all the planes defined by any three of its vertices.",
+  "id": "A339538",
+  "mentions": [
+    "A338622",
+    "A338801",
+    "A338808",
+    "A338825",
+    "A339348",
+    "A339349",
+    "A339528"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 3,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

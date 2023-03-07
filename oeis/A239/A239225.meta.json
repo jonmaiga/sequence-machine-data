@@ -1,0 +1,20 @@
+{
+  "description": "Denominator of 2n/v(n)^2, where v(1) = 0, v(2) = 1, and v(n) = v(n-1)/(n-2) + v(n-2) for n >= 3. (Limit of 2n/v(n)^2 is Pi.)",
+  "id": "A239225",
+  "mentions": [
+    "A000796",
+    "A239224"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:56",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

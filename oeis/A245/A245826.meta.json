@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(m,n) is the Szeged index of the grid graph P_m X P_n (1 <= n <= m).",
+  "id": "A245826",
+  "mentions": [
+    "A000292",
+    "A063521",
+    "A245827",
+    "A245828",
+    "A245940",
+    "A245941"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triangle defined by T(n,k) = Sum_{j=0..k} C(k,j)*T(n-1,j+k) for n>k>0 with T(n,0)=T(n,n)=1, read by rows.",
+  "id": "A152798",
+  "mentions": [
+    "A101494",
+    "A122888",
+    "A122889",
+    "A152799"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

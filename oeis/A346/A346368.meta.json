@@ -1,0 +1,20 @@
+{
+  "description": "Odd numbers that can be written in a single way as 2*k^2+p, k>0, p prime.",
+  "id": "A346368",
+  "mentions": [
+    "A046920",
+    "A046921",
+    "A046923",
+    "A060003"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Quasiperiods of the ternary tribonacci sequence (A080843).",
+  "id": "A308525",
+  "mentions": [
+    "A080843"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

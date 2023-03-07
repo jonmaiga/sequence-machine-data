@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the m-th prime, where m is the number of distinct prime factors of n (A001221), a(1) = 1.",
+  "id": "A105561",
+  "mentions": [
+    "A000040",
+    "A001221",
+    "A105555",
+    "A105560"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:56",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

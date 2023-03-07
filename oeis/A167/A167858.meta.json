@@ -1,0 +1,23 @@
+{
+  "description": "A000004 preceded by 3, 14, 36, 36, 12.",
+  "id": "A167858",
+  "mentions": [
+    "A000004",
+    "A130706",
+    "A130779",
+    "A166926",
+    "A166941"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:43:37",
+    "offset": 0,
+    "size": 103,
+    "source": "joeis"
+  }
+}

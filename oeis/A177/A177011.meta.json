@@ -1,0 +1,19 @@
+{
+  "description": "Define two triangular arrays by: B(0,0)=C(0,0)=1, B(0,r)=C(0,r)=0 for r>0, C(t,-1)=C(t,0); and for t,r >= 0, B(t+1,r)=C(t,r-1)+2C(t,r)-B(t,r), C(t+1,r)=B(t+1,r)+2B(t+1,r+1)-C(t,r). Sequence gives array B(t,r) read by rows.",
+  "id": "A177011",
+  "mentions": [
+    "A177020"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

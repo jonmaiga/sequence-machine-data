@@ -1,0 +1,22 @@
+{
+  "description": "Primes of the form 4^k + 4^m - 1, where k and m are positive integers.",
+  "id": "A234310",
+  "mentions": [
+    "A000040",
+    "A000302",
+    "A000668",
+    "A233346",
+    "A233393",
+    "A234309"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

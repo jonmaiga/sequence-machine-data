@@ -1,0 +1,35 @@
+{
+  "description": "Square array A(n,t), n>=0, t>=0, read by antidiagonals: A(n,t) is the number of t-core partitions of n.",
+  "id": "A175595",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000041",
+    "A000094",
+    "A010054",
+    "A033687",
+    "A045831",
+    "A053691",
+    "A053723",
+    "A053724",
+    "A060576",
+    "A081622",
+    "A086642",
+    "A182803",
+    "A182804",
+    "A182805",
+    "A192061"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

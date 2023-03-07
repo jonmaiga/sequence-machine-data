@@ -1,0 +1,18 @@
+{
+  "description": "Sum phi(k), where the sum is over the integers k which are the \"isolated divisors\" of n and phi(k) is the Euler totient function (phi(k) = A000010(k)). A positive divisor, k, of n is isolated if neither (k-1) nor (k+1) divides n.",
+  "id": "A133945",
+  "mentions": [
+    "A000010",
+    "A133946"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

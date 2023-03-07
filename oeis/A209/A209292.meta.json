@@ -1,0 +1,23 @@
+{
+  "description": "Non-semiprimes n such that 2n+1 are non-semiprimes.",
+  "id": "A209292",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A005384",
+    "A100959",
+    "A209271"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

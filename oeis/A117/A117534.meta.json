@@ -1,0 +1,18 @@
+{
+  "description": "Inverse permutation to sequence A117532 (if indeed sequence A117532 is a permutation of the positive integers).",
+  "id": "A117534",
+  "mentions": [
+    "A117532",
+    "A117533"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

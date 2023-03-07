@@ -1,0 +1,25 @@
+{
+  "description": "List of X-coordinates of point moving along one of the arms of a counterclockwise double square spiral; A340172 gives Y-coordinates.",
+  "id": "A340171",
+  "mentions": [
+    "A000217",
+    "A001105",
+    "A014105",
+    "A046092",
+    "A139274",
+    "A139275",
+    "A174344",
+    "A340172"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

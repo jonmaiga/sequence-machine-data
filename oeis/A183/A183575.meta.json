@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n - 1 + ceiling((n^2-2)/2); complement of A183574.",
+  "id": "A183575",
+  "mentions": [
+    "A000217",
+    "A047215",
+    "A183574"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:07",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 1, a(2) = 2; then all new products of subsets of pre-existing terms which include the most recent, then the first integer not present and so on.",
+  "id": "A123664",
+  "mentions": [
+    "A096113",
+    "A110797"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "G.f. satisfies: x = Sum_{n>=1} 1/A(x)^(3*n) * Product_{k=1..n} (1 - 1/A(x)^k).",
+  "id": "A181997",
+  "mentions": [
+    "A001002",
+    "A181998",
+    "A209441",
+    "A209442",
+    "A214693"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

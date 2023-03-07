@@ -1,0 +1,23 @@
+{
+  "description": "Given a number n with k digits d_i, enumerate the positions of the digits starting from LSD = 1 to MSD = k. Sequence lists the numbers such that Sum_{i=1..k} d_i/i and Sum_{i=1..k} i/d_i are equal and integer.",
+  "id": "A260487",
+  "mentions": [
+    "A260274",
+    "A260275",
+    "A260385",
+    "A260386"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

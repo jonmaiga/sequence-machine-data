@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least m to satisfy the requirements of A052130.",
+  "id": "A126281",
+  "mentions": [
+    "A052130",
+    "A117630",
+    "A126279"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

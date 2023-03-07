@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the first local extremum value of the Riemann function zeta(x) along the negative real axis; zeta(A271855).",
+  "id": "A271856",
+  "mentions": [
+    "A271855"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:36",
+    "offset": -2,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

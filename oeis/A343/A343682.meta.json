@@ -1,0 +1,24 @@
+{
+  "description": "Zuckerman numbers which when divided by the product of their digits, give a quotient which is a Niven (Harshad) number.",
+  "id": "A343682",
+  "mentions": [
+    "A005349",
+    "A007602",
+    "A014950",
+    "A235507",
+    "A288069",
+    "A343680",
+    "A343681"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{k=1..n} (binomial(n,k) mod 2) * prime(k).",
+  "id": "A333176",
+  "mentions": [
+    "A000040",
+    "A007443",
+    "A007504",
+    "A010060",
+    "A030015",
+    "A050513"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

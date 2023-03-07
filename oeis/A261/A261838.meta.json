@@ -1,0 +1,18 @@
+{
+  "description": "Number of compositions of n into distinct parts where each part i is marked with a word of length i over a k-ary alphabet (k=1,2,3,...) whose letters appear in alphabetical order and all k letters occur at least once in the composition.",
+  "id": "A261838",
+  "mentions": [
+    "A120733",
+    "A261836"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:21",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Index i such that A166133(i)=n, or 0 if no such i exists.",
+  "id": "A255833",
+  "mentions": [
+    "A166133",
+    "A256561",
+    "A256563"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

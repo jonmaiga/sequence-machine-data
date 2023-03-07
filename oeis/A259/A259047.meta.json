@@ -1,0 +1,21 @@
+{
+  "description": "Composite numbers which divide the concatenation of their prime factors, with multiplicity, in ascending order.",
+  "id": "A259047",
+  "mentions": [
+    "A248915"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

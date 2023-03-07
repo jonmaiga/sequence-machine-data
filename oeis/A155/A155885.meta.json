@@ -1,0 +1,20 @@
+{
+  "description": "\"Look and Say\" applied to the whole sequence so far.",
+  "id": "A155885",
+  "mentions": [
+    "A005150"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n, k), for 1 <= k <= n, is the maximum integer q such that k non-attacking armies of q queens can be placed on an n X n chessboard.",
+  "id": "A306954",
+  "mentions": [
+    "A000170",
+    "A000290",
+    "A250000"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

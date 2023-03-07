@@ -1,0 +1,20 @@
+{
+  "description": "Beginning with 1, least positive integer not occurring earlier such that the n-th partial concatenation is a multiple of n.",
+  "id": "A100769",
+  "mentions": [
+    "A099552",
+    "A100770"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

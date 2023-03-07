@@ -1,0 +1,30 @@
+{
+  "description": "a(n) is the smallest nonzero number that is not a substring of n in its binary representation.",
+  "id": "A261461",
+  "mentions": [
+    "A007088",
+    "A030308",
+    "A062289",
+    "A091460",
+    "A126646",
+    "A144016",
+    "A260273",
+    "A261018",
+    "A261466",
+    "A261467",
+    "A261922"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

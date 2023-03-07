@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = negative integer -n presented in balanced ternary system.",
+  "id": "A140268",
+  "mentions": [
+    "A007089",
+    "A117968",
+    "A140267"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

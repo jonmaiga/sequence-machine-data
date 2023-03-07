@@ -1,0 +1,21 @@
+{
+  "description": "a(0)=3, a(1)=5. a(n) = a(n-1)*a(n-2) if n odd, else a(n) = a(n-1)/a(n-2).",
+  "id": "A115043",
+  "mentions": [
+    "A115033",
+    "A115034",
+    "A174348"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:52",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of (e/phi)*Pi, where phi is the golden ratio (A001622).",
+  "id": "A256110",
+  "mentions": [
+    "A001622",
+    "A019609"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:34:01",
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of n-place formulas in first-order logic when variables are allowed to coincide.",
+  "id": "A300696",
+  "mentions": [
+    "A000629",
+    "A083355",
+    "A300695"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

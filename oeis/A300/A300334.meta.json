@@ -1,0 +1,22 @@
+{
+  "description": "Primes of a056240-type 2.",
+  "id": "A300334",
+  "mentions": [
+    "A056240",
+    "A293652",
+    "A295185",
+    "A299110",
+    "A299912",
+    "A300359"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

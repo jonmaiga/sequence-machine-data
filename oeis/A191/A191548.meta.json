@@ -1,0 +1,17 @@
+{
+  "description": "Smallest prime factor of prime(n)^n - 1 having the form k*n + 1.",
+  "id": "A191548",
+  "mentions": [
+    "A069460"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 3,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

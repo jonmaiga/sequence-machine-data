@@ -1,0 +1,17 @@
+{
+  "description": "Numbers with exactly 3 semiprime divisors.",
+  "id": "A345382",
+  "mentions": [
+    "A001358"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

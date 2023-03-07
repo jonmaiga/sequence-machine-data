@@ -1,0 +1,22 @@
+{
+  "description": "Number of genera of real quadratic field Q(sqrt(k)), k squarefree > 1.",
+  "id": "A317990",
+  "mentions": [
+    "A003643",
+    "A005117",
+    "A087048",
+    "A317989",
+    "A317992"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 2,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

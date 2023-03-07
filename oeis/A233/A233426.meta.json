@@ -1,0 +1,19 @@
+{
+  "description": "Primes p in prime sextuplets (p, p+4, p+6, p+10, p+12, p+16) at the end of the maximal gaps in A200503.",
+  "id": "A233426",
+  "mentions": [
+    "A022008",
+    "A200503",
+    "A200504"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

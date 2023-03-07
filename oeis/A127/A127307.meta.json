@@ -1,0 +1,23 @@
+{
+  "description": "Positions of Dyck words beginning as UUD (110) in A014486/A063171.",
+  "id": "A127307",
+  "mentions": [
+    "A014486",
+    "A063171",
+    "A072764",
+    "A072771",
+    "A072772",
+    "A072795"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

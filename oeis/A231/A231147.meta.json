@@ -1,0 +1,19 @@
+{
+  "description": "Array of coefficients of numerator polynomials of the rational function p(n, x + 1/x), where p(n,x) = (x^n - 1)/(x - 1).",
+  "id": "A231147",
+  "mentions": [
+    "A231148"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

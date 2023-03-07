@@ -1,0 +1,17 @@
+{
+  "description": "For any Gaussian integer z, let f(z) = z / (1+i) when z is a multiple of 1+i and f(z) = z+1 otherwise (where i denotes the imaginary unit). a(n) gives the number of iterations of the map f, starting with n, needed to reach a cycle.",
+  "id": "A308431",
+  "mentions": [
+    "A061313"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

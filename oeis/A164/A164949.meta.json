@@ -1,0 +1,19 @@
+{
+  "description": "Number of different ways to select 4 disjoint subsets from {1..n} with equal element sum.",
+  "id": "A164949",
+  "mentions": [
+    "A161943",
+    "A164934",
+    "A196231"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

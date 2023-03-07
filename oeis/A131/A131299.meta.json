@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n,k) = 3*binomial(n-floor((k+1)/2), floor(k/2))-2 with k=0..n, read by rows.",
+  "id": "A131299",
+  "mentions": [
+    "A000012",
+    "A065941",
+    "A131300",
+    "A131301"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:19",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

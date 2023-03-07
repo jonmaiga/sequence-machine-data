@@ -1,0 +1,26 @@
+{
+  "description": "Numbers that are unreachable by the process of starting from 1 and adding 5 and/or multiplying by 3.",
+  "id": "A335365",
+  "mentions": [
+    "A000244",
+    "A008587",
+    "A016861",
+    "A016873",
+    "A016885",
+    "A016897",
+    "A070352",
+    "A335392"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:33:35",
+    "offset": 1,
+    "size": 63,
+    "source": "joeis"
+  }
+}

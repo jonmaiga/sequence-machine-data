@@ -1,0 +1,25 @@
+{
+  "description": "Number of integers less than n with the same number of distinct prime factors as n.",
+  "id": "A334655",
+  "mentions": [
+    "A001221",
+    "A002110",
+    "A047983",
+    "A067003",
+    "A067004",
+    "A322837",
+    "A322841",
+    "A335097"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = number of divisors of n^3 (excluding 1 and n^3).",
+  "id": "A144943",
+  "mentions": [
+    "A000005",
+    "A048785"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Coefficient table of numerator polynomials of o.g.f.s for partial sums of powers of positive integers.",
+  "id": "A196837",
+  "mentions": [
+    "A001551",
+    "A001552",
+    "A001553",
+    "A048993",
+    "A048994",
+    "A093556",
+    "A093557",
+    "A103438",
+    "A196836"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

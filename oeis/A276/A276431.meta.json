@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n containing no parts that are powers of 2 with positive exponent.",
+  "id": "A276431",
+  "mentions": [
+    "A276430"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

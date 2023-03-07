@@ -1,0 +1,23 @@
+{
+  "description": "Number of intersection points formed by drawing the line segments connecting any two lattice points of an n X m convex lattice polygon written as triangle T(n,m), n >= 1, 1 <= m <= n.",
+  "id": "A288180",
+  "mentions": [
+    "A288177",
+    "A288187",
+    "A333279",
+    "A333280",
+    "A333281",
+    "A343993"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:00",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

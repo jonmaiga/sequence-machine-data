@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the infinite product for n >= 1 of (1+1/n^2)^(n^2)/e.",
+  "id": "A241991",
+  "mentions": [
+    "A240984"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

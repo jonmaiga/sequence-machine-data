@@ -1,0 +1,20 @@
+{
+  "description": "Prime powers p^e with p < e.",
+  "id": "A192135",
+  "mentions": [
+    "A000961",
+    "A074583",
+    "A095874",
+    "A192187"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

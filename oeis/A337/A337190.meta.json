@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that A337183(k) and k + A337183(k) are prime.",
+  "id": "A337190",
+  "mentions": [
+    "A337183",
+    "A337185"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

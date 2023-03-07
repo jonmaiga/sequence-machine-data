@@ -1,0 +1,25 @@
+{
+  "description": "Irregular triangle T(n,k) read by rows with 1 <= k <= A091887 even indices 2i such that n-th irregular prime p (A000928) divides the numerator of the Bernoulli numbers B_{2i} (A000367) with 0 <= 2i <= p-3.",
+  "id": "A308765",
+  "mentions": [
+    "A000367",
+    "A000928",
+    "A035112",
+    "A060974",
+    "A060975",
+    "A073276",
+    "A073277",
+    "A091887"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

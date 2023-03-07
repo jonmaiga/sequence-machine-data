@@ -1,0 +1,18 @@
+{
+  "description": "Smallest k such that k! > A000178(n) (the superfactorials).",
+  "id": "A217314",
+  "mentions": [
+    "A000142",
+    "A000178"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

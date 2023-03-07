@@ -1,0 +1,23 @@
+{
+  "description": "The n-th semiprime minus its sum of digits.",
+  "id": "A206011",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A007953",
+    "A068395"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

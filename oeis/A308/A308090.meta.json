@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = gcd(2^n + n!, 3^n + n!, n+1).",
+  "id": "A308090",
+  "mentions": [
+    "A007611",
+    "A090585",
+    "A249945"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

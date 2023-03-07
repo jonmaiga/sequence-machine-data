@@ -1,0 +1,21 @@
+{
+  "description": "Smallest prime such that the n preceding prime gaps are monotonically decreasing and the n following prime gaps are monotonically increasing.",
+  "id": "A248702",
+  "mentions": [
+    "A001223",
+    "A248701",
+    "A248703",
+    "A248704"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers on the 0-1-12 line in a spiral on a grid of equilateral triangles.",
+  "id": "A322462",
+  "mentions": [
+    "A049598"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:51:57",
+    "offset": 0,
+    "size": 49,
+    "source": "joeis"
+  }
+}

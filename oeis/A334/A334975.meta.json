@@ -1,0 +1,22 @@
+{
+  "description": "Odd infinitary admirable numbers: the odd terms of A334974.",
+  "id": "A334975",
+  "mentions": [
+    "A005408",
+    "A109729",
+    "A127666",
+    "A329188",
+    "A334973",
+    "A334974"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

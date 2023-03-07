@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k such that both 6*k - 1 and 6*k + 5 are prime.",
+  "id": "A307561",
+  "mentions": [
+    "A002822",
+    "A023201",
+    "A024898",
+    "A046117",
+    "A056956",
+    "A059325",
+    "A067611",
+    "A186243",
+    "A307562",
+    "A307563"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

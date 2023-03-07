@@ -1,0 +1,22 @@
+{
+  "description": "Numbers m such that sigma(m)+phi(m) == 2 mod 4.",
+  "id": "A292763",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A065091",
+    "A191217",
+    "A290447",
+    "A292762"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

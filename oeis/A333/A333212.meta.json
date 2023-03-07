@@ -1,0 +1,39 @@
+{
+  "description": "Lengths of maximal weakly decreasing subsequences in the sequence of prime gaps (A001223).",
+  "id": "A333212",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A001221",
+    "A001223",
+    "A036263",
+    "A054819",
+    "A064113",
+    "A084758",
+    "A114994",
+    "A124760",
+    "A124761",
+    "A124765",
+    "A124768",
+    "A258025",
+    "A332273",
+    "A333213",
+    "A333214",
+    "A333215",
+    "A333216",
+    "A333252",
+    "A333253",
+    "A333254"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

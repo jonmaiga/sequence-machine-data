@@ -1,0 +1,27 @@
+{
+  "description": "Integers (all of the form 4k+3) organized into an array based on the number of times Sum_{i=1..u} J(i,4k+3) obtains value zero when u ranges from 1 to (4k+3), where J(i,k) is the Jacobi symbol.",
+  "id": "A166092",
+  "mentions": [
+    "A004767",
+    "A112070",
+    "A165469",
+    "A165603",
+    "A166053",
+    "A166055",
+    "A166057",
+    "A166059",
+    "A166091",
+    "A166096"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:49",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

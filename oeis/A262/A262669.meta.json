@@ -1,0 +1,20 @@
+{
+  "description": "Consider the Farey sequence of order n, F_n, and that the average distance between any two adjacent pairs in F_n is 1/A002088(n). Then a(n) is the number of adjacent pairs whose difference is less than the average.",
+  "id": "A262669",
+  "mentions": [
+    "A002088",
+    "A005728",
+    "A006843",
+    "A262670"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = A246707(A005940(1+n)), where A005940 is the Doudna sequence, and A246707 is the expansion of phi(-q) * phi(-q^2) * phi(-q^3) * phi(-q^6) in powers of q.",
+  "id": "A324339",
+  "mentions": [
+    "A005940",
+    "A246707",
+    "A323915",
+    "A324335",
+    "A324336",
+    "A324340"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

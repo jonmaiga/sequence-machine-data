@@ -1,0 +1,20 @@
+{
+  "description": "Let n = 2^e_2 * 3^e_3 * 5^e_5 * ... be the prime factorization of n and let P(n) = A100549(n); then a(n) = Product_{ q <= P(n) } q^e_q; a(1) = 1 by convention.",
+  "id": "A100762",
+  "mentions": [
+    "A082725",
+    "A100417",
+    "A100549",
+    "A141586"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Values of m for which sqrt(m) is curbed by 1/2; see Comments for \"curbed by\".",
+  "id": "A194469",
+  "mentions": [
+    "A194368",
+    "A194470"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

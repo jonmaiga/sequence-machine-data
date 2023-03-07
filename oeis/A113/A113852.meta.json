@@ -1,0 +1,23 @@
+{
+  "description": "Numbers whose prime factors are raised to the seventh power.",
+  "id": "A113852",
+  "mentions": [
+    "A001015",
+    "A005117",
+    "A013665",
+    "A013672",
+    "A329332"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

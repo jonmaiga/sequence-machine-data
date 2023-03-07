@@ -1,0 +1,19 @@
+{
+  "description": "Smallest composite c > n such that n^c == n (mod c).",
+  "id": "A239293",
+  "mentions": [
+    "A000790",
+    "A002808",
+    "A007535"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:56",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

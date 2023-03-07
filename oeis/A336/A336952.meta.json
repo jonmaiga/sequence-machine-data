@@ -1,0 +1,25 @@
+{
+  "description": "E.g.f.: 1 / (1 - x * exp(4*x)).",
+  "id": "A336952",
+  "mentions": [
+    "A002697",
+    "A006153",
+    "A235328",
+    "A326324",
+    "A328183",
+    "A336950",
+    "A336951",
+    "A351790"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

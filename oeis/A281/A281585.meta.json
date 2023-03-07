@@ -1,0 +1,18 @@
+{
+  "description": "Incrementally largest numerators of |Bernoulli(n)|.",
+  "id": "A281585",
+  "mentions": [
+    "A100194",
+    "A281386"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:50",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

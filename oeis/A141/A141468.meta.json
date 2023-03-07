@@ -1,0 +1,23 @@
+{
+  "description": "Zero together with the nonprime numbers A018252.",
+  "id": "A141468",
+  "mentions": [
+    "A000040",
+    "A001477",
+    "A002808",
+    "A018252",
+    "A054546",
+    "A158611"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:30",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

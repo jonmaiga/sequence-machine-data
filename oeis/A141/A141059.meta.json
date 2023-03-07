@@ -1,0 +1,18 @@
+{
+  "description": "Number of numbers m such that n = 0 (mod usigma(m)), where usigma(m) is the sum of unitary divisors of m (A034448).",
+  "id": "A141059",
+  "mentions": [
+    "A034448",
+    "A063974"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:29",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Let f be the completely multiplicative function from the positive integers to the cube roots of unity defined by f(prime(m)) = w^(2^(m-1)), where w is the cube root with positive imaginary part. a(n) is twice the real part of f(n).",
+  "id": "A353445",
+  "mentions": [
+    "A048675",
+    "A195017",
+    "A332820",
+    "A332823",
+    "A353446"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

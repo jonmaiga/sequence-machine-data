@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that if m > n, phi(m) >= phi(n).",
+  "id": "A122957",
+  "mentions": [
+    "A000010",
+    "A036913",
+    "A066362"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:11",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

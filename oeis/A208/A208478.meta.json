@@ -1,0 +1,32 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of partitions of n with positive k-th rank.",
+  "id": "A208478",
+  "mentions": [
+    "A000070",
+    "A063995",
+    "A064173",
+    "A105805",
+    "A181187",
+    "A194547",
+    "A194549",
+    "A195822",
+    "A208479",
+    "A208482",
+    "A208483",
+    "A209616",
+    "A330368",
+    "A330369",
+    "A330370"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

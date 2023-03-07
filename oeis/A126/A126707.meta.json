@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = number of composites coprime to n and <= the n-th composite.",
+  "id": "A126707",
+  "mentions": [
+    "A002808"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

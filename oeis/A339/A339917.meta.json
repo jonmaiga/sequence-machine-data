@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that p+k and p^2+k are prime, where k = (p^2-1)/6.",
+  "id": "A339917",
+  "mentions": [
+    "A084922",
+    "A339527"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

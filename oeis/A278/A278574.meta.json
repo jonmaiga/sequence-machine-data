@@ -1,0 +1,18 @@
+{
+  "description": "Records in A179210.",
+  "id": "A278574",
+  "mentions": [
+    "A179210"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

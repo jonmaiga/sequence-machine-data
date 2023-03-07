@@ -1,0 +1,21 @@
+{
+  "description": "Square of P(n,t) read by antidiagonals. P(n,t) = number of ways to split [t*n] into n arithmetic progressions each with t terms.",
+  "id": "A104443",
+  "mentions": [
+    "A000012",
+    "A001147",
+    "A104429",
+    "A104442"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

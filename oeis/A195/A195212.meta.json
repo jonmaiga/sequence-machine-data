@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n for which the exponent of the largest prime factor of n is even.",
+  "id": "A195212",
+  "mentions": [
+    "A000290"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

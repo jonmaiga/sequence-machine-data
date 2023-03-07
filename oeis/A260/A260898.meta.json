@@ -1,0 +1,21 @@
+{
+  "description": "Primes of the form (10^(k+2) + 107) / 9, (k > 0).",
+  "id": "A260898",
+  "mentions": [
+    "A004023",
+    "A260899"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Irregular triangle read by rows: For n >= 1, 0 <= k <= floor(n/2), T(n,k) is the minimal discriminant (in absolute value) of the number fields with signature r_1 = n - 2*k, r_2 = k.",
+  "id": "A343290",
+  "mentions": [
+    "A006554",
+    "A006555",
+    "A006557",
+    "A343690",
+    "A343772"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "The number of primes in A013918 less than 10^n.",
+  "id": "A189153",
+  "mentions": [
+    "A007504",
+    "A013918"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Lexicographically earliest sequence of distinct nonnegative integers such that for any n > 0, a(1) XOR ... XOR a(n) is a square (where XOR denotes the bitwise XOR operator).",
+  "id": "A338502",
+  "mentions": [
+    "A042948",
+    "A042964",
+    "A292388",
+    "A338503"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

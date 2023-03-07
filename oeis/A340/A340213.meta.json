@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of the constant kappa(-5) = (1/2)*sqrt(sqrt(5)*log(9+4*sqrt(5))/(3*Pi))*sqrt(A340794*A340665).",
+  "id": "A340213",
+  "mentions": [
+    "A340004",
+    "A340127",
+    "A340665",
+    "A340794",
+    "A340839",
+    "A340866",
+    "A340884"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

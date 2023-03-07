@@ -1,0 +1,22 @@
+{
+  "description": "Primes p which have Kronecker symbol (p|34) = 1.",
+  "id": "A191025",
+  "mentions": [
+    "A038889",
+    "A191017",
+    "A191018",
+    "A191020",
+    "A191023"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:18:29",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

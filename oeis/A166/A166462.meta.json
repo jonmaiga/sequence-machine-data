@@ -1,0 +1,18 @@
+{
+  "description": "Primes from twin prime pairs.",
+  "id": "A166462",
+  "mentions": [
+    "A001359"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

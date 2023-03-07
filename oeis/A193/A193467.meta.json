@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f.: Sum_{n>=0} x^n * exp(n*(n+1)/2*x).",
+  "id": "A193467",
+  "mentions": [
+    "A177385",
+    "A193421",
+    "A193466",
+    "A193469"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

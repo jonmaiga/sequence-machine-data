@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f.: 1 + Integral (1 + Integral (1 + Integral (1 + Integral (1 + ...)^5 dx)^4 dx)^3 dx)^2 dx.",
+  "id": "A234301",
+  "mentions": [
+    "A095793",
+    "A234296"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

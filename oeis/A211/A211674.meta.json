@@ -1,0 +1,18 @@
+{
+  "description": "Least prime number prime(n+k) such that prime(n+k) - prime(k) is a power of 2.",
+  "id": "A211674",
+  "mentions": [
+    "A211673",
+    "A211675"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of 1/sin(arctan(1/t)) or t/sin(arctan(t)) where t = 2*Pi: hypotenuse for a right triangle of equal area to a disk.",
+  "id": "A233700",
+  "mentions": [
+    "A019692",
+    "A212002",
+    "A233527",
+    "A233528"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

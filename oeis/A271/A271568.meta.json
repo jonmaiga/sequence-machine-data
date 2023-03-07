@@ -1,0 +1,19 @@
+{
+  "description": "Squarefree semiprimes n such that phi(n) - 1 is prime.",
+  "id": "A271568",
+  "mentions": [
+    "A001248",
+    "A001358",
+    "A078892"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:36",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

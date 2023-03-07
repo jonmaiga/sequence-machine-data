@@ -1,0 +1,22 @@
+{
+  "description": "Least sum of a set of n evil numbers (A001969) such that any two or more add to an odious number (A000069).",
+  "id": "A230386",
+  "mentions": [
+    "A000069",
+    "A001969",
+    "A230385",
+    "A230387"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

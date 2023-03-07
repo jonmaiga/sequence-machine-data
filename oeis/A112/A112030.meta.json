@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (2 + (-1)^n) * (-1)^floor(n/2).",
+  "id": "A112030",
+  "mentions": [
+    "A010684",
+    "A016116",
+    "A112031",
+    "A112032",
+    "A112033"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:29:53",
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

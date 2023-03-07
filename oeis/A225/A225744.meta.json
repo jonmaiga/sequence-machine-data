@@ -1,0 +1,19 @@
+{
+  "description": "The number of isomorphism classes of connected, Generalized Alexander quandles of order n.",
+  "id": "A225744",
+  "mentions": [
+    "A181771",
+    "A193024",
+    "A193067"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

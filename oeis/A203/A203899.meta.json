@@ -1,0 +1,19 @@
+{
+  "description": "Number of support partitions-vertices.",
+  "id": "A203899",
+  "mentions": [
+    "A000041",
+    "A108917",
+    "A203898"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:24",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

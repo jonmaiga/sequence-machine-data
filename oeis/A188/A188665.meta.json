@@ -1,0 +1,19 @@
+{
+  "description": "Primes of the form n^2+number of divisors of n^2.",
+  "id": "A188665",
+  "mentions": [
+    "A000005",
+    "A188539"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

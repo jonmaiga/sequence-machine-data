@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of distinct terms such that a(n) shares at least one odd digit with a(n+1).",
+  "id": "A303879",
+  "mentions": [
+    "A014263",
+    "A303880"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of derangements of {1,2,...,n} having no adjacent 3-cycles (an adjacent 3-cycle is a cycle of the form (i,i+1,i+2)).",
+  "id": "A177259",
+  "mentions": [
+    "A000166",
+    "A177258",
+    "A177260"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

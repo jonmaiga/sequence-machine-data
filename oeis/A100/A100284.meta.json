@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of (1-4*x-x^2)/((1-x)*(1-4*x-5*x^2)).",
+  "id": "A100284",
+  "mentions": [
+    "A054881",
+    "A100285",
+    "A100286",
+    "A179607"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

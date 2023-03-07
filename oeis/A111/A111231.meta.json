@@ -1,0 +1,18 @@
+{
+  "description": "Numbers which are perfect powers m^k equal to the sum of m distinct primes.",
+  "id": "A111231",
+  "mentions": [
+    "A007504",
+    "A076467"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

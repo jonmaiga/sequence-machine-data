@@ -1,0 +1,18 @@
+{
+  "description": "Inverse binomial transform of A327460.",
+  "id": "A327459",
+  "mentions": [
+    "A327460",
+    "A327762"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

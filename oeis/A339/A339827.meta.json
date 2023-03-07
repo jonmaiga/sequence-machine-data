@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = least k such that the first n-block in A339824 occurs in A339825 beginning at the k-th term.",
+  "id": "A339827",
+  "mentions": [
+    "A001622",
+    "A003849",
+    "A339051",
+    "A339052",
+    "A339824",
+    "A339825",
+    "A339826"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

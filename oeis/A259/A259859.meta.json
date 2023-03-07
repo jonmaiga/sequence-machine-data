@@ -1,0 +1,19 @@
+{
+  "description": "a(0)=0; thereafter A003470(n-1) + A003470(n) - 1.",
+  "id": "A259859",
+  "mentions": [
+    "A003470",
+    "A003471"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:24",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

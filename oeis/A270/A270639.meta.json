@@ -1,0 +1,19 @@
+{
+  "description": "Fermat pseudoprimes (A001567) that are the sum of three consecutive primes.",
+  "id": "A270639",
+  "mentions": [
+    "A001567",
+    "A034961",
+    "A270267"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:34",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

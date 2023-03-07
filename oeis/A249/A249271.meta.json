@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the mean value over all positive integers of a function giving the least quadratic nonresidue modulo a given odd integer (this function is precisely defined in A053761).",
+  "id": "A249271",
+  "mentions": [
+    "A053760",
+    "A053761",
+    "A098990"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

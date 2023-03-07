@@ -1,0 +1,19 @@
+{
+  "description": "G.f. satisfies: A(A(x)) = A(x)/(1-x), so that the self-COMPOSE transform generates partial sums (A107098).",
+  "id": "A107097",
+  "mentions": [
+    "A030266",
+    "A107098"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

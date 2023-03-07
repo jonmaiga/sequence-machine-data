@@ -1,0 +1,21 @@
+{
+  "description": "Number of involutions avoiding the pattern 1324.",
+  "id": "A230554",
+  "mentions": [
+    "A000085",
+    "A001006",
+    "A121704",
+    "A230551",
+    "A230556"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

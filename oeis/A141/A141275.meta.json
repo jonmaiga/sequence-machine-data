@@ -1,0 +1,18 @@
+{
+  "description": "Composite indices associated with A141274.",
+  "id": "A141275",
+  "mentions": [
+    "A141274"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

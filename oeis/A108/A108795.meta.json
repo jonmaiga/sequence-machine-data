@@ -1,0 +1,17 @@
+{
+  "description": "Conjectured greatest number k such that C(2k,k) is not divisible by any odd prime to the n-th power.",
+  "id": "A108795",
+  "mentions": [
+    "A059097"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

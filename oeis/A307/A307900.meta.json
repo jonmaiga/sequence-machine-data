@@ -1,0 +1,19 @@
+{
+  "description": "Number of functions constructed from n instances of variable x using operators + (add), * (multiply), and parentheses.",
+  "id": "A307900",
+  "mentions": [
+    "A048249",
+    "A052701"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

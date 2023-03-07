@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of (phi-1)_inf = (1/phi)_inf, where (q)_inf is the q-Pochhammer symbol, phi = (1+sqrt(5))/2 is the golden ratio.",
+  "id": "A276987",
+  "mentions": [
+    "A062073",
+    "A227681",
+    "A274983",
+    "A274985"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

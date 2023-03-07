@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = ceiling(sqrt(n) - n^(1/5)).",
+  "id": "A135664",
+  "mentions": [
+    "A000196",
+    "A048766",
+    "A134914",
+    "A135660",
+    "A135661",
+    "A135662",
+    "A135663"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:19:23",
+    "offset": 1,
+    "size": 78,
+    "source": "joeis"
+  }
+}

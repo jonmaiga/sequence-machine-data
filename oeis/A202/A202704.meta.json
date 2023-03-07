@@ -1,0 +1,21 @@
+{
+  "description": "Constructed by the same rule as A185356 and A202690, but with first row 0, 1.",
+  "id": "A202704",
+  "mentions": [
+    "A007836",
+    "A185356",
+    "A202690",
+    "A202691"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

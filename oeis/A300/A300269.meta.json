@@ -1,0 +1,20 @@
+{
+  "description": "Number of solutions to 1 +- 8 +- 27 +- ... +- n^3 == 0 (mod n).",
+  "id": "A300269",
+  "mentions": [
+    "A113263",
+    "A195938",
+    "A300190",
+    "A300268"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:24",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

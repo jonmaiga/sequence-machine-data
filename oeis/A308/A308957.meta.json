@@ -1,0 +1,26 @@
+{
+  "description": "Sum of the fourth largest parts in the partitions of n into 7 squarefree parts.",
+  "id": "A308957",
+  "mentions": [
+    "A008683",
+    "A308952",
+    "A308953",
+    "A308954",
+    "A308955",
+    "A308956",
+    "A308958",
+    "A308959",
+    "A308960"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

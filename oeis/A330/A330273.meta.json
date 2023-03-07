@@ -1,0 +1,21 @@
+{
+  "description": "Infinitary perfect totient numbers: numbers that equal to the sum of their iterated infinitary totient function (A091732).",
+  "id": "A330273",
+  "mentions": [
+    "A000010",
+    "A082897",
+    "A091732",
+    "A286067"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

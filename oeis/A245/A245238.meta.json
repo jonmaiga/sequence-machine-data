@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the Dickman function evaluated at 1/4.",
+  "id": "A245238",
+  "mentions": [
+    "A175475",
+    "A244009"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

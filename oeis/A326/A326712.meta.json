@@ -1,0 +1,18 @@
+{
+  "description": "Numbers with a record sum of divisors, weighted by divisor multiplicity (A168512).",
+  "id": "A326712",
+  "mentions": [
+    "A002093",
+    "A168512"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

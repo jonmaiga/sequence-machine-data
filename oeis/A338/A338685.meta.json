@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{d|n} d^n * binomial(d, n/d).",
+  "id": "A338685",
+  "mentions": [
+    "A023887",
+    "A318636",
+    "A327238",
+    "A338684",
+    "A338693"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

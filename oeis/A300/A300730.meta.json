@@ -1,0 +1,17 @@
+{
+  "description": "Positive integers j of the form Sum_{i=1..k} b(i)c(i), i.e., not in A297345 such that there is only one set {c(1),...,c(k)} where the c(i) are drawn with repetition from {b(0),...,b(k)} and b(k+1) is the smallest element of A297345 that is larger than j, where b() is A297345.",
+  "id": "A300730",
+  "mentions": [
+    "A297345"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

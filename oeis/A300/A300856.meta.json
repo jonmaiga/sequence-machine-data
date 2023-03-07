@@ -1,0 +1,19 @@
+{
+  "description": "Inverse of the base-7 based twisted permutation A300857 of the nonnegative integers.",
+  "id": "A300856",
+  "mentions": [
+    "A220952",
+    "A300855",
+    "A300857"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

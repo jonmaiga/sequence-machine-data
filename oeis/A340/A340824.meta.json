@@ -1,0 +1,21 @@
+{
+  "description": "Complement of A340745.",
+  "id": "A340824",
+  "mentions": [
+    "A340745",
+    "A340825",
+    "A340844",
+    "A340845",
+    "A340875"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

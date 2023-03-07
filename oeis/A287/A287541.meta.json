@@ -1,0 +1,20 @@
+{
+  "description": "Decimal representation of the diagonal from the corner to the origin of the n-th stage of growth of the two-dimensional cellular automaton defined by \"Rule 302\", based on the 5-celled von Neumann neighborhood.",
+  "id": "A287541",
+  "mentions": [
+    "A287539",
+    "A287540",
+    "A287542"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:04:10",
+    "offset": 0,
+    "size": 60,
+    "source": "joeis"
+  }
+}

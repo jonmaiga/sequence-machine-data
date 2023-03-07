@@ -1,0 +1,21 @@
+{
+  "description": "Smallest Euler-Jacobi pseudoprime to base n.",
+  "id": "A326614",
+  "mentions": [
+    "A047713",
+    "A048950",
+    "A056020",
+    "A090086",
+    "A298756"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

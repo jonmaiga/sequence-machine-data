@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k)=number of simple graphs on n labeled nodes with k edges containing at least one cycle subgraph, n>=3, 3<=k<=C(n,2).",
+  "id": "A143899",
+  "mentions": [
+    "A007318",
+    "A084546",
+    "A138464",
+    "A143900"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 3,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

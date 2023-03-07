@@ -1,0 +1,27 @@
+{
+  "description": "Numbers n such that n^2 divides 6^n-1.",
+  "id": "A127106",
+  "mentions": [
+    "A014946",
+    "A127092",
+    "A127100",
+    "A127101",
+    "A127102",
+    "A127103",
+    "A127104",
+    "A127105",
+    "A127107"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

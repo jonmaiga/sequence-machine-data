@@ -1,0 +1,22 @@
+{
+  "description": "First pair of primes (p1, p2) that begin centuries of primes having the same prime configuration, ordered by increasing p2. Each configuration is allowed only once.",
+  "id": "A164987",
+  "mentions": [
+    "A038822",
+    "A181098",
+    "A186393",
+    "A186408"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:47",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

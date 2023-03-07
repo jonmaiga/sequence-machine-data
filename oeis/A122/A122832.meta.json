@@ -1,0 +1,27 @@
+{
+  "description": "Exponential Riordan array (e^(x(1+x)),x).",
+  "id": "A122832",
+  "mentions": [
+    "A000898",
+    "A007318",
+    "A047974",
+    "A067147",
+    "A122833",
+    "A132440",
+    "A256893",
+    "A291632"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:11",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

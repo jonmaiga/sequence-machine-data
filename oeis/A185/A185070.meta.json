@@ -1,0 +1,22 @@
+{
+  "description": "Triangular array read by rows. T(n,k) is the number of functions f:{1,2,...,n}->{1,2,...,n} that have exactly k 3-cycles. n>=0, 0<=k<=floor(n/3).",
+  "id": "A185070",
+  "mentions": [
+    "A000169",
+    "A055134",
+    "A185025",
+    "A190314"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of divisors of the number of partitions of n into distinct parts, a(n) = A000005(A000009(n)).",
+  "id": "A258596",
+  "mentions": [
+    "A000005",
+    "A000009",
+    "A035142",
+    "A085543"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 0,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

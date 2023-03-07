@@ -1,0 +1,23 @@
+{
+  "description": "Positive integers k such that 10*k+6 is equal to the product of two integers ending with 4 (A347253).",
+  "id": "A347254",
+  "mentions": [
+    "A016873",
+    "A017341",
+    "A324298",
+    "A346951",
+    "A347253"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Semiprimes which are one more than a perfect power.",
+  "id": "A189047",
+  "mentions": [
+    "A001358",
+    "A001597",
+    "A045542",
+    "A177955",
+    "A189045"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Primes for which the average of the primitive roots is < p/2.",
+  "id": "A266989",
+  "mentions": [
+    "A008330",
+    "A060749",
+    "A088144",
+    "A266987",
+    "A266988",
+    "A267010"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:28",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

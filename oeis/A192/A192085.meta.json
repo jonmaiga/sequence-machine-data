@@ -1,0 +1,23 @@
+{
+  "description": "Number of ones in the binary expansion of n^3.",
+  "id": "A192085",
+  "mentions": [
+    "A000120",
+    "A000578",
+    "A007088",
+    "A159918"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of partitions of an n-set having k blocks of size > 1 (0<=k<=floor(n/2)).",
+  "id": "A124324",
+  "mentions": [
+    "A000012",
+    "A000110",
+    "A000295",
+    "A001147",
+    "A048993",
+    "A112493",
+    "A112495",
+    "A112496",
+    "A112497",
+    "A124323",
+    "A124325",
+    "A136394",
+    "A290034",
+    "A290035",
+    "A290036",
+    "A290037",
+    "A290038",
+    "A290039"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

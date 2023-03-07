@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of x*(1 + 2*x*(5 - 4*x)*(1 + x^2)*(1 + x^4))/((1 - x)*(1 - 10*x^9)).",
+  "id": "A302556",
+  "mentions": [
+    "A051885",
+    "A071649"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:35:50",
+    "offset": 0,
+    "size": 49,
+    "source": "joeis"
+  }
+}

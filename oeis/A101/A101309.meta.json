@@ -1,0 +1,21 @@
+{
+  "description": "Matrix logarithm of A047999 (Pascal's triangle mod 2).",
+  "id": "A101309",
+  "mentions": [
+    "A000120",
+    "A047999",
+    "A101979"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Product_{k = 1..2*n+1} Fibonacci(2*k) / Sum_{k = 1..2*n+1} Fibonacci(2*k).",
+  "id": "A349272",
+  "mentions": [
+    "A000045",
+    "A159951",
+    "A175553"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

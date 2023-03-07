@@ -1,0 +1,19 @@
+{
+  "description": "Numbers not representable as a sum of b^e with b >= 2, e >= 2, e distinct.",
+  "id": "A103841",
+  "mentions": [
+    "A001422"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

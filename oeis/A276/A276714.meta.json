@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that n and n+3 have the same number and sum of divisors (A000005 and A000203).",
+  "id": "A276714",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A015861",
+    "A054004",
+    "A229254",
+    "A229335",
+    "A276713",
+    "A276715"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

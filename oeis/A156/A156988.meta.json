@@ -1,0 +1,20 @@
+{
+  "description": "Gisjwitj's sequence at EKG positions.",
+  "id": "A156988",
+  "mentions": [
+    "A064413",
+    "A090822"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

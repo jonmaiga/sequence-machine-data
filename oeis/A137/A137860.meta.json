@@ -1,0 +1,18 @@
+{
+  "description": "Largest prime gap between the n-th squared twin prime pair.",
+  "id": "A137860",
+  "mentions": [
+    "A079629",
+    "A137859"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

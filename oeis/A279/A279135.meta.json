@@ -1,0 +1,21 @@
+{
+  "description": "Coefficients of the '5th-order' mock theta function Phi(q) with a(0)=1.",
+  "id": "A279135",
+  "mentions": [
+    "A001622",
+    "A053262",
+    "A053266",
+    "A259910"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:46",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Riordan array (1/sqrt(1-4x), (1-2x-(1-3x)c(x))/(x*sqrt(1-4x))), c(x) the g.f. of A000108.",
+  "id": "A159965",
+  "mentions": [
+    "A000108",
+    "A000245",
+    "A007318",
+    "A092392",
+    "A108080",
+    "A108081",
+    "A114422",
+    "A116382"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:13:39",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

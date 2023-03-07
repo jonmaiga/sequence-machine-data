@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of distinct nonnegative terms such that the first digit d of a(n), for n > 1, is the sum of the two closest digits of d (they are the rightmost digit of a(n-1) and the next digit on the right of d).",
+  "id": "A339138",
+  "mentions": [
+    "A339139"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

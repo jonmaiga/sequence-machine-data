@@ -1,0 +1,19 @@
+{
+  "description": "Odd prime difference array. Let p(n) be the n-th odd prime; row n consists of all k such that p(k+1)-p(k)=2n.",
+  "id": "A146941",
+  "mentions": [
+    "A000040",
+    "A073051"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

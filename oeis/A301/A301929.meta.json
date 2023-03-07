@@ -1,0 +1,20 @@
+{
+  "description": "G.f. A(x) satisfies: x = Sum_{n>=1} (1+x)^(n^2) * x^n / A(x)^n.",
+  "id": "A301929",
+  "mentions": [
+    "A107595",
+    "A301927",
+    "A303058"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

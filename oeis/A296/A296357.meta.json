@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = ceiling of n/Pi.",
+  "id": "A296357",
+  "mentions": [
+    "A032615"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:32:29",
+    "offset": 1,
+    "size": 83,
+    "source": "joeis"
+  }
+}

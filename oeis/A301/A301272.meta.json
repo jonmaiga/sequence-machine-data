@@ -1,0 +1,22 @@
+{
+  "description": "Number of derangements of S_n with exactly one peak.",
+  "id": "A301272",
+  "mentions": [
+    "A000166",
+    "A001045",
+    "A216963",
+    "A303564"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

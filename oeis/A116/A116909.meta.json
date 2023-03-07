@@ -1,0 +1,21 @@
+{
+  "description": "Start with the sequence 2322322323222323223223 and extend by always appending the curling number (cf. A094004).",
+  "id": "A116909",
+  "mentions": [
+    "A090822",
+    "A094004",
+    "A161223",
+    "A174998"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

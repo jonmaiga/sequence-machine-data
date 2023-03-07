@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form n/(c(n)-r(n)), where c(n)=n-th composite and r(n)=n-th nonprime.",
+  "id": "A142353",
+  "mentions": [
+    "A002808",
+    "A141468"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

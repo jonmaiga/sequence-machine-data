@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that (n,n+8) forms a pair of consecutive primes ending respectively in 1 and 9.",
+  "id": "A141026",
+  "mentions": [
+    "A007530"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:29",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

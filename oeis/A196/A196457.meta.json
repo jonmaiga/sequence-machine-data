@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f.: A(x) = Sum_{n>=0} exp((2^n + (-1)^n)*x) * (2^n + (-1)^n)^n * x^n/n!.",
+  "id": "A196457",
+  "mentions": [
+    "A138247",
+    "A196458",
+    "A196459",
+    "A196460"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that can be represented as (m+1)^k - m^k in at least 3 ways, with k, m > 0.",
+  "id": "A114535",
+  "mentions": [
+    "A115783"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

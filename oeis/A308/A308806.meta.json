@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of 1 / Sum_{k>=0} (-x)^(k*(3*k - 1)/2).",
+  "id": "A308806",
+  "mentions": [
+    "A000041",
+    "A000326",
+    "A006950",
+    "A181324",
+    "A208061",
+    "A317665"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

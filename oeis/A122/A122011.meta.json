@@ -1,0 +1,20 @@
+{
+  "description": "G.f. x^2*(1+x)/(1-12*x+15*x^2-2*x^3).",
+  "id": "A122011",
+  "mentions": [
+    "A122009",
+    "A122010"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 01:02:42",
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

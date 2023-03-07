@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that Pell(n) and Pell(n+1) have the same prime signature where Pell(n) = A000129(n).",
+  "id": "A280268",
+  "mentions": [
+    "A000129",
+    "A100484"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

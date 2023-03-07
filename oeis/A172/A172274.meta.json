@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = floor(n*(sqrt(13)-sqrt(11))).",
+  "id": "A172274",
+  "mentions": [
+    "A010468",
+    "A010470",
+    "A172264",
+    "A172266",
+    "A172270",
+    "A172272",
+    "A172278"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:16:27",
+    "offset": 0,
+    "size": 81,
+    "source": "joeis"
+  }
+}

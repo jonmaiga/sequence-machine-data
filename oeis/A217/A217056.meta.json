@@ -1,0 +1,25 @@
+{
+  "description": "Highly composite numbers (A002182) which are the product of 4 consecutive integers (A052762).",
+  "id": "A217056",
+  "mentions": [
+    "A000332",
+    "A001318",
+    "A002182",
+    "A002378",
+    "A052762",
+    "A072825",
+    "A163264"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

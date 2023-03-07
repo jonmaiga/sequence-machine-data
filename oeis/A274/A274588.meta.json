@@ -1,0 +1,21 @@
+{
+  "description": "Values of n such that 2*n-1 and 7*n-1 are both triangular numbers.",
+  "id": "A274588",
+  "mentions": [
+    "A069099",
+    "A174114",
+    "A274587"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

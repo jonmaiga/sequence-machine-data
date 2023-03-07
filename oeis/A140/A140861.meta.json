@@ -1,0 +1,23 @@
+{
+  "description": "Decimal Goedelization of Heyting's 11 axioms for intuitionistic propositional logic.",
+  "id": "A140861",
+  "mentions": [
+    "A100200",
+    "A101248",
+    "A101273"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of colored integer partitions of 2n using all colors of an n-set such that a color pattern for part i has i distinct colors in increasing order.",
+  "id": "A327843",
+  "mentions": [
+    "A327117"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

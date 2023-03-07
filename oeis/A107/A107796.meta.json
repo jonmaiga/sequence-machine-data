@@ -1,0 +1,18 @@
+{
+  "description": "First differences of indices of 3's in A305389.",
+  "id": "A107796",
+  "mentions": [
+    "A305389",
+    "A316326"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

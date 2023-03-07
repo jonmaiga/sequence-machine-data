@@ -1,0 +1,19 @@
+{
+  "description": "Number of minimal dominating sets in the n-book graph.",
+  "id": "A347512",
+  "mentions": [
+    "A062709"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:21",
+    "offset": 1,
+    "size": 33,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Square array A(row,col) = A101080(col,A268820(row,row+col)), read by descending antidiagonals.",
+  "id": "A268833",
+  "mentions": [
+    "A000004",
+    "A000012",
+    "A002262",
+    "A003188",
+    "A005811",
+    "A006068",
+    "A007395",
+    "A025581",
+    "A101080",
+    "A268726",
+    "A268727",
+    "A268820",
+    "A268834",
+    "A268835"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 0,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

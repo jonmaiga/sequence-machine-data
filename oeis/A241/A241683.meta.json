@@ -1,0 +1,20 @@
+{
+  "description": "Total number of 2 X 2 squares appearing in the Thue-Morse sequence logical matrices after n stages.",
+  "id": "A241683",
+  "mentions": [
+    "A000975",
+    "A007590",
+    "A010060"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:37:56",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

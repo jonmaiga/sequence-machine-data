@@ -1,0 +1,25 @@
+{
+  "description": "Permutation of natural numbers: a(1) = 1, a(triangular(n)) = (2*a(n))-1, a(nontriangular(n)) = 2*n, where triangular = A000217, nontriangular = A014132.",
+  "id": "A220347",
+  "mentions": [
+    "A000217",
+    "A002024",
+    "A010054",
+    "A014132",
+    "A083920",
+    "A183079",
+    "A220348",
+    "A257797"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

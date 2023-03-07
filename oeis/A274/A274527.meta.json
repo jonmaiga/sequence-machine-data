@@ -1,0 +1,18 @@
+{
+  "description": "Prime numbers p such that p+2, p^2+p-1, p^2+p+1, p^2+3*p+1, p^2+3*p+3 are all prime numbers.",
+  "id": "A274527",
+  "mentions": [
+    "A228968",
+    "A274525"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

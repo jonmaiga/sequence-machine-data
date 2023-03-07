@@ -1,0 +1,21 @@
+{
+  "description": "Interpolation polynomial through n+1 points (0,1), (1,1), ..., (n-1,1) and (n,n) evaluated at 2n.",
+  "id": "A237664",
+  "mentions": [
+    "A000290",
+    "A030662",
+    "A127736",
+    "A237622"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

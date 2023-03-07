@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = smallest missing number in A357082(k) for k = 0..n.",
+  "id": "A357149",
+  "mentions": [
+    "A357082"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

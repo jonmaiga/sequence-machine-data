@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest k such that the Collatz sequence for k includes a record number of consecutive tripling steps.",
+  "id": "A350370",
+  "mentions": [
+    "A006370",
+    "A213215",
+    "A222598",
+    "A347270",
+    "A347668",
+    "A350369"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

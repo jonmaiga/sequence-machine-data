@@ -1,0 +1,22 @@
+{
+  "description": "Primes such that the sum of k-th powers of digits, for each of k = 1, 2, 3, and 4, is also a prime.",
+  "id": "A176196",
+  "mentions": [
+    "A046704",
+    "A052034",
+    "A091366",
+    "A109181",
+    "A176179"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:00",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

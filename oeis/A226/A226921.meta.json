@@ -1,0 +1,21 @@
+{
+  "description": "Values of n such that L(1) and N(1) are both prime, where L(k) = (n^2+n+1)*2^(2*k) + (2*n+1)*2^k + 1, N(k) = (n^2+n+1)*2^k + n.",
+  "id": "A226921",
+  "mentions": [
+    "A226929",
+    "A227448",
+    "A227449",
+    "A227515",
+    "A227523"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

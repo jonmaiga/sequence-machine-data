@@ -1,0 +1,22 @@
+{
+  "description": "Number of permutations of [n] with an even number of rises.",
+  "id": "A128103",
+  "mentions": [
+    "A000142",
+    "A002430",
+    "A002674",
+    "A036279",
+    "A262745"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

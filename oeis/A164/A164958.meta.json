@@ -1,0 +1,22 @@
+{
+  "description": "Primes p with the property that if p/3 is in the interval (p_m, p_(m+1)), where p_m>=3 and p_k is the k-th prime, then the interval (3p_m, p) contains a prime",
+  "id": "A164958",
+  "mentions": [
+    "A080359",
+    "A104272",
+    "A164288",
+    "A164294",
+    "A164368",
+    "A164952"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

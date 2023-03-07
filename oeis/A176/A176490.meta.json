@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,k) = A008292(n+1,k+1) + A060187(n+1,k+1)- 1 read along rows 0<=k<=n.",
+  "id": "A176490",
+  "mentions": [
+    "A007318",
+    "A008292",
+    "A060187",
+    "A176487"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

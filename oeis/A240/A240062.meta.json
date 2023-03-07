@@ -1,0 +1,53 @@
+{
+  "description": "Square array read by antidiagonals in which T(n,k) is the n-th number j with the property that the symmetric representation of sigma(j) has k parts.",
+  "id": "A240062",
+  "mentions": [
+    "A000203",
+    "A006254",
+    "A065091",
+    "A067742",
+    "A071561",
+    "A071562",
+    "A174973",
+    "A196020",
+    "A235791",
+    "A236104",
+    "A237048",
+    "A237270",
+    "A237271",
+    "A237593",
+    "A238443",
+    "A239660",
+    "A239663",
+    "A239665",
+    "A239929",
+    "A239931",
+    "A239934",
+    "A245092",
+    "A262626",
+    "A279102",
+    "A280107",
+    "A319529",
+    "A319796",
+    "A319801",
+    "A319802",
+    "A320066",
+    "A320511",
+    "A341969",
+    "A341970",
+    "A341971",
+    "A357581",
+    "A357775"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

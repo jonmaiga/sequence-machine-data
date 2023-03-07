@@ -1,0 +1,19 @@
+{
+  "description": "Area of primitive Pythagorean triangles sorted on hypotenuse (A020882), then on middle side (or long leg A046087).",
+  "id": "A120734",
+  "mentions": [
+    "A020882",
+    "A046087",
+    "A057229"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Odd integers m such that every odd integer k with 1 < k < m and gcd(k,m) = 1 is prime.",
+  "id": "A327823",
+  "mentions": [
+    "A048597"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

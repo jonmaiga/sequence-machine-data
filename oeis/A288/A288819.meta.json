@@ -1,0 +1,21 @@
+{
+  "description": "Record maxima in A288818.",
+  "id": "A288819",
+  "mentions": [
+    "A080670",
+    "A288818",
+    "A288820"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

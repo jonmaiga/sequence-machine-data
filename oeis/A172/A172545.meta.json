@@ -1,0 +1,17 @@
+{
+  "description": "Squares added to A172412 that produce a square smaller than any subsequent term of A172412.",
+  "id": "A172545",
+  "mentions": [
+    "A172412"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

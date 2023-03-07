@@ -1,0 +1,20 @@
+{
+  "description": "Fully multiplicative with a(p^e) = prime(p mod 12)^e.",
+  "id": "A319985",
+  "mentions": [
+    "A319984",
+    "A319986",
+    "A319987"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

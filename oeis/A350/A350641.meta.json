@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that the product of k and all terms < k in A050376 has more divisors than the product of all terms < k in A050376 and the smallest term > k in A050376.",
+  "id": "A350641",
+  "mentions": [
+    "A002183",
+    "A037992",
+    "A050376"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(4n+k) = 4a(4n+k-1)-6a(4n+k-2)+4a(4n+k-3), for k = 0,1,2; 2*a(4n+3) = 7a(4n+2)-8(4n+1)+2a(4n), with a(0) = a(1) = a(2) = 0, a(3) = 1.",
+  "id": "A132152",
+  "mentions": [
+    "A000749"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 16:56:10",
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

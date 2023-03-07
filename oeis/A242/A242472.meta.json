@@ -1,0 +1,22 @@
+{
+  "description": "T(n,k)=Number of length n+2 0..k arrays with no three equal elements in a row and new values 0..k introduced in 0..k order",
+  "id": "A242472",
+  "mentions": [
+    "A000045",
+    "A021006",
+    "A204678",
+    "A222919"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

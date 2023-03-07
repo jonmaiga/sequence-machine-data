@@ -1,0 +1,24 @@
+{
+  "description": "Let b(k) be A056240(k); this sequence lists numbers b(2n) such that there is at least one m > n for which b(2m) < b(2n) belongs to A297150.",
+  "id": "A298615",
+  "mentions": [
+    "A005843",
+    "A056240",
+    "A288313",
+    "A297150",
+    "A297925",
+    "A298252",
+    "A298366"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:20",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

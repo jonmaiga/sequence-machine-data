@@ -1,0 +1,20 @@
+{
+  "description": "A variant of Golomb's sequence using odd numbers: a(n) is the number of times 2*n+1 occurs, starting with a(1) = 1.",
+  "id": "A113722",
+  "mentions": [
+    "A001462",
+    "A113676",
+    "A113723",
+    "A113724"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

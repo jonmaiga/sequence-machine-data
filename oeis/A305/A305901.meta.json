@@ -1,0 +1,23 @@
+{
+  "description": "Filter sequence for all such sequences b, for which b(A006254(k)) = constant for all k >= 3.",
+  "id": "A305901",
+  "mentions": [
+    "A006254",
+    "A064216",
+    "A253786",
+    "A278223",
+    "A305900",
+    "A305902"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

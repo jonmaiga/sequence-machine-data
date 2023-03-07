@@ -1,0 +1,18 @@
+{
+  "description": "The terms in A307183 that get underlined.",
+  "id": "A307206",
+  "mentions": [
+    "A307183",
+    "A307207"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

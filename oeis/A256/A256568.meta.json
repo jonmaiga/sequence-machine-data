@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Integral_{0..Pi/2} x^2*log(cos(x))^2 dx, one of the log-cosine integrals related to zeta(3).",
+  "id": "A256568",
+  "mentions": [
+    "A002117"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

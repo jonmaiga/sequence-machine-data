@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the smallest primitive nondeficient number that divides n or is a multiple of n.",
+  "id": "A337814",
+  "mentions": [
+    "A000040",
+    "A000203",
+    "A005100",
+    "A006039",
+    "A007918",
+    "A023196",
+    "A064162",
+    "A254572",
+    "A308710",
+    "A338133"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

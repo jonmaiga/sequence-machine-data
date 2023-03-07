@@ -1,0 +1,21 @@
+{
+  "description": "a(0) = 0, a(1) = 1 and a(n) = 2*a(n-1)/(n-1) + 16*a(n-2) for n > 1.",
+  "id": "A304933",
+  "mentions": [
+    "A001477",
+    "A100071",
+    "A303537",
+    "A304934"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

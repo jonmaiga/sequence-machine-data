@@ -1,0 +1,19 @@
+{
+  "description": "Constant term of the reduction of n-th polynomial at A158985 by x^2->x+1.",
+  "id": "A192340",
+  "mentions": [
+    "A158985",
+    "A192232",
+    "A192341"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

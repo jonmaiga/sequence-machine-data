@@ -1,0 +1,17 @@
+{
+  "description": "Composite numbers n such that Sum_{k = 0..n} (-1)^k * C(n,k) * C(2*n,k) == -1 (mod n^3) (see A234839).",
+  "id": "A268303",
+  "mentions": [
+    "A234839"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

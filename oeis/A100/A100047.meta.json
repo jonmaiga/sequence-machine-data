@@ -1,0 +1,36 @@
+{
+  "description": "A Chebyshev transform of the Fibonacci numbers.",
+  "id": "A100047",
+  "mentions": [
+    "A000045",
+    "A006238",
+    "A011558",
+    "A011655",
+    "A054493",
+    "A078070",
+    "A080891",
+    "A092184",
+    "A098306",
+    "A099443",
+    "A100048",
+    "A108196",
+    "A138573",
+    "A152090",
+    "A218134",
+    "A226162",
+    "A244895"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:28:37",
+    "offset": 0,
+    "size": 90,
+    "source": "joeis"
+  }
+}

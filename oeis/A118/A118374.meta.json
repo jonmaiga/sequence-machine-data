@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest positive integer sequence no two terms of which sum to a term of {1,7,23,63,159,...} = {n*2^n-1}, n=1,2,3,... The first differences are given in A119350.",
+  "id": "A118374",
+  "mentions": [
+    "A114889",
+    "A119350"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Length of runs of identical terms in A080378.",
+  "id": "A259396",
+  "mentions": [
+    "A001223",
+    "A080378",
+    "A259360"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-entry"
+  }
+}

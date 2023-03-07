@@ -1,0 +1,24 @@
+{
+  "description": "Length of longest side of a primitive square Heron triangle, i.e., a triangle with relatively prime integer sides and area the square of a positive integer.",
+  "id": "A336272",
+  "mentions": [
+    "A046128",
+    "A046129",
+    "A046130",
+    "A046131",
+    "A055592",
+    "A055593",
+    "A055594",
+    "A055595"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

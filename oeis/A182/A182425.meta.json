@@ -1,0 +1,17 @@
+{
+  "description": "a(n) the largest integer K such that (prime(n+1)-1)^(2^k)+1 for 0<=k<=K is prime.",
+  "id": "A182425",
+  "mentions": [
+    "A182199"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

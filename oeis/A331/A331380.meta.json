@@ -1,0 +1,35 @@
+{
+  "description": "Numbers whose sum of prime factors is divisible by their sum of prime indices.",
+  "id": "A331380",
+  "mentions": [
+    "A000040",
+    "A001414",
+    "A036844",
+    "A056239",
+    "A057568",
+    "A112798",
+    "A324851",
+    "A326149",
+    "A330950",
+    "A330953",
+    "A330954",
+    "A331378",
+    "A331379",
+    "A331381",
+    "A331382",
+    "A331383",
+    "A331384",
+    "A331415",
+    "A331416"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Number of inequivalent (mod D_4) ways five checkers can be placed on an n X n board.",
+  "id": "A242358",
+  "mentions": [
+    "A008805",
+    "A014409",
+    "A054252",
+    "A054772",
+    "A082966",
+    "A242279"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:11:31",
+    "offset": 3,
+    "size": 25,
+    "source": "joeis"
+  }
+}

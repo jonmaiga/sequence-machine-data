@@ -1,0 +1,17 @@
+{
+  "description": "Number of length n+5 0..3 arrays with no three disjoint pairs in any consecutive six terms having the same sum.",
+  "id": "A248443",
+  "mentions": [
+    "A248448"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

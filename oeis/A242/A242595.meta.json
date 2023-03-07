@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the primitive period length for the sequence 2^k (mod n), k = 1, 2, ...",
+  "id": "A242595",
+  "mentions": [
+    "A000010",
+    "A001122",
+    "A050229",
+    "A060749",
+    "A216838"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

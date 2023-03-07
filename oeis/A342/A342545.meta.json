@@ -1,0 +1,23 @@
+{
+  "description": "a(n)^2 is the least square that has exactly n 0's in base n.",
+  "id": "A342545",
+  "mentions": [
+    "A000290",
+    "A062971",
+    "A193678",
+    "A342260",
+    "A342546"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 2,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

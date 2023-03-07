@@ -1,0 +1,22 @@
+{
+  "description": "Least m>0 such that n = y^2-8^x (mod m) has no solution, or 0 if no such m exists.",
+  "id": "A200518",
+  "mentions": [
+    "A051204",
+    "A051210",
+    "A051221",
+    "A200505",
+    "A200512",
+    "A200520"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:21",
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

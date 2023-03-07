@@ -1,0 +1,17 @@
+{
+  "description": "Number of ways to write n = 3*x^2 + y^2 + z^2, where x,y,z are nonnegative integers with gcd(3,x) = 1 and y <= z.",
+  "id": "A257109",
+  "mentions": [
+    "A000290"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

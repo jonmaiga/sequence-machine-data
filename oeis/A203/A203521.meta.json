@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Product_{1 <= i < j <= n} (prime(i) + prime(j)).",
+  "id": "A203521",
+  "mentions": [
+    "A000040",
+    "A000178",
+    "A080358",
+    "A093883",
+    "A203511",
+    "A203522",
+    "A203523",
+    "A203524"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

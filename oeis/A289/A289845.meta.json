@@ -1,0 +1,21 @@
+{
+  "description": "p-INVERT of A079977, where p(S) = 1 - S - S^2.",
+  "id": "A289845",
+  "mentions": [
+    "A033453",
+    "A079977",
+    "A289780"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:04",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

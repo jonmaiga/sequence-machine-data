@@ -1,0 +1,21 @@
+{
+  "description": "Consider the second least-significant bits of the first n prime numbers: a(n) equals the number of zeros minus the number of ones.",
+  "id": "A308567",
+  "mentions": [
+    "A038698",
+    "A051024",
+    "A100672"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:55:43",
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

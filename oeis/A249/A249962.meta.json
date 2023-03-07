@@ -1,0 +1,18 @@
+{
+  "description": "Number of length 2+5 0..n arrays with no six consecutive terms having the maximum of any two terms equal to the minimum of the remaining four terms.",
+  "id": "A249962",
+  "mentions": [
+    "A249960"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:08:55",
+    "offset": 1,
+    "size": 23,
+    "source": "joeis"
+  }
+}

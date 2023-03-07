@@ -1,0 +1,18 @@
+{
+  "description": "Primes that are the only prime between consecutive semiprimes.",
+  "id": "A214520",
+  "mentions": [
+    "A001358",
+    "A088701"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

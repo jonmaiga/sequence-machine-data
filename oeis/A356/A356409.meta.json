@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. ( Product_{k>0} 1/(1 - x^k/k!) )^(1/(1-x)).",
+  "id": "A356409",
+  "mentions": [
+    "A005651",
+    "A356025",
+    "A356407",
+    "A356408"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

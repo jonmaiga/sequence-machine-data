@@ -1,0 +1,22 @@
+{
+  "description": "Square array, read by antidiagonals, where rows are successive self-convolutions of the top row, which equals A003169 shifted one place right.",
+  "id": "A100324",
+  "mentions": [
+    "A003169",
+    "A032349",
+    "A100325",
+    "A100326"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

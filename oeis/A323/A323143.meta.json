@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest infinite sequence of envelope numbers that are inserted into the largest possible envelopes (see the Comments and the Crossrefs sections).",
+  "id": "A323143",
+  "mentions": [
+    "A323142"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:47",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

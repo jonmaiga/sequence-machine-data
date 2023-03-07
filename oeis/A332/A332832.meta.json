@@ -1,0 +1,38 @@
+{
+  "description": "Heinz numbers of integer partitions whose negated first differences (assuming the last part is zero) are not unimodal.",
+  "id": "A332832",
+  "mentions": [
+    "A001523",
+    "A059204",
+    "A065201",
+    "A115981",
+    "A227038",
+    "A316597",
+    "A325325",
+    "A332282",
+    "A332283",
+    "A332284",
+    "A332285",
+    "A332286",
+    "A332287",
+    "A332578",
+    "A332638",
+    "A332639",
+    "A332642",
+    "A332669",
+    "A332670",
+    "A332725",
+    "A332728",
+    "A332744"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

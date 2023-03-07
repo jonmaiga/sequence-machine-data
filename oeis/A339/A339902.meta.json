@@ -1,0 +1,25 @@
+{
+  "description": "Number of prime divisors of A339821(n), counted with multiplicity.",
+  "id": "A339902",
+  "mentions": [
+    "A000010",
+    "A001222",
+    "A003972",
+    "A019565",
+    "A023508",
+    "A339821",
+    "A339822",
+    "A339906"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

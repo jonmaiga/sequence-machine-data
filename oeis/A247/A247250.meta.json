@@ -1,0 +1,24 @@
+{
+  "description": "Indices of Pell numbers having exactly one primitive prime factor.",
+  "id": "A247250",
+  "mentions": [
+    "A000045",
+    "A000129",
+    "A008555",
+    "A086383",
+    "A096650",
+    "A152012",
+    "A175181",
+    "A246556"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

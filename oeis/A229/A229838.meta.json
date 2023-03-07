@@ -1,0 +1,20 @@
+{
+  "description": "Consider all primitive 60-degree triangles with sides A < B < C. The sequence gives the values of A.",
+  "id": "A229838",
+  "mentions": [
+    "A004611",
+    "A089025",
+    "A229839"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

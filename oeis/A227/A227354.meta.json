@@ -1,0 +1,29 @@
+{
+  "description": "Expansion of 2 * a(q) - a(q^2) in powers of q where a() is a cubic AGM theta function.",
+  "id": "A227354",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A004016",
+    "A005882",
+    "A005928",
+    "A010054",
+    "A010815",
+    "A033762",
+    "A112604",
+    "A112605",
+    "A121373",
+    "A122859"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

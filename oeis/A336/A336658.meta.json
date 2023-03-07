@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k and k+1 both have the prime signature (2,1,1,1) (A189982).",
+  "id": "A336658",
+  "mentions": [
+    "A140078",
+    "A189982",
+    "A274362"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

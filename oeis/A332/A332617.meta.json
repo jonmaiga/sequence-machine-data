@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = Sum_{k=1..n} J_n(k), where J is the Jordan function, J_n(k) = k^n * Product_{p|k, p prime} (1 - 1/p^n).",
+  "id": "A332617",
+  "mentions": [
+    "A000010",
+    "A002088",
+    "A007434",
+    "A059376",
+    "A059377",
+    "A059378",
+    "A059379",
+    "A059380",
+    "A067858",
+    "A319194",
+    "A321879"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

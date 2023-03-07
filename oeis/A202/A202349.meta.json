@@ -1,0 +1,21 @@
+{
+  "description": "Lexicographically first sequence such that the sequence and its first and second differences share no terms, and the 3rd differences are equal to the original sequence.",
+  "id": "A202349",
+  "mentions": [
+    "A024493",
+    "A130781"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

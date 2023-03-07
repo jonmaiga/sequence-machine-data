@@ -1,0 +1,18 @@
+{
+  "description": "Number of n-element subsets of [2n] having a prime element sum.",
+  "id": "A282517",
+  "mentions": [
+    "A282516"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

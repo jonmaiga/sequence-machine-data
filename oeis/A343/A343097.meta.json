@@ -1,0 +1,38 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of k-colorings of an n X n grid, up to rotations and reflections.",
+  "id": "A343097",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A001326",
+    "A001477",
+    "A002817",
+    "A054247",
+    "A054739",
+    "A054751",
+    "A054752",
+    "A217331",
+    "A217338",
+    "A246106",
+    "A283033",
+    "A286392",
+    "A286393",
+    "A286394",
+    "A286396",
+    "A286397",
+    "A343095",
+    "A343875"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

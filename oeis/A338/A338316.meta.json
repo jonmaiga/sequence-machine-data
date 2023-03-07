@@ -1,0 +1,45 @@
+{
+  "description": "Odd numbers whose distinct prime indices are pairwise coprime, where a singleton is always considered coprime.",
+  "id": "A338316",
+  "mentions": [
+    "A007359",
+    "A051424",
+    "A056239",
+    "A101268",
+    "A112798",
+    "A220377",
+    "A289509",
+    "A302568",
+    "A302569",
+    "A302696",
+    "A302797",
+    "A303282",
+    "A304709",
+    "A304711",
+    "A318719",
+    "A327516",
+    "A328673",
+    "A328867",
+    "A333228",
+    "A335235",
+    "A337485",
+    "A337561",
+    "A337665",
+    "A337694",
+    "A337697",
+    "A337984",
+    "A337987",
+    "A338315",
+    "A338317"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

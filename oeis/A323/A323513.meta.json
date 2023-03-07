@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 1 if n and phi(n) share the same prime signature, 0 otherwise.",
+  "id": "A323513",
+  "mentions": [
+    "A000010",
+    "A046523",
+    "A277906",
+    "A300216",
+    "A318893"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:47",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

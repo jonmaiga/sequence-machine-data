@@ -1,0 +1,25 @@
+{
+  "description": "Least prime number > prime(n) (n >= 5) whose set of decimal digits coincides with the set of decimal digits of prime(n), or -1 if no such prime exists.",
+  "id": "A358020",
+  "mentions": [
+    "A000040",
+    "A004022",
+    "A004023",
+    "A020451",
+    "A020455",
+    "A050288",
+    "A166681",
+    "A357096"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 5,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Distribution of A063834 in Abramowitz and Stegun order.",
+  "id": "A119441",
+  "mentions": [
+    "A000041",
+    "A036043",
+    "A063834",
+    "A119442"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

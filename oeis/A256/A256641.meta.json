@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the total number of free ends of 5 line segments expansion at n iterations (see Comments lines for definition).",
+  "id": "A256641",
+  "mentions": [
+    "A032766",
+    "A222181"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

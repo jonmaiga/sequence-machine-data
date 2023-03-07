@@ -1,0 +1,20 @@
+{
+  "description": "The number of solutions to phi(x) = phi(x+1) below 10^n, where phi(x) is the Euler totient function.",
+  "id": "A300285",
+  "mentions": [
+    "A000010",
+    "A001274"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

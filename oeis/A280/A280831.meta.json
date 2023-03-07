@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways to write 8*n+7 as x^2 + y^2 + z^2 + w^2 with x^4 + 1680*y^3*z a square, where x,y,z,w are positive integers.",
+  "id": "A280831",
+  "mentions": [
+    "A000118",
+    "A000290",
+    "A000578",
+    "A000583",
+    "A272336"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

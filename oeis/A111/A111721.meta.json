@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = a(n-1) + a(n-2) + 5 where a(0) = a(1) = 1.",
+  "id": "A111721",
+  "mentions": [
+    "A000045",
+    "A000071"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

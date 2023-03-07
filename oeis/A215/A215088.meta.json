@@ -1,0 +1,19 @@
+{
+  "description": "a(n)=Sum{d(i)*2^i: i=0,1,...,m}, where Sum{d(i)*5^i: i=0,1,...,m} is the base 5 representation of n.",
+  "id": "A215088",
+  "mentions": [
+    "A033042"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:19:19",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

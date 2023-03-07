@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of z_br = z_4.8.8, the bulk limit of the number of spanning trees on a \"bathroom\" lattice (squares and octagons).",
+  "id": "A245736",
+  "mentions": [
+    "A218387",
+    "A245725"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

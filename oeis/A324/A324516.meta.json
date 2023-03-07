@@ -1,0 +1,25 @@
+{
+  "description": "Number of integer partitions of n > 0 where the maximum part minus the minimum part equals the length minus the number of distinct parts.",
+  "id": "A324516",
+  "mentions": [
+    "A006141",
+    "A039900",
+    "A046660",
+    "A047993",
+    "A064174",
+    "A243055",
+    "A324515",
+    "A324518",
+    "A324520"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = pi((sqrt(P(n))+1)^2) - pi(P(n)), where pi(n) = number of primes <= n and P(n) = n-th primorial.",
+  "id": "A166678",
+  "mentions": [
+    "A000720",
+    "A000849",
+    "A002110"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "less",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

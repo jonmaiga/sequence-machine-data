@@ -1,0 +1,19 @@
+{
+  "description": "Number of prime factors p of n for which the 2-adic valuation of p-1 is greater than that of n-1.",
+  "id": "A360115",
+  "mentions": [
+    "A007814",
+    "A360116",
+    "A360117"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 2,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

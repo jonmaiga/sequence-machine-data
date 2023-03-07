@@ -1,0 +1,17 @@
+{
+  "description": "Number of steps required to reach 1 for repeated applications of the Collatz-inspired function f(n) = 6*n+5-(n mod 5), or -1 if 1 is never reached.",
+  "id": "A330920",
+  "mentions": [
+    "A006577"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

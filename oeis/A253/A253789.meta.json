@@ -1,0 +1,20 @@
+{
+  "description": "Fixed points of f(n) = A252753(n-1).",
+  "id": "A253789",
+  "mentions": [
+    "A029747",
+    "A252753",
+    "A252754",
+    "A253790"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

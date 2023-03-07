@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k, not powers of primes, for which A011772(k) divides A344875(k), and for all proper divisors d of k, A011772(d) < A011772(k).",
+  "id": "A344694",
+  "mentions": [
+    "A011772",
+    "A024619",
+    "A344595",
+    "A344875",
+    "A344880",
+    "A344881",
+    "A344973",
+    "A344974",
+    "A344975",
+    "A344980"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

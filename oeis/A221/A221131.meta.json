@@ -1,0 +1,31 @@
+{
+  "description": "Table, T, read by antidiagonals where T(-j,k) = ((1+sqrt(j))^k + (1-sqrt(j))^k)/2.",
+  "id": "A221131",
+  "mentions": [
+    "A000012",
+    "A006495",
+    "A024000",
+    "A025172",
+    "A028884",
+    "A084097",
+    "A087455",
+    "A090590",
+    "A090592",
+    "A120743",
+    "A134593",
+    "A138229",
+    "A138230",
+    "A146559"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

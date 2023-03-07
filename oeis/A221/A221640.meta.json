@@ -1,0 +1,20 @@
+{
+  "description": "Number T(n,k) of different numbers of square parts in the set of partitions of an n X k rectangle into squares with integer sides, considering only the list of parts; triangle T(n,k), 1 <= k <= n, read by rows.",
+  "id": "A221640",
+  "mentions": [
+    "A224697",
+    "A226937",
+    "A227998"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into at most 2 nonprime parts.",
+  "id": "A347788",
+  "mentions": [
+    "A005171",
+    "A018252",
+    "A052284",
+    "A076608",
+    "A347796",
+    "A347797",
+    "A347798",
+    "A347799",
+    "A358638"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:21",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

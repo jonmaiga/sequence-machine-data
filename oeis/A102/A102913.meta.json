@@ -1,0 +1,24 @@
+{
+  "description": "Take characteristic function of the semiprimes A001358, interpret it as a binary fraction and convert to a decimal fraction.",
+  "id": "A102913",
+  "mentions": [
+    "A001358",
+    "A010051",
+    "A051006",
+    "A051007",
+    "A064911",
+    "A102914"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 19:26:23",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers matched to polynomials divisible by x^2+1.",
+  "id": "A206715",
+  "mentions": [
+    "A131853",
+    "A206074",
+    "A206716"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

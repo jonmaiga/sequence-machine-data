@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the number u such that the line normal to the graph of y = sin x at (u, sin u) passes through (Pi/4,0).",
+  "id": "A332522",
+  "mentions": [
+    "A332500",
+    "A332507"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

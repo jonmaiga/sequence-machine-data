@@ -1,0 +1,26 @@
+{
+  "description": "Evaluation of the Stirling cycle polynomials at -1/2 and normalized with (-2)^n.",
+  "id": "A330797",
+  "mentions": [
+    "A001147",
+    "A009235",
+    "A101485",
+    "A103639",
+    "A130534",
+    "A330799",
+    "A330800",
+    "A330802",
+    "A330803"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:58:55",
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

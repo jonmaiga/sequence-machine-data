@@ -1,0 +1,20 @@
+{
+  "description": "Number of even numbers less than 10^n that contain their greatest odd factor as a substring.",
+  "id": "A291555",
+  "mentions": [
+    "A000265",
+    "A291460"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

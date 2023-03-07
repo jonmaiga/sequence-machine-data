@@ -1,0 +1,19 @@
+{
+  "description": "Number of composite integers greater than or equal to n whose proper divisors are all less than n.",
+  "id": "A182843",
+  "mentions": [
+    "A010051",
+    "A038802"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

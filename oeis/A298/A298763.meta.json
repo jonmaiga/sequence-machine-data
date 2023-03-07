@@ -1,0 +1,17 @@
+{
+  "description": "Numbers that are the smallest of four consecutive primes, no three of which sum to a nonprime.",
+  "id": "A298763",
+  "mentions": [
+    "A073681"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:21",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

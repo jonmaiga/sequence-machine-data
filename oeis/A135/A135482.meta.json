@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (1/4)*Sum_{j=1..n} 2^prime(j).",
+  "id": "A135482",
+  "mentions": [
+    "A000040",
+    "A000079",
+    "A076793",
+    "A080355",
+    "A135620"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

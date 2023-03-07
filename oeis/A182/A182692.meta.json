@@ -1,0 +1,21 @@
+{
+  "description": "Composite Beatty sequence of sqrt(3).",
+  "id": "A182692",
+  "mentions": [
+    "A022838",
+    "A054406",
+    "A107857",
+    "A182631"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

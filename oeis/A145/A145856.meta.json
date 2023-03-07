@@ -1,0 +1,31 @@
+{
+  "description": "Least number k>1 such that centered n-gonal number n*k(k-1)/2+1 is a perfect square, or 0 if there no such k exists.",
+  "id": "A145856",
+  "mentions": [
+    "A001542",
+    "A001570",
+    "A001652",
+    "A001921",
+    "A006451",
+    "A053141",
+    "A053606",
+    "A061278",
+    "A105038",
+    "A105040",
+    "A120744",
+    "A129444",
+    "A129556",
+    "A166259"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

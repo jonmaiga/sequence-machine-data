@@ -1,0 +1,24 @@
+{
+  "description": "Number T(n,k) of distinct values of multinomial coefficients M(n;lambda), where lambda ranges over all partitions of n with largest part = k; triangle T(n,k), n>=1, 1<=k<=n, read by rows.",
+  "id": "A215521",
+  "mentions": [
+    "A000012",
+    "A001399",
+    "A004526",
+    "A008284",
+    "A069905",
+    "A070289",
+    "A215520"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

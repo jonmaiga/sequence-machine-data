@@ -1,0 +1,40 @@
+{
+  "description": "Number of integer partitions of n without all distinct multiplicities.",
+  "id": "A336866",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A001222",
+    "A008284",
+    "A013929",
+    "A047966",
+    "A047967",
+    "A071625",
+    "A098859",
+    "A116608",
+    "A118914",
+    "A124010",
+    "A130091",
+    "A130092",
+    "A181796",
+    "A242882",
+    "A255231",
+    "A325242",
+    "A325280",
+    "A327498",
+    "A329739",
+    "A336422",
+    "A336571"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of lattice paths starting at {n}^4 and ending when any component equals 0, using steps that decrement one or more components by one.",
+  "id": "A263162",
+  "mentions": [
+    "A263064",
+    "A263159"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

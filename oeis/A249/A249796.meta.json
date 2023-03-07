@@ -1,0 +1,18 @@
+{
+  "description": "Triangle T(n,k), n>=3, 3<=k<=n, read by rows. Number of ways to make n selections without replacement from a circular array of n unlabeled cells (ignoring rotations and reflection), such that the first selection of a cell adjacent to previously selected cells occurs on the k-th selection.",
+  "id": "A249796",
+  "mentions": [
+    "A006516"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

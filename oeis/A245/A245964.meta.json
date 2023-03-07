@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of maximal hypercubes Q(p) in the Lucas cube Lambda(n) (i.e., Q(p) is an induced subgraph of Lambda(n) that is not a subgraph of a subgraph of Lambda(n) that is isomorphic to the hypercube Q(p+1)).",
+  "id": "A245964",
+  "mentions": [
+    "A001608",
+    "A245963"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

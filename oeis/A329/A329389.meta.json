@@ -1,0 +1,19 @@
+{
+  "description": "Solution sequence (a(n)) of the complementary equation a(n) = 6 b(n+1) - b(n), with b(0) = 1.",
+  "id": "A329389",
+  "mentions": [
+    "A329387",
+    "A329388",
+    "A329390"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:59:19",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

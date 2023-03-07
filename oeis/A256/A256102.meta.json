@@ -1,0 +1,23 @@
+{
+  "description": "Numbers m such that gcd(A001008(m), m) > 1, in increasing order.",
+  "id": "A256102",
+  "mentions": [
+    "A001008",
+    "A002805",
+    "A102928",
+    "A175441",
+    "A256103"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

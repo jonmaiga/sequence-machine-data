@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of Product_{k>=1} ((1 + x^(2*k)) / (1 - x^k))^k.",
+  "id": "A285462",
+  "mentions": [
+    "A074962",
+    "A156616",
+    "A279328",
+    "A285447",
+    "A285460",
+    "A285461"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 02:45:05",
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

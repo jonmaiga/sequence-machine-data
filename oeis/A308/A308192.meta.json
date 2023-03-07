@@ -1,0 +1,21 @@
+{
+  "description": "Record values in A308190.",
+  "id": "A308192",
+  "mentions": [
+    "A111234",
+    "A308190",
+    "A308191",
+    "A308193"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

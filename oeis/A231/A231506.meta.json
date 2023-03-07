@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that p + 3*k and p - 3*k, both are primes, where p is k-th prime.",
+  "id": "A231506",
+  "mentions": [
+    "A061068",
+    "A064402",
+    "A231232",
+    "A231383"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

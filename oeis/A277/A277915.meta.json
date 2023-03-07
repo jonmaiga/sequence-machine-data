@@ -1,0 +1,27 @@
+{
+  "description": "A(n,k) is the n-th number m such that a nontrivial prime(k)-th root of unity modulo m exists; square array A(n,k), n>=1, k>=1, read by antidiagonals.",
+  "id": "A277915",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A002322",
+    "A033949",
+    "A066498",
+    "A066500",
+    "A066502",
+    "A066674",
+    "A305828"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

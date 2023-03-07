@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: number of meanders filling out an n X k grid, unreduced for symmetry.",
+  "id": "A201145",
+  "mentions": [
+    "A078008",
+    "A200000",
+    "A200749",
+    "A200893"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

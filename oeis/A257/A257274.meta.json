@@ -1,0 +1,23 @@
+{
+  "description": "Numbers whose square can be written as sum of at least 3 consecutive triangular numbers (A000217).",
+  "id": "A257274",
+  "mentions": [
+    "A000217",
+    "A005448",
+    "A046090",
+    "A075870",
+    "A129444",
+    "A129445",
+    "A182435"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

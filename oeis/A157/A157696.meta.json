@@ -1,0 +1,21 @@
+{
+  "description": "Define k(n) to be the sequence of integers such that k(n)F(n)=F(2n)(Fibonacci sequence) (A000204); in turn define g(n) to be the sequence of integers such that g(n)k(n)=k(3n)(A110391); finally a(n) is the sequence of integers such that a(n)g(n)=g(5n).",
+  "id": "A157696",
+  "mentions": [
+    "A000045",
+    "A000204",
+    "A005248",
+    "A110391"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Table read by rows: T(n,k) is the number of k-gons, 3<=k<=4, in a Farey fan of order n.",
+  "id": "A360044",
+  "mentions": [
+    "A005598",
+    "A005728",
+    "A174030",
+    "A359694",
+    "A359971",
+    "A359977",
+    "A360042",
+    "A360043"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

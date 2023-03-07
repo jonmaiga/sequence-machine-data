@@ -1,0 +1,20 @@
+{
+  "description": "Values of the genus g for which there exists a compact Riemann surface of genus g admitting an automorphism group of order 84(g-1), the maximum possible, also known as the Hurwitz bound.",
+  "id": "A179982",
+  "mentions": [
+    "A343821",
+    "A343822",
+    "A346293"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

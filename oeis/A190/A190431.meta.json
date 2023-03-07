@@ -1,0 +1,31 @@
+{
+  "description": "a(n) = [(b*n+c)*r] - b*[n*r] - [c*r], where (r,b,c)=(golden ratio,3,1) and []=floor.",
+  "id": "A190431",
+  "mentions": [
+    "A005652",
+    "A005653",
+    "A078588",
+    "A140397",
+    "A140431",
+    "A140436",
+    "A190400",
+    "A190427",
+    "A190430",
+    "A190432",
+    "A190433",
+    "A190434",
+    "A190435",
+    "A190439"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 136,
+    "source": "oeis-bfile"
+  }
+}

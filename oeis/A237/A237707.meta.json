@@ -1,0 +1,21 @@
+{
+  "description": "Number of unit cubes, aligned with a three-dimensional Cartesian mesh, completely within the first octant of a sphere centered at the origin, ordered by increasing radius.",
+  "id": "A237707",
+  "mentions": [
+    "A000408",
+    "A014465",
+    "A063691",
+    "A232499"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:23",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

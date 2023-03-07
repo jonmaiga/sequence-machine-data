@@ -1,0 +1,22 @@
+{
+  "description": "Harshad numbers with sum of digits equal to 18.",
+  "id": "A334403",
+  "mentions": [
+    "A002998",
+    "A005349",
+    "A008600",
+    "A235228"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Expansion of f(x, x)^2 / (f(x^3, x^3) * f(x, x^5)) in powers of x where f(, ) is Ramanujan's general theta function.",
+  "id": "A263526",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A092848",
+    "A121373",
+    "A132179",
+    "A132301",
+    "A216046",
+    "A230256",
+    "A233034",
+    "A233037",
+    "A261325"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:20:59",
+    "offset": 0,
+    "size": 60,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Partition array in Abramowitz-Stegun order: Schur functions evaluated at 1.",
+  "id": "A262030",
+  "mentions": [
+    "A000041",
+    "A054688",
+    "A117506",
+    "A209673",
+    "A210391"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

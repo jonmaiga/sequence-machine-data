@@ -1,0 +1,19 @@
+{
+  "description": "Constant terms arising in an asymptotic formula for 1/(zeta(s)-1) as s --> infinity.",
+  "id": "A112933",
+  "mentions": [
+    "A112931",
+    "A112932"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

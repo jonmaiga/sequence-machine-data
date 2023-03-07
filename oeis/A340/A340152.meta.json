@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k and k+1 are both cubefree numbers (A004709).",
+  "id": "A340152",
+  "mentions": [
+    "A004709",
+    "A007674",
+    "A328016",
+    "A340153"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

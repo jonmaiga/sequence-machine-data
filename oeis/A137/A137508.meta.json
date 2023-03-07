@@ -1,0 +1,21 @@
+{
+  "description": "Successive structures of alkaline earth metals (periodic table elements from 2nd column).",
+  "id": "A137508",
+  "mentions": [
+    "A005993",
+    "A093907",
+    "A099956",
+    "A106314",
+    "A168281"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

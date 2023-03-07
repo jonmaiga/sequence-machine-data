@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = |{0 < k <= n/2: q(k)*q(n-k) + 1 is prime}|, where q(.) is the strict partition function (A000009).",
+  "id": "A233417",
+  "mentions": [
+    "A000009",
+    "A000040",
+    "A000041",
+    "A232504",
+    "A233307",
+    "A233346",
+    "A233359",
+    "A233390",
+    "A233393"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Each term a(n) satisfies four properties: 1, divisible by all prime factors of n; 2, divisible by only the prime factors of n; 3, not equal to any of the terms a(1), a(2), ... a(n-1); 4, smallest number satisfying 1-3 if A005361(n) is even, or second smallest number satisfying 1-3 if A005361(n) is odd.",
+  "id": "A253288",
+  "mentions": [
+    "A003586",
+    "A005361",
+    "A120706",
+    "A120944",
+    "A246547",
+    "A286708",
+    "A358971"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:11",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

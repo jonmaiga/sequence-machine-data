@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are not the sum of a triangular number, a nonnegative cube and a fourth power.",
+  "id": "A115161",
+  "mentions": [
+    "A014158",
+    "A022552",
+    "A115159",
+    "A115160",
+    "A115162",
+    "A115163"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

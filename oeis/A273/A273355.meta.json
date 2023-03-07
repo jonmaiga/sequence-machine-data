@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that n - 47, n - 1, n + 1, n + 47 are consecutive primes.",
+  "id": "A273355",
+  "mentions": [
+    "A014574",
+    "A077800",
+    "A134122",
+    "A249674",
+    "A256753"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

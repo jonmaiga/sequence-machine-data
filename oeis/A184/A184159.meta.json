@@ -1,0 +1,18 @@
+{
+  "description": "The difference between the levels of the highest and lowest leaves in the rooted tree with Matula-Goebel number n.",
+  "id": "A184159",
+  "mentions": [
+    "A184154"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 110,
+    "source": "oeis-entry"
+  }
+}

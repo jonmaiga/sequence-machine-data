@@ -1,0 +1,36 @@
+{
+  "description": "Lengths of maximal subsequences without adjacent equal terms in the sequence of prime gaps.",
+  "id": "A333216",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A001223",
+    "A054800",
+    "A064113",
+    "A084758",
+    "A090832",
+    "A106356",
+    "A124762",
+    "A124767",
+    "A145024",
+    "A306323",
+    "A333212",
+    "A333214",
+    "A333215",
+    "A333252",
+    "A333253",
+    "A333254"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "hear",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

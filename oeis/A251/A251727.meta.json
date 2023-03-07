@@ -1,0 +1,27 @@
+{
+  "description": "Numbers n > 1 for which gpf(n) > spf(n)^2, where spf and gpf (smallest and greatest prime factor of n) are given by A020639(n) and A006530(n).",
+  "id": "A251727",
+  "mentions": [
+    "A000290",
+    "A006530",
+    "A020639",
+    "A138511",
+    "A251725",
+    "A251726",
+    "A252371",
+    "A252374",
+    "A252375",
+    "A252757",
+    "A252758"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:09",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

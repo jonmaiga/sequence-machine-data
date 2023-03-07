@@ -1,0 +1,18 @@
+{
+  "description": "Run lengths in Golay-Rudin-Shapiro sequence A020985.",
+  "id": "A203531",
+  "mentions": [
+    "A020985",
+    "A293531"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

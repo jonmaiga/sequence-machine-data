@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that A002313(m) is the greatest prime divisor of k^2 + 1 and A002313(m+1) is the greatest prime divisor of (k+1)^2 + 1 for some m.",
+  "id": "A253596",
+  "mentions": [
+    "A002313",
+    "A014442"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

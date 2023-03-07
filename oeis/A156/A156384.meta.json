@@ -1,0 +1,23 @@
+{
+  "description": "The number of solutions to x^2 + y^2 + 2*z^2 = n in nonnegative integers x,y,z.",
+  "id": "A156384",
+  "mentions": [
+    "A000007",
+    "A000122",
+    "A004018",
+    "A014455",
+    "A033715",
+    "A213024"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

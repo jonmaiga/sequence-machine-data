@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = ceiling(n^(3/2)); complement of A185550.",
+  "id": "A185549",
+  "mentions": [
+    "A000093",
+    "A144968",
+    "A185550"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

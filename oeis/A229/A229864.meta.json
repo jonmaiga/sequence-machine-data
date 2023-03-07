@@ -1,0 +1,20 @@
+{
+  "description": "Smallest sets of 6 consecutive palindromic primes (palprimes) in arithmetic progression. The initial palindromic prime is listed.",
+  "id": "A229864",
+  "mentions": [
+    "A059120",
+    "A059121",
+    "A059122"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

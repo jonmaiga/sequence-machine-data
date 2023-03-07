@@ -1,0 +1,22 @@
+{
+  "description": "Villegas-Zagier polynomials (listing coefficients from lowest to highest degree).",
+  "id": "A166243",
+  "mentions": [
+    "A159843",
+    "A166244",
+    "A166246",
+    "A206309"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:49",
+    "offset": -1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

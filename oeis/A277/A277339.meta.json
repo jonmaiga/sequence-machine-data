@@ -1,0 +1,18 @@
+{
+  "description": "Exponential self-convolution of this sequence gives central binomial coefficients (A000984).",
+  "id": "A277339",
+  "mentions": [
+    "A000984"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

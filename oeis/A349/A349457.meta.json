@@ -1,0 +1,22 @@
+{
+  "description": "Number of singular positroids in the Grassmannian variety Gr(k,n) for a fixed n and any 0 <= k <= n.",
+  "id": "A349457",
+  "mentions": [
+    "A000522",
+    "A349413",
+    "A349456",
+    "A349458"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

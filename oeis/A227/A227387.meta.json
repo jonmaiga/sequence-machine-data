@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that sigma(n)*7 < sigma(n-1) + sigma(n+1).",
+  "id": "A227387",
+  "mentions": [
+    "A000203",
+    "A072828"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

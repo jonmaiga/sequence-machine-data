@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of e.g.f. 1/sqrt(1 - 8 * log(1+x)).",
+  "id": "A354260",
+  "mentions": [
+    "A320343",
+    "A354240",
+    "A354253",
+    "A354259",
+    "A354262"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

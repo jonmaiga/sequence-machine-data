@@ -1,0 +1,18 @@
+{
+  "description": "First of two consecutive prime numbers both of which end with the digits 0,1.",
+  "id": "A330678",
+  "mentions": [
+    "A050434"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

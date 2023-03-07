@@ -1,0 +1,26 @@
+{
+  "description": "For n=2^k, a(n) = binomial(k + 2, 2), else 0.",
+  "id": "A129502",
+  "mentions": [
+    "A000217",
+    "A103994",
+    "A104117",
+    "A115361",
+    "A129360",
+    "A129501",
+    "A209229",
+    "A317673"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:22",
+    "offset": 1,
+    "size": 85,
+    "source": "joeis"
+  }
+}

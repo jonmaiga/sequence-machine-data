@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X n 0..1 arrays with every element both equal and not equal to some elements at offset (-1,0), (-1,1), (0,-1), (0,1) or (1,0), with upper left element zero.",
+  "id": "A278087",
+  "mentions": [
+    "A278094"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

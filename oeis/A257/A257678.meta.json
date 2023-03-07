@@ -1,0 +1,19 @@
+{
+  "description": "Fixed points of A257676 and A257677.",
+  "id": "A257678",
+  "mentions": [
+    "A000225",
+    "A257676",
+    "A257677"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

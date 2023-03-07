@@ -1,0 +1,25 @@
+{
+  "description": "n occurs as many times as there are runs in binary representation of n.",
+  "id": "A227737",
+  "mentions": [
+    "A005811",
+    "A101211",
+    "A173318",
+    "A227736",
+    "A227738",
+    "A227739",
+    "A227740",
+    "A227741"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

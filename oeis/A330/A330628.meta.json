@@ -1,0 +1,33 @@
+{
+  "description": "Number of series/singleton-reduced rooted trees on strongly normal multisets of size n whose leaves are sets (not necessarily disjoint).",
+  "id": "A330628",
+  "mentions": [
+    "A000311",
+    "A000669",
+    "A004111",
+    "A004114",
+    "A005804",
+    "A035310",
+    "A196545",
+    "A281118",
+    "A330465",
+    "A330467",
+    "A330471",
+    "A330624",
+    "A330625",
+    "A330626",
+    "A330654",
+    "A330668"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

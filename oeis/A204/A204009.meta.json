@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is a binary vector for selecting distinct terms from A000124 that when summed give n; it uses the greedy algorithm.",
+  "id": "A204009",
+  "mentions": [
+    "A000124",
+    "A072638"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

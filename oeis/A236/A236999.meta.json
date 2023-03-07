@@ -1,0 +1,22 @@
+{
+  "description": "Odd part of n*(n+3)/2-1 (A034856).",
+  "id": "A236999",
+  "mentions": [
+    "A000265",
+    "A001788",
+    "A034856",
+    "A127276",
+    "A176126"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

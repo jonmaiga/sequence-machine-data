@@ -1,0 +1,19 @@
+{
+  "description": "Number of length n strings on the alphabet {0,1,2} of the form 0^i 1^j 2^k such that i,j,k>=0 and if i=1 then j=k.",
+  "id": "A236453",
+  "mentions": [
+    "A000124"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:43:13",
+    "offset": 0,
+    "size": 56,
+    "source": "joeis"
+  }
+}

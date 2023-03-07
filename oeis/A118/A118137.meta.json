@@ -1,0 +1,20 @@
+{
+  "description": "Sum of decimal digits of two successive natural numbers.",
+  "id": "A118137",
+  "mentions": [
+    "A007953"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:52",
+    "offset": 0,
+    "size": 75,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Fermi-Dirac factorization prime shift towards smaller terms: a(n) = A052330(floor(A052331(n)/2)).",
+  "id": "A300840",
+  "mentions": [
+    "A050376",
+    "A052330",
+    "A052331",
+    "A059897",
+    "A064989",
+    "A300841"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "For any number n with binary expansion (b_1, ..., b_k), the binary expansion of a(n), say (c_1, ..., c_k) satisfies c_m = Sum_{d | m} b_d mod 2 for m = 1..k.",
+  "id": "A341335",
+  "mentions": [
+    "A295901",
+    "A341336"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Array whose rows result from iterating an algorithm that takes (1,1,1,1,...) to (1,3,5,7,...).",
+  "id": "A181109",
+  "mentions": [
+    "A000012",
+    "A003159",
+    "A005408",
+    "A136119",
+    "A181108"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

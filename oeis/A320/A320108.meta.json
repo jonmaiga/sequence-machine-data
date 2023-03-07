@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Product_{d|n, d>1} prime(1+(d mod 8)).",
+  "id": "A320108",
+  "mentions": [
+    "A080682",
+    "A319987",
+    "A320109",
+    "A320112",
+    "A320114",
+    "A320116"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

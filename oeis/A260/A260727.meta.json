@@ -1,0 +1,24 @@
+{
+  "description": "Number of ways to place 3n rooks on an n X n board, with 3 rooks in each row and each column, multiple rooks in a cell allowed, and exactly 3 rooks below the main diagonal.",
+  "id": "A260727",
+  "mentions": [
+    "A260575",
+    "A260582",
+    "A260583",
+    "A260584",
+    "A260585",
+    "A269743"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 2,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n with the same f-value as n+1, where f(n) = A056239(n) = Sum_{i} i*e_i for n = Product_{i} prime(i)^e_i.",
+  "id": "A215369",
+  "mentions": [
+    "A056239",
+    "A088850",
+    "A215366"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

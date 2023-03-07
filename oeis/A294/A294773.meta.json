@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{d|n} d^(d+n+1).",
+  "id": "A294773",
+  "mentions": [
+    "A294645",
+    "A294704",
+    "A294757"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

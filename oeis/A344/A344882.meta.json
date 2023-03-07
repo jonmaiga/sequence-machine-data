@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k that have such a proper divisor d for which A011772(d) = A011772(k).",
+  "id": "A344882",
+  "mentions": [
+    "A011772",
+    "A344590",
+    "A344759"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

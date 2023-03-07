@@ -1,0 +1,23 @@
+{
+  "description": "The numbers visited on a square spiral, with a(n) = n for 1 <= n <= 3, when stepping to an unvisited number as close as possible to the n = 1 starting position that has at least one common factor with the second last visited number but none with the last visited number. In case of a tie, choose the smallest number.",
+  "id": "A335585",
+  "mentions": [
+    "A064413",
+    "A098550",
+    "A330979",
+    "A335661",
+    "A336957",
+    "A340783"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k whose binary expansion is a substring of the binary expansion of binomial(k,2).",
+  "id": "A356537",
+  "mentions": [
+    "A000217",
+    "A030190",
+    "A187752",
+    "A351753"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

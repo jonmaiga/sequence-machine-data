@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of q^(-5/6) * (eta(q) * eta(q^6)^2 / eta(q^3))^2 in powers of q.",
+  "id": "A258090",
+  "mentions": [
+    "A030188"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:45:21",
+    "offset": 0,
+    "size": 73,
+    "source": "joeis"
+  }
+}

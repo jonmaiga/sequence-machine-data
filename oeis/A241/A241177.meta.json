@@ -1,0 +1,27 @@
+{
+  "description": "Numbers n such that there are exactly two numbers m with m + (some digit of m) = n.",
+  "id": "A241177",
+  "mentions": [
+    "A241173",
+    "A241174",
+    "A241175",
+    "A241176",
+    "A241178",
+    "A241179",
+    "A241180",
+    "A241181",
+    "A241182",
+    "A241183"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

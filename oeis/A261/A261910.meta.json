@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n which are neither palindromes nor the sum of two palindromes, with property that subtracting the largest palindrome < n from n gives a number which is the sum of two palindromes.",
+  "id": "A261910",
+  "mentions": [
+    "A002113",
+    "A035137",
+    "A261675",
+    "A261911",
+    "A261912",
+    "A261913"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:21",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

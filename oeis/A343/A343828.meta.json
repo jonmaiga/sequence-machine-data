@@ -1,0 +1,23 @@
+{
+  "description": "Numbers which are the product of two S-primes (A057948) in exactly three ways.",
+  "id": "A343828",
+  "mentions": [
+    "A054520",
+    "A057948",
+    "A057949",
+    "A057950",
+    "A343826",
+    "A343827"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

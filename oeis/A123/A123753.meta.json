@@ -1,0 +1,26 @@
+{
+  "description": "Partial sums of A070941.",
+  "id": "A123753",
+  "mentions": [
+    "A001855",
+    "A003314",
+    "A033156",
+    "A054248",
+    "A061168",
+    "A070941",
+    "A083652",
+    "A097383",
+    "A295508"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

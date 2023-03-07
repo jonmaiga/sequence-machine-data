@@ -1,0 +1,22 @@
+{
+  "description": "Number of holes in n-th lower case letter of English alphabet (in hand-written form using a cursive script).",
+  "id": "A208568",
+  "mentions": [
+    "A064530",
+    "A064692",
+    "A185374"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

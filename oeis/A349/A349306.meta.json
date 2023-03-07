@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k that divide A092694(k).",
+  "id": "A349306",
+  "mentions": [
+    "A000265",
+    "A036966",
+    "A082897",
+    "A092694"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

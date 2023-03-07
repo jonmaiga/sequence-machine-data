@@ -1,0 +1,20 @@
+{
+  "description": "Numbers not fixed by A250249 and A250250.",
+  "id": "A249729",
+  "mentions": [
+    "A000040",
+    "A250249",
+    "A250250",
+    "A250251"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

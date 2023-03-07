@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of 2n prime to 3 with all odd parts occurring with multiplicity 2. The even parts occur with multiplicity 1.",
+  "id": "A103260",
+  "mentions": [
+    "A001082",
+    "A003105",
+    "A080054",
+    "A098151",
+    "A098884"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:46:11",
+    "offset": 0,
+    "size": 49,
+    "source": "joeis"
+  }
+}

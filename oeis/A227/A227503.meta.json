@@ -1,0 +1,19 @@
+{
+  "description": "q = x * exp( 8 * (Sum_{k>0} a(k) * x^k / k)) where x = m/16, q is the elliptic nome and m = k^2 is the parameter.",
+  "id": "A227503",
+  "mentions": [
+    "A002103",
+    "A274345",
+    "A274346"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = 2 * mu(n) + Sum_{d|n, d > 1} mu(n/d) * (prime(d) - prime(d-1)).",
+  "id": "A333471",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A007444",
+    "A008683",
+    "A030013",
+    "A054541",
+    "A182986",
+    "A333450"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 80,
+    "source": "joeis"
+  }
+}

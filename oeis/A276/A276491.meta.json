@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of q*Product_{k>=1} (1-q^(2*k))^2*(1-q^(10*k))^2.",
+  "id": "A276491",
+  "mentions": [
+    "A030205",
+    "A272207",
+    "A276030"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 135,
+    "source": "joeis"
+  }
+}

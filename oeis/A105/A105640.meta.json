@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of hill-free Dyck paths of semilength n and having k UUDD's, where U=(1,1) and D=(1,-1) (0<=k<=floor(n/2), n>=2). A hill in a Dyck path is a peak at level 1.",
+  "id": "A105640",
+  "mentions": [
+    "A000957",
+    "A105641",
+    "A116914"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 2,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

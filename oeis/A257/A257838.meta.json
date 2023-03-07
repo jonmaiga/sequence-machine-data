@@ -1,0 +1,27 @@
+{
+  "description": "Main diagonal of iterated partial sums array of Fibonacci numbers (starting with the first partial sums).",
+  "id": "A257838",
+  "mentions": [
+    "A000045",
+    "A000071",
+    "A001924",
+    "A014162",
+    "A014166",
+    "A053295",
+    "A053739",
+    "A136431",
+    "A176085"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

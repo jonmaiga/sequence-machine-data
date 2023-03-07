@@ -1,0 +1,29 @@
+{
+  "description": "a(n) is a largest m such that coefficient [x^m] in Product_{k>=1} (1-x^(k^n)) is equal to zero.",
+  "id": "A279529",
+  "mentions": [
+    "A001422",
+    "A001476",
+    "A001661",
+    "A046039",
+    "A276516",
+    "A276517",
+    "A279484",
+    "A279485",
+    "A279486",
+    "A279487"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 2,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

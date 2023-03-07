@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of (Sum_{k>=0} x^(k*(k+1)*(2*k+1)/6))^6.",
+  "id": "A282173",
+  "mentions": [
+    "A000330",
+    "A045848"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

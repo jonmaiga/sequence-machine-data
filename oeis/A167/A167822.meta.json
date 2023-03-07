@@ -1,0 +1,19 @@
+{
+  "description": "Subsequence of A167709 whose indices are congruent to 1 mod 5, i.e., a(n) = A167709(5*n+1).",
+  "id": "A167822",
+  "mentions": [
+    "A167709"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:51",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

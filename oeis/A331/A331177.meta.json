@@ -1,0 +1,20 @@
+{
+  "description": "Number of values of k, 1 <= k <= n, with A319677(k) = A319677(n), where A319677(n) = n/gcd(n, uphi(n)), and uphi is unitary totient function (A047994).",
+  "id": "A331177",
+  "mentions": [
+    "A047994",
+    "A319677",
+    "A330739",
+    "A331175"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

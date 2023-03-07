@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = number of distinct prime factors of 10^n+1 = omega(10^n+1).",
+  "id": "A119704",
+  "mentions": [
+    "A001221",
+    "A003021",
+    "A038371",
+    "A057934",
+    "A062397"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 0,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

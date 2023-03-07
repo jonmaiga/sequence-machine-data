@@ -1,0 +1,18 @@
+{
+  "description": "Number of distinct odd diagrams of permutations of n.",
+  "id": "A335926",
+  "mentions": [
+    "A289511"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

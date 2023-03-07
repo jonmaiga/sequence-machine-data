@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that p divides both Apery numbers A005259((p-3)/2) and A005259((p+1)/2).",
+  "id": "A129828",
+  "mentions": [
+    "A005259"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the sum of absolute values of the coefficients in the n-th cyclotomic polynomial.",
+  "id": "A318884",
+  "mentions": [
+    "A013590",
+    "A013595",
+    "A051258",
+    "A051664",
+    "A318886"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

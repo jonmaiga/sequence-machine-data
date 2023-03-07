@@ -1,0 +1,24 @@
+{
+  "description": "A128894[n,k] for k=1 : Coxeter numbers as defined by Bulgadaev for exceptional group sequence using critical exponent solution.",
+  "id": "A129068",
+  "mentions": [
+    "A109161",
+    "A128894",
+    "A129024",
+    "A129025"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

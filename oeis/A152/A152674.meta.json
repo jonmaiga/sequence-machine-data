@@ -1,0 +1,20 @@
+{
+  "description": "Number of divisors of the numbers that are not squares.",
+  "id": "A152674",
+  "mentions": [
+    "A000005",
+    "A000037"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:23:53",
+    "offset": 1,
+    "size": 94,
+    "source": "joeis"
+  }
+}

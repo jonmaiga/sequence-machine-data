@@ -1,0 +1,21 @@
+{
+  "description": "Perfect powers which have the form prime(n) - n for some n.",
+  "id": "A107608",
+  "mentions": [
+    "A001597",
+    "A107605",
+    "A107606",
+    "A107607"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the number of divisors of A346950(n) ending with 3.",
+  "id": "A346953",
+  "mentions": [
+    "A000005",
+    "A017377",
+    "A346388",
+    "A346389",
+    "A346950",
+    "A346951",
+    "A346952"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

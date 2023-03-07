@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of e.g.f. exp(-2*x) / (BesselI(0,2*x) + BesselI(1,2*x)).",
+  "id": "A308850",
+  "mentions": [
+    "A001700",
+    "A178955",
+    "A246432",
+    "A308847",
+    "A308849"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

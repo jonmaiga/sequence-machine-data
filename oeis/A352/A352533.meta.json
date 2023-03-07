@@ -1,0 +1,21 @@
+{
+  "description": "Irregular table read by rows: T(n,k) is the number of regions formed after k diagonals, with k>=0, are drawn between vertices of a regular n-gon, with n>=3, when each vertex is fully connected to all other vertices in counterclockwise order before the next vertex, in counterclockwise order, is chosen.",
+  "id": "A352533",
+  "mentions": [
+    "A007678",
+    "A344857",
+    "A350000"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 3,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

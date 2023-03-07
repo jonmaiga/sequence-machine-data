@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n with property that (n+1)*prime(n+1)-n*prime(n) is a perfect square s^2.",
+  "id": "A181283",
+  "mentions": [
+    "A175897"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

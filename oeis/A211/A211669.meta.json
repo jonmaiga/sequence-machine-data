@@ -1,0 +1,25 @@
+{
+  "description": "Number of iterations f(f(f(...(n)...))) such that the result is < 2, where f(x) = cube root of x.",
+  "id": "A211669",
+  "mentions": [
+    "A001069",
+    "A010096",
+    "A023365",
+    "A211662",
+    "A211664",
+    "A211666",
+    "A211668",
+    "A211670"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

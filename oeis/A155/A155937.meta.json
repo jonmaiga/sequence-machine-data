@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that 13*n + 8 is a prime.",
+  "id": "A155937",
+  "mentions": [
+    "A092178",
+    "A155938",
+    "A155939"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 19:30:41",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

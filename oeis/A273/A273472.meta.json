@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that at least one of 3511*p or 3511*p^2 is a Poulet number, i.e., a term of A001567.",
+  "id": "A273472",
+  "mentions": [
+    "A001220",
+    "A001567",
+    "A273471"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

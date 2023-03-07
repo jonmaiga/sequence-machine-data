@@ -1,0 +1,19 @@
+{
+  "description": "Numerator of cumulative weight of certain D-forests on n nodes.",
+  "id": "A301736",
+  "mentions": [
+    "A000081",
+    "A301737"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

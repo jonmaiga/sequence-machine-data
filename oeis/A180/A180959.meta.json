@@ -1,0 +1,20 @@
+{
+  "description": "Generalized Narayana triangle for secant.",
+  "id": "A180959",
+  "mentions": [
+    "A000364"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:04",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

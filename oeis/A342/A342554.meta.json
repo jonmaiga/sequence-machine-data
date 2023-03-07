@@ -1,0 +1,25 @@
+{
+  "description": "Number of catafusenes with 2n hexagons and C symmetry.",
+  "id": "A342554",
+  "mentions": [
+    "A002212",
+    "A039658",
+    "A045906",
+    "A045907",
+    "A045908",
+    "A045909",
+    "A055879",
+    "A342570"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:29:06",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

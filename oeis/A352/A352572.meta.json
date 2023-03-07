@@ -1,0 +1,18 @@
+{
+  "description": "Index of prime(n) in A338833.",
+  "id": "A352572",
+  "mentions": [
+    "A338833",
+    "A352571"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 2,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

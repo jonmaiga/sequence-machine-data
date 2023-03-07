@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = sigma_2(n)^2.",
+  "id": "A356533",
+  "mentions": [
+    "A001157",
+    "A035116",
+    "A072861",
+    "A127473"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

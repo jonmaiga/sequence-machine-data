@@ -1,0 +1,18 @@
+{
+  "description": "Trisection of A107926: The least number k such that there are primes p and q with p - q = 6*n, p + q = k, and p the least such prime >= k/2.",
+  "id": "A231156",
+  "mentions": [
+    "A107926"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

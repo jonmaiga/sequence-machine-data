@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X 6 binary arrays with each 1 adjacent to exactly two 0's.",
+  "id": "A183334",
+  "mentions": [
+    "A183335"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:07",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

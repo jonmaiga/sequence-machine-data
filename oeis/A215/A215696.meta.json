@@ -1,0 +1,18 @@
+{
+  "description": "a(n)=smallest positive k>n+2 such that k*n+1 is a square.",
+  "id": "A215696",
+  "mentions": [
+    "A076942",
+    "A215653"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

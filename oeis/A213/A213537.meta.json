@@ -1,0 +1,18 @@
+{
+  "description": "Record first differences of base sequence A213536 (a cousin prime recurrence sequence).",
+  "id": "A213537",
+  "mentions": [
+    "A213536"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

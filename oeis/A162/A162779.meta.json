@@ -1,0 +1,24 @@
+{
+  "description": "Rows of A162777 when written as a triangle converge to this sequence.",
+  "id": "A162779",
+  "mentions": [
+    "A000695",
+    "A011782",
+    "A083318",
+    "A139250",
+    "A153003",
+    "A153006",
+    "A162777"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

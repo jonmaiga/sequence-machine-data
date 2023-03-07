@@ -1,0 +1,33 @@
+{
+  "description": "Number of fully chiral set-systems covering n vertices.",
+  "id": "A330229",
+  "mentions": [
+    "A000612",
+    "A055621",
+    "A059201",
+    "A083323",
+    "A283877",
+    "A319559",
+    "A319564",
+    "A330224",
+    "A330226",
+    "A330227",
+    "A330228",
+    "A330234",
+    "A330235",
+    "A330236",
+    "A330282"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

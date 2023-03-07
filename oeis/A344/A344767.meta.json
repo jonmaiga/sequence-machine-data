@@ -1,0 +1,21 @@
+{
+  "description": "Möbius transform of A011772.",
+  "id": "A344767",
+  "mentions": [
+    "A008683",
+    "A011772",
+    "A344768"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

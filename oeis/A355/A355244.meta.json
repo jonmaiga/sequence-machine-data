@@ -1,0 +1,20 @@
+{
+  "description": "T(w,h)/2 is the minimum slope >= 1/2 that can be chosen as orientation of a w X h rectangle such that the lower bound for the maximum number of covered grid points A354704(w,d) can be achieved by a suitable translation of the rectangle, where T(w,h) and A354704 are triangles read by rows. T(w,h) = -1 if no slope satisfying this condition exists.",
+  "id": "A355244",
+  "mentions": [
+    "A354704",
+    "A354706",
+    "A355241"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

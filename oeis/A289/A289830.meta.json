@@ -1,0 +1,19 @@
+{
+  "description": "a(n) satisfies the equation n/(n-1) + a(n)/n! = H(n), where H(n) is the n-th harmonic number.",
+  "id": "A289830",
+  "mentions": [
+    "A001008",
+    "A002805"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 2,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

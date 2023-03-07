@@ -1,0 +1,22 @@
+{
+  "description": "Squarefree numbers in which all substrings are squarefree.",
+  "id": "A330597",
+  "mentions": [
+    "A005117",
+    "A085823",
+    "A202262"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Sequence for finding the day of the week for the first day of the month in a common (non-leap) year.",
+  "id": "A189915",
+  "mentions": [
+    "A061251",
+    "A178054",
+    "A189916"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive numbers such that for any n > 0, a(n) OR a(n+1) is a prime number (where OR denotes the bitwise OR operator).",
+  "id": "A308334",
+  "mentions": [
+    "A000027",
+    "A055265",
+    "A065186",
+    "A073666",
+    "A081943",
+    "A100208",
+    "A282649",
+    "A308340"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

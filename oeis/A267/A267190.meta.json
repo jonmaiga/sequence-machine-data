@@ -1,0 +1,24 @@
+{
+  "description": "Number of ON cells after n generations of the cellular automaton on the square grid that is described in the Comments.",
+  "id": "A267190",
+  "mentions": [
+    "A000695",
+    "A002858",
+    "A139250",
+    "A151895",
+    "A151906",
+    "A170896",
+    "A267191"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:28",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

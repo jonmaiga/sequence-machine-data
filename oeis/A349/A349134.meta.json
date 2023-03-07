@@ -1,0 +1,22 @@
+{
+  "description": "Dirichlet inverse of Kimberling's paraphrases, A003602.",
+  "id": "A349134",
+  "mentions": [
+    "A003602",
+    "A323881",
+    "A349125",
+    "A349135",
+    "A349136"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

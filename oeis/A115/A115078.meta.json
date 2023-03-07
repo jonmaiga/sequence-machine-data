@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k = prime(1 + d_1)*prime(1 + d_2)*...*prime(1 + d_m), where d_1 d_2 ... d_m is the decimal expansion of k.",
+  "id": "A115078",
+  "mentions": [
+    "A097227"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

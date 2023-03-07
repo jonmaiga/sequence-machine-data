@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 1. a(n) = number of earlier terms of the sequence that divide the sum of the earlier terms of the sequence.",
+  "id": "A120877",
+  "mentions": [
+    "A120878"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

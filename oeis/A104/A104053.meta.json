@@ -1,0 +1,28 @@
+{
+  "description": "Triangle of coefficients in the numerators of rational functions in tanh(1) that express the (2n)th du Bois-Reymond constants as C_0 = 0, C_2 = -4 - 1/(1-tanh(1)), for n>1, C_2n = -3 - (Sum_{k=0..n} a(n,k)*tanh(1)^k) / (2^n*n! * (1-tanh(1))^n).",
+  "id": "A104053",
+  "mentions": [
+    "A000142",
+    "A000165",
+    "A001286",
+    "A001761",
+    "A062545",
+    "A062546",
+    "A085466",
+    "A085467"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "changed",
+    "formulas",
+    "hard",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "First diagonal of an array, generated from the sequence of the nonprimes.",
+  "id": "A354430",
+  "mentions": [
+    "A001787",
+    "A018252",
+    "A048448",
+    "A048457",
+    "A099862"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that are the sum of two nonzero palindromes but are not palindromes themselves.",
+  "id": "A261907",
+  "mentions": [
+    "A002113",
+    "A213879",
+    "A260255",
+    "A261906"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:21",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

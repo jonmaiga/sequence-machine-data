@@ -1,0 +1,21 @@
+{
+  "description": "Numbers whose digit sum is divisible by 6.",
+  "id": "A274319",
+  "mentions": [
+    "A007953",
+    "A008585",
+    "A008588"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of c = 1/(2^(e^(-gamma))-1), a constant associated with the asymptotic convergent denominators of a continued fraction using Mersenne primes.",
+  "id": "A247864",
+  "mentions": [
+    "A000668",
+    "A001620"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

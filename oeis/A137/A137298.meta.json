@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: coefficients of a Hermite-like set of recursive polynomials that appear by integration to be orthogonal using the substitution on the Hermite recursion of n->f(n) where f(n)=A000931[n] is the Padovan sequence.",
+  "id": "A137298",
+  "mentions": [
+    "A000045",
+    "A000931"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

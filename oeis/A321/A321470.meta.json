@@ -1,0 +1,35 @@
+{
+  "description": "Number of integer partitions of the n-th triangular number 1 + 2 + ... + n that can be obtained by choosing a partition of each integer from 1 to n and combining.",
+  "id": "A321470",
+  "mentions": [
+    "A000217",
+    "A001970",
+    "A002846",
+    "A063834",
+    "A066723",
+    "A213427",
+    "A242422",
+    "A261049",
+    "A265947",
+    "A271619",
+    "A299201",
+    "A300383",
+    "A317141",
+    "A321467",
+    "A321468",
+    "A321471",
+    "A321472",
+    "A321514"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

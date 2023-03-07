@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = A134205(n)/n.",
+  "id": "A134206",
+  "mentions": [
+    "A134204",
+    "A134205"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:22",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

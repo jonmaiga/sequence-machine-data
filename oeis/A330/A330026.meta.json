@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of integers k > prime(n) such that all rows (after the initial row) of the triangle of absolute differences of the (n+1)-tuple (prime(1), ..., prime(n), k) all start with 1.",
+  "id": "A330026",
+  "mentions": [
+    "A036261",
+    "A036262"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

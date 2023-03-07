@@ -1,0 +1,18 @@
+{
+  "description": "Smallest prime factor of composite Mersenne numbers.",
+  "id": "A136030",
+  "mentions": [
+    "A016047",
+    "A049479"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

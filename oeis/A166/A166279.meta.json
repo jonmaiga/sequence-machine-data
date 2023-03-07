@@ -1,0 +1,20 @@
+{
+  "description": "Triangle, read by rows: T(0,0) = 1, T(n,k) = T(n-1,k-1) (mod 2) + T(n-1,k) (mod 2), T(n,k) = 0 if k < 0 or k > n.",
+  "id": "A166279",
+  "mentions": [
+    "A007318",
+    "A047999"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:37:23",
+    "offset": 0,
+    "size": 91,
+    "source": "joeis"
+  }
+}

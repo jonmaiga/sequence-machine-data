@@ -1,0 +1,25 @@
+{
+  "description": "Primes that are the first in a run of exactly 4 emirps.",
+  "id": "A346024",
+  "mentions": [
+    "A003684",
+    "A006567",
+    "A048052",
+    "A048054",
+    "A071612",
+    "A346022",
+    "A346023",
+    "A346025"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "The number of sigma-admissible subsets of {1,2,...,n} as defined by Marzuola-Miller.",
+  "id": "A158449",
+  "mentions": [
+    "A066062",
+    "A164047"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Composite numbers with both additive and multiplicative digital roots prime.",
+  "id": "A226186",
+  "mentions": [
+    "A028835",
+    "A028843"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

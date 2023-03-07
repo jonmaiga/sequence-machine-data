@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that |2^k-57| is prime.",
+  "id": "A165778",
+  "mentions": [
+    "A000396",
+    "A096818",
+    "A101260",
+    "A165779",
+    "A165780"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

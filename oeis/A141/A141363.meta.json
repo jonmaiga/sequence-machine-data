@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f.: A(x) = exp(x*A(x)^3*exp(x*A(x)^4*exp(x*A(x)^5*exp(x*A(x)^6*exp(...))))), an infinite power tower.",
+  "id": "A141363",
+  "mentions": [
+    "A141359",
+    "A141360",
+    "A141361",
+    "A141362"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

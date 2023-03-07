@@ -1,0 +1,20 @@
+{
+  "description": "Conjectured number of terms in A263644 less than 10^n.",
+  "id": "A263822",
+  "mentions": [
+    "A236320",
+    "A255971",
+    "A263644"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

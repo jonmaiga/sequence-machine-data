@@ -1,0 +1,25 @@
+{
+  "description": "Least number that is the start of a prime-semiprime gap of size n.",
+  "id": "A278351",
+  "mentions": [
+    "A000040",
+    "A000230",
+    "A001358",
+    "A037143",
+    "A131109",
+    "A275013",
+    "A275014",
+    "A275108",
+    "A278404"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Second coordinate of (3,7)-Lagrange pair for n.",
+  "id": "A194519",
+  "mentions": [
+    "A194508",
+    "A194518"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:01:39",
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

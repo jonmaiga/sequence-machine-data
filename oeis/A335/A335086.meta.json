@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the sum of reciprocals of squared composite numbers that are not perfect powers.",
+  "id": "A335086",
+  "mentions": [
+    "A013661",
+    "A085548",
+    "A106543"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": -1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Primes formed by the concatenation of exactly two consecutive composite numbers.",
+  "id": "A342049",
+  "mentions": [
+    "A002808",
+    "A030458",
+    "A051416",
+    "A087341",
+    "A121608"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

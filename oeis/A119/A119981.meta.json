@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 1 iff number congruent to {2, 4} mod 6 is equal to prime minus 3, otherwise a(n)=0.",
+  "id": "A119981",
+  "mentions": [
+    "A047235",
+    "A086801"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

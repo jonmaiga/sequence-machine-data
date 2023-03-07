@@ -1,0 +1,29 @@
+{
+  "description": "Number of partitions of n into an odd number of primes (counting 1 as a prime).",
+  "id": "A339381",
+  "mentions": [
+    "A000607",
+    "A008578",
+    "A027193",
+    "A034891",
+    "A184171",
+    "A184172",
+    "A184198",
+    "A184199",
+    "A338826",
+    "A339380",
+    "A339382",
+    "A339383"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

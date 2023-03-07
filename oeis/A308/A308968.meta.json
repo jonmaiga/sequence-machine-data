@@ -1,0 +1,22 @@
+{
+  "description": "Table, read by rows: row n contains the prime factors of A001008(n) (numerator of n-th harmonic number), with multiplicity.",
+  "id": "A308968",
+  "mentions": [
+    "A001008",
+    "A308967",
+    "A308969",
+    "A308970",
+    "A308971"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

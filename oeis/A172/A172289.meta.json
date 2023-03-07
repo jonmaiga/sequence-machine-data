@@ -1,0 +1,22 @@
+{
+  "description": "Partial sums of regular primes A007703.",
+  "id": "A172289",
+  "mentions": [
+    "A000040",
+    "A000367",
+    "A000928",
+    "A007703",
+    "A071148"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:23",
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of k in [1,n] for which + > 1, where < > = fractional part and r = sqrt(5); row sums of A164670.",
+  "id": "A194671",
+  "mentions": [
+    "A164670",
+    "A194669",
+    "A194670"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

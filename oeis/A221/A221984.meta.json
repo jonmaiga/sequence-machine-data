@@ -1,0 +1,24 @@
+{
+  "description": "Number of primes of the form (x+1)^11 - x^11 having n digits.",
+  "id": "A221984",
+  "mentions": [
+    "A006879",
+    "A189055",
+    "A211184",
+    "A221792",
+    "A221847",
+    "A221978"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 9,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Recursively highly composite numbers: numbers m such that A067824(m) > A067824(k) for all k < m.",
+  "id": "A333952",
+  "mentions": [
+    "A002182",
+    "A067824",
+    "A074206",
+    "A307866",
+    "A333931",
+    "A333953"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

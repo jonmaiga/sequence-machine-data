@@ -1,0 +1,19 @@
+{
+  "description": "Number of maximum matchings in the n X n rook graph.",
+  "id": "A289197",
+  "mentions": [
+    "A270228",
+    "A289198",
+    "A341850"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

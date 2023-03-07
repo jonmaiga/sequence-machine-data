@@ -1,0 +1,20 @@
+{
+  "description": "Number of compositions a(1),...,a(k) of n, for some k, such that a(i+1) <= a(i) + 1 for 1 <= i < k and a(1) <= a(k) + 1.",
+  "id": "A168445",
+  "mentions": [
+    "A003116",
+    "A005169",
+    "A347901"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:52",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

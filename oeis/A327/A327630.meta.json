@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the least integer k such that sigma(sigma(k)) >= n*k where sigma is A000203, the sum of divisors.",
+  "id": "A327630",
+  "mentions": [
+    "A000203",
+    "A007539",
+    "A019278",
+    "A023199",
+    "A051027",
+    "A098221",
+    "A272930"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

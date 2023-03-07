@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the nontrivial solution to Pi^a = Pi*a.",
+  "id": "A280722",
+  "mentions": [
+    "A000796"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

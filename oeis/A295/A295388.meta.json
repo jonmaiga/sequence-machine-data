@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least k > n such that n divides k, and n+1 divides k+1, and n+2 divides k+2.",
+  "id": "A295388",
+  "mentions": [
+    "A005563"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:31:27",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

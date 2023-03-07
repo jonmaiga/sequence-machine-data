@@ -1,0 +1,28 @@
+{
+  "description": "A multiplicative encoding (base-2 compressed) for the exponents of 3 obtained when using Shevelev's algorithm for computing A053446.",
+  "id": "A293445",
+  "mentions": [
+    "A000244",
+    "A001651",
+    "A007949",
+    "A019565",
+    "A038500",
+    "A038502",
+    "A048675",
+    "A053446",
+    "A292265",
+    "A293220",
+    "A293446"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

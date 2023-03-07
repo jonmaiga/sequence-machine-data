@@ -1,0 +1,24 @@
+{
+  "description": "Consider all Consecutive Integer Pythagorean 11-tuples (X, X+1, X+2, X+3, X+4, X+5, Z-4, Z-3, Z-2, Z-1, Z) ordered by increasing Z; sequence gives Z values.",
+  "id": "A157097",
+  "mentions": [
+    "A001653",
+    "A157085",
+    "A157089",
+    "A157093",
+    "A157096"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2022-05-03 16:23:04",
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

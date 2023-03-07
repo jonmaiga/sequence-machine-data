@@ -1,0 +1,17 @@
+{
+  "description": "A derived sequence constructed from the Thue-Morse sequence A010060.",
+  "id": "A280047",
+  "mentions": [
+    "A010060"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:47",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

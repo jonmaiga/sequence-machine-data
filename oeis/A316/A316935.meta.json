@@ -1,0 +1,20 @@
+{
+  "description": "a(n)=1; for n > 1, a(n) is the smallest number > n such that the concatenation of all terms from a(1) through a(n) is divisible by the concatenation of the integers 1 through n.",
+  "id": "A316935",
+  "mentions": [
+    "A007908"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:35",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

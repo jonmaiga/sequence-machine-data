@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest Niven number that has exactly n divisors or -1 if no such number exists.",
+  "id": "A335709",
+  "mentions": [
+    "A000005",
+    "A005349",
+    "A007953"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

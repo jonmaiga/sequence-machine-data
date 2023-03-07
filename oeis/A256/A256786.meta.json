@@ -1,0 +1,33 @@
+{
+  "description": "Numbers which are divisible by prime(d) for all digits d in their decimal representation.",
+  "id": "A256786",
+  "mentions": [
+    "A000040",
+    "A005843",
+    "A008585",
+    "A011531",
+    "A011532",
+    "A011533",
+    "A017329",
+    "A020639",
+    "A052382",
+    "A191681",
+    "A256865",
+    "A256870",
+    "A256874",
+    "A256879",
+    "A256882",
+    "A256884"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

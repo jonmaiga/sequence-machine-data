@@ -1,0 +1,27 @@
+{
+  "description": "Sum of digits when A328316(n) is written in primorial base; number of prime factors in A328316(1+n), counted with multiplicity.",
+  "id": "A328319",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A276086",
+    "A276150",
+    "A328316",
+    "A328317",
+    "A328318",
+    "A328322"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

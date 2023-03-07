@@ -1,0 +1,18 @@
+{
+  "description": "Take a(n), reverse it, divide the larger of the two numbers by the smaller and keep only the remainder: this remainder is present in a(n) as a substring of digits.",
+  "id": "A342142",
+  "mentions": [
+    "A342114"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

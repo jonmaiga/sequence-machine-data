@@ -1,0 +1,18 @@
+{
+  "description": "n such that floor(n^(1/4)) divides n.",
+  "id": "A204315",
+  "mentions": [
+    "A079645"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

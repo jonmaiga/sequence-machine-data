@@ -1,0 +1,20 @@
+{
+  "description": "List of Armstrong (narcissistic) numbers in base 8 that are prime (written in base 10).",
+  "id": "A180015",
+  "mentions": [
+    "A010354"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

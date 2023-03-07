@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = MPR2(n, 4), where MPR2(n, x) is the (monic) minimal polynomial of 2*cos(2*Pi/n) as defined in A232624.",
+  "id": "A309040",
+  "mentions": [
+    "A001353",
+    "A008683",
+    "A023022",
+    "A232624",
+    "A306825"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

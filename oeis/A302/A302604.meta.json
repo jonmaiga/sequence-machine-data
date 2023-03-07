@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of n into two parts such that the positive difference of the parts is squarefree.",
+  "id": "A302604",
+  "mentions": [
+    "A008683",
+    "A302642",
+    "A302643"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

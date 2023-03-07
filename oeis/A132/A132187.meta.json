@@ -1,0 +1,21 @@
+{
+  "description": "a(n) pertains to numbers x such that, for any m, the number formed from the first m digits of x is congruent to n mod m; but no digit can be appended to maintain the condition. a(n) is the quantity of such numbers.",
+  "id": "A132187",
+  "mentions": [
+    "A051883",
+    "A132185",
+    "A134595"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

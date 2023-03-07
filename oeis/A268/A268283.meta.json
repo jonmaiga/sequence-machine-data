@@ -1,0 +1,23 @@
+{
+  "description": "Number of distinct directed Hamiltonian cycles of the Platonic graphs (in the order of tetrahedral, cubical, octahedral, dodecahedral, and icosahedral graph).",
+  "id": "A268283",
+  "mentions": [
+    "A052762",
+    "A115400",
+    "A140986",
+    "A218513",
+    "A218514"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

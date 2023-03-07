@@ -1,0 +1,26 @@
+{
+  "description": "Write a(n) as a four-bit number; those bits state whether 10n+1, 10n+3, 10n+7 and 10n+9 are primes.",
+  "id": "A105052",
+  "mentions": [
+    "A000040",
+    "A007652",
+    "A010051",
+    "A030430",
+    "A030431",
+    "A030432",
+    "A030433",
+    "A352552"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:56",
+    "offset": 0,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

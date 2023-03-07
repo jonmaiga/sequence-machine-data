@@ -1,0 +1,26 @@
+{
+  "description": "Restricted growth sequence transform of A293222, a product formed from the 2-digits present in the ternary expansions of proper divisors of n.",
+  "id": "A293224",
+  "mentions": [
+    "A019565",
+    "A289814",
+    "A290092",
+    "A293215",
+    "A293217",
+    "A293222",
+    "A293223",
+    "A293225",
+    "A293226",
+    "A293232"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 1,
+    "size": 110,
+    "source": "oeis-bfile"
+  }
+}

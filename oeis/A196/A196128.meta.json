@@ -1,0 +1,19 @@
+{
+  "description": "Largest prime p[i] such that p[i]+p[i+1]+...+p[i+n-1] <= primorial(n) = A002110(n).",
+  "id": "A196128",
+  "mentions": [
+    "A002110",
+    "A196129",
+    "A196130"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

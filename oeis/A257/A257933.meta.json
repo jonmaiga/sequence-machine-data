@@ -1,0 +1,20 @@
+{
+  "description": "Prime p such that sqrt(p+2) is semiprime (A001358).",
+  "id": "A257933",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A046315"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

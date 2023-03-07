@@ -1,0 +1,18 @@
+{
+  "description": "T(n,k)=Number of 0..k arrays x(0..n+3) of n+4 elements with zero n-1st differences",
+  "id": "A200443",
+  "mentions": [
+    "A008813"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:21",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

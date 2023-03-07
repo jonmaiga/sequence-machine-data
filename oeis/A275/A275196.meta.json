@@ -1,0 +1,18 @@
+{
+  "description": "Odd numbers n such that sigma(n) does not divide sigma(n^3).",
+  "id": "A275196",
+  "mentions": [
+    "A000203",
+    "A175926"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

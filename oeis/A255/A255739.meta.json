@@ -1,0 +1,21 @@
+{
+  "description": "Indices of nontrivial zeros of Riemann zeta function whose imaginary part sets a record for the absolute minimal difference from an integer.",
+  "id": "A255739",
+  "mentions": [
+    "A002410",
+    "A255742"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (1/2)*number of non-degenerate triangular pyramids that can be formed using 4 distinct points chosen from an (n+1) X (n+1) X (n+1) lattice cube.",
+  "id": "A103656",
+  "mentions": [
+    "A103157",
+    "A103158",
+    "A103426",
+    "A103658"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

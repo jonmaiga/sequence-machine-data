@@ -1,0 +1,25 @@
+{
+  "description": "Dispersion of evil numbers, array transposed.",
+  "id": "A277882",
+  "mentions": [
+    "A000069",
+    "A002260",
+    "A003945",
+    "A004736",
+    "A129771",
+    "A277880",
+    "A277883"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

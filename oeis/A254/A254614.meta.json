@@ -1,0 +1,20 @@
+{
+  "description": "Union of odd odious (A092246) and evil (A001969) numbers.",
+  "id": "A254614",
+  "mentions": [
+    "A001969",
+    "A092246",
+    "A128309",
+    "A230709"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

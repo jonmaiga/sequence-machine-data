@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k(n) used for Cassels's Markoff forms MF(n) corresponding to the conjectured unique Markoff triples MT(n) with maximal entry m(n) = A002559(n), for n >= 1.",
+  "id": "A305310",
+  "mentions": [
+    "A002163",
+    "A002559",
+    "A010466",
+    "A200991",
+    "A305308",
+    "A305311",
+    "A305312",
+    "A305313",
+    "A305314"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Array, T(n,k) = 2*(n/k), if n mod k = 0; otherwise, T(n,k) = 1. Read by antidiagonals.",
+  "id": "A171233",
+  "mentions": [
+    "A005843",
+    "A077049",
+    "A171232"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cofr",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:05:53",
+    "offset": 1,
+    "size": 99,
+    "source": "joeis"
+  }
+}

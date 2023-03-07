@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = count of monomials, of degrees k=0 to n, in the complete homogeneous symmetric polynomials h(mu,k) summed over all partitions mu of n.",
+  "id": "A209667",
+  "mentions": [
+    "A209664",
+    "A209665",
+    "A209666",
+    "A209668",
+    "A209669",
+    "A209670",
+    "A209671",
+    "A209672",
+    "A209673"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

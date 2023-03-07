@@ -1,0 +1,26 @@
+{
+  "description": "Primes of the form -x^2+6*x*y+3*y^2 (as well as of the form 8*x^2+12*x*y+3*y^2).",
+  "id": "A141187",
+  "mentions": [
+    "A038872",
+    "A038873",
+    "A038883",
+    "A038889",
+    "A068228",
+    "A068231",
+    "A141111",
+    "A141112",
+    "A141123",
+    "A243169"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:15:59",
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

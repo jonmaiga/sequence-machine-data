@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = a(n-1) + (number of terms, from among the first (n-1) terms of the sequence, which are coprime to the n-th Fibonacci number).",
+  "id": "A131787",
+  "mentions": [
+    "A131788"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

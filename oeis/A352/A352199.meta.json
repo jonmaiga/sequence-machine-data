@@ -1,0 +1,24 @@
+{
+  "description": "a(0)=0, a(1)=1, a(2)=2; thereafter, a(n) is smallest number m not yet in the sequence such that the binary expansions of m and a(n-2) have a 1 in common, but the 1's in m are disjoint from the 1's in a(n-1) and a(n-3).",
+  "id": "A352199",
+  "mentions": [
+    "A064413",
+    "A098550",
+    "A115510",
+    "A252867",
+    "A336957",
+    "A338833",
+    "A350359"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

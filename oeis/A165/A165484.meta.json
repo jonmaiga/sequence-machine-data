@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Least i in range [A165483(n),A165483(n+1)] for which abs(A165482(i)) gets the maximum value in that range.",
+  "id": "A165484",
+  "mentions": [
+    "A165482",
+    "A165483",
+    "A165485"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:48",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

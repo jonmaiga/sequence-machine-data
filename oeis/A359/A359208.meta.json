@@ -1,0 +1,28 @@
+{
+  "description": "Maximum value reached when starting from n during iteration of the map x->A359194(x) (binary complement of 3n), or -1 if infinite.",
+  "id": "A359208",
+  "mentions": [
+    "A035327",
+    "A359194",
+    "A359207",
+    "A359209",
+    "A359215",
+    "A359218",
+    "A359219",
+    "A359220",
+    "A359221",
+    "A359222",
+    "A359255"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

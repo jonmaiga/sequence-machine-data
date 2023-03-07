@@ -1,0 +1,17 @@
+{
+  "description": "A117965 sorted, with repetition.",
+  "id": "A115947",
+  "mentions": [
+    "A117965"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

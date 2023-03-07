@@ -1,0 +1,22 @@
+{
+  "description": "Number of convex polyhedra with n faces that are all regular polygons.",
+  "id": "A180916",
+  "mentions": [
+    "A000034",
+    "A296602",
+    "A296603",
+    "A296604"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

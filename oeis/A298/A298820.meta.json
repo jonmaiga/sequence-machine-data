@@ -1,0 +1,21 @@
+{
+  "description": "Values of n for which pi_{24,19}(p_n) - pi_{24,1}(p_n) = -1, where p_n is the n-th prime and pi_{m,a}(x) is the number of primes <= x which are congruent to a (mod m).",
+  "id": "A298820",
+  "mentions": [
+    "A295355",
+    "A295356",
+    "A297449",
+    "A297450",
+    "A298821"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:21",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

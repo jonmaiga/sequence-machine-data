@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle read by rows: coefficients of cycle index polynomial for the cyclic group C_n, Z(C_n,x), multiplied by n.",
+  "id": "A102190",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A054523"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:53",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

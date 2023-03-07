@@ -1,0 +1,25 @@
+{
+  "description": "Number of squares and rectangles that are created at the n-th stage in the corner toothpick structure (see A152980, A153006).",
+  "id": "A168131",
+  "mentions": [
+    "A000695",
+    "A139250",
+    "A152980",
+    "A153006",
+    "A160124",
+    "A160125",
+    "A170926",
+    "A170929"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

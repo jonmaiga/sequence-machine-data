@@ -1,0 +1,22 @@
+{
+  "description": "If n is a prime power p^m, m >= 1, then n, otherwise 1.",
+  "id": "A100994",
+  "mentions": [
+    "A000961",
+    "A001221",
+    "A010055",
+    "A014963",
+    "A100995"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:58:01",
+    "offset": 1,
+    "size": 91,
+    "source": "joeis"
+  }
+}

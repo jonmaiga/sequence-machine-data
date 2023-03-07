@@ -1,0 +1,22 @@
+{
+  "description": "Product_{p primes, k>=1} ((p^(3*k + 3) - 1)/(p^(3*k + 3) - p^3))^(1/p^k).",
+  "id": "A345159",
+  "mentions": [
+    "A001158",
+    "A345144",
+    "A345158",
+    "A345160"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

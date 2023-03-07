@@ -1,0 +1,22 @@
+{
+  "description": "G.f.: Product_{n>=1} 1/(1 - x^n/n^5) = Sum_{n>=0} a(n)*x^n/n!^5.",
+  "id": "A269793",
+  "mentions": [
+    "A007841",
+    "A249588",
+    "A249593",
+    "A269791",
+    "A269794"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:32",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

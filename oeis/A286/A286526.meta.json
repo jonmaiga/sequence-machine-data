@@ -1,0 +1,21 @@
+{
+  "description": "Number of inequivalent n X n matrices over GF(5) under action of dihedral group of the square D_4, with a fifth of 1's, 2's, 3's, 4's and 5's (ordered occurrences rounded up/down if n^2 != 0 mod 5).",
+  "id": "A286526",
+  "mentions": [
+    "A054752",
+    "A082963",
+    "A286447",
+    "A286525"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

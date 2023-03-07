@@ -1,0 +1,21 @@
+{
+  "description": "A007318 * Triangle with A133632 as the diagonal and the rest zeros.",
+  "id": "A134417",
+  "mentions": [
+    "A007318",
+    "A133632",
+    "A134418"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = numerator of rational fraction of function (Gamma[5/4]^2 Gamma[n + 3/4]^2)/(Gamma[3/4]^2 Gamma[n + 5/4]^2).",
+  "id": "A276239",
+  "mentions": [
+    "A276240"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

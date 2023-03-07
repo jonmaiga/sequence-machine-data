@@ -1,0 +1,19 @@
+{
+  "description": "Square array made of (W, N, S, E) quadruplets read by antidiagonals. Numeric structure of an anamorphosis of A002024 (see comments).",
+  "id": "A293670",
+  "mentions": [
+    "A002024",
+    "A293578"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 162,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that there are seven distinct triples (k, k+n, k+2n) of squares.",
+  "id": "A226954",
+  "mentions": [
+    "A198387",
+    "A214155",
+    "A222154",
+    "A222155",
+    "A226858"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

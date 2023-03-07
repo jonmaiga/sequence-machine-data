@@ -1,0 +1,20 @@
+{
+  "description": "v_5( (10n)! ) - v_5( (5n)! ), where v_p(N) is the p-adic valuation defined in A112765.",
+  "id": "A127428",
+  "mentions": [
+    "A001511",
+    "A112765",
+    "A127427"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

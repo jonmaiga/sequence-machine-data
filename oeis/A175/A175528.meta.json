@@ -1,0 +1,20 @@
+{
+  "description": "(Digit sum of 13^n) mod n.",
+  "id": "A175528",
+  "mentions": [
+    "A001022",
+    "A175525",
+    "A175527"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

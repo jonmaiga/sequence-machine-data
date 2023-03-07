@@ -1,0 +1,27 @@
+{
+  "description": "1-digit numbers arranged in alphabetical order of English spelling reversed, then the 2-digit numbers so arranged, then the 3-digit numbers, etc.",
+  "id": "A119898",
+  "mentions": [
+    "A000052",
+    "A001058",
+    "A004740",
+    "A019440",
+    "A026081",
+    "A057846",
+    "A072991",
+    "A108067"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "less",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

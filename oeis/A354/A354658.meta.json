@@ -1,0 +1,21 @@
+{
+  "description": "A diagonal of triangle A354650: a(n) = A354650(n,n), for n >= 0.",
+  "id": "A354658",
+  "mentions": [
+    "A354649",
+    "A354650",
+    "A354659",
+    "A354660"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

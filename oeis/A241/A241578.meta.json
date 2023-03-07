@@ -1,0 +1,27 @@
+{
+  "description": "Square array read by antidiagonals upwards: T(n,k) = Sum_{j=1..k} n^(k-j)*Stirling_2(k,j) (n >= 0, k >= 1).",
+  "id": "A241578",
+  "mentions": [
+    "A000110",
+    "A004211",
+    "A004212",
+    "A004231",
+    "A005011",
+    "A005012",
+    "A028387",
+    "A111673",
+    "A241577",
+    "A241579"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

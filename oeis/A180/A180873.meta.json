@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the reciprocal of Wyler's constant.",
+  "id": "A180873",
+  "mentions": [
+    "A005600",
+    "A180872"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:51",
+    "offset": 3,
+    "size": 99,
+    "source": "joeis"
+  }
+}

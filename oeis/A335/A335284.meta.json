@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k > 1 such that, if p is the least prime dividing k, k is less than or equal to the product of all prime numbers up to (and including) p.",
+  "id": "A335284",
+  "mentions": [
+    "A001620",
+    "A002110",
+    "A005867",
+    "A020639",
+    "A034386",
+    "A055396",
+    "A279864",
+    "A308966"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

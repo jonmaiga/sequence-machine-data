@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that 4 is the smallest decimal digit of k^2.",
+  "id": "A291629",
+  "mentions": [
+    "A291625",
+    "A291626",
+    "A291627",
+    "A291628",
+    "A291630",
+    "A291631"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

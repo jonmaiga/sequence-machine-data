@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = ((2^n*n + i*(1 - i)^n - i*(1 + i)^n))/4, where i is the imaginary unit.",
+  "id": "A323225",
+  "mentions": [
+    "A001787",
+    "A009545",
+    "A321959",
+    "A323100",
+    "A323346"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:47",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

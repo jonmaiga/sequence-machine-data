@@ -1,0 +1,25 @@
+{
+  "description": "Positive numbers k such that -k, -(k + 1), and -(k + 2) are 3 consecutive negative negaFibonacci-Niven numbers (A331088).",
+  "id": "A331090",
+  "mentions": [
+    "A000045",
+    "A154701",
+    "A269819",
+    "A328210",
+    "A328214",
+    "A330932",
+    "A331087",
+    "A331088"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

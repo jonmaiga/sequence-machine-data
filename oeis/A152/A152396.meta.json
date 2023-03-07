@@ -1,0 +1,23 @@
+{
+  "description": "Let f(M,k) denote the decimal concatenation of k numbers starting with M: M | M-1 | M-2 | ... | M-k+1, k > 1. Then a(n) is the smallest M such that for all m in {1,..,n} an m-th prime occurs as f(M,k) for the smallest possible k, order prioritized m = 1 through n.",
+  "id": "A152396",
+  "mentions": [
+    "A152397",
+    "A172257",
+    "A232657"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn",
+    "obsc"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

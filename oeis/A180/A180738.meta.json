@@ -1,0 +1,20 @@
+{
+  "description": "Largest n-digit cube whose sum of digits is also a cube, or 0 if there is no such number.",
+  "id": "A180738",
+  "mentions": [
+    "A053058",
+    "A180737"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

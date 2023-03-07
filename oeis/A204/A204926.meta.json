@@ -1,0 +1,19 @@
+{
+  "description": "Least Fibonacci number f such that n divides f-g for some Fibonacci number g satisfying g < f.",
+  "id": "A204926",
+  "mentions": [
+    "A000045",
+    "A204892",
+    "A204924"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 09:57:39",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that n^A062518(n) is missing more than one digit.",
+  "id": "A236685",
+  "mentions": [
+    "A062518"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

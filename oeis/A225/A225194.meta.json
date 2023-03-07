@@ -1,0 +1,20 @@
+{
+  "description": "Largest highly abundant number with n distinct prime factors",
+  "id": "A225194",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A002093",
+    "A192929"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

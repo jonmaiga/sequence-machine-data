@@ -1,0 +1,32 @@
+{
+  "description": "Decimal expansion of Sum_{p prime} 1/(p(p-1)).",
+  "id": "A136141",
+  "mentions": [
+    "A000040",
+    "A001248",
+    "A072102",
+    "A077761",
+    "A083342",
+    "A085541",
+    "A085548",
+    "A085964",
+    "A085969",
+    "A152447",
+    "A179119",
+    "A221712",
+    "A246547"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

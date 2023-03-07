@@ -1,0 +1,22 @@
+{
+  "description": "Main diagonal of polygonal lucky array defined in A128511.",
+  "id": "A128947",
+  "mentions": [
+    "A000567",
+    "A000959",
+    "A031162",
+    "A118565",
+    "A128511"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

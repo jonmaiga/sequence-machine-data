@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of root subtrees with k nodes in the rooted tree having Matula-Goebel number n.",
+  "id": "A206491",
+  "mentions": [
+    "A061775",
+    "A184160",
+    "A212620"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 112,
+    "source": "oeis-entry"
+  }
+}

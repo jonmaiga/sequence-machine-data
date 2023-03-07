@@ -1,0 +1,30 @@
+{
+  "description": "a(n) = numerator((prime(n)-1)/prime(n)#), where prime(n)# = A002110(n) is the n-th primorial.",
+  "id": "A356093",
+  "mentions": [
+    "A002110",
+    "A006093",
+    "A038110",
+    "A039787",
+    "A053669",
+    "A249270",
+    "A338559",
+    "A340818",
+    "A341431",
+    "A342450",
+    "A342479",
+    "A356094"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

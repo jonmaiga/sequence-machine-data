@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that the largest consecutive pair of p-smooth integers is the same as the largest consecutive pair of (p-1)-smooth integers.",
+  "id": "A228611",
+  "mentions": [
+    "A002072",
+    "A117581",
+    "A228610"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

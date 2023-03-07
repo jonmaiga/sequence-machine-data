@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k such that 9*2^k + 1 is a prime factor of a Fermat number 2^(2^m) + 1 for some m.",
+  "id": "A280004",
+  "mentions": [
+    "A000215",
+    "A002256",
+    "A050528",
+    "A057778",
+    "A201364",
+    "A204620",
+    "A226366",
+    "A280003"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

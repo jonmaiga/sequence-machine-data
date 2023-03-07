@@ -1,0 +1,21 @@
+{
+  "description": "Analog of A237434 for 16-tuples.",
+  "id": "A237435",
+  "mentions": [
+    "A237434",
+    "A239066",
+    "A239067",
+    "A239068"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

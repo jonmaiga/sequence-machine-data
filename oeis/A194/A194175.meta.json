@@ -1,0 +1,17 @@
+{
+  "description": "[sum{(k*r) : 1<=k<=n}], where [ ]=floor, ( )=fractional part, and r=sqrt(7).",
+  "id": "A194175",
+  "mentions": [
+    "A194176"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

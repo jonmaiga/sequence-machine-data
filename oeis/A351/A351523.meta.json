@@ -1,0 +1,17 @@
+{
+  "description": "a(1)=4. For n > 1, a(n) = A129902(a(n-1))/2.",
+  "id": "A351523",
+  "mentions": [
+    "A129902"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

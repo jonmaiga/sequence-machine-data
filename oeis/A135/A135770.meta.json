@@ -1,0 +1,21 @@
+{
+  "description": "Numbers whose square is such that another square can be obtained by a cyclic permutation of the digits (excluding leading zeros).",
+  "id": "A135770",
+  "mentions": [
+    "A034289",
+    "A135780"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

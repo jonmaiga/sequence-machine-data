@@ -1,0 +1,21 @@
+{
+  "description": "Least prime p such that p^2 + A263977(n)^2 is prime.",
+  "id": "A263726",
+  "mentions": [
+    "A240130",
+    "A240131",
+    "A263466",
+    "A263722",
+    "A263977"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

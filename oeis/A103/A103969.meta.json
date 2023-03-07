@@ -1,0 +1,20 @@
+{
+  "description": "Positions n such that A005941(n) = A005940(n).",
+  "id": "A103969",
+  "mentions": [
+    "A000079",
+    "A005940",
+    "A005941"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

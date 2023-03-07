@@ -1,0 +1,25 @@
+{
+  "description": "Numerators of primes-only best approximates (POBAs) to sqrt(3); see Comments.",
+  "id": "A265782",
+  "mentions": [
+    "A000040",
+    "A265759",
+    "A265778",
+    "A265779",
+    "A265780",
+    "A265781",
+    "A265783"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "frac",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

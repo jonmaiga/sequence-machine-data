@@ -1,0 +1,20 @@
+{
+  "description": "Column 0 of the matrix log of triangle A117401, after term in row n is multiplied by n: a(n) = n*[log(A117401)](n,0), where A117401(n,k) = 2^(k*(n-k)).",
+  "id": "A118197",
+  "mentions": [
+    "A117401",
+    "A118196",
+    "A134531"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

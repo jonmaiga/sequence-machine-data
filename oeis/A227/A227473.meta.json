@@ -1,0 +1,18 @@
+{
+  "description": "Numerator/2 of hypergeom([n+1/2,1],[n+3],-3).",
+  "id": "A227473",
+  "mentions": [
+    "A227474"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Number of positive integers with n digits that are the product of two integers ending with 6.",
+  "id": "A337856",
+  "mentions": [
+    "A017341",
+    "A324297",
+    "A337855",
+    "A346509"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Primes that are the sum of all composite numbers in-between prime numbers p(n) and p(n+2).",
+  "id": "A174521",
+  "mentions": [
+    "A034962",
+    "A054265",
+    "A174518",
+    "A174519",
+    "A174520"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

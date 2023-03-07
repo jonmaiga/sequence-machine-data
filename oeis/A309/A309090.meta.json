@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least x such that x^2 mod prime(i), i=1..n, are all distinct.",
+  "id": "A309090",
+  "mentions": [
+    "A279073"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

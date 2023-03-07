@@ -1,0 +1,23 @@
+{
+  "description": "Suffixes of 4818372912366173 (all primes).",
+  "id": "A259848",
+  "mentions": [
+    "A101115",
+    "A101118"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "fini",
+    "formulas",
+    "full",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

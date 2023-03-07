@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = ceiling(Gamma(n/2)).",
+  "id": "A284995",
+  "mentions": [
+    "A000142",
+    "A014510",
+    "A104510",
+    "A284994"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:56",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

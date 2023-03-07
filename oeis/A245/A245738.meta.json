@@ -1,0 +1,25 @@
+{
+  "description": "Number of compositions of n into parts 1 and 2 with both parts present.",
+  "id": "A245738",
+  "mentions": [
+    "A000034",
+    "A000045",
+    "A052952",
+    "A245332",
+    "A245487",
+    "A245492",
+    "A245527"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 3,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Number of labeled hypertrees (connected acyclic antichains) spanning some subset of {1,...,n} without singleton edges.",
+  "id": "A305004",
+  "mentions": [
+    "A030019",
+    "A035053",
+    "A134958",
+    "A134959",
+    "A304386",
+    "A304939",
+    "A304968",
+    "A304970"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

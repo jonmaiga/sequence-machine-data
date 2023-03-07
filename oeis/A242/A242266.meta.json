@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = |{0 < g < prime(n): g is a primitive root mod prime(n) with g = sum_{j=1..k} prime(j) for some k > 0}|.",
+  "id": "A242266",
+  "mentions": [
+    "A000040",
+    "A007504",
+    "A008347",
+    "A236966",
+    "A239957",
+    "A241476",
+    "A241504",
+    "A241516",
+    "A242248",
+    "A242250",
+    "A242277"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

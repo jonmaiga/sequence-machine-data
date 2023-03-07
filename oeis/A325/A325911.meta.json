@@ -1,0 +1,23 @@
+{
+  "description": "Screaming numbers in base 16: numbers whose hexadecimal representation is AAAAAAA...",
+  "id": "A325911",
+  "mentions": [
+    "A001025",
+    "A131865",
+    "A228774"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "dumb",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

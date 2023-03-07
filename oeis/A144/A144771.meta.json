@@ -1,0 +1,17 @@
+{
+  "description": "For n >= 1 terms of A000142 could be expressed as the product of two nonzero integral factors, which have the smallest difference between them (so this is closest pair of integral factors around the square root value of A000142(n) ). The terms of this sequence are the larger factors from the above described pair.",
+  "id": "A144771",
+  "mentions": [
+    "A000142"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

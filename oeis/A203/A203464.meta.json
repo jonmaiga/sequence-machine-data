@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that 65 divides 4n^2 + 1; alternately, numbers which are 4, 9, 56, or 61 mod 65.",
+  "id": "A203464",
+  "mentions": [
+    "A000982",
+    "A053755"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

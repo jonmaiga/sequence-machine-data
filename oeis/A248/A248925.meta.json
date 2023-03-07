@@ -1,0 +1,22 @@
+{
+  "description": "Triangle in which row n consists of the coefficients in Sum_{m=0..n} x^m * Product_{k=m+1..n} (1-k*x), as read by rows.",
+  "id": "A248925",
+  "mentions": [
+    "A000110",
+    "A000166",
+    "A002467",
+    "A008277"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

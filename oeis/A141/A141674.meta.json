@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n,m) read by rows: T(n,m) = sigma_0(n) * A126988(n,m).",
+  "id": "A141674",
+  "mentions": [
+    "A126988"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:30",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

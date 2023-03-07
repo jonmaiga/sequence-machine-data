@@ -1,0 +1,19 @@
+{
+  "description": "Number of n-bead necklace structures using an infinite alphabet that are not self-equivalent under a nonzero rotation.",
+  "id": "A327696",
+  "mentions": [
+    "A084423",
+    "A276547",
+    "A327693"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

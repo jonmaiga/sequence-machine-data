@@ -1,0 +1,28 @@
+{
+  "description": "0 followed by -(n+1)*A226158(n).",
+  "id": "A243868",
+  "mentions": [
+    "A000004",
+    "A006519",
+    "A102055",
+    "A133135",
+    "A140218",
+    "A198631",
+    "A226158",
+    "A229054",
+    "A230011"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

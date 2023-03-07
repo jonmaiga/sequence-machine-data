@@ -1,0 +1,20 @@
+{
+  "description": "Ludic ladder sequence: a(n) = Sum_{k=1..n} (-1)^LudicPi(k), where LudicPi(n) = A192512(n)-1 gives the number of Ludic numbers > 1 and <= n.",
+  "id": "A297158",
+  "mentions": [
+    "A003309",
+    "A065358",
+    "A192512"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:17",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Consider all (2n+1)-digit palindromic primes of the form 70...0M0...07 (so that M is a palindrome with <= 2n-1 digits); a(n) = smallest such M.",
+  "id": "A100956",
+  "mentions": [
+    "A100026",
+    "A100955",
+    "A100957"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

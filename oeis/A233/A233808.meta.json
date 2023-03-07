@@ -1,0 +1,33 @@
+{
+  "description": "Autosequence preceding A198631(n)/A006519(n+1). Numerators.",
+  "id": "A233808",
+  "mentions": [
+    "A003056",
+    "A006519",
+    "A007395",
+    "A051716",
+    "A051717",
+    "A053644",
+    "A133135",
+    "A133138",
+    "A141424",
+    "A165142",
+    "A193815",
+    "A198631",
+    "A232628",
+    "A233508",
+    "A233565"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

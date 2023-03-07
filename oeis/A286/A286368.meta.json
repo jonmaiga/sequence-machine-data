@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 4*A072401(n) + 2*A229062(n) + A010052(n).",
+  "id": "A286368",
+  "mentions": [
+    "A002828",
+    "A010052",
+    "A072401",
+    "A229062",
+    "A286366"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

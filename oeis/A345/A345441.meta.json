@@ -1,0 +1,21 @@
+{
+  "description": "Numerators of irregular triangle of fractions arising from a problem of projecting into Hilbert space.",
+  "id": "A345441",
+  "mentions": [
+    "A000337",
+    "A345442"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "frac",
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Positions of 0's in A330314.",
+  "id": "A330325",
+  "mentions": [
+    "A329544",
+    "A329796",
+    "A330313",
+    "A330314"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

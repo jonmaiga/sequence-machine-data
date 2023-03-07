@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 1; thereafter a(n) = a(n-1) / phi(n) if phi(n) divides a(n-1), otherwise a(n) = a(n-1) * phi(n), where phi is the Euler phi-function A000010.",
+  "id": "A326889",
+  "mentions": [
+    "A000010",
+    "A008336",
+    "A008338",
+    "A327442",
+    "A336823"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

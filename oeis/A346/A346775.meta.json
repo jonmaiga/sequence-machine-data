@@ -1,0 +1,19 @@
+{
+  "description": "Starting from n!+1, the length of the longest sequence of consecutive numbers which all take the same number of steps to reach 1 in the Collatz (or '3x+1') problem.",
+  "id": "A346775",
+  "mentions": [
+    "A006577",
+    "A070974",
+    "A277109"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

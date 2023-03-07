@@ -1,0 +1,20 @@
+{
+  "description": "Amicable quadruples: the values of sigma corresponding to A036471-A036474.",
+  "id": "A116148",
+  "mentions": [
+    "A036471",
+    "A036472",
+    "A036473",
+    "A036474"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:06",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

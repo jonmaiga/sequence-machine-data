@@ -1,0 +1,18 @@
+{
+  "description": "Consider a variant of the toothpick sequence (A139250) where each new toothpick, except the first, touches exactly one existing toothpick at the ends, this one being in the prior stage; a(n) is the total number of toothpicks at stage n.",
+  "id": "A351837",
+  "mentions": [
+    "A139250",
+    "A351838"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

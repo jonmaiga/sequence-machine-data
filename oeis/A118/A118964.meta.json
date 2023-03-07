@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of Grand Dyck paths of semilength n that have k double rises above the x-axis (n >= 1, k >= 0).",
+  "id": "A118964",
+  "mentions": [
+    "A000108",
+    "A000531",
+    "A000984",
+    "A114277",
+    "A118963"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

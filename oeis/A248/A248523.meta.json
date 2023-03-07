@@ -1,0 +1,20 @@
+{
+  "description": "Initial members of prime quadruples (n, n+2, n+144, n+146).",
+  "id": "A248523",
+  "mentions": [
+    "A039949",
+    "A077800",
+    "A128468",
+    "A181605"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

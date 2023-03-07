@@ -1,0 +1,21 @@
+{
+  "description": "a(2*n) = 3*n if n>0, a(2*n + 1) = -(2*n + 1), a(0) = 1.",
+  "id": "A280167",
+  "mentions": [
+    "A080512",
+    "A084964",
+    "A257143"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:09:47",
+    "offset": 0,
+    "size": 60,
+    "source": "joeis"
+  }
+}

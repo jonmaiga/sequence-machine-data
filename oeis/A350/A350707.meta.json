@@ -1,0 +1,28 @@
+{
+  "description": "Numbers m such that all prime factors of m^2+1 are Fibonacci numbers.",
+  "id": "A350707",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A005478",
+    "A140362",
+    "A245236",
+    "A281087",
+    "A281618",
+    "A285282",
+    "A339461",
+    "A352290"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form k!6+32, where k!6 is the sextuple factorial number (A085158).",
+  "id": "A288617",
+  "mentions": [
+    "A085158",
+    "A288448"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:01",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

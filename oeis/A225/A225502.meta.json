@@ -1,0 +1,19 @@
+{
+  "description": "Least m > 0 such that prime(n)*triangular(m) is a triangular number, or 0 if no such m exists.",
+  "id": "A225502",
+  "mentions": [
+    "A000217",
+    "A112456",
+    "A225503"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

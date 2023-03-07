@@ -1,0 +1,27 @@
+{
+  "description": "Number of four-prime Carmichael numbers less than 10^n.",
+  "id": "A174612",
+  "mentions": [
+    "A002997",
+    "A006931",
+    "A055553",
+    "A132195",
+    "A174613",
+    "A174614",
+    "A174615",
+    "A174616",
+    "A174617",
+    "A299710",
+    "A299711"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

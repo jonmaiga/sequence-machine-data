@@ -1,0 +1,28 @@
+{
+  "description": "9-step Fibonacci sequence starting with 0,0,0,0,1,0,0,0,0.",
+  "id": "A251749",
+  "mentions": [
+    "A104144",
+    "A105755",
+    "A127193",
+    "A251746",
+    "A251747",
+    "A251748",
+    "A251750",
+    "A251751",
+    "A251752",
+    "A255532"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:09",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Number of ways to place the maximal number of points that can be placed on a j X j X j triangular grid, j=3n-2, so that no pair of them has distance sqrt(3).",
+  "id": "A244506",
+  "mentions": [
+    "A000012",
+    "A000326",
+    "A033536",
+    "A244500",
+    "A244507",
+    "A297537"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

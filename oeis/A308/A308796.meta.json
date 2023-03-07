@@ -1,0 +1,25 @@
+{
+  "description": "Primes p such that A001177(p) = (p-1)/3.",
+  "id": "A308796",
+  "mentions": [
+    "A001177",
+    "A106535",
+    "A308795",
+    "A308797",
+    "A308798",
+    "A308799",
+    "A308800",
+    "A308801",
+    "A308802"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

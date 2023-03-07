@@ -1,0 +1,18 @@
+{
+  "description": "Sequence of balanced, multiplicative binary words, starting with a(1)=1, a(2)=10; for j > 2, if j is a prime, then a(j) is obtained by appending 0 at the end of a(j-1); otherwise, a(j) is obtained by appending a single digit at the end of a(j-1) such that the new word is multiplicative, but if the obtained a(j) is not balanced, then we change the digit at the rightmost possible prime position (and, eventually, some digits at following nonprime positions to maintain multiplicativity) so that a(j) becomes balanced.",
+  "id": "A351386",
+  "mentions": [
+    "A008836",
+    "A332603"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

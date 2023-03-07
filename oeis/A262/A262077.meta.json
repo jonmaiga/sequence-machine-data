@@ -1,0 +1,21 @@
+{
+  "description": "The first of thirteen consecutive positive integers the sum of the squares of which is equal to the sum of the squares of seven consecutive positive integers.",
+  "id": "A262077",
+  "mentions": [
+    "A262074",
+    "A262075",
+    "A262076"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:21",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

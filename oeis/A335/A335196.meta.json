@@ -1,0 +1,22 @@
+{
+  "description": "Nonunitary admirable numbers: numbers k such that there is a nonunitary divisor d of k such that nusigma(k) - 2*d = k, where nusigma is the sum of nonunitary divisors function (A048146).",
+  "id": "A335196",
+  "mentions": [
+    "A048146",
+    "A064597",
+    "A111592",
+    "A328328",
+    "A334972",
+    "A334974"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

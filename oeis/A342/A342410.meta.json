@@ -1,0 +1,23 @@
+{
+  "description": "The binary expansion of a(n) corresponds to that of n where all the 1's have been replaced by 0's except in the last run of 1's.",
+  "id": "A342410",
+  "mentions": [
+    "A023758",
+    "A089309",
+    "A135481",
+    "A342126"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

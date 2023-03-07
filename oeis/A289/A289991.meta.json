@@ -1,0 +1,22 @@
+{
+  "description": "Number of unlabeled connected simple graphs with n nodes of degree 4 or less and with at least a cyclic structure and a node of degree one.",
+  "id": "A289991",
+  "mentions": [
+    "A006820",
+    "A121941",
+    "A289159",
+    "A289989",
+    "A289990"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

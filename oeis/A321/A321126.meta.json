@@ -1,0 +1,28 @@
+{
+  "description": "T(n,k) = max(n + k - 1, n + 1, k + 1), square array read by antidiagonals (n >= 0, k >= 0).",
+  "id": "A321126",
+  "mentions": [
+    "A003056",
+    "A003983",
+    "A004280",
+    "A051125",
+    "A300453",
+    "A300454",
+    "A316989",
+    "A321125",
+    "A321127"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "A194259(n) - n, where A194259(n) is the number of distinct prime factors of p(1)*p(2)*...*p(n) and p(n) is the n-th partition number.",
+  "id": "A194260",
+  "mentions": [
+    "A000041",
+    "A001221",
+    "A087175",
+    "A194259"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 116,
+    "source": "oeis-bfile"
+  }
+}

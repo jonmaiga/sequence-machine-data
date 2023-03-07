@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = sigma(n)*Pell(n), where sigma(n) = A000203(n), the sum of divisors of n.",
+  "id": "A204271",
+  "mentions": [
+    "A000045",
+    "A000129",
+    "A000203",
+    "A002203",
+    "A203848",
+    "A204270",
+    "A204272",
+    "A204273",
+    "A204274",
+    "A204275"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:24",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

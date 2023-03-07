@@ -1,0 +1,18 @@
+{
+  "description": "Number of length-n binary strings achieving the maximum possible subword complexity.",
+  "id": "A306688",
+  "mentions": [
+    "A103354"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

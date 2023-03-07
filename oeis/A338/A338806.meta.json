@@ -1,0 +1,21 @@
+{
+  "description": "Number of polyhedra formed when an n-antiprism, formed from two n-sided regular polygons joined by 2n adjacent alternating triangles, is internally cut by all the planes defined by any three of its vertices.",
+  "id": "A338806",
+  "mentions": [
+    "A333539",
+    "A338571",
+    "A338783",
+    "A338808"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 3,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

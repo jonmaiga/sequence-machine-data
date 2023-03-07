@@ -1,0 +1,19 @@
+{
+  "description": "Fill an infinite square array by following a spiral around the origin; if the square at position (x, y) is empty then set either T(x, y) = 1 or T(x, y) = T(2*x, 2*y) = 2 such that the RUNS transform of the sequence of values as they are chosen equals the sequence of values as they are visited; first choose the value 1. This sequence corresponds to the values as they are visited.",
+  "id": "A331348",
+  "mentions": [
+    "A331034",
+    "A331349"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers whose outer two digits are 9's and inner digits are 4's.",
+  "id": "A108896",
+  "mentions": [
+    "A108903",
+    "A108904"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:44",
+    "offset": 1,
+    "size": 18,
+    "source": "joeis"
+  }
+}

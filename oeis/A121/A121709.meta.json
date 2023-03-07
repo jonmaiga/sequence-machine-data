@@ -1,0 +1,26 @@
+{
+  "description": "Numerator of Sum/Product of first n Lucas numbers A000032[n].",
+  "id": "A121709",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A001578",
+    "A058036",
+    "A079451",
+    "A090585",
+    "A096362",
+    "A121708"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

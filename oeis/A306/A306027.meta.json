@@ -1,0 +1,19 @@
+{
+  "description": "Number of length-n restricted growth strings (RGS) with growth <= three and first element in [3].",
+  "id": "A306027",
+  "mentions": [
+    "A189845",
+    "A306024"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

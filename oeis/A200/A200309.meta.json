@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f.: 1/(cos(x) - x).",
+  "id": "A200309",
+  "mentions": [
+    "A003957",
+    "A006154"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:21",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

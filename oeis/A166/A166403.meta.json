@@ -1,0 +1,18 @@
+{
+  "description": "Terms of sequence A166401 that are not powers of primes.",
+  "id": "A166403",
+  "mentions": [
+    "A166401",
+    "A166402"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:49",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

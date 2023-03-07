@@ -1,0 +1,23 @@
+{
+  "description": "Number of toothpicks turned ON at generation n in A151885.",
+  "id": "A151886",
+  "mentions": [
+    "A000695",
+    "A079314",
+    "A139250",
+    "A139251",
+    "A147562",
+    "A151885",
+    "A151888"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

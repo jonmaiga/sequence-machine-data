@@ -1,0 +1,20 @@
+{
+  "description": "Beginning with adding a central 'Star' configuration of a centrally symmetric rhomb tiling with 7-fold symmetry, number of tiles that can be added to the free edges of the tiling.",
+  "id": "A242888",
+  "mentions": [
+    "A242128",
+    "A242129",
+    "A242889"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

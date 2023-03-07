@@ -1,0 +1,20 @@
+{
+  "description": "Rounded frequencies in Hz of the notes of the chromatic music scale beginning at A.",
+  "id": "A101286",
+  "mentions": [
+    "A071831",
+    "A071832",
+    "A071833"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

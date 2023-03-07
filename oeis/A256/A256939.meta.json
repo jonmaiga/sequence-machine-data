@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of g.f.: (1-4*z-sqrt(1-8*z+12*z^2+8*z^3-4*z^4))/(2*z^2(1-z)).",
+  "id": "A256939",
+  "mentions": [
+    "A000108",
+    "A135052"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:07:09",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

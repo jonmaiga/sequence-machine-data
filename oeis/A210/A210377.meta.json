@@ -1,0 +1,19 @@
+{
+  "description": "Number of 2 X 2 matrices with all terms in {0,1,...,n} and (sum of terms) = n + 5.",
+  "id": "A210377",
+  "mentions": [
+    "A210000",
+    "A210376"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:16:25",
+    "offset": 0,
+    "size": 42,
+    "source": "joeis"
+  }
+}

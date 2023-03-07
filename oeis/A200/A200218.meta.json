@@ -1,0 +1,28 @@
+{
+  "description": "The differences x^3 - y^2 of Danilov's subsequence of good Hall's examples A078933.",
+  "id": "A200218",
+  "mentions": [
+    "A000032",
+    "A000204",
+    "A078933",
+    "A179107",
+    "A179108",
+    "A179109",
+    "A179387",
+    "A179388",
+    "A199496",
+    "A200216",
+    "A200217"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

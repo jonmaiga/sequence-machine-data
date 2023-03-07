@@ -1,0 +1,26 @@
+{
+  "description": "Number of integer pairs (x,y) such that 0 < x <= y <= n and x*y <= 3n.",
+  "id": "A211274",
+  "mentions": [
+    "A038548",
+    "A072670",
+    "A091627",
+    "A094820",
+    "A211266",
+    "A211270",
+    "A211271",
+    "A211272",
+    "A211273",
+    "A211275"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:00",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X n 0..1 arrays with the counts of all possible adjacent horizontal and vertical pair sum values being within one of each other",
+  "id": "A203630",
+  "mentions": [
+    "A203638"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

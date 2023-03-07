@@ -1,0 +1,23 @@
+{
+  "description": "Square array where T(n,k) = Sum_{j=0..k} C(n+2*j,j)*C(n+2*j,k-j), read by antidiagonals.",
+  "id": "A137634",
+  "mentions": [
+    "A073157",
+    "A137635",
+    "A137636",
+    "A137637",
+    "A137638"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

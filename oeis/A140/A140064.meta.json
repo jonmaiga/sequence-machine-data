@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (9*n^2 - 23*n + 16)/2.",
+  "id": "A140064",
+  "mentions": [
+    "A000217",
+    "A007318",
+    "A064226"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:06:19",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

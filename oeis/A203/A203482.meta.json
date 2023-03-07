@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Product_{1 <= i < j <= n} (i! + j!).",
+  "id": "A203482",
+  "mentions": [
+    "A000142",
+    "A000178",
+    "A093883",
+    "A203483",
+    "A203510"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

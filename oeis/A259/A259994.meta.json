@@ -1,0 +1,18 @@
+{
+  "description": "Number of (n+2) X (1+2) 0..1 arrays with each 3 X 3 subblock having clockwise perimeter pattern 00000001 00000011 or 00000101.",
+  "id": "A259994",
+  "mentions": [
+    "A260001"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

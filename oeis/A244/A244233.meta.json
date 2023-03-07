@@ -1,0 +1,26 @@
+{
+  "description": "Product of \"digit values\" in Semigreedy Catalan Representation of n, A244159.",
+  "id": "A244233",
+  "mentions": [
+    "A000108",
+    "A000142",
+    "A014138",
+    "A014143",
+    "A244159",
+    "A244231",
+    "A244232",
+    "A244314",
+    "A244318"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 0,
+    "size": 133,
+    "source": "oeis-bfile"
+  }
+}

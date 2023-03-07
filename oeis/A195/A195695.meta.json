@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of arcsin(sqrt(1/3)) and of arccos(sqrt(2/3)).",
+  "id": "A195695",
+  "mentions": [
+    "A019673",
+    "A020760",
+    "A157697",
+    "A195696",
+    "A195698",
+    "A243445"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:55",
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

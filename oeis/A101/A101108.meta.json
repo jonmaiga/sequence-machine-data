@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of solution to a functional equation.",
+  "id": "A101108",
+  "mentions": [
+    "A007325"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

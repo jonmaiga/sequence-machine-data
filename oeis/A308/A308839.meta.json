@@ -1,0 +1,19 @@
+{
+  "description": "Sum of all the parts in the partitions of n into 5 squarefree parts.",
+  "id": "A308839",
+  "mentions": [
+    "A008683",
+    "A308840"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

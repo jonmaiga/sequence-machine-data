@@ -1,0 +1,22 @@
+{
+  "description": "Lexicographically earliest infinite sequence such that a(i) = a(j) => A328763(i) = A328763(j) for all i, j.",
+  "id": "A328764",
+  "mentions": [
+    "A276086",
+    "A328578",
+    "A328613",
+    "A328763",
+    "A328765",
+    "A328766"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 0,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Primes which are the concatenation of five consecutive primes p, q, r, s, t while the sum (p + q + r + s + t) is another prime.",
+  "id": "A244186",
+  "mentions": [
+    "A000040",
+    "A034961",
+    "A034962",
+    "A086041",
+    "A132903",
+    "A132905",
+    "A244163"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

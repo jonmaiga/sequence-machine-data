@@ -1,0 +1,25 @@
+{
+  "description": "Starting with a(1)=2: if m is a term then also 4*m+1 and 4*m+2.",
+  "id": "A179888",
+  "mentions": [
+    "A000120",
+    "A023416",
+    "A032925",
+    "A053754",
+    "A063037",
+    "A070939",
+    "A132679",
+    "A196168"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

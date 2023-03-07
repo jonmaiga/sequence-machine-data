@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k with a divisor pair (d,k/d) whose harmonic mean is an integer.",
+  "id": "A337103",
+  "mentions": [
+    "A000290"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

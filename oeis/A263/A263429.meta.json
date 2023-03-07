@@ -1,0 +1,21 @@
+{
+  "description": "Smallest prime p such that binomial(2*p-1, p-1) == 1 (mod p^n), or 0 if no such p exists.",
+  "id": "A263429",
+  "mentions": [
+    "A088164",
+    "A244919"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

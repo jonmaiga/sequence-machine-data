@@ -1,0 +1,17 @@
+{
+  "description": "Number of nX6 binary arrays without the pattern 0 1 0 diagonally or antidiagonally",
+  "id": "A188907",
+  "mentions": [
+    "A188910"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

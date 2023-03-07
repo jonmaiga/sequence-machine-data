@@ -1,0 +1,22 @@
+{
+  "description": "a(0) = 1; a(n) = -Sum_{k=1..n} binomial(n,k) * k^2 * a(n-k).",
+  "id": "A335577",
+  "mentions": [
+    "A302189",
+    "A302397",
+    "A308861",
+    "A316087",
+    "A335578"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:01:33",
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

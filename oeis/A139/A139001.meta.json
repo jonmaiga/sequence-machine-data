@@ -1,0 +1,25 @@
+{
+  "description": "Partial sums of A055573 = number of terms in continued fraction of H(n)=sum(1/k,k=1..n).",
+  "id": "A139001",
+  "mentions": [
+    "A001008",
+    "A002805",
+    "A055573",
+    "A058027",
+    "A100398",
+    "A110020",
+    "A112286",
+    "A112287"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:45",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

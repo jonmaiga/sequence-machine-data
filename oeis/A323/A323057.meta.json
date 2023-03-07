@@ -1,0 +1,23 @@
+{
+  "description": "Number of faces of non-prismatic uniform polyhedron with Wenninger index n.",
+  "id": "A323057",
+  "mentions": [
+    "A128112",
+    "A128113",
+    "A128114",
+    "A323058",
+    "A323059"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "fini",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) = n if k is the largest divisor of n <= sqrt(n), otherwise T(n,k) = 0. The first element of column k is in row k^2, n>=1, k>=1.",
+  "id": "A294721",
+  "mentions": [
+    "A000027",
+    "A000196",
+    "A008578",
+    "A033676",
+    "A161344",
+    "A161345",
+    "A161424",
+    "A161835",
+    "A162526",
+    "A162527",
+    "A162528",
+    "A162529",
+    "A162530",
+    "A162531",
+    "A162532",
+    "A163280",
+    "A294821"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

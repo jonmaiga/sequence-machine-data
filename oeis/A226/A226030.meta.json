@@ -1,0 +1,20 @@
+{
+  "description": "Smallest m such that A226029(m) = n.",
+  "id": "A226030",
+  "mentions": [
+    "A068092",
+    "A182402",
+    "A226029"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Square array read by antidiagonals: T(i,j) = Sprague-Grundy function for position (i,j) in the \"R\" variant of Wythoff's game.",
+  "id": "A305383",
+  "mentions": [
+    "A305384"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

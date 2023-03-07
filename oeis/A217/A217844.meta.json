@@ -1,0 +1,19 @@
+{
+  "description": "Numbers which are the sums of consecutive fourth powers.",
+  "id": "A217844",
+  "mentions": [
+    "A034705",
+    "A217843",
+    "A217850"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

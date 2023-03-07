@@ -1,0 +1,21 @@
+{
+  "description": "T(n, k) = 1 + NOR(k - 1, n - k), where NOR is the Peirce arrow operating bitwise on the inputs, triangle read by rows, T(n, k) for n >= 1, 1 <= k <= n.",
+  "id": "A327489",
+  "mentions": [
+    "A080079",
+    "A280172",
+    "A327488",
+    "A327490"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

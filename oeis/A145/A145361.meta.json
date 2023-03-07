@@ -1,0 +1,26 @@
+{
+  "description": "Characteristic partition array for partitions with parts 1 and 2 only.",
+  "id": "A145361",
+  "mentions": [
+    "A000041",
+    "A008279",
+    "A036040",
+    "A134278",
+    "A144357",
+    "A145362",
+    "A145363"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

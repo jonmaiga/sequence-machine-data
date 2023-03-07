@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of unlabeled trees on n vertices with domination number k, n >= 1, 1 <= k <= A065033(n+1).",
+  "id": "A339833",
+  "mentions": [
+    "A000055",
+    "A065033",
+    "A332401",
+    "A339829",
+    "A339834",
+    "A339835"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

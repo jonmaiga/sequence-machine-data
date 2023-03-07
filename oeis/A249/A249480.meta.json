@@ -1,0 +1,23 @@
+{
+  "description": "E.g.f.: A(x,y) = exp(y)*P(x) - Q(x,y), where P(x) = 1/Product_{n>=1} (1 - x^n/n) and Q(x,y) = Sum_{n>=1} y^n / Product_{k=1..n} (k - x^k).",
+  "id": "A249480",
+  "mentions": [
+    "A007841",
+    "A249078",
+    "A249474",
+    "A249475",
+    "A249476",
+    "A249477",
+    "A249478"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

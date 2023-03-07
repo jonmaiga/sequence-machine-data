@@ -1,0 +1,25 @@
+{
+  "description": "Row 4 of table A124550; also equals the self-convolution 4th power of A124564, which is row 4 of table A124560.",
+  "id": "A124554",
+  "mentions": [
+    "A124550",
+    "A124551",
+    "A124552",
+    "A124553",
+    "A124555",
+    "A124556",
+    "A124560",
+    "A124564"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

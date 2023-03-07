@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = product( 4 +4*cos(k*Pi/n)^2, k=1..(n-1)/2 ).",
+  "id": "A152118",
+  "mentions": [
+    "A000045",
+    "A002530",
+    "A041011",
+    "A136211"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers whose powers in their canonical factorization lie in the geometric progression 1,2,4,..",
+  "id": "A102836",
+  "mentions": [
+    "A095990"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

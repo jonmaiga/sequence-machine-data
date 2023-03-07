@@ -1,0 +1,22 @@
+{
+  "description": "Integers which have a positive but not monotone difference table of their divisors.",
+  "id": "A273199",
+  "mentions": [
+    "A000040",
+    "A246655",
+    "A273102",
+    "A273130",
+    "A273200",
+    "A273201"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

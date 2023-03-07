@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = |{0 < k < prime(n): pi(k*n) is a square}|, where pi(.) is given by A000720.",
+  "id": "A237598",
+  "mentions": [
+    "A000040",
+    "A000217",
+    "A000290",
+    "A000720",
+    "A237578",
+    "A237597",
+    "A237612",
+    "A237614"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

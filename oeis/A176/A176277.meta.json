@@ -1,0 +1,20 @@
+{
+  "description": "Sum over the odd entries of the rows in the triangle Worpitzky(n, k)*Harmonic(k) (A176276).",
+  "id": "A176277",
+  "mentions": [
+    "A028246",
+    "A176276"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:00",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

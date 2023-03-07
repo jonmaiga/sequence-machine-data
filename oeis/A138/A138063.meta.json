@@ -1,0 +1,19 @@
+{
+  "description": "Lesser of twin primes isolated from neighboring primes by +- 10 (or more).",
+  "id": "A138063",
+  "mentions": [
+    "A001097",
+    "A001359",
+    "A006512"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

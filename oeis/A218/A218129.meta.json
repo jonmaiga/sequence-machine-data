@@ -1,0 +1,24 @@
+{
+  "description": "2^(((c - 2)^2 + (c - 2))/2) + n = a(n), where c are the positive solutions to {y in N | 2*cos(2*Pi/y) is in Z}; c = {1,2,3,4,6}.",
+  "id": "A218129",
+  "mentions": [
+    "A000045",
+    "A005382",
+    "A076046",
+    "A215929",
+    "A217290"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

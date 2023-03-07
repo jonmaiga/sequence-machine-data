@@ -1,0 +1,23 @@
+{
+  "description": "Prime numbers missing from A359136: prime numbers for which none of the nontrivial permutations of its digits (permitting leading zeros) produces a prime number.",
+  "id": "A360040",
+  "mentions": [
+    "A359136",
+    "A359137",
+    "A360041"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

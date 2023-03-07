@@ -1,0 +1,21 @@
+{
+  "description": "Number of six-dimensional simplical toric diagrams with hypervolume n.",
+  "id": "A173878",
+  "mentions": [
+    "A003051",
+    "A045790",
+    "A173824",
+    "A173877"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

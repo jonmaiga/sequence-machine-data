@@ -1,0 +1,29 @@
+{
+  "description": "(first digit of n) * (last digit of n) in decimal representation.",
+  "id": "A169669",
+  "mentions": [
+    "A000030",
+    "A004086",
+    "A008592",
+    "A010879",
+    "A017281",
+    "A088133",
+    "A111707",
+    "A115300",
+    "A168184",
+    "A174995"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "hear",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:53",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

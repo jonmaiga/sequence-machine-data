@@ -1,0 +1,30 @@
+{
+  "description": "Odd numbers with two zeros in their binary expansion.",
+  "id": "A357773",
+  "mentions": [
+    "A000225",
+    "A005408",
+    "A018900",
+    "A023416",
+    "A048490",
+    "A056556",
+    "A153894",
+    "A190620",
+    "A220236",
+    "A353654",
+    "A357774"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

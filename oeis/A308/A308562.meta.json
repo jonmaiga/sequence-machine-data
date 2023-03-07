@@ -1,0 +1,20 @@
+{
+  "description": "Squares visited a knight moving on a board numbered by Hilbert's space-filling curve and moving to the lowest-numbered available unvisited square at each step.",
+  "id": "A308562",
+  "mentions": [
+    "A316588",
+    "A316667"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

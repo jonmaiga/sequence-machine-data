@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of phi (golden ratio) in base 5.",
+  "id": "A164629",
+  "mentions": [
+    "A001622",
+    "A004714"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:19:51",
+    "offset": 1,
+    "size": 90,
+    "source": "joeis"
+  }
+}

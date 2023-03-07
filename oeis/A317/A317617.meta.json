@@ -1,0 +1,26 @@
+{
+  "description": "Triangle T read by rows: T(n, k) = (n^3 + n)/2 + (k - (n + 1)/2)*(n mod 2).",
+  "id": "A317617",
+  "mentions": [
+    "A000027",
+    "A000035",
+    "A006003",
+    "A037270",
+    "A074147",
+    "A241016",
+    "A246697",
+    "A317614"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:48:35",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

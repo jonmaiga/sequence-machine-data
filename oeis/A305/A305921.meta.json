@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of nonnegative integers such that no three points (i,a(i)), (j,a(j)), (n,a(n)) are collinear and no four points (i,a(i)), (j,a(j)), (k,a(k)), (n,a(n)) are on a circle.",
+  "id": "A305921",
+  "mentions": [
+    "A236266",
+    "A236335"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the denominator of the asymptotic density of numbers divisible by their last digit in base n.",
+  "id": "A341432",
+  "mentions": [
+    "A003418",
+    "A005408",
+    "A034709",
+    "A047236",
+    "A185399",
+    "A341431"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 2,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

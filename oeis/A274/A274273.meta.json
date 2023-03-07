@@ -1,0 +1,20 @@
+{
+  "description": "Number of noncomposite areas of a Venn diagram for n multisets.",
+  "id": "A274273",
+  "mentions": [
+    "A000670",
+    "A343583"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

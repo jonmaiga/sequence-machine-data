@@ -1,0 +1,23 @@
+{
+  "description": "Numbers at which the sum of the iterated absolute Möbius divisor function (A173557) attains a record.",
+  "id": "A333872",
+  "mentions": [
+    "A000010",
+    "A173557",
+    "A181659",
+    "A330400",
+    "A331407",
+    "A333612",
+    "A333871"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

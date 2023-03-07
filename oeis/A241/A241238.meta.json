@@ -1,0 +1,23 @@
+{
+  "description": "Number of acute isosceles triangles, distinct up to congruence, on a centered hexagonal grid of size n.",
+  "id": "A241238",
+  "mentions": [
+    "A003215",
+    "A190309",
+    "A241229",
+    "A241237",
+    "A241239"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

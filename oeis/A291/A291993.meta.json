@@ -1,0 +1,17 @@
+{
+  "description": "Primes of the form Phi(k, -7), where Phi is the cyclotomic polynomial.",
+  "id": "A291993",
+  "mentions": [
+    "A138923"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

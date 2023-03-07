@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form k! / 5 - 1.",
+  "id": "A290118",
+  "mentions": [
+    "A139175",
+    "A139200"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

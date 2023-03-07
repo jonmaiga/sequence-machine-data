@@ -1,0 +1,19 @@
+{
+  "description": "Number of circle graphs of Gauss diagrams of meander curves with 2n+1 crossings.",
+  "id": "A338660",
+  "mentions": [
+    "A343358"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Number of nonnegative lattice paths from (0,0) to (n,0) using steps in {(1,-4), (1,-1), (1,0), (1,1)}.",
+  "id": "A348202",
+  "mentions": [
+    "A000108",
+    "A001006",
+    "A025235",
+    "A036765",
+    "A333069",
+    "A333105",
+    "A337067"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:22",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

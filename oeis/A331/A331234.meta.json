@@ -1,0 +1,28 @@
+{
+  "description": "Triangular numbers having exactly 9 divisors.",
+  "id": "A331234",
+  "mentions": [
+    "A000129",
+    "A000217",
+    "A001110",
+    "A001333",
+    "A030627",
+    "A063440",
+    "A068443",
+    "A096650",
+    "A099088",
+    "A242585",
+    "A292989",
+    "A330809"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

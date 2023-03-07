@@ -1,0 +1,29 @@
+{
+  "description": "Number of uniform hypertrees spanning n vertices.",
+  "id": "A320444",
+  "mentions": [
+    "A000272",
+    "A030019",
+    "A035053",
+    "A038041",
+    "A052888",
+    "A057625",
+    "A061095",
+    "A121860",
+    "A134954",
+    "A236696",
+    "A262843",
+    "A326374"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

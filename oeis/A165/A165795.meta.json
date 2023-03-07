@@ -1,0 +1,30 @@
+{
+  "description": "Array A(n, k) = numerator of 1/n^2 - 1/k^2 with A(0,k) = 1 and A(n,0) = -1, read by antidiagonals.",
+  "id": "A165795",
+  "mentions": [
+    "A005408",
+    "A005563",
+    "A061037",
+    "A061039",
+    "A070262",
+    "A147998",
+    "A158388",
+    "A165507",
+    "A172157",
+    "A173651"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:49",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

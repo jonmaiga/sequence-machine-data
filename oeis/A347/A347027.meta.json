@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 1; a(n) = a(n-1) + 2 * a(floor(n/2)).",
+  "id": "A347027",
+  "mentions": [
+    "A033485",
+    "A033489",
+    "A039722",
+    "A058039"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:12",
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

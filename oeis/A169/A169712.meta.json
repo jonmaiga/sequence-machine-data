@@ -1,0 +1,21 @@
+{
+  "description": "The function W_n(8) (see Borwein et al. reference for definition).",
+  "id": "A169712",
+  "mentions": [
+    "A169715",
+    "A287314",
+    "A287316"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:58:13",
+    "offset": 1,
+    "size": 32,
+    "source": "joeis"
+  }
+}

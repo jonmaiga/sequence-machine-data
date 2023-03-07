@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that (12^n + 11^n)/23 is prime.",
+  "id": "A213216",
+  "mentions": [
+    "A057178",
+    "A128341",
+    "A181141",
+    "A187819",
+    "A217095"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

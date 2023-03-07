@@ -1,0 +1,21 @@
+{
+  "description": "Numbers of 0's in the rows of triangle A141727.",
+  "id": "A141730",
+  "mentions": [
+    "A141727",
+    "A141729",
+    "A141731",
+    "A141746"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

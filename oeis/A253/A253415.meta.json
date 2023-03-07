@@ -1,0 +1,19 @@
+{
+  "description": "Smallest missing number within the first n terms in A095258.",
+  "id": "A253415",
+  "mentions": [
+    "A095258",
+    "A095259",
+    "A253425"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 2,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

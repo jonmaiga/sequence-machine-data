@@ -1,0 +1,23 @@
+{
+  "description": "Number of iterations sqrt(sqrt(sqrt(...(n)...))) such that the result is < 2.",
+  "id": "A211667",
+  "mentions": [
+    "A001069",
+    "A001146",
+    "A010096",
+    "A211662",
+    "A211668",
+    "A211670"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

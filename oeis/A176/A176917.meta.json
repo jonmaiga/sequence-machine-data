@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows, A077049 * the diagonalized version of A002033.",
+  "id": "A176917",
+  "mentions": [
+    "A002033",
+    "A077049"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{d|n} phi(d^d), where phi(n) is the Euler totient function A000010(n).",
+  "id": "A226459",
+  "mentions": [
+    "A000010",
+    "A226458",
+    "A226561"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Sizes of successive clusters in f.c.c. lattice centered at a tetrahedral hole.",
+  "id": "A121054",
+  "mentions": [
+    "A005886",
+    "A121055"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 0,
+    "size": 50,
+    "source": "joeis"
+  }
+}

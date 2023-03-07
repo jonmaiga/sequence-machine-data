@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that p^11 - 1 has 8 divisors.",
+  "id": "A342067",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A309906",
+    "A341670"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Rank deficiency of the Lights Out problem of size n.",
+  "id": "A159257",
+  "mentions": [
+    "A075462",
+    "A075463",
+    "A075464",
+    "A076436",
+    "A076437",
+    "A117870"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 1,
+    "size": 130,
+    "source": "oeis-bfile"
+  }
+}

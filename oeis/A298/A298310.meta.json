@@ -1,0 +1,21 @@
+{
+  "description": "Least k > 1 such that all divisors d of (k^(2n+1)+1)/(k+1) satisfy d == 1 (mod 2n+1).",
+  "id": "A298310",
+  "mentions": [
+    "A239452",
+    "A298076"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

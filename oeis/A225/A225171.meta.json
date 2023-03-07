@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,k), 1 <= k <= n, is the number of non-degenerate fanout-free Boolean functions of n variables having AND rank k.",
+  "id": "A225171",
+  "mentions": [
+    "A005172",
+    "A005756",
+    "A224767",
+    "A224768",
+    "A225170",
+    "A264428"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:10:46",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest number which is the sum of two positive n-gonal numbers in more than one way.",
+  "id": "A199809",
+  "mentions": [
+    "A000217"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 3,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

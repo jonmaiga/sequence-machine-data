@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: CL(n,k) is the number of labeled subgraphs with k edges of the n-cycle C_n.",
+  "id": "A277919",
+  "mentions": [
+    "A005592",
+    "A110170"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:28:19",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

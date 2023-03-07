@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that are the sum of 2 squares with a unique partition and also the sum of 3 nonnegative cubes with a unique partition.",
+  "id": "A277857",
+  "mentions": [
+    "A001481",
+    "A002313",
+    "A003072",
+    "A004825",
+    "A125022"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

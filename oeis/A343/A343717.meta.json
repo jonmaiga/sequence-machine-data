@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the smallest number that yields a prime when appended to n!.",
+  "id": "A343717",
+  "mentions": [
+    "A000040",
+    "A000142",
+    "A024912",
+    "A033932",
+    "A068695",
+    "A095194",
+    "A343718",
+    "A343719"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that 3k is squarefree.",
+  "id": "A261034",
+  "mentions": [
+    "A005117",
+    "A045344",
+    "A088245"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

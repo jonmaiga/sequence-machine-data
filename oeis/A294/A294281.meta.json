@@ -1,0 +1,19 @@
+{
+  "description": "Number of ascent sequences of length n with alternating ascents and descents (unaffected by level steps).",
+  "id": "A294281",
+  "mentions": [
+    "A022493",
+    "A099960"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

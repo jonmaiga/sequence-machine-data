@@ -1,0 +1,18 @@
+{
+  "description": "Beatty sequence for e/(e - 2); i.e., a(n) = floor(n*e/(e - 2)).",
+  "id": "A279608",
+  "mentions": [
+    "A279607"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:47",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

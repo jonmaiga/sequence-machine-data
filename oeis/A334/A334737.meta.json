@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers such that the digital root of a(n+1) divides a(n).",
+  "id": "A334737",
+  "mentions": [
+    "A248025",
+    "A334837"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

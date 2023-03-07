@@ -1,0 +1,25 @@
+{
+  "description": "Arithmetic mean of {sum of non-unitary divisors} and {sum of nonsquarefree divisors}: a(n) = (1/2)*(A048146(n) + A162296(n)).",
+  "id": "A325974",
+  "mentions": [
+    "A000203",
+    "A005117",
+    "A034448",
+    "A048146",
+    "A162296",
+    "A325973",
+    "A325975",
+    "A325978"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

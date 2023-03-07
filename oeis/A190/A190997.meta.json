@@ -1,0 +1,23 @@
+{
+  "description": "Product of digits of all the divisors of n.",
+  "id": "A190997",
+  "mentions": [
+    "A008592",
+    "A034690",
+    "A037278",
+    "A134681"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{i=1..n} Sum_{j=1..n} Sum_{k=1..n} Sum_{l=1..n} (i+j+k+l)!/(4!*i!*j!*k!*l!).",
+  "id": "A144662",
+  "mentions": [
+    "A144512",
+    "A144660",
+    "A144661"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

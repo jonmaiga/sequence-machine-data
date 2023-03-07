@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways to write n = i + j + k with 0 < i < j < k such that phi(i), phi(j) and phi(k) are all cubes, where phi(.) is Euler's totient function.",
+  "id": "A237123",
+  "mentions": [
+    "A000010",
+    "A000578",
+    "A039771",
+    "A233386",
+    "A236998"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

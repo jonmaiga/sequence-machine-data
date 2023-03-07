@@ -1,0 +1,19 @@
+{
+  "description": "a(n+1) = a(n) + (number of divisors of a(n) that are not divisors of other divisors of a(n)) for n>1; a(1)=1.",
+  "id": "A330908",
+  "mentions": [
+    "A083399",
+    "A094222"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

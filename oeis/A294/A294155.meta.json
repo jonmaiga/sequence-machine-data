@@ -1,0 +1,31 @@
+{
+  "description": "Numbers k such that there are precisely 14 groups of order k.",
+  "id": "A294155",
+  "mentions": [
+    "A000001",
+    "A003277",
+    "A054395",
+    "A054396",
+    "A054397",
+    "A055561",
+    "A135850",
+    "A249550",
+    "A249551",
+    "A249552",
+    "A249553",
+    "A249554",
+    "A249555",
+    "A292896",
+    "A294156"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

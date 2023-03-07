@@ -1,0 +1,20 @@
+{
+  "description": "Image of n under the 3^x+1 map, which is a variation of the 3x+1 (Collatz) map.",
+  "id": "A336913",
+  "mentions": [
+    "A006370",
+    "A199561",
+    "A336914"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

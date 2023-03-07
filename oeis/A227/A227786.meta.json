@@ -1,0 +1,24 @@
+{
+  "description": "Take squares larger than 1, subtract 3 from even squares and 2 from odd squares; a(n) = a(n-1) + A168276(n+1) (with a(1) = 1).",
+  "id": "A227786",
+  "mentions": [
+    "A000290",
+    "A000985",
+    "A073577",
+    "A082109",
+    "A116940",
+    "A168276",
+    "A227761"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:15:17",
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

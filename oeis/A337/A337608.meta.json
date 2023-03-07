@@ -1,0 +1,29 @@
+{
+  "description": "Decimal expansion of Lal's constant: the Hardy-Littlewood constant for A217795.",
+  "id": "A337608",
+  "mentions": [
+    "A000068",
+    "A005597",
+    "A037896",
+    "A088367",
+    "A210630",
+    "A217795",
+    "A217796",
+    "A331941",
+    "A334826",
+    "A337606",
+    "A337607"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

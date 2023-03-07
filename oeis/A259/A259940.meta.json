@@ -1,0 +1,17 @@
+{
+  "description": "Let A={A005574(n)}, the set of all numbers n for which n^2+1 is prime. The sequence lists the number of decompositions A005574(n) = A005574(n1) + A005574(n2) for some n1, n2 and every A005574(n)>1.",
+  "id": "A259940",
+  "mentions": [
+    "A005574"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

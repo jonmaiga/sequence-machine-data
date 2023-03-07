@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n! * Sum_{k=0..floor(n/2)} 1/binomial(n-k, k).",
+  "id": "A358446",
+  "mentions": [
+    "A003149",
+    "A143216",
+    "A344391"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of distinct primes of the form k*(n-k)+n where 1 <= k < n.",
+  "id": "A355784",
+  "mentions": [
+    "A355785"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

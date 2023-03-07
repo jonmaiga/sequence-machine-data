@@ -1,0 +1,19 @@
+{
+  "description": "Numbers whose representation in base 2^w contains only the digit 2^k for some w and k such that 0 <= k < w",
+  "id": "A330220",
+  "mentions": [
+    "A064896",
+    "A295235"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

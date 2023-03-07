@@ -1,0 +1,19 @@
+{
+  "description": "Triangular function from the characteristic polynomials of the inverse Hilbert matrices.",
+  "id": "A135451",
+  "mentions": [
+    "A005249"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

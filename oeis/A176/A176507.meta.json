@@ -1,0 +1,19 @@
+{
+  "description": "Indices of products of 2 single (or isolated or non-twin) primes in the composites.",
+  "id": "A176507",
+  "mentions": [
+    "A002808",
+    "A176312"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

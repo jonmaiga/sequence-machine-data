@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = P_n(-1), where P_n(x) is a certain polynomial arising in the enumeration of tatami mat coverings.",
+  "id": "A226302",
+  "mentions": [
+    "A000984",
+    "A082590",
+    "A226303",
+    "A226304"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "sign",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 2,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

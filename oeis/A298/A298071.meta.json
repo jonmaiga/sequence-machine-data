@@ -1,0 +1,19 @@
+{
+  "description": "Number of primes between floor(3*n/2) and 2*n (inclusive).",
+  "id": "A298071",
+  "mentions": [
+    "A000040",
+    "A035250",
+    "A056171"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Denominator of partial sums for a series of (17/18)*Zeta(4)= (17/1680)*Pi^4.",
+  "id": "A130417",
+  "mentions": [
+    "A130416"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

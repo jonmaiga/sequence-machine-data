@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the elementary charge over h-bar according to the 2019 SI system in units A/J.",
+  "id": "A360750",
+  "mentions": [
+    "A003676",
+    "A081823",
+    "A254181"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 16,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

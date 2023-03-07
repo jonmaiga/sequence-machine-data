@@ -1,0 +1,20 @@
+{
+  "description": "The digits of a(n) and a(n+1) taken together are the digits of a prime; least permutation of the nonnegative integers with this property.",
+  "id": "A231433",
+  "mentions": [
+    "A128280",
+    "A228407",
+    "A228410"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

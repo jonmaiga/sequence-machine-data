@@ -1,0 +1,31 @@
+{
+  "description": "Total number of parts in the section model of partitions of A135010 with n regions.",
+  "id": "A182181",
+  "mentions": [
+    "A000041",
+    "A006128",
+    "A135010",
+    "A138121",
+    "A141285",
+    "A182244",
+    "A182276",
+    "A182727",
+    "A186114",
+    "A187219",
+    "A194446",
+    "A206437",
+    "A210990"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

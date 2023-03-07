@@ -1,0 +1,22 @@
+{
+  "description": "E.g.f.: exp(x) * (BesselI(0,8*x) + BesselI(1,8*x)).",
+  "id": "A349541",
+  "mentions": [
+    "A001405",
+    "A005573",
+    "A005773",
+    "A151318",
+    "A349540"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows T(n,k), (n >= 1, k > = 1), in which row n has length A000070(n-1) and every column gives A000203, the sum of divisors function.",
+  "id": "A337209",
+  "mentions": [
+    "A000070",
+    "A000203",
+    "A066186",
+    "A176206",
+    "A221529",
+    "A238442",
+    "A339278"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

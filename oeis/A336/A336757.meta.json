@@ -1,0 +1,26 @@
+{
+  "description": "Number of primitive integer-sided triangles whose sides a < b < c are in arithmetic progression with a perimeter = n.",
+  "id": "A336757",
+  "mentions": [
+    "A000010",
+    "A005044",
+    "A023022",
+    "A024155",
+    "A024164",
+    "A070201",
+    "A336750",
+    "A336755",
+    "A336756"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

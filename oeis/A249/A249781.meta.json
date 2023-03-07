@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of q * f(-q)^2 * f(-q^15)^2 * chi(-q) * chi(-q^15) / (chi(-q^3) * chi(-q^5)) in powers of q where f(), chi() are Ramanujan theta functions.",
+  "id": "A249781",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A121373",
+    "A249371"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:06:03",
+    "offset": 1,
+    "size": 74,
+    "source": "joeis"
+  }
+}

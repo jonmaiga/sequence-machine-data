@@ -1,0 +1,22 @@
+{
+  "description": "Square array T(n,k), n>=1, k>=1, read by antidiagonals in which column k lists the positive integers whose number of divisors is not k.",
+  "id": "A210976",
+  "mentions": [
+    "A000005",
+    "A018252",
+    "A020725",
+    "A210994",
+    "A213367"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

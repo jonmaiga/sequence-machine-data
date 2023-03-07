@@ -1,0 +1,19 @@
+{
+  "description": "Let b(k) be the k-th term of the flattened irregular array where the m-th row contains the positive divisors of m (b(k) = A027750(k)). Then a(n) = gcd(b(n), n).",
+  "id": "A132588",
+  "mentions": [
+    "A027750",
+    "A132587",
+    "A132589"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

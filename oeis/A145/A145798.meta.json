@@ -1,0 +1,19 @@
+{
+  "description": "Values of q in A145767.",
+  "id": "A145798",
+  "mentions": [
+    "A086119",
+    "A145767",
+    "A145797"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Triangle of sums of Jacobsthal numbers related to binomial(4n,n)/(3n+1) mod 4.",
+  "id": "A113049",
+  "mentions": [
+    "A001045",
+    "A007583",
+    "A072197",
+    "A113048"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of 1 X n 0..2 arrays with every repeated value in every row unequal to the previous repeated value, and in every column equal to the previous repeated value, and new values introduced in row-major sequential order.",
+  "id": "A267912",
+  "mentions": [
+    "A267911"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:30:04",
+    "offset": 1,
+    "size": 29,
+    "source": "joeis"
+  }
+}

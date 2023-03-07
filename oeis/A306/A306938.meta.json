@@ -1,0 +1,18 @@
+{
+  "description": "If n is divisible by 3 then a(n) = n/3 otherwise a(n) = floor(n*sqrt(3)).",
+  "id": "A306938",
+  "mentions": [
+    "A306943",
+    "A306944"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

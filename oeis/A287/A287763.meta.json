@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n for which A230625(n) < n, where A230625 is the concatenation of the prime factorization written in binary, converted back to decimal.",
+  "id": "A287763",
+  "mentions": [
+    "A080670",
+    "A195330",
+    "A230625",
+    "A287874",
+    "A288985"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

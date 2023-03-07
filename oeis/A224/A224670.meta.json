@@ -1,0 +1,18 @@
+{
+  "description": "Number of (n+1) X 3 0..2 matrices with each 2 X 2 subblock idempotent",
+  "id": "A224670",
+  "mentions": [
+    "A224676"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 17:02:24",
+    "offset": 1,
+    "size": 33,
+    "source": "joeis"
+  }
+}

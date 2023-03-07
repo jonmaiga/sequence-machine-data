@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the absolute value of the imaginary part of li(-A257821).",
+  "id": "A257822",
+  "mentions": [
+    "A257820",
+    "A257821"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

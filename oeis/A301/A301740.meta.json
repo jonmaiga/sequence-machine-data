@@ -1,0 +1,24 @@
+{
+  "description": "The number of trees with 5 nodes labeled by positive integers, where each tree's label sum is n.",
+  "id": "A301740",
+  "mentions": [
+    "A000055",
+    "A001752",
+    "A002620",
+    "A002621",
+    "A005994",
+    "A301739"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:36:01",
+    "offset": 5,
+    "size": 44,
+    "source": "joeis"
+  }
+}

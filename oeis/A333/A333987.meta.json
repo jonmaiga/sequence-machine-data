@@ -1,0 +1,20 @@
+{
+  "description": "Integers m for which b(m) < b(m-1) where b(k) = Min_{sqrt(k) - sqrt(x) - sqrt(y) > 0 with x, y distinct integers}.",
+  "id": "A333987",
+  "mentions": [
+    "A045880",
+    "A337210",
+    "A337211"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

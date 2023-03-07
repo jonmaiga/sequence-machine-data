@@ -1,0 +1,19 @@
+{
+  "description": "Highly composite numbers that are the product of consecutive integers.",
+  "id": "A163264",
+  "mentions": [
+    "A002182",
+    "A045619",
+    "A064224"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

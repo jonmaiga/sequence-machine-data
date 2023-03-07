@@ -1,0 +1,21 @@
+{
+  "description": "Positions of 1 in the continued fraction expansion of Pi.",
+  "id": "A203168",
+  "mentions": [
+    "A000796",
+    "A001203",
+    "A033089"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "For any n>=0, least prime k = p^d-2*n, where p is a prime and d is its number of digits.",
+  "id": "A280895",
+  "mentions": [
+    "A055642",
+    "A280427"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

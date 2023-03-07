@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n unless n is a prime, in which case a(n) = 2n.",
+  "id": "A143545",
+  "mentions": [
+    "A061397",
+    "A066560",
+    "A143544",
+    "A282028"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Central terms of the triangle in A059283.",
+  "id": "A224729",
+  "mentions": [
+    "A059283"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

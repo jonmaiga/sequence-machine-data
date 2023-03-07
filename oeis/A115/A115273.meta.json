@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = floor(n/3)*(n mod 3).",
+  "id": "A115273",
+  "mentions": [
+    "A115274",
+    "A142150",
+    "A257844",
+    "A257850"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:45:51",
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

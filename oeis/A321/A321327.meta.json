@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of Product_{k>=0} (1 - x^(2^k))^(2^k).",
+  "id": "A321327",
+  "mentions": [
+    "A073707",
+    "A073709",
+    "A321326"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

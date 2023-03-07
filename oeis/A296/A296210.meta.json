@@ -1,0 +1,19 @@
+{
+  "description": "Characteristic function for A104210: a(n) = 1 if n is divisible by at least 2 consecutive primes, 0 otherwise.",
+  "id": "A296210",
+  "mentions": [
+    "A104210",
+    "A166469",
+    "A192280"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:15",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

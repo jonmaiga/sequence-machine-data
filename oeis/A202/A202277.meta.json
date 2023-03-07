@@ -1,0 +1,23 @@
+{
+  "description": "Numbers m such that number of integers k such sigma(k) <= m (A074753) is equal to number of integers k <= m such that sigma(x) = k has no solution (A202276).",
+  "id": "A202277",
+  "mentions": [
+    "A007368",
+    "A007369",
+    "A007609",
+    "A074753",
+    "A175523",
+    "A202275",
+    "A202276"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Concatenate the binary strings for 1,2,...,n-1, n, n-1, ..., 2,1.",
+  "id": "A359149",
+  "mentions": [
+    "A007088",
+    "A173426",
+    "A173427",
+    "A360504"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

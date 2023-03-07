@@ -1,0 +1,23 @@
+{
+  "description": "Smallest k that is cyclically equivalent (see Comment for definition) to n.",
+  "id": "A357005",
+  "mentions": [
+    "A000120",
+    "A002729",
+    "A163382",
+    "A267508",
+    "A357004",
+    "A357006"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

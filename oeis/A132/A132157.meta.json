@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = number of times n occurs in A063882.",
+  "id": "A132157",
+  "mentions": [
+    "A063882",
+    "A202016"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

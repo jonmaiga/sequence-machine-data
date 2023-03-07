@@ -1,0 +1,35 @@
+{
+  "description": "Heinz number of the differences plus one of the integer partition with Heinz number n.",
+  "id": "A325352",
+  "mentions": [
+    "A001222",
+    "A001248",
+    "A006094",
+    "A007294",
+    "A008578",
+    "A030078",
+    "A049988",
+    "A056239",
+    "A090076",
+    "A093641",
+    "A112798",
+    "A240026",
+    "A320466",
+    "A325328",
+    "A325351",
+    "A325360",
+    "A325361",
+    "A325368",
+    "A325405"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

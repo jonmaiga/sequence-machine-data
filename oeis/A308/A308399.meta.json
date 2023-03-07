@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of 1 / Sum_{k=-oo..oo} (-x)^(k*(4*k + 1)).",
+  "id": "A308399",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A006950",
+    "A007742",
+    "A047622",
+    "A074378",
+    "A195850",
+    "A244465",
+    "A308400"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

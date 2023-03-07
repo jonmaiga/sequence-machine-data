@@ -1,0 +1,22 @@
+{
+  "description": "Factor complexity (number of subwords of length n) of the regular paperfolding sequence (A014577), and all generalized paperfolding sequences.",
+  "id": "A337120",
+  "mentions": [
+    "A005943",
+    "A014577",
+    "A214613",
+    "A333994"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:39:15",
+    "offset": 0,
+    "size": 58,
+    "source": "joeis"
+  }
+}

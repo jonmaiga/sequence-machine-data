@@ -1,0 +1,20 @@
+{
+  "description": "Number of strong triangulations of a fixed square with n interior vertices.",
+  "id": "A242136",
+  "mentions": [
+    "A000260",
+    "A197271",
+    "A341856"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:08:11",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

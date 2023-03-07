@@ -1,0 +1,21 @@
+{
+  "description": "Total number of all-interval rows for systems with 2n notes in the octave (2n-edo).",
+  "id": "A141598",
+  "mentions": [
+    "A067601",
+    "A141599",
+    "A155914"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

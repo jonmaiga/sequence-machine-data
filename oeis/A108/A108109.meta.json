@@ -1,0 +1,20 @@
+{
+  "description": "Intersection of A108027, A108028, A108029 and A108030.",
+  "id": "A108109",
+  "mentions": [
+    "A108027",
+    "A108028",
+    "A108029",
+    "A108030"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

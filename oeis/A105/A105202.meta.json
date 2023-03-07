@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows: row n gives the word f(f(f(...(1)))) [with n applications of f], where f is the morphism 1->{1,2,1}, 2->{2,3,2}, 3->{3,1,3}.",
+  "id": "A105202",
+  "mentions": [
+    "A003462",
+    "A062153",
+    "A073058",
+    "A105141",
+    "A105203"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:56",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

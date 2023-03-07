@@ -1,0 +1,21 @@
+{
+  "description": "Sign of the penultimate term of the Lucas-Lehmer sequence modulo the n-th Mersenne prime.",
+  "id": "A123271",
+  "mentions": [
+    "A000043",
+    "A000668",
+    "A003010"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 2,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

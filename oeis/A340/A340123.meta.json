@@ -1,0 +1,21 @@
+{
+  "description": "Odd composite integers m such that A004254(2*m-J(m,21)) == J(m,21) (mod m) and gcd(m,21)=1, where J(m,21) is the Jacobi symbol.",
+  "id": "A340123",
+  "mentions": [
+    "A004254",
+    "A071904",
+    "A340098",
+    "A340122",
+    "A340124"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:24",
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

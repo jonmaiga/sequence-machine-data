@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that n^9+9 and n^9-9 are prime.",
+  "id": "A239505",
+  "mentions": [
+    "A239346",
+    "A239417"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:56",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

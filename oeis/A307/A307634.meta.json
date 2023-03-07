@@ -1,0 +1,18 @@
+{
+  "description": "RUNS transform of bisection {A307720(2k): k>=1}.",
+  "id": "A307634",
+  "mentions": [
+    "A307633",
+    "A307720"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

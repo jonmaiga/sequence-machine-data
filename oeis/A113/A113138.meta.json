@@ -1,0 +1,19 @@
+{
+  "description": "Self-describing sequence made of strings of consecutive integers. The number of elements in each string is the sequence itself.",
+  "id": "A113138",
+  "mentions": [
+    "A281579"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

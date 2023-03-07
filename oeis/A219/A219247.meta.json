@@ -1,0 +1,21 @@
+{
+  "description": "Denominators of poly-Cauchy numbers of the second kind hat c_n^(2).",
+  "id": "A219247",
+  "mentions": [
+    "A002790",
+    "A223899",
+    "A224102"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "changed",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

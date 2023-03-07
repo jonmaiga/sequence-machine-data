@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = n! * [x^n] exp(n*x)/(1 - 2*x).",
+  "id": "A295100",
+  "mentions": [
+    "A000165",
+    "A010844",
+    "A063170",
+    "A082032",
+    "A295098",
+    "A295099"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

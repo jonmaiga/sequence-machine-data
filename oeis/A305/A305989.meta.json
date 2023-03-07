@@ -1,0 +1,23 @@
+{
+  "description": "Numbers in binary reversed.",
+  "id": "A305989",
+  "mentions": [
+    "A004086",
+    "A007088",
+    "A030101",
+    "A305877"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

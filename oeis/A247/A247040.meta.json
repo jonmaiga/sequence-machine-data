@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of M_6, the 6th Madelung constant.",
+  "id": "A247040",
+  "mentions": [
+    "A059750",
+    "A085469",
+    "A088537",
+    "A090734"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

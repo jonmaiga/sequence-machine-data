@@ -1,0 +1,20 @@
+{
+  "description": "a(0)=1, a(n) = (-1)^n*(n^3-15*n^2-12+2*n)/6, n>0.",
+  "id": "A173248",
+  "mentions": [
+    "A089071",
+    "A105811"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:28:21",
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

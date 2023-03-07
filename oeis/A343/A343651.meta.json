@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle T(n, k), n > 0, k = 1..A343650(n), read by rows; the n-th row lists the divisors d of n such that the product d * (n/d) can be computed without carries in binary.",
+  "id": "A343651",
+  "mentions": [
+    "A343650"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

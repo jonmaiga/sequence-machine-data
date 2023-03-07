@@ -1,0 +1,20 @@
+{
+  "description": "Ordering of the numbers in the tree A183542; complement of A183545.",
+  "id": "A183544",
+  "mentions": [
+    "A183542",
+    "A183543",
+    "A183545"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

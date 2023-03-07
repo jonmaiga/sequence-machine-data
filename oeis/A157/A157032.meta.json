@@ -1,0 +1,21 @@
+{
+  "description": "Let d(i) be the i-th digit of the decimal expansion of phi=1.6180339887498948482045868...,so that d(0) = 1, d(1) = 6, d(2) = 1, etc. Then a(0) = 1, thereafter a(n) = d(d(n)).",
+  "id": "A157032",
+  "mentions": [
+    "A001622",
+    "A135725",
+    "A155912"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

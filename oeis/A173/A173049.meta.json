@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n, k) = [x^k](p(x, n, q)) where p(x,n,q) = Product_{j=1..n} (x + q^j) + Product_{j=1..n} (x*q^j + 1), p(x, 0, q) = 1, and q = 3, read by rows.",
+  "id": "A173049",
+  "mentions": [
+    "A134058",
+    "A173048"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:57",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

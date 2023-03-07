@@ -1,0 +1,23 @@
+{
+  "description": "Number of ways to write n as x^3 + y^2 + z*(3*z+2), where x and y are nonnegative integers, and z is an integer.",
+  "id": "A338696",
+  "mentions": [
+    "A000290",
+    "A000578",
+    "A001082",
+    "A262813",
+    "A270469",
+    "A338686",
+    "A338687"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

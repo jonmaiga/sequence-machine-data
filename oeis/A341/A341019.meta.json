@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the Y-coordinate of the n-th point of the space filling curve M defined in Comments section; A341018 gives X-coordinates.",
+  "id": "A341019",
+  "mentions": [
+    "A059252",
+    "A087289",
+    "A341018"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

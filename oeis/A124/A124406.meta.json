@@ -1,0 +1,17 @@
+{
+  "description": "For n >= 2, n = Sum_{n/2<=k<=n, gcd(k,n)=1} a(k).",
+  "id": "A124406",
+  "mentions": [
+    "A124407"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

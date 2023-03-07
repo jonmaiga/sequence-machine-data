@@ -1,0 +1,24 @@
+{
+  "description": "Positive integers m such that pi(k^2)*pi(m^2) is a square for some 1 < k < m, where pi(x) denotes the number of primes not exceeding x.",
+  "id": "A262707",
+  "mentions": [
+    "A000290",
+    "A000720",
+    "A262408",
+    "A262443",
+    "A262447",
+    "A262462",
+    "A262698",
+    "A262700"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

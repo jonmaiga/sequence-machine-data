@@ -1,0 +1,25 @@
+{
+  "description": "Self-inverse permutation of natural numbers: a(1) = 1, a(2) = 2, a(A055938(n)) = A005187(a(n)), a(A005187(n)) = A055938(a(n)).",
+  "id": "A279347",
+  "mentions": [
+    "A005187",
+    "A055938",
+    "A079559",
+    "A256992",
+    "A279341",
+    "A279342",
+    "A279343",
+    "A279344"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:46",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

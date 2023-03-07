@@ -1,0 +1,31 @@
+{
+  "description": "Heinz numbers of integer partitions with strictly decreasing differences (with the last part taken to be 0).",
+  "id": "A325461",
+  "mentions": [
+    "A056239",
+    "A112798",
+    "A320510",
+    "A325325",
+    "A325327",
+    "A325362",
+    "A325364",
+    "A325367",
+    "A325388",
+    "A325390",
+    "A325396",
+    "A325399",
+    "A325407",
+    "A325457",
+    "A325460"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

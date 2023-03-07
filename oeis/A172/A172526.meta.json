@@ -1,0 +1,17 @@
+{
+  "description": "a(n)=floor(3*n^2*(2+sqrt(3))).",
+  "id": "A172526",
+  "mentions": [
+    "A071401"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:20:55",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

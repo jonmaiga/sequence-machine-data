@@ -1,0 +1,32 @@
+{
+  "description": "a(n) is the product of the sum of the last i digits of n, with i going from 1 to the total number of digits of n.",
+  "id": "A349278",
+  "mentions": [
+    "A000142",
+    "A000533",
+    "A002113",
+    "A002275",
+    "A008592",
+    "A199682",
+    "A199683",
+    "A199684",
+    "A199686",
+    "A199689",
+    "A349194",
+    "A349279",
+    "A349864",
+    "A349865"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

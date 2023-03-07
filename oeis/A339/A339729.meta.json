@@ -1,0 +1,22 @@
+{
+  "description": "Odd composite integers m such that A003501(3*m-J(m,21)) == 23 (mod m) and gcd(m,21)=1, where J(m,21) is the Jacobi symbol.",
+  "id": "A339729",
+  "mentions": [
+    "A003501",
+    "A071904",
+    "A339130",
+    "A339522",
+    "A339728",
+    "A339730"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

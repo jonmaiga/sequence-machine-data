@@ -1,0 +1,24 @@
+{
+  "description": "Dirichlet convolution of A000027 (the identity function) with the Dirichlet inverse of the inverse permutation of EKG-permutation.",
+  "id": "A349616",
+  "mentions": [
+    "A000027",
+    "A064413",
+    "A064664",
+    "A323411",
+    "A349613",
+    "A349614",
+    "A349617"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

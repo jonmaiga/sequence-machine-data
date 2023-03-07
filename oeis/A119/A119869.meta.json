@@ -1,0 +1,30 @@
+{
+  "description": "Sizes of successive clusters in f.c.c. lattice centered at a lattice point.",
+  "id": "A119869",
+  "mentions": [
+    "A004015",
+    "A004215",
+    "A055039",
+    "A119870",
+    "A119871",
+    "A119872",
+    "A119873",
+    "A119874",
+    "A119875",
+    "A119876",
+    "A119877",
+    "A119878"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

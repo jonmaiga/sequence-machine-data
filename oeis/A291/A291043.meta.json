@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that psi(n) = psi(n+1), where psi(n) is Dedekind psi function (A001615).",
+  "id": "A291043",
+  "mentions": [
+    "A001274",
+    "A001615"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

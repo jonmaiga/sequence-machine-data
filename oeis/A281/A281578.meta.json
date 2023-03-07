@@ -1,0 +1,18 @@
+{
+  "description": "Maximum number of nonisomorphic root-containing subtrees of a rooted tree of order n",
+  "id": "A281578",
+  "mentions": [
+    "A281094"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

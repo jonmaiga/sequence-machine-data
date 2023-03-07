@@ -1,0 +1,19 @@
+{
+  "description": "L.g.f.: Sum_{n>=1} (x - x^(2*n-1))^(2*n-1) / (2*n-1).",
+  "id": "A293597",
+  "mentions": [
+    "A293129",
+    "A293598",
+    "A293599"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:10",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

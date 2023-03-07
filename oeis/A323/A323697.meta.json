@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that the norm of the quadratic-field analog of Mersenne numbers M_{p,alpha} = (alpha^p - 1)/(alpha - 1), with alpha = 2 + sqrt(2), is a rational prime.",
+  "id": "A323697",
+  "mentions": [
+    "A000043",
+    "A000668",
+    "A232993"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

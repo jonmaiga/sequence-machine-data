@@ -1,0 +1,19 @@
+{
+  "description": "Jumping to the multiples or from previous biggest multiples and returning to the next number not used yet.",
+  "id": "A179881",
+  "mentions": [
+    "A000040",
+    "A179869"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

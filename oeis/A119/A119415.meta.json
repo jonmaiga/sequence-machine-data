@@ -1,0 +1,18 @@
+{
+  "description": "Steps until an EKG sequence starting 1,2,3,...,n merges with the standard EKG sequence A064413, or 0 if the sequences never merge.",
+  "id": "A119415",
+  "mentions": [
+    "A064413",
+    "A169857"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 3,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

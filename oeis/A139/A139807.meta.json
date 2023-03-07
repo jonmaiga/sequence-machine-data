@@ -1,0 +1,18 @@
+{
+  "description": "Number of distinct values of Product_{p is a part of P} (p-1) when P ranges over all partitions of n.",
+  "id": "A139807",
+  "mentions": [
+    "A034891"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

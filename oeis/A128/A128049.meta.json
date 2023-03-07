@@ -1,0 +1,28 @@
+{
+  "description": "Least number k>0 such that abs((3^k - (3-n)^k)/n) is prime, or 0 if no such prime exists.",
+  "id": "A128049",
+  "mentions": [
+    "A028491",
+    "A111010",
+    "A128024",
+    "A128025",
+    "A128026",
+    "A128027",
+    "A128028",
+    "A128029",
+    "A128030",
+    "A128031",
+    "A128032",
+    "A128033"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

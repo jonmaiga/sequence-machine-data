@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{d|n} phi(n/d)^(d-1).",
+  "id": "A164941",
+  "mentions": [
+    "A000010",
+    "A087909",
+    "A309369"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:47",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

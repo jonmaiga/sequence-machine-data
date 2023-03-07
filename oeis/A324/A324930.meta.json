@@ -1,0 +1,28 @@
+{
+  "description": "Total weight of the multiset of multisets of multisets with MMM number n. Totally additive with a(prime(n)) = A302242(n).",
+  "id": "A324930",
+  "mentions": [
+    "A000081",
+    "A000720",
+    "A001222",
+    "A050338",
+    "A056239",
+    "A112798",
+    "A301595",
+    "A302242",
+    "A318564",
+    "A318565",
+    "A318566",
+    "A324928"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

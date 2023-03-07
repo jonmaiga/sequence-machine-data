@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of orbits under the action of GL_2[Z] on the primitive binary quadratic forms of discriminant D, where D>1 is the n-th fundamental discriminant.",
+  "id": "A106032",
+  "mentions": [
+    "A000924",
+    "A003646",
+    "A003658"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

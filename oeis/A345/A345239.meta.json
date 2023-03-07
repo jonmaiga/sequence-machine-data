@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that p+2^k is composite for all k with 2^k < p.",
+  "id": "A345239",
+  "mentions": [
+    "A345238"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

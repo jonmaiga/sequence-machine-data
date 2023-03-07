@@ -1,0 +1,26 @@
+{
+  "description": "Number of points in the standard root system version of the D_3 (or f.c.c.) lattice having L_infinity norm n.",
+  "id": "A110907",
+  "mentions": [
+    "A008458",
+    "A010006",
+    "A010014",
+    "A022144",
+    "A083669",
+    "A117216",
+    "A175112",
+    "A175114"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:23:55",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

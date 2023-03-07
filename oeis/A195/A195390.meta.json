@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = (6*n)!",
+  "id": "A195390",
+  "mentions": [
+    "A000142",
+    "A008588",
+    "A010050",
+    "A100732",
+    "A100733",
+    "A100734",
+    "A271946",
+    "A332892"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

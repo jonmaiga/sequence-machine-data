@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the minimal number of perfect matchings of a graph with 2n vertices that contains exactly three disjoint perfect matchings.",
+  "id": "A320727",
+  "mentions": [
+    "A003436"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 2,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

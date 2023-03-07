@@ -1,0 +1,20 @@
+{
+  "description": "an=n-th smallest integer m=p1*p2*p3, product of 3 odd primes such that d+2m/d are all primes for d dividing 2m.",
+  "id": "A128278",
+  "mentions": [
+    "A045536",
+    "A128276",
+    "A128277",
+    "A128279"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

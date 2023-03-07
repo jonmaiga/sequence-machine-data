@@ -1,0 +1,23 @@
+{
+  "description": "Least m such that m^n <= Sum_{k",
+  "id": "A332101",
+  "mentions": [
+    "A030052",
+    "A051128",
+    "A051129",
+    "A078607",
+    "A332065",
+    "A332097"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Brilliant numbers (A078972) whose digit reversal is a triangular number.",
+  "id": "A115677",
+  "mentions": [
+    "A078972",
+    "A115678"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

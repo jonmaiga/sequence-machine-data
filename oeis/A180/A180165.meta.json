@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows, derived from an array of sequences generated from (1 + x)/ (1 - r*x - r*x^2).",
+  "id": "A180165",
+  "mentions": [
+    "A000045",
+    "A028859",
+    "A086347",
+    "A125145",
+    "A180033",
+    "A180166",
+    "A340156"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

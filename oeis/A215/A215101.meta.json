@@ -1,0 +1,22 @@
+{
+  "description": "Primes congruent to {2, 3} mod 19.",
+  "id": "A215101",
+  "mentions": [
+    "A000040",
+    "A003631",
+    "A045343",
+    "A214888",
+    "A214889",
+    "A214890"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:19:23",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

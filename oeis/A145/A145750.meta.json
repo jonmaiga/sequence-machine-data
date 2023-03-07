@@ -1,0 +1,19 @@
+{
+  "description": "Primes which become emirps when rotated by 180 degrees on a digital clock display.",
+  "id": "A145750",
+  "mentions": [
+    "A048895",
+    "A057770"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

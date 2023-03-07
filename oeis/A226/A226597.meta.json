@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = c(1,2,...,n), the Cantor tuple function c applied to n-tuple (1,2,...,n).",
+  "id": "A226597",
+  "mentions": [
+    "A226588",
+    "A226598"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

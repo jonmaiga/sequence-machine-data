@@ -1,0 +1,18 @@
+{
+  "description": "Number of arrays of n nonnegative integers with value i>0 appearing only after i-1 has appeared at least 3 times.",
+  "id": "A210540",
+  "mentions": [
+    "A210545"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

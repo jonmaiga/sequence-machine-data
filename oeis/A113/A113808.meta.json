@@ -1,0 +1,18 @@
+{
+  "description": "Positive integers n such that S(n) divides n, where S(n) is the sum of the iterates of the Euler phi-function of n, that is, S(n) = phi(n)+phi(phi(n))+....+ 1.",
+  "id": "A113808",
+  "mentions": [
+    "A082897",
+    "A092693"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

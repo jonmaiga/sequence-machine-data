@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 8*n^3 + n.",
+  "id": "A118465",
+  "mentions": [
+    "A006003",
+    "A081585"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:35:33",
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

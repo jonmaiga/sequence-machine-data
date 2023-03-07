@@ -1,0 +1,22 @@
+{
+  "description": "Number of 4-partite partitions of (n,n,n,n) into distinct quadruples.",
+  "id": "A219561",
+  "mentions": [
+    "A002774",
+    "A219554",
+    "A219560",
+    "A219565",
+    "A219585"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

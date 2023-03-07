@@ -1,0 +1,21 @@
+{
+  "description": "7 followed by the Fermat numbers A152581.",
+  "id": "A178427",
+  "mentions": [
+    "A000215",
+    "A152581",
+    "A178426",
+    "A178428"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

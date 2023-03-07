@@ -1,0 +1,27 @@
+{
+  "description": "Numbers n such that 3*T(n)+1 is a square, where T = A000217.",
+  "id": "A233450",
+  "mentions": [
+    "A000217",
+    "A001652",
+    "A001921",
+    "A006451",
+    "A080872",
+    "A129444",
+    "A129445",
+    "A129556",
+    "A132596"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:27:26",
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum of odd divisors of Omega(n), a(1) = 0.",
+  "id": "A193512",
+  "mentions": [
+    "A000593",
+    "A001222",
+    "A193509",
+    "A193511",
+    "A290080"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

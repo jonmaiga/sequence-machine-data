@@ -1,0 +1,27 @@
+{
+  "description": "Sum of positive Dyson's ranks of all partitions of n.",
+  "id": "A209616",
+  "mentions": [
+    "A063995",
+    "A092269",
+    "A105805",
+    "A115995",
+    "A194547",
+    "A194549",
+    "A195012",
+    "A195822",
+    "A208478",
+    "A208482"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

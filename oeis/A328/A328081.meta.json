@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k), n >= 0, k >= 1, = number of cells of area k/t^2 in generation n of Jim Conant's iterative dissection of a square, where t = 2^ceiling(n/2).",
+  "id": "A328081",
+  "mentions": [
+    "A328078"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

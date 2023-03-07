@@ -1,0 +1,22 @@
+{
+  "description": "Number of Catalan paths (nonnegative, starting and ending at 0, step +/-1) of 2*n steps which reach at least 6 at some point.",
+  "id": "A359311",
+  "mentions": [
+    "A000108",
+    "A080936",
+    "A080937",
+    "A289419"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:29",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

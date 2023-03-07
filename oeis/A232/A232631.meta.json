@@ -1,0 +1,23 @@
+{
+  "description": "Coefficient table for minimal polynomials of s(2*l)^2 = (2*sin(Pi/(2*l)))^2.",
+  "id": "A232631",
+  "mentions": [
+    "A055034",
+    "A187360",
+    "A232632",
+    "A232633"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

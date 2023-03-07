@@ -1,0 +1,22 @@
+{
+  "description": "Number of inequivalent properly oriented and labeled planar chord diagrams whose associated planar tree is a path on n + 1 vertices.",
+  "id": "A131455",
+  "mentions": [
+    "A005981",
+    "A131453",
+    "A131454",
+    "A196265"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:19",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

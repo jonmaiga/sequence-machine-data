@@ -1,0 +1,23 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) (n>=1, k>=1) = f(prime(n),prime(k)), where f(x,y) = x*red_inv(x,y) + y*(red_inv(y,x) if gcd(x,y)=1, or 0 if gcd(x,y)>1, and red_inv is defined in the comments.",
+  "id": "A347682",
+  "mentions": [
+    "A076274",
+    "A208296",
+    "A344005",
+    "A347681",
+    "A347683",
+    "A347684"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:21",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

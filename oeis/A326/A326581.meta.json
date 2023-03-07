@@ -1,0 +1,22 @@
+{
+  "description": "Odd integers which are prime or square.",
+  "id": "A326581",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A016754",
+    "A065091",
+    "A326583"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:54:49",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

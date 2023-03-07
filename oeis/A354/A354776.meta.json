@@ -1,0 +1,18 @@
+{
+  "description": "Even numbers that are the sum of two squares; also numbers which are twice the sum of two squares.",
+  "id": "A354776",
+  "mentions": [
+    "A001481",
+    "A128106"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

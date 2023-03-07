@@ -1,0 +1,21 @@
+{
+  "description": "C(n+9, 9)*(n+5)*(-1)^(n+1)*256/5.",
+  "id": "A138333",
+  "mentions": [
+    "A007318",
+    "A054334",
+    "A123583",
+    "A123588"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:50:01",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

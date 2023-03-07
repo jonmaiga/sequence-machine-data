@@ -1,0 +1,21 @@
+{
+  "description": "Period 8 sequence [0, 1, 1, 1, 2, 1, 1, 1, ...].",
+  "id": "A259042",
+  "mentions": [
+    "A010877",
+    "A257179"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

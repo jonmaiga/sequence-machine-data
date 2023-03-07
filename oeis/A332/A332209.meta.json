@@ -1,0 +1,21 @@
+{
+  "description": "Starting from sigma(n), number of halving and tripling steps to reach 1 in '3x+1' problem, or -1 if 1 is never reached.",
+  "id": "A332209",
+  "mentions": [
+    "A000203",
+    "A006577",
+    "A332452",
+    "A332453"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:52:41",
+    "offset": 1,
+    "size": 89,
+    "source": "joeis"
+  }
+}

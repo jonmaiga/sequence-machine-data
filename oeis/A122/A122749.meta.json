@@ -1,0 +1,18 @@
+{
+  "description": "Number of arrangements of n non-attacking bishops on an n X n board such that every square of the board is controlled by at least one bishop.",
+  "id": "A122749",
+  "mentions": [
+    "A005635",
+    "A182333"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:11",
+    "offset": 2,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

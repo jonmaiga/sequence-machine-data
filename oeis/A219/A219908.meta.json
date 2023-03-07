@@ -1,0 +1,19 @@
+{
+  "description": "Primes of the form 4*x^2+2*x*y+7*y^2, for x >= 0, y >= 0.",
+  "id": "A219908",
+  "mentions": [
+    "A010051",
+    "A219907",
+    "A220432"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

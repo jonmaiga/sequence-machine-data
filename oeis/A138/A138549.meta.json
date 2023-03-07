@@ -1,0 +1,20 @@
+{
+  "description": "Moment sequence of t^2 coefficient in det(tI-A) for random matrix A in USp(6).",
+  "id": "A138549",
+  "mentions": [
+    "A138356",
+    "A138540",
+    "A138550"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

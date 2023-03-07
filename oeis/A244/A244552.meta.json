@@ -1,0 +1,22 @@
+{
+  "description": "Palindromes j such that j +- the sum of digits of j are both palindromes.",
+  "id": "A244552",
+  "mentions": [
+    "A007953",
+    "A055642",
+    "A244551"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

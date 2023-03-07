@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Varona's constant = Sum_{k >= 1} prime(k)/2^(k + k!).",
+  "id": "A339764",
+  "mentions": [
+    "A016104",
+    "A051021",
+    "A249270"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 131,
+    "source": "oeis-entry"
+  }
+}

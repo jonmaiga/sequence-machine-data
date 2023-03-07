@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} (k^(1/k^(1 + 1/1111)) - 1).",
+  "id": "A350862",
+  "mentions": [
+    "A308511",
+    "A329117"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 7,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

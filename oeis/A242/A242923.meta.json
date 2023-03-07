@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically least sequence over the positive integers with the property that there are no two consecutive blocks of the same length and same sum.",
+  "id": "A242923",
+  "mentions": [
+    "A191818",
+    "A242921"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

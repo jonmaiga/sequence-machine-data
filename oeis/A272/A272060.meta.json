@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that sigma((k-1)/2) + tau((k-1)/2) is prime.",
+  "id": "A272060",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A007503",
+    "A019434",
+    "A055813",
+    "A064205",
+    "A272061"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:36",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

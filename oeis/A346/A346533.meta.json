@@ -1,0 +1,36 @@
+{
+  "description": "Irregular triangle read by rows in which row n lists the first n - 2 terms of A000203 together with the sum of A000203(n-1) and A000203(n), with a(1) = 1.",
+  "id": "A346533",
+  "mentions": [
+    "A000041",
+    "A000203",
+    "A024916",
+    "A028310",
+    "A066186",
+    "A092403",
+    "A175254",
+    "A221529",
+    "A237270",
+    "A237593",
+    "A245092",
+    "A245093",
+    "A336811",
+    "A336812",
+    "A338156",
+    "A339106",
+    "A340035",
+    "A340584",
+    "A346562"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

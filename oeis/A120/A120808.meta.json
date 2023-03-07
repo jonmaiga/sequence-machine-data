@@ -1,0 +1,19 @@
+{
+  "description": "Integers p such that x=p^3 is in A120806: x+d+1 is prime for all divisors d of x. All p greater than 1 are odd primes.",
+  "id": "A120808",
+  "mentions": [
+    "A120806",
+    "A120807"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

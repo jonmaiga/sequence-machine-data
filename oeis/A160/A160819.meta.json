@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=2. a(n) = smallest positive integer such that Omega(a(n)) = Omega(sum{k=1 to n} a(k)), where Omega(m) = A001222(m).",
+  "id": "A160819",
+  "mentions": [
+    "A001222",
+    "A160820",
+    "A160821"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

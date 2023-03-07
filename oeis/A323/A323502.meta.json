@@ -1,0 +1,20 @@
+{
+  "description": "Number of irreducible or connected partial orders on {1,2,...,n} that are contained in the usual linear order (i.e., xRy => x < y).",
+  "id": "A323502",
+  "mentions": [
+    "A006455",
+    "A323658"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

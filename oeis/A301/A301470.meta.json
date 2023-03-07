@@ -1,0 +1,36 @@
+{
+  "description": "Signed recurrence over enriched r-trees: a(n) = (-1)^n + Sum_y Product_{i in y} a(y) where the sum is over all integer partitions of n - 1.",
+  "id": "A301470",
+  "mentions": [
+    "A032305",
+    "A055277",
+    "A093637",
+    "A127524",
+    "A196545",
+    "A220418",
+    "A273866",
+    "A273873",
+    "A289501",
+    "A290261",
+    "A290971",
+    "A301342",
+    "A301345",
+    "A301364",
+    "A301368",
+    "A301422",
+    "A301462",
+    "A301467",
+    "A301469"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

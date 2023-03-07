@@ -1,0 +1,23 @@
+{
+  "description": "Ramanujan primes of the second kind: a(n) is the smallest prime such that if prime x >= a(n), then pi(x) - pi(x/2) >= n, where pi(x) is the number of primes <= x.",
+  "id": "A193507",
+  "mentions": [
+    "A080359",
+    "A104272",
+    "A168425",
+    "A194184",
+    "A194186",
+    "A194598"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

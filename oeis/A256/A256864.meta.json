@@ -1,0 +1,19 @@
+{
+  "description": "Primes not occurring in A084721.",
+  "id": "A256864",
+  "mentions": [
+    "A000040",
+    "A083569",
+    "A084721"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

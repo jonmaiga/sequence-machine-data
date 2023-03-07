@@ -1,0 +1,21 @@
+{
+  "description": "Indices in A050791 for the subsequence A141326.",
+  "id": "A145383",
+  "mentions": [
+    "A050791",
+    "A141326",
+    "A145384"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

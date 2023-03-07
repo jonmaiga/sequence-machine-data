@@ -1,0 +1,25 @@
+{
+  "description": "Seventh diagonal of triangle A008275 (Stirling1) and seventh column of |A008276|.",
+  "id": "A112002",
+  "mentions": [
+    "A008275",
+    "A008276",
+    "A008517",
+    "A053567",
+    "A112007",
+    "A112486",
+    "A130534"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:29:53",
+    "offset": 1,
+    "size": 20,
+    "source": "joeis"
+  }
+}

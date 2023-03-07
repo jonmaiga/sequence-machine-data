@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = floor the elevator is on at the n-th stage of Ken Knowlton's elevator problem, version 2.",
+  "id": "A286281",
+  "mentions": [
+    "A285200",
+    "A286282"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

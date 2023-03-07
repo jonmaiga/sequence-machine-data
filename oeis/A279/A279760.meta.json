@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of Product_{k>=1} 1/(1 - x^(prime(k)^3)).",
+  "id": "A279760",
+  "mentions": [
+    "A000607",
+    "A003108",
+    "A003633",
+    "A030078",
+    "A078128",
+    "A090677"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:12",
+    "offset": 0,
+    "size": 121,
+    "source": "joeis"
+  }
+}

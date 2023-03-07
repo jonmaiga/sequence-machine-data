@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that q = 2^k - 2^m + 1 is prime, where m = A270096(k).",
+  "id": "A307625",
+  "mentions": [
+    "A000043",
+    "A270096",
+    "A270427",
+    "A307590"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

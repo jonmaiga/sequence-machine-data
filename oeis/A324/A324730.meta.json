@@ -1,0 +1,23 @@
+{
+  "description": "Difference between the binary weight of A323243 and the binary weight of its Xor Moebius transform (negated).",
+  "id": "A324730",
+  "mentions": [
+    "A000120",
+    "A156552",
+    "A323243",
+    "A324712",
+    "A324729",
+    "A324829"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

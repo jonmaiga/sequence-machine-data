@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 36*2^n + 9.",
+  "id": "A305154",
+  "mentions": [
+    "A000051",
+    "A305153"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:41:48",
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

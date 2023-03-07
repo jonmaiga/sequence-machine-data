@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of pairs of primes (p,q) with p",
+  "id": "A354449",
+  "mentions": [
+    "A045917",
+    "A354462"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Denominators of convergents to 6/Pi^2 based on 1/Zeta(s) = Sum_{k>=1} (mu(k)/k^s).",
+  "id": "A127901",
+  "mentions": [
+    "A013661",
+    "A055615",
+    "A059956",
+    "A127900"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

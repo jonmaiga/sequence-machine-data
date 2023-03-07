@@ -1,0 +1,21 @@
+{
+  "description": "Indices of the triangular numbers in A189475.",
+  "id": "A358417",
+  "mentions": [
+    "A000217",
+    "A036449",
+    "A189475",
+    "A358416"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

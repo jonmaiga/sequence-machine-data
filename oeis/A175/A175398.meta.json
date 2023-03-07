@@ -1,0 +1,26 @@
+{
+  "description": "Sequence of resulting numbers after iterations of {((((D_1^D_2)^D_3)^D_4)^... )^D_k, where D_k is the k-th digit D of the number r and k is the digit number of the number r in the decimal expansion of r (A055642)} needed to reach a one-digit number starting at r = n.",
+  "id": "A175398",
+  "mentions": [
+    "A001477",
+    "A002275",
+    "A055642",
+    "A133500",
+    "A175399",
+    "A175400",
+    "A175401",
+    "A175402",
+    "A175403"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

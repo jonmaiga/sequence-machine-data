@@ -1,0 +1,21 @@
+{
+  "description": "Number of pentamagic (5-multimagic) series for squares of order n.",
+  "id": "A106646",
+  "mentions": [
+    "A052456",
+    "A052457",
+    "A052458",
+    "A090037"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

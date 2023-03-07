@@ -1,0 +1,20 @@
+{
+  "description": "Let x(1)x(2)...x(q) the decimal expansion of the numbers k having exactly q distinct prime divisors p(1) < p(2) < ... < p(q). Sequence lists the numbers k such that p(1)/x(1) + p(2)/x(2) + ... + p(q)/x(q) is an integer.",
+  "id": "A235152",
+  "mentions": [
+    "A235153"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

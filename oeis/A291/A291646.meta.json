@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of the series reversion of -1 + Product_{k>=1} (1 + x^(2*k-1)).",
+  "id": "A291646",
+  "mentions": [
+    "A000700",
+    "A007312",
+    "A050393",
+    "A291489"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

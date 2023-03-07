@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that k^3 has an odd number of digits and the middle digit is 4.",
+  "id": "A280644",
+  "mentions": [
+    "A181354",
+    "A279420",
+    "A279429",
+    "A279430",
+    "A279431",
+    "A280640",
+    "A280643",
+    "A280645",
+    "A280649"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

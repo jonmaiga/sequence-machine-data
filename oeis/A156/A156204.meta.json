@@ -1,0 +1,18 @@
+{
+  "description": "First primes of an arithmetic progression of six primes with common difference 30.",
+  "id": "A156204",
+  "mentions": [
+    "A155760",
+    "A227281"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

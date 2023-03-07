@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = s(k)-s(j), where (s(k),s(j)) is the least pair of distinct triangular numbers for which n divides their difference.",
+  "id": "A205006",
+  "mentions": [
+    "A000217",
+    "A204892",
+    "A205002",
+    "A205007",
+    "A318894"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:25",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

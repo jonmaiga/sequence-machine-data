@@ -1,0 +1,30 @@
+{
+  "description": "Number of subsets of {1..n} (including empty set) such that the pairwise products of distinct elements are all distinct.",
+  "id": "A196724",
+  "mentions": [
+    "A143823",
+    "A196719",
+    "A196720",
+    "A196721",
+    "A196722",
+    "A196723",
+    "A292886",
+    "A293627",
+    "A325855",
+    "A325856",
+    "A325859",
+    "A325860",
+    "A325861",
+    "A325993"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:18",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

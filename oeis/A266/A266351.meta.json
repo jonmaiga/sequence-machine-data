@@ -1,0 +1,23 @@
+{
+  "description": "Start with a(1) = 1, then always choose for a(n) the least unused number such that A057889(a(n)*a(n-1)) = A057889(a(n)) * A057889(a(n-1)), where A057889 is a bijective base-2 reverse.",
+  "id": "A266351",
+  "mentions": [
+    "A057889",
+    "A265405",
+    "A266194",
+    "A266195",
+    "A266352",
+    "A266405"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:27",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

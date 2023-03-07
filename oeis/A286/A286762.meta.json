@@ -1,0 +1,19 @@
+{
+  "description": "Indices k such that A195441(k) = A195441(k+1).",
+  "id": "A286762",
+  "mentions": [
+    "A195441",
+    "A286516",
+    "A286763"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

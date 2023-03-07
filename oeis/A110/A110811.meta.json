@@ -1,0 +1,21 @@
+{
+  "description": "Perfect powers not a multiple of 10 whose digit reversal is also a perfect power (not necessarily with the same exponent, but with exponent > 1).",
+  "id": "A110811",
+  "mentions": [
+    "A001597",
+    "A115656",
+    "A118895"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

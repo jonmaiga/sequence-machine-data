@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 15*n + 6.",
+  "id": "A139606",
+  "mentions": [
+    "A000217",
+    "A057145",
+    "A067076",
+    "A139600",
+    "A144562",
+    "A153238"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:50:33",
+    "offset": 0,
+    "size": 53,
+    "source": "joeis"
+  }
+}

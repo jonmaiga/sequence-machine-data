@@ -1,0 +1,30 @@
+{
+  "description": "BII-numbers of connectedness systems.",
+  "id": "A326872",
+  "mentions": [
+    "A029931",
+    "A048793",
+    "A072446",
+    "A102896",
+    "A326031",
+    "A326749",
+    "A326753",
+    "A326866",
+    "A326867",
+    "A326870",
+    "A326873",
+    "A326875",
+    "A326876",
+    "A326879"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

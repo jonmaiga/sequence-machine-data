@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of e.g.f. Product_{k>=1} (1 + x^k)^exp(x).",
+  "id": "A347915",
+  "mentions": [
+    "A000593",
+    "A088311",
+    "A346547",
+    "A347916",
+    "A354503",
+    "A354504",
+    "A354507"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

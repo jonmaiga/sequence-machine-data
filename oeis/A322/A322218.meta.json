@@ -1,0 +1,23 @@
+{
+  "description": "E.g.f.: C(x,q) = 1 + Integral S(x,q) * C(q*x,q) dx, such that C(x,q)^2 - S(x,q)^2 = 1, where C(x,q) = Sum_{n>=0} sum_{k=0..n*(n-1)/2} T(n,k)*x^n*y^k/n!, as an irregular triangle of coefficients T(n,k) read by rows.",
+  "id": "A322218",
+  "mentions": [
+    "A000364",
+    "A002866",
+    "A159600",
+    "A193544",
+    "A322219"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 0,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

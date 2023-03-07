@@ -1,0 +1,21 @@
+{
+  "description": "Number of valid hook configurations of permutations of [n] that avoid the patterns 231 and 321.",
+  "id": "A307788",
+  "mentions": [
+    "A025273",
+    "A217333",
+    "A307786",
+    "A307787"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:22:30",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

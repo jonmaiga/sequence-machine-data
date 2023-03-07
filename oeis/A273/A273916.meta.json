@@ -1,0 +1,19 @@
+{
+  "description": "The Bingo-4 problem: minimal number of stones that must be placed on an infinite square grid to produce n groups of exactly 4 stones each. Groups consist of adjacent stones in a horizontal, vertical or diagonal line.",
+  "id": "A273916",
+  "mentions": [
+    "A006065"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "The natural sandwiches sequence (see Comments lines for definition).",
+  "id": "A336904",
+  "mentions": [
+    "A335600"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

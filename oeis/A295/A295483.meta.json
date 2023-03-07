@@ -1,0 +1,18 @@
+{
+  "description": "Composite squarefree numbers k such that Sum_{i=1..j} (p_i)^k mod k = 0, where p_i is one of the j prime divisors of k.",
+  "id": "A295483",
+  "mentions": [
+    "A120944"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

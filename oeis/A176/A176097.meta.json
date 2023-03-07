@@ -1,0 +1,23 @@
+{
+  "description": "Degree of the hyperdeterminant of the cubic format (k+1) X (k+1) X (k+1).",
+  "id": "A176097",
+  "mentions": [
+    "A000172",
+    "A045899",
+    "A050269",
+    "A086302",
+    "A087981"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:37:12",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of maximal matchings in the n-path complement graph.",
+  "id": "A302749",
+  "mentions": [
+    "A170941",
+    "A302750"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

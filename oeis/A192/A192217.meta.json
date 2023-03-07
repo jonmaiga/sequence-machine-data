@@ -1,0 +1,20 @@
+{
+  "description": "a(1)=1; a(n) = n*lcm(n, a(n-1)) for n > 1.",
+  "id": "A192217",
+  "mentions": [
+    "A000142",
+    "A034386"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of perfect partitions of n-1 plus sum of remainders of n mod k, for k=1,2,3,..,n.",
+  "id": "A166247",
+  "mentions": [
+    "A002033",
+    "A004125"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:36:19",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

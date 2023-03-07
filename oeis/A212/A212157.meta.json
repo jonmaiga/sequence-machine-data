@@ -1,0 +1,22 @@
+{
+  "description": "Array T(n,k) = k^((prime(n)-1)/2) (mod prime(n)), n >= 2, k=1, 2, ... , prime(n)-1; T(1,1) = +1.",
+  "id": "A212157",
+  "mentions": [
+    "A000040",
+    "A005097",
+    "A006093",
+    "A097343"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Deficient numbers whose aliquot sequence is deficient, abundant, deficient, ..., etc.",
+  "id": "A234970",
+  "mentions": [
+    "A002025",
+    "A002046",
+    "A063990",
+    "A222977",
+    "A234969"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

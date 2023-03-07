@@ -1,0 +1,18 @@
+{
+  "description": "Smallest number m such that A253581(m) = n.",
+  "id": "A253603",
+  "mentions": [
+    "A252867",
+    "A253581"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

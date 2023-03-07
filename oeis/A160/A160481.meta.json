@@ -1,0 +1,25 @@
+{
+  "description": "Row sums of the Beta triangle A160480.",
+  "id": "A160481",
+  "mentions": [
+    "A000165",
+    "A002474",
+    "A009445",
+    "A049606",
+    "A120778",
+    "A129890",
+    "A160480"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 2,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

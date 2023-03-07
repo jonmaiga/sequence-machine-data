@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of the supremum norm of a best cubic polynomial fit to 1/Gamma(z) in the complex unit disk.",
+  "id": "A117235",
+  "mentions": [
+    "A117231",
+    "A117232",
+    "A117233",
+    "A117234",
+    "A117236",
+    "A117237",
+    "A117238",
+    "A117239",
+    "A117240"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

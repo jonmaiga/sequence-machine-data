@@ -1,0 +1,25 @@
+{
+  "description": "Consider a circle on the Z X Z lattice with radius equal to the Pythagorean hypotenuse h(n) (A009003); a(n) = number of Pythagorean triples inside a Pi/4 sector of the circle.",
+  "id": "A349536",
+  "mentions": [
+    "A002144",
+    "A008846",
+    "A009003",
+    "A020882",
+    "A020883",
+    "A046086",
+    "A081804",
+    "A349538"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

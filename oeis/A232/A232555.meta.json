@@ -1,0 +1,19 @@
+{
+  "description": "Nonsquare numbers whose sum of proper square divisors is a square greater than 1.",
+  "id": "A232555",
+  "mentions": [
+    "A232554",
+    "A232556",
+    "A232557"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

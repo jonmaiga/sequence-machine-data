@@ -1,0 +1,19 @@
+{
+  "description": "a(0)=29; a(n) = a(n-1) + floor(sqrt(a(n-1))), n > 0.",
+  "id": "A159022",
+  "mentions": [
+    "A005010",
+    "A028392",
+    "A159016"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

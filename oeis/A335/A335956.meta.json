@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (2^n - 1)*2^valuation(n, 2) for n > 0 and a(0) = 0.",
+  "id": "A335956",
+  "mentions": [
+    "A000225",
+    "A006519",
+    "A168604"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

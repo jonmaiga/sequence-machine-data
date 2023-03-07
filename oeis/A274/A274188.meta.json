@@ -1,0 +1,20 @@
+{
+  "description": "Number n such that there is a smaller positive number j == n (mod 5) such that sqrt(j*n) is integer.",
+  "id": "A274188",
+  "mentions": [
+    "A046790",
+    "A274141"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

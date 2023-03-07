@@ -1,0 +1,20 @@
+{
+  "description": "Ordered sequence of nonnegative differences 3f-2g, where f and g are Lucas numbers (A000032 beginning at 1).",
+  "id": "A191926",
+  "mentions": [
+    "A000032",
+    "A191924",
+    "A191925",
+    "A191927"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

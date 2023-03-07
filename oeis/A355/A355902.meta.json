@@ -1,0 +1,29 @@
+{
+  "description": "Start with a 2 X n array of squares, join every vertex on top edge to every vertex on bottom edge; a(n) = one-half the number of cells.",
+  "id": "A355902",
+  "mentions": [
+    "A088658",
+    "A114043",
+    "A114146",
+    "A115004",
+    "A115005",
+    "A115044",
+    "A141255",
+    "A290131",
+    "A306302",
+    "A331452",
+    "A355798",
+    "A356790"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Number of binary strings of length n with no substrings equal to 0001 or 0010.",
+  "id": "A164392",
+  "mentions": [
+    "A212584",
+    "A212585",
+    "A212586",
+    "A212587",
+    "A212589"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:46",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Non-Wilson primes: primes p such that (p-1)! =/= -1 mod p^2.",
+  "id": "A197636",
+  "mentions": [
+    "A000040",
+    "A007540",
+    "A007619",
+    "A197633",
+    "A197634",
+    "A197635",
+    "A250406"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

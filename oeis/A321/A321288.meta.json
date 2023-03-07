@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the unique n-digit odd number (including leading zero(s)) with alternating even and odd digits and divisible by 5^n.",
+  "id": "A321288",
+  "mentions": [
+    "A321289"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the derivative of the Dirichlet function eta(z) at z = -1.",
+  "id": "A271533",
+  "mentions": [
+    "A074962",
+    "A091812",
+    "A256358",
+    "A271525",
+    "A271526"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:35",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of permutations of {1,2,...,n} having exactly k even fixed points (0 <= k <= floor(n/2)).",
+  "id": "A161134",
+  "mentions": [
+    "A000142",
+    "A052591",
+    "A161132",
+    "A161133"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:43",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

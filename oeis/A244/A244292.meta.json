@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of B, a constant related to the Goh-Schmutz constant and the asymptotic expected order of a random permutation.",
+  "id": "A244292",
+  "mentions": [
+    "A143300"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

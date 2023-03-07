@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of times that A064440(n) occurs as the sum of proper divisors function (A001065).",
+  "id": "A356445",
+  "mentions": [
+    "A001065",
+    "A048138",
+    "A064440",
+    "A238895",
+    "A238896"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

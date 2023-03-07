@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{p|n, p prime} p * gcd(p,n/p).",
+  "id": "A345303",
+  "mentions": [
+    "A345266"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Write the positive integer n in binary. Subdivide the binary n into runs each consisting entirely of 0's or of 1's, where the runs alternate between those of 1's and those of 0's. The sequence gives those numbers n such that there is at least one run of 1's of the same length as at least one run of 0's.",
+  "id": "A123466",
+  "mentions": [
+    "A033015"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

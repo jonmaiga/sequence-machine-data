@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest k such that psi(k) and phi(k) have same distinct prime factors when k is the product of n distinct primes (psi(k) = A001615(k) and phi(k) = A000010(k)), or 0 if no such k exists.",
+  "id": "A291138",
+  "mentions": [
+    "A000010",
+    "A001615",
+    "A005117",
+    "A007947"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = n! * Sum_{k=1..n} A000010(k)/k.",
+  "id": "A356485",
+  "mentions": [
+    "A000010",
+    "A002088",
+    "A011755",
+    "A356010",
+    "A356297",
+    "A356298",
+    "A356323"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

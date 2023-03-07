@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (2*n+1)*denominator((2*n+1)*Bernoulli(2*n)).",
+  "id": "A326580",
+  "mentions": [
+    "A027641",
+    "A027642",
+    "A326478",
+    "A326578",
+    "A326579"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

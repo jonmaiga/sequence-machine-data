@@ -1,0 +1,20 @@
+{
+  "description": "Formal inverse of the period-doubling sequence A096268.",
+  "id": "A317542",
+  "mentions": [
+    "A096268",
+    "A317543",
+    "A317544"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:36",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

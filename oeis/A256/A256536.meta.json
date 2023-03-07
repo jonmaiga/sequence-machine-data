@@ -1,0 +1,22 @@
+{
+  "description": "Corner sequence associated with A151723.",
+  "id": "A256536",
+  "mentions": [
+    "A139250",
+    "A151723",
+    "A153006",
+    "A169779",
+    "A256138",
+    "A256537"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

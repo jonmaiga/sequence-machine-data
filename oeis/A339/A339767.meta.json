@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 2*gpf(n) - Sum_{p | n, p prime} p*m(p), where gpf(n) = A006530(n) is the greatest prime factor of n and m(p) is the multiplicity of p in the prime factorization of n.",
+  "id": "A339767",
+  "mentions": [
+    "A006530",
+    "A071321",
+    "A071322"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 2,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "For k>=1 let k = a(i)^2 +...+ a(i+r-1)^2, r is the least number of squares that add up to k (A002828); a(i)<=a(i+1)<=..<=a(i+r-1); i>=1.",
+  "id": "A175244",
+  "mentions": [
+    "A002828",
+    "A028354"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Irregular array read by rows of numerators in which row n has one numerator from each irreducible cycle of n rational numbers under iteration by the 3x+1 function. (See Comments for selection and order of numerators.)",
+  "id": "A226605",
+  "mentions": [
+    "A001037",
+    "A102659",
+    "A226606"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

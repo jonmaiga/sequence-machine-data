@@ -1,0 +1,20 @@
+{
+  "description": "Irregular table read by rows: n-th row lists the 16 n-gonal numbers of a 4 X 4 magic square with the smallest magic sum, and the sum of the first two terms of each row is as small as it is possible.",
+  "id": "A271711",
+  "mentions": [
+    "A271579",
+    "A271580",
+    "A271712"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 3,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Expansion of phi(-q^3) * b(q^8) in powers of q where phi() is a Ramanujan theta function and b() is a cubic AGM theta function.",
+  "id": "A213618",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A004016",
+    "A005882",
+    "A005928",
+    "A010054",
+    "A010815",
+    "A014452",
+    "A121373",
+    "A213592",
+    "A213607",
+    "A213617"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:51:39",
+    "offset": 0,
+    "size": 80,
+    "source": "joeis"
+  }
+}

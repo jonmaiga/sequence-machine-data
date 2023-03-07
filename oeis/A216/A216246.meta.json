@@ -1,0 +1,19 @@
+{
+  "description": "O.g.f. satisfies: A(x) = Sum_{n>=0} n^n * x^n * A(n*x^2)^n/n! * exp(-n*x*A(n*x^2)).",
+  "id": "A216246",
+  "mentions": [
+    "A216247",
+    "A217900",
+    "A218672"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

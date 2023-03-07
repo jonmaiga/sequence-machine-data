@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n = p*q*r (p, q, r prime) congruent to 0 mod p+q+r.",
+  "id": "A160394",
+  "mentions": [
+    "A001359",
+    "A014612",
+    "A088420",
+    "A115334"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

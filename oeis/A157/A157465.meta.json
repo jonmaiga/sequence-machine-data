@@ -1,0 +1,20 @@
+{
+  "description": "Numbers seen as squares with at most one missing digit in decimal representation.",
+  "id": "A157465",
+  "mentions": [
+    "A000290",
+    "A157464",
+    "A157466"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

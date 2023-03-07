@@ -1,0 +1,27 @@
+{
+  "description": "Column 0 of triangles A136220 and A136228; also equals column 0 of tables A136217 and A136218.",
+  "id": "A136221",
+  "mentions": [
+    "A091352",
+    "A135881",
+    "A136212",
+    "A136217",
+    "A136218",
+    "A136220",
+    "A136222",
+    "A136223",
+    "A136224",
+    "A136228",
+    "A136231"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

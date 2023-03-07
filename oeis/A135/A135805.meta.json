@@ -1,0 +1,22 @@
+{
+  "description": "Eighth column (k=7) of triangle A134832 (circular succession numbers).",
+  "id": "A135805",
+  "mentions": [
+    "A000757",
+    "A134832",
+    "A135804",
+    "A135806"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

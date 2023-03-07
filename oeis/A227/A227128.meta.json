@@ -1,0 +1,27 @@
+{
+  "description": "The twisted Euler phi-function for the non-principal Dirichlet character mod 3.",
+  "id": "A227128",
+  "mentions": [
+    "A049347",
+    "A055615",
+    "A080891",
+    "A086724",
+    "A101455",
+    "A134667",
+    "A156277",
+    "A195459"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

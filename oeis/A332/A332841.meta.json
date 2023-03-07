@@ -1,0 +1,19 @@
+{
+  "description": "Smaller members of emirp twins that are partial sums of smaller of emirp twins.",
+  "id": "A332841",
+  "mentions": [
+    "A006567",
+    "A175215"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

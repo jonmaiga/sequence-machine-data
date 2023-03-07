@@ -1,0 +1,18 @@
+{
+  "description": "Riesel numbers that have at least two covering sets.",
+  "id": "A263392",
+  "mentions": [
+    "A101036",
+    "A263391"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

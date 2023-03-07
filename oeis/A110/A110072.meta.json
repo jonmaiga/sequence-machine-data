@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that n = sigma(d_1!!*d_2!!*...*d_k!!) where d_1 d_2 ... d_k is the decimal expansion of n.",
+  "id": "A110072",
+  "mentions": [
+    "A000203",
+    "A097655",
+    "A110070",
+    "A110071"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

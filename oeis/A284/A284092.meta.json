@@ -1,0 +1,25 @@
+{
+  "description": "Number of partitions of n into distinct parts 8k+1 or 8k+7.",
+  "id": "A284092",
+  "mentions": [
+    "A000700",
+    "A003105",
+    "A035453",
+    "A098884",
+    "A203776",
+    "A281459",
+    "A284093",
+    "A284095"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

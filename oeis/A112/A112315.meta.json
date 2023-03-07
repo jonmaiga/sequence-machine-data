@@ -1,0 +1,22 @@
+{
+  "description": "Number of partitions of n into products of 5 primes.",
+  "id": "A112315",
+  "mentions": [
+    "A000607",
+    "A014614",
+    "A101049",
+    "A112313",
+    "A112314",
+    "A112316"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of Zagier-reduced binary quadratic forms of discriminant n^2+4.",
+  "id": "A257008",
+  "mentions": [
+    "A257003",
+    "A257007",
+    "A257009"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

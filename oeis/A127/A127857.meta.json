@@ -1,0 +1,23 @@
+{
+  "description": "a(n)=sqrt(A127856(n)).",
+  "id": "A127857",
+  "mentions": [
+    "A117755",
+    "A127856",
+    "A127858",
+    "A127859",
+    "A127860",
+    "A127861"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

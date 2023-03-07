@@ -1,0 +1,24 @@
+{
+  "description": "Even central polygonal numbers (A193868) divided by 2.",
+  "id": "A174114",
+  "mentions": [
+    "A002061",
+    "A002522",
+    "A010696",
+    "A033951",
+    "A170950",
+    "A193868"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:42:07",
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

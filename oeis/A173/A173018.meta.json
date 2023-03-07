@@ -1,0 +1,30 @@
+{
+  "description": "Euler's triangle: triangle of Eulerian numbers T(n,k) (n>=0, 0 <= k <= n) read by rows.",
+  "id": "A173018",
+  "mentions": [
+    "A000142",
+    "A008292",
+    "A008517",
+    "A047999",
+    "A084938",
+    "A119879",
+    "A123125",
+    "A131758",
+    "A201637",
+    "A290452",
+    "A290460"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:57",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

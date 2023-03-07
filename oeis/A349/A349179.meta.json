@@ -1,0 +1,20 @@
+{
+  "description": "Numbers with a record number of nonempty subsets of divisors whose harmonic mean is an integer (A339665).",
+  "id": "A349179",
+  "mentions": [
+    "A002182",
+    "A339665",
+    "A348716"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

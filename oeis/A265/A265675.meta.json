@@ -1,0 +1,19 @@
+{
+  "description": "Number of smaller squarefree numbers that are coprime to the n-th squarefree number.",
+  "id": "A265675",
+  "mentions": [
+    "A005117",
+    "A008966"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

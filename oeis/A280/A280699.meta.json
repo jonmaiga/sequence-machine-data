@@ -1,0 +1,24 @@
+{
+  "description": "Greatest Lucas number that is a divisor of the n-th Fibonacci number, a(1) = a(2) = 1.",
+  "id": "A280699",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A000204",
+    "A001906",
+    "A105800",
+    "A280694",
+    "A280698"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of (1/9)*Hurwitz Zeta(2, 2/3) = (1/9)*Psi(1, 2/3), with the Polygamma function Psi.",
+  "id": "A294967",
+  "mentions": [
+    "A016790",
+    "A173986",
+    "A173987",
+    "A214550"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 126,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of n having no perfect cube parts (n>=0).",
+  "id": "A264393",
+  "mentions": [
+    "A000041",
+    "A264391",
+    "A279484"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

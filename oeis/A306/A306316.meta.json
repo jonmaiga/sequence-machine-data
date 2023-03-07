@@ -1,0 +1,18 @@
+{
+  "description": "Number of length-n binary words such that every conjugate (cyclic shift) is rich.",
+  "id": "A306316",
+  "mentions": [
+    "A216264"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Ei(1)/e, where Ei is the exponential integral function.",
+  "id": "A283743",
+  "mentions": [
+    "A000166",
+    "A061382",
+    "A073003",
+    "A091725"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

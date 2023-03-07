@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Sum_{n>=1} n^3/(exp(2*Pi*n/7)-1).",
+  "id": "A226120",
+  "mentions": [
+    "A007775",
+    "A060295",
+    "A089034",
+    "A226121"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 2,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "A triangle T(n,k) read by rows which can be used to calculate the area of a regular polygon with sides having length 1, provided that the polygon has an odd number of sides.",
+  "id": "A343051",
+  "mentions": [
+    "A103327"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Denominator of f(n) := Product_{i=1..n} sigma(i)/i.",
+  "id": "A111934",
+  "mentions": [
+    "A111928"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

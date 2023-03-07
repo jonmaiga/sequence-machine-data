@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. P(P(x)), where P(x) = Sum_{k>=1} prime(k)*x^k/k!.",
+  "id": "A316186",
+  "mentions": [
+    "A000040",
+    "A014342",
+    "A014345",
+    "A030278"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

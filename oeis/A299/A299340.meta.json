@@ -1,0 +1,18 @@
+{
+  "description": "Number of nX3 0..1 arrays with every element equal to 0, 1, 2, 3, 5 or 8 king-move adjacent elements, with upper left element zero.",
+  "id": "A299340",
+  "mentions": [
+    "A299345"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:22",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

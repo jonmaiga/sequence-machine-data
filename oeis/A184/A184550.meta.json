@@ -1,0 +1,19 @@
+{
+  "description": "Super-birthdays (falling on the same weekday), version 2 (birth within 1 and 2 years after a February 29).",
+  "id": "A184550",
+  "mentions": [
+    "A184549",
+    "A184552"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:22:55",
+    "offset": 0,
+    "size": 44,
+    "source": "joeis"
+  }
+}

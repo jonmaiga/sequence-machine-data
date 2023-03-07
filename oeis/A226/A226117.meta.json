@@ -1,0 +1,24 @@
+{
+  "description": "Numbers n such that phi(sigma(tau(n))) = tau(sigma(phi(n))).",
+  "id": "A226117",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A000203",
+    "A033632",
+    "A067160",
+    "A076361",
+    "A226118",
+    "A226119"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

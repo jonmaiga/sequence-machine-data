@@ -1,0 +1,19 @@
+{
+  "description": "Even numbers in the decimal expansion of Pi, contiguous and shortest.",
+  "id": "A164524",
+  "mentions": [
+    "A050818"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

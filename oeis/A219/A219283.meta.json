@@ -1,0 +1,23 @@
+{
+  "description": "Primes of the form 13^k - 12^k.",
+  "id": "A219283",
+  "mentions": [
+    "A058765",
+    "A062579",
+    "A081505",
+    "A082101",
+    "A147667",
+    "A147669",
+    "A199820"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-bfile"
+  }
+}

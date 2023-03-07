@@ -1,0 +1,29 @@
+{
+  "description": "The middle point of row n in binary beanstalk related sequences A179016, A218602, A218616, A233270, A233271.",
+  "id": "A233268",
+  "mentions": [
+    "A000035",
+    "A179016",
+    "A213709",
+    "A213710",
+    "A218600",
+    "A218602",
+    "A218616",
+    "A233270",
+    "A233271",
+    "A234018",
+    "A234019",
+    "A234020"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "A071963(n) - n, where A071963(n) is the largest prime factor of p(n), the n-th partition number A000041(n).",
+  "id": "A192885",
+  "mentions": [
+    "A000041",
+    "A006530",
+    "A071963"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

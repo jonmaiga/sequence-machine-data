@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n,k) (n >= 1, 0 <= k <= n-1) read by rows: number of distinct permutations after k steps of the \"optimist\" algorithm.",
+  "id": "A345461",
+  "mentions": [
+    "A008305",
+    "A321352",
+    "A345453",
+    "A345462",
+    "A345464"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

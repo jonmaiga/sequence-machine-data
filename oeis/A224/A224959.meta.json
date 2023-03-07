@@ -1,0 +1,20 @@
+{
+  "description": "Number of compositions [p(1), p(2), ..., p(k)] of n such that p(j) - p(j-1) <= 2",
+  "id": "A224959",
+  "mentions": [
+    "A003116",
+    "A225084",
+    "A225085"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

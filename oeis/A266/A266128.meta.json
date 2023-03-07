@@ -1,0 +1,17 @@
+{
+  "description": "Number of nX5 integer arrays with each element equal to the number of horizontal, diagonal and antidiagonal neighbors exactly one smaller than itself.",
+  "id": "A266128",
+  "mentions": [
+    "A266131"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:27",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

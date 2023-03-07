@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of e.g.f. exp(1 - exp(2*x)).",
+  "id": "A308536",
+  "mentions": [
+    "A000079",
+    "A000587",
+    "A009235",
+    "A055882",
+    "A213170"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:37:00",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

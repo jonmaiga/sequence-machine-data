@@ -1,0 +1,21 @@
+{
+  "description": "Number of 4-regular (quartic) connected graphs on n nodes with diameter k written as irregular triangle T(n,k).",
+  "id": "A296620",
+  "mentions": [
+    "A006820",
+    "A204329",
+    "A294733",
+    "A296525"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 5,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of unordered pairs of nodes at distance k in the prism graph C_n X P_3 with the edges of the outer cycle removed (called a web graph). Equivalently, the graph is obtained by attaching a pendant edge to each node of the outer cycle of the circular ladder (prism) C_n X P_2. C_n denotes the cycle graph on n nodes and P_n denotes the path graph on n nodes.",
+  "id": "A180575",
+  "mentions": [
+    "A062741",
+    "A180576"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 3,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

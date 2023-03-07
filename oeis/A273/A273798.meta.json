@@ -1,0 +1,17 @@
+{
+  "description": "Numbers of the form 2^m*p where p is prime and p < 2^m.",
+  "id": "A273798",
+  "mentions": [
+    "A116882"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

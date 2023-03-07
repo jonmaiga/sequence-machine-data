@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = a(n-2) - (n-1)*a(n-3), with a(0) = 0, a(1) = 1, a(2) = 2.",
+  "id": "A122021",
+  "mentions": [
+    "A000898",
+    "A062267",
+    "A121966"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

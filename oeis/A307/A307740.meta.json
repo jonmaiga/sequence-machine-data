@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k divides lcm(tau(k), sigma(k)).",
+  "id": "A307740",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A007691",
+    "A009278"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Start with a(1)=2; thereafter the sequence is always extended by adding the n-th digit of the sequence to a(n) if a(n) is even, else subtracting it.",
+  "id": "A309529",
+  "mentions": [
+    "A309521"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

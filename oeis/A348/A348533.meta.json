@@ -1,0 +1,32 @@
+{
+  "description": "Generalized Josephus problem: Let T(m,k), k>=2, m=1,2,3,.., be the number of people on a circle such that the survivor is one of the first k-1 people after every k-th person has been removed.",
+  "id": "A348533",
+  "mentions": [
+    "A000079",
+    "A005427",
+    "A005428",
+    "A007495",
+    "A032434",
+    "A054995",
+    "A072493",
+    "A073941",
+    "A120160",
+    "A120170",
+    "A120178",
+    "A120186",
+    "A120194",
+    "A120202"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

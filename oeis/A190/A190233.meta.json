@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = [n*u+n*v] - [n*u] - [n*v], where u=sin(Pi/8), v=cos(Pi/8), and []=floor.",
+  "id": "A190233",
+  "mentions": [
+    "A190234",
+    "A190235"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 131,
+    "source": "oeis-bfile"
+  }
+}

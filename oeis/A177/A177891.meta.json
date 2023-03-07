@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that sum of proper (or aliquot) divisors of n is a semiprime.",
+  "id": "A177891",
+  "mentions": [
+    "A000040",
+    "A001065",
+    "A001358",
+    "A005383",
+    "A037020"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

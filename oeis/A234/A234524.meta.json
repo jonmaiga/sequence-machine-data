@@ -1,0 +1,26 @@
+{
+  "description": "Numbers n such that A234519(n) = n.",
+  "id": "A234524",
+  "mentions": [
+    "A000203",
+    "A234515",
+    "A234516",
+    "A234517",
+    "A234518",
+    "A234519",
+    "A234520",
+    "A234521",
+    "A234522",
+    "A234523"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

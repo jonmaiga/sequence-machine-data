@@ -1,0 +1,20 @@
+{
+  "description": "Two distinct sets of n consecutive numbers with identical corresponding prime signatures.",
+  "id": "A208892",
+  "mentions": [
+    "A046523",
+    "A208893",
+    "A208894"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Numbers n such that the Stern polynomial B(n,x) is irreducible.",
+  "id": "A186891",
+  "mentions": [
+    "A057526",
+    "A125184",
+    "A186886",
+    "A186892",
+    "A186893",
+    "A260443",
+    "A277013",
+    "A277190",
+    "A277318",
+    "A283991",
+    "A283992",
+    "A284011"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:11",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array T(n,k) giving number of 2-connected graphs with n labeled nodes and k edges (n >= 3, n <= k <= n(n-1)/2).",
+  "id": "A123534",
+  "mentions": [
+    "A013922",
+    "A062734",
+    "A123527",
+    "A322139"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 3,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

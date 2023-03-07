@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways to split 1, 2, 3, ..., tn into n arithmetic progressions each with t terms, t>n.",
+  "id": "A104442",
+  "mentions": [
+    "A104429",
+    "A104441",
+    "A104443"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

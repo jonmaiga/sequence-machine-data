@@ -1,0 +1,27 @@
+{
+  "description": "Numbers in whose prime factorization the first differences of indices of distinct primes form a palindrome; fixed points of A242415.",
+  "id": "A242413",
+  "mentions": [
+    "A000961",
+    "A001221",
+    "A061395",
+    "A088902",
+    "A241912",
+    "A242414",
+    "A242415",
+    "A242417",
+    "A242421",
+    "A243058",
+    "A243068"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

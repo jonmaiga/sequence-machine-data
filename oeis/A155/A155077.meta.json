@@ -1,0 +1,20 @@
+{
+  "description": "Matrix inverse of A155076.",
+  "id": "A155077",
+  "mentions": [
+    "A018819",
+    "A040039",
+    "A155076"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

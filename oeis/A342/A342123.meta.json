@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the remainder when n is divided by its binary reverse.",
+  "id": "A342123",
+  "mentions": [
+    "A030101",
+    "A057890",
+    "A071955",
+    "A161601",
+    "A342121",
+    "A342122"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

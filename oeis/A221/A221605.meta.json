@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X 4 arrays of occupancy after each element moves to some horizontal or antidiagonal neighbor, without move-in move-out left turns.",
+  "id": "A221605",
+  "mentions": [
+    "A221609"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

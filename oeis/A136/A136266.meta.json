@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of B(x, n) = x*B(x, A004001(n - 1)) + B(x, n - A004001(n - 1)), irregular table read by rows.",
+  "id": "A136266",
+  "mentions": [
+    "A004001"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "less",
+    "nonn",
+    "tabf",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "A051731 * diagonalized matrix of A063659.",
+  "id": "A130106",
+  "mentions": [
+    "A000010",
+    "A001615",
+    "A034676",
+    "A051731",
+    "A063659"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

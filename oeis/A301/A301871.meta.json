@@ -1,0 +1,22 @@
+{
+  "description": "Number of N- and bowtie-free posets with n elements.",
+  "id": "A301871",
+  "mentions": [
+    "A000112",
+    "A003430",
+    "A079144",
+    "A079146"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = minimal number of steps to get from 1 to n, where a step is x -> 3x+1 if x is odd, or x -> either x/2 or 3x+1 if x is even. Set a(n) = -1 if n cannot be reached from 1.",
+  "id": "A125731",
+  "mentions": [
+    "A127885"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

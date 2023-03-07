@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: rows = inverse binomial transforms of columns of A309220.",
+  "id": "A118980",
+  "mentions": [
+    "A000142",
+    "A038720",
+    "A099425",
+    "A104509",
+    "A117938",
+    "A118981",
+    "A309220"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

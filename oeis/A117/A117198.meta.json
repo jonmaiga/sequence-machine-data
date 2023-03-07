@@ -1,0 +1,22 @@
+{
+  "description": "Generalized Riordan array (1,x)+(x,x^2)+(x^2,x^3).",
+  "id": "A117198",
+  "mentions": [
+    "A083039",
+    "A117199",
+    "A117200"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

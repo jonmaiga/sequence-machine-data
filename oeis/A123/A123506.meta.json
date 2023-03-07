@@ -1,0 +1,24 @@
+{
+  "description": "Sequence generated from the second nontrivial zero of the Riemann zeta function.",
+  "id": "A123506",
+  "mentions": [
+    "A102522",
+    "A102523",
+    "A123054",
+    "A123504",
+    "A123505",
+    "A123507"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 2,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

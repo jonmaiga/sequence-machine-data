@@ -1,0 +1,21 @@
+{
+  "description": "Maximum of s^n - Sum_{0 < x < s} x^n.",
+  "id": "A332097",
+  "mentions": [
+    "A030052",
+    "A078607",
+    "A332065",
+    "A332101"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

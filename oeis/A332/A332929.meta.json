@@ -1,0 +1,22 @@
+{
+  "description": "Position where the binary expansion of n occurs for the first time in the binary expansion of Pi.",
+  "id": "A332929",
+  "mentions": [
+    "A004601",
+    "A014777",
+    "A032445",
+    "A178707"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

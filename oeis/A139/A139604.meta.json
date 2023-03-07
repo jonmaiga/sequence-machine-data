@@ -1,0 +1,19 @@
+{
+  "description": "A triangle of coefficients based on A139360 as an n-like set of three binomials: f(x,y,n)=ChebyshevT[n, x]*ChebyshevT[n, y] + ChebyshevT[n, x] + ChebyshevT[n, y]; p(x,y,z,n)=f(x,y,n)+f(y,z,n)+f(z,x,n).",
+  "id": "A139604",
+  "mentions": [
+    "A139360"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Simple self-inverse permutation of natural numbers: after zero, list each block of A261091(n) numbers in reverse order, from A261082(n) to A261081(n+1).",
+  "id": "A261102",
+  "mentions": [
+    "A218602",
+    "A219648",
+    "A261076",
+    "A261081",
+    "A261082",
+    "A261091",
+    "A261101"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

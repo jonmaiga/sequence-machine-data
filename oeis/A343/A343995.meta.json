@@ -1,0 +1,19 @@
+{
+  "description": "Smallest m > 0 such that the triangular number m*(m+1)/2 is divisible by 2^n-1.",
+  "id": "A343995",
+  "mentions": [
+    "A000043",
+    "A000217",
+    "A011772"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

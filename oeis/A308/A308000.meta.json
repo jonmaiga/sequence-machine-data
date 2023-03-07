@@ -1,0 +1,18 @@
+{
+  "description": "The b sequence used in the definition of A280875.",
+  "id": "A308000",
+  "mentions": [
+    "A280875",
+    "A308001"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

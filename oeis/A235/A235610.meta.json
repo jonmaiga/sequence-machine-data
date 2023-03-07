@@ -1,0 +1,22 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) = number of possible positions in standard Connect Four play on a board of height n and width k (n>=1, k>=1).",
+  "id": "A235610",
+  "mentions": [
+    "A013582",
+    "A090224",
+    "A212693",
+    "A235611",
+    "A235612"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

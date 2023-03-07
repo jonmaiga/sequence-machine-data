@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n that can be written as both the sum of two nonzero fourth powers and the sum of three nonzero fourth powers.",
+  "id": "A336536",
+  "mentions": [
+    "A000583",
+    "A003294",
+    "A003336",
+    "A003337",
+    "A047714"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

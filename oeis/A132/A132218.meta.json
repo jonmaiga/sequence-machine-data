@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of psi(-x^3) / phi(-x) in powers of x where psi(), phi() are Ramanujan theta functions.",
+  "id": "A132218",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:06:17",
+    "offset": 0,
+    "size": 43,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Consider those values of k for which A102370(k) = k: 0, 4, 8, 16, 20, 24, 32, 36, 40, 48, 52, 56, 64, ... and divide by 4: 0, 1, 2, 4, 5, 6, 8, 9, 10, 12, 13, 14, 16, 17, 18, 20, 21, 22, 24, ...; sequence gives missing numbers.",
+  "id": "A103543",
+  "mentions": [
+    "A102370",
+    "A103584"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

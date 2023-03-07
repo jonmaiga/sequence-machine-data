@@ -1,0 +1,22 @@
+{
+  "description": "The n^n dots problem: minimal number of straight lines (connected at their endpoints) required to pass through n^n dots arranged in an n X n X ... X n grid.",
+  "id": "A318165",
+  "mentions": [
+    "A058992",
+    "A225227",
+    "A261547"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

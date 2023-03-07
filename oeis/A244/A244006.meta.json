@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows, q-multinomial coefficient generalization of 3-dimensional lattice paths from the origin to (m,m,m).",
+  "id": "A244006",
+  "mentions": [
+    "A006480"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 0,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

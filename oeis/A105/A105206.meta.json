@@ -1,0 +1,17 @@
+{
+  "description": "Number of edges in a pancyclic graph on n+2 vertices with the fewest possible edges.",
+  "id": "A105206",
+  "mentions": [
+    "A080036"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 3,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

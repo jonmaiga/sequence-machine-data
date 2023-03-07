@@ -1,0 +1,29 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of unlabeled k-gonal 2-trees with n polygons, n >= 0, k >= 2.",
+  "id": "A340811",
+  "mentions": [
+    "A000055",
+    "A054581",
+    "A094610",
+    "A094611",
+    "A094637",
+    "A094651",
+    "A094652",
+    "A094653",
+    "A094654",
+    "A094655",
+    "A094656",
+    "A340812"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:20",
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

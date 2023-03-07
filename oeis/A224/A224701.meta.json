@@ -1,0 +1,21 @@
+{
+  "description": "Table read by antidiagonals of numbers of form (2^n - 1)*2^(m+3) + 5 where n>=1, m>=1.",
+  "id": "A224701",
+  "mentions": [
+    "A057555",
+    "A168614",
+    "A220087"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

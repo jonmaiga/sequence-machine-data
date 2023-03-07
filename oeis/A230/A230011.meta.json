@@ -1,0 +1,20 @@
+{
+  "description": "Numerators of sum of rows of the inverse of the triangle of Euler polynomial coefficients P(0,x)=1, 2P(n,x)=(1+x)*[(1+x)^(n-1)+x^(n-1)].",
+  "id": "A230011",
+  "mentions": [
+    "A053644",
+    "A133135"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

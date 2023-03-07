@@ -1,0 +1,19 @@
+{
+  "description": "Divide the positive integers into subsets of lengths given by successive primes. a(n) is the product of primes contained in the n-th subset.",
+  "id": "A344889",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A344718"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

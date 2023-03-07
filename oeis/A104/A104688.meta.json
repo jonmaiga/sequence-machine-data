@@ -1,0 +1,17 @@
+{
+  "description": "Binomial transform of Moebius sequence.",
+  "id": "A104688",
+  "mentions": [
+    "A008683"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

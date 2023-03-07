@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest centered square number with exactly n distinct prime factors.",
+  "id": "A359234",
+  "mentions": [
+    "A001221",
+    "A001844",
+    "A358894",
+    "A358928",
+    "A359235"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

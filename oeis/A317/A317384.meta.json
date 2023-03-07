@@ -1,0 +1,19 @@
+{
+  "description": "Smallest positive integer that has exactly n representations of the form 1 + p1 * (1 + p2* ... * (1 + p_j)...), where [p1, ..., p_j] is a (possibly empty) list of (not necessarily distinct) primes.",
+  "id": "A317384",
+  "mentions": [
+    "A317240",
+    "A317385"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:36",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

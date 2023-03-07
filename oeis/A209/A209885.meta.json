@@ -1,0 +1,17 @@
+{
+  "description": "Numbers such that A172470(n) = 9.",
+  "id": "A209885",
+  "mentions": [
+    "A172470"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

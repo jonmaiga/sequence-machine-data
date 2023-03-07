@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X n 0..5 arrays with some element plus some horizontally or vertically adjacent neighbor totalling five exactly once.",
+  "id": "A269759",
+  "mentions": [
+    "A269767"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

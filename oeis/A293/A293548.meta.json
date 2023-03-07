@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of Product_{k>=2} 1/(1 - x^k)^omega(k), where omega(k) is the number of distinct primes dividing k (A001221).",
+  "id": "A293548",
+  "mentions": [
+    "A001221",
+    "A006171",
+    "A293549"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:56:11",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

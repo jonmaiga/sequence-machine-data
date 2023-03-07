@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=0..n} p(n,k) * !k, where p(n,k) = number of partitions of n into k parts and !k = subfactorial of k.",
+  "id": "A331517",
+  "mentions": [
+    "A000166",
+    "A008284",
+    "A101880",
+    "A331518",
+    "A331826"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

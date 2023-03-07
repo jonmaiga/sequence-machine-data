@@ -1,0 +1,29 @@
+{
+  "description": "Total number of smallest parts in all partitions of n minus the total number of smallest parts that are also emergent parts in all partitions of n with at least one distinct part.",
+  "id": "A220489",
+  "mentions": [
+    "A000005",
+    "A000041",
+    "A000070",
+    "A000203",
+    "A002865",
+    "A092269",
+    "A120452",
+    "A182699",
+    "A182709",
+    "A195820",
+    "A220479",
+    "A220483"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

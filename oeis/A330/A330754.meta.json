@@ -1,0 +1,19 @@
+{
+  "description": "Number of values of k, 1 <= k <= n, with A330691(k) = A330691(n), where A330691(n) = gcd(n, A309639(n)).",
+  "id": "A330754",
+  "mentions": [
+    "A309639",
+    "A330691",
+    "A330753"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

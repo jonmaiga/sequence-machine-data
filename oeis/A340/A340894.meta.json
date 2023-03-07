@@ -1,0 +1,22 @@
+{
+  "description": "G.f. A(x) satisfies: Sum_{n>=0} x^n*A(x)^(2*n)/(1 - x*A(x)^n) = Sum_{n>=0} x^n*A(x)^n/(1 - x*A(x)^(2*n+1)).",
+  "id": "A340894",
+  "mentions": [
+    "A340895",
+    "A340940",
+    "A340941",
+    "A340942",
+    "A340943"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

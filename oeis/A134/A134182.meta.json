@@ -1,0 +1,23 @@
+{
+  "description": "10^n-th difference between cumulative prime and odd sums.",
+  "id": "A134182",
+  "mentions": [
+    "A005563",
+    "A006988",
+    "A071148",
+    "A099824",
+    "A134181"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:22",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

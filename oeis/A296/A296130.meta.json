@@ -1,0 +1,18 @@
+{
+  "description": "Replace each digit of n with its complement to 9; this will reproduce all digits of n in a different order.",
+  "id": "A296130",
+  "mentions": [
+    "A061601"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:15",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

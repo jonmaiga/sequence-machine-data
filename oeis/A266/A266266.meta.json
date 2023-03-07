@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that p-1 = phi(p) = k*phi(p-k) for some number 1 <= k < p-1.",
+  "id": "A266266",
+  "mentions": [
+    "A000010",
+    "A019434",
+    "A266267"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

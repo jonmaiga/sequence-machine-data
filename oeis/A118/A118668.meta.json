@@ -1,0 +1,24 @@
+{
+  "description": "Number of distinct digits needed to write the n-th triangular number in decimal representation.",
+  "id": "A118668",
+  "mentions": [
+    "A000217",
+    "A043537",
+    "A045914",
+    "A119033",
+    "A213517",
+    "A213518",
+    "A255678"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

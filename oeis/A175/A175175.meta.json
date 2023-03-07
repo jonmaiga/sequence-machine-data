@@ -1,0 +1,18 @@
+{
+  "description": "Number of primitive numbers k such that 1/k is in the Cantor set and 3^n <= k < 3^(n+1).",
+  "id": "A175175",
+  "mentions": [
+    "A173784",
+    "A173793"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

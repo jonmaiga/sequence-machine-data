@@ -1,0 +1,22 @@
+{
+  "description": "a(0) = 1; a(n) is least k with n prime factors and k > n*a(n-1).",
+  "id": "A118476",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A055496",
+    "A076656"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

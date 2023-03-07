@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that n = (digital root of n)^(number of digits of n).",
+  "id": "A246605",
+  "mentions": [
+    "A010888",
+    "A038178",
+    "A055642"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Every nonprime term k of the sequence is the cumulative sum of the nonprime digits used so far (the digits of k are included in the sum).",
+  "id": "A338925",
+  "mentions": [
+    "A338922",
+    "A338923",
+    "A338924"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

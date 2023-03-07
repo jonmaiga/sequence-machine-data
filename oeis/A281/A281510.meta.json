@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = n! * Sum_{k=1..n} A008836(k)/k.",
+  "id": "A281510",
+  "mentions": [
+    "A008836",
+    "A280654"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:50",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

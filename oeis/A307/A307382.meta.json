@@ -1,0 +1,25 @@
+{
+  "description": "Number of septic primitive Dirichlet characters modulo n.",
+  "id": "A307382",
+  "mentions": [
+    "A114643",
+    "A160498",
+    "A160499",
+    "A307380",
+    "A307381",
+    "A319101",
+    "A329272"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

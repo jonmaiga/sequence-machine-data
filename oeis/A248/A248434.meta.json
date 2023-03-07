@@ -1,0 +1,21 @@
+{
+  "description": "Number of length three 0..n arrays with the sum of two elements equal to twice the third.",
+  "id": "A248434",
+  "mentions": [
+    "A168301",
+    "A168328",
+    "A248433",
+    "A319127"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

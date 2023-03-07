@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n,k) read by rows: fibonomial coefficients sums triangle.",
+  "id": "A305695",
+  "mentions": [
+    "A000045",
+    "A000071",
+    "A010048",
+    "A056588",
+    "A317360"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

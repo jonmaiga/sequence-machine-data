@@ -1,0 +1,21 @@
+{
+  "description": "Total sum of parts <= n of multiplicity 0 in all partitions of n.",
+  "id": "A213679",
+  "mentions": [
+    "A000041",
+    "A000217",
+    "A014153",
+    "A222730"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

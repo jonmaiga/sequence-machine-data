@@ -1,0 +1,18 @@
+{
+  "description": "S(1)={1}. S(n) = {S(n-1) {1,2,...,(n-1),n,(n-1),...,2,1} S(n-1)}, where S(n) is a string of the first 3*2^n -2*n -3 terms of the sequence.",
+  "id": "A126863",
+  "mentions": [
+    "A050488"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

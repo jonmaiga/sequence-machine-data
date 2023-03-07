@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the total number of leaves of a binary tree of depth n on a square grid where each parent-node branches out in the two directions closest to the direction of the edge from which it sprang, either along the grid for even generations or across for odd generations ('L-toothpick'), yet only if the child-nodes' coordinates are not occupied already.",
+  "id": "A333311",
+  "mentions": [
+    "A172310"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

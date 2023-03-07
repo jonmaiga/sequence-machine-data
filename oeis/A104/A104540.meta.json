@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of lambda(3) in Li's criterion.",
+  "id": "A104540",
+  "mentions": [
+    "A074760",
+    "A104539",
+    "A104541",
+    "A104542",
+    "A306339",
+    "A306340",
+    "A306341"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

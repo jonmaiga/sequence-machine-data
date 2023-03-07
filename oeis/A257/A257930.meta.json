@@ -1,0 +1,20 @@
+{
+  "description": "Primes equal to the sum of the prime factors, with multiplicity, of the previous k numbers, for some k.",
+  "id": "A257930",
+  "mentions": [
+    "A257367",
+    "A257524",
+    "A257976"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

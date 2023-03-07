@@ -1,0 +1,20 @@
+{
+  "description": "Index k of the first occurrence of A019565(2n-1) as the smallest term that makes prime(k)-A019565(2n-1) prime.",
+  "id": "A103792",
+  "mentions": [
+    "A019565",
+    "A103790",
+    "A103791"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

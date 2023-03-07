@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive terms such that, for any n > 0, Sum_{k = 1..n} 10^(k-1) * a(k) can be computed without carry in decimal base.",
+  "id": "A298359",
+  "mentions": [
+    "A094958",
+    "A298425"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:19",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "4-alternating permutations of length 4n.",
+  "id": "A211212",
+  "mentions": [
+    "A000364",
+    "A002115",
+    "A181936",
+    "A181985"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 14:53:06",
+    "offset": 0,
+    "size": 12,
+    "source": "joeis"
+  }
+}

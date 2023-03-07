@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = smallest m such that 2n-1 | (10^m+1)/11, or 0 if no such m exists.",
+  "id": "A216470",
+  "mentions": [
+    "A002326"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Value of k for which A260871(n) = A[b](k), with b = A261172(n); A[b](k) = the number whose base-b representation is the concatenation of the base-b representations of (1, ..., k, k-1, ..., 1).",
+  "id": "A261171",
+  "mentions": [
+    "A173426",
+    "A173427",
+    "A260343",
+    "A260851",
+    "A260852",
+    "A260853",
+    "A260859",
+    "A260860",
+    "A260861",
+    "A260866",
+    "A260871",
+    "A261170",
+    "A261172"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

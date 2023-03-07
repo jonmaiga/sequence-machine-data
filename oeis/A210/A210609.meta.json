@@ -1,0 +1,30 @@
+{
+  "description": "Number of intersections after n-th stage in the structure mentioned in A210606 using semicircumferences and counting the superposed intersections only once.",
+  "id": "A210609",
+  "mentions": [
+    "A005132",
+    "A064289",
+    "A119632",
+    "A160356",
+    "A160357",
+    "A171175",
+    "A171178",
+    "A210606",
+    "A210607",
+    "A210608",
+    "A210610",
+    "A210613"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

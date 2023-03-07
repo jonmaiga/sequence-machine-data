@@ -1,0 +1,20 @@
+{
+  "description": "A Van Eck-type sequence on the triangular lattice.",
+  "id": "A308628",
+  "mentions": [
+    "A181391",
+    "A308625",
+    "A308626"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:56:27",
+    "offset": 1,
+    "size": 82,
+    "source": "joeis"
+  }
+}

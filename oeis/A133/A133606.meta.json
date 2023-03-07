@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n with all digits different, such that all of its digits divide n, but none of the nonzero digits not in n divide n.",
+  "id": "A133606",
+  "mentions": [
+    "A133598"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

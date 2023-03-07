@@ -1,0 +1,20 @@
+{
+  "description": "Numbers which in base 5 have digit-sum 4.",
+  "id": "A102861",
+  "mentions": [
+    "A055235"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

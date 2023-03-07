@@ -1,0 +1,20 @@
+{
+  "description": "Mean width of the regular tetrahedron of unit length.",
+  "id": "A289502",
+  "mentions": [
+    "A093582",
+    "A156546"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

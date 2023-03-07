@@ -1,0 +1,18 @@
+{
+  "description": "Coefficient triangle sequence of characteristic polynomials of a Fermat like matrix:M(n)=Pascal n-th matrix: F(n)=Inverse[Transpose[M(n)]].M(n)",
+  "id": "A168228",
+  "mentions": [
+    "A045912"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "sign",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

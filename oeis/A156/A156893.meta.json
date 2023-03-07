@@ -1,0 +1,17 @@
+{
+  "description": "Primes of the form 1 + 2 * Product_{i=1..k} (2^i-1).",
+  "id": "A156893",
+  "mentions": [
+    "A005329"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

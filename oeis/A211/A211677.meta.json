@@ -1,0 +1,22 @@
+{
+  "description": "First number k whose value of sigma(k)/k appears n times.",
+  "id": "A211677",
+  "mentions": [
+    "A000203",
+    "A027687",
+    "A050973",
+    "A211679"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

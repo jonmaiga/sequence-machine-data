@@ -1,0 +1,22 @@
+{
+  "description": "Largest members of k-sociable cycles of order r, with k > 1 and r > 1.",
+  "id": "A183020",
+  "mentions": [
+    "A001065",
+    "A166069",
+    "A183013",
+    "A183021",
+    "A183022"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 4*a(n-1) + 13*a(n-2) for n>2, a(1)=1, a(2)=4.",
+  "id": "A200069",
+  "mentions": [
+    "A041025"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:21",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

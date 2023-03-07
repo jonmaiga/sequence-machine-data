@@ -1,0 +1,21 @@
+{
+  "description": "Number of 3-connected planar triangulations of the sphere with n vertices up to orientation preserving isomorphisms.",
+  "id": "A253882",
+  "mentions": [
+    "A000109",
+    "A000260",
+    "A000944",
+    "A002709"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 4,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{p|n, p prime} p * sigma_p(p).",
+  "id": "A351750",
+  "mentions": [
+    "A023887",
+    "A351749"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

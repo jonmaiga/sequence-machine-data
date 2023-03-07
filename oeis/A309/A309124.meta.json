@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n - 3 * floor(n/3) + 5 * floor(n/5) - 7 * floor(n/7) + ...",
+  "id": "A309124",
+  "mentions": [
+    "A014200",
+    "A024919",
+    "A050457",
+    "A078471"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

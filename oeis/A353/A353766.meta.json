@@ -1,0 +1,32 @@
+{
+  "description": "a(n) = 1 if A353749(n) divides A353749(sigma(n)), and 0 otherwise. Here A353749(k) = phi(k) * A064989(k), and A064989 shifts the prime factorization one step towards lower primes.",
+  "id": "A353766",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A006872",
+    "A007691",
+    "A062401",
+    "A064989",
+    "A336546",
+    "A336549",
+    "A336550",
+    "A353633",
+    "A353749",
+    "A353757",
+    "A353761",
+    "A353762",
+    "A353764"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of (Sum_{k>=0} x^(k*(5*k-3)/2))^7.",
+  "id": "A282248",
+  "mentions": [
+    "A000566",
+    "A045849",
+    "A213523",
+    "A226252"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

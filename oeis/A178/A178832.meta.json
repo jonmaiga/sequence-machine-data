@@ -1,0 +1,17 @@
+{
+  "description": "Number of minima of the 1-D Griewank function in [-n, n].",
+  "id": "A178832",
+  "mentions": [
+    "A177889"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 109,
+    "source": "oeis-entry"
+  }
+}

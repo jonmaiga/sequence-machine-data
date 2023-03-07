@@ -1,0 +1,22 @@
+{
+  "description": "Smallest roots m of perfect powers (m^k where m is an integer and k >= 2) multiplied by -1 when m is prime (m^k thus a prime power).",
+  "id": "A157987",
+  "mentions": [
+    "A001597",
+    "A025478",
+    "A025479",
+    "A157985",
+    "A157986"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

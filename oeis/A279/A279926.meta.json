@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=1..n-1} sigma_3(k)*sigma_9(n-k).",
+  "id": "A279926",
+  "mentions": [
+    "A001158",
+    "A013957",
+    "A013961",
+    "A279888",
+    "A279917"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:47",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

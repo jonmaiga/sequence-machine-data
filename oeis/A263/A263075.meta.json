@@ -1,0 +1,22 @@
+{
+  "description": "G.f. satisfies: [x^(n-1)] A(x)^(n^2) = n^n * (n-1)! for n>=1.",
+  "id": "A263075",
+  "mentions": [
+    "A003714",
+    "A118113",
+    "A171791",
+    "A244589",
+    "A263190"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

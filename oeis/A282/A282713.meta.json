@@ -1,0 +1,18 @@
+{
+  "description": "Orbit of 23 under repeated applications of the inverse of the map m -> A127202(m).",
+  "id": "A282713",
+  "mentions": [
+    "A127202",
+    "A282712"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:52",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

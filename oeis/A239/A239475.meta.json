@@ -1,0 +1,28 @@
+{
+  "description": "Least number k such that k^n + n and k^n - n are both prime, or 0 if no such number exists.",
+  "id": "A239475",
+  "mentions": [
+    "A028870",
+    "A072883",
+    "A097764",
+    "A153974",
+    "A239413",
+    "A239414",
+    "A239415",
+    "A239416",
+    "A239417",
+    "A239418",
+    "A239474"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

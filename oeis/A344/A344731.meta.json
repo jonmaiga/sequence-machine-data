@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that k divides A306069(k).",
+  "id": "A344731",
+  "mentions": [
+    "A050226",
+    "A064610",
+    "A286324",
+    "A306069",
+    "A344732",
+    "A344733"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

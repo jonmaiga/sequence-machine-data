@@ -1,0 +1,23 @@
+{
+  "description": "Coefficients of polynomials related to the sum of Gaussian binomial coefficients for q = 2. Triangle read by row, T(n,k) for 0 <= k <= n.",
+  "id": "A329154",
+  "mentions": [
+    "A006116",
+    "A022166",
+    "A135922",
+    "A323842",
+    "A323843"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

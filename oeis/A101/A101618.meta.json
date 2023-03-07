@@ -1,0 +1,24 @@
+{
+  "description": "Indices of semiprimes in A001003.",
+  "id": "A101618",
+  "mentions": [
+    "A001003",
+    "A001358",
+    "A092839",
+    "A092840",
+    "A101619"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "less",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

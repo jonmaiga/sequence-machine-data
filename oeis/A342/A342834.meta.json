@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number whose decimal expansion consists of the concatenation of the largest 1-digit prime = 7, the largest 2-digit prime = 97, ... up to the largest n-digit prime = A003618(n).",
+  "id": "A342834",
+  "mentions": [
+    "A000217",
+    "A003618",
+    "A338968",
+    "A340220",
+    "A342835",
+    "A342836"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 18:22:25",
+    "offset": 1,
+    "size": 10,
+    "source": "joeis"
+  }
+}

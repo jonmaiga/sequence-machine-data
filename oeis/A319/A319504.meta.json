@@ -1,0 +1,18 @@
+{
+  "description": "Indices of valleys (i.e. local minima) in A064800.",
+  "id": "A319504",
+  "mentions": [
+    "A064800",
+    "A317743"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

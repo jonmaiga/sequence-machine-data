@@ -1,0 +1,18 @@
+{
+  "description": "Records of the maximum number of distinct rational solutions to x^2 - Dy^2 = t, 0 < D <= k, 0 < t <= k.",
+  "id": "A240470",
+  "mentions": [
+    "A240469"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

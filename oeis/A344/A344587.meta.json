@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 2*A003961(n) - sigma(A003961(n)).",
+  "id": "A344587",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A003973",
+    "A033879",
+    "A337386",
+    "A337544"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

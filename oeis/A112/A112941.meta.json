@@ -1,0 +1,27 @@
+{
+  "description": "Logarithmic derivative of A112940 such that a(n)=(1/5)*A112940(n+1) for n>0, where A112940 equals the INVERT transform (with offset) of quintuple factorials A008546.",
+  "id": "A112941",
+  "mentions": [
+    "A008546",
+    "A112934",
+    "A112935",
+    "A112936",
+    "A112937",
+    "A112938",
+    "A112939",
+    "A112940",
+    "A112942",
+    "A112943"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

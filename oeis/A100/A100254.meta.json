@@ -1,0 +1,20 @@
+{
+  "description": "Let j be the smallest integer for which 1 + (1+1*n) + (1+2*n) + ... + (1+j*n) = k^2 = s. Then a(n)=j; if no such j exists, then a(n)=0.",
+  "id": "A100254",
+  "mentions": [
+    "A100251",
+    "A100252",
+    "A100253"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

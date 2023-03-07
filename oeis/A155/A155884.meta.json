@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n^2 - n + 41 if this is a prime, a(n) = a(n-40) otherwise.",
+  "id": "A155884",
+  "mentions": [
+    "A005846",
+    "A060566",
+    "A142719"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

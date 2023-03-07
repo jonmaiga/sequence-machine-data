@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 3*a(n-1) - a(n-2) + a(n-3) with a(0)=1, a(1)=2, a(2)=5.",
+  "id": "A202207",
+  "mentions": [
+    "A200752"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 17:11:39",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Positive integers m with binary expansion (b_1, ..., b_k) (where k = A070939(m)) such that b_i = [m == 0 (mod i)] for i = 1..k (where [] is an Iverson bracket).",
+  "id": "A320673",
+  "mentions": [
+    "A070939",
+    "A320674",
+    "A320675"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

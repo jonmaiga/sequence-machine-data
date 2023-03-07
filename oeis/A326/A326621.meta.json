@@ -1,0 +1,28 @@
+{
+  "description": "Numbers n such that the average of the set of distinct prime indices of n is an integer.",
+  "id": "A326621",
+  "mentions": [
+    "A051293",
+    "A056239",
+    "A067538",
+    "A078174",
+    "A078175",
+    "A102627",
+    "A112798",
+    "A326567",
+    "A326568",
+    "A326619",
+    "A326620",
+    "A326622"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

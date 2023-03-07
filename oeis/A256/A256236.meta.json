@@ -1,0 +1,21 @@
+{
+  "description": "Smallest b > 1 such that the first n primes p (i.e., A000040(1)-A000040(n)) all satisfy b^(p-1) == 1 (mod p^2), i.e., smallest base b larger than 1 such that any member of the set of first n primes is a base-b Wieferich prime.",
+  "id": "A256236",
+  "mentions": [
+    "A000040",
+    "A189409",
+    "A255901"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

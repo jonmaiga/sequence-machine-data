@@ -1,0 +1,18 @@
+{
+  "description": "Table read by antidiagonals: T(x,y) is the minimum size of a planar additive basis for the rectangle [0,x]*[0,y], for x,y >= 0.",
+  "id": "A306608",
+  "mentions": [
+    "A295771"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

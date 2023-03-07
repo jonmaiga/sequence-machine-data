@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that 8*2^(2p)-1 is also prime.",
+  "id": "A174288",
+  "mentions": [
+    "A139481"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

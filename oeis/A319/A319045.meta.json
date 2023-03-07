@@ -1,0 +1,20 @@
+{
+  "description": "Length of longest run of consecutive odd numbers having exactly n divisors.",
+  "id": "A319045",
+  "mentions": [
+    "A119479",
+    "A319046"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

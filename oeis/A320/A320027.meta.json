@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the probability that an integer 4-tuple is pairwise unitary coprime.",
+  "id": "A320027",
+  "mentions": [
+    "A077610",
+    "A306071",
+    "A319592"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

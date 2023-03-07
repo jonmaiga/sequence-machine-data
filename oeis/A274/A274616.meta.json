@@ -1,0 +1,21 @@
+{
+  "description": "Maximal number of non-attacking queens on a right triangular board with n cells on each side.",
+  "id": "A274616",
+  "mentions": [
+    "A000170",
+    "A004396",
+    "A287864"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:25:45",
+    "offset": 0,
+    "size": 72,
+    "source": "joeis"
+  }
+}

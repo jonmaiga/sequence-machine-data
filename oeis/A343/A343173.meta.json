@@ -1,0 +1,17 @@
+{
+  "description": "First differences of paper-folding sequence A014577.",
+  "id": "A343173",
+  "mentions": [
+    "A014577"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Factored over the Gaussian integers, n has a(n) distinct prime factors, including units -1, i, and -i.",
+  "id": "A239627",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A078458",
+    "A086275",
+    "A239626"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:56",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

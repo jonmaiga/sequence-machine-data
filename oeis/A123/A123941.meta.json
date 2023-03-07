@@ -1,0 +1,23 @@
+{
+  "description": "The (1,2)-entry in the 3 X 3 matrix M^n, where M = {{2, 1, 1}, {1, 1, 0}, {1, 0, 0}}.",
+  "id": "A123941",
+  "mentions": [
+    "A018919",
+    "A076264",
+    "A122099",
+    "A122100"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

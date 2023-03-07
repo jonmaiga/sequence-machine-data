@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Least integer k such that it takes n iterations of \"factor and reverse bits of odd prime divisors\" (A235027) before a fixed point or cycle of 2 is reached; records in A235145.",
+  "id": "A235146",
+  "mentions": [
+    "A020639",
+    "A056539",
+    "A204219",
+    "A235027",
+    "A235030",
+    "A235145"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Totient numbers k such that 9*k is a nontotient.",
+  "id": "A350319",
+  "mentions": [
+    "A002202",
+    "A005277",
+    "A350316",
+    "A350317",
+    "A350318",
+    "A350320",
+    "A350321"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

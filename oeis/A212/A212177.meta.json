@@ -1,0 +1,23 @@
+{
+  "description": "Number of exponents >= 2 in the canonical prime factorization of the n-th nonsquarefree number (A013929(n)).",
+  "id": "A212177",
+  "mentions": [
+    "A013929",
+    "A046028",
+    "A056170",
+    "A124010",
+    "A212172",
+    "A212174"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

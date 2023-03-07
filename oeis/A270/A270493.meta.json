@@ -1,0 +1,20 @@
+{
+  "description": "Integers n such that the n-th prime divides the n-th Pell number (A000129(n)).",
+  "id": "A270493",
+  "mentions": [
+    "A000040",
+    "A000129",
+    "A075702"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

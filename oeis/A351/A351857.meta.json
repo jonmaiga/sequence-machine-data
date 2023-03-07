@@ -1,0 +1,21 @@
+{
+  "description": "Number of nonnegative integer solutions to n = x_1 + x_2 + ... + x_(2*n) + 2*y_1 + 2*y_2 + ... + 2*y_(2*n).",
+  "id": "A351857",
+  "mentions": [
+    "A234839",
+    "A348410",
+    "A351856"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

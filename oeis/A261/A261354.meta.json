@@ -1,0 +1,24 @@
+{
+  "description": "Primes p such that prime(p)^2 - 2 = prime(q) for some prime q.",
+  "id": "A261354",
+  "mentions": [
+    "A000040",
+    "A049002",
+    "A062326",
+    "A237413",
+    "A260120",
+    "A261281",
+    "A261352",
+    "A261361"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

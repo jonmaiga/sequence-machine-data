@@ -1,0 +1,20 @@
+{
+  "description": "A162943(A010766).",
+  "id": "A162944",
+  "mentions": [
+    "A000079",
+    "A010766",
+    "A162943"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

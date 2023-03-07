@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of Sum'_{m,n,p = -infinity..infinity} (-1)^m/sqrt(m^2 + n^2 + p^2), negated.",
+  "id": "A185577",
+  "mentions": [
+    "A085469",
+    "A181152",
+    "A185576",
+    "A185578",
+    "A185579",
+    "A185580",
+    "A185581",
+    "A185582",
+    "A185583"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

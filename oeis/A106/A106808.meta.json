@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that 4440011 * 10^n - 1 is prime.",
+  "id": "A106808",
+  "mentions": [
+    "A061246"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. Product_{i>=1} (1 + x^i)^(1/i).",
+  "id": "A168243",
+  "mentions": [
+    "A028342",
+    "A048272"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:52",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

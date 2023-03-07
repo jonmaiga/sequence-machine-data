@@ -1,0 +1,22 @@
+{
+  "description": "Coefficients of (x^(1/5)*d/dx)^n for positive integer n.",
+  "id": "A223535",
+  "mentions": [
+    "A223168",
+    "A223172",
+    "A223533",
+    "A223536"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

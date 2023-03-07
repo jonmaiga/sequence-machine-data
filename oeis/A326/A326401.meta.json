@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of Sum_{k>=1} k * x^k / (1 + x^k + x^(2*k)).",
+  "id": "A326401",
+  "mentions": [
+    "A000593",
+    "A002324",
+    "A050469",
+    "A078708",
+    "A175646",
+    "A326399",
+    "A326400",
+    "A340577"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

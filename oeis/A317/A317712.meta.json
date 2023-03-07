@@ -1,0 +1,31 @@
+{
+  "description": "Number of uniform rooted trees with n nodes.",
+  "id": "A317712",
+  "mentions": [
+    "A000081",
+    "A001190",
+    "A004111",
+    "A072774",
+    "A301700",
+    "A317588",
+    "A317705",
+    "A317707",
+    "A317708",
+    "A317709",
+    "A317710",
+    "A317711",
+    "A317717",
+    "A317718"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:37",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = bitwise AND operation applied between every term of the n-th row of Pascal's triangle, with the stipulation that all bits left of the last significant bit in each element are turned \"on\" until all elements of a row contain the same number of bits (see example). Results represented in decimal notation.",
+  "id": "A105055",
+  "mentions": [
+    "A001405"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of tilings of a 5 X 5 X n box using 5n bricks of shape 5 X 1 X 1.",
+  "id": "A233294",
+  "mentions": [
+    "A006253",
+    "A233289",
+    "A233291",
+    "A233308"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Central terms in irregular triangle A291845.",
+  "id": "A291846",
+  "mentions": [
+    "A001147",
+    "A291845",
+    "A291847",
+    "A291848"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

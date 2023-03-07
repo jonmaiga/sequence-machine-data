@@ -1,0 +1,20 @@
+{
+  "description": "Number of ordered sequences of coins (each of which has value 1, 2, 5, 10 or 20) which add to n.",
+  "id": "A114140",
+  "mentions": [
+    "A073031",
+    "A114044",
+    "A114138"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:48:03",
+    "offset": 0,
+    "size": 38,
+    "source": "joeis"
+  }
+}

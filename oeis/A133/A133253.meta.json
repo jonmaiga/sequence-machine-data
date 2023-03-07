@@ -1,0 +1,17 @@
+{
+  "description": "Number of possible 3 X n arrangements of black and white squares that can form three consecutive rows in an n X n crossword puzzle.",
+  "id": "A133253",
+  "mentions": [
+    "A130578"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 3,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

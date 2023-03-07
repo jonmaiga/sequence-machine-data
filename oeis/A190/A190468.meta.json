@@ -1,0 +1,18 @@
+{
+  "description": "Numbers with prime factorization pq^4r^5.",
+  "id": "A190468",
+  "mentions": [
+    "A190466",
+    "A190467"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Different values of the permanent in (0,1) quadratic matrices with exactly 3 ones in each row and each column, in the increasing order.",
+  "id": "A185177",
+  "mentions": [
+    "A176211",
+    "A176212",
+    "A185178",
+    "A185179"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

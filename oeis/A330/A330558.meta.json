@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = number of primes p <= 2*n+1 with Delta(p) == 0 mod 4, where Delta(p) = nextprime(p) - p.",
+  "id": "A330558",
+  "mentions": [
+    "A001223",
+    "A028334",
+    "A080378",
+    "A104120",
+    "A330556",
+    "A330561"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 0,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

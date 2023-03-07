@@ -1,0 +1,21 @@
+{
+  "description": "Subsequence of fixed points A099009 of the Kaprekar mapping with numbers of the form 5(n)//4//9(n+1)//4(n)//5.",
+  "id": "A214555",
+  "mentions": [
+    "A099009",
+    "A214556",
+    "A214559"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

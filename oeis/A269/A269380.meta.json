@@ -1,0 +1,29 @@
+{
+  "description": "a(1) = 1, after which, for odd numbers: a(n) = A260739(n)-th number k for which A260738(k) = A260738(n)-1, and for even numbers: a(n) = a(n/2).",
+  "id": "A269380",
+  "mentions": [
+    "A255127",
+    "A260738",
+    "A260739",
+    "A268674",
+    "A269172",
+    "A269355",
+    "A269357",
+    "A269370",
+    "A269379",
+    "A269382",
+    "A269386",
+    "A269388"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:31",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

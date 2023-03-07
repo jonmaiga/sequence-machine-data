@@ -1,0 +1,23 @@
+{
+  "description": "Jacobsthal numbers A001045 incremented by 2.",
+  "id": "A153643",
+  "mentions": [
+    "A001045",
+    "A007395",
+    "A010684",
+    "A078008",
+    "A128209"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

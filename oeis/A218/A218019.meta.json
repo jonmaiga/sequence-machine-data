@@ -1,0 +1,22 @@
+{
+  "description": "Integers in which the number of distinct base-10 digits is 7.",
+  "id": "A218019",
+  "mentions": [
+    "A031969",
+    "A050278",
+    "A220063",
+    "A220076"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

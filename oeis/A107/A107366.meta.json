@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that 101*k + 103 is prime.",
+  "id": "A107366",
+  "mentions": [
+    "A107369",
+    "A107371",
+    "A107372"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:59",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 2^A000096(n)*A128130(n).",
+  "id": "A128131",
+  "mentions": [
+    "A000096",
+    "A036442",
+    "A127945",
+    "A128130"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:00:08",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "n-th prime in the first occurrence of at least n consecutive primes of the form 4k + 1.",
+  "id": "A145986",
+  "mentions": [
+    "A054624",
+    "A055623",
+    "A145988",
+    "A145989",
+    "A145990",
+    "A145991",
+    "A145992",
+    "A145993",
+    "A145994"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

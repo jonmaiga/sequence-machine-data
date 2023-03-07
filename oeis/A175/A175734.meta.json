@@ -1,0 +1,22 @@
+{
+  "description": "Largest n-digit number with 3 divisors.",
+  "id": "A175734",
+  "mentions": [
+    "A131581",
+    "A132153",
+    "A136582",
+    "A175733"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

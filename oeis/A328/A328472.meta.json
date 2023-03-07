@@ -1,0 +1,24 @@
+{
+  "description": "Lexicographically earliest infinite sequence such that a(i) = a(j) => A278226(A328461(i)) = A278226(A328461(j)) for all i, j.",
+  "id": "A328472",
+  "mentions": [
+    "A002110",
+    "A007814",
+    "A046523",
+    "A276086",
+    "A276156",
+    "A278226",
+    "A328461",
+    "A328471"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:57",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

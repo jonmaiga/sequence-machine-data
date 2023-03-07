@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive numbers such that among the pairwise sums of any five consecutive terms there are exactly two prime sums.",
+  "id": "A329413",
+  "mentions": [
+    "A329333",
+    "A329450",
+    "A329452",
+    "A329453"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

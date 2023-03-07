@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that A316774(k) != A316774(j) for all 0 <= j < k.",
+  "id": "A330440",
+  "mentions": [
+    "A316774",
+    "A316905",
+    "A330439",
+    "A330587"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

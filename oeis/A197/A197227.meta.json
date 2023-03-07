@@ -1,0 +1,18 @@
+{
+  "description": "Primes that are not the sum of at least two consecutive primes.",
+  "id": "A197227",
+  "mentions": [
+    "A050940",
+    "A067377"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:18",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

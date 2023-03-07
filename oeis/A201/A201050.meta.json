@@ -1,0 +1,19 @@
+{
+  "description": "C(n#, (n-1)#), where n# is the primorial A034386(n), the product of primes <= n.",
+  "id": "A201050",
+  "mentions": [
+    "A010051",
+    "A034386"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

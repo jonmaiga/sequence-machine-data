@@ -1,0 +1,32 @@
+{
+  "description": "If n = product(k>=1} p(k)^b(n,k), where p(k) is the k-th prime and where each b(n,k) is a nonnegative integer, then: If n occurs earlier in the sequence, then a(n) = product{k>=2} p(k-1)^b(n,k); If n does not occur earlier in the sequence, then a(n) = product{k>=1} p(k+1)^b(n,k).",
+  "id": "A118306",
+  "mentions": [
+    "A003961",
+    "A007310",
+    "A016945",
+    "A029744",
+    "A048673",
+    "A055396",
+    "A064989",
+    "A083221",
+    "A083658",
+    "A126760",
+    "A246277",
+    "A246278",
+    "A249734",
+    "A277911"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

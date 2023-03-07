@@ -1,0 +1,32 @@
+{
+  "description": "Position in the sequence of numbers that are not perfect powers (A007916) of the last or deepest exponent in the power-tower for n.",
+  "id": "A304492",
+  "mentions": [
+    "A007916",
+    "A052409",
+    "A052410",
+    "A089723",
+    "A164337",
+    "A277562",
+    "A277564",
+    "A278028",
+    "A288636",
+    "A289023",
+    "A294336",
+    "A294337",
+    "A304481",
+    "A304491",
+    "A304495"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

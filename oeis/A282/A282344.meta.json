@@ -1,0 +1,20 @@
+{
+  "description": "The smallest square referenced in A086982 (Numbers n such that 10^n+1 is not squarefree).",
+  "id": "A282344",
+  "mentions": [
+    "A008833",
+    "A086982",
+    "A282345"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

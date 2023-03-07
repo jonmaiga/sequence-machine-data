@@ -1,0 +1,24 @@
+{
+  "description": "A000120-deficiency of n permuted by Doudna-sequence: a(n) = A192895(A005940(1+n)).",
+  "id": "A324114",
+  "mentions": [
+    "A000120",
+    "A005940",
+    "A054429",
+    "A192895",
+    "A324055",
+    "A324100",
+    "A324194"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:49",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Blocky integers, i.e., integers m > 1 such that there is a run of m consecutive integer squares the average of which is a square.",
+  "id": "A140716",
+  "mentions": [
+    "A146502",
+    "A146522"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:29",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

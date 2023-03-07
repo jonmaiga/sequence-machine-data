@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: nonzero coefficients of the polynomials F_n(x) which express derivatives of tan(z) in terms of powers of tan(z).",
+  "id": "A101343",
+  "mentions": [
+    "A008293",
+    "A145271"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:53:38",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

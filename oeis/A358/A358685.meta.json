@@ -1,0 +1,20 @@
+{
+  "description": "Number of primes < 10^n whose digits are all odd.",
+  "id": "A358685",
+  "mentions": [
+    "A030096",
+    "A358690"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

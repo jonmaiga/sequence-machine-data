@@ -1,0 +1,19 @@
+{
+  "description": "Number of fixed tree polycubes of size n that are proper in n-4 dimensions.",
+  "id": "A259017",
+  "mentions": [
+    "A259015"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 4,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

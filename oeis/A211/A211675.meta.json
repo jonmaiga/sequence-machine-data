@@ -1,0 +1,18 @@
+{
+  "description": "Exponent of powers of 2 occurring in A211673.",
+  "id": "A211675",
+  "mentions": [
+    "A211673",
+    "A211674"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

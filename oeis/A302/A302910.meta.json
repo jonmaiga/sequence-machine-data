@@ -1,0 +1,27 @@
+{
+  "description": "Determinant of n X n matrix whose main diagonal consists of the first n 6-gonal numbers and all other elements are 1's.",
+  "id": "A302910",
+  "mentions": [
+    "A000142",
+    "A000384",
+    "A010791",
+    "A067550",
+    "A097591",
+    "A302909",
+    "A302911",
+    "A302912",
+    "A302913",
+    "A302914"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:08:12",
+    "offset": 1,
+    "size": 16,
+    "source": "joeis"
+  }
+}

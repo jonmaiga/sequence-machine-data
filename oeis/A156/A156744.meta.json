@@ -1,0 +1,20 @@
+{
+  "description": "Coefficients for estimation of derivative from equally spaced numerical data using the Lagrange interpolating polynomial.",
+  "id": "A156744",
+  "mentions": [
+    "A068553",
+    "A099996"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "more",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of circular permutations of length n without modular consecutive triples i,i+2,i+4.",
+  "id": "A174075",
+  "mentions": [
+    "A165962",
+    "A174072",
+    "A174073",
+    "A174074",
+    "A216726",
+    "A216727"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 3,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

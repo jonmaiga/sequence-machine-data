@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of exp(gamma + M)*(G - 7*zeta(3)/(4*Pi))/4, where gamma is Euler's constant (A001620), M is Mertens's constant (A077761) and G is Catalan's constant (A006752).",
+  "id": "A345413",
+  "mentions": [
+    "A001008",
+    "A001620",
+    "A002117",
+    "A002805",
+    "A006752",
+    "A077761"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

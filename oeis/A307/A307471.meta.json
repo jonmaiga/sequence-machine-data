@@ -1,0 +1,23 @@
+{
+  "description": "SanD primes with d = 14: p and p+d are both prime and digit sum A007953(p*(p+d)) = d.",
+  "id": "A307471",
+  "mentions": [
+    "A007953",
+    "A307472",
+    "A307478",
+    "A307479",
+    "A307480"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

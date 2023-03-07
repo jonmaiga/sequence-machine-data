@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: CU(n,k) is the number of unlabeled subgraphs with k edges of the n-cycle C_n.",
+  "id": "A278427",
+  "mentions": [
+    "A000070",
+    "A008284",
+    "A058397"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

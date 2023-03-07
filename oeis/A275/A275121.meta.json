@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest multiple of n that is a practical number.",
+  "id": "A275121",
+  "mentions": [
+    "A005153",
+    "A006530",
+    "A034386",
+    "A210445"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

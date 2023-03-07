@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = coefficient of x^n/n!, n >= 0, in A(x) such that: 0 = Sum_{n>=1} exp(-n^2*x) * (exp(n*x) - A(x))^n.",
+  "id": "A357398",
+  "mentions": [
+    "A357397"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

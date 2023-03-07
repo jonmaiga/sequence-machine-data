@@ -1,0 +1,32 @@
+{
+  "description": "Number of ACI algebras or semilattices on n generators with no identity element.",
+  "id": "A102895",
+  "mentions": [
+    "A000798",
+    "A102894",
+    "A102896",
+    "A102897",
+    "A108798",
+    "A108800",
+    "A193674",
+    "A193675",
+    "A306445",
+    "A326878",
+    "A326880",
+    "A326881",
+    "A326883"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

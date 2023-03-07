@@ -1,0 +1,30 @@
+{
+  "description": "The first primorial based variant of arithmetic derivative: a(prime(i)) = A002110(i-1), where prime(i) = A000040(i), a(u*v) = a(u)*v + u*a(v), with a(0) = a(1) = 0.",
+  "id": "A328768",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A002110",
+    "A003415",
+    "A034386",
+    "A108951",
+    "A258851",
+    "A276085",
+    "A276150",
+    "A328769",
+    "A328771",
+    "A328845",
+    "A328846"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

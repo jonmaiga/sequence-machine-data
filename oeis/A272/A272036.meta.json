@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that the sum of the inverse of the exponents in the binary expansion of 2n is equal to 1.",
+  "id": "A272036",
+  "mentions": [
+    "A116416",
+    "A116417",
+    "A272034",
+    "A272035",
+    "A272083",
+    "A275288"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:36",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

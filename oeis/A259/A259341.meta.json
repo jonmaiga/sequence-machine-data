@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: number of balanced twills with 2n harnesses and maximum float length k (1 <= k <= n).",
+  "id": "A259341",
+  "mentions": [
+    "A006840"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

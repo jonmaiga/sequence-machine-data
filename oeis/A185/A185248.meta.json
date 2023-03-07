@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of 3F2( (1/2, 3/2, 5/2); (3, 5))(64 x)",
+  "id": "A185248",
+  "mentions": [
+    "A172392"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

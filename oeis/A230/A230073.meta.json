@@ -1,0 +1,22 @@
+{
+  "description": "Coefficients of the minimal polynomials of the algebraic numbers sqLhat(2*l) from A230072, l >= 1, related to the square of all length in a regular (2*l)-gon inscribed in a circle of radius 1 length unit.",
+  "id": "A230073",
+  "mentions": [
+    "A055034",
+    "A187360",
+    "A228780",
+    "A230072"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

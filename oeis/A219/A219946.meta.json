@@ -1,0 +1,29 @@
+{
+  "description": "Number A(n,k) of tilings of a k X n rectangle using right trominoes and 2 X 2 tiles; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A219946",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A052947",
+    "A077957",
+    "A165799",
+    "A190759",
+    "A219947",
+    "A219948",
+    "A219949",
+    "A219950",
+    "A219951",
+    "A219952"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

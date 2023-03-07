@@ -1,0 +1,21 @@
+{
+  "description": "Number of palindromic partitions of n such that the multiplicities of the least and greatest parts are equal.",
+  "id": "A238791",
+  "mentions": [
+    "A025065",
+    "A238779",
+    "A238792",
+    "A238793"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

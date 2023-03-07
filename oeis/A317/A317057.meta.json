@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of time-dependent assembly trees satisfying the connected gluing rule for a cycle on n vertices.",
+  "id": "A317057",
+  "mentions": [
+    "A047781",
+    "A053525",
+    "A317058",
+    "A317059",
+    "A317060"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 02:27:34",
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

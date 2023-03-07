@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = smallest k such that A282026(k) = n, or 0 if no such k exists.",
+  "id": "A282423",
+  "mentions": [
+    "A022004",
+    "A049481",
+    "A153417",
+    "A282026",
+    "A282429"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

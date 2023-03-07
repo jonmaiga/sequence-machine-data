@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of permutations of {1,2,...,n} whose 2nd cycle has k entries; each cycle is written with the smallest element first and cycles are arranged in increasing order of their first elements (n>=1; 0<=k<=n-1). For example, 1432=(1)(24)(3) has 2 entries in the 2nd cycle; 3421=(1324) has 0 entries in the 2nd cycle.",
+  "id": "A138771",
+  "mentions": [
+    "A000142",
+    "A000254",
+    "A001705",
+    "A001711",
+    "A001716",
+    "A138772",
+    "A165675",
+    "A165680"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

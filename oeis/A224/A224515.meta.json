@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = least k such that sqrt(k^2 XOR (k+1)^2) = 2*n+1, a(n) = -1 if there is no such k.",
+  "id": "A224515",
+  "mentions": [
+    "A221643"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

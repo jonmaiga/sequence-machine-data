@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that are the sum of six fifth powers in exactly one way.",
+  "id": "A346356",
+  "mentions": [
+    "A003351",
+    "A344643",
+    "A345813",
+    "A346278",
+    "A346357"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

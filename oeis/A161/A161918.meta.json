@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that the sum of the divisors minus the sum of the prime factors (counted with multiplicity) is equal to n+1.",
+  "id": "A161918",
+  "mentions": [
+    "A006881",
+    "A030229",
+    "A151797",
+    "A161917"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

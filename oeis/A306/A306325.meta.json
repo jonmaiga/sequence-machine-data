@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. log(1 + exp(x)*x*(1 + 7*x + 6*x^2 + x^3)).",
+  "id": "A306325",
+  "mentions": [
+    "A000583",
+    "A033464",
+    "A279637",
+    "A300452"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

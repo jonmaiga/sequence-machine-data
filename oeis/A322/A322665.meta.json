@@ -1,0 +1,21 @@
+{
+  "description": "Partial sums of A089451.",
+  "id": "A322665",
+  "mentions": [
+    "A049092",
+    "A078330",
+    "A088144",
+    "A088179",
+    "A089451"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

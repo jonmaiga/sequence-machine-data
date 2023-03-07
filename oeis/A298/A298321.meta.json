@@ -1,0 +1,18 @@
+{
+  "description": "The Nekrasov-Okounkov sequence.",
+  "id": "A298321",
+  "mentions": [
+    "A210590",
+    "A234937"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:19",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

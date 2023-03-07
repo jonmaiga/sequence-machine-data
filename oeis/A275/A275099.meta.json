@@ -1,0 +1,18 @@
+{
+  "description": "Number of set partitions of [10*n] such that within each block the numbers of elements from all residue classes modulo 10 are equal.",
+  "id": "A275099",
+  "mentions": [
+    "A275043"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

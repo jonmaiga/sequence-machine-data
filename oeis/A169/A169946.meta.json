@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: A169945 with rows reversed.",
+  "id": "A169946",
+  "mentions": [
+    "A061909",
+    "A169940",
+    "A169945",
+    "A169954"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

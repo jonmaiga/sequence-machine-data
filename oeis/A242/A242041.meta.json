@@ -1,0 +1,19 @@
+{
+  "description": "Number of k >= 1 that make n + k! and n - k! both prime.",
+  "id": "A242041",
+  "mentions": [
+    "A020639",
+    "A125162",
+    "A175940"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

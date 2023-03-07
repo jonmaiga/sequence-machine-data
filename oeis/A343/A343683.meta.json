@@ -1,0 +1,17 @@
+{
+  "description": "Primes p1 such that the sum of 9 consecutive primes, p1+p2+p3+p4+p5+p6+p7+p8+p9, and the three sums (p1+p2+p3), (p4+p5+p6), (p7+p8+p9) are all prime numbers.",
+  "id": "A343683",
+  "mentions": [
+    "A082251"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

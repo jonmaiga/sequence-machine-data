@@ -1,0 +1,21 @@
+{
+  "description": "Sequence whose Hankel transform is the Somos (4) sequence.",
+  "id": "A173992",
+  "mentions": [
+    "A000108",
+    "A006720",
+    "A056010"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

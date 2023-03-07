@@ -1,0 +1,25 @@
+{
+  "description": "Coefficients in expansion of E_2^(1/2)/Product_{k>=1} (1-q^k).",
+  "id": "A289344",
+  "mentions": [
+    "A000203",
+    "A006352",
+    "A106203",
+    "A106205",
+    "A211342",
+    "A288995",
+    "A289062",
+    "A289291"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

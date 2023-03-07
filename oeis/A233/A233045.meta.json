@@ -1,0 +1,21 @@
+{
+  "description": "1^m + 2^m + ... + m^m (mod m) for primary pseudoperfect numbers m.",
+  "id": "A233045",
+  "mentions": [
+    "A031971",
+    "A054377",
+    "A231409"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

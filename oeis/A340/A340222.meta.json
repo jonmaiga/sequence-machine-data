@@ -1,0 +1,39 @@
+{
+  "description": "Constant whose decimal expansion is the concatenation of the largest n-digit semiprime A098450(n), for n = 1, 2, 3, ...",
+  "id": "A340222",
+  "mentions": [
+    "A001191",
+    "A030190",
+    "A033307",
+    "A033308",
+    "A098450",
+    "A134724",
+    "A215641",
+    "A215647",
+    "A215689",
+    "A215692",
+    "A338968",
+    "A339978",
+    "A340115",
+    "A340206",
+    "A340207",
+    "A340208",
+    "A340209",
+    "A340219",
+    "A340220",
+    "A340221"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

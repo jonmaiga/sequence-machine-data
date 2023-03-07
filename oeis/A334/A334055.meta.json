@@ -1,0 +1,21 @@
+{
+  "description": "Iteration count (or -1) corresponding to A334054(n).",
+  "id": "A334055",
+  "mentions": [
+    "A005150",
+    "A007932",
+    "A045918",
+    "A119566",
+    "A334054"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Ulam's spiral (SSE spoke).",
+  "id": "A143839",
+  "mentions": [
+    "A004767",
+    "A016813",
+    "A074377"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:37:45",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

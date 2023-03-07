@@ -1,0 +1,19 @@
+{
+  "description": "Primes p of a quadruplet (p,p+2,p+6,p+8) such that (p+(p+2)+(p+6)+(p+8))/60 is a prime.",
+  "id": "A177032",
+  "mentions": [
+    "A000040",
+    "A001359",
+    "A007530"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

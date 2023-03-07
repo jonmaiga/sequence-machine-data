@@ -1,0 +1,17 @@
+{
+  "description": "Column 1 of triangle A228900.",
+  "id": "A228901",
+  "mentions": [
+    "A228900"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of Hamiltonian circuits within parallelograms of size n X n on the triangular lattice.",
+  "id": "A339854",
+  "mentions": [
+    "A140519",
+    "A339849"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 2,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

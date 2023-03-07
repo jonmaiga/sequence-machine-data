@@ -1,0 +1,21 @@
+{
+  "description": "If n=A000695(k_n)+2*A000695(l_n), then a(n) is the number of nonnegative integers m",
+  "id": "A147795",
+  "mentions": [
+    "A000695",
+    "A054238",
+    "A059905",
+    "A059906"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

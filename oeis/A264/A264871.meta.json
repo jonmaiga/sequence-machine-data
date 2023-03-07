@@ -1,0 +1,29 @@
+{
+  "description": "Array read by antidiagonals: T(n,m) = (1+2^n)^m; n,m>=0.",
+  "id": "A264871",
+  "mentions": [
+    "A000051",
+    "A000079",
+    "A000244",
+    "A000351",
+    "A001019",
+    "A001026",
+    "A009977",
+    "A028400",
+    "A136516",
+    "A165327"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

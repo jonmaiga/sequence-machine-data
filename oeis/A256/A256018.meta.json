@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=1..n} k^2*Bernoulli(k-1)*C(2*n-1,k)*Stirling2(2*n-k,n).",
+  "id": "A256018",
+  "mentions": [
+    "A027641",
+    "A027642",
+    "A226775"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

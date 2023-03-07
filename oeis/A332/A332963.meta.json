@@ -1,0 +1,23 @@
+{
+  "description": "Number triangle where T(2n,0)=T(2n,2n)=1, T(2n+1,0)=T(2n+1,2n+1)=2 for all n >= 0, and the interior numbers are defined recursively by T(n,k) = (T(n-1,k-1)*T(n-1,k)+1)/T(n-2,k-1) for n > 2, 0 < k <= n.",
+  "id": "A332963",
+  "mentions": [
+    "A077028",
+    "A309555",
+    "A309557",
+    "A309559",
+    "A332790"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

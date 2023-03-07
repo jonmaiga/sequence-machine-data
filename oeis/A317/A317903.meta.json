@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = A038394(n)^^A038394(n) (mod 10^len(A038394(n))), where ^^ indicates tetration or hyper-4 (e.g., 3^^4=3^(3^(3^3))).",
+  "id": "A317903",
+  "mentions": [
+    "A014925",
+    "A038394",
+    "A068670",
+    "A092447",
+    "A171882",
+    "A317824"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

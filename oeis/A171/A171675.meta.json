@@ -1,0 +1,19 @@
+{
+  "description": "Square numbers n divisible by (at least one) sum of two positive digits of n.",
+  "id": "A171675",
+  "mentions": [
+    "A005349",
+    "A171674"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

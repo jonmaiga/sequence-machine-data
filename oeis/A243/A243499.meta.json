@@ -1,0 +1,33 @@
+{
+  "description": "Product of parts of integer partitions as enumerated in the table A125106.",
+  "id": "A243499",
+  "mentions": [
+    "A000110",
+    "A003963",
+    "A005940",
+    "A006068",
+    "A007814",
+    "A023416",
+    "A053645",
+    "A059894",
+    "A125106",
+    "A161511",
+    "A163511",
+    "A227184",
+    "A243504",
+    "A329369",
+    "A341392"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = smallest d such that the sum of digits of 2^d - n is equal to d, or -1 if no such d exists.",
+  "id": "A329492",
+  "mentions": [
+    "A328882",
+    "A329002",
+    "A329493"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

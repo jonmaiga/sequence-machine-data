@@ -1,0 +1,18 @@
+{
+  "description": "Number of n-step paths on a quartic lattice that move from (0,0,0,0) to (1,0,0,1) allowing all moves in {-1,0,1}^4 inclusive the zero move.",
+  "id": "A219986",
+  "mentions": [
+    "A219670",
+    "A219671"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

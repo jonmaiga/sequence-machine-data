@@ -1,0 +1,21 @@
+{
+  "description": "Bases and exponents in the prime decomposition of n replaced by digits of the Gregorian calendar with these indices.",
+  "id": "A144227",
+  "mentions": [
+    "A000040",
+    "A141569"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "dumb",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

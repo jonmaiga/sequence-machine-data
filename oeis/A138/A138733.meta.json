@@ -1,0 +1,25 @@
+{
+  "description": "Second term of continued fraction for 2n-th Du Bois Reymond constant.",
+  "id": "A138733",
+  "mentions": [
+    "A062545",
+    "A062546",
+    "A085466",
+    "A085467",
+    "A138729",
+    "A138730",
+    "A138731",
+    "A138732"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

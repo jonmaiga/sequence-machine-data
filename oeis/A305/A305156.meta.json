@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 136*2^n - 78 (n>=0).",
+  "id": "A305156",
+  "mentions": [
+    "A226264",
+    "A305155",
+    "A305157"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

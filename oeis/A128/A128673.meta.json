@@ -1,0 +1,38 @@
+{
+  "description": "Numbers m such that m^k does not divide the denominator of the m-th generalized harmonic number H(m,k) nor the denominator of the m-th alternating generalized harmonic number H'(m,k), for k = 3.",
+  "id": "A128673",
+  "mentions": [
+    "A001008",
+    "A002805",
+    "A007406",
+    "A007407",
+    "A007410",
+    "A058312",
+    "A058313",
+    "A088164",
+    "A099828",
+    "A119682",
+    "A120296",
+    "A125581",
+    "A126196",
+    "A126197",
+    "A128670",
+    "A128671",
+    "A128672",
+    "A128674",
+    "A128675",
+    "A128676"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

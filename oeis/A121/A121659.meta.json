@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of n into parts with at most one part not greater than 2.",
+  "id": "A121659",
+  "mentions": [
+    "A000041",
+    "A008483",
+    "A027336",
+    "A121081"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

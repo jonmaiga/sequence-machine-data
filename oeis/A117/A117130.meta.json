@@ -1,0 +1,18 @@
+{
+  "description": "Maximal number of cycles in complete graph on n nodes that can be unknotted when the graph is embedded in three-dimensional Euclidean space.",
+  "id": "A117130",
+  "mentions": [
+    "A002807"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

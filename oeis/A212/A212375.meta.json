@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that x^18 = 2 has no solution mod p.",
+  "id": "A212375",
+  "mentions": [
+    "A000040",
+    "A040993",
+    "A049550"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:00",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

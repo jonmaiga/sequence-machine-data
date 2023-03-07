@@ -1,0 +1,25 @@
+{
+  "description": "Number of connected (5,n)-hypergraphs (without empty edges and without multiple edges).",
+  "id": "A114934",
+  "mentions": [
+    "A002501",
+    "A002502",
+    "A093732",
+    "A114933",
+    "A114935",
+    "A114936",
+    "A114937"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

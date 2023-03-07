@@ -1,0 +1,18 @@
+{
+  "description": "G.f.: exp( Sum_{n>=0} [ Sum_{k=0..n} C(n,k)^2*x^k ]^2* x^n/n ).",
+  "id": "A180718",
+  "mentions": [
+    "A004148",
+    "A180719"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

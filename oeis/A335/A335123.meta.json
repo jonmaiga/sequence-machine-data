@@ -1,0 +1,35 @@
+{
+  "description": "Minimum part of the n-th integer partition in Abramowitz-Stegun order (sum/length/lex); a(0) = 0.",
+  "id": "A335123",
+  "mentions": [
+    "A000041",
+    "A026791",
+    "A036036",
+    "A036043",
+    "A049085",
+    "A055396",
+    "A103921",
+    "A124734",
+    "A185974",
+    "A193073",
+    "A334301",
+    "A334302",
+    "A334433",
+    "A334439",
+    "A334440",
+    "A334441",
+    "A335124"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of endofunctions on [n] with cycles of eight distinct lengths.",
+  "id": "A246289",
+  "mentions": [
+    "A242027"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 36,
+    "size": 5,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of distinct characteristic polynomials of n X n matrices with elements {t, 1, 2} where t is an indeterminate.",
+  "id": "A272660",
+  "mentions": [
+    "A272658",
+    "A272659",
+    "A272661",
+    "A272662",
+    "A272663"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

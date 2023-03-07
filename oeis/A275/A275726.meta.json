@@ -1,0 +1,23 @@
+{
+  "description": "A275725-polynomials evaluated at x=2: a(n) = A048675(A275725(n)).",
+  "id": "A275726",
+  "mentions": [
+    "A000142",
+    "A048675",
+    "A055010",
+    "A275725",
+    "A275833",
+    "A275834"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 0,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

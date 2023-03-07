@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is conjecturally the largest prime p such that, for every prime q > p, q^n - 1 has more divisors than does p^n - 1, or -1 if no such prime p exists.",
+  "id": "A341670",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A005385",
+    "A309906",
+    "A341655",
+    "A341656",
+    "A341657",
+    "A341658",
+    "A341659"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

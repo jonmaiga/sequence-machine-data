@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of (1 + x - x^2 - x^3 - x^4)/((1 - x)*(1 - x - 2*x^2 - 2*x^3 - x^4)).",
+  "id": "A272362",
+  "mentions": [
+    "A000045",
+    "A000201",
+    "A001622",
+    "A189970",
+    "A190157",
+    "A272642"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

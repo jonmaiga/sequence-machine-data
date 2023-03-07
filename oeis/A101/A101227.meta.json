@@ -1,0 +1,19 @@
+{
+  "description": "Number of solutions to equation n=x+largest digit of x, n>1.",
+  "id": "A101227",
+  "mentions": [
+    "A045844"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

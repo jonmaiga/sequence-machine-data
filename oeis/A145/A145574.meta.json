@@ -1,0 +1,30 @@
+{
+  "description": "Array a(n,m) for number of partitions of n>=2 with m parts having no part 1. Hence m=1..floor(n/2).",
+  "id": "A145574",
+  "mentions": [
+    "A000012",
+    "A001399",
+    "A001400",
+    "A001401",
+    "A001402",
+    "A002865",
+    "A004526",
+    "A008619",
+    "A011973",
+    "A026813",
+    "A145573"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 2,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

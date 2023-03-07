@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest m for which 3^m contains n consecutive identical digits.",
+  "id": "A215727",
+  "mentions": [
+    "A045875",
+    "A215733"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

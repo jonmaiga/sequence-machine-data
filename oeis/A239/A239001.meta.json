@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangular array read by rows: row n gives a list of the partitions of n into Fibonacci numbers.",
+  "id": "A239001",
+  "mentions": [
+    "A000045",
+    "A003107",
+    "A239512"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

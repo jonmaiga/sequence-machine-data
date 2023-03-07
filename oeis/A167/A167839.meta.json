@@ -1,0 +1,18 @@
+{
+  "description": "Five-times-isolated primes: primes p such that none of (p-10,p-8,p-6,p-4,p-2,p+2,p+4,p+6,p+8,p+10) are prime.",
+  "id": "A167839",
+  "mentions": [
+    "A137872"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

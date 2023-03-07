@@ -1,0 +1,18 @@
+{
+  "description": "A solution to a(n+1) in {a(n)+2, a(n)-2, a(n)*2, a(n)/2} which is a rearrangement of the natural numbers.",
+  "id": "A268182",
+  "mentions": [
+    "A168616"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

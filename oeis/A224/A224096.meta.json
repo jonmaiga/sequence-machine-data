@@ -1,0 +1,22 @@
+{
+  "description": "Denominators of poly-Cauchy numbers c_n^(3).",
+  "id": "A224096",
+  "mentions": [
+    "A006233",
+    "A222636",
+    "A224094",
+    "A224097"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "changed",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

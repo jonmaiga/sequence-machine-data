@@ -1,0 +1,23 @@
+{
+  "description": "Riordan array (1-u, u) where u=(-1 + sqrt(1+8*x))/4.",
+  "id": "A110292",
+  "mentions": [
+    "A000007",
+    "A028872",
+    "A110291",
+    "A181282"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

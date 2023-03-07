@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = 0 if n is in the infinite trunk of \"number-of-runs beanstalk\" (one of the terms of A255056), otherwise number of nodes (including leaves and the node n itself) in that finite subtree of the beanstalk.",
+  "id": "A255327",
+  "mentions": [
+    "A091067",
+    "A213727",
+    "A227643",
+    "A236840",
+    "A255056",
+    "A255068",
+    "A255328",
+    "A255329",
+    "A255330",
+    "A255339"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 0,
+    "size": 119,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of rhyme schemes (see reference for precise definition).",
+  "id": "A127021",
+  "mentions": [
+    "A000110",
+    "A005000",
+    "A005002",
+    "A005003",
+    "A102661"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 4,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

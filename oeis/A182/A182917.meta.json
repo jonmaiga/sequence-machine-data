@@ -1,0 +1,19 @@
+{
+  "description": "Denominators of an asymptotic series for the factorial function (S. Wehmeier).",
+  "id": "A182917",
+  "mentions": [
+    "A182916"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

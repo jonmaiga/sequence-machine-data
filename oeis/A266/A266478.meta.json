@@ -1,0 +1,19 @@
+{
+  "description": "Number of n-vertex simple graphs G_n for which n divides the number of labeled copies of G_n.",
+  "id": "A266478",
+  "mentions": [
+    "A000088"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

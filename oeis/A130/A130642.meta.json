@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that 1 + Sum{k=1..n/2}A001223(2k-1)*(-1)^k = 0.",
+  "id": "A130642",
+  "mentions": [
+    "A000040",
+    "A000101",
+    "A001223",
+    "A002386",
+    "A127596",
+    "A128039"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of distinct primitive quadratic forms of discriminant -4n that exist such that every prime p for which -n is a quadratic residue mod p can be represented by one of them.",
+  "id": "A232551",
+  "mentions": [
+    "A000003",
+    "A000926",
+    "A107628",
+    "A232529",
+    "A232530",
+    "A232550"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

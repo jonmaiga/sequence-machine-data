@@ -1,0 +1,35 @@
+{
+  "description": "Number of non-unimodal sequences of length n covering an initial interval of positive integers.",
+  "id": "A328509",
+  "mentions": [
+    "A000670",
+    "A001523",
+    "A007052",
+    "A059204",
+    "A060223",
+    "A115981",
+    "A227038",
+    "A255906",
+    "A332281",
+    "A332282",
+    "A332284",
+    "A332577",
+    "A332639",
+    "A332672",
+    "A332743",
+    "A332834",
+    "A332870",
+    "A332873"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of the e.g.f. exp(-2*x)/(1-4*x).",
+  "id": "A296660",
+  "mentions": [
+    "A001907",
+    "A056545",
+    "A097820",
+    "A296618"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:38:18",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

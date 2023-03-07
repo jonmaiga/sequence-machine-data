@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = product of the positive integers k, k<= n, such that the positive integers <= k and coprime to k are also coprime to n.",
+  "id": "A124675",
+  "mentions": [
+    "A124611",
+    "A126260"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

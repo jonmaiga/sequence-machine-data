@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=2, a(n+1) is the largest prime < 2+n^smallest digit of a(n).",
+  "id": "A158311",
+  "mentions": [
+    "A000040",
+    "A158061"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

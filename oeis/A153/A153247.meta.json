@@ -1,0 +1,21 @@
+{
+  "description": "Number of fleeing trees computed for Catalan bijection A123493.",
+  "id": "A153247",
+  "mentions": [
+    "A123493",
+    "A127379",
+    "A127387",
+    "A153246",
+    "A153248"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

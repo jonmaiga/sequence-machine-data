@@ -1,0 +1,18 @@
+{
+  "description": "G.f.: (P-Q*(sqrt(1-4*x)))/(x*(1-4*x)^3) where P=(1-4*x)^3*(1-x-x^2), Q=1-11*x+39*x^2-40*x^3-22*x^4.",
+  "id": "A217214",
+  "mentions": [
+    "A217215"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

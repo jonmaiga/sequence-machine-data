@@ -1,0 +1,22 @@
+{
+  "description": "Number of exponent-2 class 2 groups of order 2^n.",
+  "id": "A252784",
+  "mentions": [
+    "A000679",
+    "A252785",
+    "A252786",
+    "A252787"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Difference sequence of A356133.",
+  "id": "A354384",
+  "mentions": [
+    "A007413",
+    "A026430",
+    "A036554",
+    "A036580",
+    "A091855",
+    "A356133"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:29",
+    "offset": 1,
+    "size": 86,
+    "source": "joeis"
+  }
+}

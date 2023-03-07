@@ -1,0 +1,18 @@
+{
+  "description": "Insert a dot after the first digit of a(n); this is now the beginning of the arithmetic mean of the digits used so far in the sequence. Lexicographically earliest sequence of distinct positive terms with this property.",
+  "id": "A335744",
+  "mentions": [
+    "A335743"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Principal diagonal of the convolution array A213590.",
+  "id": "A213504",
+  "mentions": [
+    "A213500",
+    "A213557",
+    "A213590"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

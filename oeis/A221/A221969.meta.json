@@ -1,0 +1,18 @@
+{
+  "description": "Number of -n..n arrays of length 6 with the sum ahead of each element differing from the sum following that element by n or less.",
+  "id": "A221969",
+  "mentions": [
+    "A221967"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:06:51",
+    "offset": 1,
+    "size": 23,
+    "source": "joeis"
+  }
+}

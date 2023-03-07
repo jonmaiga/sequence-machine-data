@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are the sum of ten cubes in six or more ways.",
+  "id": "A345554",
+  "mentions": [
+    "A345545",
+    "A345553",
+    "A345555",
+    "A345599",
+    "A345808",
+    "A346805"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:19",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

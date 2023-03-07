@@ -1,0 +1,19 @@
+{
+  "description": "Number of length-n restricted growth strings (RGS) with growth <= nine and first element in [9].",
+  "id": "A306033",
+  "mentions": [
+    "A305969",
+    "A306024"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

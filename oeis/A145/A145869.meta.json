@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least even positive integer which is not expressible as a sum A145819(s)+A145819(t), if both of s,t differ from n",
+  "id": "A145869",
+  "mentions": [
+    "A145812",
+    "A145818",
+    "A145819"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into parts with an odd number of prime divisors (counted with multiplicity).",
+  "id": "A286226",
+  "mentions": [
+    "A026424",
+    "A286218",
+    "A286222",
+    "A286224",
+    "A286227"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

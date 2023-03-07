@@ -1,0 +1,21 @@
+{
+  "description": "Fixed point starting with 0 of the morphism 0->01, 1->101.",
+  "id": "A189479",
+  "mentions": [
+    "A007066",
+    "A096270",
+    "A099267",
+    "A114986"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:53:55",
+    "offset": 1,
+    "size": 131,
+    "source": "joeis"
+  }
+}

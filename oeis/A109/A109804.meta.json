@@ -1,0 +1,23 @@
+{
+  "description": "Cumulative sum of initial digits of (n base 6).",
+  "id": "A109804",
+  "mentions": [
+    "A000030",
+    "A007092",
+    "A109453",
+    "A339256"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "The expansion of R(q)^-5 in powers of q where R() is the Rogers-Ramanujan continued fraction.",
+  "id": "A229793",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A003823",
+    "A010054",
+    "A010815",
+    "A078905",
+    "A109064",
+    "A109091",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:47",
+    "offset": -1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

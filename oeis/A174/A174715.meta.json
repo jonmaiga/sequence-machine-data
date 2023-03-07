@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows, Q*M as infinite lower triangular matrices. Q = A001935 shifted down four times by columns, M = A174712, the diagonalized variant of A000041.",
+  "id": "A174715",
+  "mentions": [
+    "A000041",
+    "A001935",
+    "A174712",
+    "A174713",
+    "A174714"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

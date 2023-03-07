@@ -1,0 +1,27 @@
+{
+  "description": "G.f.s of the z^p coefficients of the polynomials in the GF4 denominators of A156933.",
+  "id": "A157705",
+  "mentions": [
+    "A064350",
+    "A081436",
+    "A156933",
+    "A157702",
+    "A157703",
+    "A157704",
+    "A157708"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numerator of the fraction tan( Sum_{k=1..n} arctan(k) ).",
+  "id": "A180657",
+  "mentions": [
+    "A220447"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

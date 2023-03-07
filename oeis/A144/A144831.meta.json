@@ -1,0 +1,23 @@
+{
+  "description": "(n+1)^2 - (smallest prime > n^2).",
+  "id": "A144831",
+  "mentions": [
+    "A007491",
+    "A014085",
+    "A053000",
+    "A144256",
+    "A144832"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

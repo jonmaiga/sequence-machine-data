@@ -1,0 +1,28 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) = number of n-step knight's tours on a (k+2)X(k+2) board summed over all starting positions.",
+  "id": "A186851",
+  "mentions": [
+    "A000290",
+    "A035008",
+    "A186441",
+    "A186852",
+    "A186853",
+    "A186854",
+    "A186855",
+    "A186856",
+    "A186857",
+    "A289204"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:11",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

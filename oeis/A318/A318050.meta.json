@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of prime knots with n crossings whose unknotting numbers are k.",
+  "id": "A318050",
+  "mentions": [
+    "A002863",
+    "A078477",
+    "A089797",
+    "A089891",
+    "A089892",
+    "A173466",
+    "A318051",
+    "A318052"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "hard",
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 3,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

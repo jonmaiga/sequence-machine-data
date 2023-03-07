@@ -1,0 +1,21 @@
+{
+  "description": "Positive numbers that are the sum of three nonzero squares with no common factor > 1 in exactly one way.",
+  "id": "A223732",
+  "mentions": [
+    "A233730",
+    "A233731",
+    "A233733",
+    "A233734"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

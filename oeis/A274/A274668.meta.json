@@ -1,0 +1,21 @@
+{
+  "description": "Diagonal of the rational function 1/(1 - x - y - z - x y + x z - y z + x y z).",
+  "id": "A274668",
+  "mentions": [
+    "A001850",
+    "A126086",
+    "A268545",
+    "A268555"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

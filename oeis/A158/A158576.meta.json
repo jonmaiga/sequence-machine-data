@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = number of components of the graph P(n,10) (defined in Comments).",
+  "id": "A158576",
+  "mentions": [
+    "A050249",
+    "A145667",
+    "A145674",
+    "A158577",
+    "A158578",
+    "A158579",
+    "A253269"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

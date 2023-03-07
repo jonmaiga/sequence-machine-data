@@ -1,0 +1,19 @@
+{
+  "description": "Concatenation of the sums of elements of P{1}, P{1, 2}, P{1, 2, 3}, ..., P{1, 2, 3, ..., n}; where P{A} denote the power set of set A ordered by the size of the subsets, and in each subset, following the increasing order.",
+  "id": "A282905",
+  "mentions": [
+    "A193360",
+    "A221914",
+    "A282904"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

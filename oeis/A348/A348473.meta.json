@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=1..A003056(n)} 2^(T(n,k)-1), where T(n,k) = k-th term in row n of A235791.",
+  "id": "A348473",
+  "mentions": [
+    "A000079",
+    "A003056",
+    "A235791"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:22",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

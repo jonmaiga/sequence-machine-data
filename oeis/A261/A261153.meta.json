@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the maximum number of distinct primes whose sum is n.",
+  "id": "A261153",
+  "mentions": [
+    "A000040",
+    "A007504"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

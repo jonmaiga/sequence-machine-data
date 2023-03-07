@@ -1,0 +1,23 @@
+{
+  "description": "Total number of ON states after n generations of cellular automaton based on pentagons starting near of the vertex of an infinite 72-degree wedge.",
+  "id": "A222176",
+  "mentions": [
+    "A139250",
+    "A152998",
+    "A222172",
+    "A222177",
+    "A222180"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

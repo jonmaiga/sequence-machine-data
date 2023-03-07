@@ -1,0 +1,20 @@
+{
+  "description": "Number of symmetry classes of 3 X 3 magilatin squares with positive values and magic sum n.",
+  "id": "A173730",
+  "mentions": [
+    "A173548",
+    "A173549",
+    "A173729"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:38:39",
+    "offset": 6,
+    "size": 49,
+    "source": "joeis"
+  }
+}

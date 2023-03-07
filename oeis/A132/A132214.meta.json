@@ -1,0 +1,28 @@
+{
+  "description": "Numbers that are sums of seventh powers of two distinct primes.",
+  "id": "A132214",
+  "mentions": [
+    "A000040",
+    "A001015",
+    "A050997",
+    "A120398",
+    "A122616",
+    "A130292",
+    "A130555",
+    "A130873",
+    "A132215",
+    "A132216"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

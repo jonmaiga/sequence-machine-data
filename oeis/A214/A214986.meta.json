@@ -1,0 +1,35 @@
+{
+  "description": "Power ceiling array for the golden ratio, by antidiagonals.",
+  "id": "A214986",
+  "mentions": [
+    "A000012",
+    "A000032",
+    "A000045",
+    "A000071",
+    "A001906",
+    "A004187",
+    "A010532",
+    "A049652",
+    "A049660",
+    "A049668",
+    "A083286",
+    "A169986",
+    "A176015",
+    "A213978",
+    "A214978",
+    "A214984",
+    "A214987"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

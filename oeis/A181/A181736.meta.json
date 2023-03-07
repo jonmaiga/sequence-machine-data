@@ -1,0 +1,19 @@
+{
+  "description": "The number of integers in base 2n such that all digits are used exactly once (so length is 2n) and for each m<=2n the base 2n integer consisting of the first m digits is divisible by m.",
+  "id": "A181736",
+  "mentions": [
+    "A111456"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

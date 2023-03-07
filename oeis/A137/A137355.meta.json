@@ -1,0 +1,20 @@
+{
+  "description": "Slowest-increasing sequence of noncomposite numbers such that the partial sums of the sequence are perfect powers.",
+  "id": "A137355",
+  "mentions": [
+    "A001597",
+    "A137354",
+    "A174722",
+    "A176578"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:25",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

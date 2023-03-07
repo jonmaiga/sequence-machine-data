@@ -1,0 +1,23 @@
+{
+  "description": "Irregular table read by rows: T(n,k) is the number of k-gons formed, k>=2, when every pair of n points, placed at the vertices of a regular n-gon, are connected by a circle and where the points lie at the ends of the circle's diameter.",
+  "id": "A359009",
+  "mentions": [
+    "A331451",
+    "A344938",
+    "A358746",
+    "A358782",
+    "A358783"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 2,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

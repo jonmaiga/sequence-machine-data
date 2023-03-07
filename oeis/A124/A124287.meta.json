@@ -1,0 +1,25 @@
+{
+  "description": "Triangle of the number of integer-sided k-gons having perimeter n, for k=3..n.",
+  "id": "A124287",
+  "mentions": [
+    "A005044",
+    "A057886",
+    "A124278",
+    "A124285",
+    "A124286",
+    "A293818",
+    "A293819"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 3,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

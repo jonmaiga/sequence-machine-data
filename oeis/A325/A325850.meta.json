@@ -1,0 +1,27 @@
+{
+  "description": "Number of permutations of {1..n} whose differences of all degrees are nonzero.",
+  "id": "A325850",
+  "mentions": [
+    "A049988",
+    "A175342",
+    "A238423",
+    "A279945",
+    "A295370",
+    "A325545",
+    "A325851",
+    "A325852",
+    "A325874",
+    "A325875"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

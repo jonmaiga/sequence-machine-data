@@ -1,0 +1,18 @@
+{
+  "description": "Positions of balanced binary trees in A014486, i.e., trees where number of vertices in the right subtree = number of vertices in the left subtree.",
+  "id": "A153243",
+  "mentions": [
+    "A014486",
+    "A153239"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

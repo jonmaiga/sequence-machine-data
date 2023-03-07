@@ -1,0 +1,29 @@
+{
+  "description": "Permutation of natural numbers: a(1)=1; a(2n) = not_an_oddprime(1+a(n)), a(2n+1) = oddprime(a(n)).",
+  "id": "A257728",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A065090",
+    "A065091",
+    "A071904",
+    "A246377",
+    "A246378",
+    "A255004",
+    "A257726",
+    "A257727",
+    "A257729",
+    "A257802"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest integer k >= 2 such that the number of divisors d>1 of n + k with k|n + d equals A225867(n).",
+  "id": "A226182",
+  "mentions": [
+    "A188550",
+    "A188794",
+    "A225867",
+    "A225868"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 6,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

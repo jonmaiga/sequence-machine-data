@@ -1,0 +1,20 @@
+{
+  "description": "Values of hypotenuse of primitive Pythagorean triples which can have four different shapes (that is, four different sets of \"legs\").",
+  "id": "A159781",
+  "mentions": [
+    "A006278",
+    "A024362",
+    "A024409",
+    "A146945"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (conjectured) smallest positive integer k which is neither of the form p + n^x nor of the form p - n^x with x >= 0 and p prime, where gcd(k, n) = 1 and gcd(k^2-1, n-1) = 1.",
+  "id": "A283619",
+  "mentions": [
+    "A076336",
+    "A123159",
+    "A263644",
+    "A283622"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 2,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

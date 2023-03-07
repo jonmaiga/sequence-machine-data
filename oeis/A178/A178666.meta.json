@@ -1,0 +1,25 @@
+{
+  "description": "Irregular triangle read by rows in which row n gives expansion of the polynomial Product_{k=0..n} (1 + x^(2*k + 1)), n >= -1.",
+  "id": "A178666",
+  "mentions": [
+    "A000079",
+    "A000700",
+    "A002522",
+    "A002703",
+    "A142724",
+    "A169987",
+    "A169995"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": -1,
+    "size": 148,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Lengths of successive rows when the Inventory Sequence A342585 is written as a triangle.",
+  "id": "A347299",
+  "mentions": [
+    "A342585",
+    "A343878",
+    "A343880"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

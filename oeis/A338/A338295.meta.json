@@ -1,0 +1,23 @@
+{
+  "description": "For n > 1, a(n) is the largest base b <= n such that the digits of n in base b contain the digit b-1; a(1) = 1.",
+  "id": "A338295",
+  "mentions": [
+    "A020639",
+    "A337496",
+    "A337535",
+    "A337536"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

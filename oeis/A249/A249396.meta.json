@@ -1,0 +1,20 @@
+{
+  "description": "Composite numbers whose Euler totient divides the sum of the Euler totients of the numbers less than n that are relatively prime to n.",
+  "id": "A249396",
+  "mentions": [
+    "A000010",
+    "A053570",
+    "A249397"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

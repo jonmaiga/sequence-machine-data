@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways to assemble an n-cube from 2n labeled (n-1)-cubes with labeled vertices, where left-handed and right-handed counterparts are considered distinct.",
+  "id": "A165642",
+  "mentions": [
+    "A091868",
+    "A165643",
+    "A165644"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

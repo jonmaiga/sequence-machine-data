@@ -1,0 +1,31 @@
+{
+  "description": "Consider Watanabe's 3-shift tag system {00/1011} applied to the word (100)^n; a(n) = length of first word we see that is in the cycle, if the orbit cycles, or 0 if the orbit reaches the empty string, or -1 if the orbit is unbounded.",
+  "id": "A292092",
+  "mentions": [
+    "A284116",
+    "A284119",
+    "A284121",
+    "A291067",
+    "A291780",
+    "A291781",
+    "A291792",
+    "A291794",
+    "A291795",
+    "A291796",
+    "A292089",
+    "A292090",
+    "A292091",
+    "A292093",
+    "A292094"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:07",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

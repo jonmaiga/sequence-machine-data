@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers such that a(n) + a(n+1) has at least one pair of identical adjacent digits.",
+  "id": "A337866",
+  "mentions": [
+    "A043096"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

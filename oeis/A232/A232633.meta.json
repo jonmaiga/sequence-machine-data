@@ -1,0 +1,26 @@
+{
+  "description": "Coefficient table for minimal polynomials of s(n)^2 = (2*sin(Pi/n))^2.",
+  "id": "A232633",
+  "mentions": [
+    "A023022",
+    "A055034",
+    "A065091",
+    "A187360",
+    "A232631",
+    "A232632",
+    "A232832"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

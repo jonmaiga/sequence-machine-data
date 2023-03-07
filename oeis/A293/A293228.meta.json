@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the sum of proper divisors of n that are squarefree.",
+  "id": "A293228",
+  "mentions": [
+    "A005117",
+    "A008966",
+    "A020707",
+    "A048250",
+    "A293227",
+    "A293235"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

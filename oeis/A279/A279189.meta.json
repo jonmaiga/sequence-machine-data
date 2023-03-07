@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that L(p^2) = (p-1)*L(p), where L(i) = A279186(i).",
+  "id": "A279189",
+  "mentions": [
+    "A279185",
+    "A279186",
+    "A279187",
+    "A279188"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

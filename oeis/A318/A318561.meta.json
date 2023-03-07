@@ -1,0 +1,19 @@
+{
+  "description": "Indices at which record values in A318291 occur.",
+  "id": "A318561",
+  "mentions": [
+    "A316493",
+    "A318291"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

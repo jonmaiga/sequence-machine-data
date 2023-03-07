@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Integral_{x=0..1} exp(-x^2) dx.",
+  "id": "A347909",
+  "mentions": [
+    "A002161",
+    "A007680",
+    "A019704",
+    "A347910"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

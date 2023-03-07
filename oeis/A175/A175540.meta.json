@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = A067076(n) + n.",
+  "id": "A175540",
+  "mentions": [
+    "A067076",
+    "A080370",
+    "A177018"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:17:55",
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

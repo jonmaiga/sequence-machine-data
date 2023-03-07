@@ -1,0 +1,40 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of lone-child-avoiding rooted trees with n leaves of exactly k colors.",
+  "id": "A319376",
+  "mentions": [
+    "A000014",
+    "A000081",
+    "A000169",
+    "A000311",
+    "A000669",
+    "A001678",
+    "A005804",
+    "A060356",
+    "A141610",
+    "A206429",
+    "A242249",
+    "A255517",
+    "A256064",
+    "A256068",
+    "A291636",
+    "A316651",
+    "A319254",
+    "A319377",
+    "A319541",
+    "A326396",
+    "A330465",
+    "A330951"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

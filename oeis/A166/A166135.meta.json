@@ -1,0 +1,25 @@
+{
+  "description": "Number of possible paths to each node that lies along the edge of a cut 4-nomial tree, that is rooted one unit from the cut.",
+  "id": "A166135",
+  "mentions": [
+    "A000108",
+    "A001006",
+    "A055113",
+    "A069271",
+    "A092765",
+    "A104632",
+    "A126120",
+    "A245888"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:49",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

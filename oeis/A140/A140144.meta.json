@@ -1,0 +1,29 @@
+{
+  "description": "a(1)=1, a(n)=a(n-1)+n^1 if n odd, a(n)=a(n-1)+ n^0 if n is even.",
+  "id": "A140144",
+  "mentions": [
+    "A000027",
+    "A000217",
+    "A000330",
+    "A000537",
+    "A000538",
+    "A000539",
+    "A002378",
+    "A028387",
+    "A136047",
+    "A140113",
+    "A177990"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:06:59",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

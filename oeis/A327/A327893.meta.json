@@ -1,0 +1,26 @@
+{
+  "description": "Minesweeper sequence of positive integers arranged in a hexagonal spiral.",
+  "id": "A327893",
+  "mentions": [
+    "A003215",
+    "A003219",
+    "A008458",
+    "A326405",
+    "A326406",
+    "A326407",
+    "A326408",
+    "A326409",
+    "A326410"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

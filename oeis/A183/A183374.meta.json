@@ -1,0 +1,18 @@
+{
+  "description": "T(n,k)=Number of nXk binary arrays with no element equal to the mod 3 sum of its diagonal and antidiagonal neighbors",
+  "id": "A183374",
+  "mentions": [
+    "A133037"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:07",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

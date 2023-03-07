@@ -1,0 +1,26 @@
+{
+  "description": "Sum of divisors of the minimal numbers (A007416).",
+  "id": "A256259",
+  "mentions": [
+    "A000203",
+    "A005179",
+    "A007416",
+    "A007626",
+    "A053212",
+    "A063072",
+    "A081533",
+    "A237271",
+    "A237593"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

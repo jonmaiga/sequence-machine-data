@@ -1,0 +1,18 @@
+{
+  "description": "Odd deficient numbers whose abundancy is closer to 2 than any smaller odd deficient number.",
+  "id": "A188597",
+  "mentions": [
+    "A171929",
+    "A188263"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

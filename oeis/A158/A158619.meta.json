@@ -1,0 +1,24 @@
+{
+  "description": "Twin prime pairs concatenated in binary representation.",
+  "id": "A158619",
+  "mentions": [
+    "A001359",
+    "A006512",
+    "A007088",
+    "A045533",
+    "A095958"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

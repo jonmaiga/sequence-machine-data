@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = lambda(Fibonacci(n)).",
+  "id": "A174351",
+  "mentions": [
+    "A000045",
+    "A002819",
+    "A007421",
+    "A008836"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "less",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

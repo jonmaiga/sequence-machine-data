@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n that require two iterations of the sigma function to be >= 2n.",
+  "id": "A107912",
+  "mentions": [
+    "A000203",
+    "A055021",
+    "A107913",
+    "A107914"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

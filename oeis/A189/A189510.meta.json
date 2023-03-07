@@ -1,0 +1,23 @@
+{
+  "description": "Digital root of n^n.",
+  "id": "A189510",
+  "mentions": [
+    "A000312",
+    "A010888",
+    "A030132",
+    "A145389"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:55:23",
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

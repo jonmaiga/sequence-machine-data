@@ -1,0 +1,19 @@
+{
+  "description": "Composite numbers c such that phi(c)/phi(mind(c)) mod phi(c)/phi(maxd(c)) = 0, where phi is the Euler function, mind(c) is the smallest nontrivial divisor of c, maxd(c) is the largest nontrivial divisor of c.",
+  "id": "A340058",
+  "mentions": [
+    "A000010",
+    "A002808",
+    "A335902"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

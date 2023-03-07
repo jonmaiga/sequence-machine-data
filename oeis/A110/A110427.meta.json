@@ -1,0 +1,21 @@
+{
+  "description": "The r-th term of the n-th row of the following array contains the sum of r successively decreasing integers beginning from n. 0 < r <= n. Sequence contains the leading diagonal.",
+  "id": "A110427",
+  "mentions": [
+    "A002411",
+    "A110425",
+    "A110426"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:06:43",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

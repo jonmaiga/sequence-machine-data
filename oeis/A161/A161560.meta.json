@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = floor(A000069(n)/2-1/2).",
+  "id": "A161560",
+  "mentions": [
+    "A000069",
+    "A093505"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:17:29",
+    "offset": 1,
+    "size": 73,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Numbers k such that 30*k-13, 30*k-11 are twin primes.",
+  "id": "A331840",
+  "mentions": [
+    "A000040",
+    "A001097",
+    "A002822",
+    "A089160",
+    "A089161",
+    "A132242",
+    "A176114",
+    "A282323",
+    "A282324",
+    "A332772"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

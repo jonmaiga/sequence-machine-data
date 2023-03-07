@@ -1,0 +1,22 @@
+{
+  "description": "Triangle based on (1,2,3) averaging array.",
+  "id": "A204207",
+  "mentions": [
+    "A000051",
+    "A036289",
+    "A083329",
+    "A204201"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

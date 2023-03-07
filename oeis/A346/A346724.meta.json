@@ -1,0 +1,28 @@
+{
+  "description": "Use the cells of a hexagonal grid to represent the algebraic integers in the integer ring of Q(sqrt(-43)) as explained in the comments. Number the cells along the counterclockwise hexagonal spiral that starts with cells 0 and 1 representing integers 0 and 1. List the cells that represent 0 or a prime in the ring.",
+  "id": "A346724",
+  "mentions": [
+    "A003173",
+    "A341788",
+    "A345435",
+    "A345436",
+    "A345437",
+    "A345764",
+    "A346721",
+    "A346722",
+    "A346723",
+    "A346725",
+    "A346726"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

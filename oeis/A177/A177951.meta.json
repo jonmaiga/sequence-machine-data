@@ -1,0 +1,21 @@
+{
+  "description": "PrimePi(A066903(n)), the index of A066903(n) in the primes.",
+  "id": "A177951",
+  "mentions": [
+    "A000720",
+    "A006577",
+    "A049084",
+    "A066903"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

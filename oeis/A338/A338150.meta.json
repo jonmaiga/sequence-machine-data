@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least j >= 2 such that (n+1)^A338136(n) mod n^j is a perfect power > 1.",
+  "id": "A338150",
+  "mentions": [
+    "A001597",
+    "A338136",
+    "A338151"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 2,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

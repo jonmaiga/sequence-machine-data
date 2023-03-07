@@ -1,0 +1,20 @@
+{
+  "description": "The size of the set of numbers k>=0 such that all (2^n-k)*2^n-1 are prime but only (2^n-k)*2^n+1 with the largest k is also the associated twin prime.",
+  "id": "A212038",
+  "mentions": [
+    "A191619",
+    "A191620",
+    "A205322",
+    "A212037"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 4,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

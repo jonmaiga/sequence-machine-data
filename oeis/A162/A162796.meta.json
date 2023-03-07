@@ -1,0 +1,25 @@
+{
+  "description": "Number of toothpicks in the toothpick structure A139250 that are orthogonal to the initial toothpick after n even rounds.",
+  "id": "A162796",
+  "mentions": [
+    "A000695",
+    "A139250",
+    "A139251",
+    "A159791",
+    "A159792",
+    "A162793",
+    "A162794",
+    "A162795",
+    "A162797"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) = 2*binomial(n-floor((k+1)/2),floor(k/2)) - 1, 0<=k<=n.",
+  "id": "A131268",
+  "mentions": [
+    "A000012",
+    "A065941",
+    "A131269",
+    "A131270"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:19",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

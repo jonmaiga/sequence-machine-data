@@ -1,0 +1,17 @@
+{
+  "description": "A104647(n+1) - A104647(n).",
+  "id": "A105855",
+  "mentions": [
+    "A104647"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = the sum of numbers k <= n such that GCQ_A(n, k) >= 2 (see definition in comments).",
+  "id": "A196440",
+  "mentions": [
+    "A000217",
+    "A196437",
+    "A196438",
+    "A196439",
+    "A196441",
+    "A196442",
+    "A196443",
+    "A196444"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:18",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

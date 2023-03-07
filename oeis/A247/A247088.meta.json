@@ -1,0 +1,19 @@
+{
+  "description": "Primes sandwiched between 10-almost primes (A046314).",
+  "id": "A247088",
+  "mentions": [
+    "A014612",
+    "A046314",
+    "A063644"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

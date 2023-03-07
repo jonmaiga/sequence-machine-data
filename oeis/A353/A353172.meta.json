@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the least k > 1 such that Omega(n) = Omega(n mod k), where Omega = A001222.",
+  "id": "A353172",
+  "mentions": [
+    "A000040",
+    "A001222",
+    "A003627",
+    "A029744",
+    "A061142",
+    "A077065",
+    "A095925"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

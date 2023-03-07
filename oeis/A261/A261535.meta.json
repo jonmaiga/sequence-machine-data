@@ -1,0 +1,21 @@
+{
+  "description": "Primes of the form Phi(8,n!), where Phi is the cyclotomic polynomial.",
+  "id": "A261535",
+  "mentions": [
+    "A123865",
+    "A200906",
+    "A259264",
+    "A259265",
+    "A260478"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

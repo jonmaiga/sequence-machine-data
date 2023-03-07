@@ -1,0 +1,19 @@
+{
+  "description": "A179071 for p == 1 (mod 4).",
+  "id": "A179073",
+  "mentions": [
+    "A179071",
+    "A179072",
+    "A179074"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

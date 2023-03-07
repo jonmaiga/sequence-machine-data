@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that sigma(x) - x = n has at least two solutions, with each x having the same squarefree kernel, where sigma(x) is the sum of divisor function (A000203).",
+  "id": "A252997",
+  "mentions": [
+    "A000203",
+    "A001065",
+    "A007947",
+    "A048138",
+    "A152454",
+    "A254035"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

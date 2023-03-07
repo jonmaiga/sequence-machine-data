@@ -1,0 +1,33 @@
+{
+  "description": "Number A(n,k) of partitions of n with k sorts of part 1; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A292741",
+  "mentions": [
+    "A000012",
+    "A000041",
+    "A001477",
+    "A002522",
+    "A002865",
+    "A003992",
+    "A004248",
+    "A009998",
+    "A051129",
+    "A071568",
+    "A090764",
+    "A292462",
+    "A292508",
+    "A292622",
+    "A292745"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

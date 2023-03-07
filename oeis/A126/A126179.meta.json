@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is number of hex trees with n edges and k branches (1 <= k <= n).",
+  "id": "A126179",
+  "mentions": [
+    "A000108",
+    "A000244",
+    "A002212",
+    "A126180"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

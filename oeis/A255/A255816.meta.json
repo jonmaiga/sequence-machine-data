@@ -1,0 +1,22 @@
+{
+  "description": "Number of primes in A065381 less than 10^n.",
+  "id": "A255816",
+  "mentions": [
+    "A065381",
+    "A254248",
+    "A255971",
+    "A256164",
+    "A256238"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

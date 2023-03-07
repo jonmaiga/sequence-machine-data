@@ -1,0 +1,20 @@
+{
+  "description": "Least positive integer k such that n has the same number of characters in base k and in Roman numeral representation, or 0 if no such k exists.",
+  "id": "A123060",
+  "mentions": [
+    "A006968"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:11",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

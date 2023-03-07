@@ -1,0 +1,20 @@
+{
+  "description": "The smallest cube containing n as a substring.",
+  "id": "A178983",
+  "mentions": [
+    "A029943",
+    "A029947"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least number k such that there are exactly n biquadratefree powerful numbers (A338325) between k^2 and (k+1)^2.",
+  "id": "A338327",
+  "mentions": [
+    "A119242",
+    "A337737",
+    "A338325",
+    "A338326"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

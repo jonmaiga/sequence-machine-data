@@ -1,0 +1,18 @@
+{
+  "description": "The number of representations of n as n=x^2-2^y, x>0, y>=0.",
+  "id": "A247763",
+  "mentions": [
+    "A051204",
+    "A051205"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

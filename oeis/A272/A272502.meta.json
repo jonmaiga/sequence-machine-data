@@ -1,0 +1,21 @@
+{
+  "description": "Number of n-letter strings over a ten-letter alphabet where no letter appears exactly four times.",
+  "id": "A272502",
+  "mentions": [
+    "A265325",
+    "A272501",
+    "A272503"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:26:58",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

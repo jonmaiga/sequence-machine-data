@@ -1,0 +1,21 @@
+{
+  "description": "Number of 3-cycles in the n-halved cube graph.",
+  "id": "A290026",
+  "mentions": [
+    "A290027",
+    "A290028",
+    "A290029"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:06:02",
+    "offset": 1,
+    "size": 29,
+    "source": "joeis"
+  }
+}

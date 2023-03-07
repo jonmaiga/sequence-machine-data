@@ -1,0 +1,21 @@
+{
+  "description": "Primitive, symmetric octuples of distinct numbers a,b,c,d,x,y,z,w with 0",
+  "id": "A237434",
+  "mentions": [
+    "A237435",
+    "A239066",
+    "A239067",
+    "A239068"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

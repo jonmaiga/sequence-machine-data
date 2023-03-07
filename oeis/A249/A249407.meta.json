@@ -1,0 +1,20 @@
+{
+  "description": "Numbers not in A249406.",
+  "id": "A249407",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A249406",
+    "A249411"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

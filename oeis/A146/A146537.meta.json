@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = A144453(n)/16.",
+  "id": "A146537",
+  "mentions": [
+    "A144453"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:28:13",
+    "offset": 0,
+    "size": 59,
+    "source": "joeis"
+  }
+}

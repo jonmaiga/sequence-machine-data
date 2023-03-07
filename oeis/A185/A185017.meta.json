@@ -1,0 +1,28 @@
+{
+  "description": "Characteristic function of 7.",
+  "id": "A185017",
+  "mentions": [
+    "A000007",
+    "A063524",
+    "A082784",
+    "A185012",
+    "A185013",
+    "A185014",
+    "A185015",
+    "A185016",
+    "A185117",
+    "A185118"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:27:01",
+    "offset": 0,
+    "size": 102,
+    "source": "joeis"
+  }
+}

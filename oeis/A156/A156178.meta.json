@@ -1,0 +1,18 @@
+{
+  "description": "A bisection of A000436.",
+  "id": "A156178",
+  "mentions": [
+    "A000436"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:30:27",
+    "offset": 0,
+    "size": 10,
+    "source": "joeis"
+  }
+}

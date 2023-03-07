@@ -1,0 +1,19 @@
+{
+  "description": "Squares n^2 whose decimal expansion contains n as a substring.",
+  "id": "A161783",
+  "mentions": [
+    "A018834",
+    "A035383"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

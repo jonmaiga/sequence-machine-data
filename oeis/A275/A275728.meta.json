@@ -1,0 +1,25 @@
+{
+  "description": "a(0) = 0, for n >= 1, a(n) = A275736(n) + a(A257684(n)); a(n) = A048675(A275734(n)).",
+  "id": "A275728",
+  "mentions": [
+    "A048675",
+    "A257684",
+    "A275727",
+    "A275734",
+    "A275736",
+    "A275808"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

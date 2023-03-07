@@ -1,0 +1,28 @@
+{
+  "description": "Number of unlabeled rooted trees with n nodes in which all outdegrees are either 0, 1, or 3.",
+  "id": "A298204",
+  "mentions": [
+    "A000081",
+    "A000598",
+    "A001190",
+    "A001399",
+    "A004111",
+    "A014591",
+    "A032305",
+    "A273873",
+    "A292050",
+    "A295461",
+    "A298118",
+    "A298205"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:19",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of complete compositions of n.",
+  "id": "A107429",
+  "mentions": [
+    "A034296",
+    "A107428",
+    "A188575",
+    "A251729"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:59",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

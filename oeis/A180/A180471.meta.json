@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle in which row n has all primes q such that prime(n)*q is a base-2 Fermat pseudoprime.",
+  "id": "A180471",
+  "mentions": [
+    "A085012",
+    "A085014",
+    "A085019"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 5,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

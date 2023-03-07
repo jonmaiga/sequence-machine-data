@@ -1,0 +1,23 @@
+{
+  "description": "Irregular table, where the n-th row consists of numbers 0..(n!-1).",
+  "id": "A220660",
+  "mentions": [
+    "A007489",
+    "A030298",
+    "A030299",
+    "A084556",
+    "A220661"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Condensed deep factorization of n, in binary. (Remove all trailing 0's and one trailing 1 from A300560.)",
+  "id": "A300562",
+  "mentions": [
+    "A007088",
+    "A061396",
+    "A062504",
+    "A062860",
+    "A145037",
+    "A300560",
+    "A300561",
+    "A300563"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

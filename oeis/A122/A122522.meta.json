@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = a(n - 2) + a(n - 8).",
+  "id": "A122522",
+  "mentions": [
+    "A003269"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:05:54",
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

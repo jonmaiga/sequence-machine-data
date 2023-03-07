@@ -1,0 +1,35 @@
+{
+  "description": "Number A(n,k) of multisets of nonempty words with a total of n letters over k-ary alphabet such that within each word every letter of the alphabet is at least as frequent as the subsequent alphabet letter; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A292712",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000041",
+    "A057427",
+    "A226873",
+    "A292548",
+    "A292713",
+    "A292718",
+    "A292719",
+    "A292720",
+    "A292721",
+    "A292722",
+    "A292723",
+    "A292724",
+    "A292725",
+    "A292795",
+    "A319495"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

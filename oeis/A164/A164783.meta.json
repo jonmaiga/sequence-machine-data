@@ -1,0 +1,23 @@
+{
+  "description": "7^n-6.",
+  "id": "A164783",
+  "mentions": [
+    "A000420",
+    "A014224",
+    "A014232",
+    "A059266",
+    "A135535"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:47",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

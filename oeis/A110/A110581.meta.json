@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that 2p-1 is prime, but 4p-3 is not prime.",
+  "id": "A110581",
+  "mentions": [
+    "A005382"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "description": "Permutation of natural numbers: a(1) = 1 and for n > 1, if n is k-th ludic number larger than 1 [i.e., n = A003309(k+1)], a(n) = nthprime(a(k)), otherwise, when n is k-th nonludic number [i.e., n = A192607(k)], a(n) = nthcomposite(a(k)), where nthcomposite = A002808, nthprime = A000040.",
+  "id": "A255422",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A003309",
+    "A008578",
+    "A135141",
+    "A192490",
+    "A192512",
+    "A192607",
+    "A236863",
+    "A237427",
+    "A245703",
+    "A245704",
+    "A246378",
+    "A255407",
+    "A255408",
+    "A255421"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

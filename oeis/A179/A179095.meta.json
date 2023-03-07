@@ -1,0 +1,22 @@
+{
+  "description": "Rectified 5-cell numbers: the coefficient of x^{2n-2} in (1+x+x^2+ ... + x^{n-1})^5.",
+  "id": "A179095",
+  "mentions": [
+    "A179096",
+    "A179097",
+    "A179098",
+    "A179099"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:23",
+    "offset": 0,
+    "size": 37,
+    "source": "joeis"
+  }
+}

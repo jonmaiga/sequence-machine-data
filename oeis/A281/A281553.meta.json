@@ -1,0 +1,20 @@
+{
+  "description": "Write n in binary reflected Gray code, rotate one binary place to the right and convert the code back to decimal.",
+  "id": "A281553",
+  "mentions": [
+    "A003188",
+    "A014550",
+    "A038572"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:50",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

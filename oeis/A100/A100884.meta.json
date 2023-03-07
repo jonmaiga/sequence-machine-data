@@ -1,0 +1,21 @@
+{
+  "description": "Real parts of multiperfect Gaussian numbers z, sorted with respect to |z| and Re(z).",
+  "id": "A100884",
+  "mentions": [
+    "A100885",
+    "A100889",
+    "A100890",
+    "A103228"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = [x^n] theta_3(x)^n/(1 - x), where theta_3() is the Jacobi theta function.",
+  "id": "A302860",
+  "mentions": [
+    "A000122",
+    "A001650",
+    "A046895",
+    "A057655",
+    "A066535",
+    "A066536",
+    "A117609",
+    "A122510",
+    "A166952",
+    "A302861"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

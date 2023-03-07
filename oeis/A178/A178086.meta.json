@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,m) = - phi(n+1) + phi(m+1) + phi(n-m+1), 0<=m<=n, where phi = A000010 is Euler's totient.",
+  "id": "A178086",
+  "mentions": [
+    "A000010",
+    "A002088",
+    "A002618"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

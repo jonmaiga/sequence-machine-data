@@ -1,0 +1,24 @@
+{
+  "description": "Larger of pairs of emirps (A006567) whose difference with the (smaller) reversal is a triangular number (A000217).",
+  "id": "A217286",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A004086",
+    "A006567",
+    "A217386"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

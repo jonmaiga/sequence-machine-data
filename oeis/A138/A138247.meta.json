@@ -1,0 +1,23 @@
+{
+  "description": "E.g.f.: Sum_{n>=0} exp( (2^n+3^n)*x ) * (2^n+3^n)^n * x^n/n!.",
+  "id": "A138247",
+  "mentions": [
+    "A007689",
+    "A094617",
+    "A196457",
+    "A196458",
+    "A196459",
+    "A196460"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

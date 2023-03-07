@@ -1,0 +1,20 @@
+{
+  "description": "Number of terms in n-th derivative of a function composed with itself n times.",
+  "id": "A192435",
+  "mentions": [
+    "A008485",
+    "A022818",
+    "A270915"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

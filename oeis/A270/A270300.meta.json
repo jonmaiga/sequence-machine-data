@@ -1,0 +1,26 @@
+{
+  "description": "Numbers which are representable as a sum of thirteen but no fewer consecutive nonnegative integers.",
+  "id": "A270300",
+  "mentions": [
+    "A138591",
+    "A163169",
+    "A270296",
+    "A270297",
+    "A270298",
+    "A270299",
+    "A270301",
+    "A270302",
+    "A270303"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:33",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

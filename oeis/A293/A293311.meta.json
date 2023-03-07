@@ -1,0 +1,27 @@
+{
+  "description": "Rectangular array read by antidiagonals: A(n,k) = number of magic labelings of the graph LOOP X C_n (see comments) having magic sum k, n >= 1, k >= 0.",
+  "id": "A293311",
+  "mentions": [
+    "A000027",
+    "A000217",
+    "A006325",
+    "A019298",
+    "A244497",
+    "A244873",
+    "A244879",
+    "A244880",
+    "A293309",
+    "A293310"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

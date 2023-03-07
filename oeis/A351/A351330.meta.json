@@ -1,0 +1,21 @@
+{
+  "description": "A fractal-like sequence: erase all triples of contiguous terms that have an odd sum; the remaining terms rebuild the starting sequence.",
+  "id": "A351330",
+  "mentions": [
+    "A274329",
+    "A303845",
+    "A303948",
+    "A351329"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

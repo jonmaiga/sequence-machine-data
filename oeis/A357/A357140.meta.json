@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X n triangular (0,1)-matrices with exactly 2n entries equal to 1 and no zero rows or columns.",
+  "id": "A357140",
+  "mentions": [
+    "A137252"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

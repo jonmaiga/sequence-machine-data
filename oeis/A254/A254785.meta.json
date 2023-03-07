@@ -1,0 +1,20 @@
+{
+  "description": "Zeroless numbers n with digits d_1, d_2, ... d_k such that F(d_1) + F(d_2) + ... + F(d_k) is a Fibonacci number where F(.) is A000045.",
+  "id": "A254785",
+  "mentions": [
+    "A000045",
+    "A052382"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

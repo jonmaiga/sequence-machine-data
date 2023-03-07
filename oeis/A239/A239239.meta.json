@@ -1,0 +1,24 @@
+{
+  "description": "Number of strict partitions of n having fewer odd parts than even.",
+  "id": "A239239",
+  "mentions": [
+    "A000009",
+    "A239240",
+    "A239241",
+    "A239242",
+    "A239243",
+    "A240021"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:56",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

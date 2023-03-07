@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows, a(n,k), n>=k>=1, which represent the s=3, h=1 case of a two-parameter generalization of Stirling numbers arising in conjunction with normal ordering.",
+  "id": "A203412",
+  "mentions": [
+    "A004747",
+    "A007559",
+    "A008544",
+    "A032031",
+    "A039683",
+    "A051141",
+    "A132062",
+    "A264428"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

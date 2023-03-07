@@ -1,0 +1,22 @@
+{
+  "description": "Natural numbers k such that k+1 is divisible by the sum of the decimal digits of k.",
+  "id": "A144980",
+  "mentions": [
+    "A005349",
+    "A007953",
+    "A144967",
+    "A178338"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

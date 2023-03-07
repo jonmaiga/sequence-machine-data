@@ -1,0 +1,22 @@
+{
+  "description": "Numbers whose septenary, octal and nonary representations are prime when read in decimal.",
+  "id": "A281252",
+  "mentions": [
+    "A065726",
+    "A065727",
+    "A138299",
+    "A175279",
+    "A236365"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

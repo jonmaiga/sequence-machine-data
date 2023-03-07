@@ -1,0 +1,19 @@
+{
+  "description": "Numbers m such that A049417(A049417(m)) = k*m for some k where A049417 is the infinitary sigma function.",
+  "id": "A318182",
+  "mentions": [
+    "A019278",
+    "A049417",
+    "A318175"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:38",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

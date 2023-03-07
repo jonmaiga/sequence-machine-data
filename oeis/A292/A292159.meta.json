@@ -1,0 +1,24 @@
+{
+  "description": "Square array A(n,k), n>=0, k>=0, read by antidiagonals, where column k is the expansion of Re((k*i; x)_inf), and (a; q)_inf is the q-Pochhammer symbol, i = sqrt(-1).",
+  "id": "A292159",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000290",
+    "A278399",
+    "A292135",
+    "A292160",
+    "A292161"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

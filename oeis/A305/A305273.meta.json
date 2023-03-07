@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k in A048981 for which the ring Z[sqrt(k)] is not a UFD.",
+  "id": "A305273",
+  "mentions": [
+    "A003174",
+    "A048981",
+    "A173298"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "fini",
+    "full",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

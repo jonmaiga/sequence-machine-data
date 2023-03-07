@@ -1,0 +1,21 @@
+{
+  "description": "If n good guys followed by n bad guys stand in a circle, a(n) is the least q such that executing every q-th person gets all bad guys first.",
+  "id": "A343780",
+  "mentions": [
+    "A006257",
+    "A054995",
+    "A198791",
+    "A321781",
+    "A321793"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

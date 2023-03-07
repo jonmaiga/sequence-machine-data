@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of Product_{k>=1} (1 + x^(7*k-1))*(1 + x^(7*k-6)).",
+  "id": "A281459",
+  "mentions": [
+    "A035430",
+    "A280457",
+    "A281245"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:50",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

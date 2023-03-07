@@ -1,0 +1,18 @@
+{
+  "description": "Infinite string related to Ehrlich's swap method for generating permutations.",
+  "id": "A159880",
+  "mentions": [
+    "A123400"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

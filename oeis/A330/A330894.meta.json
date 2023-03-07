@@ -1,0 +1,19 @@
+{
+  "description": "Numbers of Pythagorean quadruples contained in the divisors of A330893(n).",
+  "id": "A330894",
+  "mentions": [
+    "A027750",
+    "A169580",
+    "A330893"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

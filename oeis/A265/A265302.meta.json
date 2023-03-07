@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} (c(2k)-c(2k-1)), where c = convergents to sqrt(6).",
+  "id": "A265302",
+  "mentions": [
+    "A010464",
+    "A265288",
+    "A265300",
+    "A265301"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

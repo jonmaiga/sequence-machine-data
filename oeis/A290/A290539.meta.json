@@ -1,0 +1,20 @@
+{
+  "description": "Determinant of circulant matrix of order eight with entries in the first row that are (-1)^(j-1) * Sum_{k>=0} (-1)^k*binomial(n,8*k+j-1), for j=1..8.",
+  "id": "A290539",
+  "mentions": [
+    "A290285",
+    "A290286",
+    "A290535",
+    "A290540"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

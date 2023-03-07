@@ -1,0 +1,19 @@
+{
+  "description": "One-half of averages of twin prime pairs of A001318.",
+  "id": "A154565",
+  "mentions": [
+    "A001318",
+    "A074378",
+    "A154563"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:36",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

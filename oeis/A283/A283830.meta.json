@@ -1,0 +1,20 @@
+{
+  "description": "Number of singular vector tuples for a general 6-dimensional n X n X n X n X n X n tensor.",
+  "id": "A283830",
+  "mentions": [
+    "A271905",
+    "A272551",
+    "A283829",
+    "A284308"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "(1, 2, 4, 8, ...) interleaved with (4, 8, 16, 32, ...).",
+  "id": "A143095",
+  "mentions": [
+    "A048655",
+    "A076736",
+    "A079360",
+    "A135530"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

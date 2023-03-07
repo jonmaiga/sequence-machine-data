@@ -1,0 +1,20 @@
+{
+  "description": "Primes of the form 5^k + 5*k + 1.",
+  "id": "A301638",
+  "mentions": [
+    "A163115",
+    "A180269",
+    "A301635"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

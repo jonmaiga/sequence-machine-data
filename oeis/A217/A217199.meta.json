@@ -1,0 +1,20 @@
+{
+  "description": "Odd primes p such that 2p-1 is prime and no p is equal to 2q-1 with q in the sequence.",
+  "id": "A217199",
+  "mentions": [
+    "A007015",
+    "A110581",
+    "A217198",
+    "A342701"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

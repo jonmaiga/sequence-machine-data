@@ -1,0 +1,18 @@
+{
+  "description": "Number of non-isomorphic connected I-graphs I(n,j,k) on 2n vertices (1<=j,k<=Floor[(n-1)/2]).",
+  "id": "A153847",
+  "mentions": [
+    "A077105",
+    "A153846"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 3,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

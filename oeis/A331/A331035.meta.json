@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = sigma^m(N)/N for N = A019276(n) (megaperfect numbers), where m(N) = min {m: N | sigma^m(N)} reaches record values; sigma^m is m-fold iteration of A000203.",
+  "id": "A331035",
+  "mentions": [
+    "A000203",
+    "A019276",
+    "A019277",
+    "A019294",
+    "A019295"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "G.f.: A(q) = exp( Sum_{n>=1} sigma(n) * 3*A038500(n) * q^n/n ), where A038500(n) = highest power of 3 dividing n.",
+  "id": "A163129",
+  "mentions": [
+    "A038500",
+    "A058091",
+    "A162584",
+    "A163130",
+    "A163131",
+    "A163132"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

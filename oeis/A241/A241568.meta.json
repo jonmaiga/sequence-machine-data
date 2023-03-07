@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = |{0 < k < prime(n)/2: k is not only a quadratic nonresidue modulo prime(n) but also a Fibonacci number}|.",
+  "id": "A241568",
+  "mentions": [
+    "A000032",
+    "A000040",
+    "A000045",
+    "A236966",
+    "A239957",
+    "A239963",
+    "A241492",
+    "A241504",
+    "A241516",
+    "A241604"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

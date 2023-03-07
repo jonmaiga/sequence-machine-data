@@ -1,0 +1,24 @@
+{
+  "description": "Fixed points of A243057 and A243059.",
+  "id": "A243058",
+  "mentions": [
+    "A000040",
+    "A070003",
+    "A102750",
+    "A242413",
+    "A242417",
+    "A243057",
+    "A243059",
+    "A243068"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

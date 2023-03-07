@@ -1,0 +1,23 @@
+{
+  "description": "Number of squares formed from a square composed of p^2 unit squares where p is n-th prime.",
+  "id": "A262247",
+  "mentions": [
+    "A000040",
+    "A000217",
+    "A000330",
+    "A000537",
+    "A001248"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:49:29",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

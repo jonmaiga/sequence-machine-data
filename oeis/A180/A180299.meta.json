@@ -1,0 +1,18 @@
+{
+  "description": "Number of arrangements of n indistinguishable balls in n boxes with the maximum number of balls in any box equal to n-9",
+  "id": "A180299",
+  "mentions": [
+    "A180281"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:44",
+    "offset": 10,
+    "size": 22,
+    "source": "joeis"
+  }
+}

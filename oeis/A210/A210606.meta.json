@@ -1,0 +1,33 @@
+{
+  "description": "Length of the n-th edge of an L-toothpick structure which gives Recamán's sequence A005132.",
+  "id": "A210606",
+  "mentions": [
+    "A002378",
+    "A005132",
+    "A064289",
+    "A119632",
+    "A139250",
+    "A160356",
+    "A160357",
+    "A171175",
+    "A171178",
+    "A172310",
+    "A187210",
+    "A210604",
+    "A210605",
+    "A210607",
+    "A210608",
+    "A210613"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

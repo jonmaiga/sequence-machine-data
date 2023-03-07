@@ -1,0 +1,17 @@
+{
+  "description": "Least m > 0 such that A283565(n) = Sum_{k=1..m} (A283565(n) mod k).",
+  "id": "A283593",
+  "mentions": [
+    "A283565"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:54",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

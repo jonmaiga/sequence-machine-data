@@ -1,0 +1,25 @@
+{
+  "description": "Limit of reversed rows of triangle A126347, in which row sums equal Bell numbers (A000110).",
+  "id": "A126348",
+  "mentions": [
+    "A000110",
+    "A126347",
+    "A126349",
+    "A126471",
+    "A253830",
+    "A307599",
+    "A307601",
+    "A307602"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:14",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Coordination sequence for 1-skeleton of the 24-cell (or {3,4,3}).",
+  "id": "A329499",
+  "mentions": [
+    "A108997",
+    "A118785",
+    "A329500"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "bref",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

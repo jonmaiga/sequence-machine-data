@@ -1,0 +1,28 @@
+{
+  "description": "a(n) is the number of odd integers in 2..(n-1) that have a common factor (other than 1) with n.",
+  "id": "A219839",
+  "mentions": [
+    "A000010",
+    "A004526",
+    "A016035",
+    "A053121",
+    "A055034",
+    "A111774",
+    "A174090",
+    "A187360",
+    "A337940",
+    "A338428"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

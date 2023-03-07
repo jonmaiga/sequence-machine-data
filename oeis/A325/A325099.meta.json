@@ -1,0 +1,28 @@
+{
+  "description": "Number of binary carry-connected strict integer partitions of n.",
+  "id": "A325099",
+  "mentions": [
+    "A050315",
+    "A080572",
+    "A247935",
+    "A267610",
+    "A267700",
+    "A325095",
+    "A325096",
+    "A325098",
+    "A325104",
+    "A325106",
+    "A325110",
+    "A325119"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

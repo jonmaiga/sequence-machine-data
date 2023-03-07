@@ -1,0 +1,26 @@
+{
+  "description": "Number of partitions of n into 6 distinct positive Fibonacci numbers (with a single type of 1).",
+  "id": "A358006",
+  "mentions": [
+    "A000045",
+    "A000119",
+    "A319399",
+    "A357691",
+    "A357722",
+    "A357731",
+    "A357732",
+    "A358005",
+    "A358007",
+    "A358008"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 32,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

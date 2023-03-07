@@ -1,0 +1,21 @@
+{
+  "description": "Integers m such that nonzero digits of A000217(m) are all the same.",
+  "id": "A352148",
+  "mentions": [
+    "A000217",
+    "A352057"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

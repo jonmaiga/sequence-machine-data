@@ -1,0 +1,22 @@
+{
+  "description": "G.f.: 1 / (1 + 8*x*G(x)^2 - 10*x*G(x)^3) where G(x) = 1 + x*G(x)^4 is the g.f. of A002293.",
+  "id": "A226733",
+  "mentions": [
+    "A002293",
+    "A147855",
+    "A183160",
+    "A226705",
+    "A226761"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

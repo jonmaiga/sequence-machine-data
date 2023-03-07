@@ -1,0 +1,20 @@
+{
+  "description": "Total number of permutations on {1,2,...,n} that have a unique longest increasing subsequence and a unique longest decreasing subsequence.",
+  "id": "A258683",
+  "mentions": [
+    "A167995",
+    "A167999",
+    "A168502"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

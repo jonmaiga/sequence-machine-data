@@ -1,0 +1,36 @@
+{
+  "description": "Number of integer partitions of n whose parts have all different numbers of prime factors (A001222).",
+  "id": "A358901",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A056239",
+    "A063834",
+    "A129519",
+    "A141199",
+    "A218482",
+    "A300335",
+    "A319071",
+    "A319169",
+    "A320324",
+    "A358335",
+    "A358831",
+    "A358836",
+    "A358902",
+    "A358903",
+    "A358908",
+    "A358909",
+    "A358910",
+    "A358911"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

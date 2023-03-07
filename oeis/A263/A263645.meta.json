@@ -1,0 +1,21 @@
+{
+  "description": "Primes that are neither of the form p + 2^k nor of the form p - 2^k with k > 0, and p prime.",
+  "id": "A263645",
+  "mentions": [
+    "A065381",
+    "A137715",
+    "A153352",
+    "A180247",
+    "A263644"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

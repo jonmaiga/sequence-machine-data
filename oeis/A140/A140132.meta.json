@@ -1,0 +1,29 @@
+{
+  "description": "a(n)=Sum_digits{a(n-1)+a(n-2)+Sum_digits[a(n-1)]+Sum_digits[a(n-2)]}, with a(0)=0 and a(1)=1.",
+  "id": "A140132",
+  "mentions": [
+    "A016052",
+    "A047892",
+    "A047897",
+    "A047900",
+    "A047902",
+    "A047903",
+    "A055263",
+    "A134268",
+    "A135210",
+    "A140131"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:06:57",
+    "offset": 0,
+    "size": 95,
+    "source": "joeis"
+  }
+}

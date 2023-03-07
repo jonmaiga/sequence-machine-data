@@ -1,0 +1,18 @@
+{
+  "description": "Let s(k) = A052551(k), and write down s(0) consecutive integers beginning with 0, skip one integer, continue with s(1) consecutive numbers, skip one integer, then s(2) consecutive numbers, skip one integer, then s(3) consecutive numbers, and so on.",
+  "id": "A355890",
+  "mentions": [
+    "A052551"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Exchange successive pairs of terms of A000051.",
+  "id": "A140590",
+  "mentions": [
+    "A000051"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:29",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

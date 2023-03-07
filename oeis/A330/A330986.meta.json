@@ -1,0 +1,23 @@
+{
+  "description": "Irregular table read by rows in which the rows list the Littlewood-Richardson coefficients for products of Schur functions s_mu * s_nu, for partitions mu >= nu in the order they are listed in A036036 (colexicographic order).",
+  "id": "A330986",
+  "mentions": [
+    "A000027",
+    "A000041",
+    "A036036",
+    "A067855",
+    "A330985"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

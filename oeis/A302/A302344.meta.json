@@ -1,0 +1,32 @@
+{
+  "description": "Solutions to the congruence 1^n + 2^n + ... + n^n == 193 (mod n).",
+  "id": "A302344",
+  "mentions": [
+    "A005408",
+    "A014117",
+    "A226960",
+    "A226961",
+    "A226962",
+    "A226963",
+    "A226964",
+    "A226965",
+    "A226966",
+    "A226967",
+    "A280041",
+    "A280043",
+    "A302343",
+    "A302345"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers m such that d(m) < d(k) for all k < m, where d is the normalized delta defined as d(m) = (z(m+1) - z(m))*(log(z(m)/(2*Pi))/(2*Pi)) where z(k) is the imaginary part of the k-th Riemann zeta zero.",
+  "id": "A328656",
+  "mentions": [
+    "A114856",
+    "A254297",
+    "A255739",
+    "A255742",
+    "A326502",
+    "A329742"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

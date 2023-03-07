@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of 1/824633702441.",
+  "id": "A286651",
+  "mentions": [
+    "A077800"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:07:45",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

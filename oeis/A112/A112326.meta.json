@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k)=2^k*binomial(2n-k,n-k), 1<=k<=n.",
+  "id": "A112326",
+  "mentions": [
+    "A000984",
+    "A068551"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

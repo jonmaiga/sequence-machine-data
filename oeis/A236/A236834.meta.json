@@ -1,0 +1,28 @@
+{
+  "description": "Numbers that do not occur as results of \"downward\" remultiplication (N -> GF(2)[X]) of any number; numbers not present in A234741.",
+  "id": "A236834",
+  "mentions": [
+    "A091214",
+    "A234741",
+    "A236833",
+    "A236835",
+    "A236836",
+    "A236837",
+    "A236838",
+    "A236839",
+    "A236841",
+    "A236844",
+    "A236849",
+    "A236861"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

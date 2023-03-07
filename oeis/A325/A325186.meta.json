@@ -1,0 +1,28 @@
+{
+  "description": "Heinz numbers of integer partitions whose Young diagram has last part of its origin-to-boundary partition equal to 2.",
+  "id": "A325186",
+  "mentions": [
+    "A006918",
+    "A056239",
+    "A065770",
+    "A112798",
+    "A325164",
+    "A325169",
+    "A325170",
+    "A325183",
+    "A325184",
+    "A325185",
+    "A325190",
+    "A325197"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

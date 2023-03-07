@@ -1,0 +1,24 @@
+{
+  "description": "Array T(k,n) = n-th prime p such that 2^2^k + p^2^k is prime, k>2, read by antidiagonals.",
+  "id": "A132260",
+  "mentions": [
+    "A000040",
+    "A062324",
+    "A132261",
+    "A157764",
+    "A157950",
+    "A158361",
+    "A158477"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 3,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

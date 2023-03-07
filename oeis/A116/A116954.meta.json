@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that 3*n^3 + 1 is prime.",
+  "id": "A116954",
+  "mentions": [
+    "A089001"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

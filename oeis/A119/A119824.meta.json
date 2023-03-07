@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of area bounded by x->Exp[x] and x->Gamma[x+1] on 0 <= x <= c, where c is the value given by A078335.",
+  "id": "A119824",
+  "mentions": [
+    "A078335"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 2,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

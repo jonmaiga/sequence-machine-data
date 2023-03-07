@@ -1,0 +1,29 @@
+{
+  "description": "Inverse permutation to A135764.",
+  "id": "A249725",
+  "mentions": [
+    "A000079",
+    "A000124",
+    "A000217",
+    "A003602",
+    "A005408",
+    "A007814",
+    "A135764",
+    "A209268",
+    "A246276",
+    "A246676",
+    "A249742",
+    "A249811"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

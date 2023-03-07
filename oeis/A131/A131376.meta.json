@@ -1,0 +1,26 @@
+{
+  "description": "A007318 + A065941 - A168561.",
+  "id": "A131376",
+  "mentions": [
+    "A007318",
+    "A049310",
+    "A065941",
+    "A117591",
+    "A131375",
+    "A168561",
+    "A309213"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

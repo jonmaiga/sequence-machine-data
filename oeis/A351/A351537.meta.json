@@ -1,0 +1,21 @@
+{
+  "description": "Odd numbers k for which sigma(k) is congruent to 2 modulo 4 and is not a multiple of 3.",
+  "id": "A351537",
+  "mentions": [
+    "A068228",
+    "A191218",
+    "A329963",
+    "A351538"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

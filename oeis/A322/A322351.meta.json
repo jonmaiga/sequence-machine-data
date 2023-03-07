@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = min(A003557(n), A173557(n)).",
+  "id": "A322351",
+  "mentions": [
+    "A000010",
+    "A003557",
+    "A173557",
+    "A322320",
+    "A322321",
+    "A322352",
+    "A322355"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

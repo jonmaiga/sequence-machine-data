@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of e.g.f. Product_{k>0} B((k * x)^k) where B(x) = exp(exp(x)-1) = e.g.f. of Bell numbers.",
+  "id": "A356495",
+  "mentions": [
+    "A000110",
+    "A209903",
+    "A346055",
+    "A354892",
+    "A356494"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

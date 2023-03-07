@@ -1,0 +1,19 @@
+{
+  "description": "let f(N) be the smallest index m such that from the m-th term on, the sequence {k^k mod N: k >= 0} enters into a cycle, then a(n) is the smallest number N such that f(N) = n, or 0 if no such n exists.",
+  "id": "A328920",
+  "mentions": [
+    "A001694",
+    "A328914"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Noncomposite numbers all of whose decimal digits are noncomposite numbers (1,2,3,5,7).",
+  "id": "A190222",
+  "mentions": [
+    "A001742"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

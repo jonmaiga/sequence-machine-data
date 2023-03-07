@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows: T(n,L) = number of alpha-labeled graphs with n edges and boundary value L that do not use one number from (1,2,...,n-1) as a label (n >= 4, 1 <= L <= n - 2).",
+  "id": "A245517",
+  "mentions": [
+    "A005193",
+    "A241094"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 4,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

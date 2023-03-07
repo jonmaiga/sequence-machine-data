@@ -1,0 +1,21 @@
+{
+  "description": "a(0) = 0; thereafter a(n) is always the smallest integer > a(n-1) not leading to a contradiction, such that the concatenation of any two consecutive digits in the sequence is a prime.",
+  "id": "A152136",
+  "mentions": [
+    "A152604",
+    "A152607",
+    "A152609",
+    "A158652"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

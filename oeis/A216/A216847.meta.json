@@ -1,0 +1,18 @@
+{
+  "description": "Integers n such that 6n -/+ 1 and 30n -/+ 1 are all primes.",
+  "id": "A216847",
+  "mentions": [
+    "A002822",
+    "A176114"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Number of bicyclic skeletons with n carbon atoms and the parameter 'alpha' having the value of 2. See the paper by Hendrickson and Parks for details.",
+  "id": "A125671",
+  "mentions": [
+    "A000598",
+    "A121165",
+    "A121330",
+    "A121331",
+    "A121332",
+    "A121333",
+    "A125064",
+    "A125670"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 4,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

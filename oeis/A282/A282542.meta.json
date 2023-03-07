@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways to write n as x^2 + y^2 + z^2 + w^2 with x,y,z,w nonnegative integers such that x + 3*y + 5*z and (at least) one of y,z,w are squares.",
+  "id": "A282542",
+  "mentions": [
+    "A000118",
+    "A000290",
+    "A270969",
+    "A271518",
+    "A281976"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

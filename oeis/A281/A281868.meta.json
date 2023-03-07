@@ -1,0 +1,17 @@
+{
+  "description": "Number of sets of exactly eight positive integers <= n having a square element sum.",
+  "id": "A281868",
+  "mentions": [
+    "A281871"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 8,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

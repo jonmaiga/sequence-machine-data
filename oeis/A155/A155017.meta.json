@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = 10*a(n-1) + 90*a(n-2), n>2 ; a(0)=1, a(1)=1, a(2)=19 .",
+  "id": "A155017",
+  "mentions": [
+    "A154929"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:37",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

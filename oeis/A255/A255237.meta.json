@@ -1,0 +1,23 @@
+{
+  "description": "Array of conversion coefficients for the minimal polynomials C of 2 cos(Pi/n) in terms of Chebyshev's S-polynomials.",
+  "id": "A255237",
+  "mentions": [
+    "A000040",
+    "A049310",
+    "A055034",
+    "A187360"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

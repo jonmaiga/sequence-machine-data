@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n into distinct parts congruent to 1, 2, or 4 modulo 6.",
+  "id": "A253144",
+  "mentions": [
+    "A056970"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:11",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

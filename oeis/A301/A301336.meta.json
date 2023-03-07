@@ -1,0 +1,30 @@
+{
+  "description": "a(n) = total number of 1's minus total number of 0's in binary expansions of 0, ..., n.",
+  "id": "A301336",
+  "mentions": [
+    "A000079",
+    "A000120",
+    "A000295",
+    "A000788",
+    "A001855",
+    "A023416",
+    "A037861",
+    "A059015",
+    "A083652",
+    "A145037",
+    "A268289",
+    "A301896"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:35:07",
+    "offset": 0,
+    "size": 76,
+    "source": "joeis"
+  }
+}

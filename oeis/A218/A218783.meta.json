@@ -1,0 +1,25 @@
+{
+  "description": "A014486-indices for the compact representation of Beanstalk-tree, with the lesser numbers coming to the right hand side.",
+  "id": "A218783",
+  "mentions": [
+    "A014486",
+    "A057163",
+    "A080300",
+    "A218777",
+    "A218779",
+    "A218781",
+    "A218782",
+    "A218788"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:36",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

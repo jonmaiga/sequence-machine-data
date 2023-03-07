@@ -1,0 +1,21 @@
+{
+  "description": "Beginning with 1, least divisor of the previous term not included earlier, otherwise the least multiple of the previous term having at least one prime divisor coprime to it and not included earlier.",
+  "id": "A113552",
+  "mentions": [
+    "A007947",
+    "A113553",
+    "A282291",
+    "A304752"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

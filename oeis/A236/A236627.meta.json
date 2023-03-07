@@ -1,0 +1,33 @@
+{
+  "description": "Number of positive integers <= sqrt(n) not dividing n.",
+  "id": "A236627",
+  "mentions": [
+    "A000005",
+    "A000196",
+    "A007491",
+    "A010052",
+    "A018253",
+    "A038548",
+    "A160812",
+    "A161205",
+    "A212119",
+    "A228813",
+    "A228814",
+    "A229940",
+    "A229942",
+    "A229944",
+    "A229950",
+    "A229951"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 101,
+    "source": "joeis"
+  }
+}

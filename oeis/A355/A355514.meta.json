@@ -1,0 +1,21 @@
+{
+  "description": "Sum of numerator and denominator in a rational approximation j/k of q = log(2)/log(3), such that q - j/k is a new minimum, i.e., q is approximated from below.",
+  "id": "A355514",
+  "mentions": [
+    "A102525",
+    "A355240",
+    "A355512",
+    "A355513",
+    "A355515"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

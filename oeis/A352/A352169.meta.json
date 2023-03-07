@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k with a Goldbach partition (p,q) such that k/2 divides at least one of p*q +- 1.",
+  "id": "A352169",
+  "mentions": [
+    "A335495",
+    "A336582",
+    "A336583",
+    "A336584",
+    "A343797"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

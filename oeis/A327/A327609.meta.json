@@ -1,0 +1,17 @@
+{
+  "description": "Numbers expressible as a^b + c^d with b&d > 1 and a&c >= 0.",
+  "id": "A327609",
+  "mentions": [
+    "A070049"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

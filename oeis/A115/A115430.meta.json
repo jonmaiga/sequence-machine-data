@@ -1,0 +1,37 @@
+{
+  "description": "Numbers k such that the concatenation of k with k+9 gives a square.",
+  "id": "A115430",
+  "mentions": [
+    "A030465",
+    "A102567",
+    "A115426",
+    "A115428",
+    "A115429",
+    "A115431",
+    "A115432",
+    "A115433",
+    "A115434",
+    "A115435",
+    "A115436",
+    "A115437",
+    "A115441",
+    "A116112",
+    "A116168",
+    "A116172",
+    "A116173",
+    "A116193",
+    "A116323",
+    "A116344"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:44",
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

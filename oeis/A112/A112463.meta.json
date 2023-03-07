@@ -1,0 +1,26 @@
+{
+  "description": "Absolute value of coefficient of term [x^(n-7)] in characteristic polynomial of maximum matrix A of size n X n, where n >= 7. Maximum matrix A(i,j) is MAX(i,j), where indices i and j run from 1 to n.",
+  "id": "A112463",
+  "mentions": [
+    "A000217",
+    "A000914",
+    "A001844",
+    "A112459",
+    "A112460",
+    "A112461",
+    "A112462",
+    "A112464"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:45:15",
+    "offset": 7,
+    "size": 26,
+    "source": "joeis"
+  }
+}

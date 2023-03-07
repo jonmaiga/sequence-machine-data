@@ -1,0 +1,20 @@
+{
+  "description": "Coordination sequence for the bil tiling (or net) with respect to a trivalent node of the fourth type.",
+  "id": "A298795",
+  "mentions": [
+    "A298792",
+    "A298793",
+    "A298794"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:34:15",
+    "offset": 0,
+    "size": 60,
+    "source": "joeis"
+  }
+}

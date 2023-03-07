@@ -1,0 +1,20 @@
+{
+  "description": "Triangular numbers T such that T+2 is a prime.",
+  "id": "A171570",
+  "mentions": [
+    "A000217",
+    "A129545",
+    "A129752",
+    "A171569"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:55",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

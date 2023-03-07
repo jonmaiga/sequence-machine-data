@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are the sum of two positive cubes in exactly one way.",
+  "id": "A338667",
+  "mentions": [
+    "A003325",
+    "A025284",
+    "A025395",
+    "A343708",
+    "A344187"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

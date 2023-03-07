@@ -1,0 +1,20 @@
+{
+  "description": "Composite numbers n such that Sum_{d_",
+  "id": "A211778",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A066862",
+    "A211777"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

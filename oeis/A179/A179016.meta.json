@@ -1,0 +1,52 @@
+{
+  "description": "The infinite trunk of binary beanstalk: The only infinite sequence such that a(n-1) = a(n) - number of 1's in binary representation of a(n).",
+  "id": "A179016",
+  "mentions": [
+    "A000120",
+    "A005187",
+    "A010062",
+    "A011371",
+    "A054429",
+    "A071542",
+    "A173601",
+    "A213708",
+    "A213710",
+    "A213711",
+    "A213712",
+    "A213713",
+    "A213715",
+    "A213717",
+    "A213730",
+    "A213731",
+    "A218254",
+    "A218600",
+    "A218602",
+    "A218603",
+    "A218604",
+    "A218616",
+    "A218789",
+    "A219648",
+    "A219666",
+    "A233271",
+    "A255056",
+    "A259934",
+    "A276573",
+    "A276583",
+    "A276613",
+    "A276623"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "An Ulam-type sequence: a(n) = n if n<=4; for n>4, a(n) = least number > a(n-1) which is a unique sum of 4 distinct earlier terms.",
+  "id": "A183527",
+  "mentions": [
+    "A002858",
+    "A007086",
+    "A007300",
+    "A135737",
+    "A183528",
+    "A183533",
+    "A183534"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:07",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

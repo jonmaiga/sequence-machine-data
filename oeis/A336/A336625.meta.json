@@ -1,0 +1,43 @@
+{
+  "description": "Indices of triangular numbers that are eight times other triangular numbers.",
+  "id": "A336625",
+  "mentions": [
+    "A000217",
+    "A001571",
+    "A001652",
+    "A029549",
+    "A053141",
+    "A061278",
+    "A075528",
+    "A076139",
+    "A076140",
+    "A077259",
+    "A077260",
+    "A077261",
+    "A077262",
+    "A077288",
+    "A077289",
+    "A077290",
+    "A077291",
+    "A077398",
+    "A077399",
+    "A077400",
+    "A077401",
+    "A166477",
+    "A336623",
+    "A336624",
+    "A336626"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

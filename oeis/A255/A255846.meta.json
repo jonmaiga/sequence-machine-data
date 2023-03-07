@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 2*n^2 + 14.",
+  "id": "A255846",
+  "mentions": [
+    "A047235",
+    "A047451",
+    "A117619",
+    "A255843"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:27:07",
+    "offset": 0,
+    "size": 48,
+    "source": "joeis"
+  }
+}

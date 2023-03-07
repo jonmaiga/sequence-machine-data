@@ -1,0 +1,25 @@
+{
+  "description": "Denominators of coefficients of expansion of arctan(x)^3.",
+  "id": "A231121",
+  "mentions": [
+    "A002428",
+    "A002429",
+    "A071968",
+    "A081051",
+    "A140749",
+    "A141904",
+    "A142048"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

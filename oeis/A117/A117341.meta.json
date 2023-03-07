@@ -1,0 +1,17 @@
+{
+  "description": "Greatest hypotenuse of primitive Pythagorean triangle not exceeding 10^n.",
+  "id": "A117341",
+  "mentions": [
+    "A117340"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the least number k such that A048105(k) = A048105(k+1) = 2*n, and 0 if it does not exist.",
+  "id": "A344315",
+  "mentions": [
+    "A048105",
+    "A075036",
+    "A093548",
+    "A215199",
+    "A309181",
+    "A344314"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

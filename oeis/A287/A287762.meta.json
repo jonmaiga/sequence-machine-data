@@ -1,0 +1,25 @@
+{
+  "description": "Number of self-orthogonal diagonal Latin squares of order n.",
+  "id": "A287762",
+  "mentions": [
+    "A160368",
+    "A287761",
+    "A305571",
+    "A309599",
+    "A329685",
+    "A333671"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

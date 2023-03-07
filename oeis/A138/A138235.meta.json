@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = floor(n*(6 + sqrt(6))/5).",
+  "id": "A138235",
+  "mentions": [
+    "A022840",
+    "A138236",
+    "A248515"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:49:59",
+    "offset": 1,
+    "size": 68,
+    "source": "joeis"
+  }
+}

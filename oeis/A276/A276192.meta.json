@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that there is no twin prime pair between A000217(n) and A000217(n+1) (n > 0).",
+  "id": "A276192",
+  "mentions": [
+    "A000217",
+    "A001097",
+    "A091592"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

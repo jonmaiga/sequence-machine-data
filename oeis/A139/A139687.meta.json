@@ -1,0 +1,25 @@
+{
+  "description": "Basis of degenerate cases of sequences identical to its p-th differences. Complement to A140344 which is based on natural Catalan's triangle. Triangle without first term (probable 1) on line.",
+  "id": "A139687",
+  "mentions": [
+    "A009766",
+    "A057083",
+    "A099087",
+    "A135356",
+    "A138112",
+    "A140343",
+    "A140344"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

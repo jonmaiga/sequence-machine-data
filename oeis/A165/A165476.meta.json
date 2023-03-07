@@ -1,0 +1,22 @@
+{
+  "description": "Legendre symbol (n,131071).",
+  "id": "A165476",
+  "mentions": [
+    "A000040",
+    "A000668",
+    "A097343",
+    "A165477",
+    "A226520"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:48",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

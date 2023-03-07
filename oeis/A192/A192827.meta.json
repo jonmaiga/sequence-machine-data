@@ -1,0 +1,19 @@
+{
+  "description": "Molecular topological indices of the gear graphs",
+  "id": "A192827",
+  "mentions": [
+    "A000567"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:51:17",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

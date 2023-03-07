@@ -1,0 +1,19 @@
+{
+  "description": "Cubes which are not the sum of three squares.",
+  "id": "A134738",
+  "mentions": [
+    "A004215",
+    "A134739"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:22",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

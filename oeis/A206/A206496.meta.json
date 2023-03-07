@@ -1,0 +1,21 @@
+{
+  "description": "The Connes-Moscovici weight of the rooted tree with Matula-Goebel number n. It is defined as the number of ways to build up the rooted tree from the one-vertex tree by adding successively edges to the existing vertices.",
+  "id": "A206496",
+  "mentions": [
+    "A061775",
+    "A206493",
+    "A206494",
+    "A206497"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Series reversion of x*(1-x-2*x^2)/(1-x).",
+  "id": "A235349",
+  "mentions": [
+    "A235347"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:53",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

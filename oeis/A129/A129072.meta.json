@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that (n-13)/12 is prime.",
+  "id": "A129072",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

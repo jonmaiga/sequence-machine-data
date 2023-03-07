@@ -1,0 +1,25 @@
+{
+  "description": "Lexicographically earliest sequence of distinct terms such that the successive quantities of digits between two successive 1s are given by the succession of the sequence's digits itself.",
+  "id": "A303151",
+  "mentions": [
+    "A302943",
+    "A303157",
+    "A303158",
+    "A303163",
+    "A303164",
+    "A303166",
+    "A303167",
+    "A303171"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

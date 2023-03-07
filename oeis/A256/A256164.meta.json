@@ -1,0 +1,22 @@
+{
+  "description": "Number of terms in A256163 less than 10^n.",
+  "id": "A256164",
+  "mentions": [
+    "A254248",
+    "A255816",
+    "A255971",
+    "A256163",
+    "A256238"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

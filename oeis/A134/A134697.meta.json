@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that n * n# - 1 is prime, where n# = A034386.",
+  "id": "A134697",
+  "mentions": [
+    "A034386"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

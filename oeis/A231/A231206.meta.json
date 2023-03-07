@@ -1,0 +1,18 @@
+{
+  "description": "List the number of subsequent terms whose concatenation yields a prime; always use the smallest possible number not occurring earlier.",
+  "id": "A231206",
+  "mentions": [
+    "A231207"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

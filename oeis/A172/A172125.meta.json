@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = smallest prime of the form n*(n+1)*(n+2)...(n+k-1) - 1, or zero if no such a prime exists.",
+  "id": "A172125",
+  "mentions": [
+    "A087564",
+    "A172130",
+    "A172133"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

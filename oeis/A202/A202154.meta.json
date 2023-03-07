@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of sqrt(phi) / (1 - phi/e) where phi=(1+sqrt(5))/2.",
+  "id": "A202154",
+  "mentions": [
+    "A001113"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:35:05",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

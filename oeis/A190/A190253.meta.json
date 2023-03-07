@@ -1,0 +1,18 @@
+{
+  "description": "Central coefficients of the Riordan matrix (g(x),x*g(x)), where g(x) = (1-x-sqrt(1-2x-3x^2-4x^3))/(2*x^2*(1+x)) (A190252).",
+  "id": "A190253",
+  "mentions": [
+    "A190252"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

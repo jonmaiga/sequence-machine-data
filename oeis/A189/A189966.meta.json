@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of (3+sqrt(33))/4, which has periodic continued fractions [2,5,2,1,2,5,2,1,...] and [3/2, 1, 3/2, 1, ...].",
+  "id": "A189966",
+  "mentions": [
+    "A188485",
+    "A188635",
+    "A188939"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

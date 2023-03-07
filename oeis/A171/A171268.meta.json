@@ -1,0 +1,21 @@
+{
+  "description": "Primes q such that q^p ends with q, where p is the product of the digits of q.",
+  "id": "A171268",
+  "mentions": [
+    "A002957",
+    "A004022",
+    "A171267",
+    "A171269"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:55",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions p of n into distinct parts such that max(p) > 1 + 2*min(p).",
+  "id": "A241064",
+  "mentions": [
+    "A000009",
+    "A207642",
+    "A241037",
+    "A241061",
+    "A241062"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

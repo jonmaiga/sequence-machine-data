@@ -1,0 +1,20 @@
+{
+  "description": "Nonnegative integers which produce a record minimum MD5 hash.",
+  "id": "A349647",
+  "mentions": [
+    "A349646"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "fini",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

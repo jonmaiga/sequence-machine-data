@@ -1,0 +1,18 @@
+{
+  "description": "In base n, you must write the first A206243(n) positive multiples of a(n) in order to write every base-n digit.",
+  "id": "A206243",
+  "mentions": [
+    "A206242"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 2,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

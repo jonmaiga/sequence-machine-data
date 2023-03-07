@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = letters(n) + a(n-1); a(0) = 0 in Spanish.",
+  "id": "A153453",
+  "mentions": [
+    "A011762",
+    "A067278"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

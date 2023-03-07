@@ -1,0 +1,23 @@
+{
+  "description": "Number of ordered ways to write n = k + m with k > 0 and m > 0 such that A000009(k) + A047967(m) is prime.",
+  "id": "A236442",
+  "mentions": [
+    "A000009",
+    "A000040",
+    "A047967",
+    "A232504",
+    "A233307",
+    "A233390",
+    "A233417"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

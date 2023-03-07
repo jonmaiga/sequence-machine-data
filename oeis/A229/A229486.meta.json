@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that there is a m with 2^m/(m+1) < binomial(m,k) <= 2^m/m and k < m/2.",
+  "id": "A229486",
+  "mentions": [
+    "A229484"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

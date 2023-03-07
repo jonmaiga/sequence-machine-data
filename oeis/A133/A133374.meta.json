@@ -1,0 +1,21 @@
+{
+  "description": "Difference between largest number of complexity n in the sense of A005245 and smallest number of complexity n in the sense of A005245.",
+  "id": "A133374",
+  "mentions": [
+    "A000792",
+    "A005245",
+    "A005520",
+    "A133344"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

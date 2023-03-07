@@ -1,0 +1,24 @@
+{
+  "description": "Total number of \"ON\" cells at n-th stage in simple 2-dimensional cellular automaton which is the \"corner\" structure corresponding to A160118.",
+  "id": "A160796",
+  "mentions": [
+    "A139250",
+    "A153006",
+    "A160118",
+    "A160412",
+    "A160416",
+    "A160797",
+    "A160798"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:47",
+    "offset": 0,
+    "size": 47,
+    "source": "joeis"
+  }
+}

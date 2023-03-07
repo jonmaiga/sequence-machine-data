@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) is the smallest number with at least as many divisors as 2*a(n-1).",
+  "id": "A350049",
+  "mentions": [
+    "A002182",
+    "A019505",
+    "A067255",
+    "A139770"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

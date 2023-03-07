@@ -1,0 +1,23 @@
+{
+  "description": "Interspersion related to the Wythoff Array.",
+  "id": "A175004",
+  "mentions": [
+    "A000071",
+    "A001595",
+    "A001610",
+    "A035513",
+    "A191426"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

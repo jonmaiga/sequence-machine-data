@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of edge covers of the complete labeled graph on n nodes that are minimal and have exactly k edges, n>=2, 1<=k<=n-1.",
+  "id": "A281269",
+  "mentions": [
+    "A001147",
+    "A008299",
+    "A053530",
+    "A200142"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 2,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

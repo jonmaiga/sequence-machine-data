@@ -1,0 +1,23 @@
+{
+  "description": "Permutation of natural numbers: a(0) = 0, a(3n) = 1 + 2*a(2n - 1), a(3n+1) = 1 + 2*a(2n), a(3n+2) = 2*a(n+1).",
+  "id": "A254104",
+  "mentions": [
+    "A007051",
+    "A016789",
+    "A032766",
+    "A064216",
+    "A253887",
+    "A254103"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

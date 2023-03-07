@@ -1,0 +1,19 @@
+{
+  "description": "A triangle of coefficients of A053122 type binomials {x,y},{y,z} and {z,x}, made using A_n Cartan type matrix characteristic polynomials: an(x,n) = CharacteristicPolynomial(M(A_n,n)); f(x,y,n) = Sum[Coefficients(an[x,n)*x^i*y^(n-i),{i,0,n}]; p(x,y,z,n) = f(x,y,n) + f(y,z,n) + f(z,x,n).",
+  "id": "A139584",
+  "mentions": [
+    "A053122"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

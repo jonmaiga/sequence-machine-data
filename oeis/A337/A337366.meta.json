@@ -1,0 +1,22 @@
+{
+  "description": "Number of representations of A036691(n) as a sum of 3 nonnegative cubes.",
+  "id": "A337366",
+  "mentions": [
+    "A025447",
+    "A036691",
+    "A226955",
+    "A267414"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

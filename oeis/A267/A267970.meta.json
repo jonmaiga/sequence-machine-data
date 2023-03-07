@@ -1,0 +1,18 @@
+{
+  "description": "Conjectured list of positive numbers n such that the Collatz-like map T: if x > 1 and x odd, x -> 5*x+1 and, if x even, x -> x/2, when started at n, never repeats.",
+  "id": "A267970",
+  "mentions": [
+    "A232711",
+    "A267969"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

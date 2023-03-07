@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k and k+1 are both half-Zumkeller numbers (A246198).",
+  "id": "A331371",
+  "mentions": [
+    "A246198",
+    "A246199",
+    "A328327"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

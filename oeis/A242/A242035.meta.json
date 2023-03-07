@@ -1,0 +1,21 @@
+{
+  "description": "The numerator of h(n-k)*h(k)/h(n) where h(x) = zeta(2*x)*(4^x-2) and k = floor(n/2).",
+  "id": "A242035",
+  "mentions": [
+    "A242050",
+    "A246051",
+    "A246052",
+    "A246053"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

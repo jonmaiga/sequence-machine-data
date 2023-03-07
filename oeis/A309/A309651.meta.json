@@ -1,0 +1,26 @@
+{
+  "description": "T(n,k) is the number of non-equivalent distinguishing colorings of the cycle on n vertices with exactly k colors (k>=1). Regular triangle read by rows, n >= 1, 1 <= k <= n.",
+  "id": "A309651",
+  "mentions": [
+    "A001710",
+    "A032239",
+    "A254040",
+    "A305541",
+    "A309528",
+    "A326660",
+    "A326789",
+    "A326888"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

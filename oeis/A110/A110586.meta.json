@@ -1,0 +1,19 @@
+{
+  "description": "Squares of the form 6p+7 for p prime (A110015) that are squares of a prime.",
+  "id": "A110586",
+  "mentions": [
+    "A110014",
+    "A110015",
+    "A110016"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

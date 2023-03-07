@@ -1,0 +1,18 @@
+{
+  "description": "Integers k such that A308702(k) < k-1.",
+  "id": "A308703",
+  "mentions": [
+    "A000290",
+    "A308702"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

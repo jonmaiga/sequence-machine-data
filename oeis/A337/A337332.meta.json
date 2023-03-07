@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{k=0..n}C(n,k)*C(n+k,k)*C(2k,k)*C(2n-2k,n-k)*(-8)^(n-k).",
+  "id": "A337332",
+  "mentions": [
+    "A000796",
+    "A000984",
+    "A005260",
+    "A336981",
+    "A336982",
+    "A337247"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

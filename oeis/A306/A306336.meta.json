@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of e.g.f. sec(log(1 + x)) + tan(log(1 + x)).",
+  "id": "A306336",
+  "mentions": [
+    "A000111",
+    "A003708",
+    "A009007",
+    "A048994",
+    "A317022"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

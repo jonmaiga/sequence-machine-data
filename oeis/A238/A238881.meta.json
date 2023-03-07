@@ -1,0 +1,22 @@
+{
+  "description": "Number of odd primes p < 2*n with prime(n*(p+1)/2) + n*(p+1)/2 prime.",
+  "id": "A238881",
+  "mentions": [
+    "A000040",
+    "A064269",
+    "A064402",
+    "A238573",
+    "A238576",
+    "A238878"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:56",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

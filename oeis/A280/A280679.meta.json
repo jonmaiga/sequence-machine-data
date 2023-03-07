@@ -1,0 +1,20 @@
+{
+  "description": "The radii (a, b, c) of three primitive mutually tangent circles all touching the same straight line, with a > b > c.",
+  "id": "A280679",
+  "mentions": [
+    "A265189",
+    "A280680"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

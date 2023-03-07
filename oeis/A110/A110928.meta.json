@@ -1,0 +1,28 @@
+{
+  "description": "Pairs of distinct numbers m and n, m",
+  "id": "A110928",
+  "mentions": [
+    "A001157",
+    "A002025",
+    "A002046",
+    "A063990",
+    "A110926",
+    "A110927",
+    "A110929",
+    "A131907",
+    "A131908",
+    "A158915"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

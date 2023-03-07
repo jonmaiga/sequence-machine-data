@@ -1,0 +1,18 @@
+{
+  "description": "Let w denote the harmonic saw map, write w^n(gamma) = -b(n) + gamma*c(n); sequence gives b(n).",
+  "id": "A215262",
+  "mentions": [
+    "A215263"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

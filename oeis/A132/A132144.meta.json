@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that can't be expressed as the sum of a prime number and a Fibonacci number (0 is considered to be a Fibonacci number).",
+  "id": "A132144",
+  "mentions": [
+    "A132145",
+    "A132146"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

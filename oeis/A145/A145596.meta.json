@@ -1,0 +1,26 @@
+{
+  "description": "Triangular array of generalized Narayana numbers: T(n, k) = 2*binomial(n + 1, k + 1)*binomial(n + 1, k - 1)/(n + 1).",
+  "id": "A145596",
+  "mentions": [
+    "A001263",
+    "A002057",
+    "A108838",
+    "A145597",
+    "A145598",
+    "A145599",
+    "A145600"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

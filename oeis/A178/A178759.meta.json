@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. 3*x*exp(x)*(exp(x)-1)^2.",
+  "id": "A178759",
+  "mentions": [
+    "A058877",
+    "A178756"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

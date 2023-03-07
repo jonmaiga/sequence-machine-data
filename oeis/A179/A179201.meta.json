@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. equals the imaginary part of the i-th iteration of (x + x^2), where i=sqrt(-1).",
+  "id": "A179201",
+  "mentions": [
+    "A030528",
+    "A179200"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

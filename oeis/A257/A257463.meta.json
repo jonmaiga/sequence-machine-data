@@ -1,0 +1,28 @@
+{
+  "description": "Number A(n,k) of factorizations of m^k into n factors, where m is a product of exactly n distinct primes and each factor is a product of k primes (counted with multiplicity); square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A257463",
+  "mentions": [
+    "A000012",
+    "A002135",
+    "A008619",
+    "A253259",
+    "A253263",
+    "A254243",
+    "A257462",
+    "A257464",
+    "A257493",
+    "A268668",
+    "A334286"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

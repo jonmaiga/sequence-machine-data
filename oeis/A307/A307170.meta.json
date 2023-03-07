@@ -1,0 +1,23 @@
+{
+  "description": "Minimum number of partial loops in a diagonal Latin square of order n.",
+  "id": "A307170",
+  "mentions": [
+    "A274806",
+    "A307163",
+    "A307166",
+    "A307167",
+    "A307171"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

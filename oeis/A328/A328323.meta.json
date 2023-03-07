@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = gcd(A328316(n),A328316(1+n)).",
+  "id": "A328323",
+  "mentions": [
+    "A276086",
+    "A324198",
+    "A328316",
+    "A328317"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:57",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

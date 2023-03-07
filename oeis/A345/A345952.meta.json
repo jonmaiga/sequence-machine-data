@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 1 if the largest prime power divisor of n (A034699) is greater than the largest prime divisor of n (A006530).",
+  "id": "A345952",
+  "mentions": [
+    "A006530",
+    "A034699",
+    "A122145",
+    "A268340",
+    "A345951"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:19",
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

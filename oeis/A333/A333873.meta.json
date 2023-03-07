@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that equal to the sum of their iterated absolute Möbius divisor function (A173557).",
+  "id": "A333873",
+  "mentions": [
+    "A000010",
+    "A019434",
+    "A082897",
+    "A173557",
+    "A286067",
+    "A330273",
+    "A333871"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

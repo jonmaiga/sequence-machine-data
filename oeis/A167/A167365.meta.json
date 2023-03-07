@@ -1,0 +1,18 @@
+{
+  "description": "Irregular triangle read by columns: Frequency with which different primes result from the sum of the members of each subset of size N of the set {1..N^2}.",
+  "id": "A167365",
+  "mentions": [
+    "A167147"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

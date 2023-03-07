@@ -1,0 +1,23 @@
+{
+  "description": "Integers whose names in French contain no letter more than once.",
+  "id": "A354681",
+  "mentions": [
+    "A059916",
+    "A117383"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "less",
+    "sign",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

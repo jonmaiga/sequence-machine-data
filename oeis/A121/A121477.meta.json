@@ -1,0 +1,20 @@
+{
+  "description": "Zeroless palindromes with digit sum 9.",
+  "id": "A121477",
+  "mentions": [
+    "A121476"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

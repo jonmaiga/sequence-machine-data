@@ -1,0 +1,18 @@
+{
+  "description": "Number of arrays of 10 integers in -n..n with sum zero.",
+  "id": "A322537",
+  "mentions": [
+    "A201552"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Largest possible side length, b, of a primitive Heronian triangle with perimeter A096468(n), such that a <= b <= c.",
+  "id": "A331263",
+  "mentions": [
+    "A096468",
+    "A331210",
+    "A331264"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

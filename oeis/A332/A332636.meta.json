@@ -1,0 +1,20 @@
+{
+  "description": "Two-parameter family of recursively defined triangles, T(m,t), whose rows right-padded with zeros appear in the limiting sequence of families of certain linear recursive sequences. The data presents the sequence of triangles T(2,t) by ascending antidiagonals.",
+  "id": "A332636",
+  "mentions": [
+    "A118800"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

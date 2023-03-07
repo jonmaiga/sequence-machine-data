@@ -1,0 +1,23 @@
+{
+  "description": "Nonexponential multiply-perfect numbers: numbers k such that k | A160135(k).",
+  "id": "A348601",
+  "mentions": [
+    "A007691",
+    "A064594",
+    "A064595",
+    "A160135",
+    "A189000",
+    "A327158"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

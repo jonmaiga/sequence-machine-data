@@ -1,0 +1,21 @@
+{
+  "description": "Balanced numbers n (A020492) such that phi(n) is not divisible by 12.",
+  "id": "A110590",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A020492"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

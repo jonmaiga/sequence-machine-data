@@ -1,0 +1,20 @@
+{
+  "description": "The squares in A329472.",
+  "id": "A329328",
+  "mentions": [
+    "A000290",
+    "A262783",
+    "A329472"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

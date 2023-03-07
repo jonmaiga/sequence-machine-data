@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows in which row n lists 2n-1 followed by 2n numbers 2n.",
+  "id": "A161205",
+  "mentions": [
+    "A000005",
+    "A000196",
+    "A000720",
+    "A018253",
+    "A125202",
+    "A160811",
+    "A160812",
+    "A161339"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
+  }
+}

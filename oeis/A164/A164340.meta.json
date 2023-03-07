@@ -1,0 +1,17 @@
+{
+  "description": "Write down the primes dividing n (with repetition) in an exponent tower (see comment). a(n) = the largest possible value of such a tower.",
+  "id": "A164340",
+  "mentions": [
+    "A164339"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

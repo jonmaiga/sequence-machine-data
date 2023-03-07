@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically first permutation of the nonnegative integers such that Sum_{k=n..2n} a(k) is a square, starting with a(1)=0.",
+  "id": "A259018",
+  "mentions": [
+    "A000290",
+    "A247665"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

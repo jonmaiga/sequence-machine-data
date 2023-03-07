@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that prime(k+1) == 3 (mod k).",
+  "id": "A105288",
+  "mentions": [
+    "A004649",
+    "A105286",
+    "A105287",
+    "A105290",
+    "A105329",
+    "A105451"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

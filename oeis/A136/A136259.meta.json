@@ -1,0 +1,21 @@
+{
+  "description": "Stone skipping numbers.",
+  "id": "A136259",
+  "mentions": [
+    "A137292",
+    "A238091",
+    "A238092",
+    "A270877"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

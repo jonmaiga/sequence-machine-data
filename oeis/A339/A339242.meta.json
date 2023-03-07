@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of n into prime power parts (1 excluded) where every part appears at least 2 times.",
+  "id": "A339242",
+  "mentions": [
+    "A007690",
+    "A023894",
+    "A161077",
+    "A246655",
+    "A339218",
+    "A339241"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "First differences of A007878.",
+  "id": "A138787",
+  "mentions": [
+    "A007878",
+    "A138788"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

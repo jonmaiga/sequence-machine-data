@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1 thereafter a(n) = Sum_{m=1..n-1} prime(a(m)).",
+  "id": "A259408",
+  "mentions": [
+    "A014688",
+    "A074271"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

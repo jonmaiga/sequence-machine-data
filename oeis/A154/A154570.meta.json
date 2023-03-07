@@ -1,0 +1,23 @@
+{
+  "description": "The main diagonal of the successive differences of A154127.",
+  "id": "A154570",
+  "mentions": [
+    "A020988",
+    "A047849",
+    "A078008",
+    "A083582",
+    "A140966",
+    "A154127"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:35:40",
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

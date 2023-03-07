@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 2*A000129(n) + A000129(n-1) - n.",
+  "id": "A129589",
+  "mentions": [
+    "A000129"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:17",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

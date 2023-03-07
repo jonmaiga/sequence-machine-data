@@ -1,0 +1,21 @@
+{
+  "description": "Number of ordered factorizations of n into numbers > 1 with an even number of distinct prime divisors.",
+  "id": "A357375",
+  "mentions": [
+    "A030231",
+    "A050334",
+    "A074206",
+    "A308063",
+    "A357374"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

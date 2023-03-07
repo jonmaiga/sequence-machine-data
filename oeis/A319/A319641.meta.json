@@ -1,0 +1,31 @@
+{
+  "description": "Number of non-isomorphic weight-n antichains of distinct multisets whose dual is also an antichain of (not necessarily distinct) multisets.",
+  "id": "A319641",
+  "mentions": [
+    "A006126",
+    "A007716",
+    "A049311",
+    "A059201",
+    "A283877",
+    "A293606",
+    "A316980",
+    "A316983",
+    "A318099",
+    "A319558",
+    "A319616",
+    "A319628",
+    "A319646"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

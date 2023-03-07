@@ -1,0 +1,20 @@
+{
+  "description": "Positions of the prime numbers in the sequence of numbers that are not perfect powers (A007916).",
+  "id": "A279984",
+  "mentions": [
+    "A000040",
+    "A007916",
+    "A279944"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:47",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

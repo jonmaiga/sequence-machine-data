@@ -1,0 +1,21 @@
+{
+  "description": "Irregular array read by rows: A(n,k) = number of first coronas of a fixed rhombus r_{n,k} with characteristics of n-fold rotational symmetry in the Euclidean plane, n>=2, 1<=k<=floor(n/2), reduced for symmetry, as explained below.",
+  "id": "A233333",
+  "mentions": [
+    "A233329",
+    "A233332"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 2,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

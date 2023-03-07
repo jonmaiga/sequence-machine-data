@@ -1,0 +1,22 @@
+{
+  "description": "Scaled g.f. T(u) = Sum_{n>=0} a(n)*(3*u/48)^n satisfies 3*(2*u-1)*T + d/du(4*u*(2*u-1)*(u-1)*T') = 0, and a(0)=1; sequence gives a(n).",
+  "id": "A318417",
+  "mentions": [
+    "A000984",
+    "A002894",
+    "A098410",
+    "A113424",
+    "A318245"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:53:40",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

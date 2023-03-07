@@ -1,0 +1,33 @@
+{
+  "description": "Completely multiplicative with a(p) = p if p = 6k+1 and a(p) = 1 otherwise.",
+  "id": "A248909",
+  "mentions": [
+    "A000265",
+    "A002476",
+    "A004611",
+    "A007528",
+    "A020639",
+    "A028234",
+    "A032742",
+    "A065330",
+    "A065331",
+    "A097706",
+    "A170818",
+    "A170824",
+    "A343430",
+    "A343431"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

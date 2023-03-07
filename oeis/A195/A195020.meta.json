@@ -1,0 +1,37 @@
+{
+  "description": "Vertex number of a square spiral in which the length of the first two edges are the legs of the primitive Pythagorean triple [3, 4, 5]. The edges of the spiral have length A195019.",
+  "id": "A195020",
+  "mentions": [
+    "A000217",
+    "A001106",
+    "A004526",
+    "A008585",
+    "A008586",
+    "A008587",
+    "A022264",
+    "A024966",
+    "A033572",
+    "A047335",
+    "A047355",
+    "A144555",
+    "A158482",
+    "A158485",
+    "A195018",
+    "A195019",
+    "A195032",
+    "A195034",
+    "A195036"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

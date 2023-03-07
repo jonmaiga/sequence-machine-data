@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X n 0..2 arrays with diagonals and antidiagonals unimodal and rows nondecreasing",
+  "id": "A224347",
+  "mentions": [
+    "A224353"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

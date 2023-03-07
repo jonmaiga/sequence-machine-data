@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n whose square can be represented as a repdigit number in some base less than n.",
+  "id": "A158235",
+  "mentions": [
+    "A158236",
+    "A158237",
+    "A158245",
+    "A158912",
+    "A208242"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

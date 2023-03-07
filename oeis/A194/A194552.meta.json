@@ -1,0 +1,25 @@
+{
+  "description": "Sum of all parts > 1 of all partitions of n.",
+  "id": "A194552",
+  "mentions": [
+    "A000041",
+    "A000070",
+    "A066186",
+    "A096541",
+    "A135010",
+    "A138121",
+    "A138135",
+    "A138880"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

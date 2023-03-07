@@ -1,0 +1,18 @@
+{
+  "description": "Smallest odd prime Q such that Q*2^prime(n)-1 is also a prime number.",
+  "id": "A249382",
+  "mentions": [
+    "A249383",
+    "A249384"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

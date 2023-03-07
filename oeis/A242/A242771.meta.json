@@ -1,0 +1,45 @@
+{
+  "description": "Number of integer points in a certain quadrilateral scaled by a factor of n (another version).",
+  "id": "A242771",
+  "mentions": [
+    "A000009",
+    "A000212",
+    "A000217",
+    "A001399",
+    "A001523",
+    "A001840",
+    "A002789",
+    "A007318",
+    "A010761",
+    "A014311",
+    "A046691",
+    "A069905",
+    "A097805",
+    "A115981",
+    "A128422",
+    "A140106",
+    "A147874",
+    "A156040",
+    "A218004",
+    "A332834",
+    "A333255",
+    "A337461",
+    "A337481",
+    "A337482",
+    "A337483",
+    "A337484",
+    "A337604",
+    "A337698"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:19:51",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

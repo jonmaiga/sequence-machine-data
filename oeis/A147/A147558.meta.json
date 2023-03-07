@@ -1,0 +1,18 @@
+{
+  "description": "Result of using the Fibonacci numbers as coefficients in an infinite polynomial series in x and then expressing this series as (1+a(1)x)(1+a(2)x^2)(1+a(3x^3)...",
+  "id": "A147558",
+  "mentions": [
+    "A000045",
+    "A147542"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

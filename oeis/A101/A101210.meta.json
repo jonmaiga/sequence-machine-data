@@ -1,0 +1,19 @@
+{
+  "description": "Charlie Chaplin numbers: Stage 1: the input is the sequence F(n) = 1,2,1,2,1,2,1,2,... of alternating 1's and 2s, starting with F(1)=1. Let m = 1. At each iteration take F(m) and add it to F(m+F(m)) then increment m by 1 and repeat. The numbers are the values of F(m) which are larger than all previous values.",
+  "id": "A101210",
+  "mentions": [
+    "A116587"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn",
+    "obsc"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

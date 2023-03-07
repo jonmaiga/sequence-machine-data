@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least k such that A342821(k) = prime(n).",
+  "id": "A342822",
+  "mentions": [
+    "A342821"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

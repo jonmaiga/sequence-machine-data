@@ -1,0 +1,18 @@
+{
+  "description": "First differences of A000043.",
+  "id": "A134458",
+  "mentions": [
+    "A000043",
+    "A000668"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

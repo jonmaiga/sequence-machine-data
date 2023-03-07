@@ -1,0 +1,22 @@
+{
+  "description": "Largest k = 2^(m - 1)*(2^m - 1) such that bigomega(k) = n or 0 if no such k exists.",
+  "id": "A215896",
+  "mentions": [
+    "A000043",
+    "A000396",
+    "A001222",
+    "A006516",
+    "A046051",
+    "A144858"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Exponential transform of (A000275 number of pairs of permutations with rise/rise forbidden).",
+  "id": "A188489",
+  "mentions": [
+    "A000275",
+    "A115368"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

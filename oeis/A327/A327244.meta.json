@@ -1,0 +1,26 @@
+{
+  "description": "Number T(n,k) of colored compositions of n using all colors of a k-set such that all parts have different color patterns and the patterns for parts i are sorted and have i colors in (weakly) increasing order; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A327244",
+  "mentions": [
+    "A000007",
+    "A032020",
+    "A120774",
+    "A309670",
+    "A327245",
+    "A327595",
+    "A327596",
+    "A327841"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:54",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Sum of numbers < n which have common prime factors with n.",
+  "id": "A308473",
+  "mentions": [
+    "A000010",
+    "A000217",
+    "A001065",
+    "A008578",
+    "A008683",
+    "A016035",
+    "A023896",
+    "A024816",
+    "A051953",
+    "A067392",
+    "A109607"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:51:39",
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

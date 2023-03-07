@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. (sec(x) + tan(x))*exp(x)*BesselI(1,2*x)/x.",
+  "id": "A306836",
+  "mentions": [
+    "A000111",
+    "A000753",
+    "A001006"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

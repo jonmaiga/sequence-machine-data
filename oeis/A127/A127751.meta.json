@@ -1,0 +1,19 @@
+{
+  "description": "Inverse of number triangle A(n,k)=if(k<=n,if(n<=2k,1/(3n+1),0),0).",
+  "id": "A127751",
+  "mentions": [
+    "A035263",
+    "A127752"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

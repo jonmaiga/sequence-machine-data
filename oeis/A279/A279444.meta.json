@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways to place n points on an n X n square grid so that no more than 2 points are on a vertical or horizontal straight line.",
+  "id": "A279444",
+  "mentions": [
+    "A279445",
+    "A279452"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:47",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

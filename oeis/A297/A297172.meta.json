@@ -1,0 +1,26 @@
+{
+  "description": "Möbius transform of A253564.",
+  "id": "A297172",
+  "mentions": [
+    "A008683",
+    "A064989",
+    "A122111",
+    "A156552",
+    "A253564",
+    "A297112",
+    "A297156",
+    "A297162",
+    "A297171"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:17",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

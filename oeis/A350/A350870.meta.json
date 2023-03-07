@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k = x.y such that x.y = (x+y)^2, when x and y have the same number of digits, \".\" means concatenation, and y may not begin with 0.",
+  "id": "A350870",
+  "mentions": [
+    "A038544",
+    "A045193",
+    "A045913",
+    "A102766",
+    "A238237",
+    "A347541",
+    "A350869",
+    "A350918"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:29",
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Self-locating numbers within the Copeland-Erdős constant: numbers k such that the string k is at the 0-indexed position k in the decimal digits of the concatenation of the prime numbers as a decimal sequence.",
+  "id": "A334259",
+  "mentions": [
+    "A006880",
+    "A033308",
+    "A057680",
+    "A064810"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

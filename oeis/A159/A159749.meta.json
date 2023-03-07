@@ -1,0 +1,23 @@
+{
+  "description": "The decomposition of a certain labeled universe (A052584), triangle read by rows.",
+  "id": "A159749",
+  "mentions": [
+    "A027641",
+    "A027642",
+    "A032184",
+    "A052584",
+    "A066318"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

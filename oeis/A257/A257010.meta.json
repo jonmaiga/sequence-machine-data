@@ -1,0 +1,23 @@
+{
+  "description": "Number of sequences of positive integers with length 3 and alternant equal to n.",
+  "id": "A257010",
+  "mentions": [
+    "A000005",
+    "A000012",
+    "A257009",
+    "A257011",
+    "A257012",
+    "A257013"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 3,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

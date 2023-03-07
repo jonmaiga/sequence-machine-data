@@ -1,0 +1,19 @@
+{
+  "description": "Orders of the symmetry groups of the six convex regular 4-polytopes, in the order 5-cell, 8-cell, 16-cell, 24-cell, 120-cell, 600-cell.",
+  "id": "A273509",
+  "mentions": [
+    "A098427"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

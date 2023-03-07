@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = smallest possible value of s corresponding to A177763(n)",
+  "id": "A177765",
+  "mentions": [
+    "A152412",
+    "A177760",
+    "A177761",
+    "A177763",
+    "A177764",
+    "A177766"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

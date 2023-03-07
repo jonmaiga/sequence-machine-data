@@ -1,0 +1,32 @@
+{
+  "description": "Numbers with three consecutive prime indices in arithmetic progression.",
+  "id": "A333195",
+  "mentions": [
+    "A003242",
+    "A005649",
+    "A006560",
+    "A007862",
+    "A049980",
+    "A049988",
+    "A112798",
+    "A238423",
+    "A238424",
+    "A295370",
+    "A307824",
+    "A325328",
+    "A325849",
+    "A325852",
+    "A332668",
+    "A333489"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

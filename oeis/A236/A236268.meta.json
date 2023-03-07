@@ -1,0 +1,20 @@
+{
+  "description": "Smallest k such that prime and nonprime divisors alternate through exactly the first n pairs of divisors of Fibonacci(k), as {1, a prime, a nonprime, a prime, ...}.",
+  "id": "A236268",
+  "mentions": [
+    "A000045",
+    "A227337"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

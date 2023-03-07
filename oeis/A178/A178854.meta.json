@@ -1,0 +1,19 @@
+{
+  "description": "Asymptotic value of odd Catalan numbers mod 2^n.",
+  "id": "A178854",
+  "mentions": [
+    "A000108",
+    "A038003"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

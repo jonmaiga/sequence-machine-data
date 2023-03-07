@@ -1,0 +1,26 @@
+{
+  "description": "Sum of initial digits of prime factors (with multiplicity) of n.",
+  "id": "A112264",
+  "mentions": [
+    "A000030",
+    "A000040",
+    "A001221",
+    "A001222",
+    "A112265",
+    "A112266",
+    "A112273"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

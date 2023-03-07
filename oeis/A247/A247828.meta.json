@@ -1,0 +1,17 @@
+{
+  "description": "Number of tilings of a 5 X n rectangle using n pentominoes of any shape including exactly one X shape.",
+  "id": "A247828",
+  "mentions": [
+    "A247711"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

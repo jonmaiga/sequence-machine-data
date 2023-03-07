@@ -1,0 +1,31 @@
+{
+  "description": "Numbers m such that Post's tag system started at the word (100)^m eventually dies (i.e., reaches the empty string).",
+  "id": "A291792",
+  "mentions": [
+    "A284116",
+    "A284119",
+    "A284121",
+    "A290447",
+    "A291793",
+    "A291794",
+    "A291795",
+    "A291796",
+    "A292089",
+    "A292090",
+    "A292091",
+    "A292092",
+    "A292093",
+    "A292094"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

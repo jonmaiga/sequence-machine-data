@@ -1,0 +1,24 @@
+{
+  "description": "Least number k such that k^2-1 is the sum of two nonzero squares in exactly n ways.",
+  "id": "A274567",
+  "mentions": [
+    "A000404",
+    "A005563",
+    "A016032",
+    "A025426",
+    "A050795",
+    "A050797",
+    "A054994"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

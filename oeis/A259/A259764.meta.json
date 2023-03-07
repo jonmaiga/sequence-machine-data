@@ -1,0 +1,21 @@
+{
+  "description": "Least prime p such that prime(p*n)-1 is a square, or 0 if no such p exists.",
+  "id": "A259764",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A002496",
+    "A028871",
+    "A259731"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

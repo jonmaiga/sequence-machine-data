@@ -1,0 +1,20 @@
+{
+  "description": "Total area of the family of squares with side length n such that n = p + q, p divides q and p < q.",
+  "id": "A303873",
+  "mentions": [
+    "A296955",
+    "A296966"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

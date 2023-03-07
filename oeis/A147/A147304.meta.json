@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=1..prime(n)^2-1} binomial(2k,k).",
+  "id": "A147304",
+  "mentions": [
+    "A066796",
+    "A146977",
+    "A147291"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

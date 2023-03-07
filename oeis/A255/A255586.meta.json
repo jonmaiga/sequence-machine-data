@@ -1,0 +1,22 @@
+{
+  "description": "Composite n such that Sum_{i=1..t-1} d(i+1)/d(i) is an integer, where d(1), ..., d(t) are the divisors of n in ascending order.",
+  "id": "A255586",
+  "mentions": [
+    "A000079",
+    "A030078",
+    "A056798",
+    "A079704",
+    "A227993",
+    "A255585"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

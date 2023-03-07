@@ -1,0 +1,20 @@
+{
+  "description": "Triangular sequence from coefficients of characteristic polynomial of n X n prime element matrices: M=A.B.A^(-1); (A(3) is singular): examples; A(4)= {{2, 3, 5, 7, 11}, {3, 5, 7, 11, 13}, {5, 7, 11, 13, 17}, {7, 11, 13, 17, 19}, {11, 13, 17, 19, 23}} B(4)= {{3, 5, 7, 11, 13}, {5, 7, 11, 13, 17}, {7, 11, 13, 17, 19}, {11, 13, 17, 19, 23}, {13, 17, 19, 23, 29}}.",
+  "id": "A137405",
+  "mentions": [
+    "A086515"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

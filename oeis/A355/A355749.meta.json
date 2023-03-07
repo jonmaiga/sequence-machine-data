@@ -1,0 +1,42 @@
+{
+  "description": "Number of ways to choose a weakly decreasing sequence of divisors, one of each prime index of n (with multiplicity, taken in weakly increasing order).",
+  "id": "A355749",
+  "mentions": [
+    "A000005",
+    "A000720",
+    "A001221",
+    "A001222",
+    "A001414",
+    "A003963",
+    "A056239",
+    "A061395",
+    "A076610",
+    "A112798",
+    "A120383",
+    "A316524",
+    "A324850",
+    "A355731",
+    "A355732",
+    "A355733",
+    "A355734",
+    "A355735",
+    "A355736",
+    "A355737",
+    "A355739",
+    "A355740",
+    "A355741",
+    "A355742",
+    "A355744",
+    "A355745"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

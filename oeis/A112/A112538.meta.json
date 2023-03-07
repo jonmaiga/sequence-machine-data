@@ -1,0 +1,20 @@
+{
+  "description": "If b(n) is the smallest positive integer and c(n) is the largest positive integer such that n = b(n)^c(n), then a(n) = c(n)^b(n).",
+  "id": "A112538",
+  "mentions": [
+    "A001844",
+    "A052409",
+    "A052410"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:52",
+    "offset": 2,
+    "size": 99,
+    "source": "joeis"
+  }
+}

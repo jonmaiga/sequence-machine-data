@@ -1,0 +1,20 @@
+{
+  "description": "Consider a 2D sandpile model where each site with 2 or more grains, say at location (x, y), topples and transfers one grain of sand to the sites at locations (x+1, y) and (x, y+1). Let S(n) be the configuration after stabilization of a configuration with n grains at the origin. a(n) = Max_{ (x,y) in S(n) } (x+y).",
+  "id": "A352226",
+  "mentions": [
+    "A180230",
+    "A349990",
+    "A350188",
+    "A351783"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

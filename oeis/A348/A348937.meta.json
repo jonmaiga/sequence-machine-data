@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = A003961(n) - A003415(n), where A003961 shifts the prime factorization of n one step towards larger primes, and A003415 gives the arithmetic derivative of n.",
+  "id": "A348937",
+  "mentions": [
+    "A003415",
+    "A003961",
+    "A168036",
+    "A286385",
+    "A336853",
+    "A343224",
+    "A347964",
+    "A347965"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

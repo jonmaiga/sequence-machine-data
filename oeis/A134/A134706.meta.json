@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n-th perfect number divided by 2^n, minus 1.",
+  "id": "A134706",
+  "mentions": [
+    "A000396",
+    "A133028",
+    "A134705"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:50:44",
+    "offset": 1,
+    "size": 10,
+    "source": "joeis"
+  }
+}

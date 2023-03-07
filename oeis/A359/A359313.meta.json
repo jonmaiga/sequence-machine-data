@@ -1,0 +1,24 @@
+{
+  "description": "Triangular array read by rows. T(n,k) is the number of Green's H-classes contained in the D-class of rank k matrices in the semigroup Mat_n(F_2) of n X n matrices over the field F_2. n>=0, 0<=k<=n.",
+  "id": "A359313",
+  "mentions": [
+    "A002416",
+    "A002884",
+    "A005329",
+    "A022166",
+    "A243950",
+    "A296548"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

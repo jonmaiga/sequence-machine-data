@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of the eighth derivative of the infinite power tower function x^x^x... at x = 1/2, negated.",
+  "id": "A277529",
+  "mentions": [
+    "A033917",
+    "A104748",
+    "A277522",
+    "A277523",
+    "A277524",
+    "A277525",
+    "A277526",
+    "A277527",
+    "A277528",
+    "A277530",
+    "A277531"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 5,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

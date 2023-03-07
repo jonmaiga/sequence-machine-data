@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of Dyck paths of semilength n having k occurrences of the string ududu, where u=(1,1), d=(1,-1).",
+  "id": "A246188",
+  "mentions": [
+    "A000108",
+    "A001791",
+    "A243752",
+    "A243753",
+    "A247333"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

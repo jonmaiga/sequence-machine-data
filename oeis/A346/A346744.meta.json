@@ -1,0 +1,22 @@
+{
+  "description": "The number of congruencies k^(n-k) + (n-k)^k == 0 (mod n) with 0 < k < n.",
+  "id": "A346744",
+  "mentions": [
+    "A114977",
+    "A114978",
+    "A114979",
+    "A114980",
+    "A114981"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

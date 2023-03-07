@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows, generated from binomial transforms of odd numbers.",
+  "id": "A106194",
+  "mentions": [
+    "A000337",
+    "A001787",
+    "A001792",
+    "A034009",
+    "A045618",
+    "A045889",
+    "A055249",
+    "A055250"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

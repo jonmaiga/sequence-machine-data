@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f. B(x) satisfies: B'(x) = A(x)*C(x) such that B(x)^2 - A(x)^2 = 3 and C(x)^2 - B(x)^2 = 5, where A(x) and C(x) are the e.g.f.s of A292121 and A292123, respectively.",
+  "id": "A292122",
+  "mentions": [
+    "A292120",
+    "A292121",
+    "A292123",
+    "A292124"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:07",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

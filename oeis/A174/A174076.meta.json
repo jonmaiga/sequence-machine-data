@@ -1,0 +1,21 @@
+{
+  "description": "Number of permutations of length n with no consecutive triples i,i+2,i+4 or i,i-2,i-4.",
+  "id": "A174076",
+  "mentions": [
+    "A095816",
+    "A174077",
+    "A174078",
+    "A174079"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

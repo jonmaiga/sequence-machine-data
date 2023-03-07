@@ -1,0 +1,21 @@
+{
+  "description": "Table read by antidiagonals: T(n, k) gives the number of distinct distances on an n X k pegboard.",
+  "id": "A301851",
+  "mentions": [
+    "A001481",
+    "A047800",
+    "A225273",
+    "A301853"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

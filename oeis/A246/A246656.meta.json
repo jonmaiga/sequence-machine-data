@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n, k) is the coefficient of x^k of the polynomial p_n(x) representing the n-th diagonal of A246654.",
+  "id": "A246656",
+  "mentions": [
+    "A000004",
+    "A000012",
+    "A001477",
+    "A002061",
+    "A034262",
+    "A246654"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

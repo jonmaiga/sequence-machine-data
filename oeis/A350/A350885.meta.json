@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of 1 - 2*cotan(2).",
+  "id": "A350885",
+  "mentions": [
+    "A049471",
+    "A073449"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

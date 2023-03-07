@@ -1,0 +1,19 @@
+{
+  "description": "Number of ascents in all peakless Motzkin paths of length n+3.",
+  "id": "A114713",
+  "mentions": [
+    "A004148",
+    "A114712"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:37:09",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

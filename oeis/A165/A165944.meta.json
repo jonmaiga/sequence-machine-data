@@ -1,0 +1,19 @@
+{
+  "description": "Primes of the form p^2 +3p + 1, where p is also a prime.",
+  "id": "A165944",
+  "mentions": [
+    "A000040",
+    "A110833"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:49",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=1..n} q(k+1-q(k)), where q(k) = A005185(k); partial sums of A283467.",
+  "id": "A280706",
+  "mentions": [
+    "A005185",
+    "A283467",
+    "A284173"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

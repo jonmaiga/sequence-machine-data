@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of distinct numbers of transversals that an orthogonal diagonal Latin square of order n can have.",
+  "id": "A350585",
+  "mentions": [
+    "A305570",
+    "A344105",
+    "A349199"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

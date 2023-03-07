@@ -1,0 +1,19 @@
+{
+  "description": "Prime-slideable numbers: such that a prime can be obtained by moving each digit d by d places either to the left or right, without creating a hole or overlap.",
+  "id": "A296236",
+  "mentions": [
+    "A296010",
+    "A296242"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

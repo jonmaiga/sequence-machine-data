@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that the sum of the decimal digits of p^4 is also a prime.",
+  "id": "A307452",
+  "mentions": [
+    "A007953",
+    "A030514"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

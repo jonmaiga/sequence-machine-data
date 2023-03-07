@@ -1,0 +1,19 @@
+{
+  "description": "G.f. satisfies A(A(x)) = F(x), where F(x) is the g.f. for A001787(n) = n*2^(n-1).",
+  "id": "A309509",
+  "mentions": [
+    "A001787",
+    "A027436",
+    "A184011"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

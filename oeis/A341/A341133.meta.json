@@ -1,0 +1,27 @@
+{
+  "description": "Number of ways to write n as an ordered sum of 4 prime powers (including 1).",
+  "id": "A341133",
+  "mentions": [
+    "A000961",
+    "A010055",
+    "A282062",
+    "A282064",
+    "A341122",
+    "A341134",
+    "A341135",
+    "A341136",
+    "A341137",
+    "A341138",
+    "A341139"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 4,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

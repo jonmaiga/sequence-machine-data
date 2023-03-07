@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of the ninth smallest known Salem number.",
+  "id": "A316609",
+  "mentions": [
+    "A073011",
+    "A219300",
+    "A306078",
+    "A306079",
+    "A316605",
+    "A316606",
+    "A316607",
+    "A316608",
+    "A316610"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

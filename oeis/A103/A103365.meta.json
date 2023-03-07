@@ -1,0 +1,26 @@
+{
+  "description": "First column of triangle A103364, which equals the matrix inverse of the Narayana triangle (A001263).",
+  "id": "A103365",
+  "mentions": [
+    "A001263",
+    "A103364",
+    "A103366",
+    "A103367",
+    "A115369",
+    "A155926",
+    "A155927",
+    "A180874",
+    "A238390"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

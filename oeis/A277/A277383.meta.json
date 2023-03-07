@@ -1,0 +1,19 @@
+{
+  "description": "Each even integer k is followed by k odd integers.",
+  "id": "A277383",
+  "mentions": [
+    "A002378",
+    "A002522"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) = C(n,k) + 3*C(n,k+1) + 2*C(n,k+2) (0<=k<=n).",
+  "id": "A125165",
+  "mentions": [
+    "A000290",
+    "A050488",
+    "A233295"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 15:59:29",
+    "offset": 0,
+    "size": 67,
+    "source": "joeis"
+  }
+}

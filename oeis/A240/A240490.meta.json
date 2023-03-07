@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of n containing m(5) as a part, where m denotes multiplicity.",
+  "id": "A240490",
+  "mentions": [
+    "A240486",
+    "A240487",
+    "A240488",
+    "A240489"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

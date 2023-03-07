@@ -1,0 +1,21 @@
+{
+  "description": "Denominators of harmonic mean H(n,5), n >= 0.",
+  "id": "A227108",
+  "mentions": [
+    "A227042",
+    "A227109"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

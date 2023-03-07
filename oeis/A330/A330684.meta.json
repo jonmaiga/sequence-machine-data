@@ -1,0 +1,25 @@
+{
+  "description": "Square roots of the positions of records in A050377, number of ways to factor n into \"Fermi-Dirac primes\" (A050376).",
+  "id": "A330684",
+  "mentions": [
+    "A000196",
+    "A025487",
+    "A050376",
+    "A050377",
+    "A108951",
+    "A329900",
+    "A330687",
+    "A330689"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

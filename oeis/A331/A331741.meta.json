@@ -1,0 +1,27 @@
+{
+  "description": "Squares s such that A331733(s) = sigma(A225546(n)) is congruent to 2 modulo 4.",
+  "id": "A331741",
+  "mentions": [
+    "A000040",
+    "A006519",
+    "A007814",
+    "A010052",
+    "A067403",
+    "A191218",
+    "A225546",
+    "A228058",
+    "A331733",
+    "A331734"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

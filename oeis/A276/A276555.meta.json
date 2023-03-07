@@ -1,0 +1,18 @@
+{
+  "description": "Number of steps to reach 1 when starting from n and iterating the map x -> x - A061395(x).",
+  "id": "A276555",
+  "mentions": [
+    "A061395",
+    "A282630"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Denominators of a sequence related to the Secretary Problem with Multiple Stoppings.",
+  "id": "A354557",
+  "mentions": [
+    "A354556"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = Sum_{k=0..n} k^3*binomial(2*n-k,n).",
+  "id": "A293550",
+  "mentions": [
+    "A000537",
+    "A000578",
+    "A002054",
+    "A024166",
+    "A101094",
+    "A101097",
+    "A101102",
+    "A265612",
+    "A302352"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

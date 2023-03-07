@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = bigomega(sigma(n)) - bigomega(n), where bigomega (A001222) gives the number of prime factors with multiplicity, and sigma (A000203) gives the sum of divisors.",
+  "id": "A336386",
+  "mentions": [
+    "A000203",
+    "A001222",
+    "A058063",
+    "A336356",
+    "A336359",
+    "A336360"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

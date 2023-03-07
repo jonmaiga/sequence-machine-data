@@ -1,0 +1,18 @@
+{
+  "description": "Considering Pythagorean triple (a,b,c) with a < b < c, least a such that there exists a primitive triple where c - b is the n-th term of A096033.",
+  "id": "A321067",
+  "mentions": [
+    "A094904",
+    "A096033"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

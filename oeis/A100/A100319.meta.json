@@ -1,0 +1,27 @@
+{
+  "description": "Even numbers m such that at least one of m-1 and m+1 is composite.",
+  "id": "A100319",
+  "mentions": [
+    "A005818",
+    "A005843",
+    "A007310",
+    "A014574",
+    "A025584",
+    "A038179",
+    "A038511",
+    "A045718",
+    "A100318",
+    "A167692"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

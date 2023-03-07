@@ -1,0 +1,30 @@
+{
+  "description": "Limiting sequence when we start with the positive integers (A000027) and delete in step n >= 1 the term at position n + a(n).",
+  "id": "A136119",
+  "mentions": [
+    "A000027",
+    "A000217",
+    "A000959",
+    "A001030",
+    "A001953",
+    "A001954",
+    "A099267",
+    "A136110",
+    "A137292",
+    "A184117",
+    "A184119",
+    "A242535"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:24:33",
+    "offset": 1,
+    "size": 71,
+    "source": "joeis"
+  }
+}

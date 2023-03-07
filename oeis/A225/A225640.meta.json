@@ -1,0 +1,26 @@
+{
+  "description": "Array A(n,k) of iterated Landau-like functions, where on the row n=0 A(0,0)=1 and A(0,k>=1)=k, and the successive rows A(n,k) give a maximum value lcm(p1,p2,...,pj,A(n-1,k)) for all partitions {p1+p2+...+pj} of k; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A225640",
+  "mentions": [
+    "A001477",
+    "A002262",
+    "A003418",
+    "A025581",
+    "A225630",
+    "A225641",
+    "A225642",
+    "A225644",
+    "A225646"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

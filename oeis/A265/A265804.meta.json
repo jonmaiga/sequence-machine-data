@@ -1,0 +1,20 @@
+{
+  "description": "Coefficient of x^2 in minimal polynomial of the continued fraction [1^n,5,1,1,1,...], where 1^n means n ones.",
+  "id": "A265804",
+  "mentions": [
+    "A236804",
+    "A265762",
+    "A265805"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:24:47",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

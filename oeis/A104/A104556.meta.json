@@ -1,0 +1,27 @@
+{
+  "description": "Matrix inverse of triangle A001497 of Bessel polynomials, read by rows; essentially the same as triangle A096713 of modified Hermite polynomials.",
+  "id": "A104556",
+  "mentions": [
+    "A000085",
+    "A001147",
+    "A001464",
+    "A001497",
+    "A049403",
+    "A096713",
+    "A122848",
+    "A130757",
+    "A264428"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:12:44",
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n)=(a(n - 1)*a(n - 2) + a(n - 1)^2)/a(n - 3).",
+  "id": "A141609",
+  "mentions": [
+    "A006277",
+    "A006720"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "The numbers visited on a square spiral when stepping to the closest unvisited number such that the sum of that number and the current number is composite. If two or more such numbers exist then the smallest is chosen.",
+  "id": "A348673",
+  "mentions": [
+    "A002808",
+    "A332767",
+    "A338642",
+    "A348672"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

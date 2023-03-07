@@ -1,0 +1,32 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of links of length k in a set of all necklaces A000358 of length n, 1 <= k <= n.",
+  "id": "A347351",
+  "mentions": [
+    "A000010",
+    "A000027",
+    "A000045",
+    "A000285",
+    "A000358",
+    "A022086",
+    "A022103",
+    "A022112",
+    "A022132",
+    "A022379",
+    "A034748",
+    "A113166",
+    "A206420",
+    "A294116"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

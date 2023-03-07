@@ -1,0 +1,20 @@
+{
+  "description": "Distance of a prime number from the average of the next two consecutive prime numbers.",
+  "id": "A305748",
+  "mentions": [
+    "A000040",
+    "A024675"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:19:23",
+    "offset": 1,
+    "size": 97,
+    "source": "joeis"
+  }
+}

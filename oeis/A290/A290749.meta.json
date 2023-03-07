@@ -1,0 +1,17 @@
+{
+  "description": "Let F denote the two-way infinite sequence of Fibonacci numbers (for all positive or negative integers k, F(k+2)=F(k)+F(k+1) with F(0)=0, F(1)=1). Sequence lists positive numbers that are not the difference between two terms of F.",
+  "id": "A290749",
+  "mentions": [
+    "A290748"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

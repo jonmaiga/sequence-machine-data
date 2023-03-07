@@ -1,0 +1,19 @@
+{
+  "description": "Number of distinct Markov type classes of order 5 possible in binary strings of length n.",
+  "id": "A132300",
+  "mentions": [
+    "A132297",
+    "A132298",
+    "A132299"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 5,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

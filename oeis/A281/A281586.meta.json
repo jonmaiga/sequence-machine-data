@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f.: z*(((exp(z)+1)/((exp(z)+2*exp(-z/2)*cos(z*sqrt(3)/2))/3))-1).",
+  "id": "A281586",
+  "mentions": [
+    "A215064",
+    "A281588"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

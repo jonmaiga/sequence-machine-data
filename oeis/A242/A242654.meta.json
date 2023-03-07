@@ -1,0 +1,20 @@
+{
+  "description": "1 followed by the union of the terms > 2 in A002387 (or A004080) and A115515.",
+  "id": "A242654",
+  "mentions": [
+    "A002387",
+    "A004080",
+    "A079353",
+    "A115515"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

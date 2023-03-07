@@ -1,0 +1,20 @@
+{
+  "description": "Values of n for which product_{p|n, p prime} 1 + 1/p > e^gamma*log(log(n)).",
+  "id": "A211385",
+  "mentions": [
+    "A001615",
+    "A060735",
+    "A064374",
+    "A067698"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

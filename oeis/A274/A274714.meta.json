@@ -1,0 +1,20 @@
+{
+  "description": "G.f. A(x) satisfies: A(x) = x + A(x)^2 - R(A(x)^2) + sqrt( A(x)^2 - R(A(x)^2) ), where R(A(x)) = x, and A(x) = Sum_{n>=1} a(n)*x^n/2^A274715(n).",
+  "id": "A274714",
+  "mentions": [
+    "A274715",
+    "A274716",
+    "A274717"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

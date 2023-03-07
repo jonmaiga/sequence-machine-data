@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographic ordering of N x N x N x N x N, where N={1,2,3,...}.",
+  "id": "A186006",
+  "mentions": [
+    "A057555",
+    "A057557",
+    "A057559"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 160,
+    "source": "oeis-bfile"
+  }
+}

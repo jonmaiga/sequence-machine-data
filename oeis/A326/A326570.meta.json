@@ -1,0 +1,28 @@
+{
+  "description": "Number of covering antichains of subsets of {1..n} with different edge-sizes.",
+  "id": "A326570",
+  "mentions": [
+    "A000372",
+    "A003182",
+    "A006126",
+    "A007837",
+    "A306021",
+    "A307249",
+    "A326026",
+    "A326514",
+    "A326566",
+    "A326569",
+    "A326572"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

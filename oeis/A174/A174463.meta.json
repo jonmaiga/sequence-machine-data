@@ -1,0 +1,17 @@
+{
+  "description": "G.f.: exp( Sum_{n>=1} A174464(n)*x^n/n ) where A174464(n) = Sum_{d|n} C(n,d)^(n/d).",
+  "id": "A174463",
+  "mentions": [
+    "A174464"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

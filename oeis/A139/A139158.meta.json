@@ -1,0 +1,20 @@
+{
+  "description": "Triangle a(n,k) of the expansion coefficients of the Hermite polynomial 2*H(n/2,x) if n even, of H((n-1)/2,x)+H((n+1)/2,x) if n odd.",
+  "id": "A139158",
+  "mentions": [
+    "A060821",
+    "A062267"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of singular vector tuples for a general 4-dimensional n X n X n X n tensor.",
+  "id": "A272551",
+  "mentions": [
+    "A271905",
+    "A284308"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

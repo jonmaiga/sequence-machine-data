@@ -1,0 +1,33 @@
+{
+  "description": "Numbers k such that the largest unitary divisor of sigma(k) that is coprime with A003961(k) is also a unitary divisor of k.",
+  "id": "A351551",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A003961",
+    "A005820",
+    "A007691",
+    "A046060",
+    "A046061",
+    "A065997",
+    "A323653",
+    "A336702",
+    "A349745",
+    "A351546",
+    "A351550",
+    "A351552",
+    "A351554",
+    "A351555",
+    "A353633"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

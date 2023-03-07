@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Fibonacci(2*n^2), a \"Somos-like\" sequence.",
+  "id": "A225686",
+  "mentions": [
+    "A000045",
+    "A006720",
+    "A054783"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

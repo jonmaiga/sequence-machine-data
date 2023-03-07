@@ -1,0 +1,20 @@
+{
+  "description": "G.f. is the polynomial (1-x^3) * (1-x^6) * (1-x^9) * (1-x^12) / (1-x)^4.",
+  "id": "A162505",
+  "mentions": [
+    "A162499"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

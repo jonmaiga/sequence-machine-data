@@ -1,0 +1,45 @@
+{
+  "description": "a(n) is the smallest number k such that the symmetric representation of sigma(k) has n parts.",
+  "id": "A239663",
+  "mentions": [
+    "A000203",
+    "A196020",
+    "A235791",
+    "A236104",
+    "A237048",
+    "A237270",
+    "A237271",
+    "A237591",
+    "A237593",
+    "A238443",
+    "A239657",
+    "A239660",
+    "A239665",
+    "A239931",
+    "A239934",
+    "A240062",
+    "A245092",
+    "A249223",
+    "A250070",
+    "A262045",
+    "A262626",
+    "A266094",
+    "A320521",
+    "A341969",
+    "A341970",
+    "A341971",
+    "A347980"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

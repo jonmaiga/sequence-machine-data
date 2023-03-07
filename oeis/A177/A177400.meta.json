@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = binomial(n*2^n, n).",
+  "id": "A177400",
+  "mentions": [
+    "A136463",
+    "A177410",
+    "A177411"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

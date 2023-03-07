@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 2^n*binomial((n + 1 + (n mod 2))/2, 1/2).",
+  "id": "A242172",
+  "mentions": [
+    "A002457",
+    "A033876",
+    "A100071"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

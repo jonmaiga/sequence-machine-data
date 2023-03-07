@@ -1,0 +1,21 @@
+{
+  "description": "Start subtracting from n its divisors beginning from 1 until one reaches a number smaller than the last divisor subtracted or reaches the last nontrivial divisor < n. Define this to be the perfect deficiency of n. Then a(n) = perfect deficiency of n.",
+  "id": "A109883",
+  "mentions": [
+    "A064510",
+    "A109884",
+    "A109886"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

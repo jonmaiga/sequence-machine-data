@@ -1,0 +1,21 @@
+{
+  "description": "Maximum number of squares in a square grid whose interiors can be touched by a (possibly skew) line segment of length n.",
+  "id": "A346232",
+  "mentions": [
+    "A001951",
+    "A049472",
+    "A346693"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

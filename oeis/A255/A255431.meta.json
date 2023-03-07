@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that integers n through n+6 and their squares all lack the digit 1 in their decimal expansion.",
+  "id": "A255431",
+  "mentions": [
+    "A000027",
+    "A052383",
+    "A067251",
+    "A255398",
+    "A255430"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

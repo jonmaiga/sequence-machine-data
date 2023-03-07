@@ -1,0 +1,19 @@
+{
+  "description": "Table read by antidiagonals upward: |T(n,k)| is the smallest number j such that j and j+1 have n and k divisors, respectively, or 0 if no such number exists, and the sign of T(n,k) is positive iff there exists only one such number j.",
+  "id": "A341654",
+  "mentions": [
+    "A161460",
+    "A164119"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

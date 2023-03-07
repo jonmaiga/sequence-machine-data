@@ -1,0 +1,26 @@
+{
+  "description": "Number T(n,k) of permutations p of [n] such that |{ j : |p(j)-j| = 1 }| = k; triangle T(n,k), n >= 0, 0 <= k <= n, read by rows.",
+  "id": "A320582",
+  "mentions": [
+    "A000142",
+    "A008290",
+    "A008291",
+    "A052582",
+    "A059841",
+    "A078480",
+    "A082033",
+    "A323671"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

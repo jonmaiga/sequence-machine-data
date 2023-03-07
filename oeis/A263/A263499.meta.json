@@ -1,0 +1,20 @@
+{
+  "description": "Numbers with nondecreasing digits such that every cyclic shift is a prime.",
+  "id": "A263499",
+  "mentions": [
+    "A009994",
+    "A068652",
+    "A258706"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Squarefree part of 1!*2!*3!*...*n!: The product of factorials one through n divided by its largest square divisor.",
+  "id": "A299700",
+  "mentions": [
+    "A000178",
+    "A007913",
+    "A055204",
+    "A092246",
+    "A129771"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:23",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

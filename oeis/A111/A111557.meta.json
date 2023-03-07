@@ -1,0 +1,19 @@
+{
+  "description": "Column 4 of triangle A111553; also found in column 0 of triangle A111560, which equals the matrix logarithm of A111553.",
+  "id": "A111557",
+  "mentions": [
+    "A111553",
+    "A111560"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

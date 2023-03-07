@@ -1,0 +1,20 @@
+{
+  "description": "Number of permutations of [2n] containing an increasing subsequence of length n.",
+  "id": "A269021",
+  "mentions": [
+    "A010050",
+    "A214152",
+    "A269042"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:31",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

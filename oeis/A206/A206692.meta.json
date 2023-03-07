@@ -1,0 +1,18 @@
+{
+  "description": "T(n,k)=Number of nXk 0..3 arrays with no element equal to another within two positions in the same row or column, and new values 0..3 introduced in row major order",
+  "id": "A206692",
+  "mentions": [
+    "A002089"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

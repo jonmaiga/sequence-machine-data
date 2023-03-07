@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = phi(n) * core(n), where phi is Euler totient function, and core gives the squarefree part of n.",
+  "id": "A327171",
+  "mentions": [
+    "A000010",
+    "A002618",
+    "A007913",
+    "A062355",
+    "A082473",
+    "A248003",
+    "A327170",
+    "A327172"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:54",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

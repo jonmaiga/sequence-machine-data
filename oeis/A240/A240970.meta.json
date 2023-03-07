@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that the sum of n consecutive positive cubes is a cube for some initial starting number k.",
+  "id": "A240970",
+  "mentions": [
+    "A001032",
+    "A001651",
+    "A118719",
+    "A253778",
+    "A253779",
+    "A253780"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

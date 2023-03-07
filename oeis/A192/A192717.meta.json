@@ -1,0 +1,17 @@
+{
+  "description": "Positive integers of the form (p^e)(k^2) for p prime congruent to 3 (mod 8), e congruent to 1 (mod 4), and k an odd integer coprime to p.",
+  "id": "A192717",
+  "mentions": [
+    "A192628"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

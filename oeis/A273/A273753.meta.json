@@ -1,0 +1,18 @@
+{
+  "description": "Taxi-cab numbers (A001235) that are the average of two positive cubes in more than one way.",
+  "id": "A273753",
+  "mentions": [
+    "A001235",
+    "A191345"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

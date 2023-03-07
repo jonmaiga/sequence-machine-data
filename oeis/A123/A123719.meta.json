@@ -1,0 +1,24 @@
+{
+  "description": "An involution of nonnegative integers: signature permutation of Catalan automorphism which is obtained with recursion schema RIBS from automorphism *A085161",
+  "id": "A123719",
+  "mentions": [
+    "A001405",
+    "A014137",
+    "A014138",
+    "A085159",
+    "A085160",
+    "A085161",
+    "A085163",
+    "A122200"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

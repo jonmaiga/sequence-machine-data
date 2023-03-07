@@ -1,0 +1,35 @@
+{
+  "description": "Number of factorizations of n! into factorial numbers > 1.",
+  "id": "A325509",
+  "mentions": [
+    "A000142",
+    "A011371",
+    "A022559",
+    "A034876",
+    "A034878",
+    "A076934",
+    "A109100",
+    "A109101",
+    "A109102",
+    "A115627",
+    "A135291",
+    "A322583",
+    "A325272",
+    "A325273",
+    "A325276",
+    "A325508",
+    "A325510",
+    "A325511"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

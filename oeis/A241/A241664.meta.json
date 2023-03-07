@@ -1,0 +1,18 @@
+{
+  "description": "Number of iterations of A058026 needed to reach either 0 or 1.",
+  "id": "A241664",
+  "mentions": [
+    "A058026"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

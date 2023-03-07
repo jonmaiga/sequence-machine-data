@@ -1,0 +1,27 @@
+{
+  "description": "Numerators of continued fraction convergents to sqrt(5/4).",
+  "id": "A153316",
+  "mentions": [
+    "A000129",
+    "A001333",
+    "A142238",
+    "A142239",
+    "A153313",
+    "A153314",
+    "A153315",
+    "A153317",
+    "A153318"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that k-1 and k+1 are each the product of exactly 7 primes, counted with multiplicity.",
+  "id": "A157487",
+  "mentions": [
+    "A014612",
+    "A124936",
+    "A157483",
+    "A157484",
+    "A157485",
+    "A157486"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

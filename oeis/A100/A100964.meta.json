@@ -1,0 +1,21 @@
+{
+  "description": "Smallest prime number that begins a prime gap of at least 2n.",
+  "id": "A100964",
+  "mentions": [
+    "A000230",
+    "A002386",
+    "A005250",
+    "A144309"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

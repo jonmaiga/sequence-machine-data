@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that n^2 + 13^2 is prime.",
+  "id": "A176969",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A056899",
+    "A113536",
+    "A176371"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:53:21",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,m) = number of partitions of n into at least m distinct parts, n>=1, m>=1.",
+  "id": "A261554",
+  "mentions": [
+    "A003056",
+    "A008289"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

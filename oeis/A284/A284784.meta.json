@@ -1,0 +1,21 @@
+{
+  "description": "The number of partitions of n which represent Chomp positions with Sprague-Grundy value 10.",
+  "id": "A284784",
+  "mentions": [
+    "A002188",
+    "A112470",
+    "A112471",
+    "A112472",
+    "A112473"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:56",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

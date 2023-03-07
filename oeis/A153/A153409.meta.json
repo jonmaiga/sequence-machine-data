@@ -1,0 +1,26 @@
+{
+  "description": "Smallest of 3 consecutive prime numbers such that p1*p2*p3*d1*d2=average of twin prime pairs; p1,p2,p3 consecutive prime numbers; d1(delta)=p2-p1, d2(delta)=p3-p2.",
+  "id": "A153409",
+  "mentions": [
+    "A099349",
+    "A153374",
+    "A153375",
+    "A153376",
+    "A153377",
+    "A153378",
+    "A153379",
+    "A153406",
+    "A153407",
+    "A153408"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

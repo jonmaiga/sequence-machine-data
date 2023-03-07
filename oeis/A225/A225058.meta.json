@@ -1,0 +1,22 @@
+{
+  "description": "a(4*n) = n-1. a(2*n+1) = a(4*n+2) = 2*n+1.",
+  "id": "A225058",
+  "mentions": [
+    "A060819",
+    "A061037",
+    "A145979",
+    "A176895"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:28:41",
+    "offset": 0,
+    "size": 70,
+    "source": "joeis"
+  }
+}

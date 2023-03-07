@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of y_3, the third of four non-explicit constants recursively derived from Khintchine's [Khinchin's] constant.",
+  "id": "A245257",
+  "mentions": [
+    "A002210",
+    "A245255",
+    "A245256",
+    "A245258"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

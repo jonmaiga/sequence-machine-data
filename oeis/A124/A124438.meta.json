@@ -1,0 +1,17 @@
+{
+  "description": "Numbers that are not divisible by at least one of the (positive) exponents in their prime factorization.",
+  "id": "A124438",
+  "mentions": [
+    "A124184"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

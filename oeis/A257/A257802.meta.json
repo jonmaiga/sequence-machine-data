@@ -1,0 +1,28 @@
+{
+  "description": "Permutation of natural numbers: a(1) = 1, a(lucky(n)) = oddprime(a(n-1)), a(unlucky(n)) = not_an_oddprime(1+a(n)).",
+  "id": "A257802",
+  "mentions": [
+    "A000959",
+    "A050505",
+    "A065090",
+    "A065091",
+    "A109497",
+    "A145649",
+    "A257725",
+    "A257728",
+    "A257729",
+    "A257732",
+    "A257801"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

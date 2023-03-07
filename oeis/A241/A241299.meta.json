@@ -1,0 +1,32 @@
+{
+  "description": "Initial digit of the decimal expansion of n^(n^n) or n^^3 (in _Don Knuth_'s up-arrow notation).",
+  "id": "A241299",
+  "mentions": [
+    "A000030",
+    "A000312",
+    "A002488",
+    "A066022",
+    "A241291",
+    "A241292",
+    "A241293",
+    "A241294",
+    "A241295",
+    "A241296",
+    "A241297",
+    "A241298"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

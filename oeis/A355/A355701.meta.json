@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Product of prime(k+1) where k runs through the exponents of the positions 2^k of the 1-bits in A354169(n).",
+  "id": "A355701",
+  "mentions": [
+    "A005117",
+    "A090252",
+    "A354169"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

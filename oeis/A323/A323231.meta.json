@@ -1,0 +1,30 @@
+{
+  "description": "A(n, k) = [x^k] (1/(1-x) + x/(1-x)^n), square array read by descending antidiagonals for n, k >= 0.",
+  "id": "A323231",
+  "mentions": [
+    "A000027",
+    "A000124",
+    "A007318",
+    "A040000",
+    "A050407",
+    "A145126",
+    "A260878",
+    "A323211",
+    "A323227",
+    "A323228",
+    "A323229",
+    "A323230"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:54:11",
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

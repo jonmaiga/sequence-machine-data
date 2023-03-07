@@ -1,0 +1,26 @@
+{
+  "description": "Number of n-bit numbers whose binary representation's substrings represent the maximal number (A112509(n)) of distinct integers.",
+  "id": "A156025",
+  "mentions": [
+    "A078822",
+    "A112509",
+    "A112510",
+    "A112511",
+    "A122953",
+    "A156022",
+    "A156023",
+    "A156024"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

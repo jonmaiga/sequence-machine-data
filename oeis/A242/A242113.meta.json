@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = number of primes of the form k^n - m^k where k > m > 0.",
+  "id": "A242113",
+  "mentions": [
+    "A045575",
+    "A123206",
+    "A245459",
+    "A245643"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

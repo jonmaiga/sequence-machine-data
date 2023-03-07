@@ -1,0 +1,17 @@
+{
+  "description": "For a positive integer n, write the integers 1,2,...,n in the following order: first write 1 (round 0), then all primes less than or equal to n in increasing order (round 1), then 2p for all primes p with 2p<=n, also in increasing order (round 2), then 3p, then 4p and so on. Each number is written down only the first time it is encountered. Let a(n) denote the last number written down.",
+  "id": "A138768",
+  "mentions": [
+    "A052126"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

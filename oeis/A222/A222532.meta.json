@@ -1,0 +1,21 @@
+{
+  "description": "a(1)=2; for n >= 1, a(n+1) is the least prime p_m such that a(n)=p_m-p_{m-1}+...+(-1)^{m-k}p_k for some 0",
+  "id": "A222532",
+  "mentions": [
+    "A000040",
+    "A008347",
+    "A163846",
+    "A163847",
+    "A222566"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

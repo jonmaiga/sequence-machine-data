@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that p^2 + 6 is a semiprime.",
+  "id": "A245590",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A109953",
+    "A243365"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

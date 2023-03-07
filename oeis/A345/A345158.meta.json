@@ -1,0 +1,22 @@
+{
+  "description": "Product_{p primes, k>=1} ((p^(2*k + 2) - 1)/(p^(2*k + 2) - p^2))^(1/p^k).",
+  "id": "A345158",
+  "mentions": [
+    "A001157",
+    "A247951",
+    "A345144",
+    "A345159"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of (5-16*x+6*x^2+10*x^3-2*x^4)/(1-4*x+2*x^2+5*x^3-2*x^4-x^5)",
+  "id": "A189235",
+  "mentions": [
+    "A062883",
+    "A189234",
+    "A189236",
+    "A189237"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:25:24",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

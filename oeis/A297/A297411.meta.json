@@ -1,0 +1,25 @@
+{
+  "description": "Where the prime race among 12k+1, ..., 12k+11 changes leader.",
+  "id": "A297411",
+  "mentions": [
+    "A005596",
+    "A007350",
+    "A007352",
+    "A007353",
+    "A007354",
+    "A297406",
+    "A297407",
+    "A297408",
+    "A297410"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:33:49",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Numbers that begin a run of an odd number of consecutive integers whose cubes sum to a square.",
+  "id": "A253679",
+  "mentions": [
+    "A005408",
+    "A116108",
+    "A116145",
+    "A126200",
+    "A126203",
+    "A163392",
+    "A163393",
+    "A253680",
+    "A253681"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

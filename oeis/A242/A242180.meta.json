@@ -1,0 +1,23 @@
+{
+  "description": "Least prime divisor of q(n) which does not divide any q(k) with k < n, or 1 if such a primitive prime divisor does not exist, where q(.) is the strict partition function given by A000009.",
+  "id": "A242180",
+  "mentions": [
+    "A000009",
+    "A000040",
+    "A084911",
+    "A194261",
+    "A272170",
+    "A272171",
+    "A272173"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

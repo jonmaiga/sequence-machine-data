@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of n into parts with at most one 1 and at most one 2.",
+  "id": "A121081",
+  "mentions": [
+    "A000041",
+    "A008483",
+    "A027336",
+    "A121659"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

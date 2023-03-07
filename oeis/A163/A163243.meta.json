@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the natural logarithm of Khintchine's constant.",
+  "id": "A163243",
+  "mentions": [
+    "A002210",
+    "A247038"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

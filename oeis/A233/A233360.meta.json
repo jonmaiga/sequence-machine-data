@@ -1,0 +1,24 @@
+{
+  "description": "Primes of the form L(k) + q(m) with k > 0 and m > 0, where L(k) is the k-th Lucas number (A000204), and q(.) is the strict partition function (A000009).",
+  "id": "A233360",
+  "mentions": [
+    "A000009",
+    "A000032",
+    "A000040",
+    "A000204",
+    "A232504",
+    "A233307",
+    "A233346",
+    "A233359"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

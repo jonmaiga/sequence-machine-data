@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of x + sqrt(1-2x-3x^2).",
+  "id": "A168058",
+  "mentions": [
+    "A000108",
+    "A001006",
+    "A167022",
+    "A168055",
+    "A168057"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:52",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

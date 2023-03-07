@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of Product_{i>=1, j>=1} (1 + i*x^(i*j)).",
+  "id": "A333653",
+  "mentions": [
+    "A022629",
+    "A107742",
+    "A285244",
+    "A318416",
+    "A332199"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:04",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

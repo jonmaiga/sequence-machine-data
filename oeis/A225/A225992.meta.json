@@ -1,0 +1,17 @@
+{
+  "description": "Number of pairs of orthogonal (-3,4) vectors of length 7*n.",
+  "id": "A225992",
+  "mentions": [
+    "A225987"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that p + 2 and p*(p + 2) + 2 are primes.",
+  "id": "A108013",
+  "mentions": [
+    "A051507",
+    "A051779"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

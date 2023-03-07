@@ -1,0 +1,20 @@
+{
+  "description": "Last digit of Catalan number A000108(n).",
+  "id": "A152669",
+  "mentions": [
+    "A000108"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

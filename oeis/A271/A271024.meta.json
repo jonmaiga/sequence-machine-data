@@ -1,0 +1,22 @@
+{
+  "description": "Number T(n,k) of set partitions of [n] having exactly k pairs (i,j) with i < j such that i and j are in different blocks; triangle T(n,k), n >= 0, 0 <= k <= n*(n-1)/2 read by rows.",
+  "id": "A271024",
+  "mentions": [
+    "A000110",
+    "A161680",
+    "A271023"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:35",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

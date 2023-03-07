@@ -1,0 +1,19 @@
+{
+  "description": "Branched catafusenes (cata-condensed benzenoids) without helicenes, symmetry C_s.",
+  "id": "A323923",
+  "mentions": [
+    "A323851"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "changed",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 4,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

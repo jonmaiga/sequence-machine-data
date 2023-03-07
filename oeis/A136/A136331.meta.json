@@ -1,0 +1,20 @@
+{
+  "description": "The discriminant of the characteristic polynomial of the O+ and O- submatrix for spin 3 of the nuclear electric quadrupole Hamiltonian is a perfect square for these values.",
+  "id": "A136331",
+  "mentions": [
+    "A129444",
+    "A138976"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:35:06",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

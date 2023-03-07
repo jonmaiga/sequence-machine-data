@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that are the sum of seven cubes in five or more ways.",
+  "id": "A345523",
+  "mentions": [
+    "A345482",
+    "A345514",
+    "A345522",
+    "A345524",
+    "A345535",
+    "A345571",
+    "A345777"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

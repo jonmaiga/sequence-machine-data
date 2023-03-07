@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that p+1 is a totient (i.e., in A000010).",
+  "id": "A249505",
+  "mentions": [
+    "A000010",
+    "A001359",
+    "A078892"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

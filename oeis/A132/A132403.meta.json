@@ -1,0 +1,24 @@
+{
+  "description": "Analog of Pascal's triangle, but with \"next prime\" applied to each sum.",
+  "id": "A132403",
+  "mentions": [
+    "A000040",
+    "A000984",
+    "A007308",
+    "A007918",
+    "A064337"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

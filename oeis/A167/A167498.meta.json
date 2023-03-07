@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 6+32*n^2+8*n*(7+8*n^2)/3.",
+  "id": "A167498",
+  "mentions": [
+    "A166464",
+    "A166911",
+    "A167471"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:51",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

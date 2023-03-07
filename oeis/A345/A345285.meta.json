@@ -1,0 +1,23 @@
+{
+  "description": "Sides of primary squares of type 1 (A344331). A primary square of type 1 is the smallest square that can be tiled with squares of two different sides a < b, so that the numbers of small and large squares are equal.",
+  "id": "A345285",
+  "mentions": [
+    "A034262",
+    "A344330",
+    "A344331",
+    "A344333",
+    "A344334",
+    "A345286",
+    "A345287"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

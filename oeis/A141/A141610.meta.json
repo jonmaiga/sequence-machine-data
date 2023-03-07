@@ -1,0 +1,23 @@
+{
+  "description": "Number of rooted trees with n points and exactly k specified colors: C(n,k), 1<=n, 1<=k<=n.",
+  "id": "A141610",
+  "mentions": [
+    "A000081",
+    "A000169",
+    "A256064",
+    "A339642",
+    "A339643",
+    "A339644"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:30",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

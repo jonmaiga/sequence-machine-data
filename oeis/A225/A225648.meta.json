@@ -1,0 +1,19 @@
+{
+  "description": "Positions of ones in A225650, numbers n such that n and A000793(n) are coprime.",
+  "id": "A225648",
+  "mentions": [
+    "A000793",
+    "A225649",
+    "A225650"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

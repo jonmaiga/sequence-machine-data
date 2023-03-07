@@ -1,0 +1,20 @@
+{
+  "description": "Dirichlet inverse of A009194, the greatest common divisor of sigma(n) and n, where sigma is the sum of divisors function.",
+  "id": "A355829",
+  "mentions": [
+    "A000203",
+    "A009194",
+    "A355828"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Maximal entry in n-th row of A279185.",
+  "id": "A279186",
+  "mentions": [
+    "A000010",
+    "A053575",
+    "A061345",
+    "A063145",
+    "A167791",
+    "A256607",
+    "A256608",
+    "A279185"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:46",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

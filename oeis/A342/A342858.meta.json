@@ -1,0 +1,30 @@
+{
+  "description": "a(n) is the least integer h such that there exists a Pythagorean triple (x, y, h) that satisfies f(x)+f(y)+f(h)=n where f(m)=A176774(m) is the smallest polygonality of m; a(n) = 0 if no such h exists.",
+  "id": "A342858",
+  "mentions": [
+    "A001014",
+    "A009000",
+    "A046083",
+    "A046084",
+    "A071231",
+    "A176774",
+    "A213188",
+    "A218131",
+    "A245646",
+    "A245647",
+    "A245648",
+    "A342491"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 9,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

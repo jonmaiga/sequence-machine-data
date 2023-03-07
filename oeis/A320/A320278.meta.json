@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of positive integers 0 < i < n such that i + n is a square.",
+  "id": "A320278",
+  "mentions": [
+    "A000196",
+    "A010052"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

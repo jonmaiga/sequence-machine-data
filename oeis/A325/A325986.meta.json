@@ -1,0 +1,33 @@
+{
+  "description": "Heinz numbers of complete strict integer partitions.",
+  "id": "A325986",
+  "mentions": [
+    "A000009",
+    "A002033",
+    "A005117",
+    "A056239",
+    "A103295",
+    "A112798",
+    "A126796",
+    "A188431",
+    "A299702",
+    "A304793",
+    "A325780",
+    "A325781",
+    "A325782",
+    "A325788",
+    "A325790",
+    "A325988"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

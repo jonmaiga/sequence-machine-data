@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Fibonacci(n)*A028594(n) for n>=1, with a(0)=1, where A028594 lists the coefficients in (theta_3(x)*theta_3(7*x)+theta_2(x)*theta_2(7*x))^2.",
+  "id": "A205976",
+  "mentions": [
+    "A000204",
+    "A028594",
+    "A203847",
+    "A205975",
+    "A209456"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:12",
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

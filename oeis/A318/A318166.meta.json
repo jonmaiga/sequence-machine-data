@@ -1,0 +1,20 @@
+{
+  "description": "a(n) begins the first run of at least n consecutive numbers with the same number of infinitary divisors.",
+  "id": "A318166",
+  "mentions": [
+    "A006558",
+    "A037445",
+    "A045983"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = n! [x^n] LW(T(x)), where T(x) = -W(-x) Euler's tree function, W(x) is the Lambert W function, and LW(x) = W(-W(x))/(-W(x)) (A340473).",
+  "id": "A340474",
+  "mentions": [
+    "A000169",
+    "A000272",
+    "A097174",
+    "A177885",
+    "A207833",
+    "A227176",
+    "A340473"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

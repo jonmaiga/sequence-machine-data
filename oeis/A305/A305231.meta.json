@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that are the product of some integer and its digit reversal.",
+  "id": "A305231",
+  "mentions": [
+    "A061205",
+    "A203924",
+    "A325148",
+    "A359981"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

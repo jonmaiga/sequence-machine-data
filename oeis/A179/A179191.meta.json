@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of o.g.f. (1/2)*(-1 + 1/sqrt(1 - 4*x - 4*x^2)).",
+  "id": "A179191",
+  "mentions": [
+    "A000045",
+    "A001006",
+    "A006139",
+    "A178693",
+    "A178694",
+    "A179190"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

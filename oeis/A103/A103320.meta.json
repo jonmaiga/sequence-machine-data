@@ -1,0 +1,22 @@
+{
+  "description": "Condensed Golomb sequence: digits according to Golomb's sequence, same digits concatenated.",
+  "id": "A103320",
+  "mentions": [
+    "A001462"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 12,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

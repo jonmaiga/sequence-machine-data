@@ -1,0 +1,36 @@
+{
+  "description": "Table with 10 columns read by rows: T(n, k) is the number of n-digit positive integers with exactly k distinct base 10 digits (0 < k <= 10).",
+  "id": "A337127",
+  "mentions": [
+    "A010734",
+    "A010785",
+    "A031955",
+    "A031962",
+    "A031969",
+    "A031987",
+    "A048993",
+    "A052268",
+    "A073531",
+    "A116670",
+    "A171102",
+    "A180599",
+    "A218019",
+    "A219743",
+    "A220076",
+    "A335843",
+    "A337313"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

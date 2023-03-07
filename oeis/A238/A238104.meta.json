@@ -1,0 +1,23 @@
+{
+  "description": "Sum of digits in periodic part of decimal expansion of 1/prime(n).",
+  "id": "A238104",
+  "mentions": [
+    "A002371",
+    "A007953",
+    "A060283",
+    "A238105",
+    "A238106"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

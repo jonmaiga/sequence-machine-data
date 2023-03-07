@@ -1,0 +1,18 @@
+{
+  "description": "The poor sandwiches sequence (see Comments lines for definition).",
+  "id": "A335600",
+  "mentions": [
+    "A086005"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

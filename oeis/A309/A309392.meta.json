@@ -1,0 +1,43 @@
+{
+  "description": "Square array read by downward antidiagonals: A(n, k) is the k-th prime p such that p + 2*n is also prime, or 0 if that prime does not exist.",
+  "id": "A309392",
+  "mentions": [
+    "A001359",
+    "A020483",
+    "A023200",
+    "A023201",
+    "A023202",
+    "A023203",
+    "A033560",
+    "A046133",
+    "A049481",
+    "A049488",
+    "A049489",
+    "A049490",
+    "A062284",
+    "A153417",
+    "A153418",
+    "A153419",
+    "A156104",
+    "A231608",
+    "A242476",
+    "A252089",
+    "A252090",
+    "A252091",
+    "A271347",
+    "A271981",
+    "A271982",
+    "A272176"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

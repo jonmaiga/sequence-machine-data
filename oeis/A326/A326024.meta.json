@@ -1,0 +1,29 @@
+{
+  "description": "Number of subsets of {1..n} containing no sums or products of distinct elements.",
+  "id": "A326024",
+  "mentions": [
+    "A007865",
+    "A051026",
+    "A121269",
+    "A151897",
+    "A325710",
+    "A326025",
+    "A326076",
+    "A326083",
+    "A326117",
+    "A326489",
+    "A326495",
+    "A326497",
+    "A326498"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

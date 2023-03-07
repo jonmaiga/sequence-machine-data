@@ -1,0 +1,22 @@
+{
+  "description": "Nonnegative values x of solutions (x, y) to the Diophantine equation x^2+(x+119)^2 = y^2.",
+  "id": "A129837",
+  "mentions": [
+    "A118630",
+    "A156035",
+    "A156163",
+    "A156649",
+    "A156650"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:42:30",
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

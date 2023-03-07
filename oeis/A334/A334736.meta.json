@@ -1,0 +1,21 @@
+{
+  "description": "Dimensions d such that the integer lattice Z^d does not contain the vertices of a regular d-simplex.",
+  "id": "A334736",
+  "mentions": [
+    "A000290",
+    "A001481",
+    "A022544",
+    "A096315",
+    "A097269"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of coalescent histories for a matching completely symmetric gene tree and completely symmetric species tree with 2^n leaves.",
+  "id": "A306402",
+  "mentions": [
+    "A306205",
+    "A306295"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive terms such that the Fermi-Dirac factorizations of two consecutive terms differ by exactly one factor.",
+  "id": "A298480",
+  "mentions": [
+    "A000120",
+    "A050376",
+    "A052330",
+    "A052331",
+    "A163252",
+    "A182979",
+    "A282291"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:20",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

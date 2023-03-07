@@ -1,0 +1,19 @@
+{
+  "description": "Number of primes of the form: |P_i +- P_n / P_i| or |P_i/2 +- 2P_n / P_i|, where 2 <= i <= n, P_i = the i-th primorial number (A002110).",
+  "id": "A238506",
+  "mentions": [
+    "A000040",
+    "A002110"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 2,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "description": "Heinz number of the set of Heinz numbers of all strict integer partitions of n.",
+  "id": "A325505",
+  "mentions": [
+    "A000009",
+    "A001221",
+    "A001222",
+    "A003963",
+    "A015723",
+    "A056239",
+    "A066189",
+    "A112798",
+    "A145519",
+    "A147655",
+    "A215366",
+    "A246867",
+    "A325500",
+    "A325504",
+    "A325506",
+    "A325512",
+    "A325513"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

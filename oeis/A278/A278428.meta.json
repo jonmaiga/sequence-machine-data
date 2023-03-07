@@ -1,0 +1,23 @@
+{
+  "description": "Series reversion of g.f. (1/2)*x*(-1; -x)_inf, where (a; q)_inf is the q-Pochhammer symbol.",
+  "id": "A278428",
+  "mentions": [
+    "A081360",
+    "A109085",
+    "A171805",
+    "A181315",
+    "A255526",
+    "A318204"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

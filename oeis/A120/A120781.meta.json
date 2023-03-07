@@ -1,0 +1,26 @@
+{
+  "description": "Denominators of partial sums of Catalan numbers scaled by powers of 1/8.",
+  "id": "A120781",
+  "mentions": [
+    "A000108",
+    "A120780",
+    "A120783",
+    "A120787",
+    "A120789",
+    "A120793",
+    "A120796"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Composite numbers such that the cube root of the sum of cubes of their prime factors is an integer.",
+  "id": "A134608",
+  "mentions": [
+    "A001597",
+    "A025475",
+    "A134333",
+    "A134344",
+    "A134376",
+    "A134600",
+    "A134602",
+    "A134605",
+    "A134611",
+    "A134616",
+    "A134618",
+    "A134620"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:22",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

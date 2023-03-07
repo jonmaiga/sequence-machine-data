@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the number of different types of faces of Johnson solid J_n, with solids ordered by indices in Johnson's paper.",
+  "id": "A306949",
+  "mentions": [
+    "A242731",
+    "A242732",
+    "A242733",
+    "A296603",
+    "A296604",
+    "A299529"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

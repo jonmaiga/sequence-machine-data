@@ -1,0 +1,23 @@
+{
+  "description": "'ADPE(n,k)' triangle read by rows. ADPE(n,k) is the number of aperiodic k-double-palindromes of n up to cyclic equivalence.",
+  "id": "A181169",
+  "mentions": [
+    "A119963",
+    "A180424",
+    "A180918",
+    "A181111",
+    "A181314"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:04",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

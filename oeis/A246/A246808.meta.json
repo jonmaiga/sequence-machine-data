@@ -1,0 +1,23 @@
+{
+  "description": "Palindromic terms of the sequence A245317.",
+  "id": "A246808",
+  "mentions": [
+    "A002808",
+    "A004086",
+    "A100414",
+    "A245317"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "a(n) is the smallest number m such that the multiplicative group modulo m is the direct product of n cyclic groups.",
+  "id": "A272590",
+  "mentions": [
+    "A002322",
+    "A033948",
+    "A046072",
+    "A058254",
+    "A102476",
+    "A272593",
+    "A272594",
+    "A272595",
+    "A272596",
+    "A272597",
+    "A272598",
+    "A272599"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

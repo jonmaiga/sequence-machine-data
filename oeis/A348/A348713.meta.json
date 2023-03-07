@@ -1,0 +1,21 @@
+{
+  "description": "Numbers whose divisors can be partitioned into two disjoint sets with equal arithmetic mean.",
+  "id": "A348713",
+  "mentions": [
+    "A027750",
+    "A057020",
+    "A057021",
+    "A083207",
+    "A347063"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers repeated except that powers of 2 only appear once.",
+  "id": "A274089",
+  "mentions": [
+    "A002960"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

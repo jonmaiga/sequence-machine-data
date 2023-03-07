@@ -1,0 +1,20 @@
+{
+  "description": "Tribonacci sequences A000073 and A001590 interleaved.",
+  "id": "A213816",
+  "mentions": [
+    "A000073",
+    "A001590"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

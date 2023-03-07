@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{d|n} max(d, n/d)^5.",
+  "id": "A297844",
+  "mentions": [
+    "A001160",
+    "A117003",
+    "A297795",
+    "A297841",
+    "A297842",
+    "A297843"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:18",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

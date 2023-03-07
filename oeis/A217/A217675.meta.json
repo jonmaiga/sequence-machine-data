@@ -1,0 +1,21 @@
+{
+  "description": "Number of permutations in S_n containing an increasing subsequence of length 8.",
+  "id": "A217675",
+  "mentions": [
+    "A000142",
+    "A072131",
+    "A214015",
+    "A214152"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 8,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

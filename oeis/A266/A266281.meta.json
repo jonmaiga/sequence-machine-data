@@ -1,0 +1,20 @@
+{
+  "description": "a(1)=1; a(n) is the first integer > a(n-1) with which, in the a(n-1)/a(n) decimal expansion, n is present.",
+  "id": "A266281",
+  "mentions": [
+    "A257664",
+    "A265740",
+    "A265756"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:27",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

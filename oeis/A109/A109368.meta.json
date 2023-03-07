@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of n into parts relatively prime to 42.",
+  "id": "A109368",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A112211",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:49:33",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

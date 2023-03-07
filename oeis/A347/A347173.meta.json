@@ -1,0 +1,25 @@
+{
+  "description": "Sum of squares of odd divisors of n that are <= sqrt(n).",
+  "id": "A347173",
+  "mentions": [
+    "A001157",
+    "A050999",
+    "A069288",
+    "A069289",
+    "A095118",
+    "A347161",
+    "A347174",
+    "A347175"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

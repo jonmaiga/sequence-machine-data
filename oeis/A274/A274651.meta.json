@@ -1,0 +1,38 @@
+{
+  "description": "Triangle read by rows: T(n,k), (1<=k<=n), in which each term is the least positive integer such that no row, column, diagonal, or antidiagonal contains a repeated term.",
+  "id": "A274651",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000170",
+    "A001844",
+    "A008586",
+    "A016825",
+    "A047447",
+    "A047522",
+    "A047621",
+    "A269526",
+    "A274528",
+    "A274616",
+    "A274650",
+    "A274820",
+    "A274821",
+    "A286297",
+    "A287864",
+    "A288530",
+    "A288531"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

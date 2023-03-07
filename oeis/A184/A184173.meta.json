@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the sum of the k X k minors in the n X n Pascal matrix (0<=k<=n; the empty 0 X 0 minor is defined to be 1).",
+  "id": "A184173",
+  "mentions": [
+    "A000012",
+    "A000225",
+    "A005157",
+    "A007318",
+    "A306376"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:08",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

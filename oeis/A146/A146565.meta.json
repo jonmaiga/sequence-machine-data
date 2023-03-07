@@ -1,0 +1,20 @@
+{
+  "description": "A double offset polynomial as a triangle of coefficients: p(x,n)=(x + 1)^n + If[n >= 2, x^2*(x + 1)^(n - 1), x^(n + 1)] + If[n >= 4, x^2*(x + 1)^(n - 3), 0].",
+  "id": "A146565",
+  "mentions": [
+    "A072405",
+    "A259098"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

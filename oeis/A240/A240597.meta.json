@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that sigma(k) == k (mod 9).",
+  "id": "A240597",
+  "mentions": [
+    "A000203",
+    "A010878",
+    "A010888",
+    "A105852",
+    "A190998"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:57",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

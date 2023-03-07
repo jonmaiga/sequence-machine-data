@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of numbers of the form k + reverse(k) for at least one n-digit number k.",
+  "id": "A358985",
+  "mentions": [
+    "A067030",
+    "A358986"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

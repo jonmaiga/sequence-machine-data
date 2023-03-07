@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that A007088(p) mod p is prime.",
+  "id": "A339544",
+  "mentions": [
+    "A007088"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

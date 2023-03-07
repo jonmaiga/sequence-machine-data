@@ -1,0 +1,26 @@
+{
+  "description": "The number of dual-Zeckendorf-infinitary divisors of n: divisors d = Product_{i} p(i)^s(i), such that the dual Zeckendorf expansion (A104326) of each s(i) contains only terms that are in the dual Zeckendorf expansion of r(i).",
+  "id": "A331109",
+  "mentions": [
+    "A037445",
+    "A038148",
+    "A074848",
+    "A077609",
+    "A104326",
+    "A112310",
+    "A286324",
+    "A318465"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

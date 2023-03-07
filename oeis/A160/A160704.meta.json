@@ -1,0 +1,22 @@
+{
+  "description": "Jacobsthal sequence A001045 convolved with A139251 (first differences of toothpick numbers).",
+  "id": "A160704",
+  "mentions": [
+    "A000695",
+    "A001045",
+    "A139250",
+    "A139251",
+    "A160552"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

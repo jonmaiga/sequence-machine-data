@@ -1,0 +1,33 @@
+{
+  "description": "Fibonacci-Pascal triangle; same as Pascal triangle, but beginning another Pascal triangle to the right of each row starting at row 2.",
+  "id": "A162741",
+  "mentions": [
+    "A000045",
+    "A000225",
+    "A005408",
+    "A007318",
+    "A021113",
+    "A027926",
+    "A036355",
+    "A037027",
+    "A074829",
+    "A105809",
+    "A109906",
+    "A111006",
+    "A114197",
+    "A136431",
+    "A228074"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

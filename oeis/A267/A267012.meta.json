@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that the n-th prime equals the n-th Ramanujan prime of the totient of n.",
+  "id": "A267012",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A104272"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "A(n,k) = Sum_{i_1=0..n} Sum_{i_2=0..n} ... Sum_{i_k=0..n} (-1)^(i_1 + i_2 + ... + i_k) * multinomial(i_1 + i_2 + ... + i_k; i_1, i_2, ..., i_k), square array A(n,k) read by antidiagonals, for n >= 0, k >= 0.",
+  "id": "A308322",
+  "mentions": [
+    "A000012",
+    "A059841",
+    "A120305",
+    "A182386",
+    "A307318",
+    "A307324",
+    "A308292",
+    "A308323",
+    "A308325"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

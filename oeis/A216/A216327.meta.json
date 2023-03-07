@@ -1,0 +1,24 @@
+{
+  "description": "Irregular triangle of orders mod n for the elements of the smallest positive reduced residue system mod n.",
+  "id": "A216327",
+  "mentions": [
+    "A000010",
+    "A002322",
+    "A038566",
+    "A086145",
+    "A111725",
+    "A216320"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

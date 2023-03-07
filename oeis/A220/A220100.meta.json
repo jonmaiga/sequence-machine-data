@@ -1,0 +1,19 @@
+{
+  "description": "Sum of the four nearest neighbors of n in a double spiral with positive integers and 1 at the center.",
+  "id": "A220100",
+  "mentions": [
+    "A220098",
+    "A220099"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

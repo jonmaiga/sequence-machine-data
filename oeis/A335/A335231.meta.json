@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that are the sum of 3 refactorable numbers in exactly one way.",
+  "id": "A335231",
+  "mentions": [
+    "A000005",
+    "A033950",
+    "A335230"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

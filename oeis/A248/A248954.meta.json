@@ -1,0 +1,19 @@
+{
+  "description": "Let x0 x1 x2...xq denote the decimal expansion of n. Sequence lists numbers n such that x1/x0 + x2/x1 +...+ x0/xq is an integer.",
+  "id": "A248954",
+  "mentions": [
+    "A227001"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

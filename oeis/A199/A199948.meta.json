@@ -1,0 +1,17 @@
+{
+  "description": "Number of -n..n arrays x(0..6) of 7 elements with zeroth through 6th differences all nonzero",
+  "id": "A199948",
+  "mentions": [
+    "A199943"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

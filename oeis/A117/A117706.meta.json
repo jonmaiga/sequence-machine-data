@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that 6^k - k^6 is prime.",
+  "id": "A117706",
+  "mentions": [
+    "A117705",
+    "A128448",
+    "A243114"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

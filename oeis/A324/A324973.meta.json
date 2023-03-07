@@ -1,0 +1,26 @@
+{
+  "description": "Special polygonal numbers.",
+  "id": "A324973",
+  "mentions": [
+    "A002997",
+    "A005117",
+    "A090466",
+    "A324316",
+    "A324319",
+    "A324320",
+    "A324972",
+    "A324974",
+    "A324975",
+    "A324976"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

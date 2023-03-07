@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = binomial(8*n+2,n)/(4*n+1).",
+  "id": "A234461",
+  "mentions": [
+    "A000108",
+    "A007556",
+    "A230390",
+    "A234462",
+    "A234463",
+    "A234464",
+    "A234465",
+    "A234466",
+    "A234467"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

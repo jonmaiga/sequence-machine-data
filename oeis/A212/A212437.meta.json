@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the imaginary part of e^(i/e).",
+  "id": "A212437",
+  "mentions": [
+    "A085659",
+    "A085660",
+    "A212436"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:32:23",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

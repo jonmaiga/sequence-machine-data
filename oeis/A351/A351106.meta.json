@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(m,n) is the number of simple paths for a Racetrack car (using Moore neighborhood) with initial velocity zero, going from one corner to the diagonally opposite corner on an m X n grid, 1 <= n <= m.",
+  "id": "A351106",
+  "mentions": [
+    "A291896",
+    "A329118",
+    "A351041",
+    "A351107",
+    "A351108",
+    "A351110"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "changed",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

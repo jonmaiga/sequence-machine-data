@@ -1,0 +1,23 @@
+{
+  "description": "Valid strings, in lexicographic order, of Balls (\"1\") and Strikes (\"2\") in a Baseball at-bat. Numbers that contain only 1's and 2's never exceeding 3 total 2's or 4 total 1's, whichever comes first.",
+  "id": "A136407",
+  "mentions": [
+    "A007931",
+    "A115380",
+    "A121379",
+    "A121403"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

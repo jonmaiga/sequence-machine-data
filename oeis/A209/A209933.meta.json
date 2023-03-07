@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are divisible by all digits of their divisors.",
+  "id": "A209933",
+  "mentions": [
+    "A004022",
+    "A027750",
+    "A034838",
+    "A037278"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

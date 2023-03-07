@@ -1,0 +1,40 @@
+{
+  "description": "Restricted growth sequence computed for filter-sequence A278222, related to 1-runs in the binary representation of n.",
+  "id": "A286622",
+  "mentions": [
+    "A000120",
+    "A001316",
+    "A005940",
+    "A046523",
+    "A101296",
+    "A278222",
+    "A286378",
+    "A286552",
+    "A286581",
+    "A286589",
+    "A286597",
+    "A286599",
+    "A286600",
+    "A286602",
+    "A286603",
+    "A286605",
+    "A286610",
+    "A286619",
+    "A286621",
+    "A286626",
+    "A304101",
+    "A305793",
+    "A305795"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 0,
+    "size": 110,
+    "source": "oeis-bfile"
+  }
+}

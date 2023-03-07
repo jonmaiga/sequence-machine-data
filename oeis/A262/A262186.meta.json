@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = prime(n)^3 - n^3.",
+  "id": "A262186",
+  "mentions": [
+    "A000578",
+    "A014689",
+    "A030078",
+    "A106588"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:49:29",
+    "offset": 1,
+    "size": 32,
+    "source": "joeis"
+  }
+}

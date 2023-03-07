@@ -1,0 +1,29 @@
+{
+  "description": "Square array constructed from Flavius sieve, shifted version, read by descending antidiagonals",
+  "id": "A278511",
+  "mentions": [
+    "A000960",
+    "A002260",
+    "A004736",
+    "A083221",
+    "A255127",
+    "A255551",
+    "A278505",
+    "A278507",
+    "A278512",
+    "A278537",
+    "A278538"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

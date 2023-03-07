@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that phi(n) = p^3, where p is product of digits of n.",
+  "id": "A153428",
+  "mentions": [
+    "A068572",
+    "A153427"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

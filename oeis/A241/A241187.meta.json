@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) (0 <= k <= n) = denominator of Integral_{x=0..n} binomial(x,k).",
+  "id": "A241187",
+  "mentions": [
+    "A100640",
+    "A100641",
+    "A241186"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

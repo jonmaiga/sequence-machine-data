@@ -1,0 +1,21 @@
+{
+  "description": "First gap of length at least n in A007951, lower end.",
+  "id": "A139387",
+  "mentions": [
+    "A007951",
+    "A138845",
+    "A138900",
+    "A139386"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

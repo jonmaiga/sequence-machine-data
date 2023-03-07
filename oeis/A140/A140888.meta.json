@@ -1,0 +1,20 @@
+{
+  "description": "Number of nonprimes in [210n - 210, 210n] coprime to 210.",
+  "id": "A140888",
+  "mentions": [
+    "A008364",
+    "A140887"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

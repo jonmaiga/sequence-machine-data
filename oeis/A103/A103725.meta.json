@@ -1,0 +1,20 @@
+{
+  "description": "Column m=8 sequence of triangle A103718(n,m), n>=0, without leading zeros.",
+  "id": "A103725",
+  "mentions": [
+    "A048994",
+    "A103718"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

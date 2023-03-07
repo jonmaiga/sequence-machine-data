@@ -1,0 +1,30 @@
+{
+  "description": "a(n) = 2^n - n^k, where k is the largest integer such that 2^n >= n^k.",
+  "id": "A215892",
+  "mentions": [
+    "A000325",
+    "A024012",
+    "A024013",
+    "A024014",
+    "A024015",
+    "A024016",
+    "A024017",
+    "A024018",
+    "A024019",
+    "A024020",
+    "A024021",
+    "A024022",
+    "A060508"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 2,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

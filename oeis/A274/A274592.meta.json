@@ -1,0 +1,21 @@
+{
+  "description": "Sum of n-th powers of the roots of x^3 -31* x^2 - 25*x - 1.",
+  "id": "A274592",
+  "mentions": [
+    "A248417",
+    "A274032",
+    "A274075"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

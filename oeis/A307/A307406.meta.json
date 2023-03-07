@@ -1,0 +1,24 @@
+{
+  "description": "Number of twisted permutations of the nonnegative integers in base 2*n+1 with an adjacency diagram as defined by Knuth in A220952.",
+  "id": "A307406",
+  "mentions": [
+    "A128173",
+    "A220952",
+    "A300857",
+    "A307403",
+    "A307404",
+    "A307405"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

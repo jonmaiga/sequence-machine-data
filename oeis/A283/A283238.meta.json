@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of exp( Sum_{n>=1} sigma_2(3*n)*x^n/n ) in powers of x.",
+  "id": "A283238",
+  "mentions": [
+    "A000219",
+    "A182819",
+    "A283224"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:53",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

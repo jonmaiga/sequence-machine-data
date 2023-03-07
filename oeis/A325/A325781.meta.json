@@ -1,0 +1,27 @@
+{
+  "description": "Heinz numbers of complete integer partitions.",
+  "id": "A325781",
+  "mentions": [
+    "A002033",
+    "A056239",
+    "A103295",
+    "A112798",
+    "A126796",
+    "A188431",
+    "A299702",
+    "A325684",
+    "A325770",
+    "A325780",
+    "A325782"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

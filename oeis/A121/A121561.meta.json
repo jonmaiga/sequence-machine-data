@@ -1,0 +1,24 @@
+{
+  "description": "The number of iterations of \"subtract the largest prime less than or equal to the current value\" to go from n to the limiting value 0 or 1.",
+  "id": "A121561",
+  "mentions": [
+    "A064722",
+    "A093513",
+    "A093515",
+    "A121559",
+    "A121562",
+    "A138026",
+    "A138027"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

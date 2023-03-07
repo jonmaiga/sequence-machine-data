@@ -1,0 +1,29 @@
+{
+  "description": "In the balanced ternary representation of n, reverse the order of digits other than the most significant.",
+  "id": "A351702",
+  "mentions": [
+    "A007932",
+    "A059095",
+    "A059893",
+    "A072998",
+    "A132141",
+    "A134021",
+    "A134027",
+    "A134028",
+    "A157671",
+    "A343150",
+    "A343152"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of mora in Japanese name of n in 'On' reading. In case there are several spellings, use the shorter one.",
+  "id": "A261126",
+  "mentions": [
+    "A030166",
+    "A051705",
+    "A057888",
+    "A274177"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

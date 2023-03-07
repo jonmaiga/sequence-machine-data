@@ -1,0 +1,19 @@
+{
+  "description": "Number of n-digit numbers x such that the digits of x^2 occur with frequency 1.",
+  "id": "A226797",
+  "mentions": [
+    "A225428",
+    "A226796"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:01:35",
+    "offset": 1,
+    "size": 85,
+    "source": "joeis"
+  }
+}

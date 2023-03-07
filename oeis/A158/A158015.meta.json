@@ -1,0 +1,23 @@
+{
+  "description": "Primes p such that 6*p-1 is also prime.",
+  "id": "A158015",
+  "mentions": [
+    "A000040",
+    "A005382",
+    "A024898",
+    "A062737",
+    "A158016",
+    "A158017"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:12:53",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

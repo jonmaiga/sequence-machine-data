@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = Sum_{k>=0} A030308(n,k)*(2k+1).",
+  "id": "A197354",
+  "mentions": [
+    "A000700",
+    "A005408",
+    "A010060",
+    "A022290",
+    "A029931",
+    "A030308",
+    "A059590",
+    "A089625"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

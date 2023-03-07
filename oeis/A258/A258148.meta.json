@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of (2 - 3*sqrt(3)/Pi)/6: ratio of the area of a circular segment with central angle Pi/3 and the area of the corresponding circular half-disk",
+  "id": "A258148",
+  "mentions": [
+    "A258146",
+    "A258147"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:46:29",
+    "offset": -1,
+    "size": 81,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(1) = 1, a(n) = n/p^(k-1), where p = largest prime dividing n and p^k = highest power of p dividing n.",
+  "id": "A243074",
+  "mentions": [
+    "A006530",
+    "A051119",
+    "A052410",
+    "A070003",
+    "A102750",
+    "A243057"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

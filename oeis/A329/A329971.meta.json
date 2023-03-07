@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of 1 / (1 - 2 * Sum_{k>=1} x^(k^2)).",
+  "id": "A329971",
+  "mentions": [
+    "A000122",
+    "A004402",
+    "A006456",
+    "A025192",
+    "A032803",
+    "A240944",
+    "A279225",
+    "A279226",
+    "A280542",
+    "A320654"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

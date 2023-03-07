@@ -1,0 +1,21 @@
+{
+  "description": "Inverse Möbius transform of A329642.",
+  "id": "A329645",
+  "mentions": [
+    "A156552",
+    "A323244",
+    "A329642",
+    "A329646"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Primes of the form 7*k - prime(k) (terms can be repeated).",
+  "id": "A141561",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "dumb",
+    "less",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:30",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

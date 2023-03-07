@@ -1,0 +1,21 @@
+{
+  "description": "Inverse binomial transform of A119020, even-indexed terms only, since all odd-indexed terms are equal to zero.",
+  "id": "A119022",
+  "mentions": [
+    "A000108",
+    "A055151",
+    "A119020",
+    "A119021"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of 3 X 3 0..n arrays with rows in lexicographically nondecreasing order and columns in nonincreasing order.",
+  "id": "A229775",
+  "mentions": [
+    "A229774"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:47:29",
+    "offset": 1,
+    "size": 23,
+    "source": "joeis"
+  }
+}

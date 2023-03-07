@@ -1,0 +1,21 @@
+{
+  "description": "Least number k such that e - 2*k/u(2*k) < 1/n^n, where u is defined as in Comments.",
+  "id": "A247908",
+  "mentions": [
+    "A247909",
+    "A247910",
+    "A247911",
+    "A247914"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

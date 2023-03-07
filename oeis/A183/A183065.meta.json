@@ -1,0 +1,22 @@
+{
+  "description": "Triangle defined by g.f.: Sum_{n>=0} (4*n)!/n!^4 * x^(2*n)*y^n/(1-x-x*y)^(4*n+1), read by rows.",
+  "id": "A183065",
+  "mentions": [
+    "A008459",
+    "A181543",
+    "A183066",
+    "A183067",
+    "A183068"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

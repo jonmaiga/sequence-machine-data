@@ -1,0 +1,29 @@
+{
+  "description": "Array T(k,n) = number of meaningful differential operations of the n-th order on the space R^(3+k), for k=>0, n>0, read by antidiagonals.",
+  "id": "A116183",
+  "mentions": [
+    "A020701",
+    "A090989",
+    "A090990",
+    "A090991",
+    "A090992",
+    "A090993",
+    "A090994",
+    "A090995",
+    "A127935",
+    "A129638",
+    "A129639"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

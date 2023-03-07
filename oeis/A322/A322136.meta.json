@@ -1,0 +1,30 @@
+{
+  "description": "Numbers whose number of prime factors counted with multiplicity exceeds half their sum of prime indices by at least 1.",
+  "id": "A322136",
+  "mentions": [
+    "A000569",
+    "A025065",
+    "A030019",
+    "A056156",
+    "A056239",
+    "A056503",
+    "A112798",
+    "A181821",
+    "A242414",
+    "A304382",
+    "A320922",
+    "A320923",
+    "A320924",
+    "A320925"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

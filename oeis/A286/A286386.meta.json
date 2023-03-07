@@ -1,0 +1,22 @@
+{
+  "description": "Compound filter: a(n) = 2*A286473(n) + (1 if n is a square, 0 otherwise).",
+  "id": "A286386",
+  "mentions": [
+    "A000290",
+    "A010052",
+    "A286366",
+    "A286388",
+    "A286473"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

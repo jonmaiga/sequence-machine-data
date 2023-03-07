@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive terms with an associate sequence t such that a(1) = t(1) = 1 and for n > 1, either a(n) divides t(n-1) (and in that case set t(n) = t(n-1)/a(n)) or a(n) is coprime to t(n-1) (and in that case set t(n) = t(n-1)*a(n)).",
+  "id": "A330647",
+  "mentions": [
+    "A008336",
+    "A330648"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

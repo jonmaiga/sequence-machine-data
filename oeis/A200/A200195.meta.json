@@ -1,0 +1,18 @@
+{
+  "description": "Number of -n..n arrays x(0..5) of 6 elements with zero sum, adjacent elements differing by more than one, and elements alternately increasing and decreasing.",
+  "id": "A200195",
+  "mentions": [
+    "A200192"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:21",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

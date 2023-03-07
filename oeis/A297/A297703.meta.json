@@ -1,0 +1,23 @@
+{
+  "description": "The Genocchi triangle read by rows, T(n,k) for n>=0 and 0<=k<=n.",
+  "id": "A297703",
+  "mentions": [
+    "A001469",
+    "A005439",
+    "A014781",
+    "A099959",
+    "A110501",
+    "A226158"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

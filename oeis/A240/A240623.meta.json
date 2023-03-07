@@ -1,0 +1,19 @@
+{
+  "description": "Prime numbers n such that replacing each digit d in the decimal expansion of n with d^d produces a prime. Zeros are allowed with the convention 0^0 = 1.",
+  "id": "A240623",
+  "mentions": [
+    "A068492",
+    "A240624"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

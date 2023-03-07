@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = floor(Pi*(n + sqrt(2))^2).",
+  "id": "A295026",
+  "mentions": [
+    "A000328"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:30:55",
+    "offset": -1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

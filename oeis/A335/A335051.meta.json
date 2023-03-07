@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the smallest decimal number > 1 such that when it is written in all bases from base 2 to base n those numbers all contain both 0 and 1.",
+  "id": "A335051",
+  "mentions": [
+    "A145100",
+    "A153114",
+    "A181929",
+    "A258107",
+    "A317725",
+    "A331565",
+    "A335066"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 2,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest increasing sequence such that the derived triangle T(n,k) = \"a(n) represented in base a(k)\" (with k < n) contains only distinct representations.",
+  "id": "A256121",
+  "mentions": [
+    "A005282"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

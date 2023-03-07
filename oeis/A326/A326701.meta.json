@@ -1,0 +1,28 @@
+{
+  "description": "BII-numbers of set partitions.",
+  "id": "A326701",
+  "mentions": [
+    "A000120",
+    "A029931",
+    "A035327",
+    "A048793",
+    "A070939",
+    "A291166",
+    "A302521",
+    "A326031",
+    "A326675",
+    "A326702",
+    "A326703",
+    "A326704"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

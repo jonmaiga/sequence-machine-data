@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = A000032(n)^A000032(n+1) mod A000032(n+2).",
+  "id": "A350087",
+  "mentions": [
+    "A000032",
+    "A350253"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

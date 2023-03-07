@@ -1,0 +1,18 @@
+{
+  "description": "Number of irredundant sets in the complete tripartite graph K_{n,n,n}.",
+  "id": "A290709",
+  "mentions": [
+    "A290707"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:33:40",
+    "offset": 1,
+    "size": 32,
+    "source": "joeis"
+  }
+}

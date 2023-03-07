@@ -1,0 +1,23 @@
+{
+  "description": "List of all inequivalent 3 X 3 magic squares made of distinct positive integers, sorted by increasing sum. For each equivalence class modulo symmetries of the square, the lexicographically smallest representative is shown.",
+  "id": "A320871",
+  "mentions": [
+    "A073520",
+    "A217568",
+    "A268790",
+    "A270305",
+    "A320872",
+    "A320873"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

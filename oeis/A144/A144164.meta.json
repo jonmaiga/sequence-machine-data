@@ -1,0 +1,24 @@
+{
+  "description": "Number of simple graphs on n labeled nodes, where each maximally connected subgraph is either a tree or a cycle, also row sums of A144163, A215861.",
+  "id": "A144164",
+  "mentions": [
+    "A000142",
+    "A007318",
+    "A138464",
+    "A144161",
+    "A144163",
+    "A215861",
+    "A215978"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of acute triangles with integer sides less than or equal to n.",
+  "id": "A247586",
+  "mentions": [
+    "A002623",
+    "A224921",
+    "A247587",
+    "A247588",
+    "A247589"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

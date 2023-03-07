@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f. A(x) satisfies: L(x) = A(x)/(x*A'(x)) * L(A(x)) where L(x) = x + x*A(x).",
+  "id": "A179493",
+  "mentions": [
+    "A179420",
+    "A179421",
+    "A179494"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

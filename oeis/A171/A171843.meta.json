@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows = truncated columns of an array formed by variants of the natural number decrescendo triangle, A004736.",
+  "id": "A171843",
+  "mentions": [
+    "A000217",
+    "A001906",
+    "A003945",
+    "A004736",
+    "A171844",
+    "A259968"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:55",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

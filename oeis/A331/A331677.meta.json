@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the difference between the number of primes smaller than prime(n) (i.e., n-1) and greater than prime(n) but less than 2*prime(n).",
+  "id": "A331677",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A020900",
+    "A070046",
+    "A334051"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:45:39",
+    "offset": 1,
+    "size": 74,
+    "source": "joeis"
+  }
+}

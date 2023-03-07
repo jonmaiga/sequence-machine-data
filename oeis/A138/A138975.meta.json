@@ -1,0 +1,19 @@
+{
+  "description": "Primes made up of only 3's and a 4 and at most two 2's.",
+  "id": "A138975",
+  "mentions": [
+    "A020458",
+    "A138974"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

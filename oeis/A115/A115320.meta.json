@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows. Let L(m,n) = largest integer such that if each symbol in an m X n array appears at most L(m,n) times, then the array must have a transversal. Values are shown in this order: L(m,n), n>=2, m=n, n-1, n-2, ...,2.",
+  "id": "A115320",
+  "mentions": [
+    "A115321"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 2,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

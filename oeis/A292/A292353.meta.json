@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n with a record number of Lucas-Carmichael numbers that can be generated from them using an adjusted version of Erdős's method.",
+  "id": "A292353",
+  "mentions": [
+    "A006972",
+    "A287840",
+    "A287861",
+    "A292352"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

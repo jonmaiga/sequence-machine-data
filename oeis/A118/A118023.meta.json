@@ -1,0 +1,18 @@
+{
+  "description": "Column 0 of triangle A118022, where the matrix square of A118022 shifts each column up 1 row, dropping the main diagonal of powers of 2.",
+  "id": "A118023",
+  "mentions": [
+    "A118022"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

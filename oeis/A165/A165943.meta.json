@@ -1,0 +1,25 @@
+{
+  "description": "Heptasection A061037(7*n+2).",
+  "id": "A165943",
+  "mentions": [
+    "A016754",
+    "A061037",
+    "A077591",
+    "A142590",
+    "A142883",
+    "A165248",
+    "A181318"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:32:51",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = L(13n)/L(n) where L(n) = Lucas number A000204(n).",
+  "id": "A153180",
+  "mentions": [
+    "A000032",
+    "A000204",
+    "A047221",
+    "A110391",
+    "A153173",
+    "A153175",
+    "A153177",
+    "A153179"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:42:18",
+    "offset": 1,
+    "size": 11,
+    "source": "joeis"
+  }
+}

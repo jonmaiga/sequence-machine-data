@@ -1,0 +1,29 @@
+{
+  "description": "Ratio of the primitive part of 2^n-1 to the product of primitive prime factors of 2^n-1.",
+  "id": "A250208",
+  "mentions": [
+    "A001220",
+    "A014491",
+    "A014664",
+    "A019320",
+    "A049093",
+    "A049094",
+    "A064078",
+    "A072226",
+    "A093106",
+    "A161508",
+    "A178764",
+    "A237043"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 1,
+    "size": 128,
+    "source": "oeis-bfile"
+  }
+}

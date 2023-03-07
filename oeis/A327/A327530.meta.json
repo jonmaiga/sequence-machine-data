@@ -1,0 +1,23 @@
+{
+  "description": "Number of divisors of n that are 1 or whose prime indices are relatively prime.",
+  "id": "A327530",
+  "mentions": [
+    "A000005",
+    "A006530",
+    "A112798",
+    "A281116",
+    "A289509",
+    "A318721",
+    "A327529"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

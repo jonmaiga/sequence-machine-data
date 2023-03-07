@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = pi(prime(n) - n) + n, where pi is the prime counting function.",
+  "id": "A334614",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A014688",
+    "A014689",
+    "A062298",
+    "A065328",
+    "A097933",
+    "A332086",
+    "A337334"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

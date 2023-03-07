@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = the smallest number m such that sigma(n) = m^k for any k >= 1 (sigma = A000203).",
+  "id": "A175433",
+  "mentions": [
+    "A000203",
+    "A052410",
+    "A175432"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

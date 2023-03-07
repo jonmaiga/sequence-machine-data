@@ -1,0 +1,36 @@
+{
+  "description": "Position of first appearance of n in A124758 (products of compositions in standard order).",
+  "id": "A331579",
+  "mentions": [
+    "A000120",
+    "A003963",
+    "A029931",
+    "A048793",
+    "A056239",
+    "A066099",
+    "A070939",
+    "A096111",
+    "A114994",
+    "A124758",
+    "A164894",
+    "A233249",
+    "A233564",
+    "A272919",
+    "A326674",
+    "A333217",
+    "A333219",
+    "A333220",
+    "A333223"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

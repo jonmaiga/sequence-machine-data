@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest prime that can be the apex of a triangle with n rows, all entries being distinct primes, and all row sums equal.",
+  "id": "A340558",
+  "mentions": [
+    "A047837",
+    "A109724"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

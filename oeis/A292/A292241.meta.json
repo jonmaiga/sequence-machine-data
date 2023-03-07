@@ -1,0 +1,24 @@
+{
+  "description": "The 3-adic valuation of A254103(n).",
+  "id": "A292241",
+  "mentions": [
+    "A007814",
+    "A007949",
+    "A254103",
+    "A292240",
+    "A292242",
+    "A292251",
+    "A292261"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:07",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

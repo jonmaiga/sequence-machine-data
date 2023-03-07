@@ -1,0 +1,34 @@
+{
+  "description": "Inverse Möbius transform of Kimberling's paraphrases (A003602).",
+  "id": "A349371",
+  "mentions": [
+    "A000203",
+    "A003602",
+    "A264740",
+    "A347954",
+    "A347955",
+    "A347956",
+    "A349136",
+    "A349370",
+    "A349372",
+    "A349373",
+    "A349374",
+    "A349375",
+    "A349390",
+    "A349393",
+    "A349431",
+    "A349444",
+    "A349447"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

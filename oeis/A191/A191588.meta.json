@@ -1,0 +1,22 @@
+{
+  "description": "T(m,n) is the number of ways to split two strings of length m and n, respectively, into the same number of nonempty parts such that at least one of the corresponding parts has length 1 and such that the parts have at most size 2.",
+  "id": "A191588",
+  "mentions": [
+    "A098479",
+    "A180091",
+    "A185287"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 107,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n!*[x^n] cosh(x/(1-x))/(1-x).",
+  "id": "A331325",
+  "mentions": [
+    "A002720",
+    "A009940",
+    "A021009",
+    "A331326"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

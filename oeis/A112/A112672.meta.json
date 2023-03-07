@@ -1,0 +1,17 @@
+{
+  "description": "Bases arising in A112670.",
+  "id": "A112672",
+  "mentions": [
+    "A112670"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 2,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

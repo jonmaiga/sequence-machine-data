@@ -1,0 +1,18 @@
+{
+  "description": "McKay-Thompson series of class 32d for the Monster group.",
+  "id": "A112172",
+  "mentions": [
+    "A058549"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:32:21",
+    "offset": 0,
+    "size": 88,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Triangle, read by rows, where the g.f. of column k, C_k(x), is defined by the recursion: C_k(x) = ( 1 + Sum_{n>=1} x^n*C_{n-1+k}(x) )^(k+1).",
+  "id": "A127082",
+  "mentions": [
+    "A124328",
+    "A127083",
+    "A127084",
+    "A127085",
+    "A127086",
+    "A127090"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

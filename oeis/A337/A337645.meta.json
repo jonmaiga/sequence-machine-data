@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=2; thereafter, a(n) = smallest number with at least two different prime factors that is missing from A336957 after A336957(n) has been found.",
+  "id": "A337645",
+  "mentions": [
+    "A336957",
+    "A338052",
+    "A338058"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

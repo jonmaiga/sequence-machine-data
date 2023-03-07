@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Sum_{i>=0} A004018(i)/2^i.",
+  "id": "A124118",
+  "mentions": [
+    "A004018"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

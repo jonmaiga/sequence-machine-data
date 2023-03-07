@@ -1,0 +1,23 @@
+{
+  "description": "Indices of primes which are the average of two successive semiprimes.",
+  "id": "A103655",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A088700",
+    "A103654",
+    "A103668",
+    "A103669"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

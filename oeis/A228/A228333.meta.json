@@ -1,0 +1,26 @@
+{
+  "description": "Let h(m) denote the sequence whose n-th term is Sum__{k=0..n} (k+1)^m*T(n,k)^2, where T(n,k) is the Catalan triangle A039598. This is h(7).",
+  "id": "A228333",
+  "mentions": [
+    "A000108",
+    "A000515",
+    "A000894",
+    "A024492",
+    "A039598",
+    "A228329",
+    "A228330",
+    "A228331",
+    "A228332"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

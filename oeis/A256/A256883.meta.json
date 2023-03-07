@@ -1,0 +1,24 @@
+{
+  "description": "Numbers divisible by prime(d+1) for each digit d of their base-3 representation.",
+  "id": "A256883",
+  "mentions": [
+    "A256786",
+    "A256865",
+    "A256870",
+    "A256874",
+    "A256879",
+    "A256882",
+    "A256884"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

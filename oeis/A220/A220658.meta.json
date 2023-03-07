@@ -1,0 +1,23 @@
+{
+  "description": "Irregular table, where the n-th row consists of A084558(n)+1 copies of n.",
+  "id": "A220658",
+  "mentions": [
+    "A055089",
+    "A060117",
+    "A060118",
+    "A084558",
+    "A220657",
+    "A220659"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

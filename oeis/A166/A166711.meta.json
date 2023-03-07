@@ -1,0 +1,25 @@
+{
+  "description": "Permutation of the integers: two positives, one negative.",
+  "id": "A166711",
+  "mentions": [
+    "A001057",
+    "A002162",
+    "A009947",
+    "A038608",
+    "A049347",
+    "A061347",
+    "A076118"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:49",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

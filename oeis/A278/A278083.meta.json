@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is 1/6 of the number of primitive integral quadruples with sum = 2*m and sum of squares = 2*m^2, where m = 2*n-1.",
+  "id": "A278083",
+  "mentions": [
+    "A046897",
+    "A278081",
+    "A278082",
+    "A278084",
+    "A278085",
+    "A278086"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:44",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

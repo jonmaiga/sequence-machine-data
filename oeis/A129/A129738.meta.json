@@ -1,0 +1,20 @@
+{
+  "description": "List of primitive prime divisors of the Jacobsthal numbers A001045 in their order of occurrence.",
+  "id": "A129738",
+  "mentions": [
+    "A001045",
+    "A049883",
+    "A107036",
+    "A129733"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

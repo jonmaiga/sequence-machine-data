@@ -1,0 +1,19 @@
+{
+  "description": "Classes of the phi iteration for which the smallest number is prime.",
+  "id": "A136040",
+  "mentions": [
+    "A007755",
+    "A058812",
+    "A092873"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

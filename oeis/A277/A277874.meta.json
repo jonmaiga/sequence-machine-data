@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the last number in the (2n+1)-element alternating sequence of x/2 and (3x+1) iterations starting with A277215(n).",
+  "id": "A277874",
+  "mentions": [
+    "A100774",
+    "A277215"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

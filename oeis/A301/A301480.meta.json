@@ -1,0 +1,31 @@
+{
+  "description": "Number of rooted twice-partitions of n.",
+  "id": "A301480",
+  "mentions": [
+    "A000041",
+    "A001383",
+    "A002865",
+    "A032305",
+    "A063834",
+    "A093637",
+    "A127524",
+    "A196545",
+    "A220418",
+    "A281113",
+    "A289501",
+    "A301422",
+    "A301462",
+    "A301467"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

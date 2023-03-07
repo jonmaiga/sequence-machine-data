@@ -1,0 +1,24 @@
+{
+  "description": "Rectangular array giving all start values M(n, k), k >= 1, for Collatz sequences following the pattern (udd)^(n-1) ud, n >= 1, read by antidiagonals.",
+  "id": "A240222",
+  "mentions": [
+    "A238475",
+    "A238476",
+    "A239126",
+    "A239127",
+    "A240223"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

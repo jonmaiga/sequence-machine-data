@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = tau(n)^2 - 4*n^11 where tau is Ramanujan's tau function A000594.",
+  "id": "A356645",
+  "mentions": [
+    "A000594",
+    "A008455"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

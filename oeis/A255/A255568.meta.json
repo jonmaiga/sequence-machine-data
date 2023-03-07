@@ -1,0 +1,22 @@
+{
+  "description": "Numbers in whose binary representation there are six 1-bits more than there are nonleading 0-bits.",
+  "id": "A255568",
+  "mentions": [
+    "A007088",
+    "A023689",
+    "A030130",
+    "A037861"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

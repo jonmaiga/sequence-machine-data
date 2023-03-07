@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form A037074(k) - 6, where A037074(k) is a twin prime product.",
+  "id": "A162834",
+  "mentions": [
+    "A037074",
+    "A099775"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

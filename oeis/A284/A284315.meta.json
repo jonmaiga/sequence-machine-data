@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of Product_{k>=0} (1 - x^(3*k+2)) in powers of x.",
+  "id": "A284315",
+  "mentions": [
+    "A078182",
+    "A081362",
+    "A262928",
+    "A284316",
+    "A284317"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

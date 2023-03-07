@@ -1,0 +1,19 @@
+{
+  "description": "Sum of denominators of Egyptian fraction expansion of A004001(n) - n/2.",
+  "id": "A143232",
+  "mentions": [
+    "A004001"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

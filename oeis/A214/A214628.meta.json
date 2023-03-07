@@ -1,0 +1,17 @@
+{
+  "description": "Intersections of radii with the cycloid.",
+  "id": "A214628",
+  "mentions": [
+    "A062389"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

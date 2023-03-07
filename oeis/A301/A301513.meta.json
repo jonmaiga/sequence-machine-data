@@ -1,0 +1,18 @@
+{
+  "description": "Number of distinct hook length sets of strict partitions of n.",
+  "id": "A301513",
+  "mentions": [
+    "A000009",
+    "A301512"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Discard the rightmost digit from the factorial base representation of n and subtract one from all remaining nonzero digits, then convert back to decimal.",
+  "id": "A257684",
+  "mentions": [
+    "A007623",
+    "A034968",
+    "A059590",
+    "A246359",
+    "A255411",
+    "A257679",
+    "A257685",
+    "A257687",
+    "A257694",
+    "A257695",
+    "A257696"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 0,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Total number of distinct run lengths summed over all permutations of [n] with exactly k distinct lengths of increasing runs.",
+  "id": "A317328",
+  "mentions": [
+    "A317327"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:36",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

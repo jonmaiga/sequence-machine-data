@@ -1,0 +1,19 @@
+{
+  "description": "Successive structures central number of Seaborg's periodic table of the elements (extended to 32 columns) for odd rows.",
+  "id": "A137575",
+  "mentions": [
+    "A134984"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

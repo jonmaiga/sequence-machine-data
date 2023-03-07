@@ -1,0 +1,21 @@
+{
+  "description": "First differences of A007088.",
+  "id": "A138342",
+  "mentions": [
+    "A007088",
+    "A007814",
+    "A059482"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Row sums of triangular matrix A246381 = exp(L) where L(n,k) = C(2*n, 2*k+1)/2.",
+  "id": "A246385",
+  "mentions": [
+    "A246381",
+    "A246382",
+    "A246383",
+    "A246384"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

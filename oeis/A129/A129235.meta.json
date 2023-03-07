@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = 2*sigma(n) - tau(n), where tau(n) is the number of divisors of n (A000005) and sigma(n) is the sum of divisors of n (A000203).",
+  "id": "A129235",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A051731",
+    "A129234",
+    "A129236",
+    "A129237",
+    "A130307",
+    "A143315",
+    "A143594",
+    "A222548"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:17",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

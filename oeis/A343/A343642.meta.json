@@ -1,0 +1,24 @@
+{
+  "description": "Y-coordinate of points following the 3D square spiral defined in A343640.",
+  "id": "A343642",
+  "mentions": [
+    "A010014",
+    "A342562",
+    "A343632",
+    "A343640",
+    "A343641",
+    "A343643"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "look",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 0,
+    "size": 109,
+    "source": "oeis-bfile"
+  }
+}

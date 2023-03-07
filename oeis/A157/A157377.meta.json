@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 531441*n - 313146.",
+  "id": "A157377",
+  "mentions": [
+    "A157376",
+    "A157378"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

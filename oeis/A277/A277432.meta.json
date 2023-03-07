@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f.: sinh(sqrt(2)*x)/(sqrt(2)*(1-x)).",
+  "id": "A277432",
+  "mentions": [
+    "A000023",
+    "A263823",
+    "A277345",
+    "A277431"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

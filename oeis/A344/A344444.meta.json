@@ -1,0 +1,26 @@
+{
+  "description": "Completely additive with a(2) = 12, a(3) = 19; for prime p > 3, a(p) = ceiling((a(p-1) + a(p+1))/2).",
+  "id": "A344444",
+  "mentions": [
+    "A000004",
+    "A020857",
+    "A060528",
+    "A061920",
+    "A104244",
+    "A143800",
+    "A344443",
+    "A352957"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

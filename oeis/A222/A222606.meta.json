@@ -1,0 +1,17 @@
+{
+  "description": "Number of nX3 0..3 arrays with exactly floor(nX3/2) elements equal to at least one king-move neighbor, with new values introduced in row major 0..3 order",
+  "id": "A222606",
+  "mentions": [
+    "A222608"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

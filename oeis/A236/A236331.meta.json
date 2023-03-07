@@ -1,0 +1,30 @@
+{
+  "description": "Positive integers n such that x^2 - 18xy + y^2 + n = 0 has integer solutions.",
+  "id": "A236331",
+  "mentions": [
+    "A001519",
+    "A005248",
+    "A031363",
+    "A052995",
+    "A055819",
+    "A084917",
+    "A236330",
+    "A237132",
+    "A237133",
+    "A237351",
+    "A237599",
+    "A237606",
+    "A237609",
+    "A237610"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

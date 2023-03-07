@@ -1,0 +1,29 @@
+{
+  "description": "First differences of A003144.",
+  "id": "A276788",
+  "mentions": [
+    "A003144",
+    "A003145",
+    "A003146",
+    "A080843",
+    "A092782",
+    "A140101",
+    "A275925",
+    "A276790",
+    "A276791",
+    "A278039",
+    "A305374"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

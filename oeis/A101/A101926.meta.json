@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 2^A101925(n).",
+  "id": "A101926",
+  "mentions": [
+    "A001803",
+    "A036069",
+    "A086117",
+    "A101925"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:02:56",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

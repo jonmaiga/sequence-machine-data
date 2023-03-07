@@ -1,0 +1,20 @@
+{
+  "description": "Number of n-node simple graphs that are determined by their resistance distance multisets.",
+  "id": "A178944",
+  "mentions": [
+    "A000088",
+    "A178999"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Second Eulerian transform of 1, 2, 3, 4, 5, ... (A000027).",
+  "id": "A102147",
+  "mentions": [
+    "A000027",
+    "A001147",
+    "A008517",
+    "A051577"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

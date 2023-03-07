@@ -1,0 +1,19 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) (n>=3, k>=3) = minimal number of polygonal pieces in a dissection of a regular n-gon to a regular k-gon (conjectured).",
+  "id": "A110356",
+  "mentions": [
+    "A110000",
+    "A110312"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 3,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

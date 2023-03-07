@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that x^4 + y^4 = n * z^4 is solvable in nonzero integers x,y,z with z > 1 and gcd(x,y,n) = 1.",
+  "id": "A209431",
+  "mentions": [
+    "A003336",
+    "A004625",
+    "A020897",
+    "A060387"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

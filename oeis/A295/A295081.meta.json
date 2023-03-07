@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of 1 into exactly 10*n+1 powers of 1/11.",
+  "id": "A295081",
+  "mentions": [
+    "A294775"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

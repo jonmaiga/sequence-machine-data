@@ -1,0 +1,26 @@
+{
+  "description": "Smallest k such that the fundamental unit (x+y*w) or (x+y*w)/2 of the real quadratic field Q(sqrt(k)) obeys gcd(k,y)=n.",
+  "id": "A197170",
+  "mentions": [
+    "A041976",
+    "A041977",
+    "A087643",
+    "A172000",
+    "A194366",
+    "A197115",
+    "A197127",
+    "A197128",
+    "A197169"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 2,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

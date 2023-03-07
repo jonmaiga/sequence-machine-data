@@ -1,0 +1,24 @@
+{
+  "description": "Denominators of the BG1[ -5,n] coefficients of the BG1 matrix",
+  "id": "A162444",
+  "mentions": [
+    "A001790",
+    "A002595",
+    "A046161",
+    "A055786",
+    "A162443"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

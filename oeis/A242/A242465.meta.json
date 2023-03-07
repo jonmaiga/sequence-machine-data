@@ -1,0 +1,18 @@
+{
+  "description": "Minimum number of mathematical symbols and operators in common use required to write n using exactly three 4's. This version allows only addition, subtraction, multiplication, division, square root, exponentiation, factorial, subfactorial, decimal point, overline (an infinitely repeated digit), parentheses, as well as concatenation.",
+  "id": "A242465",
+  "mentions": [
+    "A242540"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

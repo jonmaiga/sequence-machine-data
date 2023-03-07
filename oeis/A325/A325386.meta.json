@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that for any divisor d of n and some k, A048720(d,k) = n only for trivial cases d=1 and d=n, despite that n is neither prime nor in A014580.",
+  "id": "A325386",
+  "mentions": [
+    "A005408",
+    "A014580",
+    "A048720",
+    "A257688",
+    "A260428",
+    "A325559",
+    "A325560"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

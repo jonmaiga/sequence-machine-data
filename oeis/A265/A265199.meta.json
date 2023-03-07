@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(p,q) is the number of B-diagrams G such that omega(G)=p half edges and h_f(G)=q non-used outer non-cut half edges.",
+  "id": "A265199",
+  "mentions": [
+    "A081294",
+    "A266093"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

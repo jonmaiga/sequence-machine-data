@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the positive integer x such that 3^((M-1)/(2*p)) == -2^x (mod M), where p > 2 is prime, M=2^p-1 is the n-th Mersenne prime and x < p.",
+  "id": "A278792",
+  "mentions": [
+    "A000043",
+    "A000668"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 2,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

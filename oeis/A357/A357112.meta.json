@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = A035019(n)/6 for n > 0.",
+  "id": "A357112",
+  "mentions": [
+    "A002324",
+    "A003136",
+    "A004016",
+    "A035019",
+    "A343771"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

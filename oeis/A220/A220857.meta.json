@@ -1,0 +1,19 @@
+{
+  "description": "Number of mappings by Struijk et al. Design Space Explorations with n actors and three implementation alternatives.",
+  "id": "A220857",
+  "mentions": [
+    "A220855",
+    "A220856"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

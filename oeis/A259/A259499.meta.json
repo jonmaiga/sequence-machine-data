@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of theta_3(5*i/sqrt(5)), an explicit particular value of the cubic theta function theta_3.",
+  "id": "A259499",
+  "mentions": [
+    "A259498",
+    "A259500",
+    "A259501"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

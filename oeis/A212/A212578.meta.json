@@ -1,0 +1,19 @@
+{
+  "description": "Number of (w,x,y,z) with all terms in {1,...,n} and |w-x| = 2*|x-y| - |y-z|.",
+  "id": "A212578",
+  "mentions": [
+    "A211795"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:32:45",
+    "offset": 0,
+    "size": 42,
+    "source": "joeis"
+  }
+}

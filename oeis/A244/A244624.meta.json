@@ -1,0 +1,20 @@
+{
+  "description": "Consider the number of lines in the Pratt certificate for the n-th prime (A037202). This sequence shows where 2n first occurs.",
+  "id": "A244624",
+  "mentions": [
+    "A037202",
+    "A037231"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

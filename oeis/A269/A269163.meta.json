@@ -1,0 +1,20 @@
+{
+  "description": "Numbers which have a finite predecessor in Wolfram's Rule 30 cellular automaton; range of A269160 sorted into ascending order.",
+  "id": "A269163",
+  "mentions": [
+    "A007088",
+    "A269160",
+    "A269162",
+    "A269164"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:31",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

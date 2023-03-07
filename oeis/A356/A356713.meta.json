@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that Mordell's equation y^2 = x^3 - k^3 has exactly 1 integral solution.",
+  "id": "A356713",
+  "mentions": [
+    "A081120",
+    "A179149",
+    "A179163",
+    "A228948",
+    "A356709",
+    "A356720"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

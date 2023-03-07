@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=1..n} k * sigma_2(k).",
+  "id": "A356125",
+  "mentions": [
+    "A319086",
+    "A328259",
+    "A356042",
+    "A356124"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "The number of ways that a straight line segment of length n, marked into n equal units, can be surrounded in a plane by one layer of regular polygons of unit edge that fit together without any gaps or overlaps, such that every polygon shares either a vertex or an exact unit edge with the segment. (\"Line wreaths of length n.\") Ways that differ by reflection or rotation are not counted as different.",
+  "id": "A158091",
+  "mentions": [
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

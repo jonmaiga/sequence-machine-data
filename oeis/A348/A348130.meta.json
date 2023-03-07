@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways to place n nonattacking queens on a 2n X 2n board.",
+  "id": "A348130",
+  "mentions": [
+    "A348129"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

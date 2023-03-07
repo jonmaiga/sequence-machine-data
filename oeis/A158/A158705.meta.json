@@ -1,0 +1,22 @@
+{
+  "description": "Nonnegative integers with an odd number of even powers of 2 in their base-2 representation.",
+  "id": "A158705",
+  "mentions": [
+    "A000069",
+    "A001969",
+    "A157971",
+    "A158704",
+    "A341389"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

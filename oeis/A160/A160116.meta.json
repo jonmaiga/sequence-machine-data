@@ -1,0 +1,18 @@
+{
+  "description": "Least number m, written in base 10, such that m/3 is obtained merely by shifting the leftmost digit of m to the right end, and 3m by shifting the rightmost digit of m to the left end, digits defined in base n.",
+  "id": "A160116",
+  "mentions": [
+    "A159863"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 4,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

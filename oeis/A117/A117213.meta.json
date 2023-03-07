@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = smallest term of sequence A002110 divisible by n-th squarefree positive integer.",
+  "id": "A117213",
+  "mentions": [
+    "A002110",
+    "A073482",
+    "A117214"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

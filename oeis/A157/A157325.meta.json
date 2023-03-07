@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 1728*n + 24.",
+  "id": "A157325",
+  "mentions": [
+    "A157324",
+    "A157326"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers such that the concatenation of any four successive digits forms a prime.",
+  "id": "A334050",
+  "mentions": [
+    "A091633",
+    "A337613",
+    "A337614"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

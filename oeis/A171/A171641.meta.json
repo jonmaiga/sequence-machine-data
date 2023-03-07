@@ -1,0 +1,19 @@
+{
+  "description": "Non-deficient numbers with even sigma which are not Zumkeller.",
+  "id": "A171641",
+  "mentions": [
+    "A000203",
+    "A023196",
+    "A083207"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:55",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

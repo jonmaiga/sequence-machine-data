@@ -1,0 +1,23 @@
+{
+  "description": "a(0)=1. For n>=1, write n in binary. Let b(n,m) be the length of the m-th run of 0's or 1's, reading right to left. Then a(n) = product{m=1 to M} p(m)^b(n,m), where p(m) is the m-th prime, and M is the number of runs of 0's and 1's in binary n.",
+  "id": "A163755",
+  "mentions": [
+    "A005940",
+    "A055932",
+    "A057335",
+    "A163511",
+    "A341915"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

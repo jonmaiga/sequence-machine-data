@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the starting position of the first run of n ones in A014963.",
+  "id": "A110968",
+  "mentions": [
+    "A014963"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

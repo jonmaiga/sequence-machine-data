@@ -1,0 +1,21 @@
+{
+  "description": "Sophie Germain primes which are Brazilian.",
+  "id": "A306845",
+  "mentions": [
+    "A005384",
+    "A007528",
+    "A085104",
+    "A125134",
+    "A306849"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

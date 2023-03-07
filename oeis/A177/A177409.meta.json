@@ -1,0 +1,20 @@
+{
+  "description": "G.f. satisfies: x = A(x) - A(x)^2 - A(A(x))^2.",
+  "id": "A177409",
+  "mentions": [
+    "A177397",
+    "A276365",
+    "A292810"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

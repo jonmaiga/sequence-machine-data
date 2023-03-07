@@ -1,0 +1,20 @@
+{
+  "description": "Triangular array read by rows. T(n,k) is the number of n X n matrices A over F_2 such that Sum_{phi} nullity(phi(A)) = k where the sum is over all monic irreducible polynomials in F_2[x] that divide the characteristic polynomial of A, n >= 1, 1 <= k <= n.",
+  "id": "A358739",
+  "mentions": [
+    "A002416",
+    "A083402",
+    "A346222"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

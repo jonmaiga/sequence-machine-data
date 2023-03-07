@@ -1,0 +1,21 @@
+{
+  "description": "The simple continued fraction for 1/0.45359237 (approximately 2.20462262), which is the number of pounds per kilogram.",
+  "id": "A302541",
+  "mentions": [
+    "A029923",
+    "A029924"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cofr",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

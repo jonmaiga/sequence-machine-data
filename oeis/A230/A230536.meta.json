@@ -1,0 +1,28 @@
+{
+  "description": "Expansion of q^(-1) * f(-q^5, -q^7) / f(-q, -q^11) in powers of q where f(,) is Ramanujan's two-variable theta function.",
+  "id": "A230536",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A004016",
+    "A005882",
+    "A005928",
+    "A010054",
+    "A010815",
+    "A113306",
+    "A121373",
+    "A139135",
+    "A139139"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:48",
+    "offset": -1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

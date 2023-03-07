@@ -1,0 +1,32 @@
+{
+  "description": "Number of labeled n-vertex simple graphs containing either a crossing or a nesting pair of edges.",
+  "id": "A326279",
+  "mentions": [
+    "A000108",
+    "A001519",
+    "A006125",
+    "A016098",
+    "A054726",
+    "A095661",
+    "A324170",
+    "A326209",
+    "A326210",
+    "A326211",
+    "A326244",
+    "A326248",
+    "A326250",
+    "A326256"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

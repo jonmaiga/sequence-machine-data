@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f.: Sum_{n>=0} sinh(n*x)^n/n!.",
+  "id": "A198513",
+  "mentions": [
+    "A108459"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

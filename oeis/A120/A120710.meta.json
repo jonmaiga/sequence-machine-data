@@ -1,0 +1,23 @@
+{
+  "description": "A GF(2) polynomial analog of triangular numbers.",
+  "id": "A120710",
+  "mentions": [
+    "A000217",
+    "A000695",
+    "A003991",
+    "A048720"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

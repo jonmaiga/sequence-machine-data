@@ -1,0 +1,23 @@
+{
+  "description": "Hexagonal numbers (A000384) that are the sum of two consecutive hexagonal numbers.",
+  "id": "A257721",
+  "mentions": [
+    "A000384",
+    "A251602",
+    "A257722",
+    "A257723",
+    "A257724"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

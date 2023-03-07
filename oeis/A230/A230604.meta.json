@@ -1,0 +1,20 @@
+{
+  "description": "Smallest number whose square has more than n digits and begins and ends with the same n digits.",
+  "id": "A230604",
+  "mentions": [
+    "A116501",
+    "A161355"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

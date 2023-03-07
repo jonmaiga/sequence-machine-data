@@ -1,0 +1,27 @@
+{
+  "description": "Theta series of the 48-dimensional lattice of hyper-roots E_21(SU(3)).",
+  "id": "A288909",
+  "mentions": [
+    "A008434",
+    "A287329",
+    "A287944",
+    "A288488",
+    "A288489",
+    "A288776",
+    "A288779",
+    "A290654",
+    "A290655"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

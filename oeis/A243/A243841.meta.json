@@ -1,0 +1,19 @@
+{
+  "description": "Pair deficit of the most equal partition of n into two parts using ceiling rounding of the expectations of n, floor(n/2) and n-floor(n/2), assuming equal likelihood of states defined by the number of 2-cycles.",
+  "id": "A243841",
+  "mentions": [
+    "A000085",
+    "A162970"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

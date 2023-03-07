@@ -1,0 +1,19 @@
+{
+  "description": "Digit position at which a dictionary word of length n first appears in the base-26 expansion of Pi, where 0->a, ..., 25->z.",
+  "id": "A103132",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "dumb",
+    "more",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Oblong numbers equidistant from two other oblong numbers.",
+  "id": "A292316",
+  "mentions": [
+    "A002378",
+    "A292309",
+    "A292310",
+    "A292313",
+    "A292314"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

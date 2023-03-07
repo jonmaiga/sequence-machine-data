@@ -1,0 +1,21 @@
+{
+  "description": "Number of steps to reach 1 under repeated applications of the A350034 map, or -1 if 1 is never reached.",
+  "id": "A350035",
+  "mentions": [
+    "A006370",
+    "A006577",
+    "A089128",
+    "A133420",
+    "A350034"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

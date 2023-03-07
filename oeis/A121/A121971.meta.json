@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest number such that pi(n) divides n a record-breaking prime number of times.",
+  "id": "A121971",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A038625"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

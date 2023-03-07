@@ -1,0 +1,20 @@
+{
+  "description": "Zeroless numbers k which can be written as a product of the powers whose base is a digit of k and whose exponent is a nonnegative integer.",
+  "id": "A359494",
+  "mentions": [
+    "A002473",
+    "A238985"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

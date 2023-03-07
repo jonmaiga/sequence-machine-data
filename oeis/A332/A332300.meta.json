@@ -1,0 +1,24 @@
+{
+  "description": "The least prime factor of the numerator of Bernoulli(2*n), or 1 if the numerator is 1.",
+  "id": "A332300",
+  "mentions": [
+    "A000367",
+    "A017329",
+    "A020639",
+    "A079294",
+    "A090947",
+    "A242193",
+    "A326727"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

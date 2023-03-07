@@ -1,0 +1,26 @@
+{
+  "description": "Heinz numbers of integer partitions such that every nonempty submultiset has an integer average.",
+  "id": "A316465",
+  "mentions": [
+    "A000961",
+    "A056239",
+    "A067538",
+    "A122768",
+    "A237984",
+    "A296150",
+    "A316313",
+    "A316314",
+    "A316440",
+    "A316557"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

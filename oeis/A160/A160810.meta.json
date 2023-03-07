@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that the number of partitions of k into prime divisors of k exceeds the number of distinct transpositions of prime factors of k.",
+  "id": "A160810",
+  "mentions": [
+    "A066882",
+    "A168324"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

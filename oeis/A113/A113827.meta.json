@@ -1,0 +1,22 @@
+{
+  "description": "Initial terms associated with the arithmetic progressions of primes in A005115.",
+  "id": "A113827",
+  "mentions": [
+    "A005115",
+    "A115608",
+    "A115613"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

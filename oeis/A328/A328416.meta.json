@@ -1,0 +1,19 @@
+{
+  "description": "Smallest k such that (Z/mZ)* = C_2 X C_(2k) has exactly n solutions for m, or 0 if no such k exists, where (Z/mZ)* is the multiplicative group of integers modulo m.",
+  "id": "A328416",
+  "mentions": [
+    "A328412"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

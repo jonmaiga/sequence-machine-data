@@ -1,0 +1,28 @@
+{
+  "description": "Number of partitions of 2^n into parts that are at most n with at least one part of each size.",
+  "id": "A237999",
+  "mentions": [
+    "A000009",
+    "A002033",
+    "A067735",
+    "A126796",
+    "A236810",
+    "A237512",
+    "A237998",
+    "A238000",
+    "A238001",
+    "A238012",
+    "A283111"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Asymptotic variance (normalized by n^2) of the second longest cycle in a random permutation on n symbols.",
+  "id": "A272414",
+  "mentions": [
+    "A084945",
+    "A247398",
+    "A272413"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

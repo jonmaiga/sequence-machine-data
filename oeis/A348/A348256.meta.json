@@ -1,0 +1,24 @@
+{
+  "description": "Indices of records in A348249.",
+  "id": "A348256",
+  "mentions": [
+    "A307720",
+    "A307730",
+    "A348246",
+    "A348249",
+    "A348252",
+    "A348255",
+    "A348409"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

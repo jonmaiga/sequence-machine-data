@@ -1,0 +1,36 @@
+{
+  "description": "Numbers whose k-th arithmetic derivative is zero for some k>0, ordered by their position in A276086.",
+  "id": "A351255",
+  "mentions": [
+    "A003415",
+    "A006530",
+    "A049345",
+    "A051903",
+    "A080682",
+    "A099307",
+    "A099308",
+    "A276086",
+    "A328116",
+    "A351071",
+    "A351072",
+    "A351078",
+    "A351079",
+    "A351256",
+    "A351257",
+    "A351258",
+    "A351259",
+    "A351261"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Primes p which are floor of Root-Mean-Square (RMS) of prime(n), prime(n+1) and prime(n+2).",
+  "id": "A240278",
+  "mentions": [
+    "A000040",
+    "A075471",
+    "A088165"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:57",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

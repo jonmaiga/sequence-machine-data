@@ -1,0 +1,22 @@
+{
+  "description": "Self-convolution of A006664, which is the number of irreducible systems of meanders.",
+  "id": "A168357",
+  "mentions": [
+    "A000108",
+    "A001246",
+    "A006664",
+    "A168344",
+    "A168358"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

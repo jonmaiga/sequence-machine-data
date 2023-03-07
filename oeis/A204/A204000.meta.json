@@ -1,0 +1,19 @@
+{
+  "description": "Symmetric matrix based on f(i,j)=min{i(j+1)-1,j(i+1)-1}, by antidiagonals.",
+  "id": "A204000",
+  "mentions": [
+    "A202453",
+    "A204001"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:04:25",
+    "offset": 1,
+    "size": 73,
+    "source": "joeis"
+  }
+}

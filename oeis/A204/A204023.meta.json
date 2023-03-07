@@ -1,0 +1,20 @@
+{
+  "description": "Array: row n shows the coefficients of the characteristic polynomial of the n-th principal submatrix of max(2i-1, 2j-1) (A204022).",
+  "id": "A204023",
+  "mentions": [
+    "A202605",
+    "A204016",
+    "A204022"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:05:27",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

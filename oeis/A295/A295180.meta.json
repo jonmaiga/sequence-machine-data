@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of Product_{k>=1} (1 + x^k)^(3*k*(k-1)/2+1).",
+  "id": "A295180",
+  "mentions": [
+    "A003633",
+    "A005448",
+    "A028377",
+    "A258343",
+    "A266964",
+    "A295179"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

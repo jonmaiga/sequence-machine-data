@@ -1,0 +1,20 @@
+{
+  "description": "Numbers m such that q = 2^m - 1 and r = m^2 + m + 1 are both primes.",
+  "id": "A308316",
+  "mentions": [
+    "A000043",
+    "A002383",
+    "A002384"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

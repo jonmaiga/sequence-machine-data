@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (p_n)^2 * p_{n+1}, where p_n is the n-th prime, A000040(n).",
+  "id": "A251720",
+  "mentions": [
+    "A000040",
+    "A001248",
+    "A006094",
+    "A014612",
+    "A250477",
+    "A268733"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:40:11",
+    "offset": 1,
+    "size": 35,
+    "source": "joeis"
+  }
+}

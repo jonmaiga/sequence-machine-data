@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest base b such that q = b^n - b^m + 1 is prime, where m = A276976(n).",
+  "id": "A307590",
+  "mentions": [
+    "A000043",
+    "A276976",
+    "A307625"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

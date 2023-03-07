@@ -1,0 +1,21 @@
+{
+  "description": "Triangle of polynomial coefficients of the polynomial factors defined in A074051.",
+  "id": "A197184",
+  "mentions": [
+    "A055998",
+    "A074051",
+    "A074052"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

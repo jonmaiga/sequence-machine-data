@@ -1,0 +1,27 @@
+{
+  "description": "Right half of Pascal's triangle (A007318) with zeros.",
+  "id": "A111505",
+  "mentions": [
+    "A000302",
+    "A001700",
+    "A002458",
+    "A007318",
+    "A032443",
+    "A034869",
+    "A036910",
+    "A094527",
+    "A111418"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:54:29",
+    "offset": 0,
+    "size": 75,
+    "source": "joeis"
+  }
+}

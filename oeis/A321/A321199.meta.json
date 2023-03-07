@@ -1,0 +1,22 @@
+{
+  "description": "Row sums of Riordan triangle A321198.",
+  "id": "A321199",
+  "mentions": [
+    "A001005",
+    "A077961",
+    "A321198",
+    "A321200"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

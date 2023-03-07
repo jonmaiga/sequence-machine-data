@@ -1,0 +1,34 @@
+{
+  "description": "Numbers in decimal representation, such that in German their digits are in alphabetic order.",
+  "id": "A247755",
+  "mentions": [
+    "A053432",
+    "A161390",
+    "A247750",
+    "A247751",
+    "A247752",
+    "A247753",
+    "A247754",
+    "A247756",
+    "A247757",
+    "A247758",
+    "A247759",
+    "A247760",
+    "A247761",
+    "A247762",
+    "A247764",
+    "A247805"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

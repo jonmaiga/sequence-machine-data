@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that the denominator of the harmonic mean of the divisors of k is larger than k.",
+  "id": "A348825",
+  "mentions": [
+    "A007528",
+    "A099377",
+    "A099378"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

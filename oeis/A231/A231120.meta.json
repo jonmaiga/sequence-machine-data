@@ -1,0 +1,17 @@
+{
+  "description": "Primes q of the form q = p^2 + 4 (p prime) such that r = q^2 + 4 and t = r^2 + 4 are also prime.",
+  "id": "A231120",
+  "mentions": [
+    "A165218"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

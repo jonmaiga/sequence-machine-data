@@ -1,0 +1,29 @@
+{
+  "description": "Numbers of the form (2^i)*(13^j).",
+  "id": "A107326",
+  "mentions": [
+    "A003586",
+    "A003591",
+    "A003592",
+    "A003593",
+    "A003594",
+    "A003595",
+    "A003596",
+    "A003597",
+    "A003598",
+    "A003599",
+    "A204455"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:59",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Number of connected strict integer partitions of n with pairwise indivisible and squarefree parts.",
+  "id": "A305080",
+  "mentions": [
+    "A006126",
+    "A048143",
+    "A087188",
+    "A302242",
+    "A303362",
+    "A303364",
+    "A304714",
+    "A304716",
+    "A305078",
+    "A305079"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

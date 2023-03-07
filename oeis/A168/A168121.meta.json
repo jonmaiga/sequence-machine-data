@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(n,k) read by rows in which column k lists each number A000009 followed by k-1 zeros, for k>0.",
+  "id": "A168121",
+  "mentions": [
+    "A000009",
+    "A168021",
+    "A168120"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

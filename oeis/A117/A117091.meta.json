@@ -1,0 +1,20 @@
+{
+  "description": "Primes of the form f(n) = n^6 - 48*n^5 + 908*n^4 - 8603*n^3 + 42796*n^2 - 105410*n + 100823 listed by increasing value of n >= 0.",
+  "id": "A117091",
+  "mentions": [
+    "A005846",
+    "A117624"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

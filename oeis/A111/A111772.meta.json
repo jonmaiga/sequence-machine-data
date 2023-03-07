@@ -1,0 +1,18 @@
+{
+  "description": "Number of non-isomorphic Average systems with n elements. An Average system has one binary operation \"avg\" and satisfies the three axioms avg(A,A)=A, avg(A,B)=avg(B,A), avg(avg(A,B),avg(C,D)) = avg(avg(A,C),avg(B,D)).",
+  "id": "A111772",
+  "mentions": [
+    "A111773"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

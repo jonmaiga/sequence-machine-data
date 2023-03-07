@@ -1,0 +1,27 @@
+{
+  "description": "Numbers which are the sum of their proper divisors containing the digit 2.",
+  "id": "A271448",
+  "mentions": [
+    "A059461",
+    "A059462",
+    "A059463",
+    "A059464",
+    "A059465",
+    "A059466",
+    "A059467",
+    "A059468"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "less",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

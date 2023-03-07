@@ -1,0 +1,19 @@
+{
+  "description": "Positions where A163894 obtains record values.",
+  "id": "A163895",
+  "mentions": [
+    "A163894",
+    "A163896",
+    "A309016"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

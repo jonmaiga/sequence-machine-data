@@ -1,0 +1,20 @@
+{
+  "description": "Numerators of coefficients for central differences M_{5}'^(2*n+1).",
+  "id": "A323997",
+  "mentions": [
+    "A002677",
+    "A323998"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "frac",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 2,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

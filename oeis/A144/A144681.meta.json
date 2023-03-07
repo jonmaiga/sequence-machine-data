@@ -1,0 +1,22 @@
+{
+  "description": "E.g.f. satisfies: A(x/A(x)) = exp(x).",
+  "id": "A144681",
+  "mentions": [
+    "A087961",
+    "A140049",
+    "A144682",
+    "A144683",
+    "A144684"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

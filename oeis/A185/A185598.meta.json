@@ -1,0 +1,17 @@
+{
+  "description": "Numbers not of the form floor(n^(3/2)-n^(1/2)); complement of A185597.",
+  "id": "A185598",
+  "mentions": [
+    "A185597"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Continued fraction for binary expansion of Liouville's number interpreted in base 2 (A092874).",
+  "id": "A317413",
+  "mentions": [
+    "A012245",
+    "A014710",
+    "A058304",
+    "A092874",
+    "A317414",
+    "A317538",
+    "A317539"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "cofr",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:36",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

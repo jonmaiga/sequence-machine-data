@@ -1,0 +1,21 @@
+{
+  "description": "Row 1 of A122284, row 15 of A122202.",
+  "id": "A122302",
+  "mentions": [
+    "A069770",
+    "A089859",
+    "A122202",
+    "A122284",
+    "A122301"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = number of the diagonal of the Wythoff array, A035513, that includes prime(n). See Comments.",
+  "id": "A360380",
+  "mentions": [
+    "A000040",
+    "A035513",
+    "A191360",
+    "A332938",
+    "A360376",
+    "A360377",
+    "A360378",
+    "A360379"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

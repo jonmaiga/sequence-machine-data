@@ -1,0 +1,19 @@
+{
+  "description": "Row 14 of A122283.",
+  "id": "A122325",
+  "mentions": [
+    "A073269",
+    "A122283",
+    "A122326"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

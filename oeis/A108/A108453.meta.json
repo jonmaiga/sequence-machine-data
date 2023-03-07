@@ -1,0 +1,21 @@
+{
+  "description": "Number of pyramids of the first kind in all paths from (0,0) to (3n,0) that stay in the first quadrant (but may touch the horizontal axis), consisting of steps u=(2,1),U=(1,2), or d=(1,-1) (a pyramid of the first kind is a sequence u^pd^p for some positive integer p, starting at the x-axis).",
+  "id": "A108453",
+  "mentions": [
+    "A027307",
+    "A032349",
+    "A108450",
+    "A108451"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

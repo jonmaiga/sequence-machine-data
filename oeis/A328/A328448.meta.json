@@ -1,0 +1,28 @@
+{
+  "description": "Smallest number whose divisors > 1 have a longest run of length n, and 0 if none exists.",
+  "id": "A328448",
+  "mentions": [
+    "A000005",
+    "A027750",
+    "A055874",
+    "A060680",
+    "A088725",
+    "A129308",
+    "A181063",
+    "A199970",
+    "A328166",
+    "A328449",
+    "A328450",
+    "A328457"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

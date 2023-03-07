@@ -1,0 +1,25 @@
+{
+  "description": "Triangle T(n,k) in which the n-th row lists in increasing order the Heinz numbers of all perfect partitions of n.",
+  "id": "A258119",
+  "mentions": [
+    "A000079",
+    "A002033",
+    "A215366",
+    "A258118",
+    "A259939",
+    "A360713"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "changed",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

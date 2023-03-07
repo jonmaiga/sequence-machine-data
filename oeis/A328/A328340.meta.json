@@ -1,0 +1,18 @@
+{
+  "description": "Number of geometrically distinct symmetric open knight's tours on a 4 X (2n-1) chessboard.",
+  "id": "A328340",
+  "mentions": [
+    "A079137",
+    "A328341"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:57",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

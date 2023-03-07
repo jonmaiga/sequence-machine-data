@@ -1,0 +1,19 @@
+{
+  "description": "Number of fixed-point-free subgroups of the symmetric group S_n.",
+  "id": "A116693",
+  "mentions": [
+    "A000637",
+    "A005432"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

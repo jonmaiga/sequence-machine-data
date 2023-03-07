@@ -1,0 +1,19 @@
+{
+  "description": "Primes p of form x^2 - phi(x) such that (p-1)/tau(p-1) is also prime.",
+  "id": "A258436",
+  "mentions": [
+    "A252021",
+    "A258435"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

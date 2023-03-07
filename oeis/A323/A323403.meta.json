@@ -1,0 +1,25 @@
+{
+  "description": "Sum of sigma and its Dirichlet inverse: a(n) = A000203(n) + A046692(n).",
+  "id": "A323403",
+  "mentions": [
+    "A000203",
+    "A046692",
+    "A047994",
+    "A319340",
+    "A322581",
+    "A323364",
+    "A323399",
+    "A323408"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:47",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

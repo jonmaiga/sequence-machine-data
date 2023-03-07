@@ -1,0 +1,22 @@
+{
+  "description": "Rectified hexateron (5-simplex) numbers: the coefficient of x^(2n-2) in (1+x+x^2+...+x^(n-1))^6.",
+  "id": "A179096",
+  "mentions": [
+    "A179095",
+    "A179097",
+    "A179098",
+    "A179099"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:23",
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

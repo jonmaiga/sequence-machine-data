@@ -1,0 +1,29 @@
+{
+  "description": "a(n) = |{0 < k < n: 2^k*(2^{phi(n-k)} - 1) + 1 is prime}|, where phi(.) is Euler's totient function.",
+  "id": "A234399",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A000079",
+    "A234309",
+    "A234310",
+    "A234337",
+    "A234344",
+    "A234346",
+    "A234347",
+    "A234359",
+    "A234360",
+    "A234361",
+    "A234388"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

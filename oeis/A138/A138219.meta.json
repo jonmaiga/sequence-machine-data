@@ -1,0 +1,19 @@
+{
+  "description": "Integers related to the volume k(n) of a unit hypersphere in n dimensions.",
+  "id": "A138219",
+  "mentions": [
+    "A001147",
+    "A114348"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

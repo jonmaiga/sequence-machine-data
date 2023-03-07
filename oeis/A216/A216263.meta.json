@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of 1 / ((1-2*x)*(1-4*x+x^2)).",
+  "id": "A216263",
+  "mentions": [
+    "A001075",
+    "A214846"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

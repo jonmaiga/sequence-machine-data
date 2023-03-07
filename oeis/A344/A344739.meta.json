@@ -1,0 +1,44 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of strict integer partitions of n with reverse-alternating sum k, with k ranging from -n to n in steps of 2.",
+  "id": "A344739",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A000070",
+    "A000290",
+    "A003242",
+    "A006330",
+    "A027187",
+    "A103919",
+    "A114121",
+    "A124754",
+    "A152146",
+    "A152157",
+    "A239829",
+    "A239830",
+    "A316524",
+    "A343941",
+    "A344607",
+    "A344608",
+    "A344610",
+    "A344611",
+    "A344612",
+    "A344616",
+    "A344618",
+    "A344649",
+    "A344650",
+    "A344651",
+    "A344654"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that the absolute value of the difference between the sum of the distinct prime divisors of n that are congruent to 1 mod 4 and the sum of the distinct prime divisors of n that are congruent to 3 mod 4 is a prime.",
+  "id": "A215951",
+  "mentions": [
+    "A215947"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

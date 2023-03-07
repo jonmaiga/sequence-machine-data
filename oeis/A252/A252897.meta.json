@@ -1,0 +1,20 @@
+{
+  "description": "Rainbow Squares: a(n) = number of ways to pair the integers 1 to 2n so that the sum of each pair is a square.",
+  "id": "A252897",
+  "mentions": [
+    "A253472",
+    "A278329",
+    "A278339"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

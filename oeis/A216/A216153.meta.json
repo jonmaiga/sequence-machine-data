@@ -1,0 +1,27 @@
+{
+  "description": "The partial products of a(n) are the distinct values of the exponential of the von Mangoldt function modified by restricting the divisors to prime divisors (A205957).",
+  "id": "A216153",
+  "mentions": [
+    "A006881",
+    "A018252",
+    "A025475",
+    "A025476",
+    "A053211",
+    "A102467",
+    "A205957",
+    "A205959",
+    "A216152"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

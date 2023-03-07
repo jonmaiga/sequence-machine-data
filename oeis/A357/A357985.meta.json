@@ -1,0 +1,21 @@
+{
+  "description": "Counterclockwise square spiral constructed using the integers so that a(n) plus all other numbers currently visible from the current number equals n; start with a(0) = 0.",
+  "id": "A357985",
+  "mentions": [
+    "A274640",
+    "A275609",
+    "A307834",
+    "A355270",
+    "A357991"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

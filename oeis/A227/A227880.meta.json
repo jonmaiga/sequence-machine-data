@@ -1,0 +1,24 @@
+{
+  "description": "Primes in the union of all n-Fibonacci sequences.",
+  "id": "A227880",
+  "mentions": [
+    "A000045",
+    "A000073",
+    "A000078",
+    "A001591",
+    "A001592",
+    "A124168",
+    "A124257"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

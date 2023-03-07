@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the greatest x such that 1/x + 1/(x+2) + 1/(x+3) = 1.",
+  "id": "A316136",
+  "mentions": [
+    "A305328",
+    "A316134",
+    "A316135"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:48:15",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle read by rows: coefficients in order of decreasing exponents of polynomials P_g(x) related to Hultman numbers.",
+  "id": "A185259",
+  "mentions": [
+    "A035319",
+    "A185263"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

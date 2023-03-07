@@ -1,0 +1,20 @@
+{
+  "description": "Composite numbers n such that Sum_{k=1..phi(n)} k^phi(n) == phi(n) (mod n), where phi(n) = A000010(n).",
+  "id": "A262998",
+  "mentions": [
+    "A000010",
+    "A002144",
+    "A007850"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

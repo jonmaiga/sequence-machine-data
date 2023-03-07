@@ -1,0 +1,18 @@
+{
+  "description": "The least x > 0 such that x < the number of zero digits in the base-n expansions of the numbers 1 through x.",
+  "id": "A245491",
+  "mentions": [
+    "A164935"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 2,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

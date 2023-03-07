@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = sum of natural numbers m such that n - 6 <= m <= n + 6.",
+  "id": "A168105",
+  "mentions": [
+    "A000217",
+    "A008486"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:44:39",
+    "offset": 0,
+    "size": 58,
+    "source": "joeis"
+  }
+}

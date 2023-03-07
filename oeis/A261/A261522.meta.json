@@ -1,0 +1,29 @@
+{
+  "description": "Positive integers n such that x^2 - 23xy + y^2 + n = 0 has integer solutions.",
+  "id": "A261522",
+  "mentions": [
+    "A004253",
+    "A031363",
+    "A236330",
+    "A236331",
+    "A237254",
+    "A237350",
+    "A237351",
+    "A237599",
+    "A237606",
+    "A237609",
+    "A237610",
+    "A238240",
+    "A238245"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

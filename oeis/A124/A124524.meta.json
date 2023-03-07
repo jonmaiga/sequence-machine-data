@@ -1,0 +1,18 @@
+{
+  "description": "Table (read by antidiagonals) where t(1,1) = 1, t(m,n) = number of terms above and to the left of t(m,n) (i.e., number of t(k,j)'s, where 1 <= k <= m, 1 <= j <= n, excluding the t(m,n) case itself) which both divide m and are coprime to n.",
+  "id": "A124524",
+  "mentions": [
+    "A124525"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

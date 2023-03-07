@@ -1,0 +1,19 @@
+{
+  "description": "Number of symmetrically unique Dyck paths of semilength n and height five.",
+  "id": "A291889",
+  "mentions": [
+    "A291883"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 5,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

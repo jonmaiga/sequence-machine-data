@@ -1,0 +1,26 @@
+{
+  "description": "Infinite sequence of positive integers such that a(n) = A000005(a(1) + a(2) + ... + a(n)) for all n >= 1.",
+  "id": "A259935",
+  "mentions": [
+    "A000005",
+    "A009191",
+    "A175304",
+    "A259934",
+    "A260085",
+    "A260123",
+    "A260257",
+    "A286540"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

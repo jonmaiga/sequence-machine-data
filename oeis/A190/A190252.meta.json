@@ -1,0 +1,22 @@
+{
+  "description": "Riordan matrix (g(x),x*g(x)), where g(x) = (1-x-sqrt(1-2*x-3*x^2-4*x^3))/(2*x^2*(1+x)).",
+  "id": "A190252",
+  "mentions": [
+    "A071359",
+    "A190253",
+    "A190254",
+    "A190255"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:48",
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

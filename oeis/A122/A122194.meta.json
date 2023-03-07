@@ -1,0 +1,27 @@
+{
+  "description": "Numbers that are the sum of exactly two sets of Fibonacci numbers.",
+  "id": "A122194",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A000071",
+    "A000119",
+    "A001595",
+    "A001610",
+    "A013583",
+    "A122195",
+    "A272632"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

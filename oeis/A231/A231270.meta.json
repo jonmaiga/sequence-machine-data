@@ -1,0 +1,21 @@
+{
+  "description": "Irregular table read by rows r=0,1,2..., which contain the list of numbers whose (American) English name has no letter in common with that of r.",
+  "id": "A231270",
+  "mentions": [
+    "A052360",
+    "A227857",
+    "A231169"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "fini",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

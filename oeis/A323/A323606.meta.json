@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of 25146/15625.",
+  "id": "A323606",
+  "mentions": [
+    "A029921",
+    "A029922"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "cons",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

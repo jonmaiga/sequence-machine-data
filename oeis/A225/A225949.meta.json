@@ -1,0 +1,29 @@
+{
+  "description": "Triangle for sum of the two legs (catheti) of primitive Pythagorean triangles.",
+  "id": "A225949",
+  "mentions": [
+    "A055034",
+    "A056220",
+    "A058529",
+    "A118905",
+    "A198441",
+    "A222946",
+    "A222951",
+    "A249869",
+    "A258149",
+    "A278717"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 2,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

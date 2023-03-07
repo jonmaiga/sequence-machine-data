@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that the set of exponents in expression for 2*n as a sum of distinct powers of 2 can be partitioned into two parts with equal sums.",
+  "id": "A293576",
+  "mentions": [
+    "A000120",
+    "A000265",
+    "A029931",
+    "A063865",
+    "A133457",
+    "A293664"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:10",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

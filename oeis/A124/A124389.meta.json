@@ -1,0 +1,24 @@
+{
+  "description": "A square array of Kolakoski string lengths, read by antidiagonals.",
+  "id": "A124389",
+  "mentions": [
+    "A066983",
+    "A095342",
+    "A095343",
+    "A095344",
+    "A124390"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

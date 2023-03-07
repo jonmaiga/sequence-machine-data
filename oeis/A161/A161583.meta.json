@@ -1,0 +1,20 @@
+{
+  "description": "The list of the k values in the common solutions to the 2 equations 15*k+1=A^2, 19*k+1=B^2.",
+  "id": "A161583",
+  "mentions": [
+    "A160682",
+    "A161595",
+    "A161599"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 17:14:42",
+    "offset": 1,
+    "size": 14,
+    "source": "joeis"
+  }
+}

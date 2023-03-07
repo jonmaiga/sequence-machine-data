@@ -1,0 +1,19 @@
+{
+  "description": "G.f. A(x) satisfies: A(x^2*B(x)) = x^3 - x^4, where A(B(x)) = x.",
+  "id": "A273203",
+  "mentions": [
+    "A273162",
+    "A350433"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

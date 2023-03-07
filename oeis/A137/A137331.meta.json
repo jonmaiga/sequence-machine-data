@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 1 if the binary weight of n is prime, otherwise 0.",
+  "id": "A137331",
+  "mentions": [
+    "A000120",
+    "A010051",
+    "A135136"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 08:34:25",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

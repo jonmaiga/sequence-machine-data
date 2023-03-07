@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = m-th positive integer which is coprime to n, where phi(n) is number of positive integers which are <= n and are coprime to n and m = phi(n) if phi(n)|n, else m = n mod phi(n)..",
+  "id": "A122383",
+  "mentions": [
+    "A000010",
+    "A122377",
+    "A124333"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

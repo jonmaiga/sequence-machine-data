@@ -1,0 +1,18 @@
+{
+  "description": "Sum of previous term and preceding non-divisors.",
+  "id": "A120610",
+  "mentions": [
+    "A120611"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

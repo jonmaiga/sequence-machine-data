@@ -1,0 +1,28 @@
+{
+  "description": "a(n) is the smallest integer that has exactly n divisors from A333369.",
+  "id": "A355771",
+  "mentions": [
+    "A005231",
+    "A053624",
+    "A087997",
+    "A333369",
+    "A333456",
+    "A353735",
+    "A355303",
+    "A355699",
+    "A355770",
+    "A355772",
+    "A355773"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

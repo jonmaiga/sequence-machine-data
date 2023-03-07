@@ -1,0 +1,18 @@
+{
+  "description": "T(n,k)=Number of nXk binary arrays with each element equal to either the sum mod 2 of its horizontal and vertical neighbors or the sum mod 2 of its diagonal and antidiagonal neighbors",
+  "id": "A183517",
+  "mentions": [
+    "A000930"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:07",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

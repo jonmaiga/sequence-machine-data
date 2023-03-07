@@ -1,0 +1,22 @@
+{
+  "description": "a(0) = 1; thereafter a(n) = exp(1/n) * Sum_{k>=0} (n*k + 1)^n / ((-n)^k * k!).",
+  "id": "A334193",
+  "mentions": [
+    "A318183",
+    "A334162",
+    "A334190",
+    "A334191",
+    "A334192"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

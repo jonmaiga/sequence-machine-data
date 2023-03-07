@@ -1,0 +1,23 @@
+{
+  "description": "a(n+1) is the smallest preimage k such that A008477(k) = a(n) with a(1) = 100.",
+  "id": "A343294",
+  "mentions": [
+    "A001694",
+    "A008477",
+    "A062307",
+    "A332785",
+    "A342973",
+    "A343293"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

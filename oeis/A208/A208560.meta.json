@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X n 0..2 arrays with new values 0..2 introduced in row major order and no element equal to more than one of its immediate leftward or upward or left-upward diagonal neighbors",
+  "id": "A208560",
+  "mentions": [
+    "A208567"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

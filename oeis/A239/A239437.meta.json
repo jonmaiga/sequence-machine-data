@@ -1,0 +1,22 @@
+{
+  "description": "Least number that is pandigital in some base >= n but not pandigital in bases 3 through n-1.",
+  "id": "A239437",
+  "mentions": [
+    "A049363",
+    "A154314",
+    "A239348"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 3,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

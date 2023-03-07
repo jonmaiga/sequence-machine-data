@@ -1,0 +1,26 @@
+{
+  "description": "Inverse binomial transform of A084640.",
+  "id": "A171501",
+  "mentions": [
+    "A001045",
+    "A008776",
+    "A025192",
+    "A084640",
+    "A140966",
+    "A167747",
+    "A168589",
+    "A171449"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:55",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

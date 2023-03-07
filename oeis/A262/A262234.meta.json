@@ -1,0 +1,21 @@
+{
+  "description": "Number of ordered pairs (p,q) of permutations of [n] with equal up-down signatures and p(1)=q(1) if n>0.",
+  "id": "A262234",
+  "mentions": [
+    "A060350",
+    "A262233",
+    "A262241",
+    "A262372"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

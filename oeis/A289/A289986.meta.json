@@ -1,0 +1,24 @@
+{
+  "description": "Number of connected 2n-regular loopless multigraphs on 2n unlabeled nodes.",
+  "id": "A289986",
+  "mentions": [
+    "A005177",
+    "A129417",
+    "A129421",
+    "A129425",
+    "A328682"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

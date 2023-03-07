@@ -1,0 +1,26 @@
+{
+  "description": "Partition array for the number of representative necklaces (only cyclic symmetry) with n beads, each available in n colors. Only the color type (signature) matters.",
+  "id": "A212359",
+  "mentions": [
+    "A000041",
+    "A036036",
+    "A036038",
+    "A072605",
+    "A212357",
+    "A212360",
+    "A213934",
+    "A339677"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

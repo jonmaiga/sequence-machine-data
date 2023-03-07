@@ -1,0 +1,21 @@
+{
+  "description": "Number of permutations of 3 copies of 1..n introduced in order 1..n with no element equal to another within a distance of 1.",
+  "id": "A190826",
+  "mentions": [
+    "A192990",
+    "A193624",
+    "A193638",
+    "A322013"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

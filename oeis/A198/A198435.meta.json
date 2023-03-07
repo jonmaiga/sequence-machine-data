@@ -1,0 +1,25 @@
+{
+  "description": "First term of a triple of squares in arithmetic progression, which is not a multiple of another triple in (A198384,A198385,A198386).",
+  "id": "A198435",
+  "mentions": [
+    "A198384",
+    "A198385",
+    "A198386",
+    "A198409",
+    "A198436",
+    "A198437",
+    "A198438",
+    "A198439"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

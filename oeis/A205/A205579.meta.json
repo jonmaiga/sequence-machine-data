@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = round(r^n) where r is the smallest Pisot number (real root r=1.3247179.. of x^3-x-1).",
+  "id": "A205579",
+  "mentions": [
+    "A051016",
+    "A051017",
+    "A060006",
+    "A112639"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:25",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

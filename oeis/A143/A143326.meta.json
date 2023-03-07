@@ -1,0 +1,27 @@
+{
+  "description": "Table T(n,k) by antidiagonals. T(n,k) is the number of primitive (=aperiodic) k-ary words with length less than or equal to n (n,k >= 1).",
+  "id": "A143326",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000290",
+    "A008683",
+    "A081437",
+    "A085490",
+    "A134541",
+    "A143324",
+    "A143327"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

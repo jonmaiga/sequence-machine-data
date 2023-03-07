@@ -1,0 +1,18 @@
+{
+  "description": "Let the prime factorization of m be m = product p(m,k)^b(m,k), where p(m,j)",
+  "id": "A165714",
+  "mentions": [
+    "A165713",
+    "A165715"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 2,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

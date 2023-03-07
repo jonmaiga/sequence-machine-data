@@ -1,0 +1,22 @@
+{
+  "description": "Same as A161645 except that triangles must always grow outwards.",
+  "id": "A295559",
+  "mentions": [
+    "A005448",
+    "A161644",
+    "A161645",
+    "A295558",
+    "A295560"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

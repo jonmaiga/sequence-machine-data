@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least possible greatest prime in any partition of prime(n) into three primes; n >= 4.",
+  "id": "A302756",
+  "mentions": [
+    "A024684",
+    "A224534",
+    "A302607"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 4,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Cumulative product of triple factorial A007661.",
+  "id": "A114778",
+  "mentions": [
+    "A000178",
+    "A006882",
+    "A007661",
+    "A114347"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

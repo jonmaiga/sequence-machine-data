@@ -1,0 +1,19 @@
+{
+  "description": "Number of inequivalent n X n matrices over GF(3) under action of dihedral group of the square D_4, with a third of 1's, 2's and 3's (ordered occurrences rounded up/down if n^2 != 0 mod 3).",
+  "id": "A286447",
+  "mentions": [
+    "A054739",
+    "A082963"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

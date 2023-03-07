@@ -1,0 +1,24 @@
+{
+  "description": "Number of integers i in range [A000302(n-1)..A024036(n)] of permutation A163355/A163356 with A163915(i)=i, but not A163355(i)=i.",
+  "id": "A163913",
+  "mentions": [
+    "A000302",
+    "A002001",
+    "A024036",
+    "A163355",
+    "A163356",
+    "A163903",
+    "A163914",
+    "A163915"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

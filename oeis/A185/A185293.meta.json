@@ -1,0 +1,31 @@
+{
+  "description": "Number of disconnected 9-regular graphs with 2n nodes.",
+  "id": "A185293",
+  "mentions": [
+    "A014381",
+    "A033483",
+    "A068932",
+    "A068933",
+    "A157928",
+    "A165652",
+    "A165653",
+    "A165655",
+    "A165656",
+    "A165877",
+    "A165878",
+    "A185203",
+    "A185213"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

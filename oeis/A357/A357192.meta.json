@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n! * Sum_{k=0..floor(n/3)} k^n/k!.",
+  "id": "A357192",
+  "mentions": [
+    "A256016",
+    "A352982",
+    "A357191",
+    "A357194"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

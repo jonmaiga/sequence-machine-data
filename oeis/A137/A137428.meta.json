@@ -1,0 +1,19 @@
+{
+  "description": "Positive integers n which have a composite divisor smaller than their largest prime factor.",
+  "id": "A137428",
+  "mentions": [
+    "A006530",
+    "A088739",
+    "A252478"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

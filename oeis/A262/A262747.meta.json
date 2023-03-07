@@ -1,0 +1,23 @@
+{
+  "description": "Number of ordered ways to write n as x^2 + y^2 + phi(z^2) with 0 <= x <= y, z > 0, 2 | x*y*z, and phi(k^2) < n for all 0 < k < z, where phi(.) is Euler's totient function given by A000010.",
+  "id": "A262747",
+  "mentions": [
+    "A000010",
+    "A001481",
+    "A002618",
+    "A262311",
+    "A262746",
+    "A262750",
+    "A262766"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

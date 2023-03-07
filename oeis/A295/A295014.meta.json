@@ -1,0 +1,26 @@
+{
+  "description": "Prime time numbers on 6-digit clocks: numbers of the form HMMSS where H, MM, SS are primes, H < 24, MM and SS < 60.",
+  "id": "A295014",
+  "mentions": [
+    "A050246",
+    "A159911",
+    "A229106",
+    "A295000",
+    "A295004",
+    "A295011",
+    "A295013"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways to place 2 nonattacking amazons (superqueens) on an n X n board",
+  "id": "A172200",
+  "mentions": [
+    "A036464",
+    "A051223",
+    "A051224"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:16:23",
+    "offset": 1,
+    "size": 37,
+    "source": "joeis"
+  }
+}

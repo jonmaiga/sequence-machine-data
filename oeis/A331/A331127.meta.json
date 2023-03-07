@@ -1,0 +1,21 @@
+{
+  "description": "Number of n-regular hypergraphs on 5 labeled vertices.",
+  "id": "A331127",
+  "mentions": [
+    "A188445",
+    "A319190",
+    "A331129"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

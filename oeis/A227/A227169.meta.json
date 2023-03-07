@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 3*((2*n+2)!)^2 / (n!*(n+1)!*(n+2)!*(n+3)!).",
+  "id": "A227169",
+  "mentions": [
+    "A135389",
+    "A145600"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

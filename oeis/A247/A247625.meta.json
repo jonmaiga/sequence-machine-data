@@ -1,0 +1,20 @@
+{
+  "description": "Knife numbers (second version): n=concat(a,b) is divisible by a+b; a>0; b must not have leading zeros.",
+  "id": "A247625",
+  "mentions": [
+    "A247624",
+    "A247626",
+    "A247627"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

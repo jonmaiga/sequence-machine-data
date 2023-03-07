@@ -1,0 +1,22 @@
+{
+  "description": "Leap centuries in the revised Julian calendar.",
+  "id": "A193910",
+  "mentions": [
+    "A008586",
+    "A193879",
+    "A274406",
+    "A301451"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:07:15",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

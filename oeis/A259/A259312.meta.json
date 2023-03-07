@@ -1,0 +1,18 @@
+{
+  "description": "n such that 3 < sigma(n)/n < sigma(m)/m for all abundant numbers m",
+  "id": "A259312",
+  "mentions": [
+    "A068403",
+    "A071927"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

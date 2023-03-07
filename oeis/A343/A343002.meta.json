@@ -1,0 +1,28 @@
+{
+  "description": "Discriminants with exactly 2 associated cyclic cubic fields.",
+  "id": "A343002",
+  "mentions": [
+    "A002476",
+    "A006832",
+    "A160498",
+    "A343000",
+    "A343001",
+    "A343003",
+    "A343022",
+    "A343023",
+    "A343024",
+    "A343025"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

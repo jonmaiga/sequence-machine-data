@@ -1,0 +1,26 @@
+{
+  "description": "Dirichlet convolution of A057521 (powerful part of n) with A055615 (Dirichlet inverse of n).",
+  "id": "A349441",
+  "mentions": [
+    "A000010",
+    "A055615",
+    "A057521",
+    "A097945",
+    "A349379",
+    "A349442",
+    "A349443"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "look",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

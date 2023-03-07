@@ -1,0 +1,29 @@
+{
+  "description": "Decimal expansion of circumradius of a regular dodecahedron with edge length 1.",
+  "id": "A179296",
+  "mentions": [
+    "A010503",
+    "A010527",
+    "A019881",
+    "A102208",
+    "A102769",
+    "A131595",
+    "A179290",
+    "A179292",
+    "A179294",
+    "A187110"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

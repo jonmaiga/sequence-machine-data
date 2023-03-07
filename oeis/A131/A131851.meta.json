@@ -1,0 +1,30 @@
+{
+  "description": "Real part of the function z(n)=Sum(d(k)*i^k: d as in n=Sum(d(k)*2^k), i=sqrt(-1)).",
+  "id": "A131851",
+  "mentions": [
+    "A000079",
+    "A007088",
+    "A056594",
+    "A131852",
+    "A131853",
+    "A131854",
+    "A131856",
+    "A131858",
+    "A131859",
+    "A131860",
+    "A131861",
+    "A131863",
+    "A131865"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:19",
+    "offset": 0,
+    "size": 111,
+    "source": "oeis-bfile"
+  }
+}

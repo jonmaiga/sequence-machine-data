@@ -1,0 +1,29 @@
+{
+  "description": "T(n,j) for double application of an iterated mixed order Laguerre transform: Coefficients of Laguerre polynomial (-1)^n*n!*L(n,2-n,x).",
+  "id": "A132014",
+  "mentions": [
+    "A002061",
+    "A094587",
+    "A110330",
+    "A132013",
+    "A132159",
+    "A132382",
+    "A132440",
+    "A133314",
+    "A235706",
+    "A238385"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

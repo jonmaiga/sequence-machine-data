@@ -1,0 +1,19 @@
+{
+  "description": "Primes occurring in A084704 exactly 4 times.",
+  "id": "A128655",
+  "mentions": [
+    "A084704",
+    "A128653",
+    "A128654"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

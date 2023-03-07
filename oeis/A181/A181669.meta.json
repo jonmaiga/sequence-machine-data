@@ -1,0 +1,17 @@
+{
+  "description": "Primes p of the form 6n-1 such that p-1 is a semiprime and p+2 is prime or prime squared.",
+  "id": "A181669",
+  "mentions": [
+    "A181602"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

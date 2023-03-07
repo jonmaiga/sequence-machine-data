@@ -1,0 +1,19 @@
+{
+  "description": "Theta series of 36-dimensional lattice obtained by applying Construction A_c (as in Theorem 26, p. 198, of Conway-Sloane) to the [18,9,8]_4 self-dual code S_18 over GF(4).",
+  "id": "A109005",
+  "mentions": [
+    "A014487",
+    "A109006"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

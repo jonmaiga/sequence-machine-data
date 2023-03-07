@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = sum_{k=0..n}C(n,k)^2*C(2k,k)/(2k-1), where C(n,k) denotes the binomial coefficient n!/(k!*(n-k)!).",
+  "id": "A246065",
+  "mentions": [
+    "A086618",
+    "A245769"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

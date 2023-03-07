@@ -1,0 +1,28 @@
+{
+  "description": "Dirichlet convolution of the integer partition numbers A000041 with the strict partition numbers A000009.",
+  "id": "A323765",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A001970",
+    "A034729",
+    "A047968",
+    "A050343",
+    "A316980",
+    "A319066",
+    "A323764",
+    "A323766",
+    "A323774"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:48",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

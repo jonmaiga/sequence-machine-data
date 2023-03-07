@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 21*a(n-2) + 7*a(n-3), with a(0)=a(1)=0, a(2)=9.",
+  "id": "A215484",
+  "mentions": [
+    "A121449",
+    "A121458",
+    "A215492"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

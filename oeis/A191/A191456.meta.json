@@ -1,0 +1,31 @@
+{
+  "description": "Primes p such that the polynomial x^2+x+p generates only primes for x=1..9.",
+  "id": "A191456",
+  "mentions": [
+    "A001359",
+    "A022004",
+    "A144051",
+    "A160548",
+    "A164926",
+    "A172454",
+    "A187057",
+    "A187058",
+    "A187060",
+    "A190800",
+    "A191457",
+    "A191458",
+    "A211238",
+    "A253592",
+    "A253605"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Bi-unitary pseudoperfect numbers (A292985) that are not exponentially odd numbers (A268335).",
+  "id": "A335938",
+  "mentions": [
+    "A005835",
+    "A222266",
+    "A268335",
+    "A292985",
+    "A295830",
+    "A335216"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

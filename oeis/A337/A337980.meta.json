@@ -1,0 +1,18 @@
+{
+  "description": "When terms first appear in the sequence they are \"untouched\". Start with a(1)=1. Thereafter, to find a(n), let k = a(n-1). If there is an earlier occurrence a(n-m) = k which is untouched, then a(n) = m and a(n-m) is now \"touched\". Otherwise, a(n) = 0.",
+  "id": "A337980",
+  "mentions": [
+    "A181391"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

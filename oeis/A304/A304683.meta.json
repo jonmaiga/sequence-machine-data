@@ -1,0 +1,18 @@
+{
+  "description": "Number of odd positive integers t such that the prefix of length tn of the Thue-Morse sequence (A010060) is not an n-antipower.",
+  "id": "A304683",
+  "mentions": [
+    "A010060",
+    "A304682"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

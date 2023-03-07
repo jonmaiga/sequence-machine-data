@@ -1,0 +1,28 @@
+{
+  "description": "Number of nondeficient divisors of n.",
+  "id": "A341620",
+  "mentions": [
+    "A000005",
+    "A006039",
+    "A023196",
+    "A080224",
+    "A080225",
+    "A080226",
+    "A294927",
+    "A294936",
+    "A337690",
+    "A341619",
+    "A341624"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

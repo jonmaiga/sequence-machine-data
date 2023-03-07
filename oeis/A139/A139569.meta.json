@@ -1,0 +1,19 @@
+{
+  "description": "A triangle of coefficients of a Chebyshev T(x,n) polynomials to make pair binomials by in {x,y,z} and x only polynomial reduced: f(x,y,n)=Sum[CoefficientList[ChebyshevT[n, x], x][[i + 1]]*x^i*y^(n - i), {i,0, Length[CoefficientList[ChebyshevT[n, x], x]] - 1}]; p(x,y,z,n)=f(x,y,n)+f(y,z,n)+f(z,x,n).",
+  "id": "A139569",
+  "mentions": [
+    "A053120"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

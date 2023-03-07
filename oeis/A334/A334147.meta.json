@@ -1,0 +1,20 @@
+{
+  "description": "Numbers which can be written uniquely as x^4 + y*(2y+1) + z*(3z+1), where x,y,z are integers with x>=0.",
+  "id": "A334147",
+  "mentions": [
+    "A000217",
+    "A001318",
+    "A270566",
+    "A334138"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

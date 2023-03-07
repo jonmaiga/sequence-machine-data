@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that are 5-digit palindromes in at least two bases.",
+  "id": "A180454",
+  "mentions": [
+    "A180453"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

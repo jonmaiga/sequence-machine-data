@@ -1,0 +1,17 @@
+{
+  "description": "Ordered even leg lengths k (listed with multiplicity) of primitive Pythagorean triangles such that all odd prime factors of k are congruent to 3 (mod 4) and at least one prime factor is odd.",
+  "id": "A354571",
+  "mentions": [
+    "A354570"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

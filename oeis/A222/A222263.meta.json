@@ -1,0 +1,23 @@
+{
+  "description": "Odd numbers n such that 2n/sigma(n) - 1 = 1/x for some positive integer x.",
+  "id": "A222263",
+  "mentions": [
+    "A000203",
+    "A007814",
+    "A033870",
+    "A033871",
+    "A174292",
+    "A222262",
+    "A222264"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

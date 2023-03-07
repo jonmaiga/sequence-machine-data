@@ -1,0 +1,20 @@
+{
+  "description": "Numbers of squares formed by this procedure on n-th step: Step 1, draw a unit square. Step n, draw a unit square with center in every intersection of lines of the figure in step n-1.",
+  "id": "A336288",
+  "mentions": [
+    "A081585"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:02:07",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

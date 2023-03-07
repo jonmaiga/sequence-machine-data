@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of onset of logistic map 6-bifurcation.",
+  "id": "A118453",
+  "mentions": [
+    "A086178",
+    "A086180",
+    "A091517",
+    "A098587",
+    "A118454"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

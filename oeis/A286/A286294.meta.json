@@ -1,0 +1,22 @@
+{
+  "description": "Leading column of right triangle in A274650.",
+  "id": "A286294",
+  "mentions": [
+    "A274650",
+    "A274651",
+    "A286295",
+    "A288384",
+    "A288424"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

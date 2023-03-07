@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = a(n-1) + last digit of a(n-1), starting at 9.",
+  "id": "A102042",
+  "mentions": [
+    "A102041"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 18:25:35",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Numbers n such that n - 1 has exactly as many odd divisors as n + 1.",
+  "id": "A275418",
+  "mentions": [
+    "A000005",
+    "A001227",
+    "A014574",
+    "A067888",
+    "A181490",
+    "A181493",
+    "A273401",
+    "A275598",
+    "A276136",
+    "A276188"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

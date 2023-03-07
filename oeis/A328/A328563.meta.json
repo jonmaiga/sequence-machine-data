@@ -1,0 +1,20 @@
+{
+  "description": "Nonsquarefree unitary weird numbers that are also weird numbers.",
+  "id": "A328563",
+  "mentions": [
+    "A006037",
+    "A064114",
+    "A292705",
+    "A328562"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:57",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

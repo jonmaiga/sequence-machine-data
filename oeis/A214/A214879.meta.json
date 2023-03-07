@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that cannot be written as sum of the squares of two primes.",
+  "id": "A214879",
+  "mentions": [
+    "A045636",
+    "A045698"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

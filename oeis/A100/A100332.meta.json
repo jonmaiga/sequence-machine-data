@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest positive integer for which the fractional part of exp(a(n)) begins with n.",
+  "id": "A100332",
+  "mentions": [
+    "A100322"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

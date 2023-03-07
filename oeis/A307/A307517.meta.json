@@ -1,0 +1,30 @@
+{
+  "description": "Numbers with at least two not necessarily distinct prime factors less than the largest prime factor.",
+  "id": "A307517",
+  "mentions": [
+    "A000094",
+    "A000245",
+    "A000961",
+    "A001222",
+    "A052126",
+    "A056239",
+    "A061395",
+    "A064989",
+    "A105441",
+    "A112798",
+    "A243055",
+    "A256617",
+    "A307516",
+    "A325196"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

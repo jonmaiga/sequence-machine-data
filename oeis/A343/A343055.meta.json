@@ -1,0 +1,36 @@
+{
+  "description": "Decimal expansion of the imaginary part of i^(1/16), or sin(Pi/32).",
+  "id": "A343055",
+  "mentions": [
+    "A010503",
+    "A010527",
+    "A019814",
+    "A019815",
+    "A019818",
+    "A019819",
+    "A019821",
+    "A019824",
+    "A019827",
+    "A019829",
+    "A019845",
+    "A182168",
+    "A232736",
+    "A232738",
+    "A241243",
+    "A323601",
+    "A343054"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 0,
+    "size": 115,
+    "source": "oeis-bfile"
+  }
+}

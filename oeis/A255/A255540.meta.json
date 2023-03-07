@@ -1,0 +1,20 @@
+{
+  "description": "Number of connected digital images in Z^2 (regarding each point as connected to its 8 neighbors) on n points up to isomorphism.",
+  "id": "A255540",
+  "mentions": [
+    "A030222",
+    "A255539"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

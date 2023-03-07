@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that digits of n are not present in n^4.",
+  "id": "A111116",
+  "mentions": [
+    "A029783",
+    "A029785",
+    "A113316"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

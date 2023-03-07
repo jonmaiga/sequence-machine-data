@@ -1,0 +1,19 @@
+{
+  "description": "Floor(antisigma(n) / n), where antisigma(n) = A024816(n) = the sum of the non-divisors of n that are between 1 and n.",
+  "id": "A244325",
+  "mentions": [
+    "A024816",
+    "A244324",
+    "A244326"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

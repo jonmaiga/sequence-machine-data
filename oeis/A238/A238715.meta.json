@@ -1,0 +1,21 @@
+{
+  "description": "Least prime of a run of 3 or more consecutive decadal prime triples.",
+  "id": "A238715",
+  "mentions": [
+    "A008470",
+    "A008471",
+    "A238713",
+    "A238716",
+    "A238730"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

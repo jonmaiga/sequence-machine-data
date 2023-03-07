@@ -1,0 +1,21 @@
+{
+  "description": "Number of self-avoiding walks of n steps on a Manhattan square lattice.",
+  "id": "A117633",
+  "mentions": [
+    "A001411",
+    "A006744",
+    "A322419"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2022-05-03 02:45:55",
+    "offset": 0,
+    "size": 39,
+    "source": "joeis"
+  }
+}

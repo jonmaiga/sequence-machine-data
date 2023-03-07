@@ -1,0 +1,17 @@
+{
+  "description": "Number of standard Young tableaux with n cells and 9 as last value in the first row.",
+  "id": "A245007",
+  "mentions": [
+    "A238794"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 9,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

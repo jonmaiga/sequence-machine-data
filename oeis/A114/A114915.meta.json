@@ -1,0 +1,21 @@
+{
+  "description": "Bitwise XOR of Pi base 2 (A004601) and e base 2 (A004593).",
+  "id": "A114915",
+  "mentions": [
+    "A004593",
+    "A004601",
+    "A114916"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Table of the smallest (x,y) pairs such that x*n+1 is prime, y*n+1 is a larger prime, and (x*n+1)*(y*n+1)-2 is also prime.",
+  "id": "A112229",
+  "mentions": [
+    "A112230"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

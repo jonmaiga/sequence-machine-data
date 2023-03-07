@@ -1,0 +1,18 @@
+{
+  "description": "Smallest prime of the form 10^k + prime(n), k >= d, the number of digits in prime(n). 0 if no such primes exist. a(n) = 0 if prime(n) + 1 == 0 (mod 3).",
+  "id": "A114782",
+  "mentions": [
+    "A114780"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

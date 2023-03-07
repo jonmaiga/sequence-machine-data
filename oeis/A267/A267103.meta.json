@@ -1,0 +1,24 @@
+{
+  "description": "Row 3 of A265903; numbers that occur exactly three times in A004001.",
+  "id": "A267103",
+  "mentions": [
+    "A004001",
+    "A051135",
+    "A087686",
+    "A188163",
+    "A265901",
+    "A265903",
+    "A266109"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:28",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

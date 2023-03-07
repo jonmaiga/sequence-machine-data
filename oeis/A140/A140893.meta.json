@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = prime(n)^prime(n+1) - prime(n+1)^prime(n).",
+  "id": "A140893",
+  "mentions": [
+    "A000040",
+    "A007965",
+    "A053089",
+    "A078422",
+    "A143776"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:29",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

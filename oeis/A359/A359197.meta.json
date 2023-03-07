@@ -1,0 +1,18 @@
+{
+  "description": "Least number k having n subsets of its divisors whose sum is k+1.",
+  "id": "A359197",
+  "mentions": [
+    "A005100",
+    "A359196"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

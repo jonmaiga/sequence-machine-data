@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that 11*n + 19 is prime.",
+  "id": "A108725",
+  "mentions": [
+    "A017485",
+    "A108233",
+    "A141855"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

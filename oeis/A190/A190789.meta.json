@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that omega(n-1) + omega(n+1) = omega(n) where omega(n) = A001221(n).",
+  "id": "A190789",
+  "mentions": [
+    "A001221"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Numbers of the form 4^p*(4^p+1)*(2^p-1) with p an odd prime.",
+  "id": "A257391",
+  "mentions": [
+    "A000040",
+    "A008587",
+    "A008594",
+    "A008602",
+    "A056866",
+    "A064487",
+    "A065091",
+    "A257146"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

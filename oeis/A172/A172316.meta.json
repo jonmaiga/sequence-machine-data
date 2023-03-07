@@ -1,0 +1,23 @@
+{
+  "description": "7th column of the array A172119.",
+  "id": "A172316",
+  "mentions": [
+    "A000071",
+    "A001949",
+    "A008937",
+    "A107066",
+    "A172119"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:39:29",
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

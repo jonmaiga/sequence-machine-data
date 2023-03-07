@@ -1,0 +1,19 @@
+{
+  "description": "Weird numbers m (A006037) such that sigma(m)/m > sigma(k)/k for all weird numbers k < m, where sigma(m) is the sum of divisors of m (A000203).",
+  "id": "A330244",
+  "mentions": [
+    "A000203",
+    "A006037"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of Cahen's constant.",
+  "id": "A118227",
+  "mentions": [
+    "A000058",
+    "A006279",
+    "A006280",
+    "A006281",
+    "A123180",
+    "A129871",
+    "A242724"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

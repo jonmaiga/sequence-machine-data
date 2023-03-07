@@ -1,0 +1,23 @@
+{
+  "description": "Numbers not ending with 0, that are not the quotient of a Zuckerman number divided by the product of its digits.",
+  "id": "A342941",
+  "mentions": [
+    "A007602",
+    "A008592",
+    "A056770",
+    "A067251",
+    "A288069",
+    "A342593"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest positive integer k such that, if kn is written in base 2, it requires exactly n ones.",
+  "id": "A102032",
+  "mentions": [
+    "A002326",
+    "A005349",
+    "A070939",
+    "A143115"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:53",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

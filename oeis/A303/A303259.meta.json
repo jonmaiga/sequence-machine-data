@@ -1,0 +1,20 @@
+{
+  "description": "Number of ordered rooted trees with n non-root nodes such that the maximal outdegree equals ceiling(n/2).",
+  "id": "A303259",
+  "mentions": [
+    "A005809",
+    "A203717",
+    "A291662"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of log(1+sqrt(2))/sqrt(2).",
+  "id": "A196525",
+  "mentions": [
+    "A000464",
+    "A001539",
+    "A002193",
+    "A091337",
+    "A091648",
+    "A118417",
+    "A181048",
+    "A181049"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:18",
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

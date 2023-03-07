@@ -1,0 +1,18 @@
+{
+  "description": "Numerator of fraction in Redheffer type matrix.",
+  "id": "A161815",
+  "mentions": [
+    "A161816"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

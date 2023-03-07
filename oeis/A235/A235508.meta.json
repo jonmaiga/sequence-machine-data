@@ -1,0 +1,23 @@
+{
+  "description": "Number of ways to write 2*n = p + q with q > 0 such that p, p*(p+1) - prime(p) and prime(q) - q + 1 are all prime.",
+  "id": "A235508",
+  "mentions": [
+    "A000040",
+    "A234695",
+    "A234851",
+    "A235189",
+    "A235330",
+    "A235661",
+    "A235681"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:53",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

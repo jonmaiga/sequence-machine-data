@@ -1,0 +1,21 @@
+{
+  "description": "Lowest common modulus to which the set of residue classes (mod 4n) that all the primes represented by a certain quadratic form of discriminant = -4n belong to, can be simplified to, for all quadratic forms of discriminant = -4n.",
+  "id": "A234001",
+  "mentions": [
+    "A000926",
+    "A232550",
+    "A232551",
+    "A234002"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

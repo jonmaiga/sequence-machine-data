@@ -1,0 +1,20 @@
+{
+  "description": "Not the sum of three squares or cubes greater than 1.",
+  "id": "A135402",
+  "mentions": [
+    "A113505",
+    "A135367",
+    "A135393",
+    "A135693"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

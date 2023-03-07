@@ -1,0 +1,18 @@
+{
+  "description": "Positive integers that are the difference of two positive triangular numbers in an odd number of ways.",
+  "id": "A135571",
+  "mentions": [
+    "A000217",
+    "A001110"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

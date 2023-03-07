@@ -1,0 +1,25 @@
+{
+  "description": "Primitive triples for integer-sided triangles whose angles A < B < C are in arithmetic progression.",
+  "id": "A335893",
+  "mentions": [
+    "A004611",
+    "A024612",
+    "A103606",
+    "A335034",
+    "A335894",
+    "A335895",
+    "A335896",
+    "A335897"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 69,
+    "source": "joeis"
+  }
+}

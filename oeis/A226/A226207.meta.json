@@ -1,0 +1,33 @@
+{
+  "description": "Table by antidiagonals: D(m,n) = Zeckendorf distance between m and n.",
+  "id": "A226207",
+  "mentions": [
+    "A000012",
+    "A000045",
+    "A000201",
+    "A001950",
+    "A005408",
+    "A095791",
+    "A226080",
+    "A226208",
+    "A226209",
+    "A226210",
+    "A226211",
+    "A226212",
+    "A226213",
+    "A226214",
+    "A226215"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

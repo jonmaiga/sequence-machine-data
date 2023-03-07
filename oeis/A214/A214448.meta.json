@@ -1,0 +1,19 @@
+{
+  "description": "Least m>0 such that m^4 >= n!.",
+  "id": "A214448",
+  "mentions": [
+    "A214049"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "description": "Irregular triangle read by rows: T(n, m) is the number of ways to distribute Omega(n) objects into precisely m distinct boxes, with no box empty (Omega(n) >= m).",
+  "id": "A334996",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A001055",
+    "A001222",
+    "A002033",
+    "A007318",
+    "A007425",
+    "A008480",
+    "A008683",
+    "A056239",
+    "A067824",
+    "A073093",
+    "A074206",
+    "A112798",
+    "A122651",
+    "A124010",
+    "A124433",
+    "A167865",
+    "A251683",
+    "A253249",
+    "A317144",
+    "A319001",
+    "A334997",
+    "A337105",
+    "A337107"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

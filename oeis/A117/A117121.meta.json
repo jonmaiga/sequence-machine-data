@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k for which none of the digits of k appear in the decimal expansion of 1/k.",
+  "id": "A117121",
+  "mentions": [
+    "A002275",
+    "A052382"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

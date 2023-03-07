@@ -1,0 +1,20 @@
+{
+  "description": "Solution of the complementary equation a(n) = a(1)*b(n-2) + a(2)*b(n-3) + ... + a(n-1)*b(0), where a(0) = 1, a(1) = 2, b(0) = 3, and (a(n)) and (b(n)) are increasing complementary sequences.",
+  "id": "A296217",
+  "mentions": [
+    "A295862",
+    "A296000",
+    "A296218"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

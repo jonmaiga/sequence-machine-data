@@ -1,0 +1,35 @@
+{
+  "description": "Number T(n,k) of partitions of the k-dimensional hypercube resulting from a sequence of n bisections, each of which splits any part perpendicular to any of the axes, such that each axis is used at least once; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A255982",
+  "mentions": [
+    "A000007",
+    "A000108",
+    "A001761",
+    "A237018",
+    "A256061",
+    "A258416",
+    "A258417",
+    "A258418",
+    "A258419",
+    "A258420",
+    "A258421",
+    "A258422",
+    "A258423",
+    "A258424",
+    "A258425",
+    "A258426",
+    "A258427"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

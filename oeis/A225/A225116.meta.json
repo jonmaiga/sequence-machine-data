@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 3^n*A_{n, 1/3}(-1) where A_{n, k}(x) are the generalized Eulerian polynomials.",
+  "id": "A225116",
+  "mentions": [
+    "A119881",
+    "A155585"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

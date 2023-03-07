@@ -1,0 +1,18 @@
+{
+  "description": "Where record values occur in A062039.",
+  "id": "A123644",
+  "mentions": [
+    "A062039",
+    "A123643"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

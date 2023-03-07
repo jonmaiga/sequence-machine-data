@@ -1,0 +1,26 @@
+{
+  "description": "Numbers n such that T(n) + T(n+1) + ... + T(n+21) is a square, where T(m) = A000217(m) is the m-th triangular number.",
+  "id": "A254443",
+  "mentions": [
+    "A000217",
+    "A000292",
+    "A001110",
+    "A077415",
+    "A116476",
+    "A176541",
+    "A176542",
+    "A257293"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Number of permutations p of [n] with no fixed points and cyclic displacement of elements restricted by two: p(i)<>i and (i-p(i) mod n <= 2 or p(i)-i mod n <= 2).",
+  "id": "A260074",
+  "mentions": [
+    "A000166",
+    "A000804",
+    "A033305",
+    "A257953",
+    "A260081",
+    "A260091",
+    "A260092",
+    "A260094",
+    "A260111",
+    "A260115",
+    "A260216"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

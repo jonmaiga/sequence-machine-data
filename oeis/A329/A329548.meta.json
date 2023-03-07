@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of types of regions in the n-th antidiagonal stripe of the arrangement made of 3 families of lines: x=log(integer); y=log(integer); x+y=log(integer).",
+  "id": "A329548",
+  "mentions": [
+    "A000005"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

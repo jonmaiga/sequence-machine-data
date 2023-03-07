@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that LR0(k) > LR1(k), where LR0(k) = A087117(k) is the length of the longest run of zeros in the binary representation of k, LR1(k) = A038374(k) is the length of the longest run of ones.",
+  "id": "A237882",
+  "mentions": [
+    "A038374",
+    "A087117",
+    "A090050",
+    "A237883"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

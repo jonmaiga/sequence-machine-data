@@ -1,0 +1,27 @@
+{
+  "description": "Numbers m satisfying m^2 + 1 = x^2 * y^3 for positive integers x and y.",
+  "id": "A175155",
+  "mentions": [
+    "A001570",
+    "A001571",
+    "A001694",
+    "A003153",
+    "A006702",
+    "A006703",
+    "A006704",
+    "A006705",
+    "A060355",
+    "A077426"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

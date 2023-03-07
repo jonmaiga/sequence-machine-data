@@ -1,0 +1,21 @@
+{
+  "description": "Compute the greatest prime factors (GPFs, A006530()) of j + 2^n for j = 0, 1, ..., L. a(n) is the maximal length L of such a sequence in which the greatest prime factors are increasing with increasing j.",
+  "id": "A102640",
+  "mentions": [
+    "A006530",
+    "A102641",
+    "A102642",
+    "A102643",
+    "A102644"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

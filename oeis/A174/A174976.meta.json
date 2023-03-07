@@ -1,0 +1,18 @@
+{
+  "description": "Primes which have an equal number of 0,1,2 in their Base_3 expansion.",
+  "id": "A174976",
+  "mentions": [
+    "A066196"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers of form p^i + p^j for p prime and i, j > 0.",
+  "id": "A284665",
+  "mentions": [
+    "A246655"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

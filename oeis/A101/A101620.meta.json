@@ -1,0 +1,23 @@
+{
+  "description": "Decimal encoding of digraph topologies.",
+  "id": "A101620",
+  "mentions": [
+    "A000798",
+    "A001035",
+    "A001930",
+    "A074486"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

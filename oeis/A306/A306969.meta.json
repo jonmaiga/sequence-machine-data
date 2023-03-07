@@ -1,0 +1,18 @@
+{
+  "description": "Numbers congruent to 1, 2, or 4 mod 7 that are not represented by x^2+7*y^2+7*z^2.",
+  "id": "A306969",
+  "mentions": [
+    "A047350"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

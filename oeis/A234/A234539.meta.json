@@ -1,0 +1,20 @@
+{
+  "description": "Pentagonal numbers P = (p+q+r+s)/3 which are the arithmetic mean of four consecutive primes such that p < P < q < r < s.",
+  "id": "A234539",
+  "mentions": [
+    "A000326",
+    "A069495",
+    "A234240"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

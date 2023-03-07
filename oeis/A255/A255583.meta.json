@@ -1,0 +1,24 @@
+{
+  "description": "Let EKG-n denote the EKG sequence (A064413) started with n rather than 2, and suppose EKG-n first merges with some other EKG-i (i >= 2). Then a(n) = number of steps for this to happen.",
+  "id": "A255583",
+  "mentions": [
+    "A064413",
+    "A169837",
+    "A169841",
+    "A169843",
+    "A169849",
+    "A169855",
+    "A169857",
+    "A255524"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 2,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

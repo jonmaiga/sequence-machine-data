@@ -1,0 +1,22 @@
+{
+  "description": "Subsequence of centered square numbers obtained by adding four triangles from A276914 and a central element, a(n) = 4*A276914(n) + 1.",
+  "id": "A276916",
+  "mentions": [
+    "A008844",
+    "A079291",
+    "A220185",
+    "A276914"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

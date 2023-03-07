@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the product of all parts in negaFibonacci representation of n.",
+  "id": "A356387",
+  "mentions": [
+    "A039834",
+    "A059867",
+    "A215022",
+    "A273156",
+    "A356388"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

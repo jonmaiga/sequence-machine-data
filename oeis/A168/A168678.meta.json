@@ -1,0 +1,18 @@
+{
+  "description": "Least prime p such that the prime(n)-1 consecutive primes starting at p are all congruent to 1 (mod prime(n)).",
+  "id": "A168678",
+  "mentions": [
+    "A111287"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

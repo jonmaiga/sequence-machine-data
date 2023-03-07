@@ -1,0 +1,20 @@
+{
+  "description": "Binary palindromes which are also squares.",
+  "id": "A262596",
+  "mentions": [
+    "A002778",
+    "A003166",
+    "A262595"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

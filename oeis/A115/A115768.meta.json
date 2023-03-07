@@ -1,0 +1,20 @@
+{
+  "description": "Integers i such that 2*i XOR 5*i = 3*i, but 4*i XOR i is not 5*i.",
+  "id": "A115768",
+  "mentions": [
+    "A003987",
+    "A048719",
+    "A115767",
+    "A115769"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:52:31",
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

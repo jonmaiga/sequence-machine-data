@@ -1,0 +1,19 @@
+{
+  "description": "Perfect powers z^r that can be written in the form x^p + y^q, where x, y, z are positive coprime integers and p, q, r are positive integers satisfying 1/p + 1/q + 1/r < 1.",
+  "id": "A214618",
+  "mentions": [
+    "A001597"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

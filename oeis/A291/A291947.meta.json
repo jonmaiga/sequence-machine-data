@@ -1,0 +1,20 @@
+{
+  "description": "Number of matchings in the n-polygon diagonal intersection graph.",
+  "id": "A291947",
+  "mentions": [
+    "A291950",
+    "A292921",
+    "A300530",
+    "A300531"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 3,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

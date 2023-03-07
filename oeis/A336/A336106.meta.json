@@ -1,0 +1,33 @@
+{
+  "description": "Number of integer partitions of n whose greatest part is at most one more than the sum of the other parts.",
+  "id": "A336106",
+  "mentions": [
+    "A000670",
+    "A003242",
+    "A005649",
+    "A025065",
+    "A049610",
+    "A106351",
+    "A292884",
+    "A325534",
+    "A325535",
+    "A335126",
+    "A335127",
+    "A335433",
+    "A335434",
+    "A335452",
+    "A335548",
+    "A336102",
+    "A336103"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

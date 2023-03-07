@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that 3^9*2^n - 1 is prime.",
+  "id": "A231374",
+  "mentions": [
+    "A002235",
+    "A002236",
+    "A050539",
+    "A050566",
+    "A050880",
+    "A212311",
+    "A230527",
+    "A230537"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

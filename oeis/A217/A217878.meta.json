@@ -1,0 +1,20 @@
+{
+  "description": "Number of n-element 0..2 arrays with each element the minimum of 3 adjacent elements of a random 0..2 array of n+2 elements.",
+  "id": "A217878",
+  "mentions": [
+    "A217883",
+    "A217954",
+    "A228461"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

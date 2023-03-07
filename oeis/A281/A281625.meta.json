@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n>0 such that n = k*(reversal of k*n) for some k<=n.",
+  "id": "A281625",
+  "mentions": [
+    "A002113",
+    "A061917",
+    "A169824"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:50",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

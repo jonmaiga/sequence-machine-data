@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that tau(k)/omega(k) is an integer, where tau(k) = number of divisors of k and omega(k) = number of distinct prime factors of k.",
+  "id": "A109425",
+  "mentions": [
+    "A000005",
+    "A001221",
+    "A109426"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

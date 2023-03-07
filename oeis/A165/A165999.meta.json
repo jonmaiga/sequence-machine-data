@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(0,0) = 1, T(n,k) = T(n-1,k-1) + T(n-1,k) for n > 0, 0 < k <= trinv(n), where trinv(n) = floor((1+sqrt(1+8*n))/2), and entries outside triangle are 0.",
+  "id": "A165999",
+  "mentions": [
+    "A000217",
+    "A002024",
+    "A101482",
+    "A136730"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

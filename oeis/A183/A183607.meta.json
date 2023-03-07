@@ -1,0 +1,18 @@
+{
+  "description": "G.f. satisfies: A(x) = 1/(1 - x - x*{d/dx x^2*A'(x)/A(x)}).",
+  "id": "A183607",
+  "mentions": [
+    "A183606"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:07",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

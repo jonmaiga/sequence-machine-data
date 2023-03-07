@@ -1,0 +1,18 @@
+{
+  "description": "Total number of partitions of k*n into 3 parts for k = 1..n.",
+  "id": "A343124",
+  "mentions": [
+    "A069905"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

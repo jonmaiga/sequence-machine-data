@@ -1,0 +1,23 @@
+{
+  "description": "Primes p such that p+2^4, p+2^6 and p+2^8 are all primes.",
+  "id": "A269257",
+  "mentions": [
+    "A002476",
+    "A049488",
+    "A049490",
+    "A269258",
+    "A269259",
+    "A269859",
+    "A270203"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:31",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

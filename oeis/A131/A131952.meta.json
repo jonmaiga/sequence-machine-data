@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the maximal overpseudoprime q to base 2 such that the multiplicative order of 2 mod q equals A143584(n).",
+  "id": "A131952",
+  "mentions": [
+    "A002326",
+    "A064078",
+    "A122929",
+    "A141232",
+    "A141629",
+    "A143584"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

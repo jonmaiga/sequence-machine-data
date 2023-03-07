@@ -1,0 +1,31 @@
+{
+  "description": "a(n) is the number of pairs (x,y) with 1 <= x, y <= 10^n and gcd(x,y)=1.",
+  "id": "A342586",
+  "mentions": [
+    "A000010",
+    "A018805",
+    "A059956",
+    "A064018",
+    "A071778",
+    "A082540",
+    "A342632",
+    "A342841",
+    "A342935",
+    "A343193",
+    "A343282",
+    "A343527",
+    "A343978",
+    "A344038"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

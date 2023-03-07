@@ -1,0 +1,24 @@
+{
+  "description": "G.f. A(x) satisfies A(x/A(x)^2) = 1/(1-x).",
+  "id": "A145158",
+  "mentions": [
+    "A088713",
+    "A145159",
+    "A145160",
+    "A145161",
+    "A145162",
+    "A145165",
+    "A145167"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

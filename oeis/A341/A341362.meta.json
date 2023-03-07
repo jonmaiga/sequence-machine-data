@@ -1,0 +1,22 @@
+{
+  "description": "a(n) begins the first sequence of n consecutive positive integers with the same h-value and the same d-value in the Collatz (or '3x + 1') problem.",
+  "id": "A341362",
+  "mentions": [
+    "A006577",
+    "A025586",
+    "A056959",
+    "A078441",
+    "A268253",
+    "A277109"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

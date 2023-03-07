@@ -1,0 +1,20 @@
+{
+  "description": "Least k such that A001222(Fibonacci(k+1)) / A001222(Fibonacci(k)) = n, or 0 if no such k exists.",
+  "id": "A277207",
+  "mentions": [
+    "A000045",
+    "A001222",
+    "A038575"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

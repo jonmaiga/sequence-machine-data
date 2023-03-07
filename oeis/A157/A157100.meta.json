@@ -1,0 +1,21 @@
+{
+  "description": "Transform of Catalan numbers whose Hankel transform satisfies the Somos-4 recurrence.",
+  "id": "A157100",
+  "mentions": [
+    "A000108",
+    "A025262",
+    "A157101"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

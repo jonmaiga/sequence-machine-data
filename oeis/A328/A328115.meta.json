@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n from which zero or more applications of A003415 will lead to 5.",
+  "id": "A328115",
+  "mentions": [
+    "A003415",
+    "A099308",
+    "A327968",
+    "A327975",
+    "A328117"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

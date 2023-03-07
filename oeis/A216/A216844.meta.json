@@ -1,0 +1,23 @@
+{
+  "description": "4k^2-8k+2 interleaved with 4k^2-4k+2 for k>=0.",
+  "id": "A216844",
+  "mentions": [
+    "A178218",
+    "A214345",
+    "A214393",
+    "A214405",
+    "A216576"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 15:45:13",
+    "offset": 0,
+    "size": 52,
+    "source": "joeis"
+  }
+}

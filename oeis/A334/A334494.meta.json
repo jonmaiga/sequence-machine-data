@@ -1,0 +1,21 @@
+{
+  "description": "Positions k of addition steps in Recamán's sequence A005132 where A005132(k-1)",
+  "id": "A334494",
+  "mentions": [
+    "A005132",
+    "A187921",
+    "A187922",
+    "A333548",
+    "A333552"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that gcd(A034448(k)-k, k-A048146(k)) is equal to abs(k-A048146(k)).",
+  "id": "A325812",
+  "mentions": [
+    "A000396",
+    "A034448",
+    "A034460",
+    "A048146",
+    "A064591",
+    "A325813",
+    "A325814",
+    "A325822"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

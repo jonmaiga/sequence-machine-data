@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of ternary trees with n edges and having k middle edges (n >= 0, k >= 0).",
+  "id": "A120986",
+  "mentions": [
+    "A000108",
+    "A001764",
+    "A013698",
+    "A108767",
+    "A110608",
+    "A338135"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

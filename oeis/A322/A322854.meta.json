@@ -1,0 +1,26 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into hexagonal pyramidal numbers (A002412).",
+  "id": "A322854",
+  "mentions": [
+    "A002412",
+    "A279222",
+    "A282582",
+    "A322340",
+    "A322798",
+    "A322802",
+    "A322853",
+    "A322855",
+    "A322856"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

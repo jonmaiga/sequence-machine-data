@@ -1,0 +1,19 @@
+{
+  "description": "Inverse of number triangle mod(C(floor(k/2),n-k),2).",
+  "id": "A127831",
+  "mentions": [
+    "A085357",
+    "A127829"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

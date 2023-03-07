@@ -1,0 +1,22 @@
+{
+  "description": "Number of partitions of 3-smooth numbers.",
+  "id": "A117221",
+  "mentions": [
+    "A000041",
+    "A003586",
+    "A090184",
+    "A117220",
+    "A117222"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

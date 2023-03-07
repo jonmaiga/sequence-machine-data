@@ -1,0 +1,29 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of relations from an n-element set to a k-element set that are not onto functions.",
+  "id": "A344116",
+  "mentions": [
+    "A000312",
+    "A002416",
+    "A036679",
+    "A101030",
+    "A131689",
+    "A199656",
+    "A344110",
+    "A344112",
+    "A344113",
+    "A344115"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

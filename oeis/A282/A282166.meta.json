@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the minimal sum of a positive integer sequence of length n with no duplicate substrings of length greater than 1, and every number different from its neighbors.",
+  "id": "A282166",
+  "mentions": [
+    "A259280",
+    "A282167",
+    "A282168",
+    "A282169"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

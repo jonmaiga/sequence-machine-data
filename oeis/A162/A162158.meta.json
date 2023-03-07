@@ -1,0 +1,17 @@
+{
+  "description": "The number of elements in S_3\\det^{-1}(n)/GL(3,\\Z), where we take det : M_{3 \\x 3}(\\Z) \\rightarrow \\Z.",
+  "id": "A162158",
+  "mentions": [
+    "A162159"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

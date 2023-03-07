@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = A003415(n) / gcd(phi(n),A003415(n)), where A003415(n) is the arithmetic derivative of n, and phi is Euler totient function.",
+  "id": "A342414",
+  "mentions": [
+    "A000010",
+    "A003415",
+    "A342001",
+    "A342008",
+    "A342413",
+    "A342415",
+    "A342416"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

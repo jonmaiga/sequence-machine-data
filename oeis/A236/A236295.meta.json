@@ -1,0 +1,21 @@
+{
+  "description": "Number of terms of A114440 that require n steps to arrive at 1.",
+  "id": "A236295",
+  "mentions": [
+    "A114440",
+    "A235601"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of (n+1) X (1+1) 0..2 arrays with no 2 X 2 subblock having its maximum diagonal element less than the absolute difference of its antidiagonal elements.",
+  "id": "A251003",
+  "mentions": [
+    "A251010"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:08",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

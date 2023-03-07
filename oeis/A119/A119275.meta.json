@@ -1,0 +1,32 @@
+{
+  "description": "Inverse of triangle related to Padé approximation of exp(x).",
+  "id": "A119275",
+  "mentions": [
+    "A000321",
+    "A001813",
+    "A001815",
+    "A034839",
+    "A059344",
+    "A086645",
+    "A098158",
+    "A119274",
+    "A130561",
+    "A231846",
+    "A264428",
+    "A265604",
+    "A265605"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

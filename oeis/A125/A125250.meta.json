@@ -1,0 +1,27 @@
+{
+  "description": "Square array, read by antidiagonals, where A(1,1) = A(2,2) = 1, A(1,2) = A(2,1) = 0, A(n,k) = 0 if n < 1 or k < 1, otherwise A(n,k) = A(n-2,k-2) + A(n-1,k-2) + A(n-2,k-1) + A(n-1,k-1).",
+  "id": "A125250",
+  "mentions": [
+    "A002605",
+    "A026729",
+    "A030528",
+    "A051286",
+    "A057089",
+    "A094686",
+    "A109466",
+    "A110320"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Diagonal in triangle A291560: a(n) = -A291560(n+1, n) for n>=1.",
+  "id": "A291561",
+  "mentions": [
+    "A291560",
+    "A291562",
+    "A292119"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

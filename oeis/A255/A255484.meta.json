@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Product_{k=0..n} (prime(k+1)*(binomial(n,k) mod 2).",
+  "id": "A255484",
+  "mentions": [
+    "A123098",
+    "A255483"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

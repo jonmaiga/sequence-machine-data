@@ -1,0 +1,18 @@
+{
+  "description": "Odd numbers of the form a^2 + 2*b^2 with positive integers a and b.",
+  "id": "A201544",
+  "mentions": [
+    "A033203",
+    "A154777"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

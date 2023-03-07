@@ -1,0 +1,20 @@
+{
+  "description": "Numbers of n-length words on alphabet {0,1,...,8} with no subwords ii, for i from {0,1}.",
+  "id": "A254598",
+  "mentions": [
+    "A015576",
+    "A251366"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

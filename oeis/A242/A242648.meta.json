@@ -1,0 +1,20 @@
+{
+  "description": "Dirichlet g.f.: Product_{n>=2} 1/(1-1/n^s)^sigma(n).",
+  "id": "A242648",
+  "mentions": [
+    "A000203",
+    "A007896",
+    "A050367",
+    "A242649"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

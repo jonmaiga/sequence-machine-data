@@ -1,0 +1,42 @@
+{
+  "description": "Number of vertices in truncated tetrahedron with faces that are centered polygons.",
+  "id": "A193218",
+  "mentions": [
+    "A000330",
+    "A001845",
+    "A003215",
+    "A005408",
+    "A005448",
+    "A005894",
+    "A005898",
+    "A005902",
+    "A005917",
+    "A006331",
+    "A049480",
+    "A057813",
+    "A063488",
+    "A063489",
+    "A063490",
+    "A063491",
+    "A063492",
+    "A063493",
+    "A063494",
+    "A063495",
+    "A063496",
+    "A193228",
+    "A193248",
+    "A260810"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

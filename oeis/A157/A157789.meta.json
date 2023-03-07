@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that consecutive primes p < q < r < s all are additive pointer-primes A089824.",
+  "id": "A157789",
+  "mentions": [
+    "A007953",
+    "A089824"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

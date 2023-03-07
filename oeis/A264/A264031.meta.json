@@ -1,0 +1,20 @@
+{
+  "description": "Minimum of the sum r + s of the coefficients of a linear combination of consecutive squares r*k^2 + s*(k+1)^2 equals to n, with r, s and k >=0.",
+  "id": "A264031",
+  "mentions": [
+    "A001105",
+    "A069756",
+    "A230812"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

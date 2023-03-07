@@ -1,0 +1,25 @@
+{
+  "description": "Leaders in the race of digits of Catalan's constant.",
+  "id": "A341430",
+  "mentions": [
+    "A006752",
+    "A195835",
+    "A195844",
+    "A195845",
+    "A195846",
+    "A195847",
+    "A341438"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

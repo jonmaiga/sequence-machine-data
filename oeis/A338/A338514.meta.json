@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that k and k+1 are both divisible by the total binary weight of their divisors (A093653).",
+  "id": "A338514",
+  "mentions": [
+    "A000120",
+    "A093653",
+    "A093705",
+    "A330927",
+    "A330931",
+    "A334345",
+    "A338452"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

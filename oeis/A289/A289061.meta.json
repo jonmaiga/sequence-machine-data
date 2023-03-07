@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 2 * (A288851(n) - 12).",
+  "id": "A289061",
+  "mentions": [
+    "A008683",
+    "A192731",
+    "A288840",
+    "A288851",
+    "A288995",
+    "A289063"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:03",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

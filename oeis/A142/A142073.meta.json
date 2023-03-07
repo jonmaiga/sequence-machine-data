@@ -1,0 +1,20 @@
+{
+  "description": "A triangular sequence of coefficients of and infinite sum polynomial: p(x,n)=(1 - 2*x)^(n + 1)*Sum[k^n*(x/(1 - x))^k, {k, 0, Infinity}]/x; p(x,n)=(1 - 2*x)^(n + 1)*PolyLog[ -n,x/(1-x)]/x;.",
+  "id": "A142073",
+  "mentions": [
+    "A008292",
+    "A141720"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

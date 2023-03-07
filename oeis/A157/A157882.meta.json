@@ -1,0 +1,21 @@
+{
+  "description": "Number of collinear point-triples in the n X n X n cube.",
+  "id": "A157882",
+  "mentions": [
+    "A000938",
+    "A178256",
+    "A178298",
+    "A178351",
+    "A178353"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Number of tiles added in each step if a centrally symmetric Penrose rhomb tiling, beginning with a central 'Sun' configuration, is successively extended in steps as defined below.",
+  "id": "A242129",
+  "mentions": [
+    "A242128",
+    "A242888",
+    "A242889",
+    "A242890",
+    "A242891",
+    "A242892",
+    "A242893",
+    "A242894",
+    "A242895"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

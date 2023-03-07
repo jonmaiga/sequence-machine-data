@@ -1,0 +1,21 @@
+{
+  "description": "Smallest number having exactly n divisors of the form 8*k + 5.",
+  "id": "A343106",
+  "mentions": [
+    "A188171",
+    "A188226",
+    "A343104",
+    "A343105"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

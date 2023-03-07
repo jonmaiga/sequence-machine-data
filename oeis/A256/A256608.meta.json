@@ -1,0 +1,25 @@
+{
+  "description": "Least common eventual period of a^(2^k) mod n for all a.",
+  "id": "A256608",
+  "mentions": [
+    "A001146",
+    "A002322",
+    "A002326",
+    "A007733",
+    "A010554",
+    "A037178",
+    "A256607",
+    "A279185"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

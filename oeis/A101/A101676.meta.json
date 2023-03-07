@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = a(n-1) - a(n-2) + a(n-3) - a(n-4) + a(n-5) with initial terms 1,0,-2,-1,0.",
+  "id": "A101676",
+  "mentions": [
+    "A101675",
+    "A101677"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

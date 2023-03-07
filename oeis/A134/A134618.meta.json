@@ -1,0 +1,28 @@
+{
+  "description": "Numbers such that the sum of cubes of their prime factors (taken with multiplicity) is a prime.",
+  "id": "A134618",
+  "mentions": [
+    "A001597",
+    "A025475",
+    "A134333",
+    "A134344",
+    "A134376",
+    "A134600",
+    "A134602",
+    "A134605",
+    "A134608",
+    "A134612",
+    "A134616",
+    "A134620"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:22",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

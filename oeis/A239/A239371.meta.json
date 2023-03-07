@@ -1,0 +1,17 @@
+{
+  "description": "Words of length n over the alphabet {0,...,n-1} that avoid the pattern 1123.",
+  "id": "A239371",
+  "mentions": [
+    "A239295"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:56",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

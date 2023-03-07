@@ -1,0 +1,23 @@
+{
+  "description": "Rectangular array R read by descending antidiagonals: divide the multiples of 3 in the Wythoff array (A035513) by 3, and delete all others.",
+  "id": "A328697",
+  "mentions": [
+    "A000045",
+    "A004187",
+    "A035513",
+    "A049685",
+    "A328695",
+    "A328696"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

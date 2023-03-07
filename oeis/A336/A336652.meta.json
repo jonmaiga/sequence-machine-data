@@ -1,0 +1,25 @@
+{
+  "description": "Sum of positive divisors of odd part of n that are divisible by every (odd) prime dividing it: a(n) = A057723(A000265(n)).",
+  "id": "A336652",
+  "mentions": [
+    "A000265",
+    "A000593",
+    "A057723",
+    "A204455",
+    "A330596",
+    "A336649",
+    "A336651"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

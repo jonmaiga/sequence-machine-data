@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k^k == -1 (mod phi(k)).",
+  "id": "A177012",
+  "mentions": [
+    "A000010",
+    "A050474",
+    "A177006",
+    "A203966"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

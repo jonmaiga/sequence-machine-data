@@ -1,0 +1,18 @@
+{
+  "description": "Denominators of the sequence of rational numbers Rn+ related to Bernoulli numbers.",
+  "id": "A308402",
+  "mentions": [
+    "A238813"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

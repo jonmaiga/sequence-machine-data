@@ -1,0 +1,29 @@
+{
+  "description": "Triangle T(g, h) = number of rotes of weight g and height h, both in gammas.",
+  "id": "A111793",
+  "mentions": [
+    "A007097",
+    "A050924",
+    "A061396",
+    "A062504",
+    "A062537",
+    "A062860",
+    "A109300",
+    "A109301",
+    "A111791",
+    "A111792",
+    "A111794",
+    "A111800"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n^2 into at most five parts.",
+  "id": "A274322",
+  "mentions": [
+    "A001401"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

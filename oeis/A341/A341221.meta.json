@@ -1,0 +1,28 @@
+{
+  "description": "Expansion of (-1 + Product_{k>=1} 1 / (1 - x^k))^3.",
+  "id": "A341221",
+  "mentions": [
+    "A000041",
+    "A000716",
+    "A048574",
+    "A060642",
+    "A327381",
+    "A341222",
+    "A341223",
+    "A341225",
+    "A341226",
+    "A341227",
+    "A341228"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 3,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Continued fraction expansion of the smallest real root of x^7-7x+3.",
+  "id": "A192181",
+  "mentions": [
+    "A192182",
+    "A192183"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cofr",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

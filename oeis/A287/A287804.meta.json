@@ -1,0 +1,29 @@
+{
+  "description": "Number of quinary sequences of length n such that no two consecutive terms have distance 1.",
+  "id": "A287804",
+  "mentions": [
+    "A003945",
+    "A003946",
+    "A003947",
+    "A015448",
+    "A040000",
+    "A055099",
+    "A078057",
+    "A083318",
+    "A126358",
+    "A126473",
+    "A287819"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:47:16",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

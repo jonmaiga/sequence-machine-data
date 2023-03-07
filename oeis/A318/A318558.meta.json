@@ -1,0 +1,20 @@
+{
+  "description": "Number of degrees of irreducible representations of symmetric group S_n that appear more than once.",
+  "id": "A318558",
+  "mentions": [
+    "A060240",
+    "A060426",
+    "A060437"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers of the form (2^i)*(3^j) or (2^i)*(5^j).",
+  "id": "A337800",
+  "mentions": [
+    "A003586",
+    "A003592",
+    "A257997",
+    "A258023",
+    "A337801"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

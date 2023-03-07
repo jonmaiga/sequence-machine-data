@@ -1,0 +1,25 @@
+{
+  "description": "Rectangular array by antidiagonals: for n >= 0, row n gives the positions in the Thue-Morse sequence A010059 at which the first 2^n terms occur.",
+  "id": "A248416",
+  "mentions": [
+    "A004119",
+    "A010059",
+    "A010060",
+    "A026147",
+    "A083575",
+    "A091855",
+    "A157971",
+    "A181565"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

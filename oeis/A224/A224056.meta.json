@@ -1,0 +1,18 @@
+{
+  "description": "Number of nX7 0..2 arrays with rows and columns unimodal and antidiagonals nondecreasing",
+  "id": "A224056",
+  "mentions": [
+    "A224057"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

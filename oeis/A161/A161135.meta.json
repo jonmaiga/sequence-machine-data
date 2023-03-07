@@ -1,0 +1,20 @@
+{
+  "description": "Triangular array T(m,n), 1<=n<=m, giving the minimum positive number of deals of m cards into n piles required to collect all cards in the first pile. Each deal tosses all cards from a pile, the last dealt card indicates a pile to deal next, each deal tosses one card consecutively to the first, 2nd, ..., n-th, first, 2nd, ... pile.",
+  "id": "A161135",
+  "mentions": [
+    "A002326",
+    "A161136"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

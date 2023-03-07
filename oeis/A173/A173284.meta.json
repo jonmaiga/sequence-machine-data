@@ -1,0 +1,34 @@
+{
+  "description": "Triangle by columns, Fibonacci numbers in every column shifted down twice, for k > 0.",
+  "id": "A173284",
+  "mentions": [
+    "A000045",
+    "A004695",
+    "A008315",
+    "A011973",
+    "A052952",
+    "A054451",
+    "A102541",
+    "A104762",
+    "A122196",
+    "A122197",
+    "A128099",
+    "A152198",
+    "A152204",
+    "A173285",
+    "A207538",
+    "A209634"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

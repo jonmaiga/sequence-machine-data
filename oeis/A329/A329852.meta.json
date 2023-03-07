@@ -1,0 +1,22 @@
+{
+  "description": "Numbers having twice as many 1's in their binary expansion as terms in their Zeckendorf expansion.",
+  "id": "A329852",
+  "mentions": [
+    "A000045",
+    "A000120",
+    "A007895",
+    "A220116",
+    "A329853"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

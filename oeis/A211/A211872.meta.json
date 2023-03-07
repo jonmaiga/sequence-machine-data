@@ -1,0 +1,22 @@
+{
+  "description": "For each triprime (A014612) less than or equal to n, sum the positive integers less than or equal to the number of divisors of the triprime.",
+  "id": "A211872",
+  "mentions": [
+    "A000005",
+    "A001221",
+    "A001222",
+    "A014612",
+    "A209323"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

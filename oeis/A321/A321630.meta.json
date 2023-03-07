@@ -1,0 +1,22 @@
+{
+  "description": "The Riordan square of the Euler numbers. Triangle T(n, k), 0 <= k <= n, read by rows.",
+  "id": "A321630",
+  "mentions": [
+    "A000007",
+    "A000364",
+    "A084938",
+    "A321620",
+    "A321631"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

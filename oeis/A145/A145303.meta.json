@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = ((8 + sqrt(8))^n + (8 - sqrt(8))^n)/2.",
+  "id": "A145303",
+  "mentions": [
+    "A081180",
+    "A098158",
+    "A147689",
+    "A152267"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:23:13",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

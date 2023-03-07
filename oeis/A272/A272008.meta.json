@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the numerator of the fractional part of sigma(n)/n, where sigma(n) is the sum of the divisors of n.",
+  "id": "A272008",
+  "mentions": [
+    "A000203",
+    "A007691",
+    "A017665",
+    "A017666",
+    "A108775",
+    "A215012",
+    "A240923",
+    "A243473"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:36",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

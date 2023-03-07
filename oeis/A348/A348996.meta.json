@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = usigma(A276086(n)), where usigma (A034448) is multiplicative with a(p^e) = (p^e)+1, and A276086 gives the prime product form of primorial base expansion of n.",
+  "id": "A348996",
+  "mentions": [
+    "A034448",
+    "A276086",
+    "A324653",
+    "A346470",
+    "A348949",
+    "A348997",
+    "A349000"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

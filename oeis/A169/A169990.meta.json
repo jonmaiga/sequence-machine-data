@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of Product_{i=0..m-1} (1 + x^(2*i+1)) for m=7.",
+  "id": "A169990",
+  "mentions": [
+    "A000700",
+    "A169987",
+    "A169988",
+    "A169989",
+    "A169991",
+    "A169992",
+    "A169993",
+    "A169994",
+    "A169995"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

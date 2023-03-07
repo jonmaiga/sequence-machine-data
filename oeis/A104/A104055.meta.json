@@ -1,0 +1,19 @@
+{
+  "description": "Number of numbers 0 <= i <= n such that i is a square or a cube (or both).",
+  "id": "A104055",
+  "mentions": [
+    "A104058"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

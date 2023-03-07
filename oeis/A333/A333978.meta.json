@@ -1,0 +1,23 @@
+{
+  "description": "Numbers of the form b_1 * b_2 * ... * b_t, where b_1 = 1 and b_(i + 1) - b_i = 0 or 1.",
+  "id": "A333978",
+  "mentions": [
+    "A001013",
+    "A003586",
+    "A006530",
+    "A102068",
+    "A284001",
+    "A334636"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

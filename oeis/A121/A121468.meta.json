@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of k-cell columns in all directed column-convex polyominoes of area n (1<=k<=n).",
+  "id": "A121468",
+  "mentions": [
+    "A038731",
+    "A094864"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

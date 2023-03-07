@@ -1,0 +1,21 @@
+{
+  "description": "The sequence \"u_{n-r}\" used by Conway and Guy in the construction of A005318 and A096858.",
+  "id": "A205744",
+  "mentions": [
+    "A002024",
+    "A005318",
+    "A083920",
+    "A096858"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

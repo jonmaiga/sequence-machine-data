@@ -1,0 +1,21 @@
+{
+  "description": "Numbers such that 2*n + 11 is not prime.",
+  "id": "A153083",
+  "mentions": [
+    "A101448",
+    "A153053",
+    "A155546",
+    "A155723"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(0)=0; thereafter a(n+1) = a(n) + A332550(a(n)).",
+  "id": "A332551",
+  "mentions": [
+    "A332550"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:02",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Least prime p that is expressible as the sum of three distinct primes squared in exactly n ways.",
+  "id": "A243342",
+  "mentions": [
+    "A137364",
+    "A182475",
+    "A182479"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

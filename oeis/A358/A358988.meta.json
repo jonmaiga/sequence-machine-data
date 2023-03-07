@@ -1,0 +1,18 @@
+{
+  "description": "Oblong numbers which are products of four distinct primes.",
+  "id": "A358988",
+  "mentions": [
+    "A002378",
+    "A046386"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

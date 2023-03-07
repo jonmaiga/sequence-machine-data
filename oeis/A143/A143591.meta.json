@@ -1,0 +1,21 @@
+{
+  "description": "Number of 1's in row n of A143589 (a Kolakoski fan).",
+  "id": "A143591",
+  "mentions": [
+    "A000002",
+    "A143587",
+    "A143589",
+    "A143590",
+    "A143592"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

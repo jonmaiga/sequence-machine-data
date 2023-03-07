@@ -1,0 +1,25 @@
+{
+  "description": "Reverse run lengths in binary expansions of terms of A044813: for n > 0, a(n) is the unique k such that A044813(k) = A056539(A044813(n)); a(0) = 0.",
+  "id": "A357527",
+  "mentions": [
+    "A044813",
+    "A044918",
+    "A056539",
+    "A057164",
+    "A357522",
+    "A357523"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

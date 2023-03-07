@@ -1,0 +1,23 @@
+{
+  "description": "For any n >= 0, let x_n(1) = n, and for any b > 1, x_n(b) is the sum of digits of x_n(b-1) in base b; x_n is eventually constant, with value a(n).",
+  "id": "A356515",
+  "mentions": [
+    "A000120",
+    "A053735",
+    "A356384",
+    "A356516"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = d!, where d is the number of digits in n.",
+  "id": "A138902",
+  "mentions": [
+    "A000142",
+    "A047726",
+    "A055632",
+    "A138908"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

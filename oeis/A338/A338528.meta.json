@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of k*n into two parts (s,t) such that s <= t and t | k*s for k = 1..n.",
+  "id": "A338528",
+  "mentions": [
+    "A338021"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

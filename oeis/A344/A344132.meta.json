@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Sum_{i|n, j|n, k|n} gcd(i,j,k).",
+  "id": "A344132",
+  "mentions": [
+    "A060724",
+    "A344133",
+    "A344134",
+    "A344135",
+    "A344138",
+    "A344139",
+    "A344140"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

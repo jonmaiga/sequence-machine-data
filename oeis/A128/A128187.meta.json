@@ -1,0 +1,22 @@
+{
+  "description": "Matrix product A128174 * A051731 read by rows.",
+  "id": "A128187",
+  "mentions": [
+    "A051731",
+    "A128174",
+    "A128188"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Let A_n be a square n X n matrix with entries A_n(i,j)=1 if i+j is a perfect power, and A_n(i,j)=0 otherwise. Then a(n) counts the 1's in A_n.",
+  "id": "A293462",
+  "mentions": [
+    "A010051",
+    "A075802",
+    "A292918"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Number T(n,k) of equivalence classes of ways of placing k 9 X 9 tiles in an n X n square under all symmetry operations of the square; irregular triangle T(n,k), n>=9, 0<=k<=floor(n/9)^2, read by rows.",
+  "id": "A236936",
+  "mentions": [
+    "A000217",
+    "A002623",
+    "A014409",
+    "A054252",
+    "A131474",
+    "A131941",
+    "A236560",
+    "A236679",
+    "A236757",
+    "A236800",
+    "A236829",
+    "A236865",
+    "A236915",
+    "A236939"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 9,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

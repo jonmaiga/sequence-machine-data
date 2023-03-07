@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = floor(n*r)-a(n-1), where r is the golden mean, (1+sqrt(5))/2.",
+  "id": "A129229",
+  "mentions": [
+    "A001622",
+    "A087851",
+    "A129230",
+    "A129231",
+    "A339824",
+    "A339825"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

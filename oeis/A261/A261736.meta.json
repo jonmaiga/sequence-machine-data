@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of Product_{k>=1} (1 + x^(6*k))/(1 + x^k).",
+  "id": "A261736",
+  "mentions": [
+    "A081360",
+    "A109389",
+    "A113297",
+    "A133563",
+    "A145707",
+    "A261733",
+    "A261734",
+    "A261735"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:21",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

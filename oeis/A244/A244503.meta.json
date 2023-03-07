@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways to place 5 points on an n X n X n triangular grid so that no pair of them has distance sqrt(3).",
+  "id": "A244503",
+  "mentions": [
+    "A086274",
+    "A244500",
+    "A244501",
+    "A244502"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:32:25",
+    "offset": 4,
+    "size": 25,
+    "source": "joeis"
+  }
+}

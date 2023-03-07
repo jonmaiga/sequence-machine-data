@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive terms such that, for any n > 0, a(n) XOR a(n+1) is a cube (where XOR denotes the XOR binary operator).",
+  "id": "A296615",
+  "mentions": [
+    "A000578",
+    "A175428"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:16",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

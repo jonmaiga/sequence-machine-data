@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the least value of k such that the decimal expansion of n^k contains nine consecutive identical digits.",
+  "id": "A217164",
+  "mentions": [
+    "A045875",
+    "A215727",
+    "A215728",
+    "A215729",
+    "A215730",
+    "A215731"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 2,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

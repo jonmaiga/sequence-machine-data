@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows. Let R(n, k) = Y(n, k, B) where Y are the partial Bell polynomials and B is the list [Bernoulli(j, 1), j = 0..n]. T(n, k) are R(n, k) normalized by the lcm of the denominators of the terms in row n (A048803).",
+  "id": "A352372",
+  "mentions": [
+    "A007947",
+    "A027641",
+    "A027642",
+    "A048803",
+    "A264428"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

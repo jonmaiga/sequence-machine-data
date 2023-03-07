@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways to linearly arrange the trees over all forests on n labeled nodes.",
+  "id": "A218688",
+  "mentions": [
+    "A000169",
+    "A101313",
+    "A105599"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:36",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

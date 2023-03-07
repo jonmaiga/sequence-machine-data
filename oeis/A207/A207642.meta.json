@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of g.f.: Sum_{n>=0} x^n * Product_{k=0..n-1} (1 + x^(n+k)).",
+  "id": "A207642",
+  "mentions": [
+    "A053263",
+    "A087135",
+    "A241061"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:27",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

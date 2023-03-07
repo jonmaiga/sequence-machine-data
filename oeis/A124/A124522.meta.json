@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = smallest k such that 2nk-1 and 2nk+1 are primes.",
+  "id": "A124522",
+  "mentions": [
+    "A001359",
+    "A002822",
+    "A040040",
+    "A045753",
+    "A063983",
+    "A124065",
+    "A124518"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

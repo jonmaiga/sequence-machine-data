@@ -1,0 +1,19 @@
+{
+  "description": "Ground state degeneracy of a periodic chain for angle Pi < theta < 3*Pi/2.",
+  "id": "A299797",
+  "mentions": [
+    "A005248",
+    "A299798"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 3,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of planar vertically indecomposable distributive lattices with n nodes.",
+  "id": "A345734",
+  "mentions": [
+    "A072361",
+    "A343161"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:19",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

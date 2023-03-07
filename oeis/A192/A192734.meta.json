@@ -1,0 +1,20 @@
+{
+  "description": "Smallest number having binary weight of 3 and n distinct prime factors",
+  "id": "A192734",
+  "mentions": [
+    "A001221",
+    "A002110",
+    "A084468"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

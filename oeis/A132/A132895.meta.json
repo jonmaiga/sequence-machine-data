@@ -1,0 +1,21 @@
+{
+  "description": "Even numbers for which all divisors, with the exception of 1 and 2, are isolated. A positive divisor, k, of n is isolated if neither (k-1) nor (k+1) divides n.",
+  "id": "A132895",
+  "mentions": [
+    "A088722",
+    "A088726",
+    "A112886",
+    "A133950",
+    "A133951"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

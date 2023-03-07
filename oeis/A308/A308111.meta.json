@@ -1,0 +1,26 @@
+{
+  "description": "Isomorphism classes of Eulerian digraphs with n vertices, allowing loops.",
+  "id": "A308111",
+  "mentions": [
+    "A000273",
+    "A000595",
+    "A002416",
+    "A002720",
+    "A058338",
+    "A229865",
+    "A308128",
+    "A308161"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

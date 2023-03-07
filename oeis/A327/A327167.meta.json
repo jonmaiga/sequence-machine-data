@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = Product_{d|A276086(n), d>1} A008578(1+A286561(n,d)), where A286561(n,d) gives the highest exponent of d dividing n.",
+  "id": "A327167",
+  "mentions": [
+    "A001222",
+    "A008578",
+    "A276086",
+    "A286561",
+    "A293514",
+    "A322312",
+    "A323155",
+    "A327154",
+    "A327155",
+    "A327156",
+    "A327168"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:54",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

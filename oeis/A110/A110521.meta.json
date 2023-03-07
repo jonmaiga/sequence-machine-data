@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of 1/(1 - (x + x^2)c(3x)), c(x) the g.f. of A000108.",
+  "id": "A110521",
+  "mentions": [
+    "A000108",
+    "A110519"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

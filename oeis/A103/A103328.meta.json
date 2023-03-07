@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n, k) read by rows: binomial(2n, 2k+1).",
+  "id": "A103328",
+  "mentions": [
+    "A007318",
+    "A053122",
+    "A086645",
+    "A091042",
+    "A103327"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

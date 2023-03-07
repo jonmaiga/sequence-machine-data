@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) (1 <= k <= n) = number of irreducible coverings by edges of the complete bipartite graph K_{n,k}.",
+  "id": "A210654",
+  "mentions": [
+    "A210655"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

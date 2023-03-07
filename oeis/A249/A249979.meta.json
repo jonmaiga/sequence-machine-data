@@ -1,0 +1,17 @@
+{
+  "description": "Number of length n+1 0..2*5 arrays with the sum of the absolute values of adjacent differences equal to n*5",
+  "id": "A249979",
+  "mentions": [
+    "A249982"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

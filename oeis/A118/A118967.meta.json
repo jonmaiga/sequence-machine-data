@@ -1,0 +1,20 @@
+{
+  "description": "If n doesn't occur among the first (n-1) terms of the sequence, then a(n) = 2n. If n occurs among the first (n-1) terms of the sequence, then a(n) = n/2.",
+  "id": "A118967",
+  "mentions": [
+    "A073675",
+    "A118966"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(0) = 0; a(n+1) = 2*a(n) + k where k = 0 if prime(n+2)/prime(n+1) > prime(n+1)/prime(n), otherwise k = 1.",
+  "id": "A215411",
+  "mentions": [
+    "A000040",
+    "A215410"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

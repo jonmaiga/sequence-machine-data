@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the largest value obtained by iterating x -> noz(x * n) starting from 1 (where noz(k) = A004719(k) omits the zeros from k) if any, otherwise a(n) = -1.",
+  "id": "A306569",
+  "mentions": [
+    "A004719",
+    "A242350",
+    "A306567"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Maximal number of simple triangular regions that can be formed by drawing n line segments in the Euclidean plane.",
+  "id": "A107427",
+  "mentions": [
+    "A000124"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

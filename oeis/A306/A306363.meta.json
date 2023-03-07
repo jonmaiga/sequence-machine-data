@@ -1,0 +1,21 @@
+{
+  "description": "For n > 1 having omega(n) = k and canonical prime factorization n = d_1*d_2*...*d_k, a(n) = Sum_{i=1..k} (d_i*a(n/d_i) + (n/d_i)); a(1)=0.",
+  "id": "A306363",
+  "mentions": [
+    "A000522",
+    "A001221",
+    "A006022",
+    "A066504"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

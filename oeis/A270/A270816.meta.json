@@ -1,0 +1,20 @@
+{
+  "description": "For each primary pseudoperfect number n, this sequence gives the sum of (n/p + 1)/p for every prime divisor p of n.",
+  "id": "A270816",
+  "mentions": [
+    "A054377",
+    "A270815"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

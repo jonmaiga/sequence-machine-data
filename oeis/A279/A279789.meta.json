@@ -1,0 +1,23 @@
+{
+  "description": "Number of ways to choose a constant partition of each part of a constant partition of n.",
+  "id": "A279789",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A018818",
+    "A063834",
+    "A260685",
+    "A279375"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:47",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "description": "Permutation of natural numbers: a(1) = 1, a(A014580(n)) = (2*a(n))+1, a(A091242(n)) = 2*a(n), where A014580(n) = binary code for n-th irreducible polynomial over GF(2), A091242(n) = binary code for n-th reducible polynomial over GF(2).",
+  "id": "A246201",
+  "mentions": [
+    "A000035",
+    "A006068",
+    "A014580",
+    "A054429",
+    "A091225",
+    "A091226",
+    "A091242",
+    "A091245",
+    "A193231",
+    "A237427",
+    "A245701",
+    "A246156",
+    "A246161",
+    "A246163",
+    "A246202",
+    "A246203"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

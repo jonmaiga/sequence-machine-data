@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 2*n^2 + 10.",
+  "id": "A255845",
+  "mentions": [
+    "A016825",
+    "A047463",
+    "A117951",
+    "A255843"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:27:07",
+    "offset": 0,
+    "size": 48,
+    "source": "joeis"
+  }
+}

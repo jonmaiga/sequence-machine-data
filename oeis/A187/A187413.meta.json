@@ -1,0 +1,20 @@
+{
+  "description": "Rank transform of the lower Wythoff sequence; complement of A187414.",
+  "id": "A187413",
+  "mentions": [
+    "A000027",
+    "A000201",
+    "A187224",
+    "A187414"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

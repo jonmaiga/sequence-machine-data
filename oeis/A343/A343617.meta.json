@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of P_{3,2}(7) = Sum 1/p^7 over primes == 2 (mod 3).",
+  "id": "A343617",
+  "mentions": [
+    "A001015",
+    "A003627",
+    "A085967",
+    "A085996",
+    "A086037",
+    "A343612",
+    "A343619",
+    "A343627"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

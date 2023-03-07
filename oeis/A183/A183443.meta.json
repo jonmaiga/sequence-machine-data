@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X n binary arrays with every 1 having exactly two king-move neighbors equal to 1",
+  "id": "A183443",
+  "mentions": [
+    "A183450"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

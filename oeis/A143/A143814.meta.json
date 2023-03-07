@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,m) read along rows: T(n,m) = n^2 - (m+1)^2 for 1<=m",
+  "id": "A143814",
+  "mentions": [
+    "A016061",
+    "A120070",
+    "A133819",
+    "A140978"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 2,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

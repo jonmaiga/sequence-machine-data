@@ -1,0 +1,17 @@
+{
+  "description": "Number of idempotent 5X5 0..n matrices",
+  "id": "A222824",
+  "mentions": [
+    "A222821"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

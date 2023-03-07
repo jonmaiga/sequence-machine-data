@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the probability that the intersection of a cube with random plane that passes through its center is a hexagon.",
+  "id": "A349605",
+  "mentions": [
+    "A137914",
+    "A188615"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Main diagonal of A332359.",
+  "id": "A332360",
+  "mentions": [
+    "A332359"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "G.f. satisfies: A(x) = -1/(1+x) + A(x)^2 + 1/A(x)^2.",
+  "id": "A228923",
+  "mentions": [
+    "A228714"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

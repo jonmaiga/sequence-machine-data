@@ -1,0 +1,19 @@
+{
+  "description": "Smallest k > 0 such that (5^n+k)*5^n-1 and (5^n+k)*5^n+1 are a twin prime pair.",
+  "id": "A212487",
+  "mentions": [
+    "A082466",
+    "A212488"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

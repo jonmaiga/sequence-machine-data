@@ -1,0 +1,23 @@
+{
+  "description": "Number of ways to write n as 6^i + 3^j + A008347(k), where i, j and k > 0 are nonnegative integers.",
+  "id": "A308403",
+  "mentions": [
+    "A000040",
+    "A000244",
+    "A000400",
+    "A008347",
+    "A303656",
+    "A303821",
+    "A308411"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

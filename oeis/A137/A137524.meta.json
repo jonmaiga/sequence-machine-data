@@ -1,0 +1,18 @@
+{
+  "description": "Triangular sequence from coefficients of the umbral calculus expansion of a Golden -Mean Bernoulli function(A001898): p(x,t)=t*phi^(x*t)/(phi^t - 1), where the golden ratio replaces \"e\".",
+  "id": "A137524",
+  "mentions": [
+    "A001898"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

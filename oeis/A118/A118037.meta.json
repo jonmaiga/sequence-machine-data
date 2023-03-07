@@ -1,0 +1,24 @@
+{
+  "description": "Antidiagonal sums of triangle A118032, where the row sums of the matrix square of A118032 forms a bisection of this sequence.",
+  "id": "A118037",
+  "mentions": [
+    "A118032",
+    "A118033",
+    "A118034",
+    "A118035",
+    "A118040",
+    "A118044",
+    "A118045",
+    "A118049"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

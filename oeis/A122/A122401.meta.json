@@ -1,0 +1,25 @@
+{
+  "description": "Subsequence of A074139 omitting values derived from partitions with a part of size 1.",
+  "id": "A122401",
+  "mentions": [
+    "A001694",
+    "A036035",
+    "A074139",
+    "A079274",
+    "A122172",
+    "A122402",
+    "A316532"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

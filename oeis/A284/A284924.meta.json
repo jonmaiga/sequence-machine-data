@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least n-digit multiple of 5^n using the decimal digits {5, 6, 7, 8, 9} exclusively.",
+  "id": "A284924",
+  "mentions": [
+    "A035014",
+    "A053312",
+    "A140288"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:56",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

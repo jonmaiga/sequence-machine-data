@@ -1,0 +1,22 @@
+{
+  "description": "Triangle, read by rows, equal to P^6, where triangle P = A135880; also equals Q^3 where Q = P^2 = A135885.",
+  "id": "A135893",
+  "mentions": [
+    "A135880",
+    "A135885",
+    "A135887",
+    "A135891"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

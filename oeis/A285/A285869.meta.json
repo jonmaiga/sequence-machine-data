@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of zeros of the Chebyshev S(n, x) polynomial in the open interval (-sqrt(2), +sqrt(2)).",
+  "id": "A285869",
+  "mentions": [
+    "A008611",
+    "A049310",
+    "A059169",
+    "A162330",
+    "A183041"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:47:45",
+    "offset": 0,
+    "size": 69,
+    "source": "joeis"
+  }
+}

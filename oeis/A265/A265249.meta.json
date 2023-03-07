@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of partitions of n having k parts strictly between the smallest and the largest part (n>=1, k>=0).",
+  "id": "A265249",
+  "mentions": [
+    "A000041",
+    "A182977",
+    "A265250"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

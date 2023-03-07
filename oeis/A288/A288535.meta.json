@@ -1,0 +1,24 @@
+{
+  "description": "Array RATS(b,n) by upward antidiagonals: Reverse Add Then Sort digits of n>0 in base b>1.",
+  "id": "A288535",
+  "mentions": [
+    "A004000",
+    "A036839",
+    "A191780",
+    "A288536",
+    "A288537"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 2,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

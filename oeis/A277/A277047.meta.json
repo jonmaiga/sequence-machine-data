@@ -1,0 +1,23 @@
+{
+  "description": "Number obtained by concatenating the cubes of the digits of prime(n).",
+  "id": "A277047",
+  "mentions": [
+    "A000040",
+    "A030078",
+    "A048390",
+    "A244557"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

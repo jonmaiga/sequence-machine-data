@@ -1,0 +1,34 @@
+{
+  "description": "The Matula-Goebel number of rooted trees having all leaves at the same level.",
+  "id": "A184155",
+  "mentions": [
+    "A000081",
+    "A003238",
+    "A004111",
+    "A007097",
+    "A048816",
+    "A061775",
+    "A109082",
+    "A184154",
+    "A214577",
+    "A244925",
+    "A276625",
+    "A290689",
+    "A290760",
+    "A290822",
+    "A298422",
+    "A298424",
+    "A298426"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

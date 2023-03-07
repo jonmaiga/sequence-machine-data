@@ -1,0 +1,22 @@
+{
+  "description": "Distance from prime(n) to the nearest odd composite that is < prime(n).",
+  "id": "A336409",
+  "mentions": [
+    "A014076",
+    "A062301",
+    "A175191",
+    "A336410",
+    "A336411"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 5,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

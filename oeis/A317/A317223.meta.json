@@ -1,0 +1,19 @@
+{
+  "description": "a(0) = 0, a(1) = 1; for n >= 2, a(n) = freq(a(freq(a(n-1),n)),n) where freq(i, j) is the number of times i appears in the terms a(0) .. a(j-1).",
+  "id": "A317223",
+  "mentions": [
+    "A316774",
+    "A317015",
+    "A317127"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:36",
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

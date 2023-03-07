@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the decimal value corresponding to the binary representation of the distribution of quadratic residues (value=1) and non-quadratic residues (value=0) mod n, where numbers are ordered left to right from 0 to n-1.",
+  "id": "A280109",
+  "mentions": [
+    "A055094",
+    "A080117",
+    "A080146",
+    "A096008"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:47",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

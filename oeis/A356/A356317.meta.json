@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that k does not divide the least j >= k for which k and A276086(j) are coprime, where A276086 is the primorial base exp-function.",
+  "id": "A356317",
+  "mentions": [
+    "A276086",
+    "A324584",
+    "A356309",
+    "A356315",
+    "A356316",
+    "A356319"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

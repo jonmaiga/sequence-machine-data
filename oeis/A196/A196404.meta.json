@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the least positive number x satisfying e^(-x)=4*cos(x).",
+  "id": "A196404",
+  "mentions": [
+    "A196401",
+    "A196402",
+    "A196403",
+    "A196405",
+    "A196406"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:55",
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

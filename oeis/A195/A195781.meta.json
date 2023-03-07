@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of arctan(8).",
+  "id": "A195781",
+  "mentions": [
+    "A195782",
+    "A195783",
+    "A195784"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:55",
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

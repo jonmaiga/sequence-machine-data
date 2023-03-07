@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least prime that begins a sequence of at least n distinct primes under iteration of A061762.",
+  "id": "A344032",
+  "mentions": [
+    "A061762",
+    "A214629"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

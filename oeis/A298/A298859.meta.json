@@ -1,0 +1,27 @@
+{
+  "description": "Number of partitions of n into distinct fourth powers.",
+  "id": "A298859",
+  "mentions": [
+    "A000009",
+    "A000583",
+    "A002377",
+    "A003999",
+    "A033461",
+    "A046039",
+    "A046042",
+    "A259793",
+    "A279329",
+    "A279485"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:34:17",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

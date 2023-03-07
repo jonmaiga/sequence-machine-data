@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f. 1/(D(x) - S(x)), where C(x)^2 - S(x)^2 = 1 and D(x)^3 - S(x)^3 = 1, and functions S(x), C(x), and D(x) are described by A280620, A280621, and A280622, respectively.",
+  "id": "A280624",
+  "mentions": [
+    "A280620",
+    "A280621",
+    "A280622",
+    "A280623"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "3D version of A005670. The problem is to dissect an n X n X n cube into smaller integer cubes, the gcd of whose sides is 1, using the smallest number of cubes. The gcd condition exclude dissecting a 6 X 6 X 6 cube into eight 3 X 3 X 3 cubes.",
+  "id": "A128909",
+  "mentions": [
+    "A005670"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "more",
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

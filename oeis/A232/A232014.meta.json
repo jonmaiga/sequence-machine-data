@@ -1,0 +1,21 @@
+{
+  "description": "Number of iterations of A032445 (\"position of n in Pi\") until a value is reached for the second time, when starting with n, or -1 if no value is repeated.",
+  "id": "A232014",
+  "mentions": [
+    "A032445",
+    "A176341",
+    "A232013"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

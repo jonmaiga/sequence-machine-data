@@ -1,0 +1,25 @@
+{
+  "description": "Numbers b > 1 such that the smallest eight primes, i.e., 2, 3, 5, 7, 11, 13, 17 and 19 are base-b Wieferich primes.",
+  "id": "A339537",
+  "mentions": [
+    "A256236",
+    "A319065",
+    "A339531",
+    "A339532",
+    "A339533",
+    "A339534",
+    "A339535",
+    "A339536"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

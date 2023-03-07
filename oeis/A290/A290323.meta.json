@@ -1,0 +1,22 @@
+{
+  "description": "Minimal number of supporters among total of n voters that may make (but not guarantee) their candidate win in a multi-level selection based on the majority vote at each level.",
+  "id": "A290323",
+  "mentions": [
+    "A003960",
+    "A005517"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Maximum autocorrelation of the first 2^n terms of the Rudin-Shapiro sequence A020985.",
+  "id": "A330222",
+  "mentions": [
+    "A020985"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

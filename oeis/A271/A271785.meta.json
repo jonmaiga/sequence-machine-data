@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=0..(n-1)/2} (n+2-k)*binomial(n-1-k,k).",
+  "id": "A271785",
+  "mentions": [
+    "A001629",
+    "A006355",
+    "A226432"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:36",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

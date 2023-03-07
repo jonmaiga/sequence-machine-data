@@ -1,0 +1,22 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into parts having the same number of distinct prime divisors as n.",
+  "id": "A301332",
+  "mentions": [
+    "A001221",
+    "A300979",
+    "A300980",
+    "A301331",
+    "A301333"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

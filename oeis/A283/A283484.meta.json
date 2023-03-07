@@ -1,0 +1,27 @@
+{
+  "description": "Odd bisection of A283983; square root of the largest square dividing A277324.",
+  "id": "A283484",
+  "mentions": [
+    "A000188",
+    "A001222",
+    "A003961",
+    "A186891",
+    "A260443",
+    "A275812",
+    "A277013",
+    "A277324",
+    "A283983",
+    "A284265"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:54",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Number of directed Hamiltonian paths in the n X n knight graph.",
+  "id": "A165134",
+  "mentions": [
+    "A001230",
+    "A079137",
+    "A083386",
+    "A118067",
+    "A169696",
+    "A306281",
+    "A306282",
+    "A306283",
+    "A308131"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangular array: every periodic simple continued fraction CF represents a quadratic irrational (c + f*sqrt(d))/b, where b,c,f,d are integers and d is squarefree. Row n of this array shows the distinct values of d as CF ranges through the periodic continued fractions having period an n-tuple of 1s and 2s.",
+  "id": "A246904",
+  "mentions": [
+    "A246903",
+    "A246905"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

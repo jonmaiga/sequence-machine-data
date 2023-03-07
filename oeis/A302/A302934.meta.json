@@ -1,0 +1,19 @@
+{
+  "description": "Highly composite deficient numbers: deficient numbers k whose number of divisors d(k) > d(m) for all deficient numbers m < k.",
+  "id": "A302934",
+  "mentions": [
+    "A000005",
+    "A002182",
+    "A005100"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

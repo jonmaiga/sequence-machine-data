@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 0 if n is 1 or a prime, otherwise a(n) = product of the proper divisors of n.",
+  "id": "A157195",
+  "mentions": [
+    "A007955",
+    "A008578",
+    "A048050"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

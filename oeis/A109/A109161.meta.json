@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n, k) = n*(n+9) + k + 5, with T(0, 0) = 5 and T(1, 0) = 15.",
+  "id": "A109161",
+  "mentions": [
+    "A106373",
+    "A106374",
+    "A106403"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:49:07",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

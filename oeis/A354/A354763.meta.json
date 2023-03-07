@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the minimum number of square tiles needed for constructing a figure whose corresponding graph has n cycles.",
+  "id": "A354763",
+  "mentions": [
+    "A000217",
+    "A057945",
+    "A163300",
+    "A354762"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

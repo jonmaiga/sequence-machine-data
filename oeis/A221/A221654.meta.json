@@ -1,0 +1,17 @@
+{
+  "description": "Number of nX4 arrays of occupancy after each element moves to some horizontal, diagonal or antidiagonal neighbor, without move-in move-out left turns",
+  "id": "A221654",
+  "mentions": [
+    "A221655"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

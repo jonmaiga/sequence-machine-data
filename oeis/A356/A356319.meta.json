@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that {the least j >= k for which k and A276086(k+j) are coprime} is larger than 0, but less than k, where A276086 is the primorial base exp-function.",
+  "id": "A356319",
+  "mentions": [
+    "A276086",
+    "A324584",
+    "A356302",
+    "A356309",
+    "A356317"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

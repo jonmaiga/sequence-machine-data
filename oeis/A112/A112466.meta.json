@@ -1,0 +1,25 @@
+{
+  "description": "Riordan array ((1+2x)/(1+x), x/(1+x)).",
+  "id": "A112466",
+  "mentions": [
+    "A008482",
+    "A037012",
+    "A084938",
+    "A097808",
+    "A112465",
+    "A112467"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 0,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

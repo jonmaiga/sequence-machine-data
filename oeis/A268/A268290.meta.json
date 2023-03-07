@@ -1,0 +1,18 @@
+{
+  "description": "Numbers m such that m^2 + m + 41 is a product of 8 primes.",
+  "id": "A268290",
+  "mentions": [
+    "A145293",
+    "A228122"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

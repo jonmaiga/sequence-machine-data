@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of 1/(1 - Sum_{k = i^j, i>=1, j>=2} x^k).",
+  "id": "A282500",
+  "mentions": [
+    "A001597",
+    "A078635",
+    "A112344"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

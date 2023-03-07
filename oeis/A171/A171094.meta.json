@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the string of integers S(n) concatenated together with no commas, where S(1)=1; for even n, S(n) is obtained from S(n-1) by inserting n after 1; and for odd n>1, S(n) = n,S(n-1).",
+  "id": "A171094",
+  "mentions": [
+    "A171093"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Primes using all the prime digits 2, 3, 5, 7 repeated in strings, in that order.",
+  "id": "A156987",
+  "mentions": [
+    "A153771"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

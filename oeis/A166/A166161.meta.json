@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that k minus the number of perfect partitions of (k-1) is a prime.",
+  "id": "A166161",
+  "mentions": [
+    "A000040",
+    "A002033"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

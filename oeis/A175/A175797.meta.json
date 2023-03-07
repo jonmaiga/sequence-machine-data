@@ -1,0 +1,18 @@
+{
+  "description": "Size of the largest holes in the toothpick structure of A182840 after step n.",
+  "id": "A175797",
+  "mentions": [
+    "A182840",
+    "A184408"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

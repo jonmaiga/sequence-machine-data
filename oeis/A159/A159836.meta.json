@@ -1,0 +1,18 @@
+{
+  "description": "Integers n such that the orbit n, f(n), f(f(n)), ... is eventually periodic with period 2, where f(n) = product(a(k)^p(k)) when n has the prime factorization n = product(p(k)^a(k)).",
+  "id": "A159836",
+  "mentions": [
+    "A008477",
+    "A008478"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

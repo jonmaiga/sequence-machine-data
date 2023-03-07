@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that n, prime(n), prime(n)+n, prime(n)-n and prime(n)*n all lack the digit 4.",
+  "id": "A104424",
+  "mentions": [
+    "A104419",
+    "A104428"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

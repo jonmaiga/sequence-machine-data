@@ -1,0 +1,18 @@
+{
+  "description": "Deficient numbers n having a companion m > n such that sigma(n)/n = sigma(m)/m.",
+  "id": "A212608",
+  "mentions": [
+    "A211680",
+    "A212609"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

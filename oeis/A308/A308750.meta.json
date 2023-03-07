@@ -1,0 +1,19 @@
+{
+  "description": "Number of Dumont permutations of the first kind of length 2n avoiding pattern 2143 (or pattern 3421).",
+  "id": "A308750",
+  "mentions": [
+    "A001469",
+    "A110501"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

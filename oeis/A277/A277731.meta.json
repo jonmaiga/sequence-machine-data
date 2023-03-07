@@ -1,0 +1,20 @@
+{
+  "description": "Fixed point of the morphism 0 -> 01, 1 -> 012, 2 -> 0; starting with a(1) = 0.",
+  "id": "A277731",
+  "mentions": [
+    "A052980",
+    "A277732",
+    "A277733",
+    "A277734"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

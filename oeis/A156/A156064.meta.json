@@ -1,0 +1,22 @@
+{
+  "description": "Inverse of Riordan array (1/(1-x^4), x/(1-x^4)), A156062.",
+  "id": "A156064",
+  "mentions": [
+    "A002293",
+    "A069270",
+    "A156062",
+    "A156065"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:47",
+    "offset": 0,
+    "size": 97,
+    "source": "joeis"
+  }
+}

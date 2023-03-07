@@ -1,0 +1,21 @@
+{
+  "description": "Squares visited on a square spiral when stepping to the closest unvisited square that contains a number with a different number of divisors to the number in the current square. If two or more such squares are the same distance from the current square then the one with the smallest number is chosen.",
+  "id": "A346429",
+  "mentions": [
+    "A330979",
+    "A332767",
+    "A335364",
+    "A335661",
+    "A344367"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

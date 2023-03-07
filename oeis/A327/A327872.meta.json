@@ -1,0 +1,19 @@
+{
+  "description": "Total number of nodes in all self-avoiding planar walks starting at (0,0), ending at (n,n), remaining in the first quadrant and using steps (0,1), (-1,1), and (1,-1) with the restriction that (-1,1) and (1,-1) are always immediately followed by (0,1).",
+  "id": "A327872",
+  "mentions": [
+    "A327871"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

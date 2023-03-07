@@ -1,0 +1,17 @@
+{
+  "description": "a(1)=5; thereafter a(n) is the least prime p such that a(n-1)+p is the average of some twin prime pair.",
+  "id": "A273048",
+  "mentions": [
+    "A014574"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

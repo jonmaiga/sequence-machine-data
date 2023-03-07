@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Sum_{d|n} [moebius(n/d) < 0]*A033879(d).",
+  "id": "A318442",
+  "mentions": [
+    "A008683",
+    "A033879",
+    "A083254",
+    "A318320",
+    "A318325",
+    "A318326",
+    "A318441"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:39",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

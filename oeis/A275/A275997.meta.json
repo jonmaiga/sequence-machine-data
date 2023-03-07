@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k whose deficiency is 64: 2k - sigma(k) = 64.",
+  "id": "A275997",
+  "mentions": [
+    "A002025",
+    "A063990",
+    "A275996"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

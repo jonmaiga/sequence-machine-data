@@ -1,0 +1,19 @@
+{
+  "description": "Numbers of the form x^4 + y^2 with x^2 + 24*y a square, where x and y are nonnegative integers.",
+  "id": "A281980",
+  "mentions": [
+    "A000290",
+    "A000583",
+    "A281976"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

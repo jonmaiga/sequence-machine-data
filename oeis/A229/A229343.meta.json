@@ -1,0 +1,23 @@
+{
+  "description": "Moebius function of the arithmetic derivative of n: a(n) = mu(n').",
+  "id": "A229343",
+  "mentions": [
+    "A003415",
+    "A008683",
+    "A229340",
+    "A229341",
+    "A229342",
+    "A229344"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 2,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

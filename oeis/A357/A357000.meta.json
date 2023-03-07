@@ -1,0 +1,32 @@
+{
+  "description": "Number of non-isomorphic cyclic Haar graphs on 2*n nodes.",
+  "id": "A357000",
+  "mentions": [
+    "A002729",
+    "A008965",
+    "A049287",
+    "A091696",
+    "A137706",
+    "A291166",
+    "A333764",
+    "A339502",
+    "A357001",
+    "A357002",
+    "A357003",
+    "A357004",
+    "A357005",
+    "A357006"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

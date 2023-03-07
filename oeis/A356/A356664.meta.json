@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that A225205(k) is in A354549.",
+  "id": "A356664",
+  "mentions": [
+    "A001622",
+    "A225204",
+    "A225205",
+    "A331692",
+    "A354513",
+    "A354549",
+    "A356591"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

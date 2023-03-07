@@ -1,0 +1,21 @@
+{
+  "description": "Volume of unit n-ball, rounded to the nearest integer.",
+  "id": "A273264",
+  "mentions": [
+    "A019699",
+    "A177677",
+    "A228272"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

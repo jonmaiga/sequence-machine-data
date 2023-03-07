@@ -1,0 +1,27 @@
+{
+  "description": "The second primorial based variant of arithmetic derivative: a(p) = A034386(p) for p prime, a(u*v) = a(u)*v + u*a(v), with a(0) = a(1) = 0.",
+  "id": "A328769",
+  "mentions": [
+    "A002110",
+    "A003415",
+    "A034386",
+    "A108951",
+    "A258851",
+    "A276150",
+    "A328768",
+    "A328772",
+    "A328845",
+    "A328846"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

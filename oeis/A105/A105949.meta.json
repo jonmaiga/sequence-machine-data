@@ -1,0 +1,26 @@
+{
+  "description": "Powers of 3-Step Lucas numbers (A001644).",
+  "id": "A105949",
+  "mentions": [
+    "A000032",
+    "A001254",
+    "A001644",
+    "A075155",
+    "A099923",
+    "A103324",
+    "A103325",
+    "A105317"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

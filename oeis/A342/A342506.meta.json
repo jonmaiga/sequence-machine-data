@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that (p*s+q*r)/2 is prime, where p,q,r,s are consecutive primes.",
+  "id": "A342506",
+  "mentions": [
+    "A342504",
+    "A342508"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

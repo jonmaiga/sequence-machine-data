@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=1..n} binomial(n,k) * sigma(k) * sigma(n - k + 1), where sigma = A000203.",
+  "id": "A330088",
+  "mentions": [
+    "A000203",
+    "A000385",
+    "A007318",
+    "A185003",
+    "A328681"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

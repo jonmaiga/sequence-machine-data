@@ -1,0 +1,24 @@
+{
+  "description": "Exponential convolution of Fibonacci (A000045) and Catalan (A000108) numbers.",
+  "id": "A277220",
+  "mentions": [
+    "A000045",
+    "A000108",
+    "A001622",
+    "A014330",
+    "A014334",
+    "A090826",
+    "A277251"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

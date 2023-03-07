@@ -1,0 +1,25 @@
+{
+  "description": "Triangle interpolating between the subsets of an n-set (A000079) and the trees on n labeled nodes (A000272) (read by rows).",
+  "id": "A154715",
+  "mentions": [
+    "A000079",
+    "A000142",
+    "A000272",
+    "A036290",
+    "A066274",
+    "A075513"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:36",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Phi(k,m) with squarefree k values in sorted order for any integer m > 1.",
+  "id": "A208547",
+  "mentions": [
+    "A000010",
+    "A005117",
+    "A206225"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

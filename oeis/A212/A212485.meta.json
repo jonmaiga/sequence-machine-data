@@ -1,0 +1,30 @@
+{
+  "description": "Triangle T(n,k) of orders of degree-n irreducible polynomials over GF(5) listed in ascending order.",
+  "id": "A212485",
+  "mentions": [
+    "A050977",
+    "A058944",
+    "A059499",
+    "A059886",
+    "A059887",
+    "A059892",
+    "A059912",
+    "A212737",
+    "A212906",
+    "A218357"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

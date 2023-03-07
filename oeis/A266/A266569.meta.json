@@ -1,0 +1,23 @@
+{
+  "description": "a(1) = 1; thereafter a(2k) = 4k + a(k); a(2k+1) = k + a(4k+4).",
+  "id": "A266569",
+  "mentions": [
+    "A270811",
+    "A270812",
+    "A270814",
+    "A271473",
+    "A271478",
+    "A271479"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:27",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

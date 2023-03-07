@@ -1,0 +1,21 @@
+{
+  "description": "Number of terms in A095810 which have n digits.",
+  "id": "A113023",
+  "mentions": [
+    "A095810",
+    "A113022"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

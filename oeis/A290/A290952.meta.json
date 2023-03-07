@@ -1,0 +1,20 @@
+{
+  "description": "Multi de Bruijn Sequences: Number of ways to arrange 2^(n+1) binary digits in a circle so that every length n binary string occurs exactly twice.",
+  "id": "A290952",
+  "mentions": [
+    "A000010",
+    "A016031"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

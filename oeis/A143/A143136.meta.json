@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f. satisfies: A(x) = x + sinh( A(x) )^2.",
+  "id": "A143136",
+  "mentions": [
+    "A143134",
+    "A143137",
+    "A213643"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

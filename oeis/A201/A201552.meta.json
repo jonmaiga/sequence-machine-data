@@ -1,0 +1,37 @@
+{
+  "description": "Square array read by diagonals: T(n,k) = number of arrays of n integers in -k..k with sum equal to 0.",
+  "id": "A201552",
+  "mentions": [
+    "A002426",
+    "A003215",
+    "A005191",
+    "A025012",
+    "A025014",
+    "A063496",
+    "A083669",
+    "A201549",
+    "A201550",
+    "A201551",
+    "A201553",
+    "A201554",
+    "A286928",
+    "A322535",
+    "A322536",
+    "A322537",
+    "A322538",
+    "A322539",
+    "A322540"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

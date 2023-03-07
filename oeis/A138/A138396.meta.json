@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that the left prime neighbors p1, p2 of p as well as the right prime neighbors q1, q2 of p form twin prime pairs and the sum p1 + p2 + p + q1 + q2 is also prime.",
+  "id": "A138396",
+  "mentions": [
+    "A001097"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

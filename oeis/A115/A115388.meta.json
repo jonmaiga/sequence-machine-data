@@ -1,0 +1,22 @@
+{
+  "description": "Numerator of rational part of raw moment n of the line point picking problem.",
+  "id": "A115388",
+  "mentions": [
+    "A058312",
+    "A058313",
+    "A115389"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

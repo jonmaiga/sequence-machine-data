@@ -1,0 +1,35 @@
+{
+  "description": "Matula-Goebel numbers of fully recursively anti-transitive rooted trees.",
+  "id": "A324841",
+  "mentions": [
+    "A000081",
+    "A007097",
+    "A290689",
+    "A303431",
+    "A304360",
+    "A306844",
+    "A316502",
+    "A318185",
+    "A318186",
+    "A324695",
+    "A324751",
+    "A324756",
+    "A324758",
+    "A324766",
+    "A324768",
+    "A324769",
+    "A324838",
+    "A324840",
+    "A324844"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

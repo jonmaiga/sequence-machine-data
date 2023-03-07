@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X 2 0..1 arrays with row sums and column sums unimodal.",
+  "id": "A223711",
+  "mentions": [
+    "A223716"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:54:42",
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of fixed points in all alternating (i.e., down-up) permutations of {1,2,...,n}.",
+  "id": "A162978",
+  "mentions": [
+    "A000111",
+    "A162977",
+    "A162979"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

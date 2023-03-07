@@ -1,0 +1,20 @@
+{
+  "description": "Squares visited by a rook moving on a spirally numbered board always to the lowest available unvisited square with a move length of the current square (in decimal) + 1.",
+  "id": "A337254",
+  "mentions": [
+    "A316667",
+    "A323749",
+    "A336413",
+    "A336447"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

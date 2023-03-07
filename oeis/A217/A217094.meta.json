@@ -1,0 +1,22 @@
+{
+  "description": "Least index k such that A011540(k) >= 10^n.",
+  "id": "A217094",
+  "mentions": [
+    "A002452",
+    "A011540",
+    "A053283",
+    "A229127"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

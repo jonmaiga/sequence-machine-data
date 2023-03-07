@@ -1,0 +1,24 @@
+{
+  "description": "Strong pseudoprimes n to base 2 such that n-2 and n+2 are primes.",
+  "id": "A230485",
+  "mentions": [
+    "A001262",
+    "A001567",
+    "A057942",
+    "A230483",
+    "A230484",
+    "A230810"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

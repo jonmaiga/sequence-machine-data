@@ -1,0 +1,21 @@
+{
+  "description": "Length of the period of decimal representation of Product_{k=1..n} A038111(k)/A038110(k).",
+  "id": "A307388",
+  "mentions": [
+    "A038110",
+    "A038111",
+    "A051626",
+    "A058250"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 9,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

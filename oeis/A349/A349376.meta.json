@@ -1,0 +1,26 @@
+{
+  "description": "Dirichlet convolution of A006368 with the Dirichlet inverse of A006369, where A006368 is the \"amusical permutation\", and A006369 is its inverse permutation.",
+  "id": "A349376",
+  "mentions": [
+    "A006368",
+    "A006369",
+    "A349368",
+    "A349377",
+    "A349378",
+    "A349397",
+    "A349398",
+    "A349613",
+    "A349614"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

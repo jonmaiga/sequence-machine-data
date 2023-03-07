@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(k+n-1,k)*binomial(k+n,2*k).",
+  "id": "A262910",
+  "mentions": [
+    "A007863",
+    "A155112"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

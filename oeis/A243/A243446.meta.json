@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of 3/(2*sqrt(Pi)).",
+  "id": "A243446",
+  "mentions": [
+    "A087197",
+    "A188340"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:51:45",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

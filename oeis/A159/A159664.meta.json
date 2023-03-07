@@ -1,0 +1,23 @@
+{
+  "description": "The general form of the recurrences are the a(j), b(j) and n(j) solutions of the 2 equations problem: 11*n(j) + 1 = a(j)*a(j) and 13*n(j) + 1 = b(j)*b(j), with positive integer numbers.",
+  "id": "A159664",
+  "mentions": [
+    "A077423",
+    "A157456",
+    "A159661",
+    "A159665",
+    "A238379"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Solution of the complementary equation a(n) = a(n-2) + b(n-2) + 1, where a(0) = 1, a(1) = 2, b(0) = 3, and (a(n)) and (b(n)) are increasing complementary sequences.",
+  "id": "A294861",
+  "mentions": [
+    "A294860",
+    "A294862"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:30:21",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

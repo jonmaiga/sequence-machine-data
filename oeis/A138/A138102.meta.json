@@ -1,0 +1,26 @@
+{
+  "description": "The number 2*k^2 repeated 2*k^2 times, k=1 to 4.",
+  "id": "A138102",
+  "mentions": [
+    "A001105",
+    "A137325",
+    "A137575",
+    "A137583",
+    "A138100",
+    "A138101",
+    "A166071"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "fini",
+    "full",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

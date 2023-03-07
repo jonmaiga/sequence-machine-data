@@ -1,0 +1,18 @@
+{
+  "description": "Smallest k such that A344005(k) = n.",
+  "id": "A346599",
+  "mentions": [
+    "A344005",
+    "A346598"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of singular vector tuples for a general 9-dimensional {n}^9 tensor.",
+  "id": "A287085",
+  "mentions": [
+    "A284308"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

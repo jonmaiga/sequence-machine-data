@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,k) = k*mobius(n).",
+  "id": "A127510",
+  "mentions": [
+    "A000217",
+    "A008683",
+    "A125287"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

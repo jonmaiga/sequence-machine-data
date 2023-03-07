@@ -1,0 +1,18 @@
+{
+  "description": "First differences of A261091: a(n) = A261091(n+1) - A261091(n).",
+  "id": "A261090",
+  "mentions": [
+    "A261091"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

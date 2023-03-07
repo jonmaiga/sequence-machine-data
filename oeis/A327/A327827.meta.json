@@ -1,0 +1,19 @@
+{
+  "description": "Sum of multinomials M(n; lambda), where lambda ranges over all partitions of n into parts incorporating 1.",
+  "id": "A327827",
+  "mentions": [
+    "A247551",
+    "A327801"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

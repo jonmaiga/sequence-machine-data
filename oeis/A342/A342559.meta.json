@@ -1,0 +1,20 @@
+{
+  "description": "Number of equal spheres setting a new density record in relation to the volume of the spherical layer that is occupied by the spheres when arranged touching the surface of a container sphere according to the criterion of maximizing their minimum mutual distance.",
+  "id": "A342559",
+  "mentions": [
+    "A080865",
+    "A084829",
+    "A121346"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

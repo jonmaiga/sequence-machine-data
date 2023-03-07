@@ -1,0 +1,20 @@
+{
+  "description": "Array: row n gives the number of distinct square partitions of n; see Comments.",
+  "id": "A237980",
+  "mentions": [
+    "A237981",
+    "A237985"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

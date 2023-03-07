@@ -1,0 +1,18 @@
+{
+  "description": "Continued fraction expansion of the value of Minkowski's question mark function at 1/Pi.",
+  "id": "A119926",
+  "mentions": [
+    "A119927"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

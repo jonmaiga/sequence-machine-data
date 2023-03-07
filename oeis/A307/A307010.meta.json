@@ -1,0 +1,24 @@
+{
+  "description": "Numbers that are prime-indexed primes, lucky-indexed lucky numbers, lucky-indexed primes and prime-indexed lucky numbers.",
+  "id": "A307010",
+  "mentions": [
+    "A000959",
+    "A006450",
+    "A031157",
+    "A032605",
+    "A032606",
+    "A032639",
+    "A307008",
+    "A307009"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

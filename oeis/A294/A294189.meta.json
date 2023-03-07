@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f.: exp(2*(1/(1-x)^2 - 1)).",
+  "id": "A294189",
+  "mentions": [
+    "A136658",
+    "A294188"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

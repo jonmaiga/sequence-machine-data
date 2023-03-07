@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the value of the Buchstab function at phi + 2 = (5 + sqrt(5))/2 (A296184).",
+  "id": "A344476",
+  "mentions": [
+    "A000796",
+    "A001622",
+    "A002390",
+    "A013661",
+    "A296184",
+    "A344475"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:20",
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

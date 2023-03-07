@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of n into 3 parts that are not all the same.",
+  "id": "A340445",
+  "mentions": [
+    "A036410",
+    "A069905",
+    "A079978",
+    "A099837",
+    "A230059"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:23:03",
+    "offset": 0,
+    "size": 64,
+    "source": "joeis"
+  }
+}

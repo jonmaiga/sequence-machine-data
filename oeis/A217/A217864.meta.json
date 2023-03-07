@@ -1,0 +1,22 @@
+{
+  "description": "Number of prime numbers between floor(n*log(n)) and (n + 1)*log(n + 1).",
+  "id": "A217864",
+  "mentions": [
+    "A000720",
+    "A000905",
+    "A050504",
+    "A096509",
+    "A166712",
+    "A217564"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

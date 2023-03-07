@@ -1,0 +1,23 @@
+{
+  "description": "Numbers containing no zeros in ternary representation and with an initial 1.",
+  "id": "A132140",
+  "mentions": [
+    "A007089",
+    "A032924",
+    "A132138",
+    "A132139",
+    "A132141"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum of even divisors of Omega(n), a(1) = 0.",
+  "id": "A193511",
+  "mentions": [
+    "A001222",
+    "A146076",
+    "A193510",
+    "A193512",
+    "A290080"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

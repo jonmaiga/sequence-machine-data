@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle of possible factorizations of the trinomial x^n + A*x^m + B, where A and B are rational with A*B nonzero and n > m.",
+  "id": "A201913",
+  "mentions": [
+    "A080576",
+    "A178868"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 2,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

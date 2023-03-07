@@ -1,0 +1,22 @@
+{
+  "description": "Write n in binary. Consider the 0's and 1 as a list. (*) If the new list consists entirely of 1's, then a(n) = the number of 1's, and end. Otherwise, construct a new list made up of the lengths, written in order, of the runs of similarly-valued terms from the previous list. Go to *.",
+  "id": "A175872",
+  "mentions": [
+    "A000975",
+    "A030308",
+    "A101211",
+    "A217921"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:00",
+    "offset": 1,
+    "size": 109,
+    "source": "oeis-bfile"
+  }
+}

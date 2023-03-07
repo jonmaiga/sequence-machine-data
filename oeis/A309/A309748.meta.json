@@ -1,0 +1,26 @@
+{
+  "description": "The number of non-equivalent distinguishing coloring partitions of the path on n vertices (n>=1) with exactly k parts (k>=1). Regular triangle read by rows: the rows are indexed by n, the number of vertices of the path, and the columns are indexed by k, the number of parts.",
+  "id": "A309748",
+  "mentions": [
+    "A007179",
+    "A284949",
+    "A304972",
+    "A309635",
+    "A309784",
+    "A327610",
+    "A327611",
+    "A327612"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

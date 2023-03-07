@@ -1,0 +1,19 @@
+{
+  "description": "Least number k among 1, ..., n such that pi(p+2*n) - pi(p+n) = pi(p+n) - pi(p) > 0 with p = prime(k), or 0 if such a number k does not exist, where pi(.) is given by A000720.",
+  "id": "A210210",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A238281"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

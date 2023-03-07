@@ -1,0 +1,22 @@
+{
+  "description": "Deep factorization of n, written in binary: replace each factor p^e with the expression [primepi(p) [ e ]], iterate on these numbers, finally replace '[' and ']' with '1' and '0'.",
+  "id": "A300560",
+  "mentions": [
+    "A061396",
+    "A062504",
+    "A062860",
+    "A300561",
+    "A300562",
+    "A300563"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

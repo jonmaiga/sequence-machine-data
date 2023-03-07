@@ -1,0 +1,17 @@
+{
+  "description": "Those primes p where (q-p) divides (p+1), where q is the least prime > p.",
+  "id": "A162566",
+  "mentions": [
+    "A162565"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

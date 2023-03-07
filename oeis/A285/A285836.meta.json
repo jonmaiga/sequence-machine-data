@@ -1,0 +1,23 @@
+{
+  "description": "Coefficients in expansion of 1/E_10.",
+  "id": "A285836",
+  "mentions": [
+    "A000706",
+    "A001943",
+    "A013974",
+    "A287933",
+    "A287964",
+    "A288816"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:57",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

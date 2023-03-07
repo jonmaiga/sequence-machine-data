@@ -1,0 +1,38 @@
+{
+  "description": "Let b(k, n) = number obtained when the map x->A002808(x) is applied k times to n; a(n) is the smallest k such that b(k, n) + 1 is prime.",
+  "id": "A260621",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A006093",
+    "A006508",
+    "A008578",
+    "A018252",
+    "A022449",
+    "A022450",
+    "A022451",
+    "A025010",
+    "A025011",
+    "A050435",
+    "A050436",
+    "A050438",
+    "A050439",
+    "A050440",
+    "A059407",
+    "A059408",
+    "A059981",
+    "A065858",
+    "A175251",
+    "A236536"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

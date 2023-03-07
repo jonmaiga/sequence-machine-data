@@ -1,0 +1,20 @@
+{
+  "description": "Smallest number of moves needed to win Integer Lunar Lander with a starting position of (n,n).",
+  "id": "A360926",
+  "mentions": [
+    "A360923",
+    "A360924",
+    "A360925"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

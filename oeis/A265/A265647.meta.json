@@ -1,0 +1,25 @@
+{
+  "description": "Smallest k such that n divides k*(k+1)*(k+2)/6.",
+  "id": "A265647",
+  "mentions": [
+    "A000292",
+    "A002034",
+    "A005179",
+    "A011772",
+    "A038700",
+    "A047930",
+    "A070982",
+    "A344005",
+    "A345989"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

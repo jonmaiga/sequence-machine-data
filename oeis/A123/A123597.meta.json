@@ -1,0 +1,17 @@
+{
+  "description": "Primes of the form p^3 + q^3 + r^3, where p, q and r are primes.",
+  "id": "A123597",
+  "mentions": [
+    "A007490"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of set partitions of [n] into exactly three blocks where sizes of distinct blocks are coprime.",
+  "id": "A280881",
+  "mentions": [
+    "A280880"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 3,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

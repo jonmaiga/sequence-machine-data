@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (1/n) * lcm(p1,p2,...,pk) for such a partition of n that this formula produces an integer and maximizes this value among all such partitions [p1,p2,...,pk] of n.",
+  "id": "A225656",
+  "mentions": [
+    "A225636",
+    "A225652",
+    "A225655",
+    "A225657"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

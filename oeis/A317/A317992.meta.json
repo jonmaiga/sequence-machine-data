@@ -1,0 +1,22 @@
+{
+  "description": "2-rank of the narrow class group of real quadratic field Q(sqrt(k)), k squarefree > 1.",
+  "id": "A317992",
+  "mentions": [
+    "A005117",
+    "A087048",
+    "A317990",
+    "A317991",
+    "A319662"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 2,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

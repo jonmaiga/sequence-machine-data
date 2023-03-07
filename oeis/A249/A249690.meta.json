@@ -1,0 +1,21 @@
+{
+  "description": "Smallest prime k such that sigma(k - m) = sigma(k + m) has exactly n solutions, where m > 0 and sigma is A000203.",
+  "id": "A249690",
+  "mentions": [
+    "A000203",
+    "A070299",
+    "A249644"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

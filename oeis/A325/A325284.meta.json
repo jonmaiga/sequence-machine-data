@@ -1,0 +1,28 @@
+{
+  "description": "Numbers whose prime indices form an initial interval with a single hole: (1, 2, ..., x, x + 2, ..., m - 1, m), where x can be 0 but must be less than m - 1.",
+  "id": "A325284",
+  "mentions": [
+    "A055932",
+    "A056239",
+    "A061395",
+    "A090858",
+    "A112798",
+    "A124010",
+    "A127002",
+    "A130091",
+    "A325241",
+    "A325251",
+    "A325259",
+    "A325270"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

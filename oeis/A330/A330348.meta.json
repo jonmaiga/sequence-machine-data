@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of divisors of n whose last digit equals the last digit of n.",
+  "id": "A330348",
+  "mentions": [
+    "A000005",
+    "A004615",
+    "A038769"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

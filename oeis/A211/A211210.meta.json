@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(n, k)*|S1(n, k)|.",
+  "id": "A211210",
+  "mentions": [
+    "A122455",
+    "A134090",
+    "A134094",
+    "A187555",
+    "A211211",
+    "A271702",
+    "A317274",
+    "A343841"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

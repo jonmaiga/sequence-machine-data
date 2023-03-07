@@ -1,0 +1,23 @@
+{
+  "description": "Integers k such that 3*k!!! - 1 is prime where k!!! is A007661(k).",
+  "id": "A271396",
+  "mentions": [
+    "A007661",
+    "A037083",
+    "A084438",
+    "A215779",
+    "A217647",
+    "A271392"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

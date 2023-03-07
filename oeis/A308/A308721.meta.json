@@ -1,0 +1,18 @@
+{
+  "description": "Locations of the first occurrence of pair (0,n) in the van Eck sequence (A181391).",
+  "id": "A308721",
+  "mentions": [
+    "A181391"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

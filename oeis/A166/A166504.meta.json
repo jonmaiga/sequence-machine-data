@@ -1,0 +1,20 @@
+{
+  "description": "Slime numbers: numbers which are the concatenation of primes, with \"leading zeros\" allowed.",
+  "id": "A166504",
+  "mentions": [
+    "A085823",
+    "A152242",
+    "A166505"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

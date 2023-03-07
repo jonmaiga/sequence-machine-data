@@ -1,0 +1,17 @@
+{
+  "description": "Number of compositions of n such that the first part is 1 and the second differences of the parts are in {-8,...,8}.",
+  "id": "A239558",
+  "mentions": [
+    "A239550"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 16:11:11",
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Array read by antidiagonals: form difference table of the sequence of rationals 0, 0 followed by A001803(n)/A046161(n), then extract numerators.",
+  "id": "A242735",
+  "mentions": [
+    "A001790",
+    "A001803",
+    "A046161",
+    "A098597",
+    "A187791",
+    "A206771"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "frac",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

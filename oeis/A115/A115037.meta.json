@@ -1,0 +1,20 @@
+{
+  "description": "A number n is included if largest prime (or 1 if no prime divides) dividing the n-th Fibonacci number is itself a Fibonacci number.",
+  "id": "A115037",
+  "mentions": [
+    "A000045",
+    "A001605",
+    "A060385"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

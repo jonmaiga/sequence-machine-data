@@ -1,0 +1,18 @@
+{
+  "description": "n + sigma(n) + phi(n) is a fourth power.",
+  "id": "A116007",
+  "mentions": [
+    "A116008",
+    "A116009"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

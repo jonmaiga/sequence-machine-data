@@ -1,0 +1,22 @@
+{
+  "description": "T(n,k)=Number of nXk 0..1 arrays avoiding 0 0 0 horizontally and 0 1 0 vertically",
+  "id": "A207182",
+  "mentions": [
+    "A000073",
+    "A005251",
+    "A085697",
+    "A188501",
+    "A207089"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:27",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

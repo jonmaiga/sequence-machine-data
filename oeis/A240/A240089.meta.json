@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n having integer root mean square.",
+  "id": "A240089",
+  "mentions": [
+    "A240090"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

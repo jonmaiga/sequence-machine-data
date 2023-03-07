@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of horizontal segments originating from some grid point on the n-th antidiagonal of the Even Conant lattice.",
+  "id": "A337618",
+  "mentions": [
+    "A328078",
+    "A337264",
+    "A337619"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

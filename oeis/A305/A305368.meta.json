@@ -1,0 +1,21 @@
+{
+  "description": "Lengths of successive runs in A303599.",
+  "id": "A305368",
+  "mentions": [
+    "A252867",
+    "A303596",
+    "A303597",
+    "A303598",
+    "A303599"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

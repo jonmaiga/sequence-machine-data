@@ -1,0 +1,27 @@
+{
+  "description": "Numbers n such that sigma(sigma(n)) is prime.",
+  "id": "A247838",
+  "mentions": [
+    "A000203",
+    "A000668",
+    "A023194",
+    "A046528",
+    "A051027",
+    "A063103",
+    "A247821",
+    "A247822",
+    "A247954"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "G.f. A(x) satisfies the condition that both A(x) and F(x) = A(x/F(x)) = o.g.f. of A157309 have zeros for every other coefficient after initial terms; g.f. of dual sequence A155585 satisfies the same condition.",
+  "id": "A157310",
+  "mentions": [
+    "A122045",
+    "A155585",
+    "A157304",
+    "A157305",
+    "A157308",
+    "A157309"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

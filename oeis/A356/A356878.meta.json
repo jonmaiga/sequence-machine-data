@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least number of binary zeros of squares with binary weight n.",
+  "id": "A356878",
+  "mentions": [
+    "A000120",
+    "A164343",
+    "A164344"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

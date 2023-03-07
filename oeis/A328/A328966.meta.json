@@ -1,0 +1,32 @@
+{
+  "description": "Number of strict factorizations of n with integer average.",
+  "id": "A328966",
+  "mentions": [
+    "A001055",
+    "A051293",
+    "A067538",
+    "A078174",
+    "A078175",
+    "A102627",
+    "A316413",
+    "A326028",
+    "A326515",
+    "A326567",
+    "A326568",
+    "A326619",
+    "A326620",
+    "A326621",
+    "A326622",
+    "A326625"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 2,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

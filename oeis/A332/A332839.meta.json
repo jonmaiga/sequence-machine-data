@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle whose n-th row lists the integers x such that the number of nonprimes (i.e., 1 and composites) in the reduced residue set (RSS(x)) of x equals n, or 0 if there are no such x.",
+  "id": "A332839",
+  "mentions": [
+    "A048597",
+    "A072022",
+    "A074915",
+    "A076366"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

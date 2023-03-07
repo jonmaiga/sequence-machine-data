@@ -1,0 +1,22 @@
+{
+  "description": "a(n+2) = 16*a(n+1) - a(n), with a(1)=0, a(2)=4.",
+  "id": "A154021",
+  "mentions": [
+    "A065100",
+    "A077412",
+    "A154022",
+    "A154027"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

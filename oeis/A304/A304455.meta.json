@@ -1,0 +1,35 @@
+{
+  "description": "Number of steps in the reduction to a multiset of size 1 of the multiset of prime factors of n, obtained by repeatedly taking the multiset of multiplicities.",
+  "id": "A304455",
+  "mentions": [
+    "A000961",
+    "A001222",
+    "A001597",
+    "A005117",
+    "A007916",
+    "A055932",
+    "A056239",
+    "A112798",
+    "A130091",
+    "A181819",
+    "A182850",
+    "A182853",
+    "A182857",
+    "A246547",
+    "A303945",
+    "A304464",
+    "A304465",
+    "A320118"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

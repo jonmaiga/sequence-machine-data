@@ -1,0 +1,20 @@
+{
+  "description": "a(A074773(n) mod 1519829 mod 18) = A074773(n), 1 <= n <= 18.",
+  "id": "A209834",
+  "mentions": [
+    "A074773",
+    "A209833"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

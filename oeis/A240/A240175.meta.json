@@ -1,0 +1,22 @@
+{
+  "description": "Number of partitions of n such that the least part is less than its multiplicity.",
+  "id": "A240175",
+  "mentions": [
+    "A096403",
+    "A188216",
+    "A240176",
+    "A240177"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

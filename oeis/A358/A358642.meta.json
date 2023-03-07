@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the largest real solution of 2*x = 2 + log(5*x - 1).",
+  "id": "A358642",
+  "mentions": [
+    "A358641"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

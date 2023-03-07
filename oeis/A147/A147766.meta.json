@@ -1,0 +1,20 @@
+{
+  "description": "Successive differences of A000990.",
+  "id": "A147766",
+  "mentions": [
+    "A000012",
+    "A000990",
+    "A147767"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:45",
+    "offset": 0,
+    "size": 43,
+    "source": "joeis"
+  }
+}

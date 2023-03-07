@@ -1,0 +1,23 @@
+{
+  "description": "Denominators in a product expansion for sqrt(2).",
+  "id": "A219015",
+  "mentions": [
+    "A000129",
+    "A219011",
+    "A219013",
+    "A219014"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "bref",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 0,
+    "size": 3,
+    "source": "oeis-bfile"
+  }
+}

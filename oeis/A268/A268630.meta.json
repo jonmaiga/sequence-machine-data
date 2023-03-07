@@ -1,0 +1,21 @@
+{
+  "description": "a(n)^2 + a(n+1) is prime; lexicographically earliest sequence of nonnegative integers with this property and containing no duplicates.",
+  "id": "A268630",
+  "mentions": [
+    "A030186",
+    "A268494",
+    "A268495",
+    "A268496",
+    "A268497"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

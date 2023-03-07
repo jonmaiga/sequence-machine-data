@@ -1,0 +1,19 @@
+{
+  "description": "Total sum of 9th powers of parts in all partitions of n.",
+  "id": "A229331",
+  "mentions": [
+    "A066633",
+    "A213191"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

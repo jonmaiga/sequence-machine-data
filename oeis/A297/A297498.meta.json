@@ -1,0 +1,17 @@
+{
+  "description": "Right edge of triangle A297497.",
+  "id": "A297498",
+  "mentions": [
+    "A297497"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:18",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

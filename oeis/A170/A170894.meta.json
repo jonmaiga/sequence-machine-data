@@ -1,0 +1,19 @@
+{
+  "description": "Similar to A160406, always staying outside the wedge, but starting with a horizontal toothpick whose endpoint touches the vertex of the wedge.",
+  "id": "A170894",
+  "mentions": [
+    "A000695",
+    "A160406"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

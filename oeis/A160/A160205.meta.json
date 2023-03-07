@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of (989043+524338*sqrt(2))/809^2.",
+  "id": "A160205",
+  "mentions": [
+    "A002193",
+    "A123654",
+    "A160203",
+    "A160204"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:47",
+    "offset": 11,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Numbers whose divisors do not have weakly decreasing run-lengths.",
+  "id": "A328165",
+  "mentions": [
+    "A000005",
+    "A027750",
+    "A033676",
+    "A055874",
+    "A060680",
+    "A060775",
+    "A088725",
+    "A119313",
+    "A129308",
+    "A181063",
+    "A199970",
+    "A328166"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

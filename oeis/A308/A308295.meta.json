@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{i_1=0..4} Sum_{i_2=0..4} ... Sum_{i_n=0..4} multinomial(i_1 + i_2 + ... + i_n; i_1, i_2, ..., i_n).",
+  "id": "A308295",
+  "mentions": [
+    "A308292"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

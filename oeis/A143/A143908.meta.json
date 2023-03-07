@@ -1,0 +1,19 @@
+{
+  "description": "Eigentriangle by rows, n terms of (3 * A026150) followed by A026150(n).",
+  "id": "A143908",
+  "mentions": [
+    "A026150"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

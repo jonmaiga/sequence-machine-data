@@ -1,0 +1,18 @@
+{
+  "description": "Iterate x -> A349824(x) starting at n; if trajectory reaches a fixed point then that is a(n), if it ends in the loop (28,33) then a(n) = 28, otherwise a(n) = -1.",
+  "id": "A349826",
+  "mentions": [
+    "A349824",
+    "A349827"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that A144264(k) = A144264(k+1).",
+  "id": "A144359",
+  "mentions": [
+    "A014085",
+    "A144264"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

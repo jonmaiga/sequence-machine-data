@@ -1,0 +1,17 @@
+{
+  "description": "n-th prime p such that (p+n)^2+n is prime but (p+j)^2+j is not prime for all 0",
+  "id": "A238663",
+  "mentions": [
+    "A238086"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

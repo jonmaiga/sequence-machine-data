@@ -1,0 +1,29 @@
+{
+  "description": "T(n,k) = Number of n X k nonnegative integer arrays with upper left 0 and lower right n+k-4 and value increasing by 0 or 1 with every step right or down.",
+  "id": "A252876",
+  "mentions": [
+    "A000217",
+    "A252869",
+    "A252870",
+    "A252871",
+    "A252872",
+    "A252873",
+    "A252874",
+    "A252875",
+    "A252930",
+    "A252976",
+    "A323846"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:11",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

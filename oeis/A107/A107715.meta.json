@@ -1,0 +1,21 @@
+{
+  "description": "Primes whose decimal representation contains only digits from the set {0,1,2,3}.",
+  "id": "A107715",
+  "mentions": [
+    "A007090",
+    "A010051",
+    "A036953",
+    "A193890"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:59",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

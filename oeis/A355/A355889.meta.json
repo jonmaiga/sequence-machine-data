@@ -1,0 +1,23 @@
+{
+  "description": "Concatenate the exponents of the powers of 2 in A354169(k) in increasing order, for k = 1, 2, 3, ...",
+  "id": "A355889",
+  "mentions": [
+    "A354169",
+    "A354680",
+    "A354767",
+    "A354773",
+    "A354774",
+    "A354798",
+    "A355150"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

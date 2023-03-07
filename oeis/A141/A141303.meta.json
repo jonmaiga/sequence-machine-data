@@ -1,0 +1,20 @@
+{
+  "description": "Primes of the form 2*x^2+6*x*y-3*y^2 (as well as of the form 5*x^2+10*x*y+2*y^2).",
+  "id": "A141303",
+  "mentions": [
+    "A107152",
+    "A141302",
+    "A141304",
+    "A243189"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:30",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

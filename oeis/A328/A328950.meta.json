@@ -1,0 +1,19 @@
+{
+  "description": "Numerators for the \"Minimum-Redundancy Code\" card problem.",
+  "id": "A328950",
+  "mentions": [
+    "A000217",
+    "A286496"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Inrepfigit (INverse REPetitive FIbonacci-like diGIT) numbers (or Htiek numbers).",
+  "id": "A128546",
+  "mentions": [
+    "A007629",
+    "A097060"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

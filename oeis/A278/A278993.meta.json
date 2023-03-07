@@ -1,0 +1,23 @@
+{
+  "description": "Number of simple chord diagrams with n chords, up to rotation.",
+  "id": "A278993",
+  "mentions": [
+    "A003436",
+    "A003437",
+    "A007474",
+    "A278990",
+    "A278991",
+    "A278992",
+    "A278994"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Sum of numbers from prime p to nextprime(p)-1 is a repdigit.",
+  "id": "A114370",
+  "mentions": [
+    "A010785",
+    "A054268"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

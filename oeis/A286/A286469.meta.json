@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = maximum of {the index of least prime dividing n} and {the maximal gap between indices of the successive primes in the prime factorization of n}.",
+  "id": "A286469",
+  "mentions": [
+    "A051903",
+    "A055396",
+    "A122111",
+    "A286470",
+    "A286621"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 112,
+    "source": "oeis-bfile"
+  }
+}

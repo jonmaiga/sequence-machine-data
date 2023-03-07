@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least k such that A355784(k) = n, or -1 if there is no such k.",
+  "id": "A355785",
+  "mentions": [
+    "A355784"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

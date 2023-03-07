@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the constant term in expansion of Product_{ k = 1..n } (x^k + 1/x^k)^3.",
+  "id": "A124995",
+  "mentions": [
+    "A047653",
+    "A063865",
+    "A124996"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

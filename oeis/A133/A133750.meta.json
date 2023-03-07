@@ -1,0 +1,22 @@
+{
+  "description": "Primes which are the sum of five positive 4th powers.",
+  "id": "A133750",
+  "mentions": [
+    "A000040",
+    "A000583",
+    "A003337",
+    "A085318"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

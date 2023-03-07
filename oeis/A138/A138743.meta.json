@@ -1,0 +1,19 @@
+{
+  "description": "Let r_1 = 1. Let r_{m+1} = r_1 + 1/(r_2 + 1/(r_3 +...(r_{m-1} + 1/r_m)...)), a continued fraction of rational terms. Then a(n) is the number of (positive integer) terms in the simple continued fraction of r_n.",
+  "id": "A138743",
+  "mentions": [
+    "A138742",
+    "A138744"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

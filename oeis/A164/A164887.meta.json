@@ -1,0 +1,29 @@
+{
+  "description": "a(n) = smallest number that leads to a new fixed point under the base-2 Kaprekar map of A164884",
+  "id": "A164887",
+  "mentions": [
+    "A151964",
+    "A163205",
+    "A164884",
+    "A164885",
+    "A164886",
+    "A165009",
+    "A165029",
+    "A165048",
+    "A165068",
+    "A165087",
+    "A165107",
+    "A165127"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:47",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

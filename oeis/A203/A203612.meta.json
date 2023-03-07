@@ -1,0 +1,18 @@
+{
+  "description": "For any number n take the polynomial formed by the product of the terms (x-pi), where pi’s are the prime factors of n. Then calculate the area between the minimum and the maximum value of the prime factors. This sequence lists the numbers for which the area is a positive integer.",
+  "id": "A203612",
+  "mentions": [
+    "A203613",
+    "A203614"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

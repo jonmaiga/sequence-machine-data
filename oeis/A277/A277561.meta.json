@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=0..n} ({binomial(n+2k,2k)*binomial(n,k)} mod 2).",
+  "id": "A277561",
+  "mentions": [
+    "A005940",
+    "A034444",
+    "A040000",
+    "A069010",
+    "A106737"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

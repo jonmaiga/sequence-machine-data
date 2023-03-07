@@ -1,0 +1,22 @@
+{
+  "description": "Increasing sequence: \"if n appears then a*n+b doesn't\", case a(1)=1, a=2, b=1.",
+  "id": "A121538",
+  "mentions": [
+    "A053661",
+    "A121539",
+    "A121540",
+    "A121541",
+    "A121542"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

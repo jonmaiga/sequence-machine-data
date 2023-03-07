@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that the minimal mark in a length k sparse ruler is round(sqrt(9 + 12*k)/2) + 1.",
+  "id": "A308766",
+  "mentions": [
+    "A004137",
+    "A046693",
+    "A103294",
+    "A103300"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

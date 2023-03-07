@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of shortest length, (C), of segment from side CA through centroid to side CB in right triangle ABC with sidelengths (a,b,c)=(2,sqrt(5),3).",
+  "id": "A195481",
+  "mentions": [
+    "A195304",
+    "A195479",
+    "A195480",
+    "A195482"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

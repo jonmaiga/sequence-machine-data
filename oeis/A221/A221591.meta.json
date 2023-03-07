@@ -1,0 +1,19 @@
+{
+  "description": "Number of 0..2 arrays of length n with each element differing from at least one neighbor by 1 or less.",
+  "id": "A221591",
+  "mentions": [
+    "A221596"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:00:56",
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Zumkeller primes: k is prime and k + 1 is Zumkeller.",
+  "id": "A320518",
+  "mentions": [
+    "A000040",
+    "A083207"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

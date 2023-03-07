@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are not divisible by each of their nonzero decimal digits.",
+  "id": "A171492",
+  "mentions": [
+    "A002796",
+    "A034838",
+    "A067458"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:55",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

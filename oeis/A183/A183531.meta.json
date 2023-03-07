@@ -1,0 +1,22 @@
+{
+  "description": "An Ulam-type sequence: a(n) = n if n<=8; for n>8, a(n) = least number > a(n-1) which is a unique sum of 8 distinct earlier terms.",
+  "id": "A183531",
+  "mentions": [
+    "A002858",
+    "A007086",
+    "A135737",
+    "A183527",
+    "A183533",
+    "A183534"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:07",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

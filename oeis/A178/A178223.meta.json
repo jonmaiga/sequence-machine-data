@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that the digits of n are also digits of n! (counting multiplicity).",
+  "id": "A178223",
+  "mentions": [
+    "A064827"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

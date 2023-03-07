@@ -1,0 +1,18 @@
+{
+  "description": "Number of defective (binary) heaps on n elements where five ancestor-successor pairs do not have the correct order.",
+  "id": "A324066",
+  "mentions": [
+    "A056971",
+    "A306393"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:49",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

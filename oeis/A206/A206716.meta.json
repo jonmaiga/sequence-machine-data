@@ -1,0 +1,19 @@
+{
+  "description": "(1/5)A206715.",
+  "id": "A206716",
+  "mentions": [
+    "A131853",
+    "A206074",
+    "A206715"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

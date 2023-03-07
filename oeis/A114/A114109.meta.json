@@ -1,0 +1,18 @@
+{
+  "description": "Fixed points of permutation A111390.",
+  "id": "A114109",
+  "mentions": [
+    "A111390"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

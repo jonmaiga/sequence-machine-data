@@ -1,0 +1,20 @@
+{
+  "description": "The number of ordered trees with bicolored single edges on the boundary.",
+  "id": "A228343",
+  "mentions": [
+    "A000108",
+    "A000344",
+    "A228197"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

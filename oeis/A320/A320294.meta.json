@@ -1,0 +1,29 @@
+{
+  "description": "Number of series-reduced rooted trees whose leaves are non-singleton integer partitions whose multiset union is an integer partition of n with no 1's.",
+  "id": "A320294",
+  "mentions": [
+    "A000045",
+    "A000311",
+    "A000669",
+    "A002865",
+    "A141268",
+    "A292504",
+    "A304966",
+    "A304967",
+    "A319312",
+    "A320289",
+    "A320293",
+    "A320295",
+    "A320296"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

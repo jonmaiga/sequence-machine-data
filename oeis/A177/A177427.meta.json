@@ -1,0 +1,26 @@
+{
+  "description": "Numerators of the Inverse Akiyama-Tanigawa transform of the aerated even-indexed Bernoulli numbers 1, 0, 1/6, 0, -1/30, 0, 1/42, ...",
+  "id": "A177427",
+  "mentions": [
+    "A000367",
+    "A002445",
+    "A060819",
+    "A061038",
+    "A145979",
+    "A177690",
+    "A181318",
+    "A191567"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

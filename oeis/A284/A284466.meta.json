@@ -1,0 +1,22 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into odd divisors of n.",
+  "id": "A284466",
+  "mentions": [
+    "A000045",
+    "A005408",
+    "A032021",
+    "A100346",
+    "A171565"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

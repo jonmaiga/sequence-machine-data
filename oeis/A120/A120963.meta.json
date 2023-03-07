@@ -1,0 +1,24 @@
+{
+  "description": "Number of monic polynomials with integer coefficients of degree n with all roots on the unit circle; number of products of cyclotomic polynomials of degree n.",
+  "id": "A120963",
+  "mentions": [
+    "A014197",
+    "A051894",
+    "A280611",
+    "A341710",
+    "A341711",
+    "A341712"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

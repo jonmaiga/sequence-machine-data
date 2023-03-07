@@ -1,0 +1,19 @@
+{
+  "description": "Indices of a in the sequence closed under a -> abc, b -> ab, c -> b . Start with a.",
+  "id": "A214641",
+  "mentions": [
+    "A214640",
+    "A214642",
+    "A214644"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

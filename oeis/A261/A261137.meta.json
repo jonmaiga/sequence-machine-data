@@ -1,0 +1,26 @@
+{
+  "description": "Number of set partitions B'_t(n) of {1,2,...,t} into at most n parts, so that no part contains both 1 and t, or both i and i+1 with 1 <= i < t; triangle B'_t(n), t>=0, 0<=n<=t, read by rows.",
+  "id": "A261137",
+  "mentions": [
+    "A000296",
+    "A001045",
+    "A006342",
+    "A214142",
+    "A214167",
+    "A214188",
+    "A214239",
+    "A261139"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

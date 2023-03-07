@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of ways to tile a size n staircase polyomino with staircase polyominoes in the same direction as the size n staircase polyomino.",
+  "id": "A335547",
+  "mentions": [
+    "A334617",
+    "A335967",
+    "A336479"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

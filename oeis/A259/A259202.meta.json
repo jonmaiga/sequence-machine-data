@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f.: Sum_{n>=0} x^n * (1 + x^n)^n * exp(2*x^(n+1)) / n!.",
+  "id": "A259202",
+  "mentions": [
+    "A259203",
+    "A259204",
+    "A259205"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

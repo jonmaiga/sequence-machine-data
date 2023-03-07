@@ -1,0 +1,22 @@
+{
+  "description": "a(2n-1)=F(n+1), a(2n)=L(n), where F(n) and L(n) are the Fibonacci and the Lucas sequences.",
+  "id": "A115339",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A000930",
+    "A116470"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

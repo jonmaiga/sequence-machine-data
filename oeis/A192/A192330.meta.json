@@ -1,0 +1,20 @@
+{
+  "description": "Minimum number of endpoints of a tree so that there exists a zero-entropy map defined on it having a period n orbit.",
+  "id": "A192330",
+  "mentions": [
+    "A000010",
+    "A006948",
+    "A109395"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

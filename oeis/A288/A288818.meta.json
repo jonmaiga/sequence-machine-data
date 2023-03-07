@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways in which one can insert * and ^ into the decimal digits of n to create a valid (see comments) base-ten factorization statement.",
+  "id": "A288818",
+  "mentions": [
+    "A080670",
+    "A288819",
+    "A288820"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:02",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

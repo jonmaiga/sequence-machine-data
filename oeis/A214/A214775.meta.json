@@ -1,0 +1,26 @@
+{
+  "description": "Number T(n,k) of solid standard Young tableaux of shape [[n,k],[n-k]]; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A214775",
+  "mentions": [
+    "A000108",
+    "A001477",
+    "A214801",
+    "A214955",
+    "A215002",
+    "A215298",
+    "A215299",
+    "A215300",
+    "A215301"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

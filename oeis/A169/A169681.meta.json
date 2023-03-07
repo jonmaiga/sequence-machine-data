@@ -1,0 +1,33 @@
+{
+  "description": "Decimal expansion of 2^127-1.",
+  "id": "A169681",
+  "mentions": [
+    "A000043",
+    "A000668",
+    "A007013",
+    "A169684",
+    "A169685",
+    "A204063",
+    "A248931",
+    "A248932",
+    "A248933",
+    "A248934",
+    "A248935",
+    "A248936"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "easy",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:49:25",
+    "offset": 39,
+    "size": 39,
+    "source": "joeis"
+  }
+}

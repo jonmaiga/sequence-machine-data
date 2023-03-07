@@ -1,0 +1,22 @@
+{
+  "description": "Indices n of Riemann zeta zeros where the Riemann-Siegel Z function sets successive records of maximum absolute values abs(Z(t)) in the interval between the n-th and (n+1)-th zeros.",
+  "id": "A329823",
+  "mentions": [
+    "A114856",
+    "A254297",
+    "A255739",
+    "A255742",
+    "A326502",
+    "A329742"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

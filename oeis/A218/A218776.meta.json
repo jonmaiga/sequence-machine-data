@@ -1,0 +1,27 @@
+{
+  "description": "A014486-codes for the Beanstalk-tree growing one natural number at time, starting from the tree of one internal node (1), with the \"lesser numbers to the left hand side\" construction.",
+  "id": "A218776",
+  "mentions": [
+    "A014486",
+    "A029837",
+    "A179016",
+    "A218548",
+    "A218612",
+    "A218615",
+    "A218777",
+    "A218778",
+    "A218780",
+    "A218782",
+    "A218787"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:36",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "E.g.f. A(x) satisfies: (A(x)^5 - 10*x)^2 = (2 - A(x)^2)^5.",
+  "id": "A249787",
+  "mentions": [
+    "A249785",
+    "A249786",
+    "A249788",
+    "A249922",
+    "A249923"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

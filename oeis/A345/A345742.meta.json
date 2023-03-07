@@ -1,0 +1,18 @@
+{
+  "description": "Nonnegative integers ordered by lowest number value per syllable (in American English) and then, in case of ties, numerically.",
+  "id": "A345742",
+  "mentions": [
+    "A075774"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

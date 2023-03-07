@@ -1,0 +1,20 @@
+{
+  "description": "Numbers x such that (-1)sigma(x) | sigma(x) - x, where (-1)sigma(x) is defined in A049060 and sigma(x) - x is the sum of the aliquot parts of x (A001065).",
+  "id": "A258079",
+  "mentions": [
+    "A001065",
+    "A049060",
+    "A258077"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Number of bracelets (turnover necklaces) of length n that have no reflection symmetry and consist of 6 white beads and n-6 black beads.",
+  "id": "A308401",
+  "mentions": [
+    "A005513",
+    "A008804",
+    "A032246",
+    "A032247",
+    "A032248",
+    "A032249",
+    "A058187",
+    "A119963",
+    "A180472",
+    "A292200",
+    "A295925"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:51:37",
+    "offset": 9,
+    "size": 46,
+    "source": "joeis"
+  }
+}

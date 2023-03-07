@@ -1,0 +1,23 @@
+{
+  "description": "Integers in alphabetical order in Spanish, using the long scale.",
+  "id": "A290483",
+  "mentions": [
+    "A004740",
+    "A019440",
+    "A097960",
+    "A108067",
+    "A126686",
+    "A161390"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

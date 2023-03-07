@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that n^2 = 37*m^2 + 37*m +1.",
+  "id": "A105843",
+  "mentions": [
+    "A105844"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 18:36:41",
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

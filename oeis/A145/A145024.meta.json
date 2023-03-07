@@ -1,0 +1,17 @@
+{
+  "description": "Number of primes between successive balanced primes (A006562).",
+  "id": "A145024",
+  "mentions": [
+    "A006562"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

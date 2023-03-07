@@ -1,0 +1,32 @@
+{
+  "description": "Array read by antidiagonals: T(d,k) (k >= 1, d = 1,2,3,4,5,6,...) = smallest semiprime s of k (not necessarily consecutive) semiprimes in arithmetic progression with common difference d.",
+  "id": "A124570",
+  "mentions": [
+    "A001358",
+    "A056809",
+    "A070552",
+    "A082919",
+    "A091016",
+    "A092125",
+    "A092126",
+    "A092127",
+    "A092128",
+    "A092129",
+    "A092209",
+    "A123017",
+    "A124064",
+    "A125025"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

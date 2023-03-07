@@ -1,0 +1,21 @@
+{
+  "description": "Number of symmetrical self-avoiding walks with maximum length on an n X n board which start in the upper left corner and go right on the first step.",
+  "id": "A331001",
+  "mentions": [
+    "A145157",
+    "A265914"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

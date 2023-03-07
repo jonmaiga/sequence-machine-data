@@ -1,0 +1,17 @@
+{
+  "description": "Initial members of an octuplet of generalized Fermat primes: numbers n such that (n+m)^4+1 is prime for m=0,2,4,6,8,10,12 and 14.",
+  "id": "A135047",
+  "mentions": [
+    "A000068"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

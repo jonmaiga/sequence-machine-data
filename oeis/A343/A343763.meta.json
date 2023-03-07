@@ -1,0 +1,24 @@
+{
+  "description": "Common prime factors of A007663(183)/1093 and A007663(490)/3511.",
+  "id": "A343763",
+  "mentions": [
+    "A001220",
+    "A007663",
+    "A010785",
+    "A033619",
+    "A172290",
+    "A242715"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

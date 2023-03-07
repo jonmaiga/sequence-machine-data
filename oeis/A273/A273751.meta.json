@@ -1,0 +1,22 @@
+{
+  "description": "Triangle of the natural numbers written by decreasing antidiagonals.",
+  "id": "A273751",
+  "mentions": [
+    "A002061",
+    "A002620",
+    "A033638",
+    "A091995",
+    "A234305",
+    "A235355"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows, T(n,k) = k*Sum_{m=1..n/k} t(k)*t(n-k*m+1) with t = A000081, for n>=1 and 1<=k<=n.",
+  "id": "A275331",
+  "mentions": [
+    "A000081",
+    "A055544",
+    "A087803",
+    "A095350",
+    "A275330"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

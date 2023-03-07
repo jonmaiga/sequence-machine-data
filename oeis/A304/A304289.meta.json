@@ -1,0 +1,30 @@
+{
+  "description": "Denominators a(n) of the fractions Sum_{n>=1} {n/a(n)} = 1/a(1) + 2/a(2) + 3/a(3) + ... such that the sum has the concatenation of these denominators as decimal part. Case a(1) = 10.",
+  "id": "A304289",
+  "mentions": [
+    "A302932",
+    "A302933",
+    "A303388",
+    "A304285",
+    "A304286",
+    "A304287",
+    "A304288",
+    "A305661",
+    "A305662",
+    "A305663",
+    "A305664",
+    "A305665",
+    "A305666"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

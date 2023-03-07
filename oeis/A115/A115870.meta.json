@@ -1,0 +1,17 @@
+{
+  "description": "Terms at odd positions of A115869.",
+  "id": "A115870",
+  "mentions": [
+    "A115869"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

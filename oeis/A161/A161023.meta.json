@@ -1,0 +1,23 @@
+{
+  "description": "Collatz trajectory starting at 35655.",
+  "id": "A161023",
+  "mentions": [
+    "A006577",
+    "A008884",
+    "A060412",
+    "A161021",
+    "A161022"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:43",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

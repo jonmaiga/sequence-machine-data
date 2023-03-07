@@ -1,0 +1,21 @@
+{
+  "description": "The sum of the divisors of 24*n - 1, divided by 24.",
+  "id": "A280098",
+  "mentions": [
+    "A000203",
+    "A139041",
+    "A183010",
+    "A280097"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:47",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

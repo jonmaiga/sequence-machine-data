@@ -1,0 +1,32 @@
+{
+  "description": "Number of labeled n-vertex simple graphs without crossing or nesting edges.",
+  "id": "A326244",
+  "mentions": [
+    "A000088",
+    "A000108",
+    "A001519",
+    "A006125",
+    "A016098",
+    "A054726",
+    "A095661",
+    "A117662",
+    "A326209",
+    "A326210",
+    "A326250",
+    "A326255",
+    "A326256",
+    "A326279"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

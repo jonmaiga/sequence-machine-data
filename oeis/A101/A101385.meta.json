@@ -1,0 +1,25 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) = variant of Knuth's Fibonacci (or circle) product of n and k (A101330).",
+  "id": "A101385",
+  "mentions": [
+    "A014417",
+    "A035517",
+    "A101330",
+    "A101633",
+    "A101643",
+    "A101644",
+    "A101645"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Inverse Moebius transform of A100107.",
+  "id": "A130878",
+  "mentions": [
+    "A000032",
+    "A100107",
+    "A100279"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

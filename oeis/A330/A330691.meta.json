@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = gcd(n, A309639(n)), where A309639(n) is the index of the least harmonic number H_i whose denominator (A002805) is divisible by n.",
+  "id": "A330691",
+  "mentions": [
+    "A000961",
+    "A002805",
+    "A309639",
+    "A330692",
+    "A330742"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

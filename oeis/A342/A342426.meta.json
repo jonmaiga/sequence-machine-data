@@ -1,0 +1,34 @@
+{
+  "description": "Niven numbers in base 3/2: numbers divisible by their sum of digits in fractional base 3/2 (A244040).",
+  "id": "A342426",
+  "mentions": [
+    "A005349",
+    "A024629",
+    "A049445",
+    "A064150",
+    "A064438",
+    "A064481",
+    "A118363",
+    "A244040",
+    "A328208",
+    "A328212",
+    "A331085",
+    "A331728",
+    "A333426",
+    "A334308",
+    "A342427",
+    "A342428",
+    "A342429"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

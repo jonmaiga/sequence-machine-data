@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. exp(x) / (2 - cos(x)).",
+  "id": "A348587",
+  "mentions": [
+    "A003701",
+    "A094088",
+    "A327034",
+    "A348580"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

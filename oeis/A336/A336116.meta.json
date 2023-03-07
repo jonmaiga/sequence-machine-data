@@ -1,0 +1,23 @@
+{
+  "description": "Primes of the form q*2^h - 1, where q is a Fermat prime.",
+  "id": "A336116",
+  "mentions": [
+    "A000265",
+    "A019434",
+    "A334092",
+    "A335874",
+    "A335885",
+    "A336117"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

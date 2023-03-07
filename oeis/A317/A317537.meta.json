@@ -1,0 +1,19 @@
+{
+  "description": "The n-th positive integer that has exactly n representations of the form 1 + p1 * (1 + p2* ... * (1 + p_j)...), where [p1, ..., p_j] is a (possibly empty) list of distinct primes.",
+  "id": "A317537",
+  "mentions": [
+    "A317385",
+    "A317390"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

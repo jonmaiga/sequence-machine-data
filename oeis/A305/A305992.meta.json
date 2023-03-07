@@ -1,0 +1,17 @@
+{
+  "description": "The sequence whose indicator function is I in conjectured formula A300997(n) = 2*n - Sum_{k=1..n} I(k), as long as the conjecture holds.",
+  "id": "A305992",
+  "mentions": [
+    "A300997"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

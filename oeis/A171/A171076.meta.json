@@ -1,0 +1,20 @@
+{
+  "description": "Total number of balls in room in variant of the tennis ball problem (cf. A171074);",
+  "id": "A171076",
+  "mentions": [
+    "A005893",
+    "A051133",
+    "A090288",
+    "A171074"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

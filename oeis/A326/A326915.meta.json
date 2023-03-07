@@ -1,0 +1,19 @@
+{
+  "description": "Number of terms of A002386 (primes preceding record prime gaps) in the interval (2^n, 2^(n+1)].",
+  "id": "A326915",
+  "mentions": [
+    "A000101",
+    "A002386",
+    "A005250"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

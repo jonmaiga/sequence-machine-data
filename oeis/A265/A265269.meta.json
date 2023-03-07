@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f.: Sum_{n>=0} (x^n + y^n)^n / n! - Sum_{n>=0} y^(n^2) / n! at y=2.",
+  "id": "A265269",
+  "mentions": [
+    "A259209",
+    "A265270"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

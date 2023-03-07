@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that the decimal expansions of both n and n^2 only use the digits 0..6.",
+  "id": "A257085",
+  "mentions": [
+    "A136808",
+    "A136809",
+    "A136810",
+    "A136859",
+    "A178501",
+    "A256633",
+    "A257086"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

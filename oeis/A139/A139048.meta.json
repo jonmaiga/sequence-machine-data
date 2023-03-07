@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of primes p, p <= the n-th prime, where (p + (1/p)*Product_{k=1..n} prime(k)) is prime, where prime(k) is the k-th prime.",
+  "id": "A139048",
+  "mentions": [
+    "A002110",
+    "A083021"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

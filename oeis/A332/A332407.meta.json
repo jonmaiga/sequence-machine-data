@@ -1,0 +1,19 @@
+{
+  "description": "Number of simple graphs on n unlabeled nodes with upper domination number greater than independence number.",
+  "id": "A332407",
+  "mentions": [
+    "A263341",
+    "A332403"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

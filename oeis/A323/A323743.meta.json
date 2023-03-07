@@ -1,0 +1,32 @@
+{
+  "description": "Table read by rows: row n lists the numbers k for which there exist only finitely many runs of n consecutive integers whose number-of-divisors function sums to k.",
+  "id": "A323743",
+  "mentions": [
+    "A000005",
+    "A005237",
+    "A006558",
+    "A048892",
+    "A072507",
+    "A100366",
+    "A119479",
+    "A141621",
+    "A284596",
+    "A284597",
+    "A292580",
+    "A319037",
+    "A319045",
+    "A319046"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

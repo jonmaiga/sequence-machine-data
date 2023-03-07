@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that the k-th triangular number contains only digits {0,1,8}.",
+  "id": "A119046",
+  "mentions": [
+    "A000217",
+    "A119034",
+    "A119045"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:55:51",
+    "offset": 1,
+    "size": 31,
+    "source": "joeis"
+  }
+}

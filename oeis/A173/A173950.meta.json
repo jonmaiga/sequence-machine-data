@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 1 if 6 divides (prime(n) + 1), a(n) = -1 if 6 divides (prime(n) - 1), a(n) = 0 otherwise.",
+  "id": "A173950",
+  "mentions": [
+    "A099618",
+    "A107323",
+    "A112632",
+    "A132194",
+    "A134323",
+    "A134667",
+    "A174695"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

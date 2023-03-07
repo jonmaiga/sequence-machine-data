@@ -1,0 +1,20 @@
+{
+  "description": "Least b such that b^(2^n) + 1 is a Proth prime (A080076).",
+  "id": "A334053",
+  "mentions": [
+    "A056993",
+    "A080076",
+    "A116882"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

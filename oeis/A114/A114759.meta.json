@@ -1,0 +1,24 @@
+{
+  "description": "Smallest prime of the form: n successive positive integers in descending order followed by a 3. a(3k) = 0 as no such prime exists.",
+  "id": "A114759",
+  "mentions": [
+    "A108145",
+    "A112716",
+    "A114754",
+    "A114755",
+    "A114756",
+    "A114757",
+    "A114758"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

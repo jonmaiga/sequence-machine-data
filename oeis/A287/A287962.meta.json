@@ -1,0 +1,21 @@
+{
+  "description": "Positive numbers that are the sum of the squares of distinct Fibonacci numbers (with a single type of 1).",
+  "id": "A287962",
+  "mentions": [
+    "A000119",
+    "A003995",
+    "A007598",
+    "A048261",
+    "A280933"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

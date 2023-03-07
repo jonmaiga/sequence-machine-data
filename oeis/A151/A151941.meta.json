@@ -1,0 +1,18 @@
+{
+  "description": "2^(2^n)*( (2^(n-1))! )^2*binomial(2*n,n).",
+  "id": "A151941",
+  "mentions": [
+    "A051235",
+    "A151932"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

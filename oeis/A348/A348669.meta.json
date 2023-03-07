@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of 2*sqrt(2)*log(1 + sqrt(2))/(3*Pi).",
+  "id": "A348669",
+  "mentions": [
+    "A088367",
+    "A091505",
+    "A091648",
+    "A244920"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

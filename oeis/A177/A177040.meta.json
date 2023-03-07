@@ -1,0 +1,25 @@
+{
+  "description": "Irregular triangle t(n,m) = binomial(m+1,n-m) read by rows floor((n+1)/2) <= m <= n.",
+  "id": "A177040",
+  "mentions": [
+    "A026729",
+    "A030528",
+    "A052952",
+    "A085478",
+    "A098925",
+    "A165253",
+    "A180987"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

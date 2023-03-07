@@ -1,0 +1,21 @@
+{
+  "description": "Number of unlabeled digraphs on n vertices such that every vertex has outdegree 2.",
+  "id": "A129524",
+  "mentions": [
+    "A001373",
+    "A185193",
+    "A185194",
+    "A185303",
+    "A329228"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:17",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

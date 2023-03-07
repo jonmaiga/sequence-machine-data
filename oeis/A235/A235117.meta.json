@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) = number of independent vertex subsets of size k of the graph g_n obtained by attaching two pendant edges to each vertex of the ladder graph L_n (i.e., L_n is the 2 X n grid graph; 0 <= k <= 4n+1).",
+  "id": "A235117",
+  "mentions": [
+    "A235118"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

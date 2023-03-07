@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (-n)^k * binomial(n,k)^3.",
+  "id": "A336180",
+  "mentions": [
+    "A241247",
+    "A307885",
+    "A336179"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

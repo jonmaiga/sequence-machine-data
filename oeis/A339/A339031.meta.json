@@ -1,0 +1,20 @@
+{
+  "description": "T(n, k) = k*P(n, k), where P(n, k) is the number of partitions of an n-set with k blocks, the largest of which has the size n - k + 1. Triangle T(n, k) for 0 <= k <= n, read by rows.",
+  "id": "A339031",
+  "mentions": [
+    "A339030",
+    "A339032"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

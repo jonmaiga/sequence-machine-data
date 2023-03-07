@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of partitions of n having k triangular number parts (0<=k<=n).",
+  "id": "A263234",
+  "mentions": [
+    "A000041",
+    "A000217",
+    "A225044",
+    "A263235"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers which are twice a U(2,4) number but not the sum of two distinct U(2,4) numbers.",
+  "id": "A285882",
+  "mentions": [
+    "A048951"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

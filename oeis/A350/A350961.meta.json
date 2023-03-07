@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=1..n} 3^Omega(k).",
+  "id": "A350961",
+  "mentions": [
+    "A001222",
+    "A069205",
+    "A069212",
+    "A165824"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

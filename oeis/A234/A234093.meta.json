@@ -1,0 +1,21 @@
+{
+  "description": "Integers of the form (p*q - 1)/2, where p and q are distinct primes.",
+  "id": "A234093",
+  "mentions": [
+    "A102770",
+    "A233561",
+    "A234095",
+    "A234096"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

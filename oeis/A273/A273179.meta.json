@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k for which 2 has exactly four square roots mod k.",
+  "id": "A273179",
+  "mentions": [
+    "A057126"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

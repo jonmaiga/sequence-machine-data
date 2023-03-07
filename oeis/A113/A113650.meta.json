@@ -1,0 +1,17 @@
+{
+  "description": "Fibonacci(p-J(p,5)) mod p^2, where p is the n-th prime and J is the Jacobi symbol.",
+  "id": "A113650",
+  "mentions": [
+    "A113649"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

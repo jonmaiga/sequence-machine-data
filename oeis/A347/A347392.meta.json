@@ -1,0 +1,36 @@
+{
+  "description": "Numbers k such that nearest common ancestor of k and sigma(k) in Doudna tree (A347879) is the grandparent of k.",
+  "id": "A347392",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A005101",
+    "A005231",
+    "A005820",
+    "A005940",
+    "A027687",
+    "A064989",
+    "A252463",
+    "A336702",
+    "A336834",
+    "A347381",
+    "A347391",
+    "A347393",
+    "A347394",
+    "A347879",
+    "A348041",
+    "A353365"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

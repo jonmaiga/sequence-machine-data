@@ -1,0 +1,23 @@
+{
+  "description": "Sum_{d|n, d = 5 mod 7} d.",
+  "id": "A284446",
+  "mentions": [
+    "A109707",
+    "A284099",
+    "A284105",
+    "A284443",
+    "A284444",
+    "A284445"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

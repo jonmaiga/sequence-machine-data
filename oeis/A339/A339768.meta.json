@@ -1,0 +1,22 @@
+{
+  "description": "Square array read by descending antidiagonals. T(n,k) is the number of acyclic k-multidigraphs on n labeled vertices, n>=0,k>=0.",
+  "id": "A339768",
+  "mentions": [
+    "A003024",
+    "A137435",
+    "A188457",
+    "A354962"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

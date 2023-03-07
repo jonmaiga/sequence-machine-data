@@ -1,0 +1,20 @@
+{
+  "description": "Integer nearest to Li(10^n) - Li(3), where Li(x) = integral(0..x, dt/log(t)).",
+  "id": "A223166",
+  "mentions": [
+    "A006880",
+    "A057754",
+    "A190802"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:41",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

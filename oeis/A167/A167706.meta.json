@@ -1,0 +1,19 @@
+{
+  "description": "The single or isolated numbers. The union of single (or isolated or non-twin) primes and single (or isolated or average of twin prime pairs) nonprimes.",
+  "id": "A167706",
+  "mentions": [
+    "A007510",
+    "A014574"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:51",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

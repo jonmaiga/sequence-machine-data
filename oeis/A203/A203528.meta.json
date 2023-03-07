@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = v(n+1)/v(n), where v=A203527.",
+  "id": "A203528",
+  "mentions": [
+    "A000178",
+    "A018252",
+    "A093883",
+    "A203416",
+    "A203527",
+    "A203529"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:10:45",
+    "offset": 1,
+    "size": 15,
+    "source": "joeis"
+  }
+}

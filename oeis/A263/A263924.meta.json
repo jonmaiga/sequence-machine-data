@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that there is a prime p > 3 and an exponent e such that the central binomial coefficient binomial(2n, n) is divisible by p^e but not by either 2^e or 3^e.",
+  "id": "A263924",
+  "mentions": [
+    "A000120",
+    "A000984",
+    "A000989",
+    "A263922"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

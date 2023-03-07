@@ -1,0 +1,21 @@
+{
+  "description": "A120249[n] modulo A120250[n].",
+  "id": "A120251",
+  "mentions": [
+    "A120249",
+    "A120250"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "frac",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

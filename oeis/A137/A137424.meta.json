@@ -1,0 +1,19 @@
+{
+  "description": "a(n)=C{Sum_digits(n),[n mod Sum_digits(n)]}, n>=1.",
+  "id": "A137424",
+  "mentions": [
+    "A070635",
+    "A110366"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

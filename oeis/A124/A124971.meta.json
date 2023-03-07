@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n which can be expressed as the ordered sum of 3 squares in 2 or more different ways and such that n+1 has the same property.",
+  "id": "A124971",
+  "mentions": [
+    "A000164",
+    "A124966",
+    "A124970"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Number T(n,k) of partitions of k copies of n into distinct parts; triangle T(n,k), n>=0, 0<=k<=max(1,ceiling(n/2)), read by rows.",
+  "id": "A258280",
+  "mentions": [
+    "A000009",
+    "A000012",
+    "A065033",
+    "A108796",
+    "A258281",
+    "A258282",
+    "A258283",
+    "A258284",
+    "A258285",
+    "A258286",
+    "A258287",
+    "A258288",
+    "A258289",
+    "A284824"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

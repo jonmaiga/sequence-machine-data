@@ -1,0 +1,24 @@
+{
+  "description": "Sum of gcd(k,n) from k = 1 to n over \"regular\" integers only (an integer k is regular if there is an x such that k^2 x == k (mod n))",
+  "id": "A176345",
+  "mentions": [
+    "A000027",
+    "A001620",
+    "A065464",
+    "A097945",
+    "A143869"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:00",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

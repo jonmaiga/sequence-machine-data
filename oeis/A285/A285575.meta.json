@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive terms such that the product of two consecutive terms is divisible by p^2 for at least two distinct primes p.",
+  "id": "A285575",
+  "mentions": [
+    "A000027",
+    "A285296",
+    "A285576"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:57",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

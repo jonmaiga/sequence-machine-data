@@ -1,0 +1,21 @@
+{
+  "description": "Number of refinement sequences n -> ... -> {1}^n, where in each step exactly one part is replaced by a partition of itself into smaller parts (in weakly decreasing order).",
+  "id": "A327698",
+  "mentions": [
+    "A002846",
+    "A327643",
+    "A327697",
+    "A327699",
+    "A327702"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Define a k-th-power loop of length m>1 to be a circular permutation of the numbers 1 to m such that the sum of any two consecutive numbers is a perfect k-th-power; these numbers are the lengths of the possible k-th-power loops.",
+  "id": "A115418",
+  "mentions": [
+    "A071984",
+    "A112663"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

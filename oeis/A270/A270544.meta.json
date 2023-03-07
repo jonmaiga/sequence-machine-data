@@ -1,0 +1,19 @@
+{
+  "description": "Number of ordered pairs (i,j) with |i|, |j| <= n, |i * j| <= n, and i odd.",
+  "id": "A270544",
+  "mentions": [
+    "A226355",
+    "A270543"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

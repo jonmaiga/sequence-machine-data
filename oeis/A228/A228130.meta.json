@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that (18^n + 5^n)/23 is prime.",
+  "id": "A228130",
+  "mentions": [
+    "A057184",
+    "A128353",
+    "A225397",
+    "A227046"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

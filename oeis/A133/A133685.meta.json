@@ -1,0 +1,21 @@
+{
+  "description": "Let p = prime(n); then a(n) = (sum of prime factors of p+1) - (sum of prime factors of p-1). a(1) = 2 by convention.",
+  "id": "A133685",
+  "mentions": [
+    "A000040",
+    "A001414",
+    "A133578"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

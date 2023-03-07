@@ -1,0 +1,23 @@
+{
+  "description": "Primes of Erdős-Selfridge class 16-.",
+  "id": "A129250",
+  "mentions": [
+    "A056637",
+    "A081640",
+    "A081641",
+    "A129248",
+    "A129249"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

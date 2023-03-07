@@ -1,0 +1,23 @@
+{
+  "description": "For any composite number k take the polynomial defined by the product of the terms (x-d_i), where d_i are the aliquot parts of k. Integrate this polynomial from the minimum to the maximum value of d_i. Sequence lists the numbers k for which the integral is a positive integer.",
+  "id": "A324072",
+  "mentions": [
+    "A129521",
+    "A203612",
+    "A203613",
+    "A203614",
+    "A245284",
+    "A324073"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

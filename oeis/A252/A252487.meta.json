@@ -1,0 +1,22 @@
+{
+  "description": "Smallest k such that n^7 = a_1^7 + ... + a_k^7 and all a_i are positive integers less than n.",
+  "id": "A252487",
+  "mentions": [
+    "A002804",
+    "A161882",
+    "A161883",
+    "A161884",
+    "A161885",
+    "A252486"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:10",
+    "offset": 2,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

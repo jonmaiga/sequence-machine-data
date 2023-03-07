@@ -1,0 +1,24 @@
+{
+  "description": "Largest number k such that there exists an extensional acyclic digraph on n labeled nodes with k sources.",
+  "id": "A182220",
+  "mentions": [
+    "A000325",
+    "A000523",
+    "A001192",
+    "A036987",
+    "A083058",
+    "A182162",
+    "A347523"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

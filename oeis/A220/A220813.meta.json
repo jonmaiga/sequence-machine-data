@@ -1,0 +1,19 @@
+{
+  "description": "The elements of the set P3 in ascending order.",
+  "id": "A220813",
+  "mentions": [
+    "A220814",
+    "A220815"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

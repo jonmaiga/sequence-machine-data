@@ -1,0 +1,25 @@
+{
+  "description": "Fibonacci-Lucas prime twins: Prime Fibonacci numbers Fibonacci(k) such that Lucas numbers Lucas(k) = Fibonacci(k-1) + Fibonacci(k+1) are also prime.",
+  "id": "A121533",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A000204",
+    "A001605",
+    "A001606",
+    "A005478",
+    "A005479",
+    "A080327",
+    "A121534"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

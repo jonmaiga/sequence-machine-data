@@ -1,0 +1,18 @@
+{
+  "description": "(1, 1, 2, 3, 5, 7, 11, ...) convolved with (1, 0, 1, 2, 3, 5, 7, 11, ...); given A000041 = (1, 1, 2, 3, 5, 7, ...).",
+  "id": "A179906",
+  "mentions": [
+    "A000041"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

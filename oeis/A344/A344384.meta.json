@@ -1,0 +1,25 @@
+{
+  "description": "Prime numbers p such that p-1 or p+1 is a number of least prime signature (A025487).",
+  "id": "A344384",
+  "mentions": [
+    "A000668",
+    "A007505",
+    "A018239",
+    "A019434",
+    "A025487",
+    "A039687",
+    "A057705",
+    "A088054",
+    "A344385"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

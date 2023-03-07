@@ -1,0 +1,27 @@
+{
+  "description": "Number of divisors of n which are not multiples of 3 consecutive primes.",
+  "id": "A167447",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A000073",
+    "A001221",
+    "A002110",
+    "A046301",
+    "A073485",
+    "A073491",
+    "A166469",
+    "A300820"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:51",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

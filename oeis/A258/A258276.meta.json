@@ -1,0 +1,20 @@
+{
+  "description": "Balanced sphenic numbers (of order one): sphenic numbers (A007304) that are the average of the previous sphenic number and the following sphenic number.",
+  "id": "A258276",
+  "mentions": [
+    "A006562",
+    "A007304",
+    "A213025",
+    "A245289"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

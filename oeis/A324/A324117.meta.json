@@ -1,0 +1,27 @@
+{
+  "description": "Number of odd divisors in A156552(n): a(1) = 0, for n > 1, a(n) = A001227(A156552(n)) = A000005(A322993(n)).",
+  "id": "A324117",
+  "mentions": [
+    "A000005",
+    "A001227",
+    "A064989",
+    "A156552",
+    "A246277",
+    "A322813",
+    "A322993",
+    "A324105",
+    "A324115",
+    "A324118"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:49",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

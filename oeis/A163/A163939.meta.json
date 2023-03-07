@@ -1,0 +1,27 @@
+{
+  "description": "Triangle related to the o.g.f.s. of the right hand columns of A163934 (E(x,m=4,n)).",
+  "id": "A163939",
+  "mentions": [
+    "A000292",
+    "A000399",
+    "A000457",
+    "A163931",
+    "A163934",
+    "A163936",
+    "A163937",
+    "A163938"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:46",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

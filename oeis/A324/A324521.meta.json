@@ -1,0 +1,31 @@
+{
+  "description": "Numbers > 1 where the maximum prime index is less than or equal to the number of prime factors counted with multiplicity.",
+  "id": "A324521",
+  "mentions": [
+    "A001222",
+    "A003114",
+    "A056239",
+    "A061395",
+    "A064174",
+    "A106529",
+    "A112798",
+    "A256617",
+    "A324515",
+    "A324517",
+    "A324519",
+    "A324522",
+    "A324560",
+    "A324562"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

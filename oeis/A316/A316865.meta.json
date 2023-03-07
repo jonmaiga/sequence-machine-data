@@ -1,0 +1,31 @@
+{
+  "description": "Number of times 4 appears in decimal expansion of n.",
+  "id": "A316865",
+  "mentions": [
+    "A043505",
+    "A043506",
+    "A043507",
+    "A043508",
+    "A055641",
+    "A102683",
+    "A268643",
+    "A316863",
+    "A316864",
+    "A316866",
+    "A316867",
+    "A316868",
+    "A316869"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

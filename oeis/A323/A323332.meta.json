@@ -1,0 +1,21 @@
+{
+  "description": "The Dedekind psi function values of the powerful numbers, A001615(A001694(n)).",
+  "id": "A323332",
+  "mentions": [
+    "A001615",
+    "A001694",
+    "A013661",
+    "A082695",
+    "A112526"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:47",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

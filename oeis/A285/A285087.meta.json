@@ -1,0 +1,26 @@
+{
+  "description": "Numbers n such that the number of partitions of n^2-1 is prime.",
+  "id": "A285087",
+  "mentions": [
+    "A000040",
+    "A000041",
+    "A046063",
+    "A072213",
+    "A284594",
+    "A285086",
+    "A285088"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

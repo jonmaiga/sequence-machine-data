@@ -1,0 +1,20 @@
+{
+  "description": "Number of permutations of [n] having exactly two fixed points and avoiding the patterns 123 and 231.",
+  "id": "A114209",
+  "mentions": [
+    "A008731",
+    "A114208",
+    "A114210"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

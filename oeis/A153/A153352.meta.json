@@ -1,0 +1,19 @@
+{
+  "description": "K-bit primes p such that p-2^i and p+2^i are composite for 0<=i<=K-1.",
+  "id": "A153352",
+  "mentions": [
+    "A065092",
+    "A255967"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

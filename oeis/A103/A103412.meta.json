@@ -1,0 +1,22 @@
+{
+  "description": "Consider smallest m such that m^2 = x_1^2 + ... + x_n^2 with 0 < x_1 < ... < x_n. Sequence gives value of x_n for lexicographically least {x_1,...,x_n}.",
+  "id": "A103412",
+  "mentions": [
+    "A018935",
+    "A018936",
+    "A018937",
+    "A103411",
+    "A103413",
+    "A103414"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

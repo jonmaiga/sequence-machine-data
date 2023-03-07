@@ -1,0 +1,21 @@
+{
+  "description": "Numbers from Bhargava's prime-universality criterion theorem",
+  "id": "A154363",
+  "mentions": [
+    "A030050",
+    "A030051",
+    "A116582"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

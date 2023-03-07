@@ -1,0 +1,19 @@
+{
+  "description": "Numbers in array A327259 that do not have a unique decomposition into numbers of A327261.",
+  "id": "A348824",
+  "mentions": [
+    "A327259",
+    "A327261",
+    "A340747"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

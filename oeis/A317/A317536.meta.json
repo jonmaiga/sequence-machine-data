@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of 1/(1 + 1/(1 - x) - Product_{k>=1} (1 + x^k)).",
+  "id": "A317536",
+  "mentions": [
+    "A000009",
+    "A050342",
+    "A089259",
+    "A111133",
+    "A270995",
+    "A279785",
+    "A299106",
+    "A304969",
+    "A305651",
+    "A317535"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:36",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

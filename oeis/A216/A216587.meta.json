@@ -1,0 +1,22 @@
+{
+  "description": "Preimage of n for A216556 (i.e., concatenation of digits of a(n), each increased by 1, yields n), -1 if there is none.",
+  "id": "A216587",
+  "mentions": [
+    "A216556",
+    "A216557",
+    "A216589"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

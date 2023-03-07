@@ -1,0 +1,22 @@
+{
+  "description": "First lower diagonal of Parker's triangle A047812.",
+  "id": "A335323",
+  "mentions": [
+    "A007042",
+    "A007043",
+    "A007044",
+    "A007045",
+    "A047812",
+    "A051643"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

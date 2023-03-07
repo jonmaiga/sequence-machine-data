@@ -1,0 +1,17 @@
+{
+  "description": "Omit first term from A160534 and divide by 7.",
+  "id": "A160535",
+  "mentions": [
+    "A160534"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

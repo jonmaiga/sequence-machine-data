@@ -1,0 +1,35 @@
+{
+  "description": "Numbers that require exactly five iterations to reach a fixed point under the x -> A181819(x) map.",
+  "id": "A182855",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A006939",
+    "A059404",
+    "A062770",
+    "A071625",
+    "A085987",
+    "A118914",
+    "A179642",
+    "A181819",
+    "A181821",
+    "A182850",
+    "A182851",
+    "A182853",
+    "A182854",
+    "A182857",
+    "A323014",
+    "A323022",
+    "A323023"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

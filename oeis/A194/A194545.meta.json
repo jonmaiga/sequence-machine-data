@@ -1,0 +1,21 @@
+{
+  "description": "Total sum of nonprime parts in all partitions of n.",
+  "id": "A194545",
+  "mentions": [
+    "A018252",
+    "A066186",
+    "A073118",
+    "A194544"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

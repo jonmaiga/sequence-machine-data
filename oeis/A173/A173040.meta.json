@@ -1,0 +1,17 @@
+{
+  "description": "Single primes having no representation of the form n-+d(n), where d(n) is the number of divisors of n.",
+  "id": "A173040",
+  "mentions": [
+    "A000005"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

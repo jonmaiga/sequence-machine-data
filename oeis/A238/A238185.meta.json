@@ -1,0 +1,23 @@
+{
+  "description": "Primes p such that prime(prime(p^2)) + 2 is also prime.",
+  "id": "A238185",
+  "mentions": [
+    "A000040",
+    "A234695",
+    "A236119",
+    "A236687",
+    "A236688",
+    "A237283"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "a(n)=A179387(n)+1",
+  "id": "A180139",
+  "mentions": [
+    "A179107",
+    "A179108",
+    "A179109",
+    "A179386",
+    "A179387",
+    "A179388"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

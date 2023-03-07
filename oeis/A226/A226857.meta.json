@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that are both the sum of two Fibonacci numbers and the product of two Fibonacci numbers.",
+  "id": "A226857",
+  "mentions": [
+    "A049997",
+    "A059389"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

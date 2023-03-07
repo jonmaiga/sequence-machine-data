@@ -1,0 +1,32 @@
+{
+  "description": "Numerators of the BG1[ -5,n] coefficients of the BG1 matrix",
+  "id": "A162443",
+  "mentions": [
+    "A000364",
+    "A001790",
+    "A001803",
+    "A001818",
+    "A002595",
+    "A008956",
+    "A046161",
+    "A055786",
+    "A160480",
+    "A160485",
+    "A162444",
+    "A162446",
+    "A162448"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

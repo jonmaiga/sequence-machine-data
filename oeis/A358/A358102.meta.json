@@ -1,0 +1,30 @@
+{
+  "description": "Numbers of the form prime(w)*prime(x)*prime(y) with w >= x >= y such that 2w = 3x + 4y.",
+  "id": "A358102",
+  "mentions": [
+    "A000009",
+    "A000040",
+    "A000041",
+    "A000720",
+    "A001221",
+    "A001222",
+    "A003963",
+    "A008676",
+    "A056239",
+    "A215366",
+    "A296150",
+    "A318283",
+    "A357489",
+    "A357849"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

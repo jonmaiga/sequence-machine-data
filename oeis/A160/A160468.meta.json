@@ -1,0 +1,26 @@
+{
+  "description": "Triangle of polynomial coefficients related to the o.g.f.s of the RES1 polynomials.",
+  "id": "A160468",
+  "mentions": [
+    "A001316",
+    "A008292",
+    "A048896",
+    "A083061",
+    "A094665",
+    "A117972",
+    "A160464",
+    "A160469"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

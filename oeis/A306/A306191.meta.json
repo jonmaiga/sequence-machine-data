@@ -1,0 +1,18 @@
+{
+  "description": "T(n,k) is a triangular array read by rows. Let S_n act on the set of size two subsets of {1,2,...,n}. T(n,k) is the number of permutations in S_n that fix exactly k size two subsets, n >= 1, 0 <= k <= binomial(n,2).",
+  "id": "A306191",
+  "mentions": [
+    "A137482"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

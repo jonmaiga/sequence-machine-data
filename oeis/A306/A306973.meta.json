@@ -1,0 +1,19 @@
+{
+  "description": "Numerator of best rational approximation x/y of sqrt(k), y<=k, with k given by A306972. The corresponding denominators are given in A306974.",
+  "id": "A306973",
+  "mentions": [
+    "A306972",
+    "A306974"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

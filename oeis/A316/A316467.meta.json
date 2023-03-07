@@ -1,0 +1,32 @@
+{
+  "description": "Matula-Goebel numbers of locally stable rooted identity trees, meaning no branch is a subset of any other branch of the same root.",
+  "id": "A316467",
+  "mentions": [
+    "A000081",
+    "A004111",
+    "A007097",
+    "A276625",
+    "A277098",
+    "A285572",
+    "A285573",
+    "A302796",
+    "A303362",
+    "A304713",
+    "A316468",
+    "A316469",
+    "A316471",
+    "A316474",
+    "A316476",
+    "A316494"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

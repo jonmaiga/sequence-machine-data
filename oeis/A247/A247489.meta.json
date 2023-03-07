@@ -1,0 +1,25 @@
+{
+  "description": "Square array read by antidiagonals: A(k, n) = hypergeometric(P, Q, -k^k/(k-1)^(k-1)) rounded to the nearest integer, P = [(j-n)/k, j=0..k-1] and Q = [(j-n)/(k-1), j=0..k-2], k>=1, n>=0.",
+  "id": "A247489",
+  "mentions": [
+    "A000045",
+    "A000079",
+    "A000930",
+    "A003269",
+    "A003520",
+    "A005708",
+    "A005709",
+    "A005710"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

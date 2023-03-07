@@ -1,0 +1,18 @@
+{
+  "description": "Odd numbers k > 1 such that A005179(k-1) > A005179(k) < A005179(k+1).",
+  "id": "A328897",
+  "mentions": [
+    "A005179",
+    "A339863"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

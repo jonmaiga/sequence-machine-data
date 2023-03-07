@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of oriented series-parallel networks whose multigraph has n edges and k interior vertices, 0 <= k < n.",
+  "id": "A339231",
+  "mentions": [
+    "A002623",
+    "A003430",
+    "A339228",
+    "A339230",
+    "A339232"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

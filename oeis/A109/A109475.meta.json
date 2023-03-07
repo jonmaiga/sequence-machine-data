@@ -1,0 +1,17 @@
+{
+  "description": "G.f.: square root of weight enumerator of [16,7,6] DEC extended BCH code (cf. A085517).",
+  "id": "A109475",
+  "mentions": [
+    "A085517"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "A modified Heron sequence starting from 1, 2.",
+  "id": "A134588",
+  "mentions": [
+    "A134587"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

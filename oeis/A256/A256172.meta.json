@@ -1,0 +1,21 @@
+{
+  "description": "Primes of the form 6*p + 1 with p prime that are also of the form x^2 + 27*y^2 and congruent to 7 mod 24.",
+  "id": "A256172",
+  "mentions": [
+    "A014752",
+    "A051644",
+    "A107006",
+    "A122094"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

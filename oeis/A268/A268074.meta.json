@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X n nonnegative integer arrays with new values introduced in each row and column in sequential order starting with zero.",
+  "id": "A268074",
+  "mentions": [
+    "A268079"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

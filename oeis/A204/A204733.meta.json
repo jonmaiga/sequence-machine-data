@@ -1,0 +1,17 @@
+{
+  "description": "Number of (n+1) X (n+1) 0..1 arrays with rows and columns of permanents of all 2 X 2 subblocks lexicographically nondecreasing, and all 2 X 2 permanents nonzero.",
+  "id": "A204733",
+  "mentions": [
+    "A204740"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

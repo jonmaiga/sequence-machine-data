@@ -1,0 +1,17 @@
+{
+  "description": "Composite numbers such that m^(2^v(k-1)+1) == m (mod k) has exactly 2^v(k-1) + 1 solutions modulo k, where v(k) = A007814(k) is the 2-adic valuation of k.",
+  "id": "A345329",
+  "mentions": [
+    "A007814"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

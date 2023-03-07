@@ -1,0 +1,22 @@
+{
+  "description": "Primes that use all of the prime digits 2,3,5,7 exactly once.",
+  "id": "A134966",
+  "mentions": [
+    "A108419",
+    "A124674",
+    "A177275"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

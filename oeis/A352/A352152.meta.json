@@ -1,0 +1,22 @@
+{
+  "description": "Reverse each run of consecutive nonzero digits in the decimal expansion of n.",
+  "id": "A352152",
+  "mentions": [
+    "A321474",
+    "A333659",
+    "A336956"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

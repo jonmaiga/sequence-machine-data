@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 2n - 1 - A284776(n).",
+  "id": "A284817",
+  "mentions": [
+    "A284775",
+    "A284776",
+    "A284777",
+    "A284818",
+    "A284819"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:56",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

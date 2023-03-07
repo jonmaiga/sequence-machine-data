@@ -1,0 +1,18 @@
+{
+  "description": "Powers of 2 or of 3 in order as occurring in the two ways of parenthesizing the terms in A006895.",
+  "id": "A227928",
+  "mentions": [
+    "A006895",
+    "A006899"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

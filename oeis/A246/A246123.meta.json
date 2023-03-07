@@ -1,0 +1,17 @@
+{
+  "description": "Number of inequivalent n X n matrices with entries from [7], where equivalence means permutations of rows or columns or the symbol set.",
+  "id": "A246123",
+  "mentions": [
+    "A242095"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

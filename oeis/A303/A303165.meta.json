@@ -1,0 +1,20 @@
+{
+  "description": "Sum of the squarefree differences |q-p| of the parts in the partitions of n into two distinct parts (p,q) where p < q.",
+  "id": "A303165",
+  "mentions": [
+    "A008683",
+    "A303205"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

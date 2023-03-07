@@ -1,0 +1,22 @@
+{
+  "description": "Least k such that binomial(k, 2) >= binomial(2*n, n).",
+  "id": "A270440",
+  "mentions": [
+    "A000217",
+    "A000984",
+    "A003015",
+    "A003016",
+    "A100967"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:33",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

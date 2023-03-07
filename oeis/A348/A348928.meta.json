@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = gcd(n, A003958(n)), where A003958 is multiplicative with a(p^e) = (p-1)^e.",
+  "id": "A348928",
+  "mentions": [
+    "A003958",
+    "A085731",
+    "A126864",
+    "A126865",
+    "A276086",
+    "A322582",
+    "A348929",
+    "A348998"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

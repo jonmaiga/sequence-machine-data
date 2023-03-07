@@ -1,0 +1,28 @@
+{
+  "description": "Numbers whose distinct prime indices have no consecutive divisible parts.",
+  "id": "A328674",
+  "mentions": [
+    "A056239",
+    "A112798",
+    "A316476",
+    "A318729",
+    "A328171",
+    "A328335",
+    "A328336",
+    "A328460",
+    "A328593",
+    "A328598",
+    "A328603",
+    "A328675"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle T(n,k) read by rows: \"quotient trajectories\" in reduced Collatz sequences; i.e., T(n,k) = q-value(A256598(n,k)) where q-value(z) = (z - A259663(m,j))/2^(m+j) and (m,j) is the unique pair such that z == A259663(m,j) (mod 2^(m+j)). (See Comments for definitions.)",
+  "id": "A328037",
+  "mentions": [
+    "A256598",
+    "A259663"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

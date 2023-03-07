@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = n + floor( n^2/2 + n^3/3 ).",
+  "id": "A236773",
+  "mentions": [
+    "A042965",
+    "A074148",
+    "A131193",
+    "A181982",
+    "A236771",
+    "A236772"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:48:33",
+    "offset": 0,
+    "size": 44,
+    "source": "joeis"
+  }
+}

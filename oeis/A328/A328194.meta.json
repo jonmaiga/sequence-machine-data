@@ -1,0 +1,28 @@
+{
+  "description": "Maximum length of a divisibility chain of consecutive nontrivial divisors of n (greater than 1 and less than n).",
+  "id": "A328194",
+  "mentions": [
+    "A000005",
+    "A033676",
+    "A055874",
+    "A060775",
+    "A163870",
+    "A328026",
+    "A328028",
+    "A328161",
+    "A328162",
+    "A328171",
+    "A328189",
+    "A328195"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

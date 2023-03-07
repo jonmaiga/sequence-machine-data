@@ -1,0 +1,22 @@
+{
+  "description": "Locations of the increasing peak values of the integral of the absolute value of the Riemann zeta function between successive zeros on the critical line. This can also be defined in terms of the Z function; if t and s are successive zeros of a renormalized Z function, z(x) = Z(2 Pi x/log(2)), then take the integral between t and s of |z(x)|. For each successively higher value of this integral, the corresponding term of the integer sequence is r = (t+s)/2 rounded to the nearest integer.",
+  "id": "A117538",
+  "mentions": [
+    "A054540",
+    "A117536",
+    "A117537",
+    "A117539"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

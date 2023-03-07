@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the sum of the first n factorials in decreasing powers from n to 1. a(n) = Sum_{k = 1..n} k!^(n-k+1).",
+  "id": "A121945",
+  "mentions": [
+    "A003101"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

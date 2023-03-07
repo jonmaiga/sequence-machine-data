@@ -1,0 +1,17 @@
+{
+  "description": "(0,1)-sequence where n-th run has length n^2.",
+  "id": "A161382",
+  "mentions": [
+    "A161385"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:43",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

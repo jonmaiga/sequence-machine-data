@@ -1,0 +1,19 @@
+{
+  "description": "Triangle T(n, k) = Sum_{i=1..n} Stirling2(n,i) * abs(Stirling1(i-1,k-1)), n >= 1, 1 <= k <= n.",
+  "id": "A320280",
+  "mentions": [
+    "A008275",
+    "A008277"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

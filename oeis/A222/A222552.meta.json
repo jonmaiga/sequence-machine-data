@@ -1,0 +1,18 @@
+{
+  "description": "Number of (n+5)X1 arrays of occupancy after each element moves up to +-5 places but not 0",
+  "id": "A222552",
+  "mentions": [
+    "A222555"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

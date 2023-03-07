@@ -1,0 +1,23 @@
+{
+  "description": "Smallest of 7 consecutive numbers each divisible by a cube.",
+  "id": "A271447",
+  "mentions": [
+    "A046099",
+    "A068140",
+    "A122692",
+    "A271443",
+    "A271444",
+    "A271445",
+    "A271446"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:35",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Squarefree k such that 1/2 - phi(k)/k is positive and minimal for k with gpf(k) = prime(n).",
+  "id": "A325237",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A002110",
+    "A005117",
+    "A006093",
+    "A006530",
+    "A038110",
+    "A060753",
+    "A067255",
+    "A307540",
+    "A325236"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

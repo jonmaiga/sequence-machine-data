@@ -1,0 +1,20 @@
+{
+  "description": "Numerator of the coefficient of z^(2n) in the Stirling-like asymptotic expansion of the hyperfactorial function A002109.",
+  "id": "A143475",
+  "mentions": [
+    "A002109",
+    "A143476"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

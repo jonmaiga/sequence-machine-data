@@ -1,0 +1,25 @@
+{
+  "description": "Positive integers n such that every element in the ring of integers modulo n can be written as the sum of two squares modulo n.",
+  "id": "A240370",
+  "mentions": [
+    "A004613",
+    "A053443",
+    "A057521",
+    "A064533",
+    "A065338",
+    "A192450",
+    "A193304",
+    "A240109",
+    "A243379"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:57",
+    "offset": 1,
+    "size": 109,
+    "source": "oeis-bfile"
+  }
+}

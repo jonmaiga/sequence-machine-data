@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest number whose Collatz ('3x+1') trajectory crosses its initial value exactly n times.",
+  "id": "A301937",
+  "mentions": [
+    "A006370",
+    "A070165",
+    "A304030"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

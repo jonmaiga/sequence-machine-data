@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = prime(3^(n + 1)) - prime(3^n).",
+  "id": "A135371",
+  "mentions": [
+    "A000040",
+    "A038833",
+    "A110896",
+    "A135373"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

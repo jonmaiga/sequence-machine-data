@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = min(d(n), d(A225546(n))), where d gives the number of divisors of n, A000005.",
+  "id": "A331308",
+  "mentions": [
+    "A000005",
+    "A225546",
+    "A331288",
+    "A331309",
+    "A331592"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

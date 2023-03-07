@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Fibonacci(n+2) + n - 2.",
+  "id": "A255875",
+  "mentions": [
+    "A232896"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

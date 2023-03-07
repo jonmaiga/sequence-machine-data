@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that the average of the divisors of k and k+1 is the same.",
+  "id": "A238380",
+  "mentions": [
+    "A002961"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

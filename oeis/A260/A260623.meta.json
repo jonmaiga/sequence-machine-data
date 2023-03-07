@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the real solution x to zeta(x) - primezeta(x) = 2.",
+  "id": "A260623",
+  "mentions": [
+    "A243350"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

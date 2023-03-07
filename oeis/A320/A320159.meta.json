@@ -1,0 +1,19 @@
+{
+  "description": "Number of positive integers x < prime(n)/2 such that (x^2 mod prime(n)) > (4*x^2 mod prime(n)).",
+  "id": "A320159",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A319311"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

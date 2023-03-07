@@ -1,0 +1,23 @@
+{
+  "description": "Sum of (each digit of n raised to the power (number of digits in n)).",
+  "id": "A101337",
+  "mentions": [
+    "A005188",
+    "A055642",
+    "A179239",
+    "A306360"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

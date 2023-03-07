@@ -1,0 +1,20 @@
+{
+  "description": "Number of distinct length-n blocks (a.k.a. subword complexity) of the characteristic sequence of the prime numbers A010051.",
+  "id": "A280417",
+  "mentions": [
+    "A010051",
+    "A023192",
+    "A280418"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

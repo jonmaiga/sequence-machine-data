@@ -1,0 +1,20 @@
+{
+  "description": "Least number k having n unordered partitions into a nonzero Fibonacci number and a prime.",
+  "id": "A169790",
+  "mentions": [
+    "A005478",
+    "A168382",
+    "A169791"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

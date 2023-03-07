@@ -1,0 +1,40 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of integer compositions of n with skew-alternating sum k, where k ranges from -n to n in steps of 2.",
+  "id": "A357646",
+  "mentions": [
+    "A001700",
+    "A011782",
+    "A029862",
+    "A035363",
+    "A035544",
+    "A097805",
+    "A177787",
+    "A344651",
+    "A357136",
+    "A357621",
+    "A357623",
+    "A357630",
+    "A357631",
+    "A357634",
+    "A357637",
+    "A357638",
+    "A357639",
+    "A357641",
+    "A357643",
+    "A357644",
+    "A357645",
+    "A357704",
+    "A357705"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

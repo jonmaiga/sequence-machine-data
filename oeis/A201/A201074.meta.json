@@ -1,0 +1,19 @@
+{
+  "description": "Initial primes in prime 5-tuples (p, p+2, p+6, p+8, p+12) preceding the maximal gaps in A201073.",
+  "id": "A201074",
+  "mentions": [
+    "A022006",
+    "A201073",
+    "A233432"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:21",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "description": "Number of parts in the symmetric representation of antisigma(n).",
+  "id": "A342344",
+  "mentions": [
+    "A000203",
+    "A000217",
+    "A000290",
+    "A004125",
+    "A024816",
+    "A024916",
+    "A153485",
+    "A174973",
+    "A236104",
+    "A237270",
+    "A237271",
+    "A237593",
+    "A238443",
+    "A239660",
+    "A239931",
+    "A239932",
+    "A239933",
+    "A239934",
+    "A244048",
+    "A262259"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k satisfying g(k - g(k)) > g(k) = greatest prime divisor of k.",
+  "id": "A232724",
+  "mentions": [
+    "A000040",
+    "A006530",
+    "A233341",
+    "A233342"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

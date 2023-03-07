@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = [x^(n+1)*y^n/((n+1)!*n!)] (cosh(x)*cosh(y) + sinh(x) + sinh(y)) / (1 - sinh(x)*sinh(y)), for n >= 0.",
+  "id": "A322196",
+  "mentions": [
+    "A322190",
+    "A322195"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

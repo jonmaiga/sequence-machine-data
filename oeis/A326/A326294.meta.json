@@ -1,0 +1,31 @@
+{
+  "description": "Number of connected simple graphs on a subset of {1..n} with no crossing or nesting edges.",
+  "id": "A326294",
+  "mentions": [
+    "A001349",
+    "A006125",
+    "A052161",
+    "A054726",
+    "A117662",
+    "A136653",
+    "A324169",
+    "A326210",
+    "A326244",
+    "A326293",
+    "A326329",
+    "A326339",
+    "A326340"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

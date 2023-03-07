@@ -1,0 +1,20 @@
+{
+  "description": "Number of permutations of n elements divided by the number of 8-ary heaps on n+1 elements.",
+  "id": "A273736",
+  "mentions": [
+    "A000142",
+    "A273695",
+    "A273730"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

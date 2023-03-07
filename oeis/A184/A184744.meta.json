@@ -1,0 +1,18 @@
+{
+  "description": "floor(nr+h), where r=1+1/e, h=1/2; complement of A184745.",
+  "id": "A184744",
+  "mentions": [
+    "A184745"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:22:59",
+    "offset": 1,
+    "size": 120,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Least number k such that d(Sum_{j=0..n}{k-j}) = d(Sum_{j=0..n}{k+j}).",
+  "id": "A276320",
+  "mentions": [
+    "A000005",
+    "A276318",
+    "A276319"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

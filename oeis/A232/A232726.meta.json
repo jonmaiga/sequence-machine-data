@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that the concatenation 123456789p is prime.",
+  "id": "A232726",
+  "mentions": [
+    "A104914",
+    "A104915",
+    "A232725"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:34:49",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

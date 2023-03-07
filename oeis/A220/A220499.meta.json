@@ -1,0 +1,25 @@
+{
+  "description": "Number of line segments in an H tree with n levels that have no correspondence with the toothpicks of the toothpick structure of A139250 after n-th stage.",
+  "id": "A220499",
+  "mentions": [
+    "A000079",
+    "A000225",
+    "A139250",
+    "A139251",
+    "A152978",
+    "A152980",
+    "A153000",
+    "A153006"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

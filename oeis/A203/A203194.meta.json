@@ -1,0 +1,17 @@
+{
+  "description": "(n-1)-st elementary symmetric function of the first n terms of (1,2,6,20,70,252,...)=A000984.",
+  "id": "A203194",
+  "mentions": [
+    "A000984"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 14:52:47",
+    "offset": 1,
+    "size": 13,
+    "source": "joeis"
+  }
+}

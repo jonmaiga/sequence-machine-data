@@ -1,0 +1,18 @@
+{
+  "description": "Number of inequivalent n X n binary matrices with total support, where equivalence means permutations of rows or columns.",
+  "id": "A326343",
+  "mentions": [
+    "A326342"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

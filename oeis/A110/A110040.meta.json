@@ -1,0 +1,25 @@
+{
+  "description": "Number of {2,3}-regular graphs, i.e., labeled simple graphs (no multi-edges or loops) on n vertices, each of degree 2 or 3.",
+  "id": "A110040",
+  "mentions": [
+    "A000085",
+    "A000986",
+    "A001205",
+    "A002829",
+    "A110039",
+    "A110041",
+    "A139670"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

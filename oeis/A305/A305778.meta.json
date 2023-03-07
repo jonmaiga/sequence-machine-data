@@ -1,0 +1,19 @@
+{
+  "description": "Number of set partitions of [n] with alternating parity of elements and exactly four blocks.",
+  "id": "A305778",
+  "mentions": [
+    "A274581"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 4,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Square array T(n,k) (n >= 1, k >= 1) read by antidiagonals: first row and column are A085090, other entries equal sum of entries in first row and first column.",
+  "id": "A317745",
+  "mentions": [
+    "A085090"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "a(n) is the hafnian of the 2n X 2n symmetric Pascal matrix defined by M[i, j] = A007318(i + j - 2, i - 2).",
+  "id": "A357419",
+  "mentions": [
+    "A006134",
+    "A007318",
+    "A095833",
+    "A202038",
+    "A320845",
+    "A336114",
+    "A336286",
+    "A336400",
+    "A338456",
+    "A356481",
+    "A356482",
+    "A356483",
+    "A356484"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

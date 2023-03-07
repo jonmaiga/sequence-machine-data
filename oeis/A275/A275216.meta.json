@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows, coefficients of the q-binomials (Gaussian binomial coefficients).",
+  "id": "A275216",
+  "mentions": [
+    "A007318"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 98,
+    "source": "oeis-entry"
+  }
+}

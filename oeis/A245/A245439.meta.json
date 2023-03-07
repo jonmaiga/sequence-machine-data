@@ -1,0 +1,22 @@
+{
+  "description": "The number of ways in which n is equal to the sum of digits taken from the numbers <= n.",
+  "id": "A245439",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A241754",
+    "A245438"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

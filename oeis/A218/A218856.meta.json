@@ -1,0 +1,20 @@
+{
+  "description": "Real part of the arithmetic derivative for the triangle of Gaussian integers z = r + i*I.",
+  "id": "A218856",
+  "mentions": [
+    "A099379",
+    "A099380",
+    "A218857"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:36",
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

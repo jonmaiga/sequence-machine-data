@@ -1,0 +1,20 @@
+{
+  "description": "Primes with exactly eight 8's.",
+  "id": "A178557",
+  "mentions": [
+    "A038618",
+    "A178550",
+    "A178558"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

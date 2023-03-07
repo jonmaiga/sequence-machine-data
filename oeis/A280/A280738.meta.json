@@ -1,0 +1,23 @@
+{
+  "description": "After S(n)=A280864(n) has been computed, let p(n) = product of distinct primes shared by S(n-1) and S(n); let q(n) = product of distinct primes in S(n) but not in S(n-1); and let r(n) = smallest number not yet in S. Sequence gives p(n).",
+  "id": "A280738",
+  "mentions": [
+    "A005117",
+    "A280740",
+    "A280741",
+    "A280742",
+    "A280743",
+    "A280744",
+    "A280864"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

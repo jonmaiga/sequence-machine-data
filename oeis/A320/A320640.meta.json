@@ -1,0 +1,20 @@
+{
+  "description": "Continued fraction of (C + sqrt(4 + C^2))/2, where C is the Catalan constant.",
+  "id": "A320640",
+  "mentions": [
+    "A006752",
+    "A188640",
+    "A320639"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of 2/(1 + e_q(2x,q)) where e_q(2x,q) is the q-exponential of 2x, as a triangle of coefficients read by rows.",
+  "id": "A152805",
+  "mentions": [
+    "A000182",
+    "A152800",
+    "A152806",
+    "A152807"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

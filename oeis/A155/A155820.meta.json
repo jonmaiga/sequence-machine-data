@@ -1,0 +1,17 @@
+{
+  "description": "Primes of the form prime(k)^2 + 2*prime(k-1) where prime(k) is the k-th prime number.",
+  "id": "A155820",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

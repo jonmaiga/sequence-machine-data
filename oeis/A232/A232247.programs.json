@@ -1,0 +1,128 @@
+{
+  "oi": 232247,
+  "ps": [
+    {
+      "d": "2021-11-01",
+      "ix": "de[acot(acos(0))]",
+      "mt": 50,
+      "px": [
+        "0",
+        "acos",
+        "acot",
+        "de"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "de[acot(asin(1))]",
+      "mt": 50,
+      "px": [
+        "1",
+        "asin",
+        "acot",
+        "de"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "de[atan(2/π)]",
+      "mt": 50,
+      "px": [
+        "2",
+        "π",
+        "/",
+        "atan",
+        "de"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "de[acot(π/2)]",
+      "mt": 50,
+      "px": [
+        "π",
+        "2",
+        "/",
+        "acot",
+        "de"
+      ]
+    },
+    {
+      "d": "2022-02-16",
+      "ix": "limit[acot(acos(char[1]))]",
+      "mt": 50,
+      "px": [
+        "1",
+        "char",
+        "acos",
+        "acot",
+        "limit"
+      ]
+    },
+    {
+      "d": "2022-10-05",
+      "ix": "limit[acot(acot(char[1]))]",
+      "mt": 50,
+      "px": [
+        "1",
+        "char",
+        "acot",
+        "acot",
+        "limit"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "de[asin(cos(atan(acos(0))))]",
+      "mt": 50,
+      "px": [
+        "0",
+        "acos",
+        "atan",
+        "cos",
+        "asin",
+        "de"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "de[acos(sin(atan(acos(0))))]",
+      "mt": 50,
+      "px": [
+        "0",
+        "acos",
+        "atan",
+        "sin",
+        "acos",
+        "de"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "de[asin(cos(atan(asin(1))))]",
+      "mt": 50,
+      "px": [
+        "1",
+        "asin",
+        "atan",
+        "cos",
+        "asin",
+        "de"
+      ]
+    },
+    {
+      "d": "2021-11-18",
+      "ix": "de[asin(1)-atan(asin(1))]",
+      "mt": 50,
+      "px": [
+        "1",
+        "asin",
+        "1",
+        "asin",
+        "atan",
+        "sub",
+        "de"
+      ]
+    }
+  ]
+}

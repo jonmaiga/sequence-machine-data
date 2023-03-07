@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least k such that [mu(k), mu(k+1), ..., mu(k+n-1)] forms a palindrome, where mu = A008683.",
+  "id": "A293041",
+  "mentions": [
+    "A008683"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

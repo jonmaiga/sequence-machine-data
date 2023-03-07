@@ -1,0 +1,19 @@
+{
+  "description": "The hyper-Wiener index of the polyphenylene dendrimer G[n] defined pictorially in the N. E. Arif et al. reference.",
+  "id": "A224436",
+  "mentions": [
+    "A224435"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

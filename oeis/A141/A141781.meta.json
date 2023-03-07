@@ -1,0 +1,21 @@
+{
+  "description": "Composite terms of A120292: a(n) = A120292(A141779(n)).",
+  "id": "A141781",
+  "mentions": [
+    "A120292",
+    "A125716",
+    "A141779",
+    "A141780"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

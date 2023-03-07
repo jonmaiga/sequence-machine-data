@@ -1,0 +1,20 @@
+{
+  "description": "Positive integers n where (the largest divisor of n that is <= sqrt(n)) divides (the smallest divisor of n that is >= sqrt(n)).",
+  "id": "A166401",
+  "mentions": [
+    "A033676",
+    "A033677",
+    "A166402",
+    "A166403"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:49",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

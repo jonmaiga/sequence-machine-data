@@ -1,0 +1,22 @@
+{
+  "description": "Positions of 2 in A101666.",
+  "id": "A287375",
+  "mentions": [
+    "A101666",
+    "A287372",
+    "A287373",
+    "A287374"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:59",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

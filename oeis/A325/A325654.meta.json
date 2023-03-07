@@ -1,0 +1,22 @@
+{
+  "description": "Numbers m with a divisor d satisfying sigma(d) = 2*m.",
+  "id": "A325654",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A007691",
+    "A054030",
+    "A323652",
+    "A325637"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

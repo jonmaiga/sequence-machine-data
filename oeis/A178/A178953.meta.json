@@ -1,0 +1,20 @@
+{
+  "description": "Indices n such that 2*prime(n) cannot be written as a sum of two distinct prime(n-k) and prime(n+k).",
+  "id": "A178953",
+  "mentions": [
+    "A071681",
+    "A178609",
+    "A178954"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Use the Möbius (or Moebius) function mu(n) (A008683) to define a walk on a square lattice. A value of 1 is a move to the right, a value of -1 is a move to the left, and a value of 0 is a move either up or down depending on whether the previous nonzero value was +1 or -1. Sequence lists moves which reach a point that is further from the origin than any earlier move.",
+  "id": "A333384",
+  "mentions": [
+    "A002321",
+    "A008683"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

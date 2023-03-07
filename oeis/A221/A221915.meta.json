@@ -1,0 +1,20 @@
+{
+  "description": "Array for a certain labeled Morse code, recorded in standard order.",
+  "id": "A221915",
+  "mentions": [
+    "A000045",
+    "A084950"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

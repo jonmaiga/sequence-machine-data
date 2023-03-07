@@ -1,0 +1,23 @@
+{
+  "description": "Numbers whose binary representation encodes a polynomial over GF(2) with the property that at least one of its irreducible factors is encoded by a composite number.",
+  "id": "A236838",
+  "mentions": [
+    "A048720",
+    "A066247",
+    "A091214",
+    "A236834",
+    "A236839",
+    "A236848",
+    "A236850"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "If n is the k-th squarefree number then a(n) = k, otherwise a(n) = 0.",
+  "id": "A100112",
+  "mentions": [
+    "A005117",
+    "A008966",
+    "A013928"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:50",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

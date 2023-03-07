@@ -1,0 +1,21 @@
+{
+  "description": "Smallest side of integer-sided primitive triangles whose angles A < B < C are in arithmetic order.",
+  "id": "A335894",
+  "mentions": [
+    "A335893",
+    "A335895",
+    "A335896",
+    "A335897"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

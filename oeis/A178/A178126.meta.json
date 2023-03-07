@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n, k) = coefficients of (n+1)!*(binomial(x+n+1, n+1) - binomial(x, n+1)), read by rows.",
+  "id": "A178126",
+  "mentions": [
+    "A048994",
+    "A139167"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

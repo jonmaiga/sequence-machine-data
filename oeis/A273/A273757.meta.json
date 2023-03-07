@@ -1,0 +1,18 @@
+{
+  "description": "Least prime factor of A272935(n).",
+  "id": "A273757",
+  "mentions": [
+    "A020639",
+    "A272935"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

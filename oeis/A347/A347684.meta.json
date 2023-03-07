@@ -1,0 +1,23 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) (n>=1, k>=1) = f(n,k), where f(x,y) = x*red_inv(x,y) + y*(red_inv(y,x) if gcd(x,y)=1, or 0 if gcd(x,y)>1, and red_inv is defined in the comments.",
+  "id": "A347684",
+  "mentions": [
+    "A147666",
+    "A344005",
+    "A347681",
+    "A347682",
+    "A347683",
+    "A347687"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:21",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

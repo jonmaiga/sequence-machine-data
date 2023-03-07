@@ -1,0 +1,21 @@
+{
+  "description": "Number of lattice paths from (0,0) to (n,n) consisting of steps U=(1,1), H=(1,0) and S=(0,1) such that the first step leaving the diagonal (if any) is an H step and the last step joining the diagonal (if any) is a S step.",
+  "id": "A226995",
+  "mentions": [
+    "A001850",
+    "A006318",
+    "A226994",
+    "A226996"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

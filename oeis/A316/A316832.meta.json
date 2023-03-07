@@ -1,0 +1,18 @@
+{
+  "description": "In A316831, replace 2's and 3's with 0's.",
+  "id": "A316832",
+  "mentions": [
+    "A086747",
+    "A316831"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

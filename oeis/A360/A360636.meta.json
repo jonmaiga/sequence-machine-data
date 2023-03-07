@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows. T(n, m) = (1/(n + 1)) * C(n + 1, m) * 4^n * C((3*n - m + 1)/2 - 1, n) if n is odd, otherwise (1/(n + 1)) * C(n + 1, m) * C((3*n - m)/2, n) * C(3*n - m, (3*n - m)/2) / C(n - m, (n - m)/2).",
+  "id": "A360636",
+  "mentions": [
+    "A000984",
+    "A078531",
+    "A151403"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

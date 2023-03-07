@@ -1,0 +1,21 @@
+{
+  "description": "Second column (m=2) of triangle S2p(-2) = A004747.",
+  "id": "A144345",
+  "mentions": [
+    "A004747",
+    "A008544",
+    "A144346"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

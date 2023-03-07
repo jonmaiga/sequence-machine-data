@@ -1,0 +1,20 @@
+{
+  "description": "Number of values of k, 1 <= k <= n, with A309639(k) = A309639(n), where A309639 gives the index of the least harmonic number whose denominator is divisible by n.",
+  "id": "A330753",
+  "mentions": [
+    "A000961",
+    "A303759",
+    "A309639",
+    "A330754"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Smallest integer such that the sum of its n smallest divisors is a Fibonacci number, or 0 if no such integer exists.",
+  "id": "A292467",
+  "mentions": [
+    "A000045",
+    "A240698",
+    "A289712",
+    "A289776"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

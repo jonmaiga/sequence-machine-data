@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the constant describing the expected number of components in a random labeled planar graph on n vertices.",
+  "id": "A267412",
+  "mentions": [
+    "A266389",
+    "A266390",
+    "A267409",
+    "A267410"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:29",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into centered pentagonal numbers (A005891).",
+  "id": "A322801",
+  "mentions": [
+    "A005891",
+    "A181324",
+    "A280863",
+    "A280952",
+    "A281083",
+    "A282502",
+    "A282504",
+    "A322802",
+    "A322803"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

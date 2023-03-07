@@ -1,0 +1,20 @@
+{
+  "description": "Union of pairs of consecutive primes p, q with q-p = 4.",
+  "id": "A111980",
+  "mentions": [
+    "A029710",
+    "A031505",
+    "A094343",
+    "A140546"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "description": "Number of 3-divided binary sequences (or words) of length n.",
+  "id": "A210109",
+  "mentions": [
+    "A000031",
+    "A001037",
+    "A001867",
+    "A001868",
+    "A027376",
+    "A027377",
+    "A209919",
+    "A209970",
+    "A210145",
+    "A210321",
+    "A210322",
+    "A210323",
+    "A210324",
+    "A210325",
+    "A210326",
+    "A210424",
+    "A210425",
+    "A210426"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

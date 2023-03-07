@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the smallest prime number with at least two digits formed by the concatenation of the subsequent digits of Pi, starting at the n-th digit, ignoring the decimal point.",
+  "id": "A245571",
+  "mentions": [
+    "A000796",
+    "A005042",
+    "A047777",
+    "A076094",
+    "A104841",
+    "A195834",
+    "A198018",
+    "A198019",
+    "A198187"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

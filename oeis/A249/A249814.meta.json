@@ -1,0 +1,37 @@
+{
+  "description": "\"Mountains of Eratosthenes\" permutation: a(1) = 1, a(n) = A249741(A001511(n), a(A003602(n))).",
+  "id": "A249814",
+  "mentions": [
+    "A000079",
+    "A000265",
+    "A001511",
+    "A003602",
+    "A005408",
+    "A005843",
+    "A006093",
+    "A083140",
+    "A083221",
+    "A246684",
+    "A249741",
+    "A249811",
+    "A249813",
+    "A250244",
+    "A250469",
+    "A252755",
+    "A253886"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "hear",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

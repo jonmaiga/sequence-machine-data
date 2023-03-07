@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of permutations of {1,2,...,n} having k runs of even entries (n >= 2, 1 <= k <= floor(n/2)). For example, the permutation 321756498 has 3 runs of even entries: 2, 64 and 8.",
+  "id": "A152667",
+  "mentions": [
+    "A000142",
+    "A145892",
+    "A152666",
+    "A152668",
+    "A152873"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 2,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

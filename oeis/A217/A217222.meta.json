@@ -1,0 +1,23 @@
+{
+  "description": "Initial terms of sets of 8 consecutive semiprimes with gap 2.",
+  "id": "A217222",
+  "mentions": [
+    "A056809",
+    "A070552",
+    "A082919",
+    "A092125",
+    "A092129",
+    "A092207",
+    "A092209"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

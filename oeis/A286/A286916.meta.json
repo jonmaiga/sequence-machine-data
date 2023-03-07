@@ -1,0 +1,18 @@
+{
+  "description": "Positive numbers k such that (10^(k+2)*331 - 133)/9 is prime.",
+  "id": "A286916",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

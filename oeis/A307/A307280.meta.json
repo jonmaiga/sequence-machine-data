@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle read by rows, arising from the study of the behavior of an n-particle one-dimensional random walk.",
+  "id": "A307280",
+  "mentions": [
+    "A008292"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

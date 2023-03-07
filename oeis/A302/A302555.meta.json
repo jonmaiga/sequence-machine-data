@@ -1,0 +1,21 @@
+{
+  "description": "Maximal degree x for hyperoperated representation of n = a[x]b.",
+  "id": "A302555",
+  "mentions": [
+    "A000040",
+    "A106543",
+    "A302553",
+    "A302554"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Nonzero coefficient with smallest index of polynomial p_n(x), where p_n(x) = Product_{i={-1,1}} p_{n-1}(x + i*sqrt(prime(n))), starting p_0(x) = x.",
+  "id": "A354913",
+  "mentions": [
+    "A000007",
+    "A000040",
+    "A000079",
+    "A000290",
+    "A153731",
+    "A255587",
+    "A262396"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

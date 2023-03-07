@@ -1,0 +1,20 @@
+{
+  "description": "Smallest prime number p such that p + pps(1), p + pps(2), ..., p + pps(n) are all prime but p + pps(n+1) is not, where pps(n) is the partial primorial sum (A060389(n)).",
+  "id": "A257466",
+  "mentions": [
+    "A060389",
+    "A257467"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

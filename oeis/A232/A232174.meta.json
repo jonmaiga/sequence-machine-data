@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways to write n = x + y (x, y > 0) with x + n*y and x^2 + n*y^2 both prime.",
+  "id": "A232174",
+  "mentions": [
+    "A000040",
+    "A036468",
+    "A219842",
+    "A219864",
+    "A220413"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:50",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

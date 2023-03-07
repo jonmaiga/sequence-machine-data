@@ -1,0 +1,17 @@
+{
+  "description": "A self-dissimilar sequence: each string that occurs earlier is appended with a different term than what follows the previous occurrence.",
+  "id": "A275318",
+  "mentions": [
+    "A038219"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

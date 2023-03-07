@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of q^(-1) * phi^2(q) * chi^3(q^9) / (chi(q^3) * phi^2(q^9)) in powers of q where phi(), chi() are Ramanujan theta functions.",
+  "id": "A164612",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A062244",
+    "A121373",
+    "A164268",
+    "A164613"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:19:27",
+    "offset": -1,
+    "size": 89,
+    "source": "joeis"
+  }
+}

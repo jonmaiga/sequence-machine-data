@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that if sum of the proper divisors of n is equal to m then n = phi(m).",
+  "id": "A107654",
+  "mentions": [
+    "A107653"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of permutations of [n] having a shortest ascending run of length 2.",
+  "id": "A185652",
+  "mentions": [
+    "A064315",
+    "A086089"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

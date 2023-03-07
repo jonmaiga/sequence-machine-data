@@ -1,0 +1,18 @@
+{
+  "description": "Circulant determinant chain starting at 1007749",
+  "id": "A330519",
+  "mentions": [
+    "A219324"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

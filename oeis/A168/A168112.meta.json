@@ -1,0 +1,26 @@
+{
+  "description": "Toothpick sequence starting with a straight line, with angle = Pi/4, from which protrudes a half toothpick.",
+  "id": "A168112",
+  "mentions": [
+    "A000695",
+    "A139250",
+    "A139251",
+    "A153000",
+    "A153006",
+    "A160406",
+    "A160730",
+    "A168113",
+    "A168114"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Triangular array read by rows: T(n,m)=prime(m+1)^n*prime(m)^(n*(n-1)/2)",
+  "id": "A133397",
+  "mentions": [
+    "A133396"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

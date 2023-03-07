@@ -1,0 +1,24 @@
+{
+  "description": "Dirichlet g.f.: Product_{k>=2} (1 + k^(-s))^(k^2).",
+  "id": "A343322",
+  "mentions": [
+    "A000290",
+    "A027998",
+    "A045778",
+    "A050368",
+    "A329125",
+    "A343323",
+    "A343324",
+    "A343325"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

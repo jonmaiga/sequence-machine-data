@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n with following property: let c = nearest cube to n that is different from n and let p = nearest prime to n that is different from n. Then |n-c| = |n-p|.",
+  "id": "A163497",
+  "mentions": [
+    "A051699",
+    "A074989",
+    "A154840"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

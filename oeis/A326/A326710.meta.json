@@ -1,0 +1,23 @@
+{
+  "description": "Squares m such that beta(m) = (tau(m) - 1)/2 where beta(m) is the number of Brazilian representations of m and tau(m) is the number of divisors of m.",
+  "id": "A326710",
+  "mentions": [
+    "A000290",
+    "A158235",
+    "A208242",
+    "A326707",
+    "A326711"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

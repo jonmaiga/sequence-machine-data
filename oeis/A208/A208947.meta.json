@@ -1,0 +1,18 @@
+{
+  "description": "Number of 5-bead necklaces labeled with numbers -n..n not allowing reversal, with sum zero with no three beads in a row equal.",
+  "id": "A208947",
+  "mentions": [
+    "A208945"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

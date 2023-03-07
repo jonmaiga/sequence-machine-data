@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that A000793(k) = A159685(k).",
+  "id": "A324793",
+  "mentions": [
+    "A000793",
+    "A159685"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

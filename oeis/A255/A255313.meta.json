@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: row n contains the sums of adjacent pairs of terms in row n of A088643.",
+  "id": "A255313",
+  "mentions": [
+    "A060265",
+    "A088643",
+    "A255316",
+    "A255395"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Denominators of the characteristic polynomials of the von Mangoldt function matrix.",
+  "id": "A260238",
+  "mentions": [
+    "A003418",
+    "A191898",
+    "A260237"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

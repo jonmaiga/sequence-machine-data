@@ -1,0 +1,17 @@
+{
+  "description": "Composites c such that T_{c-1} == (c/3)*3^(c-1) (mod c), where T_i denotes the i-th central trinomial coefficient (A002426) and (/) denotes the Kronecker symbol.",
+  "id": "A308482",
+  "mentions": [
+    "A002426"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

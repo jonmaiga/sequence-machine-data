@@ -1,0 +1,23 @@
+{
+  "description": "INVERT transform of the cubes A000578.",
+  "id": "A144109",
+  "mentions": [
+    "A000578",
+    "A001906",
+    "A004254",
+    "A033453",
+    "A056594"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

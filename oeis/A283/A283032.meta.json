@@ -1,0 +1,29 @@
+{
+  "description": "Number of inequivalent 5 X 5 matrices with entries in {1,2,3,...,n} up to vertical and horizontal reflections.",
+  "id": "A283032",
+  "mentions": [
+    "A039623",
+    "A282612",
+    "A282613",
+    "A282614",
+    "A283026",
+    "A283027",
+    "A283028",
+    "A283029",
+    "A283030",
+    "A283031",
+    "A283033"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:47:47",
+    "offset": 0,
+    "size": 13,
+    "source": "joeis"
+  }
+}

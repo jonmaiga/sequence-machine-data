@@ -1,0 +1,25 @@
+{
+  "description": "Infinitary pseudoperfect numbers (A306983) that equal to the sum of a subset of their aliquot infinitary divisors in a single way.",
+  "id": "A335937",
+  "mentions": [
+    "A007357",
+    "A049417",
+    "A064771",
+    "A077609",
+    "A295829",
+    "A295830",
+    "A306983",
+    "A321145",
+    "A335199"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

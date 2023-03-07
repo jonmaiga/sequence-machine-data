@@ -1,0 +1,21 @@
+{
+  "description": "A175099 with a(3) changed from 0 to 1.",
+  "id": "A160018",
+  "mentions": [
+    "A000695",
+    "A160125",
+    "A175098",
+    "A175099"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

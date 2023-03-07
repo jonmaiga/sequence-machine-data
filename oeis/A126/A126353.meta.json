@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: matrix product of the Stirling numbers of the first kind with the binomial coefficients.",
+  "id": "A126353",
+  "mentions": [
+    "A000166",
+    "A039810",
+    "A039814",
+    "A054654",
+    "A094791",
+    "A126350",
+    "A126351"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

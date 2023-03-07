@@ -1,0 +1,20 @@
+{
+  "description": "a(0) = 0, and for any n > 0, the binary expansion of n has n digits and starts with the binary expansion of n, say of w digits, and in case n > w, the remaining binary digits in a(n) are those of a(n-w).",
+  "id": "A343963",
+  "mentions": [
+    "A070939",
+    "A319678"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

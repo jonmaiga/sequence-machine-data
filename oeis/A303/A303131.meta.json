@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of Product_{n>=1} (1 + (16*x)^n)^(-1/4).",
+  "id": "A303131",
+  "mentions": [
+    "A081362",
+    "A266964",
+    "A298993",
+    "A303124",
+    "A303130",
+    "A303132",
+    "A303135"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Numbers of the form 2^r * 7^s whose decimal representation has a prime number of each digit 0-9.",
+  "id": "A217404",
+  "mentions": [
+    "A215876",
+    "A216854",
+    "A217405",
+    "A217406",
+    "A217407",
+    "A217410",
+    "A217413",
+    "A217416",
+    "A217419",
+    "A217422",
+    "A217425",
+    "A217428",
+    "A217431"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-bfile"
+  }
+}

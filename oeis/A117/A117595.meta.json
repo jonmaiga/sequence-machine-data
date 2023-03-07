@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that F(2*n - 1) is prime, where F(m) is a Fibonacci number.",
+  "id": "A117595",
+  "mentions": [
+    "A000045",
+    "A001519",
+    "A001605"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

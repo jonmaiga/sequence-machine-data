@@ -1,0 +1,29 @@
+{
+  "description": "Positive integers n such that 7^n == 3 (mod n).",
+  "id": "A277554",
+  "mentions": [
+    "A015954",
+    "A050259",
+    "A066438",
+    "A067947",
+    "A116629",
+    "A123061",
+    "A130422",
+    "A277126",
+    "A277370",
+    "A277371",
+    "A277401"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

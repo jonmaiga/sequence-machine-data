@@ -1,0 +1,40 @@
+{
+  "description": "Numerators in triangle that leads to the (first) Bernoulli numbers A027641/A027642.",
+  "id": "A182397",
+  "mentions": [
+    "A000012",
+    "A003506",
+    "A027641",
+    "A027642",
+    "A028246",
+    "A051714",
+    "A051715",
+    "A051716",
+    "A051717",
+    "A080326",
+    "A085737",
+    "A085738",
+    "A100536",
+    "A144396",
+    "A164555",
+    "A165142",
+    "A172030",
+    "A172031",
+    "A190339",
+    "A191302",
+    "A192456"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

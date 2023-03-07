@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of 127/216.",
+  "id": "A143618",
+  "mentions": [
+    "A177056"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:36:49",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

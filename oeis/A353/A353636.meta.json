@@ -1,0 +1,31 @@
+{
+  "description": "Difference between phi(sigma(n)) and phi(n).",
+  "id": "A353636",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A006872",
+    "A007431",
+    "A062401",
+    "A351445",
+    "A353637",
+    "A353643",
+    "A353647",
+    "A353682",
+    "A353683",
+    "A353685",
+    "A353686"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

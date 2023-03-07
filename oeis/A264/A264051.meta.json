@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) (n>=0, 0<=k<=A264078(n)) is the number of integer partitions of n having k standard Young tableaux such that no entries i and i+1 appear in the same row.",
+  "id": "A264051",
+  "mentions": [
+    "A000041",
+    "A001181",
+    "A025065",
+    "A237770",
+    "A264078"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

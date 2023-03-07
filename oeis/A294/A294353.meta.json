@@ -1,0 +1,22 @@
+{
+  "description": "Product of first n terms of the binomial transform of n^n (A086331).",
+  "id": "A294353",
+  "mentions": [
+    "A002109",
+    "A047656",
+    "A086331",
+    "A086619",
+    "A294352"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:54:30",
+    "offset": 0,
+    "size": 12,
+    "source": "joeis"
+  }
+}

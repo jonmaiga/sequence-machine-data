@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Product_{i=1..n} sigma_2(i).",
+  "id": "A247951",
+  "mentions": [
+    "A000203",
+    "A001157",
+    "A066780",
+    "A066843",
+    "A345158",
+    "A345160"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

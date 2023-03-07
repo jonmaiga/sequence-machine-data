@@ -1,0 +1,21 @@
+{
+  "description": "Maximum number of sides in any cell in a regular n-gon with all diagonals drawn (cf. A007678), excluding the central n-sided cell for odd values of n.",
+  "id": "A349784",
+  "mentions": [
+    "A007678",
+    "A331450",
+    "A341729",
+    "A342222",
+    "A342236"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 4,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

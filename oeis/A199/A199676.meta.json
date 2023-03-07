@@ -1,0 +1,22 @@
+{
+  "description": "Number of minimally 3-connected non-isomorphic graphs on n vertices.",
+  "id": "A199676",
+  "mentions": [
+    "A006290",
+    "A204198",
+    "A324418",
+    "A338511"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 4,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

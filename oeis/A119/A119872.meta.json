@@ -1,0 +1,19 @@
+{
+  "description": "Number of edges of the root-n Waterman polyhedron as defined in A119870.",
+  "id": "A119872",
+  "mentions": [
+    "A119869",
+    "A119870",
+    "A119877"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "description": "Denominators of certain \"Dirichlet Square Root\" sequences: a(n) = A046644(n)/(2^A007949(n)).",
+  "id": "A317932",
+  "mentions": [
+    "A002487",
+    "A005187",
+    "A007949",
+    "A011371",
+    "A046644",
+    "A064989",
+    "A065769",
+    "A234840",
+    "A237649",
+    "A261179",
+    "A299150",
+    "A305439",
+    "A317839",
+    "A317843",
+    "A317928",
+    "A317930",
+    "A317931",
+    "A317934",
+    "A318319",
+    "A318666",
+    "A318669"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "frac",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:37",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

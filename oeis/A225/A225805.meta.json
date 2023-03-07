@@ -1,0 +1,20 @@
+{
+  "description": "Sort the digits of n into alphabetical order according their French name: The \"French Obsessive Filer's Sequence\".",
+  "id": "A225805",
+  "mentions": [
+    "A057846",
+    "A072809"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest number m>n such that the concatenation nm is prime.",
+  "id": "A228325",
+  "mentions": [
+    "A068695",
+    "A228323"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

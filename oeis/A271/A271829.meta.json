@@ -1,0 +1,20 @@
+{
+  "description": "Prime powers p^k such that p^k = x^3 + y^3 + z^3 where x, y, z are positive integers and k > 1, is soluble.",
+  "id": "A271829",
+  "mentions": [
+    "A003072",
+    "A007490",
+    "A025475"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:09",
+    "offset": 1,
+    "size": 37,
+    "source": "joeis"
+  }
+}

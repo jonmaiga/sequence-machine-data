@@ -1,0 +1,20 @@
+{
+  "description": "Numerator of the rational coefficient at the first power of Pi in Sum_{k>0} (sin(k)/k)^n.",
+  "id": "A274040",
+  "mentions": [
+    "A274041"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "frac",
+    "hard",
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

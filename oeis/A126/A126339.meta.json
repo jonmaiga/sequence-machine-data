@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = denominator of sum of the reciprocals of all terms in rows 1 through n of table A126336.",
+  "id": "A126339",
+  "mentions": [
+    "A126336",
+    "A126338"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:14",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

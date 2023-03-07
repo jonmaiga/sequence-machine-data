@@ -1,0 +1,21 @@
+{
+  "description": "Starting value of the longest run of halving steps in the trajectory from n to 1 in the Collatz map (or 3x+1 problem), or -1 if no such trajectory exists.",
+  "id": "A348007",
+  "mentions": [
+    "A006370",
+    "A070165",
+    "A135282",
+    "A347409"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 2,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

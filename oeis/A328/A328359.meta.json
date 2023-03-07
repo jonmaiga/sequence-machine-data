@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that Omega(k - 2) = Omega(k) = Omega(k + 2) where Omega = A001222.",
+  "id": "A328359",
+  "mentions": [
+    "A001222",
+    "A278311",
+    "A280382"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:57",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

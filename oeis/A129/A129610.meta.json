@@ -1,0 +1,21 @@
+{
+  "description": "Signature-permutation of a Catalan automorphism, row 65352 of A089840.",
+  "id": "A129610",
+  "mentions": [
+    "A074679",
+    "A074680",
+    "A089840",
+    "A122203",
+    "A129609"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:17",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

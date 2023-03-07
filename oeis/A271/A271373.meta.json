@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n,k) read by rows giving the number of k-digit polydivisible numbers (see A144688) in base n with 1 <= k <= A109783(n).",
+  "id": "A271373",
+  "mentions": [
+    "A109783",
+    "A143671",
+    "A144688",
+    "A271374"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:35",
+    "offset": 2,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

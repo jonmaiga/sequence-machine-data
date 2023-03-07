@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that sigma(n) - 1 is a prime p.",
+  "id": "A248792",
+  "mentions": [
+    "A000040",
+    "A000203",
+    "A039653",
+    "A065512",
+    "A066073",
+    "A248793"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

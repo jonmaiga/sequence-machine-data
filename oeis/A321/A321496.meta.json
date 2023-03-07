@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k and k+1 have at least 6 but not both exactly 6 distinct prime factors.",
+  "id": "A321496",
+  "mentions": [
+    "A273879",
+    "A321495",
+    "A321506"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

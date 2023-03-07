@@ -1,0 +1,22 @@
+{
+  "description": "Nonnegative integers k such that k! mod nextprime(k) is larger than k.",
+  "id": "A360805",
+  "mentions": [
+    "A000142",
+    "A007978",
+    "A151800",
+    "A360825"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

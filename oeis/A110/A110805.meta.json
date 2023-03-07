@@ -1,0 +1,20 @@
+{
+  "description": "Sum of digits of n times number of digits of n.",
+  "id": "A110805",
+  "mentions": [
+    "A007953",
+    "A055642"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

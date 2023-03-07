@@ -1,0 +1,20 @@
+{
+  "description": "Numbers not representable as the sum of three 10-gonal numbers.",
+  "id": "A214419",
+  "mentions": [
+    "A001107",
+    "A118278",
+    "A118279"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Nonnegative integers sorted by number of characters (including spaces) when written in French, and then by numerical order.",
+  "id": "A316633",
+  "mentions": [
+    "A052194",
+    "A167507"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

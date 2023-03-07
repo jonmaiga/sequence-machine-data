@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 1 if n is a square, -1 if n is six times a square, 0 if n < 1.",
+  "id": "A244612",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A089801",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

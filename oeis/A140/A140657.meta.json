@@ -1,0 +1,24 @@
+{
+  "description": "Powers of 2 with 3 alternatingly added and subtracted.",
+  "id": "A140657",
+  "mentions": [
+    "A000079",
+    "A007283",
+    "A010734",
+    "A033999",
+    "A096045",
+    "A140683"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:29",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

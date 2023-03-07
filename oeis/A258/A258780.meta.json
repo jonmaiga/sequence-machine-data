@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least k such that k^2 + 1 is a semiprime p*q, p < q, and (q - p)/2^n is prime.",
+  "id": "A258780",
+  "mentions": [
+    "A085722",
+    "A144255"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 2,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

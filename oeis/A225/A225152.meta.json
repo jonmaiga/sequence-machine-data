@@ -1,0 +1,18 @@
+{
+  "description": "Let b(k) be A036378, then a(n) is the number of b(k) terms such that 2^n < b(k) <= 2^(n+1).",
+  "id": "A225152",
+  "mentions": [
+    "A036378",
+    "A052005"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

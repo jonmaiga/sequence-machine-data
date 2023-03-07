@@ -1,0 +1,27 @@
+{
+  "description": "Number of odd prime powers <= n (with exponents > 0).",
+  "id": "A327247",
+  "mentions": [
+    "A000523",
+    "A025528",
+    "A033270",
+    "A061345",
+    "A065515",
+    "A069637",
+    "A085501",
+    "A174275",
+    "A246655",
+    "A285879"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:09:05",
+    "offset": 1,
+    "size": 75,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of patterns of length n with k runs.",
+  "id": "A335461",
+  "mentions": [
+    "A000670",
+    "A003242",
+    "A005649",
+    "A052841",
+    "A060223",
+    "A106351",
+    "A106356",
+    "A124767",
+    "A269134",
+    "A325535",
+    "A333217",
+    "A333489",
+    "A333627",
+    "A333755",
+    "A333769",
+    "A335838",
+    "A337564"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

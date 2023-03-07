@@ -1,0 +1,28 @@
+{
+  "description": "Minimal index k of an odd Fibonacci number A001519 such that A001519(k) = Fibonacci(2*k-1) >= n (the 'upper' odd Fibonacci Inverse).",
+  "id": "A130256",
+  "mentions": [
+    "A000045",
+    "A001519",
+    "A001906",
+    "A130234",
+    "A130237",
+    "A130239",
+    "A130241",
+    "A130248",
+    "A130255",
+    "A130258",
+    "A130260"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

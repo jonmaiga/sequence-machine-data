@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle read by rows: T(n, k) is the number of n-step closed walks on the hexagonal lattice having algebraic area k.",
+  "id": "A353091",
+  "mentions": [
+    "A002898",
+    "A069813",
+    "A109047",
+    "A352838"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

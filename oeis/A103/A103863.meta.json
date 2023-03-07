@@ -1,0 +1,22 @@
+{
+  "description": "Hamming distance between n and A102370(n) (in binary).",
+  "id": "A103863",
+  "mentions": [
+    "A102370",
+    "A103542",
+    "A104235"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

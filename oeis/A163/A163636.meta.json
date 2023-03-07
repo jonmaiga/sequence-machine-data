@@ -1,0 +1,20 @@
+{
+  "description": "The sum of all odd numbers from 2n-1 up to the n-th odd nonprime.",
+  "id": "A163636",
+  "mentions": [
+    "A005408",
+    "A014076"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

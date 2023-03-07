@@ -1,0 +1,24 @@
+{
+  "description": "Sum of parts of the n-th subsection of the head of the last section of the set of partitions of any odd integer >= 2n+1.",
+  "id": "A182995",
+  "mentions": [
+    "A135010",
+    "A138880",
+    "A182737",
+    "A182743",
+    "A182983",
+    "A182993",
+    "A182994"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

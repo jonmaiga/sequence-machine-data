@@ -1,0 +1,20 @@
+{
+  "description": "4 X 4 Latin square or \"Vigenere\" square read by rows.",
+  "id": "A137300",
+  "mentions": [
+    "A137317"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Triangle T, read by rows, such that column 2k+1 of T equals column k of T^2 and column 2k of T equals column k of T*R: [T^2](n+k,k) = T(n+2k+1,2k+1) and [T*R](n+k,k) = T(n+2k,2k) for n>=0, k>=0, where R = SHIFT_RIGHT(T).",
+  "id": "A117418",
+  "mentions": [
+    "A117419",
+    "A117420",
+    "A117421",
+    "A117422",
+    "A117423",
+    "A117424",
+    "A117425",
+    "A117427",
+    "A117428"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

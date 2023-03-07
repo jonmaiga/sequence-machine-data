@@ -1,0 +1,19 @@
+{
+  "description": "Number of deco polyominoes of height n and vertical height 3 (i.e., having 3 rows).",
+  "id": "A121693",
+  "mentions": [
+    "A121692"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:06:11",
+    "offset": 1,
+    "size": 26,
+    "source": "joeis"
+  }
+}

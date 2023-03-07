@@ -1,0 +1,33 @@
+{
+  "description": "Number of series-reduced rooted trees whose leaves are sets (not necessarily disjoint) with multiset union a strongly normal multiset of size n.",
+  "id": "A330625",
+  "mentions": [
+    "A000669",
+    "A004111",
+    "A005804",
+    "A141268",
+    "A196545",
+    "A300660",
+    "A316652",
+    "A330467",
+    "A330469",
+    "A330471",
+    "A330475",
+    "A330624",
+    "A330626",
+    "A330628",
+    "A330668",
+    "A330675"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

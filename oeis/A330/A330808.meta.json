@@ -1,0 +1,23 @@
+{
+  "description": "Minimum number of unit fractions that must be added to 1/n to reach 1.",
+  "id": "A330808",
+  "mentions": [
+    "A097048",
+    "A097049",
+    "A097847",
+    "A097849",
+    "A192881",
+    "A285261"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Integers n such that 9*10^n + 11 is a prime number.",
+  "id": "A111023",
+  "mentions": [
+    "A049054",
+    "A088274",
+    "A088275",
+    "A095688",
+    "A100275",
+    "A107083",
+    "A108049",
+    "A108050",
+    "A108052",
+    "A108054",
+    "A110980"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

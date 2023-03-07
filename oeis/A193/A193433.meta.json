@@ -1,0 +1,20 @@
+{
+  "description": "Sum of the divisors of n^2+1.",
+  "id": "A193433",
+  "mentions": [
+    "A000203",
+    "A002522",
+    "A193432"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

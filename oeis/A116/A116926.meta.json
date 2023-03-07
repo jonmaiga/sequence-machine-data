@@ -1,0 +1,17 @@
+{
+  "description": "Semiprimes n=pq such that the polynomial (1+x)^n (mod n) has p+q nonzero terms.",
+  "id": "A116926",
+  "mentions": [
+    "A007012"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

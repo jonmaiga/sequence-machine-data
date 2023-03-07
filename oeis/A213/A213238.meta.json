@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n,k) in which n-th row lists in increasing order the distinct values v satisfying v = sum of elements in S = product of elements in P for a partition of {1,...,n} into two sets S and P.",
+  "id": "A213238",
+  "mentions": [
+    "A007590",
+    "A213237"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of times g(n) appears in [g(0),g(1),...,g(n)], where g = A316774.",
+  "id": "A330439",
+  "mentions": [
+    "A316774",
+    "A330440"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

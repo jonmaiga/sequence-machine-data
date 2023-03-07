@@ -1,0 +1,22 @@
+{
+  "description": "T(n,k) is the number of labeled graphs of n vertices and k edges that have endpoints, where an endpoint is a vertex with degree 1.",
+  "id": "A245796",
+  "mentions": [
+    "A000217",
+    "A050534",
+    "A053526",
+    "A152947",
+    "A245797"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

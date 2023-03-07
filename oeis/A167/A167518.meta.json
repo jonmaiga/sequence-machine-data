@@ -1,0 +1,21 @@
+{
+  "description": "Least reversible prime (A007500) which is a concatenation of n consecutive primes.",
+  "id": "A167518",
+  "mentions": [
+    "A006567",
+    "A007500",
+    "A030997",
+    "A167517"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

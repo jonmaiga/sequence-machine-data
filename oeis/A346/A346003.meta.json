@@ -1,0 +1,28 @@
+{
+  "description": "Distance 3 lexicode over the alphabet {0,1,2}, with the codewords written in base 10.",
+  "id": "A346003",
+  "mentions": [
+    "A001477",
+    "A001969",
+    "A075926",
+    "A075928",
+    "A075931",
+    "A075934",
+    "A333568",
+    "A343444",
+    "A346000",
+    "A346001",
+    "A346002"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:19",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

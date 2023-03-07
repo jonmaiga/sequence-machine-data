@@ -1,0 +1,17 @@
+{
+  "description": "Integers n such that p = 4n + 1, q = 4p + 3, r = 4q + 5, s = 4r + 7 and t = 4s + 9 are all prime.",
+  "id": "A243528",
+  "mentions": [
+    "A141291"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

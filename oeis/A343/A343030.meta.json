@@ -1,0 +1,22 @@
+{
+  "description": "Number of 1-bits in the binary expansion of n which have an odd number of 0-bits at less significant bit positions.",
+  "id": "A343030",
+  "mentions": [
+    "A000120",
+    "A000918",
+    "A004718",
+    "A343029"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

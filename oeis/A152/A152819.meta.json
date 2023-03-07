@@ -1,0 +1,19 @@
+{
+  "description": "\"Upper primes\" (see A152754).",
+  "id": "A152819",
+  "mentions": [
+    "A059905",
+    "A059906",
+    "A152754"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

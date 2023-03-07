@@ -1,0 +1,21 @@
+{
+  "description": "Result of using the perfect squares as coefficients in an infinite polynomial series in x and then expressing this series as (1+a(1)x)(1+a(2)x^2)(1+a(3)x^3)...",
+  "id": "A147559",
+  "mentions": [
+    "A000290",
+    "A147654",
+    "A253909"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

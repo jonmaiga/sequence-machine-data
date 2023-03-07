@@ -1,0 +1,18 @@
+{
+  "description": "First differences of A255437.",
+  "id": "A255507",
+  "mentions": [
+    "A255437",
+    "A255878"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Column 3 of array in A226513.",
+  "id": "A226514",
+  "mentions": [
+    "A005563",
+    "A226513",
+    "A226741",
+    "A226800",
+    "A226801"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:55:55",
+    "offset": 0,
+    "size": 48,
+    "source": "joeis"
+  }
+}

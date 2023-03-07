@@ -1,0 +1,28 @@
+{
+  "description": "Number of integer pairs (i, j), 0 < i, j < n, such that i/(n - i) + j/(n - j) = 1.",
+  "id": "A351532",
+  "mentions": [
+    "A016017",
+    "A018892",
+    "A051908",
+    "A073546",
+    "A227610",
+    "A238795",
+    "A241883",
+    "A297895",
+    "A303400",
+    "A351694",
+    "A351695"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

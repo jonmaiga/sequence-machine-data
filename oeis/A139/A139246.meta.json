@@ -1,0 +1,29 @@
+{
+  "description": "Triangle read by rows: row n lists the proper divisors of n-th perfect number A000396(n).",
+  "id": "A139246",
+  "mentions": [
+    "A000396",
+    "A018254",
+    "A018487",
+    "A133024",
+    "A133025",
+    "A133031",
+    "A133033",
+    "A135652",
+    "A135653",
+    "A135654",
+    "A135655",
+    "A139247"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

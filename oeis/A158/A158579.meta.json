@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = largest member of the n-th term in S(10) (defined in Comments).",
+  "id": "A158579",
+  "mentions": [
+    "A145667",
+    "A145674",
+    "A158576"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

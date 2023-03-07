@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (a(n-1) + n)/2^k where 2^k is the largest power of 2 dividing a(n-1) + n, for n>1 with a(1)=1.",
+  "id": "A208884",
+  "mentions": [
+    "A000265",
+    "A069834",
+    "A090895",
+    "A114216",
+    "A335817"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

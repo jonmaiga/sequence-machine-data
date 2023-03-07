@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that 6^n + 7 is prime.",
+  "id": "A217351",
+  "mentions": [
+    "A104115",
+    "A145106",
+    "A217352"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

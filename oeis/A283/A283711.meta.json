@@ -1,0 +1,18 @@
+{
+  "description": "Square root of the smallest square referenced in A124809 (Numbers of the form (square + 1) that are not squarefree).",
+  "id": "A283711",
+  "mentions": [
+    "A124809",
+    "A283710"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:54",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

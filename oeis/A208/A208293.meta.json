@@ -1,0 +1,26 @@
+{
+  "description": "Numbers n such that (n^2+1)/26 is prime.",
+  "id": "A208293",
+  "mentions": [
+    "A002144",
+    "A002731",
+    "A027862",
+    "A129307",
+    "A203571",
+    "A207337",
+    "A207339",
+    "A208292",
+    "A208294"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

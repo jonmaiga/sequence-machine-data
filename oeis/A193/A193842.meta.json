@@ -1,0 +1,45 @@
+{
+  "description": "Triangular array: the fission of the polynomial sequence ((x+1)^n: n >= 0) by the polynomial sequence ((x+2)^n: n >= 0). (Fission is defined at Comments.)",
+  "id": "A193842",
+  "mentions": [
+    "A000012",
+    "A002260",
+    "A003462",
+    "A004736",
+    "A014915",
+    "A016777",
+    "A054143",
+    "A074909",
+    "A081271",
+    "A104709",
+    "A115068",
+    "A193649",
+    "A193722",
+    "A193843",
+    "A193844",
+    "A193845",
+    "A193846",
+    "A193847",
+    "A193850",
+    "A193851",
+    "A193856",
+    "A193857",
+    "A193858",
+    "A193859",
+    "A193860",
+    "A193861",
+    "A193862"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:07:03",
+    "offset": 0,
+    "size": 53,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Inverse permutation to permutation sequence A120241.",
+  "id": "A120242",
+  "mentions": [
+    "A120241"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

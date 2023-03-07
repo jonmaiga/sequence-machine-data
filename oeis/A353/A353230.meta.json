@@ -1,0 +1,18 @@
+{
+  "description": "Number of Condorcet voting profiles with three candidates and 2n-1 voters where all the choices are from {123, 231, 312}.",
+  "id": "A353230",
+  "mentions": [
+    "A353194"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Heinz number of row n of the triangle of Stirling numbers of the second kind A008277.",
+  "id": "A325503",
+  "mentions": [
+    "A000040",
+    "A000110",
+    "A001222",
+    "A002870",
+    "A008277",
+    "A024412",
+    "A056239",
+    "A061395",
+    "A112798",
+    "A215366",
+    "A325500",
+    "A325502"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

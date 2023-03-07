@@ -1,0 +1,28 @@
+{
+  "description": "Smallest number requiring n steps to reach a prime under the \"add a digit\" process described in A241180.",
+  "id": "A241182",
+  "mentions": [
+    "A241173",
+    "A241174",
+    "A241175",
+    "A241176",
+    "A241177",
+    "A241178",
+    "A241179",
+    "A241180",
+    "A241181",
+    "A241183",
+    "A336382"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

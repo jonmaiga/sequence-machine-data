@@ -1,0 +1,24 @@
+{
+  "description": "Total number of 8's digits in primes less than 10^n.",
+  "id": "A231597",
+  "mentions": [
+    "A119290",
+    "A119291",
+    "A119300",
+    "A231411",
+    "A231590",
+    "A231598"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

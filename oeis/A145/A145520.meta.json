@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T2[n,k] = Sum_{partitions of n with k parts p(n, k; m_1, m_2, m_3, ..., m_n)} c(n; m_1, m_2, ..., m_n) * x_1^m_1 * x_2^m_2 * ... x^n*m_n, where x_i = i-th prime.",
+  "id": "A145520",
+  "mentions": [
+    "A000040",
+    "A007446",
+    "A145518",
+    "A264428"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

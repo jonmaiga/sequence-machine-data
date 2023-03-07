@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of the sum of the reciprocals of squared 3-almost primes.",
+  "id": "A131653",
+  "mentions": [
+    "A000290",
+    "A013661",
+    "A014612",
+    "A085548",
+    "A085964",
+    "A085966",
+    "A117543"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

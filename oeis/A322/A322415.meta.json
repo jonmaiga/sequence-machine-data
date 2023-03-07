@@ -1,0 +1,32 @@
+{
+  "description": "Decimal expansion of h * Delta nu_{Cs} / c^2 in units of kg in the 2019 SI system of units.",
+  "id": "A322415",
+  "mentions": [
+    "A003676",
+    "A003678",
+    "A070063",
+    "A081823",
+    "A230458",
+    "A248508",
+    "A248510",
+    "A322579",
+    "A322580",
+    "A324031",
+    "A324032",
+    "A324033",
+    "A324034"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": -40,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

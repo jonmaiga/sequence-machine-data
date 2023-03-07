@@ -1,0 +1,39 @@
+{
+  "description": "Numbers n > 1 for which gpf(n) < lpf(n)^2, where lpf and gpf (least and greatest prime factor of n) are given by A020639(n) and A006530(n).",
+  "id": "A251726",
+  "mentions": [
+    "A000290",
+    "A000961",
+    "A003961",
+    "A006530",
+    "A020639",
+    "A251725",
+    "A251727",
+    "A251728",
+    "A252370",
+    "A252372",
+    "A252373",
+    "A252375",
+    "A252459",
+    "A252757",
+    "A252758",
+    "A253784",
+    "A284252",
+    "A284254",
+    "A284256",
+    "A284258",
+    "A284260",
+    "A284261"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:09",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

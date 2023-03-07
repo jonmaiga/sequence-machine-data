@@ -1,0 +1,21 @@
+{
+  "description": "If n = Product (p_j^k_j) then a(n) = Product (prime(p_j)^prime(k_j)).",
+  "id": "A321874",
+  "mentions": [
+    "A000040",
+    "A064988",
+    "A304203"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

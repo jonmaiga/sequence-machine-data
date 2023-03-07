@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that A098548(2n+3) > A098548(2n+1) + 6.",
+  "id": "A251538",
+  "mentions": [
+    "A098548",
+    "A251537",
+    "A251539"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:09",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

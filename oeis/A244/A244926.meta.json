@@ -1,0 +1,20 @@
+{
+  "description": "Numbers m such that there is an integer k with the property that antisigma(m) = k * sigma(m) + k.",
+  "id": "A244926",
+  "mentions": [
+    "A000203",
+    "A024816",
+    "A232324",
+    "A244329"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of sqrt(2 - Pi/2), the coefficient for standard distribution of the Rayleigh random variable.",
+  "id": "A351055",
+  "mentions": [
+    "A000796",
+    "A019669",
+    "A180434"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "At digit-position a(n) in the sequence starts the product 2*a(n). This is the lexicographically earliest sequence of distinct positive terms with this property. See the Comments section for more explanations.",
+  "id": "A345881",
+  "mentions": [
+    "A270671"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

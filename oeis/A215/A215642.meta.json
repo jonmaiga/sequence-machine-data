@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that there is no D such that p+D, p-D, p+2*D, p-2*D are all primes.",
+  "id": "A215642",
+  "mentions": [
+    "A078611"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

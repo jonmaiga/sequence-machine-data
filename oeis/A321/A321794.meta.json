@@ -1,0 +1,18 @@
+{
+  "description": "Josephus problem: Positions of records in the rows of A321781.",
+  "id": "A321794",
+  "mentions": [
+    "A321781",
+    "A321793"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 2,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

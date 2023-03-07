@@ -1,0 +1,21 @@
+{
+  "description": "Numbers having more distinct prime factors of form 4*k+1 than of 4*k+3.",
+  "id": "A221265",
+  "mentions": [
+    "A005089",
+    "A005091",
+    "A005094",
+    "A078613",
+    "A221264"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

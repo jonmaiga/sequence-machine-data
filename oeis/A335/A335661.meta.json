@@ -1,0 +1,25 @@
+{
+  "description": "The squares visited on a square (Ulam) spiral, with a(1) = 1 and a(2) = 2, when stepping to the closest unvisited square containing a number that shares a common divisor > 1 with the number in the current square. If two or more such squares are the same distance from the current square then the one with the smallest number is chosen.",
+  "id": "A335661",
+  "mentions": [
+    "A000005",
+    "A032741",
+    "A063826",
+    "A214665",
+    "A330979",
+    "A331027",
+    "A332767",
+    "A335710"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

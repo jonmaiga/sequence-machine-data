@@ -1,0 +1,23 @@
+{
+  "description": "Centered Platonic numbers.",
+  "id": "A284742",
+  "mentions": [
+    "A001845",
+    "A005894",
+    "A005898",
+    "A005902",
+    "A005904",
+    "A053012"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

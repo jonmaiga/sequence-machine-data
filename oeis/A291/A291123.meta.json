@@ -1,0 +1,23 @@
+{
+  "description": "Number of ways to write 4*n+1 as (p-1)^2 + q^2 + r^2, where p is prime and q and r are nonnegative integers with q <= r.",
+  "id": "A291123",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A260418",
+    "A271518",
+    "A290472",
+    "A290491",
+    "A291047"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

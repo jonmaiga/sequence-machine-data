@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the index of the column where n is located in array A277898, a(2) = 0.",
+  "id": "A277895",
+  "mentions": [
+    "A010051",
+    "A048675",
+    "A277892",
+    "A277894",
+    "A277898",
+    "A277900"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 2,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

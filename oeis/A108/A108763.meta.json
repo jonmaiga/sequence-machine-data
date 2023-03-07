@@ -1,0 +1,20 @@
+{
+  "description": "If n-th prime is 8m+1, then a(n) = 8m+3. If n-th prime is 8m+3, then a(n) = 8m+5. If n-th prime is 8m+5, then a(n) = 8m+7. If n-th prime is 8m+7, then a(n) = 8m+1.",
+  "id": "A108763",
+  "mentions": [
+    "A107323",
+    "A108245"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 2,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Conway's creeper sequence",
+  "id": "A164338",
+  "mentions": [
+    "A036839",
+    "A114611",
+    "A114612",
+    "A161590",
+    "A161592",
+    "A161593"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:46:35",
+    "offset": 1,
+    "size": 15,
+    "source": "joeis"
+  }
+}

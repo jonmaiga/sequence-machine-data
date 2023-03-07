@@ -1,0 +1,19 @@
+{
+  "description": "Record gaps between prime-indexed primes.",
+  "id": "A280082",
+  "mentions": [
+    "A006450",
+    "A280080",
+    "A280081"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

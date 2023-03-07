@@ -1,0 +1,19 @@
+{
+  "description": "Positions of record values in A104234.",
+  "id": "A105035",
+  "mentions": [
+    "A034797",
+    "A104234"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

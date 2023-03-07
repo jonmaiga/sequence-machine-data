@@ -1,0 +1,37 @@
+{
+  "description": "Number of zero-one matrices with n ones and no zero rows or columns and with distinct rows, up to permutation of rows.",
+  "id": "A116539",
+  "mentions": [
+    "A049311",
+    "A058891",
+    "A059202",
+    "A088309",
+    "A088310",
+    "A088616",
+    "A089673",
+    "A089674",
+    "A093466",
+    "A094000",
+    "A094223",
+    "A101370",
+    "A116532",
+    "A181230",
+    "A255906",
+    "A259763",
+    "A283877",
+    "A306021",
+    "A319190",
+    "A326914",
+    "A326962"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:06",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

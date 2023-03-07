@@ -1,0 +1,29 @@
+{
+  "description": "Number of ways to write n as an ordered sum of 4 primes.",
+  "id": "A340960",
+  "mentions": [
+    "A000040",
+    "A010051",
+    "A073610",
+    "A098238",
+    "A121303",
+    "A259194",
+    "A340961",
+    "A340962",
+    "A340963",
+    "A340964",
+    "A340965",
+    "A340966"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 8,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

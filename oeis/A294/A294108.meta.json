@@ -1,0 +1,20 @@
+{
+  "description": "Minimum of the number of primes appearing among the smaller parts and the number of primes appearing among the larger parts of the partitions of n into two parts.",
+  "id": "A294108",
+  "mentions": [
+    "A010051",
+    "A294107"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

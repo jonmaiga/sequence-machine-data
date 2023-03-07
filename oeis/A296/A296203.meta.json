@@ -1,0 +1,21 @@
+{
+  "description": "Xor-Moebius transform of A000203, the sum of divisors.",
+  "id": "A296203",
+  "mentions": [
+    "A000203",
+    "A169813",
+    "A256739",
+    "A295901",
+    "A296208"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:15",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

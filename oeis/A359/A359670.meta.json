@@ -1,0 +1,28 @@
+{
+  "description": "Triangle of coefficients T(n,k) of x^n*y^k in A(x,y), for n >= 0, k = 0..n, such that A(x,y) = 1/[Sum_{n=-oo..+oo} (-1)^n * (x*y*A(x,y) + x^n)^n].",
+  "id": "A359670",
+  "mentions": [
+    "A015128",
+    "A022571",
+    "A293600",
+    "A359711",
+    "A359712",
+    "A359713",
+    "A359714",
+    "A359715",
+    "A359718",
+    "A359720"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

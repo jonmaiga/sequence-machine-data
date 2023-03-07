@@ -1,0 +1,20 @@
+{
+  "description": "Partial sums of wt(n)! where wt(n) is the Hamming weight of n (A000120).",
+  "id": "A188064",
+  "mentions": [
+    "A000120",
+    "A000522",
+    "A093659"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:12",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

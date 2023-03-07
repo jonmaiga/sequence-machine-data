@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence such that |a(n+1)-a(n)| is a cube > 1 and no number occurs twice; a(0) = 0.",
+  "id": "A344538",
+  "mentions": [
+    "A277616"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:43:31",
+    "offset": 0,
+    "size": 67,
+    "source": "joeis"
+  }
+}

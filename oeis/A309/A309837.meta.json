@@ -1,0 +1,17 @@
+{
+  "description": "Where records occur in A327642.",
+  "id": "A309837",
+  "mentions": [
+    "A327642"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

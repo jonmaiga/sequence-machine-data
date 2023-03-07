@@ -1,0 +1,21 @@
+{
+  "description": "Maximal (or \"lazy\") Lucas representation of n. Binary system for representing integers using Lucas numbers (A000032) as a base.",
+  "id": "A130311",
+  "mentions": [
+    "A000032",
+    "A104326",
+    "A130310",
+    "A131343"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

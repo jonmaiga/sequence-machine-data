@@ -1,0 +1,17 @@
+{
+  "description": "Number of horizontal, vertical and diagonal neighbor colorings of the odd squares of an nX5 array with new integer colors introduced in row major order",
+  "id": "A216028",
+  "mentions": [
+    "A216031"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = A027306(n) + A027306(n-1) for n > 0; a(0) = 1.",
+  "id": "A248574",
+  "mentions": [
+    "A027306",
+    "A249111"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

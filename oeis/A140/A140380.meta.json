@@ -1,0 +1,18 @@
+{
+  "description": "Composites of the form 14k + 3.",
+  "id": "A140380",
+  "mentions": [
+    "A045437"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:12:47",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

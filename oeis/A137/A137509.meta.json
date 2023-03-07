@@ -1,0 +1,17 @@
+{
+  "description": "a(1)=2. For n >= 2, a(n) = the smallest integer > a(n-1) that has the same multiset of prime-factorization exponents as n has.",
+  "id": "A137509",
+  "mentions": [
+    "A081761"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

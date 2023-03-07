@@ -1,0 +1,26 @@
+{
+  "description": "(N\\{4})-perfect numbers, i.e., numbers m for which sigma(m)-4 = 2m, if 4|m, otherwise sigma(m) = 2m.",
+  "id": "A181597",
+  "mentions": [
+    "A000396",
+    "A005101",
+    "A005820",
+    "A045768",
+    "A088832",
+    "A118372",
+    "A153501",
+    "A181595",
+    "A181596"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

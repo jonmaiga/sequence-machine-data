@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that phi(n)=4*reversal(n).",
+  "id": "A114931",
+  "mentions": [
+    "A000010",
+    "A004086",
+    "A069215",
+    "A114930",
+    "A136538"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

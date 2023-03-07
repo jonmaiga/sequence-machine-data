@@ -1,0 +1,19 @@
+{
+  "description": "Limit of reversed rows of triangle A126470, in which row sums equal the factorials.",
+  "id": "A126471",
+  "mentions": [
+    "A126348",
+    "A126470",
+    "A126472"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

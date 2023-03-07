@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (2*n-3-(-1)^n)*(22*n^2-21*n+5*n*(-1)^n)/96.",
+  "id": "A298992",
+  "mentions": [
+    "A302647",
+    "A302758"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:34:17",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

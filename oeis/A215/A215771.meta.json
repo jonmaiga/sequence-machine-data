@@ -1,0 +1,36 @@
+{
+  "description": "Number T(n,k) of undirected labeled graphs on n nodes with exactly k cycle graphs as connected components; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A215771",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000217",
+    "A001296",
+    "A001710",
+    "A002135",
+    "A215763",
+    "A215764",
+    "A215765",
+    "A215766",
+    "A215767",
+    "A215768",
+    "A215769",
+    "A215770",
+    "A215772",
+    "A215773",
+    "A215774",
+    "A253276",
+    "A264428"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

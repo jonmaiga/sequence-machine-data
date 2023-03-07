@@ -1,0 +1,22 @@
+{
+  "description": "The A161671(n)-th partial sum of A161671.",
+  "id": "A161778",
+  "mentions": [
+    "A000040",
+    "A141468",
+    "A161671",
+    "A163116"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

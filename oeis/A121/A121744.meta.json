@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that (1 + Sum[Prime[k],{k,1,n}]) = (1 + A007504[n]) divides primorial number p(n)# = Product[Prime[k],{k,1,n}] = A002110[n].",
+  "id": "A121744",
+  "mentions": [
+    "A002110",
+    "A007504",
+    "A120291"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

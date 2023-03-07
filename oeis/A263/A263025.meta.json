@@ -1,0 +1,24 @@
+{
+  "description": "n is the a(n)-th positive integer having its sum of divisors.",
+  "id": "A263025",
+  "mentions": [
+    "A000203",
+    "A034885",
+    "A069822",
+    "A078898",
+    "A085790",
+    "A201915"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

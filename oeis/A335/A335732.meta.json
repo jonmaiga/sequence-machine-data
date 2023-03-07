@@ -1,0 +1,21 @@
+{
+  "description": "Emirps whose concatenation of adjacent digit differences either form an emirp that also has this characteristic or form a single-digit prime, and whose emirp also has this characteristic.",
+  "id": "A335732",
+  "mentions": [
+    "A006567"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Sum_{k=0..n} (k!)^6 * StirlingS2(n,k)^3.",
+  "id": "A242283",
+  "mentions": [
+    "A064618",
+    "A242282"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

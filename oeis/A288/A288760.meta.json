@@ -1,0 +1,23 @@
+{
+  "description": "Number of distinct nonnegative rational numbers that can be obtained in n steps by applying addition, subtraction, multiplication and division to any two potentially identical numbers from the complete set of numbers created in n-1 steps, starting with the set {1}.",
+  "id": "A288760",
+  "mentions": [
+    "A214872",
+    "A216999",
+    "A288759",
+    "A288850"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

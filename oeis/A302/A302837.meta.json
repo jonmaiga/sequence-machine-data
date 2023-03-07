@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = [x^n] Product_{k>=1} 1/(1 - n*x^prime(k)).",
+  "id": "A302837",
+  "mentions": [
+    "A000607",
+    "A002098",
+    "A124577",
+    "A145519",
+    "A301971"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

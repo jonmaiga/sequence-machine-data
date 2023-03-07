@@ -1,0 +1,22 @@
+{
+  "description": "Multisociable numbers in cycles of order > 1 and multiplicity > 1.",
+  "id": "A183022",
+  "mentions": [
+    "A001065",
+    "A166069",
+    "A183019",
+    "A183020",
+    "A183021"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

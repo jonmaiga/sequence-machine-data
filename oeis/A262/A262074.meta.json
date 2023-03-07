@@ -1,0 +1,21 @@
+{
+  "description": "The first of seven consecutive positive integers the sum of the squares of which is equal to the sum of the squares of eight consecutive positive integers.",
+  "id": "A262074",
+  "mentions": [
+    "A262075",
+    "A262076",
+    "A262077"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:21",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

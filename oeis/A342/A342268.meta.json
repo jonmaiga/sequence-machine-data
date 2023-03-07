@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows: Take a regular (2*n)-sided polygon (n>=2) with all diagonals drawn, as in A007678. Then T(n,k) = (1/(2*n))*(number of k-sided polygons in that figure) for k = 3, 4, ..., max_k.",
+  "id": "A342268",
+  "mentions": [
+    "A007678",
+    "A331450",
+    "A341734"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 2,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

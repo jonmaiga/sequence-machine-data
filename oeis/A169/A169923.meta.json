@@ -1,0 +1,19 @@
+{
+  "description": "Integer values of 3*n-36+360/(n+10) (see A169922).",
+  "id": "A169923",
+  "mentions": [
+    "A169922"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

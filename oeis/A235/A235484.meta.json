@@ -1,0 +1,19 @@
+{
+  "description": "Square numbers n such that n^2 - n - 1 is prime.",
+  "id": "A235484",
+  "mentions": [
+    "A000290",
+    "A002327",
+    "A002328"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

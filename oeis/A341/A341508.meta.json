@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = 0 if n is nonabundant, otherwise a(n) is the number of abundant divisors of the last abundant number in the iteration x -> A003961(x) (starting from x=n) before a nonabundant number is reached.",
+  "id": "A341508",
+  "mentions": [
+    "A003961",
+    "A005101",
+    "A047802",
+    "A080224",
+    "A091191",
+    "A263837",
+    "A336389",
+    "A336835",
+    "A337468"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

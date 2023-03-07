@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the absolute value of the imaginary part of the two complex roots of x^3-x^2+1.",
+  "id": "A210463",
+  "mentions": [
+    "A075778",
+    "A210462"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 125,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = phi(tau(sigma(n))).",
+  "id": "A163367",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A000203",
+    "A062068",
+    "A163109"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

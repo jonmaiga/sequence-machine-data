@@ -1,0 +1,19 @@
+{
+  "description": "Sequence of pairs k,g such that k*2^n-1, k*2^n-1+g, k*2^n-1+2*g, and k*2^n+3*g are four consecutive primes in arithmetic progression for the smallest odd k.",
+  "id": "A230699",
+  "mentions": [
+    "A227888",
+    "A228452",
+    "A228754"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:48",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Numbers which converge to 7 under repeated application of the powertrain map of A133500.",
+  "id": "A326740",
+  "mentions": [
+    "A133500",
+    "A133501",
+    "A135384",
+    "A135385",
+    "A309385",
+    "A326733",
+    "A326734",
+    "A326735",
+    "A326736",
+    "A326737",
+    "A326738",
+    "A326739",
+    "A326741",
+    "A326742"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

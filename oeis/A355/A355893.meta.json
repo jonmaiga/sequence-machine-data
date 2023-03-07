@@ -1,0 +1,22 @@
+{
+  "description": "Let A090252(n) = Product_{i >= 1} prime(i)^e(i); then a(n) is the concatenation, in reverse order, of e_1, e_2, ..., ending at the exponent of the largest prime factor of A090252(n); a(1)=0 by convention.",
+  "id": "A355893",
+  "mentions": [
+    "A054841",
+    "A090252",
+    "A354150",
+    "A354169",
+    "A355892"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

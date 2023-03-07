@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that decimal expansion of k^2 can be split into two parts whose sum is a number with repeated digits.",
+  "id": "A328173",
+  "mentions": [
+    "A000290",
+    "A010785",
+    "A248353"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

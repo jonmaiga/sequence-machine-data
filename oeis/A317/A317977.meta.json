@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = A003010(n-2) mod (2^n - 1).",
+  "id": "A317977",
+  "mentions": [
+    "A000043",
+    "A000225",
+    "A000668",
+    "A003010",
+    "A095847"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:37",
+    "offset": 2,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Permutation of natural numbers: a(1)=1; a(oddprime(n)) = prime(a(n)), a(not_an_oddprime(n)) = composite(a(n-1)).",
+  "id": "A257730",
+  "mentions": [
+    "A000035",
+    "A000040",
+    "A000720",
+    "A002808",
+    "A010051",
+    "A062298",
+    "A065090",
+    "A065091",
+    "A236854",
+    "A246378",
+    "A257727",
+    "A257729",
+    "A257732",
+    "A257801"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

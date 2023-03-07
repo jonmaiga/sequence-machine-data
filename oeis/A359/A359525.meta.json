@@ -1,0 +1,19 @@
+{
+  "description": "Number of well-connected free polyiamonds with n cells, where a polyiamond is defined as well-connected if, for all the triangles it contains, the removal of that single triangle would result in an intact polyiamond.",
+  "id": "A359525",
+  "mentions": [
+    "A000577",
+    "A341219"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

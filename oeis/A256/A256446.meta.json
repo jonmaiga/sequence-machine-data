@@ -1,0 +1,21 @@
+{
+  "description": "First differences of A250477: a(n) = A250477(n+1) - A250477(n).",
+  "id": "A256446",
+  "mentions": [
+    "A250477",
+    "A251723",
+    "A256447",
+    "A256448"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Squarefree part of the sum of divisors of n.",
+  "id": "A355928",
+  "mentions": [
+    "A000203",
+    "A006532",
+    "A007913",
+    "A080398",
+    "A355929"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

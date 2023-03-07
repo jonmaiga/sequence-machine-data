@@ -1,0 +1,18 @@
+{
+  "description": "Primes with a prime number of partitions into prime parts.",
+  "id": "A146949",
+  "mentions": [
+    "A056768"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

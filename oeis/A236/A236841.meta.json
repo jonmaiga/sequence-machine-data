@@ -1,0 +1,26 @@
+{
+  "description": "Numbers that occur as results of downward remultiplication (N -> GF(2)[X]) of some number; A234741 sorted and duplicates removed.",
+  "id": "A236841",
+  "mentions": [
+    "A014580",
+    "A048720",
+    "A091214",
+    "A234741",
+    "A236833",
+    "A236834",
+    "A236839",
+    "A236842",
+    "A236861"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

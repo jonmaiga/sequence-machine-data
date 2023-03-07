@@ -1,0 +1,19 @@
+{
+  "description": "Minimum integer m for which n·m = n'·m', where n' and m' are the arithmetic derivatives of n and m. Zero if m does not exist.",
+  "id": "A211222",
+  "mentions": [
+    "A003415",
+    "A051674",
+    "A165558"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 2,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

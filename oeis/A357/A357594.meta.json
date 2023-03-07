@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. log(1-x) * tan(log(1-x)/2).",
+  "id": "A357594",
+  "mentions": [
+    "A136128",
+    "A357591"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

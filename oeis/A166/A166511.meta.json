@@ -1,0 +1,23 @@
+{
+  "description": "Comma numbers: n=concat(a,b) occurs in the sequence S[0]=a, S[1]=b, S[k+1]=S[k]+10*last_digit(S[k-1])+first_digit(S[k]).",
+  "id": "A166511",
+  "mentions": [
+    "A121805",
+    "A166507",
+    "A166508",
+    "A166509",
+    "A166512",
+    "A166513"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

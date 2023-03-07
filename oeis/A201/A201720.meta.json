@@ -1,0 +1,18 @@
+{
+  "description": "The total number of components in (A011800) of all labeled forests on n nodes whose components are all paths.",
+  "id": "A201720",
+  "mentions": [
+    "A011800"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

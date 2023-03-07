@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = A000010(A005940(1+n)).",
+  "id": "A290077",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A005940",
+    "A014197",
+    "A083221",
+    "A290076"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

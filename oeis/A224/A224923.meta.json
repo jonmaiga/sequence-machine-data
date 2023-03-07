@@ -1,0 +1,21 @@
+{
+  "description": "Sum_{i=0..n} Sum_{j=0..n} (i XOR j), where XOR is the binary logical exclusive-or operator.",
+  "id": "A224923",
+  "mentions": [
+    "A004125",
+    "A222423",
+    "A224915",
+    "A224924"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

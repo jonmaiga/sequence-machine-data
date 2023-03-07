@@ -1,0 +1,21 @@
+{
+  "description": "The \"commas\" sequence: a(1) = 1; for n > 1, let x be the least significant digit of a(n-1); then a(n) = a(n-1) + x*10 + y where y is the most significant digit of a(n) and is the smallest such y, if such a y exists. If no such y exists, stop.",
+  "id": "A121805",
+  "mentions": [
+    "A139284",
+    "A260261"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "fini",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

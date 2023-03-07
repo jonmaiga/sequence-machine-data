@@ -1,0 +1,28 @@
+{
+  "description": "Triangle T(n,k) read by rows of number of ways k domicules can be placed on an n X n square (n >= 0, 0 <= k <= floor(n^2/2)).",
+  "id": "A243424",
+  "mentions": [
+    "A000012",
+    "A002943",
+    "A220638",
+    "A239264",
+    "A242861",
+    "A243464",
+    "A243465",
+    "A243466",
+    "A243467",
+    "A243510",
+    "A243511"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

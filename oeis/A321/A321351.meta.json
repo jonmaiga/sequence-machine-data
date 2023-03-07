@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the index of the row of A321350 in which n first appears, or zero if n does not appear.",
+  "id": "A321351",
+  "mentions": [
+    "A296142",
+    "A321350"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

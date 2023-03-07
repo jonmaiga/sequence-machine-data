@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = ceiling(sqrt(4*P_n)), where P_n is product of first n primes",
+  "id": "A173631",
+  "mentions": [
+    "A000040",
+    "A002110"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:57",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

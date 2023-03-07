@@ -1,0 +1,32 @@
+{
+  "description": "Triangle read by rows. The Bell transform of the sequence {m^m | m >= 0}.",
+  "id": "A354794",
+  "mentions": [
+    "A000217",
+    "A000312",
+    "A039621",
+    "A045531",
+    "A048993",
+    "A048994",
+    "A137452",
+    "A195979",
+    "A215862",
+    "A264428",
+    "A281595",
+    "A281596",
+    "A354795",
+    "A354797"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = the smallest positive integer not occurring earlier in the sequence such that floor(max(a(n),a(n-1))/min(a(n),a(n-1))) = 2; a(1) = 1.",
+  "id": "A139080",
+  "mentions": [
+    "A257271",
+    "A257280",
+    "A257470"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:27",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

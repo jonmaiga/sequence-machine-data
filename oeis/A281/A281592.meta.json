@@ -1,0 +1,19 @@
+{
+  "description": "Products of three distinct primes p1, p2 and p3 (sphenic numbers) with p1",
+  "id": "A281592",
+  "mentions": [
+    "A007304",
+    "A133980"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

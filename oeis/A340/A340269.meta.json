@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k > 1 such that lpf(k)-1 does not divide d-1 for at least one divisor d of k, where lpf(k) is the least prime factor of k (A020639).",
+  "id": "A340269",
+  "mentions": [
+    "A000010",
+    "A000961",
+    "A020639",
+    "A335902",
+    "A340058",
+    "A340268"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

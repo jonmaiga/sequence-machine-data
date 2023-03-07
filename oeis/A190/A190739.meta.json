@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = n + [ns/r] + [nt/r] + [nu/r] + [nv/r] + [nw/r], where r=sin(x), s=cos(x), t=tan(x), u=csc(x), v=sec(x), w=cot(x), x=Pi/8.",
+  "id": "A190739",
+  "mentions": [
+    "A190513",
+    "A190520",
+    "A190740",
+    "A190741",
+    "A190742",
+    "A190743",
+    "A190744"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:13:33",
+    "offset": 1,
+    "size": 63,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of distinct prime factors of A101291.",
+  "id": "A133304",
+  "mentions": [
+    "A101291"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

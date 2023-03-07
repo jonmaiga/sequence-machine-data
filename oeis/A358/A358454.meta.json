@@ -1,0 +1,33 @@
+{
+  "description": "Number of weakly transitive ordered rooted trees with n nodes.",
+  "id": "A358454",
+  "mentions": [
+    "A000081",
+    "A290689",
+    "A290822",
+    "A306844",
+    "A318185",
+    "A324695",
+    "A324751",
+    "A324756",
+    "A324758",
+    "A324764",
+    "A324768",
+    "A324838",
+    "A324840",
+    "A324844",
+    "A358453",
+    "A358456"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Zero-one sequence based on the sequence (4n-2): a(A016825(k))=a(k); a(A042965(k))=1-a(k), a(1)=0.",
+  "id": "A189126",
+  "mentions": [
+    "A016825",
+    "A042965",
+    "A188967",
+    "A189127",
+    "A189128"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:49:23",
+    "offset": 1,
+    "size": 135,
+    "source": "joeis"
+  }
+}

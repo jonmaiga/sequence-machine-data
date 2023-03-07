@@ -1,0 +1,17 @@
+{
+  "description": "Largest prime factor of prime power > 1 that divides the n-th composite number; or a(n) = 0 iff n-th composite number is equal to the product of distinct primes.",
+  "id": "A111565",
+  "mentions": [
+    "A002808"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

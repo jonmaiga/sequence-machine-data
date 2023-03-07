@@ -1,0 +1,24 @@
+{
+  "description": "Number of unlabeled uniform hypergraphs spanning n vertices.",
+  "id": "A301481",
+  "mentions": [
+    "A003465",
+    "A038041",
+    "A055621",
+    "A298422",
+    "A301920",
+    "A301922",
+    "A306017",
+    "A306021"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Denominator of (4^n*(4^n-1)/2)*B_{2n}/(2n)!, B_{n} Bernoulli number.",
+  "id": "A181993",
+  "mentions": [
+    "A046990"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "True position where binary expansion of n starts in the list of binary numbers in the binary Champernowne sequence A076478.",
+  "id": "A296355",
+  "mentions": [
+    "A061168",
+    "A076478",
+    "A296354",
+    "A296356"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:15",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

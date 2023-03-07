@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least positive number k such that P2(2n+1,q) divides Q(k,q), where both P2 and Q are polynomials in GF(2) and P2(n,q) is the n-th binary polynomial, i.e., P2(n,q) = Sum_{i>=0} b(i)*q^i, with n = Sum_{i>=0} b(i)*2^i; and Q(m,q) is 1 + q^m.",
+  "id": "A108346",
+  "mentions": [
+    "A000374"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

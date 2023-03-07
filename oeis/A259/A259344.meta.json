@@ -1,0 +1,23 @@
+{
+  "description": "Array read by antidiagonals: number of inequivalent m X n (0,1)-matrices under permutation of rows and permutation and/or complementation of columns.",
+  "id": "A259344",
+  "mentions": [
+    "A000711",
+    "A006281",
+    "A006380",
+    "A006382",
+    "A006383"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

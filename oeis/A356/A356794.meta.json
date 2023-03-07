@@ -1,0 +1,18 @@
+{
+  "description": "Odd numbers that have at least one prime factor congruent to 1 (mod 4) and at least one prime factor congruent to 3 (mod 4).",
+  "id": "A356794",
+  "mentions": [
+    "A004613",
+    "A004614"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

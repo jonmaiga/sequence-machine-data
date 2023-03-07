@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle read by rows: Whitney numbers c_{n,k} (n >= 0, 0 <= k <= 2n) of Lucas lattices.",
+  "id": "A205810",
+  "mentions": [
+    "A051292"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

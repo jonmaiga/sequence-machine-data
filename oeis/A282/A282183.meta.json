@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that the reverse of the first k digits in the decimal expansion of Pi forms a prime.",
+  "id": "A282183",
+  "mentions": [
+    "A007523",
+    "A011545",
+    "A092845"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "less",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

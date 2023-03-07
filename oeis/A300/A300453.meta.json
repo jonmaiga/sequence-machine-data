@@ -1,0 +1,35 @@
+{
+  "description": "Irregular triangle read by rows: row n consists of the coefficients of the expansion of the polynomial (x + 1)^n + x^2 - 1.",
+  "id": "A300453",
+  "mentions": [
+    "A000079",
+    "A001477",
+    "A007318",
+    "A030528",
+    "A101603",
+    "A123192",
+    "A128908",
+    "A137396",
+    "A152947",
+    "A155112",
+    "A186084",
+    "A256130",
+    "A257566",
+    "A284938",
+    "A299989",
+    "A300184",
+    "A300454"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

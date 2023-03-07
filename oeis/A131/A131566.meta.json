@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of (e*Pi*phi)^2.",
+  "id": "A131566",
+  "mentions": [
+    "A000796",
+    "A001113",
+    "A001622",
+    "A019609",
+    "A094885",
+    "A094886"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:19",
+    "offset": 3,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

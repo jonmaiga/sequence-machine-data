@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = 1 if bigomega(n) == 3 (mod 4), otherwise 0.",
+  "id": "A358753",
+  "mentions": [
+    "A001222",
+    "A003415",
+    "A003961",
+    "A010051",
+    "A010873",
+    "A066829",
+    "A101605",
+    "A349905",
+    "A358751",
+    "A358763",
+    "A358773"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 128,
+    "source": "oeis-bfile"
+  }
+}

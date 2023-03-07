@@ -1,0 +1,17 @@
+{
+  "description": "For any n > 0, let E_n be the variant of Van Eck's sequence where values are taken mod n; if E_n is eventually periodic, then a(n) is the length of its transient part; otherwise a(n) = -1.",
+  "id": "A352641",
+  "mentions": [
+    "A181391"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

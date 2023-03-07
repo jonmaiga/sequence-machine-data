@@ -1,0 +1,21 @@
+{
+  "description": "Number of tilings of an n X n square using distinct polyominoes.",
+  "id": "A291808",
+  "mentions": [
+    "A268416",
+    "A291806",
+    "A291807",
+    "A291809"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

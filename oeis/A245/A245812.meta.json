@@ -1,0 +1,31 @@
+{
+  "description": "Self-inverse permutation of natural numbers: a(0) = 0, a(1) = 1, and for n > 1, if A065620(n) < 0, a(n) = A065621(1+a(-(A065620(n)))), otherwise a(n) = A048724(a(A065620(n)-1)).",
+  "id": "A245812",
+  "mentions": [
+    "A010060",
+    "A048724",
+    "A054429",
+    "A065620",
+    "A065621",
+    "A193231",
+    "A234025",
+    "A234026",
+    "A234027",
+    "A235491",
+    "A236854",
+    "A246159",
+    "A246160",
+    "A246211"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

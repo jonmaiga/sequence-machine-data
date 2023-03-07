@@ -1,0 +1,32 @@
+{
+  "description": "Number of non-isomorphic multiset partitions of weight n with no singletons.",
+  "id": "A302545",
+  "mentions": [
+    "A007716",
+    "A016031",
+    "A049311",
+    "A283877",
+    "A293606",
+    "A293607",
+    "A306005",
+    "A306008",
+    "A317533",
+    "A317794",
+    "A317795",
+    "A320665",
+    "A330053",
+    "A330054",
+    "A330055",
+    "A330058"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

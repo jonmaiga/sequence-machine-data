@@ -1,0 +1,19 @@
+{
+  "description": "Array by antidiagonals: R(i,j)=number of the row of the Wythoff array which includes row(i+j)-row(i).",
+  "id": "A186007",
+  "mentions": [
+    "A035513",
+    "A185735"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "description": "Irregular table enumerating partitions; n-th row has partitions in previous row with each part incremented, followed by partitions in previous row with an additional part of size 1.",
+  "id": "A242628",
+  "mentions": [
+    "A000120",
+    "A008687",
+    "A029837",
+    "A029931",
+    "A030303",
+    "A065120",
+    "A066099",
+    "A070939",
+    "A112531",
+    "A112798",
+    "A114994",
+    "A125106",
+    "A227739",
+    "A240837",
+    "A241596",
+    "A241597",
+    "A241918",
+    "A253565",
+    "A253566",
+    "A355536",
+    "A358134",
+    "A358135",
+    "A358136"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

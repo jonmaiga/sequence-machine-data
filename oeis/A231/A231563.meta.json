@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = f(1)^n + ... + f(n)^n (mod n) where f(i)=i if gcd(i,n)=1 and f(i)=0 otherwise.",
+  "id": "A231563",
+  "mentions": [
+    "A231564",
+    "A231565",
+    "A308481"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

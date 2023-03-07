@@ -1,0 +1,18 @@
+{
+  "description": "Number of linear chord diagrams having n chords and no chord length larger than six.",
+  "id": "A293998",
+  "mentions": [
+    "A293960"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:10",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "T(n,k) are the numerators of the coefficients of the Legendre polynomials of degree n, with increasing exponents, where T(n,k) is a triangle read by rows.",
+  "id": "A356205",
+  "mentions": [
+    "A005187",
+    "A100258",
+    "A356206"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "frac",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

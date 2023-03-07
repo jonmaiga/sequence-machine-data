@@ -1,0 +1,20 @@
+{
+  "description": "Odd degrees for which (up to swapping of variables) there exists a unique polynomial p(x,y), such that p(x,y)=1 when x+y=1, with positive coefficients and such that the number of terms is minimal (equal to (d+3)/2). There always exists a group invariant polynomial (see any of the references), but for many degrees, other such extremal polynomials exist.",
+  "id": "A143106",
+  "mentions": [
+    "A143105",
+    "A143107"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

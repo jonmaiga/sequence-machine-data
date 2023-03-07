@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that 2^(k-1) mod k = number of divisors of k.",
+  "id": "A177024",
+  "mentions": [
+    "A000005",
+    "A062173",
+    "A176175"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

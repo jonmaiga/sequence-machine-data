@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n into 7 distinct primes.",
+  "id": "A219201",
+  "mentions": [
+    "A219180"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 58,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

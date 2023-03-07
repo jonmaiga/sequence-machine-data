@@ -1,0 +1,33 @@
+{
+  "description": "Triangle of numbers C^(7)(n,k) of combinations with repetitions from n different elements over k for each of them not more than 7 appearances allowed.",
+  "id": "A213808",
+  "mentions": [
+    "A000217",
+    "A000292",
+    "A000332",
+    "A000389",
+    "A000579",
+    "A000580",
+    "A005725",
+    "A007318",
+    "A059481",
+    "A111808",
+    "A187925",
+    "A213742",
+    "A213743",
+    "A213744",
+    "A213745"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

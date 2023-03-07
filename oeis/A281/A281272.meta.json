@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of Product_{k>=1} (1 + x^(5*k-3)).",
+  "id": "A281272",
+  "mentions": [
+    "A219607",
+    "A280454",
+    "A281243",
+    "A281271"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of (directed) Hamiltonian paths in the n X k knight graph.",
+  "id": "A306282",
+  "mentions": [
+    "A118067",
+    "A123935",
+    "A165134"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

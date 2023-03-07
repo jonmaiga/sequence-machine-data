@@ -1,0 +1,22 @@
+{
+  "description": "a(1)=1, a(2)=2; for n>=3, a(n) = the closest number to a(n-1) that has not occurred earlier and has at least one common factor with a(n-1), but none with a(n-2). In case of a tie, choose the smaller.",
+  "id": "A340779",
+  "mentions": [
+    "A064413",
+    "A098550",
+    "A121216",
+    "A336957",
+    "A340783",
+    "A340807"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

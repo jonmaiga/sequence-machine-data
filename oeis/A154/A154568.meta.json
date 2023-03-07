@@ -1,0 +1,20 @@
+{
+  "description": "Composites of the form (sum of digits of k) + (sum of digits of prime(k)).",
+  "id": "A154568",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A007953"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

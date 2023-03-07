@@ -1,0 +1,22 @@
+{
+  "description": "Smallest starting palindromic prime for n consecutive palindromic primes in arithmetic progression.",
+  "id": "A229725",
+  "mentions": [
+    "A059120",
+    "A059121",
+    "A059122"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 3,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

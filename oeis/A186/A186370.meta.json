@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of permutations of {1,2,...,n} having k up-down runs (1 <= k <= n).",
+  "id": "A186370",
+  "mentions": [
+    "A000111",
+    "A000142",
+    "A000225",
+    "A059427",
+    "A186371",
+    "A291677",
+    "A303159",
+    "A303160"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

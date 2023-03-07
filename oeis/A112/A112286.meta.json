@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = numerator of sum of reciprocals of the terms of the continued fraction for H(n) = Sum_{k=1..n} 1/k.",
+  "id": "A112286",
+  "mentions": [
+    "A001008",
+    "A002805",
+    "A055573",
+    "A058027",
+    "A100398",
+    "A110020",
+    "A112287"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

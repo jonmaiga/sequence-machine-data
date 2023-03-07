@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (Fibonacci(5n)/Fibonacci(n) - 5)/50.",
+  "id": "A214982",
+  "mentions": [
+    "A000045",
+    "A028412"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

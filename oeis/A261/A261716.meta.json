@@ -1,0 +1,21 @@
+{
+  "description": "Odd numbers that result in a prime when their cubes are concatenated with the cubes of all smaller odd numbers in descending order.",
+  "id": "A261716",
+  "mentions": [
+    "A000578",
+    "A089922",
+    "A091314"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

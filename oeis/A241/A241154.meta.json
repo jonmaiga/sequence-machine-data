@@ -1,0 +1,24 @@
+{
+  "description": "a(n)=1 for n <= s+k; thereafter a(n) = Sum(a(n-i-s-a(n-i-1)),i=0..k-1) where s=0, k=5.",
+  "id": "A241154",
+  "mentions": [
+    "A000012",
+    "A046699",
+    "A046702",
+    "A240830",
+    "A240835",
+    "A241155"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hear",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

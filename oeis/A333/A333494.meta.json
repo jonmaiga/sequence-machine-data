@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 1; a(n) = Sum_{k=1..n-1} ceiling(n/k) * a(k).",
+  "id": "A333494",
+  "mentions": [
+    "A006590",
+    "A014668",
+    "A126656",
+    "A332846"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

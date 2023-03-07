@@ -1,0 +1,21 @@
+{
+  "description": "Least integer m > 1 such that 4 + m^n is prime or 1 if only 4 + 1^n is prime.",
+  "id": "A243095",
+  "mentions": [
+    "A007591",
+    "A073573",
+    "A125260",
+    "A172367",
+    "A246519"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

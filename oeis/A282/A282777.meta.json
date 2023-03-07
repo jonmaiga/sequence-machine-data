@@ -1,0 +1,30 @@
+{
+  "description": "Expansion of phi_{16, 1}(x) where phi_{r, s}(x) = Sum_{n, m>0} m^r * n^s * x^{m*n}.",
+  "id": "A282777",
+  "mentions": [
+    "A013963",
+    "A064987",
+    "A281372",
+    "A282000",
+    "A282050",
+    "A282060",
+    "A282253",
+    "A282254",
+    "A282546",
+    "A282547",
+    "A282548",
+    "A282597"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:52",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

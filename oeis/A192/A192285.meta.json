@@ -1,0 +1,19 @@
+{
+  "description": "Primitive pseudo anti-perfect numbers",
+  "id": "A192285",
+  "mentions": [
+    "A006036",
+    "A066272",
+    "A192270"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

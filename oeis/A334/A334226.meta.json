@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of times that the number 3*k+1 from the Collatz trajectory of n is greater than n.",
+  "id": "A334226",
+  "mentions": [
+    "A006667"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

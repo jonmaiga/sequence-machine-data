@@ -1,0 +1,20 @@
+{
+  "description": "n is the a(n)-th positive integer which takes its number of steps to reach 1 in the '3x+1' problem.",
+  "id": "A337144",
+  "mentions": [
+    "A005186",
+    "A006577"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

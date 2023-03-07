@@ -1,0 +1,21 @@
+{
+  "description": "Integers corresponding to rational knots in Conway's enumeration.",
+  "id": "A122495",
+  "mentions": [
+    "A002863",
+    "A002864",
+    "A018240",
+    "A078666",
+    "A173637"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that the next prime exceeding 10^n is a twin prime member.",
+  "id": "A128942",
+  "mentions": [
+    "A001097",
+    "A003617"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

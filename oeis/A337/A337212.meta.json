@@ -1,0 +1,18 @@
+{
+  "description": "Modulo 3 Pisano period of 'n-bonacci' series.",
+  "id": "A337212",
+  "mentions": [
+    "A001175"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

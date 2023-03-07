@@ -1,0 +1,21 @@
+{
+  "description": "The number of functions in a finite set that can be expressed by a composition power of another function. (It differs from A163948, as it excludes self compositions).",
+  "id": "A163950",
+  "mentions": [
+    "A163947",
+    "A163948",
+    "A163949"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

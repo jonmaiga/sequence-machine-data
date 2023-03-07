@@ -1,0 +1,21 @@
+{
+  "description": "Difference of consecutive integers nearest to Li(10^n) - Li(2), where Li(x) = integral(0..x, dt/log(t)) (A190802, known as Gauss' approximation for the number of primes below 10^n).",
+  "id": "A228067",
+  "mentions": [
+    "A006879",
+    "A190802",
+    "A228065",
+    "A228068"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

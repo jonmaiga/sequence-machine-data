@@ -1,0 +1,22 @@
+{
+  "description": "Let f(1) = 1 + i (where i denotes the imaginary unit) and for n > 0, f(n+1) is the Gaussian prime in the first quadrant (with positive real part and nonnegative imaginary part) with least modulus that divides 1 + Product_{k=1..n} f(k) (in case of a tie minimize the imaginary part); a(n) is the square of the modulus of f(n).",
+  "id": "A319920",
+  "mentions": [
+    "A000945",
+    "A055025",
+    "A320103",
+    "A320104"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

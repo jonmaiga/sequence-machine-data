@@ -1,0 +1,18 @@
+{
+  "description": "The Wiener index of the dendrimer D_3[n], defined pictorially in the A. R. Ashrafi et al. reference.",
+  "id": "A224433",
+  "mentions": [
+    "A224434"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:36:45",
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

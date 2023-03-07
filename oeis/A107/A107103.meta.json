@@ -1,0 +1,22 @@
+{
+  "description": "Column 1 of triangle A107102, which is the matrix inverse of A100862.",
+  "id": "A107103",
+  "mentions": [
+    "A001515",
+    "A043301",
+    "A100862",
+    "A107102",
+    "A107104"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

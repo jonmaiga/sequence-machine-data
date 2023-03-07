@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of lim_{k->infinity} (1/k)*Sum_{i=1..k} A293630(i).",
+  "id": "A296564",
+  "mentions": [
+    "A291481",
+    "A293630"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:16",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

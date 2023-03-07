@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways of writing prime(n) in the form 2*prime(i)+prime(j).",
+  "id": "A103274",
+  "mentions": [
+    "A046926"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

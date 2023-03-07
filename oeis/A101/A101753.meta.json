@@ -1,0 +1,20 @@
+{
+  "description": "Numbers m such that Sum_{k=0..m} m^k is prime.",
+  "id": "A101753",
+  "mentions": [
+    "A031973",
+    "A088856"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

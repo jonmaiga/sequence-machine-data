@@ -1,0 +1,22 @@
+{
+  "description": "Triangular array: T(n,k)=floor(F(n)/F(n-k)), k=1,2,...,n-2; n>=3, where F=A000045 (Fibonacci numbers).",
+  "id": "A169613",
+  "mentions": [
+    "A000045",
+    "A014217",
+    "A169614",
+    "A169615",
+    "A169616"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 3,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

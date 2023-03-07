@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of 180*arccos(-1/4)/Pi.",
+  "id": "A140245",
+  "mentions": [
+    "A140239",
+    "A140240",
+    "A140241",
+    "A140242",
+    "A140243",
+    "A140244",
+    "A140246",
+    "A140247",
+    "A140248",
+    "A140249"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:42",
+    "offset": 3,
+    "size": 105,
+    "source": "joeis"
+  }
+}

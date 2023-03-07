@@ -1,0 +1,20 @@
+{
+  "description": "Least number k such that prime(n) is the largest divisor of k^2 + 1, or 0 if there is no such k.",
+  "id": "A223705",
+  "mentions": [
+    "A002314",
+    "A177979",
+    "A223701",
+    "A223707"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

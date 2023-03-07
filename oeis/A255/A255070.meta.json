@@ -1,0 +1,29 @@
+{
+  "description": "(1/2)*(n minus number of runs in the binary expansion of n): a(n) = (n - A005811(n)) / 2 = A236840(n)/2.",
+  "id": "A255070",
+  "mentions": [
+    "A005811",
+    "A060833",
+    "A091067",
+    "A106836",
+    "A236840",
+    "A255054",
+    "A255056",
+    "A255068",
+    "A255072",
+    "A269363",
+    "A269367"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:08:03",
+    "offset": 0,
+    "size": 76,
+    "source": "joeis"
+  }
+}

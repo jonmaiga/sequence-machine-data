@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of number of kilograms (kg) in 1 international avoirdupois ounce (oz).",
+  "id": "A321984",
+  "mentions": [
+    "A302541"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "cons",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": -1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

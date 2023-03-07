@@ -1,0 +1,20 @@
+{
+  "description": "Twin primes x, represented by their average, such that x is the first and x+18 the last of three successive twins.",
+  "id": "A350541",
+  "mentions": [
+    "A014574",
+    "A173037",
+    "A350542",
+    "A350543"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

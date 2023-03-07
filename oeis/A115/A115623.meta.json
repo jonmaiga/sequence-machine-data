@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows: row n lists numbers of distinct parts of partitions of n in Mathematica order.",
+  "id": "A115623",
+  "mentions": [
+    "A000041",
+    "A000070",
+    "A080577",
+    "A103921",
+    "A115622"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

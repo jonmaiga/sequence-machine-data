@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that n,n+1 and sum of this two numbers have at least 3 distinct prime factors.",
+  "id": "A168629",
+  "mentions": [
+    "A140077",
+    "A140078",
+    "A168626",
+    "A168628"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

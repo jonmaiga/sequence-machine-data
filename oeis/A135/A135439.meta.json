@@ -1,0 +1,18 @@
+{
+  "description": "Positions of A136048(n) in A136047.",
+  "id": "A135439",
+  "mentions": [
+    "A136047",
+    "A136048"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Conjectured minimum number of ways to represent a number >= A262526(i) by sums of three base-10 palindromes.",
+  "id": "A262527",
+  "mentions": [
+    "A002113",
+    "A261132",
+    "A261422",
+    "A262524",
+    "A262525",
+    "A262526",
+    "A262544",
+    "A262545"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

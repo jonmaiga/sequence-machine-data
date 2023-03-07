@@ -1,0 +1,23 @@
+{
+  "description": "Dirichlet inverse of A010055, characteristic function of powers of primes.",
+  "id": "A355817",
+  "mentions": [
+    "A008480",
+    "A010055",
+    "A050363",
+    "A335452",
+    "A355827",
+    "A355939"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

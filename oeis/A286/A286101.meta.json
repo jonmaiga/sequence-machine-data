@@ -1,0 +1,33 @@
+{
+  "description": "Square array A(n,k) read by antidiagonals: A(n,k) = T(gcd(n,k), lcm(n,k)), where T(n,k) is sequence A000027 considered as a two-dimensional table.",
+  "id": "A286101",
+  "mentions": [
+    "A000027",
+    "A000124",
+    "A001844",
+    "A002260",
+    "A003989",
+    "A003990",
+    "A003991",
+    "A004736",
+    "A038722",
+    "A285722",
+    "A285724",
+    "A285732",
+    "A286098",
+    "A286099",
+    "A286102"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:57",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

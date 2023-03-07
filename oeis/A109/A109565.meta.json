@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = If[Floor[2*Mod[(Prime[n + 1] - Prime[n])*PrimePi[n]/n, 8]] == 11, Prime[n]]",
+  "id": "A109565",
+  "mentions": [
+    "A001359"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:52:53",
+    "offset": 0,
+    "size": 13,
+    "source": "joeis"
+  }
+}

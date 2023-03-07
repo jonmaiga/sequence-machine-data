@@ -1,0 +1,19 @@
+{
+  "description": "Interprimes that are products of two successive primes.",
+  "id": "A354682",
+  "mentions": [
+    "A006094",
+    "A024675",
+    "A174955"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

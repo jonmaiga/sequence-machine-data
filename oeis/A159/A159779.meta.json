@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of (56211+34510*sqrt(2))/167^2.",
+  "id": "A159779",
+  "mentions": [
+    "A002193",
+    "A130608",
+    "A159777",
+    "A159778"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

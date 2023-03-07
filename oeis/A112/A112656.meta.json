@@ -1,0 +1,18 @@
+{
+  "description": "Shortest side (or short leg) of primitive Pythagorean triangles sorted on middle side (or long leg) A020883.",
+  "id": "A112656",
+  "mentions": [
+    "A020883",
+    "A113482"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

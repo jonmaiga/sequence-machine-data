@@ -1,0 +1,30 @@
+{
+  "description": "Number of ways to write n as an ordered sum of 10 nonprime numbers.",
+  "id": "A341504",
+  "mentions": [
+    "A005171",
+    "A018252",
+    "A052284",
+    "A076608",
+    "A340966",
+    "A341460",
+    "A341469",
+    "A341480",
+    "A341481",
+    "A341482",
+    "A341483",
+    "A341484",
+    "A341485",
+    "A341486"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 10,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

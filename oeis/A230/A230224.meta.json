@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways to write 2*n = p + q + r + s with p <= q <= r <= s such that p, q, r, s are primes in A230223.",
+  "id": "A230224",
+  "mentions": [
+    "A002375",
+    "A068307",
+    "A230140",
+    "A230141",
+    "A230219",
+    "A230223"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:47",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

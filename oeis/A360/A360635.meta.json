@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest nonnegative integer that satisfies p(a(n)+1) - p(a(n)) >= n, where p denotes the number partition function.",
+  "id": "A360635",
+  "mentions": [
+    "A000041",
+    "A001477",
+    "A187219"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

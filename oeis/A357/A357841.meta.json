@@ -1,0 +1,19 @@
+{
+  "description": "Smith numbers (A006753) for which the arithmetic derivative (A003415) is also a Smith number.",
+  "id": "A357841",
+  "mentions": [
+    "A003415",
+    "A006753"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that (k-p)*(k+p) contains k as a substring, where p > 0 and p = A007954(k) is the product of digits of k.",
+  "id": "A334534",
+  "mentions": [
+    "A007954",
+    "A028842",
+    "A063108"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

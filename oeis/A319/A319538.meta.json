@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k divides 2^(2*k+1) - 1.",
+  "id": "A319538",
+  "mentions": [
+    "A187787",
+    "A296369",
+    "A319222"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

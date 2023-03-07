@@ -1,0 +1,21 @@
+{
+  "description": "Number of pairs of Dyck paths of semilength n such that the midpoint of the first is not below the midpoint of the second.",
+  "id": "A357652",
+  "mentions": [
+    "A000108",
+    "A001246",
+    "A129123",
+    "A355481"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

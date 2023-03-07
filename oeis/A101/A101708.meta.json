@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of n having positive even rank (the rank of a partition is the largest part minus the number of parts).",
+  "id": "A101708",
+  "mentions": [
+    "A000041",
+    "A064173",
+    "A101198",
+    "A101200",
+    "A101707",
+    "A101709"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

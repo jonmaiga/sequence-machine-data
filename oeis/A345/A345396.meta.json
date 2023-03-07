@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least prime p such that {p, p^2, ..., p^n} are all digitally balanced numbers in base 2 (A031443).",
+  "id": "A345396",
+  "mentions": [
+    "A031443",
+    "A066196",
+    "A345395",
+    "A345397"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

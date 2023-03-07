@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n with decimal expansion (d_1, ..., d_k) such that the convex hull of the set of points { (i, d_i), i = 1..k } has positive area.",
+  "id": "A301516",
+  "mentions": [
+    "A134999",
+    "A135643",
+    "A302907"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

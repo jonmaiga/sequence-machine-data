@@ -1,0 +1,39 @@
+{
+  "description": "Number of non-constant integer partitions of n whose parts have a common divisor > 1.",
+  "id": "A338554",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A000837",
+    "A000961",
+    "A008284",
+    "A018783",
+    "A046022",
+    "A051424",
+    "A059841",
+    "A082023",
+    "A082024",
+    "A178472",
+    "A282750",
+    "A289508",
+    "A289509",
+    "A302698",
+    "A303280",
+    "A304712",
+    "A318978",
+    "A338552",
+    "A338553",
+    "A338555"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

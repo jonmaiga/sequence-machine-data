@@ -1,0 +1,23 @@
+{
+  "description": "Least m coprime to 5 minimizing A007947(m*(5^n-m)).",
+  "id": "A147803",
+  "mentions": [
+    "A007947",
+    "A143700",
+    "A147298",
+    "A147300",
+    "A147800",
+    "A147802"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

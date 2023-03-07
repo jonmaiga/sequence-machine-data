@@ -1,0 +1,17 @@
+{
+  "description": "Number of (n+1)X(5+1) 0..3 arrays with no element equal to all horizontal neighbors or unequal to all vertical neighbors, and new values 0..3 introduced in row major order",
+  "id": "A239154",
+  "mentions": [
+    "A239155"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

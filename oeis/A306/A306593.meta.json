@@ -1,0 +1,25 @@
+{
+  "description": "Least number k such that the determinant of the circulant matrix formed by its decimal digits is equal to n.",
+  "id": "A306593",
+  "mentions": [
+    "A177894",
+    "A219324",
+    "A267623",
+    "A283508",
+    "A306662",
+    "A323485",
+    "A323486"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

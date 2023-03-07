@@ -1,0 +1,20 @@
+{
+  "description": "Numbers with more than one prime factor and, in the ordered factorization, the exponent never decreases when read from left to right.",
+  "id": "A230766",
+  "mentions": [
+    "A097318",
+    "A097319",
+    "A097320"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

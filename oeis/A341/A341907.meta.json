@@ -1,0 +1,46 @@
+{
+  "description": "T(n, k) is the result of replacing 2^e with k^e in the binary expansion of n; square array T(n, k) read by antidiagonals upwards, n, k >= 0.",
+  "id": "A341907",
+  "mentions": [
+    "A000035",
+    "A000120",
+    "A000583",
+    "A000695",
+    "A001093",
+    "A002061",
+    "A002378",
+    "A002522",
+    "A002523",
+    "A005836",
+    "A007088",
+    "A011379",
+    "A027444",
+    "A033042",
+    "A033043",
+    "A033044",
+    "A033045",
+    "A033046",
+    "A033047",
+    "A033048",
+    "A033049",
+    "A034262",
+    "A053698",
+    "A071568",
+    "A098547",
+    "A104258",
+    "A342707"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

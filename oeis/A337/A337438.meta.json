@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the index k of prime(k), such that abs(prime(k) - Sum_{j=k-2..k+2} prime(j)) sets a new record. A337439 are the corresponding primes.",
+  "id": "A337438",
+  "mentions": [
+    "A034964",
+    "A337439",
+    "A337488",
+    "A337489"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

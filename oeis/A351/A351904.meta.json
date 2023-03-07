@@ -1,0 +1,37 @@
+{
+  "description": "a(n) is the smallest number k such that the symmetric representation of sigma(k) has at least one subpart n.",
+  "id": "A351904",
+  "mentions": [
+    "A000079",
+    "A000203",
+    "A000225",
+    "A001227",
+    "A196020",
+    "A235791",
+    "A236104",
+    "A237270",
+    "A237271",
+    "A237591",
+    "A237593",
+    "A279387",
+    "A280850",
+    "A280851",
+    "A296508",
+    "A296513",
+    "A347529",
+    "A351819",
+    "A351903",
+    "A352015"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{j=1..n} c(j)^c(n+1-j) where c(k) is the k-th composite number.",
+  "id": "A196152",
+  "mentions": [
+    "A002808"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

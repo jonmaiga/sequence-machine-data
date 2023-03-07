@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 1 if prime(n) + 2 = prime(n+1), otherwise 0.",
+  "id": "A100821",
+  "mentions": [
+    "A062301",
+    "A100810"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

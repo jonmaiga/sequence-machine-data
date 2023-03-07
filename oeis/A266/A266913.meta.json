@@ -1,0 +1,19 @@
+{
+  "description": "Denominator of the volume of d dimensional symmetric convex cuboid with constraints |x1 + x2 + ... xd| <= 1 and |x1|, |x2|, ..., |xd| <= 1.",
+  "id": "A266913",
+  "mentions": [
+    "A199832",
+    "A269067"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that (k+1)*p^2-k are prime for k=1..6.",
+  "id": "A213159",
+  "mentions": [
+    "A106483",
+    "A213078",
+    "A213079",
+    "A213107",
+    "A213125"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

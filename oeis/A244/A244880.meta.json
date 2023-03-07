@@ -1,0 +1,25 @@
+{
+  "description": "Number of magic labelings of the cycle-of-loops graph LOOP X C_8 having magic sum n, where LOOP is the 1-vertex, 1-loop-edge graph.",
+  "id": "A244880",
+  "mentions": [
+    "A002721",
+    "A006325",
+    "A019298",
+    "A244497",
+    "A244873",
+    "A244879",
+    "A289992"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:50:41",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

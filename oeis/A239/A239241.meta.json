@@ -1,0 +1,24 @@
+{
+  "description": "Number of partitions of n into distinct parts for which (number of odd parts) = (number of even parts).",
+  "id": "A239241",
+  "mentions": [
+    "A000009",
+    "A239239",
+    "A239240",
+    "A239242",
+    "A239243",
+    "A240021"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:23",
+    "offset": 0,
+    "size": 60,
+    "source": "joeis"
+  }
+}

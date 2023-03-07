@@ -1,0 +1,20 @@
+{
+  "description": "Number of labeled directed multigraphs (without loops) with n arcs and no vertex of degree 0.",
+  "id": "A121137",
+  "mentions": [
+    "A052170",
+    "A052171",
+    "A104209"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

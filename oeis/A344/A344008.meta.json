@@ -1,0 +1,19 @@
+{
+  "description": "Triangle of numerators corresponding to A344007.",
+  "id": "A344008",
+  "mentions": [
+    "A003506",
+    "A344007"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

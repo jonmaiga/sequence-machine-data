@@ -1,0 +1,18 @@
+{
+  "description": "Leading diagonal of array in A100461.",
+  "id": "A100462",
+  "mentions": [
+    "A100461",
+    "A100463"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

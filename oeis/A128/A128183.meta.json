@@ -1,0 +1,18 @@
+{
+  "description": "Row sums of A128182.",
+  "id": "A128183",
+  "mentions": [
+    "A128182"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

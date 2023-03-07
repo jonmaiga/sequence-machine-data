@@ -1,0 +1,20 @@
+{
+  "description": "The number of walks from (0,0,0) to (n,n,n) with steps that increment one to three coordinates and having the property that no two consecutive steps are orthogonal.",
+  "id": "A171158",
+  "mentions": [
+    "A171155",
+    "A171563"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:54",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "description": "Triangle of numbers T(n,k) (n>=0, n>=k>=0) of transitive reflexive early confluent binary relations R on n labeled elements where k=max_{x}(|{y : xRy}|), read by rows.",
+  "id": "A135313",
+  "mentions": [
+    "A000007",
+    "A000670",
+    "A052880",
+    "A057427",
+    "A135302",
+    "A218091",
+    "A218092",
+    "A218093",
+    "A218094",
+    "A218095",
+    "A218096",
+    "A218097",
+    "A218098",
+    "A218099",
+    "A218103",
+    "A218104",
+    "A218105",
+    "A218106",
+    "A218107",
+    "A218108",
+    "A218109",
+    "A218110",
+    "A218111",
+    "A218112",
+    "A261238"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

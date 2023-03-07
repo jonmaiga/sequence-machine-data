@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that \"n 42's followed by 43\" is prime.",
+  "id": "A110705",
+  "mentions": [
+    "A110704",
+    "A254002"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

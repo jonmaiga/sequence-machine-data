@@ -1,0 +1,23 @@
+{
+  "description": "a(1) = 1; a(n) = Sum_{d|n, d < n} q(n/d) * a(d), where q() = A000009.",
+  "id": "A329803",
+  "mentions": [
+    "A000009",
+    "A050354",
+    "A050369",
+    "A074206",
+    "A308076",
+    "A328424"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

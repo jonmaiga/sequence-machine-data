@@ -1,0 +1,19 @@
+{
+  "description": "Signed pseudo characteristic function of primes by annihilation of composites up to p-1, here p=13 and sign (-).",
+  "id": "A228070",
+  "mentions": [
+    "A000796",
+    "A228069"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

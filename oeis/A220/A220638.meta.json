@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways to reciprocally link elements of an n X n array either to themselves or to exactly one king-move neighbor.",
+  "id": "A220638",
+  "mentions": [
+    "A063443",
+    "A220644",
+    "A234622",
+    "A239273",
+    "A243424"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

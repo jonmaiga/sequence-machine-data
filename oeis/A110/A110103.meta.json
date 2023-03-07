@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of 2-regular 4-hypergraphs on 2n labeled vertices. (In a r-hypergraph, each hyper-edge is a proper r-set; k-regular implies that each vertex is in exactly k hyperedges.)",
+  "id": "A110103",
+  "mentions": [
+    "A025035",
+    "A025036",
+    "A110100",
+    "A110101"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:14:55",
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

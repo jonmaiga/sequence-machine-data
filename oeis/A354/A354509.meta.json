@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n! * Sum_{k=1..n} ( Sum_{d|k} (-1)^(d+1)/(d * (k/d)!) )/(n-k)!.",
+  "id": "A354509",
+  "mentions": [
+    "A352013",
+    "A354505",
+    "A356401"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

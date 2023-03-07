@@ -1,0 +1,24 @@
+{
+  "description": "Nonnegative values x of solutions (x, y) to the Diophantine equation x^2+(x+953)^2 = y^2.",
+  "id": "A129975",
+  "mentions": [
+    "A001652",
+    "A129974",
+    "A156035",
+    "A160212",
+    "A160213",
+    "A160214"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:39:31",
+    "offset": 1,
+    "size": 27,
+    "source": "joeis"
+  }
+}

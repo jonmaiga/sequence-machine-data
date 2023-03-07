@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = the smallest non-divisor h of n (1",
+  "id": "A199968",
+  "mentions": [
+    "A007978",
+    "A173540",
+    "A199969",
+    "A199970"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:20",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

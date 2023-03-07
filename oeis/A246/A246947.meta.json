@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=30; for n > 1, a(n) is the least integer not occurring earlier such that a(n) shares exactly three distinct prime divisors with a(n-1).",
+  "id": "A246947",
+  "mentions": [
+    "A000977",
+    "A064413",
+    "A246946"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

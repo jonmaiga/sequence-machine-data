@@ -1,0 +1,18 @@
+{
+  "description": "The sum of the next n digits of Pi.",
+  "id": "A351296",
+  "mentions": [
+    "A000796"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

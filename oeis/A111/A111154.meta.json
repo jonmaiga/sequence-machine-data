@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = sum(k=0,n,B_k*A000629(k)*A000629(n-k)) where B_k is the k-th Bernoulli number.",
+  "id": "A111154",
+  "mentions": [
+    "A000629",
+    "A052882"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of distinct Sophie Germain prime factors of n.",
+  "id": "A156542",
+  "mentions": [
+    "A000720",
+    "A001221",
+    "A005384",
+    "A053176",
+    "A156541",
+    "A156543"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Composite numbers of the form 2*k^2 + 29.",
+  "id": "A352949",
+  "mentions": [
+    "A007641",
+    "A007642",
+    "A241554",
+    "A352800",
+    "A353004"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

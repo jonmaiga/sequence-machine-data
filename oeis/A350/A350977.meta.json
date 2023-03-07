@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that x^3 - y^2 = k has no solution.",
+  "id": "A350977",
+  "mentions": [
+    "A081121",
+    "A087285",
+    "A350976"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

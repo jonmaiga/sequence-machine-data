@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (2*n-1)!! mod n!, where double factorial is A006882.",
+  "id": "A232701",
+  "mentions": [
+    "A006882",
+    "A024502",
+    "A232618"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

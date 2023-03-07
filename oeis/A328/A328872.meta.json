@@ -1,0 +1,18 @@
+{
+  "description": "Number of semi-magic (only short lines are magic) knight's tours on a 6 X n board.",
+  "id": "A328872",
+  "mentions": [
+    "A309273"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

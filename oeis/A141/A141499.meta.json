@@ -1,0 +1,21 @@
+{
+  "description": "a(0)=0; a(1)=1; a(n) = triangular number at index 5*2^(n-2)-1.",
+  "id": "A141499",
+  "mentions": [
+    "A000217",
+    "A052549",
+    "A084215"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:43:14",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

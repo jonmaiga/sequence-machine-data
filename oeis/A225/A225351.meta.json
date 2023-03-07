@@ -1,0 +1,18 @@
+{
+  "description": "Number of 11Xn -1,1 arrays such that the sum over i=1..11,j=1..n of i*x(i,j) is zero, the sum of x(i,j) is zero, and rows are nondecreasing (number of ways to distribute n-across galley oarsmen left-right at 11 fore-aft positions so that there are no turning moments on the ship)",
+  "id": "A225351",
+  "mentions": [
+    "A225345"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

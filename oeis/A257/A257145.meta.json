@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 5 * floor( (n+2) / 5) - n with a(0) = 1.",
+  "id": "A257145",
+  "mentions": [
+    "A117444",
+    "A253262",
+    "A257143"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:34:55",
+    "offset": 0,
+    "size": 76,
+    "source": "joeis"
+  }
+}

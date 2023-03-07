@@ -1,0 +1,19 @@
+{
+  "description": "Gives the i-th coefficient M(k,i) of the decomposition of the polynomials B(k,X^2) in the basis of all B(i,X), where B(i,X) is the i-th binomial polynomial: B(i,X) = X(X-1)...(X-i+1)/i! for any i > 0 and B(0,X) = 1 by definition.",
+  "id": "A100344",
+  "mentions": [
+    "A080959"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

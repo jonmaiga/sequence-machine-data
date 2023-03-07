@@ -1,0 +1,29 @@
+{
+  "description": "Numbers n for which nontrivial positive magic squares of exactly 2 different orders with magic sum n exist. For a definition of nontrivial positive magic squares, see A125005.",
+  "id": "A125009",
+  "mentions": [
+    "A125005",
+    "A125006",
+    "A125007",
+    "A125008",
+    "A125010",
+    "A125011",
+    "A125012",
+    "A125013",
+    "A125014",
+    "A125015",
+    "A125016",
+    "A125017"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

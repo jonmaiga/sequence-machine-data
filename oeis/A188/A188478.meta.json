@@ -1,0 +1,21 @@
+{
+  "description": "Binomial variation of the Catalan numbers",
+  "id": "A188478",
+  "mentions": [
+    "A000108",
+    "A001147",
+    "A188479"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:12",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "5x + 1 sequence beginning at 11.",
+  "id": "A259193",
+  "mentions": [
+    "A057688",
+    "A259207"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Smallest k such that A285481(k) >= n, i.e., lowest d where the smallest integer radius needed for a d-dimensional ball to have a volume >= 1 is at least n.",
+  "id": "A285482",
+  "mentions": [
+    "A285481"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

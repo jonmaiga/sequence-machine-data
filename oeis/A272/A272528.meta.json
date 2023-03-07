@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that the arithmetic derivative of the totient(n) is equal to the cototient(n).",
+  "id": "A272528",
+  "mentions": [
+    "A000010",
+    "A003415",
+    "A051953",
+    "A272529"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

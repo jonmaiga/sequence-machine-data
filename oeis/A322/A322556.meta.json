@@ -1,0 +1,18 @@
+{
+  "description": "The number of eigenvectors with eigenvalue 1 summed over all linear operators on the vector space GF(2)^n.",
+  "id": "A322556",
+  "mentions": [
+    "A286331"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

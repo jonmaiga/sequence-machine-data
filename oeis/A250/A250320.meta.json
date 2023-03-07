@@ -1,0 +1,19 @@
+{
+  "description": "T(n,k)=Number of length n+2 0..k arrays with the sum of second differences squared multiplied by some arrangement of +-1 equal to zero",
+  "id": "A250320",
+  "mentions": [
+    "A000982"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Y-toothpick number A160120(n) minus toothpick number A139250(n).",
+  "id": "A160789",
+  "mentions": [
+    "A000695",
+    "A139250",
+    "A160120"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

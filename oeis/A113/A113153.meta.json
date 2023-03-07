@@ -1,0 +1,19 @@
+{
+  "description": "Sum of the first n tribonacci numbers, in ascending order, as bases, with the same, in descending order, as exponents.",
+  "id": "A113153",
+  "mentions": [
+    "A000073"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 01:42:39",
+    "offset": 1,
+    "size": 12,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of factorizations of the length-n prefix of the Fibonacci word A003849 into a (not strictly) decreasing sequence of finite Fibonacci words.",
+  "id": "A300066",
+  "mentions": [
+    "A000119",
+    "A003849",
+    "A299995"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

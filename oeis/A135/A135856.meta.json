@@ -1,0 +1,20 @@
+{
+  "description": "A007318 * a bidiagonal matrix with all 1's in the main diagonal and all 4's in the subdiagonal.",
+  "id": "A135856",
+  "mentions": [
+    "A007318",
+    "A048487"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:24:25",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

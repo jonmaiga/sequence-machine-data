@@ -1,0 +1,23 @@
+{
+  "description": "Triangle by columns, T(n,k); (..., n, (n+1)) preceded by (n-1) zeros, as an infinite lower triangular matrix.",
+  "id": "A171608",
+  "mentions": [
+    "A002620",
+    "A028724",
+    "A084265",
+    "A171609"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:55",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

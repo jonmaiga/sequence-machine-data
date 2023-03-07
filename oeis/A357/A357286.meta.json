@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (1/8)*A357285).",
+  "id": "A357286",
+  "mentions": [
+    "A357285"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:56",
+    "offset": 0,
+    "size": 37,
+    "source": "joeis"
+  }
+}

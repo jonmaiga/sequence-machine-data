@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the least integer k such that sigma(k)/(d(k)*sopf(k)) = n where d=A000005, sigma=A000203 and sopf=A008472.",
+  "id": "A328174",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A008472",
+    "A134382",
+    "A328051",
+    "A328052",
+    "A328175"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

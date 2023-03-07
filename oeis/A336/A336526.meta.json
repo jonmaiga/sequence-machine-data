@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least k > 1 such that A031121(n) = F(k*m)/F(m) for some m.",
+  "id": "A336526",
+  "mentions": [
+    "A000045",
+    "A031121",
+    "A031122"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

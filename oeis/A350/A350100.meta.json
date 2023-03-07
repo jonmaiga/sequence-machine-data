@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that the prime gap between the consecutive primes p1 < k^2 < p2 sets a new record.",
+  "id": "A350100",
+  "mentions": [
+    "A001223",
+    "A005250",
+    "A058043"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

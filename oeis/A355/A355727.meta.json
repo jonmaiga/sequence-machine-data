@@ -1,0 +1,18 @@
+{
+  "description": "First of four consecutive primes p, q, r, s where q*s == p (mod r).",
+  "id": "A355727",
+  "mentions": [
+    "A000122",
+    "A001223"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

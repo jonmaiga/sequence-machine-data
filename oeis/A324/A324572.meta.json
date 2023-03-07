@@ -1,0 +1,30 @@
+{
+  "description": "Number of integer partitions of n whose multiplicities (where if x < y the multiplicity of x is counted prior to the multiplicity of y) are equal to the distinct parts in decreasing order.",
+  "id": "A324572",
+  "mentions": [
+    "A000002",
+    "A001156",
+    "A001462",
+    "A033461",
+    "A079000",
+    "A079254",
+    "A109298",
+    "A117144",
+    "A276078",
+    "A276625",
+    "A304360",
+    "A304679",
+    "A324524",
+    "A324571"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

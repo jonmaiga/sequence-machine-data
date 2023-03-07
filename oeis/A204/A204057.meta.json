@@ -1,0 +1,32 @@
+{
+  "description": "Triangle derived from an array of f(x), Narayana polynomials.",
+  "id": "A204057",
+  "mentions": [
+    "A000012",
+    "A000108",
+    "A001003",
+    "A007564",
+    "A008550",
+    "A028387",
+    "A059231",
+    "A078009",
+    "A090197",
+    "A090198",
+    "A090199",
+    "A090200",
+    "A132745",
+    "A243631"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:24",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

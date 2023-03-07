@@ -1,0 +1,17 @@
+{
+  "description": "Lexicographically earliest sequence of distinct terms such that, for any n>0, a(n) is divisible by k and a(n+1) is divisible by prime(k) for some k.",
+  "id": "A285039",
+  "mentions": [
+    "A285041"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:56",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

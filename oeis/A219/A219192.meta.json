@@ -1,0 +1,18 @@
+{
+  "description": "Area A of the bicentric quadrilaterals such that A, the sides, the radius of the circumcircle and the radius of the incircle are integers.",
+  "id": "A219192",
+  "mentions": [
+    "A210250",
+    "A219193"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

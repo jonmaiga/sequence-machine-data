@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of 1 / (1 - 6*x + 20*x^3 - 15*x^4 + x^6).",
+  "id": "A200782",
+  "mentions": [
+    "A200785",
+    "A225381",
+    "A225682"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:21",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Nonnegative integers in balanced ternary representation (with 2 standing for -1 digit).",
+  "id": "A140267",
+  "mentions": [
+    "A007089",
+    "A117967",
+    "A140268"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:28",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

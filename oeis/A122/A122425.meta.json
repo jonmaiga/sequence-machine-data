@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = lexicographically greatest divisor of n in decimal representation.",
+  "id": "A122425",
+  "mentions": [
+    "A000005",
+    "A006530",
+    "A122426",
+    "A122427",
+    "A122428",
+    "A254679"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:11",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

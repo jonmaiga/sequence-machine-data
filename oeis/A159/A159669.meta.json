@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of x*(1 + x)/(1 - 28*x + x^2).",
+  "id": "A159669",
+  "mentions": [
+    "A097311",
+    "A157456",
+    "A159668",
+    "A159673"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

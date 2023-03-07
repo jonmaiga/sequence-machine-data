@@ -1,0 +1,23 @@
+{
+  "description": "Smallest m such that the m-th Lucas number has exactly n divisors that are also Lucas numbers.",
+  "id": "A356666",
+  "mentions": [
+    "A000032",
+    "A038547",
+    "A102460",
+    "A105802",
+    "A304092",
+    "A356123"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

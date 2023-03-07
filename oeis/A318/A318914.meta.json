@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of e.g.f. Product_{p prime, k>=1} 1/(1 - x^(p^k))^(1/(p^k)).",
+  "id": "A318914",
+  "mentions": [
+    "A001222",
+    "A023894",
+    "A028342",
+    "A206303",
+    "A318912",
+    "A318913"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

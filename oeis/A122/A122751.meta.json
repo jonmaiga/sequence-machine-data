@@ -1,0 +1,18 @@
+{
+  "description": "Number of essentially different semi-magic squares of order 3 with semimagic sum n.",
+  "id": "A122751",
+  "mentions": [
+    "A131292"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:17:01",
+    "offset": 3,
+    "size": 43,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of divisors d of n such that A049820(d) > 1 and A049820(d) is also a divisor of n.",
+  "id": "A323069",
+  "mentions": [
+    "A000005",
+    "A049820",
+    "A322358",
+    "A323068"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

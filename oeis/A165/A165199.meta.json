@@ -1,0 +1,33 @@
+{
+  "description": "a(n) is obtained by flipping every second bit in the binary representation of n starting at the second-most significant bit and on downwards.",
+  "id": "A165199",
+  "mentions": [
+    "A000035",
+    "A000523",
+    "A001477",
+    "A054429",
+    "A056539",
+    "A075157",
+    "A075158",
+    "A129594",
+    "A193231",
+    "A241909",
+    "A243353",
+    "A245443",
+    "A245444",
+    "A258746"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:48",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

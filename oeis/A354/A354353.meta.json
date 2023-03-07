@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 1 if n is either a squarefree composite or a power of squarefree composite, otherwise 0.",
+  "id": "A354353",
+  "mentions": [
+    "A001221",
+    "A008966",
+    "A046523",
+    "A182853",
+    "A227291",
+    "A354819"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Primes p == -1 mod 6 such that there are consecutive primes q and r with p^2 = q + r + 1.",
+  "id": "A268518",
+  "mentions": [
+    "A092740"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

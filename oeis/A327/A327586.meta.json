@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that k^4 = a^3 + b^3 + c^3 for some pairwise coprime positive integers a,b,c.",
+  "id": "A327586",
+  "mentions": [
+    "A024975"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

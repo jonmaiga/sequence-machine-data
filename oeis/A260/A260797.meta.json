@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of n! into aliquant parts (i.e., parts that do not divide n!).",
+  "id": "A260797",
+  "mentions": [
+    "A000142",
+    "A098743",
+    "A260798",
+    "A261121"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

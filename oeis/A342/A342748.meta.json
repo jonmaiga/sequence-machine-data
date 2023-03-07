@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = sum of digits in the n-th word in A341334.",
+  "id": "A342748",
+  "mentions": [
+    "A341334"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

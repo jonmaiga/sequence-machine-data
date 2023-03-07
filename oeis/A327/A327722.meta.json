@@ -1,0 +1,25 @@
+{
+  "description": "Number T(m,n) of permutations of [n] avoiding the consecutive pattern 12...(m+1)(m+3)(m+2), where m, n >= 0; array read by ascending antidiagonals.",
+  "id": "A327722",
+  "mentions": [
+    "A000142",
+    "A033312",
+    "A111004",
+    "A117226",
+    "A202213",
+    "A242569",
+    "A329070"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

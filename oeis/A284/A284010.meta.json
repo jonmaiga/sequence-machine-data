@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = least natural number with the same prime signature polynomial p(n,x) has when it is factored over Z. Polynomial p(n,x) has only nonnegative integer coefficients that are encoded in the prime factorization of n.",
+  "id": "A284010",
+  "mentions": [
+    "A046523",
+    "A206284",
+    "A206442",
+    "A260443",
+    "A277322",
+    "A278233",
+    "A278243",
+    "A284011",
+    "A284012"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

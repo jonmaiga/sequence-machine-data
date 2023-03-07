@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways to express 2n+1 as p + 8*q, with p and q primes.",
+  "id": "A225518",
+  "mentions": [
+    "A219254",
+    "A223174",
+    "A223175"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

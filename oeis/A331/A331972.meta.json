@@ -1,0 +1,22 @@
+{
+  "description": "Bi-unitary highly touchable numbers: numbers m > 1 such that a record number of numbers k have m as the sum of the proper bi-unitary divisors of k.",
+  "id": "A331972",
+  "mentions": [
+    "A188999",
+    "A238895",
+    "A324276",
+    "A325177",
+    "A331970",
+    "A331974"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

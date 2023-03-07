@@ -1,0 +1,25 @@
+{
+  "description": "Irregular triangle read by rows: T(n, k) is the number of k-element proper ideals of the n-dimensional Boolean lattice, with 0 < k < 2^n.",
+  "id": "A269699",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000217",
+    "A000292",
+    "A007153",
+    "A007318",
+    "A059119",
+    "A095661"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:32",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

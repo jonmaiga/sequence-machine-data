@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X n binary arrays with some 1 horizontally or vertically adjacent to some other 1 exactly once.",
+  "id": "A268734",
+  "mentions": [
+    "A268740"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Floor-Sqrt transform of superfactorials (A000178).",
+  "id": "A192668",
+  "mentions": [
+    "A000178",
+    "A192660",
+    "A192665",
+    "A192685"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 17:01:40",
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

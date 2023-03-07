@@ -1,0 +1,20 @@
+{
+  "description": "Lowest base in which n has distinct digits.",
+  "id": "A126688",
+  "mentions": [
+    "A010784",
+    "A062813",
+    "A123699"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

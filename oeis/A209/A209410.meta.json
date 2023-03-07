@@ -1,0 +1,20 @@
+{
+  "description": "Number of subsets of {1,...,n} not containing {a,a+2,a+4} for any a.",
+  "id": "A209410",
+  "mentions": [
+    "A209408",
+    "A209409"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

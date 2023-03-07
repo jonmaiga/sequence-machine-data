@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = sigma(n-th Zumkeller number)/2.",
+  "id": "A175582",
+  "mentions": [
+    "A000203",
+    "A083207"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

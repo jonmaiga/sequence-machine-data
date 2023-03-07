@@ -1,0 +1,17 @@
+{
+  "description": "The square roots of the perfect squares produced by A335410 in the order in which they appear.",
+  "id": "A335778",
+  "mentions": [
+    "A335410"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of involutions in the quaternion ring over Z/nZ with i^2=j^2=1.",
+  "id": "A236553",
+  "mentions": [
+    "A227867",
+    "A236554"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Characteristic function for A259934.",
+  "id": "A262693",
+  "mentions": [
+    "A049820",
+    "A259934",
+    "A262522",
+    "A262694",
+    "A262695",
+    "A262696",
+    "A262697",
+    "A262896",
+    "A262897"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 0,
+    "size": 122,
+    "source": "oeis-bfile"
+  }
+}

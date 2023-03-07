@@ -1,0 +1,18 @@
+{
+  "description": "1/n! times the number of ordered pairs of permutation functions f,g on n elements where f(f(x)) = g(f(g(x))).",
+  "id": "A255515",
+  "mentions": [
+    "A239837"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

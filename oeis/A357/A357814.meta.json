@@ -1,0 +1,22 @@
+{
+  "description": "Triangular array read by rows: T(n,k) is the quotient on division of Fib(n) by Fib(k) for 1 <= k <= n, where Fib(k) = A000045(k).",
+  "id": "A357814",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A357724"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

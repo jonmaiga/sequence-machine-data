@@ -1,0 +1,23 @@
+{
+  "description": "The number of maximal antichains in the Tamari lattice of order n.",
+  "id": "A358563",
+  "mentions": [
+    "A143674",
+    "A326358",
+    "A358041",
+    "A358390",
+    "A358562"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

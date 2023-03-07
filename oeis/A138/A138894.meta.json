@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of (1+x)/(1-10*x+9*x^2).",
+  "id": "A138894",
+  "mentions": [
+    "A002452",
+    "A003952",
+    "A096053",
+    "A112468",
+    "A135423",
+    "A135522",
+    "A138893"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

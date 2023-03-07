@@ -1,0 +1,21 @@
+{
+  "description": "Prime-indexed composites k such that lpf(k) + gpf(k) is a prime.",
+  "id": "A145351",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A006530",
+    "A020639",
+    "A065858"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

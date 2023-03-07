@@ -1,0 +1,23 @@
+{
+  "description": "Numbers such that antisigma(n) mod sigma(n) = d(n), where antisigma(n) is the sum of the numbers less than n that do not divide n, sigma(n) is the sum of the divisors of n and d(n) is the number of divisors of n.",
+  "id": "A272337",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A024816",
+    "A232324",
+    "A272338"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

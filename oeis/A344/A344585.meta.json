@@ -1,0 +1,21 @@
+{
+  "description": "Numbers whose sum of proper divisors (A001065) is greater than their arithmetic derivative (A003415).",
+  "id": "A344585",
+  "mentions": [
+    "A001065",
+    "A003415",
+    "A211991",
+    "A212168",
+    "A344586"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

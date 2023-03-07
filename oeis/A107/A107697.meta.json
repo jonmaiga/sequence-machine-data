@@ -1,0 +1,28 @@
+{
+  "description": "Primes with digital product = 12.",
+  "id": "A107697",
+  "mentions": [
+    "A004022",
+    "A107612",
+    "A107689",
+    "A107690",
+    "A107691",
+    "A107692",
+    "A107693",
+    "A107694",
+    "A107695",
+    "A107696",
+    "A107698"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:12:59",
+    "offset": 1,
+    "size": 35,
+    "source": "joeis"
+  }
+}

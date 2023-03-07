@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of binary trees (each vertex has 0, or 1 left, or 1 right, or 2 children) with k edges and all leaves at level n.",
+  "id": "A106375",
+  "mentions": [
+    "A051179",
+    "A106376"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

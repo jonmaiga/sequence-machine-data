@@ -1,0 +1,20 @@
+{
+  "description": "n-th even semiprime minus n-th semiprime.",
+  "id": "A175511",
+  "mentions": [
+    "A001358",
+    "A100484",
+    "A131634"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:17:53",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

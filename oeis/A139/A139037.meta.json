@@ -1,0 +1,19 @@
+{
+  "description": "Triangular sequence of coefficients of T_n(2^n*x) where T_n is the n-th Chebyshev polynomial.",
+  "id": "A139037",
+  "mentions": [
+    "A197320"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

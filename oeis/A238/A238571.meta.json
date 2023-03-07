@@ -1,0 +1,22 @@
+{
+  "description": "Number of partitions of n avoiding any 3-term arithmetic progression.",
+  "id": "A238571",
+  "mentions": [
+    "A003407",
+    "A178932",
+    "A238424",
+    "A238433",
+    "A238569",
+    "A238687"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

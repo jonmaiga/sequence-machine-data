@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the number of rooted maps with n edges and 8 faces on an orientable surface of genus 5.",
+  "id": "A288288",
+  "mentions": [
+    "A000108",
+    "A269925",
+    "A288281",
+    "A288282",
+    "A288283",
+    "A288284",
+    "A288285",
+    "A288286",
+    "A288287",
+    "A288289",
+    "A288290"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 17,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

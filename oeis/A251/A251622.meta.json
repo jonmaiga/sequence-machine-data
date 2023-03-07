@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1; a(2) = 2; for n > 2, a(n) = smallest number not already used which shares a factor with a(n-1) or a(n-2).",
+  "id": "A251622",
+  "mentions": [
+    "A064413",
+    "A089088",
+    "A098550",
+    "A256628"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:09",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

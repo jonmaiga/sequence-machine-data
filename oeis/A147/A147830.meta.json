@@ -1,0 +1,21 @@
+{
+  "description": "Minimum number k for which the digital sum of k*n is 10*n.",
+  "id": "A147830",
+  "mentions": [
+    "A147822",
+    "A147829",
+    "A147831"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

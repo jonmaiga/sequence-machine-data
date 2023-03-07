@@ -1,0 +1,17 @@
+{
+  "description": "Even numbers k such that r(k) < r(k/2), where r(n) is the distance from n to the nearest prime.",
+  "id": "A193598",
+  "mentions": [
+    "A051699"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

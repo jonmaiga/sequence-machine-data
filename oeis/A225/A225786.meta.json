@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that oblong(2*k) + oblong(k) is a square, where oblong(k) = A002378(k) = k*(k+1).",
+  "id": "A225786",
+  "mentions": [
+    "A002378",
+    "A098301",
+    "A220186",
+    "A224419",
+    "A225785"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 17:39:01",
+    "offset": 1,
+    "size": 13,
+    "source": "joeis"
+  }
+}

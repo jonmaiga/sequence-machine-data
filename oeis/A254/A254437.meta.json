@@ -1,0 +1,27 @@
+{
+  "description": "Natural number that is a factor of its number of \"feasible\" partition(s).",
+  "id": "A254437",
+  "mentions": [
+    "A254296",
+    "A254430",
+    "A254431",
+    "A254433",
+    "A254434",
+    "A254435",
+    "A254436",
+    "A254438",
+    "A254439",
+    "A254440"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Smallest number k not divisible by 10 such that k^2 contains exactly n zeros.",
+  "id": "A134845",
+  "mentions": [
+    "A134843",
+    "A134844",
+    "A134846"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

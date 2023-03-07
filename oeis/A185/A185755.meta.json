@@ -1,0 +1,25 @@
+{
+  "description": "Triangle: T(n,k) equals the coefficient of x^n*y^k in the n-th iteration of x*(1+xy)/(1-x), for n>=1, 0<=k",
+  "id": "A185755",
+  "mentions": [
+    "A000169",
+    "A112317",
+    "A185523",
+    "A185756",
+    "A185757",
+    "A185758",
+    "A185759"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

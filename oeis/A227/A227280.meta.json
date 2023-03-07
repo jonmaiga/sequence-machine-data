@@ -1,0 +1,26 @@
+{
+  "description": "Values of the difference d for 12 primes in geometric-arithmetic progression with the minimal sequence {13*13^j + j*d}, j = 0 to 11.",
+  "id": "A227280",
+  "mentions": [
+    "A172367",
+    "A209202",
+    "A209203",
+    "A209204",
+    "A209205",
+    "A209206",
+    "A209207",
+    "A209208",
+    "A209209",
+    "A209210"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of psi(x) * psi(x^6) in powers of x where phi() is a Ramanujan theta function.",
+  "id": "A259896",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A121373",
+    "A259895"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

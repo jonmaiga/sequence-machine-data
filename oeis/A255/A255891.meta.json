@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that the sum of the even divisors of n is equal to m! and the sum of the odd divisors of n is equal to k! for some integers m and k.",
+  "id": "A255891",
+  "mentions": [
+    "A000593",
+    "A146076",
+    "A245015"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

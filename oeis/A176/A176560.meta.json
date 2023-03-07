@@ -1,0 +1,23 @@
+{
+  "description": "A symmetrical triangle recursion:q=5;t(n,m,0)=Binomial[n,m];t(n,m,1)=Narayana(n,m);t(n,m,2)=Eulerian(n+1,m);t(n,m,q)=t(n,m,g-2)+t(n,m,q-3)",
+  "id": "A176560",
+  "mentions": [
+    "A001263",
+    "A007318",
+    "A008292",
+    "A176490"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

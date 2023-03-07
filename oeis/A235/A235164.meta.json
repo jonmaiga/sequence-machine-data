@@ -1,0 +1,20 @@
+{
+  "description": "Numbers whose digits, when the number is written in base n+1, are a permutation of 1...n, and such that for all k in {1,...,n} the first k digits (still in base n+1) form a number divisible by k.",
+  "id": "A235164",
+  "mentions": [
+    "A163574",
+    "A235133"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

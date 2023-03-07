@@ -1,0 +1,21 @@
+{
+  "description": "Terms of A343376 that are divisible by their indices.",
+  "id": "A344709",
+  "mentions": [
+    "A343376",
+    "A343456",
+    "A343457",
+    "A344712"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

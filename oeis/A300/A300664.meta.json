@@ -1,0 +1,22 @@
+{
+  "description": "Infinitary 3-abundant numbers: numbers n such that isigma(n) >= 3n, where isigma is the sum of infinitary divisors of n (A049417).",
+  "id": "A300664",
+  "mentions": [
+    "A000203",
+    "A007357",
+    "A023197",
+    "A049417",
+    "A129656",
+    "A129657"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

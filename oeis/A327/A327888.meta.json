@@ -1,0 +1,20 @@
+{
+  "description": "Orders of cubic (i.e., trivalent, 3-regular) distance-regular graphs.",
+  "id": "A327888",
+  "mentions": [
+    "A075124",
+    "A328144"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

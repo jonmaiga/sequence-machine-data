@@ -1,0 +1,21 @@
+{
+  "description": "Maximum length of arithmetic progression starting at n such that each term k has tau(k) = tau(n).",
+  "id": "A165500",
+  "mentions": [
+    "A088430",
+    "A165498",
+    "A165501"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

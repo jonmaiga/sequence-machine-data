@@ -1,0 +1,21 @@
+{
+  "description": "Number of nontrivial non-Goldbach partitions of 2n into two odd parts (with smaller part greater than 1).",
+  "id": "A234537",
+  "mentions": [
+    "A002375",
+    "A010051",
+    "A141100"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

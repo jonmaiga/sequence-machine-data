@@ -1,0 +1,20 @@
+{
+  "description": "x values giving the smallest integer solutions of y^2 = x*(a^N - x)*( b^N + x) (elliptic curve, Weierstrass equation) with a and b legs in primitive Pythagorean triangles and N = 2. Sequence ordered in increasing values of leg a. Relevant y values in A120210.",
+  "id": "A120211",
+  "mentions": [
+    "A009003",
+    "A020884",
+    "A120210",
+    "A120213"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

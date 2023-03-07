@@ -1,0 +1,21 @@
+{
+  "description": "Minimum number of unit cubes needed to fully enclose n unit cubes in 3D space.",
+  "id": "A345205",
+  "mentions": [
+    "A007395",
+    "A024023",
+    "A235382",
+    "A345206"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

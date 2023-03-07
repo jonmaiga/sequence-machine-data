@@ -1,0 +1,19 @@
+{
+  "description": "Partial sums of number of functors of degree n from free Abelian groups to Abelian groups A007322.",
+  "id": "A178962",
+  "mentions": [
+    "A007322",
+    "A120733"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 1,
+    "size": 18,
+    "source": "joeis"
+  }
+}

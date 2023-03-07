@@ -1,0 +1,27 @@
+{
+  "description": "Concentric 13-gonal numbers.",
+  "id": "A195045",
+  "mentions": [
+    "A032527",
+    "A032528",
+    "A069126",
+    "A175886",
+    "A195040",
+    "A195043",
+    "A195046",
+    "A195143",
+    "A195145"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

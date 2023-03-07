@@ -1,0 +1,19 @@
+{
+  "description": "\"a\" values providing solution x != b in A120211 (i.e., in y^2 = x*(a^2 - x)*(b^2 + x) with a, b legs in primitive Pythagorean triads.",
+  "id": "A120213",
+  "mentions": [
+    "A120210",
+    "A120211",
+    "A120212"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

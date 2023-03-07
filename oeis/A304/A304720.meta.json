@@ -1,0 +1,30 @@
+{
+  "description": "Number of nonnegative integers k such that n - (4^k - k) is positive and squarefree.",
+  "id": "A304720",
+  "mentions": [
+    "A000302",
+    "A005117",
+    "A024037",
+    "A281192",
+    "A304034",
+    "A304081",
+    "A304331",
+    "A304333",
+    "A304522",
+    "A304523",
+    "A304689",
+    "A304721",
+    "A304943",
+    "A304945"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

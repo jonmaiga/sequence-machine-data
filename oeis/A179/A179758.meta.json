@@ -1,0 +1,24 @@
+{
+  "description": "Binary expansions of A080069 (A080070) concatenated together to a single binary sequence, so that from each term of A080069, the most significant bits come before the least significant bits.",
+  "id": "A179758",
+  "mentions": [
+    "A000194",
+    "A080069",
+    "A080070",
+    "A179753",
+    "A179759",
+    "A179761",
+    "A179763"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Least m>0 such that n = 2^x-y^2 (mod m) has no solution, or 0 if no such m exists.",
+  "id": "A200522",
+  "mentions": [
+    "A051204",
+    "A051213",
+    "A051221",
+    "A200505",
+    "A200507",
+    "A200520",
+    "A200523",
+    "A200524"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:21",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

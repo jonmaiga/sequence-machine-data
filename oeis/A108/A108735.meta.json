@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of sqrt(1 + 12*x).",
+  "id": "A108735",
+  "mentions": [
+    "A000108",
+    "A025226",
+    "A196838",
+    "A196839"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

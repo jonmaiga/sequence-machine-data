@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k where Sum_{d | k} 1/rad(d) increases to a record.",
+  "id": "A322447",
+  "mentions": [
+    "A002182",
+    "A002473",
+    "A003586",
+    "A004394",
+    "A007947",
+    "A051037"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

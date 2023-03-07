@@ -1,0 +1,25 @@
+{
+  "description": "Number of partitions of n into distinct Catalan numbers, cf. A000108.",
+  "id": "A176137",
+  "mentions": [
+    "A000108",
+    "A014138",
+    "A033552",
+    "A141351",
+    "A161227",
+    "A161239",
+    "A197433",
+    "A244230"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:00",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

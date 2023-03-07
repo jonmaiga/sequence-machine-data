@@ -1,0 +1,19 @@
+{
+  "description": "Primes p for which h1(p)/G(p) has a record value.",
+  "id": "A309520",
+  "mentions": [
+    "A000927",
+    "A073010"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

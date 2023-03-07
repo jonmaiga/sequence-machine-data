@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of (theta_3(x) - 1)^4 / (8 * (3 - theta_3(x))).",
+  "id": "A347807",
+  "mentions": [
+    "A000290",
+    "A006456",
+    "A337165",
+    "A347805",
+    "A347806",
+    "A347808",
+    "A347809"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 4,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Permutation of natural numbers: sequence A126441 without zeros.",
+  "id": "A161924",
+  "mentions": [
+    "A000041",
+    "A004760",
+    "A036042",
+    "A062383",
+    "A125106",
+    "A126441",
+    "A161511",
+    "A161919",
+    "A166274",
+    "A166276"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

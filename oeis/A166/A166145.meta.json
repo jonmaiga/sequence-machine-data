@@ -1,0 +1,20 @@
+{
+  "description": "Number of reduced words of length n in Coxeter group on 35 generators S_i with relations (S_i)^2 = (S_i S_j)^10 = I.",
+  "id": "A166145",
+  "mentions": [
+    "A154638",
+    "A169452",
+    "A170754"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:49",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

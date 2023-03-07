@@ -1,0 +1,18 @@
+{
+  "description": "Nonnegative integers of the form 5*x^2 + 5*x*y - y^2.",
+  "id": "A309137",
+  "mentions": [
+    "A141785",
+    "A243655"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

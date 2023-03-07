@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows, k!*S_4(n, k) where S_m(n, k) are the Stirling-Frobenius subset numbers of order m; n >= 0, k >= 0.",
+  "id": "A225473",
+  "mentions": [
+    "A000244",
+    "A047053",
+    "A131689",
+    "A145901",
+    "A190541",
+    "A225467",
+    "A225468",
+    "A225469",
+    "A225472"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

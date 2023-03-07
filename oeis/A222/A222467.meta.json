@@ -1,0 +1,25 @@
+{
+  "description": "Denominator sequence of the n-th convergent of the continued fraction 1/(1 + 2/(2 + 2/(3 + 2/(4 + ...",
+  "id": "A222467",
+  "mentions": [
+    "A001040",
+    "A021009",
+    "A058797",
+    "A084950",
+    "A221913",
+    "A222466",
+    "A222468"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

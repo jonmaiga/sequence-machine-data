@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k for which there are numbers 0 < m <= k such that k^3 + m^3 is a square.",
+  "id": "A320662",
+  "mentions": [
+    "A003325",
+    "A003997",
+    "A004999",
+    "A024670",
+    "A086119"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

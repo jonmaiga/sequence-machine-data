@@ -1,0 +1,22 @@
+{
+  "description": "Natural numbers that can be split into two squares, leading zeros allowed.",
+  "id": "A261713",
+  "mentions": [
+    "A046030",
+    "A053061",
+    "A168042",
+    "A191933"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:21",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of defective (binary) heaps on n elements with floor(n/2) defects.",
+  "id": "A306356",
+  "mentions": [
+    "A056971",
+    "A306343"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

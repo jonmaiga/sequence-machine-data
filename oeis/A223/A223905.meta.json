@@ -1,0 +1,19 @@
+{
+  "description": "Number of 4-vexillary permutations in S_n, that is, permutations whose Stanley symmetric function has at most 4 terms or at most 4 Edelman-Greene tableaux.",
+  "id": "A223905",
+  "mentions": [
+    "A005802",
+    "A224318"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

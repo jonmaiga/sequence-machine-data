@@ -1,0 +1,21 @@
+{
+  "description": "Zero-one sequence based on the sequence (3n): a(A008585(k))=a(k); a(A001651(k))=1-a(k), a(1)=0, a(2)=0.",
+  "id": "A189222",
+  "mentions": [
+    "A001651",
+    "A008585",
+    "A188967",
+    "A189223",
+    "A189224"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 135,
+    "source": "oeis-bfile"
+  }
+}

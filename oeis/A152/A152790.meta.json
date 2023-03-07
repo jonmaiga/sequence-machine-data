@@ -1,0 +1,27 @@
+{
+  "description": "Triangle T, read by rows, where g.f. of row n of matrix power T^(2^n) = (2^(2n-1) + y)*y^(n-1) for n>0.",
+  "id": "A152790",
+  "mentions": [
+    "A132870",
+    "A132875",
+    "A134049",
+    "A152285",
+    "A152791",
+    "A152792",
+    "A152793",
+    "A152794",
+    "A152795"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

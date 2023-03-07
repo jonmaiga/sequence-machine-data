@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that (p+2)^2+2 is prime but (p+1)^2+1 is not prime.",
+  "id": "A238664",
+  "mentions": [
+    "A238086"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

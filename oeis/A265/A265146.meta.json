@@ -1,0 +1,27 @@
+{
+  "description": "Triangle T(n,k) in which n-th row lists the parts i_1=1, 1<=k<=A001222(n).",
+  "id": "A265146",
+  "mentions": [
+    "A000009",
+    "A000040",
+    "A001222",
+    "A055396",
+    "A112798",
+    "A246688",
+    "A252464",
+    "A265145",
+    "A266475"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

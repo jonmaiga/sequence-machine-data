@@ -1,0 +1,19 @@
+{
+  "description": "Nonnegative numbers n such that 9*n^2 - 10*n + 3 is prime.",
+  "id": "A154264",
+  "mentions": [
+    "A047235",
+    "A154261"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:36",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

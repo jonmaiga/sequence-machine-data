@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that uphi(k)/phi(k) > uphi(m)/phi(m) for all m < k, where phi(k) is the Euler totient function (A000010) and uphi(k) is the unitary totient function (A047994).",
+  "id": "A283052",
+  "mentions": [
+    "A000010",
+    "A002110",
+    "A004394",
+    "A037992",
+    "A047994",
+    "A057723",
+    "A061742",
+    "A285906",
+    "A292984",
+    "A329882",
+    "A333953"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:53",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

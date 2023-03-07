@@ -1,0 +1,21 @@
+{
+  "description": "Ordered odd leg of primitive Pythagorean triangles.",
+  "id": "A120890",
+  "mentions": [
+    "A061346",
+    "A081874",
+    "A081934",
+    "A120427",
+    "A120891"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

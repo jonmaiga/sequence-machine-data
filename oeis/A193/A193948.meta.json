@@ -1,0 +1,19 @@
+{
+  "description": "Integers n such that for all i > n the largest prime factor of i(i+1)(i+2)(i+3)(i+4)(i+5)(i+6) exceeds the largest prime factor of n(n+1)(n+2)(n+3)(n+4)(n+5)(n+6).",
+  "id": "A193948",
+  "mentions": [
+    "A145606",
+    "A193947",
+    "A199407"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of sqrt(3 + sqrt(5 + sqrt(7 + sqrt(11 + sqrt(13 + ...))))), continued square root map applied to twin primes.",
+  "id": "A347184",
+  "mentions": [
+    "A001097",
+    "A105546",
+    "A239349"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 110,
+    "source": "oeis-entry"
+  }
+}

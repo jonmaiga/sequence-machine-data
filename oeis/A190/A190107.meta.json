@@ -1,0 +1,20 @@
+{
+  "description": "Numbers with prime factorization pqr^2s^4.",
+  "id": "A190107",
+  "mentions": [
+    "A050326",
+    "A111467",
+    "A179704",
+    "A190106"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

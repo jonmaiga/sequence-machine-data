@@ -1,0 +1,19 @@
+{
+  "description": "The least common multiple of all divisors d of n-1 such that d+1 is a prime divisor of n; a(1) = 1.",
+  "id": "A346466",
+  "mentions": [
+    "A173614",
+    "A346467"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

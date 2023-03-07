@@ -1,0 +1,26 @@
+{
+  "description": "Zero followed by partial sums of A133622.",
+  "id": "A165157",
+  "mentions": [
+    "A034856",
+    "A055802",
+    "A055998",
+    "A101881",
+    "A114220",
+    "A117142",
+    "A133622",
+    "A134519"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:48",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

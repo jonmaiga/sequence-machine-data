@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows giving Matula-Goebel numbers of planted achiral trees with n nodes.",
+  "id": "A280994",
+  "mentions": [
+    "A003238",
+    "A004111",
+    "A007097",
+    "A061773",
+    "A061775",
+    "A196545",
+    "A214577",
+    "A275870"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

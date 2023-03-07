@@ -1,0 +1,19 @@
+{
+  "description": "Continued fraction of Pi/(4*log(2)).",
+  "id": "A275526",
+  "mentions": [
+    "A185280",
+    "A275408"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:09",
+    "offset": 1,
+    "size": 110,
+    "source": "joeis"
+  }
+}

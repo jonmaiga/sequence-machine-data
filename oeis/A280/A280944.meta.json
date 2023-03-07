@@ -1,0 +1,17 @@
+{
+  "description": "Maximum sum of a set of different positive integers less than or equal to n whose pairwise sums are all different.",
+  "id": "A280944",
+  "mentions": [
+    "A256966"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 2,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

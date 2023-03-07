@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of (1/(1 + x)) * Product_{k>=1} (1 + k*x^k/(1 + x)^k).",
+  "id": "A307260",
+  "mentions": [
+    "A022629",
+    "A293467",
+    "A294503",
+    "A307258",
+    "A307259"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

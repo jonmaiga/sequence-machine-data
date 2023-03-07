@@ -1,0 +1,17 @@
+{
+  "description": "Draw the lines with equations y=kx (k=1..n) on the R^2/Z^2 square flat torus. a(n) is the number of intersection points.",
+  "id": "A334087",
+  "mentions": [
+    "A326305"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

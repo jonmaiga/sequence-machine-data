@@ -1,0 +1,21 @@
+{
+  "description": "G.f. A(x) satisfies: G(A(x)) = exp(x), where G(x) equals the e.g.f. of A296174.",
+  "id": "A295814",
+  "mentions": [
+    "A295812",
+    "A295813",
+    "A296174",
+    "A296175"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:14",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

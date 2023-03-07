@@ -1,0 +1,20 @@
+{
+  "description": "Short leg lengths of integer-sided triangles with hypotenuse A084645(n).",
+  "id": "A350057",
+  "mentions": [
+    "A009003",
+    "A084645",
+    "A350056",
+    "A350058"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

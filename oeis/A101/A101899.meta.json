@@ -1,0 +1,19 @@
+{
+  "description": "Column 2 of triangular matrix A101897, in which column k equals column 0 of A101897^(k+1) and where the n-th row sums are zero for n>0.",
+  "id": "A101899",
+  "mentions": [
+    "A101897",
+    "A101898",
+    "A101900"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

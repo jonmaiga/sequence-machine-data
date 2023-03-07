@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that A323905(sigma(k)) is equal to A323905(2*k).",
+  "id": "A347875",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A048675",
+    "A156552",
+    "A323905",
+    "A331750",
+    "A331751",
+    "A332221",
+    "A347392",
+    "A347876"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

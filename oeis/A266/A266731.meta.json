@@ -1,0 +1,19 @@
+{
+  "description": "Smallest number of vertices in bi-regular ({3,4};n) graph with girth (shortest cycle) = n.",
+  "id": "A266731",
+  "mentions": [
+    "A000066",
+    "A266730"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 4,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

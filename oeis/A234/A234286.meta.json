@@ -1,0 +1,21 @@
+{
+  "description": "Positive odd numbers n such that 2m - sigma(m) is never equal to n, where sigma(.) is the sum of divisors function A000203. Conjectural.",
+  "id": "A234286",
+  "mentions": [
+    "A000203",
+    "A033879",
+    "A234285"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

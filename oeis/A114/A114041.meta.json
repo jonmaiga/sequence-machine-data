@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of -x, the real root of the power series with semiprime coefficients.",
+  "id": "A114041",
+  "mentions": [
+    "A001358",
+    "A072508",
+    "A088751"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Partial sums of A268411; the least monotonic left inverse of A268415.",
+  "id": "A268382",
+  "mentions": [
+    "A268383",
+    "A268411",
+    "A268415"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

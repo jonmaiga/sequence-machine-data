@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: lower triangular matrix obtained by inverting the lower triangular matrix in A108044.",
+  "id": "A108045",
+  "mentions": [
+    "A007318",
+    "A100047",
+    "A108044",
+    "A114525",
+    "A127672"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:13:57",
+    "offset": 0,
+    "size": 91,
+    "source": "joeis"
+  }
+}

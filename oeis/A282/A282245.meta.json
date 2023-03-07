@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 1/n times the number of n-colorings of the complete bipartite graph K_(n,n).",
+  "id": "A282245",
+  "mentions": [
+    "A008277",
+    "A212085"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

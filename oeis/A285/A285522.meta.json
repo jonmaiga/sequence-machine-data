@@ -1,0 +1,29 @@
+{
+  "description": "Array read by antidiagonals: T(m,n) = number of circulant digraphs up to Cayley isomorphism on n vertices with edges colored according to step value using a maximum of m-1 colors.",
+  "id": "A285522",
+  "mentions": [
+    "A002411",
+    "A002729",
+    "A006528",
+    "A006565",
+    "A054624",
+    "A056391",
+    "A075195",
+    "A132191",
+    "A168178",
+    "A282613",
+    "A285548"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:57",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

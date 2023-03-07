@@ -1,0 +1,18 @@
+{
+  "description": "First bisection of A246333.",
+  "id": "A246334",
+  "mentions": [
+    "A246333",
+    "A246335"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

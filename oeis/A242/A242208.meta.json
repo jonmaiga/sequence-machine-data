@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of log_2(phi), the logarithm to base 2 of phi, the \"golden ratio\" (1+sqrt(5))/2.",
+  "id": "A242208",
+  "mentions": [
+    "A001622",
+    "A328900",
+    "A328912"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:04",
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

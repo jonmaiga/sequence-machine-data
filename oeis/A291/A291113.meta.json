@@ -1,0 +1,18 @@
+{
+  "description": "Number of endofunctions on [n] such that the LCM of their cycle lengths equals seven.",
+  "id": "A291113",
+  "mentions": [
+    "A222029"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

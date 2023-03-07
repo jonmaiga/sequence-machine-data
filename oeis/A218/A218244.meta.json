@@ -1,0 +1,19 @@
+{
+  "description": "Number of inequivalent (rotationally and reflectively distinct) ways to place n nonattacking empresses on n X n board.",
+  "id": "A218244",
+  "mentions": [
+    "A002562",
+    "A137774"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

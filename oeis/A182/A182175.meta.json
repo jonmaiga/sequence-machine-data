@@ -1,0 +1,19 @@
+{
+  "description": "Numbers with the property that every pair of adjacent digits sum to a prime number.",
+  "id": "A182175",
+  "mentions": [
+    "A182178",
+    "A219110"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

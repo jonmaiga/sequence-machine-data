@@ -1,0 +1,26 @@
+{
+  "description": "Riordan array ((1-x)^2/(1-x+x^2), x(1-x)^2/(1-x+x^2)).",
+  "id": "A185962",
+  "mentions": [
+    "A084938",
+    "A185963",
+    "A185964",
+    "A185965",
+    "A185967",
+    "A195339",
+    "A195350"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:28:45",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

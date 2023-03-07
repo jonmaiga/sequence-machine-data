@@ -1,0 +1,24 @@
+{
+  "description": "Numbers N = pqrs such that |pqr - s| > |ps - qr|, where p <= q <= r <= s are the 4 prime factors of N.",
+  "id": "A349241",
+  "mentions": [
+    "A001222",
+    "A006530",
+    "A014613",
+    "A020639",
+    "A030514",
+    "A074985",
+    "A349242"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

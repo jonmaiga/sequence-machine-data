@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the length of the quartic curve with implicit Cartesian equation x^4 + y^2 = 1 (sometimes called \"elliptic lemniscate\").",
+  "id": "A227718",
+  "mentions": [
+    "A227717"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

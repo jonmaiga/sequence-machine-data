@@ -1,0 +1,23 @@
+{
+  "description": "Number of unlabeled maximal independent sets in the n-cycle graph.",
+  "id": "A127687",
+  "mentions": [
+    "A000010",
+    "A001608",
+    "A113788",
+    "A127682",
+    "A127685"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

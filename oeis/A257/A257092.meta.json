@@ -1,0 +1,19 @@
+{
+  "description": "Square array read by antidiagonals: Nimsum function for \"Take-or-Break\" Nim where a legal move is defined as: 1) Remove a nonzero number of counters from any pile up to the size of the selected pile OR 2) Split any pile of size greater than one into two nonzero piles (removing no counters from the board).",
+  "id": "A257092",
+  "mentions": [
+    "A003987"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 120,
+    "source": "oeis-entry"
+  }
+}

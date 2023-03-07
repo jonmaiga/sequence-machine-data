@@ -1,0 +1,19 @@
+{
+  "description": "Number of solutions to x^(k+3)=x^k mod n for some k>=1.",
+  "id": "A117660",
+  "mentions": [
+    "A117657"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

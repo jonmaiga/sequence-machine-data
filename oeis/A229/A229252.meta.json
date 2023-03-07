@@ -1,0 +1,18 @@
+{
+  "description": "Number of set partitions of {1,...,n} with largest set of size 10.",
+  "id": "A229252",
+  "mentions": [
+    "A080510"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 10,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

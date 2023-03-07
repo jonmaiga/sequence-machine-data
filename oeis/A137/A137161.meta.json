@@ -1,0 +1,20 @@
+{
+  "description": "Starting at Step=0 from the sequence 1, 0, 1, 0, 1, 0, etc. (A059841) at any Step=n, with n>=1, any numbers of the previous step is inserted in the sequence any (2*n-1) numbers.",
+  "id": "A137161",
+  "mentions": [
+    "A059841",
+    "A137162",
+    "A137163"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

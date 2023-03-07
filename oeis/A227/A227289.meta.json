@@ -1,0 +1,18 @@
+{
+  "description": "Smallest m such that gcd(A227113(m+1), A227113(m)) = n.",
+  "id": "A227289",
+  "mentions": [
+    "A227113",
+    "A227288"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

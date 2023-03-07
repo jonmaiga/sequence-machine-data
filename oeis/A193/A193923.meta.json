@@ -1,0 +1,23 @@
+{
+  "description": "Triangular array: the fusion of (p(n,x)) by (q(n,x)), where p(n,x)=(x+1)^n and q(n,x)=Sum_{k=0..n}F(k+1)*x^(n-k), where F=A000045 (Fibonacci numbers).",
+  "id": "A193923",
+  "mentions": [
+    "A000045",
+    "A001906",
+    "A079289",
+    "A193722",
+    "A193924"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:07:15",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

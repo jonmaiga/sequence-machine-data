@@ -1,0 +1,20 @@
+{
+  "description": "Consider a decimal number of k>=2 digits x = d_(k)*10^(k-1) + d_(k-1)*10^(k-2) + … + d_(2)*10 + d_(1) and the transform T(x)-> (d_(k)+d_(k-1) mod 10)*10^(k-1) + (d_(k-1)+d_(k-2) mod 10)*10^(k-2) + … + (d_(2)+d_(1) mod 10)*10 + (d_(1)+d(k) mod 10). Sequence lists the numbers x such that T(x)=0.",
+  "id": "A243994",
+  "mentions": [
+    "A243993"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

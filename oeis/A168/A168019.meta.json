@@ -1,0 +1,29 @@
+{
+  "description": "Square array A(n,k) read by antidiagonals, in which row n lists the number of partitions of n into parts divisible by k+1.",
+  "id": "A168019",
+  "mentions": [
+    "A000007",
+    "A000041",
+    "A035363",
+    "A083710",
+    "A135010",
+    "A168016",
+    "A168020",
+    "A168021",
+    "A168120",
+    "A168121"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:52",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

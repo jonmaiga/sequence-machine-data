@@ -1,0 +1,27 @@
+{
+  "description": "Number of distinct 4-almost primes A014613 which are factors of n.",
+  "id": "A101638",
+  "mentions": [
+    "A000040",
+    "A000332",
+    "A001358",
+    "A003633",
+    "A014612",
+    "A014613",
+    "A014614",
+    "A086971",
+    "A100605",
+    "A101637"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

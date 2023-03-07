@@ -1,0 +1,18 @@
+{
+  "description": "The number of n-digit numbers whose last k digits are divisible by k^2 for k = 1..n.",
+  "id": "A228010",
+  "mentions": [
+    "A079238"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

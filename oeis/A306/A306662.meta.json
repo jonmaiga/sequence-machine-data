@@ -1,0 +1,22 @@
+{
+  "description": "Least number k such that the determinant of the circulant matrix of its representation in base 2 is equal to n.",
+  "id": "A306662",
+  "mentions": [
+    "A083329",
+    "A219324",
+    "A306593",
+    "A323485",
+    "A323486"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

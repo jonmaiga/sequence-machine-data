@@ -1,0 +1,20 @@
+{
+  "description": "A symmetry-breaking on the graph substitution for hexagonal close packing (A131213) from two hexagons to a pentagon and heptagon while keeping the number of vertices constant: Characteristic polynomial is: 8 - 36 x - 332 x^2 + 314 x^3 + 3833 x^4 + 5492 x^5 + 584 x^6 - 3196 x^7 - 1315 x^8 + 596 x^9 + 354 x^10 - 36 x^11 - 34 x^12 + x^14.",
+  "id": "A133159",
+  "mentions": [
+    "A131213"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "obsc",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

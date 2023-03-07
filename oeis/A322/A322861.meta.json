@@ -1,0 +1,28 @@
+{
+  "description": "Lexicographically earliest such sequence a that a(i) = a(j) => A278222(A285330(i)) = A278222(A285330(j)) for all i, j.",
+  "id": "A322861",
+  "mentions": [
+    "A005940",
+    "A007947",
+    "A046523",
+    "A048675",
+    "A278222",
+    "A285328",
+    "A285330",
+    "A286622",
+    "A322806",
+    "A322807",
+    "A322862",
+    "A322868"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

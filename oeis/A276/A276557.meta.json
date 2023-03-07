@@ -1,0 +1,22 @@
+{
+  "description": "Number of partitions of prime(n)^2 into squares of primes.",
+  "id": "A276557",
+  "mentions": [
+    "A001248",
+    "A037444",
+    "A056768",
+    "A078137",
+    "A090677"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

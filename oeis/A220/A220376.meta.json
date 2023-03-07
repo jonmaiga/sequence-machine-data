@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = position of first occurrence of n-th \"early bird\" number (cf. A116700) in the string 1234567891011121314151617181920212223242526272... .",
+  "id": "A220376",
+  "mentions": [
+    "A007908",
+    "A116700",
+    "A117804"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

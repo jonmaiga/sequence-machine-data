@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,k) = Sum_{j=0..k} (n-k)^(k-j), read by rows.",
+  "id": "A104881",
+  "mentions": [
+    "A104878",
+    "A104879",
+    "A104882"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

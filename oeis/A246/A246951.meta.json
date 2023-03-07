@@ -1,0 +1,17 @@
+{
+  "description": "Number of endofunctions f on [n] such that the number of cycles of f is a multiple of 3 for each size that is a multiple of 3.",
+  "id": "A246951",
+  "mentions": [
+    "A212599"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

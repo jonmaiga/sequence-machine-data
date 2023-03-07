@@ -1,0 +1,38 @@
+{
+  "description": "a(1)=0; for k >= 1, let prime(k) map to 10...0 with k-1 zeros and let prime(k)*prime(m) map to the concatenation in binary of 2^(k-1) and 2^(m-1). For n >= 2, let the prime power factorization of n be mapped to r(n). a(n) is the term in A114994 which is c-equivalent to r(n) (see there our comment).",
+  "id": "A233249",
+  "mentions": [
+    "A000120",
+    "A001221",
+    "A002110",
+    "A029931",
+    "A035327",
+    "A048793",
+    "A059893",
+    "A066099",
+    "A070939",
+    "A114994",
+    "A124767",
+    "A124768",
+    "A228351",
+    "A246534",
+    "A272020",
+    "A333217",
+    "A333219",
+    "A333220",
+    "A333221"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

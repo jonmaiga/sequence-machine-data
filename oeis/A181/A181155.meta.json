@@ -1,0 +1,23 @@
+{
+  "description": "Odious numbers (A000069) plus one; complement of A026147.",
+  "id": "A181155",
+  "mentions": [
+    "A000069",
+    "A001285",
+    "A010060",
+    "A026147",
+    "A079000"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:35:41",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Mobius transform of A008457.",
+  "id": "A190623",
+  "mentions": [
+    "A008457"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

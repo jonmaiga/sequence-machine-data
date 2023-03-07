@@ -1,0 +1,21 @@
+{
+  "description": "Semiprimes in the order in which they appear in the decimal expansion of Pi.",
+  "id": "A226943",
+  "mentions": [
+    "A000040",
+    "A000796",
+    "A001358",
+    "A198019"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

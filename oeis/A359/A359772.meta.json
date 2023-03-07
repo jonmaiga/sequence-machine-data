@@ -1,0 +1,22 @@
+{
+  "description": "Union of even numbers with an even number of prime factors and odd numbers with an odd number of prime factors, when the number of prime factors is counted with multiplicity.",
+  "id": "A359772",
+  "mentions": [
+    "A001222",
+    "A063745",
+    "A067019",
+    "A069345",
+    "A359770",
+    "A359771"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

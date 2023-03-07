@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways of packing a 3 X (2n-1) rectangle with dominoes, leaving one space unoccupied.",
+  "id": "A108550",
+  "mentions": [
+    "A001835"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:31:44",
+    "offset": 1,
+    "size": 18,
+    "source": "joeis"
+  }
+}

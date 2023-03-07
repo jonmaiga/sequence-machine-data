@@ -1,0 +1,32 @@
+{
+  "description": "Difference table of the divisors of the positive integers (with every table read by antidiagonals upwards).",
+  "id": "A272210",
+  "mentions": [
+    "A000005",
+    "A000217",
+    "A027750",
+    "A161700",
+    "A184389",
+    "A187202",
+    "A273102",
+    "A273103",
+    "A273109",
+    "A273132",
+    "A273135",
+    "A273136",
+    "A273261",
+    "A273262",
+    "A273263"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

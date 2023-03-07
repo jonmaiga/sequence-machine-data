@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of noncomposites (primes or 1) that are n digits long in balanced ternary notation.",
+  "id": "A233919",
+  "mentions": [
+    "A004676",
+    "A162145"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

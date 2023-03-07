@@ -1,0 +1,21 @@
+{
+  "description": "Length k of the longest chain of primes p_1, p_2, ..., p_k such that p_1 is the n-th prime and p_{i+1} equals 2*p_i + 1 or 2*p_i - 1 for all i < k, the +/- sign depending on i.",
+  "id": "A263879",
+  "mentions": [
+    "A005384",
+    "A005602",
+    "A181697",
+    "A181715"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

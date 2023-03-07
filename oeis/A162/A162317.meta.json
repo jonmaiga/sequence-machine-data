@@ -1,0 +1,17 @@
+{
+  "description": "A positive integer k is included if |d(k+1) - d(k)| is a prime, where d(k) is the number of divisors of k.",
+  "id": "A162317",
+  "mentions": [
+    "A051950"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

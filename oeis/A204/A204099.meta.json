@@ -1,0 +1,21 @@
+{
+  "description": "Number of integers between successive twin prime pairs.",
+  "id": "A204099",
+  "mentions": [
+    "A046933",
+    "A063091",
+    "A167132",
+    "A204100"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:12",
+    "offset": 1,
+    "size": 69,
+    "source": "joeis"
+  }
+}

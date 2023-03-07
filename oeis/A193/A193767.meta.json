@@ -1,0 +1,22 @@
+{
+  "description": "The number of dominoes in a largest saturated domino covering of the 4 by n board.",
+  "id": "A193767",
+  "mentions": [
+    "A193764",
+    "A193765",
+    "A193766",
+    "A193768"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:05:53",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

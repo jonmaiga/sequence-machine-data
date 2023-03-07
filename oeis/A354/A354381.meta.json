@@ -1,0 +1,21 @@
+{
+  "description": "Primitive elements in A354379, being those not divisible by any previous term.",
+  "id": "A354381",
+  "mentions": [
+    "A004613",
+    "A008846",
+    "A009003",
+    "A020882",
+    "A354379"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

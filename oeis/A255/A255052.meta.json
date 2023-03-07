@@ -1,0 +1,21 @@
+{
+  "description": "G.f.: Product_{j>=1} 1/(1-x^j)^binomial(j+4,4).",
+  "id": "A255052",
+  "mentions": [
+    "A002117",
+    "A013663",
+    "A074962",
+    "A075196"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

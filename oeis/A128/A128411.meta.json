@@ -1,0 +1,21 @@
+{
+  "description": "Coefficient array for orthogonal polynomials defined by C(2n,n).",
+  "id": "A128411",
+  "mentions": [
+    "A110162",
+    "A128412"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

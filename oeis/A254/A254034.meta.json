@@ -1,0 +1,18 @@
+{
+  "description": "Numbers representable as both b^c + b + c and x*y + x + y, where b, c, x, y are integers bigger than 1.",
+  "id": "A254034",
+  "mentions": [
+    "A253916",
+    "A253917"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

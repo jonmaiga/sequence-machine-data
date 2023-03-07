@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that sum of digits + 5 is prime.",
+  "id": "A176985",
+  "mentions": [
+    "A243586"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

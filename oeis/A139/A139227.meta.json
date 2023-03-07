@@ -1,0 +1,22 @@
+{
+  "description": "Array read by rows: row n lists the proper divisors of n-th Fibonacci number A000045(n).",
+  "id": "A139227",
+  "mentions": [
+    "A000045",
+    "A133021",
+    "A139044",
+    "A139045"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 3,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

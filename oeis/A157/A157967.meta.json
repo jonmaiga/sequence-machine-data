@@ -1,0 +1,17 @@
+{
+  "description": "Least prime of prime quadruplets that are separated by 210 or less from another least prime of prime quadruplet.",
+  "id": "A157967",
+  "mentions": [
+    "A007530"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

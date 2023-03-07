@@ -1,0 +1,22 @@
+{
+  "description": "Largest divisor of n!/4 which is less than sqrt(n!)/2.",
+  "id": "A181899",
+  "mentions": [
+    "A038202",
+    "A038548",
+    "A138196",
+    "A139151",
+    "A181892",
+    "A181893"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 4,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

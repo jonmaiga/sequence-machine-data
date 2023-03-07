@@ -1,0 +1,17 @@
+{
+  "description": "a(0)=1. a(n) = a(n-1) + (largest integer occurring among {a(0),a(1),a(2),...,a(n-1)} that is coprime to n).",
+  "id": "A120938",
+  "mentions": [
+    "A120939"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

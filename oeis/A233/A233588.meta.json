@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of the continued fraction prime(1) + prime(1)/(prime(2) + prime(2)/(prime(3) + prime(3)/(prime(4) + prime(4)/...))).",
+  "id": "A233588",
+  "mentions": [
+    "A000079",
+    "A233582",
+    "A233583",
+    "A233584",
+    "A233585",
+    "A233586",
+    "A233587",
+    "A233589",
+    "A233590",
+    "A233591"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

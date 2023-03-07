@@ -1,0 +1,23 @@
+{
+  "description": "Number of undirected n-cycles of the octahedral graph.",
+  "id": "A359000",
+  "mentions": [
+    "A053016",
+    "A268283",
+    "A358999",
+    "A359001",
+    "A359002"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 3,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

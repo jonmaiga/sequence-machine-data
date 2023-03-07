@@ -1,0 +1,22 @@
+{
+  "description": "Odd unlucky numbers.",
+  "id": "A266420",
+  "mentions": [
+    "A005408",
+    "A050505",
+    "A071904",
+    "A145649",
+    "A257726",
+    "A266419"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:27",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

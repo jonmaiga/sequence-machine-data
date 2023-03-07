@@ -1,0 +1,23 @@
+{
+  "description": "a(n)=m if n belongs to the S_m sequence described in A240521.",
+  "id": "A240535",
+  "mentions": [
+    "A050376",
+    "A240521",
+    "A240522",
+    "A240524",
+    "A240536",
+    "A241024",
+    "A241025"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 2,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

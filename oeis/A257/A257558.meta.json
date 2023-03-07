@@ -1,0 +1,19 @@
+{
+  "description": "Triangle, read by rows, T(n,k) = k*Sum_{i=0..(n-k)/2} C(k,i)*C(2*n-k-4*i-1,n-2*i-k)/(n-2*i).",
+  "id": "A257558",
+  "mentions": [
+    "A000108"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

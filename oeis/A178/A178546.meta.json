@@ -1,0 +1,19 @@
+{
+  "description": "Emirps in which n first occurs as a substring.",
+  "id": "A178546",
+  "mentions": [
+    "A006567",
+    "A062584"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

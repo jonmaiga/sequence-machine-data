@@ -1,0 +1,23 @@
+{
+  "description": "Table read by antidiagonals: T(n,k) is the number of strings of numbers x(i=1..n) in 0..k with sum i^4*x(i) equal to n^4*k",
+  "id": "A184348",
+  "mentions": [
+    "A184339",
+    "A184340",
+    "A184347",
+    "A184349",
+    "A184354"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:08",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

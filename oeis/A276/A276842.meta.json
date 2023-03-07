@@ -1,0 +1,20 @@
+{
+  "description": "Number of permutations of [n] such that for each cycle c the smallest integer interval containing all elements of c has at most eight elements.",
+  "id": "A276842",
+  "mentions": [
+    "A276724",
+    "A276837"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

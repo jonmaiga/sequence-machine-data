@@ -1,0 +1,23 @@
+{
+  "description": "Primes of the form A000009(q)+q, where q are also prime numbers.",
+  "id": "A163153",
+  "mentions": [
+    "A000009",
+    "A049575",
+    "A098145",
+    "A121558",
+    "A163150",
+    "A163151",
+    "A163152"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

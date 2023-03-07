@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the unique integer k such that A108951(k) = n!.",
+  "id": "A307035",
+  "mentions": [
+    "A000142",
+    "A025487",
+    "A064989",
+    "A108951",
+    "A122111",
+    "A319626",
+    "A319627",
+    "A325508",
+    "A329900"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

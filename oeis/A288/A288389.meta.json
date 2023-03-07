@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of Product_{k>=1} (1 - x^k)^(sigma_2(k)).",
+  "id": "A288389",
+  "mentions": [
+    "A027847",
+    "A275585",
+    "A288098",
+    "A288385",
+    "A288392"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:01",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

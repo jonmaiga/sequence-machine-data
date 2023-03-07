@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that 2^n - 1 is the product of three primes.",
+  "id": "A294729",
+  "mentions": [
+    "A000043",
+    "A000225",
+    "A085724",
+    "A135977"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

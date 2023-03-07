@@ -1,0 +1,32 @@
+{
+  "description": "Numbers that are not uniform relatively prime tree numbers.",
+  "id": "A317720",
+  "mentions": [
+    "A061775",
+    "A072774",
+    "A111299",
+    "A214577",
+    "A276625",
+    "A277098",
+    "A303431",
+    "A317590",
+    "A317705",
+    "A317707",
+    "A317708",
+    "A317709",
+    "A317710",
+    "A317712",
+    "A317717",
+    "A317718"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Let P1, P2, P3, P4 be consecutive primes, with P2 - P1 = P4 - P3 = 2. a(n) = (P1 + P2)/12 for the first occurrence of (P3 - P1)/6 = n.",
+  "id": "A329250",
+  "mentions": [
+    "A329164",
+    "A329165",
+    "A329251",
+    "A329252"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

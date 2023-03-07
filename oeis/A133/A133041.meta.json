@@ -1,0 +1,25 @@
+{
+  "description": "Sum of n and partition number of n.",
+  "id": "A133041",
+  "mentions": [
+    "A000041",
+    "A001365",
+    "A014688",
+    "A064985",
+    "A090631",
+    "A102379",
+    "A207779",
+    "A232697"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:48:25",
+    "offset": 0,
+    "size": 43,
+    "source": "joeis"
+  }
+}

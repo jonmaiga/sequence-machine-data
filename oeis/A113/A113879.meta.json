@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 1+A113878(n).",
+  "id": "A113879",
+  "mentions": [
+    "A113824",
+    "A113878"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

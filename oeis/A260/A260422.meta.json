@@ -1,0 +1,25 @@
+{
+  "description": "a(1) = 1, a(2n) = A205783(1+a(n)), a(2n+1) = A206074(a(n)), where A206074 and A205783 give binary codes for polynomials with coefficients 0 or 1 that are irreducible [resp. reducible] over Q.",
+  "id": "A260422",
+  "mentions": [
+    "A205783",
+    "A206074",
+    "A246202",
+    "A246378",
+    "A260421",
+    "A260423",
+    "A260425"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Squares whose digit sum is not a prime.",
+  "id": "A267430",
+  "mentions": [
+    "A000290",
+    "A016766",
+    "A065408",
+    "A104211"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:29",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

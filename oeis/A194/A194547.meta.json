@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows: T(n,k) = Dyson's rank of the k-th partition of n, with partitions in lexicographic order.",
+  "id": "A194547",
+  "mentions": [
+    "A000041",
+    "A105805",
+    "A135010",
+    "A138121",
+    "A193173",
+    "A194546",
+    "A194548",
+    "A194549"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "look",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

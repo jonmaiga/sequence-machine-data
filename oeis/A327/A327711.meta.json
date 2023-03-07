@@ -1,0 +1,20 @@
+{
+  "description": "Sum of multinomials M(n-k; p_1-1, ..., p_k-1), where p = (p_1, ..., p_k) ranges over all partitions of n (k is a partition length).",
+  "id": "A327711",
+  "mentions": [
+    "A005651",
+    "A326493",
+    "A327712",
+    "A327729"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

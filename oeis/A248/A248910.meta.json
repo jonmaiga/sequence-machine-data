@@ -1,0 +1,31 @@
+{
+  "description": "Numbers with no zeros in base-6 representation.",
+  "id": "A248910",
+  "mentions": [
+    "A000042",
+    "A007092",
+    "A023705",
+    "A032924",
+    "A039215",
+    "A047253",
+    "A052382",
+    "A100969",
+    "A184522",
+    "A187390",
+    "A194386",
+    "A255805",
+    "A255808"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

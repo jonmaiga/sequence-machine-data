@@ -1,0 +1,19 @@
+{
+  "description": "Number of 9-element subsets that can be chosen from {1,2,...,18*n+9} having element sum 81*n+45.",
+  "id": "A204473",
+  "mentions": [
+    "A204459"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:05:33",
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

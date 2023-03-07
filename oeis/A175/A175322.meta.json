@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = A053141(n)*A001109(n+1) = Sum_{k=A053141(n)+1..A001109(n+1)-1} k.",
+  "id": "A175322",
+  "mentions": [
+    "A000027",
+    "A001109",
+    "A053141"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

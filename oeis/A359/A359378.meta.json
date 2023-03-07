@@ -1,0 +1,30 @@
+{
+  "description": "Dirichlet inverse of A359377, where A359377(n) = 1 if 3*n is squarefree, otherwise 0.",
+  "id": "A359378",
+  "mentions": [
+    "A001651",
+    "A008585",
+    "A008836",
+    "A011655",
+    "A156277",
+    "A166698",
+    "A358839",
+    "A359170",
+    "A359171",
+    "A359172",
+    "A359377",
+    "A359381"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

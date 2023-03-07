@@ -1,0 +1,22 @@
+{
+  "description": "Square array A(n,k), n >= 1, k >= 1, read by antidiagonals, where A(n,k) is defined by the following: A(1,k) = k and A(n,k) = A(n-1,k)*(A(n-1,k)+1) for n > 1.",
+  "id": "A298484",
+  "mentions": [
+    "A000027",
+    "A002378",
+    "A004168",
+    "A007018",
+    "A169938"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:20",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

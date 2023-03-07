@@ -1,0 +1,31 @@
+{
+  "description": "Smallest k such that n = sigma_0(k) - ((bigomega(k)-1)*omega(k)), where sigma_0 = A000005, omega = A001221, bigomega = A001222.",
+  "id": "A328963",
+  "mentions": [
+    "A000005",
+    "A001221",
+    "A001222",
+    "A025487",
+    "A113901",
+    "A124010",
+    "A307408",
+    "A307409",
+    "A320632",
+    "A323023",
+    "A328956",
+    "A328958",
+    "A328959",
+    "A328964",
+    "A328965"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

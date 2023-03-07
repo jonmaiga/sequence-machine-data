@@ -1,0 +1,26 @@
+{
+  "description": "One of 17 possible sets of eleven numbers of the form 3^alpha 5^beta 7^gamma whose sum of reciprocals is 1.",
+  "id": "A211128",
+  "mentions": [
+    "A201643",
+    "A201644",
+    "A201646",
+    "A201647",
+    "A201648",
+    "A201649",
+    "A211118",
+    "A211134"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

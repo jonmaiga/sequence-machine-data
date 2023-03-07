@@ -1,0 +1,19 @@
+{
+  "description": "Denominators of sum_{k=1..n} 1/k^7 = Zeta(7,n).",
+  "id": "A103348",
+  "mentions": [
+    "A103347"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 14:53:09",
+    "offset": 1,
+    "size": 12,
+    "source": "joeis"
+  }
+}

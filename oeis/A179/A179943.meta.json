@@ -1,0 +1,28 @@
+{
+  "description": "Triangle read by rows, antidiagonals of an array (r,k), r=(0,1,2,...), generated from 2 X 2 matrices of the form [1,r; 1,(r+1)].",
+  "id": "A179943",
+  "mentions": [
+    "A001090",
+    "A001109",
+    "A001353",
+    "A001906",
+    "A004187",
+    "A004189",
+    "A004254",
+    "A018913",
+    "A049310",
+    "A179944"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

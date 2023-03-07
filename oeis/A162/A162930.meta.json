@@ -1,0 +1,20 @@
+{
+  "description": "Primes that can be written as a sum of a positive square and a positive cube in more than one way.",
+  "id": "A162930",
+  "mentions": [
+    "A000040",
+    "A054402",
+    "A123364"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

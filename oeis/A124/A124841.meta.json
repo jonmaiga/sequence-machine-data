@@ -1,0 +1,32 @@
+{
+  "description": "Inverse binomial transform of A005614, the rabbit sequence: (1, 0, 1, 1, 0, ...).",
+  "id": "A124841",
+  "mentions": [
+    "A000201",
+    "A001030",
+    "A001468",
+    "A001950",
+    "A003622",
+    "A003842",
+    "A003849",
+    "A004641",
+    "A005614",
+    "A014675",
+    "A022342",
+    "A088462",
+    "A096270",
+    "A114986",
+    "A115004",
+    "A124842"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

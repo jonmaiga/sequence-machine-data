@@ -1,0 +1,22 @@
+{
+  "description": "Primes of the form 1 + 4-multiperfect numbers.",
+  "id": "A171263",
+  "mentions": [
+    "A027687",
+    "A093034",
+    "A171264",
+    "A171265"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

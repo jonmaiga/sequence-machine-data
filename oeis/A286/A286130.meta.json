@@ -1,0 +1,19 @@
+{
+  "description": "Number x = concat(MSD(x),b) such that MSD(x)*b = phi(x), where MSD(x) is the Most Significant Digit of x and phi(x) is the Euler totient function of x.",
+  "id": "A286130",
+  "mentions": [
+    "A000010",
+    "A000030"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:57",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

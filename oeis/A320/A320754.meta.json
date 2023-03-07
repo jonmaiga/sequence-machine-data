@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n with eight kinds of 1.",
+  "id": "A320754",
+  "mentions": [
+    "A292508"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

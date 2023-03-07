@@ -1,0 +1,17 @@
+{
+  "description": "n - (sum of prime factors of n^2+1) is prime.",
+  "id": "A216895",
+  "mentions": [
+    "A008472"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

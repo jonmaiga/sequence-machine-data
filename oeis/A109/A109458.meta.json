@@ -1,0 +1,19 @@
+{
+  "description": "Number of inequivalent Krom functions on n variables (or 2SAT instances) under permutations of variables.",
+  "id": "A109458",
+  "mentions": [
+    "A109457"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

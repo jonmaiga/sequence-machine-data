@@ -1,0 +1,26 @@
+{
+  "description": "Numbers whose sum of prime indices is a perfect square.",
+  "id": "A323528",
+  "mentions": [
+    "A000290",
+    "A001248",
+    "A026478",
+    "A056239",
+    "A112798",
+    "A323520",
+    "A323521",
+    "A323525",
+    "A323526",
+    "A323527"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:47",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

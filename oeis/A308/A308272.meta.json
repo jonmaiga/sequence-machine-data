@@ -1,0 +1,21 @@
+{
+  "description": "G.f. A(x) satisfies: A(x) = (1 + x) * A(x^2)*A(x^3)*A(x^5)* ... *A(x^prime(k))* ...",
+  "id": "A308272",
+  "mentions": [
+    "A000040",
+    "A008480",
+    "A129373",
+    "A308271"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:54:35",
+    "offset": 0,
+    "size": 54,
+    "source": "joeis"
+  }
+}

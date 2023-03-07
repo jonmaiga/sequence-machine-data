@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X 3 binary arrays with every 1 having exactly one king-move neighbor equal to 1.",
+  "id": "A183436",
+  "mentions": [
+    "A183442"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:07",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

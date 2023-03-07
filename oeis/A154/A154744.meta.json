@@ -1,0 +1,21 @@
+{
+  "description": "Continued fraction for 2^(1/4) - 2^(-1/4), the ordinate of the point of bisection of the arc of the unit lemniscate (x^2 + y^2)^2 = x^2 - y^2 in the first quadrant.",
+  "id": "A154744",
+  "mentions": [
+    "A154743",
+    "A154745",
+    "A154746"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cofr",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:47",
+    "offset": 0,
+    "size": 84,
+    "source": "joeis"
+  }
+}

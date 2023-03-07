@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of Product_{k>=0} 1/(1-x^(4*k+1))^4.",
+  "id": "A261636",
+  "mentions": [
+    "A035382",
+    "A035451",
+    "A261616",
+    "A261629",
+    "A261632",
+    "A261635"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:52:46",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

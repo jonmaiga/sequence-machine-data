@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of a multiplicative constant related to A002465.",
+  "id": "A238260",
+  "mentions": [
+    "A002465",
+    "A187235",
+    "A238258"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k for which sigma(k^2)/k^2 reaches a new record, where sigma = A000203.",
+  "id": "A340816",
+  "mentions": [
+    "A000203",
+    "A004394",
+    "A308471"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

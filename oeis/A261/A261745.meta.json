@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of -sm(-1), where sm(t) is the Dixonian elliptic function sm(t).",
+  "id": "A261745",
+  "mentions": [
+    "A104133",
+    "A104134"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

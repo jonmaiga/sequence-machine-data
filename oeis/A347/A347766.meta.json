@@ -1,0 +1,22 @@
+{
+  "description": "Irregular table read by rows, T(n, k) is the rank of the k-th positive Euler permutation of {1,...,n}, permutations sorted in lexicographical order. If no such permutation exists, then T(n, 0) = 0 by convention.",
+  "id": "A347766",
+  "mentions": [
+    "A346831",
+    "A347599",
+    "A347600",
+    "A347601",
+    "A347767"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that A308485(k) is a multiple of k.",
+  "id": "A352698",
+  "mentions": [
+    "A001414",
+    "A308485"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

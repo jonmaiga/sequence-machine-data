@@ -1,0 +1,19 @@
+{
+  "description": "The hyper-Wiener index of the zig-zag polyhex nanotube TUHC_6[2n,2] defined pictorially in Fig. 1 of the Eliasi et al. reference.",
+  "id": "A227704",
+  "mentions": [
+    "A227703"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:14:23",
+    "offset": 2,
+    "size": 32,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of sqrt(120-18*sqrt(3))/3.",
+  "id": "A221185",
+  "mentions": [
+    "A199657",
+    "A199658",
+    "A199671",
+    "A199672"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 19:29:13",
+    "offset": 1,
+    "size": 121,
+    "source": "joeis"
+  }
+}

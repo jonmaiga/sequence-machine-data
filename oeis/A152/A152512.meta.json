@@ -1,0 +1,18 @@
+{
+  "description": "1/6 of the number of permutations of 5 indistinguishable copies of 1..n with exactly 5 local maxima.",
+  "id": "A152512",
+  "mentions": [
+    "A152509",
+    "A334774"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

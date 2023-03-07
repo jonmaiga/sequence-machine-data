@@ -1,0 +1,19 @@
+{
+  "description": "The number j such that 8 divides prime(k)-prime(j), where k(n)=A205705(n).",
+  "id": "A205706",
+  "mentions": [
+    "A204890",
+    "A205558",
+    "A205705"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 09:46:26",
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

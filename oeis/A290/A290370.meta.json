@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of n into distinct parts that contain primes to odd powers only (A002035).",
+  "id": "A290370",
+  "mentions": [
+    "A002035",
+    "A290369"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:11:39",
+    "offset": 0,
+    "size": 71,
+    "source": "joeis"
+  }
+}

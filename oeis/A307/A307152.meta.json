@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = floor((A002144(n)+19)/24).",
+  "id": "A307152",
+  "mentions": [
+    "A002144",
+    "A296021"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Integers of the form p^2*q in A120806: x+d+1 is prime for all divisors d of x. Both p and q are odd primes, with p and q distinct. See A054753.",
+  "id": "A120809",
+  "mentions": [
+    "A054753",
+    "A120806"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

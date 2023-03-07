@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = concatenation of decimal expansions of powers of 11 (in decreasing order).",
+  "id": "A242645",
+  "mentions": [
+    "A068704",
+    "A242646"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

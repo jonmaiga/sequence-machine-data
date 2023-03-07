@@ -1,0 +1,21 @@
+{
+  "description": "Dirichlet inverse of A032742 (the largest proper divisor of n).",
+  "id": "A305807",
+  "mentions": [
+    "A032742",
+    "A300236",
+    "A300239",
+    "A305808"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

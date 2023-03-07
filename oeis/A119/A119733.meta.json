@@ -1,0 +1,28 @@
+{
+  "description": "Offsets of the terms of the nodes of the reverse Collatz function.",
+  "id": "A119733",
+  "mentions": [
+    "A000120",
+    "A002697",
+    "A005836",
+    "A048883",
+    "A081039",
+    "A116623",
+    "A116640",
+    "A116641",
+    "A213539",
+    "A226383",
+    "A272011"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

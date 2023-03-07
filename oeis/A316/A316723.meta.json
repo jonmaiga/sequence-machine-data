@@ -1,0 +1,29 @@
+{
+  "description": "Square array A(n,k), n>=0, k>=0, read by antidiagonals, where column k is the expansion of Product_{j=1..k} (1+x^j)/(1-x^j).",
+  "id": "A316723",
+  "mentions": [
+    "A000007",
+    "A004277",
+    "A015128",
+    "A040000",
+    "A053798",
+    "A053799",
+    "A053800",
+    "A053801",
+    "A053802",
+    "A069251",
+    "A069252",
+    "A069253"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:35",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

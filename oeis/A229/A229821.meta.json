@@ -1,0 +1,27 @@
+{
+  "description": "Even bisection gives sequence a itself, n->a(2*(6*n+k)-1) gives k-th differences of a for k=1..6 with a(n)=n for n",
+  "id": "A229821",
+  "mentions": [
+    "A005590",
+    "A229817",
+    "A229818",
+    "A229819",
+    "A229820",
+    "A229822",
+    "A229823",
+    "A229824",
+    "A229825"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "eigen",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:47",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

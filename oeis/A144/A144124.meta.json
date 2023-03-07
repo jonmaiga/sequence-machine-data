@@ -1,0 +1,19 @@
+{
+  "description": "P_4(2n+1), the Legendre polynomial of order 4 at 2n+1.",
+  "id": "A144124",
+  "mentions": [
+    "A140870"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:41:37",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

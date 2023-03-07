@@ -1,0 +1,21 @@
+{
+  "description": "Primitive weird numbers, pwn, of the form 2^k*p*q*r*s with k > 0 and where p < q < r < s are odd primes.",
+  "id": "A258884",
+  "mentions": [
+    "A002975",
+    "A258401",
+    "A258882",
+    "A258883",
+    "A258885"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

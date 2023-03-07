@@ -1,0 +1,18 @@
+{
+  "description": "Write under each comma the absolute difference of the two digits framing the said comma; the successive results reproduce, digit by digit, the sequence itself. This is the lexicographically earliest permutation of the positive integers with this property.",
+  "id": "A334336",
+  "mentions": [
+    "A100787"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

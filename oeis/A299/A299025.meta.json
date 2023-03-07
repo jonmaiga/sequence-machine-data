@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = the fractional part of 1 / A003592(n) read backwards.",
+  "id": "A299025",
+  "mentions": [
+    "A003592",
+    "A004086",
+    "A180953"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:22",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

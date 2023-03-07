@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f. (sin(3x) + cos x) / cos(4x).",
+  "id": "A225109",
+  "mentions": [
+    "A006873",
+    "A007286",
+    "A007289"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

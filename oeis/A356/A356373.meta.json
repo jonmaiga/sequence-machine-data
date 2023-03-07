@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=1..n} binomial(2*k, k) * A000005(k).",
+  "id": "A356373",
+  "mentions": [
+    "A000005",
+    "A006218",
+    "A160399",
+    "A351146"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

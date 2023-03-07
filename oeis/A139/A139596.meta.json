@@ -1,0 +1,30 @@
+{
+  "description": "A033587(n) followed by even hexagonal number A014635(n+1).",
+  "id": "A139596",
+  "mentions": [
+    "A000217",
+    "A014635",
+    "A033587",
+    "A046092",
+    "A077221",
+    "A139591",
+    "A139592",
+    "A139593",
+    "A139595",
+    "A139597",
+    "A139598",
+    "A156859"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:50:33",
+    "offset": 0,
+    "size": 44,
+    "source": "joeis"
+  }
+}

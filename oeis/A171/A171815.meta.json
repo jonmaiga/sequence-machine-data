@@ -1,0 +1,20 @@
+{
+  "description": "Values of A171743 that are 1 less than a prime, listed in the order in which they appear.",
+  "id": "A171815",
+  "mentions": [
+    "A000010",
+    "A001043",
+    "A171743"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

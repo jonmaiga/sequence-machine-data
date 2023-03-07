@@ -1,0 +1,39 @@
+{
+  "description": "Number of compositions of n that are either strictly increasing or strictly decreasing.",
+  "id": "A333147",
+  "mentions": [
+    "A000009",
+    "A001523",
+    "A032020",
+    "A059204",
+    "A072705",
+    "A072706",
+    "A072707",
+    "A115981",
+    "A329398",
+    "A332285",
+    "A332578",
+    "A332745",
+    "A332746",
+    "A332831",
+    "A332833",
+    "A332834",
+    "A332835",
+    "A332874",
+    "A333149",
+    "A333150",
+    "A333190",
+    "A333191"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:00:41",
+    "offset": 0,
+    "size": 53,
+    "source": "joeis"
+  }
+}

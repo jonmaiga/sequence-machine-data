@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of successive primorials A002110(i) larger than prime(n) that need to be tried before sum prime(n)+A002110(i) is found to be composite.",
+  "id": "A324657",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A235224",
+    "A324656"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows T(n, m) = F(2*m-1)*(n-m) + F(2*m), for 1 <= m <= n, where F = A000045 (Fibonacci).",
+  "id": "A339050",
+  "mentions": [
+    "A000045",
+    "A001477",
+    "A001519",
+    "A001906",
+    "A005248",
+    "A005408",
+    "A143929"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

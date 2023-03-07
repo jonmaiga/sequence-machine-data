@@ -1,0 +1,20 @@
+{
+  "description": "The possible orders of cyclic groups that can be realized as holonomy groups of crystallographic groups in dimension 7.",
+  "id": "A180042",
+  "mentions": [
+    "A006226",
+    "A080738"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

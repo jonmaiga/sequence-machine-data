@@ -1,0 +1,34 @@
+{
+  "description": "Irregular triangle read by rows: row n lists the cuts-resistances of the 2^n binary vectors of length n.",
+  "id": "A319420",
+  "mentions": [
+    "A000975",
+    "A027383",
+    "A061547",
+    "A086893",
+    "A189391",
+    "A318921",
+    "A318928",
+    "A319411",
+    "A319416",
+    "A319421",
+    "A329767",
+    "A329860",
+    "A329861",
+    "A329862",
+    "A329865",
+    "A329870"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

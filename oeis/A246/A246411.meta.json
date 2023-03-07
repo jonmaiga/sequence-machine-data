@@ -1,0 +1,21 @@
+{
+  "description": "Positive integers k satisfying csc(k) > csc(k+1) < csc(k+2).",
+  "id": "A246411",
+  "mentions": [
+    "A158333",
+    "A246410",
+    "A246412"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

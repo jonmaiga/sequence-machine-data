@@ -1,0 +1,20 @@
+{
+  "description": "C(n,k)*Floor((n-k)/2)!.",
+  "id": "A114162",
+  "mentions": [
+    "A081124"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

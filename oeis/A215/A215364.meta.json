@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. satisfies: A(x) = 1 + x*A(x)^2*cosh(x*A(x)).",
+  "id": "A215364",
+  "mentions": [
+    "A213644",
+    "A215363"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:06:10",
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

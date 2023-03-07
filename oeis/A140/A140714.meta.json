@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of white corners of rank k in all 321-avoiding permutations of {1,2,...,n} (n>=2, 0<=k<=n-2; for definitions see the Eriksson-Linusson references).",
+  "id": "A140714",
+  "mentions": [
+    "A000108",
+    "A000245",
+    "A000302",
+    "A140713"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 2,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

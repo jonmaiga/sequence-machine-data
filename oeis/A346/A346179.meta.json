@@ -1,0 +1,20 @@
+{
+  "description": "Number of nonisomorphic vertex-transitive tournaments of order 2n-1.",
+  "id": "A346179",
+  "mentions": [
+    "A049288",
+    "A060747"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Concentric 11-gonal numbers.",
+  "id": "A195043",
+  "mentions": [
+    "A032527",
+    "A032528",
+    "A033584",
+    "A069125",
+    "A069173",
+    "A175885",
+    "A195040",
+    "A195042",
+    "A195045",
+    "A195142",
+    "A195143"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

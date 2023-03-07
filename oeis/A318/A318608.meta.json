@@ -1,0 +1,36 @@
+{
+  "description": "Moebius function mu(n) defined for the Gaussian integers.",
+  "id": "A318608",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A000203",
+    "A001221",
+    "A001222",
+    "A002322",
+    "A008683",
+    "A062327",
+    "A078458",
+    "A079458",
+    "A086275",
+    "A087003",
+    "A091069",
+    "A101455",
+    "A103226",
+    "A227334",
+    "A317797"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 1,
+    "size": 108,
+    "source": "oeis-bfile"
+  }
+}

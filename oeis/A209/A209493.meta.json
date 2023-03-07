@@ -1,0 +1,22 @@
+{
+  "description": "Indices of primes in sequence A006190.",
+  "id": "A209493",
+  "mentions": [
+    "A000129",
+    "A006190",
+    "A006497",
+    "A096650"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

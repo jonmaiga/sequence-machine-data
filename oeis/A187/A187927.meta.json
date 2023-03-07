@@ -1,0 +1,23 @@
+{
+  "description": "Number of embeddings on the sphere of 2-connected planar graphs, minimum vertex degree 3, with n nodes.",
+  "id": "A187927",
+  "mentions": [
+    "A000944",
+    "A007021",
+    "A034889",
+    "A181340",
+    "A187928"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 6,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

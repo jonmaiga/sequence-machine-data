@@ -1,0 +1,24 @@
+{
+  "description": "G.f. satisfies: A(x) = (1 - x*A(x))^2 * (2*A(x) - 1).",
+  "id": "A231556",
+  "mentions": [
+    "A228966",
+    "A231552",
+    "A231553",
+    "A231554",
+    "A231615",
+    "A231616",
+    "A231618"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

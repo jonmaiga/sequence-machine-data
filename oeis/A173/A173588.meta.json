@@ -1,0 +1,24 @@
+{
+  "description": "T(n,k) = (k^n)*U(n, (1/k + k)/2), where U(n,x) is the n-th Chebyshev polynomial of the second kind, square array read by antidiagonals upward (n >= 0, k >= 1).",
+  "id": "A173588",
+  "mentions": [
+    "A001045",
+    "A002450",
+    "A121290",
+    "A173590",
+    "A173591"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

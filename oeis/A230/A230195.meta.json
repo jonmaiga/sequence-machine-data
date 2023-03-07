@@ -1,0 +1,17 @@
+{
+  "description": "Integer areas A of the triangles such that A and the sides are integers, and the length of the inradius is a prime number.",
+  "id": "A230195",
+  "mentions": [
+    "A228383"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

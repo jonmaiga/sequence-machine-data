@@ -1,0 +1,25 @@
+{
+  "description": "Prime numbers n for which the Lucas number L(n) (see A000032) is the sum of two squares.",
+  "id": "A215809",
+  "mentions": [
+    "A000032",
+    "A001481",
+    "A020669",
+    "A033205",
+    "A124130",
+    "A180363",
+    "A215906",
+    "A215907",
+    "A215941"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Least k with precisely n partitions k = x + y satisfying sigma(k) = sigma(x) + sigma(y).",
+  "id": "A211224",
+  "mentions": [
+    "A083207",
+    "A204830",
+    "A204831",
+    "A211223",
+    "A211225"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

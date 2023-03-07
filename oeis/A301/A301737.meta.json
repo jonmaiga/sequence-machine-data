@@ -1,0 +1,18 @@
+{
+  "description": "Denominator of cumulative weight of certain D-forests on n nodes.",
+  "id": "A301737",
+  "mentions": [
+    "A301736"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

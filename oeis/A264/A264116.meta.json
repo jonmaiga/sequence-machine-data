@@ -1,0 +1,29 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k), n>=1, k>=1, of the alternating sum of entries 1 through k in the n-th row of A235791; the first element of column k is in row k(k+1)/2.",
+  "id": "A264116",
+  "mentions": [
+    "A000217",
+    "A003056",
+    "A071561",
+    "A196020",
+    "A235791",
+    "A236104",
+    "A237270",
+    "A237271",
+    "A237591",
+    "A237593",
+    "A240542"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

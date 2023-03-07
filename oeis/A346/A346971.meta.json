@@ -1,0 +1,21 @@
+{
+  "description": "Smallest c which can be split into positive parts a and b with a+b=c, such that the divisors of a,b,c cover all numbers up to n.",
+  "id": "A346971",
+  "mentions": [
+    "A003418",
+    "A027750",
+    "A346970"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 2,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

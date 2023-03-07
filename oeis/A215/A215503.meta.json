@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (u+1)^n + (-s-1)^n + (t+1)^n + (-1)^n + (-t+1)^n + (s-1)^n + (-u+1)^n where s = sqrt(2), t = sqrt(2-s), u = sqrt(2+s).",
+  "id": "A215503",
+  "mentions": [
+    "A051927",
+    "A215500",
+    "A215502"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

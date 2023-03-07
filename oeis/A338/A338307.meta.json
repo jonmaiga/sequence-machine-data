@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest positive integer m such that n appears as the denominator of a convergent to sqrt(m).",
+  "id": "A338307",
+  "mentions": [
+    "A338308"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

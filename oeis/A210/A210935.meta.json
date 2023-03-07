@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n for which n*n'/(n+n') is an integer, where n' is the arithmetic derivative of n.",
+  "id": "A210935",
+  "mentions": [
+    "A003415",
+    "A165562"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

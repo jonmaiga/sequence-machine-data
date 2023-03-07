@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(i,j) is the (i,j)-entry (1 <= j <= i) of the product H*R of the infinite lower triangular matrices H = [1; 1,2; 1,2,1; 1 2,1,2; ...] and R = [1; 1,1; 1,1,1; 1,1,1,1; ...].",
+  "id": "A104566",
+  "mentions": [
+    "A001082",
+    "A006578",
+    "A032766",
+    "A045506"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

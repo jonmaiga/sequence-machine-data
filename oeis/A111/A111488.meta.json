@@ -1,0 +1,33 @@
+{
+  "description": "Primes all of whose digits are triangular.",
+  "id": "A111488",
+  "mentions": [
+    "A000040",
+    "A000217",
+    "A004022",
+    "A020450",
+    "A020472",
+    "A036953",
+    "A038603",
+    "A061247",
+    "A199325",
+    "A199329",
+    "A199340",
+    "A199349",
+    "A260044",
+    "A260267",
+    "A260271"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

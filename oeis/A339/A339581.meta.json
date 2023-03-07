@@ -1,0 +1,24 @@
+{
+  "description": "Indices of records in A063377.",
+  "id": "A339581",
+  "mentions": [
+    "A005602",
+    "A057331",
+    "A063377",
+    "A063378",
+    "A339579",
+    "A339580"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

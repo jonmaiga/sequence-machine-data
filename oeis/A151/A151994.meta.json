@@ -1,0 +1,24 @@
+{
+  "description": "For k=A079523(n),n>=2, let {S_k} be the minimal recursive sequence beginning with k similar to N with respect to property of integer to be or not to be in A079523. Then a(n) is the point of confluence of {S_k} with {S_5}.",
+  "id": "A151994",
+  "mentions": [
+    "A004760",
+    "A035263",
+    "A079523",
+    "A159559",
+    "A159560",
+    "A159615",
+    "A159619",
+    "A162736"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 2,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

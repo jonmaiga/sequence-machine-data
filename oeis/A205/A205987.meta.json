@@ -1,0 +1,18 @@
+{
+  "description": "G.f.: Sum_{n=-oo..oo} q^(9n^2+8n).",
+  "id": "A205987",
+  "mentions": [
+    "A218864"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 0,
+    "size": 121,
+    "source": "joeis"
+  }
+}

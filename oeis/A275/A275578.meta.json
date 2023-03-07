@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of (F(x) + F(-x)) / 2 in powers of x^2 where F(x) = (f(-x) * f(-x^11))^2 and f() is a Ramanujan theta function.",
+  "id": "A275578",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A006571",
+    "A010054",
+    "A010815",
+    "A121373",
+    "A279371"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "2nd arithmetic derivative of products of 2 successive prime numbers (A006094).",
+  "id": "A240052",
+  "mentions": [
+    "A001043",
+    "A003415",
+    "A006094",
+    "A068346"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:57",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

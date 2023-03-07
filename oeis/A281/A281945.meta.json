@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways to write n as x^2 + y^2 + z^2 + w^2 with x,y,z,w nonnegative integers such that both x and x + y - z are powers of two (including 2^0 = 1).",
+  "id": "A281945",
+  "mentions": [
+    "A000079",
+    "A000118",
+    "A000290",
+    "A279612",
+    "A281939",
+    "A281941"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = n! * Laguerre(n, 3*n).",
+  "id": "A332693",
+  "mentions": [
+    "A277392",
+    "A277423",
+    "A295407",
+    "A332679",
+    "A332692",
+    "A332694",
+    "A332695"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:02",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

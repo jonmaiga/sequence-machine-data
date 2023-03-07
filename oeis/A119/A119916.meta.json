@@ -1,0 +1,20 @@
+{
+  "description": "Number of runs of 0's of odd length in all ternary words of length n.",
+  "id": "A119916",
+  "mentions": [
+    "A119914",
+    "A179608"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:39:53",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

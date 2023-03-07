@@ -1,0 +1,27 @@
+{
+  "description": "Positive integers with English names ending in \"y\".",
+  "id": "A166730",
+  "mentions": [
+    "A008592",
+    "A059093",
+    "A060228",
+    "A166726",
+    "A166727",
+    "A166728",
+    "A166729",
+    "A166731"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

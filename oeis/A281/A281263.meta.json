@@ -1,0 +1,19 @@
+{
+  "description": "Number of ordered pairs (G,S), where G is a simple labeled graph on n nodes and S is a subset of the vertices of G, such that G[S], the subgraph of G induced by S, is connected.",
+  "id": "A281263",
+  "mentions": [
+    "A001187",
+    "A249754"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

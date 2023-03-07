@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = the number of \"isolated divisors\" of n(n+1). A positive divisor, k, of n is isolated if neither (k-1) nor (k+1) divides n.",
+  "id": "A133948",
+  "mentions": [
+    "A002378",
+    "A092517",
+    "A132881",
+    "A133947",
+    "A133950"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

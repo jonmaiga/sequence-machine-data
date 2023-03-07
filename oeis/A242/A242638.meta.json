@@ -1,0 +1,19 @@
+{
+  "description": "Number of quadrangulations of a hexagon b_1 w_3 b_2 w_1 b_3 w_2 having n inner faces and not containing the edge b_1 w_1.",
+  "id": "A242638",
+  "mentions": [
+    "A006013",
+    "A242637"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

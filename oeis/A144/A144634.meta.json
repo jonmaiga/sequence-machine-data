@@ -1,0 +1,18 @@
+{
+  "description": "Triangle of 3-restricted Stirling numbers of the first kind (T(n,k), 1 <= k <= n), read by rows.",
+  "id": "A144634",
+  "mentions": [
+    "A144633"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

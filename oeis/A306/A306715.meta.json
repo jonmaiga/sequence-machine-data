@@ -1,0 +1,31 @@
+{
+  "description": "Number of graphical necklaces with n vertices and distinct rotations.",
+  "id": "A306715",
+  "mentions": [
+    "A000088",
+    "A001037",
+    "A006125",
+    "A059966",
+    "A060223",
+    "A086675",
+    "A192332",
+    "A306669",
+    "A323861",
+    "A323865",
+    "A323866",
+    "A323871",
+    "A324461",
+    "A324513"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

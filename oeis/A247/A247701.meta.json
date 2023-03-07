@@ -1,0 +1,18 @@
+{
+  "description": "Numbers whose digits are nondecreasing and which have exactly d digits \"d\" whenever there is at least one digit \"d\".",
+  "id": "A247701",
+  "mentions": [
+    "A108571"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

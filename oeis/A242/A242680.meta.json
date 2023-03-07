@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k dividing every cyclic permutation of k^3.",
+  "id": "A242680",
+  "mentions": [
+    "A178028"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

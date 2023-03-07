@@ -1,0 +1,18 @@
+{
+  "description": "Least k such that (5^n + k)*5^n + 1 is a prime number.",
+  "id": "A201133",
+  "mentions": [
+    "A191617",
+    "A200920"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:23",
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

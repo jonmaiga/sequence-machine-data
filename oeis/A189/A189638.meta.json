@@ -1,0 +1,20 @@
+{
+  "description": "Partial sums of A116178.",
+  "id": "A189638",
+  "mentions": [
+    "A116178",
+    "A189636",
+    "A189637"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:55:27",
+    "offset": 1,
+    "size": 81,
+    "source": "joeis"
+  }
+}

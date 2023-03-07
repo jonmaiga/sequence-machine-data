@@ -1,0 +1,31 @@
+{
+  "description": "Rectangular table, read by antidiagonals, such that the g.f. of row n, R_n(y), satisfies: R_n(y) = [ Sum_{k>=0} y^k * R_{n*k}(y) ]^n for n>=0, with R_0(y)=1.",
+  "id": "A124550",
+  "mentions": [
+    "A124460",
+    "A124530",
+    "A124540",
+    "A124551",
+    "A124552",
+    "A124553",
+    "A124554",
+    "A124555",
+    "A124556",
+    "A124557",
+    "A124558",
+    "A124559",
+    "A124560"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

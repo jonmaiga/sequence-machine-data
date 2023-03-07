@@ -1,0 +1,23 @@
+{
+  "description": "a(0) = 0, a(1) = 1, for n > 1, a(n) = a(n-1) + a(n-A002487(n)).",
+  "id": "A283474",
+  "mentions": [
+    "A000045",
+    "A002487",
+    "A078510",
+    "A283479",
+    "A284007",
+    "A284013"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:54",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

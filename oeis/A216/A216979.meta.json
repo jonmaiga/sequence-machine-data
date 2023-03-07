@@ -1,0 +1,22 @@
+{
+  "description": "Primes of the form n^6+2.",
+  "id": "A216979",
+  "mentions": [
+    "A056899",
+    "A144953",
+    "A216975",
+    "A216977",
+    "A216978"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 16:03:33",
+    "offset": 1,
+    "size": 17,
+    "source": "joeis"
+  }
+}

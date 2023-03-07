@@ -1,0 +1,22 @@
+{
+  "description": "Sum of n-th powers of the roots of x^3 + 9*x^2 - x - 1.",
+  "id": "A274032",
+  "mentions": [
+    "A033304",
+    "A094648",
+    "A215076",
+    "A274075"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

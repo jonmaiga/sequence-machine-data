@@ -1,0 +1,22 @@
+{
+  "description": "For an unordered partition of n with k parts, remove 1 from each part and append the number k to get a new partition until a partition is repeated. a(n) gives the maximum steps to reach a period considering all unordered partitions of n.",
+  "id": "A188160",
+  "mentions": [
+    "A000217",
+    "A037306",
+    "A177922",
+    "A184996",
+    "A185700"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least number that is the product of n primes (not necessarily distinct) and is the sum of n consecutive primes, or 0 if there are none.",
+  "id": "A339269",
+  "mentions": [
+    "A001222",
+    "A143121",
+    "A339185"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

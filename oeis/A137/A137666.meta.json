@@ -1,0 +1,25 @@
+{
+  "description": "Largest prime factor of A137664(n) = (p + 1)^p - 1 for p = prime(n).",
+  "id": "A137666",
+  "mentions": [
+    "A127837",
+    "A128356",
+    "A128357",
+    "A128452",
+    "A128456",
+    "A128466",
+    "A137664",
+    "A137665"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:25",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

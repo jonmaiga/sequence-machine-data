@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that the alternating group A_k is not a Hurwitz group.",
+  "id": "A343822",
+  "mentions": [
+    "A179982",
+    "A343821"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

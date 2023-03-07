@@ -1,0 +1,19 @@
+{
+  "description": "Let p_1",
+  "id": "A285813",
+  "mentions": [
+    "A284919",
+    "A284967",
+    "A285770"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

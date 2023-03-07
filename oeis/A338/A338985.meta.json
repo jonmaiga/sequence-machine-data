@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the first prime p such that the sum of 2*n consecutive primes starting at p is an oblong number, or 0 if there is no such p.",
+  "id": "A338985",
+  "mentions": [
+    "A002378"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

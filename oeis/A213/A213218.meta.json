@@ -1,0 +1,18 @@
+{
+  "description": "Even numbers in A221715.",
+  "id": "A213218",
+  "mentions": [
+    "A114183",
+    "A221715"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

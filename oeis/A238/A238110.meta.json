@@ -1,0 +1,19 @@
+{
+  "description": "Maximum size of a class of binary words of length n having the same prefix normal form.",
+  "id": "A238110",
+  "mentions": [
+    "A194850",
+    "A238109"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

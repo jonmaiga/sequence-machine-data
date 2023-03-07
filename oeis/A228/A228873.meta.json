@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = F(n) * F(n+1) * F(n+2) * F(n+3), the product of four consecutive Fibonacci numbers, A000045.",
+  "id": "A228873",
+  "mentions": [
+    "A000045",
+    "A000217",
+    "A009112",
+    "A024365",
+    "A059840",
+    "A073120",
+    "A228874"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

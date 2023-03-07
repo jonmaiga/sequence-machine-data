@@ -1,0 +1,25 @@
+{
+  "description": "Array read by upwards antidiagonals: T(i,n) is the number of binary necklaces of length n that avoid 00...0 (i 0's).",
+  "id": "A322057",
+  "mentions": [
+    "A000358",
+    "A008965",
+    "A093305",
+    "A119458",
+    "A125127",
+    "A280218",
+    "A280303"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

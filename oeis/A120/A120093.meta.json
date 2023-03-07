@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = the n-th divisor of Fibonacci(n)^n (when the positive divisors of Fibonacci(n)^n are written in order from smallest to largest).",
+  "id": "A120093",
+  "mentions": [
+    "A121067"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "INVERTi transform of d(n), A000005.",
+  "id": "A159933",
+  "mentions": [
+    "A000005",
+    "A159934"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:47",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

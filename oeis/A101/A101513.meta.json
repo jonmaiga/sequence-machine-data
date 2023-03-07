@@ -1,0 +1,22 @@
+{
+  "description": "a(1) = 1, a(2) = 2, a(3) = 3; triangle where n-th row has lowest n positive integers not yet in the sequence such that each integer has a prime divisor in common with at least one element of the (n-1)th row.",
+  "id": "A101513",
+  "mentions": [
+    "A018252",
+    "A064413",
+    "A104654",
+    "A104655",
+    "A104656"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

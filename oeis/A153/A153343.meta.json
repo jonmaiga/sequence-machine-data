@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that 5*k + 4 is not prime.",
+  "id": "A153343",
+  "mentions": [
+    "A014076",
+    "A024897",
+    "A045751",
+    "A095277",
+    "A153088",
+    "A153170"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

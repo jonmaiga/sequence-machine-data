@@ -1,0 +1,23 @@
+{
+  "description": "Beatty sequence for 3+sqrt(6).",
+  "id": "A277645",
+  "mentions": [
+    "A000196",
+    "A008585",
+    "A033581",
+    "A277515",
+    "A277644"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

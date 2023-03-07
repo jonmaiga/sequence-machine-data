@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Product_{d == 3 (mod 4) and d|n} d.",
+  "id": "A140211",
+  "mentions": [
+    "A007955",
+    "A140210"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:28",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

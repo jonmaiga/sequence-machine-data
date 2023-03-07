@@ -1,0 +1,26 @@
+{
+  "description": "Product of 10 consecutive primes.",
+  "id": "A127342",
+  "mentions": [
+    "A006094",
+    "A046301",
+    "A046302",
+    "A046303",
+    "A046324",
+    "A046325",
+    "A046326",
+    "A046327",
+    "A127343",
+    "A127344"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

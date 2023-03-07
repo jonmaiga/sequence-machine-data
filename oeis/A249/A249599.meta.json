@@ -1,0 +1,22 @@
+{
+  "description": "Analog of A097717 in base 5.",
+  "id": "A249599",
+  "mentions": [
+    "A094676",
+    "A097717",
+    "A249596",
+    "A249597",
+    "A249598"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

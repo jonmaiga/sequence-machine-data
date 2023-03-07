@@ -1,0 +1,27 @@
+{
+  "description": "Records in 8-almost prime gaps ordered by merit.",
+  "id": "A114418",
+  "mentions": [
+    "A046310",
+    "A065516",
+    "A111870",
+    "A111871",
+    "A114403",
+    "A114408",
+    "A114411",
+    "A114412",
+    "A114422"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

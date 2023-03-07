@@ -1,0 +1,18 @@
+{
+  "description": "Continued fraction for the ratio of the lowest two Dirichlet eigenvalues of the Laplacian within the regular pentagon.",
+  "id": "A276813",
+  "mentions": [
+    "A262823"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

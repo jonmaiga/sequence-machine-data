@@ -1,0 +1,22 @@
+{
+  "description": "Number of acyclic digraphs on n unlabeled nodes with a global source (or sink).",
+  "id": "A350415",
+  "mentions": [
+    "A003025",
+    "A003087",
+    "A122078",
+    "A345258",
+    "A350360",
+    "A350488"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

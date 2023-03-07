@@ -1,0 +1,22 @@
+{
+  "description": "Least number that reaches 1 after n iterations of the infinitary totient function A091732.",
+  "id": "A333610",
+  "mentions": [
+    "A003271",
+    "A007755",
+    "A091732",
+    "A333609"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

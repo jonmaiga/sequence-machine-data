@@ -1,0 +1,21 @@
+{
+  "description": "Conjectured list of positive numbers n such that the Collatz-like map T: if x odd, x -> 5*x+1 and if x even, x -> x/2, when started at n, eventually reaches 1.",
+  "id": "A232711",
+  "mentions": [
+    "A057688",
+    "A070165",
+    "A133419",
+    "A267969",
+    "A267970"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

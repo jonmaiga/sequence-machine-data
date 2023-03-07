@@ -1,0 +1,23 @@
+{
+  "description": "Let abc... be the decimal expansion of n. a(n) is the number of iterations of the map n -> f(n) needed to reach the last number of the cycle, where f(n) = a^a + b^b + c^c + ...",
+  "id": "A226036",
+  "mentions": [
+    "A000312",
+    "A031348",
+    "A031349",
+    "A045503",
+    "A133500",
+    "A225974"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

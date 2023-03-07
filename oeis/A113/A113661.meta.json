@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of (phi(x)^3/phi(x^3) - 1)/6 where phi() is a Ramanujan theta function.",
+  "id": "A113661",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A113660",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

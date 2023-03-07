@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 2^phi(n) - 1 = A066781(n) - 1.",
+  "id": "A100371",
+  "mentions": [
+    "A000010",
+    "A066781"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

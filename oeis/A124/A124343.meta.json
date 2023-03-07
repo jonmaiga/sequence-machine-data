@@ -1,0 +1,26 @@
+{
+  "description": "Number of rooted trees on n nodes with thinning limbs.",
+  "id": "A124343",
+  "mentions": [
+    "A000081",
+    "A032305",
+    "A124344",
+    "A124348",
+    "A244657",
+    "A290689",
+    "A298303",
+    "A298304",
+    "A298305",
+    "A298422"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

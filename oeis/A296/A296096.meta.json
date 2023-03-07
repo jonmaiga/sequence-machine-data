@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k with the property that k is the product of two distinct primes whose difference is also the product of two distinct primes.",
+  "id": "A296096",
+  "mentions": [
+    "A006881"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:14",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

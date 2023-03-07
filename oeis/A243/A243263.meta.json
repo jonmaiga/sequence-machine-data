@@ -1,0 +1,41 @@
+{
+  "description": "Decimal expansion of the generalized Glaisher-Kinkelin constant A(3).",
+  "id": "A243263",
+  "mentions": [
+    "A001620",
+    "A019727",
+    "A074962",
+    "A243262",
+    "A243264",
+    "A243265",
+    "A255321",
+    "A259068",
+    "A260662",
+    "A266553",
+    "A266554",
+    "A266555",
+    "A266556",
+    "A266557",
+    "A266558",
+    "A266559",
+    "A266560",
+    "A266562",
+    "A266563",
+    "A266564",
+    "A266565",
+    "A266566",
+    "A266567"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 0,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

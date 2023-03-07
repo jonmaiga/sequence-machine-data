@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows, binomial transform of triangle A153860.",
+  "id": "A153861",
+  "mentions": [
+    "A007318",
+    "A084938",
+    "A095121",
+    "A123110",
+    "A130405",
+    "A137396",
+    "A153860",
+    "A193722",
+    "A193815"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:36:17",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

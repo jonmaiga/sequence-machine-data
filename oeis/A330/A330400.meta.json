@@ -1,0 +1,20 @@
+{
+  "description": "Numbers at which the sum of the iterated unitary totient function (A329153) attains a record.",
+  "id": "A330400",
+  "mentions": [
+    "A000010",
+    "A047994",
+    "A181659",
+    "A329153"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

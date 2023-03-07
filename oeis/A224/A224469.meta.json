@@ -1,0 +1,22 @@
+{
+  "description": "Primes of the form 8^n - n.",
+  "id": "A224469",
+  "mentions": [
+    "A024089",
+    "A081296",
+    "A224420",
+    "A224451",
+    "A224468",
+    "A224471"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

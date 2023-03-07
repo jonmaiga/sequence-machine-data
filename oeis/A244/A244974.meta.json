@@ -1,0 +1,23 @@
+{
+  "description": "Sum of numbers m <= n whose set of prime divisors is a subset of the set of prime divisors of n.",
+  "id": "A244974",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A000961",
+    "A010846",
+    "A162306",
+    "A243822"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

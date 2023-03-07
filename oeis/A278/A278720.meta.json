@@ -1,0 +1,26 @@
+{
+  "description": "The p-defect p - N(p) of the congruence y^2 == x^3 + 4*x (mod p) for primes p, where N(p) is the number of solutions given by A276730.",
+  "id": "A278720",
+  "mentions": [
+    "A000040",
+    "A002144",
+    "A002171",
+    "A002972",
+    "A002973",
+    "A276730",
+    "A279392",
+    "A279393"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

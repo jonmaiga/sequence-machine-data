@@ -1,0 +1,31 @@
+{
+  "description": "Number of relatively prime or monic twice-partitions of n.",
+  "id": "A302094",
+  "mentions": [
+    "A000837",
+    "A001383",
+    "A063834",
+    "A093637",
+    "A196545",
+    "A281113",
+    "A289501",
+    "A300383",
+    "A300486",
+    "A301462",
+    "A301467",
+    "A301480",
+    "A302915",
+    "A302916",
+    "A302917"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "The Riemann primes of the theta type and index 2.",
+  "id": "A197298",
+  "mentions": [
+    "A196668",
+    "A197186",
+    "A197297",
+    "A197299",
+    "A197300"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

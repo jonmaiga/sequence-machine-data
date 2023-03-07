@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = floor(r^n) where r is the smallest Pisot number (real root r=1.3247179... of x^3-x-1).",
+  "id": "A112639",
+  "mentions": [
+    "A051016",
+    "A051017",
+    "A060006",
+    "A205579"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

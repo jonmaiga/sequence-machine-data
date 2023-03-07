@@ -1,0 +1,24 @@
+{
+  "description": "Squares that remain squares if you decrease them by 4 times a repunit with the same number of digits.",
+  "id": "A273231",
+  "mentions": [
+    "A002275",
+    "A061844",
+    "A273230",
+    "A273232",
+    "A273234",
+    "A273299"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

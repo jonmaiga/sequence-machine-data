@@ -1,0 +1,22 @@
+{
+  "description": "Record values in A249695.",
+  "id": "A249714",
+  "mentions": [
+    "A007283",
+    "A249439",
+    "A249441",
+    "A249695",
+    "A249715"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

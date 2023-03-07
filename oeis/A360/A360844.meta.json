@@ -1,0 +1,32 @@
+{
+  "description": "a(n) is the least k-full number that is sandwiched between twin primes.",
+  "id": "A360844",
+  "mentions": [
+    "A001097",
+    "A001694",
+    "A003586",
+    "A014574",
+    "A027856",
+    "A036966",
+    "A036967",
+    "A051904",
+    "A069492",
+    "A069493",
+    "A113839",
+    "A360840",
+    "A360841",
+    "A360842",
+    "A360843"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 2,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

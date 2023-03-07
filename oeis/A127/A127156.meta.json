@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of Dyck paths of semilength n starting with exactly k consecutive pyramids. A pyramid in a Dyck path is a factor of the form U^j D^j (j>0), starting at the x-axis. Here U=(1,1) and D=(1,-1). This definition differs from the one in A091866.",
+  "id": "A127156",
+  "mentions": [
+    "A000108",
+    "A014318",
+    "A091866",
+    "A114277"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

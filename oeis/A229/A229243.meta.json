@@ -1,0 +1,26 @@
+{
+  "description": "Number A(n,k) of set partitions of {1,...,k*n} into sets of size at most n; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A229243",
+  "mentions": [
+    "A000012",
+    "A000110",
+    "A066223",
+    "A229223",
+    "A229228",
+    "A229229",
+    "A229413",
+    "A229414"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

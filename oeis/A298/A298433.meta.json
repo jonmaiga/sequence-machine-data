@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of tight n X n pavings (defined in A285357).",
+  "id": "A298433",
+  "mentions": [
+    "A000295",
+    "A285357",
+    "A285361",
+    "A298362"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

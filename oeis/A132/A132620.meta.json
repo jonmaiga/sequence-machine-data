@@ -1,0 +1,19 @@
+{
+  "description": "Triangle T, read by rows, where antidiagonal k of T = antidiagonal k-1 of T^k (after appending '1' for even k) for k>0, with T(n,n)=1 for n>=0.",
+  "id": "A132620",
+  "mentions": [
+    "A132621",
+    "A132622"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

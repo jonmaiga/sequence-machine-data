@@ -1,0 +1,21 @@
+{
+  "description": "Number of stabilizer states on n qubits.",
+  "id": "A353196",
+  "mentions": [
+    "A000079",
+    "A003956",
+    "A028362"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:29",
+    "offset": 1,
+    "size": 13,
+    "source": "joeis"
+  }
+}

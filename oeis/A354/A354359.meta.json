@@ -1,0 +1,24 @@
+{
+  "description": "Dirichlet inverse of A124859.",
+  "id": "A354359",
+  "mentions": [
+    "A002110",
+    "A124859",
+    "A354186",
+    "A354349",
+    "A354351",
+    "A354358"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

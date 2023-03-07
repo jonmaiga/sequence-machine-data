@@ -1,0 +1,33 @@
+{
+  "description": "Number of non-isomorphic connected weight-n antichains of distinct sets whose dual is also an antichain of distinct sets.",
+  "id": "A319625",
+  "mentions": [
+    "A006126",
+    "A007716",
+    "A007718",
+    "A056156",
+    "A059201",
+    "A283877",
+    "A316980",
+    "A316983",
+    "A318099",
+    "A319557",
+    "A319558",
+    "A319565",
+    "A319616",
+    "A319638",
+    "A319646"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

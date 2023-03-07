@@ -1,0 +1,17 @@
+{
+  "description": "G.f.: 1 = ...((((1/(1-x) - a(1)*x )^2 - a(2)*x^2 )^2 - a(3)*x^3 )^2 - a(4)*x^4 )^2 -..., an infinite series of nested squares.",
+  "id": "A274961",
+  "mentions": [
+    "A274960"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

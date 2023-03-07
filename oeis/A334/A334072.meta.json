@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Sum_{k >= 1} 2^(-sigma(k)), where sigma is the sum of divisors function (A000203).",
+  "id": "A334072",
+  "mentions": [
+    "A000203",
+    "A334071"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

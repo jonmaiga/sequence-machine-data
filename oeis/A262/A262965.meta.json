@@ -1,0 +1,17 @@
+{
+  "description": "Least number k such that k mod s = prime(n) where s is the sum of the distinct primes dividing k.",
+  "id": "A262965",
+  "mentions": [
+    "A008472"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

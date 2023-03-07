@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the number x other than -3 defined by x*e^x = -3/e^3.",
+  "id": "A226750",
+  "mentions": [
+    "A106533",
+    "A217913",
+    "A221214",
+    "A274712",
+    "A274713"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:01:01",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

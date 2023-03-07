@@ -1,0 +1,30 @@
+{
+  "description": "Rectangular array A read by upward antidiagonals: entry A(n,k) in row n and column k gives the number of compositions of k in which no part exceeds n, n>=1, k>=0.",
+  "id": "A144406",
+  "mentions": [
+    "A000012",
+    "A000045",
+    "A000073",
+    "A000078",
+    "A000079",
+    "A001591",
+    "A001592",
+    "A045623",
+    "A048887",
+    "A079500",
+    "A092921",
+    "A175331"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

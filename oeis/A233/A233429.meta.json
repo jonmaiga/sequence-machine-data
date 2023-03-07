@@ -1,0 +1,18 @@
+{
+  "description": "Number of tilings of a 4 X 5n rectangle with 4n pentominoes of any shape.",
+  "id": "A233429",
+  "mentions": [
+    "A233427"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

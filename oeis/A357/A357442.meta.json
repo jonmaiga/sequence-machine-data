@@ -1,0 +1,21 @@
+{
+  "description": "Consider a clock face with 2*n \"hours\" marked around the dial; a(n) = number of ways to match the even hours to the odd hours, modulo rotations and reflections.",
+  "id": "A357442",
+  "mentions": [
+    "A000031",
+    "A000699",
+    "A007769",
+    "A059375"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

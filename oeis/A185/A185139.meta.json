@@ -1,0 +1,19 @@
+{
+  "description": "Triangle T(n,k) = Sum_{i=1..n} 2^(i-1)*C(n+2*k-i-1, k-1), 1 <= k <= n.",
+  "id": "A185139",
+  "mentions": [
+    "A174531"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:09",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = product(i >= 0, (P(n, i)/P(n-1, i))^(2^i)) where P(n, i) = product(p prime, n/2^(i+1) < p <= n/2^i).",
+  "id": "A219964",
+  "mentions": [
+    "A050376",
+    "A084400",
+    "A110473",
+    "A220027"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

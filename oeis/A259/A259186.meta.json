@@ -1,0 +1,21 @@
+{
+  "description": "Primes in A259184.",
+  "id": "A259186",
+  "mentions": [
+    "A000203",
+    "A259184",
+    "A259185"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:24:29",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

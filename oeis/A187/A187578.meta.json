@@ -1,0 +1,19 @@
+{
+  "description": "Rank transform of the sequence 3*floor(n/3); complement of A187579.",
+  "id": "A187578",
+  "mentions": [
+    "A000027",
+    "A187224",
+    "A187579"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

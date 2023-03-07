@@ -1,0 +1,18 @@
+{
+  "description": "Number of self-avoiding paths in (2*n+1) X 3 grid starting the upper left corner, passing through the center of grid and finishing the lower right corner.",
+  "id": "A333686",
+  "mentions": [
+    "A333685"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:04",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Integer part of e[n]e, where [n] indicates hyper-n and e = 2.718281828... (using H. Kneser's proposal for n > 3).",
+  "id": "A353246",
+  "mentions": [
+    "A001113",
+    "A019762",
+    "A072334",
+    "A073226",
+    "A351727",
+    "A352396"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

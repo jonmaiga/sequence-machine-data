@@ -1,0 +1,32 @@
+{
+  "description": "Number of non-isomorphic set-systems of weight n whose dual is a weak antichain.",
+  "id": "A327018",
+  "mentions": [
+    "A007716",
+    "A283877",
+    "A293993",
+    "A319643",
+    "A319721",
+    "A326966",
+    "A326968",
+    "A326970",
+    "A326972",
+    "A326973",
+    "A326974",
+    "A326975",
+    "A326978",
+    "A327017",
+    "A327019"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

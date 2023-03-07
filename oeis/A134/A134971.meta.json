@@ -1,0 +1,23 @@
+{
+  "description": "Canyon primes.",
+  "id": "A134971",
+  "mentions": [
+    "A000040",
+    "A134951",
+    "A134970"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

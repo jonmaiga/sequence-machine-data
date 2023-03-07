@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of f(-x^8)^2 / f(-x) in powers of x where f() is a Ramanujan theta function.",
+  "id": "A260164",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A121373",
+    "A132965"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:05:43",
+    "offset": 0,
+    "size": 48,
+    "source": "joeis"
+  }
+}

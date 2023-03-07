@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = least integer k such that for all integers m greater than k, 2*Pi(n,m) is greater than Pi(n,2*m).",
+  "id": "A125288",
+  "mentions": [
+    "A078840",
+    "A092097",
+    "A117526",
+    "A125149",
+    "A126279"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

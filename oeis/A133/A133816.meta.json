@@ -1,0 +1,23 @@
+{
+  "description": "First German version of A131744.",
+  "id": "A133816",
+  "mentions": [
+    "A130716",
+    "A131744",
+    "A131745",
+    "A131746",
+    "A133817"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

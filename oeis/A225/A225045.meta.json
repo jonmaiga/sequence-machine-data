@@ -1,0 +1,22 @@
+{
+  "description": "Number of partitions of n into distinct non-triangular numbers, cf. A014132.",
+  "id": "A225045",
+  "mentions": [
+    "A000009",
+    "A014132",
+    "A024940",
+    "A087154",
+    "A225044"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

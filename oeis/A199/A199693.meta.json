@@ -1,0 +1,20 @@
+{
+  "description": "Related to the expansion of Pi in base 2 (A004601).",
+  "id": "A199693",
+  "mentions": [
+    "A004601",
+    "A007088"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

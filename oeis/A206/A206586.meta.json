@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that the periodic part of the continued fraction of sqrt(k) has positive even length.",
+  "id": "A206586",
+  "mentions": [
+    "A003814",
+    "A206587"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

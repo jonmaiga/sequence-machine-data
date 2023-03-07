@@ -1,0 +1,33 @@
+{
+  "description": "Squarefree semiprimes p*q for which the symmetric representation of sigma(p*q) has four parts, in increasing order.",
+  "id": "A298855",
+  "mentions": [
+    "A001358",
+    "A005384",
+    "A005385",
+    "A006881",
+    "A046388",
+    "A068443",
+    "A156592",
+    "A174905",
+    "A237048",
+    "A237270",
+    "A237593",
+    "A240542",
+    "A241008",
+    "A264104",
+    "A280107",
+    "A298856"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

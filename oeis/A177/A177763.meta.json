@@ -1,0 +1,22 @@
+{
+  "description": "Numbers of the form m^5-s^2, m>=1, s >= 0.",
+  "id": "A177763",
+  "mentions": [
+    "A152412",
+    "A177760",
+    "A177761",
+    "A177764",
+    "A177765",
+    "A177766"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

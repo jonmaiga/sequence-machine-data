@@ -1,0 +1,32 @@
+{
+  "description": "Algebraic degree of the onset of the logistic map n-bifurcation.",
+  "id": "A118454",
+  "mentions": [
+    "A000740",
+    "A006876",
+    "A086178",
+    "A086180",
+    "A087046",
+    "A091517",
+    "A098587",
+    "A118452",
+    "A118453",
+    "A118746",
+    "A181906",
+    "A181907",
+    "A181909",
+    "A181910",
+    "A181911"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

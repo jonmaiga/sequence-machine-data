@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n * Sum_{d|n} tau(d)^3 / d, where tau(n) is the number of divisors of n.",
+  "id": "A344082",
+  "mentions": [
+    "A007429",
+    "A062369",
+    "A097988",
+    "A344043"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Restricted growth string for the (decimal expansion of the) number n.",
+  "id": "A123895",
+  "mentions": [
+    "A123896",
+    "A123902"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Number of prime indices of n (counted with multiplicity) that divide n.",
+  "id": "A324848",
+  "mentions": [
+    "A003963",
+    "A056239",
+    "A112798",
+    "A120383",
+    "A323440",
+    "A324704",
+    "A324846",
+    "A324847",
+    "A324849",
+    "A324850",
+    "A324852",
+    "A324853",
+    "A324856"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k + sigma(k) + sigma(sigma(k)) is a repdigit.",
+  "id": "A116028",
+  "mentions": [
+    "A010785",
+    "A116017"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

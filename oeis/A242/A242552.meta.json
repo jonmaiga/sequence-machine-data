@@ -1,0 +1,18 @@
+{
+  "description": "Least number k such that n^4+k^4 is prime.",
+  "id": "A242552",
+  "mentions": [
+    "A000068",
+    "A069003"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

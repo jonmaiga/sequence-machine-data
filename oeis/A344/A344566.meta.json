@@ -1,0 +1,22 @@
+{
+  "description": "T(n, k) = (-1)^(n - k)*binomial(n - 1, k - 1)*hypergeom([-(n - k)/2, -(n - k - 1)/2], [1 - n], 4). Triangle read by rows, T(n, k) for 0 <= k <= n.",
+  "id": "A344566",
+  "mentions": [
+    "A064189",
+    "A117569",
+    "A122896",
+    "A256893"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

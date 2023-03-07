@@ -1,0 +1,17 @@
+{
+  "description": "a(0)=1, a(1)=2, a(2)=3, a(3)=5, a(4)=7, a(5)=10; a(n) = floor(a(n-1) + 1 + a(n-2)/6) for n>=6.",
+  "id": "A119565",
+  "mentions": [
+    "A119592"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:22",
+    "offset": 0,
+    "size": 53,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "G.f.: A(x) = exp( Sum_{n>=1} sigma(n)*x^n/(1+x^n) /n ).",
+  "id": "A158441",
+  "mentions": [
+    "A000203",
+    "A006171",
+    "A048272",
+    "A295794",
+    "A320250"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

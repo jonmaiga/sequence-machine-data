@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that 2^n-127 is prime.",
+  "id": "A169716",
+  "mentions": [
+    "A175347",
+    "A176303"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

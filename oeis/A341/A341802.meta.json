@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that (q*s-p*r)/2 and |p*s-q*r|/2 are both prime, where p,q,r,s are consecutive primes.",
+  "id": "A341802",
+  "mentions": [
+    "A342505",
+    "A342508",
+    "A342509"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

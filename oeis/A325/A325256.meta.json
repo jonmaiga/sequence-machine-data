@@ -1,0 +1,31 @@
+{
+  "description": "Number of normal multisets of size n whose adjusted frequency depth is the maximum for multisets of that size.",
+  "id": "A325256",
+  "mentions": [
+    "A011784",
+    "A181819",
+    "A182857",
+    "A225486",
+    "A323014",
+    "A323023",
+    "A325238",
+    "A325254",
+    "A325258",
+    "A325277",
+    "A325278",
+    "A325280",
+    "A325282",
+    "A325283"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

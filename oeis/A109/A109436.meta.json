@@ -1,0 +1,22 @@
+{
+  "description": "Triangle of numbers: row n gives the elements along the subdiagonal of A109435 that connects 2^n with (n+2)*2^(n-1).",
+  "id": "A109436",
+  "mentions": [
+    "A001792",
+    "A084851",
+    "A109434",
+    "A109435"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

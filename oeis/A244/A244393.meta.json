@@ -1,0 +1,17 @@
+{
+  "description": "Number of partitions of n the largest part of which, call it m, appears once, m-1 appears at most twice, m-2 appears at most thrice, etc.",
+  "id": "A244393",
+  "mentions": [
+    "A244395"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

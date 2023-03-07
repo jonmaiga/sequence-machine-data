@@ -1,0 +1,23 @@
+{
+  "description": "Reflection of triangle in A008280 in vertical axis.",
+  "id": "A108040",
+  "mentions": [
+    "A005437",
+    "A005438",
+    "A008280",
+    "A008281"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

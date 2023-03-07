@@ -1,0 +1,22 @@
+{
+  "description": "Partial sums of f(n) = (-1)^(1-A304109(n)).",
+  "id": "A304111",
+  "mentions": [
+    "A304010",
+    "A304107",
+    "A304108",
+    "A304109",
+    "A304110"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Heinz numbers of integer partitions with edge-connectivity 1.",
+  "id": "A322394",
+  "mentions": [
+    "A007718",
+    "A013922",
+    "A054921",
+    "A056239",
+    "A095983",
+    "A112798",
+    "A218970",
+    "A304716",
+    "A305078",
+    "A305079",
+    "A322336",
+    "A322391",
+    "A322393"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

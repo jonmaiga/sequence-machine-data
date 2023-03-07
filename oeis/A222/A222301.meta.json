@@ -1,0 +1,18 @@
+{
+  "description": "Number of points in n-th shell of mcc lattice.",
+  "id": "A222301",
+  "mentions": [
+    "A222302",
+    "A222303"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

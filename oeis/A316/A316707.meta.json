@@ -1,0 +1,20 @@
+{
+  "description": "For any n >= 0 with base-5 expansion Sum_{k=0..w} d_k * 5^k, let f(n) = Sum_{k=0..w} [d_k > 0] * (2 + i)^k * i^(d_k - 1) (where [] is an Iverson bracket and i denotes the imaginary unit); a(n) equals the square of the modulus of f(n).",
+  "id": "A316707",
+  "mentions": [
+    "A316657",
+    "A316658"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:35",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

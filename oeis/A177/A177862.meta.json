@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle read by rows in which row n (n>=0) is a list of the numbers of different regions into which n lines can divide the plane.",
+  "id": "A177862",
+  "mentions": [
+    "A000124",
+    "A055503",
+    "A241600",
+    "A263883"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Primes of the form 3^k + 3^m - 1, where k and m are positive integers.",
+  "id": "A234346",
+  "mentions": [
+    "A000040",
+    "A000079",
+    "A000244",
+    "A234309",
+    "A234310",
+    "A234337",
+    "A234344",
+    "A234347"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

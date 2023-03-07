@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{d|n} (pod(d)/d), where pod(k) is the product of the divisors of k (A007955).",
+  "id": "A322671",
+  "mentions": [
+    "A006881",
+    "A007955",
+    "A322672"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

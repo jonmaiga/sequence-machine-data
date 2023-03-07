@@ -1,0 +1,19 @@
+{
+  "description": "Primes abs(A337145(k))/8 for k in A337146.",
+  "id": "A337147",
+  "mentions": [
+    "A336738",
+    "A337145",
+    "A337146"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

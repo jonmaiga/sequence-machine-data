@@ -1,0 +1,21 @@
+{
+  "description": "Positive integers n such that n^2 is the sum of two or more consecutive integer squares.",
+  "id": "A182379",
+  "mentions": [
+    "A062861",
+    "A212015",
+    "A212016",
+    "A212017",
+    "A212018"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

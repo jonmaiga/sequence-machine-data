@@ -1,0 +1,25 @@
+{
+  "description": "Minimum positive integer solution x of equation n=x*(x+1)/(t*(t+1)); that is, ratio of product of two consecutive integers divided by product of two consecutive integers. Here n is a nonsquare integer (see A000037).",
+  "id": "A166477",
+  "mentions": [
+    "A000037",
+    "A001571",
+    "A001652",
+    "A077262",
+    "A077291",
+    "A077401",
+    "A166478",
+    "A336625",
+    "A341895"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 2,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Fourth right hand column of the EG1 triangle A162005",
+  "id": "A162009",
+  "mentions": [
+    "A004004",
+    "A162005",
+    "A162008",
+    "A162010",
+    "A162011",
+    "A162014"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:19:45",
+    "offset": 1,
+    "size": 13,
+    "source": "joeis"
+  }
+}

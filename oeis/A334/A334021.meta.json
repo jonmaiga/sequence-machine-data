@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that s(k) = s(k+1) = s(k+2), where s(k) is the sum of unitary divisors of k that are smaller than sqrt(k) (A334019).",
+  "id": "A334021",
+  "mentions": [
+    "A324310",
+    "A334019",
+    "A334020"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

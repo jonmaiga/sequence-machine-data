@@ -1,0 +1,21 @@
+{
+  "description": "Smallest m such that n = sum of digits of A108971(m).",
+  "id": "A179988",
+  "mentions": [
+    "A007953",
+    "A051885",
+    "A108971",
+    "A179987"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

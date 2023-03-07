@@ -1,0 +1,22 @@
+{
+  "description": "Number of length 8 primitive (=aperiodic or period 8) n-ary words.",
+  "id": "A218131",
+  "mentions": [
+    "A013662",
+    "A090986",
+    "A143324",
+    "A267315"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 18:21:43",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Zuckerman numbers which when divided by product of their digits, give a quotient which is also a Zuckerman number.",
+  "id": "A343681",
+  "mentions": [
+    "A002275",
+    "A007602",
+    "A235507",
+    "A288069",
+    "A343680",
+    "A343682"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

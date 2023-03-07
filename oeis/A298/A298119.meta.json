@@ -1,0 +1,23 @@
+{
+  "description": "Array read by antidiagonals: T(m,n) = number of Eulerian orientations of the torus grid graph C_m X C_n.",
+  "id": "A298119",
+  "mentions": [
+    "A054759",
+    "A099754",
+    "A170938",
+    "A212801",
+    "A298117",
+    "A298201"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:19",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

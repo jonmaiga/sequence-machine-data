@@ -1,0 +1,23 @@
+{
+  "description": "Number of points in a hexagonal lattice covered by a circular disk of diameter n if the center of the circle is chosen such that the disk covers the maximum possible number of lattice points.",
+  "id": "A125852",
+  "mentions": [
+    "A053416",
+    "A053417",
+    "A053479",
+    "A122226",
+    "A123690",
+    "A125851",
+    "A127406"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:14",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

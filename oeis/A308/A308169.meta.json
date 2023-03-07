@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that A023896(k) mod A000203(k) is prime.",
+  "id": "A308169",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A023896",
+    "A092109",
+    "A112774"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

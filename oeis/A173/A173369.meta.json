@@ -1,0 +1,22 @@
+{
+  "description": "Numbers x such that 0 < |x^8 - y^7| < x^(41/7) for some number y.",
+  "id": "A173369",
+  "mentions": [
+    "A078933",
+    "A116884",
+    "A173348",
+    "A173379"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

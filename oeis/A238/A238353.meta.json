@@ -1,0 +1,32 @@
+{
+  "description": "Triangle T(n,k) read by rows: T(n,k) is the number of partitions of n (as weakly ascending list of parts) with maximal ascent k, n >= 0, 0 <= k <= n.",
+  "id": "A238353",
+  "mentions": [
+    "A000005",
+    "A000041",
+    "A002865",
+    "A034296",
+    "A224956",
+    "A237665",
+    "A238354",
+    "A238863",
+    "A238864",
+    "A238865",
+    "A238866",
+    "A238867",
+    "A238868",
+    "A238869"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

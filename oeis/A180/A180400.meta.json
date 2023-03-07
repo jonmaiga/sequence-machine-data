@@ -1,0 +1,19 @@
+{
+  "description": "Coefficients of Maclaurin series for (1-9x-9x^2)^(-1/3).",
+  "id": "A180400",
+  "mentions": [
+    "A180399"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

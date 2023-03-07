@@ -1,0 +1,21 @@
+{
+  "description": "Irregular table read by rows: n-sect the angles of a heptagon. Then T(n,k) = number of k-sided polygons in that figure for k >= 3.",
+  "id": "A335760",
+  "mentions": [
+    "A329714",
+    "A335757",
+    "A335758",
+    "A335759"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

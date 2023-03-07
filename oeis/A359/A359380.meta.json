@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that are neither multiples of 3 nor of the form 4u+2.",
+  "id": "A359380",
+  "mentions": [
+    "A187074",
+    "A359375"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

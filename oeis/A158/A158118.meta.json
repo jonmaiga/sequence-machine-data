@@ -1,0 +1,21 @@
+{
+  "description": "Number of solutions of +-1+-2^3+-3^3..+-n^3=0.",
+  "id": "A158118",
+  "mentions": [
+    "A019568",
+    "A063865",
+    "A113263",
+    "A158092"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

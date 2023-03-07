@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the number of partitions of 1729, the second taxicab number, also called the Hardy-Ramanujan number.",
+  "id": "A135041",
+  "mentions": [
+    "A000041"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "cons",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:56:17",
+    "offset": 43,
+    "size": 43,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Maximal diameter of the connected cubic graphs on 2*n vertices.",
+  "id": "A294732",
+  "mentions": [
+    "A002851",
+    "A007494",
+    "A045506",
+    "A114119",
+    "A204329",
+    "A267528",
+    "A296525"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:30:21",
+    "offset": 2,
+    "size": 67,
+    "source": "joeis"
+  }
+}

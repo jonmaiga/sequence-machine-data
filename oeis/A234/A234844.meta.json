@@ -1,0 +1,21 @@
+{
+  "description": "Number of inverse monoids of order n.",
+  "id": "A234844",
+  "mentions": [
+    "A001428",
+    "A234843",
+    "A234845"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

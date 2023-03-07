@@ -1,0 +1,22 @@
+{
+  "description": "Consider the number of divisors tau(k) of every composite k between prime p >= 3 and the next prime; if the largest tau(k) is a square, then p is in the sequence.",
+  "id": "A353285",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A000290",
+    "A353284",
+    "A353286"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

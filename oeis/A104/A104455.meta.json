@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of e.g.f. exp(5*x)*(BesselI(0,2*x) - BesselI(1,2*x)).",
+  "id": "A104455",
+  "mentions": [
+    "A000012",
+    "A000108",
+    "A007317",
+    "A030528",
+    "A064613",
+    "A091867",
+    "A125145"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

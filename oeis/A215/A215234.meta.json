@@ -1,0 +1,18 @@
+{
+  "description": "Next prime of the form 4m^2 + 1 larger than A215233(n).",
+  "id": "A215234",
+  "mentions": [
+    "A215233"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "A maximum absolute value of A165482 in range [A165483(n),A165483(n+1)].",
+  "id": "A165485",
+  "mentions": [
+    "A165482",
+    "A165483",
+    "A165484"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:48",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

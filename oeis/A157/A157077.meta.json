@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows, coefficients of the Legendre polynomials P(n, x) times 2^n: T(n, k) = 2^n * [x^k] P(n, x), n >= 0, 0 <= k <= n.",
+  "id": "A157077",
+  "mentions": [
+    "A000079",
+    "A000984",
+    "A005430",
+    "A069835",
+    "A084773",
+    "A098269",
+    "A098270",
+    "A100258",
+    "A126869"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

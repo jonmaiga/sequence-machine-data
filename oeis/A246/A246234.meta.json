@@ -1,0 +1,17 @@
+{
+  "description": "Number of compositions of n into exactly seven different parts with distinct multiplicities.",
+  "id": "A246234",
+  "mentions": [
+    "A242896"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 84,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

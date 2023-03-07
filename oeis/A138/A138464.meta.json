@@ -1,0 +1,38 @@
+{
+  "description": "Triangle read by rows: T(n, k) is the number of forests on n labeled nodes with k edges. T(n, k) for n >= 1 and 0 <= k <= n-1.",
+  "id": "A138464",
+  "mentions": [
+    "A000272",
+    "A001858",
+    "A003471",
+    "A083483",
+    "A088956",
+    "A105599",
+    "A136605",
+    "A239910",
+    "A240681",
+    "A240682",
+    "A240683",
+    "A240684",
+    "A240685",
+    "A240686",
+    "A240687",
+    "A302112",
+    "A343805",
+    "A343806",
+    "A343807"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

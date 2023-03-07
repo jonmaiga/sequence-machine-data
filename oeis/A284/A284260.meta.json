@@ -1,0 +1,28 @@
+{
+  "description": "Greatest prime dividing n which is less than A020639(n)^2, where A020639(n) is the smallest prime dividing n, a(1) = 1.",
+  "id": "A284260",
+  "mentions": [
+    "A006530",
+    "A020639",
+    "A251726",
+    "A284252",
+    "A284253",
+    "A284254",
+    "A284255",
+    "A284256",
+    "A284257",
+    "A284258",
+    "A284259"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 109,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of new prime distinct divisors of n^2+1 not already present in m^2+1 for all m < n.",
+  "id": "A249066",
+  "mentions": [
+    "A002313",
+    "A002522",
+    "A005574"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

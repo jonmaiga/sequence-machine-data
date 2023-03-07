@@ -1,0 +1,28 @@
+{
+  "description": "Numbers of the form 68+p^2 (where p is a prime).",
+  "id": "A138691",
+  "mentions": [
+    "A007528",
+    "A138479",
+    "A138685",
+    "A138686",
+    "A138692",
+    "A138693",
+    "A138694",
+    "A138696",
+    "A138697",
+    "A138698",
+    "A138699",
+    "A138700"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

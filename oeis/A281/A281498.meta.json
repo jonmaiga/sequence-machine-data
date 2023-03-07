@@ -1,0 +1,20 @@
+{
+  "description": "Least k >= 0 such that 2^k * n! is not a refactorable number.",
+  "id": "A281498",
+  "mentions": [
+    "A000040",
+    "A011371",
+    "A033950",
+    "A281291"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:50",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

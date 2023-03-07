@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = RisingFactorial(2*n, n) = A124320(2*n, n).",
+  "id": "A352601",
+  "mentions": [
+    "A124320"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

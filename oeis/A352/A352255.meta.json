@@ -1,0 +1,17 @@
+{
+  "description": "Write down the prime numbers 2,3,5,... and write below each one the preceding nonprimes greater than the previous prime, in decreasing order. Sums of the antidiagonals give the terms of the sequence.",
+  "id": "A352255",
+  "mentions": [
+    "A102370"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

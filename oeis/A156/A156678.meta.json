@@ -1,0 +1,26 @@
+{
+  "description": "Consider primitive Pythagorean triangles (A^2 + B^2 = C^2, gcd (A, B) = 1, A < B",
+  "id": "A156678",
+  "mentions": [
+    "A020883",
+    "A020884",
+    "A024354",
+    "A037213",
+    "A042965",
+    "A156679",
+    "A156680",
+    "A156681"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

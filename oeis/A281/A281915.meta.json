@@ -1,0 +1,29 @@
+{
+  "description": "4th power analog of Keith numbers.",
+  "id": "A281915",
+  "mentions": [
+    "A007629",
+    "A055575",
+    "A246544",
+    "A263534",
+    "A274769",
+    "A274770",
+    "A281916",
+    "A281917",
+    "A281918",
+    "A281919",
+    "A281920",
+    "A281921"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

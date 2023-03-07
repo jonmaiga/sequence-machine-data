@@ -1,0 +1,17 @@
+{
+  "description": "Number of binary words w of length n such that the number of distinct blocks of length k that w contains is <= k+2 for all k.",
+  "id": "A297526",
+  "mentions": [
+    "A260881"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

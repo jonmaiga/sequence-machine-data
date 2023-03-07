@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that pi(p^2) = pi(q^2) + pi(r^2) for some distinct primes q and r.",
+  "id": "A262447",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A000720",
+    "A262408",
+    "A262443"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

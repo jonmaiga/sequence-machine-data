@@ -1,0 +1,18 @@
+{
+  "description": "Forward difference of difference between 2^n and the next smaller power of 3.",
+  "id": "A328334",
+  "mentions": [
+    "A063005"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:57",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

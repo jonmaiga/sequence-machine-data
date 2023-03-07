@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least positive integer not yet in the sequence that shares its largest digit with that of a(n-1); a(1)=1.",
+  "id": "A286890",
+  "mentions": [
+    "A184992"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

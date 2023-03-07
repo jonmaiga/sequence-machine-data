@@ -1,0 +1,19 @@
+{
+  "description": "Increasing partial quotients in the continued fraction expansion of the prime constant (A051006).",
+  "id": "A102878",
+  "mentions": [
+    "A051006",
+    "A051007",
+    "A103518"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Sum of squares of Eulerian numbers in row n of triangle A008292 with a(0)=1.",
+  "id": "A168562",
+  "mentions": [
+    "A008292",
+    "A335545"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:52",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

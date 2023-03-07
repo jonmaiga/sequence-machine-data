@@ -1,0 +1,19 @@
+{
+  "description": "Integer part of the alternating n-th partial sum of the reciprocals of the successive prime gaps.",
+  "id": "A274828",
+  "mentions": [
+    "A001223",
+    "A217538"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

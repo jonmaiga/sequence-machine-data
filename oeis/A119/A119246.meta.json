@@ -1,0 +1,23 @@
+{
+  "description": "Numbers containing in decimal representation their digital root.",
+  "id": "A119246",
+  "mentions": [
+    "A010888",
+    "A031298",
+    "A052018",
+    "A119247",
+    "A138166"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the limit as n tends to infinity of n*s_n, where the s_n are the hexagonal circle-packing rigidity constants.",
+  "id": "A255902",
+  "mentions": [
+    "A073005",
+    "A073006"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

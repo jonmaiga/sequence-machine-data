@@ -1,0 +1,21 @@
+{
+  "description": "Nonnegative solutions of the Pell equation x^2 - 101*y^2 = +1. Solutions x = a(n).",
+  "id": "A227152",
+  "mentions": [
+    "A049310",
+    "A053120",
+    "A097740"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:41:00",
+    "offset": 0,
+    "size": 12,
+    "source": "joeis"
+  }
+}

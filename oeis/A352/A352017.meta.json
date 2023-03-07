@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers such that a(n) written on top of a(n+1) which in turn is written on top of a(n+2) form a correct 3-integer brick (see the Comments and Example sections for an explanation).",
+  "id": "A352017",
+  "mentions": [
+    "A352016"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

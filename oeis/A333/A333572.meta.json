@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of Gaussian integers z with 0 < |z| <= n/2.",
+  "id": "A333572",
+  "mentions": [
+    "A004018",
+    "A232705",
+    "A333462",
+    "A333573"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:04",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

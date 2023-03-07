@@ -1,0 +1,26 @@
+{
+  "description": "Theta series of the 42-dimensional lattice of hyper-roots A_5(SU(3)).",
+  "id": "A287944",
+  "mentions": [
+    "A008434",
+    "A287329",
+    "A288488",
+    "A288489",
+    "A288776",
+    "A288779",
+    "A288909",
+    "A290654",
+    "A290655"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

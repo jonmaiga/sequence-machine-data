@@ -1,0 +1,18 @@
+{
+  "description": "Number of numbers whose American English name has no letter in common with that of n.",
+  "id": "A227857",
+  "mentions": [
+    "A052360"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = A127219(n)/2.",
+  "id": "A163098",
+  "mentions": [
+    "A000041",
+    "A127219",
+    "A154798",
+    "A163288"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

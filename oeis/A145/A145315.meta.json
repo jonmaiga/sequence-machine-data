@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k for which the set {30*k-13, 30*k-11, 30*k-7, 30*k-1, 30*k+1, 30*k+7, 30*k+11, 30*k+13} forms a symmetrical prime octuplet.",
+  "id": "A145315",
+  "mentions": [
+    "A022012"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

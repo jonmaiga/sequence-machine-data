@@ -1,0 +1,18 @@
+{
+  "description": "Prime differences between 2^n and 3^m when they are nearly equal for n and m to 200.",
+  "id": "A102873",
+  "mentions": [
+    "A102872"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "description": "Descending dungeons: see Comments lines for definition.",
+  "id": "A121263",
+  "mentions": [
+    "A049384",
+    "A121264",
+    "A121265",
+    "A121266",
+    "A121295",
+    "A121296",
+    "A121802",
+    "A121863",
+    "A121864",
+    "A122618",
+    "A122734",
+    "A124075",
+    "A127744",
+    "A128916",
+    "A130287",
+    "A131011",
+    "A131012"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 10,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

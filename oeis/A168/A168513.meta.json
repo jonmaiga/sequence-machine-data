@@ -1,0 +1,21 @@
+{
+  "description": "Number of 2n-digit primes that are concatenation of n two-digit distinct primes p_1...p_n, 98>p_1>p_2>...>p_n>10.",
+  "id": "A168513",
+  "mentions": [
+    "A168499",
+    "A168500"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numerator of Sum_{i=2..n} ((-1)^i/(i phi(i))).",
+  "id": "A101992",
+  "mentions": [
+    "A000010",
+    "A002618",
+    "A065484"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:53",
+    "offset": 2,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

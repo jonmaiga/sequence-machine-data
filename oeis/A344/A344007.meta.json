@@ -1,0 +1,20 @@
+{
+  "description": "Denominators of triangle formed by beginning with 1 on row 1, then producing row n by replacing the largest value on row n-1, k, by 1/n and k - 1/n, and arranging the entries in order from smallest to largest.",
+  "id": "A344007",
+  "mentions": [
+    "A003506",
+    "A344008"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

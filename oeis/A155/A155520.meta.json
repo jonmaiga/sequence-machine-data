@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: A(n,k) is the number of ordered trees with n edges having k drawings. A drawing of an ordered tree T with n edges is a sequence of trees (T_0, T_1, T_2, ..., T_n), such that T_n = T and T_{i-1} arises from T_i by deleting a leaf of T_i.",
+  "id": "A155520",
+  "mentions": [
+    "A000108",
+    "A014307"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

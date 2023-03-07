@@ -1,0 +1,32 @@
+{
+  "description": "Acute-angled numbers with an internal digit as the vertex.",
+  "id": "A135601",
+  "mentions": [
+    "A004086",
+    "A061601",
+    "A134810",
+    "A134853",
+    "A134941",
+    "A134970",
+    "A135600",
+    "A135602",
+    "A135603",
+    "A135641",
+    "A135642",
+    "A135643"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

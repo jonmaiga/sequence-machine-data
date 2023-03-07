@@ -1,0 +1,18 @@
+{
+  "description": "Primes which oscillate from prime to composite under a cyclic shift of digits.",
+  "id": "A305835",
+  "mentions": [
+    "A286415"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

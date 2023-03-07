@@ -1,0 +1,39 @@
+{
+  "description": "Number of \"ON\" cells at n-th stage in simple 2-dimensional cellular automaton (same as A160410, but a(1) = 1, not 4).",
+  "id": "A160414",
+  "mentions": [
+    "A000079",
+    "A000225",
+    "A000695",
+    "A001235",
+    "A011541",
+    "A011782",
+    "A048883",
+    "A060867",
+    "A139250",
+    "A147562",
+    "A151725",
+    "A160117",
+    "A160118",
+    "A160410",
+    "A160412",
+    "A160720",
+    "A160727",
+    "A161415",
+    "A219954",
+    "A256530",
+    "A256534"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

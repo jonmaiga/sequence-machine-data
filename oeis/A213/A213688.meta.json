@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{i=0..n} A000129(i)^3.",
+  "id": "A213688",
+  "mentions": [
+    "A000129",
+    "A048739",
+    "A084158",
+    "A110272"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of iterations of the \"Oware\" operation until the initial position n is reproduced.",
+  "id": "A216476",
+  "mentions": [
+    "A216502",
+    "A306564"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

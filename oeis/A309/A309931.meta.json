@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of compositions of n with k parts and circular differences all equal to 1, 0, or -1.",
+  "id": "A309931",
+  "mentions": [
+    "A309937",
+    "A309938",
+    "A309939",
+    "A325591"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

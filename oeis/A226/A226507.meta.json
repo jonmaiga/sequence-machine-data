@@ -1,0 +1,19 @@
+{
+  "description": "4*B(n+4) - (4*n+15)*B(n+3) + (n^2+8*n+9)*B(n+2) - (4*n+3)*B(n+1) + n*B(n), where B(i) are the Bell numbers A000110.",
+  "id": "A226507",
+  "mentions": [
+    "A000110",
+    "A200580"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

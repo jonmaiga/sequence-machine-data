@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = number of grid points that are covered after n-th stage of A139250, assuming the toothpicks have length 2.",
+  "id": "A147614",
+  "mentions": [
+    "A000695",
+    "A139250",
+    "A139251",
+    "A139252",
+    "A160124",
+    "A160125",
+    "A160420",
+    "A160422",
+    "A170884",
+    "A187220"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

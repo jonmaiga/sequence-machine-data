@@ -1,0 +1,21 @@
+{
+  "description": "Number of 6-cycles in the n-tetrahedral graph.",
+  "id": "A289794",
+  "mentions": [
+    "A027789",
+    "A289792",
+    "A289793"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:48:35",
+    "offset": 1,
+    "size": 27,
+    "source": "joeis"
+  }
+}

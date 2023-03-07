@@ -1,0 +1,21 @@
+{
+  "description": "Semiprimes (A001358) whose digit reversal is prime.",
+  "id": "A115670",
+  "mentions": [
+    "A001358",
+    "A083815",
+    "A085778",
+    "A097393"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

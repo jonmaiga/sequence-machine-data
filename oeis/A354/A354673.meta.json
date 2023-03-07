@@ -1,0 +1,23 @@
+{
+  "description": "Smallest number of unit cells that must be removed from an n X n square board in order to avoid any cycles.",
+  "id": "A354673",
+  "mentions": [
+    "A000170",
+    "A085577",
+    "A104519",
+    "A239072",
+    "A239231"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:45",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

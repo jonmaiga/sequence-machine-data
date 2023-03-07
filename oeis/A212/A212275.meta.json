@@ -1,0 +1,18 @@
+{
+  "description": "Least k such that 4*n*k+1 is a prime of the form m^2+1, or 0 if no such k exists.",
+  "id": "A212275",
+  "mentions": [
+    "A002496"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

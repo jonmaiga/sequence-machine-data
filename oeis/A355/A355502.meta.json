@@ -1,0 +1,18 @@
+{
+  "description": "Inequivalent simultaneous colorings of the faces, vertices and edges of the cube under rotational symmetry using exactly n colors.",
+  "id": "A355502",
+  "mentions": [
+    "A356685"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

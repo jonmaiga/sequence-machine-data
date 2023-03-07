@@ -1,0 +1,17 @@
+{
+  "description": "Primitive solutions c to Diophantine equation a^2 + b^3 = c^5, with a, b, c > 0.",
+  "id": "A227029",
+  "mentions": [
+    "A178130"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

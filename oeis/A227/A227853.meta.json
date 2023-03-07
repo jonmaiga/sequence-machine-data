@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that 4620*k - 1 is a safe prime (A005385).",
+  "id": "A227853",
+  "mentions": [
+    "A005385",
+    "A230032"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

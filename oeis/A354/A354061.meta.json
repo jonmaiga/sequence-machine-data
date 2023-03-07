@@ -1,0 +1,23 @@
+{
+  "description": "Irregular table read by rows: T(n,k) is the number of degree-k primitive Dirichlet characters modulo n, 1 <= k <= psi(n), psi = A002322.",
+  "id": "A354061",
+  "mentions": [
+    "A002322",
+    "A007431",
+    "A354058",
+    "A354060",
+    "A354257"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

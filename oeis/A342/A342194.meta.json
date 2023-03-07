@@ -1,0 +1,42 @@
+{
+  "description": "Number of strict compositions of n with equal differences, or strict arithmetic progressions summing to n.",
+  "id": "A342194",
+  "mentions": [
+    "A000005",
+    "A000009",
+    "A000203",
+    "A000726",
+    "A001522",
+    "A002843",
+    "A003242",
+    "A032020",
+    "A049980",
+    "A049982",
+    "A049988",
+    "A062968",
+    "A070211",
+    "A114921",
+    "A175342",
+    "A224958",
+    "A325325",
+    "A325545",
+    "A325557",
+    "A342343",
+    "A342495",
+    "A342496",
+    "A342515",
+    "A342522",
+    "A342527"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

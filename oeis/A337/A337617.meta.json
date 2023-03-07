@@ -1,0 +1,21 @@
+{
+  "description": "T(n, k) = (n + 1)*2^(n + k)*hypergeom([-n, k - n + 1], [2], 1/2), triangle read by rows for 0 <= k <= n.",
+  "id": "A337617",
+  "mentions": [
+    "A006516",
+    "A050146",
+    "A171476",
+    "A337992"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

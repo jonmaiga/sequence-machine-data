@@ -1,0 +1,41 @@
+{
+  "description": "Number A(n,k) of n-member subsets of [k*n] whose elements sum to a multiple of k; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A318557",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A018804",
+    "A042963",
+    "A057427",
+    "A119358",
+    "A304482",
+    "A318477",
+    "A318591",
+    "A318592",
+    "A318593",
+    "A318594",
+    "A318595",
+    "A318596",
+    "A318597",
+    "A318598",
+    "A318624",
+    "A318625",
+    "A318626",
+    "A318627",
+    "A318628",
+    "A318629",
+    "A318630",
+    "A318631"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:39",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

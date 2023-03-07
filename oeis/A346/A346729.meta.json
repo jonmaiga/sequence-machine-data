@@ -1,0 +1,20 @@
+{
+  "description": "Maximum number of divisors among n-bit numbers.",
+  "id": "A346729",
+  "mentions": [
+    "A000005",
+    "A002183",
+    "A036484",
+    "A346730"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

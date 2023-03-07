@@ -1,0 +1,18 @@
+{
+  "description": "The sum of all terms in row 1 through m of triangle A159924.",
+  "id": "A159926",
+  "mentions": [
+    "A159924",
+    "A159925"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

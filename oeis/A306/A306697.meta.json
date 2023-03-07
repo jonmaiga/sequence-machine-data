@@ -1,0 +1,36 @@
+{
+  "description": "Square array T(n, k) read by antidiagonals, n > 0 and k > 0: T(n, k) is obtained by applying a Minkowski sum to sets related to the Fermi-Dirac factorizations of n and of k (see Comments for precise definition).",
+  "id": "A306697",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A001221",
+    "A003961",
+    "A003991",
+    "A019565",
+    "A045966",
+    "A045968",
+    "A045970",
+    "A050376",
+    "A059896",
+    "A059897",
+    "A064547",
+    "A067138",
+    "A225546",
+    "A297845",
+    "A329050",
+    "A329329"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

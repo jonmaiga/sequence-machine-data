@@ -1,0 +1,21 @@
+{
+  "description": "Subsequence of A083359 (Visual Factor Numbers) of the form (10^m+1)*p, where the decimal representation of prime p contains all the prime factors of 10^m+1.",
+  "id": "A324261",
+  "mentions": [
+    "A020338",
+    "A083359",
+    "A324257",
+    "A324262"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

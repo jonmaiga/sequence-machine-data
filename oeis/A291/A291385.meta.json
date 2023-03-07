@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (1/4)*A073388(n+1).",
+  "id": "A291385",
+  "mentions": [
+    "A019590",
+    "A073388",
+    "A155112",
+    "A291382"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

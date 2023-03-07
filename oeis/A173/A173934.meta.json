@@ -1,0 +1,24 @@
+{
+  "description": "Irregular triangle in which row n consists of numbers m < k/2 such that m/k is in the Cantor set, where k= A173931(n) and gcd(m,k) = 1.",
+  "id": "A173934",
+  "mentions": [
+    "A005836",
+    "A007734",
+    "A054591",
+    "A173931",
+    "A173933",
+    "A191106",
+    "A306556"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Coordination sequence for Wilkinson's 123-circle packing with respect to a circle of radius 3.",
+  "id": "A348231",
+  "mentions": [
+    "A348227",
+    "A348239"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:29",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

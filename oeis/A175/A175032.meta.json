@@ -1,0 +1,43 @@
+{
+  "description": "a(n) is the difference between the n-th triangular number and the next perfect square.",
+  "id": "A175032",
+  "mentions": [
+    "A000217",
+    "A001108",
+    "A001109",
+    "A006451",
+    "A080819",
+    "A154138",
+    "A154139",
+    "A154140",
+    "A154141",
+    "A154142",
+    "A154143",
+    "A154144",
+    "A154145",
+    "A154146",
+    "A154147",
+    "A154148",
+    "A154149",
+    "A154150",
+    "A154151",
+    "A154153",
+    "A154154",
+    "A175034",
+    "A175035",
+    "A214858"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

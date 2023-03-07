@@ -1,0 +1,26 @@
+{
+  "description": "Square array T(n,k) = [x^n] ((1+x)^(k+1) / (1-x)^(k-1))^n, n>=0, k>=0, read by descending antidiagonals.",
+  "id": "A330843",
+  "mentions": [
+    "A000984",
+    "A001448",
+    "A091527",
+    "A211419",
+    "A211421",
+    "A262732",
+    "A262733",
+    "A332231"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "First row of infinite array A(j,k): A(j,1) = j-1; A(1,k) = A(2,k-1); for j, k > 1, A(j,k) = A(j-1,k) - A(j+1,k-1) if that number is positive and not already in column k, A(j,k) = A(j-1,k) + A(j+1,k-1) otherwise.",
+  "id": "A140985",
+  "mentions": [
+    "A005132"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:29",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

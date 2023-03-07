@@ -1,0 +1,32 @@
+{
+  "description": "Triangular array t read by rows: t(0,k) is p(k), the number of partitions of the k-multiset {0,0,...,0} with k zeros. For 0 <= n < k, t(n, k) is the number of partitions of the k-multiset {0, 0, ..., 0, 1, 2, 3, ..., k-n} with n zeros.",
+  "id": "A126442",
+  "mentions": [
+    "A000041",
+    "A000070",
+    "A000110",
+    "A000291",
+    "A000412",
+    "A002763",
+    "A035098",
+    "A035310",
+    "A054225",
+    "A082775",
+    "A093802",
+    "A096443",
+    "A126441",
+    "A129306",
+    "A249620"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Array read by ascending antidiagonals: A(n, s) is the n-th s-Catalan number.",
+  "id": "A349934",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000108",
+    "A006003",
+    "A007318",
+    "A008287",
+    "A027907",
+    "A035343",
+    "A063260",
+    "A099251",
+    "A220892",
+    "A264607",
+    "A349933"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

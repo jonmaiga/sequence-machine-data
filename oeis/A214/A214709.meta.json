@@ -1,0 +1,19 @@
+{
+  "description": "Least m>0 such that n!-m and 2^n-m are relatively prime.",
+  "id": "A214709",
+  "mentions": [
+    "A214074",
+    "A214707"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:48",
+    "offset": 1,
+    "size": 99,
+    "source": "joeis"
+  }
+}

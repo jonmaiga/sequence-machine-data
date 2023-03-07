@@ -1,0 +1,20 @@
+{
+  "description": "Denominators of coefficients of z^n/n! for the expansion of Fricke's hypergeometric function F_1(1/2,1/2;z).",
+  "id": "A274654",
+  "mentions": [
+    "A274653"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

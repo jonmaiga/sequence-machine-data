@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that k and phi(k) share the same prime signature.",
+  "id": "A300216",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A046523",
+    "A244733",
+    "A280927"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:24",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

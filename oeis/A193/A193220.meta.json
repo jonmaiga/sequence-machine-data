@@ -1,0 +1,21 @@
+{
+  "description": "Denominators of the fourth row of Akiyama-Tanigawa algorithm leading to Bernoulli numbers A164555(n)/A027642(n).",
+  "id": "A193220",
+  "mentions": [
+    "A027642",
+    "A051714",
+    "A164555",
+    "A194531"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

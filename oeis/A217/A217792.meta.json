@@ -1,0 +1,18 @@
+{
+  "description": "Primes which are equal to the sum of the binary digits of consecutive primes starting with 2.",
+  "id": "A217792",
+  "mentions": [
+    "A168161"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Array defined in A064643 read in direction in which it was created.",
+  "id": "A107783",
+  "mentions": [
+    "A064642",
+    "A064643",
+    "A064644"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

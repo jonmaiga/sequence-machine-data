@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = B(n+3) - 6*B(n+2) + 8*B(n+1)*B(n+1) - B(n), where the B(i) are Bell numbers (A000110).",
+  "id": "A225591",
+  "mentions": [
+    "A000110",
+    "A005493",
+    "A226506"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

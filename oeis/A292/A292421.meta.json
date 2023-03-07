@@ -1,0 +1,18 @@
+{
+  "description": "Square array T(n,k) = number of tiles crossed by the line segment (0,0) -- (n,k) in a running bond pattern tiling with square tiles, read by antidiagonals.",
+  "id": "A292421",
+  "mentions": [
+    "A074712"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

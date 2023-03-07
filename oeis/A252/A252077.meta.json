@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that the hexagonal number X(n) is equal to the sum of the heptagonal number H(m) and H(m+1) for some m.",
+  "id": "A252077",
+  "mentions": [
+    "A000384",
+    "A000566",
+    "A252076"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:09",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

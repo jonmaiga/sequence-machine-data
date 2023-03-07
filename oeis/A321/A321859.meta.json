@@ -1,0 +1,33 @@
+{
+  "description": "Number of primes congruent to 3, 5, 6 modulo 7 and <= n minus number of primes congruent to 1, 2, 4 modulo 7 and <= n.",
+  "id": "A321859",
+  "mentions": [
+    "A038698",
+    "A066520",
+    "A071838",
+    "A112632",
+    "A175629",
+    "A320857",
+    "A320858",
+    "A321856",
+    "A321857",
+    "A321858",
+    "A321860",
+    "A321861",
+    "A321862",
+    "A321863",
+    "A321864",
+    "A321865"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

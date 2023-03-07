@@ -1,0 +1,28 @@
+{
+  "description": "Triangle by rows, derived from the beheaded Pascal's triangle, A074909.",
+  "id": "A210381",
+  "mentions": [
+    "A026749",
+    "A027641",
+    "A027642",
+    "A027649",
+    "A027650",
+    "A047859",
+    "A074909",
+    "A084938",
+    "A099594",
+    "A255463"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:16:25",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Number T(n,k) of k-element subsets of [n] having a prime element sum; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A282516",
+  "mentions": [
+    "A000004",
+    "A000720",
+    "A071917",
+    "A127542",
+    "A185012",
+    "A282517",
+    "A282518",
+    "A320678",
+    "A320679",
+    "A320680",
+    "A320681",
+    "A320682",
+    "A320683",
+    "A320684",
+    "A320685"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

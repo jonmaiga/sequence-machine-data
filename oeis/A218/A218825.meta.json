@@ -1,0 +1,23 @@
+{
+  "description": "Number of ways to write 2n-1 as p+2q with p, q and p^2+60q^2 all prime.",
+  "id": "A218825",
+  "mentions": [
+    "A000040",
+    "A046927",
+    "A218585",
+    "A218654",
+    "A218656",
+    "A218754",
+    "A218797"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:36",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

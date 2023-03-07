@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that sum of odd divisors of k equals sum of squares of primes dividing k.",
+  "id": "A252424",
+  "mentions": [
+    "A000593",
+    "A005063"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:10",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

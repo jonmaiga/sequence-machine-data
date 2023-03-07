@@ -1,0 +1,17 @@
+{
+  "description": "Number of iterations of the map n -> f(f(f(...f(n)...))) to reach the end of the cycle, where f(n) = A006577(n), the initial number n is not counted.",
+  "id": "A213198",
+  "mentions": [
+    "A006577"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

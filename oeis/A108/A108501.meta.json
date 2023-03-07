@@ -1,0 +1,22 @@
+{
+  "description": "Number of factorizations of 4*n into even numbers.",
+  "id": "A108501",
+  "mentions": [
+    "A000041",
+    "A001055",
+    "A006005",
+    "A108502",
+    "A108503"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

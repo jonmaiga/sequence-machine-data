@@ -1,0 +1,21 @@
+{
+  "description": "Alternating triangle (version 3) read by rows: numbers k such that k=6*m+3-+2=r*j , r>=j and n>=q where r=6*n+3-2 or r=6*n+3+2 and j=6*q+3-2 or j=6*q+3+2.",
+  "id": "A174358",
+  "mentions": [
+    "A007310",
+    "A173825",
+    "A173865",
+    "A174027"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

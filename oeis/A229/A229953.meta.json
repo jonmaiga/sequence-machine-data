@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k for which k = sigma(sigma(x)) = sigma(sigma(y)) for some x and y such that k = x + y.",
+  "id": "A229953",
+  "mentions": [
+    "A000203",
+    "A072868",
+    "A159886",
+    "A180164"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

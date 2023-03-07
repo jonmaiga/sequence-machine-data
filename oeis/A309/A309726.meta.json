@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that k^2 - 12 is prime.",
+  "id": "A309726",
+  "mentions": [
+    "A028870",
+    "A028873",
+    "A028876",
+    "A028879",
+    "A028882",
+    "A028885",
+    "A056927",
+    "A090696",
+    "A186815",
+    "A296507"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:12:41",
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

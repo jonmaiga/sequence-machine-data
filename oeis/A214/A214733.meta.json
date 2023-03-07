@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = -a(n-1) - 3*a(n-2) with n>1, a(0)=0, a(1)=1.",
+  "id": "A214733",
+  "mentions": [
+    "A106852",
+    "A110523"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

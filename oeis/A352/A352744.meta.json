@@ -1,0 +1,43 @@
+{
+  "description": "Array read by ascending antidiagonals. Generalized Fibonacci numbers F(n, k) = (psi^k*(phi - n) - phi^k*(psi - n)) / (phi - psi) where phi = (1 + sqrt(5))/2 and psi = (1 - sqrt(5))/2. F(n, k) for n >= 0 and k >= 0.",
+  "id": "A352744",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000032",
+    "A000045",
+    "A000285",
+    "A001477",
+    "A004770",
+    "A005408",
+    "A007502",
+    "A016789",
+    "A016885",
+    "A022095",
+    "A022096",
+    "A022097",
+    "A022098",
+    "A022099",
+    "A066982",
+    "A088209",
+    "A212804",
+    "A352680",
+    "A352682",
+    "A352747",
+    "A353595",
+    "A354265"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

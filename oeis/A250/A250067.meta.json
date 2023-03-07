@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that n = Rev(sigma*(n)), where sigma*(n) is the sum of the anti-divisors of n and Rev(n) is the reverse of n.",
+  "id": "A250067",
+  "mentions": [
+    "A000203",
+    "A066417",
+    "A178029",
+    "A248787"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

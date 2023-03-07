@@ -1,0 +1,22 @@
+{
+  "description": "Regular triangle read by rows where T(n,k) is obtained by partitioning the set of the first n squares into k groups, then summing up each group and taking the minimum width, where the width is the difference between its greatest and its smallest term.",
+  "id": "A306568",
+  "mentions": [
+    "A000110",
+    "A000290",
+    "A005563",
+    "A133872"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 2,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

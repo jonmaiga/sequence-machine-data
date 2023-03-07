@@ -1,0 +1,20 @@
+{
+  "description": "Records for the number of 'Reverse and Add' steps in base 8, needed for a Lychrel number to join the trajectory of a smaller Lychrel number (i.e., its seed). Record setting numbers in A306850.",
+  "id": "A306851",
+  "mentions": [
+    "A306596",
+    "A306850"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

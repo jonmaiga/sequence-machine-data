@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n,k) of elements of n-th Weyl group of type B whose reduced word uses n-k generators.",
+  "id": "A109281",
+  "mentions": [
+    "A003319",
+    "A059438",
+    "A085771",
+    "A109253",
+    "A112226"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n with property that n^2 is a sum of some 120 successive primes.",
+  "id": "A166262",
+  "mentions": [
+    "A166261"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

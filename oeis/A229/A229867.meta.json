@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X n 0..3 arrays with corresponding row and column sums equal",
+  "id": "A229867",
+  "mentions": [
+    "A229870"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of n into at most 1 copy of 1^3, 2 copies of 2^3, 3 copies of 3^3, ... .",
+  "id": "A304021",
+  "mentions": [
+    "A303942",
+    "A304002"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

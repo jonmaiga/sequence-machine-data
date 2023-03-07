@@ -1,0 +1,36 @@
+{
+  "description": "Number of integer partitions that can be obtained by iteratively adding and multiplying together parts of the integer partition with Heinz number n.",
+  "id": "A357858",
+  "mentions": [
+    "A000041",
+    "A000792",
+    "A001055",
+    "A001221",
+    "A001222",
+    "A001970",
+    "A005520",
+    "A048249",
+    "A056239",
+    "A063834",
+    "A066739",
+    "A066815",
+    "A318948",
+    "A319841",
+    "A319850",
+    "A319855",
+    "A319856",
+    "A319909",
+    "A319910",
+    "A319913"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

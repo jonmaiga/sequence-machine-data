@@ -1,0 +1,22 @@
+{
+  "description": "Squares that are divisible by each of their nonzero digits.",
+  "id": "A239213",
+  "mentions": [
+    "A000290",
+    "A002796",
+    "A239210",
+    "A239211",
+    "A239212"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:49",
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

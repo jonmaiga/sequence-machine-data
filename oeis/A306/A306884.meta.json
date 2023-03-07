@@ -1,0 +1,23 @@
+{
+  "description": "Sum over all partitions of n of the power tower evaluation x^y^...^z, where x, y, ..., z are the parts in (weakly) decreasing order.",
+  "id": "A306884",
+  "mentions": [
+    "A006906",
+    "A066186",
+    "A306895",
+    "A306901",
+    "A306902",
+    "A306903",
+    "A306918"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

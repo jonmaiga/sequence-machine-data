@@ -1,0 +1,20 @@
+{
+  "description": "Where A184593, the difference between 5n and A101306(n), becomes a new record in either direction.",
+  "id": "A184594",
+  "mentions": [
+    "A101306",
+    "A184593"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

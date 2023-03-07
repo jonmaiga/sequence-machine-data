@@ -1,0 +1,18 @@
+{
+  "description": "Length of chunks of odd digits, delimited by an even digit, in the concatenation of all terms; smallest such sequence without duplicate terms.",
+  "id": "A230765",
+  "mentions": [
+    "A230764"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

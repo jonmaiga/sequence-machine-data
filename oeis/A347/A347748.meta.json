@@ -1,0 +1,28 @@
+{
+  "description": "Number of positive integers with n digits that are equal both to the product of two integers ending with 4 and to that of two integers ending with 6.",
+  "id": "A347748",
+  "mentions": [
+    "A017341",
+    "A052268",
+    "A324297",
+    "A337856",
+    "A347253",
+    "A347255",
+    "A347746",
+    "A347749"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

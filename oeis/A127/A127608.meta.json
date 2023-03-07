@@ -1,0 +1,19 @@
+{
+  "description": "Sequence arising from the factorization of F(n) = A083102(n-1) and L(n) = A127261. F(0) = 0, F(1) = 1, F(n) = 2*F(n-1)+10*F(n-2), L(0) = 2, L(1) = 2, L(n) = 2*L(n-1)+10*L(n-2).",
+  "id": "A127608",
+  "mentions": [
+    "A083102",
+    "A127261"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

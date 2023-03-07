@@ -1,0 +1,20 @@
+{
+  "description": "The triangle defined in A308178, but read across rows.",
+  "id": "A308179",
+  "mentions": [
+    "A263313",
+    "A308178",
+    "A308180"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

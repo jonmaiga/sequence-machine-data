@@ -1,0 +1,20 @@
+{
+  "description": "The smallest n-digit number where last k digits are divisible by k-th prime for k = 1..n.",
+  "id": "A211403",
+  "mentions": [
+    "A079212"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

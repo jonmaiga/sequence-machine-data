@@ -1,0 +1,25 @@
+{
+  "description": "Numbers up to 10^n with an odd number of prime factors, or negative Liouville function.",
+  "id": "A212819",
+  "mentions": [
+    "A002819",
+    "A008836",
+    "A011557",
+    "A026424",
+    "A055038",
+    "A066829",
+    "A090410",
+    "A212818"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the start of a sequence of exactly n members of A023200 under the iteration p -> 3*p+4.",
+  "id": "A352171",
+  "mentions": [
+    "A023200"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Number of factorizations of n into factors > 1 whose dual is a (strict) antichain.",
+  "id": "A327012",
+  "mentions": [
+    "A001055",
+    "A316978",
+    "A322453",
+    "A326961",
+    "A326965",
+    "A326974",
+    "A326975",
+    "A326976",
+    "A326977",
+    "A326979"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

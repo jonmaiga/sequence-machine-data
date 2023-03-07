@@ -1,0 +1,27 @@
+{
+  "description": "Primes of the form 10k+1 generated recursively. Initial prime is 11. General term is a(n)=Min {p is prime; p divides (R^5 - 1)/(R - 1); Mod[p,5]=1}, where Q is the product of previous terms in the sequence and R = 5Q.",
+  "id": "A124991",
+  "mentions": [
+    "A000945",
+    "A030430",
+    "A051308",
+    "A051335",
+    "A057204",
+    "A057208",
+    "A124984",
+    "A124993",
+    "A125037",
+    "A125045"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

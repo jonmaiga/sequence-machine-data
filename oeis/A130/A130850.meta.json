@@ -1,0 +1,40 @@
+{
+  "description": "Triangle read by rows, 0 <= k <= n, T(n,k) = Sum_{j=0..n} A(n,j)*binomial(n-j,k) where A(n,j) are the Eulerian numbers A173018.",
+  "id": "A130850",
+  "mentions": [
+    "A000142",
+    "A000670",
+    "A001710",
+    "A005460",
+    "A005461",
+    "A005462",
+    "A005463",
+    "A005464",
+    "A007318",
+    "A008278",
+    "A019538",
+    "A028246",
+    "A046802",
+    "A075263",
+    "A084938",
+    "A090582",
+    "A119879",
+    "A123125",
+    "A163626",
+    "A173018",
+    "A248727",
+    "A263634"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:52:42",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

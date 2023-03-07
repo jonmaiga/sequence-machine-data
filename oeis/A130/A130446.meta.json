@@ -1,0 +1,19 @@
+{
+  "description": "Integers in [1, 425] expressible as a difference of the terms of the unique optimal Golomb ruler of order 24. See A130444.",
+  "id": "A130446",
+  "mentions": [
+    "A130444",
+    "A130445"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

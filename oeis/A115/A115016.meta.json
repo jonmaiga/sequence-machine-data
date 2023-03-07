@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the smallest number k that has a shortest addition chain whose length A003313(k) = A003313(n*k), or 0 if this never happens.",
+  "id": "A115016",
+  "mentions": [
+    "A003313",
+    "A086878",
+    "A116459",
+    "A116460",
+    "A116461",
+    "A116462",
+    "A116463",
+    "A117151",
+    "A261986"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Brady numbers: B(n) = B(n - 1) + B(n - 2) with B(1) = 2308 and B(2) = 4261.",
+  "id": "A247698",
+  "mentions": [
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

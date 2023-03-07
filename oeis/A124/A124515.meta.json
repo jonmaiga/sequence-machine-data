@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k for which 2*k-1, 4*k-1, 8*k-1, 16*k-1, 32*k-1, 64*k-1, 128*k-1 and 256*k-1 are primes.",
+  "id": "A124515",
+  "mentions": [
+    "A006254",
+    "A124017",
+    "A124485",
+    "A124493",
+    "A124494",
+    "A124514",
+    "A124516",
+    "A125113"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

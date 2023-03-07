@@ -1,0 +1,18 @@
+{
+  "description": "Record values in A061026, the smallest number m such that n divides phi(m), where phi is Euler's totient function.",
+  "id": "A233517",
+  "mentions": [
+    "A061026",
+    "A233516"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that the polynomial x^2+x+p generates only primes for x=1..11.",
+  "id": "A191458",
+  "mentions": [
+    "A187060",
+    "A190800",
+    "A191456",
+    "A191457"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

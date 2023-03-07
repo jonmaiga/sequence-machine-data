@@ -1,0 +1,26 @@
+{
+  "description": "Faulhaber's triangle: triangle T(k,y) read by rows, giving denominator of the coefficient [m^y] of the polynomial Sum_{x=1..m} x^(k-1).",
+  "id": "A162299",
+  "mentions": [
+    "A000367",
+    "A053382",
+    "A053383",
+    "A162298",
+    "A220862",
+    "A220962",
+    "A220963"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 0,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

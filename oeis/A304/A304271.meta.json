@@ -1,0 +1,19 @@
+{
+  "description": "Number of unrestricted planar Langford sequences.",
+  "id": "A304271",
+  "mentions": [
+    "A014552",
+    "A125762"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

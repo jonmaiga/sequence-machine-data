@@ -1,0 +1,26 @@
+{
+  "description": "The number of zeros in the fundamental Pisano period of the 3-Fibonacci numbers A006190 modulo n.",
+  "id": "A322906",
+  "mentions": [
+    "A001175",
+    "A001176",
+    "A001177",
+    "A006190",
+    "A175181",
+    "A175182",
+    "A214027",
+    "A214028",
+    "A322907"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

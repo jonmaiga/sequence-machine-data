@@ -1,0 +1,22 @@
+{
+  "description": "Numerators of the first bisection of the inverse binomial transform of the rational sequence with e.g.f. (x/2)*(exp(-x)+1)/(exp(x)-1).",
+  "id": "A228827",
+  "mentions": [
+    "A000367",
+    "A002445",
+    "A176328",
+    "A176591",
+    "A228767"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

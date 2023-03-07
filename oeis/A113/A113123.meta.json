@@ -1,0 +1,22 @@
+{
+  "description": "Numerator of next-best approximation to harmonic numbers. a(n) = Numerator of (A055573(n)-1)th convergent of n-th harmonic number, Sum_{k=1..n} 1/k.",
+  "id": "A113123",
+  "mentions": [
+    "A001008",
+    "A055573",
+    "A100398",
+    "A113124"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

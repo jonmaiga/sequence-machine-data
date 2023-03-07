@@ -1,0 +1,29 @@
+{
+  "description": "Number of reversed integer partitions of n whose k-th differences are strictly increasing for all k >= 0.",
+  "id": "A325391",
+  "mentions": [
+    "A179254",
+    "A240026",
+    "A325325",
+    "A325353",
+    "A325354",
+    "A325357",
+    "A325393",
+    "A325395",
+    "A325398",
+    "A325404",
+    "A325406",
+    "A325456",
+    "A325468"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

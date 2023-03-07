@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k*floor(2^k/k) + 1 is prime.",
+  "id": "A270427",
+  "mentions": [
+    "A000043",
+    "A019434",
+    "A058253",
+    "A128092"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

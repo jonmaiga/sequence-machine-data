@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that the set of digits of k^2 is the same as the set of digits of (k+1)^2.",
+  "id": "A130868",
+  "mentions": [
+    "A072841"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

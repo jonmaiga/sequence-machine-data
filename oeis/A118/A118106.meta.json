@@ -1,0 +1,22 @@
+{
+  "description": "Period of the vector sequence d(n)^k mod n for k=1,2,3,..., where d(n) is the vector of divisors of n.",
+  "id": "A118106",
+  "mentions": [
+    "A001122",
+    "A051903",
+    "A097406",
+    "A112927",
+    "A118107"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

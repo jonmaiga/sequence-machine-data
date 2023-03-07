@@ -1,0 +1,18 @@
+{
+  "description": "Primes in order of first appearance among the prime factors of p+1 where p is a prime",
+  "id": "A236388",
+  "mentions": [
+    "A112037"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

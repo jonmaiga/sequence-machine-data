@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{i=1..floor(n/2)} (i*(n-i))!.",
+  "id": "A270531",
+  "mentions": [
+    "A000142",
+    "A023855",
+    "A144895"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:33",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

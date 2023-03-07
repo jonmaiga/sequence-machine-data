@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n not divisible by 10 such that, for some k, n^k can end in a repdigit of any length.",
+  "id": "A244187",
+  "mentions": [
+    "A243977"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

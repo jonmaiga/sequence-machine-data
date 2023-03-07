@@ -1,0 +1,20 @@
+{
+  "description": "Equivalence classes of n x n nonsingular matrices over GF(2), up to row and column permutation.",
+  "id": "A224879",
+  "mentions": [
+    "A002884",
+    "A116976"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Cubes m^3 such that m^3 is the sum of m-1 consecutive primes plus a larger prime.",
+  "id": "A100571",
+  "mentions": [
+    "A000578"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

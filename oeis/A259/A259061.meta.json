@@ -1,0 +1,18 @@
+{
+  "description": "Gillham Code, a modified Gray code for use in encoded altimeters.",
+  "id": "A259061",
+  "mentions": [
+    "A003188"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": -12,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

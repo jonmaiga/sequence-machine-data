@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of (1-3*x)/(1-8*x+14*x^2).",
+  "id": "A161731",
+  "mentions": [
+    "A016116",
+    "A081180",
+    "A086351",
+    "A161734"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:43",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

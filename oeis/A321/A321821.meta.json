@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Sum_{d|n, d==1 mod 4} d^5 - Sum_{d|n, d==3 mod 4} d^5.",
+  "id": "A321821",
+  "mentions": [
+    "A000265",
+    "A321543",
+    "A321565",
+    "A321807",
+    "A321836",
+    "A322143"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Those positive integers missing from sequence A164710. Those positive integers that, when written in binary, contain at least two runs of 0's that are of differing lengths.",
+  "id": "A164711",
+  "mentions": [
+    "A164710"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

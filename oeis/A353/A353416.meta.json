@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = A000593(A252463(n)), where A000593 is the sum of odd divisors, and A252463 is the hybrid shift.",
+  "id": "A353416",
+  "mentions": [
+    "A000203",
+    "A000265",
+    "A000593",
+    "A064989",
+    "A252463",
+    "A320107",
+    "A353412",
+    "A353417"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

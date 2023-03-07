@@ -1,0 +1,23 @@
+{
+  "description": "The number of cycles in the Vers de Verres game, where 'worms' are transferred between 'cups' in a deterministic fashion. Because this defines a finite-state automaton, we know that every state eventually enters a cycle (or fixed point, which is essentially a cycle of length 1). The number of 'cups' (frequently called 'n') is a parameter for this automaton, and so we count the cycles (and fixed points) with respect to n.",
+  "id": "A177101",
+  "mentions": [
+    "A151986",
+    "A151987",
+    "A176336",
+    "A176450"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn",
+    "obsc",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

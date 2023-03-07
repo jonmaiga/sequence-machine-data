@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the maximal odd value attained by A144916(n).",
+  "id": "A144917",
+  "mentions": [
+    "A016921",
+    "A144912",
+    "A144916"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

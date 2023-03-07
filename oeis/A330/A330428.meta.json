@@ -1,0 +1,23 @@
+{
+  "description": "Smallest prime p such that both nearest primes up and down are farther away than n*log(p).",
+  "id": "A330428",
+  "mentions": [
+    "A023186",
+    "A120937",
+    "A288908",
+    "A330426",
+    "A330427"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

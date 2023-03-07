@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways to place 2 nonattacking nightriders on an n X n cylindrical board.",
+  "id": "A196810",
+  "mentions": [
+    "A172141",
+    "A196812"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 17:28:45",
+    "offset": 1,
+    "size": 38,
+    "source": "joeis"
+  }
+}

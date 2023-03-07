@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows, n>=0, k>=0, T(0,0) = 1, T(n,k) = Sum_{j=0..k} (C(n+k,k-j)*(-1)^(k-j)*2^(n-j)*Sum_{i=0..j} (C(n+j,i)*|S(n+j-i,j-i)|)), S = Stirling number of first kind.",
+  "id": "A201636",
+  "mentions": [
+    "A001147",
+    "A001662",
+    "A002866"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

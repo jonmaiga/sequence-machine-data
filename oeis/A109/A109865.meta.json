@@ -1,0 +1,19 @@
+{
+  "description": "Consider Pi = 3.1415926535897932384626433832795... On taking the absolute successive differences between successive digits ignoring the decimal point one gets the array shown in Comments (below). Sequence contains the first term of each row (the first diagonal).",
+  "id": "A109865",
+  "mentions": [
+    "A000796",
+    "A109864"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of non-equivalent (mod D_4) binary n X n matrices with 4 pairwise nonadjacent 1's.",
+  "id": "A239576",
+  "mentions": [
+    "A172227",
+    "A232567",
+    "A232568",
+    "A232569"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:32:47",
+    "offset": 2,
+    "size": 29,
+    "source": "joeis"
+  }
+}

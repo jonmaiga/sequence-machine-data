@@ -1,0 +1,19 @@
+{
+  "description": "Positions of zeros in A354347.",
+  "id": "A354815",
+  "mentions": [
+    "A038838",
+    "A354347",
+    "A354810"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "T(n,k) is the number of loops appearing in pattern of circular arc connecting two vertices of regular polygons. (See Comments.)",
+  "id": "A266685",
+  "mentions": [
+    "A109004",
+    "A262343",
+    "A264906"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 98,
+    "source": "oeis-entry"
+  }
+}

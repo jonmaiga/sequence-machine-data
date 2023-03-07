@@ -1,0 +1,22 @@
+{
+  "description": "Smallest circular prime with 12 digits in base prime(n).",
+  "id": "A327835",
+  "mentions": [
+    "A016114",
+    "A293660",
+    "A293663",
+    "A327811"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 4,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

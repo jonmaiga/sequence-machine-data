@@ -1,0 +1,25 @@
+{
+  "description": "Cyclops primes.",
+  "id": "A134809",
+  "mentions": [
+    "A000040",
+    "A005478",
+    "A005479",
+    "A056709",
+    "A069675",
+    "A134808",
+    "A182809",
+    "A182811"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:22",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

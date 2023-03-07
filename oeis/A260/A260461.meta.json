@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k in A096091 such that the nonzero digits of k are not all the same and k/10 is not in the sequence.",
+  "id": "A260461",
+  "mentions": [
+    "A096091",
+    "A260462"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

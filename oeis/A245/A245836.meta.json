@@ -1,0 +1,17 @@
+{
+  "description": "Row sums in triangle A053398 (Kopper's Nim values).",
+  "id": "A245836",
+  "mentions": [
+    "A053398"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

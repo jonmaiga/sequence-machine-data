@@ -1,0 +1,26 @@
+{
+  "description": "Indices of centered dodecahedral numbers (A005904) which are semiprimes (A001358).",
+  "id": "A104012",
+  "mentions": [
+    "A001222",
+    "A001358",
+    "A005097",
+    "A005904",
+    "A005917",
+    "A006566",
+    "A090563",
+    "A104011"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:46:59",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

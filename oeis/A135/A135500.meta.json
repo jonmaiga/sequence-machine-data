@@ -1,0 +1,22 @@
+{
+  "description": "Generating function for Viswanath's constant, using the golden string.",
+  "id": "A135500",
+  "mentions": [
+    "A036299",
+    "A078416",
+    "A115064"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

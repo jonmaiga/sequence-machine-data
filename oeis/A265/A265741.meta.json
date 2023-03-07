@@ -1,0 +1,18 @@
+{
+  "description": "Integers in the interval [e*k - 1/k, e*k + 1/k] for some k >0 , where e = 2.71828... is Euler's number.",
+  "id": "A265741",
+  "mentions": [
+    "A001113",
+    "A265742"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

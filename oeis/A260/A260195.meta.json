@@ -1,0 +1,20 @@
+{
+  "description": "Number of integer triples [x, y, z] such that 1 <= min(x,z), max(x,z) <= y, y^2 - (x^2 - x + z^2 - z) / 2 = n.",
+  "id": "A260195",
+  "mentions": [
+    "A130695",
+    "A238872",
+    "A259825"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

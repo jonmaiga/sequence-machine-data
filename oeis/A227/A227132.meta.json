@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n for which there are an odd number of nonzero digits when n is written in the factorial base (A007623).",
+  "id": "A227132",
+  "mentions": [
+    "A000069",
+    "A007623",
+    "A060117",
+    "A060118",
+    "A060130",
+    "A227130",
+    "A227149"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

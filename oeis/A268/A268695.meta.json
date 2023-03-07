@@ -1,0 +1,17 @@
+{
+  "description": "Odd numbers n that are neither of the form p + 2^a + 2^b nor of the form p - 2^a - 2^b with 2^a + 2^b < n, b > a > 0, and p prime.",
+  "id": "A268695",
+  "mentions": [
+    "A268693"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

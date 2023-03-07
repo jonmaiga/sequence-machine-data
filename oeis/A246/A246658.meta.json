@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) = K(n,1)*I(k,1) - (-1)^(n+k)*I(n,1)* K(k,1), where I(n,x) and K(n,x) are Bessel functions; 0<=k<=n.",
+  "id": "A246658",
+  "mentions": [
+    "A036242",
+    "A036243"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

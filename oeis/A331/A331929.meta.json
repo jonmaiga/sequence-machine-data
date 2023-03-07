@@ -1,0 +1,23 @@
+{
+  "description": "The number of regions inside a pentagon formed by the straight line segments mutually connecting all vertices and all points that divide the sides into n equal parts.",
+  "id": "A331929",
+  "mentions": [
+    "A007678",
+    "A092867",
+    "A329710",
+    "A330847",
+    "A331452",
+    "A331931",
+    "A331939"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

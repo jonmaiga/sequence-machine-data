@@ -1,0 +1,25 @@
+{
+  "description": "Difference between value of n, when remultiplied \"upward\", from GF(2)[X] to N, and when remultiplied \"downward\", from N to GF(2)[X]: a(n) = A234742(n) - A234741(n).",
+  "id": "A236380",
+  "mentions": [
+    "A061858",
+    "A234741",
+    "A234742",
+    "A235032",
+    "A235033",
+    "A236378",
+    "A236379",
+    "A236851"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

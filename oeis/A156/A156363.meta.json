@@ -1,0 +1,22 @@
+{
+  "description": "A triangle sequence related to the Eulerian numbers of the second kind: t(n,m) = Sum_{i=0..m}(-1)^(m-i)*binomial(n-i-1, m-i)*Stirling2(n+i+1, i+1).",
+  "id": "A156363",
+  "mentions": [
+    "A008277",
+    "A048993",
+    "A156139",
+    "A156364"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Permutations avoiding the consecutive patterns 4312 and 4213.",
+  "id": "A177478",
+  "mentions": [
+    "A117156",
+    "A117226"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

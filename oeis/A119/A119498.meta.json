@@ -1,0 +1,18 @@
+{
+  "description": "Consider the sign of A067276: determinant of n X n matrix containing the first n^2 primes in increasing order; then a(n) = 0 if negative and 1 if positive.",
+  "id": "A119498",
+  "mentions": [
+    "A000040",
+    "A067276"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

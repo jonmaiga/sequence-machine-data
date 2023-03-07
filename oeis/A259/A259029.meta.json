@@ -1,0 +1,18 @@
+{
+  "description": "Partial sums of A259024.",
+  "id": "A259029",
+  "mentions": [
+    "A259024",
+    "A259031"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

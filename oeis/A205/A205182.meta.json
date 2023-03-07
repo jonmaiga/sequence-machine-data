@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f.: (cosh(x) + sin(x)) / (cos(x) - sinh(x)).",
+  "id": "A205182",
+  "mentions": [
+    "A013068"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:25",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

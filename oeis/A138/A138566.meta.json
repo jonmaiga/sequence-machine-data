@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n whose digits satisfy the following Diophantine equation: P = (X1* ... *Xr)/(X1+ ... +Xr), where P = prime number, Xi = digits of n.",
+  "id": "A138566",
+  "mentions": [
+    "A137923"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

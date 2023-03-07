@@ -1,0 +1,21 @@
+{
+  "description": "Repeat 3^n three times.",
+  "id": "A127975",
+  "mentions": [
+    "A002264",
+    "A108411",
+    "A111575"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

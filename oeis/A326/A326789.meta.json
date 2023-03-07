@@ -1,0 +1,25 @@
+{
+  "description": "Number of n-bead asymmetric bracelets with exactly 4 different colored beads.",
+  "id": "A326789",
+  "mentions": [
+    "A032239",
+    "A032240",
+    "A032241",
+    "A056344",
+    "A056350",
+    "A305543",
+    "A309651",
+    "A326660"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

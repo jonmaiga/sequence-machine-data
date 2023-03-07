@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/4)} |Stirling1(n - 3*k,n - 4*k)|.",
+  "id": "A357932",
+  "mentions": [
+    "A124380",
+    "A353225",
+    "A357902",
+    "A357926",
+    "A357931",
+    "A357933"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

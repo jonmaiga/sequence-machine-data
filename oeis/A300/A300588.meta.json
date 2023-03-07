@@ -1,0 +1,21 @@
+{
+  "description": "Imaginary part y of the n-th Gaussian prime x + i*y, x >= y >= 0, ordered by norm x^2 + y^2 = A055025(n)^2.",
+  "id": "A300588",
+  "mentions": [
+    "A055025",
+    "A239397",
+    "A239621",
+    "A300587"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

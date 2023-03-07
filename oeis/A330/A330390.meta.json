@@ -1,0 +1,20 @@
+{
+  "description": "G.f.: (1 + 15*x) / (1 - 2*x - 17*x^2).",
+  "id": "A330390",
+  "mentions": [
+    "A164544",
+    "A328606"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(0) = 1, a(1) = 2, s = 1; for n >= 2, if a(n-1) is even and s = 0 then set a(n) = a(n-1)/2 and s = 1; otherwise set a(n) = a(n-1) + a(n-2) and s = 0.",
+  "id": "A122597",
+  "mentions": [
+    "A000045",
+    "A000792",
+    "A122164"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:01:23",
+    "offset": 0,
+    "size": 50,
+    "source": "joeis"
+  }
+}

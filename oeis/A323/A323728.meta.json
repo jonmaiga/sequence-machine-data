@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the smallest number k such that both k-2*n and k+2*n are squares.",
+  "id": "A323728",
+  "mentions": [
+    "A000290",
+    "A029744",
+    "A033676",
+    "A033677",
+    "A056737",
+    "A061057",
+    "A063655",
+    "A087711"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:48",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

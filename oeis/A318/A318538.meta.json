@@ -1,0 +1,20 @@
+{
+  "description": "Number of n X n (0,1)-matrices with nonzero pairwise distinct rows and nonzero pairwise distinct columns.",
+  "id": "A318538",
+  "mentions": [
+    "A059202",
+    "A094000",
+    "A318537"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Minimum sum of elements of an n X n upper triangular matrix of distinct positive numbers such that no two entries in the same row or column share a digit when the numbers are written in base n+1.",
+  "id": "A332081",
+  "mentions": [
+    "A332080"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

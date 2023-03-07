@@ -1,0 +1,19 @@
+{
+  "description": "Coordination sequence with respect to the central vertex of a dodecagon-based tiling of the plane by copies of a certain Goldberg quadrilateral tile.",
+  "id": "A342285",
+  "mentions": [
+    "A138591",
+    "A250120"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

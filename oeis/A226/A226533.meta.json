@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = smallest integer m such that m^n is a sum of two successive primes.",
+  "id": "A226533",
+  "mentions": [
+    "A001043",
+    "A001597",
+    "A074924",
+    "A074925"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of nX7 0..1 arrays with every element equal to 0, 2, 4, 5 or 6 horizontally, diagonally or antidiagonally adjacent elements, with upper left element zero.",
+  "id": "A303324",
+  "mentions": [
+    "A303325"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

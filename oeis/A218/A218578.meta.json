@@ -1,0 +1,19 @@
+{
+  "description": "The number of times n occurs in A095972.",
+  "id": "A218578",
+  "mentions": [
+    "A000224",
+    "A095972",
+    "A218620"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:36",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

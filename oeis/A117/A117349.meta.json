@@ -1,0 +1,27 @@
+{
+  "description": "Near-multiperfects with primes, powers of 2 and 6 * prime excluded, abs(sigma(n) mod n) <= log(n).",
+  "id": "A117349",
+  "mentions": [
+    "A045768",
+    "A045770",
+    "A077374",
+    "A087167",
+    "A087485",
+    "A088007",
+    "A088012",
+    "A117346",
+    "A117348",
+    "A117350"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

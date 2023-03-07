@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k dividing psi(k), where psi is the Dedekind psi function (A001615).",
+  "id": "A187778",
+  "mentions": [
+    "A001615",
+    "A003586",
+    "A007694",
+    "A033845",
+    "A033950",
+    "A074946",
+    "A075592"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:12",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

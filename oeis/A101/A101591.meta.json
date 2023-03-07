@@ -1,0 +1,17 @@
+{
+  "description": "Indices k >= 8 designating the k-Somos sequences that first become nonintegral at odd-indexed terms (i.e., positions of odd terms in A030127).",
+  "id": "A101591",
+  "mentions": [
+    "A030127"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of monomials in c(n) where c(1) = x, c(2) = y, c(n+2) = c(n+1) + c(n)^2.",
+  "id": "A290075",
+  "mentions": [
+    "A088966",
+    "A103484",
+    "A211525",
+    "A257273"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:04",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

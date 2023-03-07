@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the least x>0 satisfying 1 = (x^2)*sin(x).",
+  "id": "A196617",
+  "mentions": [
+    "A196612",
+    "A196618",
+    "A196619",
+    "A196620"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:18",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

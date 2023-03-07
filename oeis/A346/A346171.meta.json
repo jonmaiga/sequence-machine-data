@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} primepi(k)^2/k!.",
+  "id": "A346171",
+  "mentions": [
+    "A000142",
+    "A000720",
+    "A346170"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

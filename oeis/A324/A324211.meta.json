@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that the sum of the binary digits of the exponents of the prime factorization of k is odd and k is a product of primorials.",
+  "id": "A324211",
+  "mentions": [
+    "A000028",
+    "A025487"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

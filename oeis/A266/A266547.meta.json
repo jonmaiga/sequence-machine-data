@@ -1,0 +1,19 @@
+{
+  "description": "T(n,k)=Number of nXk binary arrays with rows and columns lexicographically nondecreasing and row and column sums nonincreasing.",
+  "id": "A266547",
+  "mentions": [
+    "A004526"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:27",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

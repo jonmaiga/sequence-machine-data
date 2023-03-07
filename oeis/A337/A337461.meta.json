@@ -1,0 +1,38 @@
+{
+  "description": "Number of pairwise coprime ordered triples of positive integers summing to n.",
+  "id": "A337461",
+  "mentions": [
+    "A000212",
+    "A000217",
+    "A001399",
+    "A001840",
+    "A014311",
+    "A014612",
+    "A101268",
+    "A220377",
+    "A284825",
+    "A302696",
+    "A307719",
+    "A326675",
+    "A327516",
+    "A333227",
+    "A333228",
+    "A337462",
+    "A337562",
+    "A337563",
+    "A337601",
+    "A337602",
+    "A337603",
+    "A337604"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

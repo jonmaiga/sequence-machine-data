@@ -1,0 +1,17 @@
+{
+  "description": "Nearest prime to Pi*10^(n-1).",
+  "id": "A247351",
+  "mentions": [
+    "A000796"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

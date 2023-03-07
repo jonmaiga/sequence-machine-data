@@ -1,0 +1,19 @@
+{
+  "description": "Numerators of the probability of success in sultan's dowry problem with n daughters.",
+  "id": "A226242",
+  "mentions": [
+    "A054404",
+    "A226243"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

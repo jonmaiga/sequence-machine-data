@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = prime j = A347113(i)-1 in order of appearance.",
+  "id": "A349411",
+  "mentions": [
+    "A347113",
+    "A348779",
+    "A349412"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers having only balanced prime factors, cf. A006562.",
+  "id": "A225494",
+  "mentions": [
+    "A006562",
+    "A225493",
+    "A225495",
+    "A225496"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

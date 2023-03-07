@@ -1,0 +1,19 @@
+{
+  "description": "Negative integers in base -4.",
+  "id": "A212526",
+  "mentions": [
+    "A007608",
+    "A212542"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

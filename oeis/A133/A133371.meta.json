@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(i,j) is the number of i-permutations of 14 objects a,b,c,d,e,f,g,h,i,j,k,l,m,n, with repetition allowed, containing j a's.",
+  "id": "A133371",
+  "mentions": [
+    "A001022",
+    "A008595",
+    "A123187"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:45",
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

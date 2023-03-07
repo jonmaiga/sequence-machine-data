@@ -1,0 +1,21 @@
+{
+  "description": "Number of triples (d1,d2,d3) where each element is a divisor of m and d1 + d2 + d3 <= m where m is least odd integer of each prime signature.",
+  "id": "A335018",
+  "mentions": [
+    "A000005",
+    "A093035",
+    "A147516"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

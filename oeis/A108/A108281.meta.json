@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that are both triangular and pentagonal of the second kind.",
+  "id": "A108281",
+  "mentions": [
+    "A014979",
+    "A076139"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:16:03",
+    "offset": 1,
+    "size": 13,
+    "source": "joeis"
+  }
+}

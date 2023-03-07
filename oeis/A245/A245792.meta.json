@@ -1,0 +1,18 @@
+{
+  "description": "Number of preferential arrangements of n labeled elements when at least k=7 elements per rank are required.",
+  "id": "A245792",
+  "mentions": [
+    "A245732"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Last time n appears in the first differences of n*log(n): A217865.",
+  "id": "A217866",
+  "mentions": [
+    "A217865",
+    "A217976"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

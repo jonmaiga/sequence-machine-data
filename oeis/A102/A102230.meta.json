@@ -1,0 +1,22 @@
+{
+  "description": "Triangle, read by rows, where each column equals the convolution of A032349 with the prior column, starting with column 0 equal to A032349 shift right.",
+  "id": "A102230",
+  "mentions": [
+    "A027307",
+    "A032349",
+    "A100326",
+    "A102231"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

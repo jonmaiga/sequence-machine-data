@@ -1,0 +1,18 @@
+{
+  "description": "Number of n-length words w over ternary alphabet {a,b,c} such that #(w,a) >= #(w,b) >= #(w,c) >= 1, where #(w,x) counts the letters x in word w.",
+  "id": "A226882",
+  "mentions": [
+    "A226874"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 3,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

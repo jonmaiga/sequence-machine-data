@@ -1,0 +1,20 @@
+{
+  "description": "The sum of the positive integers not exceeding 2n that are representable as the sum of two successive sexy primes.",
+  "id": "A226068",
+  "mentions": [
+    "A000720",
+    "A098428",
+    "A104010"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

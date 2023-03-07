@@ -1,0 +1,19 @@
+{
+  "description": "Sums of two distinct prime 4th powers.",
+  "id": "A130873",
+  "mentions": [
+    "A030514",
+    "A120398"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

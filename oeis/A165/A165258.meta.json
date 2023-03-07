@@ -1,0 +1,18 @@
+{
+  "description": "Minimum value such that n occurs a(n) times, subject to the constraint that gcd(n,a(n)) = 1.",
+  "id": "A165258",
+  "mentions": [
+    "A001462",
+    "A116548"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

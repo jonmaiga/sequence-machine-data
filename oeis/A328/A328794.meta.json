@@ -1,0 +1,23 @@
+{
+  "description": "Squares visited by a knight moving on a binary numbered single-digit square-spiral board where the knight moves to the smallest numbered unvisited square; the minimum distance from the origin is used if the square numbers are equal; the smallest spiral number ordering is used if the distances are equal.",
+  "id": "A328794",
+  "mentions": [
+    "A316667",
+    "A326413",
+    "A326916",
+    "A326918"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

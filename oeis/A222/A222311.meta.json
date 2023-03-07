@@ -1,0 +1,18 @@
+{
+  "description": "Leading diagonal of triangle in A222310.",
+  "id": "A222311",
+  "mentions": [
+    "A222310",
+    "A222313"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

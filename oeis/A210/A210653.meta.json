@@ -1,0 +1,19 @@
+{
+  "description": "Numbers having a digit 0 or 5 whose waterfall sequence does not end in 0,0,0,....",
+  "id": "A210653",
+  "mentions": [
+    "A210614",
+    "A210652"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

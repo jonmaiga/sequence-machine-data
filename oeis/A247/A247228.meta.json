@@ -1,0 +1,19 @@
+{
+  "description": "Prime numbers p where 2^p-1 is composite that set records for smallest prime factor of 2^p-1: the smallest prime factor of 2^p-1 is larger than the smallest prime factor of 2^q-1 for all primes q > p.",
+  "id": "A247228",
+  "mentions": [
+    "A054723"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

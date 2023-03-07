@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of e.g.f. exp( -log(1 - x)^5 / 5! ).",
+  "id": "A347004",
+  "mentions": [
+    "A000482",
+    "A327506",
+    "A346924",
+    "A347001",
+    "A347002",
+    "A347003"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

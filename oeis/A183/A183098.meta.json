@@ -1,0 +1,23 @@
+{
+  "description": "a(1) = 0, a(n) = sum of divisors d of n such that if d = Product_(i) (p_i^e_i) then all e_i are <= 1.",
+  "id": "A183098",
+  "mentions": [
+    "A000203",
+    "A001694",
+    "A183097",
+    "A183100",
+    "A183101",
+    "A183103"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

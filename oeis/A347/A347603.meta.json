@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k such that tau(k) = 2*tau(k-1) and sigma(k) = sigma(k-1), where tau(k) and sigma(k) are respectively the number and sum functions of the divisors of k.",
+  "id": "A347603",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A002961",
+    "A005237",
+    "A005238",
+    "A006601",
+    "A027750",
+    "A049051",
+    "A347076"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:21",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

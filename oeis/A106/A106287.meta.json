@@ -1,0 +1,21 @@
+{
+  "description": "Number of orbits of the 5-step recursion mod n.",
+  "id": "A106287",
+  "mentions": [
+    "A015134",
+    "A106285",
+    "A106286",
+    "A106290",
+    "A106309"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

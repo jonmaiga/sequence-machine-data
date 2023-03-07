@@ -1,0 +1,23 @@
+{
+  "description": "Number of unordered pairs of 5-colorings of an n-wheel that differ in the coloring of exactly one vertex.",
+  "id": "A309380",
+  "mentions": [
+    "A090860",
+    "A092297",
+    "A106512",
+    "A309315",
+    "A309379",
+    "A326347"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:46:54",
+    "offset": 3,
+    "size": 24,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "A prime separator array.",
+  "id": "A129258",
+  "mentions": [
+    "A129259",
+    "A129260"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

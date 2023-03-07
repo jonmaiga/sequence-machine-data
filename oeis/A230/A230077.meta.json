@@ -1,0 +1,23 @@
+{
+  "description": "Table a(n,m) giving in row n all k from {1, 2, ..., prime(n)-1} for which the Legendre symbol (k/prime(n)) = +1, for odd prime(n).",
+  "id": "A230077",
+  "mentions": [
+    "A000040",
+    "A001132",
+    "A002144",
+    "A063987"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:47",
+    "offset": 2,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

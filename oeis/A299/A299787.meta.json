@@ -1,0 +1,22 @@
+{
+  "description": "Maximum size of a main class for diagonal Latin squares of order n.",
+  "id": "A299787",
+  "mentions": [
+    "A287764",
+    "A299783",
+    "A299784",
+    "A299785"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

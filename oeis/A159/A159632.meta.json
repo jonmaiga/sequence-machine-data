@@ -1,0 +1,21 @@
+{
+  "description": "Dimension of space of cusp forms of weight 3/2, level 4*n and trivial character.",
+  "id": "A159632",
+  "mentions": [
+    "A159630",
+    "A159631",
+    "A159633",
+    "A159635",
+    "A159636"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

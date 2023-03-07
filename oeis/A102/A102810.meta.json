@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that 2*prime(n)+3, 2*prime(n+1)+3, 2*prime(n+2)+3, 2*prime(n+3)+3 and 2*prime(n+4)+3 are consecutive primes.",
+  "id": "A102810",
+  "mentions": [
+    "A089009"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "description": "Numbers whose prime indices are not pairwise coprime, where a singleton is not coprime unless it is {1}.",
+  "id": "A335241",
+  "mentions": [
+    "A007360",
+    "A051424",
+    "A087087",
+    "A101268",
+    "A112798",
+    "A302569",
+    "A302696",
+    "A318978",
+    "A326674",
+    "A326675",
+    "A327516",
+    "A333227",
+    "A333228",
+    "A335236",
+    "A335237",
+    "A335238",
+    "A335239",
+    "A335240"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

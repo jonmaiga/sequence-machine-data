@@ -1,0 +1,28 @@
+{
+  "description": "Heinz numbers of strict integer partitions such that not every distinct subset has a different average.",
+  "id": "A316362",
+  "mentions": [
+    "A032302",
+    "A056239",
+    "A108917",
+    "A122768",
+    "A275972",
+    "A276024",
+    "A296150",
+    "A299702",
+    "A301899",
+    "A316313",
+    "A316314",
+    "A316361"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

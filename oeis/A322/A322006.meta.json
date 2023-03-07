@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = number of primes of the form p = n - q, where q is a prime or semiprime.",
+  "id": "A322006",
+  "mentions": [
+    "A045917",
+    "A130588",
+    "A235645",
+    "A241539",
+    "A322007"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

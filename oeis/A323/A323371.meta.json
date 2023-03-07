@@ -1,0 +1,25 @@
+{
+  "description": "Lexicographically earliest sequence such that for all i, j, a(i) = a(j) => f(i) = f(j) where f(n) = A295886(n) for all other numbers, except f(n) = 0 for odd primes.",
+  "id": "A323371",
+  "mentions": [
+    "A003557",
+    "A023900",
+    "A092248",
+    "A295886",
+    "A305801",
+    "A319340",
+    "A322587",
+    "A323370",
+    "A323405"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:47",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

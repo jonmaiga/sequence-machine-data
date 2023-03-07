@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n - phi(n - phi(n)), where phi is the Euler totient function.",
+  "id": "A343912",
+  "mentions": [
+    "A000010",
+    "A051953"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

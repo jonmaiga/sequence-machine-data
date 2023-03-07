@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 7*a(n-1) + (-1)^n*6*2^(n-1).",
+  "id": "A191566",
+  "mentions": [
+    "A007283",
+    "A007613",
+    "A053573",
+    "A091629"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

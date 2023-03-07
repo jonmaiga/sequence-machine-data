@@ -1,0 +1,21 @@
+{
+  "description": "Second differences of A055615, first differences of A261869.",
+  "id": "A261890",
+  "mentions": [
+    "A008683",
+    "A055615",
+    "A114180",
+    "A261869"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:21",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

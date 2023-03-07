@@ -1,0 +1,21 @@
+{
+  "description": "Table T(n,k) = 2^n XOR 2^k read by antidiagonals, where XOR is the binary exclusive or operator.",
+  "id": "A271710",
+  "mentions": [
+    "A018900",
+    "A271709"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:36",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

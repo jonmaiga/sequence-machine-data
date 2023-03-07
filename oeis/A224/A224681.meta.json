@@ -1,0 +1,21 @@
+{
+  "description": "G.f.: exp( Sum_{n>=1} A224678(n^2) * x^n/n ).",
+  "id": "A224681",
+  "mentions": [
+    "A023361",
+    "A224608",
+    "A224678",
+    "A224680"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

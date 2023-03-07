@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of the negated constant cos(1) - sin(1) = -0.3011686789...",
+  "id": "A143624",
+  "mentions": [
+    "A049469",
+    "A049470",
+    "A057077",
+    "A121867",
+    "A121868",
+    "A143623",
+    "A143625",
+    "A174549"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:37:09",
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

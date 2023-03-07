@@ -1,0 +1,19 @@
+{
+  "description": "Smallest numbers containing exactly n smaller numbers when written as English number names.",
+  "id": "A159453",
+  "mentions": [
+    "A000027",
+    "A159451"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

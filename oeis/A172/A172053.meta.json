@@ -1,0 +1,19 @@
+{
+  "description": "n-th nonnegative number k such that neither 6*k+-1 is prime plus n-th number m such that 6*m+-1 are both twin primes.",
+  "id": "A172053",
+  "mentions": [
+    "A002822",
+    "A171696"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

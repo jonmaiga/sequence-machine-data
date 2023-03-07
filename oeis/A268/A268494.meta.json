@@ -1,0 +1,19 @@
+{
+  "description": "Indices n of \"late birds\" (a(n)n) in A268630 (= a(n)^2+a(n+1) is prime).",
+  "id": "A268494",
+  "mentions": [
+    "A268495",
+    "A268497",
+    "A268630"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

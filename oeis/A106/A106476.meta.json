@@ -1,0 +1,22 @@
+{
+  "description": "Sequence array of Euler phi function.",
+  "id": "A106476",
+  "mentions": [
+    "A002088",
+    "A106477",
+    "A106479"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

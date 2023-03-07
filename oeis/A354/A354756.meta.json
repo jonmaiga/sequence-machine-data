@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of permutations p of [n] such that lcm(i, p(i)) <= n for all i in [n].",
+  "id": "A354756",
+  "mentions": [
+    "A320843"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "The first n-fold intrinsically 5-palindrome (represented in base ten).",
+  "id": "A171704",
+  "mentions": [
+    "A171701",
+    "A171702",
+    "A171703",
+    "A171705",
+    "A171706",
+    "A171740",
+    "A171741",
+    "A171742",
+    "A217146"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

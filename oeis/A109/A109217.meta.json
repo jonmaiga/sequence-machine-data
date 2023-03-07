@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the binary string of length n+1 that has 0's at indices that are squares and 1's elsewhere, where the most significant digit has index 0.",
+  "id": "A109217",
+  "mentions": [
+    "A000037",
+    "A049240",
+    "A109218"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

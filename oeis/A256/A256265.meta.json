@@ -1,0 +1,24 @@
+{
+  "description": "Sums of two successive terms of A256264.",
+  "id": "A256265",
+  "mentions": [
+    "A007583",
+    "A139250",
+    "A255747",
+    "A256260",
+    "A256261",
+    "A256263",
+    "A256264"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

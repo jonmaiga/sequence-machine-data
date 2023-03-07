@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = h(1)*h(2)*...*h(n), where h(i) = i/[g(i/2)*g(i/4)*g(i/8)*...] and g(x) = x if x is an integer and g(x) = 1 otherwise.",
+  "id": "A185021",
+  "mentions": [
+    "A055634",
+    "A185275"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:09",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

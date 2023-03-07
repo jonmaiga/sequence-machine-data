@@ -1,0 +1,21 @@
+{
+  "description": "Number of permutations i_0,i_1,...,i_n of 0,1,...,n with i_0 = 0 and i_n = n, and with i_0+i_1, i_1+i_2, ..., i_{n-1}+i_n, i_n+i_0 all coprime to both n-1 and n+1.",
+  "id": "A228886",
+  "mentions": [
+    "A228860",
+    "A228917",
+    "A228956"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

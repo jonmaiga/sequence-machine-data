@@ -1,0 +1,29 @@
+{
+  "description": "Amicable 5-tuples: (x1,...,x5) such that sigma(x1)=...=sigma(x5)=x1+...+x5, x1",
+  "id": "A273934",
+  "mentions": [
+    "A036471",
+    "A036474",
+    "A116148",
+    "A125490",
+    "A125492",
+    "A137231",
+    "A233553",
+    "A273928",
+    "A273930",
+    "A273931",
+    "A273933",
+    "A273936"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

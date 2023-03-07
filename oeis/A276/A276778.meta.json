@@ -1,0 +1,19 @@
+{
+  "description": "Number of correct decimal digits produced by the n-th iteration of the Salamin-Brent algorithm for computing Pi.",
+  "id": "A276778",
+  "mentions": [
+    "A276779",
+    "A276780"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

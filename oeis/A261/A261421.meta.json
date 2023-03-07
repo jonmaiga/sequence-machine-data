@@ -1,0 +1,19 @@
+{
+  "description": "Numerators of coefficients in Taylor series expansion of sqrt(m(x)) where m(x) is g.f. for Motzkin numbers A001006.",
+  "id": "A261421",
+  "mentions": [
+    "A001006",
+    "A046161"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

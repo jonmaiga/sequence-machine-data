@@ -1,0 +1,30 @@
+{
+  "description": "Rectangular array A read by upward antidiagonals in which the entry in row n and column k is defined by A(n,k) = 2^n*(2*k - 1) - 1, n,k >= 1.",
+  "id": "A241957",
+  "mentions": [
+    "A000225",
+    "A001511",
+    "A005408",
+    "A016813",
+    "A017101",
+    "A052996",
+    "A054582",
+    "A075300",
+    "A083329",
+    "A086224",
+    "A153894"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:04:07",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

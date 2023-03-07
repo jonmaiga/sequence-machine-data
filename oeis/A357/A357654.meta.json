@@ -1,0 +1,21 @@
+{
+  "description": "Number of lattice paths from (0,0) to (i,n-2*i) that do not go above the diagonal x=y using steps in {(1,0), (0,1)}.",
+  "id": "A357654",
+  "mentions": [
+    "A120730",
+    "A165407",
+    "A357655"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

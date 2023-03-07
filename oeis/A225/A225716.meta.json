@@ -1,0 +1,21 @@
+{
+  "description": "Composite squarefree numbers n such that p(i)+6 divides n-6, where p(i) are the prime factors of n.",
+  "id": "A225716",
+  "mentions": [
+    "A208728",
+    "A225702",
+    "A225715",
+    "A225717",
+    "A225720"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

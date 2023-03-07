@@ -1,0 +1,25 @@
+{
+  "description": "Primes p such that digits of p do not appear in p^4.",
+  "id": "A253574",
+  "mentions": [
+    "A030086",
+    "A030087",
+    "A111116",
+    "A253575",
+    "A253576",
+    "A253577",
+    "A253578"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "G.f.: Sum_{n>=0} (4 + x^n)^n * x^n / (1-x)^(n+1).",
+  "id": "A244617",
+  "mentions": [
+    "A243919",
+    "A243988",
+    "A244615",
+    "A244616",
+    "A244618"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

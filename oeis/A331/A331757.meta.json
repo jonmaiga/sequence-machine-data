@@ -1,0 +1,21 @@
+{
+  "description": "Number of edges in a figure made up of a row of n adjacent congruent rectangles upon drawing diagonals of all possible rectangles.",
+  "id": "A331757",
+  "mentions": [
+    "A306302",
+    "A324042",
+    "A324043",
+    "A331454"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

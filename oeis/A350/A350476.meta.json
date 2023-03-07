@@ -1,0 +1,25 @@
+{
+  "description": "G.f. A(x) = Sum_{n>=1} a(n)*x^(3*n-2) satisfies: A(x*R(x)) = x^2 - x^5, where A(R(x)) = x.",
+  "id": "A350476",
+  "mentions": [
+    "A273162",
+    "A273203",
+    "A350434",
+    "A350474",
+    "A350477",
+    "A350478",
+    "A350480",
+    "A350482"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

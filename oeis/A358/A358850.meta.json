@@ -1,0 +1,21 @@
+{
+  "description": "Primorial base exp-function reduced modulo 12.",
+  "id": "A358850",
+  "mentions": [
+    "A010881",
+    "A276086",
+    "A353486",
+    "A358840"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 0,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

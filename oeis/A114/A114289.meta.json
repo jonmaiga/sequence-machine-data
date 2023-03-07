@@ -1,0 +1,19 @@
+{
+  "description": "Number of combinatorial types of n-dimensional polytopes with n+3 vertices.",
+  "id": "A114289",
+  "mentions": [
+    "A000943",
+    "A114290",
+    "A114291"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

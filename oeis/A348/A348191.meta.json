@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array read by rows: T(n,k) is the number of cubic n-permutations possessing exactly k cycles; n >= 0, 0 <= k <= n.",
+  "id": "A348191",
+  "mentions": [
+    "A000007",
+    "A103619",
+    "A194770",
+    "A246948"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:22",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

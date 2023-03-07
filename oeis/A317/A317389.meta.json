@@ -1,0 +1,19 @@
+{
+  "description": "a(0) = 0, a(1) = a(2) = 1; for n >= 3, a(n) = freq(a(g(n)),n)*freq(a(n-g(n)),n) where g = A000195 and freq(i, j) is the number of times i appears in the terms a(0) .. a(j-1).",
+  "id": "A317389",
+  "mentions": [
+    "A000195",
+    "A317359"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:36",
+    "offset": 0,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

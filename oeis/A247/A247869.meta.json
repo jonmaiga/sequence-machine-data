@@ -1,0 +1,18 @@
+{
+  "description": "(prime(A247824(n)) + prime(n)) / (A247824(n) + n).",
+  "id": "A247869",
+  "mentions": [
+    "A000040",
+    "A247824"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

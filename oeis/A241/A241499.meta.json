@@ -1,0 +1,18 @@
+{
+  "description": "a(n)= k is the number of consecutive primes of the form 10^d - prime(n), 10^(d+1)- prime(n),...,10^(d+k-1)- prime(n) where d is the number of decimal digits of prime(n).",
+  "id": "A241499",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

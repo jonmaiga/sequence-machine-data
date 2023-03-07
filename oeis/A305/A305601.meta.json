@@ -1,0 +1,22 @@
+{
+  "description": "G.f. A(x) satisfies: [x^k] (1+x)^(n*(n+1)/2) * A(x) = 0 for k = n*(n-1)/2 + 1 through k = n*(n+1)/2 for n >= 1.",
+  "id": "A305601",
+  "mentions": [
+    "A107877",
+    "A127496",
+    "A127497",
+    "A305600",
+    "A305605"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

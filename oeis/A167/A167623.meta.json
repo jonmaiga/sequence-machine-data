@@ -1,0 +1,18 @@
+{
+  "description": "n^3 mod (n-th prime squared).",
+  "id": "A167623",
+  "mentions": [
+    "A069547",
+    "A167622"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:51",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

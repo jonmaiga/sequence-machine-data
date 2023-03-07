@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 1; for n > 1: a(n) = smallest cube > a(n-1) such that a(n) - a(n-1) = m*p for some m and a prime p that is not smaller than the primes used previously; in case there is more than one p take the largest.",
+  "id": "A111103",
+  "mentions": [
+    "A111131"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

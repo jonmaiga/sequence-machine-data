@@ -1,0 +1,21 @@
+{
+  "description": "Positions of 1 in A285565; complement of A285566.",
+  "id": "A285567",
+  "mentions": [
+    "A001622",
+    "A285565",
+    "A285566",
+    "A285568"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:40:53",
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

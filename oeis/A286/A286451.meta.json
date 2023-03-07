@@ -1,0 +1,22 @@
+{
+  "description": "Compound filter (2-adic valuation of sigma(n) & 2-adic valuation of n): a(n) = P(A286357(n), A001511(n)), where P(n,k) is sequence A000027 used as a pairing function, with a(1) = 0 by an explicit convention.",
+  "id": "A286451",
+  "mentions": [
+    "A000027",
+    "A001511",
+    "A286260",
+    "A286357",
+    "A286358"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

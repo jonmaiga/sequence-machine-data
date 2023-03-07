@@ -1,0 +1,17 @@
+{
+  "description": "Number of permutations that avoid the barred pattern bar{1}43bar{5}2.",
+  "id": "A201497",
+  "mentions": [
+    "A122993"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

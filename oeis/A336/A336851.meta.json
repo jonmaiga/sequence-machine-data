@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = sigma(A003961(n)) - A003961(n), where A003961 is a prime shift towards larger primes, sigma is the sum of divisors.",
+  "id": "A336851",
+  "mentions": [
+    "A000203",
+    "A001065",
+    "A003961",
+    "A003973",
+    "A252748",
+    "A286385",
+    "A326042",
+    "A336850",
+    "A336852"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

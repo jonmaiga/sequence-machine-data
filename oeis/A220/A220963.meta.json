@@ -1,0 +1,21 @@
+{
+  "description": "Faulhaber’s triangle: triangle of denominators of coefficients of power-sum polynomials.",
+  "id": "A220963",
+  "mentions": [
+    "A162298",
+    "A162299",
+    "A220962"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "frac",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

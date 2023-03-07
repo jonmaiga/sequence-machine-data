@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = floor(3^(n-1)).",
+  "id": "A140429",
+  "mentions": [
+    "A000079",
+    "A000244",
+    "A001045",
+    "A094555",
+    "A131577",
+    "A133494"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:42:28",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

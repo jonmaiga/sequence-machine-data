@@ -1,0 +1,20 @@
+{
+  "description": "The number of permutations of {1,1,1,1,2,2,2,2,...,n,n,n,n} with the property that b(1) >= b(2) >= ... >= b(n) (Four k's are skipped by b(k) for k=1..n).",
+  "id": "A332752",
+  "mentions": [
+    "A261517",
+    "A322178",
+    "A332748"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of reversed integer partitions of n with maximal difference k, if singletons have maximal difference 0.",
+  "id": "A355522",
+  "mentions": [
+    "A000005",
+    "A000041",
+    "A001522",
+    "A056239",
+    "A064428",
+    "A091602",
+    "A115720",
+    "A115994",
+    "A179254",
+    "A238352",
+    "A238353",
+    "A238354",
+    "A238710",
+    "A239455",
+    "A279945",
+    "A286469",
+    "A286470",
+    "A325325",
+    "A325404",
+    "A352827",
+    "A355524",
+    "A355526",
+    "A355532"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 2,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

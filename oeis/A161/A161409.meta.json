@@ -1,0 +1,21 @@
+{
+  "description": "Number of reduced words of length n in the Weyl group E_6 on 6 generators and order 51840.",
+  "id": "A161409",
+  "mentions": [
+    "A154638",
+    "A161410"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

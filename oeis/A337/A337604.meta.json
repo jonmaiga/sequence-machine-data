@@ -1,0 +1,42 @@
+{
+  "description": "Number of ordered triples of positive integers summing to n, any two of which have a common divisor > 1.",
+  "id": "A337604",
+  "mentions": [
+    "A000217",
+    "A000741",
+    "A001399",
+    "A014311",
+    "A014612",
+    "A051424",
+    "A082024",
+    "A101268",
+    "A178472",
+    "A200976",
+    "A220377",
+    "A284825",
+    "A305713",
+    "A307719",
+    "A318717",
+    "A327516",
+    "A328673",
+    "A333227",
+    "A333228",
+    "A335402",
+    "A337461",
+    "A337561",
+    "A337599",
+    "A337605",
+    "A337666",
+    "A337667"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

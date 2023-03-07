@@ -1,0 +1,19 @@
+{
+  "description": "Number of set partitions of [n] such that the smallest element of each block is odd.",
+  "id": "A290383",
+  "mentions": [
+    "A000110",
+    "A000246",
+    "A290384"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

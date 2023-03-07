@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) = T(n-k,k-1) - T(n-k,k) + T(n-k,k+1) with T(0,0) = 1 for 0 <= k <= A003056(n).",
+  "id": "A291957",
+  "mentions": [
+    "A000007",
+    "A003056",
+    "A111165",
+    "A291958"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

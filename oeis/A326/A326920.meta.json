@@ -1,0 +1,22 @@
+{
+  "description": "Constant term in the expansion of (-1 + Product_{k=1..n} (1 + x_k + 1/x_k))^n.",
+  "id": "A326920",
+  "mentions": [
+    "A002426",
+    "A094061",
+    "A126869",
+    "A328874",
+    "A328875"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

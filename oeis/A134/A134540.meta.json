@@ -1,0 +1,22 @@
+{
+  "description": "A054525 * A000012.",
+  "id": "A134540",
+  "mentions": [
+    "A000010",
+    "A000012",
+    "A054525"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "more",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

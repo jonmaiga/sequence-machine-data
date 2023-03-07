@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of eta(q) * eta(q^36) / (eta(q^4) * eta(q^9)) in powers of q.",
+  "id": "A182038",
+  "mentions": [
+    "A092848",
+    "A187020",
+    "A213266"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:21:09",
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
+  }
+}

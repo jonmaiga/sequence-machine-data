@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of 1/j^4 where j is the elliptic modular invariant (A000521).",
+  "id": "A289455",
+  "mentions": [
+    "A000521",
+    "A066395",
+    "A288727",
+    "A289454"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:03",
+    "offset": 4,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

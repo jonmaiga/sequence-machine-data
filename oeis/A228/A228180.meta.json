@@ -1,0 +1,20 @@
+{
+  "description": "The number of single edges on the boundary of ordered trees with n edges.",
+  "id": "A228180",
+  "mentions": [
+    "A000108",
+    "A070031",
+    "A228178"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

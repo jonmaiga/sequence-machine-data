@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of the higher-order exponential integral E(x, m=2, n=1) at x=1.",
+  "id": "A163931",
+  "mentions": [
+    "A001563",
+    "A002775",
+    "A068985",
+    "A090998",
+    "A091363",
+    "A091364",
+    "A099285",
+    "A163927",
+    "A163932"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:46",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

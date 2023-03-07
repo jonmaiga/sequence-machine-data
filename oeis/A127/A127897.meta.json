@@ -1,0 +1,19 @@
+{
+  "description": "Series reversion of x/(1 + 2*x + 3*x^2 + x^3).",
+  "id": "A127897",
+  "mentions": [
+    "A127896"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:43:11",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

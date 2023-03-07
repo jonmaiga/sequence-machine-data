@@ -1,0 +1,23 @@
+{
+  "description": "Number of exponents in prime factorization of n which are primes.",
+  "id": "A101436",
+  "mentions": [
+    "A010051",
+    "A061742",
+    "A123391",
+    "A125029",
+    "A125070",
+    "A125072"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

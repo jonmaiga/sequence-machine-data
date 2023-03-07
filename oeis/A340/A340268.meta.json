@@ -1,0 +1,27 @@
+{
+  "description": "Composite numbers k>1 such that (s-1) | (d-1) for each d | k, where s = lpf(k) = A020639(k).",
+  "id": "A340268",
+  "mentions": [
+    "A000010",
+    "A000961",
+    "A003586",
+    "A003591",
+    "A003592",
+    "A003593",
+    "A003596",
+    "A020639",
+    "A335902",
+    "A340058",
+    "A340269"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

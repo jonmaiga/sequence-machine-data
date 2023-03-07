@@ -1,0 +1,29 @@
+{
+  "description": "Numbers congruent to 3 or 18 mod 22.",
+  "id": "A306279",
+  "mentions": [
+    "A007310",
+    "A020639",
+    "A042948",
+    "A091999",
+    "A105398",
+    "A131555",
+    "A141850",
+    "A158459",
+    "A273669",
+    "A306277",
+    "A306289"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:24:59",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

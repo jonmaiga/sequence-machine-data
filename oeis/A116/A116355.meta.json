@@ -1,0 +1,20 @@
+{
+  "description": "n times n+9 gives the concatenation of two numbers m and m+9.",
+  "id": "A116355",
+  "mentions": [
+    "A116224",
+    "A116347",
+    "A116354"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:44",
+    "offset": 1,
+    "size": 11,
+    "source": "joeis"
+  }
+}

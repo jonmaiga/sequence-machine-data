@@ -1,0 +1,19 @@
+{
+  "description": "Triangle T(n,k) = (-1)^(k+1) if n is odd, = (-1)^k if n and k are even, = 2*(-1)^k if n is even and k is odd, 0<=k<=n.",
+  "id": "A122750",
+  "mentions": [
+    "A080512"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:17:01",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

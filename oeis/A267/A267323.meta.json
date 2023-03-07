@@ -1,0 +1,19 @@
+{
+  "description": "The number of permutations in S_n with strategic pile of size 3.",
+  "id": "A267323",
+  "mentions": [
+    "A267324",
+    "A267391"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

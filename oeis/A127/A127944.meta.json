@@ -1,0 +1,22 @@
+{
+  "description": "Partial sums of A093049.",
+  "id": "A127944",
+  "mentions": [
+    "A000217",
+    "A005187",
+    "A093049",
+    "A127943"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Smallest odd k > 1 such that k*2^prime(n) + 1 is prime.",
+  "id": "A253398",
+  "mentions": [
+    "A247479",
+    "A253027"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:11",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

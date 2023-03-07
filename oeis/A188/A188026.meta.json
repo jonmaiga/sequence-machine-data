@@ -1,0 +1,17 @@
+{
+  "description": "Positions of 0 in the zero-one sequence given by z(n)=[nr]-[nr-8r]-[8r], where r=(1+sqrt(5))/2, [ ]=floor, n>=1.",
+  "id": "A188026",
+  "mentions": [
+    "A188014"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:17:55",
+    "offset": 1,
+    "size": 71,
+    "source": "joeis"
+  }
+}

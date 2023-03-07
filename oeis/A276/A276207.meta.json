@@ -1,0 +1,19 @@
+{
+  "description": "a(0) = a(1) = 0. For n>1 a(n) is the smallest nonnegative integer such that there is no arithmetic progression m_1,m_2,...,m_i,n (2<=i",
+  "id": "A276207",
+  "mentions": [
+    "A276204",
+    "A276205",
+    "A276206"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 0,
+    "size": 112,
+    "source": "oeis-bfile"
+  }
+}

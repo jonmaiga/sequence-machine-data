@@ -1,0 +1,21 @@
+{
+  "description": "The total T(d,n) of expressions with n instances of a digit d between 6 and 9 (and using the four arithmetic operators) which have a defined value when evaluated.",
+  "id": "A243312",
+  "mentions": [
+    "A151403"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "more",
+    "nonn",
+    "obsc",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

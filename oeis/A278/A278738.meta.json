@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the index of the first occurrence of -n in A166006.",
+  "id": "A278738",
+  "mentions": [
+    "A039624",
+    "A166006",
+    "A278737"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

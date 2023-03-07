@@ -1,0 +1,23 @@
+{
+  "description": "Palindromic numbers that are also Niven numbers and Smith numbers.",
+  "id": "A334528",
+  "mentions": [
+    "A002113",
+    "A005349",
+    "A006753",
+    "A082232",
+    "A098834",
+    "A334527"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

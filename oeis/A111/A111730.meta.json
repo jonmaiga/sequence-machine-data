@@ -1,0 +1,25 @@
+{
+  "description": "6-almost primes with semiprime digits (digits 4, 6, 9 only).",
+  "id": "A111730",
+  "mentions": [
+    "A001358",
+    "A046306",
+    "A107342",
+    "A111494",
+    "A111496",
+    "A111697"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:44",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

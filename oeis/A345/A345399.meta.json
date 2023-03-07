@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least number k such that {k, k^2, ..., k^n} are all odious numbers (A000069), but k^(n+1) is not.",
+  "id": "A345399",
+  "mentions": [
+    "A000069",
+    "A345398"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

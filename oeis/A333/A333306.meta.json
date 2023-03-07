@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = sqrt(Pi/4)*2^A048881(2*n)*L(2*n) where L(s) = lim_{t->s} (t/2)!/((1-t)/2)!.",
+  "id": "A333306",
+  "mentions": [
+    "A034386",
+    "A046161",
+    "A048881",
+    "A048896",
+    "A278617"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

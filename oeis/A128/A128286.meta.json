@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the n-th smallest product of 5 odd primes m = p1*p2*p3*p4*p5 such that (d+m/d)/2 are all primes for each d dividing m.",
+  "id": "A128286",
+  "mentions": [
+    "A005383",
+    "A128281",
+    "A128283",
+    "A128284",
+    "A128285"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

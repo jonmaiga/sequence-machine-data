@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (4*3^n - 5*2^n + (-2)^n)/20.",
+  "id": "A167910",
+  "mentions": [
+    "A000302"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:52",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

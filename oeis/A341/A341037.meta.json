@@ -1,0 +1,18 @@
+{
+  "description": "The successive remainders of the division by (a(n) + a(n+1)) of concat(a(n),a(n+1)) rebuild the sequence itself.",
+  "id": "A341037",
+  "mentions": [
+    "A095245"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

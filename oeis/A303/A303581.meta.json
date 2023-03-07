@@ -1,0 +1,18 @@
+{
+  "description": "Add i (>= 0) to the i-th block of terms in the Thue-Morse sequence A010060.",
+  "id": "A303581",
+  "mentions": [
+    "A004718",
+    "A010060"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

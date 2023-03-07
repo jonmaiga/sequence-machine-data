@@ -1,0 +1,24 @@
+{
+  "description": "Number of terms in the n-th row of the triangle A324156.",
+  "id": "A324157",
+  "mentions": [
+    "A324154",
+    "A324155",
+    "A324156",
+    "A324161"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 2,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

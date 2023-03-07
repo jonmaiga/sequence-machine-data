@@ -1,0 +1,23 @@
+{
+  "description": "Those positive integers n where, when written in binary, there are exactly k number of runs (of either 0's or 1's) each of exactly k length, for all k where 1<=k<=m, for some positive integer m.",
+  "id": "A175356",
+  "mentions": [
+    "A000217",
+    "A000330",
+    "A005811",
+    "A022915",
+    "A175061",
+    "A175357"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

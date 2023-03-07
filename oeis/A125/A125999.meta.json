@@ -1,0 +1,23 @@
+{
+  "description": "Square array A(g,h) = 1 if combinatorial game g has value greater than or equal to that of game h, otherwise 0, listed antidiagonally in order A(0,0), A(1,0), A(0,1), A(2,0), A(1,1), A(0,2), ...",
+  "id": "A125999",
+  "mentions": [
+    "A106485",
+    "A106486",
+    "A126000",
+    "A126001",
+    "A126002",
+    "A126010"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 120,
+    "source": "oeis-entry"
+  }
+}

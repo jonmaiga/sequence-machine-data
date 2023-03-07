@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n into 3 parts where at least one part divides another.",
+  "id": "A343246",
+  "mentions": [
+    "A343126"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

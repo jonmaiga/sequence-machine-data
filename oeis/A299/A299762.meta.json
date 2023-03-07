@@ -1,0 +1,30 @@
+{
+  "description": "Irregular triangle T(n,k) read by rows in which row n lists the positive integers whose sum of divisors is n, or 0 if no such integer exists.",
+  "id": "A299762",
+  "mentions": [
+    "A000203",
+    "A002191",
+    "A002192",
+    "A007368",
+    "A007369",
+    "A007609",
+    "A008578",
+    "A051444",
+    "A054973",
+    "A057637",
+    "A085790",
+    "A258913"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

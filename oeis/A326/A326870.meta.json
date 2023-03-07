@@ -1,0 +1,29 @@
+{
+  "description": "Number of connectedness systems covering n vertices.",
+  "id": "A326870",
+  "mentions": [
+    "A072445",
+    "A072446",
+    "A072447",
+    "A102896",
+    "A323818",
+    "A326866",
+    "A326867",
+    "A326868",
+    "A326869",
+    "A326871",
+    "A326872",
+    "A326877"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

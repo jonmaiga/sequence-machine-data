@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,k) = coefficient of x^n in expansion of ((1 -sqrt(1 - 4*x - 4*x^2))/2)^k.",
+  "id": "A200756",
+  "mentions": [
+    "A000108",
+    "A025227",
+    "A030528",
+    "A033184"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

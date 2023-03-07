@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that 6*10^n + 2*R_n + 7 is prime, where R_n = 11...1 is the repunit (A002275) of length n.",
+  "id": "A103031",
+  "mentions": [
+    "A002275",
+    "A101524"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "bref",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

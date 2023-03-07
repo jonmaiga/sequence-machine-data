@@ -1,0 +1,19 @@
+{
+  "description": "Numerator of Laguerre(n, -6).",
+  "id": "A160607",
+  "mentions": [
+    "A160608",
+    "A289212"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

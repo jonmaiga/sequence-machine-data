@@ -1,0 +1,21 @@
+{
+  "description": "Autobiographical numbers in base 4: numbers which are fixed or belong to a cycle under the operator T.",
+  "id": "A267492",
+  "mentions": [
+    "A047841",
+    "A267491"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that 10^n-2*n-1 is prime",
+  "id": "A174177",
+  "mentions": [
+    "A110065",
+    "A110066",
+    "A110067",
+    "A173837",
+    "A173839",
+    "A174176"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Rank of 2n^2 when {i^3: i>=1} and {2j^2: j>=1} are jointly ranked with i^3 before 2j^2 when i^3=2j^2. Complement of A186156.",
+  "id": "A186157",
+  "mentions": [
+    "A186145",
+    "A186156"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:31:53",
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

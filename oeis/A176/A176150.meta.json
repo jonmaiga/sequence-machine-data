@@ -1,0 +1,21 @@
+{
+  "description": "Numerators of the inverse binomial transform of a shuffled sequence of \"original\" Bernoulli and Bernoulli numbers.",
+  "id": "A176150",
+  "mentions": [
+    "A027641",
+    "A027642",
+    "A164555"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "frac",
+    "sign",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

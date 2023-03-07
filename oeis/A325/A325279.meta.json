@@ -1,0 +1,27 @@
+{
+  "description": "Number of integer partitions of n whose maximum multiplicity is one greater than their minimum multiplicity.",
+  "id": "A325279",
+  "mentions": [
+    "A047966",
+    "A062770",
+    "A071625",
+    "A098859",
+    "A117571",
+    "A127002",
+    "A325241",
+    "A325242",
+    "A325244",
+    "A325245",
+    "A325280"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

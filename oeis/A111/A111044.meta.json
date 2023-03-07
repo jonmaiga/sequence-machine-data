@@ -1,0 +1,20 @@
+{
+  "description": "Integers which can be written as a sum of at least 2 consecutive squares in at least 3 different ways.",
+  "id": "A111044",
+  "mentions": [
+    "A001653",
+    "A062681",
+    "A097812",
+    "A174069"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

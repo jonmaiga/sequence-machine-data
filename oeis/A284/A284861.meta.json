@@ -1,0 +1,32 @@
+{
+  "description": "Triangle read by rows: T(n, k) = S2[3,1](n, k)*k! with the Sheffer triangle S2[3,1] = (exp(x), exp(3*x) -1) given in A282629.",
+  "id": "A284861",
+  "mentions": [
+    "A000012",
+    "A002450",
+    "A016223",
+    "A019538",
+    "A021874",
+    "A032031",
+    "A111577",
+    "A122803",
+    "A131689",
+    "A145901",
+    "A151919",
+    "A225117",
+    "A282629"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Smallest positive integer that cannot be obtained as the number of linear extensions of a poset of size n.",
+  "id": "A281723",
+  "mentions": [
+    "A160371"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

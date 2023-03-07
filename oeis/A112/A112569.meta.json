@@ -1,0 +1,19 @@
+{
+  "description": "Antidiagonal sums of square table A112564 of generalized Flavius Josephus sieves.",
+  "id": "A112569",
+  "mentions": [
+    "A000960",
+    "A112564"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

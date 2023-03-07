@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) = T(n-1, k-1) - T(n-k, k-1); left border = (1, 2, 4, 8, 16, 32, ...).",
+  "id": "A137710",
+  "mentions": [
+    "A137711",
+    "A180339"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Automorphic semiprimes: semiprimes, sp, such that sp is the k-th semiprime and sp ends in k.",
+  "id": "A185999",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A001358",
+    "A035383",
+    "A046883",
+    "A186000"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

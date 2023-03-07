@@ -1,0 +1,18 @@
+{
+  "description": "Number of set partitions of [3n] with minimal block length multiplicity equal to n.",
+  "id": "A271715",
+  "mentions": [
+    "A271424"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:36",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

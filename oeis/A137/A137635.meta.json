@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=0..n} C(2k,k)*C(2k,n-k); equals row 0 of square array A137634.",
+  "id": "A137635",
+  "mentions": [
+    "A073157",
+    "A137634",
+    "A137636",
+    "A137637",
+    "A137638"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:47:06",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

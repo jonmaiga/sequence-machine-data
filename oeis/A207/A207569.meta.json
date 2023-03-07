@@ -1,0 +1,25 @@
+{
+  "description": "G.f.: Sum_{n>=0} Product_{k=1..n} ((1+x)^(2*k-1) - 1).",
+  "id": "A207569",
+  "mentions": [
+    "A053250",
+    "A158691",
+    "A179525",
+    "A207557",
+    "A207570",
+    "A207571",
+    "A215066"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:27",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

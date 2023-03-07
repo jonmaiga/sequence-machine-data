@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=1..n} k^2*sigma(k), where sigma is A000203.",
+  "id": "A319086",
+  "mentions": [
+    "A000203",
+    "A024916",
+    "A143128"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

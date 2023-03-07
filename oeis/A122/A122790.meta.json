@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Wagon's constant: the average \"dropping time\" of the Collatz (3x+1) iteration.",
+  "id": "A122790",
+  "mentions": [
+    "A020914",
+    "A060445",
+    "A100982",
+    "A122437",
+    "A122791"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

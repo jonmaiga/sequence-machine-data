@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k = x.y which when split into two parts x and y of equal length, added and squared result in the same number k, '.' means concatenation, and the second part y starts with 0.",
+  "id": "A350918",
+  "mentions": [
+    "A059988",
+    "A238237",
+    "A350870"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

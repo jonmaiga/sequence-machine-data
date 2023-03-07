@@ -1,0 +1,22 @@
+{
+  "description": "Indices of Mersenne primes among primes of the form 24k+7 (A107006).",
+  "id": "A139484",
+  "mentions": [
+    "A107006",
+    "A124477",
+    "A139479",
+    "A139483"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 2,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

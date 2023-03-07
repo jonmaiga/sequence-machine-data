@@ -1,0 +1,23 @@
+{
+  "description": "Pairs (i,j) of positive integers with at least one common 1-bit sorted first by i+j then by i.",
+  "id": "A353296",
+  "mentions": [
+    "A004198",
+    "A048967",
+    "A352909",
+    "A353297",
+    "A353298"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

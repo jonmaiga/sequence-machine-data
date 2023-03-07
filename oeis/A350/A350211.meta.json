@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that the arithmetic mean of the digits of k! is an integer.",
+  "id": "A350211",
+  "mentions": [
+    "A000142",
+    "A004152",
+    "A034886",
+    "A058814",
+    "A061383"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

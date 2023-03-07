@@ -1,0 +1,23 @@
+{
+  "description": "(2*3^(n-1)+1)^2.",
+  "id": "A169724",
+  "mentions": [
+    "A000290",
+    "A052919",
+    "A100702",
+    "A169720",
+    "A169727"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:53",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

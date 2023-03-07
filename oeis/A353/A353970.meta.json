@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of ways to write n as a sum of distinct terms of A353969.",
+  "id": "A353970",
+  "mentions": [
+    "A353969",
+    "A353971"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 0,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

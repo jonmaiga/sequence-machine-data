@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that n!!-8 is prime.",
+  "id": "A259359",
+  "mentions": [
+    "A006882",
+    "A007749",
+    "A094144",
+    "A123910",
+    "A258616"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

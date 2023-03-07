@@ -1,0 +1,25 @@
+{
+  "description": "Concatenated shortest (x+1,2x)-codes for the positive integers.",
+  "id": "A233136",
+  "mentions": [
+    "A000045",
+    "A030302",
+    "A040039",
+    "A135529",
+    "A232559",
+    "A233135",
+    "A233137",
+    "A233138"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

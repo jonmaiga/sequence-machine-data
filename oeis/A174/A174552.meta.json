@@ -1,0 +1,19 @@
+{
+  "description": "Triangular array T(n,k): The differences in the columns of A174551.",
+  "id": "A174552",
+  "mentions": [
+    "A055869",
+    "A174551"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

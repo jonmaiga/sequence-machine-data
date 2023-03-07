@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{i=0..n} (i+1)^2*n^i.",
+  "id": "A189122",
+  "mentions": [
+    "A062806",
+    "A189001"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

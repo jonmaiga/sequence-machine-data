@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is obtained from n by removing factors of 2 and 3 that do not contribute to a factor of 6.",
+  "id": "A214681",
+  "mentions": [
+    "A214682",
+    "A214685"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

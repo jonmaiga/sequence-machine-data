@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 1; for n>1, a(n) = least k such that concatenation of n copies of k with all previous concatenations gives a prime.",
+  "id": "A111471",
+  "mentions": [
+    "A111472"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Nontrivial values of Fibonacci polynomials.",
+  "id": "A277625",
+  "mentions": [
+    "A000045",
+    "A000129",
+    "A001076",
+    "A002522",
+    "A006190",
+    "A052918",
+    "A054602",
+    "A073133",
+    "A085151",
+    "A104244",
+    "A206296"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "description": "Ludic array: square array A(row,col), where row n lists the numbers removed at stage n in the sieve which produces Ludic numbers. Array is read by antidiagonals A(1,1), A(1,2), A(2,1), A(1,3), A(2,2), A(3,1), ...",
+  "id": "A255127",
+  "mentions": [
+    "A002260",
+    "A003309",
+    "A004736",
+    "A005843",
+    "A016945",
+    "A083221",
+    "A192506",
+    "A192607",
+    "A254100",
+    "A255128",
+    "A255129",
+    "A255410",
+    "A255413",
+    "A255414",
+    "A255415",
+    "A255416",
+    "A255417",
+    "A255418",
+    "A255419",
+    "A255543",
+    "A255551",
+    "A257257",
+    "A257258",
+    "A260717",
+    "A260738",
+    "A260739",
+    "A269379",
+    "A269380",
+    "A269384",
+    "A271419",
+    "A271420",
+    "A272565",
+    "A276580",
+    "A276610"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 2,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

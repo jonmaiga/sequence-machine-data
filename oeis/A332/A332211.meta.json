@@ -1,0 +1,24 @@
+{
+  "description": "Lexicographically earliest permutation of primes such that a(n) = 2^n - 1 when n is one of the Mersenne prime exponents (in A000043).",
+  "id": "A332211",
+  "mentions": [
+    "A000040",
+    "A000043",
+    "A000668",
+    "A332210",
+    "A332212",
+    "A332214",
+    "A332220"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

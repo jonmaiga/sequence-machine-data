@@ -1,0 +1,17 @@
+{
+  "description": "Ordered values j of pairs (j,k) that generate A120090.",
+  "id": "A120091",
+  "mentions": [
+    "A120090"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

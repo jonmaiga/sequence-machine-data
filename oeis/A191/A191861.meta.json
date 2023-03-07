@@ -1,0 +1,18 @@
+{
+  "description": "Second member of a pair of numbers occurring in the definition of 1-happy couples.",
+  "id": "A191861",
+  "mentions": [
+    "A007968",
+    "A007969"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

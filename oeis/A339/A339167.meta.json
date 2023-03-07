@@ -1,0 +1,18 @@
+{
+  "description": "Rounded value of 1/(x[n] + n), where x[n] is the n-th negative solution to Gamma(x) = x^2.",
+  "id": "A339167",
+  "mentions": [
+    "A264785",
+    "A339161"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

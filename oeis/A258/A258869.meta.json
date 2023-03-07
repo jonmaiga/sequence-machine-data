@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of 1 to the basis 1.880000478655... (A127583).",
+  "id": "A258869",
+  "mentions": [
+    "A127583"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:57:23",
+    "offset": 1,
+    "size": 107,
+    "source": "joeis"
+  }
+}

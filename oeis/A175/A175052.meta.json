@@ -1,0 +1,18 @@
+{
+  "description": "Perfect powers (members of A001597) n where the next larger perfect power is congruent mod 2 to n.",
+  "id": "A175052",
+  "mentions": [
+    "A001597",
+    "A175053"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

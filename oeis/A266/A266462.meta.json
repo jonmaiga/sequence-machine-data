@@ -1,0 +1,18 @@
+{
+  "description": "The number of conjugacy classes of invertible n X n matrices over GF(2) which are squares of other such matrices.",
+  "id": "A266462",
+  "mentions": [
+    "A006950"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:27",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

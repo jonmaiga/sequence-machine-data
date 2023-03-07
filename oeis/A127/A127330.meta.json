@@ -1,0 +1,23 @@
+{
+  "description": "Begin with the empty sequence and a starting number s = 0. At step k (k >= 1) append the k consecutive numbers s to s+k-1 and change the starting number (for the next step) to 2s+2.",
+  "id": "A127330",
+  "mentions": [
+    "A000918",
+    "A129142",
+    "A129143",
+    "A145071"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

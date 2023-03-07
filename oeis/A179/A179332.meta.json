@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=1; for each n > 1, a(n) is the smallest number such that Sum_{i=1..n} 1/a(i)^2 < sqrt(2).",
+  "id": "A179332",
+  "mentions": [
+    "A216245"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

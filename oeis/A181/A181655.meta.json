@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of (1+2x-x^3+x^4)/(1-4x^2+3x^4).",
+  "id": "A181655",
+  "mentions": [
+    "A038754",
+    "A040001",
+    "A060816",
+    "A181654",
+    "A198643"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:09:46",
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

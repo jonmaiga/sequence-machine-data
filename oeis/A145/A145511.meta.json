@@ -1,0 +1,26 @@
+{
+  "description": "Dirichlet g.f.: (1-2/2^s+7/4^s)*zeta(s)^3.",
+  "id": "A145511",
+  "mentions": [
+    "A001620",
+    "A007425",
+    "A082633",
+    "A145399",
+    "A145444",
+    "A145501",
+    "A158327",
+    "A158360"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

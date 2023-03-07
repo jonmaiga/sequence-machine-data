@@ -1,0 +1,23 @@
+{
+  "description": "Smallest number with a(n) divisors is in A134865.",
+  "id": "A138394",
+  "mentions": [
+    "A000005",
+    "A005179",
+    "A134865",
+    "A140752",
+    "A140753"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

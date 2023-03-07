@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (A201225(n))^3 - (A201226(n))^2.",
+  "id": "A201227",
+  "mentions": [
+    "A200218",
+    "A201225",
+    "A201226"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:42:05",
+    "offset": 1,
+    "size": 15,
+    "source": "joeis"
+  }
+}

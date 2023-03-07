@@ -1,0 +1,23 @@
+{
+  "description": "Number of ways to write n as 2*t + u^4 + v^4 + 2*w^4 + 3*x^4 + 4*y^4 + 6*z^4, where t is 0 or 1, and u, v, w, x, y, z are nonnegative integers with u <= v and v > 0.",
+  "id": "A267861",
+  "mentions": [
+    "A000583",
+    "A000584",
+    "A002804",
+    "A267826",
+    "A271099",
+    "A271169",
+    "A271237"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:29",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

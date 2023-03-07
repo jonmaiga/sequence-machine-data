@@ -1,0 +1,19 @@
+{
+  "description": "Primes p of the form 4m+3 for which there are exactly as many primitive roots modulo p in the interval [0,p/2] as in the interval [p/2,p].",
+  "id": "A172490",
+  "mentions": [
+    "A118818",
+    "A172480"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

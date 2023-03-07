@@ -1,0 +1,32 @@
+{
+  "description": "Irregular triangle read by rows giving the factorization of n into factors q(i) = prime(i)/i, i > 0.",
+  "id": "A324924",
+  "mentions": [
+    "A000081",
+    "A003963",
+    "A061775",
+    "A109082",
+    "A109129",
+    "A112798",
+    "A120383",
+    "A196050",
+    "A317713",
+    "A324850",
+    "A324922",
+    "A324923",
+    "A324925",
+    "A324931",
+    "A324934"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

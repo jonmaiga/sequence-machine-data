@@ -1,0 +1,21 @@
+{
+  "description": "Number of connected even permutation groups; conjugacy classes of connected subgroups of the alternating group A_n; atomic species based on even permutation groups.",
+  "id": "A116653",
+  "mentions": [
+    "A029726",
+    "A116652",
+    "A116654"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

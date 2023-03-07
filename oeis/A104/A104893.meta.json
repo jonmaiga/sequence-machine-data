@@ -1,0 +1,18 @@
+{
+  "description": "Binary array, related to A103122, read by downward antidiagonals.",
+  "id": "A104893",
+  "mentions": [
+    "A103122"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Sum of the largest parts of the partitions of n into 5 parts.",
+  "id": "A308827",
+  "mentions": [
+    "A026811",
+    "A308822",
+    "A308823",
+    "A308824",
+    "A308825",
+    "A308826"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

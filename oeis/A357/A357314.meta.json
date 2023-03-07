@@ -1,0 +1,22 @@
+{
+  "description": "a(1) = 1; a(n) is the second smallest number k such that k > a(n-1) and concatenation of a(1), ..., a(n-1), k is a palindrome.",
+  "id": "A357314",
+  "mentions": [
+    "A000073",
+    "A002275",
+    "A055642",
+    "A083122",
+    "A305393"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

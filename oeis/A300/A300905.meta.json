@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n^sigma(n) mod sigma(n)^n.",
+  "id": "A300905",
+  "mentions": [
+    "A000203",
+    "A007691",
+    "A100879",
+    "A217872",
+    "A300906"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

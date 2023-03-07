@@ -1,0 +1,20 @@
+{
+  "description": "Emirps starting and ending with composite digit 9.",
+  "id": "A128374",
+  "mentions": [
+    "A006567",
+    "A128375"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

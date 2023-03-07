@@ -1,0 +1,21 @@
+{
+  "description": "Number of circular permutations of length n with no consecutive triples i,i+d,i+2d for all d.",
+  "id": "A174082",
+  "mentions": [
+    "A078628",
+    "A174074",
+    "A174080",
+    "A174081",
+    "A174083"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 4,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

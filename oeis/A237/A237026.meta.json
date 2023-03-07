@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of the n-dimensional hypercube resulting from a sequence of n bisections, each of which splits any part perpendicular to any of the axes.",
+  "id": "A237026",
+  "mentions": [
+    "A237018",
+    "A300474"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

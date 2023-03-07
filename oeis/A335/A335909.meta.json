@@ -1,0 +1,24 @@
+{
+  "description": "Parity of A323173: a(n) = A000035(A323173(n)).",
+  "id": "A335909",
+  "mentions": [
+    "A000035",
+    "A053866",
+    "A064989",
+    "A122111",
+    "A166486",
+    "A323173",
+    "A336119"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

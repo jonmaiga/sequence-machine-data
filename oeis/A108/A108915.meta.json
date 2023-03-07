@@ -1,0 +1,18 @@
+{
+  "description": "Dimensions of the invariant subspaces in a sequence of modules of dimension (n+1)^(n-1) over the symmetric groups S_n.",
+  "id": "A108915",
+  "mentions": [
+    "A000272"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

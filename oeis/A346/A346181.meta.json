@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(n,k) * k^n * (k+1)^(n-1), with a(0)=1.",
+  "id": "A346181",
+  "mentions": [
+    "A217900"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of singular vector tuples for a general n X n X n tensor.",
+  "id": "A271905",
+  "mentions": [
+    "A272551",
+    "A274308",
+    "A284308"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:36",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

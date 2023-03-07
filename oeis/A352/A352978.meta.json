@@ -1,0 +1,19 @@
+{
+  "description": "Lesser term of pairs of numbers of the form (x^y, y^x) whose numbers of digits are repdigits.",
+  "id": "A352978",
+  "mentions": [
+    "A001597",
+    "A010785"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

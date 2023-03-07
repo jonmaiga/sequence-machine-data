@@ -1,0 +1,21 @@
+{
+  "description": "Let M_p = 2^p-1 be a Mersenne prime, where p is an odd prime. Sequence lists p such that b_{p-2} == 2^((p+1)/2) mod M_p, where {b_k} is defined in the Comments.",
+  "id": "A354167",
+  "mentions": [
+    "A000043",
+    "A000668",
+    "A123271",
+    "A354168"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

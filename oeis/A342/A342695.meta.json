@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of primes in an n X n square array that do not appear on its border, with the elements of the square array being the numbers from 1..n^2, listed in increasing order by rows.",
+  "id": "A342695",
+  "mentions": [
+    "A000720",
+    "A038107",
+    "A221490",
+    "A344316",
+    "A344349"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

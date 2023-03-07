@@ -1,0 +1,28 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of connected k-regular multigraphs on n unlabeled nodes, loops allowed, n >= 0, k >= 0.",
+  "id": "A333397",
+  "mentions": [
+    "A005967",
+    "A085549",
+    "A129430",
+    "A129432",
+    "A129434",
+    "A129436",
+    "A167625",
+    "A322115",
+    "A328682",
+    "A333330"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

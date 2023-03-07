@@ -1,0 +1,27 @@
+{
+  "description": "Number of binary sequences of length n with no initial repeats (or, with no final repeats).",
+  "id": "A122536",
+  "mentions": [
+    "A003000",
+    "A093371",
+    "A121880",
+    "A216955",
+    "A216957",
+    "A216958",
+    "A216959",
+    "A217209",
+    "A218869",
+    "A218870"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:11",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

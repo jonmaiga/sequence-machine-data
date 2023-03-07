@@ -1,0 +1,19 @@
+{
+  "description": "Number of corner-rooted pentagulations of girth 5 with 2n+1 inner faces.",
+  "id": "A179299",
+  "mentions": [
+    "A001764",
+    "A069271",
+    "A179300"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

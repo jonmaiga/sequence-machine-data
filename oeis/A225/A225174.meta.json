@@ -1,0 +1,23 @@
+{
+  "description": "Square array read by antidiagonals: T(m,n) = greatest common unitary divisor of m and n.",
+  "id": "A225174",
+  "mentions": [
+    "A034444",
+    "A059895",
+    "A077610",
+    "A165430"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

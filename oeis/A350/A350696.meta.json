@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least nonnegative integer k such that 2^n + k is a safe prime.",
+  "id": "A350696",
+  "mentions": [
+    "A057821",
+    "A111671",
+    "A181356",
+    "A243916",
+    "A335313"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 2,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

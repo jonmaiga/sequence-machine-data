@@ -1,0 +1,20 @@
+{
+  "description": "Number of canonical sequences of moves of length n for the Rubik cube puzzle using the half-turn metric.",
+  "id": "A333298",
+  "mentions": [
+    "A080601",
+    "A080602",
+    "A333299"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

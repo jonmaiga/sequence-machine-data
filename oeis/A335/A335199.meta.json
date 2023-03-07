@@ -1,0 +1,19 @@
+{
+  "description": "Infinitary Zumkeller numbers (A335197) whose set of infinitary divisors can be partitioned into two disjoint sets of equal sum in a single way.",
+  "id": "A335199",
+  "mentions": [
+    "A077609",
+    "A083209",
+    "A335197"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

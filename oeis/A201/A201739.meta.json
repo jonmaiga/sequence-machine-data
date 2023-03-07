@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that 90*n + 29 is prime.",
+  "id": "A201739",
+  "mentions": [
+    "A142327",
+    "A181732",
+    "A195993",
+    "A196000",
+    "A196007",
+    "A198382",
+    "A201734"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

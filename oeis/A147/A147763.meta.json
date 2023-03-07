@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = smallest k such that n = d*(d-b)*(d+c), where b, c, d >= 0 and k = b+c.",
+  "id": "A147763",
+  "mentions": [
+    "A056737"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Differences of two consecutive primes which both equal 1 modulo 3, divided by 6.",
+  "id": "A219244",
+  "mentions": [
+    "A185934",
+    "A217659"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

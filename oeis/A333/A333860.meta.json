@@ -1,0 +1,26 @@
+{
+  "description": "The maximum Hamming (binary) weight of the elements of the Collatz orbit of n, or -1 if 1 is never reached.",
+  "id": "A333860",
+  "mentions": [
+    "A000120",
+    "A006370",
+    "A008908",
+    "A070165",
+    "A333861",
+    "A352895",
+    "A352897"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

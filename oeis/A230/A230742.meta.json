@@ -1,0 +1,18 @@
+{
+  "description": "Successive quadruplets 30*q, 30*q-5, 30*q+5, 30*q+10 in A064413(n).",
+  "id": "A230742",
+  "mentions": [
+    "A064413"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

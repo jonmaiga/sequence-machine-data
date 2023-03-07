@@ -1,0 +1,25 @@
+{
+  "description": "Number of primes <= n that are safe primes or Sophie Germain primes.",
+  "id": "A156876",
+  "mentions": [
+    "A000720",
+    "A005384",
+    "A005385",
+    "A156658",
+    "A156874",
+    "A156875",
+    "A156877",
+    "A156878"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

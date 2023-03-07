@@ -1,0 +1,29 @@
+{
+  "description": "The trunk of number-of-runs beanstalk, halved: a(n) = A255056(n)/2.",
+  "id": "A255057",
+  "mentions": [
+    "A255056",
+    "A255058",
+    "A255067",
+    "A255122",
+    "A255125",
+    "A255126",
+    "A255328",
+    "A255329",
+    "A255330",
+    "A255337",
+    "A255338",
+    "A255339"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

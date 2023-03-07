@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of q^3 * f( -q, -q^8)^4 * f( -q^2, -q^7) / (f( -q) * f( -q^4, -q^5)^2) in powers of q where f() is Ramanujan's general theta function.",
+  "id": "A256004",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:31:01",
+    "offset": 3,
+    "size": 79,
+    "source": "joeis"
+  }
+}

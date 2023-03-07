@@ -1,0 +1,32 @@
+{
+  "description": "Numbers whose prime indices have strictly increasing run-sums. Heinz numbers of the partitions counted by A304428.",
+  "id": "A357862",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A056239",
+    "A112798",
+    "A118914",
+    "A181819",
+    "A275870",
+    "A300273",
+    "A304405",
+    "A304428",
+    "A304430",
+    "A304442",
+    "A354584",
+    "A357863",
+    "A357864",
+    "A357875"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

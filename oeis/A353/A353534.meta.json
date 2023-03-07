@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least prime p such that the numerator of the sum of reciprocals of the 2*n+1 consecutive primes starting with p is a prime.",
+  "id": "A353534",
+  "mentions": [
+    "A024451",
+    "A244622",
+    "A354221"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

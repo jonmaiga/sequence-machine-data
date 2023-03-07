@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = {1{0}^(A268336(n)-1)}^(n-1){1}{0}^A051903(n): upper bound for A329126(n).",
+  "id": "A329338",
+  "mentions": [
+    "A007088",
+    "A051903",
+    "A268336",
+    "A329000",
+    "A329126",
+    "A329339"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

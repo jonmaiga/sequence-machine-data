@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k that are squares or twice-squares, but for which A087808(sigma(k)) is even.",
+  "id": "A332444",
+  "mentions": [
+    "A000203",
+    "A028982",
+    "A087808",
+    "A332224",
+    "A332225",
+    "A332443"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

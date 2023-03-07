@@ -1,0 +1,23 @@
+{
+  "description": "Rectangular array, read by antidiagonals, where row e.g.f.s, R(n,x), satisfy: d/dx log( R(n,x) ) = R(n+1,x)^(2^n) with R(n,0) = 1; that is, the logarithmic derivative of the e.g.f. of row n equals the e.g.f. of row n+1 to the 2^n power, for n>=0.",
+  "id": "A159314",
+  "mentions": [
+    "A126444",
+    "A145085",
+    "A159315",
+    "A159316",
+    "A159317"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

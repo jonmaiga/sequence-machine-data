@@ -1,0 +1,19 @@
+{
+  "description": "Partial sums of sigma_A100706(n).",
+  "id": "A180027",
+  "mentions": [
+    "A002477",
+    "A014824",
+    "A100706"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 1,
+    "size": 12,
+    "source": "joeis"
+  }
+}

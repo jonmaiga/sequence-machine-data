@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that digital root of n is 2*(digital root of n-th prime).",
+  "id": "A259032",
+  "mentions": [
+    "A010888",
+    "A038194",
+    "A258876",
+    "A258877",
+    "A259040"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

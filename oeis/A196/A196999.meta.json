@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of slope of the line y=mx which meets the curve y=cos(5x/2) orthogonally (as in A196998).",
+  "id": "A196999",
+  "mentions": [
+    "A196996",
+    "A196997",
+    "A196998",
+    "A197000",
+    "A197002"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

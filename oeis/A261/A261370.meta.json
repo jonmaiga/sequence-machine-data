@@ -1,0 +1,21 @@
+{
+  "description": "Permutation of nonnegative integers where a number having digits in nondescending order is followed by all numbers having the same digits arranged in increasing order.",
+  "id": "A261370",
+  "mentions": [
+    "A009994",
+    "A179239",
+    "A187769"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

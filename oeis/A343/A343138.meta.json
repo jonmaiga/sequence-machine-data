@@ -1,0 +1,26 @@
+{
+  "description": "Array A(k, n) read by descending antidiagonals: A(k, n) = Sum_{m=0..n} F(k, m)^2, where F are the k-generalized Fibonacci numbers A092921.",
+  "id": "A343138",
+  "mentions": [
+    "A001477",
+    "A001654",
+    "A047849",
+    "A057427",
+    "A092921",
+    "A107239",
+    "A343125"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

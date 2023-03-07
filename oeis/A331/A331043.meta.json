@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of triangles with integer sides i <= j <= k with squared radius of incircle b(n) = A331040(n)/A331041(n). Records of numbers of distinct triangles such that all smaller radii produce fewer triangles sharing the same radius of incircle than the current radius b(n).",
+  "id": "A331043",
+  "mentions": [
+    "A120062",
+    "A331040",
+    "A331041",
+    "A331042"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

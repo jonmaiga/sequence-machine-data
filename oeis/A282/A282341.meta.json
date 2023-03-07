@@ -1,0 +1,19 @@
+{
+  "description": "Primes p of the form x^2 + y^2 such that q = (x^2 + 1)/y^2 is a prime less than p.",
+  "id": "A282341",
+  "mentions": [
+    "A002313",
+    "A002496",
+    "A031396"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

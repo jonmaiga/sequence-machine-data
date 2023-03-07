@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k that divide 2^k + 5.",
+  "id": "A245318",
+  "mentions": [
+    "A128121",
+    "A168614"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

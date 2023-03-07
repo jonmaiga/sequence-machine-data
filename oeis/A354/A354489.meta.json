@@ -1,0 +1,20 @@
+{
+  "description": "Widths w of w X h grid rectangles with w > h such that no quadrilaterals with 2 < h < w as defined in A353532 exist, whose angle between their diagonals is equal to the angle between the diagonals of the grid rectangle.",
+  "id": "A354489",
+  "mentions": [
+    "A325160",
+    "A353532",
+    "A354488"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

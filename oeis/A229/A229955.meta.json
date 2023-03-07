@@ -1,0 +1,22 @@
+{
+  "description": "Triangular array read by rows: 3 dimensional analog of A227997.",
+  "id": "A229955",
+  "mentions": [
+    "A002897",
+    "A094059",
+    "A227997"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

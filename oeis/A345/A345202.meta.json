@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of gamma + zeta(2), where gamma is Euler's constant (A001620).",
+  "id": "A345202",
+  "mentions": [
+    "A001620",
+    "A013661",
+    "A048760"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:21",
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

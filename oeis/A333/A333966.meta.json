@@ -1,0 +1,21 @@
+{
+  "description": "Positive integers where the number of triples of divisors (d1, d2, d3) such that d1 < d2 < d3 < 2*d1 and each pair of these divisors is pairwise coprime, sets a new record.",
+  "id": "A333966",
+  "mentions": [
+    "A025487",
+    "A336442",
+    "A336443",
+    "A336628",
+    "A336629"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

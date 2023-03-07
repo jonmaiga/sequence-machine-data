@@ -1,0 +1,19 @@
+{
+  "description": "G-cyclic numbers k such that A060968(k)^A060968(k) <> 1 (mod k) and A235863(k)^A235863(k) <> 1 (mod k).",
+  "id": "A235867",
+  "mentions": [
+    "A060968",
+    "A235863",
+    "A235866"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:53",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

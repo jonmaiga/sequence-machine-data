@@ -1,0 +1,19 @@
+{
+  "description": "Even perfect numbers w from A000396 such that number m = w / 2^(k(w) - 1) - 2^((k(w) - 1)/2) + 1 = 2^k(w) - 2^((k(w) - 1)/2) is also an even perfect number, where k(w) is the Mersenne exponent (A000043) for number w.",
+  "id": "A330164",
+  "mentions": [
+    "A000043",
+    "A000396",
+    "A330163"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

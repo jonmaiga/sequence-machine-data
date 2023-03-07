@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k) (n>=1, 0<=k",
+  "id": "A263757",
+  "mentions": [
+    "A000071",
+    "A000142",
+    "A001710",
+    "A276727",
+    "A276837",
+    "A276974",
+    "A277031"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

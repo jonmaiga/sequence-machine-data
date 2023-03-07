@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = floor(n/(exp(1/(2*n))-1)).",
+  "id": "A234717",
+  "mentions": [
+    "A033951",
+    "A075123"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:21:07",
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

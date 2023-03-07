@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the numerator of the coefficient c_(2n+1) in the expansion Sum_{k=1..j} 1/(k*(k+1)/2)^2 = Sum_{m>=0} c_m/j^m for large values of j.",
+  "id": "A340277",
+  "mentions": [
+    "A000217",
+    "A000537",
+    "A001897",
+    "A340216"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

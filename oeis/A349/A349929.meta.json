@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that A349509(k) = 3.",
+  "id": "A349929",
+  "mentions": [
+    "A008585",
+    "A082529",
+    "A349509"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

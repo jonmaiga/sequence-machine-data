@@ -1,0 +1,20 @@
+{
+  "description": "Given a square forest of n X n trees, with rows and columns separated by 1 meter, a(n) is the number of trees visible to an observer halfway along one side of the forest, exactly one meter outside.",
+  "id": "A344533",
+  "mentions": [
+    "A049687",
+    "A049691",
+    "A124254",
+    "A300778"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

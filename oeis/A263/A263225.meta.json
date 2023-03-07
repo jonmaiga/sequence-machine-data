@@ -1,0 +1,21 @@
+{
+  "description": "Positive values of n such that A027961(n) is divisible by A000217(n).",
+  "id": "A263225",
+  "mentions": [
+    "A000204",
+    "A000217",
+    "A027961",
+    "A263161"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "description": "Smallest BII-number of a set-system with cut-connectivity n.",
+  "id": "A327234",
+  "mentions": [
+    "A000120",
+    "A002450",
+    "A029931",
+    "A048793",
+    "A070939",
+    "A259862",
+    "A326031",
+    "A326786",
+    "A326853",
+    "A327051",
+    "A327082",
+    "A327098",
+    "A327125",
+    "A327126",
+    "A327127",
+    "A327147",
+    "A327373"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

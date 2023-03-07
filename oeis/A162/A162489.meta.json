@@ -1,0 +1,21 @@
+{
+  "description": "Least y such that x^y + y^x is prime, for x = A162488(n).",
+  "id": "A162489",
+  "mentions": [
+    "A094133",
+    "A162486",
+    "A162488",
+    "A162490"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

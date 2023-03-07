@@ -1,0 +1,24 @@
+{
+  "description": "Sum_{d|n, d==1 or 4 mod 5} d.",
+  "id": "A284150",
+  "mentions": [
+    "A000593",
+    "A003114",
+    "A046913",
+    "A186099",
+    "A284097",
+    "A284103",
+    "A284151"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

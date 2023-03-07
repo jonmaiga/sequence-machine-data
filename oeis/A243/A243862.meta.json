@@ -1,0 +1,21 @@
+{
+  "description": "Number of length n sequences on alphabet {0,1,2} that contain all of 00, 01, 02, 10, 11, 12, 20, 21, 22 as (possibly overlapping) contiguous subsequences.",
+  "id": "A243862",
+  "mentions": [
+    "A242167",
+    "A242206",
+    "A242257",
+    "A242323"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 10,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: row n is binary expansion of 2^n-n, n >= 1.",
+  "id": "A103842",
+  "mentions": [
+    "A000325",
+    "A103582"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

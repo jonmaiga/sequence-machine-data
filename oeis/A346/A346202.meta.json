@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = L(n)^2, where L is Liouville's function.",
+  "id": "A346202",
+  "mentions": [
+    "A002819",
+    "A008836",
+    "A028488"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:29",
+    "offset": 1,
+    "size": 77,
+    "source": "joeis"
+  }
+}

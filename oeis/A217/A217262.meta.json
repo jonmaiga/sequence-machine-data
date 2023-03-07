@@ -1,0 +1,18 @@
+{
+  "description": "Delta sequence for binary words in a minimal-change order (subset-lex Gray code).",
+  "id": "A217262",
+  "mentions": [
+    "A007814",
+    "A108918"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

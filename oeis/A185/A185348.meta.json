@@ -1,0 +1,19 @@
+{
+  "description": "Number of ordered quadruples of distinct pairwise coprime positive integers with largest element n; also first differences of A015623.",
+  "id": "A185348",
+  "mentions": [
+    "A015623",
+    "A185953",
+    "A186972"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

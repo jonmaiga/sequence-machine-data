@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=1..n} k*lcm(k,k')/gcd(k,k'), where k' is arithmetic derivative of k.",
+  "id": "A190122",
+  "mentions": [
+    "A003415",
+    "A189036",
+    "A190118",
+    "A190119",
+    "A190120"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

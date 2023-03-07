@@ -1,0 +1,20 @@
+{
+  "description": "Admirable numbers whose abundance is < 10.",
+  "id": "A109788",
+  "mentions": [
+    "A033880",
+    "A111592",
+    "A111667",
+    "A223609"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

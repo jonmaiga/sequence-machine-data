@@ -1,0 +1,20 @@
+{
+  "description": "Sum of parts, counted without multiplicities, in all partitions of n into odd parts.",
+  "id": "A116930",
+  "mentions": [
+    "A000010",
+    "A014153",
+    "A116929"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:07:19",
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of Sum_{k>=0} (x/(1 - k^3 * x))^k.",
+  "id": "A355472",
+  "mentions": [
+    "A080108",
+    "A355463",
+    "A355471"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

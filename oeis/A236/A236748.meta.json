@@ -1,0 +1,23 @@
+{
+  "description": "Positive integers k such that k^2 divided by the digital sum of k is a square.",
+  "id": "A236748",
+  "mentions": [
+    "A001102",
+    "A007953",
+    "A028839",
+    "A236749",
+    "A236750",
+    "A236751"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

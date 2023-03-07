@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = Least number with the prime signature of A276573(n).",
+  "id": "A278497",
+  "mentions": [
+    "A002828",
+    "A046523",
+    "A260733",
+    "A276573",
+    "A277014",
+    "A278160",
+    "A278232",
+    "A278498",
+    "A278499"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

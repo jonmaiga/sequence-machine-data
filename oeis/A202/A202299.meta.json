@@ -1,0 +1,20 @@
+{
+  "description": "y-values in the solution to x^2 - 18*y^2 = 1.",
+  "id": "A202299",
+  "mentions": [
+    "A001542",
+    "A056771"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Numbers such that antisigma(n) mod sigma(n) = phi(n), where antisigma(n) is the sum of the numbers less than n that do not divide n, sigma(n) is the sum of the divisors of n and phi(n) is the Euler totient function of n.",
+  "id": "A272338",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A000244",
+    "A024816",
+    "A232324",
+    "A272337"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

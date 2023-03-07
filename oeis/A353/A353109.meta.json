@@ -1,0 +1,39 @@
+{
+  "description": "Array read by antidiagonals: A(n, k) is the digital root of n*k with n >= 0 and k >= 0.",
+  "id": "A353109",
+  "mentions": [
+    "A003991",
+    "A004247",
+    "A010888",
+    "A056992",
+    "A073636",
+    "A139413",
+    "A180592",
+    "A180593",
+    "A180594",
+    "A180595",
+    "A180596",
+    "A180597",
+    "A180598",
+    "A180599",
+    "A303296",
+    "A336225",
+    "A353128",
+    "A353933",
+    "A353974"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

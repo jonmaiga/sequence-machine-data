@@ -1,0 +1,40 @@
+{
+  "description": "Position where concatenate(1,...,n) occurs for the first time in the decimals of Pi (where 3, 1, 4,... are at position 0, 1, 2,...).",
+  "id": "A121280",
+  "mentions": [
+    "A000796",
+    "A035117",
+    "A048940",
+    "A050279",
+    "A050281",
+    "A050282",
+    "A050283",
+    "A050284",
+    "A050286",
+    "A050287",
+    "A068987",
+    "A096755",
+    "A096756",
+    "A096757",
+    "A096758",
+    "A096759",
+    "A096760",
+    "A096761",
+    "A096762",
+    "A096763",
+    "A176341"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

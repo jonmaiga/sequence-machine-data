@@ -1,0 +1,29 @@
+{
+  "description": "Number of cycles of n-digit numbers (including fixed points) under the base-9 Kaprekar map A165110.",
+  "id": "A165123",
+  "mentions": [
+    "A004526",
+    "A164731",
+    "A165006",
+    "A165025",
+    "A165045",
+    "A165064",
+    "A165084",
+    "A165103",
+    "A165110",
+    "A165115",
+    "A165124",
+    "A165125"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

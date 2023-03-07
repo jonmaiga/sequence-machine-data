@@ -1,0 +1,18 @@
+{
+  "description": "Prime-additive numbers: numbers n with at least 2 distinct prime factors, that can be represented as n = Sum_{p|n} p^e_p, with e_p > 0.",
+  "id": "A302753",
+  "mentions": [
+    "A296717",
+    "A302755"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

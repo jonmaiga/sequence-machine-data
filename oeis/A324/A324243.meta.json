@@ -1,0 +1,22 @@
+{
+  "description": "Rotkiewicz numbers: numbers k such that a^sigma(k) == b^sigma(k) (mod k) for all pairs of numbers a, b such that gcd(a*b, k) = 1, where sigma(k) is the sum of divisors of k (A000203).",
+  "id": "A324243",
+  "mentions": [
+    "A000043",
+    "A000203",
+    "A000668",
+    "A002322",
+    "A019434",
+    "A236693"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:49",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

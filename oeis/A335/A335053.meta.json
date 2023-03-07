@@ -1,0 +1,22 @@
+{
+  "description": "Odd bi-unitary abundant numbers whose bi-unitary abundancy is closer to 2 than that of any smaller odd bi-unitary abundant number.",
+  "id": "A335053",
+  "mentions": [
+    "A188263",
+    "A188999",
+    "A293186",
+    "A302571",
+    "A335052",
+    "A335055"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

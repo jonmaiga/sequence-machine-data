@@ -1,0 +1,20 @@
+{
+  "description": "Least k formed by the concatenation of two numbers n and d such that d is the n-th divisor of k, or 0 if no such k exists.",
+  "id": "A257491",
+  "mentions": [
+    "A000012",
+    "A020639"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

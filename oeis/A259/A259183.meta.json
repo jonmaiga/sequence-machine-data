@@ -1,0 +1,18 @@
+{
+  "description": "Complement of A259444.",
+  "id": "A259183",
+  "mentions": [
+    "A259444"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

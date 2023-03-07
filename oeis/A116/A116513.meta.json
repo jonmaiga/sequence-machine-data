@@ -1,0 +1,18 @@
+{
+  "description": "Number of distinct hexagons of n points chosen from triangular lattice A_2 with sides parallel to the principal axes of that lattice. Degenerate sides (of length 1) are permitted.",
+  "id": "A116513",
+  "mentions": [
+    "A000217",
+    "A038548"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:06",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

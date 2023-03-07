@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows, a signed variant of A077049 * A128407; as infinite lower triangular matrices",
+  "id": "A176918",
+  "mentions": [
+    "A008683",
+    "A077049",
+    "A128407",
+    "A176890"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

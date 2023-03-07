@@ -1,0 +1,32 @@
+{
+  "description": "Positive integers with as many proper divisors as the sum of their prime indices.",
+  "id": "A325792",
+  "mentions": [
+    "A000005",
+    "A002033",
+    "A056239",
+    "A112798",
+    "A299702",
+    "A304793",
+    "A325694",
+    "A325780",
+    "A325781",
+    "A325793",
+    "A325794",
+    "A325795",
+    "A325796",
+    "A325797",
+    "A325798",
+    "A325828"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

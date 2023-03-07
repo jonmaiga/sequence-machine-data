@@ -1,0 +1,24 @@
+{
+  "description": "Smallest prime p modulo which numbers 1,2,...,n are quadratic residues.",
+  "id": "A147969",
+  "mentions": [
+    "A000229",
+    "A002223",
+    "A002224",
+    "A045535",
+    "A053760",
+    "A133435",
+    "A147970",
+    "A147971"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

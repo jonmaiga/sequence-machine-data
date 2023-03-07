@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form 4x^3 + 27y^2, with x positive or negative.",
+  "id": "A153635",
+  "mentions": [
+    "A153636",
+    "A154291"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

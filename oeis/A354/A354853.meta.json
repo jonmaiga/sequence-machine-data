@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 4, a(2) = 9; let i = a(n-2) and j = a(n-1); a(n+1) = k such that (j, k) = 1 and (i, k) = m > 1 and only one of either omega(i) or omega(k) exceed omega(m), where omega = A001221, and neither i | k nor k | i.",
+  "id": "A354853",
+  "mentions": [
+    "A001221",
+    "A064413",
+    "A098550",
+    "A353917"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

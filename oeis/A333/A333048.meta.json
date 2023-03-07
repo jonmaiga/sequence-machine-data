@@ -1,0 +1,23 @@
+{
+  "description": "Number of compositions of n^2 into powers of n.",
+  "id": "A333048",
+  "mentions": [
+    "A000290",
+    "A011782",
+    "A103488",
+    "A332721",
+    "A332747",
+    "A332796"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

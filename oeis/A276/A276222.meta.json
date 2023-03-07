@@ -1,0 +1,20 @@
+{
+  "description": "Position of n^s in the joint ranking of {h} and {k^s}, h >= 1, k >= 2, s = golden ratio = (1+sqrt(5))/2.",
+  "id": "A276222",
+  "mentions": [
+    "A276219",
+    "A276220"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Let c(i) be the number of times the digit i appears in n, for 0 <= i <= 9; then a(n) is the concatenation of c(9) c(8) ... c(1) c(0), with leading 0's omitted.",
+  "id": "A348783",
+  "mentions": [
+    "A100910",
+    "A348138"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

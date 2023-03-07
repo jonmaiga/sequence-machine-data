@@ -1,0 +1,18 @@
+{
+  "description": "Partial sums of A298024.",
+  "id": "A298025",
+  "mentions": [
+    "A298024"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:34:01",
+    "offset": 0,
+    "size": 48,
+    "source": "joeis"
+  }
+}

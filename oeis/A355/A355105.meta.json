@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = 1 + 3 * x * A(log(1+x)).",
+  "id": "A355105",
+  "mentions": [
+    "A354729",
+    "A355097",
+    "A355104"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

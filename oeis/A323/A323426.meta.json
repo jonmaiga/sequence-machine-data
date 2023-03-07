@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = decimal concatenation of n (once), n-1 (twice), n-2 (3 times), ..., 1 (n times).",
+  "id": "A323426",
+  "mentions": [
+    "A098129"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

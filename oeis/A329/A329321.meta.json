@@ -1,0 +1,31 @@
+{
+  "description": "a(n) is the total number of odd parts in all partitions of n into consecutive parts.",
+  "id": "A329321",
+  "mentions": [
+    "A000079",
+    "A001227",
+    "A002131",
+    "A204217",
+    "A237048",
+    "A245579",
+    "A285898",
+    "A285914",
+    "A286000",
+    "A286001",
+    "A299765",
+    "A328361",
+    "A328365",
+    "A329322"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

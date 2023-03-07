@@ -1,0 +1,21 @@
+{
+  "description": "G.f.: A(x) = F(x*G(x)^2)^3 where F(x) = G(x*F(x)) = 1 + x*F(x)^3 is the g.f. of A001764 and G(x) = F(x/G(x)) = 1 + x*G(x)^2 is the g.f. of A000108 (Catalan).",
+  "id": "A153394",
+  "mentions": [
+    "A000108",
+    "A001764",
+    "A153393",
+    "A153395"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:28:38",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

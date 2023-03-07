@@ -1,0 +1,21 @@
+{
+  "description": "0-sequence of reduction of central binomial coefficient sequence by x^2 -> x+1.",
+  "id": "A192250",
+  "mentions": [
+    "A000984",
+    "A192070",
+    "A192232",
+    "A192251"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

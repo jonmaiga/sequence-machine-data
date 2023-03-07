@@ -1,0 +1,21 @@
+{
+  "description": "Beginning with the natural numbers, swap the k-th composite number (A002808) and k-th noncomposite number (A008578), for k = 1,2,3,...",
+  "id": "A206798",
+  "mentions": [
+    "A002808",
+    "A008578",
+    "A026234",
+    "A181097"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

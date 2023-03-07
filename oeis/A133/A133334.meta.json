@@ -1,0 +1,17 @@
+{
+  "description": "Signature sequence of e^(1/e) - the solution (the y value) to Steiner's problem: find the max value attained by y=x^(1/x).",
+  "id": "A133334",
+  "mentions": [
+    "A073229"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle, read by rows, where the g.f. of diagonal n, D_n(x) and the g.f. of row n-1, R_{n-1}(x), are related by: D_n(x) = R_{n-1}(x) / (1-x)^(n+1) for n>0 and the g.f. of the main diagonal is D_0(x) = 1/(1-x).",
+  "id": "A110470",
+  "mentions": [
+    "A001006",
+    "A001263"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X n number squares where all (n-1)^2 2 X 2 subset diagonals have the same sum though those sums may differ.",
+  "id": "A271652",
+  "mentions": [
+    "A270205"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of distinct prime factors of P(L(n)) where L(n) is the Lucas number and P(n) is the unrestricted partition number.",
+  "id": "A116370",
+  "mentions": [
+    "A000041",
+    "A000204"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 2,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

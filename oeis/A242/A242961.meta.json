@@ -1,0 +1,18 @@
+{
+  "description": "The smallest prime p > prime(n) such that p mod prime(n) == - 1.",
+  "id": "A242961",
+  "mentions": [
+    "A032448"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

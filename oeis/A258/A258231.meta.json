@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that both n and n squared contain exactly the same digits, and n is not divisible by 10.",
+  "id": "A258231",
+  "mentions": [
+    "A029774",
+    "A029793",
+    "A257763"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

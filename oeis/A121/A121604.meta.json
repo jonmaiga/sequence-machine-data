@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that the radius of the smallest circle into which A121603(m) unit circles can be packed is 1 + csc(Pi/k).",
+  "id": "A121604",
+  "mentions": [
+    "A121570",
+    "A121598",
+    "A121601",
+    "A121602",
+    "A121603"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

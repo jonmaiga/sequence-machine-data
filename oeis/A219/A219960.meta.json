@@ -1,0 +1,20 @@
+{
+  "description": "Numbers which do not reach zero under the repeated iteration x -> ceiling(sqrt(x)) * (ceiling(sqrt(x))^2 - x).",
+  "id": "A219960",
+  "mentions": [
+    "A219303",
+    "A219961",
+    "A219962",
+    "A219963"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

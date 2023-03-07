@@ -1,0 +1,38 @@
+{
+  "description": "Array read by ascending antidiagonals. T(n, k) = L(k, n) where L are the Lucas polynomials.",
+  "id": "A352362",
+  "mentions": [
+    "A000032",
+    "A001477",
+    "A002203",
+    "A006497",
+    "A007395",
+    "A010673",
+    "A014448",
+    "A059100",
+    "A079908",
+    "A085447",
+    "A086594",
+    "A086902",
+    "A087130",
+    "A087798",
+    "A114525",
+    "A117938",
+    "A309220",
+    "A320570",
+    "A350470",
+    "A352361"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

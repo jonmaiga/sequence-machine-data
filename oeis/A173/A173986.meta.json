@@ -1,0 +1,34 @@
+{
+  "description": "a(n) = numerator((Psi(1, 2/3) - Psi(1, n+2/3))/9), where Psi(1, z) is the Trigamma function.",
+  "id": "A173986",
+  "mentions": [
+    "A006752",
+    "A120268",
+    "A173945",
+    "A173947",
+    "A173948",
+    "A173949",
+    "A173953",
+    "A173955",
+    "A173973",
+    "A173982",
+    "A173983",
+    "A173984",
+    "A173985",
+    "A173987",
+    "A294967"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

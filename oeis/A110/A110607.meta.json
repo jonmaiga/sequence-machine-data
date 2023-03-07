@@ -1,0 +1,26 @@
+{
+  "description": "Numbers n whose base 9 representations, interpreted as base 10 integers, are semiprimes.",
+  "id": "A110607",
+  "mentions": [
+    "A001358",
+    "A007095",
+    "A108873",
+    "A110602",
+    "A110603",
+    "A110604",
+    "A110605",
+    "A110606"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

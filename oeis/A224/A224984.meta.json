@@ -1,0 +1,26 @@
+{
+  "description": "Numbers n such that (14^n + 13^n)/27 is prime.",
+  "id": "A224984",
+  "mentions": [
+    "A057180",
+    "A128072",
+    "A128343",
+    "A181141",
+    "A185239",
+    "A187819",
+    "A213216",
+    "A217095"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

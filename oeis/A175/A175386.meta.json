@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = denominator of sum((1/i)*C(2n-i-1,i-1),i=1..n).",
+  "id": "A175386",
+  "mentions": [
+    "A175385"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:47",
+    "offset": 1,
+    "size": 71,
+    "source": "joeis"
+  }
+}

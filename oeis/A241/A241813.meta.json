@@ -1,0 +1,19 @@
+{
+  "description": "Numbers disqualified from being in A019505 for not being the smallest number with their respective number of divisors.",
+  "id": "A241813",
+  "mentions": [
+    "A019505",
+    "A140635"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

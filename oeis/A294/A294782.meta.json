@@ -1,0 +1,19 @@
+{
+  "description": "Spherical growth of the Lamplighter group: number of elements in the Lamplighter group Z ≀ Z of length n with respect to the standard generating set {a,t}.",
+  "id": "A294782",
+  "mentions": [
+    "A288348",
+    "A294781"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:46:41",
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

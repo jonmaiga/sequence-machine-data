@@ -1,0 +1,24 @@
+{
+  "description": "E.g.f. B = B(x,y) satisfies: A^2 + B^2 + C^2 = 1 + y^2 and A^3 + B^3 + C^3 = 1 + y^3, where functions A = A(x,y) and C = C(x,y) are described by A278885 and A278887, respectively.",
+  "id": "A278886",
+  "mentions": [
+    "A278746",
+    "A278747",
+    "A278748",
+    "A278885",
+    "A278887",
+    "A278889"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

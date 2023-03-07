@@ -1,0 +1,25 @@
+{
+  "description": "Number of conjugacy classes of primitive elements in GF(3^n) which have trace 0.",
+  "id": "A192507",
+  "mentions": [
+    "A027385",
+    "A152049",
+    "A192212",
+    "A192509",
+    "A192510",
+    "A192511"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

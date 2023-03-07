@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that n^2+1 with its digits reversed is prime (ignoring leading zeros).",
+  "id": "A227090",
+  "mentions": [
+    "A002522",
+    "A004086"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

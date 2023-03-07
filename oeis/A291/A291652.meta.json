@@ -1,0 +1,27 @@
+{
+  "description": "Square array A(n,k), n>=0, k>=0, read by antidiagonals, where column k is the expansion of k-th power of continued fraction 1/(1 - x/(1 - x^2/(1 - x^3/(1 - x^4/(1 - x^5/(1 - ...)))))).",
+  "id": "A291652",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000217",
+    "A001477",
+    "A003600",
+    "A005169",
+    "A286509",
+    "A286933",
+    "A291653"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

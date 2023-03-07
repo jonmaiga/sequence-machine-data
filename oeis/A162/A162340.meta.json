@@ -1,0 +1,24 @@
+{
+  "description": "Number of \"ON\" cells at n-th stage in simple 2-dimensional cellular automaton whose virtual skeleton is a polyedge as the graph of the \"mountain path\" function for prime numbers.",
+  "id": "A162340",
+  "mentions": [
+    "A000040",
+    "A006005",
+    "A008578",
+    "A162200",
+    "A162201",
+    "A162202",
+    "A162203",
+    "A162341"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

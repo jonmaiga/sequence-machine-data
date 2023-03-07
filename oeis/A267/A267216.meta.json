@@ -1,0 +1,17 @@
+{
+  "description": "Numbers D such that D^2 = A^2 + B^3 + C^4 has more than two solutions in positive integers (A, B, C).",
+  "id": "A267216",
+  "mentions": [
+    "A256604"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:28",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

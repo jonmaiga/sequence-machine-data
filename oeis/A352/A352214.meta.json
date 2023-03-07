@@ -1,0 +1,21 @@
+{
+  "description": "Largest number of maximal claw-free node-induced subgraphs of an n-node graph.",
+  "id": "A352214",
+  "mentions": [
+    "A022562",
+    "A086991",
+    "A342211"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the limit of AGM(1, 2, ..., n)/n.",
+  "id": "A342813",
+  "mentions": [
+    "A332093"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

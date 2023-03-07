@@ -1,0 +1,21 @@
+{
+  "description": "Number of canonical sequences of moves of length n for the Rubik cube puzzle using the quarter-turn metric.",
+  "id": "A333299",
+  "mentions": [
+    "A080601",
+    "A080602",
+    "A333298"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

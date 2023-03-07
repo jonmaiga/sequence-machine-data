@@ -1,0 +1,21 @@
+{
+  "description": "Characteristic sequence of numbers n having a primitive root modulo n.",
+  "id": "A211487",
+  "mentions": [
+    "A001783",
+    "A033948",
+    "A034380",
+    "A103131"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Composite numbers n such that the distinct digits in n and the distinct digits in the proper divisors of n are the same.",
+  "id": "A237713",
+  "mentions": [
+    "A011531",
+    "A032741",
+    "A035141",
+    "A282755"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Primes p for which there are exactly as many primes in the range [p^2, p*nextprime(p)] as there are in the range [p*nextprime(p), nextprime(p)^2], where nextprime(p) gives the next prime after prime p.",
+  "id": "A256472",
+  "mentions": [
+    "A000040",
+    "A256471",
+    "A256473",
+    "A256484"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

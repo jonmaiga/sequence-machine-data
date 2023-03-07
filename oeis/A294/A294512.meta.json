@@ -1,0 +1,23 @@
+{
+  "description": "Denominators of partial sums of the reciprocals of octagonal numbers.",
+  "id": "A294512",
+  "mentions": [
+    "A000567",
+    "A244645",
+    "A250400",
+    "A250401"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

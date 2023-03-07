@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = number of divisors of N, where N = reverse concatenation of 1,2,3,...,n.",
+  "id": "A110757",
+  "mentions": [
+    "A000005",
+    "A000422",
+    "A110756",
+    "A110758",
+    "A110759",
+    "A110760",
+    "A176024"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

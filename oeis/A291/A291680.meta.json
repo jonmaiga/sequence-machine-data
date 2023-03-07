@@ -1,0 +1,33 @@
+{
+  "description": "Number T(n,k) of permutations p of [n] such that in 0p the largest up-jump equals k and no down-jump is larger than 2; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A291680",
+  "mentions": [
+    "A000007",
+    "A057427",
+    "A203717",
+    "A206464",
+    "A264868",
+    "A291683",
+    "A320290",
+    "A321110",
+    "A321111",
+    "A321112",
+    "A321113",
+    "A321114",
+    "A321115",
+    "A321116",
+    "A321117"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

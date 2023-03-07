@@ -1,0 +1,18 @@
+{
+  "description": "Index of the first occurrence of n-th prime in Van Eck's sequence (A181391), or 0 if n-th prime never appears.",
+  "id": "A357908",
+  "mentions": [
+    "A181391"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

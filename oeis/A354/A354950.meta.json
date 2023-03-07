@@ -1,0 +1,23 @@
+{
+  "description": "The number of squarefree numbers whose largest prime divisor is prime(n) and that are averages of twin prime pairs.",
+  "id": "A354950",
+  "mentions": [
+    "A005117",
+    "A006530",
+    "A014574",
+    "A070195",
+    "A354951"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

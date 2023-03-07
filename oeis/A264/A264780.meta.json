@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the index of A246947(n) in A000977.",
+  "id": "A264780",
+  "mentions": [
+    "A000977",
+    "A246947",
+    "A264762"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

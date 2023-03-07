@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of f(x^3)^3 / f(x) in powers of x where f() is a Ramanujan theta function.",
+  "id": "A227696",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A033687",
+    "A097195",
+    "A121361",
+    "A121373",
+    "A123884",
+    "A226535"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:14:23",
+    "offset": 0,
+    "size": 82,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "First quadrisection of A139763 (1, 2, 3, 4, 11, ...).",
+  "id": "A139792",
+  "mentions": [
+    "A001025",
+    "A001045",
+    "A131865",
+    "A139763",
+    "A141060",
+    "A144864",
+    "A195156"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:27",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

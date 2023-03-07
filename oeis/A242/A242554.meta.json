@@ -1,0 +1,18 @@
+{
+  "description": "Least number k such that n^16+k^16 is prime.",
+  "id": "A242554",
+  "mentions": [
+    "A006313",
+    "A069003"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

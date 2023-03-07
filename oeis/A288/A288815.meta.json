@@ -1,0 +1,21 @@
+{
+  "description": "Paired Jacobsthal function applied to the product of the first n primes.",
+  "id": "A288815",
+  "mentions": [
+    "A048670",
+    "A072753"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

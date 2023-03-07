@@ -1,0 +1,21 @@
+{
+  "description": "Numbers congruent to {1, 2, 5, 10, 13, 17} mod 24.",
+  "id": "A103215",
+  "mentions": [
+    "A008784",
+    "A054895",
+    "A103216"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:46:05",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

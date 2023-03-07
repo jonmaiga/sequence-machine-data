@@ -1,0 +1,17 @@
+{
+  "description": "Odd numbers n divisible by 3 such that for all k >= 1 the numbers n*2^k - 1 and n*2^(k+1) - 1 do not form a pair of primes.",
+  "id": "A243858",
+  "mentions": [
+    "A243857"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

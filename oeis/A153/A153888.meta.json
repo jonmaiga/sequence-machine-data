@@ -1,0 +1,26 @@
+{
+  "description": "Second-to-smallest of five consecutive Fibonacci numbers such that sum of five consecutive Fibonacci numbers is prime number.",
+  "id": "A153888",
+  "mentions": [
+    "A000045",
+    "A000071",
+    "A001605",
+    "A001906",
+    "A153862",
+    "A153863",
+    "A153865",
+    "A153866",
+    "A153867",
+    "A153887"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

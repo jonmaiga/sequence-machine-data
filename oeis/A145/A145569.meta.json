@@ -1,0 +1,20 @@
+{
+  "description": "Multiples of 6 appear in pairs.",
+  "id": "A145569",
+  "mentions": [
+    "A008683",
+    "A109720"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:02:33",
+    "offset": 0,
+    "size": 75,
+    "source": "joeis"
+  }
+}

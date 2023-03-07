@@ -1,0 +1,31 @@
+{
+  "description": "Number of ways to write n = (2-(n mod 2))p+q+2^k with p, q-1, q+1 all prime, and p-1, p+1, q all practical.",
+  "id": "A210722",
+  "mentions": [
+    "A005153",
+    "A208243",
+    "A208244",
+    "A208246",
+    "A208249",
+    "A209236",
+    "A209253",
+    "A209254",
+    "A209312",
+    "A209315",
+    "A209320",
+    "A210528",
+    "A210531",
+    "A210533",
+    "A210681"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

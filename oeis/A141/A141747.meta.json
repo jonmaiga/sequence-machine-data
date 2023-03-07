@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of nonnegative integer pairs i,j such that n = 2^i + 3^j.",
+  "id": "A141747",
+  "mentions": [
+    "A085634",
+    "A141748"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:30",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

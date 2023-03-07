@@ -1,0 +1,28 @@
+{
+  "description": "Triangular numbers, T(m), that are two-thirds of another triangular number; T(m) such that 3*T(m) = 2*T(k) for some k.",
+  "id": "A200993",
+  "mentions": [
+    "A000384",
+    "A001652",
+    "A014105",
+    "A029549",
+    "A053141",
+    "A069129",
+    "A072256",
+    "A075528",
+    "A200994",
+    "A201008"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:21",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Positions of records in permutation A267107.",
+  "id": "A268393",
+  "mentions": [
+    "A267107",
+    "A268394"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

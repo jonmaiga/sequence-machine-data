@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that 2*p-3 and 2*(2*p-3)-3 are primes (First member of a primes in a 2*p-3 double progression).",
+  "id": "A171566",
+  "mentions": [
+    "A063908"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:55",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

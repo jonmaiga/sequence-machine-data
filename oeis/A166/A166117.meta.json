@@ -1,0 +1,19 @@
+{
+  "description": "a(0)=0, a(1)=1, a(2)=2 and a(n) = a(n-1) - 2a(n-2) + a(n-3).",
+  "id": "A166117",
+  "mentions": [
+    "A078051"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:49",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

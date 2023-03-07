@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) = number of horizontal positions for the vertical legs of the Dyck paths for the symmetric representation of sigma(n) that are listed in the corresponding positions of the triangle of A259177.",
+  "id": "A283367",
+  "mentions": [
+    "A024916",
+    "A237593",
+    "A259176",
+    "A259177",
+    "A283368"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Smallest prime number p such that p + pssq(1), p + pssq(2), ... p + pssq(n) are all prime but p+pssq(n+1) is not, where pssq(n) is the partial sum of the square of the proper terms of the primorial (A189997(n)-1).",
+  "id": "A258035",
+  "mentions": [
+    "A189997",
+    "A257466",
+    "A257467"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

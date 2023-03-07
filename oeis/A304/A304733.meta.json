@@ -1,0 +1,22 @@
+{
+  "description": "The largest prime factor of the n-th term of EKG-sequence: a(n) = A006530(A064413(n)).",
+  "id": "A304733",
+  "mentions": [
+    "A006530",
+    "A064413",
+    "A064741",
+    "A251103",
+    "A304734"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

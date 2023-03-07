@@ -1,0 +1,49 @@
+{
+  "description": "Irregular triangle read by rows where T(n,k) is the number of integer partitions of n with k excedances (parts above the diagonal), zeros omitted.",
+  "id": "A353318",
+  "mentions": [
+    "A000041",
+    "A000194",
+    "A000700",
+    "A000701",
+    "A001522",
+    "A002620",
+    "A003056",
+    "A006918",
+    "A008290",
+    "A008292",
+    "A008930",
+    "A064428",
+    "A088902",
+    "A097701",
+    "A114088",
+    "A115720",
+    "A115994",
+    "A123125",
+    "A177510",
+    "A219282",
+    "A238352",
+    "A238874",
+    "A238875",
+    "A257990",
+    "A300788",
+    "A352522",
+    "A352524",
+    "A352525",
+    "A352822",
+    "A352826",
+    "A352827",
+    "A353319"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

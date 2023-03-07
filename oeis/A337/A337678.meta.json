@@ -1,0 +1,23 @@
+{
+  "description": "a(0) = 1; a(n) = -(n!)^5 * Sum_{k=0..n-1} a(k) / (k! * (n-k))^5.",
+  "id": "A337678",
+  "mentions": [
+    "A006252",
+    "A074706",
+    "A212858",
+    "A336261",
+    "A337676",
+    "A337677"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

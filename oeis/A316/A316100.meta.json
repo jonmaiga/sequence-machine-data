@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that k is deficient but k+1 is abundant, that is, a deficient number followed by an abundant number.",
+  "id": "A316100",
+  "mentions": [
+    "A005100",
+    "A005101"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

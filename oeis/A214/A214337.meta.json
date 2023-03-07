@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of rooted maps with n vertices and k faces on a non-orientable surface of type 3/2 (0 <= k <= n).",
+  "id": "A214337",
+  "mentions": [
+    "A118448",
+    "A213336",
+    "A213338",
+    "A214335",
+    "A214806"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

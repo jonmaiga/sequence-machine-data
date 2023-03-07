@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of k-matchings of the fan graph on n+1 vertices (i.e., the join of the path graph on n vertices with one extra vertex).",
+  "id": "A100898",
+  "mentions": [
+    "A029907"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

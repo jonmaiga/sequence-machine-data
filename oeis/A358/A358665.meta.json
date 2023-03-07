@@ -1,0 +1,17 @@
+{
+  "description": "Number of (undirected) paths in the 7 X n king graph.",
+  "id": "A358665",
+  "mentions": [
+    "A307026"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

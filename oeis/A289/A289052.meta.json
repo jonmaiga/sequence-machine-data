@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 1; a(n) = a(n-A006530(n-1)) + 1 for n > 1.",
+  "id": "A289052",
+  "mentions": [
+    "A002024",
+    "A006530"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:03",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

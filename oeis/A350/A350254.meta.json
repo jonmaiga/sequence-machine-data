@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the numerator of the largest ratio among the A341052(n) ratios for which there exist A341051(n) n-digit integers (the maximum possible) that are in geometric progression.",
+  "id": "A350254",
+  "mentions": [
+    "A341051",
+    "A341052",
+    "A341053",
+    "A350255"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

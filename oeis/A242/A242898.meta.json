@@ -1,0 +1,23 @@
+{
+  "description": "Cumulative number of letters in decimal expansion of Pi being spoken in English as \"Three Point One Four One...\".",
+  "id": "A242898",
+  "mentions": [
+    "A000796",
+    "A005589",
+    "A052384",
+    "A107488"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:28:45",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Array read by antidiagonals: T(n,m) = number of matchings (i.e., Hosoya index) in K_n X K_m.",
+  "id": "A270227",
+  "mentions": [
+    "A000085",
+    "A270228",
+    "A270229"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:33",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

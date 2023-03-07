@@ -1,0 +1,17 @@
+{
+  "description": "Number of third differences of arrays of length 9 of numbers in 0..n.",
+  "id": "A228265",
+  "mentions": [
+    "A228260"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

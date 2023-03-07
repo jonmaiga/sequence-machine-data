@@ -1,0 +1,23 @@
+{
+  "description": "The number of positive k < (2n-1)^2 such that (2^k - 1)/(2n - 1)^2 is an integer.",
+  "id": "A246702",
+  "mentions": [
+    "A000225",
+    "A001220",
+    "A016754",
+    "A049094",
+    "A167791",
+    "A237043",
+    "A246703"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

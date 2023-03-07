@@ -1,0 +1,28 @@
+{
+  "description": "Number of V-toothpicks added at n-th stage to the V-toothpick structure of A355310.",
+  "id": "A355311",
+  "mentions": [
+    "A011782",
+    "A139251",
+    "A160121",
+    "A161207",
+    "A161413",
+    "A161421",
+    "A296612",
+    "A299477",
+    "A299479",
+    "A355310"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

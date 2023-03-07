@@ -1,0 +1,26 @@
+{
+  "description": "Number of ordered quadruples (w, x, y, z) with gcd(w, x, y, z) = 1 and 1 <= {w, x, y, z} <= 2^n.",
+  "id": "A343527",
+  "mentions": [
+    "A018805",
+    "A071778",
+    "A082540",
+    "A215267",
+    "A342586",
+    "A342632",
+    "A342841",
+    "A342935",
+    "A343193"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Smallest prime of the form: one or more 4's followed by prime(n) (or 0 if no such prime exists).",
+  "id": "A114786",
+  "mentions": [
+    "A114783",
+    "A114784",
+    "A114785"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

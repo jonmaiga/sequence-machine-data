@@ -1,0 +1,27 @@
+{
+  "description": "Infinitary phibonacci numbers: solutions k of the equation iphi(k) = iphi(k-1) + iphi(k-2) where iphi(k) is an infinitary analog of Euler's phi function (A091732).",
+  "id": "A332971",
+  "mentions": [
+    "A065557",
+    "A065900",
+    "A075565",
+    "A076136",
+    "A076251",
+    "A091732",
+    "A145469",
+    "A291126",
+    "A291176",
+    "A292033",
+    "A294995"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

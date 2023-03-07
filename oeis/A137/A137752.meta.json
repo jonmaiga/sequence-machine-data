@@ -1,0 +1,28 @@
+{
+  "description": "First numerator and then denominator (left to right) of Leibniz's harmonic-like triangle.",
+  "id": "A137752",
+  "mentions": [
+    "A003506",
+    "A007622",
+    "A046201",
+    "A046204",
+    "A046205",
+    "A046206",
+    "A046208",
+    "A046212",
+    "A137753"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "frac",
+    "less",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

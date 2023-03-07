@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that A001065(x)*x = n has at least two solutions, where x is an abundant number.",
+  "id": "A212373",
+  "mentions": [
+    "A001065",
+    "A005101",
+    "A212327",
+    "A212489",
+    "A212490"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

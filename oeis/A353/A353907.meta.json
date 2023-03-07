@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that k equals {alternating sum of digits of k} raised to the power of {number of digits of k}.",
+  "id": "A353907",
+  "mentions": [
+    "A055017",
+    "A055642",
+    "A353906"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

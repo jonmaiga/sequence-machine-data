@@ -1,0 +1,20 @@
+{
+  "description": "Number of n x n crossword puzzles with rotational symmetry and exactly one black square per row.",
+  "id": "A132443",
+  "mentions": [
+    "A130578",
+    "A132444",
+    "A132445",
+    "A132446"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 3,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

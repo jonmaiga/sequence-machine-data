@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of permutations of {1,2,...,n} having k 3-term arithmetic progressions (n>=0; 0<=k<=floor((n-1)^2/4)).",
+  "id": "A162982",
+  "mentions": [
+    "A000142",
+    "A003407",
+    "A295390"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

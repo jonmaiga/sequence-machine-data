@@ -1,0 +1,22 @@
+{
+  "description": "a(-1)=-1; a(n) = 2*A000108(n) for n >= 0.",
+  "id": "A284016",
+  "mentions": [
+    "A000108",
+    "A002420",
+    "A068875",
+    "A228403",
+    "A262543"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": -1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

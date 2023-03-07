@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that the product of the digits of k is not the product of digits of any earlier term in the sequence.",
+  "id": "A343403",
+  "mentions": [
+    "A003001",
+    "A007954",
+    "A009994",
+    "A031346",
+    "A068189",
+    "A343160"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

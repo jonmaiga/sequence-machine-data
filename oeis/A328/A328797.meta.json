@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of (chi(-x) * chi(x^3))^2 in powers of x where chi() is a Ramanujan theta function.",
+  "id": "A328797",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A112206",
+    "A121373",
+    "A328789",
+    "A328790",
+    "A328795",
+    "A328798",
+    "A328800"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:30:09",
+    "offset": 0,
+    "size": 70,
+    "source": "joeis"
+  }
+}

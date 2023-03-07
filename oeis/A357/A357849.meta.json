@@ -1,0 +1,21 @@
+{
+  "description": "Number of integer partitions (w,x,y) summing to n such that 2w = 3x + 4y.",
+  "id": "A357849",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A008676",
+    "A357489",
+    "A358102"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

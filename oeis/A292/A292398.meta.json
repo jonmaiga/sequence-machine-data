@@ -1,0 +1,21 @@
+{
+  "description": "p-INVERT of A010892, where p(S) = 1 - S - S^2 - S^3.",
+  "id": "A292398",
+  "mentions": [
+    "A010892",
+    "A033453",
+    "A292301"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:07",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Triangle read by rows; T(n,k) is the number of achiral rows of n colors using exactly k colors.",
+  "id": "A321434",
+  "mentions": [
+    "A000007",
+    "A008277",
+    "A019538",
+    "A056453",
+    "A056454",
+    "A056455",
+    "A056456",
+    "A056457",
+    "A057427",
+    "A131689",
+    "A305621",
+    "A305622"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

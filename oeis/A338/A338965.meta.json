@@ -1,0 +1,26 @@
+{
+  "description": "Number of unoriented colorings of the 120 dodecahedral facets of the 4-D 120-cell (or 120 vertices of the 4-D 600-cell) using subsets of a set of n colors.",
+  "id": "A338965",
+  "mentions": [
+    "A000389",
+    "A128767",
+    "A337957",
+    "A338949",
+    "A338964",
+    "A338966",
+    "A338967",
+    "A338981"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-bfile"
+  }
+}

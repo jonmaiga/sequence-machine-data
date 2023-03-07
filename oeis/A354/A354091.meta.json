@@ -1,0 +1,32 @@
+{
+  "description": "Fully multiplicative prime shift where the primes of the form 3k+2 are replaced by the next larger such prime, and primes of the form 3k and 3k+1 stay as they are.",
+  "id": "A354091",
+  "mentions": [
+    "A002476",
+    "A003627",
+    "A003961",
+    "A007645",
+    "A046523",
+    "A074941",
+    "A332818",
+    "A348746",
+    "A353815",
+    "A354092",
+    "A354093",
+    "A354094",
+    "A354095",
+    "A354096"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

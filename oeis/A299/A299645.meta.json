@@ -1,0 +1,28 @@
+{
+  "description": "Numbers of the form m*(8*m + 5), where m is an integer.",
+  "id": "A299645",
+  "mentions": [
+    "A011861",
+    "A014494",
+    "A046092",
+    "A047222",
+    "A074377",
+    "A139272",
+    "A139277",
+    "A154260",
+    "A274681",
+    "A274979"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:34:23",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

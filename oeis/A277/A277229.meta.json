@@ -1,0 +1,22 @@
+{
+  "description": "Convolution of the odd-indexed triangular numbers (A000384(n+1)) and the squares (A000290).",
+  "id": "A277229",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A000384",
+    "A071238"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:28:13",
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

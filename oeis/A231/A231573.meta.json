@@ -1,0 +1,20 @@
+{
+  "description": "Composite numbers n such that lambda(n) divides 6n-6, where lambda is the Carmichael lambda function (A002322).",
+  "id": "A231573",
+  "mentions": [
+    "A002322",
+    "A231569",
+    "A231570",
+    "A231575"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

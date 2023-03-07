@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least prime p such that the total number of prime factors, with multiplicity, of the numbers between p and the next prime is n.",
+  "id": "A308487",
+  "mentions": [
+    "A000720",
+    "A001222",
+    "A077218",
+    "A164291"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 2,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

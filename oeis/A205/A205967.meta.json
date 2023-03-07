@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Fibonacci(n)*A008653(n) for n>=1, with a(0)=1, where A008653 is the theta series of direct sum of 2 copies of hexagonal lattice.",
+  "id": "A205967",
+  "mentions": [
+    "A000204",
+    "A008653",
+    "A203847",
+    "A205966",
+    "A205968",
+    "A209447"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

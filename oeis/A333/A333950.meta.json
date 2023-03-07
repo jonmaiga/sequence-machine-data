@@ -1,0 +1,25 @@
+{
+  "description": "Odd recursive abundant numbers: odd numbers k such that A333926(k) > 2*k.",
+  "id": "A333950",
+  "mentions": [
+    "A005231",
+    "A005408",
+    "A094889",
+    "A127666",
+    "A129485",
+    "A293186",
+    "A321147",
+    "A333926",
+    "A333928"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Table of carryless sums i + j, i>=0, j>=0, read by antidiagonals.",
+  "id": "A169894",
+  "mentions": [
+    "A004520",
+    "A010879"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

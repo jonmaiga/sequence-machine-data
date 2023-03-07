@@ -1,0 +1,29 @@
+{
+  "description": "Number of series-reduced locally disjoint rooted trees with n leaves spanning an initial interval of positive integers.",
+  "id": "A319291",
+  "mentions": [
+    "A000081",
+    "A007562",
+    "A301700",
+    "A316473",
+    "A316475",
+    "A316495",
+    "A316651",
+    "A316694",
+    "A316695",
+    "A316696",
+    "A316697",
+    "A319286"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

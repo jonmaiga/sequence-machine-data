@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = number of nodes with odd distance to the root in the n-th plane general tree encoded by A014486(n). Both internal and terminal nodes (leaves) are counted.",
+  "id": "A126303",
+  "mentions": [
+    "A014486",
+    "A072643",
+    "A126304",
+    "A126305"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

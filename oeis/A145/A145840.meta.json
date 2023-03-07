@@ -1,0 +1,22 @@
+{
+  "description": "Number of 4-compositions of n.",
+  "id": "A145840",
+  "mentions": [
+    "A003480",
+    "A145839",
+    "A145841",
+    "A261780"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Rectangular array R by antidiagonals: row n shows the positive integers whose base-4 digits have total variation n, for n>=0. See Comments.",
+  "id": "A297551",
+  "mentions": [
+    "A007090",
+    "A297330",
+    "A297552",
+    "A297553",
+    "A297554"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

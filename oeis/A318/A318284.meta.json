@@ -1,0 +1,31 @@
+{
+  "description": "Number of multiset partitions of a multiset whose multiplicities are the prime indices of n.",
+  "id": "A318284",
+  "mentions": [
+    "A001055",
+    "A001970",
+    "A007716",
+    "A181821",
+    "A219727",
+    "A255906",
+    "A269134",
+    "A305936",
+    "A317532",
+    "A318283",
+    "A318285",
+    "A318286",
+    "A318360",
+    "A318361"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:38",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

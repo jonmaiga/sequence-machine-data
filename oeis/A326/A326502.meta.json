@@ -1,0 +1,20 @@
+{
+  "description": "Indices of records of minimal distance between successive Riemann zeta zeros.",
+  "id": "A326502",
+  "mentions": [
+    "A114886",
+    "A254297"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

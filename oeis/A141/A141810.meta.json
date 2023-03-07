@@ -1,0 +1,20 @@
+{
+  "description": "Irregular table: Row n (of A001221(n) terms, for n>=2) consists of the largest powers that divides n of each distinct prime that divides n. Terms are arranged by the sizes of the prime-powers. Row 1 = (1).",
+  "id": "A141810",
+  "mentions": [
+    "A001221",
+    "A027748",
+    "A141809"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

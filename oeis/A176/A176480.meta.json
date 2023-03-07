@@ -1,0 +1,19 @@
+{
+  "description": "Triangle: let b(n) = 3*b(n - 1) - 2*b(n - 2) + b(n - 3), then T(n,m) = b(n) - b(m) - b(n - m) + 1.",
+  "id": "A176480",
+  "mentions": [
+    "A095263"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

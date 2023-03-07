@@ -1,0 +1,18 @@
+{
+  "description": "Consider all the Pythagorean triangles with perimeter A010814(n). Then a(n) is the sum of the areas of the squares on all of their sides.",
+  "id": "A334808",
+  "mentions": [
+    "A010814"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

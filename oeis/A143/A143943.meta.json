@@ -1,0 +1,18 @@
+{
+  "description": "The Wiener index of a chain of n squares joined at vertices (i.e., joined like <><><>...<>; here <> is a square!).",
+  "id": "A143943",
+  "mentions": [
+    "A143942"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:39:25",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

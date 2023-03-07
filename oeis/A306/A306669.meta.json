@@ -1,0 +1,33 @@
+{
+  "description": "Number of aperiodic permutation necklaces of weight n.",
+  "id": "A306669",
+  "mentions": [
+    "A000031",
+    "A000740",
+    "A000939",
+    "A001037",
+    "A059966",
+    "A060223",
+    "A061417",
+    "A086675",
+    "A323861",
+    "A323865",
+    "A323866",
+    "A323871",
+    "A324461",
+    "A324512",
+    "A324513",
+    "A324514"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

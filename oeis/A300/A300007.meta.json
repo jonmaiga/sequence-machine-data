@@ -1,0 +1,21 @@
+{
+  "description": "Index of the inverse/opposite of the n-th 2 X 2 sandpile A300006(n). An involution (self-inverse permutation) of the integers [1..192].",
+  "id": "A300007",
+  "mentions": [
+    "A300006",
+    "A300008",
+    "A300009"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:24",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = 1 iff d(n) = d(n+1), otherwise a(n)=0, where d(n) is the number of divisors of n, A000005.",
+  "id": "A130638",
+  "mentions": [
+    "A000005",
+    "A005237"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

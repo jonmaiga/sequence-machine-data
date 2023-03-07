@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n,k,q) = Sum_{j=0..10} q^j * floor(A174093(n,k)/2^j) with q=2, read by rows.",
+  "id": "A174096",
+  "mentions": [
+    "A174093",
+    "A174095",
+    "A174097"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

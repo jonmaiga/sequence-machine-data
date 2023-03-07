@@ -1,0 +1,23 @@
+{
+  "description": "First element of the chain of primes ending in A232125(n), prime which cannot be extended to another prime by appending a digit, as it is the case of the other elements of the chain.",
+  "id": "A232126",
+  "mentions": [
+    "A231426",
+    "A232125",
+    "A232127",
+    "A232128"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

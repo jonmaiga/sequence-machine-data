@@ -1,0 +1,31 @@
+{
+  "description": "Number of connected simple graphs with n vertices, n+1 edges, and vertex degrees no more than 4.",
+  "id": "A112410",
+  "mentions": [
+    "A000602",
+    "A006820",
+    "A036671",
+    "A112408",
+    "A112424",
+    "A112425",
+    "A112426",
+    "A112442",
+    "A112619",
+    "A121941",
+    "A125669",
+    "A125670",
+    "A125671",
+    "A305132"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

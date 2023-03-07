@@ -1,0 +1,20 @@
+{
+  "description": "Terms A002336(k) that are divisible by k.",
+  "id": "A222785",
+  "mentions": [
+    "A002336",
+    "A211202",
+    "A222786"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

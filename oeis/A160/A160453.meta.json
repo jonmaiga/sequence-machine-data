@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n which have a prime divisor p such that 1 is the only positive integer which divides n/p^m and is congruent to 1 modulo p, where p^(m+1) does not divide n.",
+  "id": "A160453",
+  "mentions": [
+    "A023805",
+    "A168186"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Sequence lists numbers k > 1 such that k^3 == d(k) (mod sigma(k)), where d = A000005 and sigma = A000203.",
+  "id": "A323250",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A323249",
+    "A323251"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

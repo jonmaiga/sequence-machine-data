@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the size of the largest subset of {0,1,...,n} such that the sum of two (not necessarily distinct) elements is never a power of 2.",
+  "id": "A359536",
+  "mentions": [
+    "A110654"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

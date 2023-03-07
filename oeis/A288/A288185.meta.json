@@ -1,0 +1,30 @@
+{
+  "description": "Least even number k such that the continued fraction for sqrt(k) has period n.",
+  "id": "A288185",
+  "mentions": [
+    "A000035",
+    "A003285",
+    "A010337",
+    "A010339",
+    "A013642",
+    "A013644",
+    "A013646",
+    "A013943",
+    "A020347",
+    "A020439",
+    "A097853",
+    "A240072",
+    "A288184"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:00",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

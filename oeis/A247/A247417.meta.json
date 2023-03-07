@@ -1,0 +1,20 @@
+{
+  "description": "Number of nonisomorphic binary n X n matrices with two 1's per column under row and column permutations.",
+  "id": "A247417",
+  "mentions": [
+    "A247596",
+    "A247597",
+    "A247598",
+    "A304942"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 2,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

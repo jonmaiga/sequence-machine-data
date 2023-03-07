@@ -1,0 +1,19 @@
+{
+  "description": "Primes of the form prime(n) + prime(n+1) - 5.",
+  "id": "A207990",
+  "mentions": [
+    "A072669",
+    "A092738"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:27",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

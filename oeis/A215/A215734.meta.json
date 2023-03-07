@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the first digit to appear n times in succession in a power of 5.",
+  "id": "A215734",
+  "mentions": [
+    "A045875",
+    "A215728",
+    "A215732"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

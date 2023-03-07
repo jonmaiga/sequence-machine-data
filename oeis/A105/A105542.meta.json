@@ -1,0 +1,20 @@
+{
+  "description": "Matrix square of triangle A105540 and, in this flattened form as read by rows, also equals column 1 of A105540.",
+  "id": "A105542",
+  "mentions": [
+    "A105540",
+    "A105543",
+    "A105544"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

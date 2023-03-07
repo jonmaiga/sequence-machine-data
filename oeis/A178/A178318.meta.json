@@ -1,0 +1,23 @@
+{
+  "description": "Primes which remain prime after reflection across a vertical line through the middle of the number (numbers are written as digital clock style numerals).",
+  "id": "A178318",
+  "mentions": [
+    "A004086",
+    "A010051",
+    "A062332",
+    "A125308",
+    "A178317",
+    "A208259"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

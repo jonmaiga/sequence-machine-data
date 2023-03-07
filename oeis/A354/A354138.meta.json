@@ -1,0 +1,29 @@
+{
+  "description": "a(n) is the numerator of Sum_{k=0..n} (-1)^k / (2*k)!.",
+  "id": "A354138",
+  "mentions": [
+    "A010050",
+    "A049470",
+    "A053557",
+    "A061354",
+    "A103816",
+    "A120265",
+    "A143382",
+    "A354211",
+    "A354332",
+    "A354334",
+    "A354378"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

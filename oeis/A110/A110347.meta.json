@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = meantorial(n) = the product of the set of n closest numbers with an arithmetic mean of n.",
+  "id": "A110347",
+  "mentions": [
+    "A110348"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

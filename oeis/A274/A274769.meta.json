@@ -1,0 +1,21 @@
+{
+  "description": "Square analog to Keith numbers.",
+  "id": "A274769",
+  "mentions": [
+    "A007629",
+    "A246544",
+    "A263534",
+    "A274770"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Integer coefficient array for polynomials related to the minimal polynomials of cos(2Pi/n). Rising powers of x.",
+  "id": "A181877",
+  "mentions": [
+    "A023022",
+    "A181875",
+    "A181876",
+    "A183918",
+    "A232624"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 170,
+    "source": "oeis-entry"
+  }
+}

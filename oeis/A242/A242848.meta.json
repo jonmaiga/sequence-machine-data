@@ -1,0 +1,18 @@
+{
+  "description": "Number of unimodular roots of the equation z^n + z^k - 1 for all 1 <= k <= n-1.",
+  "id": "A242848",
+  "mentions": [
+    "A120963"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 2,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

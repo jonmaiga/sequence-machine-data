@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = gcd(A281120(n), A281120(2n)).",
+  "id": "A281121",
+  "mentions": [
+    "A281120"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

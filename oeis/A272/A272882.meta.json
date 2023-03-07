@@ -1,0 +1,18 @@
+{
+  "description": "Discriminator of the Cantor numbers (A005823)",
+  "id": "A272882",
+  "mentions": [
+    "A005823"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

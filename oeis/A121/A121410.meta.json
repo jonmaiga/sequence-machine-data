@@ -1,0 +1,20 @@
+{
+  "description": "Positions of A121409(n) in A119405.",
+  "id": "A121410",
+  "mentions": [
+    "A119405",
+    "A121409"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

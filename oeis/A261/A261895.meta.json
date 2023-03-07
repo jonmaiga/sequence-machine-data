@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of the lower limit of A162795(i)/i^2.",
+  "id": "A261895",
+  "mentions": [
+    "A000695",
+    "A139250",
+    "A147562",
+    "A162795",
+    "A170927",
+    "A195853",
+    "A260239",
+    "A261313",
+    "A261896"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

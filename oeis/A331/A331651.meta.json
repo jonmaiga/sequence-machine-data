@@ -1,0 +1,18 @@
+{
+  "description": "Number of binary matrices with distinct nonzero rows, a total of n ones and distinct columns each with the same number of ones and columns in decreasing lexicographic order.",
+  "id": "A331651",
+  "mentions": [
+    "A331569"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

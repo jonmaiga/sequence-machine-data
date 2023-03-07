@@ -1,0 +1,17 @@
+{
+  "description": "Number of 2Xn 0..3 arrays with exactly floor(2Xn/2) elements equal to at least one horizontal, diagonal or antidiagonal neighbor, with new values introduced in row major 0..3 order",
+  "id": "A223053",
+  "mentions": [
+    "A223052"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:41",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

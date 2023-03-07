@@ -1,0 +1,28 @@
+{
+  "description": "Irregular table read by rows: T(n,k) is the number of permutations in S_n that have exactly k occurrences of the pattern 1432. 0 <= k <= A100354(n).",
+  "id": "A342864",
+  "mentions": [
+    "A005802",
+    "A008302",
+    "A100354",
+    "A138159",
+    "A263771",
+    "A342840",
+    "A342860",
+    "A342861",
+    "A342862",
+    "A342863",
+    "A342865"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

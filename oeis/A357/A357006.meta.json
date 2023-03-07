@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k that are the smallest of all numbers that are cyclically equivalent to k.",
+  "id": "A357006",
+  "mentions": [
+    "A002729",
+    "A137706",
+    "A333764",
+    "A357005"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

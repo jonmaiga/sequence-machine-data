@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows of the 2-adic valuation (A007814) of Stirling numbers of first kind (A008275).",
+  "id": "A322512",
+  "mentions": [
+    "A007814",
+    "A008275"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

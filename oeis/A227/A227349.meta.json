@@ -1,0 +1,41 @@
+{
+  "description": "Product of lengths of runs of 1-bits in binary representation of n.",
+  "id": "A227349",
+  "mentions": [
+    "A000120",
+    "A003714",
+    "A005361",
+    "A005940",
+    "A011782",
+    "A028310",
+    "A167489",
+    "A227193",
+    "A227350",
+    "A245562",
+    "A246588",
+    "A246595",
+    "A246596",
+    "A246660",
+    "A246661",
+    "A246674",
+    "A278222",
+    "A283972",
+    "A284562",
+    "A284569",
+    "A284580",
+    "A284582",
+    "A284583"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

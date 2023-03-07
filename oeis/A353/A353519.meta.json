@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 1 if n has an odd number of square divisors, otherwise 0.",
+  "id": "A353519",
+  "mentions": [
+    "A000035",
+    "A046951",
+    "A182448",
+    "A219009",
+    "A252895"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

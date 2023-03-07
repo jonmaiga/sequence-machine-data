@@ -1,0 +1,20 @@
+{
+  "description": "Parity of pi(5^n).",
+  "id": "A219189",
+  "mentions": [
+    "A006880",
+    "A219071",
+    "A219097",
+    "A219098"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

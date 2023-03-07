@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways to write n as 4*u + v^2 + x^3 + y^4 + 2*z^8, where u is 0 or 1, v is a positive integer and x,y,z are nonnegative integers.",
+  "id": "A297995",
+  "mentions": [
+    "A000290",
+    "A000578",
+    "A000583",
+    "A262827",
+    "A280356"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:19",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

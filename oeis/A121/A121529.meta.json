@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of nondecreasing Dyck paths of semilength n and having k double rises at an odd level (n >= 1, k >= 0).",
+  "id": "A121529",
+  "mentions": [
+    "A001519",
+    "A054142",
+    "A121530",
+    "A121531"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

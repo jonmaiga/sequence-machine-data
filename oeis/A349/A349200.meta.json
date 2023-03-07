@@ -1,0 +1,20 @@
+{
+  "description": "Loeschian numbers of the form (x + y)*(x^2 + y^2).",
+  "id": "A349200",
+  "mentions": [
+    "A003136",
+    "A348897",
+    "A349202"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

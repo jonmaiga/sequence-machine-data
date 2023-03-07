@@ -1,0 +1,26 @@
+{
+  "description": "Number of labeled simple connected graphs with n vertices whose bridges are all leaves, meaning at least one end of any bridge is an endpoint of the graph.",
+  "id": "A322395",
+  "mentions": [
+    "A001187",
+    "A006125",
+    "A007146",
+    "A013922",
+    "A054921",
+    "A095983",
+    "A322338",
+    "A322387",
+    "A322394"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

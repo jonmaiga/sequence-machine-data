@@ -1,0 +1,25 @@
+{
+  "description": "Numbers m such that all elements of the Collatz trajectory occur in the divisors of m.",
+  "id": "A323097",
+  "mentions": [
+    "A000079",
+    "A006370",
+    "A006577",
+    "A020714",
+    "A027750",
+    "A070165",
+    "A175805",
+    "A207674",
+    "A272985"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

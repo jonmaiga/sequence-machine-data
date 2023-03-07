@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of permutations avoiding 312 that can be realized on increasing unary-binary trees with n nodes.",
+  "id": "A245899",
+  "mentions": [
+    "A245889",
+    "A245902"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that 2^n-1 and 5^n-1 are coprime.",
+  "id": "A265166",
+  "mentions": [
+    "A000225",
+    "A024049",
+    "A263647",
+    "A270390"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of permutations of length n such that numbers at odd positions are monotone and numbers at even positions are also monotone.",
+  "id": "A257546",
+  "mentions": [
+    "A000142",
+    "A047073"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = n*A117366(n)/spf(n), where A117366(n) is the smallest prime larger than all prime factors of n, and spf is the smallest prime factor of n (or 1 if n = 1).",
+  "id": "A285639",
+  "mentions": [
+    "A003961",
+    "A006530",
+    "A020639",
+    "A073485",
+    "A098012",
+    "A117366",
+    "A151800"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:57",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

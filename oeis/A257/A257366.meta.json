@@ -1,0 +1,21 @@
+{
+  "description": "Smallest integer m such that m^2 + 1 has exactly n prime factors, counted with multiplicity.",
+  "id": "A257366",
+  "mentions": [
+    "A002144",
+    "A002313",
+    "A185952",
+    "A193330"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

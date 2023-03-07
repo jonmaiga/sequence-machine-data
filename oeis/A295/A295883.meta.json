@@ -1,0 +1,25 @@
+{
+  "description": "Number of exponents that are 3 in the prime factorization of n.",
+  "id": "A295883",
+  "mentions": [
+    "A028234",
+    "A067029",
+    "A085541",
+    "A085964",
+    "A295659",
+    "A295662",
+    "A295663",
+    "A295884"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:14",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

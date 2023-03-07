@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form n^2+5n+c (n>=0), where c=3 for even n and c=-3 for odd n.",
+  "id": "A117012",
+  "mentions": [
+    "A014209",
+    "A082605"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "G.f.: Sum_{n>=0} x^n * (1+x)^A007814(n), where A007814(n) is the exponent of the highest power of 2 dividing n.",
+  "id": "A227277",
+  "mentions": [
+    "A004772",
+    "A007814",
+    "A227287",
+    "A227318"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 129,
+    "source": "oeis-bfile"
+  }
+}

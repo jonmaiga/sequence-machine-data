@@ -1,0 +1,19 @@
+{
+  "description": "Composite odious numbers.",
+  "id": "A125495",
+  "mentions": [
+    "A000069",
+    "A002808"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

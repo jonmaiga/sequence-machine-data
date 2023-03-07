@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of {1,...,n} containing 3 strings of 3 consecutive integers such that only v-strings of consecutive integers can appear in a block, where v = 1,2,3.",
+  "id": "A105493",
+  "mentions": [
+    "A105485",
+    "A105489",
+    "A105492"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 9,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

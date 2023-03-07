@@ -1,0 +1,21 @@
+{
+  "description": "Sum_{k=0..n} k^(n-k)*(n+k)^k.",
+  "id": "A252710",
+  "mentions": [
+    "A062817",
+    "A252708",
+    "A252709"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

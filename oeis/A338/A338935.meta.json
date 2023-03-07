@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{d|n} (d^2 mod n).",
+  "id": "A338935",
+  "mentions": [
+    "A000430",
+    "A338930"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Least positive integer m such that the numbers phi(k)*pi(k^2) (k = 1..n) are pairwise incongruent modulo m.",
+  "id": "A263321",
+  "mentions": [
+    "A000010",
+    "A000290",
+    "A000720",
+    "A038107",
+    "A263317",
+    "A263319"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triangle in A071944 with rows reversed.",
+  "id": "A108074",
+  "mentions": [
+    "A071944",
+    "A071969"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

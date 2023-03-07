@@ -1,0 +1,25 @@
+{
+  "description": "Numbers with exactly five Brazilian representations: bases 1 < b_1 < b_2 < b_3 < b_4 < b_5 < n-1 such that n is a repdigit in base b_i.",
+  "id": "A290018",
+  "mentions": [
+    "A125134",
+    "A220570",
+    "A257521",
+    "A288783",
+    "A290015",
+    "A290016",
+    "A290017",
+    "A329383"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:04",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

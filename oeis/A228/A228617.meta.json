@@ -1,0 +1,36 @@
+{
+  "description": "T(n,k) is the number of s in {1,...,n}^n having shortest run with the same value of length k; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A228617",
+  "mentions": [
+    "A000007",
+    "A000312",
+    "A002939",
+    "A028310",
+    "A033586",
+    "A085250",
+    "A228154",
+    "A228273",
+    "A228618",
+    "A228619",
+    "A228621",
+    "A228622",
+    "A228630",
+    "A228631",
+    "A228632",
+    "A228633",
+    "A228634",
+    "A228635",
+    "A228636"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

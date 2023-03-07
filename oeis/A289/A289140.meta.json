@@ -1,0 +1,25 @@
+{
+  "description": "Positive numbers k such that rev(k)^2 + rev(k^2) is a square, where rev(n) = A004086(n) is the digital reverse of n.",
+  "id": "A289140",
+  "mentions": [
+    "A004086",
+    "A061230",
+    "A061231",
+    "A068536",
+    "A102859",
+    "A113798",
+    "A202386",
+    "A256515"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

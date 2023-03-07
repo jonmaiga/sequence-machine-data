@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k with prime signature(k) = prime signature(k+1) = prime signature(k+2) = prime signature(k+3).",
+  "id": "A175590",
+  "mentions": [
+    "A052213",
+    "A052214",
+    "A070284",
+    "A218448"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

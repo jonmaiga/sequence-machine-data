@@ -1,0 +1,21 @@
+{
+  "description": "Number of nonequivalent proper colorings of the vertices of a cube using at most n colors up to rotations and reflections of the cube.",
+  "id": "A334356",
+  "mentions": [
+    "A128766",
+    "A140986",
+    "A334357",
+    "A334358"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:18:01",
+    "offset": 1,
+    "size": 29,
+    "source": "joeis"
+  }
+}

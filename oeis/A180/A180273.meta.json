@@ -1,0 +1,25 @@
+{
+  "description": "Squares which are a sum of consecutive squares starting with 7^2.",
+  "id": "A180273",
+  "mentions": [
+    "A001032",
+    "A094196",
+    "A151557",
+    "A180259",
+    "A180442",
+    "A184763"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Leading coefficient of the n-th Stern polynomial.",
+  "id": "A327804",
+  "mentions": [
+    "A125184",
+    "A277314",
+    "A277315"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

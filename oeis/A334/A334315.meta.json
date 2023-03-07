@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f. A(x) satisfies: A(x) = x - Sum_{k>=2} p(k) * A(x)^k / k!, where p = A000041 (partition numbers).",
+  "id": "A334315",
+  "mentions": [
+    "A000041",
+    "A007312",
+    "A050394",
+    "A066398"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Primes p such that p-1 is a semiprime and p+2 is prime or prime squared.",
+  "id": "A181602",
+  "mentions": [
+    "A001248",
+    "A001358",
+    "A003627",
+    "A005383",
+    "A172240",
+    "A172487",
+    "A173176",
+    "A181669"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:04",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

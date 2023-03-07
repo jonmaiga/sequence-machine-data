@@ -1,0 +1,25 @@
+{
+  "description": "Square array A246278 minus 1.",
+  "id": "A246275",
+  "mentions": [
+    "A003961",
+    "A038722",
+    "A246273",
+    "A246276",
+    "A246278",
+    "A246675",
+    "A246676"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

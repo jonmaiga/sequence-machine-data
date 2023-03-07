@@ -1,0 +1,29 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of permutations of {1,2,...,k+n} having excedance set {1,2,...,k} (the empty set for k=0), 0 <= k <= n-1.",
+  "id": "A136126",
+  "mentions": [
+    "A000012",
+    "A000225",
+    "A028246",
+    "A091344",
+    "A091347",
+    "A091348",
+    "A092552",
+    "A136127",
+    "A152884",
+    "A255192",
+    "A329369"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

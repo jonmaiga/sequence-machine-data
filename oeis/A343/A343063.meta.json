@@ -1,0 +1,22 @@
+{
+  "description": "Primitive triples (a, b, c) for integer-sided triangles whose angle B = 2*C.",
+  "id": "A343063",
+  "mentions": [
+    "A335893",
+    "A343064",
+    "A343065",
+    "A343066",
+    "A343067"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

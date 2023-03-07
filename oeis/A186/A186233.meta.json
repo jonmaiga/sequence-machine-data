@@ -1,0 +1,18 @@
+{
+  "description": "The number of lucky numbers between n and 2n, exclusive.",
+  "id": "A186233",
+  "mentions": [
+    "A000959",
+    "A186234"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

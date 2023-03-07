@@ -1,0 +1,17 @@
+{
+  "description": "Number of 7Xn 0..1 arrays with every 1 horizontally or antidiagonally adjacent to 1 neighboring 1s.",
+  "id": "A297229",
+  "mentions": [
+    "A297224"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:17",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

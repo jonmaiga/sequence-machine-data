@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,k), read by rows: T(n,k) is the denominator of (1-2^(n-k+1))/(1-2^(k+1)).",
+  "id": "A228035",
+  "mentions": [
+    "A000225",
+    "A213243",
+    "A213245",
+    "A227984"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Coefficients of polynomials related to ordered set partitions. Triangle read by rows, T_{m}(n, k) for m = 2 and 0 <= k <= n.",
+  "id": "A326477",
+  "mentions": [
+    "A001147",
+    "A094088",
+    "A129062",
+    "A131689",
+    "A153881",
+    "A241171",
+    "A278073",
+    "A278074",
+    "A326585",
+    "A326587"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

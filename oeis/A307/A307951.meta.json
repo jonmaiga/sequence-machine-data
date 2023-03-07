@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of 1 - log(2)/log(-W(-2/e^2)), where W is Lambert's W function.",
+  "id": "A307951",
+  "mentions": [
+    "A106533",
+    "A226775"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:14",
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

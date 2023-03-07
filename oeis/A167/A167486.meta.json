@@ -1,0 +1,17 @@
+{
+  "description": "Choose the prime sum of pair (n,n+1) otherwise choose n (see comments for details).",
+  "id": "A167486",
+  "mentions": [
+    "A000027"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

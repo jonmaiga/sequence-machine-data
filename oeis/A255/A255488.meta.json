@@ -1,0 +1,25 @@
+{
+  "description": "Number of odd terms in expansion of (1 + x + x^2 + x^3 + x^4 + x^5)^n.",
+  "id": "A255488",
+  "mentions": [
+    "A001316",
+    "A011782",
+    "A071053",
+    "A134660",
+    "A134661",
+    "A134662",
+    "A247649",
+    "A255485",
+    "A255486"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

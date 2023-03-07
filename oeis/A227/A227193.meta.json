@@ -1,0 +1,22 @@
+{
+  "description": "Difference of (product of runlengths of 1-bits) and (product of runlengths of 0-bits) in binary representation of n.",
+  "id": "A227193",
+  "mentions": [
+    "A000975",
+    "A145037",
+    "A227190",
+    "A227349",
+    "A227350"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

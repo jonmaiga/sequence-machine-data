@@ -1,0 +1,38 @@
+{
+  "description": "Number of prime digits in decimal representation of n.",
+  "id": "A193238",
+  "mentions": [
+    "A000040",
+    "A010051",
+    "A046034",
+    "A052382",
+    "A055640",
+    "A055641",
+    "A055642",
+    "A084984",
+    "A092620",
+    "A092624",
+    "A092625",
+    "A102669",
+    "A102685",
+    "A109066",
+    "A117804",
+    "A118950",
+    "A122640",
+    "A196563",
+    "A196564",
+    "A211681"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

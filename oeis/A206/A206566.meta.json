@@ -1,0 +1,20 @@
+{
+  "description": "Triangular array: T(i,j) = number of terms common to the binary expansions of i+1 and j, for j=1,2,3,...,i; i=1,2,3,...",
+  "id": "A206566",
+  "mentions": [
+    "A115478",
+    "A206479"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

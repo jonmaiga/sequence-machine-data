@@ -1,0 +1,28 @@
+{
+  "description": "Eight bishops and one elephant on a 3 X 3 chessboard. a(n) = 2^(n+2) - 3*F(n+2).",
+  "id": "A175660",
+  "mentions": [
+    "A000045",
+    "A000079",
+    "A008466",
+    "A027934",
+    "A027974",
+    "A074878",
+    "A142585",
+    "A175654",
+    "A175661",
+    "A179610"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

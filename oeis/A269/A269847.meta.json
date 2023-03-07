@@ -1,0 +1,32 @@
+{
+  "description": "Permutation of natural numbers: a(1) = 1, for n > 1, if n is an odd prime, a(n) = A003961(a(A000720(n)), otherwise a(n) = 2*a(n-A000720(n)).",
+  "id": "A269847",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A003961",
+    "A005843",
+    "A007097",
+    "A010051",
+    "A026233",
+    "A065090",
+    "A065091",
+    "A071574",
+    "A163511",
+    "A246681",
+    "A257730",
+    "A269848",
+    "A269857"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:32",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

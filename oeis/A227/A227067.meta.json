@@ -1,0 +1,21 @@
+{
+  "description": "Least n-prime p such that the number of even n-primes (<= p) equals the number of odd n-primes (<= p).",
+  "id": "A227067",
+  "mentions": [
+    "A226833",
+    "A226835",
+    "A227069"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of distinct terms i^j for 2 <= i,j <= n.",
+  "id": "A126255",
+  "mentions": [
+    "A000290",
+    "A027424",
+    "A061786",
+    "A126254",
+    "A126257"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:14",
+    "offset": 2,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

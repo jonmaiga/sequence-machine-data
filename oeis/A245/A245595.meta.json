@@ -1,0 +1,20 @@
+{
+  "description": "Unique integer r with -prime(n)/2 < r <= prime(n)/2 such that S(n) == r (mod prime(n)), where S(n) is the large Schroeder number A006318(n).",
+  "id": "A245595",
+  "mentions": [
+    "A000040",
+    "A000110",
+    "A006318",
+    "A245525"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

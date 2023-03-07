@@ -1,0 +1,18 @@
+{
+  "description": "The average of prime factors of n and n+1 is the same.",
+  "id": "A227755",
+  "mentions": [
+    "A227754"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

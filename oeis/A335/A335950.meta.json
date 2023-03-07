@@ -1,0 +1,19 @@
+{
+  "description": "Sparse rulers with length a(n) cannot be perfect rulers.",
+  "id": "A335950",
+  "mentions": [
+    "A103294",
+    "A103300"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

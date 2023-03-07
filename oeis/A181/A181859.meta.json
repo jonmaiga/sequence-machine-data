@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = gcd(n^2, n!) / gcd(n^2, n!/floor(n/2)!^2).",
+  "id": "A181859",
+  "mentions": [
+    "A000290",
+    "A056040",
+    "A170826",
+    "A181860",
+    "A181861"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

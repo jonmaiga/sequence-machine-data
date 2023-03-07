@@ -1,0 +1,20 @@
+{
+  "description": "Number of factorizations of n into factors (greater than 1) of n kinds.",
+  "id": "A329365",
+  "mentions": [
+    "A001055",
+    "A050367",
+    "A301830"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Triangle of coefficients of polynomials defined by the Binet form P(n,x) = U^n + L^n, where U = (x + d)/2, L = (x - d)/2, d = (4 + x^2)^(1/2). Decreasing powers of x.",
+  "id": "A162514",
+  "mentions": [
+    "A000032",
+    "A034807",
+    "A114525",
+    "A127672",
+    "A162515",
+    "A162516",
+    "A162517",
+    "A244422"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:18:17",
+    "offset": 0,
+    "size": 95,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Composite numbers which are the sum of four consecutive composite numbers.",
+  "id": "A151742",
+  "mentions": [
+    "A151740",
+    "A151741",
+    "A151743"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

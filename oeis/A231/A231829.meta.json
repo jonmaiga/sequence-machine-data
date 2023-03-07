@@ -1,0 +1,30 @@
+{
+  "description": "Square array read by antidiagonals: T(m,n) = number of ways of creating a closed, simple loop on an m X n rectangular lattice.",
+  "id": "A231829",
+  "mentions": [
+    "A003763",
+    "A059020",
+    "A140517",
+    "A222202",
+    "A288518",
+    "A288637",
+    "A339117",
+    "A339118",
+    "A339119",
+    "A339120",
+    "A339121",
+    "A358707",
+    "A358785"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

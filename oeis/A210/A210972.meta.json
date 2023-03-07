@@ -1,0 +1,26 @@
+{
+  "description": "Sum of all region numbers of all parts of all partitions of n.",
+  "id": "A210972",
+  "mentions": [
+    "A135010",
+    "A138121",
+    "A182703",
+    "A194446",
+    "A206437",
+    "A210437",
+    "A210966",
+    "A210969",
+    "A210971"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

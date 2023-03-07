@@ -1,0 +1,19 @@
+{
+  "description": "Oblong numbers (A002378) whose sum of divisors is also an oblong number.",
+  "id": "A226363",
+  "mentions": [
+    "A000203",
+    "A002378",
+    "A083674"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

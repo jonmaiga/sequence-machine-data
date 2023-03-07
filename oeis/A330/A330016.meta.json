@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=1..n} (-1)^(n - k) * H(k) * k!, where H(k) is the k-th harmonic number.",
+  "id": "A330016",
+  "mentions": [
+    "A000254",
+    "A001008",
+    "A002805",
+    "A092692",
+    "A097422"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Square array A(n,k) read by descending antidiagonals where A(n,k) is the k-th solution x to A328248(x) = n-1.",
+  "id": "A328250",
+  "mentions": [
+    "A003415",
+    "A005117",
+    "A328248",
+    "A328251",
+    "A328252",
+    "A328253",
+    "A328302"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

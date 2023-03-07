@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{d|n} phi(d)^n.",
+  "id": "A342471",
+  "mentions": [
+    "A000010",
+    "A029939",
+    "A110567",
+    "A309369",
+    "A338997",
+    "A342470"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

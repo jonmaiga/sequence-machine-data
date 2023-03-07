@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Omega(6*n-1)*Omega(6*n+1).",
+  "id": "A172155",
+  "mentions": [
+    "A145193"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

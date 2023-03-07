@@ -1,0 +1,23 @@
+{
+  "description": "If A001222(n) <= 2, a(n) = 1, otherwise, a(n) = Sum_{p|n} Sum_{q|n, q>=(p+[p^2 does not divide n])} a(prime(primepi(p)*primepi(q)) * (n/(p*q))), where p and q range over distinct primes dividing n. (See formula section for exact details.)",
+  "id": "A320105",
+  "mentions": [
+    "A000720",
+    "A001222",
+    "A064988",
+    "A300385",
+    "A302242",
+    "A317145"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

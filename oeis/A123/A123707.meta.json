@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=1..n} A123706(n,k)*2^(k-1).",
+  "id": "A123707",
+  "mentions": [
+    "A010766",
+    "A123706",
+    "A123708",
+    "A123709"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

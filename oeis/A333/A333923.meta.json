@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest positive integer such that n^a(n) is divisible by n+a(n).",
+  "id": "A333923",
+  "mentions": [
+    "A063427",
+    "A332703",
+    "A332795",
+    "A333811"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 2,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

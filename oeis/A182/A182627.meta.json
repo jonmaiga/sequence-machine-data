@@ -1,0 +1,25 @@
+{
+  "description": "Total number of digits in binary expansion of all divisors of n.",
+  "id": "A182627",
+  "mentions": [
+    "A093653",
+    "A135539",
+    "A182620",
+    "A182621",
+    "A182628",
+    "A226590"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

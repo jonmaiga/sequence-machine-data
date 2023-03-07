@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of ways to write A180045(n) as (x*y+1)*(x*z+1) with x > y > z > 1.",
+  "id": "A332770",
+  "mentions": [
+    "A180045"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:02",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

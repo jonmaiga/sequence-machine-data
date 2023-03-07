@@ -1,0 +1,20 @@
+{
+  "description": "Sum of the lengths of the distinct rectangles with prime length and integer width such that L + W = n, W < L.",
+  "id": "A294487",
+  "mentions": [
+    "A010051",
+    "A243485"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

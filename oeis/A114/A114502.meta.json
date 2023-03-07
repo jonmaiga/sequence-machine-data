@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is number of ordered trees with n edges and having exactly k vertices all of whose children are leaves (1<=k<=floor(n/2) for n>=2).",
+  "id": "A114502",
+  "mentions": [
+    "A000108",
+    "A001519",
+    "A024718"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

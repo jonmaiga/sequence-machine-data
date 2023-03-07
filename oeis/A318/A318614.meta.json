@@ -1,0 +1,23 @@
+{
+  "description": "Scaled g.f. S(u) = Sum_{n>0} a(n)*16*(u/16)^n satisfies T(u) = d/du S(u), with T(u) as defined by A318417; sequence gives a(n).",
+  "id": "A318614",
+  "mentions": [
+    "A000108",
+    "A000888",
+    "A010503",
+    "A098410",
+    "A247719",
+    "A318417"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:26:09",
+    "offset": 1,
+    "size": 18,
+    "source": "joeis"
+  }
+}

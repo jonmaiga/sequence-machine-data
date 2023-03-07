@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the smallest solution x to A176774(x)=n; a(n)=0 if this equation has no solution.",
+  "id": "A176948",
+  "mentions": [
+    "A000217",
+    "A000384",
+    "A139601",
+    "A175873",
+    "A176744",
+    "A176747",
+    "A176774",
+    "A176775",
+    "A176874"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:00",
+    "offset": 3,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

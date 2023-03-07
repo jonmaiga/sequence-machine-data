@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (2/n^3) * Sum_{d|n} moebius(n/d)*binomial(3*d,d).",
+  "id": "A268618",
+  "mentions": [
+    "A005809",
+    "A008683",
+    "A060170",
+    "A254593",
+    "A268592",
+    "A268617"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the smallest number such that when written in all bases from base 2 to base n its leading digit equals the base - 1.",
+  "id": "A359183",
+  "mentions": [
+    "A004053",
+    "A181929",
+    "A258107",
+    "A307254",
+    "A307255",
+    "A347053"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 2,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

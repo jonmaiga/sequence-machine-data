@@ -1,0 +1,17 @@
+{
+  "description": "Number of (n+1)X9 0..3 arrays with every 2X2 subblock sum greater than 6",
+  "id": "A184216",
+  "mentions": [
+    "A184217"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

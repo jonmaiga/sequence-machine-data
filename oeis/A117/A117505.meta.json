@@ -1,0 +1,23 @@
+{
+  "description": "Triangle of coefficients for polynomials used for the column g.f.s of triangle A116880, called CM(1,2).",
+  "id": "A117505",
+  "mentions": [
+    "A000108",
+    "A052701",
+    "A064062",
+    "A116880"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

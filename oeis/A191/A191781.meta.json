@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of length-n left factors of Dyck paths having length of the first ascent equal to k (1 <= k <= n).",
+  "id": "A191781",
+  "mentions": [
+    "A001405",
+    "A191782"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

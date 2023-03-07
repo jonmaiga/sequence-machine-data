@@ -1,0 +1,31 @@
+{
+  "description": "Number of circles in the structure of A211000 after n-th stage.",
+  "id": "A211020",
+  "mentions": [
+    "A000040",
+    "A187210",
+    "A210838",
+    "A210841",
+    "A211000",
+    "A211001",
+    "A211002",
+    "A211003",
+    "A211010",
+    "A211011",
+    "A211021",
+    "A211022",
+    "A211023",
+    "A355478",
+    "A357434"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Number of length-3 integer partitions of n whose largest part is not the sum of the other two.",
+  "id": "A325690",
+  "mentions": [
+    "A000041",
+    "A001399",
+    "A005044",
+    "A008642",
+    "A069905",
+    "A266223",
+    "A325592",
+    "A325689",
+    "A325691",
+    "A325694"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

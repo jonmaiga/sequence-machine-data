@@ -1,0 +1,23 @@
+{
+  "description": "a(2*n) = 2*n - a(n), a(2*n+1) = 2*n + 1.",
+  "id": "A335115",
+  "mentions": [
+    "A001045",
+    "A035263",
+    "A050292",
+    "A129527",
+    "A154269"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

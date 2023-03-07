@@ -1,0 +1,25 @@
+{
+  "description": "T(n,k)=Number of (n+2)X(k+2) 0..3 arrays with every 3X3 subblock row, column, diagonal and antidiagonal sum not equal to 0 2 3 6 or 7",
+  "id": "A252295",
+  "mentions": [
+    "A252131",
+    "A252133",
+    "A252134",
+    "A252135",
+    "A252136",
+    "A252137",
+    "A252138"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:10",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

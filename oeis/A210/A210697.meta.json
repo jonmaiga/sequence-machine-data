@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows, arising in study of alternating-sign matrices.",
+  "id": "A210697",
+  "mentions": [
+    "A048601",
+    "A059477"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

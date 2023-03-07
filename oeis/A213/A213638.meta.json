@@ -1,0 +1,19 @@
+{
+  "description": "Positions of 2 in A213636.",
+  "id": "A213638",
+  "mentions": [
+    "A213636",
+    "A213637"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 15:56:56",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

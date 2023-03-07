@@ -1,0 +1,21 @@
+{
+  "description": "Number of paths of length n between two arbitrary, distinct vertices in K7, the complete graph on 7 vertices.",
+  "id": "A108509",
+  "mentions": [
+    "A108506",
+    "A108508"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

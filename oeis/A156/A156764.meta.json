@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n, k, m) = b(n, m)/(b(k, m)*b(n-k, m)), with T(0, k, m) = 1, b(n, k) = Product_{j=1..n} ( Sum_{i=0..j-1} (-1)^(j+i)*(j+1)*(k+1)^i*StirlingS1(j-1, i) ), b(n, 0) = n!, and m = 3, read by rows.",
+  "id": "A156764",
+  "mentions": [
+    "A007318",
+    "A156584"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

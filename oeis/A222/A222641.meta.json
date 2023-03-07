@@ -1,0 +1,19 @@
+{
+  "description": "Number of iterations in Collatz (3x+1) trajectory of n to reach 1 from the highest term.",
+  "id": "A222641",
+  "mentions": [
+    "A006577",
+    "A220421"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

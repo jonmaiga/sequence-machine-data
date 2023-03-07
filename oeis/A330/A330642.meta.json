@@ -1,0 +1,28 @@
+{
+  "description": "a(n) is the number of partitions of n with Durfee square of size <= 4.",
+  "id": "A330642",
+  "mentions": [
+    "A000041",
+    "A006918",
+    "A008805",
+    "A028310",
+    "A115720",
+    "A115994",
+    "A117485",
+    "A117486",
+    "A330640",
+    "A330641",
+    "A330643"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

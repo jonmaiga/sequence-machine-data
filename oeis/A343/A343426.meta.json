@@ -1,0 +1,18 @@
+{
+  "description": "Triangular numbers T(i) that can be expressed as the sum of 2 positive triangular numbers, T(j)+T(k), and for which i+j+k is a triangular number, where T is A000217.",
+  "id": "A343426",
+  "mentions": [
+    "A000217",
+    "A089982"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

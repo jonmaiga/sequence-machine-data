@@ -1,0 +1,17 @@
+{
+  "description": "a(0)=0. For n >= 1, a(n) = (A084758(n+1)-A084758(n))/2.",
+  "id": "A166108",
+  "mentions": [
+    "A084758"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

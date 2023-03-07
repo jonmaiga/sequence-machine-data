@@ -1,0 +1,21 @@
+{
+  "description": "Number of chess diagrams that can be obtained in n plies, but not in fewer plies.",
+  "id": "A209433",
+  "mentions": [
+    "A019319",
+    "A209080"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "fini",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

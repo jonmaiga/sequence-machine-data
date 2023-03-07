@@ -1,0 +1,23 @@
+{
+  "description": "Lesser member p of a twin prime pair (p, p + 2) such that 2p + 3(p + 2) is a perfect square.",
+  "id": "A174370",
+  "mentions": [
+    "A001359",
+    "A061308",
+    "A069496",
+    "A119859",
+    "A172271",
+    "A172494",
+    "A173255"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

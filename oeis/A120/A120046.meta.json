@@ -1,0 +1,23 @@
+{
+  "description": "The 10^n-th 5-almost prime.",
+  "id": "A120046",
+  "mentions": [
+    "A006988",
+    "A114125",
+    "A114453",
+    "A120044",
+    "A120045"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

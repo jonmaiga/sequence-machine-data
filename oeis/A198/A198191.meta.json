@@ -1,0 +1,17 @@
+{
+  "description": "Start with sequence 1,2,3, after this a(n) is smallest number > a(n-1) coprime to sum of previous elements.",
+  "id": "A198191",
+  "mentions": [
+    "A001651"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

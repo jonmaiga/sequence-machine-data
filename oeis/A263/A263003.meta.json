@@ -1,0 +1,22 @@
+{
+  "description": "Partition array for the products of the hook lengths of Ferrers (Young) diagrams corresponding to the partitions of n, written in Abramowitz-Stegun order.",
+  "id": "A263003",
+  "mentions": [
+    "A000041",
+    "A117506",
+    "A263004"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

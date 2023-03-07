@@ -1,0 +1,24 @@
+{
+  "description": "Numbers n such that the largest digit of n^3 is 4.",
+  "id": "A294664",
+  "mentions": [
+    "A000578",
+    "A277961",
+    "A278937",
+    "A294663",
+    "A294665",
+    "A294996",
+    "A294999"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

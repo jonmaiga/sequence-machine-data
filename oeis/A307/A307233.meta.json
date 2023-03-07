@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Product_{k=1..n} (k^2 + k + 1) mod n.",
+  "id": "A307233",
+  "mentions": [
+    "A002061",
+    "A130032"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:38:51",
+    "offset": 1,
+    "size": 77,
+    "source": "joeis"
+  }
+}

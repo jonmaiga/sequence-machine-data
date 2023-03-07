@@ -1,0 +1,21 @@
+{
+  "description": "Numbers which can be expressed with fewer 1s using +, -, and * than with + and *.",
+  "id": "A253177",
+  "mentions": [
+    "A005245",
+    "A005520",
+    "A091333",
+    "A173419",
+    "A255641"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:11",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

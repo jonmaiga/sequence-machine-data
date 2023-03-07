@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: coefficients in expansion of Asveld's polynomials p_j(x).",
+  "id": "A341725",
+  "mentions": [
+    "A005923",
+    "A341724",
+    "A341728"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

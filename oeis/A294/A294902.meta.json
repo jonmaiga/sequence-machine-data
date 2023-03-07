@@ -1,0 +1,26 @@
+{
+  "description": "Number of proper divisors of n that are in A175526.",
+  "id": "A294902",
+  "mentions": [
+    "A000120",
+    "A032741",
+    "A175526",
+    "A292257",
+    "A294892",
+    "A294901",
+    "A294903",
+    "A294904",
+    "A294905"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

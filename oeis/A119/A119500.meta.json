@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that A114717(n) sets a new record.",
+  "id": "A119500",
+  "mentions": [
+    "A018894",
+    "A114717",
+    "A119499",
+    "A119840"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

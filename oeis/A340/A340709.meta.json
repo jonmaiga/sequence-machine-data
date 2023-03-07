@@ -1,0 +1,22 @@
+{
+  "description": "Let k = n/2 + floor(n/4) if n is even, otherwise (3n+1)/2; then a(n) = A093545(k).",
+  "id": "A340709",
+  "mentions": [
+    "A014682",
+    "A093545",
+    "A340615",
+    "A342131"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:24:31",
+    "offset": 0,
+    "size": 71,
+    "source": "joeis"
+  }
+}

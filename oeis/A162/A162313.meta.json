@@ -1,0 +1,27 @@
+{
+  "description": "Triangular array P*(2*I - P^2)^-1, where P is Pascal's triangle A007318 and I is the identity matrix.",
+  "id": "A162313",
+  "mentions": [
+    "A000629",
+    "A007318",
+    "A060187",
+    "A080253",
+    "A154921",
+    "A162312",
+    "A162314",
+    "A162315"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

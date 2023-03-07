@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows: row n lists 0 <= k < p^2 such that p^2 divides A172236(k, p-Kronecker(k^2+4, p)), p = prime(n).",
+  "id": "A320162",
+  "mentions": [
+    "A143548",
+    "A172236",
+    "A238736",
+    "A320161"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

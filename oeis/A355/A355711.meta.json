@@ -1,0 +1,24 @@
+{
+  "description": "Starts of runs of 3 consecutive numbers with the same number of 5-smooth divisors.",
+  "id": "A355711",
+  "mentions": [
+    "A005238",
+    "A006073",
+    "A045939",
+    "A332313",
+    "A332387",
+    "A355583",
+    "A355710",
+    "A355712"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

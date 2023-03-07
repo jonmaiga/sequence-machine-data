@@ -1,0 +1,22 @@
+{
+  "description": "The binary representation of a(n) is the concatenation of n and the binary complement of n, A035327(n).",
+  "id": "A253608",
+  "mentions": [
+    "A035327",
+    "A036044",
+    "A070939"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

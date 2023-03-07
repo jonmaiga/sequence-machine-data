@@ -1,0 +1,23 @@
+{
+  "description": "Numbers m such that A352688(m) = 1.",
+  "id": "A352317",
+  "mentions": [
+    "A007953",
+    "A008591",
+    "A017173",
+    "A331786",
+    "A352688",
+    "A352689"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

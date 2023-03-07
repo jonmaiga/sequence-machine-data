@@ -1,0 +1,20 @@
+{
+  "description": "Index of first occurrence of n in A348179, or -1 if n never appears.",
+  "id": "A349423",
+  "mentions": [
+    "A336668",
+    "A348179",
+    "A349422"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

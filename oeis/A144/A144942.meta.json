@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of x^2*(3*x^3+145*x^2-507*x-25) / ((x-1)*(x^2-34*x+1)*(x^2+34*x+1)).",
+  "id": "A144942",
+  "mentions": [
+    "A133301",
+    "A144796",
+    "A144797"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

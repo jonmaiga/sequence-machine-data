@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n for which A242719(n) = prime(n)*(prime(n)+6) + 1.",
+  "id": "A245363",
+  "mentions": [
+    "A001359",
+    "A062326",
+    "A242719",
+    "A246748",
+    "A247011"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

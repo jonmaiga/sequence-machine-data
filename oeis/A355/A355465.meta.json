@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of Sum_{k>=0} (k^k * x/(1 - k^k * x))^k.",
+  "id": "A355465",
+  "mentions": [
+    "A349886",
+    "A355466"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

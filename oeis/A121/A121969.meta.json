@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that if you subtract n-reversed from n you get a natural number with the same digits as n.",
+  "id": "A121969",
+  "mentions": [
+    "A055161"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

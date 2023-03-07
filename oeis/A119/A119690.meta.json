@@ -1,0 +1,22 @@
+{
+  "description": "n! mod n*(n+1)/2.",
+  "id": "A119690",
+  "mentions": [
+    "A006093",
+    "A010051",
+    "A175553",
+    "A175567"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

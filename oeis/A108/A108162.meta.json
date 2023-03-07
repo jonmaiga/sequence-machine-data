@@ -1,0 +1,30 @@
+{
+  "description": "Least even pseudoprime > p to base p, where p = prime(n).",
+  "id": "A108162",
+  "mentions": [
+    "A006935",
+    "A090082",
+    "A090084",
+    "A130433",
+    "A130434",
+    "A130435",
+    "A130436",
+    "A130437",
+    "A130438",
+    "A130439",
+    "A130440",
+    "A130441",
+    "A130442",
+    "A130443"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

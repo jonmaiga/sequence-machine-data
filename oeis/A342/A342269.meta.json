@@ -1,0 +1,22 @@
+{
+  "description": "Take a regular (2*n+1)-gon with all diagonals drawn; a(n) = number of edges in next-to-largest cell.",
+  "id": "A342269",
+  "mentions": [
+    "A331450",
+    "A341729",
+    "A341735",
+    "A342222",
+    "A342236"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 2,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

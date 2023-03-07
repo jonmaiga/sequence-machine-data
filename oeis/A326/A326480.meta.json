@@ -1,0 +1,28 @@
+{
+  "description": "T(n, k) = 2^n * n! * [x^k] [z^n] (4*exp(x*z))/(exp(z) + 1)^2, triangle read by rows, for 0 <= k <= n. Coefficients of Euler polynomials of order 2.",
+  "id": "A326480",
+  "mentions": [
+    "A000079",
+    "A004174",
+    "A058940",
+    "A081733",
+    "A122045",
+    "A155585",
+    "A326481",
+    "A326482",
+    "A326483",
+    "A326484",
+    "A326485"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

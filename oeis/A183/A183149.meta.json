@@ -1,0 +1,27 @@
+{
+  "description": "Number of toothpicks added at n-th stage to the toothpick structure of A183148.",
+  "id": "A183149",
+  "mentions": [
+    "A000695",
+    "A139250",
+    "A139251",
+    "A147582",
+    "A147610",
+    "A160173",
+    "A161411",
+    "A183061",
+    "A183127",
+    "A183148"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

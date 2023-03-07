@@ -1,0 +1,21 @@
+{
+  "description": "The coefficients in the expansion x_1(x_1 + x_2)...(x_1 + x_2 + ... + x_n), given row by row.",
+  "id": "A347917",
+  "mentions": [
+    "A000108",
+    "A000142",
+    "A144186",
+    "A144187"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

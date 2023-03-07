@@ -1,0 +1,21 @@
+{
+  "description": "Prime numbers p such that the decimal representation of its Elias gamma code is also a prime.",
+  "id": "A281551",
+  "mentions": [
+    "A000040",
+    "A171885",
+    "A281149",
+    "A281316"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:50",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

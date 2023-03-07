@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array U(n,k) of coefficients of polynomials defined in Comments.",
+  "id": "A210875",
+  "mentions": [
+    "A208510",
+    "A210874",
+    "A210881"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:23:07",
+    "offset": 1,
+    "size": 71,
+    "source": "joeis"
+  }
+}

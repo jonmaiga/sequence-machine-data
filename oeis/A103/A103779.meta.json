@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of real root of y + y^2 + y^3 = x.",
+  "id": "A103779",
+  "mentions": [
+    "A071675",
+    "A103778"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:39:20",
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numerator of s_{2n}, where s_0 = 1, s_n = | 2^n*(2^(n-1)-1)*Bernoulli(n)/n! | for n>0.",
+  "id": "A171078",
+  "mentions": [
+    "A171079"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

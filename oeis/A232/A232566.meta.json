@@ -1,0 +1,18 @@
+{
+  "description": "Let x(0)x(1)x(2)... x(q) denote the decimal expansion of n and sopf(n) the sum of the distinct prime divisors of n. Sequence lists the numbers n such that x(0)/sopf(n) + x(1)/sopf(n) + ... + x(q)/sopf(n) + x(0)*x(1)*x(2)*...*x(q)/sopf(n) is an integer.",
+  "id": "A232566",
+  "mentions": [
+    "A008472"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

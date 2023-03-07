@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,k) = (4*n+3)*(4*k+3).",
+  "id": "A241747",
+  "mentions": [
+    "A002145",
+    "A002414",
+    "A004767",
+    "A016838",
+    "A017629",
+    "A085027"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:02:01",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

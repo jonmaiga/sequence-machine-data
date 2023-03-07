@@ -1,0 +1,25 @@
+{
+  "description": "Triangle, read by rows, where T(n,k) = k!*C(n, k)*11^(n-k) for n>=0, k=0..n.",
+  "id": "A218018",
+  "mentions": [
+    "A001020",
+    "A081127",
+    "A081141",
+    "A217629",
+    "A218016",
+    "A218017"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

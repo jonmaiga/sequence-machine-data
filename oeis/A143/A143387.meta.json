@@ -1,0 +1,22 @@
+{
+  "description": "Least prime a(n) such that M(n)*(M(n)+a(n))-1 and M(n)*(M(n)+a(n))+1 are twin primes with M(i)=i-th Mersenne prime A000043(i).",
+  "id": "A143387",
+  "mentions": [
+    "A000043",
+    "A143384",
+    "A143385",
+    "A143386"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

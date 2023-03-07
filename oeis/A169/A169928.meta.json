@@ -1,0 +1,19 @@
+{
+  "description": "Values of n >= 7 such that 10*n-122+360/n is an integer.",
+  "id": "A169928",
+  "mentions": [
+    "A169929"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

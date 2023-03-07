@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the start of the first sequence of 2*n+1 consecutive primes p_1, p_2, ..., p_(2*n+1) such that p_1*p_2 + p_2*p_3 + ... + p_(2*n)*p_(2*n+1) + p_(2*n+1)*p_1 is prime.",
+  "id": "A356477",
+  "mentions": [
+    "A070934",
+    "A356471",
+    "A356475"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

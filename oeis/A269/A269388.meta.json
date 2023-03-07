@@ -1,0 +1,26 @@
+{
+  "description": "Permutation of natural numbers: a(1) = 0, after which, a(2n) = 1 + 2*a(n), a(2n+1) = 2 * a(A269380(n)).",
+  "id": "A269388",
+  "mentions": [
+    "A156552",
+    "A246677",
+    "A252754",
+    "A260742",
+    "A269172",
+    "A269378",
+    "A269380",
+    "A269386",
+    "A269387"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:31",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

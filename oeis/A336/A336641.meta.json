@@ -1,0 +1,28 @@
+{
+  "description": "Numbers k such that A007913(k) divides sigma(k) and A008833(k)-1 either divides A326127(k) (= (sigma(k)-core(k)-k), or both are zero.",
+  "id": "A336641",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A002023",
+    "A007913",
+    "A008833",
+    "A228058",
+    "A326126",
+    "A326127",
+    "A326128",
+    "A326129",
+    "A336550",
+    "A336642"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

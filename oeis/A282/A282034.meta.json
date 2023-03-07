@@ -1,0 +1,21 @@
+{
+  "description": "Three-set non-British additive number system read by rows.",
+  "id": "A282034",
+  "mentions": [
+    "A032174",
+    "A282032"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:16:09",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

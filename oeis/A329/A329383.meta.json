@@ -1,0 +1,23 @@
+{
+  "description": "Positive integers that have more Brazilian representations than any smaller positive integer.",
+  "id": "A329383",
+  "mentions": [
+    "A002182",
+    "A066044",
+    "A279930",
+    "A284758",
+    "A309039",
+    "A309493"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Irregular triangle T(n,k) read by rows: first row is 0, n-th row (n > 1) lists indices of distinct primes dividing n.",
+  "id": "A304038",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A001221",
+    "A027748",
+    "A055396",
+    "A061395",
+    "A066328",
+    "A112798",
+    "A156061",
+    "A302170"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

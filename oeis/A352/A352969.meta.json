@@ -1,0 +1,23 @@
+{
+  "description": "Start with {1}, then at each step replace it with the set of all pairwise products and sums of its elements (an element can be paired with itself). a(n) gives the number of elements after n-th step.",
+  "id": "A352969",
+  "mentions": [
+    "A263995",
+    "A273525",
+    "A353535",
+    "A353536",
+    "A353969"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

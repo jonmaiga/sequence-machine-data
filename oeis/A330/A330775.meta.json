@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows: row n gives the primes of the form m*prime(n)+1 where m is an even number <= prime(n) and prime(n) is the n-th prime, or 0 if no such prime exists for any n.",
+  "id": "A330775",
+  "mentions": [
+    "A005384",
+    "A005385",
+    "A035095"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

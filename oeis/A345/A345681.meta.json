@@ -1,0 +1,20 @@
+{
+  "description": "a(0) = 0; for n >= 1, a(n) = A004185(a(n-1)+n).",
+  "id": "A345681",
+  "mentions": [
+    "A004185",
+    "A004719"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:19",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

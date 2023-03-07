@@ -1,0 +1,22 @@
+{
+  "description": "Number of Pythagorean triples with perimeter <= 10^n.",
+  "id": "A299706",
+  "mentions": [
+    "A024155",
+    "A101929",
+    "A101930",
+    "A101931",
+    "A249750"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

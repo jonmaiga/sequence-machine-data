@@ -1,0 +1,21 @@
+{
+  "description": "Smallest k dividing 3^k + 4^k that have divisor A354026(n).",
+  "id": "A354027",
+  "mentions": [
+    "A045584",
+    "A114207",
+    "A140258",
+    "A171981",
+    "A354026"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

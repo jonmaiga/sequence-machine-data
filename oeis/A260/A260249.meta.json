@@ -1,0 +1,20 @@
+{
+  "description": "Month numbers in the Gregorian calendar, in alphabetical order of their English names.",
+  "id": "A260249",
+  "mentions": [
+    "A033986"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

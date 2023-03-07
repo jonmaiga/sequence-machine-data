@@ -1,0 +1,18 @@
+{
+  "description": "Number of degree n polynomials p(x,y) with all coefficients 0 or 1 such that x+y=1 implies p(x,y)=1.",
+  "id": "A181496",
+  "mentions": [
+    "A122743"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

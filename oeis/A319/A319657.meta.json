@@ -1,0 +1,27 @@
+{
+  "description": "Write n in 9-ary, sort digits into increasing order.",
+  "id": "A319657",
+  "mentions": [
+    "A004185",
+    "A038573",
+    "A038574",
+    "A165110",
+    "A319652",
+    "A319653",
+    "A319654",
+    "A319655",
+    "A319656"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 0,
+    "size": 72,
+    "source": "joeis"
+  }
+}

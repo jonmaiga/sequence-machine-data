@@ -1,0 +1,19 @@
+{
+  "description": "Difference between the sums of odd-indexed primes and even-indexed primes up to and including index 10^n.",
+  "id": "A106738",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

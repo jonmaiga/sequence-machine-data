@@ -1,0 +1,19 @@
+{
+  "description": "Discriminants of real quadratic fields with cyclic 3-class group (3).",
+  "id": "A250235",
+  "mentions": [
+    "A006832",
+    "A094612"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

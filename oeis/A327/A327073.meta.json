@@ -1,0 +1,32 @@
+{
+  "description": "Number of labeled simple connected graphs with n vertices and exactly one bridge.",
+  "id": "A327073",
+  "mentions": [
+    "A001187",
+    "A006129",
+    "A007146",
+    "A052446",
+    "A095983",
+    "A322395",
+    "A327069",
+    "A327071",
+    "A327072",
+    "A327074",
+    "A327077",
+    "A327108",
+    "A327111",
+    "A327145",
+    "A327146"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

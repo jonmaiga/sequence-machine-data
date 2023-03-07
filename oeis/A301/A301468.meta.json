@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k>=0} binomial(k^4, n)/2^(k+1).",
+  "id": "A301468",
+  "mentions": [
+    "A173217",
+    "A301310",
+    "A301466"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

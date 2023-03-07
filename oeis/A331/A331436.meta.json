@@ -1,0 +1,33 @@
+{
+  "description": "Array read by antidiagonals: A(n,k) is the number of n element multisets of n element multisets of a k-set.",
+  "id": "A331436",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000984",
+    "A001477",
+    "A002817",
+    "A099121",
+    "A099122",
+    "A099123",
+    "A099124",
+    "A099125",
+    "A099126",
+    "A099127",
+    "A099128",
+    "A140236",
+    "A331477"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

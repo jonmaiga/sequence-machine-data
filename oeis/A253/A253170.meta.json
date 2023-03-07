@@ -1,0 +1,19 @@
+{
+  "description": "Row sums of table A333867.",
+  "id": "A253170",
+  "mentions": [
+    "A030719",
+    "A126027",
+    "A333867"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:11",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

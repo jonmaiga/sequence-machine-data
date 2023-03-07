@@ -1,0 +1,22 @@
+{
+  "description": "Palindromes formed from the reflected decimal expansion of Pi.",
+  "id": "A135697",
+  "mentions": [
+    "A000796",
+    "A002113",
+    "A039954",
+    "A138070",
+    "A138071"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

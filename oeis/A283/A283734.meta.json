@@ -1,0 +1,24 @@
+{
+  "description": "Rank array, R, of the golden ratio, read by antidiagonals downwards.",
+  "id": "A283734",
+  "mentions": [
+    "A000201",
+    "A001622",
+    "A087465",
+    "A255977",
+    "A283733"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:54",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

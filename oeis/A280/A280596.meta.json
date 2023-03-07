@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of Product_{p prime, k>=2} (1 + x^(p^k)).",
+  "id": "A280596",
+  "mentions": [
+    "A054685",
+    "A106244",
+    "A246547",
+    "A280586"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 108,
+    "source": "oeis-entry"
+  }
+}

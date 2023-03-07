@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n for which A020652(n)/A038567(n) = A182972(n)/A182973(n).",
+  "id": "A182974",
+  "mentions": [
+    "A020652",
+    "A038567",
+    "A182972",
+    "A182973",
+    "A182975",
+    "A182976"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers x that are the sum of the digits of k consecutive numbers starting from x+1.",
+  "id": "A269314",
+  "mentions": [
+    "A269315"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:31",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

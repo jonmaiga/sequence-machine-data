@@ -1,0 +1,38 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into distinct parts such that the geometric mean of the parts is an integer.",
+  "id": "A339452",
+  "mentions": [
+    "A032020",
+    "A051293",
+    "A067538",
+    "A067539",
+    "A078174",
+    "A078175",
+    "A096199",
+    "A102627",
+    "A271654",
+    "A320322",
+    "A326027",
+    "A326028",
+    "A326622",
+    "A326623",
+    "A326624",
+    "A326625",
+    "A326641",
+    "A326645",
+    "A335405",
+    "A339175",
+    "A357490",
+    "A357710"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

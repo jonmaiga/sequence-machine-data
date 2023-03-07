@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of product of 1 - 4^-p over all primes p.",
+  "id": "A293258",
+  "mentions": [
+    "A184082",
+    "A184083",
+    "A184084"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

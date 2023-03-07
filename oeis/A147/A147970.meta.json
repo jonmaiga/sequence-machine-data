@@ -1,0 +1,26 @@
+{
+  "description": "Primes corresponding to the records in the sequence of smallest positive quadratic nonresidues (A053760).",
+  "id": "A147970",
+  "mentions": [
+    "A000040",
+    "A000229",
+    "A002223",
+    "A002224",
+    "A045535",
+    "A053760",
+    "A133435",
+    "A147969",
+    "A147971"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

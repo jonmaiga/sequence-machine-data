@@ -1,0 +1,26 @@
+{
+  "description": "Values of positive integer i such that floor(tan(-i)) = 1.",
+  "id": "A293751",
+  "mentions": [
+    "A000530",
+    "A195910",
+    "A293698",
+    "A293699",
+    "A293700",
+    "A293701",
+    "A293702",
+    "A293704",
+    "A293705"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:10",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Define sequence S_m by: initial term = m, reverse digits and add 3 to get next term. Entry shows S_5. This reaches a cycle of length 6 in 2 steps.",
+  "id": "A118520",
+  "mentions": [
+    "A117831",
+    "A118517",
+    "A118518"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:36:19",
+    "offset": 1,
+    "size": 68,
+    "source": "joeis"
+  }
+}

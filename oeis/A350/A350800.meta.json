@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k and k+1 have the same number and sum of divisors but a different number of distinct prime factors.",
+  "id": "A350800",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A001221",
+    "A054004"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

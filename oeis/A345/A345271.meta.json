@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{d|n} n^tau(d).",
+  "id": "A345271",
+  "mentions": [
+    "A000005",
+    "A174937",
+    "A345270",
+    "A345895"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

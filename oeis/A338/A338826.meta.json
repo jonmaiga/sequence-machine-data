@@ -1,0 +1,24 @@
+{
+  "description": "G.f.: (1/(1 + x)) * Product_{k>=1} 1/(1 + x^prime(k)).",
+  "id": "A338826",
+  "mentions": [
+    "A000586",
+    "A000607",
+    "A008578",
+    "A036497",
+    "A046675",
+    "A048165",
+    "A298602"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:29",
+    "offset": 0,
+    "size": 56,
+    "source": "joeis"
+  }
+}

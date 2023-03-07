@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of b(q^2) * c(q^6) / (b(q) * c(q^3)) in powers of q where b(), c() are cubic AGM theta functions.",
+  "id": "A123629",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A004016",
+    "A005882",
+    "A005928",
+    "A010054",
+    "A121373",
+    "A123676",
+    "A128638",
+    "A233698"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:19:23",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

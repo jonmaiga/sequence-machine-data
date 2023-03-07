@@ -1,0 +1,18 @@
+{
+  "description": "Number of positive even integers that can be written as the sum of 2 of the first n odd primes (not necessarily distinct).",
+  "id": "A102696",
+  "mentions": [
+    "A105047"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:53",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

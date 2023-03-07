@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of beta = G^2*(2/3)*Product_{prime p == 3 (mod 4)} (1 - 2/(p*(p-1)^2)) (where G is Catalan's constant), a constant related to the problem of integral Apollonian circle packings.",
+  "id": "A248938",
+  "mentions": [
+    "A006752",
+    "A042944",
+    "A042946",
+    "A052483",
+    "A189226",
+    "A189227",
+    "A248930"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

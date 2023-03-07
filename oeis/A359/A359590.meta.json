@@ -1,0 +1,26 @@
+{
+  "description": "Absolute values of A355690, where A355690 is the Dirichlet inverse of the characteristic function of numbers not congruent to 2 mod 4.",
+  "id": "A359590",
+  "mentions": [
+    "A152822",
+    "A355690",
+    "A359603",
+    "A359604",
+    "A359605",
+    "A359606",
+    "A359819",
+    "A359834"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

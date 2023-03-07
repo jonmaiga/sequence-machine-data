@@ -1,0 +1,18 @@
+{
+  "description": "Smallest k such that 1^4, 2^4, 3^4,... ,n^4 are distinct modulo k.",
+  "id": "A192420",
+  "mentions": [
+    "A016726",
+    "A192419"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

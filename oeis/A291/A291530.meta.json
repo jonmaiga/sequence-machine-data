@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest k such that uphi(k*n) = uphi(k*n+1), or 0 if no such k exists.",
+  "id": "A291530",
+  "mentions": [
+    "A047994",
+    "A275412",
+    "A287055"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

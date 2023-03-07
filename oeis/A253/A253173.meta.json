@@ -1,0 +1,20 @@
+{
+  "description": "Values n, where n = p * q, and n, p, and q together contain all 10 digits at least once, and no digit is in more than one of n, p or q.",
+  "id": "A253173",
+  "mentions": [
+    "A195814",
+    "A253172"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

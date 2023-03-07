@@ -1,0 +1,18 @@
+{
+  "description": "Order of minimal triangulation of the orientable closed surface of genus n (S_n).",
+  "id": "A123869",
+  "mentions": [
+    "A250098"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

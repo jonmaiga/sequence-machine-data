@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows, T(n, k) = prime(1)^p(k,1)*...*prime(n)^p(k,n) where p(k,j) is the j-th part of the k-th partition of n, additionally T(0,0) = 1. The partitions of n are ordered such that partitions of n into r parts appear in lexicographic order previous to the partitions of n into s parts if s < r. (Fenner-Loizou tree).",
+  "id": "A228099",
+  "mentions": [
+    "A000041",
+    "A000079",
+    "A002110",
+    "A074140",
+    "A228100"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

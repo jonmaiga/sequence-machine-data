@@ -1,0 +1,29 @@
+{
+  "description": "Triangle of 3-Eulerian numbers.",
+  "id": "A144697",
+  "mentions": [
+    "A000244",
+    "A001715",
+    "A008292",
+    "A060056",
+    "A086443",
+    "A143492",
+    "A143495",
+    "A144696",
+    "A144698",
+    "A144699"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:13:53",
+    "offset": 3,
+    "size": 45,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers of the form p^^k, where p is prime, k > 1, and ^^ is the tetration operator: x^^y = x^x^...^x with y copies of x.",
+  "id": "A275211",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

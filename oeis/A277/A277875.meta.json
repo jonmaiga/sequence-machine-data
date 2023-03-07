@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the odd multiplier q in the expressions 2*(q*2^n - 1) and 2*(q*3^n - 1) of numbers A277215(n) and A277874(n), respectively.",
+  "id": "A277875",
+  "mentions": [
+    "A277215",
+    "A277874"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

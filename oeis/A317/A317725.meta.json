@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest k > 1 whose sum of digits is the same in all the bases from 2 to n.",
+  "id": "A317725",
+  "mentions": [
+    "A135122",
+    "A317777"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 3,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

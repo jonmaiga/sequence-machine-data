@@ -1,0 +1,18 @@
+{
+  "description": "Number of triangles in minimal triangulation of the orientable closed surface of genus n (S_n).",
+  "id": "A250098",
+  "mentions": [
+    "A123869"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

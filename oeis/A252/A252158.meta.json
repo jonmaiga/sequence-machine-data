@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows, 1 <= k <= n, T(n,k) = number of arrangements of n circles in the affine plane having k solid regions in which the union of solid circles is connected.",
+  "id": "A252158",
+  "mentions": [
+    "A000012",
+    "A249752",
+    "A250001",
+    "A285996",
+    "A287149"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "hard",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

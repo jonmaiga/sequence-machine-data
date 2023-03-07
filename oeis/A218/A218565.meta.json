@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that k^2 + 1 is divisible by a 6th power.",
+  "id": "A218565",
+  "mentions": [
+    "A001014",
+    "A002522",
+    "A034939",
+    "A049532",
+    "A218562",
+    "A218563",
+    "A218564"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:36",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

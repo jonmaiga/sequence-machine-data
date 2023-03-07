@@ -1,0 +1,19 @@
+{
+  "description": "Denominators of the fractional, multiplicative Van Eck Sequence f(n): for n >= 2, if there exists an m < n such that f(m) = f(n), take the largest such m. If f(n)=1, set f(n+1) = 1/(n-m); otherwise, if f(n) != 1, set f(n+1) = f(n)+f(m)*(n-m). If no m exists such that f(m) = f(n), then set f(n+1)=1. Start with f(1)=1 and f(2)=0. a(n) = denominator(f(n)).",
+  "id": "A350560",
+  "mentions": [
+    "A350228",
+    "A350559"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

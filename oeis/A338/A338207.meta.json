@@ -1,0 +1,17 @@
+{
+  "description": "Inverse permutation to A307048.",
+  "id": "A338207",
+  "mentions": [
+    "A307048"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

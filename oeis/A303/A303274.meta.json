@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of 1200/3937.",
+  "id": "A303274",
+  "mentions": [
+    "A224234"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:36:39",
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

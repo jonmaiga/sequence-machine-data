@@ -1,0 +1,31 @@
+{
+  "description": "Difference between the total number of toothpicks in the toothpick structure of A139250 that are parallel to the initial toothpick after n odd stages, and the total number of \"ON\" cells at n-th stage in the \"Ulam-Warburton\" two-dimensional cellular automaton of A147562.",
+  "id": "A288775",
+  "mentions": [
+    "A011782",
+    "A048645",
+    "A139250",
+    "A139251",
+    "A147562",
+    "A147582",
+    "A162793",
+    "A162795",
+    "A169707",
+    "A255263",
+    "A255366",
+    "A256250",
+    "A256260"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

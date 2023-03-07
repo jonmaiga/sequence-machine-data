@@ -1,0 +1,18 @@
+{
+  "description": "The number of terms of the form 2^i*5^j (A003592) less than or equal to 10^n.",
+  "id": "A180953",
+  "mentions": [
+    "A003592"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:04",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

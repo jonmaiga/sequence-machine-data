@@ -1,0 +1,23 @@
+{
+  "description": "Number of faces of Johnson solids in the order given by Johnson.",
+  "id": "A242731",
+  "mentions": [
+    "A242732",
+    "A242733",
+    "A296602",
+    "A296603",
+    "A296604"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

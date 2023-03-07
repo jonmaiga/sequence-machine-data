@@ -1,0 +1,28 @@
+{
+  "description": "Permutation of natural numbers: a(1) = 1, a(n) = A000079(A055396(n+1)-1) * ((2*a(A246277(n+1))) - 1).",
+  "id": "A246683",
+  "mentions": [
+    "A000051",
+    "A000079",
+    "A005408",
+    "A055396",
+    "A246277",
+    "A246278",
+    "A246675",
+    "A246677",
+    "A246684",
+    "A249813",
+    "A250244"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

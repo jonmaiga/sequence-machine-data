@@ -1,0 +1,23 @@
+{
+  "description": "Evil squares.",
+  "id": "A231431",
+  "mentions": [
+    "A000290",
+    "A001969",
+    "A125498",
+    "A159918"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

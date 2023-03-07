@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of squares (not necessarily orthogonal) all of whose vertices lie in an (n + 1) X (k + 1) square lattice.",
+  "id": "A130684",
+  "mentions": [
+    "A002415",
+    "A082652"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of (theta_3(x) - 1)^2 / (2 * (3 - theta_3(x))).",
+  "id": "A347805",
+  "mentions": [
+    "A000290",
+    "A006456",
+    "A010052",
+    "A033985",
+    "A219610",
+    "A337165",
+    "A347806",
+    "A347807",
+    "A347808",
+    "A347809"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:29",
+    "offset": 2,
+    "size": 47,
+    "source": "joeis"
+  }
+}

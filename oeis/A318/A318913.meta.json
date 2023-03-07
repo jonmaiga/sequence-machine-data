@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of e.g.f. Product_{k>=1} 1/(1 - x^prime(k))^(1/prime(k)).",
+  "id": "A318913",
+  "mentions": [
+    "A000607",
+    "A001221",
+    "A028342",
+    "A206303",
+    "A318912",
+    "A318914"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Column immediately right of the middle column of rule-30 1-D cellular automaton, when started from a lone 1 cell.",
+  "id": "A328101",
+  "mentions": [
+    "A000035",
+    "A051023",
+    "A110240",
+    "A265281",
+    "A269160",
+    "A269161",
+    "A328100",
+    "A328102"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

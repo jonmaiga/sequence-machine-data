@@ -1,0 +1,21 @@
+{
+  "description": "Number of n-bead quaternary necklaces (no turning over allowed) that avoid the subsequence 110.",
+  "id": "A274019",
+  "mentions": [
+    "A000031",
+    "A274017",
+    "A274018",
+    "A274020"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

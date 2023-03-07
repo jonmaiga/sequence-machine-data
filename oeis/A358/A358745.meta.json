@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least prime p that is the first of three consecutive primes p, q, r such that p^i + q^i - r^i is prime for i from 1 to n but not n+1.",
+  "id": "A358745",
+  "mentions": [
+    "A255581",
+    "A358742",
+    "A358743",
+    "A358744"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

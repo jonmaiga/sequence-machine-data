@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that there are two distinct abelian squares of order k in the tribonacci word A080843.",
+  "id": "A345733",
+  "mentions": [
+    "A080843"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

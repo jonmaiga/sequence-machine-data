@@ -1,0 +1,21 @@
+{
+  "description": "Number of reduced words of length n in the Weyl group E_8 on 8 generators and order 696729600.",
+  "id": "A162494",
+  "mentions": [
+    "A161409",
+    "A162493"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:18:17",
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

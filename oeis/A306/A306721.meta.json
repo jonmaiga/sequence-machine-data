@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(k, 7*(n-k)).",
+  "id": "A306721",
+  "mentions": [
+    "A017857",
+    "A306680"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

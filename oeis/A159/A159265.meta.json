@@ -1,0 +1,19 @@
+{
+  "description": "Google primes: primes of the form 379*10^n+9 = 3790...09.",
+  "id": "A159265",
+  "mentions": [
+    "A159264"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

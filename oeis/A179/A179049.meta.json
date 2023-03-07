@@ -1,0 +1,20 @@
+{
+  "description": "Odd-even partitions: number of partitions into distinct parts where all differences between consecutive parts are odd and the minimal part is odd.",
+  "id": "A179049",
+  "mentions": [
+    "A000009",
+    "A218355"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

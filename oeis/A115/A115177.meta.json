@@ -1,0 +1,22 @@
+{
+  "description": "Positive numbers that are not the sum of a triangular number, a nonnegative cube and a positive Fibonacci number.",
+  "id": "A115177",
+  "mentions": [
+    "A115171",
+    "A115172",
+    "A115173",
+    "A115174",
+    "A115175",
+    "A115176"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

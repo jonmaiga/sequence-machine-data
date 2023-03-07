@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = smallest natural number x such that x=n+A000120(x), otherwise zero.",
+  "id": "A213723",
+  "mentions": [
+    "A000120",
+    "A000225",
+    "A005187",
+    "A005843",
+    "A055938",
+    "A179016",
+    "A213714",
+    "A213724",
+    "A213725",
+    "A213727"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

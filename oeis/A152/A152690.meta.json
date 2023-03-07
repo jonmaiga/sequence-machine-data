@@ -1,0 +1,27 @@
+{
+  "description": "Partial sums of superfactorials (A000178).",
+  "id": "A152690",
+  "mentions": [
+    "A000178",
+    "A053295",
+    "A053296",
+    "A053308",
+    "A053309",
+    "A074962",
+    "A152686",
+    "A152687",
+    "A152688",
+    "A152689"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

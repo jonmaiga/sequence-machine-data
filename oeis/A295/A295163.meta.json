@@ -1,0 +1,18 @@
+{
+  "description": "Max odd N reached by Collatz sequence \"record setters\".",
+  "id": "A295163",
+  "mentions": [
+    "A025587",
+    "A061523"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

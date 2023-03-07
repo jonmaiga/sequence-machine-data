@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of 2*sin(Pi/96).",
+  "id": "A302712",
+  "mentions": [
+    "A302711"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:36:29",
+    "offset": -1,
+    "size": 102,
+    "source": "joeis"
+  }
+}

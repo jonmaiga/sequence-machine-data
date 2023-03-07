@@ -1,0 +1,19 @@
+{
+  "description": "Smallest prime whose n-th power can be represented as the sum of the n-th powers of two or more distinct primes; or -1 if no such prime exists.",
+  "id": "A308459",
+  "mentions": [
+    "A308357"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

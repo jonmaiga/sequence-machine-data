@@ -1,0 +1,22 @@
+{
+  "description": "Difference of two positive 7th powers.",
+  "id": "A181126",
+  "mentions": [
+    "A024352",
+    "A121618",
+    "A147857",
+    "A181123",
+    "A181124",
+    "A181128"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:04",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

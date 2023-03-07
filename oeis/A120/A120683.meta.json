@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of secant of 15 degrees (cosecant of 75 degrees).",
+  "id": "A120683",
+  "mentions": [
+    "A002193",
+    "A010464",
+    "A019679",
+    "A019691",
+    "A019884"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:45:55",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

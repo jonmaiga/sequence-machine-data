@@ -1,0 +1,19 @@
+{
+  "description": "The cumulative product of A344561.",
+  "id": "A344562",
+  "mentions": [
+    "A124240",
+    "A344561",
+    "A345765"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

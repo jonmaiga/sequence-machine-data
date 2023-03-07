@@ -1,0 +1,21 @@
+{
+  "description": "Positive integers that are not powers of 2 and whose Collatz trajectory has maximum power of 2 different from 2^4.",
+  "id": "A355406",
+  "mentions": [
+    "A008908",
+    "A232503",
+    "A308149",
+    "A350160",
+    "A355187"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

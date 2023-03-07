@@ -1,0 +1,29 @@
+{
+  "description": "Concatenation of initial and final digits of n-th even superperfect number A061652(n).",
+  "id": "A138842",
+  "mentions": [
+    "A019279",
+    "A061652",
+    "A073729",
+    "A138124",
+    "A138125",
+    "A138838",
+    "A138840",
+    "A138841",
+    "A138843",
+    "A138844"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "less",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = 3*binomial(3*n+9, n)/(n+3).",
+  "id": "A230547",
+  "mentions": [
+    "A000108",
+    "A001764",
+    "A006013",
+    "A006629",
+    "A006630",
+    "A006631",
+    "A102594",
+    "A102893",
+    "A233657"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:48",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

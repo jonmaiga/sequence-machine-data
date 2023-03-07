@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of 2n having twice as many odd parts as even.",
+  "id": "A239258",
+  "mentions": [
+    "A239004"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

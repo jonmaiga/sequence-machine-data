@@ -1,0 +1,18 @@
+{
+  "description": "Decimal equivalents of A242138.",
+  "id": "A242139",
+  "mentions": [
+    "A242138"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

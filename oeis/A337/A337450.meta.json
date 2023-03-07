@@ -1,0 +1,35 @@
+{
+  "description": "Number of relatively prime compositions of n with no 1's.",
+  "id": "A337450",
+  "mentions": [
+    "A000010",
+    "A000740",
+    "A000837",
+    "A002865",
+    "A007359",
+    "A023023",
+    "A055684",
+    "A101268",
+    "A178472",
+    "A212804",
+    "A289509",
+    "A291166",
+    "A302568",
+    "A302697",
+    "A302698",
+    "A337451",
+    "A337452",
+    "A337462",
+    "A337485"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

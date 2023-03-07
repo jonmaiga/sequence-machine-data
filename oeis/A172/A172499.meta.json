@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = numerator of fraction whose decimal representation is (n).(1)(2)(3)...(n-1)(n)... with repeating part (1)(2)(3)...(n-1)(n).",
+  "id": "A172499",
+  "mentions": [
+    "A172498",
+    "A172500"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:56",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

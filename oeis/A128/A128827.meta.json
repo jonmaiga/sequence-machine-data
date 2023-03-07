@@ -1,0 +1,20 @@
+{
+  "description": "Perfect powers beginning and ending with the same digit.",
+  "id": "A128827",
+  "mentions": [
+    "A001597",
+    "A075786",
+    "A129450"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

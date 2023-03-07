@@ -1,0 +1,20 @@
+{
+  "description": "Half of greatest common divisor of products of first n prime numbers and first n composite numbers.",
+  "id": "A196529",
+  "mentions": [
+    "A002110",
+    "A036691",
+    "A070826",
+    "A196527"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:18",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

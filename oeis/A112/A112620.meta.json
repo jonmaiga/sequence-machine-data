@@ -1,0 +1,21 @@
+{
+  "description": "If b(n,1) = n; b(n,m) is number of terms among {b(n,1), b(n,2), ..., b(n,m-1)} which are coprime to m, then a(n) = b(n,n).",
+  "id": "A112620",
+  "mentions": [
+    "A096216",
+    "A097559",
+    "A097560",
+    "A097562",
+    "A097606"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

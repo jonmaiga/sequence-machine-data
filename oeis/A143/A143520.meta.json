@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is n times number of divisors of n if n is odd, zero if n is twice odd, n times number of divisors of n/4 if n is divisible by 4.",
+  "id": "A143520",
+  "mentions": [
+    "A001620",
+    "A027748",
+    "A038040",
+    "A112329",
+    "A124010"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

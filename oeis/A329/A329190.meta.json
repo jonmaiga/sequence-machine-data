@@ -1,0 +1,20 @@
+{
+  "description": "Weird admirable numbers: numbers that are both weird (A006037) and admirable (A111592).",
+  "id": "A329190",
+  "mentions": [
+    "A005835",
+    "A006037",
+    "A111592",
+    "A258250"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

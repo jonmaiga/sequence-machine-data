@@ -1,0 +1,22 @@
+{
+  "description": "Difference between the square root of n-th square triangular number and n-th lambda number given by the recurrence f(n) = 2f(n-1) + f(n-2), f(1) = 1, f(2)= 2.",
+  "id": "A113450",
+  "mentions": [
+    "A000129",
+    "A001109",
+    "A001110",
+    "A113449"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

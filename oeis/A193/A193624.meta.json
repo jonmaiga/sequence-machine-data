@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways n triples can sit in a row without any siblings next to each other.",
+  "id": "A193624",
+  "mentions": [
+    "A007060",
+    "A190826"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

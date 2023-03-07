@@ -1,0 +1,20 @@
+{
+  "description": "Hankel transform of central coefficients of (1+k*x-3x^2)^n, k arbitrary integer.",
+  "id": "A127946",
+  "mentions": [
+    "A083667",
+    "A098333"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

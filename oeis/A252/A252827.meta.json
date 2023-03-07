@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X 7 nonnegative integer arrays with upper left 0 and every value within 3 of its city block distance from the upper left and every value increasing by 0 or 1 with every step right or down.",
+  "id": "A252827",
+  "mentions": [
+    "A252828"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:11",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

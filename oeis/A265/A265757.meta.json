@@ -1,0 +1,19 @@
+{
+  "description": "Relative parity of A002025(n) and A002046(n), the two members of the n-th amicable pair: 0 if both members are even, 1 if both members are odd or -1 if they have opposite parity.",
+  "id": "A265757",
+  "mentions": [
+    "A002025",
+    "A002046",
+    "A259180"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

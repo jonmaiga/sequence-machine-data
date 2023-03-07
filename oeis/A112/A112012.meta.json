@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that there exists at least one number j and pi(m) = d_1 d_2 ... d_j*d_(j+1) d_(j+2) ... d_k where d_1 d_2 ...d_k is the decimal expansion of n.",
+  "id": "A112012",
+  "mentions": [
+    "A112013"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

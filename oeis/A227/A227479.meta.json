@@ -1,0 +1,19 @@
+{
+  "description": "Number of pairs of 2 X 2 matrices over Z/nZ that commute.",
+  "id": "A227479",
+  "mentions": [
+    "A227433"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

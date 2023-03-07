@@ -1,0 +1,20 @@
+{
+  "description": "Beginning with sequence A096903, choose only those rows such that when a(n) is in factored form all exponents of a(n) are consecutive starting at 1.",
+  "id": "A117311",
+  "mentions": [
+    "A055932",
+    "A084918",
+    "A096903"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

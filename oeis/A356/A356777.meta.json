@@ -1,0 +1,23 @@
+{
+  "description": "G.f.: Sum_{n=-oo..+oo} x^(n^2) * C(x)^(2*n-1), where C(x) = 1 + x*C(x)^2 is a g.f. of the Catalan numbers (A000108).",
+  "id": "A356777",
+  "mentions": [
+    "A000108",
+    "A082985",
+    "A355341",
+    "A355342",
+    "A355345",
+    "A356778"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

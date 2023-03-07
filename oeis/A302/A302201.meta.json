@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f.: exp (e.g.f. for the \"cusp form\" A002408).",
+  "id": "A302201",
+  "mentions": [
+    "A000594",
+    "A002408",
+    "A302200"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

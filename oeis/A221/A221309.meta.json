@@ -1,0 +1,18 @@
+{
+  "description": "Numbers m such that no subset of {m-1, m, m+1} sums up to a prime number.",
+  "id": "A221309",
+  "mentions": [
+    "A079364",
+    "A117499"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

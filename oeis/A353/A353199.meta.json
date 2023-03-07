@@ -1,0 +1,17 @@
+{
+  "description": "a(1)=a(2)=1. a(n) = the sum of the indices of the terms, from among the first (n-2) terms of the sequence, which divide a(n-1).",
+  "id": "A353199",
+  "mentions": [
+    "A124063"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

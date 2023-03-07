@@ -1,0 +1,20 @@
+{
+  "description": "T(n,k)=Number of length n+3 0..k arrays with some pair in every consecutive four terms totalling exactly k",
+  "id": "A245950",
+  "mentions": [
+    "A135491",
+    "A203536"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

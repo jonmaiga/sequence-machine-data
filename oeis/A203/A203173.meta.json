@@ -1,0 +1,18 @@
+{
+  "description": "Central polygonal numbers that are nontrivially the product of two central polygonal numbers.",
+  "id": "A203173",
+  "mentions": [
+    "A002061",
+    "A059826"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

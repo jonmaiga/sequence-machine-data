@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the sum of divisors of n that have only prime factors that are not prime-indexed primes.",
+  "id": "A360331",
+  "mentions": [
+    "A000203",
+    "A006450",
+    "A007821",
+    "A076610",
+    "A320628",
+    "A360329",
+    "A360330"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

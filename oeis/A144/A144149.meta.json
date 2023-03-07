@@ -1,0 +1,26 @@
+{
+  "description": "Weight array W={w(i,j)} of the Wythoff difference array A080164.",
+  "id": "A144149",
+  "mentions": [
+    "A000045",
+    "A000201",
+    "A001519",
+    "A001906",
+    "A001950",
+    "A080164",
+    "A144112",
+    "A144148"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

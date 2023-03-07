@@ -1,0 +1,23 @@
+{
+  "description": "Sort numbers by value of sum of squares of prime factors (cf. A067666). Break ties by putting smaller numbers first. Begin with 0, 1.",
+  "id": "A168521",
+  "mentions": [
+    "A001222",
+    "A027746",
+    "A064364",
+    "A067666",
+    "A178595"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

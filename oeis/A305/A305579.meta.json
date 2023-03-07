@@ -1,0 +1,22 @@
+{
+  "description": "Square array read by antidiagonals upwards in which row k has k as its first term and each subsequent term is the least possible value such that the sum of any 2 or more terms does not equal a prime.",
+  "id": "A305579",
+  "mentions": [
+    "A000027",
+    "A005843",
+    "A052349",
+    "A133660",
+    "A133661"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

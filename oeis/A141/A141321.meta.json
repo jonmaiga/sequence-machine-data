@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = -A141055(n)/(n+1)!.",
+  "id": "A141321",
+  "mentions": [
+    "A027760",
+    "A141055",
+    "A141056",
+    "A141410"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

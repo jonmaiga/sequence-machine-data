@@ -1,0 +1,23 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into proper divisors of n.",
+  "id": "A294138",
+  "mentions": [
+    "A027750",
+    "A032741",
+    "A065205",
+    "A100346",
+    "A210442",
+    "A294137"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

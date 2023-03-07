@@ -1,0 +1,23 @@
+{
+  "description": "lpf_3(A242057(n)-1), where lpf_3(n) = lpf(n/3^t) (cf. A020639) such that 3^t (t>=0) is the maximal power of 3 which divides n.",
+  "id": "A242059",
+  "mentions": [
+    "A020639",
+    "A242033",
+    "A242034",
+    "A242057",
+    "A242058",
+    "A243937",
+    "A245024"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

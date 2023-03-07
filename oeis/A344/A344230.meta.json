@@ -1,0 +1,20 @@
+{
+  "description": "Squares visited by a knight (chess piece) moving to the lowest-numbered unvisited square at each step on a semi-infinite chessboard numbered by starting in the lower left and filling in squares in a counterclockwise way moving to the bottom leftmost unnumbered square when the edge of the board is encountered.",
+  "id": "A344230",
+  "mentions": [
+    "A316667"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 112,
+    "source": "oeis-entry"
+  }
+}

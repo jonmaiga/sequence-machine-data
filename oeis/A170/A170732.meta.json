@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of g.f.: (1+x)/(1 - 12*x).",
+  "id": "A170732",
+  "mentions": [
+    "A003945",
+    "A003953",
+    "A003954"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:53",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that Sum_{d|k} tau(d) = Sum_{d|k+1} tau(d).",
+  "id": "A280074",
+  "mentions": [
+    "A000005",
+    "A005237",
+    "A007425",
+    "A034173",
+    "A052213"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:47",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

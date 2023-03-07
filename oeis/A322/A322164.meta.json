@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n > 1 such that phi(n) <= phi(k) + phi(n-k) for all 1 <= k <= n-1, where phi(n) is the Euler totient function (A000010).",
+  "id": "A322164",
+  "mentions": [
+    "A000010",
+    "A002110",
+    "A244052"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

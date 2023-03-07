@@ -1,0 +1,20 @@
+{
+  "description": "Reduced numerators of the first convergent to the cube root of n using the recursion x = (2*x+n/x^2)/3.",
+  "id": "A145064",
+  "mentions": [
+    "A051176"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:53:05",
+    "offset": 0,
+    "size": 74,
+    "source": "joeis"
+  }
+}

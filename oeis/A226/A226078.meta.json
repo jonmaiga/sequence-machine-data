@@ -1,0 +1,26 @@
+{
+  "description": "Table read by rows: prime power factors of central binomial coefficients, cf. A000984.",
+  "id": "A226078",
+  "mentions": [
+    "A000984",
+    "A001316",
+    "A060308",
+    "A067434",
+    "A141809",
+    "A226047",
+    "A226083",
+    "A267823"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

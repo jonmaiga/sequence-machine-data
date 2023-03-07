@@ -1,0 +1,20 @@
+{
+  "description": "Base-ten n whose English number-word expression contains a letter making its n-th appearance in the list of consecutive positive integer number-words.",
+  "id": "A339753",
+  "mentions": [
+    "A339752"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "fini",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

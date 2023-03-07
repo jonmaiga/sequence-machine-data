@@ -1,0 +1,32 @@
+{
+  "description": "Number of representations of n as a sum of a square and six times a triangular number.",
+  "id": "A112605",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A002324",
+    "A010054",
+    "A010815",
+    "A112604",
+    "A112606",
+    "A112607",
+    "A112608",
+    "A112609",
+    "A121361",
+    "A121373",
+    "A131962",
+    "A131964",
+    "A164273"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:46:55",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

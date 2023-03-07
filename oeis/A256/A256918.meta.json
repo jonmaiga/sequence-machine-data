@@ -1,0 +1,20 @@
+{
+  "description": "Greatest common divisors of adjacent terms in A257218.",
+  "id": "A256918",
+  "mentions": [
+    "A257120",
+    "A257218",
+    "A257475",
+    "A257478"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

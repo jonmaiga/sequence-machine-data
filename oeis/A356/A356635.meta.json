@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k that can be written as the sum of 7 divisors of k (not necessarily distinct).",
+  "id": "A356635",
+  "mentions": [
+    "A000027",
+    "A299174",
+    "A354591",
+    "A355200",
+    "A355641",
+    "A356609",
+    "A356657",
+    "A356659",
+    "A356660"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

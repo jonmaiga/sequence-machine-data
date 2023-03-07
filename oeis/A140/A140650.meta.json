@@ -1,0 +1,19 @@
+{
+  "description": "Number of different ways of coloring an n X n grid of squares using two colors so that the resulting grid has just one line of symmetry.",
+  "id": "A140650",
+  "mentions": [
+    "A054257",
+    "A054407"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

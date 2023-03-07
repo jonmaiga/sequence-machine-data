@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (binomial(n+k,k) * binomial(n,k))^n.",
+  "id": "A336873",
+  "mentions": [
+    "A001850",
+    "A005259",
+    "A092813",
+    "A092814",
+    "A092815",
+    "A167010",
+    "A218689",
+    "A336829",
+    "A346200"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

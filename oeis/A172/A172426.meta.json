@@ -1,0 +1,17 @@
+{
+  "description": "Number of nontrivial solutions (x,y,z) for each prime number p of the Fermat equation x^p + y^p + z^p = 0 mod (n) where n is prime of the form n = 2p + 1, and x, y, z are integers such that x < = y.",
+  "id": "A172426",
+  "mentions": [
+    "A019590"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

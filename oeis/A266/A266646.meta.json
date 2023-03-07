@@ -1,0 +1,27 @@
+{
+  "description": "Permutation of natural numbers: a(n) = A250470(A003961(n)).",
+  "id": "A266646",
+  "mentions": [
+    "A000035",
+    "A003961",
+    "A020639",
+    "A055396",
+    "A249817",
+    "A249818",
+    "A250470",
+    "A266403",
+    "A266415",
+    "A266645"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:27",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

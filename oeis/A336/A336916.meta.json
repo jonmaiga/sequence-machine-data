@@ -1,0 +1,19 @@
+{
+  "description": "One more than the number of iterations of x -> 2x needed before the result is nondeficient, when starting from x=n; a(n) = 0, when n is a power of 2.",
+  "id": "A336916",
+  "mentions": [
+    "A279048",
+    "A336835",
+    "A336915"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

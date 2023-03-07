@@ -1,0 +1,17 @@
+{
+  "description": "Nonnegative numbers of the form -2*x^2+3*x*y+3*y^2.",
+  "id": "A243185",
+  "mentions": [
+    "A141177"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

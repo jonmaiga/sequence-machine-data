@@ -1,0 +1,18 @@
+{
+  "description": "Palindromes a(n) = (10^n + 1)*(10^(n+1) + 1).",
+  "id": "A319667",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

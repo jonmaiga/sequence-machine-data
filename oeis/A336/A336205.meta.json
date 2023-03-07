@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k that can be expressed as x^3 + y^3 + z^3 with x^2 + y^2 + z^2 <= k where x, y, z are integers.",
+  "id": "A336205",
+  "mentions": [
+    "A004825",
+    "A060464",
+    "A336240"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

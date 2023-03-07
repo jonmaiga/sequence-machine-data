@@ -1,0 +1,21 @@
+{
+  "description": "Records in A192013: Sum_{d|n} Kronecker(-6, d).",
+  "id": "A279542",
+  "mentions": [
+    "A000005",
+    "A109017",
+    "A192013",
+    "A279541"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:47",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

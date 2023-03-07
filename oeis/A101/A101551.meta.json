@@ -1,0 +1,20 @@
+{
+  "description": "C(n-2,2)+C(n-5,5)+...+C(n-(3*floor((n-3)/3)+2),3*floor((n-3)/3)+2).",
+  "id": "A101551",
+  "mentions": [
+    "A024490",
+    "A101552"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

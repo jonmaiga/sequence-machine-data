@@ -1,0 +1,19 @@
+{
+  "description": "The number of distinct positions on an infinite chessboard reachable by the (3,4)-leaper in <= n moves.",
+  "id": "A297741",
+  "mentions": [
+    "A018836",
+    "A297740"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:33:47",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

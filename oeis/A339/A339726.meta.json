@@ -1,0 +1,23 @@
+{
+  "description": "Odd composite integers m such that A087130(3*m-J(m,29)) == 27*J(m,29) (mod m), where J(m,29) is the Jacobi symbol.",
+  "id": "A339726",
+  "mentions": [
+    "A071904",
+    "A087130",
+    "A339127",
+    "A339519",
+    "A339724",
+    "A339725",
+    "A339727"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:24",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of digits in the decimal representation of the smallest power of 11 that contains n consecutive identical digits.",
+  "id": "A217190",
+  "mentions": [
+    "A215731",
+    "A215737"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

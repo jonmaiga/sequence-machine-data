@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = phi(A143480(n)) where phi(m) = A000010(m).",
+  "id": "A143481",
+  "mentions": [
+    "A000010",
+    "A143480",
+    "A143482",
+    "A143483"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

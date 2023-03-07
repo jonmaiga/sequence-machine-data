@@ -1,0 +1,21 @@
+{
+  "description": "Maximum odd-order of a polyomino with n cells that tiles a rectangle with an odd number of congruent copies.",
+  "id": "A126141",
+  "mentions": [
+    "A126138",
+    "A126139",
+    "A126140"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

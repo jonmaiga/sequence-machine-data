@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = a(n-1) + 20*a(n-2), n >= 2; a(0)=1, a(1)=41.",
+  "id": "A320468",
+  "mentions": [
+    "A053428",
+    "A224473",
+    "A320469",
+    "A321133"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 07:36:46",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

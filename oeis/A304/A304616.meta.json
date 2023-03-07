@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 81*n^2 - 69*n + 24.",
+  "id": "A304616",
+  "mentions": [
+    "A304617"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:12:21",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

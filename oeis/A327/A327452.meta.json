@@ -1,0 +1,17 @@
+{
+  "description": "First differences of A327743.",
+  "id": "A327452",
+  "mentions": [
+    "A327743"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

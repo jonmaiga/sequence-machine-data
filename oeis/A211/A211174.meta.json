@@ -1,0 +1,19 @@
+{
+  "description": "Johannes Kepler's polyhedron circumscribing constant.",
+  "id": "A211174",
+  "mentions": [
+    "A051762"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:58:05",
+    "offset": 2,
+    "size": 111,
+    "source": "joeis"
+  }
+}

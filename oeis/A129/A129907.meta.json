@@ -1,0 +1,19 @@
+{
+  "description": "Greatest prime factor of the number of subsets S of the power set P{1,2,...,n} such that: {1}, {2},..., {n} are all elements of S; if X and Y are elements of S and X and Y have a nonempty intersection, then the union of X and Y is an element of S.",
+  "id": "A129907",
+  "mentions": [
+    "A072446"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 2,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

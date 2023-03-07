@@ -1,0 +1,21 @@
+{
+  "description": "Fixed point of the morphism 1->4, 2->1222, 3->2, 4->3444, applied 4*k times to 4.",
+  "id": "A106437",
+  "mentions": [
+    "A001906",
+    "A006190"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

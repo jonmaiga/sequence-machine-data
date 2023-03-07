@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of inversions in k-compositions of n for n >= 3, 2 <= k <= n-1.",
+  "id": "A189073",
+  "mentions": [
+    "A000217",
+    "A001621",
+    "A002411",
+    "A004526",
+    "A189052"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 3,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

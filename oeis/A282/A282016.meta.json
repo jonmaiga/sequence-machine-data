@@ -1,0 +1,20 @@
+{
+  "description": "Least k > 0 such that phi(n) divides phi(n+k).",
+  "id": "A282016",
+  "mentions": [
+    "A000010",
+    "A069797",
+    "A171935"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

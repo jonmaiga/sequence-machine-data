@@ -1,0 +1,28 @@
+{
+  "description": "Number of compositions (ordered partitions) of n^2 into distinct squares.",
+  "id": "A331884",
+  "mentions": [
+    "A000290",
+    "A006456",
+    "A030273",
+    "A032020",
+    "A037444",
+    "A105152",
+    "A224366",
+    "A232173",
+    "A280129",
+    "A298640",
+    "A331844"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

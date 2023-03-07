@@ -1,0 +1,21 @@
+{
+  "description": "A symmetrical triangle sequence based on the beta function inverse and the spotlight tile A051601 as antidiagonal: t(n,m) = 1/Integrate[(-1 + t)^n/t^(m + n + 2), {t, 1, Infinity}] - (-2 Binomial[m + n, m] + Binomial[2 + m + n, 1 + m]).",
+  "id": "A177947",
+  "mentions": [
+    "A003506",
+    "A051601"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

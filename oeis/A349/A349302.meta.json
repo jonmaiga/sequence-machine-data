@@ -1,0 +1,26 @@
+{
+  "description": "G.f. A(x) satisfies: A(x) = 1 / ((1 + x) * (1 - x * A(x)^6)).",
+  "id": "A349302",
+  "mentions": [
+    "A002296",
+    "A005043",
+    "A346627",
+    "A346667",
+    "A349292",
+    "A349299",
+    "A349300",
+    "A349301",
+    "A349303"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Popularity of left children in treeshelves avoiding pattern T213.",
+  "id": "A278679",
+  "mentions": [
+    "A000110",
+    "A000111",
+    "A000142",
+    "A001286",
+    "A008292",
+    "A131178",
+    "A278677",
+    "A278678"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 2,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

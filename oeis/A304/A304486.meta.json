@@ -1,0 +1,31 @@
+{
+  "description": "Number of inequivalent leaf-colorings of the unlabeled rooted tree with Matula-Goebel number n.",
+  "id": "A304486",
+  "mentions": [
+    "A000081",
+    "A001678",
+    "A004111",
+    "A007097",
+    "A049076",
+    "A061773",
+    "A061775",
+    "A109082",
+    "A109129",
+    "A300626",
+    "A303024",
+    "A303431",
+    "A317713",
+    "A317994"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

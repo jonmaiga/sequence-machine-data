@@ -1,0 +1,25 @@
+{
+  "description": "G.f. A(x) satisfies: [x^n] A(x)^((n+1)^2) = 0 for n>1 with a(0)=a(1)=1.",
+  "id": "A171791",
+  "mentions": [
+    "A003714",
+    "A185072",
+    "A229041",
+    "A229044",
+    "A230218",
+    "A263075",
+    "A263190",
+    "A292877"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:55",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

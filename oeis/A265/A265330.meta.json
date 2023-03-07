@@ -1,0 +1,29 @@
+{
+  "description": "Zero-based row index to A265345; 2-adic valuation of bijective base-3 reversal of n: a(n) = A007814(A263273(n)).",
+  "id": "A265330",
+  "mentions": [
+    "A007088",
+    "A007089",
+    "A007814",
+    "A263273",
+    "A265331",
+    "A265336",
+    "A265337",
+    "A265340",
+    "A265345",
+    "A265352",
+    "A265910"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 1,
+    "size": 128,
+    "source": "oeis-bfile"
+  }
+}

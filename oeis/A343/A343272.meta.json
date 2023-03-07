@@ -1,0 +1,19 @@
+{
+  "description": "Partial sums of A170842.",
+  "id": "A343272",
+  "mentions": [
+    "A170842",
+    "A187220"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

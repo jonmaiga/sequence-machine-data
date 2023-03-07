@@ -1,0 +1,18 @@
+{
+  "description": "1/25 the number of (n+1)X6 0..4 arrays with every 2X2 subblock having equal diagonal elements or equal antidiagonal elements",
+  "id": "A203653",
+  "mentions": [
+    "A203656"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

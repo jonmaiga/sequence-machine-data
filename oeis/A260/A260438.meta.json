@@ -1,0 +1,32 @@
+{
+  "description": "Row index to A255545: If n is k-th Lucky number then a(n) = k, otherwise a(n) = number of the stage where n is removed in Lucky sieve.",
+  "id": "A260438",
+  "mentions": [
+    "A000959",
+    "A016969",
+    "A050505",
+    "A055396",
+    "A109497",
+    "A145649",
+    "A219178",
+    "A255543",
+    "A255545",
+    "A255551",
+    "A258016",
+    "A260429",
+    "A260439",
+    "A260440",
+    "A260738"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

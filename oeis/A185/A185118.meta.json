@@ -1,0 +1,35 @@
+{
+  "description": "Number of connected 2-regular simple graphs on n vertices with girth at least 8.",
+  "id": "A185118",
+  "mentions": [
+    "A014376",
+    "A179184",
+    "A185013",
+    "A185014",
+    "A185015",
+    "A185016",
+    "A185017",
+    "A185018",
+    "A185114",
+    "A185115",
+    "A185116",
+    "A185117",
+    "A185119",
+    "A185228",
+    "A185328",
+    "A186718",
+    "A186728"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:32:29",
+    "offset": 0,
+    "size": 102,
+    "source": "joeis"
+  }
+}

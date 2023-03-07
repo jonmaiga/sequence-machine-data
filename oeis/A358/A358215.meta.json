@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k for which there are no such prime p that p^p would divide the arithmetic derivative of k, A003415(k).",
+  "id": "A358215",
+  "mentions": [
+    "A003415",
+    "A048103",
+    "A099308",
+    "A327929",
+    "A327934",
+    "A328393",
+    "A341996",
+    "A341997",
+    "A351088",
+    "A358221"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

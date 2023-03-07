@@ -1,0 +1,19 @@
+{
+  "description": "Numbers of the form 6n-2 which are not a sum of two numbers that are the lesser of twin primes.",
+  "id": "A321221",
+  "mentions": [
+    "A001359",
+    "A002375"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

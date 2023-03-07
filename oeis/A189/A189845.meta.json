@@ -1,0 +1,21 @@
+{
+  "description": "Number of length-n restricted growth strings (RGS) [s(0),s(1),...,s(n-1)] where s(0)=0 and s(k)<=3+max(prefix) for k>=1.",
+  "id": "A189845",
+  "mentions": [
+    "A000110",
+    "A080337",
+    "A305962",
+    "A306027"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

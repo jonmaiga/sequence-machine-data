@@ -1,0 +1,27 @@
+{
+  "description": "Irregular triangle read by rows: multinomial coefficients, version 3; alternatively, row n gives coefficients of the n-th complete exponential Bell polynomial B_n(x_1, x_2, ...) with monomials sorted into some unknown order.",
+  "id": "A178867",
+  "mentions": [
+    "A000041",
+    "A000110",
+    "A000296",
+    "A002865",
+    "A036040",
+    "A080575",
+    "A178866",
+    "A263633"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

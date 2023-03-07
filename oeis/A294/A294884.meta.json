@@ -1,0 +1,25 @@
+{
+  "description": "Number of divisors of n that are not irreducible when their binary expansion is interpreted as polynomial over GF(2).",
+  "id": "A294884",
+  "mentions": [
+    "A000005",
+    "A091225",
+    "A091242",
+    "A234741",
+    "A234742",
+    "A294882",
+    "A294883",
+    "A294894"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

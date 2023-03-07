@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form p^2 + 2*p + 2 where p is prime.",
+  "id": "A157467",
+  "mentions": [
+    "A127435",
+    "A127436"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "One half of the row length of A324251: one half of the length of the reduced principal cycle for discriminant 4*D(n), with D(n) = A000037(n).",
+  "id": "A307372",
+  "mentions": [
+    "A000037",
+    "A079896",
+    "A226166",
+    "A324251"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

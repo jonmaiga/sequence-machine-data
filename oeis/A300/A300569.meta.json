@@ -1,0 +1,21 @@
+{
+  "description": "Independence number of the n-polygon diagonal intersection graph.",
+  "id": "A300569",
+  "mentions": [
+    "A291948",
+    "A292356",
+    "A292923",
+    "A296517"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 3,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of iterations of A000688 needed to reach 1 starting at n (n is counted).",
+  "id": "A346213",
+  "mentions": [
+    "A000688",
+    "A060937"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n-th term of the (n+1)-th inverse binomial transform of A138737 for n>=0.",
+  "id": "A138734",
+  "mentions": [
+    "A138737",
+    "A215880"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

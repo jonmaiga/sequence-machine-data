@@ -1,0 +1,21 @@
+{
+  "description": "Inverse binomial transform of number-theoretic triangle A109974.",
+  "id": "A109978",
+  "mentions": [
+    "A001659",
+    "A109974"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

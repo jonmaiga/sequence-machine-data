@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows: coefficients of the cycle polynomial of the n-complete graph K_n.",
+  "id": "A284947",
+  "mentions": [
+    "A002807",
+    "A144151"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 3,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

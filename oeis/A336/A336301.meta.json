@@ -1,0 +1,18 @@
+{
+  "description": "Binary sequence of itself (minus signs are delimiters, see the Comments section for explanations).",
+  "id": "A336301",
+  "mentions": [
+    "A007088"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

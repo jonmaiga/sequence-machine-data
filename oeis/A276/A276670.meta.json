@@ -1,0 +1,26 @@
+{
+  "description": "Numerator of (n-1)*n*(n+1)/4.",
+  "id": "A276670",
+  "mentions": [
+    "A000217",
+    "A003506",
+    "A007531",
+    "A026741",
+    "A027641",
+    "A109613",
+    "A138190",
+    "A236398"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:27:41",
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

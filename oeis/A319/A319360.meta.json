@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. (1 + x)*exp(log(1 + x)^2/2).",
+  "id": "A319360",
+  "mentions": [
+    "A000085",
+    "A004211"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:18",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

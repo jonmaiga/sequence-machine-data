@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (Sum_{k=0..n-1}(840*k+197)(-1)^k*2430^(n-1-k)*T_k(8,1)*T_k(5,-5)^2)/(n*5^(n-1)), where T_k(b,c) denotes the coefficient of x^k in the expansion of (x^2+b*x+c)^k.",
+  "id": "A329107",
+  "mentions": [
+    "A328786",
+    "A329073",
+    "A329105"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

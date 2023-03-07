@@ -1,0 +1,21 @@
+{
+  "description": "G.f. satisfies: A(x) = 1/(1 + x*A(x^3)) and also the continued fraction: 1+x*A(x^4) = [1;1/x,1/x^3,1/x^9,1/x^27,...,1/x^(3^(n-1)),...].",
+  "id": "A101913",
+  "mentions": [
+    "A000621",
+    "A101912",
+    "A101914",
+    "A101918"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

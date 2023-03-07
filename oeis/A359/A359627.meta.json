@@ -1,0 +1,22 @@
+{
+  "description": "Irregular table read by rows; the n-th row lists the divisors d of 2*n such that the binary expansions of d and 2*n have no common 1-bit.",
+  "id": "A359627",
+  "mentions": [
+    "A307314",
+    "A359079",
+    "A359708"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

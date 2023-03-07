@@ -1,0 +1,20 @@
+{
+  "description": "Number of permutations p of [n] such that the up-down signature of 0,p has nonnegative partial sums with a maximal value of three.",
+  "id": "A316390",
+  "mentions": [
+    "A258829",
+    "A262164",
+    "A262165"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 3,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

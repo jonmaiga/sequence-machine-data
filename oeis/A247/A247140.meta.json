@@ -1,0 +1,19 @@
+{
+  "description": "Number of distinct values obtained from 1 to n when listing all distinct values of both numerators and denominators of sigma(n)/n.",
+  "id": "A247140",
+  "mentions": [
+    "A000203",
+    "A017665",
+    "A017666"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

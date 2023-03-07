@@ -1,0 +1,20 @@
+{
+  "description": "Number of 4s digits plus non-final 3s digits 3 base 5 expansion of 2^n.",
+  "id": "A116943",
+  "mentions": [
+    "A038003",
+    "A094389"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

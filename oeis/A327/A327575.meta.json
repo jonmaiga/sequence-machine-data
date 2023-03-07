@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the constant that appears in the asymptotic formula for average order of an infinitary analog of Euler's phi function (A091732).",
+  "id": "A327575",
+  "mentions": [
+    "A050376",
+    "A065463",
+    "A091732",
+    "A104141",
+    "A306071",
+    "A327572"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

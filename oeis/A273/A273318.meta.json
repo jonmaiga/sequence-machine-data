@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that n+k-1 is the sum of two nonzero squares in exactly k ways for all k = 1, 2, 3.",
+  "id": "A273318",
+  "mentions": [
+    "A000404",
+    "A025284",
+    "A025285",
+    "A025286"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

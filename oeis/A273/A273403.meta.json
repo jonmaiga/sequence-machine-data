@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that (10^n - 7^n)/3 is prime.",
+  "id": "A273403",
+  "mentions": [
+    "A004023",
+    "A062576",
+    "A128026"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

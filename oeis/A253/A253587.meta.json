@@ -1,0 +1,25 @@
+{
+  "description": "The sum of the i-th ternary digits of n, k, and T(n,k) equals 0 (mod 3) for each i>=0 (leading zeros included); triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A253587",
+  "mentions": [
+    "A001477",
+    "A004488",
+    "A060587",
+    "A090245",
+    "A253586"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(n,k) (n>=2, 1<=k<=n!) is the number of permutations pi of n such that there are k permutations >= pi in the (strong) Bruhat order.",
+  "id": "A263485",
+  "mentions": [
+    "A000142"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 2,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

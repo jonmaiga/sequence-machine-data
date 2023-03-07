@@ -1,0 +1,17 @@
+{
+  "description": "Number of steps to reach 1 in the modified `3x+1'-type problem defined by: If a_n is even then a_(n+1) = a_n/2. If a_n is = 1 (mod 4) then a_(n+1) = 3a_n+1. If a_n is = 3 (mod 4) then a_(n+1) = 3a_n-1.",
+  "id": "A109174",
+  "mentions": [
+    "A006577"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

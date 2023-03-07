@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of (1/(1 - x)) * Sum_{k>=1} k*x^k/(x^k + (1 - x)^k).",
+  "id": "A320586",
+  "mentions": [
+    "A000593",
+    "A129519",
+    "A185003",
+    "A320589"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

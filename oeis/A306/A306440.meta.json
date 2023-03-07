@@ -1,0 +1,18 @@
+{
+  "description": "Number of different ways of expressing 2*n as (p - 1)*(q - 1), where p < q are primes.",
+  "id": "A306440",
+  "mentions": [
+    "A323550"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 0,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

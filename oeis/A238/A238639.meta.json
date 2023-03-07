@@ -1,0 +1,22 @@
+{
+  "description": "Position of [n, n-1, ..., 2, 1] in Mathematica-ordered list of partitions of n(n+1)/2.",
+  "id": "A238639",
+  "mentions": [
+    "A000217",
+    "A080577",
+    "A238638",
+    "A238640",
+    "A330661",
+    "A332706"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

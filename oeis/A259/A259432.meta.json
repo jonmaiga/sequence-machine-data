@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that A259124(n) = A259124(n+1) > 0.",
+  "id": "A259432",
+  "mentions": [
+    "A259124"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

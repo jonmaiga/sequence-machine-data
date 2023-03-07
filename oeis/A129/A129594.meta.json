@@ -1,0 +1,28 @@
+{
+  "description": "Involution of nonnegative integers induced by the conjugation of the partition encoded in the run lengths of binary expansion of n.",
+  "id": "A129594",
+  "mentions": [
+    "A005811",
+    "A075157",
+    "A075158",
+    "A122111",
+    "A129595",
+    "A136480",
+    "A226062",
+    "A227183",
+    "A227184",
+    "A227185",
+    "A227189"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:17",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

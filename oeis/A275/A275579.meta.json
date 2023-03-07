@@ -1,0 +1,22 @@
+{
+  "description": "Nearest integer to imaginary part of Riemann zeta zeros divided by 2*Pi.",
+  "id": "A275579",
+  "mentions": [
+    "A002410",
+    "A046654",
+    "A199499",
+    "A275341",
+    "A275737"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

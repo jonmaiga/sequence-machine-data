@@ -1,0 +1,20 @@
+{
+  "description": "First differences of A324784: distances in A005132 from one low point to the next.",
+  "id": "A324786",
+  "mentions": [
+    "A005132",
+    "A309226",
+    "A324784",
+    "A324785"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

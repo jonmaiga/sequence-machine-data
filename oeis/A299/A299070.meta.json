@@ -1,0 +1,26 @@
+{
+  "description": "Regular triangle T(n,k) is the number of compositions of n whose standard factorization into Lyndon words has k distinct factors.",
+  "id": "A299070",
+  "mentions": [
+    "A001045",
+    "A001221",
+    "A008965",
+    "A059966",
+    "A116608",
+    "A146289",
+    "A185700",
+    "A296373",
+    "A299072"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

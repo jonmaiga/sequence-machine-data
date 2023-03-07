@@ -1,0 +1,28 @@
+{
+  "description": "Number of ways to fill a square matrix with the parts of a strict integer partition of n.",
+  "id": "A323522",
+  "mentions": [
+    "A000009",
+    "A008289",
+    "A089299",
+    "A103198",
+    "A120732",
+    "A323431",
+    "A323434",
+    "A323519",
+    "A323523",
+    "A323525",
+    "A323529"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:47",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Rank of n in the lunar poset.",
+  "id": "A161813",
+  "mentions": [
+    "A144171",
+    "A144175",
+    "A171786",
+    "A171787",
+    "A171788",
+    "A171789",
+    "A171794",
+    "A171795",
+    "A171796",
+    "A191752",
+    "A191753"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:43",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

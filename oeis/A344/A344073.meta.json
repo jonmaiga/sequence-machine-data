@@ -1,0 +1,19 @@
+{
+  "description": "Smallest number k such that C(-k) is the cyclic group of order n, where C(D) is the class group of the quadratic field with discriminant D; or 0 if no such k exists.",
+  "id": "A344073",
+  "mentions": [
+    "A060649",
+    "A344072"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Any number of necklaces made from n distinct colored beads then linearly arranged in a display case.",
+  "id": "A159662",
+  "mentions": [
+    "A001710"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

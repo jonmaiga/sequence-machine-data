@@ -1,0 +1,20 @@
+{
+  "description": "Denominator coefficients of infinite over the Fibonacci sequence: p(x,n)=(1 - x)*Sum[Fibonacci[k]^n*x^k, {k, 0, Infinity}]; t(n,m)=Coefficients(Numerator(p(x,n)).",
+  "id": "A156135",
+  "mentions": [
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

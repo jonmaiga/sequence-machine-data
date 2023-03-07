@@ -1,0 +1,17 @@
+{
+  "description": "Number of distinct self-dual normal bases for GF(2^n) over GF(2)",
+  "id": "A135488",
+  "mentions": [
+    "A088437"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

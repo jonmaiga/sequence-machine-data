@@ -1,0 +1,23 @@
+{
+  "description": "Greatest prime factor of n and 2*n+1",
+  "id": "A199423",
+  "mentions": [
+    "A006530",
+    "A014105",
+    "A074399",
+    "A076605",
+    "A093074"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:20",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

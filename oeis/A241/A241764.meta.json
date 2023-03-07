@@ -1,0 +1,21 @@
+{
+  "description": "Semiprimes sp such that sp-3 is also semiprime.",
+  "id": "A241764",
+  "mentions": [
+    "A001358",
+    "A081296",
+    "A092207",
+    "A123017",
+    "A198327"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

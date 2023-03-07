@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the integer k that minimizes |k/Fibonacci(n) - 2/3|.",
+  "id": "A293547",
+  "mentions": [
+    "A000045",
+    "A293545",
+    "A293546"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

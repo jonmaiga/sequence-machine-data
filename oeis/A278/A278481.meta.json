@@ -1,0 +1,27 @@
+{
+  "description": "Number of neighbors of the n-th term in a full isosceles triangle read by rows.",
+  "id": "A278481",
+  "mentions": [
+    "A010722",
+    "A010731",
+    "A016933",
+    "A040002",
+    "A122553",
+    "A134201",
+    "A275015",
+    "A278317",
+    "A278480",
+    "A278545"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Number of squarefree numbers between n and 2*n (inclusive).",
+  "id": "A179211",
+  "mentions": [
+    "A005117",
+    "A008966",
+    "A013928",
+    "A035250",
+    "A061398",
+    "A179212",
+    "A179213",
+    "A179214"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

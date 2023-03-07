@@ -1,0 +1,23 @@
+{
+  "description": "Primes p with the period of the decimal fraction 1/p a prime power, A000961.",
+  "id": "A197225",
+  "mentions": [
+    "A000961",
+    "A072859",
+    "A072982",
+    "A128948",
+    "A129727",
+    "A197226"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:18",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

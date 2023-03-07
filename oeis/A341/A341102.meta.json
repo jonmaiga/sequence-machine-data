@@ -1,0 +1,24 @@
+{
+  "description": "T(n, k) = [n, k] - {n, k}, where [n, k] are the (unsigned) Stirling cycle numbers and {n, k} the Stirling set numbers. Table T(n, k) read by rows, for n >= 3 and 1 <= k <= n-2.",
+  "id": "A341102",
+  "mentions": [
+    "A000292",
+    "A033312",
+    "A048742",
+    "A048993",
+    "A132393",
+    "A340556"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 3,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

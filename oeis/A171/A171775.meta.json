@@ -1,0 +1,46 @@
+{
+  "description": "a(n) = smallest number M such that there exist bases b_2, b_3, ..., b_n with the property that M written in base b_k is a k-digit palindrome for all k=2..n.",
+  "id": "A171775",
+  "mentions": [
+    "A007632",
+    "A007633",
+    "A029731",
+    "A029804",
+    "A029961",
+    "A029962",
+    "A029963",
+    "A029964",
+    "A029965",
+    "A029966",
+    "A029967",
+    "A029968",
+    "A029969",
+    "A029970",
+    "A087155",
+    "A097855",
+    "A099165",
+    "A171701",
+    "A171702",
+    "A171703",
+    "A171704",
+    "A171705",
+    "A171706",
+    "A171740",
+    "A171741",
+    "A171742",
+    "A253294"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

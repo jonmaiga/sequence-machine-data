@@ -1,0 +1,20 @@
+{
+  "description": "Indices of the prime numbers after mapping the positive integers onto successive rings of length {1, 5, 30, 180, 1080, ...} and assigning index 0 to the smallest value in each.",
+  "id": "A145092",
+  "mentions": [
+    "A000040",
+    "A008588",
+    "A016957"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

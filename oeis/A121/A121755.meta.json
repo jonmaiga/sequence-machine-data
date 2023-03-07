@@ -1,0 +1,25 @@
+{
+  "description": "Numerator of Sum/Product of first n primes = Numerator[ A007504[n] / A002110[n] ].",
+  "id": "A121755",
+  "mentions": [
+    "A002110",
+    "A007504",
+    "A051838",
+    "A111267",
+    "A120291",
+    "A121744",
+    "A121756"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the largest positive integer occurring, when written in binary, as a substring in both binary n and its reversal (A030101(n)).",
+  "id": "A331804",
+  "mentions": [
+    "A006995",
+    "A030101",
+    "A047813",
+    "A057890",
+    "A175466"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

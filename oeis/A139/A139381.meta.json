@@ -1,0 +1,26 @@
+{
+  "description": "McKay-Thompson series of class 10E for the Monster group with a(0) = -3.",
+  "id": "A139381",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A058101",
+    "A095846",
+    "A121373",
+    "A132980",
+    "A138516"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:50:37",
+    "offset": -1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

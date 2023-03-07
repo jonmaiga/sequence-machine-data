@@ -1,0 +1,21 @@
+{
+  "description": "Number of bases (numbering systems, including unary) in which the n-th prime is a palindrome having at least two digits.",
+  "id": "A137779",
+  "mentions": [
+    "A087911",
+    "A126071"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:25",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of partitions of n into primes which are the difference of two consecutive cubes (A002407).",
+  "id": "A286935",
+  "mentions": [
+    "A000607",
+    "A002407",
+    "A003215",
+    "A280953",
+    "A286934"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:10:47",
+    "offset": 0,
+    "size": 101,
+    "source": "joeis"
+  }
+}

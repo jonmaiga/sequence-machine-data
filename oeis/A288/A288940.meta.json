@@ -1,0 +1,18 @@
+{
+  "description": "Number of Dyck paths having n (positive) levels and exactly n peaks per level.",
+  "id": "A288940",
+  "mentions": [
+    "A288318",
+    "A288972"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:02",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

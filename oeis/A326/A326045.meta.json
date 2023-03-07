@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the sum of divisors of n, minus the largest square dividing that sum, minus n: a(n) = sigma(n) - A008833(sigma(n)) - n.",
+  "id": "A326045",
+  "mentions": [
+    "A000203",
+    "A008833",
+    "A326039",
+    "A326040",
+    "A326044",
+    "A326046"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

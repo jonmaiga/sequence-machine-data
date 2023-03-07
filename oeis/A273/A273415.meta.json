@@ -1,0 +1,18 @@
+{
+  "description": "The smallest term of A273379 having n primes between two consecutive prime divisors.",
+  "id": "A273415",
+  "mentions": [
+    "A067128",
+    "A273379"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,m) by rows: the number of tatami tilings of the 5 X n floor with dimers and m monomers.",
+  "id": "A272474",
+  "mentions": [
+    "A068924",
+    "A192091",
+    "A272473",
+    "A281791"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

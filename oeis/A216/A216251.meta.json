@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n-th decimal digit of the decimal expansion of the n-th Farey fraction ordered by rank.",
+  "id": "A216251",
+  "mentions": [
+    "A038566",
+    "A038567",
+    "A071989"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

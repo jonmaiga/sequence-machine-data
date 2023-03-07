@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k > 1 such that are sequences B_k of type: {b(1) = 1, b(2) = k, for n >= 3; b(n) = the smallest number h > b(n-1) such that [[b(n-2) + b(n-1)] * [b(n-2) + h] * [b(n-1) + h]] / [b(n-2) * b(n-1) * h] is integer}.",
+  "id": "A182756",
+  "mentions": [
+    "A032908",
+    "A038754",
+    "A101879",
+    "A182751",
+    "A182752",
+    "A182753",
+    "A182754",
+    "A182755",
+    "A182757"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

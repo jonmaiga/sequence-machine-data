@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that A336957(k) is twice a prime.",
+  "id": "A338074",
+  "mentions": [
+    "A336957",
+    "A337275"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

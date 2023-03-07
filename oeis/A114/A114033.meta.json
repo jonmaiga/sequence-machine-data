@@ -1,0 +1,19 @@
+{
+  "description": "Group the triangular numbers so that the n-th group sum is a multiple of n. 1, (3, 6, 10, 15), (21), (28), (36, 45, 55, 66, 78), (91, 105, 120, 136, 153, 171, 190), ... Sequence contains the number of terms in the n-th group.",
+  "id": "A114033",
+  "mentions": [
+    "A000217",
+    "A114031",
+    "A114032"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

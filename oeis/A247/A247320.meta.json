@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of integral_{0..Pi} log(x)/x*log(1 + x)^2 dx, the second of two definite integrals studied by Rutledge and Douglas.",
+  "id": "A247320",
+  "mentions": [
+    "A214508",
+    "A247319"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

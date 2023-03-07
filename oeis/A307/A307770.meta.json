@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of e.g.f. 1/(1 - Sum_{k>=1} prime(k)*x^k/k!).",
+  "id": "A307770",
+  "mentions": [
+    "A000040",
+    "A007446",
+    "A030017",
+    "A302191",
+    "A302192",
+    "A302194"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

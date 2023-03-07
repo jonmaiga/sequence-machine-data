@@ -1,0 +1,27 @@
+{
+  "description": "Binary weight of A328103: a(n) = A000120(A110240(n) XOR A267357(n)).",
+  "id": "A328109",
+  "mentions": [
+    "A000120",
+    "A110240",
+    "A267357",
+    "A269160",
+    "A269174",
+    "A328103",
+    "A328105",
+    "A328106",
+    "A328107",
+    "A328108"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

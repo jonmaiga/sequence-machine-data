@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is obtained by starting with 1, sequentially concatenating all decimal numbers up to n, and then, starting from n-1, sequentially concatenating all decimal numbers down to 1.",
+  "id": "A173426",
+  "mentions": [
+    "A002275",
+    "A002477",
+    "A007908",
+    "A075023",
+    "A075024",
+    "A259937",
+    "A359148"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:57",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

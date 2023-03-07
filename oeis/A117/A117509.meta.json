@@ -1,0 +1,18 @@
+{
+  "description": "Numbers whose base-3, base-4, base-5, and base-6 expansions contain no 1's.",
+  "id": "A117509",
+  "mentions": [
+    "A117496"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

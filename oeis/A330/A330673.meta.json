@@ -1,0 +1,22 @@
+{
+  "description": "The possible v-factors for any A202018(k) (while A202018(k) = v * w, v and w are integers, w >= v >= 41, v = w iff w = 41, all such v-factors form the set V).",
+  "id": "A330673",
+  "mentions": [
+    "A000040",
+    "A005846",
+    "A145292",
+    "A202018",
+    "A257362"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

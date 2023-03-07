@@ -1,0 +1,25 @@
+{
+  "description": "Number of partitions of {1,..,n} into lists with an even number of lists of size 1, where a list means an ordered subset (cf. A000262).",
+  "id": "A111752",
+  "mentions": [
+    "A000262",
+    "A062282",
+    "A063083",
+    "A111723",
+    "A111724",
+    "A111753",
+    "A113235"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of decimal digits in A139474(n).",
+  "id": "A139475",
+  "mentions": [
+    "A001109",
+    "A139473",
+    "A139474",
+    "A139476"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

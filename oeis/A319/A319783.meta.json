@@ -1,0 +1,29 @@
+{
+  "description": "Number of set systems spanning n vertices with empty intersection whose dual is also a set system with empty intersection.",
+  "id": "A319783",
+  "mentions": [
+    "A007716",
+    "A049311",
+    "A281116",
+    "A283877",
+    "A316980",
+    "A317752",
+    "A317755",
+    "A317757",
+    "A319775",
+    "A319778",
+    "A319779",
+    "A319781"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

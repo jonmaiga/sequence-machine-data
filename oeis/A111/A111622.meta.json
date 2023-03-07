@@ -1,0 +1,19 @@
+{
+  "description": "Where A111621(n)=2.",
+  "id": "A111622",
+  "mentions": [
+    "A109626",
+    "A111618",
+    "A111621"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

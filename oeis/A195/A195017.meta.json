@@ -1,0 +1,28 @@
+{
+  "description": "If n = Product_{k >= 1} (p_k)^(c_k) where p_k is k-th prime and c_k >= 0 then a(n) = Sum_{k >= 1} c_k*((-1)^(k-1)).",
+  "id": "A195017",
+  "mentions": [
+    "A000720",
+    "A001222",
+    "A001511",
+    "A007814",
+    "A048675",
+    "A056239",
+    "A090880",
+    "A206284",
+    "A248663",
+    "A277322",
+    "A284010"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

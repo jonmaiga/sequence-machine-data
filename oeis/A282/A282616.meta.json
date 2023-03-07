@@ -1,0 +1,26 @@
+{
+  "description": "Number of self-conjugate solutions of X + Y = 2Z (integer, disjoint triples from {1,2,3,...,3n}).",
+  "id": "A282616",
+  "mentions": [
+    "A104429",
+    "A202705",
+    "A279197",
+    "A279199",
+    "A282615",
+    "A282617",
+    "A282618",
+    "A282619"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

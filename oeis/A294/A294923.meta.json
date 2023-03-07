@@ -1,0 +1,20 @@
+{
+  "description": "Number n such that the whole sequence of the first n terms of A293700 is a palindrome.",
+  "id": "A294923",
+  "mentions": [
+    "A293698",
+    "A293700",
+    "A293701",
+    "A294924"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

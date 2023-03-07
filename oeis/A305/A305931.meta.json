@@ -1,0 +1,24 @@
+{
+  "description": "Powers of 3 having at least one digit '0' in their decimal representation.",
+  "id": "A305931",
+  "mentions": [
+    "A000244",
+    "A030700",
+    "A238939",
+    "A298607",
+    "A305933",
+    "A305934"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

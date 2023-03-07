@@ -1,0 +1,32 @@
+{
+  "description": "Expansion of the first column of triangle T_(2,x), T_(x,y) defined in A039599; T_(2,0)= A126075, T_(2,1)= A038622, T_(2,2)= A039598, T_(2,3)= A124733, T_(2,4)= A124575.",
+  "id": "A171388",
+  "mentions": [
+    "A000108",
+    "A005773",
+    "A007317",
+    "A033543",
+    "A038622",
+    "A039598",
+    "A039599",
+    "A054341",
+    "A124575",
+    "A124733",
+    "A126075",
+    "A171368",
+    "A171380"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

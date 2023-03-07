@@ -1,0 +1,23 @@
+{
+  "description": "a(0)=1; for n > 0, a(n) = the greatest common divisor (GCD) of n and the sum of all previous terms if the GCD is not already in the sequence; otherwise a(n) = a(n-1) + n.",
+  "id": "A337490",
+  "mentions": [
+    "A005132",
+    "A064814",
+    "A082299",
+    "A165430",
+    "A333826",
+    "A333980",
+    "A336957"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Primes q which are the lesser of a double Wieferich prime pair. (List of known values of q in increasing order, without multiplicity.)",
+  "id": "A124121",
+  "mentions": [
+    "A124122",
+    "A196511",
+    "A196733"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Consider a cellular automaton on the square grid where we start at time 1 with a finite collection of cells in state 1 and with all cells in state 0. At any time t, if a cell is in state 0 and the sum of the states of its neighborhood is t, the cell switches to state t. At any time t, if no cell switches to state t, the growth stops. The sequence gives the largest lifetime of any configuration starting from n cells which are rook connected.",
+  "id": "A198514",
+  "mentions": [
+    "A198515",
+    "A198516"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of n-celled polyiamonds with perimeter < n+2.",
+  "id": "A137191",
+  "mentions": [
+    "A000577",
+    "A131481"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

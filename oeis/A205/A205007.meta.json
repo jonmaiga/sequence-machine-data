@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (1/n)*A205006(n), where A205006(n) = s(k)-s(j), with (s(k),s(j)) the least pair of distinct triangular numbers for which n divides their difference.",
+  "id": "A205007",
+  "mentions": [
+    "A000217",
+    "A204892",
+    "A205002",
+    "A205006",
+    "A318894"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:25",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

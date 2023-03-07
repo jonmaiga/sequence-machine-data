@@ -1,0 +1,17 @@
+{
+  "description": "Prime divisors of {n^2+n+1} which do not occur in A002383.",
+  "id": "A162471",
+  "mentions": [
+    "A002383"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

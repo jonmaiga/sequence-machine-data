@@ -1,0 +1,28 @@
+{
+  "description": "Wiener index of a benzenoid consisting of a chain of n hexagons characterized by the encoding s = 1133 (see the Gutman et al. reference, Sec. 5).",
+  "id": "A193399",
+  "mentions": [
+    "A143937",
+    "A143938",
+    "A193391",
+    "A193392",
+    "A193393",
+    "A193394",
+    "A193395",
+    "A193396",
+    "A193397",
+    "A193398"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

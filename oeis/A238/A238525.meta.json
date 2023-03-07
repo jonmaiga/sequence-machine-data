@@ -1,0 +1,25 @@
+{
+  "description": "n modulo sopfr(n), where sopfr(n) is the sum of the prime factors of n, with multiplicity.",
+  "id": "A238525",
+  "mentions": [
+    "A001414",
+    "A036844",
+    "A238526",
+    "A238527",
+    "A238528",
+    "A238529",
+    "A238530"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 2,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

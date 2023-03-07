@@ -1,0 +1,23 @@
+{
+  "description": "Positive integers n that are palindromic in base 2 and whose binary representation has the same number of 0's as 1's.",
+  "id": "A143905",
+  "mentions": [
+    "A006995",
+    "A030101",
+    "A031443",
+    "A070939",
+    "A143906"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

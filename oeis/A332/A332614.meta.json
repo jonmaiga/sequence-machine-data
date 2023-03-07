@@ -1,0 +1,28 @@
+{
+  "description": "a(n) is the smallest index k such that Sum_{m=1..k} 1/z(m) > n where z(m) is the imaginary part of the m-th nontrivial zero of the Riemann zeta function, n=0,1,2,...",
+  "id": "A332614",
+  "mentions": [
+    "A013629",
+    "A074760",
+    "A104539",
+    "A104540",
+    "A104541",
+    "A104542",
+    "A245275",
+    "A245276",
+    "A306339",
+    "A306340",
+    "A306341",
+    "A332645"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:02",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

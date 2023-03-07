@@ -1,0 +1,17 @@
+{
+  "description": "Partial sums of A104324.",
+  "id": "A288575",
+  "mentions": [
+    "A104324"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:01",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

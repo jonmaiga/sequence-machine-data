@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that have exactly six representations as a sum of seven positive squares.",
+  "id": "A295803",
+  "mentions": [
+    "A025431",
+    "A287166",
+    "A295696"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

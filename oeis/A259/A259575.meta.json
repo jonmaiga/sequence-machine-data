@@ -1,0 +1,22 @@
+{
+  "description": "Reciprocity array of 1; rectangular, read by antidiagonals.",
+  "id": "A259575",
+  "mentions": [
+    "A259572",
+    "A259576",
+    "A259577"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

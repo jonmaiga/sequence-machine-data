@@ -1,0 +1,19 @@
+{
+  "description": "Number of ordered pairs of commuting elements (partial permutations) in the symmetric inverse semigroup on [n].",
+  "id": "A349739",
+  "mentions": [
+    "A000712",
+    "A002720"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

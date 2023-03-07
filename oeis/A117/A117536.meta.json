@@ -1,0 +1,25 @@
+{
+  "description": "Nearest integer to locations of increasingly large peaks of abs(zeta(0.5 + i*2*Pi/log(2)*t)) for increasing real t.",
+  "id": "A117536",
+  "mentions": [
+    "A054540",
+    "A079630",
+    "A088749",
+    "A088750",
+    "A117537",
+    "A117538",
+    "A117539"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

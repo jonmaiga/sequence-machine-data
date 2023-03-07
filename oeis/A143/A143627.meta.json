@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of the constant E_3(2) := sum {k = 0.. inf} (-1)^floor(k/3)*k^2/k! = 1/1! + 2^2/2! - 3^2/3! - 4^2/4! - 5^2/5! + + + - - - ... = 0.68605 60507 ... .",
+  "id": "A143627",
+  "mentions": [
+    "A143623",
+    "A143624",
+    "A143625",
+    "A143626",
+    "A143628",
+    "A143629",
+    "A143630"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

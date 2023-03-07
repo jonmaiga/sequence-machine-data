@@ -1,0 +1,20 @@
+{
+  "description": "Coefficients of y^(n-1) in Product_{k=1..n} (1 + k*y + y^2) for n >= 1.",
+  "id": "A202474",
+  "mentions": [
+    "A201826",
+    "A201950",
+    "A202476"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

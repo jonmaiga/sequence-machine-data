@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest positive integer not already in the sequence such that Sum_{i=k..n} a(i) is not a perfect power for 0 < k < n; start with a(1)=1.",
+  "id": "A334126",
+  "mentions": [
+    "A001597",
+    "A127397"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

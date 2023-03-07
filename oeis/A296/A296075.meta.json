@@ -1,0 +1,25 @@
+{
+  "description": "Sum of deficiencies of divisors of n.",
+  "id": "A296075",
+  "mentions": [
+    "A000203",
+    "A007429",
+    "A033879",
+    "A066218",
+    "A187793",
+    "A187794",
+    "A187795",
+    "A296074"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:14",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

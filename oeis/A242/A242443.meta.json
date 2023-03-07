@@ -1,0 +1,27 @@
+{
+  "description": "Number of ways of writing n, a positive integer, as an unordered sum of a triangular number (A000217), an even square (A016742) and a generalized pentagonal number (A001318).",
+  "id": "A242443",
+  "mentions": [
+    "A000217",
+    "A001318",
+    "A002636",
+    "A016742",
+    "A115288",
+    "A160324",
+    "A160325",
+    "A160326",
+    "A240088",
+    "A242442"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

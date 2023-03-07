@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of x/(1 - x + x^5 - x^6).",
+  "id": "A112713",
+  "mentions": [
+    "A000035",
+    "A088911",
+    "A112712",
+    "A131078",
+    "A133872"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:48:57",
+    "offset": 0,
+    "size": 90,
+    "source": "joeis"
+  }
+}

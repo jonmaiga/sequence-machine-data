@@ -1,0 +1,24 @@
+{
+  "description": "Number of digits in A110780(n).",
+  "id": "A110781",
+  "mentions": [
+    "A110774",
+    "A110775",
+    "A110776",
+    "A110777",
+    "A110778",
+    "A110780"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

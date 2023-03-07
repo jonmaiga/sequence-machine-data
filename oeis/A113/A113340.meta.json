@@ -1,0 +1,25 @@
+{
+  "description": "Triangle P, read by rows, such that P^2 transforms column k of P into column k+1 of P, so that column k of P equals column 0 of P^(2*k+1), where P^2 denotes the matrix square of P.",
+  "id": "A113340",
+  "mentions": [
+    "A113341",
+    "A113342",
+    "A113343",
+    "A113344",
+    "A113345",
+    "A113350",
+    "A113360"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

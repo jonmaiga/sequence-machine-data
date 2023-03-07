@@ -1,0 +1,18 @@
+{
+  "description": "Triangle where the n-th row is the smallest n positive integers which are coprime to the n-th triangular number (n(n+1)/2).",
+  "id": "A129321",
+  "mentions": [
+    "A124823"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

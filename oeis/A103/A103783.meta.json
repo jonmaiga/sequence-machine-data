@@ -1,0 +1,21 @@
+{
+  "description": "Primes of the form primorial P(k)*n-1 with minimal n, n>0, k>=2.",
+  "id": "A103783",
+  "mentions": [
+    "A002110",
+    "A073917",
+    "A103515",
+    "A103782",
+    "A214089"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

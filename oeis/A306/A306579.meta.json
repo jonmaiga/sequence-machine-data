@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the real number x such that f(x) = x^x^x^x is a minimum.",
+  "id": "A306579",
+  "mentions": [
+    "A068985",
+    "A306883"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 110,
+    "source": "oeis-entry"
+  }
+}

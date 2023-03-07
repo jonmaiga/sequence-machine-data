@@ -1,0 +1,24 @@
+{
+  "description": "Even numbers in the intersection of A228082 and A349829.",
+  "id": "A349831",
+  "mentions": [
+    "A003052",
+    "A228082",
+    "A230624",
+    "A349829",
+    "A349830",
+    "A349832",
+    "A350601"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

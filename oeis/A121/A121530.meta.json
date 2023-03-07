@@ -1,0 +1,21 @@
+{
+  "description": "Number of double rises at an odd level in all nondecreasing Dyck paths of semilength n. A nondecreasing Dyck path is a Dyck path for which the sequence of the altitudes of the valleys is nondecreasing.",
+  "id": "A121530",
+  "mentions": [
+    "A001622",
+    "A054444",
+    "A121529",
+    "A121532"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:39:28",
+    "offset": 1,
+    "size": 27,
+    "source": "joeis"
+  }
+}

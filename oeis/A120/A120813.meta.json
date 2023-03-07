@@ -1,0 +1,24 @@
+{
+  "description": "Number of permutations of length n with exactly 5 occurrences of the pattern 2-13.",
+  "id": "A120813",
+  "mentions": [
+    "A002629",
+    "A094218",
+    "A094219",
+    "A120812",
+    "A120814",
+    "A120816",
+    "A263776"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

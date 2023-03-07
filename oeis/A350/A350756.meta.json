@@ -1,0 +1,25 @@
+{
+  "description": "Integers whose number of divisors that are triangular numbers sets a new record.",
+  "id": "A350756",
+  "mentions": [
+    "A000217",
+    "A007862",
+    "A046952",
+    "A053624",
+    "A093036",
+    "A130317",
+    "A181808",
+    "A340548",
+    "A340549"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

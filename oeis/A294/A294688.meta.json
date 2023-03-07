@@ -1,0 +1,23 @@
+{
+  "description": "Palindromes in Narayana's cows sequence (A000930).",
+  "id": "A294688",
+  "mentions": [
+    "A000930",
+    "A002113",
+    "A045504",
+    "A055391"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

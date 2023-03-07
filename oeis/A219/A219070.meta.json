@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (46*n^5 + 30*n^4 + 15*n^3 - n) / 30.",
+  "id": "A219070",
+  "mentions": [
+    "A000290",
+    "A000330",
+    "A000538",
+    "A000584",
+    "A219069"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 18:52:39",
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

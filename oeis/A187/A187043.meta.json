@@ -1,0 +1,20 @@
+{
+  "description": "Number of factors in expansion of infinitary perfect numbers (A007357) over distinct terms of A050376",
+  "id": "A187043",
+  "mentions": [
+    "A007357",
+    "A050376",
+    "A064547"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the number of proper divisors of n that are squarefree.",
+  "id": "A293227",
+  "mentions": [
+    "A001221",
+    "A005117",
+    "A008683",
+    "A008966",
+    "A034444",
+    "A293228",
+    "A293234"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

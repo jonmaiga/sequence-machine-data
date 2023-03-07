@@ -1,0 +1,18 @@
+{
+  "description": "Number of representations of n as a linear combination of positive Fibonacci numbers with coefficients {0,1,2} only.",
+  "id": "A341904",
+  "mentions": [
+    "A000045",
+    "A000119"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

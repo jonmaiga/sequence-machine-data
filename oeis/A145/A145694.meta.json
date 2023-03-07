@@ -1,0 +1,19 @@
+{
+  "description": "Numbers Y such that 57*Y^2+19 is a square.",
+  "id": "A145694",
+  "mentions": [
+    "A145120"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Sum of Euler totient function and its Dirichlet inverse: a(n) = A000010(n) + A023900(n).",
+  "id": "A319340",
+  "mentions": [
+    "A000010",
+    "A023900",
+    "A051953",
+    "A318833",
+    "A319341"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

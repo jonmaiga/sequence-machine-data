@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of unlabeled weakly connected digraphs with n arcs and k vertices, k = 1..n+1.",
+  "id": "A350789",
+  "mentions": [
+    "A000238",
+    "A003085",
+    "A053454",
+    "A054733",
+    "A350450",
+    "A350753"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

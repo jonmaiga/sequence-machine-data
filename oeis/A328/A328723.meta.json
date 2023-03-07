@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} Kronecker(5,k)/k^3.",
+  "id": "A328723",
+  "mentions": [
+    "A002117",
+    "A080891",
+    "A086466",
+    "A129404",
+    "A153071",
+    "A251809",
+    "A327135",
+    "A328717",
+    "A329715",
+    "A329716"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

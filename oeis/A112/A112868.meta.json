@@ -1,0 +1,29 @@
+{
+  "description": "Positive integers sorted by rote weight and primal code characteristic.",
+  "id": "A112868",
+  "mentions": [
+    "A061396",
+    "A062504",
+    "A062537",
+    "A062860",
+    "A106177",
+    "A106178",
+    "A108352",
+    "A108353",
+    "A108370",
+    "A108374",
+    "A111801",
+    "A112869"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

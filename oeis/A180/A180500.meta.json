@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by row. T(n,m) gives the number of isomorphism classes of simple arrangements of n pseudolines and m double pseudolines in the projective plane.",
+  "id": "A180500",
+  "mentions": [
+    "A006248",
+    "A180501",
+    "A180503"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Composite numbers arising in Eratosthenes sieve with removing the multiples of every other remaining numbers after 2 (see comment).",
+  "id": "A216240",
+  "mentions": [
+    "A003309",
+    "A004280",
+    "A038179",
+    "A054103",
+    "A055398",
+    "A055399",
+    "A066680",
+    "A083140",
+    "A145592",
+    "A152021",
+    "A152114"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

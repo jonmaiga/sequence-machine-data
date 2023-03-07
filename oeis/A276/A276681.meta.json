@@ -1,0 +1,26 @@
+{
+  "description": "Number of divisors of the n-th octagonal number.",
+  "id": "A276681",
+  "mentions": [
+    "A000005",
+    "A000567",
+    "A048691",
+    "A063440",
+    "A276678",
+    "A276679",
+    "A276680",
+    "A276682",
+    "A276683"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

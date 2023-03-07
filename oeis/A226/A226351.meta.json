@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways to tile a fixed 3 X n square grid with 1 X 1, 2 X 2, and 1 X 2 tiles.",
+  "id": "A226351",
+  "mentions": [
+    "A226348"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:37:09",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

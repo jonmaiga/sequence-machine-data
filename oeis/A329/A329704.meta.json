@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that the sum of divisors of k (A000203) and the sum of proper divisors of k (A001065) are both triangular numbers (A000217).",
+  "id": "A329704",
+  "mentions": [
+    "A000203",
+    "A000217",
+    "A001065",
+    "A045745",
+    "A045746"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

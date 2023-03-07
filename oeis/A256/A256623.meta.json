@@ -1,0 +1,21 @@
+{
+  "description": "Number of distinct n-digit patterns in base 10 such that the pattern and its reverse are prime.",
+  "id": "A256623",
+  "mentions": [
+    "A016115",
+    "A048054"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

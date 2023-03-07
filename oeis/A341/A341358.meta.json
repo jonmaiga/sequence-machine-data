@@ -1,0 +1,18 @@
+{
+  "description": "Deficient numbers k > 1 such that k*p is abundant for all primes p dividing k.",
+  "id": "A341358",
+  "mentions": [
+    "A005100",
+    "A005101"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

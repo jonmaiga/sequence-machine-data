@@ -1,0 +1,22 @@
+{
+  "description": "Square array read by antidiagonals: A(x,y) = gcd(A276086(x),A276086(y)), for x, y >= 0.",
+  "id": "A324350",
+  "mentions": [
+    "A003989",
+    "A276086",
+    "A324198",
+    "A324351"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 0,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

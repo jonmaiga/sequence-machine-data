@@ -1,0 +1,19 @@
+{
+  "description": "Largest number k such that d_1^j + d_2^j + … + d_r^j is prime for all j = 1, 2, .. k, or 0 if no such k exists, where d_1, d_2, … d_r are the digits of n. a(n) = -1 if k is infinite.",
+  "id": "A245359",
+  "mentions": [
+    "A031974"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

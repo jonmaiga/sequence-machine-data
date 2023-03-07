@@ -1,0 +1,20 @@
+{
+  "description": "Primes congruent to 23 mod 57.",
+  "id": "A142679",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:28:09",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

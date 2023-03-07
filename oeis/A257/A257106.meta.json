@@ -1,0 +1,27 @@
+{
+  "description": "Denominators of the inverse binomial transform of the Bernoulli numbers with B(1)=2/3.",
+  "id": "A257106",
+  "mentions": [
+    "A001477",
+    "A002445",
+    "A027641",
+    "A027642",
+    "A060789",
+    "A109007",
+    "A164555",
+    "A176328",
+    "A176591",
+    "A256595"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

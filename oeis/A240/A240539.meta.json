@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions p of n such that the m(M(p)) is a part, where m = multiplicity, M = the minimum multiplicity of the parts of p.",
+  "id": "A240539",
+  "mentions": [
+    "A240538"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

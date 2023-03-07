@@ -1,0 +1,24 @@
+{
+  "description": "Nim-products of powers of 2, list of entries in matrix A223541.",
+  "id": "A223543",
+  "mentions": [
+    "A000079",
+    "A000244",
+    "A006017",
+    "A006046",
+    "A051775",
+    "A223541",
+    "A223542"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:41",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

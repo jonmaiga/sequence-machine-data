@@ -1,0 +1,21 @@
+{
+  "description": "Years in which there are five Tuesdays in the month of February.",
+  "id": "A143994",
+  "mentions": [
+    "A119406",
+    "A135795",
+    "A141039",
+    "A141287",
+    "A143995"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "description": "Number T(n,k) of set partitions of [n] such that the maximal absolute difference between consecutive elements within a block equals k; triangle T(n,k), n>=0, 0<=k<=max(n-1,0), read by rows.",
+  "id": "A287213",
+  "mentions": [
+    "A000012",
+    "A000110",
+    "A000225",
+    "A258109",
+    "A287214",
+    "A287215",
+    "A287416",
+    "A287640",
+    "A294024",
+    "A294052",
+    "A294053",
+    "A294054",
+    "A294055",
+    "A294056",
+    "A294057",
+    "A294058",
+    "A294059"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:59",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

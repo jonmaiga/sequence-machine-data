@@ -1,0 +1,21 @@
+{
+  "description": "Number of trapezoids on an n X n grid (or geoboard).",
+  "id": "A189415",
+  "mentions": [
+    "A186434",
+    "A189413",
+    "A189414",
+    "A189416",
+    "A189418"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

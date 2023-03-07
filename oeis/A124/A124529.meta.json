@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=0..n} k!*A124526(n+k,k) for n>=0.",
+  "id": "A124529",
+  "mentions": [
+    "A124418",
+    "A124526",
+    "A124527",
+    "A124528"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

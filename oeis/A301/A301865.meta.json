@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the probability that 2 planes, each passes through 3 random points inside a sphere, will intersect within the sphere.",
+  "id": "A301865",
+  "mentions": [
+    "A301862",
+    "A301863",
+    "A301864"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

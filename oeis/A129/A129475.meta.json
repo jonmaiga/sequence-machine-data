@@ -1,0 +1,19 @@
+{
+  "description": "Primes of Erdos-Selfridge class 15+.",
+  "id": "A129475",
+  "mentions": [
+    "A005113",
+    "A129474"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

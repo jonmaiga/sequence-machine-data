@@ -1,0 +1,23 @@
+{
+  "description": "Scan the sequence of natural numbers, written in base 2, from left to right, delete each 2nd, 4th, 6th etc occurrence of digit 0 and each 2nd, 4th, 6th etc occurrence of digit 1. The sequence are the base-10 residuals.",
+  "id": "A174204",
+  "mentions": [
+    "A007088",
+    "A174203",
+    "A174205",
+    "A174210"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

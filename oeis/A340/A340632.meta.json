@@ -1,0 +1,26 @@
+{
+  "description": "a(n) in binary is a run of 1-bits from the most significant 1-bit of n down to the least significant 1-bit of n, inclusive.",
+  "id": "A340632",
+  "mentions": [
+    "A003817",
+    "A006519",
+    "A023758",
+    "A062383",
+    "A135481",
+    "A142151",
+    "A334045"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Product_{k1=1..n, k2=1..n, k3=1..n, k4=1..n} (k1 + k2 + k3 + k4).",
+  "id": "A324441",
+  "mentions": [
+    "A079478",
+    "A306594"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

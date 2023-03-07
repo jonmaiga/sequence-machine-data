@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n, k) = Sum_{j>=0} floor(binomial(n, k)/2^j), read by rows.",
+  "id": "A174032",
+  "mentions": [
+    "A174037",
+    "A174038"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

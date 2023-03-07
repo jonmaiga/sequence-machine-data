@@ -1,0 +1,26 @@
+{
+  "description": "Triangle where g.f. S = S(x,m) satisfies: S = x/(G(-S^2)*G(-m*S^2)) such that G(x) = 1 + x*G(x)^2 is the g.f. of the Catalan numbers (A000108), as read by rows of coefficients T(n,k) of x^(2*n-1)*m^k in S(x,m) for n>=1, k=0..n-1.",
+  "id": "A278880",
+  "mentions": [
+    "A000108",
+    "A006013",
+    "A082680",
+    "A258313",
+    "A278745",
+    "A278881",
+    "A278882",
+    "A278883"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

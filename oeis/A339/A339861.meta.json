@@ -1,0 +1,21 @@
+{
+  "description": "Lengths of runs of ones in A214323.",
+  "id": "A339861",
+  "mentions": [
+    "A000930",
+    "A214323",
+    "A214330",
+    "A214551",
+    "A214653"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 129,
+    "source": "oeis-entry"
+  }
+}

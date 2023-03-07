@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = successive rank in A000040 of primes deleted from the working sequence according to their rank in that sequence equal to the digital root of the value of the previous deleted prime. The working sequence is A000040 deprived progressively of these deleted terms.",
+  "id": "A141389",
+  "mentions": [
+    "A000040",
+    "A010888",
+    "A038194"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

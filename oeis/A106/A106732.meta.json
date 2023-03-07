@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of -3*x/(1 - 5*x + 3*x^2).",
+  "id": "A106732",
+  "mentions": [
+    "A116415"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:58",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

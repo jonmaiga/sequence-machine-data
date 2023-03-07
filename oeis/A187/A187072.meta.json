@@ -1,0 +1,21 @@
+{
+  "description": "Prime numbers chosen such that the even numbers that are the sum of two consecutive terms occur only once and occur as early as possible.",
+  "id": "A187072",
+  "mentions": [
+    "A065091",
+    "A118371",
+    "A187085",
+    "A187098"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:11",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

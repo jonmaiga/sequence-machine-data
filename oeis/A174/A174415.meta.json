@@ -1,0 +1,18 @@
+{
+  "description": "Numbers such that when expressed in base 2 and then interpreted in base 10, is not a multiple of the original number.",
+  "id": "A174415",
+  "mentions": [
+    "A032533"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:48:29",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

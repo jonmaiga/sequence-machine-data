@@ -1,0 +1,32 @@
+{
+  "description": "Number of non-isomorphic series-reduced rooted trees whose leaves are sets (not necessarily disjoint) with a total of n elements.",
+  "id": "A330624",
+  "mentions": [
+    "A000669",
+    "A004111",
+    "A005804",
+    "A007716",
+    "A141268",
+    "A273873",
+    "A300660",
+    "A320296",
+    "A330465",
+    "A330470",
+    "A330625",
+    "A330626",
+    "A330628",
+    "A330668",
+    "A330677"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

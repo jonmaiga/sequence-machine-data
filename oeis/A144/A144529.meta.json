@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of edges in graph whose vertices are forests with n unlabeled nodes and degree <= k and in which two vertices are joined by an edge if the forests differ (up to isomorphism) by exactly one edge.",
+  "id": "A144529",
+  "mentions": [
+    "A144215",
+    "A144530"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

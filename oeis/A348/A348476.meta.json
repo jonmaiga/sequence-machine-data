@@ -1,0 +1,22 @@
+{
+  "description": "Number of compositions of n into exactly n nonnegative parts such that all positive parts are odd.",
+  "id": "A348476",
+  "mentions": [
+    "A001700",
+    "A088218",
+    "A165817",
+    "A305161",
+    "A324969"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:22",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

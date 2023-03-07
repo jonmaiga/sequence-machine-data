@@ -1,0 +1,20 @@
+{
+  "description": "Numbers L such that cyclotomic polynomial Phi(L,m) < Phi(j,m) for any j > L and m >= 2.",
+  "id": "A194712",
+  "mentions": [
+    "A000010",
+    "A002202",
+    "A032447",
+    "A206225"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

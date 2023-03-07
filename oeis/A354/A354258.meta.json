@@ -1,0 +1,21 @@
+{
+  "description": "Earliest occurrence of n in A354257.",
+  "id": "A354258",
+  "mentions": [
+    "A007947",
+    "A354257",
+    "A354270"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Number of 2's in the last section of the set of partitions of n.",
+  "id": "A182712",
+  "mentions": [
+    "A000041",
+    "A005291",
+    "A024786",
+    "A087787",
+    "A100818",
+    "A135010",
+    "A138121",
+    "A182703",
+    "A182713",
+    "A182714",
+    "A194812"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:40:21",
+    "offset": 0,
+    "size": 50,
+    "source": "joeis"
+  }
+}

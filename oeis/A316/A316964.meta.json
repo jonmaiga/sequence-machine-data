@@ -1,0 +1,17 @@
+{
+  "description": "Same as A316669, except numbering of the squares starts at 0 rather than 1..",
+  "id": "A316964",
+  "mentions": [
+    "A316669"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:35",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

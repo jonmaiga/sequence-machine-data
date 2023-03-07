@@ -1,0 +1,19 @@
+{
+  "description": "Number of parity perfect graphs on n nodes.",
+  "id": "A123443",
+  "mentions": [
+    "A280763"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

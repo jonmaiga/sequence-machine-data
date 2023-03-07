@@ -1,0 +1,21 @@
+{
+  "description": "Number of ordered pairs (i,j) with 0 < i < j < prime(n)/2 such that R(i^4,prime(n)) > R(j^4,prime(n)), where R(k,p) (with p an odd prime) denotes the unique integer r among 0,...,(p-1)/2 with k congruent to r or -r modulo p.",
+  "id": "A319894",
+  "mentions": [
+    "A000040",
+    "A000583",
+    "A319311",
+    "A319480",
+    "A319882"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 2,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

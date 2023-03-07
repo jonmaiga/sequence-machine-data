@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the number x satisfying 0 < x < 2*Pi and 2x = (1 + x^2)*tan(x).",
+  "id": "A196913",
+  "mentions": [
+    "A196816",
+    "A196914",
+    "A196915"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

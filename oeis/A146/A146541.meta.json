@@ -1,0 +1,30 @@
+{
+  "description": "Binomial transform of A010688.",
+  "id": "A146541",
+  "mentions": [
+    "A000007",
+    "A000079",
+    "A003945",
+    "A010688",
+    "A011782",
+    "A046055",
+    "A082505",
+    "A109466",
+    "A132479",
+    "A135092",
+    "A146523",
+    "A146534"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

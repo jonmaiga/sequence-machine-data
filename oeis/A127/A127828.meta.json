@@ -1,0 +1,22 @@
+{
+  "description": "Largest n-digit emirp (A006567) with nonincreasing digits.",
+  "id": "A127828",
+  "mentions": [
+    "A006567",
+    "A030540",
+    "A114019",
+    "A127748",
+    "A127827"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 2,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

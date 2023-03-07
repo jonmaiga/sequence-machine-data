@@ -1,0 +1,17 @@
+{
+  "description": "Number of 9-element subsets of [n] having a prime element sum.",
+  "id": "A320684",
+  "mentions": [
+    "A282516"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 9,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

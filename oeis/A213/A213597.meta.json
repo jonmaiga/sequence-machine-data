@@ -1,0 +1,26 @@
+{
+  "description": "Triangle T(n,k), n>=1, 0<=k<=A000041(n), read by rows: row n gives the coefficients of the chromatic polynomial of the ranked poset L(n) of partitions of n, highest powers first.",
+  "id": "A213597",
+  "mentions": [
+    "A000004",
+    "A000012",
+    "A000041",
+    "A000097",
+    "A002846",
+    "A052810",
+    "A213242",
+    "A213385",
+    "A213427"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

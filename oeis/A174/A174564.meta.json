@@ -1,0 +1,21 @@
+{
+  "description": "Let J_n be n X n matrix which contains 1's only, I=I_n be the n X n identity matrix and P=P_n be the incidence matrix of the cycle (2,3,...,n,1). Then a(n) is the number of (0,1) n X n matrices A<=J_n-I-P with exactly two 1's in every row and column",
+  "id": "A174564",
+  "mentions": [
+    "A000186",
+    "A001499",
+    "A007107",
+    "A082491"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 3,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

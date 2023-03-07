@@ -1,0 +1,23 @@
+{
+  "description": "Triangle, read by rows, where T(n,k) = {T^[(n+k)/2]}( [(n+k)/2], k) for n>=k>=0, so that antidiagonal {2n} equals row n of T^n for n>=0 and odd antidiagonals equal even antidiagonals.",
+  "id": "A132844",
+  "mentions": [
+    "A132845",
+    "A132846",
+    "A132847",
+    "A132848",
+    "A132849"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

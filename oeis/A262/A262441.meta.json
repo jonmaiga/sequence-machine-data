@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n+1}(binomial(n-1,k)/(k+1)*binomial(n+k+1,n-k)).",
+  "id": "A262441",
+  "mentions": [
+    "A109081",
+    "A161798"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

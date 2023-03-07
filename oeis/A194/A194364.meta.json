@@ -1,0 +1,18 @@
+{
+  "description": "The number of n-permutations having precisely two cycles whose lengths are relatively prime.",
+  "id": "A194364",
+  "mentions": [
+    "A000254"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 2,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

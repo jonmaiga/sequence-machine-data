@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 4*(16^n-1)/15.",
+  "id": "A141032",
+  "mentions": [
+    "A013709",
+    "A131865",
+    "A141060"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:29",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Sums-complement of the Beatty sequence for 3 + tau.",
+  "id": "A276887",
+  "mentions": [
+    "A267855",
+    "A276855",
+    "A276868",
+    "A276871"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

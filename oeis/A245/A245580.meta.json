@@ -1,0 +1,21 @@
+{
+  "description": "Smallest Lucas number L(m) > L(n) that is divisible by the n-th Lucas number L(n) = A000204(n).",
+  "id": "A245580",
+  "mentions": [
+    "A000204",
+    "A014448",
+    "A237268"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

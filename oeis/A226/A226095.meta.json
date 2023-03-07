@@ -1,0 +1,20 @@
+{
+  "description": "Primes formed by concatenation (exponent then prime) of prime factorizations of the positive integers.",
+  "id": "A226095",
+  "mentions": [
+    "A105435",
+    "A123132"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

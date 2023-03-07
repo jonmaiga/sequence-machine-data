@@ -1,0 +1,23 @@
+{
+  "description": "Square array A(n, k), n, k >= 0, read by antidiagonals; the primorial base expansion of A(n, k) is obtained by adding componentwise and reducing modulo their radix the digits of the primorial base expansions of n and k.",
+  "id": "A354470",
+  "mentions": [
+    "A004442",
+    "A235168",
+    "A354438",
+    "A354469"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

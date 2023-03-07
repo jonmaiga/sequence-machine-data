@@ -1,0 +1,23 @@
+{
+  "description": "Dirichlet inverse of A063994(x) = Product_{primes p dividing x} gcd(p-1, x-1).",
+  "id": "A340187",
+  "mentions": [
+    "A023900",
+    "A063994",
+    "A340142",
+    "A340145",
+    "A340188",
+    "A340189",
+    "A340190"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Michael Stifel's 4 X 4 multiplication magic square read by rows.",
+  "id": "A232393",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of modulo n residues among sums of two sixth powers.",
+  "id": "A289630",
+  "mentions": [
+    "A057760",
+    "A155918",
+    "A289559"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:04",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 1 if {the least k >= n such that n and A276086(k) are coprime} is one of the primorial numbers (A002110), otherwise 0.",
+  "id": "A356313",
+  "mentions": [
+    "A002110",
+    "A276086",
+    "A356302",
+    "A356309",
+    "A356314"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

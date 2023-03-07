@@ -1,0 +1,19 @@
+{
+  "description": "Palindromes in base 10 (A002113) which are also prime factorization palindromes (A265640).",
+  "id": "A265641",
+  "mentions": [
+    "A002113",
+    "A265640"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

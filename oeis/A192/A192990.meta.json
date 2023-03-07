@@ -1,0 +1,18 @@
+{
+  "description": "Pyramid P(n, t, d) read by planes and rows, for 0 <= t+d <= n: number of ways n triples can sit in a row so that exactly t triples are together and exactly d triples are separated into a couple and a loner.",
+  "id": "A192990",
+  "mentions": [
+    "A193624"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Greatest common divisor of A342002 and its shifted variant, where A342002(n) = A003415(A276086(n)) / A003557(A276086(n)) and A276086 is the primorial base exp-function.",
+  "id": "A353573",
+  "mentions": [
+    "A003415",
+    "A003557",
+    "A003961",
+    "A276086",
+    "A342001",
+    "A342002",
+    "A353571",
+    "A353572",
+    "A353574"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

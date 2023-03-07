@@ -1,0 +1,24 @@
+{
+  "description": "Primes of the form 8*n^2+8*n+31.",
+  "id": "A289839",
+  "mentions": [
+    "A000040",
+    "A000668",
+    "A005846",
+    "A007635",
+    "A007639",
+    "A048988",
+    "A281437",
+    "A292578"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:50:07",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

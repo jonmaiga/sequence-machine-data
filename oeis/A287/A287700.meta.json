@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (4!)^3 * [z^4] hypergeom([], [1,1], z)^n.",
+  "id": "A287700",
+  "mentions": [
+    "A287698"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:33:29",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

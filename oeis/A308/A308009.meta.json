@@ -1,0 +1,17 @@
+{
+  "description": "The terms of A081145 appear to lie on three lines; set a(n) = 0 if A081145(n) is on the lower line, 1 if it is on the middle line, and 2 if it is on the upper line.",
+  "id": "A308009",
+  "mentions": [
+    "A081145"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

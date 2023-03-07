@@ -1,0 +1,19 @@
+{
+  "description": "Start with generation 0, which is the empty sequence. For generation N>=1, extend the existing sequence into a non-cyclic ternary de Bruijn sequence of order N. If more than one extension is possible, choose the lexicographically earliest.",
+  "id": "A308831",
+  "mentions": [
+    "A080679",
+    "A166315",
+    "A169676"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

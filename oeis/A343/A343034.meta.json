@@ -1,0 +1,23 @@
+{
+  "description": "Positive numbers m such that m^2 with last digit z deleted is still a perfect square k^2, and z divides m-k.",
+  "id": "A343034",
+  "mentions": [
+    "A031149",
+    "A078986",
+    "A078987",
+    "A228209"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:32:43",
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that sigma(n)/phi(n) = 25/9, where sigma = A000203, phi = A000010.",
+  "id": "A165630",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A011257",
+    "A164647",
+    "A164648"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:48",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "BII-numbers of set-systems with empty intersection.",
+  "id": "A326911",
+  "mentions": [
+    "A048793",
+    "A051185",
+    "A305843",
+    "A317752",
+    "A317755",
+    "A317757",
+    "A319077",
+    "A326031",
+    "A326910",
+    "A326912"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Partial sums of primes of the form (n+1)^7 - n^7.",
+  "id": "A221979",
+  "mentions": [
+    "A007504",
+    "A121618",
+    "A121619",
+    "A221793",
+    "A221848",
+    "A221977"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

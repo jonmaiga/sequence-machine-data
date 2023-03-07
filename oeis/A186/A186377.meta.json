@@ -1,0 +1,21 @@
+{
+  "description": "a(n) equals the least sum of the squares of the coefficients in (1 + 2*x^k + x^p + x^q)^n found at sufficiently large p and q>(n+1)p for some fixed k>0.",
+  "id": "A186377",
+  "mentions": [
+    "A002893",
+    "A186375",
+    "A186376",
+    "A186378"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:48:09",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

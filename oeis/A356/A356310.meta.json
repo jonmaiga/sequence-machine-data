@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 1 if A003415(n) and A276086(n) are relatively prime, otherwise 0. Here A003415 is the arithmetic derivative, and A276086 is the primorial base exp-function.",
+  "id": "A356310",
+  "mentions": [
+    "A003415",
+    "A276086",
+    "A327858",
+    "A356162",
+    "A356311",
+    "A356312"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

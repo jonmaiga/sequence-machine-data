@@ -1,0 +1,19 @@
+{
+  "description": "Smallest positive m such that n divides sigma_m(n) - j where j is some divisor of n, or 0 if no such m exists.",
+  "id": "A284082",
+  "mentions": [
+    "A033950",
+    "A205523",
+    "A283970"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

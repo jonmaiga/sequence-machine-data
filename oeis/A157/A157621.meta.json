@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 625n^2 - 364n + 53.",
+  "id": "A157621",
+  "mentions": [
+    "A157622",
+    "A157623"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

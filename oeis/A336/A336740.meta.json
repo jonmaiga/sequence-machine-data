@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive terms starting with a(1) = 110 such that the successive sums of the last two digits of the sequence reproduce, digit by digit, the sequence itself.",
+  "id": "A336740",
+  "mentions": [
+    "A336523"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

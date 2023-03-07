@@ -1,0 +1,18 @@
+{
+  "description": "Smallest prime p such that p*t(n) +- 1 is a twin prime pair, where t(n)=A014574(n) is the n-th twin prime average.",
+  "id": "A195104",
+  "mentions": [
+    "A014574",
+    "A158866"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

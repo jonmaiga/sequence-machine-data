@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the positive real solution to (1 - 1/2^x) * zeta(x) = 2.",
+  "id": "A349604",
+  "mentions": [
+    "A074206",
+    "A107311"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

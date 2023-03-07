@@ -1,0 +1,35 @@
+{
+  "description": "Numbers with at least one prime prime index.",
+  "id": "A331386",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A001222",
+    "A006450",
+    "A007821",
+    "A018252",
+    "A056239",
+    "A076610",
+    "A112798",
+    "A257994",
+    "A295665",
+    "A302242",
+    "A320628",
+    "A320633",
+    "A330943",
+    "A330944",
+    "A330947",
+    "A330949"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

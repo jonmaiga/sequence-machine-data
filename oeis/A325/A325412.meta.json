@@ -1,0 +1,32 @@
+{
+  "description": "Number of distinct omega-sequences of integer partitions of n.",
+  "id": "A325412",
+  "mentions": [
+    "A008284",
+    "A116608",
+    "A181819",
+    "A225485",
+    "A225486",
+    "A323014",
+    "A323023",
+    "A325238",
+    "A325242",
+    "A325248",
+    "A325268",
+    "A325277",
+    "A325280",
+    "A325413",
+    "A325414",
+    "A325415"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

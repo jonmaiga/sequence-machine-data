@@ -1,0 +1,31 @@
+{
+  "description": "Number T(n,k) of Dyck paths of semilength n such that no positive level has fewer than k peaks; triangle T(n,k), n >= 0, 0 <= k <= n, read by rows.",
+  "id": "A288386",
+  "mentions": [
+    "A000108",
+    "A287847",
+    "A287901",
+    "A288387",
+    "A288678",
+    "A288679",
+    "A288680",
+    "A288681",
+    "A288682",
+    "A288683",
+    "A288684",
+    "A288685",
+    "A288686"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:01",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

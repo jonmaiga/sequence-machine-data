@@ -1,0 +1,23 @@
+{
+  "description": "Maximal number of points that can be placed on a triangular grid of side n so that no three of them are vertices of an equilateral triangle in any orientation.",
+  "id": "A240114",
+  "mentions": [
+    "A000332",
+    "A227116",
+    "A227133",
+    "A227308"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that a regular (n^3-n)-gon can be constructed by means of a ruler and compass.",
+  "id": "A117885",
+  "mentions": [
+    "A003401"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

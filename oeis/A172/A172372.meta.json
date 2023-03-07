@@ -1,0 +1,20 @@
+{
+  "description": "Least number k such that the n-th prime not dividing 10 (A004139(n)) divides the repunit (10^k-1)/9.",
+  "id": "A172372",
+  "mentions": [
+    "A002275",
+    "A002371",
+    "A004139",
+    "A095250"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:18:31",
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

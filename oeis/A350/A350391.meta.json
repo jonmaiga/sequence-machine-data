@@ -1,0 +1,20 @@
+{
+  "description": "The largest denominator that can be made from n repeated applications of the maps f(x) = x + 1 or g(x) = -1/x, starting from 0.",
+  "id": "A350391",
+  "mentions": [
+    "A226247",
+    "A226248",
+    "A226249",
+    "A226250"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

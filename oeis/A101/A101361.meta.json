@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = a(2) = 1; for n > 2, a(n) = Knuth's Fibonacci (or circle) product \"a(n-1) o a(n-2)\".",
+  "id": "A101361",
+  "mentions": [
+    "A000045",
+    "A101330"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

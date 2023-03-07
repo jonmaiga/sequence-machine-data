@@ -1,0 +1,22 @@
+{
+  "description": "The decimal expansion of e, spelled in English, and each digit summed where A=1, B=2, ..., Z=26.",
+  "id": "A224359",
+  "mentions": [
+    "A001113",
+    "A073327"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "formulas",
+    "less",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

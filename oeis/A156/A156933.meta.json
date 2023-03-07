@@ -1,0 +1,30 @@
+{
+  "description": "FP4 polynomials related to the o.g.f.s of the columns of the A156925 matrix.",
+  "id": "A156933",
+  "mentions": [
+    "A156920",
+    "A156921",
+    "A156925",
+    "A156927",
+    "A156934",
+    "A156935",
+    "A156936",
+    "A156937",
+    "A156938",
+    "A157705"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabf",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

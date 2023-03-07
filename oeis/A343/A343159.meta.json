@@ -1,0 +1,18 @@
+{
+  "description": "(0,1)-array describing two-dimensional paper-folding construction of A342759, read by upward antidiagonals.",
+  "id": "A343159",
+  "mentions": [
+    "A342759"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

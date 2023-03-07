@@ -1,0 +1,32 @@
+{
+  "description": "The Gauss factorial N_n! for N >= 0, n >= 1, square array read by antidiagonals.",
+  "id": "A216919",
+  "mentions": [
+    "A000142",
+    "A001147",
+    "A001783",
+    "A055634",
+    "A066570",
+    "A124441",
+    "A124442",
+    "A133221",
+    "A232980",
+    "A232981",
+    "A232982",
+    "A232983",
+    "A232984",
+    "A232985"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

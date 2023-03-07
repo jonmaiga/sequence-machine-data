@@ -1,0 +1,21 @@
+{
+  "description": "Position of n in rearrangement of natural numbers A103849.",
+  "id": "A103877",
+  "mentions": [
+    "A036301",
+    "A103829",
+    "A103848",
+    "A103849"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

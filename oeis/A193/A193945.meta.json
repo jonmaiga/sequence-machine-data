@@ -1,0 +1,20 @@
+{
+  "description": "Integers n such that for all i > n the largest prime factor of i(i+1)(i+2)(i+3) exceeds the largest prime factor of n(n+1)(n+2)(n+3).",
+  "id": "A193945",
+  "mentions": [
+    "A003033",
+    "A145605",
+    "A193944",
+    "A193946"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

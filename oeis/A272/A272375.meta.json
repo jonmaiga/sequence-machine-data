@@ -1,0 +1,19 @@
+{
+  "description": "Negative records in A187202 by index.",
+  "id": "A272375",
+  "mentions": [
+    "A187202",
+    "A242393",
+    "A272374"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

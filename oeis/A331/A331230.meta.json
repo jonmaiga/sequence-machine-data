@@ -1,0 +1,39 @@
+{
+  "description": "Numbers k such that the number of factorizations of k into distinct factors > 1 is odd.",
+  "id": "A331230",
+  "mentions": [
+    "A001055",
+    "A001318",
+    "A032766",
+    "A035359",
+    "A045778",
+    "A045779",
+    "A045780",
+    "A045782",
+    "A052002",
+    "A318286",
+    "A319237",
+    "A328966",
+    "A330974",
+    "A330975",
+    "A330976",
+    "A330991",
+    "A330997",
+    "A331050",
+    "A331051",
+    "A331200",
+    "A331201",
+    "A331231",
+    "A331232"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

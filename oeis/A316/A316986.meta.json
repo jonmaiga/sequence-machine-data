@@ -1,0 +1,17 @@
+{
+  "description": "E.g.f. A(x) satisfies: Sum_{n>=0} 1/n! * exp(n^3*x)/A(x)^n = exp(1).",
+  "id": "A316986",
+  "mentions": [
+    "A316567"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:35",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

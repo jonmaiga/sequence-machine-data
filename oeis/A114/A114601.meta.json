@@ -1,0 +1,20 @@
+{
+  "description": "Number of n X n symmetric positive definite matrices with 2's on the main diagonal and -1, 0, or 1 elsewhere.",
+  "id": "A114601",
+  "mentions": [
+    "A085657",
+    "A086215"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

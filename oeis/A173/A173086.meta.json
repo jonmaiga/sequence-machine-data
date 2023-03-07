@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that n, n^2 - 6, and n^2 + 6 are semiprime.",
+  "id": "A173086",
+  "mentions": [
+    "A001358",
+    "A173082",
+    "A173083",
+    "A173084",
+    "A173085"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

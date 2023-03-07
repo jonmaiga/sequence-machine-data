@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n with record number of primes p such that n*p is a Carmichael number.",
+  "id": "A292366",
+  "mentions": [
+    "A002997"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

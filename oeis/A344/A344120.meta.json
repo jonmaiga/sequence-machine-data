@@ -1,0 +1,21 @@
+{
+  "description": "For n >= 0, let N = 243 + n*343, let v(x) be the maximum power of 7 dividing x, and let p(N) be the partition function A000041(N). If v(p(N)) >= v(24*N-1) then a(n)=1, otherwise a(n)=0.",
+  "id": "A344120",
+  "mentions": [
+    "A000041",
+    "A214411",
+    "A340757",
+    "A340957",
+    "A344121"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of 4-noncrossing RNA structures with arc-length => 4.",
+  "id": "A140639",
+  "mentions": [
+    "A004148",
+    "A107905",
+    "A110319",
+    "A110320",
+    "A132441"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

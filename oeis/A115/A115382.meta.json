@@ -1,0 +1,22 @@
+{
+  "description": "Correlation triangle for Thue-Morse sequence A010060(n+1).",
+  "id": "A115382",
+  "mentions": [
+    "A010060",
+    "A115383",
+    "A115384"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:48:49",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

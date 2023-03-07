@@ -1,0 +1,24 @@
+{
+  "description": "Number of ordered ways to write n = k + m with k > 0 and m > 0 such that 2*k - 1, prime(k)^2 - 2 and prime(m)^2 - 2 are all prime.",
+  "id": "A237367",
+  "mentions": [
+    "A000040",
+    "A049002",
+    "A062326",
+    "A076297",
+    "A218829",
+    "A230502",
+    "A233204",
+    "A237348"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

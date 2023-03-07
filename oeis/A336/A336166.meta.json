@@ -1,0 +1,25 @@
+{
+  "description": "Values z of primitive solutions (x, y, z) to the Diophantine equation x^3 + y^3 + 2*z^3 = 2.",
+  "id": "A336166",
+  "mentions": [
+    "A000290",
+    "A000578",
+    "A004825",
+    "A004826",
+    "A016754",
+    "A028387",
+    "A050791",
+    "A130472",
+    "A195006"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of number of Pascals (Pa) in 1 Torr.",
+  "id": "A321218",
+  "mentions": [
+    "A021023",
+    "A213611"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:51:25",
+    "offset": 3,
+    "size": 93,
+    "source": "joeis"
+  }
+}

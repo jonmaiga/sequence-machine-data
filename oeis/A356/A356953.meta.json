@@ -1,0 +1,24 @@
+{
+  "description": "Least nonzero starting number in the first run of exactly n consecutive numbers having the same number of prime factors counted with multiplicity, or -1 if no such number exists.",
+  "id": "A356953",
+  "mentions": [
+    "A001222",
+    "A045920",
+    "A077657",
+    "A113752",
+    "A115186",
+    "A356855",
+    "A356893"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

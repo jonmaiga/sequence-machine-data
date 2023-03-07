@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically ordered 3X3 matrices containing numbers 1..9 with maximal determinant = 412.",
+  "id": "A180345",
+  "mentions": [
+    "A085000",
+    "A088215"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

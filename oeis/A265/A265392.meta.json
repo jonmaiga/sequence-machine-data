@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = denominator of Sum_{d|n} 1 / tau(d).",
+  "id": "A265392",
+  "mentions": [
+    "A000005",
+    "A253139",
+    "A265390",
+    "A265391",
+    "A265393"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

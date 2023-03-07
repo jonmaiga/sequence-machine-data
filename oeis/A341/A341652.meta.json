@@ -1,0 +1,19 @@
+{
+  "description": "Numbers j > 1 at which the absolute difference between log(j)*log(A341651(j)) and the nearest integer reaches a record low.",
+  "id": "A341652",
+  "mentions": [
+    "A341577",
+    "A341651",
+    "A341653"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

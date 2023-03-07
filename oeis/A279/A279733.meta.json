@@ -1,0 +1,38 @@
+{
+  "description": "Triangle read by rows which is constructed with the diagram of the triangle of A237048 and filling the empty cells with zeros.",
+  "id": "A279733",
+  "mentions": [
+    "A001227",
+    "A196020",
+    "A235791",
+    "A236104",
+    "A237048",
+    "A237270",
+    "A237271",
+    "A237591",
+    "A237593",
+    "A239657",
+    "A245092",
+    "A249351",
+    "A261699",
+    "A262611",
+    "A262626",
+    "A275601",
+    "A279387",
+    "A279391",
+    "A279693",
+    "A281010",
+    "A281011"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

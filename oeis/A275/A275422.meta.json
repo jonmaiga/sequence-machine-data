@@ -1,0 +1,30 @@
+{
+  "description": "Number A(n,k) of set partitions of [n] such that k is a multiple of each block size; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A275422",
+  "mentions": [
+    "A000012",
+    "A000085",
+    "A000110",
+    "A190452",
+    "A190865",
+    "A275423",
+    "A275424",
+    "A275425",
+    "A275426",
+    "A275427",
+    "A275428",
+    "A275429"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

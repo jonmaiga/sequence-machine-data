@@ -1,0 +1,28 @@
+{
+  "description": "Number of necklace permutations of a multiset whose multiplicities are the prime indices of n > 1.",
+  "id": "A318810",
+  "mentions": [
+    "A000670",
+    "A008480",
+    "A019536",
+    "A056239",
+    "A060223",
+    "A112798",
+    "A298941",
+    "A305936",
+    "A318762",
+    "A318808",
+    "A318809"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

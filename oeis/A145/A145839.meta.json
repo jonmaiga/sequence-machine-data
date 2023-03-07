@@ -1,0 +1,25 @@
+{
+  "description": "Number of 3-compositions of n.",
+  "id": "A145839",
+  "mentions": [
+    "A000217",
+    "A003480",
+    "A004736",
+    "A145840",
+    "A145841",
+    "A154990",
+    "A261780"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

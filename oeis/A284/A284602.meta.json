@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that decimal representation of 1/n is either finite or has even period length.",
+  "id": "A284602",
+  "mentions": [
+    "A002371",
+    "A003592",
+    "A028416",
+    "A051626",
+    "A206586",
+    "A284601"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

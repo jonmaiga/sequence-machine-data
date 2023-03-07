@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of labeled threshold graphs on vertex set [n] in which k dominating vertices are added in standard iterative construction, n >= 1 and 0 <= k <= n-1.",
+  "id": "A350060",
+  "mentions": [
+    "A005840",
+    "A008277",
+    "A348576"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

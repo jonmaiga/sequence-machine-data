@@ -1,0 +1,21 @@
+{
+  "description": "Repeatedly map numbers to the number of letters in the English name (include spaces, but no hyphens and no \"and\"s); sequence gives smallest nonnegative integer that needs exactly n iterations to get to 4.",
+  "id": "A301408",
+  "mentions": [
+    "A005589",
+    "A016037",
+    "A227290"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "less",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

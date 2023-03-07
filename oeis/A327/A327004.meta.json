@@ -1,0 +1,26 @@
+{
+  "description": "Irregular triangle read by rows in which the n-th row lists multinomials for partitions of 4n which have only parts which are multiples of 4, in Hindenburg order.",
+  "id": "A327004",
+  "mentions": [
+    "A000012",
+    "A000041",
+    "A080575",
+    "A257490",
+    "A260876",
+    "A291452",
+    "A291975",
+    "A327003"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

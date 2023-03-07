@@ -1,0 +1,20 @@
+{
+  "description": "Primitive terms of A275608.",
+  "id": "A335869",
+  "mentions": [
+    "A003422",
+    "A049042",
+    "A049043",
+    "A275608"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

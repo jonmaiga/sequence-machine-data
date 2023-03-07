@@ -1,0 +1,19 @@
+{
+  "description": "Numbers without consecutive repeated digits in base 2 and in base 3.",
+  "id": "A263307",
+  "mentions": [
+    "A000975",
+    "A031941"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

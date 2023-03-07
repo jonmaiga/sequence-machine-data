@@ -1,0 +1,21 @@
+{
+  "description": "Palindromic numbers such that the sum of the digits equals the number of divisors.",
+  "id": "A263720",
+  "mentions": [
+    "A000005",
+    "A002113",
+    "A007953",
+    "A057531"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

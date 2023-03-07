@@ -1,0 +1,20 @@
+{
+  "description": "Maximum number of lattice points inside and on a circle of radius n.",
+  "id": "A295344",
+  "mentions": [
+    "A000328",
+    "A123690",
+    "A291259"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

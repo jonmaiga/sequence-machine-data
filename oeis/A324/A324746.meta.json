@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k with exactly two distinct prime factors and such that phi(k) is square, when k = p^(2s+1) * q^(2t+1) with p < q primes, s,t >= 0.",
+  "id": "A324746",
+  "mentions": [
+    "A039770",
+    "A054755",
+    "A062732",
+    "A221285",
+    "A247129",
+    "A306722",
+    "A306908",
+    "A324745",
+    "A324747"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

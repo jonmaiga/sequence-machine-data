@@ -1,0 +1,20 @@
+{
+  "description": "Seeds producing -1 under the A339091 protocol.",
+  "id": "A339093",
+  "mentions": [
+    "A339091",
+    "A339092",
+    "A339111"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

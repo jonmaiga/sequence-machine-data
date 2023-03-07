@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of heptanacci constant.",
+  "id": "A118428",
+  "mentions": [
+    "A001622",
+    "A058265",
+    "A066178",
+    "A086088",
+    "A103814",
+    "A118427",
+    "A239566"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

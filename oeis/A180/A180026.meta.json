@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of arrangements of all divisors of n of the form d_1=n, d_2, d_3, ..., d_tau(n) such that every ratio d_(i+1)/d_i and d_tau(n)/d_1 is prime or 1/prime.",
+  "id": "A180026",
+  "mentions": [
+    "A000005",
+    "A001221",
+    "A003042",
+    "A179926"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 128,
+    "source": "oeis-entry"
+  }
+}

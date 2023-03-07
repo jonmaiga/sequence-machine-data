@@ -1,0 +1,20 @@
+{
+  "description": "Numbers for which the minimal alternating Fibonacci representation has positive trace.",
+  "id": "A256656",
+  "mentions": [
+    "A000045",
+    "A256655",
+    "A256657"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

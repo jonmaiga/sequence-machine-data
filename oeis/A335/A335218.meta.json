@@ -1,0 +1,22 @@
+{
+  "description": "Exponential Zumkeller numbers: numbers whose exponential divisors can be partitioned into two disjoint subsets of equal sum.",
+  "id": "A335218",
+  "mentions": [
+    "A054979",
+    "A083207",
+    "A129575",
+    "A318100",
+    "A322791",
+    "A323343"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

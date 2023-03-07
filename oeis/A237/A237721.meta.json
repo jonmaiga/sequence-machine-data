@@ -1,0 +1,22 @@
+{
+  "description": "Number of primes p <= n with floor( sqrt(n-p) ) a square.",
+  "id": "A237721",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A237705",
+    "A237706",
+    "A237710",
+    "A237720"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

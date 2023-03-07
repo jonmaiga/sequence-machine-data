@@ -1,0 +1,25 @@
+{
+  "description": "Numbers having each digit once and whose 5th power has each digit five times.",
+  "id": "A199632",
+  "mentions": [
+    "A050278",
+    "A114260",
+    "A114261",
+    "A199630",
+    "A199631",
+    "A199633"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

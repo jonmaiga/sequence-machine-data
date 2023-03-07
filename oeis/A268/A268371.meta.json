@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of free polyominoes with width n and height 1<=k<=n.",
+  "id": "A268371",
+  "mentions": [
+    "A000104",
+    "A000105",
+    "A268311",
+    "A292357",
+    "A335711"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

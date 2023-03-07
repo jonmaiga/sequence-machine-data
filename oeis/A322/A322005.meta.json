@@ -1,0 +1,19 @@
+{
+  "description": "Least prime p such that n + p is a Fibonacci number (A000045).",
+  "id": "A322005",
+  "mentions": [
+    "A000040",
+    "A000045",
+    "A322004"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

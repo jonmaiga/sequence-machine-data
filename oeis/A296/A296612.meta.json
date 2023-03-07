@@ -1,0 +1,34 @@
+{
+  "description": "Square array read by antidiagonals upwards: T(n,k) equals k times the number of compositions (ordered partitions) of n, with n >= 0 and k >= 1.",
+  "id": "A296612",
+  "mentions": [
+    "A011782",
+    "A139250",
+    "A139251",
+    "A147562",
+    "A147582",
+    "A160120",
+    "A160160",
+    "A160161",
+    "A296510",
+    "A296511",
+    "A296610",
+    "A296611",
+    "A299476",
+    "A299477",
+    "A299478",
+    "A299479"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

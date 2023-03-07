@@ -1,0 +1,28 @@
+{
+  "description": "Square array A(row,col) read by antidiagonals: A(1,col) = A055938(col), and for row > 1, A(row,col) = A011371(A(row-1,col)).",
+  "id": "A257264",
+  "mentions": [
+    "A002260",
+    "A004736",
+    "A011371",
+    "A055938",
+    "A071542",
+    "A179016",
+    "A218254",
+    "A256993",
+    "A256997",
+    "A257265",
+    "A257507"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

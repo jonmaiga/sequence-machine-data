@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of a single magnetic flux quantum Phi_0 in SI units.",
+  "id": "A248507",
+  "mentions": [
+    "A003676",
+    "A081823",
+    "A248508",
+    "A248510",
+    "A322415"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:38:47",
+    "offset": -14,
+    "size": 100,
+    "source": "joeis"
+  }
+}

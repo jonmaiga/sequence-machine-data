@@ -1,0 +1,29 @@
+{
+  "description": "Number of cyclic subgroups of the group (C_n)^7, where C_n is the cyclic group of order n.",
+  "id": "A344303",
+  "mentions": [
+    "A000010",
+    "A013665",
+    "A060648",
+    "A064969",
+    "A160897",
+    "A280184",
+    "A344219",
+    "A344302",
+    "A344304",
+    "A344305",
+    "A344306"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

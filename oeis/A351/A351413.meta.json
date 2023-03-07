@@ -1,0 +1,32 @@
+{
+  "description": "a(n) is the maximum number of stable matchings in the Latin Stable Marriage Problem of order n.",
+  "id": "A351413",
+  "mentions": [
+    "A000315",
+    "A005154",
+    "A065982",
+    "A069124",
+    "A069156",
+    "A123234",
+    "A284458",
+    "A343475",
+    "A343694",
+    "A343695",
+    "A343697",
+    "A344664",
+    "A344665",
+    "A351430"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

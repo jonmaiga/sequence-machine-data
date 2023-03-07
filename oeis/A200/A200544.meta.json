@@ -1,0 +1,23 @@
+{
+  "description": "Number of distinct bags of distinct sequences of 1s and 2s such that the sum of all terms is n.",
+  "id": "A200544",
+  "mentions": [
+    "A000045",
+    "A001622",
+    "A034691",
+    "A166861",
+    "A260787",
+    "A337009"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:21",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

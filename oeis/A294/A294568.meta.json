@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of 1/18779.",
+  "id": "A294568",
+  "mentions": [
+    "A003673",
+    "A005600",
+    "A021141",
+    "A254277"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:29:51",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

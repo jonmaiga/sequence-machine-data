@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of eta(q)^6 * eta(q^2) / eta(q^4)^2 in powers of q.",
+  "id": "A245643",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A121373",
+    "A134416",
+    "A263398",
+    "A266575"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:31:35",
+    "offset": 0,
+    "size": 49,
+    "source": "joeis"
+  }
+}

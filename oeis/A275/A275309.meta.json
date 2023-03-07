@@ -1,0 +1,23 @@
+{
+  "description": "Number of set partitions of [n] with decreasing block sizes.",
+  "id": "A275309",
+  "mentions": [
+    "A007837",
+    "A038041",
+    "A275310",
+    "A275311",
+    "A275312",
+    "A275313",
+    "A286073"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

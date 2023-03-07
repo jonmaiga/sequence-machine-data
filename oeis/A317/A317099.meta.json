@@ -1,0 +1,28 @@
+{
+  "description": "Number of series-reduced planted achiral trees whose leaves span an initial interval of positive integers appearing with multiplicities an integer partition of n.",
+  "id": "A317099",
+  "mentions": [
+    "A001678",
+    "A003238",
+    "A052409",
+    "A052410",
+    "A067824",
+    "A167865",
+    "A168532",
+    "A214577",
+    "A289078",
+    "A294336",
+    "A316782",
+    "A317100"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

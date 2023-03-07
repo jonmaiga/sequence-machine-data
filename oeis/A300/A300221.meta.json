@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of unlabeled, graded rank-3 lattices with n elements.",
+  "id": "A300221",
+  "mentions": [
+    "A278691",
+    "A300260"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

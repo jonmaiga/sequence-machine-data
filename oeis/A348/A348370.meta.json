@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that pi(reversal(prime(k)) = reversal(k). Ignore leading 0's.",
+  "id": "A348370",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A004086",
+    "A069469"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

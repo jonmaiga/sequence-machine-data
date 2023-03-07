@@ -1,0 +1,19 @@
+{
+  "description": "a(n) the maximum number of iterations needed to make the binary representation of a 2n-bit number palindromic by subtracting its bit reversal.",
+  "id": "A338205",
+  "mentions": [
+    "A338203"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

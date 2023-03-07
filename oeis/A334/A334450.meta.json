@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of Product_{k>=1} (1 - 1/A002144(k)^5).",
+  "id": "A334450",
+  "mentions": [
+    "A000364",
+    "A002144",
+    "A088539",
+    "A334446",
+    "A334449",
+    "A334452"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

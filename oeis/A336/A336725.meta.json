@@ -1,0 +1,32 @@
+{
+  "description": "A(n,k) is the n-th number that is a sum of k positive k-th powers; square array A(n,k), n>=1, k>=1, read by antidiagonals.",
+  "id": "A336725",
+  "mentions": [
+    "A000027",
+    "A000337",
+    "A000404",
+    "A003072",
+    "A003338",
+    "A003350",
+    "A003362",
+    "A003374",
+    "A003386",
+    "A003398",
+    "A004810",
+    "A004822",
+    "A052944",
+    "A145071",
+    "A336820"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

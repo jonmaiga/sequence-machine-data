@@ -1,0 +1,19 @@
+{
+  "description": "Numbers which cannot occur in A277623, where any odd digit d must be followed by d even digits.",
+  "id": "A277694",
+  "mentions": [
+    "A277623"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = sigma_3(n)*Fibonacci(n), where sigma_3(n) = A001158(n), the sum of cubes of divisors of n.",
+  "id": "A203838",
+  "mentions": [
+    "A000045",
+    "A000204",
+    "A001158",
+    "A203847",
+    "A203848",
+    "A203849"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

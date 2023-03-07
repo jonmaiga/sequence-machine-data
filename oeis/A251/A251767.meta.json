@@ -1,0 +1,20 @@
+{
+  "description": "Consecutive repeated terms removed from in A251539.",
+  "id": "A251767",
+  "mentions": [
+    "A098548",
+    "A251538",
+    "A251539",
+    "A251768"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:09",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

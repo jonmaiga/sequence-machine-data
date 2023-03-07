@@ -1,0 +1,23 @@
+{
+  "description": "Lesser of 2 consecutive Fermat pseudoprimes to base 2 with no prime numbers in between them.",
+  "id": "A335326",
+  "mentions": [
+    "A001567",
+    "A173619",
+    "A175736",
+    "A175737",
+    "A175738"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

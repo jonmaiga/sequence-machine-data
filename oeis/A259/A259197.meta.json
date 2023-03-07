@@ -1,0 +1,29 @@
+{
+  "description": "Number of partitions of n into seven primes.",
+  "id": "A259197",
+  "mentions": [
+    "A000040",
+    "A010051",
+    "A061358",
+    "A068307",
+    "A117278",
+    "A259194",
+    "A259195",
+    "A259196",
+    "A259198",
+    "A259200",
+    "A259201"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 14,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Lexicographically earliest sequence: a(n)+a(n+1) is alternatively square and cube, a(1)=1.",
+  "id": "A182045",
+  "mentions": [
+    "A182046"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

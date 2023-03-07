@@ -1,0 +1,21 @@
+{
+  "description": "Positions of Zuckerman numbers within A342978, the ordered list of zeroless numbers according to k/A007954(k).",
+  "id": "A343036",
+  "mentions": [
+    "A007602",
+    "A007954",
+    "A052382",
+    "A342978"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

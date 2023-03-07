@@ -1,0 +1,19 @@
+{
+  "description": "a(n) equals the coefficient of x^(2*n)*y^n/(2*n)! in cos((x - x*y)/2) / cos((x + x*y)/2).",
+  "id": "A272482",
+  "mentions": [
+    "A005799",
+    "A272481"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

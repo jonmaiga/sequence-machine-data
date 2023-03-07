@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = Product_{k=0..n} (k*n)!.",
+  "id": "A272096",
+  "mentions": [
+    "A000178",
+    "A074962",
+    "A098694",
+    "A255322",
+    "A268504",
+    "A268505",
+    "A268506",
+    "A271946",
+    "A272093"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

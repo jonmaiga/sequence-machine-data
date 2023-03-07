@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = maximal number of real roots of any of the 2^(n+1) polynomials c_0 + c_1*x + c_2*x^2 + ... + c_n*x^n where the coefficients c_i are +1 or -1.",
+  "id": "A282691",
+  "mentions": [
+    "A282692",
+    "A282701"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

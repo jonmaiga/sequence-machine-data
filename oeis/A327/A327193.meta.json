@@ -1,0 +1,20 @@
+{
+  "description": "For any n >= 0: consider the different ways to split the binary representation of n into two (possibly empty) parts, say with value x and y; a(n) is the greatest possible value of min(x, y).",
+  "id": "A327193",
+  "mentions": [
+    "A327186"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:54",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

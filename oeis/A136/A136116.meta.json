@@ -1,0 +1,23 @@
+{
+  "description": "Indices of pentagonal numbers (A000326) which are the sum of 2 other positive pentagonal numbers.",
+  "id": "A136116",
+  "mentions": [
+    "A000326",
+    "A133388",
+    "A136112",
+    "A136114",
+    "A136115",
+    "A136118"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

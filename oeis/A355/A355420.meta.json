@@ -1,0 +1,20 @@
+{
+  "description": "Integers whose third power is a digital permutation of a term in A007908.",
+  "id": "A355420",
+  "mentions": [
+    "A007908",
+    "A033307",
+    "A353025"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

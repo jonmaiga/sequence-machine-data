@@ -1,0 +1,22 @@
+{
+  "description": "Sum of dimension exponents of supercharacter of unipotent upper triangular matrices.",
+  "id": "A200580",
+  "mentions": [
+    "A000110",
+    "A011971",
+    "A200660",
+    "A200673",
+    "A226507"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:21",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

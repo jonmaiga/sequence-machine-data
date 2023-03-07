@@ -1,0 +1,20 @@
+{
+  "description": "The number of ways of partitioning the multiset {1,1,1,2,3,...,n-2} into exactly four nonempty parts.",
+  "id": "A168606",
+  "mentions": [
+    "A168604",
+    "A168605"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:52",
+    "offset": 4,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

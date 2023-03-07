@@ -1,0 +1,28 @@
+{
+  "description": "Smallest number m such that phi(m) = n*tau(m), with phi=A000010 and tau=A000005; a(n)=0 if no such m exists.",
+  "id": "A175667",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A005384",
+    "A020488",
+    "A023212",
+    "A043297",
+    "A062516",
+    "A063469",
+    "A063470",
+    "A112954",
+    "A112955"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

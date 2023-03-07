@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = floor(10^k/n) where k is the smallest integer such that the whole first period or the whole terminating fractional part of the decimal expansion of 1/n is shifted to appear before the decimal point in 10^k/n.",
+  "id": "A266385",
+  "mentions": [
+    "A007732",
+    "A036275",
+    "A051626",
+    "A060284"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

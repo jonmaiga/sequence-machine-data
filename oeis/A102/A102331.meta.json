@@ -1,0 +1,22 @@
+{
+  "description": "Initial members of quintuplets (p, p+4, p+12, p+16, p+24) of consecutive primes with the corresponding difference pattern:{4,8,4,8}.",
+  "id": "A102331",
+  "mentions": [
+    "A001223",
+    "A022007",
+    "A022008",
+    "A052162",
+    "A052168",
+    "A102335"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:34",
+    "offset": 1,
+    "size": 27,
+    "source": "joeis"
+  }
+}

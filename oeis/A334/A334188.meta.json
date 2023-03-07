@@ -1,0 +1,25 @@
+{
+  "description": "T(n, k) is the number of steps from the point (0, 0) to the point (k, n) along the space filling curve U described in Comments section; a negative value corresponds to moving backwards; square array T(n, k), n, k >= 0 read by antidiagonals downwards.",
+  "id": "A334188",
+  "mentions": [
+    "A163334",
+    "A323335",
+    "A334220",
+    "A334221",
+    "A334222",
+    "A334223",
+    "A334232"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "look",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

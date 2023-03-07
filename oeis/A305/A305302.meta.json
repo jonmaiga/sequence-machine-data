@@ -1,0 +1,27 @@
+{
+  "description": "Restricted growth sequence transform of A278222(A291760(n)), constructed from runlengths of 2-digits in base-3 representation of A254103(n).",
+  "id": "A305302",
+  "mentions": [
+    "A005940",
+    "A046523",
+    "A254103",
+    "A278222",
+    "A289813",
+    "A289814",
+    "A291760",
+    "A304746",
+    "A305301",
+    "A305303"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

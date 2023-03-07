@@ -1,0 +1,18 @@
+{
+  "description": "Number of (n+1)X(3+1) 0..1 arrays with every 2X2 subblock having a single 1 or two 1s on the same edge or main diagonally",
+  "id": "A251287",
+  "mentions": [
+    "A251292"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:08",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

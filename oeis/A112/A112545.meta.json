@@ -1,0 +1,33 @@
+{
+  "description": "Least odd number k greater than 1 such that the sum of the predecessor and successor primes of the n-th prime is divisible by k or if no such odd k exists then 2.",
+  "id": "A112545",
+  "mentions": [
+    "A000040",
+    "A007053",
+    "A078701",
+    "A112681",
+    "A112686",
+    "A112731",
+    "A112789",
+    "A112794",
+    "A112795",
+    "A112796",
+    "A112804",
+    "A112847",
+    "A112859",
+    "A113155",
+    "A113156",
+    "A113157",
+    "A113158"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 2,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

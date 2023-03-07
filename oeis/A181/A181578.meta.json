@@ -1,0 +1,21 @@
+{
+  "description": "The number k such that each of the five factorials (5k+j)!, j=0..4, has exactly n trailing zeros in its base-10 representation; 0 if no such k exists.",
+  "id": "A181578",
+  "mentions": [
+    "A000142",
+    "A000966",
+    "A027868",
+    "A181579"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

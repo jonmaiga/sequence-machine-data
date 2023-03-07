@@ -1,0 +1,20 @@
+{
+  "description": "Bases and exponents in the prime decomposition of n replaced by nonprimes with these indices.",
+  "id": "A141568",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A018252"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that 30n-13, 30n-11, 30n-1, 30n+1, 30n+11, 30n+13 are all prime.",
+  "id": "A175683",
+  "mentions": [
+    "A053319"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

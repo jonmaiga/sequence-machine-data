@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence S of distinct nonnegative terms such that the sum of the last k digits of S is prime, k being the leftmost digit of a(n) and k > 1.",
+  "id": "A344546",
+  "mentions": [
+    "A344541"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

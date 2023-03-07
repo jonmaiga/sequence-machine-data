@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = 1 if A336456(n) = Product_{p^e|n} A336456(p^e), and 0 otherwise. Here each p^e is the maximal power of prime p that divides k, and A336456(n) = A335915(sigma(sigma(n))).",
+  "id": "A336556",
+  "mentions": [
+    "A000265",
+    "A122261",
+    "A335915",
+    "A336456",
+    "A336546",
+    "A336557",
+    "A336558",
+    "A336559",
+    "A336560"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

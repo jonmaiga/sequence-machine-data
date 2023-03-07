@@ -1,0 +1,24 @@
+{
+  "description": "Numbers that can be factored into semiprimes which, when concatenated in increasing order, produce a palindrome.",
+  "id": "A189484",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A002113",
+    "A046328",
+    "A046447",
+    "A097393",
+    "A158126"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

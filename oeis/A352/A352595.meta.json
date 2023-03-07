@@ -1,0 +1,23 @@
+{
+  "description": "Positive integers that are fixed points for the map x->f^k(x) for some k>1, where f(x) is the product of squares of nonzero digits of x.",
+  "id": "A352595",
+  "mentions": [
+    "A000290",
+    "A002473",
+    "A115385",
+    "A351327",
+    "A352598"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of unlabeled, connected graphs on n vertices with at least one induced subgraph isomorphic to a K_4, where K_4 is the complete graph on four vertices.",
+  "id": "A243244",
+  "mentions": [
+    "A001349",
+    "A079574"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of rooted 6-regular maps on the Klein bottle with n vertices and 2n edges.",
+  "id": "A348812",
+  "mentions": [
+    "A323276",
+    "A323279",
+    "A323281"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

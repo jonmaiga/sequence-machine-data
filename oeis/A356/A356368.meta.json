@@ -1,0 +1,23 @@
+{
+  "description": "Sparse ruler lengths with unique non-Wichmann solutions.",
+  "id": "A356368",
+  "mentions": [
+    "A046693",
+    "A289761",
+    "A308766",
+    "A309407",
+    "A326499"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

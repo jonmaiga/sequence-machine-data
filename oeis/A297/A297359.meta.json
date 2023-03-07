@@ -1,0 +1,26 @@
+{
+  "description": "Array read by antidiagonals: Pascal-like recursion and self-referential boundaries.",
+  "id": "A297359",
+  "mentions": [
+    "A007318",
+    "A283681",
+    "A283682",
+    "A283683",
+    "A297188",
+    "A297495",
+    "A297497"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:17",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

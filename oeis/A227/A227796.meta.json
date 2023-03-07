@@ -1,0 +1,19 @@
+{
+  "description": "T(n,k,r,s) is the number of partitions in the s-th run of strictly increasing numbers of 2 X 2 X 2 cubes in the list of partitions of an n X k X r rectangular cuboid into integer-sided cubes, considering only the list of parts; irregular triangle T(n,k,r,s), n >= k >= r >= 1, s >= 1. The sorting order for the list of partitions is ascending with larger squares taking higher precedence.",
+  "id": "A227796",
+  "mentions": [
+    "A228106",
+    "A228202"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

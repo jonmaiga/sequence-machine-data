@@ -1,0 +1,34 @@
+{
+  "description": "Prime p1 of consecutive primes p1, p2, where p2 - p1 = 8, and p1, p2 are in different decades.",
+  "id": "A288024",
+  "mentions": [
+    "A001359",
+    "A023201",
+    "A023203",
+    "A031924",
+    "A031925",
+    "A031928",
+    "A046117",
+    "A046132",
+    "A060229",
+    "A158277",
+    "A158861",
+    "A160370",
+    "A160440",
+    "A160500",
+    "A287049",
+    "A287050",
+    "A288021",
+    "A288022"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

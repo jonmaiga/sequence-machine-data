@@ -1,0 +1,23 @@
+{
+  "description": "Refined triangle A211357: T(n,k) is the number of noncrossing partitions up to rotation of an n-set that are of type k (k-th integer partition, defined by A194602).",
+  "id": "A211353",
+  "mentions": [
+    "A000041",
+    "A037306",
+    "A047996",
+    "A054357",
+    "A194602",
+    "A211357"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Number of labeled simple connected graphs covering n vertices with at least one bridge that is not an endpoint/leaf (non-spanning edge-connectivity 1).",
+  "id": "A327079",
+  "mentions": [
+    "A001187",
+    "A006129",
+    "A052446",
+    "A059166",
+    "A095983",
+    "A322395",
+    "A327071",
+    "A327072",
+    "A327073",
+    "A327099",
+    "A327129",
+    "A327148",
+    "A327149",
+    "A327231"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

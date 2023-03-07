@@ -1,0 +1,29 @@
+{
+  "description": "Union of all n-step Lucas sequences, that is, all sequences s(1-n) = s(2-n) = ... = s(-1) = -1, s(0) = n and for k > 0, s(k) = s(k-1) + ... + s(k-n).",
+  "id": "A127208",
+  "mentions": [
+    "A000032",
+    "A001348",
+    "A001644",
+    "A073817",
+    "A074048",
+    "A074584",
+    "A104621",
+    "A105754",
+    "A105755",
+    "A124168",
+    "A127232",
+    "A227885"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

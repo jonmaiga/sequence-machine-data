@@ -1,0 +1,17 @@
+{
+  "description": "Numbers m such that m + k# is a prime, where k = floor(sqrt(m)) and k# is the primorial A034386(k).",
+  "id": "A305033",
+  "mentions": [
+    "A034386"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

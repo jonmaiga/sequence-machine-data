@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that are not harmonic means of divisors of harmonic (Ore) numbers (harmonic (Ore) numbers is A001599).",
+  "id": "A157849",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A001599",
+    "A001600"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Hemi-imperfect numbers: numbers such that the denominator of k/A206369(k) is equal to 2.",
+  "id": "A295236",
+  "mentions": [
+    "A000203",
+    "A127724",
+    "A159907",
+    "A206369",
+    "A209369"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

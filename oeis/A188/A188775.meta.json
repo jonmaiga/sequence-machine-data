@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that Sum_{j=1..k} j^j == -1 (mod k).",
+  "id": "A188775",
+  "mentions": [
+    "A001923",
+    "A057245",
+    "A062970",
+    "A128981",
+    "A188776"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

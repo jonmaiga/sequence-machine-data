@@ -1,0 +1,19 @@
+{
+  "description": "a(n+1) = round( c(n)/2 ), where c(n) is the concatenation of all preceding terms a(1)...a(n) and a(1)=1.",
+  "id": "A156147",
+  "mentions": [
+    "A156146"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

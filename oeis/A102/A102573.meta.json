@@ -1,0 +1,18 @@
+{
+  "description": "Triangle of coefficients of polynomials in Sum_{k=0..n} binomial(n,k)*k^r.",
+  "id": "A102573",
+  "mentions": [
+    "A209849"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 2,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

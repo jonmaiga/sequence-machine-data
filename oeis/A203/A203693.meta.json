@@ -1,0 +1,18 @@
+{
+  "description": "Vandermonde sequence using x^2 - xy + y^2 applied to the first n triangular numbers: 1,3,6,10,...,n(n+1)/2.",
+  "id": "A203693",
+  "mentions": [
+    "A093883",
+    "A203694"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:35:13",
+    "offset": 1,
+    "size": 8,
+    "source": "joeis"
+  }
+}

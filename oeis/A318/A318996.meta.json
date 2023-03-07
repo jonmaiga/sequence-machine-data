@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{d|n} (sigma(n) mod d).",
+  "id": "A318996",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A000203",
+    "A007691",
+    "A008578",
+    "A300657"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

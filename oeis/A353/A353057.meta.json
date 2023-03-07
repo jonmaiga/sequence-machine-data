@@ -1,0 +1,18 @@
+{
+  "description": "Numbers N of the form m^k in ascending order having the property that for any choice of m and k such that N = m^k, the sets of distinct digits of m, k, and m^k are pairwise disjoint.",
+  "id": "A353057",
+  "mentions": [
+    "A001597"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers m that divide 4^(m + 1) + 1.",
+  "id": "A329168",
+  "mentions": [
+    "A055685",
+    "A296369",
+    "A328230"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

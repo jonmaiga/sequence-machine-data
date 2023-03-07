@@ -1,0 +1,23 @@
+{
+  "description": "A104449(n+1)+prime(n), sum of a Lucas and the prime sequence.",
+  "id": "A160244",
+  "mentions": [
+    "A000040",
+    "A000285",
+    "A096362",
+    "A104449",
+    "A160243"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

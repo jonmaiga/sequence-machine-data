@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the constant D related to the conjectured asymptotic expression of the counting function of prime triples as D*n/log(n)^3.",
+  "id": "A271886",
+  "mentions": [
+    "A005597"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

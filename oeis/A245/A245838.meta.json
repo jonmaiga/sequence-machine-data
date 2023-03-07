@@ -1,0 +1,20 @@
+{
+  "description": "Arithmetic derivative of (3*n + 1), n >= 1, (A016777)'.",
+  "id": "A245838",
+  "mentions": [
+    "A002476",
+    "A003415",
+    "A016777"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of 2*(2*x+1)/((x+1)*(sqrt(4*x+1)+1)).",
+  "id": "A104496",
+  "mentions": [
+    "A000108",
+    "A014137",
+    "A027907",
+    "A099602",
+    "A104495"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

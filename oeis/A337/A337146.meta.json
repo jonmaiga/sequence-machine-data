@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that abs(A337145(k))/8 is prime.",
+  "id": "A337146",
+  "mentions": [
+    "A335593",
+    "A337145",
+    "A337147"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Coefficient array for powers of x^2 of polynomials appearing in a generalized Melham conjecture on alternating sums of fifth powers of Chebyshev S polynomials with odd indices.",
+  "id": "A220671",
+  "mentions": [
+    "A000045",
+    "A016777",
+    "A109954",
+    "A111125",
+    "A217475",
+    "A220670",
+    "A220672"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

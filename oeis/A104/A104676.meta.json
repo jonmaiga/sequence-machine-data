@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = binomial(n+2,2) * binomial(n+7,2).",
+  "id": "A104676",
+  "mentions": [
+    "A000217",
+    "A062190",
+    "A085780"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:47:11",
+    "offset": 0,
+    "size": 38,
+    "source": "joeis"
+  }
+}

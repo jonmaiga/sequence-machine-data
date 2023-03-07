@@ -1,0 +1,21 @@
+{
+  "description": "List of numbers 2n for which the riffle permutation permutes all except the first and last of the 2n cards.",
+  "id": "A217948",
+  "mentions": [
+    "A002326",
+    "A051732",
+    "A051733",
+    "A179194"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of closed paths of length n whose steps are 9th roots of unity, U_9(n).",
+  "id": "A198810",
+  "mentions": [
+    "A006480"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

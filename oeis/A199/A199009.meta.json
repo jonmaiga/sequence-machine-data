@@ -1,0 +1,19 @@
+{
+  "description": "Composite numbers whose prime factors have an equal number of digits in decimal representation.",
+  "id": "A199009",
+  "mentions": [
+    "A078972",
+    "A182301"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:20",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Triangular array read by rows. T(n,k) is the number of partial functions on {1,2,...,n} that are endofunctions with no cycles of length > 1 that have exactly k components.",
+  "id": "A203092",
+  "mentions": [
+    "A000169",
+    "A088956",
+    "A088957",
+    "A144289"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

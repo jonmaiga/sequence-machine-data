@@ -1,0 +1,27 @@
+{
+  "description": "Numbers whose prime factors are 2 and 13.",
+  "id": "A288162",
+  "mentions": [
+    "A033845",
+    "A033846",
+    "A033847",
+    "A033848",
+    "A033849",
+    "A033850",
+    "A033851",
+    "A086780",
+    "A107326",
+    "A143207"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:00",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

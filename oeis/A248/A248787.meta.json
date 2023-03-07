@@ -1,0 +1,22 @@
+{
+  "description": "Numbers x such that sigma(x) = rev(sigma*(x)), where sigma(x) is the sum of the divisors of x, sigma*(x) the sum of the anti-divisors of x and rev(x) the reverse of x.",
+  "id": "A248787",
+  "mentions": [
+    "A000203",
+    "A066417",
+    "A130799",
+    "A178029"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

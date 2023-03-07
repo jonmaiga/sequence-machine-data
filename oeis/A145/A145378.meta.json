@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{d|n} sigma(d) - 2*Sum_{2c|n} sigma(c) + 4*Sum_{4b|n} sigma(b).",
+  "id": "A145378",
+  "mentions": [
+    "A007429",
+    "A300707"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

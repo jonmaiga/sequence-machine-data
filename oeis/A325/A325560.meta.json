@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of divisors d of n such that A048720(d,k) = n for some k.",
+  "id": "A325560",
+  "mentions": [
+    "A000005",
+    "A048720",
+    "A091220",
+    "A325559",
+    "A325563",
+    "A325565"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers with 3n binary digits where every run length is 3, written in binary.",
+  "id": "A152775",
+  "mentions": [
+    "A043291",
+    "A152776",
+    "A153435"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

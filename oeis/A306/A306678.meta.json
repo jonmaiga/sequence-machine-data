@@ -1,0 +1,21 @@
+{
+  "description": "Number of distinct triangles with prime sides and largest side = prime(n).",
+  "id": "A306678",
+  "mentions": [
+    "A306673",
+    "A306674",
+    "A306676",
+    "A306677"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

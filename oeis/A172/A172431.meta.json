@@ -1,0 +1,28 @@
+{
+  "description": "Even row Pascal-square read by antidiagonals.",
+  "id": "A172431",
+  "mentions": [
+    "A001906",
+    "A004191",
+    "A007318",
+    "A007685",
+    "A053123",
+    "A054142",
+    "A078812",
+    "A082985",
+    "A084938",
+    "A119900"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:20:07",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

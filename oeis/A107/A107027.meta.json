@@ -1,0 +1,26 @@
+{
+  "description": "Number triangle associated to the Riordan arrays (1/(1+x),x/(1+x)^k),k>=0.",
+  "id": "A107027",
+  "mentions": [
+    "A000079",
+    "A000984",
+    "A040000",
+    "A047098",
+    "A107028",
+    "A107029",
+    "A107030"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

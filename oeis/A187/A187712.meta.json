@@ -1,0 +1,22 @@
+{
+  "description": "Composites n such that n = (product of divisors of n) mod (sum of divisors of n).",
+  "id": "A187712",
+  "mentions": [
+    "A000203",
+    "A002808",
+    "A007955",
+    "A187680",
+    "A187711"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

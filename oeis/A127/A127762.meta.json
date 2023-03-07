@@ -1,0 +1,25 @@
+{
+  "description": "Integer part of Gauss's Arithmetic-Geometric Mean M(2,n^2).",
+  "id": "A127762",
+  "mentions": [
+    "A127758",
+    "A127759",
+    "A127760",
+    "A127761",
+    "A127763",
+    "A127764",
+    "A127765",
+    "A127766"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 18:17:55",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

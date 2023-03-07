@@ -1,0 +1,23 @@
+{
+  "description": "Row lengths of the irregular triangle A137510 (number of divisors d of n with 1 < d < n, or 0 if no such d exists).",
+  "id": "A264440",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A032741",
+    "A070824",
+    "A137510"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

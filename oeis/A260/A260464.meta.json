@@ -1,0 +1,19 @@
+{
+  "description": "Number of chains in the poset of even-sized subsets of {1,2,...,n} ordered by inclusion.",
+  "id": "A260464",
+  "mentions": [
+    "A007047",
+    "A260504"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Least k such that prime(n) is the smallest prime p for which k^2 + p^2 is also prime, or 0 if none.",
+  "id": "A263466",
+  "mentions": [
+    "A240130",
+    "A240131",
+    "A263721",
+    "A263722",
+    "A263726",
+    "A263977",
+    "A263978"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

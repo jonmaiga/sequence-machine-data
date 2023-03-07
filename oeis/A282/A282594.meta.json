@@ -1,0 +1,19 @@
+{
+  "description": "Primes p > 5 such that odd part of (p^2-q^2)/3 is composite for every prime q, 3 < q < p.",
+  "id": "A282594",
+  "mentions": [
+    "A000040",
+    "A000265",
+    "A282445"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:52",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Irregular table read by rows: T(n,k) is the number of k-sided polygons formed, for k>=3, in a square when straight line segments connect the four corner vertices to the points dividing the sides into n equal parts.",
+  "id": "A355992",
+  "mentions": [
+    "A108914",
+    "A331452",
+    "A335678",
+    "A355841",
+    "A355948",
+    "A355949"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that p - m^2, m = 2, 4, 6, 8, are all (positive) primes.",
+  "id": "A246874",
+  "mentions": [
+    "A246873"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

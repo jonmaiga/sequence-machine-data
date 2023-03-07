@@ -1,0 +1,21 @@
+{
+  "description": "Unstable twins = pairs of consecutive numbers in A124288 (indices of unstable zeros of the Riemann zeta function).",
+  "id": "A124289",
+  "mentions": [
+    "A002410",
+    "A124288"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

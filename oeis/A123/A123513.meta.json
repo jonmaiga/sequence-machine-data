@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of permutations of [n] having k small descents (n >= 1; 0 <= k <= n-1). A small descent in a permutation (x_1,x_2,...,x_n) is a position i such that x_i - x_(i+1) = 1.",
+  "id": "A123513",
+  "mentions": [
+    "A000166",
+    "A000255",
+    "A000274",
+    "A000313",
+    "A001100",
+    "A001260",
+    "A010027",
+    "A120434"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

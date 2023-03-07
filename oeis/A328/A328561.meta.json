@@ -1,0 +1,20 @@
+{
+  "description": "Numbers in A328095 whose product of digits is not a power of 10.",
+  "id": "A328561",
+  "mentions": [
+    "A328095",
+    "A328560"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

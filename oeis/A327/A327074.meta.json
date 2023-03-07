@@ -1,0 +1,30 @@
+{
+  "description": "Number of unlabeled connected graphs with n vertices and exactly one bridge.",
+  "id": "A327074",
+  "mentions": [
+    "A001349",
+    "A002494",
+    "A007145",
+    "A007146",
+    "A052446",
+    "A263296",
+    "A327073",
+    "A327075",
+    "A327077",
+    "A327109",
+    "A327111",
+    "A327144",
+    "A327145"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

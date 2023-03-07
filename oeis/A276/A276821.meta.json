@@ -1,0 +1,19 @@
+{
+  "description": "First of n consecutive Sophie Germain primes (A005384: such that 2p+1 is also prime) in arithmetic progression.",
+  "id": "A276821",
+  "mentions": [
+    "A005384",
+    "A005385",
+    "A074259"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

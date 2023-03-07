@@ -1,0 +1,18 @@
+{
+  "description": "Number of elements formable by in <= n steps, starting with 4 elements, combining 2 elements into a new element at each step",
+  "id": "A283793",
+  "mentions": [
+    "A006894"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:54",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

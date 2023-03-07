@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of value of x such that the solution y to the equation x^y = y has equal real and imaginary parts.",
+  "id": "A277067",
+  "mentions": [
+    "A042972",
+    "A073229",
+    "A277069"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

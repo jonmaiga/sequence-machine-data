@@ -1,0 +1,17 @@
+{
+  "description": "Twin semiprimes (or twin biprimes): nonprimes of the form 6*k-+1 where 6*k-+1 are both semiprime (or both biprime).",
+  "id": "A172017",
+  "mentions": [
+    "A171697"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:55",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

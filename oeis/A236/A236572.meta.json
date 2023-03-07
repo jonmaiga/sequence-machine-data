@@ -1,0 +1,18 @@
+{
+  "description": "Value of y for solution of 5^n = x^2 + y^2 with closest x and y (n >= 0, 0 <= x < y).",
+  "id": "A236572",
+  "mentions": [
+    "A121705",
+    "A236571"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

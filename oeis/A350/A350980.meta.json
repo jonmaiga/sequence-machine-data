@@ -1,0 +1,20 @@
+{
+  "description": "a(0) = 17, a(1) = 4700, thereafter a(n) = 254*a(n-1) - a(n-2) + 378.",
+  "id": "A350980",
+  "mentions": [
+    "A350979",
+    "A350981"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:45",
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

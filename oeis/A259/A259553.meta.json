@@ -1,0 +1,19 @@
+{
+  "description": "Number of distinct (n!)-tuples, with integer entries between 0 and n, inclusive, where entries measure the length of the longest prefix of each of the n! permutations of 123...n that is a subsequence of some string over the alphabet {1,2,3,...n}.",
+  "id": "A259553",
+  "mentions": [
+    "A062714",
+    "A259482"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

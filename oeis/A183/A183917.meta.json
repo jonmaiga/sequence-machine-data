@@ -1,0 +1,22 @@
+{
+  "description": "T(n,k)=Number of nondecreasing arrangements of n numbers in -k..k with sum zero",
+  "id": "A183917",
+  "mentions": [
+    "A000982",
+    "A001973",
+    "A001977",
+    "A001981",
+    "A109655"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:08",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

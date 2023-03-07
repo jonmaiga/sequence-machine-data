@@ -1,0 +1,18 @@
+{
+  "description": "Number of transitive reflexive early confluent binary relations R on n+1 labeled elements with max_{x}(|{y : xRy}|) = n.",
+  "id": "A218111",
+  "mentions": [
+    "A135313"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

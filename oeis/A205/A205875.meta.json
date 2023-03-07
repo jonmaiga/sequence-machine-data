@@ -1,0 +1,23 @@
+{
+  "description": "[s(k)-s(j)]/9, where the pairs (k,j) are given by A205872 and A205873, and s(k) denotes the (k+1)-st Fibonacci number.",
+  "id": "A205875",
+  "mentions": [
+    "A204892",
+    "A204922",
+    "A205840",
+    "A205871",
+    "A205872",
+    "A205873",
+    "A205874"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 10:05:28",
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

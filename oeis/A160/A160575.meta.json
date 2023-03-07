@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of (363+130*sqrt(2))/313.",
+  "id": "A160575",
+  "mentions": [
+    "A002193",
+    "A129640",
+    "A160574",
+    "A160576"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

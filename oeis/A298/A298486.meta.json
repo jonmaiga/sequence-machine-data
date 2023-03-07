@@ -1,0 +1,25 @@
+{
+  "description": "Square array T(n, k), n >= 0, k >= 0, read by antidiagonals upwards: T(n, k) = the (k+1)-th nonnegative number m such that n + m can be computed with carry in decimal base.",
+  "id": "A298486",
+  "mentions": [
+    "A001477",
+    "A004218",
+    "A008592",
+    "A122840",
+    "A295653",
+    "A298372"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:20",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

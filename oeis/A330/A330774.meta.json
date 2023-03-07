@@ -1,0 +1,21 @@
+{
+  "description": "Number of n-color perfect compositions of n.",
+  "id": "A330774",
+  "mentions": [
+    "A001906",
+    "A002033",
+    "A074206",
+    "A165552",
+    "A330773"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

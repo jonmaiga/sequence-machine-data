@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows, T(n, k) = A000262(n) - A349776(n, n - k) for n > 0 and T(0, 0) = 1.",
+  "id": "A349780",
+  "mentions": [
+    "A000262",
+    "A052852",
+    "A349776"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

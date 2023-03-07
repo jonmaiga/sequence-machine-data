@@ -1,0 +1,43 @@
+{
+  "description": "Numbers n such that the decimal expansions of both n and n^2 have 4 as the digit with the smallest value and 7 as the digit with the largest value.",
+  "id": "A257534",
+  "mentions": [
+    "A136948",
+    "A137139",
+    "A238553",
+    "A249915",
+    "A254071",
+    "A254072",
+    "A254074",
+    "A256601",
+    "A256630",
+    "A256631",
+    "A256633",
+    "A256634",
+    "A256708",
+    "A256709",
+    "A256889",
+    "A257123",
+    "A257197",
+    "A257210",
+    "A257211",
+    "A257310",
+    "A257368",
+    "A257485",
+    "A257486",
+    "A257498"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

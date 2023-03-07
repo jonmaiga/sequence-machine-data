@@ -1,0 +1,23 @@
+{
+  "description": "G.f.: Product_{n>=1} (1 - A002203(n)*x^n + (-1)^n*x^(2*n)) where A002203(n) is the companion Pell numbers.",
+  "id": "A204382",
+  "mentions": [
+    "A002203",
+    "A093519",
+    "A203534",
+    "A203860",
+    "A204383",
+    "A204384"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:24",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

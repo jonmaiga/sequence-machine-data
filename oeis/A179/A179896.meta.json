@@ -1,0 +1,26 @@
+{
+  "description": "Sum of the numbers between k := n-th nonprime and 2k (like a jump in a Sieve of Eratosthenes).",
+  "id": "A179896",
+  "mentions": [
+    "A000040",
+    "A016777",
+    "A018252",
+    "A045943",
+    "A081252",
+    "A141468",
+    "A179545",
+    "A179879"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

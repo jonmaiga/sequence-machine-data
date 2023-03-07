@@ -1,0 +1,27 @@
+{
+  "description": "Triangular array read by rows. T(n,k) is the number of partial permutations (injective partial functions) of {1,2,...,n} that have exactly k elements in a cycle. The k elements are not necessarily in the same cycle. A fixed point is considered to be in a cycle.",
+  "id": "A206703",
+  "mentions": [
+    "A000142",
+    "A000262",
+    "A002720",
+    "A006152",
+    "A052852",
+    "A088026",
+    "A103194",
+    "A105219",
+    "A331725"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

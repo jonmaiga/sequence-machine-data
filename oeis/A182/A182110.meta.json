@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows: generating function counting rotationally distinct n X n tatami tilings with n monomers and exactly k vertical dimers.",
+  "id": "A182110",
+  "mentions": [
+    "A001787",
+    "A053632",
+    "A182107"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 0,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the largest n-digit number whose square has a digital sum equal to A348300(n).",
+  "id": "A348303",
+  "mentions": [
+    "A004159",
+    "A348300"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

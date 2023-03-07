@@ -1,0 +1,21 @@
+{
+  "description": "G.f.: (1-x)/(1-8*x-8*x^2+8*x^3).",
+  "id": "A159617",
+  "mentions": [
+    "A030186",
+    "A102436",
+    "A159616"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

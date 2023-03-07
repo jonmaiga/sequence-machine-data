@@ -1,0 +1,20 @@
+{
+  "description": "Even bisection of A332662: the x-coordinates of an enumeration of N X N.",
+  "id": "A332663",
+  "mentions": [
+    "A000292",
+    "A002260",
+    "A014370",
+    "A332662"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that the three numbers k-1, k+3 and k+5 are all prime.",
+  "id": "A144840",
+  "mentions": [
+    "A022005",
+    "A086801",
+    "A098413",
+    "A144834",
+    "A144842"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:51:17",
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

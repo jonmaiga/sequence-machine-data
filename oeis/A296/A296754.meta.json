@@ -1,0 +1,21 @@
+{
+  "description": "Numbers whose base-14 digits d(m), d(m-1), ..., d(0) have #(rises) > #(falls); see Comments.",
+  "id": "A296754",
+  "mentions": [
+    "A296712",
+    "A296753",
+    "A296755"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:16",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

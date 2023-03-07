@@ -1,0 +1,22 @@
+{
+  "description": "Irregular table read by rows: T(n,k) is the start of the first run of exactly k consecutive odd numbers having exactly n divisors, or 0 if no such run exists.",
+  "id": "A319046",
+  "mentions": [
+    "A000005",
+    "A005408",
+    "A292580",
+    "A319045"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

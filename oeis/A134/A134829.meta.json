@@ -1,0 +1,23 @@
+{
+  "description": "Denominator of moments of Chebyshev U- (or S-) polynomials.",
+  "id": "A134829",
+  "mentions": [
+    "A000108",
+    "A049310",
+    "A120777",
+    "A134828"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

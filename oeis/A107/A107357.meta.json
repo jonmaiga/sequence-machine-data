@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 1 + A_n(n), or a(n) = -1 if sequence A_n is not defined up to index n.",
+  "id": "A107357",
+  "mentions": [
+    "A051070",
+    "A091967",
+    "A102288"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of C[11] coefficient (negated) in 1/N expansion of lowest Laplacian Dirichlet eigenvalue of the Pi-area, N-sided regular polygon.",
+  "id": "A321215",
+  "mentions": [
+    "A002117",
+    "A013663",
+    "A115368",
+    "A244355",
+    "A321216"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 4,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

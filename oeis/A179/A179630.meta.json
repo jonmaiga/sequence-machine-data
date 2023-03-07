@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that p minus sum of its digits minus sum of the square of its digits is a prime.",
+  "id": "A179630",
+  "mentions": [
+    "A179629"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

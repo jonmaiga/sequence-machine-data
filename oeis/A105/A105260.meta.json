@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k)=C(2n-2k,k), n>=0, 0<=k<=floor(2n/3).",
+  "id": "A105260",
+  "mentions": [
+    "A002478",
+    "A102547"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

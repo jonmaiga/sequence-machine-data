@@ -1,0 +1,20 @@
+{
+  "description": "Decimal representation of the x-axis, from the origin to the right edge, of the n-th stage of growth of the two-dimensional cellular automaton defined by \"Rule 390\", based on the 5-celled von Neumann neighborhood.",
+  "id": "A281738",
+  "mentions": [
+    "A281735",
+    "A281736",
+    "A281737"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:50",
+    "offset": 0,
+    "size": 62,
+    "source": "joeis"
+  }
+}

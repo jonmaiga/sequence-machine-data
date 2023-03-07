@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = n+(17-n)^2.",
+  "id": "A260679",
+  "mentions": [
+    "A002837",
+    "A005846",
+    "A007634",
+    "A007635",
+    "A097823",
+    "A260678"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:18:11",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

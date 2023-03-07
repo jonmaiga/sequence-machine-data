@@ -1,0 +1,20 @@
+{
+  "description": "Denominator of b_{2n}(1/4), where b_{n}(x) are Nörlund's generalized Bernoulli polynomials.",
+  "id": "A239793",
+  "mentions": [
+    "A220412",
+    "A239792"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

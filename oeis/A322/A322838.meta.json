@@ -1,0 +1,28 @@
+{
+  "description": "Number of positive integers less than n with more prime factors than n, counted with multiplicity.",
+  "id": "A322838",
+  "mentions": [
+    "A000010",
+    "A000961",
+    "A001221",
+    "A001222",
+    "A029744",
+    "A045920",
+    "A058933",
+    "A061142",
+    "A067003",
+    "A302242",
+    "A322839",
+    "A322841"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

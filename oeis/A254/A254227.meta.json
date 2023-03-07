@@ -1,0 +1,19 @@
+{
+  "description": "Numbers such that the n-th decimal digit of Pi is one larger than the n-th decimal digit of e.",
+  "id": "A254227",
+  "mentions": [
+    "A068394",
+    "A254226"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

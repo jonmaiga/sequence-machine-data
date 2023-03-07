@@ -1,0 +1,20 @@
+{
+  "description": "Denominators of the raw moments of the distribution of areas for triangles picked at random in a triangle of unit area.",
+  "id": "A103475",
+  "mentions": [
+    "A103474",
+    "A130117",
+    "A130118"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

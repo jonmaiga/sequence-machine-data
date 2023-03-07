@@ -1,0 +1,19 @@
+{
+  "description": "Numbers which yield primes when \"13\" is prefixed or appended: N natural number is a member of the sequence, if P=\"13N\" (prefixed 13) and A=\"N13\" (appended 13) are prime.",
+  "id": "A158232",
+  "mentions": [
+    "A055642",
+    "A157772"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:12:55",
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

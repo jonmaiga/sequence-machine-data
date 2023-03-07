@@ -1,0 +1,19 @@
+{
+  "description": "a(0)=1. a(n+1)=2*a(n)-A130151(n).",
+  "id": "A132780",
+  "mentions": [
+    "A113405",
+    "A130151"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

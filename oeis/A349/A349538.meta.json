@@ -1,0 +1,21 @@
+{
+  "description": "The number of pseudo-Pythagorean triples (which allow negative or 0 sides) on a 2D lattice that are on or inside a circle of radius n.",
+  "id": "A349538",
+  "mentions": [
+    "A046080",
+    "A046109",
+    "A211432",
+    "A349536"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:12",
+    "offset": 0,
+    "size": 61,
+    "source": "joeis"
+  }
+}

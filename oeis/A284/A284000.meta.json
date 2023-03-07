@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = a(a(n-A002828(n))) + a(n-a(n-A002828(n))) with a(1) = a(2) = a(3) = 1, where A002828(n) = the least number of squares that add up to n.",
+  "id": "A284000",
+  "mentions": [
+    "A002828",
+    "A004001",
+    "A255131",
+    "A284006",
+    "A284007"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

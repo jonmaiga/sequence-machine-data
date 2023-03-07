@@ -1,0 +1,18 @@
+{
+  "description": "Number of nX2 array permutations with each element moved but moved no more than a city block distance of two",
+  "id": "A188976",
+  "mentions": [
+    "A188981"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

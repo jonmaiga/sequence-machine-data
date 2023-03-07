@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the period of the decimal expansion of 1/A243110(n).",
+  "id": "A359446",
+  "mentions": [
+    "A060370",
+    "A243110"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

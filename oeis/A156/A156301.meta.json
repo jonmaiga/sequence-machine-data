@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = ceiling( n * (log_3 2)) = ceiling(n * 0.6309297535714574371...).",
+  "id": "A156301",
+  "mentions": [
+    "A020915",
+    "A102525",
+    "A136409"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

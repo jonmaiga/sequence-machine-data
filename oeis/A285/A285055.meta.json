@@ -1,0 +1,17 @@
+{
+  "description": "Sum of the cycle lengths of the elements 0,1,...n-1, in Zn under multiplication.",
+  "id": "A285055",
+  "mentions": [
+    "A060014"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

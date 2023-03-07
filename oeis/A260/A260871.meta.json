@@ -1,0 +1,40 @@
+{
+  "description": "Primes whose base-b representation is the concatenation of the base-b representations of (1, 2, ..., k, k-1, ..., 1), for some b > 1 and some k > 1.",
+  "id": "A260871",
+  "mentions": [
+    "A173426",
+    "A173427",
+    "A260343",
+    "A260852",
+    "A260853",
+    "A260854",
+    "A260855",
+    "A260856",
+    "A260857",
+    "A260858",
+    "A260859",
+    "A260860",
+    "A260861",
+    "A260862",
+    "A260863",
+    "A260864",
+    "A260865",
+    "A260866",
+    "A261170",
+    "A261171",
+    "A261172",
+    "A261408"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

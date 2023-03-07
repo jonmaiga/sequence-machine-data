@@ -1,0 +1,23 @@
+{
+  "description": "Smallest index in A138343 which starts a plateau of n consecutive integers.",
+  "id": "A138339",
+  "mentions": [
+    "A138335",
+    "A138336",
+    "A138337",
+    "A138343"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "bref",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

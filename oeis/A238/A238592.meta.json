@@ -1,0 +1,46 @@
+{
+  "description": "Number T(n,k) of equivalence classes of ways of placing k 3 X 3 tiles in an n X 10 rectangle under all symmetry operations of the rectangle; irregular triangle T(n,k), n>=3, 0<=k<=3*floor(n/3), read by rows.",
+  "id": "A238592",
+  "mentions": [
+    "A034851",
+    "A102541",
+    "A225812",
+    "A226048",
+    "A226290",
+    "A228022",
+    "A228165",
+    "A228166",
+    "A228167",
+    "A228168",
+    "A228169",
+    "A228570",
+    "A228572",
+    "A231145",
+    "A231473",
+    "A231568",
+    "A232440",
+    "A238009",
+    "A238189",
+    "A238190",
+    "A238550",
+    "A238552",
+    "A238555",
+    "A238556",
+    "A238557",
+    "A238559",
+    "A238581",
+    "A238583",
+    "A238586"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 3,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

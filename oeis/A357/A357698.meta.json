@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the sum of the aliquot divisors of n that are cubefree.",
+  "id": "A357698",
+  "mentions": [
+    "A002117",
+    "A004709",
+    "A013661",
+    "A073185",
+    "A212793",
+    "A293228"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

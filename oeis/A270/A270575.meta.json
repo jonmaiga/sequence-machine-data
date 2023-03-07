@@ -1,0 +1,19 @@
+{
+  "description": "Smallest composite c where exactly n composites d with d < c exist such that c^(d-1) == 1 (mod d) and d^(c-1) == 1 (mod c).",
+  "id": "A270575",
+  "mentions": [
+    "A002808",
+    "A270573",
+    "A270574"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

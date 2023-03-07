@@ -1,0 +1,19 @@
+{
+  "description": "Numbers A141427(k) such that the three numbers A141427(k) -/+ 3 and A141427(k) + 1 are all prime.",
+  "id": "A144206",
+  "mentions": [
+    "A086801",
+    "A141427"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

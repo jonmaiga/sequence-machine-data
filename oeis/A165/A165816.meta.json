@@ -1,0 +1,19 @@
+{
+  "description": "Prime congruent numbers (A165815) that are not equal to 5 or 7 (mod 8).",
+  "id": "A165816",
+  "mentions": [
+    "A003273",
+    "A003628",
+    "A165815"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:49",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

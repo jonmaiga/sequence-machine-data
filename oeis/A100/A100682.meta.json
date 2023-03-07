@@ -1,0 +1,22 @@
+{
+  "description": "Floor of 4th root of pentatope numbers.",
+  "id": "A100682",
+  "mentions": [
+    "A000332",
+    "A007501",
+    "A099179",
+    "A100009"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

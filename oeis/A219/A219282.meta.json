@@ -1,0 +1,32 @@
+{
+  "description": "Number of superdiagonal bargraphs with area n.",
+  "id": "A219282",
+  "mentions": [
+    "A000009",
+    "A001227",
+    "A008930",
+    "A010054",
+    "A025147",
+    "A063978",
+    "A238394",
+    "A238859",
+    "A238860",
+    "A238861",
+    "A238873",
+    "A238874",
+    "A238875",
+    "A238876",
+    "A305556"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

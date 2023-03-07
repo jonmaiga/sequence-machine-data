@@ -1,0 +1,20 @@
+{
+  "description": "Central terms of triangle A277295 in odd-indexed rows; a(n) = A277295(2*n-1,n-1).",
+  "id": "A277298",
+  "mentions": [
+    "A277295",
+    "A277296",
+    "A277297",
+    "A277299"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

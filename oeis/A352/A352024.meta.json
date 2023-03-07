@@ -1,0 +1,23 @@
+{
+  "description": "Largest digit in the decimal expansion of 1/A352023(n).",
+  "id": "A352024",
+  "mentions": [
+    "A187614",
+    "A333236",
+    "A333237",
+    "A352023"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

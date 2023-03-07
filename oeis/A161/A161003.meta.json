@@ -1,0 +1,25 @@
+{
+  "description": "A list of the composite numbers divided by their largest prime factors.",
+  "id": "A161003",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A006530",
+    "A052369",
+    "A066246",
+    "A120389",
+    "A160180",
+    "A161004"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:43",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

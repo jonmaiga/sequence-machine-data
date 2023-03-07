@@ -1,0 +1,18 @@
+{
+  "description": "Fourth column of A226518.",
+  "id": "A226915",
+  "mentions": [
+    "A226518"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 3,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

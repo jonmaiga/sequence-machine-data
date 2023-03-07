@@ -1,0 +1,23 @@
+{
+  "description": "Hypotenuse numbers A009003 which cannot be represented as sum of 2 distinct nonzero squares.",
+  "id": "A162592",
+  "mentions": [
+    "A000404",
+    "A001481",
+    "A004431",
+    "A004439",
+    "A009003"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

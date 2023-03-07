@@ -1,0 +1,22 @@
+{
+  "description": "Irregular table read by rows: for each internal vertex of a regular n-gon with all diagonals drawn remove all the edges connected directly to the vertex and then count the number of sides in the polygon that surrounds it; row n gives the number of resulting k-sided polygons, for k>=4, for all internal vertices.",
+  "id": "A353876",
+  "mentions": [
+    "A007569",
+    "A007678",
+    "A135565",
+    "A351045",
+    "A353991"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 3,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

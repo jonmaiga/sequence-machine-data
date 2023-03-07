@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of lim_{n->infinity} -FractionalPart[Zeta'(1+1/n)] or -FractionalPart[Zeta'(1-1/n))], where Zeta' is the first derivative of the Riemann zeta function.",
+  "id": "A252898",
+  "mentions": [
+    "A001620",
+    "A073002",
+    "A082633"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 107,
+    "source": "oeis-entry"
+  }
+}

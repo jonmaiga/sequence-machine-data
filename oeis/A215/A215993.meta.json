@@ -1,0 +1,17 @@
+{
+  "description": "Primes that are the sum of 101 consecutive primes.",
+  "id": "A215993",
+  "mentions": [
+    "A215991"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

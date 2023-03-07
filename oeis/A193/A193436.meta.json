@@ -1,0 +1,20 @@
+{
+  "description": "exp( Sum_{n>=1} x^n/n^3 ) = Sum_{n>=0} a(n)*x^n/n!^3.",
+  "id": "A193436",
+  "mentions": [
+    "A074707",
+    "A193435",
+    "A217145"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

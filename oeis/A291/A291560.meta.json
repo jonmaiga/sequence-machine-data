@@ -1,0 +1,23 @@
+{
+  "description": "E.g.f. A(x,k) satisfies: sin(A(x,k)) = k * sin(x).",
+  "id": "A291560",
+  "mentions": [
+    "A001818",
+    "A002452",
+    "A291527",
+    "A291561",
+    "A291562"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

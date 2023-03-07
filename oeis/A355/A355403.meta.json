@@ -1,0 +1,24 @@
+{
+  "description": "Maximal LCM of seven positive integers with sum n.",
+  "id": "A355403",
+  "mentions": [
+    "A009641",
+    "A129647",
+    "A129648",
+    "A129649",
+    "A129650",
+    "A355367",
+    "A355368",
+    "A355402"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 7,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

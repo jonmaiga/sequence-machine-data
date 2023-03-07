@@ -1,0 +1,28 @@
+{
+  "description": "Triangle of arctanh numbers.",
+  "id": "A111594",
+  "mentions": [
+    "A000246",
+    "A005359",
+    "A039692",
+    "A048854",
+    "A049218",
+    "A060524",
+    "A111593",
+    "A256893",
+    "A264428"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Maximum incarceration of numbers in an n X n X n number cubes with full incarceration volumes.",
+  "id": "A275359",
+  "mentions": [
+    "A260302",
+    "A261347"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:26:35",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

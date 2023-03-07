@@ -1,0 +1,30 @@
+{
+  "description": "Primal codes of canonical finite permutations on positive integers.",
+  "id": "A109299",
+  "mentions": [
+    "A001221",
+    "A006939",
+    "A051903",
+    "A061395",
+    "A071625",
+    "A076954",
+    "A106177",
+    "A108352",
+    "A108371",
+    "A109297",
+    "A109298",
+    "A109301",
+    "A175061",
+    "A347758"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

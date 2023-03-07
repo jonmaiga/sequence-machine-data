@@ -1,0 +1,18 @@
+{
+  "description": "Number of monic divisors of x^n - 1 with coefficients in {0,1,-1}.",
+  "id": "A107748",
+  "mentions": [
+    "A067824",
+    "A107067"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:59",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of iterations of \"tamed variant of arithmetic derivative\", A327965 needed to reach 0 from n, or -1 if zero is never reached.",
+  "id": "A327966",
+  "mentions": [
+    "A003415",
+    "A256750",
+    "A327938",
+    "A327965",
+    "A327967"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

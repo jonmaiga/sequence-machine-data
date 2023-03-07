@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = n(n+1) if n == 0 or 1 (mod 4), otherwise a(n) = n(n+1)/2.",
+  "id": "A227316",
+  "mentions": [
+    "A000217",
+    "A002378",
+    "A026741",
+    "A064038",
+    "A109043",
+    "A130658",
+    "A169642",
+    "A176743",
+    "A177002",
+    "A227380"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:10:47",
+    "offset": 0,
+    "size": 48,
+    "source": "joeis"
+  }
+}

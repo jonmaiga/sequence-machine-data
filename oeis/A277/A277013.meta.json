@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = number of irreducible polynomial factors (counted with multiplicity) in the n-th Stern polynomial B(n,t).",
+  "id": "A277013",
+  "mentions": [
+    "A000079",
+    "A001222",
+    "A125184",
+    "A186891",
+    "A260443",
+    "A277027",
+    "A277190",
+    "A277322"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

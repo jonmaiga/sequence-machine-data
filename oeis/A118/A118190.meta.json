@@ -1,0 +1,31 @@
+{
+  "description": "Triangle T(n,k) = 5^(k*(n-k)) for n >= k >= 0, read by rows.",
+  "id": "A118190",
+  "mentions": [
+    "A117401",
+    "A118180",
+    "A118185",
+    "A118191",
+    "A118192",
+    "A118193",
+    "A118194",
+    "A156581",
+    "A158116",
+    "A158117",
+    "A176627",
+    "A176639",
+    "A176642"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

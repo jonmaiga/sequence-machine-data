@@ -1,0 +1,28 @@
+{
+  "description": "Powers of composite squarefree numbers that are not squarefree.",
+  "id": "A303606",
+  "mentions": [
+    "A000469",
+    "A001597",
+    "A005117",
+    "A013929",
+    "A024619",
+    "A072774",
+    "A072777",
+    "A120944",
+    "A126706",
+    "A182853",
+    "A286708"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

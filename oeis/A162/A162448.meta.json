@@ -1,0 +1,32 @@
+{
+  "description": "Numerators of the column sums of the LG1 matrix",
+  "id": "A162448",
+  "mentions": [
+    "A001620",
+    "A001790",
+    "A002197",
+    "A002198",
+    "A008956",
+    "A061549",
+    "A079484",
+    "A160476",
+    "A160487",
+    "A162440",
+    "A162443",
+    "A162446",
+    "A162449"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 2,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

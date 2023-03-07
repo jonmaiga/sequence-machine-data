@@ -1,0 +1,21 @@
+{
+  "description": "Number of 2-polymatroids on n unlabeled points.",
+  "id": "A256157",
+  "mentions": [
+    "A055545",
+    "A256156",
+    "A256158",
+    "A256159"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

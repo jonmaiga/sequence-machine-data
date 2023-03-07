@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = binomial(4*n, 2*n)*(2*n)!/(2^n*n!).",
+  "id": "A359761",
+  "mentions": [
+    "A001147",
+    "A001448",
+    "A359760"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

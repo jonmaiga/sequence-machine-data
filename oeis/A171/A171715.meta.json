@@ -1,0 +1,22 @@
+{
+  "description": "Absolute value of (n-th prime of form 3*m-1 minus n-th prime of form 3*k+1/2+-1/2).",
+  "id": "A171715",
+  "mentions": [
+    "A000040",
+    "A003627",
+    "A007645",
+    "A045375",
+    "A045410"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:12:53",
+    "offset": 1,
+    "size": 73,
+    "source": "joeis"
+  }
+}

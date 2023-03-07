@@ -1,0 +1,29 @@
+{
+  "description": "Permutation of natural numbers: a(1) = 1; for n > 1, if A079559(n) = 0, a(n) = 2*A234016(n), otherwise a(n) = A003961(a(A213714(n))).",
+  "id": "A279336",
+  "mentions": [
+    "A003961",
+    "A005187",
+    "A055938",
+    "A079559",
+    "A213714",
+    "A234016",
+    "A246278",
+    "A256997",
+    "A256998",
+    "A278501",
+    "A279337",
+    "A279338"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:46",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

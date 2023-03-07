@@ -1,0 +1,19 @@
+{
+  "description": "Number of digits of A014980(n) in decimal representation.",
+  "id": "A194079",
+  "mentions": [
+    "A014980",
+    "A055642"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

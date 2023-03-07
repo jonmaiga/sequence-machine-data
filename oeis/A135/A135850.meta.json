@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that there are precisely 6 groups of order n.",
+  "id": "A135850",
+  "mentions": [
+    "A000001",
+    "A003277",
+    "A054395",
+    "A054396",
+    "A054397"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

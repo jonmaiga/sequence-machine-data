@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,k) read by rows: T(n,k) is the number of rooted hypertrees on n labeled vertices with k hyperedges, n >= 2, k >= 1.",
+  "id": "A210586",
+  "mentions": [
+    "A035051",
+    "A048993",
+    "A210587"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 2,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

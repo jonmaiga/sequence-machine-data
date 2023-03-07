@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T[n,m] = quadruple factorials A001813(n) * binomials A007318(n,m)",
+  "id": "A164961",
+  "mentions": [
+    "A001813",
+    "A007318",
+    "A052714",
+    "A084938",
+    "A085881"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

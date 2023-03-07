@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that 2*p^5-1 is also prime.",
+  "id": "A309855",
+  "mentions": [
+    "A000040",
+    "A177104",
+    "A182785",
+    "A309854"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

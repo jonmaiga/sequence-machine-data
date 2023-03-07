@@ -1,0 +1,32 @@
+{
+  "description": "Number of factorizations of n whose factors have pairwise intersecting prime signatures.",
+  "id": "A336737",
+  "mentions": [
+    "A001055",
+    "A003182",
+    "A051185",
+    "A118914",
+    "A124010",
+    "A305843",
+    "A305844",
+    "A305854",
+    "A306006",
+    "A319752",
+    "A319787",
+    "A319789",
+    "A321469",
+    "A327400",
+    "A336424",
+    "A336736"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

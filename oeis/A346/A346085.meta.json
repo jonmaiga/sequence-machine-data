@@ -1,0 +1,26 @@
+{
+  "description": "Number T(n,k) of permutations of [n] such that k is the GCD of the cycle lengths; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A346085",
+  "mentions": [
+    "A000007",
+    "A000142",
+    "A057731",
+    "A079128",
+    "A110468",
+    "A346066",
+    "A346086",
+    "A359951"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:19",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

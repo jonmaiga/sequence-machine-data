@@ -1,0 +1,19 @@
+{
+  "description": "Let f(M,N)=2^(-M)*sum_{i=0..N} {(-1)^{i}M!N!(2M-2i)!}/{i!(M-i)!(N-i)!6^{N-i}}; then a(n) = f(3n,n).",
+  "id": "A152296",
+  "mentions": [
+    "A132202",
+    "A134648",
+    "A134772"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

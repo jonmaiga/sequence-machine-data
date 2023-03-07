@@ -1,0 +1,18 @@
+{
+  "description": "Number of distinct multisets of n integers, each of which is -2, +1, or +3, such that the sum of the members of each multiset is 3.",
+  "id": "A165640",
+  "mentions": [
+    "A008676"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

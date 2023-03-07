@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of (7*Pi + 2*sqrt(2)) / (Pi - 2*sqrt(2)).",
+  "id": "A336076",
+  "mentions": [
+    "A003881",
+    "A336073"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:55:39",
+    "offset": 2,
+    "size": 86,
+    "source": "joeis"
+  }
+}

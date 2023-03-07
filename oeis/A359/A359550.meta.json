@@ -1,0 +1,26 @@
+{
+  "description": "Multiplicative with a(p^e) = 1 if p > e, otherwise 0.",
+  "id": "A359550",
+  "mentions": [
+    "A048103",
+    "A129251",
+    "A327936",
+    "A328308",
+    "A342007",
+    "A342023",
+    "A359546",
+    "A359551"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

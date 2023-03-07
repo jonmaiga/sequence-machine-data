@@ -1,0 +1,17 @@
+{
+  "description": "Numbers that are the sum of two balanced numbers in at least one way.",
+  "id": "A351119",
+  "mentions": [
+    "A020492"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

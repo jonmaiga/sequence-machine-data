@@ -1,0 +1,24 @@
+{
+  "description": "Number of unrooted binary ordered tanglegrams of size n.",
+  "id": "A259115",
+  "mentions": [
+    "A258486",
+    "A258487",
+    "A258488",
+    "A258489",
+    "A258620",
+    "A259114",
+    "A259116",
+    "A339645"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

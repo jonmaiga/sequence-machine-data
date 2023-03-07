@@ -1,0 +1,18 @@
+{
+  "description": "Decimal representation of continued fraction [1*2/2, 2*3/2, 3*4/2, 4*5/2,...], whose elements are the triangular numbers (A000217).",
+  "id": "A226771",
+  "mentions": [
+    "A000217"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

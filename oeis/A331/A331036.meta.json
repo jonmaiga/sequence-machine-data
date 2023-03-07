@@ -1,0 +1,21 @@
+{
+  "description": "Odd values of the sum-of-divisors function sigma (A000203), listed by increasing size and with multiplicity.",
+  "id": "A331036",
+  "mentions": [
+    "A000203",
+    "A023195",
+    "A060657",
+    "A152677",
+    "A300869"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Auxiliary r(n) sequence used to prove some properties about Rowland's sequence: r(1) = 1, and r(n) = 1/2*(c(n)+1), where c(n) is A190894, for n>1.",
+  "id": "A190895",
+  "mentions": [
+    "A106108",
+    "A190894"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

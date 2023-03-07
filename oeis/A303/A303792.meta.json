@@ -1,0 +1,20 @@
+{
+  "description": "Number of connected matchstick graphs on n nodes.",
+  "id": "A303792",
+  "mentions": [
+    "A059103"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

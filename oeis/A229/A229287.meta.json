@@ -1,0 +1,20 @@
+{
+  "description": "Least k such that the numerator of the continued fraction [1,..,1,k] (n 1s) is prime.",
+  "id": "A229287",
+  "mentions": [
+    "A086395",
+    "A099088",
+    "A229288"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

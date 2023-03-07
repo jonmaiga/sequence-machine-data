@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n^7 - (n-1)^7 + (n-2)^7 - ... + ((-1)^n)*0^7.",
+  "id": "A152726",
+  "mentions": [
+    "A152725"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:27:23",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Positive integers N such that there is a triangle with rational sides having area and perimeter both equal N.",
+  "id": "A257642",
+  "mentions": [
+    "A117319",
+    "A135412",
+    "A206334",
+    "A228380",
+    "A228914"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

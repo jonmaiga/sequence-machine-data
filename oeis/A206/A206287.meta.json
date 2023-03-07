@@ -1,0 +1,24 @@
+{
+  "description": "Numbers with all divisors starting with digit 1.",
+  "id": "A206287",
+  "mentions": [
+    "A000005",
+    "A004615",
+    "A045707",
+    "A206288",
+    "A355592",
+    "A357299",
+    "A357300"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

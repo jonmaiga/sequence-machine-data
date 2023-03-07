@@ -1,0 +1,21 @@
+{
+  "description": "Continued fraction expansion for exp( Sum_{n>=1} 1/(n*A003500(n)) ), where A003500(n) = (2+sqrt(3))^n + (2-sqrt(3))^n.",
+  "id": "A174500",
+  "mentions": [
+    "A003500",
+    "A174501"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cofr",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:10:59",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

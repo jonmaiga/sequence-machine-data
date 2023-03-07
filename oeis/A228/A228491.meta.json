@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k for which sum(first k primes) = 3*prime(m) for some m.",
+  "id": "A228491",
+  "mentions": [
+    "A013916",
+    "A228490"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

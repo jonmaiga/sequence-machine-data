@@ -1,0 +1,23 @@
+{
+  "description": "Bisection of A287730.",
+  "id": "A287732",
+  "mentions": [
+    "A002487",
+    "A007306",
+    "A287729",
+    "A287730",
+    "A287731"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:00",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

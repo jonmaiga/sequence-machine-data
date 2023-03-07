@@ -1,0 +1,23 @@
+{
+  "description": "When A342443(n) is the largest prime < 10^n that is the sum of at least two consecutive primes, a(n) is the first prime of the A342444(n) consecutive primes necessary to obtain A342443(n).",
+  "id": "A342454",
+  "mentions": [
+    "A342439",
+    "A342440",
+    "A342441",
+    "A342443",
+    "A342444",
+    "A342453"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

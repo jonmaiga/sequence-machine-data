@@ -1,0 +1,21 @@
+{
+  "description": "Triangle, read by rows, where the g.f. of column n, C_n(x), equals the g.f. of row n, R_n(x), divided by (1-x)^(n+1)*(1-x^2)^n, for n>=0; e.g., C_n(x) = R_n(x)/(1-x)^(n+1)/(1-x^2)^n.",
+  "id": "A114176",
+  "mentions": [
+    "A114174",
+    "A114175",
+    "A114177"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

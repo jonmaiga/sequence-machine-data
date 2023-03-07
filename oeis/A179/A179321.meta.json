@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that sum of first k odd primes=n-th odd prime.",
+  "id": "A179321",
+  "mentions": [
+    "A000040",
+    "A007504"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

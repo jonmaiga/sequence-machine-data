@@ -1,0 +1,19 @@
+{
+  "description": "Numbers m such that m mod log_2(m) = 1.",
+  "id": "A112251",
+  "mentions": [
+    "A000523",
+    "A112248",
+    "A112250"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

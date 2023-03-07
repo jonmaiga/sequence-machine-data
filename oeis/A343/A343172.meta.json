@@ -1,0 +1,18 @@
+{
+  "description": "Least number k such that the sum of the n Moebius function values beginning at k reaches the minimum value -A083544(n).",
+  "id": "A343172",
+  "mentions": [
+    "A083544",
+    "A225420"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

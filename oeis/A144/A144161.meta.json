@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of simple graphs on n labeled nodes with k edges that are node-disjoint unions of undirected cycle subgraphs.",
+  "id": "A144161",
+  "mentions": [
+    "A000004",
+    "A000012",
+    "A000142",
+    "A000292",
+    "A001205",
+    "A007318",
+    "A050534",
+    "A108246"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

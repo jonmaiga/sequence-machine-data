@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of nonisomorphic trees on n vertices whose chromatic symmetric function in the p basis has a nonzero coefficient for each possible term.",
+  "id": "A277687",
+  "mentions": [
+    "A277686"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

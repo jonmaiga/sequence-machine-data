@@ -1,0 +1,21 @@
+{
+  "description": "Zeroless pandigital 9-digit numbers which are the concatenation of three squares.",
+  "id": "A162450",
+  "mentions": [
+    "A162554",
+    "A162839"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

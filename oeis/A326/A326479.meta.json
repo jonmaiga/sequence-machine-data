@@ -1,0 +1,20 @@
+{
+  "description": "T(n, k) = 2^n * n! * [x^k] [z^n] (exp(z) + 1)^2/(4*exp(x*z)), triangle read by rows, for 0 <= k <= n.",
+  "id": "A326479",
+  "mentions": [
+    "A063376",
+    "A326480"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

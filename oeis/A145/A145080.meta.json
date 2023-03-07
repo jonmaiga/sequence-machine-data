@@ -1,0 +1,23 @@
+{
+  "description": "Square table, read by antidiagonals, where row e.g.f.s, R(n,x), satisfy: d/dx log( R(n,x) )/n = R(n+1,x) with R(n,0) = 1; that is, the logarithmic derivative of the e.g.f. of row n, divided by n, equals the e.g.f. of row n+1, for n>=1.",
+  "id": "A145080",
+  "mentions": [
+    "A145081",
+    "A145082",
+    "A145083",
+    "A145084",
+    "A145085"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

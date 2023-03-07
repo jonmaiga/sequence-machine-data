@@ -1,0 +1,24 @@
+{
+  "description": "Sum of divisors computed for conjugated prime factorization: a(n) = A000203(A122111(n)).",
+  "id": "A323173",
+  "mentions": [
+    "A000203",
+    "A038712",
+    "A064989",
+    "A122111",
+    "A322819",
+    "A323174",
+    "A323243"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:47",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

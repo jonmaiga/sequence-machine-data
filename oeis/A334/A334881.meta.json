@@ -1,0 +1,29 @@
+{
+  "description": "Number of squares in 3-dimensional space whose four vertices have coordinates (x,y,z) in the set {1,...,n}.",
+  "id": "A334881",
+  "mentions": [
+    "A000332",
+    "A002415",
+    "A077435",
+    "A085582",
+    "A098928",
+    "A102698",
+    "A103158",
+    "A187452",
+    "A189412",
+    "A189418",
+    "A269747",
+    "A271910",
+    "A334581"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "description": "Numbers of the form 110 + p^2. (where p is a prime).",
+  "id": "A138693",
+  "mentions": [
+    "A000040",
+    "A001248",
+    "A007528",
+    "A138479",
+    "A138685",
+    "A138686",
+    "A138691",
+    "A138692",
+    "A138694",
+    "A138696",
+    "A138697",
+    "A138698",
+    "A138699",
+    "A138700"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:50:23",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

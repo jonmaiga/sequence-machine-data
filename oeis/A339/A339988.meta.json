@@ -1,0 +1,18 @@
+{
+  "description": "Prime numbers that are the sum of an odd square s and an even square t such that 0 < s < t.",
+  "id": "A339988",
+  "mentions": [
+    "A010051",
+    "A010052"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

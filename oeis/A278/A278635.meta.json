@@ -1,0 +1,18 @@
+{
+  "description": "Least x such that ax-1 and bx-1 are simultaneously prime and n (sequence index) is the position of rational a/b (lowest form) in the triangular array A226314(n)/A054531(n).",
+  "id": "A278635",
+  "mentions": [
+    "A054531",
+    "A226314"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

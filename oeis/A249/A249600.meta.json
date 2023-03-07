@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of 1/phi + 1/phi^3 + 1/phi^5, where phi is the Golden Ratio.",
+  "id": "A249600",
+  "mentions": [
+    "A010532",
+    "A094214",
+    "A249601"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:05:51",
+    "offset": 0,
+    "size": 95,
+    "source": "joeis"
+  }
+}

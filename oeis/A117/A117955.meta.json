@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n into exactly 2 types of odd parts.",
+  "id": "A117955",
+  "mentions": [
+    "A002133"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=0..3} f(n+k)^2 where f=A130519.",
+  "id": "A238604",
+  "mentions": [
+    "A054925",
+    "A130519"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:17:41",
+    "offset": 0,
+    "size": 42,
+    "source": "joeis"
+  }
+}

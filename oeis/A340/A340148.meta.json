@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Product_{distinct primes p dividing n} gcd(q-1, A003961(n)-1), where q = A151800(p), the next prime larger than p.",
+  "id": "A340148",
+  "mentions": [
+    "A003961",
+    "A003972",
+    "A063994",
+    "A151800",
+    "A340147"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that (p reversed)-9 is also a prime.",
+  "id": "A243461",
+  "mentions": [
+    "A243457"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

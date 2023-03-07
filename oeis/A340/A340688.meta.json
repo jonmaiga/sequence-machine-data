@@ -1,0 +1,23 @@
+{
+  "description": "Irregular table read by rows: Take a concave circular triangle with all diagonals drawn, as in A340685. Then T(n,k) = number of k-sided polygons in that figure for k >= 3.",
+  "id": "A340688",
+  "mentions": [
+    "A007678",
+    "A092867",
+    "A340614",
+    "A340685",
+    "A340686",
+    "A340687"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

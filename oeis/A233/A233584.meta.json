@@ -1,0 +1,28 @@
+{
+  "description": "Coefficients of the generalized continued fraction expansion sqrt(e) = a(1) +a(1)/(a(2) +a(2)/(a(3) +a(3)/(a(4) +a(4)/....))).",
+  "id": "A233584",
+  "mentions": [
+    "A019774",
+    "A058281",
+    "A233582",
+    "A233583",
+    "A233585",
+    "A233586",
+    "A233587",
+    "A233588",
+    "A233589",
+    "A233590",
+    "A233591"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

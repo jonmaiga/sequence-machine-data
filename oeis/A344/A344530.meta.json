@@ -1,0 +1,22 @@
+{
+  "description": "For any number n with binary expansion Sum_{k = 1..m} 2^e_k (where 0 <= e_1 < ... < e_m), a(n) = Product_{k = 1..m} prime(1+e_k)^k (where prime(k) denotes the k-th prime number).",
+  "id": "A344530",
+  "mentions": [
+    "A003961",
+    "A045967",
+    "A076954",
+    "A304678"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

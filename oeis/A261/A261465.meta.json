@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = prime(n+1)^2 - prime(n).",
+  "id": "A261465",
+  "mentions": [
+    "A001223",
+    "A036689",
+    "A069482",
+    "A129701"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 39,
+    "source": "joeis"
+  }
+}

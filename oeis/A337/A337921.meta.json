@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the sum of (3^n mod 2^k) for k such that 2^k < 3^n.",
+  "id": "A337921",
+  "mentions": [
+    "A056576"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

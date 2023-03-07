@@ -1,0 +1,25 @@
+{
+  "description": "Number of iterations of A329904 needed to reach 1.",
+  "id": "A329907",
+  "mentions": [
+    "A025487",
+    "A061394",
+    "A070939",
+    "A181815",
+    "A252464",
+    "A329899",
+    "A329904",
+    "A329905"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

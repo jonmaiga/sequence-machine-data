@@ -1,0 +1,18 @@
+{
+  "description": "The factors k(n) such that the twin-prime subsequence A112879 is obtained.",
+  "id": "A112880",
+  "mentions": [
+    "A112879"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

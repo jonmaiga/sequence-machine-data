@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of (2/3)*e in Coulombs, two thirds of the elementary charge.",
+  "id": "A348435",
+  "mentions": [
+    "A081823",
+    "A348434"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": -18,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Least common multiple of 7*n+1 and 7*n-1.",
+  "id": "A282286",
+  "mentions": [
+    "A000466",
+    "A136017",
+    "A141759",
+    "A282284",
+    "A282285"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:24:35",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

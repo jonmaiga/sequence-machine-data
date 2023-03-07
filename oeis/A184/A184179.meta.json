@@ -1,0 +1,19 @@
+{
+  "description": "Number of permutations of {1,2,...,n} having no isolated fixed points. A fixed point j of a permutation is said to be isolated if neither j-1 nor j+1 is a fixed point. For example, 4135267 has only 3 as an isolated fixed point.",
+  "id": "A184179",
+  "mentions": [
+    "A000166",
+    "A184178"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

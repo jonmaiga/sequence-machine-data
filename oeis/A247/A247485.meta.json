@@ -1,0 +1,22 @@
+{
+  "description": "Integer part of 2*sqrt(prime(n)) + 1.",
+  "id": "A247485",
+  "mentions": [
+    "A000006",
+    "A000040",
+    "A001223",
+    "A117767",
+    "A247514",
+    "A247515"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

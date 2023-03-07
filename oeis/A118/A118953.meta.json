@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways to write the n-th prime as 2^k + p, where p is prime and p < 2^k.",
+  "id": "A118953",
+  "mentions": [
+    "A000040",
+    "A049084",
+    "A078687",
+    "A091932",
+    "A118952",
+    "A118958"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "description": "Odd composites k for which A003415(sigma(k))-k is strictly positive and a multiple of A003415(k). Here A003415 is the arithmetic derivative.",
+  "id": "A347884",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A003415",
+    "A005820",
+    "A007691",
+    "A046060",
+    "A065997",
+    "A342922",
+    "A342923",
+    "A342924",
+    "A342925",
+    "A342926",
+    "A343218",
+    "A343223",
+    "A347872",
+    "A347880"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

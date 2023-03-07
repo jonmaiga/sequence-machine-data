@@ -1,0 +1,17 @@
+{
+  "description": "Let n+1 have proper divisors 1 < d_1,...,d_k < n+1; consider all proper divisors of n+d_1,...,n+d_k which did not appear earlier. Let them be d_{1,1}, d_{1,2},..., d_{k,1}, d_{k,2},..., d_{k,t}; then consider proper divisors of n+d_{1,1},...,n+d_{k,t} which did not appear earlier, repeat until no new divisor is introduced. a(n) is the total number of different divisors obtained.",
+  "id": "A226770",
+  "mentions": [
+    "A053184"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

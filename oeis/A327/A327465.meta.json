@@ -1,0 +1,17 @@
+{
+  "description": "First differences of A309095.",
+  "id": "A327465",
+  "mentions": [
+    "A309095"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

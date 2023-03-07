@@ -1,0 +1,23 @@
+{
+  "description": "Sum of the degrees of asymmetry of all binary words of length n.",
+  "id": "A274497",
+  "mentions": [
+    "A004526",
+    "A134353",
+    "A274496",
+    "A274498",
+    "A274499"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:31:27",
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

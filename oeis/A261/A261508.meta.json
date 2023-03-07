@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of -zeta'''(0).",
+  "id": "A261508",
+  "mentions": [
+    "A075700",
+    "A082633",
+    "A086279",
+    "A201995",
+    "A257549"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Number of integers in range A002110(n) .. A002110(1+n)-1 such that the maximal digit in their primorial base expansion is not larger than the maximal exponent in their prime factorization, where A002110(n) gives the n-th primorial.",
+  "id": "A351069",
+  "mentions": [
+    "A002110",
+    "A051903",
+    "A276086",
+    "A327969",
+    "A328114",
+    "A351038",
+    "A351039",
+    "A351067",
+    "A351070"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

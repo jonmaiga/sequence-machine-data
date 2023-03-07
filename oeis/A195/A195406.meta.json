@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of normalized Philo sum, Philo(ABC,I), where I=incenter of the right triangle ABC having sidelengths (a,b,c)=(1,sqrt(r),r), where r=(1+sqrt(5))/2 (the golden ratio).",
+  "id": "A195406",
+  "mentions": [
+    "A195284",
+    "A195403",
+    "A195404",
+    "A195405"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:55",
+    "offset": 0,
+    "size": 101,
+    "source": "joeis"
+  }
+}

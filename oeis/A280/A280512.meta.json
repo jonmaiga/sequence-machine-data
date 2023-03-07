@@ -1,0 +1,21 @@
+{
+  "description": "Index sequence of the Thue-Morse sequence (A010060, using offset 1) as a reverse block-fractal sequence.",
+  "id": "A280512",
+  "mentions": [
+    "A010060",
+    "A280510",
+    "A280511",
+    "A280513"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

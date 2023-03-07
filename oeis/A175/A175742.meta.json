@@ -1,0 +1,23 @@
+{
+  "description": "Numbers with 32 divisors.",
+  "id": "A175742",
+  "mentions": [
+    "A000005",
+    "A046303",
+    "A137491",
+    "A137492",
+    "A137493",
+    "A139571"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:22:17",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 729000*n + 180.",
+  "id": "A156868",
+  "mentions": [
+    "A156856",
+    "A156867",
+    "A157081"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Order array of the Wythoff B-array (A340244): an interspersion, read by antidiagonals.",
+  "id": "A340245",
+  "mentions": [
+    "A191450",
+    "A333029",
+    "A340244"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

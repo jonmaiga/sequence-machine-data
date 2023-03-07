@@ -1,0 +1,17 @@
+{
+  "description": "Integers n such that the Klein invariant J((-1+sqrt(-n))/2) is a rational number.",
+  "id": "A276456",
+  "mentions": [
+    "A003173"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

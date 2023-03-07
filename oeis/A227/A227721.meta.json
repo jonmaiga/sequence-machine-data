@@ -1,0 +1,21 @@
+{
+  "description": "Floor(1/s(n)), where s(n) = (2n+1)/(2n+2) - n*log((n+1)/n).",
+  "id": "A227721",
+  "mentions": [
+    "A094159",
+    "A227719",
+    "A227720"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:15:15",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of steps needed to reach 1 or 89 under iteration of sum-of-squares-of-digits map.",
+  "id": "A300081",
+  "mentions": [
+    "A003621",
+    "A007770"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:24",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

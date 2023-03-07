@@ -1,0 +1,22 @@
+{
+  "description": "Number of partitions of 4n into distinct parts with equal sums of odd and even parts.",
+  "id": "A255001",
+  "mentions": [
+    "A000009",
+    "A000700",
+    "A069910",
+    "A239241",
+    "A249914"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 0,
+    "size": 43,
+    "source": "joeis"
+  }
+}

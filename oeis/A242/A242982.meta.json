@@ -1,0 +1,28 @@
+{
+  "description": "Primes p such that p^2 divides 20^(p-1) - 1.",
+  "id": "A242982",
+  "mentions": [
+    "A001220",
+    "A014127",
+    "A039951",
+    "A045616",
+    "A096082",
+    "A111027",
+    "A123692",
+    "A123693",
+    "A212583"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

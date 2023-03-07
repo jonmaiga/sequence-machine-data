@@ -1,0 +1,21 @@
+{
+  "description": "First prime not the middle of a prime two digits longer in base n.",
+  "id": "A172514",
+  "mentions": [
+    "A032734",
+    "A247593",
+    "A247699"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 2,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

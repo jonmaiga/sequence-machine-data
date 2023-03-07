@@ -1,0 +1,18 @@
+{
+  "description": "Number of distinct prime factors <= n of binomial(2*n,n).",
+  "id": "A193990",
+  "mentions": [
+    "A067434",
+    "A108954"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Least positive integer j such that n divides k^3-j^3, where k, as in A205787, is the least number for which there is such a j.",
+  "id": "A205788",
+  "mentions": [
+    "A204892",
+    "A205787"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:59",
+    "offset": 1,
+    "size": 99,
+    "source": "joeis"
+  }
+}

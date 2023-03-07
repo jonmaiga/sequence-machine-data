@@ -1,0 +1,20 @@
+{
+  "description": "Area of the convex hull around terdragon expansion level n, measured in unit triangles.",
+  "id": "A343485",
+  "mentions": [
+    "A341029",
+    "A343486"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

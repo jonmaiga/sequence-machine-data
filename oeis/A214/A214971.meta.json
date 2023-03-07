@@ -1,0 +1,25 @@
+{
+  "description": "Integers k for which the base-phi representation of k includes 1.",
+  "id": "A214971",
+  "mentions": [
+    "A000032",
+    "A004956",
+    "A005614",
+    "A055778",
+    "A096270",
+    "A198270",
+    "A214969",
+    "A214970"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

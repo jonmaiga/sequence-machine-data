@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of different self-avoiding (n-1)-move routes for a king on an empty n X n chessboard.",
+  "id": "A355844",
+  "mentions": [
+    "A323561",
+    "A323562",
+    "A355127"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

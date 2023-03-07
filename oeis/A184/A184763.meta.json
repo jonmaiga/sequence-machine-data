@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle in which row n has the values of k>n such that Sum_{i=n..k} i^2 is a square.",
+  "id": "A184763",
+  "mentions": [
+    "A180442",
+    "A184762",
+    "A184885",
+    "A184886"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "hard",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Sum of attendance numbers of all histories of length 5*n in the Bizley-Duchon's club model, divided by 5.",
+  "id": "A322634",
+  "mentions": [
+    "A060941",
+    "A293946"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

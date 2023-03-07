@@ -1,0 +1,20 @@
+{
+  "description": "Square array a(n, m) read by antidiagonals whose g.f. is 1 / ((1-x)^2 * (1-y)^2 - x*y).",
+  "id": "A285935",
+  "mentions": [
+    "A113067",
+    "A177787"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

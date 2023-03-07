@@ -1,0 +1,19 @@
+{
+  "description": "Number of permutation symbols of type a(n) for hyperbolic archimedean tessellations of rank n.",
+  "id": "A142866",
+  "mentions": [
+    "A142872",
+    "A142873"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "The smallest number with n representations of the form A*B^A with A, B > 1.",
+  "id": "A235368",
+  "mentions": [
+    "A171606",
+    "A171607"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

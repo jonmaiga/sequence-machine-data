@@ -1,0 +1,19 @@
+{
+  "description": "Odd values of 2^n mod n corresponding to the n's given in A015911.",
+  "id": "A124965",
+  "mentions": [
+    "A015910",
+    "A015911"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

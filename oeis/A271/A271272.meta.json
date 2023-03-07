@@ -1,0 +1,21 @@
+{
+  "description": "Number of set partitions of [n] into m blocks such that for each pair of distinct cyclically consecutive blocks (b,c) = (b,(b mod m)+1) at least one pair of numbers (i,j) = (i,(i mod n)+1) exists with i member of b and j member of c.",
+  "id": "A271272",
+  "mentions": [
+    "A000110",
+    "A185983",
+    "A271270",
+    "A271273"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

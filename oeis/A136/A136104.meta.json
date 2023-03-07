@@ -1,0 +1,24 @@
+{
+  "description": "A007318 * A002110; a(n) = Sum_{k=0..n} binomial(n,k)*A002110(k).",
+  "id": "A136104",
+  "mentions": [
+    "A001339",
+    "A002110",
+    "A007188",
+    "A007318",
+    "A121572",
+    "A276085",
+    "A276586"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

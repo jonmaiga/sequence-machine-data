@@ -1,0 +1,23 @@
+{
+  "description": "Generating function g(0) where g(k) = 1 - x*2*(k+1)*(k+2)/(x*2*(k+1)*(k+2) - 1/g(k+1)).",
+  "id": "A261042",
+  "mentions": [
+    "A000182",
+    "A002105",
+    "A002425",
+    "A126156",
+    "A253165"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

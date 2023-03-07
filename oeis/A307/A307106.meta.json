@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Sum_{k>=2} (-1)^k * Zeta(k)^3 / k.",
+  "id": "A307106",
+  "mentions": [
+    "A001620",
+    "A306769",
+    "A306774",
+    "A306778",
+    "A306907"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

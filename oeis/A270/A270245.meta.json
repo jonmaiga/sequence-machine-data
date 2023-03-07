@@ -1,0 +1,19 @@
+{
+  "description": "Lesser of twin primes such that sum of twin prime pair is the sum of 2 nonzero squares.",
+  "id": "A270245",
+  "mentions": [
+    "A000404",
+    "A001359",
+    "A054735"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

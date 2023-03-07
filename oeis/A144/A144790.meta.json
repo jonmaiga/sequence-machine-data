@@ -1,0 +1,19 @@
+{
+  "description": "Consider the runs of 1's in the binary representation of n, each of these runs being on the edge of the binary representation n and/or being bounded by 0's. a(n) = the length of the shortest such run of 1's in binary n.",
+  "id": "A144790",
+  "mentions": [
+    "A038374",
+    "A144789"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

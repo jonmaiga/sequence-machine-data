@@ -1,0 +1,21 @@
+{
+  "description": "Positive integers that cannot be represented as the sum of distinct Lucas 3-step numbers (A001644).",
+  "id": "A104857",
+  "mentions": [
+    "A000119",
+    "A000204",
+    "A001644",
+    "A054770"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

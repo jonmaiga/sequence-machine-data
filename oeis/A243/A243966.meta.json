@@ -1,0 +1,21 @@
+{
+  "description": "Number of Dyck paths of semilength n such that all five consecutive patterns of Dyck paths of semilength 3 occur at least once.",
+  "id": "A243966",
+  "mentions": [
+    "A014486",
+    "A063171",
+    "A243820",
+    "A243965",
+    "A243986"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

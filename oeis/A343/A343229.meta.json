@@ -1,0 +1,28 @@
+{
+  "description": "A binary encoding of the digits \"-1\" in balanced ternary representation of n.",
+  "id": "A343229",
+  "mentions": [
+    "A005836",
+    "A059095",
+    "A060373",
+    "A140267",
+    "A289814",
+    "A289831",
+    "A343228",
+    "A343230",
+    "A343231"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

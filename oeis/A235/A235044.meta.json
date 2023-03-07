@@ -1,0 +1,21 @@
+{
+  "description": "Partial sums of the characteristic function of A091214.",
+  "id": "A235044",
+  "mentions": [
+    "A066247",
+    "A091214",
+    "A091225",
+    "A235042",
+    "A235043"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 0,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

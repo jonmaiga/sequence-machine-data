@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of linear extensions of the zigzag poset Z of length 2n where each minimal element in Z additionally covers two new elements.",
+  "id": "A332568",
+  "mentions": [
+    "A000111",
+    "A332471"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:02",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

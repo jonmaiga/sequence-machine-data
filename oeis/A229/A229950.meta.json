@@ -1,0 +1,21 @@
+{
+  "description": "Total number of toothpicks after n-th stage in a toothpick structure in which the toothpicks represent the 1's of triangle A229940.",
+  "id": "A229950",
+  "mentions": [
+    "A000005",
+    "A139250",
+    "A229940",
+    "A229942",
+    "A229951"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

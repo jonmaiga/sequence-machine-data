@@ -1,0 +1,37 @@
+{
+  "description": "Denominator: factorizations divided by strict factorizations A001055(n)/A045778(n).",
+  "id": "A331024",
+  "mentions": [
+    "A001055",
+    "A001248",
+    "A005117",
+    "A045778",
+    "A045779",
+    "A045780",
+    "A045782",
+    "A045783",
+    "A167207",
+    "A325755",
+    "A326028",
+    "A326622",
+    "A328966",
+    "A330972",
+    "A330977",
+    "A330991",
+    "A330995",
+    "A331023",
+    "A331048"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

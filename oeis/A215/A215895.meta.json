@@ -1,0 +1,17 @@
+{
+  "description": "Primes p with property that there exists a number D such that p-3D, p-2D, p-D, p+D, p+2D, p+3D are all primes.",
+  "id": "A215895",
+  "mentions": [
+    "A215642"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

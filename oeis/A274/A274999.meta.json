@@ -1,0 +1,24 @@
+{
+  "description": "Main diagonal of fast-iteration function applied to 2: a(n) = F'[n]_n(2), where F' is defined in A275000.",
+  "id": "A274999",
+  "mentions": [
+    "A154714",
+    "A275000",
+    "A275002",
+    "A275003",
+    "A275004",
+    "A275005",
+    "A275006",
+    "A275009"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

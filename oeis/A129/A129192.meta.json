@@ -1,0 +1,17 @@
+{
+  "description": "Least J such that J*p(n+1)#-K*p(n)#-1 and J*p(n+1)#-K*p(n)#+1 are twin primes for some K>0 and K",
+  "id": "A129192",
+  "mentions": [
+    "A129193"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

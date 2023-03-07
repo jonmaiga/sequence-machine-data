@@ -1,0 +1,19 @@
+{
+  "description": "Number of simple graphs on n labeled nodes, where each maximally connected subgraph consists of a single node or has a unique cycle of length 4; also row sums of A144209.",
+  "id": "A144210",
+  "mentions": [
+    "A144209",
+    "A144212"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Unlabeled super-Catalan numbers: patterns of nonintersecting chords joining unlabeled points on a flippable circle, triangle decomposed by number of chords.",
+  "id": "A183760",
+  "mentions": [
+    "A001895",
+    "A033282",
+    "A183758"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

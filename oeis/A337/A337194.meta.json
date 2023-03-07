@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 1 + A000265(sigma(n)), where A000265 gives the odd part.",
+  "id": "A337194",
+  "mentions": [
+    "A000203",
+    "A000265",
+    "A007949",
+    "A161942",
+    "A336698",
+    "A337195",
+    "A337196"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Convolution triangle, row sums = A000041. M = A000041 in each column with two interleaved zeros; Q = A000726 diagonalized with the rest zeros. A176202 = M*Q.",
+  "id": "A176202",
+  "mentions": [
+    "A000041",
+    "A000726",
+    "A113685",
+    "A174714"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

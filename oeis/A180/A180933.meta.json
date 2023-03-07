@@ -1,0 +1,21 @@
+{
+  "description": "Initial segments of A010051, interpreted as binary numbers, that are prime.",
+  "id": "A180933",
+  "mentions": [
+    "A000040",
+    "A010051",
+    "A072762",
+    "A124077"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Coefficients of mock modular form H_1^(2) of type 2A, divided by 2.",
+  "id": "A256059",
+  "mentions": [
+    "A256058"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

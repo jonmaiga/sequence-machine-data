@@ -1,0 +1,27 @@
+{
+  "description": "The fixed point reached when map x -> 1+(x-(largest divisor d < x)) is iterated, starting from x = n.",
+  "id": "A323075",
+  "mentions": [
+    "A000040",
+    "A000079",
+    "A000918",
+    "A039650",
+    "A039654",
+    "A060681",
+    "A323076",
+    "A323079",
+    "A323164",
+    "A323165"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

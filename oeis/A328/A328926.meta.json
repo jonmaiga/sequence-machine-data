@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that A328925(k) = 1; numbers k such that if we write k = Product_{i=1..t} p_i^e_i, then lcm_{1<=i,j<=t,i!=j} ord(p_i,p_j^e_j) = A002322(k), where ord(a,r) is the multiplicative order of a modulo r, and A002322 is the Carmichael lambda (usually written as psi).",
+  "id": "A328926",
+  "mentions": [
+    "A000961",
+    "A002322",
+    "A118106",
+    "A326925",
+    "A328925",
+    "A329062"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

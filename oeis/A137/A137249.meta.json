@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of g.f. z*(2-2*z+z^2+z^3)/((1+z)*(1-3*z+2*z^2-z^3)).",
+  "id": "A137249",
+  "mentions": [
+    "A033999",
+    "A095263",
+    "A132749",
+    "A136302",
+    "A136303",
+    "A136304",
+    "A136305"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:25",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

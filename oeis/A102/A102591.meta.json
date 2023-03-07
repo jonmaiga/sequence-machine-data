@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(2n+1, 2k)*3^(n-k).",
+  "id": "A102591",
+  "mentions": [
+    "A002605",
+    "A066443",
+    "A079935",
+    "A080879",
+    "A099156",
+    "A102592"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:24:38",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

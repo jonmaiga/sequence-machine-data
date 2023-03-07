@@ -1,0 +1,20 @@
+{
+  "description": "Numbers of the form x^2 + y^2 + z^2 + x*y*z with x,y,z nonnegative integers.",
+  "id": "A351723",
+  "mentions": [
+    "A000290",
+    "A000378",
+    "A000578",
+    "A351902"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

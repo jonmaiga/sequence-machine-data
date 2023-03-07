@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the doubly infinite sum N_3 = Sum_{i,j,k = -inf..inf} (-1)^(i+j+k)/(i^2+j^2+k^2), a lattice constant analog of Madelung's constant (negated).",
+  "id": "A271872",
+  "mentions": [
+    "A085469",
+    "A086054",
+    "A088537",
+    "A090734"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

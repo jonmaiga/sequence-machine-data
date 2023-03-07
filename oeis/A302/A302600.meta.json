@@ -1,0 +1,29 @@
+{
+  "description": "1, 2, prime numbers of prime index, and prime numbers of prime index times 2.",
+  "id": "A302600",
+  "mentions": [
+    "A000961",
+    "A001222",
+    "A003963",
+    "A005117",
+    "A007716",
+    "A047966",
+    "A056239",
+    "A275024",
+    "A281113",
+    "A296134",
+    "A301766",
+    "A302242",
+    "A302243"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

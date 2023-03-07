@@ -1,0 +1,31 @@
+{
+  "description": "Heinz numbers of integer partitions whose differences (with the last part taken to be 0) are weakly increasing.",
+  "id": "A325362",
+  "mentions": [
+    "A007294",
+    "A025487",
+    "A056239",
+    "A112798",
+    "A122111",
+    "A240026",
+    "A320348",
+    "A325325",
+    "A325327",
+    "A325360",
+    "A325364",
+    "A325367",
+    "A325390",
+    "A325394",
+    "A325400"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

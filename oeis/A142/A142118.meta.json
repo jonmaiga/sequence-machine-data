@@ -1,0 +1,23 @@
+{
+  "description": "Primes congruent to 9 mod 37.",
+  "id": "A142118",
+  "mentions": [
+    "A000040",
+    "A142114",
+    "A142115",
+    "A142116",
+    "A142117"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:25:17",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

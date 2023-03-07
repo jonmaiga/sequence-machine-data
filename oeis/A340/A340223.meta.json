@@ -1,0 +1,19 @@
+{
+  "description": "Number of n-dimensional semisimple algebras over the reals.",
+  "id": "A340223",
+  "mentions": [
+    "A001156"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

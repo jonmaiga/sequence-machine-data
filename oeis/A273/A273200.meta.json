@@ -1,0 +1,22 @@
+{
+  "description": "Prime power-like integers.",
+  "id": "A273200",
+  "mentions": [
+    "A000040",
+    "A246655",
+    "A273102",
+    "A273130",
+    "A273199",
+    "A273201"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

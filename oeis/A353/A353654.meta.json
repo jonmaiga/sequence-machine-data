@@ -1,0 +1,49 @@
+{
+  "description": "Numbers whose binary expansion has the same number of trailing 0 bits as other 0 bits.",
+  "id": "A353654",
+  "mentions": [
+    "A000045",
+    "A000120",
+    "A000225",
+    "A000523",
+    "A007814",
+    "A010056",
+    "A025480",
+    "A030109",
+    "A054429",
+    "A060142",
+    "A072649",
+    "A084471",
+    "A086784",
+    "A091892",
+    "A130312",
+    "A132665",
+    "A133512",
+    "A189920",
+    "A190620",
+    "A200650",
+    "A213911",
+    "A232559",
+    "A247648",
+    "A280514",
+    "A343152",
+    "A348366",
+    "A356385",
+    "A357773",
+    "A360573"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Coefficient table for sums of squares of Chebyshev's S-Polynomials.",
+  "id": "A128495",
+  "mentions": [
+    "A004523",
+    "A049310",
+    "A128494",
+    "A128496",
+    "A158454"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

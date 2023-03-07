@@ -1,0 +1,28 @@
+{
+  "description": "A(n,k) is the sum of the k-th powers of the (positive) number of permutations of [n] with j descents (j=0..max(0,n-1)); square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A335545",
+  "mentions": [
+    "A000012",
+    "A000142",
+    "A007395",
+    "A008292",
+    "A028310",
+    "A168562",
+    "A173018",
+    "A178789",
+    "A334622",
+    "A335546"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

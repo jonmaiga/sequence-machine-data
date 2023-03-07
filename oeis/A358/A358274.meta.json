@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the prime before A262275(n).",
+  "id": "A358274",
+  "mentions": [
+    "A151799",
+    "A262275",
+    "A348677"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

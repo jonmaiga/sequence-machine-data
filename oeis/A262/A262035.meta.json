@@ -1,0 +1,19 @@
+{
+  "description": "Number of permutations of [2n+1] beginning with exactly n ascents.",
+  "id": "A262035",
+  "mentions": [
+    "A262033",
+    "A262034"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:21",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

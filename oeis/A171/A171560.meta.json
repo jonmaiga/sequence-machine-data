@@ -1,0 +1,18 @@
+{
+  "description": "The product of the n-th run of identical consecutive values of A123387.",
+  "id": "A171560",
+  "mentions": [
+    "A123387"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

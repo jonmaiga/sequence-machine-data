@@ -1,0 +1,17 @@
+{
+  "description": "Number of components of the poset Sigma(n) arising from classification of primitive integral triangles with rectangular defect n.",
+  "id": "A218878",
+  "mentions": [
+    "A218879"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle composed of triangular numbers, row sums = A006918.",
+  "id": "A106255",
+  "mentions": [
+    "A002260",
+    "A004736",
+    "A004737",
+    "A006918"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:37:11",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

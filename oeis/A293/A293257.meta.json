@@ -1,0 +1,18 @@
+{
+  "description": "G.f.: Product_{m>0} (1 - x^m + 2!*x^(2*m) - 3!*x^(3*m) + 4!*x^(4*m) - 5!*x^(5*m)).",
+  "id": "A293257",
+  "mentions": [
+    "A293071",
+    "A293250"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Square array read by antidiagonals: A(row,col) = A122111(A246278(row,col)).",
+  "id": "A253561",
+  "mentions": [
+    "A000079",
+    "A071178",
+    "A102750",
+    "A122111",
+    "A246278",
+    "A253560",
+    "A253562",
+    "A253563",
+    "A253568"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 2,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

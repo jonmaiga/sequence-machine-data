@@ -1,0 +1,20 @@
+{
+  "description": "Coordination sequence for bey tiling (or net) with respect to a tetravalent node.",
+  "id": "A298789",
+  "mentions": [
+    "A298788",
+    "A298790",
+    "A298791"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:34:15",
+    "offset": 0,
+    "size": 58,
+    "source": "joeis"
+  }
+}

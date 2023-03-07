@@ -1,0 +1,19 @@
+{
+  "description": "Triangular numbers representable as t*p, where t>1 is a triangular number, p>1 is a prime power (A025475).",
+  "id": "A221563",
+  "mentions": [
+    "A000217",
+    "A025475",
+    "A029549"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

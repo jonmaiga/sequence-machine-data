@@ -1,0 +1,23 @@
+{
+  "description": "a(n)= Number of 5 X 5 permutation matrices with trace n and determinant -1",
+  "id": "A171908",
+  "mentions": [
+    "A171806",
+    "A171808",
+    "A171809",
+    "A171906",
+    "A171907"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

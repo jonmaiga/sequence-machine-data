@@ -1,0 +1,20 @@
+{
+  "description": "Triangle : Lodumo_2 applied to each row of triangle in A039599 .",
+  "id": "A160052",
+  "mentions": [
+    "A039599",
+    "A160020"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Compound filter (largest prime factor of n & prime signature of 2n-1): a(n) = P(A061395(n), A046523(2n-1)), where P(n,k) is sequence A000027 used as a pairing function.",
+  "id": "A286452",
+  "mentions": [
+    "A000027",
+    "A046523",
+    "A061395",
+    "A278223",
+    "A285334",
+    "A286356",
+    "A286372",
+    "A286453"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Palindromes with 2n-1 digits formed from the reflected decimal expansion of the concatenation of 1, 1, 1 and infinite 0's.",
+  "id": "A138146",
+  "mentions": [
+    "A138118",
+    "A138119",
+    "A138120",
+    "A138144",
+    "A138145",
+    "A138721",
+    "A138826",
+    "A147597"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:13:56",
+    "offset": 1,
+    "size": 12,
+    "source": "joeis"
+  }
+}

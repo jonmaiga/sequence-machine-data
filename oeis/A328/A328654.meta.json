@@ -1,0 +1,18 @@
+{
+  "description": "Consider an empty list L, and for k = 1, 2, ...: if L contains a pair of consecutive terms summing to k, then let (u, v) be the first such pair: replace the two terms u and v in L with a single term k and set a(u) = v and a(v) = u, otherwise append k to L.",
+  "id": "A328654",
+  "mentions": [
+    "A326936"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:57",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

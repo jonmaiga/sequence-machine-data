@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: Catalan number C(n) repeated 2*n+1 times.",
+  "id": "A172414",
+  "mentions": [
+    "A000108",
+    "A001700",
+    "A168256",
+    "A172417"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Let s be the sum of the digits of n; a(n) is the product of the digits of s.",
+  "id": "A128244",
+  "mentions": [
+    "A007953",
+    "A007954",
+    "A053837"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) = number of n X k lonesum decomposable (0,1) matrices.",
+  "id": "A299906",
+  "mentions": [
+    "A000629",
+    "A099594",
+    "A221961",
+    "A299904",
+    "A299905",
+    "A299907"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

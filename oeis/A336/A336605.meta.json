@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of partitions of the n-th tetrahedral number (A000292).",
+  "id": "A336605",
+  "mentions": [
+    "A000041",
+    "A000292",
+    "A066655"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

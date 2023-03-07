@@ -1,0 +1,19 @@
+{
+  "description": "A prime based vector recursion: a(n)={Prime[n+1],Prime[n],Prime[n-1],-Prime[n-2],...,-1,-1}.",
+  "id": "A152721",
+  "mentions": [
+    "A027293",
+    "A152568"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

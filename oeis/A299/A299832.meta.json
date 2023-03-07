@@ -1,0 +1,19 @@
+{
+  "description": "Coefficients in expansion of (q*j(q))^(-1/2) where j(q) is the elliptic modular invariant (A000521).",
+  "id": "A299832",
+  "mentions": [
+    "A000521",
+    "A161361"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 0,
+    "size": 13,
+    "source": "joeis"
+  }
+}

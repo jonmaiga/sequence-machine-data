@@ -1,0 +1,21 @@
+{
+  "description": "For n > 0, a(n) is the total number of terms in all contiguous subsequences of the terms up to a(n-1) that sum to n; a(0) = 1.",
+  "id": "A358537",
+  "mentions": [
+    "A331614",
+    "A359034",
+    "A359634"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "changed",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

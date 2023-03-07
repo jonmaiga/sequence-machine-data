@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that 8 divides prime(1)+...+prime(n).",
+  "id": "A111322",
+  "mentions": [
+    "A007504"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

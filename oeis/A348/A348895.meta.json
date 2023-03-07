@@ -1,0 +1,20 @@
+{
+  "description": "Largest n-digit number such that the remainder after dividing by sum of digits is A348730(n).",
+  "id": "A348895",
+  "mentions": [
+    "A348730",
+    "A348799",
+    "A348894"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Number of hyperforests with n unlabeled vertices: analog of A134955 when edges of size 1 are allowed (with no two equal edges).",
+  "id": "A134957",
+  "mentions": [
+    "A030019",
+    "A035053",
+    "A048143",
+    "A054921",
+    "A134955",
+    "A134959",
+    "A144959",
+    "A304867",
+    "A304911",
+    "A318494"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

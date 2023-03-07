@@ -1,0 +1,20 @@
+{
+  "description": "Smallest modulus of any n X n integer determinant whose top row has all 1's and whose rows are pairwise orthogonal.",
+  "id": "A327271",
+  "mentions": [
+    "A001222",
+    "A327267",
+    "A327273"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

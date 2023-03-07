@@ -1,0 +1,19 @@
+{
+  "description": "Number of trees over all forests of labeled rooted trees in which some (possibly all or none) of the trees have been specially designated.",
+  "id": "A225573",
+  "mentions": [
+    "A089140",
+    "A225497"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

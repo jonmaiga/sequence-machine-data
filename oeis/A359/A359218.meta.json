@@ -1,0 +1,20 @@
+{
+  "description": "Let S(n) be the sequence obtained through the mapping of x->A359194(x) starting with n and stopping when 0 is reached, -1 if 0 is never reached. a(n) = m if appears in S(k), k < n, otherwise -1.",
+  "id": "A359218",
+  "mentions": [
+    "A359194",
+    "A359207",
+    "A359215"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

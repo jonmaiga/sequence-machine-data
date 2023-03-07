@@ -1,0 +1,20 @@
+{
+  "description": "Diagonal sums of the Fibonacci related number triangle A110314.",
+  "id": "A110315",
+  "mentions": [
+    "A110314",
+    "A110331"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:06:41",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

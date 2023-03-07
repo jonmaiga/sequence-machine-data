@@ -1,0 +1,20 @@
+{
+  "description": "The sequence denoted by q_n used in the calculation of A323260.",
+  "id": "A323267",
+  "mentions": [
+    "A323260",
+    "A323269"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:41:14",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

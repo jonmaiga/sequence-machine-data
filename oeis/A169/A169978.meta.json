@@ -1,0 +1,20 @@
+{
+  "description": "The individual digits in A104056.",
+  "id": "A169978",
+  "mentions": [
+    "A104056"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "more",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

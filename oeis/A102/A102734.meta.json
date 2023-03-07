@@ -1,0 +1,20 @@
+{
+  "description": "Primes of the form 23n+5.",
+  "id": "A102734",
+  "mentions": [
+    "A040984",
+    "A100201",
+    "A141908"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 19:16:41",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

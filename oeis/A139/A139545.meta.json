@@ -1,0 +1,18 @@
+{
+  "description": "Binomial transform of [1, 0, 0, 4, 0, 0, 7, 0, 0, 10, ...].",
+  "id": "A139545",
+  "mentions": [
+    "A007318"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:19:32",
+    "offset": 1,
+    "size": 31,
+    "source": "joeis"
+  }
+}

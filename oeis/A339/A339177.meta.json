@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of arrangements on n pseudocircles which are NonKrupp-packed.",
+  "id": "A339177",
+  "mentions": [
+    "A006248",
+    "A018242",
+    "A296406"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 3,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

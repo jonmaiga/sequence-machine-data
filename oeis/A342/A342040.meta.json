@@ -1,0 +1,26 @@
+{
+  "description": "Binary palindromes of odd length.",
+  "id": "A342040",
+  "mentions": [
+    "A006995",
+    "A007088",
+    "A048700",
+    "A057148",
+    "A070939",
+    "A305989",
+    "A342036"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

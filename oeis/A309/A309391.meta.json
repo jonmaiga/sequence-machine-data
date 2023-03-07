@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = gcd(n, A064169(n-2)) for n > 2.",
+  "id": "A309391",
+  "mentions": [
+    "A001008",
+    "A002805",
+    "A007406",
+    "A064169",
+    "A065091",
+    "A089026",
+    "A309397"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 3,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

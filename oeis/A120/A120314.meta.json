@@ -1,0 +1,20 @@
+{
+  "description": "First occurrence of consecutive refactorable numbers a(n)-1, a(n) where the smallest prime factor of a(n) is the n-th prime prime(n).",
+  "id": "A120314",
+  "mentions": [
+    "A033950",
+    "A036898",
+    "A114617"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

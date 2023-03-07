@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (-1)^(n-k) * k^(k*(n-k)).",
+  "id": "A349894",
+  "mentions": [
+    "A349856",
+    "A349857",
+    "A349858",
+    "A349891",
+    "A349893"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

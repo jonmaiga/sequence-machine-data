@@ -1,0 +1,20 @@
+{
+  "description": "Numbers of the form p*q where p, q are distinct primes congruent to 1 mod 4 such that Legendre(p/q) = -1.",
+  "id": "A322781",
+  "mentions": [
+    "A002144",
+    "A031396",
+    "A323271",
+    "A323272"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

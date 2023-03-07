@@ -1,0 +1,22 @@
+{
+  "description": "Primorial deflation of highly factorable numbers: a(n) is the unique integer x such that A108951(x) = A033833(n).",
+  "id": "A330685",
+  "mentions": [
+    "A001055",
+    "A028422",
+    "A033833",
+    "A108951",
+    "A329900"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

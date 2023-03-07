@@ -1,0 +1,18 @@
+{
+  "description": "Subsequence of A259981 for bases b in A005381.",
+  "id": "A259983",
+  "mentions": [
+    "A005381",
+    "A259981"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

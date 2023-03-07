@@ -1,0 +1,24 @@
+{
+  "description": "Nonnegative integers k such that k and k^2 contain the same number of zero digits in their decimal expansion.",
+  "id": "A328781",
+  "mentions": [
+    "A052040",
+    "A104315",
+    "A134844",
+    "A323780",
+    "A328780",
+    "A328782",
+    "A328783"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

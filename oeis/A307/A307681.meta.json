@@ -1,0 +1,21 @@
+{
+  "description": "Difference between the number of diagonals and the number of sides for a convex n-gon.",
+  "id": "A307681",
+  "mentions": [
+    "A000096",
+    "A006561",
+    "A007678"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:43:35",
+    "offset": 3,
+    "size": 68,
+    "source": "joeis"
+  }
+}

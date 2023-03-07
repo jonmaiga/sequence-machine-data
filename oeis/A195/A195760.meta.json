@@ -1,0 +1,20 @@
+{
+  "description": "G.f.: A(x) = exp( Sum_{n>=1} 5*5^A112765(n) * x^n/n ), where A112765 is the exponent of the highest power of 5 dividing n.",
+  "id": "A195760",
+  "mentions": [
+    "A112765",
+    "A161809",
+    "A195761"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Sequence of nim-values for the game in which two players alternately cut off one inch or root two inches from a piece of string of length n. Player who runs out of string loses.",
+  "id": "A119346",
+  "mentions": [
+    "A003151",
+    "A006337",
+    "A276862"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

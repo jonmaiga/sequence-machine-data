@@ -1,0 +1,18 @@
+{
+  "description": "Number of primitive (no repeated characters) and irreducible (not the concatenation of generatable strings) strings obtained from abc by iterated repetition of substrings in place.",
+  "id": "A135157",
+  "mentions": [
+    "A135156",
+    "A135473"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

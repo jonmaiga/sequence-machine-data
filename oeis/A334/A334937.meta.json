@@ -1,0 +1,19 @@
+{
+  "description": "Sum of the smallest side lengths of all Heronian triangles with even sides and perimeter A334936(n).",
+  "id": "A334937",
+  "mentions": [
+    "A334936",
+    "A334938",
+    "A334939"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

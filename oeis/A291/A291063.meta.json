@@ -1,0 +1,19 @@
+{
+  "description": "Number of maximal irredundant sets in the n-wheel graph.",
+  "id": "A291063",
+  "mentions": [
+    "A286954",
+    "A290494"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 2,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

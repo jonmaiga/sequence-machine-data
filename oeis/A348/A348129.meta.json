@@ -1,0 +1,33 @@
+{
+  "description": "Number T(n,k) of ways to place k nonattacking queens on an n X n board; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A348129",
+  "mentions": [
+    "A000012",
+    "A000170",
+    "A000290",
+    "A036464",
+    "A047659",
+    "A061994",
+    "A090642",
+    "A108792",
+    "A144084",
+    "A176186",
+    "A178717",
+    "A178721",
+    "A252593",
+    "A287227",
+    "A348130"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 1. The n-th run (after the initial 1) of A138529(n) terms is (1,2,3,...,A138529(n)), where A138529(n) = Sum_{k=1..n} a(k).",
+  "id": "A138528",
+  "mentions": [
+    "A138529"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

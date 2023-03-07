@@ -1,0 +1,27 @@
+{
+  "description": "Shift one instance of the smallest prime one step towards smaller primes: a(1) = 1, a(2n) = n, and for odd numbers > 1: a(n) = (n / prime(s)) * prime(s-1), where s = A055396(n), index of the smallest prime dividing n.",
+  "id": "A252461",
+  "mentions": [
+    "A000027",
+    "A001222",
+    "A008578",
+    "A032742",
+    "A055396",
+    "A056239",
+    "A064989",
+    "A129128",
+    "A252462",
+    "A252463"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:10",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

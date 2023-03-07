@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Omega, a constant related to an explicit form of the triple Gamma function Gamma_3 (negated).",
+  "id": "A259494",
+  "mentions": [
+    "A074962"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

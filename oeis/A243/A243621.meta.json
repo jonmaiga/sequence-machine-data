@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n whose digital sum equals the number of bits in its binary expansion. Repeated digits in decimal expansion are not allowed.",
+  "id": "A243621",
+  "mentions": [
+    "A243615"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

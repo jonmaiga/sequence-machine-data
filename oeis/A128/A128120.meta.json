@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that n-th and (n+1)-th primes are in A125146.",
+  "id": "A128120",
+  "mentions": [
+    "A125146"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

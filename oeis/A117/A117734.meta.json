@@ -1,0 +1,21 @@
+{
+  "description": "Absolute difference between the n-th primorial and the n-th compositorial number.",
+  "id": "A117734",
+  "mentions": [
+    "A034386",
+    "A049614",
+    "A117683",
+    "A117733"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

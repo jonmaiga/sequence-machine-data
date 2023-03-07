@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that the index of the prime and the prime share some digit.",
+  "id": "A119393",
+  "mentions": [
+    "A000027",
+    "A000040",
+    "A243355"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of composites < n-th odd composite.",
+  "id": "A336407",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A014076",
+    "A336406",
+    "A336408"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

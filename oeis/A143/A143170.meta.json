@@ -1,0 +1,20 @@
+{
+  "description": "Fifth column of triangle A000369: |S2(-3;n+5,5)|.",
+  "id": "A143170",
+  "mentions": [
+    "A000369",
+    "A143169"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

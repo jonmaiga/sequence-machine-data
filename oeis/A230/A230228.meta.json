@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the smallest palindromic prime that is the first of n consecutive palindromic primes whose product of digits is equal and nonzero.",
+  "id": "A230228",
+  "mentions": [
+    "A002385",
+    "A007954",
+    "A053666",
+    "A230082",
+    "A230200"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = floor(A143176(n+1)/A143176(n)) when A143176(n) < A143176(n+1); or -ceiling(A143176(n)/A143176(n+1)) when A143176(n) > A143176(n+1).",
+  "id": "A144365",
+  "mentions": [
+    "A143176"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

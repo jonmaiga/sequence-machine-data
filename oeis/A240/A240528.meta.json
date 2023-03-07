@@ -1,0 +1,25 @@
+{
+  "description": "Indices of 8-almost prime triangular numbers.",
+  "id": "A240528",
+  "mentions": [
+    "A000217",
+    "A046310",
+    "A069904",
+    "A108815",
+    "A114435",
+    "A114436",
+    "A114437",
+    "A164977"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:57",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Triangle T(n, k) = 2*binomial(n, k) with T(0, 0) = 1, read by rows.",
+  "id": "A134058",
+  "mentions": [
+    "A007318",
+    "A028326",
+    "A046055",
+    "A084938",
+    "A134059",
+    "A151821",
+    "A173048",
+    "A173049"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:16:35",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

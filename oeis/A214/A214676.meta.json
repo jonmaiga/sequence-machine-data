@@ -1,0 +1,27 @@
+{
+  "description": "A(n,k) is n represented in bijective base-k numeration; square array A(n,k), n>=1, k>=1, read by antidiagonals.",
+  "id": "A214676",
+  "mentions": [
+    "A000042",
+    "A007931",
+    "A007932",
+    "A010850",
+    "A052382",
+    "A057436",
+    "A084544",
+    "A084545",
+    "A214677",
+    "A214678"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

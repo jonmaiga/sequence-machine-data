@@ -1,0 +1,20 @@
+{
+  "description": "Largest order of any solvable transitive Galois group for an irreducible polynomial of degree n.",
+  "id": "A124900",
+  "mentions": [
+    "A036689",
+    "A099732",
+    "A124901",
+    "A186772"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

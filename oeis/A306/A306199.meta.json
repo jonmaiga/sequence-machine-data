@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k having the property that tau(4*k) < tau(3*k) where tau = A000005.",
+  "id": "A306199",
+  "mentions": [
+    "A000005",
+    "A001651",
+    "A007814",
+    "A007949",
+    "A092259"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

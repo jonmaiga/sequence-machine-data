@@ -1,0 +1,21 @@
+{
+  "description": "Lexicographically earliest such sequence a that a(i) = a(j) => A014197(i) = A014197(j) and A081373(i) = A081373(j), for all i, j. Here A081373(n) gives the number of k, 1 <= k <= n, with phi(k) = phi(n), while A014197(n) gives the number of integers m with phi(m) = n.",
+  "id": "A322024",
+  "mentions": [
+    "A014197",
+    "A081373",
+    "A305896",
+    "A319339",
+    "A322023"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

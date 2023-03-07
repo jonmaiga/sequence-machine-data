@@ -1,0 +1,26 @@
+{
+  "description": "Partial sums of binomials binomial(3n,n)^2/(2n+1)^2.",
+  "id": "A188684",
+  "mentions": [
+    "A001764",
+    "A005809",
+    "A188679",
+    "A188680",
+    "A188681",
+    "A188682",
+    "A188683",
+    "A188685"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

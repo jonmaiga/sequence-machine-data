@@ -1,0 +1,22 @@
+{
+  "description": "Number of free polyiamonds of n cells with multiply-connected interiors.",
+  "id": "A359523",
+  "mentions": [
+    "A000577",
+    "A070764",
+    "A359519",
+    "A359524"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 12,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

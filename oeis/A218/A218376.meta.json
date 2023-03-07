@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 5^n*sum_{i=1..n} i^5/5^i.",
+  "id": "A218376",
+  "mentions": [
+    "A000217",
+    "A008292",
+    "A047520",
+    "A066999",
+    "A067534"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:13:01",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

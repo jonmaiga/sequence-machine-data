@@ -1,0 +1,19 @@
+{
+  "description": "Least j > 1 such that j^2 = (4*n^2 + 2)*(k^2) + (4*n^2 + 2)*k + 1.",
+  "id": "A106231",
+  "mentions": [
+    "A106232"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:37:01",
+    "offset": 1,
+    "size": 38,
+    "source": "joeis"
+  }
+}

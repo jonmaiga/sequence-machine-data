@@ -1,0 +1,18 @@
+{
+  "description": "Number of (n+1)X4 binary arrays with no 2X2 subblock containing fewer than two 1s",
+  "id": "A184201",
+  "mentions": [
+    "A184207"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:08",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

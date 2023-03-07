@@ -1,0 +1,22 @@
+{
+  "description": "Smallest k such that m - gpf(m) = k has exactly n solutions m >= 2, gpf = A006530; or -1 if no such k exists.",
+  "id": "A354516",
+  "mentions": [
+    "A006530",
+    "A076563",
+    "A354512",
+    "A354525"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

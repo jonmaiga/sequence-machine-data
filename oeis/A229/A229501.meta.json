@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that Sum_{i=1..k} i' == 0 (mod k), where i' is the arithmetic derivative of i.",
+  "id": "A229501",
+  "mentions": [
+    "A003415",
+    "A190121",
+    "A227848"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

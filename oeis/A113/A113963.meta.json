@@ -1,0 +1,21 @@
+{
+  "description": "a(1)=1; for n>1, a(n) is the smallest positive integer not occurring earlier in the sequence where |a(n)-a(n-1)| does not divide (a(n)+a(n-1)).",
+  "id": "A113963",
+  "mentions": [
+    "A113964",
+    "A113965",
+    "A113966",
+    "A246433",
+    "A246704"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

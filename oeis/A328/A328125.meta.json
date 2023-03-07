@@ -1,0 +1,18 @@
+{
+  "description": "Let (e*y)^(e*x) = (e*x)^(e*y), y <> x. Denominators of Taylor coefficients of y about x=1.",
+  "id": "A328125",
+  "mentions": [
+    "A328124"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

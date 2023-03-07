@@ -1,0 +1,23 @@
+{
+  "description": "Invert transform of the Bell numbers.",
+  "id": "A129247",
+  "mentions": [
+    "A000110",
+    "A000178",
+    "A003633",
+    "A055887",
+    "A083355",
+    "A137551"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:17",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

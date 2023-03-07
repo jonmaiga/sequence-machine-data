@@ -1,0 +1,20 @@
+{
+  "description": "Smallest k such that k! can be represented as the sum of the n-th powers of two or more distinct primes; or -1 if no such k exists.",
+  "id": "A308357",
+  "mentions": [
+    "A079612",
+    "A308459"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

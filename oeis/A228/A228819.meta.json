@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of 8*Pi*G/c^4, where G is the Newtonian constant of gravitation and c = 299792458 m/s is the speed of light in vacuum.",
+  "id": "A228819",
+  "mentions": [
+    "A000796",
+    "A003678",
+    "A070058",
+    "A183001",
+    "A228817",
+    "A228818",
+    "A228824"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": -42,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that difference between p and next prime after p is multiple of 6.",
+  "id": "A258578",
+  "mentions": [
+    "A031924",
+    "A124582",
+    "A130796"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

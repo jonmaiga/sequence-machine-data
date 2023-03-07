@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = 3 * h(n - 1) * h(n) for n >= 1, where h(n) = hypergeom([-n, -n], [1], 2), and a(0) = 1.",
+  "id": "A358387",
+  "mentions": [
+    "A358388"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "The Hadamard product of omega(n) and A007875(n).",
+  "id": "A273711",
+  "mentions": [
+    "A001221",
+    "A007875"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:23:17",
+    "offset": 1,
+    "size": 85,
+    "source": "joeis"
+  }
+}

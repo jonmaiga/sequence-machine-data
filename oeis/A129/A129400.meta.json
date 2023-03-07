@@ -1,0 +1,22 @@
+{
+  "description": "Number of walks of length n on one 60-degree wedge of the equilateral triangular lattice. The walk can go along the walls of the wedge, but cannot cross the walls.",
+  "id": "A129400",
+  "mentions": [
+    "A000108",
+    "A001006",
+    "A005572"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:17",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

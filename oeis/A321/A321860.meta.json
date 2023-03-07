@@ -1,0 +1,33 @@
+{
+  "description": "Number of primes congruent to 2, 6, 7, 8, 10 modulo 11 and <= n minus number of primes congruent to 1, 3, 4, 5, 9 modulo 11 and <= n.",
+  "id": "A321860",
+  "mentions": [
+    "A011582",
+    "A038698",
+    "A066520",
+    "A071838",
+    "A112632",
+    "A320857",
+    "A320858",
+    "A321856",
+    "A321857",
+    "A321858",
+    "A321859",
+    "A321861",
+    "A321862",
+    "A321863",
+    "A321864",
+    "A321865"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

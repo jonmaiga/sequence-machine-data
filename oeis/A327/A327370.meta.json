@@ -1,0 +1,26 @@
+{
+  "description": "Number of labeled simple graphs with n vertices and exactly n - 1 endpoints (vertices of degree 1).",
+  "id": "A327370",
+  "mentions": [
+    "A006125",
+    "A028242",
+    "A059167",
+    "A100743",
+    "A245797",
+    "A294217",
+    "A327227",
+    "A327369",
+    "A327377"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

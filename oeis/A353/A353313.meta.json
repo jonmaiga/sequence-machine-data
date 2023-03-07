@@ -1,0 +1,23 @@
+{
+  "description": "If n is of the form 3k, then a(n) = k, and if n is of the form 3k+r, with r = 1 or 2, then a(n) = 5*k + 3 + r.",
+  "id": "A353313",
+  "mentions": [
+    "A349876",
+    "A353305",
+    "A353309",
+    "A353310",
+    "A353311",
+    "A353312",
+    "A353314"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

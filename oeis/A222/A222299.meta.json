@@ -1,0 +1,18 @@
+{
+  "description": "Number of different Gaussian primes in the Gaussian prime spiral beginning at the n-th positive real Gaussian prime (A002145).",
+  "id": "A222299",
+  "mentions": [
+    "A002145",
+    "A222298"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Moebius transform of A344005.",
+  "id": "A346615",
+  "mentions": [
+    "A011772",
+    "A344005",
+    "A344767",
+    "A346614",
+    "A346616"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:29",
+    "offset": 0,
+    "size": 80,
+    "source": "joeis"
+  }
+}

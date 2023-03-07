@@ -1,0 +1,19 @@
+{
+  "description": "Number of effective multiple alignments of three equal-length sequences.",
+  "id": "A124435",
+  "mentions": [
+    "A268545",
+    "A268555"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

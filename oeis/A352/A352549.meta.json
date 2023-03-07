@@ -1,0 +1,22 @@
+{
+  "description": "Irregular table, read by rows: row n lists all numbers equal to n times the number of their divisors.",
+  "id": "A352549",
+  "mentions": [
+    "A000005",
+    "A033950",
+    "A036763",
+    "A036764",
+    "A051521"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

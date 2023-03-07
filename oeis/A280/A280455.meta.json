@@ -1,0 +1,23 @@
+{
+  "description": "Number of ways to write n as x*(3x-1)/2 + y*(3y+1)/2 + p(z), where x,y,z are nonnegative integers with z > 0, and p(.) is the partition function given by A000041.",
+  "id": "A280455",
+  "mentions": [
+    "A000041",
+    "A000217",
+    "A000326",
+    "A005449",
+    "A280386",
+    "A280444",
+    "A280472"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:48",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

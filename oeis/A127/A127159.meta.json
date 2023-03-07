@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n,k) with T(n,k) = A061554(n,k) + A107430(n,k).",
+  "id": "A127159",
+  "mentions": [
+    "A061554",
+    "A107430"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that sigma(n)-n-1 divides sigma(n+1)-n-2, where sigma(n) is sum of positive divisors of n and the ratio is greater than zero.",
+  "id": "A132585",
+  "mentions": [
+    "A002961",
+    "A058072",
+    "A058073",
+    "A132586"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

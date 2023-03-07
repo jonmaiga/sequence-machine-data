@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the first positive number that can be represented in exactly n ways as the sum of cubes of three distinct integers in arithmetic progression.",
+  "id": "A359078",
+  "mentions": [
+    "A359030"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

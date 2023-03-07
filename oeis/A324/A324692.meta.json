@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = partial sums of A324672.",
+  "id": "A324692",
+  "mentions": [
+    "A228474",
+    "A324660",
+    "A324672",
+    "A324691"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

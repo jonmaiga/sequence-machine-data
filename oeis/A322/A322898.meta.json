@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the permanent of the matrix [((i + j)/(2*n + 1))]_{i,j=0..n}, where (k/m) denotes the Jacobi symbol.",
+  "id": "A322898",
+  "mentions": [
+    "A322363"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

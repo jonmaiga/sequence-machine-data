@@ -1,0 +1,17 @@
+{
+  "description": "Number of distinct planar connected n-polyhexes having a minimal number of vertices.",
+  "id": "A284373",
+  "mentions": [
+    "A121149"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

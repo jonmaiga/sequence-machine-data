@@ -1,0 +1,17 @@
+{
+  "description": "Multiples of 6 that either are Averages of Twin Prime Pairs (ATPP), or become ATPP when multiplied by 3.",
+  "id": "A236240",
+  "mentions": [
+    "A008588"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:53",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

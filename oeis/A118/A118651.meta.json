@@ -1,0 +1,31 @@
+{
+  "description": "Numbers k such that k^2 is a palindrome when written in base 17.",
+  "id": "A118651",
+  "mentions": [
+    "A002778",
+    "A016106",
+    "A028818",
+    "A029733",
+    "A029805",
+    "A029984",
+    "A029986",
+    "A029988",
+    "A029990",
+    "A029992",
+    "A029994",
+    "A029996",
+    "A059744",
+    "A059745"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:38",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

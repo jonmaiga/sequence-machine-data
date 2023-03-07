@@ -1,0 +1,22 @@
+{
+  "description": "Constant term in the expansion of (-1 + (1 + x + 1/x) * (1 + y + 1/y) * (1 + z + 1/z))^n.",
+  "id": "A328874",
+  "mentions": [
+    "A002426",
+    "A094061",
+    "A126869",
+    "A326920",
+    "A328875"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

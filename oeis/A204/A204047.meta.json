@@ -1,0 +1,24 @@
+{
+  "description": "Smallest number that is n-persistent but not (n+1)-persistent, i.e., k, 2k, ..., nk, but not (n+1)k, are pandigital in the sense of A171102; 0 if such a number does not exist.",
+  "id": "A204047",
+  "mentions": [
+    "A051018",
+    "A051019",
+    "A051020",
+    "A051264",
+    "A171102",
+    "A204096",
+    "A204097"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

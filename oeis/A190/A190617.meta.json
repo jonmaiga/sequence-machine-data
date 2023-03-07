@@ -1,0 +1,17 @@
+{
+  "description": "The smallest prime q <= prime(n) such that 1 + q# * prime(n)# is prime, or 0 if no such q exists.",
+  "id": "A190617",
+  "mentions": [
+    "A002110"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

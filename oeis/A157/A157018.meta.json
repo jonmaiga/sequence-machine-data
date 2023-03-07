@@ -1,0 +1,25 @@
+{
+  "description": "Triangle T(n,k) read by rows: number of k-lists (ordered k-sets) of disjoint 2-subsets of an n-set, n>1, 0",
+  "id": "A157018",
+  "mentions": [
+    "A000262",
+    "A000680",
+    "A087214",
+    "A100861",
+    "A126725",
+    "A129684"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 2,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Order of the full automorphism group of an n^2 X n^2 Sudoku puzzle.",
+  "id": "A346008",
+  "mentions": [
+    "A159299",
+    "A182866"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

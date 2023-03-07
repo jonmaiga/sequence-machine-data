@@ -1,0 +1,20 @@
+{
+  "description": "a(n) equals the sum of all permutations of compositions of functions (1 + k*x) for k=1..n, evaluated at x=1.",
+  "id": "A277406",
+  "mentions": [
+    "A277405",
+    "A277407",
+    "A277408"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

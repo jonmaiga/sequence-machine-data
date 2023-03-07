@@ -1,0 +1,32 @@
+{
+  "description": "Continued fraction expansion of the Fibonacci nested radical (A105817).",
+  "id": "A105818",
+  "mentions": [
+    "A000045",
+    "A072449",
+    "A083869",
+    "A099874",
+    "A099876",
+    "A099877",
+    "A099878",
+    "A099879",
+    "A105546",
+    "A105548",
+    "A105815",
+    "A105816",
+    "A105817",
+    "A239349"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cofr",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

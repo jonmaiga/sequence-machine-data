@@ -1,0 +1,18 @@
+{
+  "description": "Numbers of the form 3*2^p*(2^p-1) where 2^p-1 is a (Mersenne) prime greater than 3.",
+  "id": "A110075",
+  "mentions": [
+    "A000668",
+    "A068420"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

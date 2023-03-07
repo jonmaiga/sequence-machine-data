@@ -1,0 +1,25 @@
+{
+  "description": "Number of possible prime patterns for centuries having exactly n primes.",
+  "id": "A261571",
+  "mentions": [
+    "A010956",
+    "A038822",
+    "A181098",
+    "A186311",
+    "A186393",
+    "A186408",
+    "A186509"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

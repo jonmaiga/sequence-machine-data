@@ -1,0 +1,22 @@
+{
+  "description": "Number of self-measuring subsets of the initial segment of the natural numbers strictly below n. Number of subsets S of [n] with S = distset(S).",
+  "id": "A350102",
+  "mentions": [
+    "A000005",
+    "A006218",
+    "A054519",
+    "A349976",
+    "A350103"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

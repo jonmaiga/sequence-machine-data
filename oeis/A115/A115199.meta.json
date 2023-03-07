@@ -1,0 +1,21 @@
+{
+  "description": "Parity of partitions of n, with 0 for even, 1 for odd. The definition follows.",
+  "id": "A115199",
+  "mentions": [
+    "A000041",
+    "A115198"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

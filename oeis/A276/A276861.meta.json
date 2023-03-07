@@ -1,0 +1,20 @@
+{
+  "description": "First differences of the Beatty sequence A038130 for 2*Pi.",
+  "id": "A276861",
+  "mentions": [
+    "A038130",
+    "A276878"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

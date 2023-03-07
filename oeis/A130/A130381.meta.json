@@ -1,0 +1,19 @@
+{
+  "description": "Signature permutation of a Catalan automorphism: row 4 of A130400.",
+  "id": "A130381",
+  "mentions": [
+    "A089851",
+    "A130382",
+    "A130400"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

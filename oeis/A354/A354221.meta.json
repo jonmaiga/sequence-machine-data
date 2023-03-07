@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the numerator of the sum of reciprocals of the 2*n+1 consecutive primes starting with A353534(n).",
+  "id": "A354221",
+  "mentions": [
+    "A353534"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

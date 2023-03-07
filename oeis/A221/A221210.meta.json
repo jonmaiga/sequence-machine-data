@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the abscissa of the half width of the Airy function.",
+  "id": "A221210",
+  "mentions": [
+    "A115369",
+    "A245461"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

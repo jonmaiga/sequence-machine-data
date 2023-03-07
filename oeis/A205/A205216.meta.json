@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of n into parts having no 2 in ternary representation.",
+  "id": "A205216",
+  "mentions": [
+    "A005836",
+    "A007088",
+    "A205217"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

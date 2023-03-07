@@ -1,0 +1,25 @@
+{
+  "description": "Square array read by antidiagonals: S(p,q) = (p+q+1)!(2p+2q+1)!/((p+1)!(2p+1)!(q+1)!(2q+1)!) (p,q>=0).",
+  "id": "A111910",
+  "mentions": [
+    "A001263",
+    "A007318",
+    "A081442",
+    "A091044",
+    "A111911",
+    "A174158",
+    "A196148"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

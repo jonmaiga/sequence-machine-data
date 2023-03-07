@@ -1,0 +1,23 @@
+{
+  "description": "Numerators of the sequence whose Dirichlet convolution with itself yields A018804, Pillai's arithmetical function: Sum_{k=1..n} gcd(k, n).",
+  "id": "A318443",
+  "mentions": [
+    "A018804",
+    "A046644",
+    "A317937",
+    "A318444"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "frac",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:39",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

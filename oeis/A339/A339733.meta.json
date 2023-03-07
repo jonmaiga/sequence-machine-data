@@ -1,0 +1,22 @@
+{
+  "description": "Square array T(n, k) read by antidiagonals, n > 0 and k > 0; let G be the undirected graph with nodes {g_k, k > 0} such that for any k > 0, g_k is connected to g_{k+1} and g_{A064413(k)} is connected to g_{A064413(k+1)}; T(n, k) is the distance between g_n and g_k.",
+  "id": "A339733",
+  "mentions": [
+    "A064413",
+    "A064664",
+    "A339731",
+    "A339732"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

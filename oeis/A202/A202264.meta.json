@@ -1,0 +1,26 @@
+{
+  "description": "Noncomposite numbers in which all substrings and reversal substrings are noncomposites.",
+  "id": "A202264",
+  "mentions": [
+    "A012883",
+    "A024770",
+    "A068669",
+    "A085823",
+    "A202263",
+    "A202265",
+    "A202266"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

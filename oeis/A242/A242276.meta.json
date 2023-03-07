@@ -1,0 +1,22 @@
+{
+  "description": "Irregular array of factors of n-th Poulet number read by rows, where row n corresponds to A001567(n).",
+  "id": "A242276",
+  "mentions": [
+    "A001567",
+    "A007011",
+    "A084653",
+    "A084654",
+    "A084655"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

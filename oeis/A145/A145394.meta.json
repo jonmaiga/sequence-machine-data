@@ -1,0 +1,32 @@
+{
+  "description": "Number of inequivalent sublattices of index n in hexagonal lattice, where two sublattices are considered equivalent if one can be rotated by a multiple of Pi/3 to give the other.",
+  "id": "A145394",
+  "mentions": [
+    "A000086",
+    "A000203",
+    "A002324",
+    "A002654",
+    "A003051",
+    "A008611",
+    "A054384",
+    "A069734",
+    "A069735",
+    "A145390",
+    "A145391",
+    "A145392",
+    "A145393",
+    "A157227",
+    "A300651"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

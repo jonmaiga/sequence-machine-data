@@ -1,0 +1,27 @@
+{
+  "description": "Number of partitions of n into at most 6 distinct prime parts.",
+  "id": "A358011",
+  "mentions": [
+    "A000040",
+    "A000586",
+    "A219180",
+    "A219200",
+    "A223893",
+    "A347550",
+    "A347588",
+    "A347610",
+    "A347743",
+    "A358009",
+    "A358010"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

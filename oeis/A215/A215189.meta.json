@@ -1,0 +1,28 @@
+{
+  "description": "Array t(n,k) of the family ((n+k)/gcd(n+k,4))*(n/gcd(n,4)), read by antidiagonals.",
+  "id": "A215189",
+  "mentions": [
+    "A060819",
+    "A061037",
+    "A064038",
+    "A068219",
+    "A160050",
+    "A178242",
+    "A181318",
+    "A198148",
+    "A217366",
+    "A217367"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

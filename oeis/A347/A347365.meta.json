@@ -1,0 +1,36 @@
+{
+  "description": "a(n) = n * (2-(-1)^n), or zero together with first differences of even triangular numbers halved (A074378).",
+  "id": "A347365",
+  "mentions": [
+    "A000027",
+    "A000035",
+    "A005843",
+    "A008585",
+    "A008586",
+    "A010684",
+    "A014682",
+    "A016921",
+    "A016945",
+    "A016969",
+    "A026741",
+    "A033428",
+    "A074378",
+    "A086970",
+    "A165998",
+    "A166519",
+    "A193356",
+    "A237420"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 17:22:57",
+    "offset": 0,
+    "size": 65,
+    "source": "joeis"
+  }
+}

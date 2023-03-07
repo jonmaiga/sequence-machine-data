@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X 1 0..4 arrays with no three equal values in a row horizontally or vertically, and new values 0..4 introduced in row major order.",
+  "id": "A222919",
+  "mentions": [
+    "A222924"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

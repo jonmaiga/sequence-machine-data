@@ -1,0 +1,19 @@
+{
+  "description": "Antidiagonal expansion of: f(t,n) = If[n == 1, 1/(1 - t), 1/(1 - t^floor(n/2) - t^n)].",
+  "id": "A144409",
+  "mentions": [
+    "A099238"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

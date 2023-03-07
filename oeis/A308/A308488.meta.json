@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest n-gonal pyramidal number greater than 1 which is also n-gonal; a(n) = 0 when one does not exist.",
+  "id": "A308488",
+  "mentions": [
+    "A027669",
+    "A057145",
+    "A080851"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 3,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

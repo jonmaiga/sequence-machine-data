@@ -1,0 +1,21 @@
+{
+  "description": "Where the parity of A352931 changes.",
+  "id": "A352932",
+  "mentions": [
+    "A093714",
+    "A351498",
+    "A352588",
+    "A352931"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Number of Hamiltonian cycles in the undirected simple graph G_n with vertices 1,...,n which has an edge connecting vertices i and j if and only if |i-j| is prime.",
+  "id": "A228626",
+  "mentions": [
+    "A000040",
+    "A051239",
+    "A051252",
+    "A185645",
+    "A227050",
+    "A242527",
+    "A242528"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

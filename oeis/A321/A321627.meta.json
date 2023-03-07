@@ -1,0 +1,23 @@
+{
+  "description": "The Riordan square of the double factorial of odd numbers. Triangle T(n, k), 0 <= k <= n, read by rows.",
+  "id": "A321627",
+  "mentions": [
+    "A000007",
+    "A001147",
+    "A084938",
+    "A233481",
+    "A321620",
+    "A321628"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

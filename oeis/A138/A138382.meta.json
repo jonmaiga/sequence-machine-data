@@ -1,0 +1,19 @@
+{
+  "description": "First differences of A138380. Second differences of A138377.",
+  "id": "A138382",
+  "mentions": [
+    "A138377",
+    "A138380"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 17:45:35",
+    "offset": 0,
+    "size": 42,
+    "source": "joeis"
+  }
+}

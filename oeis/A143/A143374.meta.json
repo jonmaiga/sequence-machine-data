@@ -1,0 +1,23 @@
+{
+  "description": "G.f.: eta(q)*eta(q^3)*eta(q^9)*eta(q^27)*eta(q^81)*eta(q^243)*..., where eta(q) = Product((1-q^m), m=1..oo).",
+  "id": "A143374",
+  "mentions": [
+    "A010815",
+    "A030189",
+    "A083650",
+    "A160832",
+    "A170925",
+    "A173241",
+    "A194087"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 0,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

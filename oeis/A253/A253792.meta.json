@@ -1,0 +1,23 @@
+{
+  "description": "Permutation of natural numbers: a(n) = A156552(A244154(n)).",
+  "id": "A253792",
+  "mentions": [
+    "A054429",
+    "A156552",
+    "A244154",
+    "A253791",
+    "A253884",
+    "A253892"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

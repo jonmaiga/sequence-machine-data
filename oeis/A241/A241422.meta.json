@@ -1,0 +1,21 @@
+{
+  "description": "Limit-reverse of the infinite Fibonacci word A003849 with first term as initial block.",
+  "id": "A241422",
+  "mentions": [
+    "A003849",
+    "A245920",
+    "A245921"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "obsc"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

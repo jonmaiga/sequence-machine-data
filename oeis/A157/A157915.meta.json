@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 625*n^2 + 25.",
+  "id": "A157915",
+  "mentions": [
+    "A005843",
+    "A157916"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

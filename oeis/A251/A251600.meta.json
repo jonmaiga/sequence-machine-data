@@ -1,0 +1,18 @@
+{
+  "description": "Least k such that prime(k) + prime(k+1) contains n prime divisors (with multiplicity), otherwise 0.",
+  "id": "A251600",
+  "mentions": [
+    "A000040",
+    "A001222"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:09",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

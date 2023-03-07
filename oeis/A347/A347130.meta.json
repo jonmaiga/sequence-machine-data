@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = Sum_{d|n} d * A003415(n/d), where A003415 is the arithmetic derivative.",
+  "id": "A347130",
+  "mentions": [
+    "A000010",
+    "A000027",
+    "A003415",
+    "A003557",
+    "A300251",
+    "A305809",
+    "A319684",
+    "A347129",
+    "A347131",
+    "A347132",
+    "A347133"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

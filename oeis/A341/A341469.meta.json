@@ -1,0 +1,29 @@
+{
+  "description": "Number of partitions of n into 10 distinct nonprime parts.",
+  "id": "A341469",
+  "mentions": [
+    "A005171",
+    "A018252",
+    "A096258",
+    "A219204",
+    "A302479",
+    "A341460",
+    "A341461",
+    "A341462",
+    "A341464",
+    "A341465",
+    "A341466",
+    "A341467",
+    "A341468"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 95,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

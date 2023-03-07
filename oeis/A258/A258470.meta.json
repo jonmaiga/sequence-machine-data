@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n of order 10.",
+  "id": "A258470",
+  "mentions": [
+    "A256067"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:49:55",
+    "offset": 0,
+    "size": 62,
+    "source": "joeis"
+  }
+}

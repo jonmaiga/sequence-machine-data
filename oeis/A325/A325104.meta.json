@@ -1,0 +1,31 @@
+{
+  "description": "Number of increasing pairs of positive integers up to n with at least one binary carry.",
+  "id": "A325104",
+  "mentions": [
+    "A006218",
+    "A050315",
+    "A080572",
+    "A247935",
+    "A267610",
+    "A267700",
+    "A325094",
+    "A325096",
+    "A325098",
+    "A325102",
+    "A325103",
+    "A325106",
+    "A325108",
+    "A325123"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

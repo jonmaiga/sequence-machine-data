@@ -1,0 +1,17 @@
+{
+  "description": "Iteratively swap prime factors of n with their exponent (unless the exponent is 1), until a cycle is reached, and then record the largest term in the cycle.",
+  "id": "A323785",
+  "mentions": [
+    "A008477"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:48",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "The sequence solves the following problem: find all the pairs (i,j) such that i divides 1+j+j^2 and j divides 1+i+i^2. In fact, the pairs (a(n),a(n+1)), n>0, are all the solutions.",
+  "id": "A101368",
+  "mentions": [
+    "A001519",
+    "A004253",
+    "A061646",
+    "A089817",
+    "A276160"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

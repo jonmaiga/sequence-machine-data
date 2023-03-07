@@ -1,0 +1,21 @@
+{
+  "description": "Number of set partitions of {1, ..., n} that avoid enhanced 7-crossings (or enhanced 7-nestings)",
+  "id": "A192867",
+  "mentions": [
+    "A000110",
+    "A108307",
+    "A192855",
+    "A192865",
+    "A192866"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

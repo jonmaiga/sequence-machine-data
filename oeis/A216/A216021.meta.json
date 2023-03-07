@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = modlg(n^n, 2^n), where modlg is the function defined in A215894: modlg(a,b) = floor(a / b^floor(logb(a))), logb is the logarithm base b.",
+  "id": "A216021",
+  "mentions": [
+    "A215894"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

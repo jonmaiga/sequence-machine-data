@@ -1,0 +1,26 @@
+{
+  "description": "Numbers with digits 3 and 8 only.",
+  "id": "A284963",
+  "mentions": [
+    "A020464",
+    "A032810",
+    "A032834",
+    "A032917",
+    "A143967",
+    "A169966",
+    "A284379",
+    "A284633",
+    "A284964"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:23:21",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

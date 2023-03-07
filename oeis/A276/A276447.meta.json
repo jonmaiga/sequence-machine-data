@@ -1,0 +1,24 @@
+{
+  "description": "Numbers n for which A272565(n) < A020639(n).",
+  "id": "A276447",
+  "mentions": [
+    "A020639",
+    "A083221",
+    "A192505",
+    "A255127",
+    "A272565",
+    "A276347",
+    "A276437",
+    "A276448"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

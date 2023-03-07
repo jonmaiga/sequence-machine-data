@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of q * (psi(q^5) / psi(q))^2 in powers of q where psi() is a Ramanujan theta function.",
+  "id": "A138519",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A121373",
+    "A138516",
+    "A138518",
+    "A138520",
+    "A138521",
+    "A210458"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:11:54",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

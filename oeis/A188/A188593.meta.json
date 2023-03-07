@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of (diagonal)/(shortest side) of a golden rectangle.",
+  "id": "A188593",
+  "mentions": [
+    "A001622",
+    "A019881",
+    "A188594",
+    "A195693",
+    "A195723",
+    "A296184"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 130,
+    "source": "oeis-bfile"
+  }
+}

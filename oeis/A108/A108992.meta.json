@@ -1,0 +1,23 @@
+{
+  "description": "Second diagonal of triangle A108990, in which the g.f. of row n, R_n(x), satisfies: [x^k] R_{n+1}(x) = [x^k] (1 + x*R_n(x))^(n+1) for k=0..n+1.",
+  "id": "A108992",
+  "mentions": [
+    "A108990",
+    "A108991",
+    "A108993",
+    "A108994",
+    "A108995",
+    "A108996"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

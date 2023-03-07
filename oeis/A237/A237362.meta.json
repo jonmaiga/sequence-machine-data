@@ -1,0 +1,18 @@
+{
+  "description": "Nonzero Hilbert function values for the invariant ring of 3 X 3 X 3 X 3 tensors.",
+  "id": "A237362",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

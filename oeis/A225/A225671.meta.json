@@ -1,0 +1,18 @@
+{
+  "description": "Largest prime p(k) > p(n) such that 1/p(n) + 1/p(n+1) + ... + 1/p(k) < 1, where p(n) is the n-th prime.",
+  "id": "A225671",
+  "mentions": [
+    "A075442",
+    "A225669"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

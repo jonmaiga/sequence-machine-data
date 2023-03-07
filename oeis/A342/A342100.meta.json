@@ -1,0 +1,19 @@
+{
+  "description": "Abundant numbers k at which the ratio (number of abundant numbers in 1..k)/k reaches a new record high.",
+  "id": "A342100",
+  "mentions": [
+    "A005101",
+    "A302991",
+    "A330899"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

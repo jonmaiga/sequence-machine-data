@@ -1,0 +1,31 @@
+{
+  "description": "Number of strict integer partitions of n with no pair of consecutive parts relatively prime.",
+  "id": "A328220",
+  "mentions": [
+    "A000837",
+    "A018783",
+    "A070211",
+    "A078374",
+    "A289509",
+    "A318980",
+    "A325545",
+    "A328170",
+    "A328171",
+    "A328172",
+    "A328187",
+    "A328188",
+    "A328221",
+    "A328335",
+    "A328336"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

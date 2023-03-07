@@ -1,0 +1,22 @@
+{
+  "description": "Primes p with nonzero digits such that p + product_of_digits and p - product_of_digits are both prime.",
+  "id": "A229176",
+  "mentions": [
+    "A007954",
+    "A157677",
+    "A225319",
+    "A227217"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

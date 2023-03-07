@@ -1,0 +1,19 @@
+{
+  "description": "Numbers of the form p^(p^k-1) (p prime, k>=0).",
+  "id": "A111134",
+  "mentions": [
+    "A000961",
+    "A033950",
+    "A036878"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

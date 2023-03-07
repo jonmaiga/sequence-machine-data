@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Sum(k^6*sigma(k)*sigma(n-k),k=1..n-1).",
+  "id": "A259694",
+  "mentions": [
+    "A000385",
+    "A000441",
+    "A000477",
+    "A000499",
+    "A001479",
+    "A259692",
+    "A259693",
+    "A259695",
+    "A259696"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

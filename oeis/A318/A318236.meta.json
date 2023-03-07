@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (3*2^(4*n+3) + 1)/5.",
+  "id": "A318236",
+  "mentions": [
+    "A007583",
+    "A299960"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:38",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

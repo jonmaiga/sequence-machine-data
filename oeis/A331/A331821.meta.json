@@ -1,0 +1,29 @@
+{
+  "description": "Positive numbers k such that -k and -(k + 1) are both negabinary-Niven numbers (A331728).",
+  "id": "A331821",
+  "mentions": [
+    "A005352",
+    "A027615",
+    "A039724",
+    "A328209",
+    "A328213",
+    "A330927",
+    "A330931",
+    "A331086",
+    "A331089",
+    "A331728",
+    "A331819",
+    "A331820"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

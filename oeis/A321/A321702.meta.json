@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that are still valid after a horizontal reflection on a calculator display.",
+  "id": "A321702",
+  "mentions": [
+    "A000787",
+    "A007284",
+    "A018846"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

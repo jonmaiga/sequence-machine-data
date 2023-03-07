@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. ( Product_{k>0} 1/(1 - (k * x)^k)^(1/k) )^(1/(1-x)).",
+  "id": "A356440",
+  "mentions": [
+    "A356437",
+    "A356439"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

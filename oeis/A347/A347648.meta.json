@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of n into at most 2 squarefree parts.",
+  "id": "A347648",
+  "mentions": [
+    "A005117",
+    "A071068",
+    "A073576",
+    "A347649"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

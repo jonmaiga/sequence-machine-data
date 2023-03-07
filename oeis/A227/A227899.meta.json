@@ -1,0 +1,21 @@
+{
+  "description": "Number of primes p < n with 3*p - 4 and n^2 + (n - p)^2 both prime.",
+  "id": "A227899",
+  "mentions": [
+    "A069003",
+    "A185636",
+    "A204065",
+    "A227898",
+    "A230223"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

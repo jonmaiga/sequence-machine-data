@@ -1,0 +1,17 @@
+{
+  "description": "Version of A225180 over the alphabet {0,1}.",
+  "id": "A225181",
+  "mentions": [
+    "A225180"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 107,
+    "source": "oeis-entry"
+  }
+}

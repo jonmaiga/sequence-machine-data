@@ -1,0 +1,22 @@
+{
+  "description": "Numerator of n-th term of the harmonic series after removal of all terms 1/m from Sum_{m=1..n} 1/m for which m contains a 9 in its decimal representation.",
+  "id": "A111935",
+  "mentions": [
+    "A001008",
+    "A007095",
+    "A082838",
+    "A111936"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

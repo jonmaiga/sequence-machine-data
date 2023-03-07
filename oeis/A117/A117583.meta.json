@@ -1,0 +1,20 @@
+{
+  "description": "The number of ratios t/(t-1), where t is a triangular number, which factor into primes less than or equal to prime(n).",
+  "id": "A117583",
+  "mentions": [
+    "A002071",
+    "A117582"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of (not necessarily distinct) integers i!+(prime(n)-1)!/i!, i=1,2,...,prime(n)-2, which are divisible by prime(n).",
+  "id": "A238444",
+  "mentions": [
+    "A000040",
+    "A238460"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

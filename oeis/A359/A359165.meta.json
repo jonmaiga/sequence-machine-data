@@ -1,0 +1,22 @@
+{
+  "description": "Difference between A126760 and its Möbius transform.",
+  "id": "A359165",
+  "mentions": [
+    "A008683",
+    "A126760",
+    "A323882",
+    "A347233",
+    "A359164"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "a(1)=1, and then a(n) = smallest positive integer not occurring earlier in the sequence sharing some prime factor with at least one of a(n-1) and a(n+1).",
+  "id": "A280985",
+  "mentions": [
+    "A064413",
+    "A127202",
+    "A127203",
+    "A281117",
+    "A281353",
+    "A283312",
+    "A338352"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Triangle read by rows: T(n,k) gives the number of ballot sequences of length n having exactly k descents, n>=0, 0<=k<=n.",
+  "id": "A238121",
+  "mentions": [
+    "A000041",
+    "A000085",
+    "A238122",
+    "A241794",
+    "A241795",
+    "A241796",
+    "A241797",
+    "A241798",
+    "A241799",
+    "A241800",
+    "A241801",
+    "A241802",
+    "A241803",
+    "A241804",
+    "A241805"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

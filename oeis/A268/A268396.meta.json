@@ -1,0 +1,21 @@
+{
+  "description": "Sides of Pythagorean cuboids: triples (a, b, c) that are integral length sides of a rectangular cuboid for which the three face diagonals x, y, z also have integral length.",
+  "id": "A268396",
+  "mentions": [
+    "A031173",
+    "A031174",
+    "A031175",
+    "A195816",
+    "A245616"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

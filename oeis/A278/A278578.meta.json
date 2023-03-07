@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = least value of k such that tau(k) = A000594(k) == n mod 23.",
+  "id": "A278578",
+  "mentions": [
+    "A000594",
+    "A106867"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

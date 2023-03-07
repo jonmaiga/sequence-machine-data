@@ -1,0 +1,20 @@
+{
+  "description": "Numerators of expansion of e.g.f. 2^(-1/2) * arccsch(cos(x)), even powers only.",
+  "id": "A101924",
+  "mentions": [
+    "A012495",
+    "A101922"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of achiral series-parallel networks with n elements.",
+  "id": "A339159",
+  "mentions": [
+    "A003430",
+    "A339157",
+    "A339158",
+    "A339225"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

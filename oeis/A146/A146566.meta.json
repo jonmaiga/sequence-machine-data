@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k*sigma_0(k) is divisible by (k - sigma_0(k)).",
+  "id": "A146566",
+  "mentions": [
+    "A000005",
+    "A049820",
+    "A352483"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "The number of times that the n-th digit of A019518(n) occurs in A019518(n).",
+  "id": "A191248",
+  "mentions": [
+    "A019518",
+    "A191233"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

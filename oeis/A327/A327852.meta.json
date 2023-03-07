@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of Product_{k>=1} B(x^k), where B(x) is the g.f. of A092869.",
+  "id": "A327852",
+  "mentions": [
+    "A035185",
+    "A092869",
+    "A288007",
+    "A327688",
+    "A327851"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:17:15",
+    "offset": 0,
+    "size": 73,
+    "source": "joeis"
+  }
+}

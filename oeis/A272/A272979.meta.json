@@ -1,0 +1,26 @@
+{
+  "description": "Number of ways to write n as x^2 + 2*y^2 + 3*z^3 + 4*w^4 with x,y,z,w nonnegative integers.",
+  "id": "A272979",
+  "mentions": [
+    "A000290",
+    "A000578",
+    "A000583",
+    "A262824",
+    "A262827",
+    "A262857",
+    "A270969",
+    "A273429",
+    "A273915",
+    "A273917"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

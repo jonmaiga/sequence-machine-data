@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the product of the prime(n) smallest primes other than prime(n).",
+  "id": "A308596",
+  "mentions": [
+    "A002110",
+    "A306237"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

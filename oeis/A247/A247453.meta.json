@@ -1,0 +1,22 @@
+{
+  "description": "T(n,k) = binomial(n,k)*A000111(n-k)*(-1)^(n-k), 0 <= k <= n.",
+  "id": "A247453",
+  "mentions": [
+    "A000111",
+    "A007318",
+    "A062162",
+    "A109449"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

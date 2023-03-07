@@ -1,0 +1,36 @@
+{
+  "description": "First differences of Frobenius numbers for 6 successive numbers A138986.",
+  "id": "A138997",
+  "mentions": [
+    "A005843",
+    "A014682",
+    "A028387",
+    "A037165",
+    "A079326",
+    "A138985",
+    "A138986",
+    "A138987",
+    "A138988",
+    "A138989",
+    "A138990",
+    "A138991",
+    "A138992",
+    "A138993",
+    "A138994",
+    "A138995",
+    "A138996",
+    "A138998",
+    "A138999"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:50:25",
+    "offset": 1,
+    "size": 82,
+    "source": "joeis"
+  }
+}

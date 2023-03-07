@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1; thereafter, a(n) = A073327(a(n-1)), using the British English version of A073327 when there is a choice.",
+  "id": "A345126",
+  "mentions": [
+    "A073327",
+    "A345157",
+    "A345240"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2022-05-07 10:40:10",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

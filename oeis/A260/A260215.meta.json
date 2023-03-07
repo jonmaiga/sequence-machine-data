@@ -1,0 +1,30 @@
+{
+  "description": "Expansion of chi(-q) * chi(q^9) / (chi(q) * chi(-q^9)) in powers of q where chi() is a Ramanujan theta function.",
+  "id": "A260215",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A121373",
+    "A128143",
+    "A260057",
+    "A261154",
+    "A261156",
+    "A261203",
+    "A261230",
+    "A261320",
+    "A261325"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:06:03",
+    "offset": 0,
+    "size": 46,
+    "source": "joeis"
+  }
+}

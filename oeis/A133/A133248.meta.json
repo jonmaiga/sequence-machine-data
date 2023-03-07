@@ -1,0 +1,20 @@
+{
+  "description": "Provides a relationship between a representation of Lisp programs of length n and Chaitan's Omega: If[A124027(n)==0, then row sum of[A124027].",
+  "id": "A133248",
+  "mentions": [
+    "A079365",
+    "A124027"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

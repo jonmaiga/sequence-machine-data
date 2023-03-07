@@ -1,0 +1,18 @@
+{
+  "description": "The digital sum of a(n+1) divides a(n). This is the lexicographically earliest sequence of positive distinct terms with this property.",
+  "id": "A334837",
+  "mentions": [
+    "A334737"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

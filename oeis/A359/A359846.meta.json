@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (((5 - (n mod 2))*10^(3 + n*(9/2) - (n mod 2)*(5/2)))^2 + 2)/81.",
+  "id": "A359846",
+  "mentions": [
+    "A014824"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

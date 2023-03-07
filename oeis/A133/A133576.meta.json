@@ -1,0 +1,22 @@
+{
+  "description": "Numbers which are sums of consecutive composites.",
+  "id": "A133576",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A034707",
+    "A140464"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "The number of necklaces with n beads of white and red colors, including at least three white ones.",
+  "id": "A227910",
+  "mentions": [
+    "A000029",
+    "A262232"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 3,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

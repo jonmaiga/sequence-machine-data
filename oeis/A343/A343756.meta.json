@@ -1,0 +1,20 @@
+{
+  "description": "Number of nondecreasing sequences s1, s2, ..., s_n of powers of 2 such that s_i <= 1 + Sum_{j=1..i-1} s_j.",
+  "id": "A343756",
+  "mentions": [
+    "A000079",
+    "A339479",
+    "A343799",
+    "A343820"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

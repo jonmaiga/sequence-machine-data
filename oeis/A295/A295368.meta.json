@@ -1,0 +1,26 @@
+{
+  "description": "For any number n > 0 with s divisors, say d_1, d_2, ..., d_s such that d_1 = 1 < d_2 < ... < d_s = n, the binary representation of a(n) is (d_1 mod 2, d_2 mod 2, ..., d_s mod 2).",
+  "id": "A295368",
+  "mentions": [
+    "A000005",
+    "A000120",
+    "A001227",
+    "A016825",
+    "A023416",
+    "A070939",
+    "A183063",
+    "A247795"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of parking functions of length n whose maximum element is k, where n >= 0 and 0 <= k <= n.",
+  "id": "A260693",
+  "mentions": [
+    "A000007",
+    "A000169",
+    "A000272",
+    "A000918",
+    "A291121"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

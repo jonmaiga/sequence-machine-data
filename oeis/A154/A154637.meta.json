@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the ratio of the sum of squares of the bends of the circles that are added in the n-th generation of Apollonian packing, to the sum of squares of the bends of the initial three circles.",
+  "id": "A154637",
+  "mentions": [
+    "A135849",
+    "A137246",
+    "A154636",
+    "A154638",
+    "A154645",
+    "A189226",
+    "A189227"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:36",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

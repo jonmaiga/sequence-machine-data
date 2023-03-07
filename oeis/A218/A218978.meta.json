@@ -1,0 +1,24 @@
+{
+  "description": "Table read by rows: n-th row lists all distinct substrings of decimal representation of n.",
+  "id": "A218978",
+  "mentions": [
+    "A031298",
+    "A120004",
+    "A154771",
+    "A219031",
+    "A262188"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

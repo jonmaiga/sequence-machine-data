@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{p|n, p prime} p!.",
+  "id": "A351709",
+  "mentions": [
+    "A000040",
+    "A000142",
+    "A062363",
+    "A351708"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

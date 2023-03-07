@@ -1,0 +1,25 @@
+{
+  "description": "Ninth diagonal of table A060850 counting partitions into parts of k kinds.",
+  "id": "A129126",
+  "mentions": [
+    "A000041",
+    "A000712",
+    "A000716",
+    "A023003",
+    "A060850",
+    "A128627",
+    "A128629"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:54:13",
+    "offset": 1,
+    "size": 27,
+    "source": "joeis"
+  }
+}

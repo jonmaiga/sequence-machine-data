@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = sigma(n^4).",
+  "id": "A202994",
+  "mentions": [
+    "A000203",
+    "A000583",
+    "A013663",
+    "A065764",
+    "A175926",
+    "A202993"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:23",
+    "offset": 1,
+    "size": 35,
+    "source": "joeis"
+  }
+}

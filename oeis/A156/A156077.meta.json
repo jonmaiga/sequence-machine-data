@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = #{1<=k<=n : A000002(k)=1}.",
+  "id": "A156077",
+  "mentions": [
+    "A000002",
+    "A054353",
+    "A074286",
+    "A234322"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 76,
+    "source": "joeis"
+  }
+}

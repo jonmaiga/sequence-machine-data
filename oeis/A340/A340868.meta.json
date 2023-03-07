@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that prime(k)^prime(k+1) == prime(k+3) (mod prime(k+2)).",
+  "id": "A340868",
+  "mentions": [
+    "A340876"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

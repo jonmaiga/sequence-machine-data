@@ -1,0 +1,20 @@
+{
+  "description": "Positions of 1's in A288707; complement of A288708.",
+  "id": "A288709",
+  "mentions": [
+    "A189661",
+    "A288707",
+    "A288708"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:02",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

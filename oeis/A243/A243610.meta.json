@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangular array of all the integers, each exactly once, ordered as in Comments.",
+  "id": "A243610",
+  "mentions": [
+    "A000045",
+    "A243571"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

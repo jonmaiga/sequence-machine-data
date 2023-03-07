@@ -1,0 +1,18 @@
+{
+  "description": "Multiply the first 2 digits and then add and multiply alternately the next digits.",
+  "id": "A122468",
+  "mentions": [
+    "A000216"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

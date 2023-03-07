@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (5-3*5^n)/2.",
+  "id": "A165755",
+  "mentions": [
+    "A057651",
+    "A112555"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:48",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

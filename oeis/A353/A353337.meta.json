@@ -1,0 +1,25 @@
+{
+  "description": "Number of ways to write n as a product of the terms of A028260 larger than 1; a(1) = 1 by convention (an empty product).",
+  "id": "A353337",
+  "mentions": [
+    "A001222",
+    "A028260",
+    "A038548",
+    "A046523",
+    "A065043",
+    "A320655",
+    "A353338",
+    "A353377"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

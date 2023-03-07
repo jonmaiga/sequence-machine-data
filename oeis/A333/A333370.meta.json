@@ -1,0 +1,21 @@
+{
+  "description": "Convolution of primorial numbers (A002110) with themselves.",
+  "id": "A333370",
+  "mentions": [
+    "A002110",
+    "A003149",
+    "A014342",
+    "A333371"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

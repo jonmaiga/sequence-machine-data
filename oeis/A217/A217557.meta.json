@@ -1,0 +1,21 @@
+{
+  "description": "The difference between the reversal of an 8-bit integer and the original integer.",
+  "id": "A217557",
+  "mentions": [
+    "A160638"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "fini",
+    "formulas",
+    "full",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

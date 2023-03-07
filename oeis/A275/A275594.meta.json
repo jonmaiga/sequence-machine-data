@@ -1,0 +1,23 @@
+{
+  "description": "Shifts 3 places left under MNL transform.",
+  "id": "A275594",
+  "mentions": [
+    "A003633",
+    "A007548",
+    "A132039",
+    "A274760",
+    "A274804",
+    "A275593"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "eigen",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

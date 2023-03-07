@@ -1,0 +1,29 @@
+{
+  "description": "Number of acyclic orientations of the edges of an n-dimensional cube.",
+  "id": "A334247",
+  "mentions": [
+    "A033815",
+    "A058809",
+    "A140986",
+    "A158348",
+    "A296914",
+    "A334159",
+    "A334248",
+    "A334278",
+    "A338152",
+    "A338153",
+    "A338154"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

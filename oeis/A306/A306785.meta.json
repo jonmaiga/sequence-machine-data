@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that p^2 divides A050443(p).",
+  "id": "A306785",
+  "mentions": [
+    "A000040",
+    "A050443",
+    "A173656",
+    "A306786"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

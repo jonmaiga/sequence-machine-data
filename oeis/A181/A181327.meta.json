@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of 2-compositions of n having k columns with an even sum (0<=k<=floor(n/2)).",
+  "id": "A181327",
+  "mentions": [
+    "A003480",
+    "A181308",
+    "A181328",
+    "A181329"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:04",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

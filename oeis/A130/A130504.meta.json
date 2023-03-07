@@ -1,0 +1,18 @@
+{
+  "description": "Number of k for which T(n) + T(k) is prime, with 0<=k<=n and triangular number T(n)=n(n+1)/2.",
+  "id": "A130504",
+  "mentions": [
+    "A069004",
+    "A129634"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

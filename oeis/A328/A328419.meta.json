@@ -1,0 +1,18 @@
+{
+  "description": "Number of minimally rigid graphs in 3D on n vertices.",
+  "id": "A328419",
+  "mentions": [
+    "A227117"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 3,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

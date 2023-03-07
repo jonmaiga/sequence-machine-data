@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (a(n-1)^2*a(n-2)^5+1)/a(n-3) with a(0)=a(1)=a(2)=1.",
+  "id": "A208212",
+  "mentions": [
+    "A005246",
+    "A208211"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

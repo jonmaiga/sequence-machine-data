@@ -1,0 +1,19 @@
+{
+  "description": "Union of A214790 and A214791.",
+  "id": "A214792",
+  "mentions": [
+    "A214789",
+    "A214790",
+    "A214791"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

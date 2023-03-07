@@ -1,0 +1,47 @@
+{
+  "description": "Decimal form of binary integer produced by the ON cells at n-th generation following Wolfram's Rule 30 cellular automaton starting from a single ON-cell represented as 1.",
+  "id": "A110240",
+  "mentions": [
+    "A000225",
+    "A010702",
+    "A030101",
+    "A051023",
+    "A070950",
+    "A070952",
+    "A074890",
+    "A092539",
+    "A092540",
+    "A094603",
+    "A094604",
+    "A100053",
+    "A100054",
+    "A100055",
+    "A245549",
+    "A265281",
+    "A269160",
+    "A269162",
+    "A269165",
+    "A269166",
+    "A269168",
+    "A327971",
+    "A327972",
+    "A327973",
+    "A327976",
+    "A328103",
+    "A328104",
+    "A328106"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

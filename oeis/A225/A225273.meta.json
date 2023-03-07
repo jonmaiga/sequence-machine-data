@@ -1,0 +1,25 @@
+{
+  "description": "T(n,k)=Number of distinct values of the sum of i^2 over n realizations of i in 0..k",
+  "id": "A225273",
+  "mentions": [
+    "A000027",
+    "A034966",
+    "A047800",
+    "A047801",
+    "A132432",
+    "A132438",
+    "A225277"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

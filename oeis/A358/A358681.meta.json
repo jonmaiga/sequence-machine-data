@@ -1,0 +1,19 @@
+{
+  "description": "Largest area (doubled) of a triangle enclosed by a circle of radius n such that the center of the circle and the vertices of the triangle all have integer coordinates.",
+  "id": "A358681",
+  "mentions": [
+    "A120893",
+    "A358465"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

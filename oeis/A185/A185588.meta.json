@@ -1,0 +1,19 @@
+{
+  "description": "Triangular array read by rows. The n-th row is the expansion of (1+x)(1+2x+4x^2)...(1+nx+(nx)^2+(nx)^3+...(nx)^n).",
+  "id": "A185588",
+  "mentions": [
+    "A000217"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

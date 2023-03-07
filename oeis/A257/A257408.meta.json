@@ -1,0 +1,19 @@
+{
+  "description": "Values of n such that there is exactly 1 solution to x^2 - y^2 = n with x > y >= 0.",
+  "id": "A257408",
+  "mentions": [
+    "A034178",
+    "A257409",
+    "A257417"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

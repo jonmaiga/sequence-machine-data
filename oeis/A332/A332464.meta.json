@@ -1,0 +1,24 @@
+{
+  "description": "Rule 124 one-dimensional cellular automaton applied for one step to the configuration read from the base-2 expansion of sigma(n), then converted back to decimal.",
+  "id": "A332464",
+  "mentions": [
+    "A000203",
+    "A269174",
+    "A332209",
+    "A332224",
+    "A332452",
+    "A332453",
+    "A332465"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

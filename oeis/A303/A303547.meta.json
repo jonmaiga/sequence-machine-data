@@ -1,0 +1,32 @@
+{
+  "description": "Number of non-isomorphic periodic multiset partitions of weight n.",
+  "id": "A303547",
+  "mentions": [
+    "A000740",
+    "A000837",
+    "A001055",
+    "A007716",
+    "A007916",
+    "A049311",
+    "A100953",
+    "A255906",
+    "A269134",
+    "A275024",
+    "A293993",
+    "A301700",
+    "A303386",
+    "A303431",
+    "A303546"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

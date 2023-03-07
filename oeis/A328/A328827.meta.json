@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the largest prime factor of n + n*(n+1)/2 = n*(n+3)/2.",
+  "id": "A328827",
+  "mentions": [
+    "A000096",
+    "A000217",
+    "A006530"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "description": "Number of subsets of {1...n} containing all prime indices of the elements.",
+  "id": "A324736",
+  "mentions": [
+    "A000720",
+    "A001462",
+    "A007097",
+    "A076078",
+    "A084422",
+    "A085945",
+    "A112798",
+    "A276625",
+    "A279861",
+    "A290689",
+    "A290822",
+    "A304360",
+    "A320426",
+    "A324697",
+    "A324698",
+    "A324737",
+    "A324741",
+    "A324743",
+    "A324748",
+    "A324753"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

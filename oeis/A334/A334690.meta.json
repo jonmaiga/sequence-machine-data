@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of points in the interior of the n-th figure shown in A255011 (meaning the figure with 4n points on the perimeter).",
+  "id": "A334690",
+  "mentions": [
+    "A255011",
+    "A331448",
+    "A331449",
+    "A334691"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

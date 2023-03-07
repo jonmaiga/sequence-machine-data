@@ -1,0 +1,20 @@
+{
+  "description": "G.f. A(x) satisfies: 1 = Sum_{n>=0} ( (1+x)^(n+1) - A(x) )^n.",
+  "id": "A304642",
+  "mentions": [
+    "A303056",
+    "A304639",
+    "A317855"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

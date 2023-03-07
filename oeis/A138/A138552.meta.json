@@ -1,0 +1,19 @@
+{
+  "description": "Returning walks of length 2n on the upper half of the square lattice, distinct under reflections about the y-axis.",
+  "id": "A138552",
+  "mentions": [
+    "A000108",
+    "A000891"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:27:22",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Filter sequence for a(Fibonacci numbers > 1) = constant sequences.",
+  "id": "A305820",
+  "mentions": [
+    "A000045",
+    "A003603",
+    "A007895",
+    "A010056",
+    "A072649",
+    "A304101"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Number of connected multiset partitions of integer partitions of n.",
+  "id": "A320351",
+  "mentions": [
+    "A001970",
+    "A007718",
+    "A048143",
+    "A056156",
+    "A258466",
+    "A261006",
+    "A293994",
+    "A319719",
+    "A320328",
+    "A320330",
+    "A320331",
+    "A320355",
+    "A320356"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the A325907(n)-th triangular number.",
+  "id": "A309597",
+  "mentions": [
+    "A000217",
+    "A052950",
+    "A093142",
+    "A141023",
+    "A213516",
+    "A325493",
+    "A325907",
+    "A325910"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Start with n-th odd prime, and repeatedly subtract the greatest prime until either 0 or 1 remains. (The result is the \"primes-greedy residue\" of the n-th odd prime, which is \"primes-greedy summable\" if its residue = 0, as at A242255; see Comments.)",
+  "id": "A242252",
+  "mentions": [
+    "A000040",
+    "A241833",
+    "A242253",
+    "A242254",
+    "A242255",
+    "A242256"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

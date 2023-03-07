@@ -1,0 +1,20 @@
+{
+  "description": "Positive integers c for which there is a 9-Pythagorean triple (a,b,c) satisfying a<=b.",
+  "id": "A196185",
+  "mentions": [
+    "A195770",
+    "A196183",
+    "A196186",
+    "A196188"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

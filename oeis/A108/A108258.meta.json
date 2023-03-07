@@ -1,0 +1,17 @@
+{
+  "description": "Consider primes p and q such that p = 3^k + 20 and q = 3^(k+1) + 20 for some k; sequence gives values of q.",
+  "id": "A108258",
+  "mentions": [
+    "A108249"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

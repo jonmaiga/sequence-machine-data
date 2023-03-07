@@ -1,0 +1,22 @@
+{
+  "description": "Nonprime numbers that divide their second arithmetic derivative.",
+  "id": "A347931",
+  "mentions": [
+    "A000040",
+    "A003415",
+    "A018252",
+    "A068346",
+    "A348284"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:21",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

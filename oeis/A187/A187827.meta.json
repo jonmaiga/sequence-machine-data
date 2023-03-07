@@ -1,0 +1,19 @@
+{
+  "description": "G.f. satisfies: A(x) = Sum_{n>=0} (1 - (1 - x*A(x))^n)^n.",
+  "id": "A187827",
+  "mentions": [
+    "A187826",
+    "A220353"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:12",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

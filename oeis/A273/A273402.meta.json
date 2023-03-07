@@ -1,0 +1,23 @@
+{
+  "description": "Squarefree numbers n such that n is divisible by the product of digits of prime(n).",
+  "id": "A273402",
+  "mentions": [
+    "A005117",
+    "A005349",
+    "A007602",
+    "A013929",
+    "A038186",
+    "A053666"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

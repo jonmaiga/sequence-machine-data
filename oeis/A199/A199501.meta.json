@@ -1,0 +1,21 @@
+{
+  "description": "Pi raised to fraction of imaginary part of second and third Riemann zeta function zero.",
+  "id": "A199501",
+  "mentions": [
+    "A000796",
+    "A065434",
+    "A065452"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that Lucas(k) - prime(k) is a prime.",
+  "id": "A297623",
+  "mentions": [
+    "A000032",
+    "A000040",
+    "A050180",
+    "A288794"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

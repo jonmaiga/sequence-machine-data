@@ -1,0 +1,21 @@
+{
+  "description": "Doubling the first two of every four nonnegative numbers.",
+  "id": "A227380",
+  "mentions": [
+    "A001477",
+    "A103889",
+    "A130658",
+    "A227316"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:10:51",
+    "offset": 0,
+    "size": 58,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of weighted lattice paths in B(n) such that the area between the x-axis and the path is k.",
+  "id": "A246177",
+  "mentions": [
+    "A000045",
+    "A001629",
+    "A004148"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

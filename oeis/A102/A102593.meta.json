@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of noncrossing trees with n edges in which the maximum number of contiguous border edges starting from the root in counterclockwise direction is equal to k.",
+  "id": "A102593",
+  "mentions": [
+    "A001764",
+    "A006629",
+    "A102893"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:53",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

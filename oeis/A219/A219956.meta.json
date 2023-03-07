@@ -1,0 +1,18 @@
+{
+  "description": "Numbers expressible as 2*p + 3*q in exactly in one way, where p and q are primes.",
+  "id": "A219956",
+  "mentions": [
+    "A079026",
+    "A219955"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Successive records of function f(x) = log(abs(pi(x) - R(x)))/log(x) where pi(x) is the number of primes <= x and R(x) is Riemann's prime counting function.",
+  "id": "A353055",
+  "mentions": [
+    "A057793",
+    "A057794",
+    "A215663",
+    "A216709",
+    "A226473"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

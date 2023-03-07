@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = smallest prime which divides Pell(n) = A000129(n) but does not divide any Pell(k) for k",
+  "id": "A246556",
+  "mentions": [
+    "A000129",
+    "A001578",
+    "A008555",
+    "A086383",
+    "A096650",
+    "A120947",
+    "A175181",
+    "A214028",
+    "A264137"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 2,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

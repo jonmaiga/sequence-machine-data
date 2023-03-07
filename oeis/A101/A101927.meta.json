@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f. of sin(arcsinh(x)) (odd powers only).",
+  "id": "A101927",
+  "mentions": [
+    "A006228"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:53",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

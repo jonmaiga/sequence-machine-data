@@ -1,0 +1,21 @@
+{
+  "description": "First differences of A074323.",
+  "id": "A137206",
+  "mentions": [
+    "A000079",
+    "A074323",
+    "A131577",
+    "A135530"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:25",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

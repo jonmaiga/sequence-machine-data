@@ -1,0 +1,21 @@
+{
+  "description": "T(n,k) = number of ways to arrange k indistinguishable points on an n X n X n triangular grid so that no four points are in the same row or diagonal.",
+  "id": "A194485",
+  "mentions": [
+    "A000217",
+    "A050534",
+    "A093566"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

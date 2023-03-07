@@ -1,0 +1,19 @@
+{
+  "description": "Base-3 analog of A018737. Start with S = {}. For m = 0, 1, 2, 3, ... let u be the ternary expansion of m. If u is not a substring of S, append the minimal number of ternary digits to S to remedy this. Sequence gives S.",
+  "id": "A109294",
+  "mentions": [
+    "A018737",
+    "A108737"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

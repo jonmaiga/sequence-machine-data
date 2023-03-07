@@ -1,0 +1,22 @@
+{
+  "description": "Table read by antidiagonals: T(n,k) (n >= 3, k >= 1) is the number of vertices formed in a regular n-gon by straight line segments when connecting the n corner vertices to the points dividing the sides into k equal parts.",
+  "id": "A354544",
+  "mentions": [
+    "A007569",
+    "A331782",
+    "A355949",
+    "A356044"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 3,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

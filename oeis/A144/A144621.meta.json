@@ -1,0 +1,19 @@
+{
+  "description": "a(0) = a(1) = 1 and a(n+2) = a(n+1) * (3*a(n+1) - 2*(a(n)^2), n>=0.",
+  "id": "A144621",
+  "mentions": [
+    "A001511",
+    "A229625"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

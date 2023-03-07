@@ -1,0 +1,20 @@
+{
+  "description": "Composite numbers m such that 2^m - 1 has a single prime factor of the form k*m + 1.",
+  "id": "A292079",
+  "mentions": [
+    "A001265",
+    "A002326",
+    "A182590"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

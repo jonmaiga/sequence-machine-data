@@ -1,0 +1,25 @@
+{
+  "description": "Table of the prime signatures (sorted lists of exponents of distinct prime factors) of the positive integers.",
+  "id": "A118914",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A025487",
+    "A036035",
+    "A046523",
+    "A095904",
+    "A124010",
+    "A212171"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 2,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "If n is noncomposite, then a(n) = 0, otherwise 1 + difference between indices of the two smallest (not necessarily distinct) prime factors of n.",
+  "id": "A286471",
+  "mentions": [
+    "A001222",
+    "A032742",
+    "A055396",
+    "A241917",
+    "A241919",
+    "A242411",
+    "A243055",
+    "A243056",
+    "A286472"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 118,
+    "source": "oeis-bfile"
+  }
+}

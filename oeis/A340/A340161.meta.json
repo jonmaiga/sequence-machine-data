@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the smallest number k for which the set {k + 1, k + 2, ..., k + k} contains exactly n elements with exactly three 1-bits (A014311).",
+  "id": "A340161",
+  "mentions": [
+    "A000120",
+    "A000124",
+    "A014311",
+    "A018900",
+    "A052548",
+    "A340068"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

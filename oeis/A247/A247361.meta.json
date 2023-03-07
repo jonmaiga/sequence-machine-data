@@ -1,0 +1,21 @@
+{
+  "description": "Interleave A000861\\{0} and A247359: positive numbers with English name ending in a vowel resp. consonant.",
+  "id": "A247361",
+  "mentions": [
+    "A000861",
+    "A247359",
+    "A247362"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

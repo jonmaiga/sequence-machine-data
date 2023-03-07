@@ -1,0 +1,33 @@
+{
+  "description": "Restricted growth sequence transform of A278222(A292383(n)); a filter related to runs of numbers of the form 4k+3 encountered on trajectories of A005940-tree.",
+  "id": "A292583",
+  "mentions": [
+    "A003961",
+    "A005843",
+    "A005940",
+    "A028982",
+    "A046523",
+    "A053866",
+    "A064989",
+    "A093709",
+    "A252463",
+    "A278222",
+    "A292377",
+    "A292383",
+    "A292582",
+    "A292584",
+    "A292585",
+    "A292586",
+    "A292588"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

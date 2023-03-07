@@ -1,0 +1,19 @@
+{
+  "description": "Positions of the primes congruent to 1 mod 6 when all primes except 2 and 3 are listed in order.",
+  "id": "A138972",
+  "mentions": [
+    "A138968",
+    "A138969"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

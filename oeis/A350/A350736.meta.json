@@ -1,0 +1,18 @@
+{
+  "description": "Lesser twin primes p such that 4*p is the sum of two consecutive primes.",
+  "id": "A350736",
+  "mentions": [
+    "A001359",
+    "A118134"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

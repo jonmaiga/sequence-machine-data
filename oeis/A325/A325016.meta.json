@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of oriented colorings of the facets of a regular n-dimensional orthoplex using exactly k colors. Row n has 2^n columns.",
+  "id": "A325016",
+  "mentions": [
+    "A000048",
+    "A001037",
+    "A325002",
+    "A325008",
+    "A325012",
+    "A325017",
+    "A325018",
+    "A325019"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

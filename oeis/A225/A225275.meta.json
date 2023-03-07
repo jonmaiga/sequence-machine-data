@@ -1,0 +1,17 @@
+{
+  "description": "Number of distinct values of the sum of i^2 over 8 realizations of i in 0..n",
+  "id": "A225275",
+  "mentions": [
+    "A225273"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

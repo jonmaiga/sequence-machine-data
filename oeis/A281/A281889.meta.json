@@ -1,0 +1,29 @@
+{
+  "description": "a(n) is the least integer k such that more than half of all integers are divisible by a product of n integers chosen from 2..k.",
+  "id": "A281889",
+  "mentions": [
+    "A002110",
+    "A014673",
+    "A016088",
+    "A027746",
+    "A115561",
+    "A126282",
+    "A126283",
+    "A281891",
+    "A284411",
+    "A290154",
+    "A309366"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

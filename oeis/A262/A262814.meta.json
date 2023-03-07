@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k dividing every cyclic permutation of k^k.",
+  "id": "A262814",
+  "mentions": [
+    "A178028",
+    "A242680",
+    "A242740"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

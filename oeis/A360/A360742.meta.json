@@ -1,0 +1,29 @@
+{
+  "description": "Number T(n,k) of sets of nonempty integer partitions with a total of k parts and total sum of n; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A360742",
+  "mentions": [
+    "A000007",
+    "A000009",
+    "A000041",
+    "A001477",
+    "A036469",
+    "A055884",
+    "A057427",
+    "A261049",
+    "A330463",
+    "A360714"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

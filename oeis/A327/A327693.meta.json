@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of n-bead necklace structures which are not self-equivalent under a nonzero rotation using exactly k different colored beads.",
+  "id": "A327693",
+  "mentions": [
+    "A051841",
+    "A107424",
+    "A152175",
+    "A324802",
+    "A327696",
+    "A328740",
+    "A328741",
+    "A328742",
+    "A328743"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

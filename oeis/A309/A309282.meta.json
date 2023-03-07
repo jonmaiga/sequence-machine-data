@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the circumference of a golden ellipse with a unit semi-major axis.",
+  "id": "A309282",
+  "mentions": [
+    "A001622",
+    "A094881",
+    "A138500",
+    "A197762",
+    "A274014"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

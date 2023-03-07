@@ -1,0 +1,21 @@
+{
+  "description": "Column 2 of triangle A127126.",
+  "id": "A127129",
+  "mentions": [
+    "A127126",
+    "A127127",
+    "A127128",
+    "A127130",
+    "A127132"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 2,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

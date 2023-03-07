@@ -1,0 +1,27 @@
+{
+  "description": "Filter sequence combining A051953(n) and A009194(n), cototient of n and gcd(n,sigma(n)).",
+  "id": "A300233",
+  "mentions": [
+    "A000027",
+    "A009194",
+    "A051953",
+    "A295885",
+    "A300223",
+    "A300226",
+    "A300229",
+    "A300230",
+    "A300231",
+    "A300232",
+    "A300235"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:24",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

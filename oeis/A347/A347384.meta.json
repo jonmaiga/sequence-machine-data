@@ -1,0 +1,19 @@
+{
+  "description": "Odd numbers k with such a unitary divisor d that A347381(d) > A347381(k).",
+  "id": "A347384",
+  "mentions": [
+    "A347381",
+    "A347383",
+    "A347390"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

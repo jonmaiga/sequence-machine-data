@@ -1,0 +1,18 @@
+{
+  "description": "A 9 x 9 magic square.",
+  "id": "A126650",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

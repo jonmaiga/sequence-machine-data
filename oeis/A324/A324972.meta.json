@@ -1,0 +1,21 @@
+{
+  "description": "Squarefree polygonal numbers P(s,n) with s >= 3 and n >= 3.",
+  "id": "A324972",
+  "mentions": [
+    "A002997",
+    "A005117",
+    "A090466",
+    "A324973"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "The number of primes between n and n^3 (with n and n^3 excluded).",
+  "id": "A117491",
+  "mentions": [
+    "A060715",
+    "A117490"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

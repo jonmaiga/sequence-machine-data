@@ -1,0 +1,22 @@
+{
+  "description": "Numbers having no divisors d > 1 such that d + 1 are prime powers.",
+  "id": "A185208",
+  "mentions": [
+    "A000668",
+    "A000961",
+    "A010055",
+    "A027750",
+    "A049073",
+    "A141197"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:09",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Prime powers P for which the number of modulo P residues among sums of four sixth powers is less than P.",
+  "id": "A289760",
+  "mentions": [
+    "A289631",
+    "A289740"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

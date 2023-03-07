@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = A348928(A276086(n)), where A348928(n) = gcd(n, A003958(n)), and A003958 is multiplicative with a(p^e) = (p-1)^e, and A276086 gives the prime product form of primorial base expansion of n.",
+  "id": "A348998",
+  "mentions": [
+    "A002110",
+    "A003958",
+    "A276086",
+    "A348928",
+    "A348999"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

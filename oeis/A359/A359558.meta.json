@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the first number that is the sum of 5 distinct positive Fibonacci numbers in exactly n ways (with a single type of 1).",
+  "id": "A359558",
+  "mentions": [
+    "A358005"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

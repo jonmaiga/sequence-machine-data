@@ -1,0 +1,20 @@
+{
+  "description": "Smallest value of the loop in which n ends, when iterating the map (A257588) which sends a number to absolute value of first digit squared minus second digit squared plus third digit squared etc.",
+  "id": "A257796",
+  "mentions": [
+    "A007770",
+    "A090425",
+    "A257588"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

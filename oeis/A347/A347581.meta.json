@@ -1,0 +1,25 @@
+{
+  "description": "The Barnyard sequence: a(n) is the minimum number of unit length line segments required to enclose areas of 1 through n on a square grid.",
+  "id": "A347581",
+  "mentions": [
+    "A001168",
+    "A006983",
+    "A172477",
+    "A291806",
+    "A291808",
+    "A291809",
+    "A328020",
+    "A348149"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Least positive integer k such that (prime(prime(k))-1)*(prime(prime(k*n))-1) = prime(p)-1 for some prime p.",
+  "id": "A261385",
+  "mentions": [
+    "A000040",
+    "A257938",
+    "A261353"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of labeled non-planar non-projective-planar toroidal 2-connected K_{3,3}-subdivision-free graphs with n vertices.",
+  "id": "A104590",
+  "mentions": [
+    "A104591"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 8,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

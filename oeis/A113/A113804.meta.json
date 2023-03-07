@@ -1,0 +1,26 @@
+{
+  "description": "Numbers that are congruent to 4 or 10 mod 14.",
+  "id": "A113804",
+  "mentions": [
+    "A008589",
+    "A047385",
+    "A113801",
+    "A113802",
+    "A113803",
+    "A113805",
+    "A113806",
+    "A113807"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:30:17",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

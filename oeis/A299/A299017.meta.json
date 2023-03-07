@@ -1,0 +1,20 @@
+{
+  "description": "Intersection of A264041 and A000217.",
+  "id": "A299017",
+  "mentions": [
+    "A000217",
+    "A264041"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:34:17",
+    "offset": 1,
+    "size": 15,
+    "source": "joeis"
+  }
+}

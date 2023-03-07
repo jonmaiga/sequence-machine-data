@@ -1,0 +1,18 @@
+{
+  "description": "Floor(r*n), where r=1+sqrt(8)+sqrt(7); complement of A187392.",
+  "id": "A187391",
+  "mentions": [
+    "A187392"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:15:01",
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

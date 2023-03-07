@@ -1,0 +1,23 @@
+{
+  "description": "Interpret the values of the Moebius function mu(k) for k = n to 1 as a balanced ternary number.",
+  "id": "A292779",
+  "mentions": [
+    "A008683",
+    "A076259",
+    "A127513",
+    "A292524"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

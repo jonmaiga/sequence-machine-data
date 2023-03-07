@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = index of (n+1)-th prime power in A247665.",
+  "id": "A248918",
+  "mentions": [
+    "A000961",
+    "A247665",
+    "A248387"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Sum_{n >= 1} coth(Pi*n)/n^7 = (19/56700)*Pi^7.",
+  "id": "A247671",
+  "mentions": [
+    "A084258"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

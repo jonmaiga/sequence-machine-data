@@ -1,0 +1,20 @@
+{
+  "description": "Primes that cannot be represented as x*y + x + y, where x >= y > 1.",
+  "id": "A256072",
+  "mentions": [
+    "A000040",
+    "A005383",
+    "A079147",
+    "A254636"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

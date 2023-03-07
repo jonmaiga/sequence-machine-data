@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows formed using Pascal's rule except that n-th row begins and ends with Fibonacci(n+4).",
+  "id": "A316938",
+  "mentions": [
+    "A000045",
+    "A074829",
+    "A108617",
+    "A316937",
+    "A316939"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:48:25",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Number of times Sum_{i=1..u} J(i,2n+1) obtains value zero when u ranges from 1 to (2n+1). Here J(i,k) is the Jacobi symbol.",
+  "id": "A166040",
+  "mentions": [
+    "A005408",
+    "A016754",
+    "A046092",
+    "A165601",
+    "A165602",
+    "A166085",
+    "A166086",
+    "A166087",
+    "A166092"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:49",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

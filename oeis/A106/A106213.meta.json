@@ -1,0 +1,20 @@
+{
+  "description": "Positions n where A083349(n) = 1 (mod 3).",
+  "id": "A106213",
+  "mentions": [
+    "A083349",
+    "A083350",
+    "A106214"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

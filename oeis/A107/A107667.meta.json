@@ -1,0 +1,22 @@
+{
+  "description": "Triangular matrix T, read by rows, that satisfies: T = D + SHIFT_LEFT(T^2) where SHIFT_LEFT shifts each row 1 place to the left and D is the diagonal matrix {1, 2, 3, ...}.",
+  "id": "A107667",
+  "mentions": [
+    "A006689",
+    "A107668",
+    "A107669",
+    "A107670"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

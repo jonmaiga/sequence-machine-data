@@ -1,0 +1,26 @@
+{
+  "description": "Least prime q > p = prime(n) such that if d = q-p, then p, p+d, p+2d, ..., p+(p-1)d are all primes.",
+  "id": "A231017",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A005115",
+    "A088430",
+    "A113834",
+    "A231018",
+    "A231406"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

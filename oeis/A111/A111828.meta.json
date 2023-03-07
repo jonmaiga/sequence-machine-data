@@ -1,0 +1,28 @@
+{
+  "description": "Matrix log of triangle A111825, which shifts columns left and up under matrix 6th power; these terms are the result of multiplying each element in row n and column k by (n-k)!.",
+  "id": "A111828",
+  "mentions": [
+    "A110504",
+    "A111813",
+    "A111815",
+    "A111818",
+    "A111823",
+    "A111825",
+    "A111829",
+    "A111833",
+    "A111838"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

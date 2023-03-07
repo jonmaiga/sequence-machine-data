@@ -1,0 +1,20 @@
+{
+  "description": "Sum of reflection (or absolute) lengths of all elements in the Coxeter group of type B_n",
+  "id": "A197130",
+  "mentions": [
+    "A067318",
+    "A197131"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

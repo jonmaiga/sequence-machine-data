@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = f^(n/f), where f is the smallest prime factor of n.",
+  "id": "A275465",
+  "mentions": [
+    "A020639",
+    "A032742"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 2,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

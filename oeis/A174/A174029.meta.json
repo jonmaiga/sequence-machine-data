@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 3*(3*n+1)*(5 - (-1)^n)/4.",
+  "id": "A174029",
+  "mentions": [
+    "A016921",
+    "A064680",
+    "A124388"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Corresponding to the bases in A220120, the smallest primes such that there are two smaller that juxtaposed with it all 6 ways produces primes.",
+  "id": "A220121",
+  "mentions": [
+    "A220120"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

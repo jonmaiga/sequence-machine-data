@@ -1,0 +1,25 @@
+{
+  "description": "Numbers having in binary representation exactly two ones in three consecutive digits.",
+  "id": "A173593",
+  "mentions": [
+    "A007088",
+    "A033120",
+    "A033129",
+    "A077947",
+    "A083713",
+    "A113836"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:51:40",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

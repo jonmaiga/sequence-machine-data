@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,k) = Sum_{j=1..n-k+1} Stirling2(k, j).",
+  "id": "A137855",
+  "mentions": [
+    "A000012",
+    "A000110",
+    "A008277",
+    "A137856",
+    "A203647",
+    "A278984"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

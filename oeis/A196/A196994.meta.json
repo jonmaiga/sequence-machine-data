@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that sopfr(n-1) | (n+sopfr(n+1)) and sopfr(n+1) | (n+sopfr(n-1)), where sopfr = A001414 (sum of prime factors with repetition).",
+  "id": "A196994",
+  "mentions": [
+    "A001414"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:18",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

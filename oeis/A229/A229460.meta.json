@@ -1,0 +1,20 @@
+{
+  "description": "T(n,k) = number of defective 3-colorings of an n X k 0..2 array connected horizontally and vertically with exactly one mistake and colors introduced in row-major 0..2 order.",
+  "id": "A229460",
+  "mentions": [
+    "A057711",
+    "A167682"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

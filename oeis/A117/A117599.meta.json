@@ -1,0 +1,18 @@
+{
+  "description": "Padovan numbers for which the product of the digits is also a Padovan number.",
+  "id": "A117599",
+  "mentions": [
+    "A000931"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of circularly chained n X n alternating sign matrices.",
+  "id": "A293930",
+  "mentions": [
+    "A005130",
+    "A293178",
+    "A293179",
+    "A293180"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

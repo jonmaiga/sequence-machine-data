@@ -1,0 +1,19 @@
+{
+  "description": "Irregular table with the coefficient [x^k] of Product_{j=1..n} (x^j - (1-x^j)/(1-x)) in row n, column 0<=k.",
+  "id": "A156281",
+  "mentions": [
+    "A000007"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 0,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

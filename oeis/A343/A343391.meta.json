@@ -1,0 +1,24 @@
+{
+  "description": "Number of ways to write n as x^2 + [y^2/4] + [z^4/6] with x,y,z positive integers, where [.] is the floor function.",
+  "id": "A343391",
+  "mentions": [
+    "A000290",
+    "A000583",
+    "A343326",
+    "A343368",
+    "A343384",
+    "A343387",
+    "A343397",
+    "A343411"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

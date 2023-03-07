@@ -1,0 +1,28 @@
+{
+  "description": "a(n) is the least number with exactly n non-unitary square divisors.",
+  "id": "A358252",
+  "mentions": [
+    "A005179",
+    "A025487",
+    "A038547",
+    "A056626",
+    "A085629",
+    "A130279",
+    "A187941",
+    "A309181",
+    "A340232",
+    "A340233",
+    "A357450",
+    "A358253"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

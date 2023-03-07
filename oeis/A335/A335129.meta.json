@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of distinct lines created inside an n-gon when connecting vertex k to vertex 2k mod n.",
+  "id": "A335129",
+  "mentions": [
+    "A079978",
+    "A335057",
+    "A335058",
+    "A335059"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 3,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

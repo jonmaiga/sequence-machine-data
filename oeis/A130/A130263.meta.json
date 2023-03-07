@@ -1,0 +1,26 @@
+{
+  "description": "Number of degree-n permutations such that number of cycles of size k is odd (or zero) for every k.",
+  "id": "A130263",
+  "mentions": [
+    "A055922",
+    "A130219",
+    "A130220",
+    "A130268",
+    "A218504",
+    "A270597",
+    "A270598",
+    "A270614"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

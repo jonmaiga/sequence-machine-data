@@ -1,0 +1,17 @@
+{
+  "description": "Number of permutations of [n] having exactly five (possibly overlapping) doubledescents.",
+  "id": "A279294",
+  "mentions": [
+    "A162975"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:46",
+    "offset": 7,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

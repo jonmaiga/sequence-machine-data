@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of n nonintersecting arches above the x-axis that start and/or end with an arch length equal to one and have floor((n+2)/2) arches starting in odd numbered positions.",
+  "id": "A298122",
+  "mentions": [
+    "A001263",
+    "A005558"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

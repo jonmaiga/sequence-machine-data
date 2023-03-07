@@ -1,0 +1,23 @@
+{
+  "description": "The number of regions inside a 4-pointed star formed by the straight line segments mutually connecting all vertices and all points that divide the sides into n equal parts.",
+  "id": "A338002",
+  "mentions": [
+    "A007678",
+    "A092867",
+    "A331452",
+    "A331906",
+    "A331908",
+    "A338003"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

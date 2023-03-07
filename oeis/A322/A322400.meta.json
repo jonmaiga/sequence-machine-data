@@ -1,0 +1,29 @@
+{
+  "description": "Heinz numbers of integer partitions with vertex-connectivity 1.",
+  "id": "A322400",
+  "mentions": [
+    "A003963",
+    "A013922",
+    "A056239",
+    "A112798",
+    "A302242",
+    "A304716",
+    "A305078",
+    "A305079",
+    "A322387",
+    "A322388",
+    "A322389",
+    "A322390",
+    "A322394"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

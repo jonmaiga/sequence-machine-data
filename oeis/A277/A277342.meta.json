@@ -1,0 +1,18 @@
+{
+  "description": "Base-100 digital root of n (equivalent to repeatedly adding pairs of decimal digits starting from the least significant pair).",
+  "id": "A277342",
+  "mentions": [
+    "A010888"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:28:13",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

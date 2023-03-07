@@ -1,0 +1,22 @@
+{
+  "description": "Inverse Euler transform of n!. Also the number of sequences of permutations with no global descents which are Lyndon (smallest in lexicographic order of all cyclic shifts of the sequences) where the size of the sequence = sum of sizes of the permutations.",
+  "id": "A112354",
+  "mentions": [
+    "A000142",
+    "A003319",
+    "A113869",
+    "A305786",
+    "A358451"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

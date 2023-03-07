@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k and k+1 are both divisible by the number of their divisors over the Eisenstein integers.",
+  "id": "A351854",
+  "mentions": [
+    "A033996",
+    "A114617",
+    "A319442",
+    "A351852",
+    "A351853"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

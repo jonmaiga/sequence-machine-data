@@ -1,0 +1,30 @@
+{
+  "description": "Semiprimes with non-semiprimes digits (no digits 4,6,9 in semiprimes).",
+  "id": "A108614",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A034844",
+    "A107342",
+    "A107665",
+    "A107666",
+    "A111494",
+    "A111496",
+    "A111697",
+    "A137167",
+    "A179336",
+    "A179463"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

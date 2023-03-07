@@ -1,0 +1,24 @@
+{
+  "description": "The squares visited on the Ulam Spiral when starting at square 1 and then stepping to the closest unvisited square which contains a prime number. If two or more squares are the same distance from the current square then the one with the smallest prime number is chosen.",
+  "id": "A330979",
+  "mentions": [
+    "A000040",
+    "A063826",
+    "A115258",
+    "A136626",
+    "A214664",
+    "A214665",
+    "A331027"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

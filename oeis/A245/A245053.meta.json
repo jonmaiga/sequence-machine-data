@@ -1,0 +1,18 @@
+{
+  "description": "Number of hybrid 10-ary trees with n internal nodes.",
+  "id": "A245053",
+  "mentions": [
+    "A245049"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

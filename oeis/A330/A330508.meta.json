@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that k + 6^t is semiprime for t = 0 to 9.",
+  "id": "A330508",
+  "mentions": [
+    "A001358",
+    "A076274",
+    "A082919",
+    "A096173",
+    "A104238",
+    "A105041"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

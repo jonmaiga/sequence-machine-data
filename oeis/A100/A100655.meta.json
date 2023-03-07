@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows giving coefficients in Bernoulli polynomials as defined in A001898, after multiplication by the common denominators A001898(n).",
+  "id": "A100655",
+  "mentions": [
+    "A001898",
+    "A027641",
+    "A027642",
+    "A053657",
+    "A100615",
+    "A100616",
+    "A201637"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

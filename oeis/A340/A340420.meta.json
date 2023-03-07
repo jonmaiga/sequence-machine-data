@@ -1,0 +1,21 @@
+{
+  "description": "The number of steps that n requires to reach 1 under the map: m -> m/2 if m is even, m-> 3*m + 1 if m is an odd prime, otherwise m -> m - 1. a(n) = -1 if 1 is never reached.",
+  "id": "A340420",
+  "mentions": [
+    "A006577",
+    "A060413",
+    "A339991",
+    "A340008",
+    "A340418"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

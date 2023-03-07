@@ -1,0 +1,26 @@
+{
+  "description": "Dirichlet g.f.: Product_{k>=2} (1 - k^(-s))^5.",
+  "id": "A339704",
+  "mentions": [
+    "A000728",
+    "A114592",
+    "A339320",
+    "A339701",
+    "A339702",
+    "A339703",
+    "A339705",
+    "A339706",
+    "A339707"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

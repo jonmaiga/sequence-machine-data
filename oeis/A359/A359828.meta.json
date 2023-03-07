@@ -1,0 +1,22 @@
+{
+  "description": "Characteristic function for primitive elements of A235992.",
+  "id": "A359828",
+  "mentions": [
+    "A003415",
+    "A235992",
+    "A358680",
+    "A359829",
+    "A359831"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Lexicographically earliest sequence of nonnegative terms such that for any n > 0 and k > 0, if a(n) >= a(n+k), then a(n+2*k) <> a(n+k).",
+  "id": "A306696",
+  "mentions": [
+    "A000079",
+    "A007583",
+    "A164095",
+    "A181497",
+    "A286326"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

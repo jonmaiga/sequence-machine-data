@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of sin(gamma).",
+  "id": "A119807",
+  "mentions": [
+    "A001620",
+    "A073004",
+    "A119806"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that A282442(k) = k + 1.",
+  "id": "A282444",
+  "mentions": [
+    "A282442"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

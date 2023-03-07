@@ -1,0 +1,20 @@
+{
+  "description": "Signature sequence of phi^6 = 0.055728090000841..., where phi is the inverse golden ratio A094214.",
+  "id": "A167966",
+  "mentions": [
+    "A084531",
+    "A084532",
+    "A094214",
+    "A167974"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

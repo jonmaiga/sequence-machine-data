@@ -1,0 +1,20 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into distinct parts such that the average of the parts is an integer.",
+  "id": "A339175",
+  "mentions": [
+    "A032020",
+    "A067538",
+    "A102627",
+    "A339452"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

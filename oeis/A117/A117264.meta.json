@@ -1,0 +1,17 @@
+{
+  "description": "Self-convolution square-root of A117263.",
+  "id": "A117264",
+  "mentions": [
+    "A117263"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

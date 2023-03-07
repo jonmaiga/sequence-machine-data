@@ -1,0 +1,20 @@
+{
+  "description": "The cumulative sum of the even digits so far in the sequence and the cumulative sum of the odd digits so far differ by n for all a(n)s.",
+  "id": "A341012",
+  "mentions": [
+    "A071648",
+    "A071649",
+    "A341002"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

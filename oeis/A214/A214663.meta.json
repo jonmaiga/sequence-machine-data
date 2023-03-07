@@ -1,0 +1,19 @@
+{
+  "description": "Number of permutations of 1..n for which the partial sums of signed displacements do not exceed 2.",
+  "id": "A214663",
+  "mentions": [
+    "A276837"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

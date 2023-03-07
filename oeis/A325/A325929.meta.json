@@ -1,0 +1,18 @@
+{
+  "description": "Total number of sub-subsets of set partitions of [n] where each subset is again partitioned into nonempty subsets.",
+  "id": "A325929",
+  "mentions": [
+    "A324162"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

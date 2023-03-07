@@ -1,0 +1,20 @@
+{
+  "description": "Number of rooted trees with total weight n, where the weight of a node at height k is k (with the root considered to be at level 0).",
+  "id": "A117356",
+  "mentions": [
+    "A000081",
+    "A115593",
+    "A117357"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

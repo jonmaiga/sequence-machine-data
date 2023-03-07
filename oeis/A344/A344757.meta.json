@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = A069359(n) / gcd(A003415(n), A069359(n)).",
+  "id": "A344757",
+  "mentions": [
+    "A003415",
+    "A069359",
+    "A340070",
+    "A344697",
+    "A344756"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 2,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

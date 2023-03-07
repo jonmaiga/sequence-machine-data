@@ -1,0 +1,22 @@
+{
+  "description": "Number of prime factors (with multiplicity) of generalized Fermat number 6^(2^n) + 1.",
+  "id": "A275379",
+  "mentions": [
+    "A001222",
+    "A078303",
+    "A273947"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

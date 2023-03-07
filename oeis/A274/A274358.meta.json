@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that n and n+1 both have 14 divisors.",
+  "id": "A274358",
+  "mentions": [
+    "A000005",
+    "A005237",
+    "A030632",
+    "A274357"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

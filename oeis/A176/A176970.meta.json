@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that are the product of two odd numbers x*y such that 2^x (mod y) = 2^y (mod x) = 2.",
+  "id": "A176970",
+  "mentions": [
+    "A001567",
+    "A179707",
+    "A179839",
+    "A337715"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

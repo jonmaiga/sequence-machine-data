@@ -1,0 +1,23 @@
+{
+  "description": "An explicit example of an infinite sequence with a(1)=1 and, for n >= 2, a(n) and S(n) = Sum_{i=1..n} a(i) have no digit in common.",
+  "id": "A308900",
+  "mentions": [
+    "A002280",
+    "A093137",
+    "A289404",
+    "A309151"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "n-th derivative of sech(x)^tanh(x) at x=0.",
+  "id": "A215683",
+  "mentions": [
+    "A215588"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:01",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

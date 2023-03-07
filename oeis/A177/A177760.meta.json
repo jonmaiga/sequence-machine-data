@@ -1,0 +1,19 @@
+{
+  "description": "Bases m in solutions of the Thue equation s^2 = m^5+z, sorted along increasing z.",
+  "id": "A177760",
+  "mentions": [
+    "A152412",
+    "A177761"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

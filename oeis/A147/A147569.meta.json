@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = sigma(A020492(n)).",
+  "id": "A147569",
+  "mentions": [
+    "A020492",
+    "A023897",
+    "A147570"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

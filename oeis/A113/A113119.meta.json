@@ -1,0 +1,22 @@
+{
+  "description": "Total number of digits in all n-digit nonnegative integers.",
+  "id": "A113119",
+  "mentions": [
+    "A053541",
+    "A081045",
+    "A212704"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

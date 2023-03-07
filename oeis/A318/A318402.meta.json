@@ -1,0 +1,26 @@
+{
+  "description": "Number of sets of nonempty sets whose multiset union is a strongly normal multiset of size n.",
+  "id": "A318402",
+  "mentions": [
+    "A007716",
+    "A049311",
+    "A050326",
+    "A116540",
+    "A283877",
+    "A292432",
+    "A292444",
+    "A318361",
+    "A318369",
+    "A318370"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:39",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

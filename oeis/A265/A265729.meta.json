@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of 32*Pi.",
+  "id": "A265729",
+  "mentions": [
+    "A000796",
+    "A019669",
+    "A019692",
+    "A019694",
+    "A061146",
+    "A122952",
+    "A228719",
+    "A228721",
+    "A228824",
+    "A229939"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:48:39",
+    "offset": 3,
+    "size": 105,
+    "source": "joeis"
+  }
+}

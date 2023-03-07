@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that phi(n)=phi(d_1^d_1)*phi(d_2^d_2)*...*phi(d_k^d_k) where d_1 d_2 ... d_k is the decimal expansion of n.",
+  "id": "A103113",
+  "mentions": [
+    "A104898"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:53",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Square array read by antidiagonals: T(n,k^2) = A040000(n) (= 1,2,2,2,...) if n=0 (mod k), T(n,k) = 0 else, n>=0, k>=1.",
+  "id": "A221645",
+  "mentions": [
+    "A000005",
+    "A040000",
+    "A212119"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

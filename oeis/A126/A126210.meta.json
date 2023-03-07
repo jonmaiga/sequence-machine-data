@@ -1,0 +1,24 @@
+{
+  "description": "Number of 8's in decimal expansion of 8^n.",
+  "id": "A126210",
+  "mentions": [
+    "A065710",
+    "A126205",
+    "A126206",
+    "A126207",
+    "A126208",
+    "A126209",
+    "A126211"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 17:19:37",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

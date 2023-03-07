@@ -1,0 +1,20 @@
+{
+  "description": "Smallest number having at least n partitions that contain at least n primes.",
+  "id": "A236019",
+  "mentions": [
+    "A000041",
+    "A002095",
+    "A235945",
+    "A236444"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:53",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Matula-Goebel numbers of rooted identity trees with thinning limbs.",
+  "id": "A298363",
+  "mentions": [
+    "A000081",
+    "A004111",
+    "A007097",
+    "A061775",
+    "A111299",
+    "A124343",
+    "A124346",
+    "A214577",
+    "A276625",
+    "A277098",
+    "A290689",
+    "A290760",
+    "A298303",
+    "A298304",
+    "A298305"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

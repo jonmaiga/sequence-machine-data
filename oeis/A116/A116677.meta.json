@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that prime(k) == 12 (mod k).",
+  "id": "A116677",
+  "mentions": [
+    "A004648",
+    "A023143",
+    "A023152",
+    "A116657",
+    "A116658",
+    "A116659",
+    "A116678"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

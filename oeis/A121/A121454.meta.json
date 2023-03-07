@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of q * psi(-q) * psi(-q^7) in powers of q where psi(q) is a Ramanujan theta function.",
+  "id": "A121454",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A035162",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:59:59",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

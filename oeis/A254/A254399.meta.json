@@ -1,0 +1,19 @@
+{
+  "description": "A Fibonacci sum: a(n) = Sum_{j=0..n-1} F(j)^2*F(2*n-j), in which the F's are the Fibonacci numbers.",
+  "id": "A254399",
+  "mentions": [
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

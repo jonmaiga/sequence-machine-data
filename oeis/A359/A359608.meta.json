@@ -1,0 +1,23 @@
+{
+  "description": "Indices k at which point A358777(k) obtains a new distinct value that has not occured before.",
+  "id": "A359608",
+  "mentions": [
+    "A046337",
+    "A353557",
+    "A358777",
+    "A359598",
+    "A359600",
+    "A359609"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

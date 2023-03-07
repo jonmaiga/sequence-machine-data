@@ -1,0 +1,23 @@
+{
+  "description": "The Collatz or 3x+1 function T (A014682) conjugated by unary-binary-encoding (A156552).",
+  "id": "A341516",
+  "mentions": [
+    "A005940",
+    "A014682",
+    "A064989",
+    "A156552",
+    "A329603",
+    "A341515"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

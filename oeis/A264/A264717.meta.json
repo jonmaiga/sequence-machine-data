@@ -1,0 +1,18 @@
+{
+  "description": "Central terms of triangle A100326.",
+  "id": "A264717",
+  "mentions": [
+    "A100326"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

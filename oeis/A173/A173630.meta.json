@@ -1,0 +1,22 @@
+{
+  "description": "Denominator of A002445(n)/A145979(n).",
+  "id": "A173630",
+  "mentions": [
+    "A002445",
+    "A060789",
+    "A145979",
+    "A146535"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "frac",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

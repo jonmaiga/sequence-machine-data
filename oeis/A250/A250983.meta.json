@@ -1,0 +1,20 @@
+{
+  "description": "First differences of A094589.",
+  "id": "A250983",
+  "mentions": [
+    "A001462",
+    "A013189",
+    "A094589"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:08",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

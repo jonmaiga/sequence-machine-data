@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = k is a number such that A090086(k), the smallest pseudoprime to base k (not necessarily exceeding n), is the n-th Carmichael number.",
+  "id": "A293279",
+  "mentions": [
+    "A002997",
+    "A090086",
+    "A293203"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

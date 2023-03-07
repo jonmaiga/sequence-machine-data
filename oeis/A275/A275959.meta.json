@@ -1,0 +1,28 @@
+{
+  "description": "Sum of distinct terms of A002674: a(0) = 0, a(2n) = A255411(A153880(a(n))), a(2n+1) = 1+A255411(A153880(a(n))).",
+  "id": "A275959",
+  "mentions": [
+    "A002674",
+    "A059590",
+    "A153880",
+    "A225901",
+    "A255411",
+    "A275956",
+    "A276082",
+    "A276083",
+    "A276089",
+    "A276091"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

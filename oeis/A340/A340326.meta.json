@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = a(n-2) + (-1)^n*a(n-1) + n*(1-(-1)^n) with a(0) = a(1) = 1.",
+  "id": "A340326",
+  "mentions": [
+    "A021067",
+    "A030119",
+    "A065220"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:22:23",
+    "offset": 0,
+    "size": 77,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Decimal expansion of Integral_{x=0..1} log(G(x+1)) dx, where G(x) is the Barnes G-function.",
+  "id": "A345210",
+  "mentions": [
+    "A061444",
+    "A074962",
+    "A087013",
+    "A087014",
+    "A087015",
+    "A087016",
+    "A087017",
+    "A110544",
+    "A225746",
+    "A252798",
+    "A252799"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": -1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

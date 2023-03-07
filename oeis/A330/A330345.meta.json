@@ -1,0 +1,29 @@
+{
+  "description": "Number of labeled simple graphs with n vertices whose covered portion has exactly two automorphisms.",
+  "id": "A330345",
+  "mentions": [
+    "A006125",
+    "A006129",
+    "A143543",
+    "A241454",
+    "A330098",
+    "A330228",
+    "A330230",
+    "A330282",
+    "A330297",
+    "A330343",
+    "A330344",
+    "A330346"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

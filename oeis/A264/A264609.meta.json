@@ -1,0 +1,17 @@
+{
+  "description": "A260685(4n).",
+  "id": "A264609",
+  "mentions": [
+    "A260685"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of labeled bicolored nonseparable graphs with k points in one color class and n-k points in the other class. The classes are interchangeable if k = n-k. Here n >= 2, k=1..n-1.",
+  "id": "A123474",
+  "mentions": [
+    "A004100",
+    "A005335",
+    "A123301",
+    "A262307"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 2,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 12*a(n-1) - 33*a(n-2) for n > 1; a(0) = 3, a(1) = 21.",
+  "id": "A163472",
+  "mentions": [
+    "A163471",
+    "A163473"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

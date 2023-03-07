@@ -1,0 +1,20 @@
+{
+  "description": "Lesser of twin primes (A001359) of the form p = k^2+s such that q = k^4+s is also a lesser of twin primes, q > p.",
+  "id": "A126193",
+  "mentions": [
+    "A001359",
+    "A126194",
+    "A126769"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

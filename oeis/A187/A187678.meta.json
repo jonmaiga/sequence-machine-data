@@ -1,0 +1,20 @@
+{
+  "description": "The smallest integer for which the number of divisors is the n-th nonprime.",
+  "id": "A187678",
+  "mentions": [
+    "A005179",
+    "A018252",
+    "A061286"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

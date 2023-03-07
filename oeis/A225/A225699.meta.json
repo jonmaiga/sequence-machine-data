@@ -1,0 +1,19 @@
+{
+  "description": "Numerators of coefficients arising from q-expansion of Integrate[eta[q^4]^8/eta[q^2]^4, q]/q where eta is the Dedekind eta function.",
+  "id": "A225699",
+  "mentions": [
+    "A008438",
+    "A225700"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

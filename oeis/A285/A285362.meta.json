@@ -1,0 +1,36 @@
+{
+  "description": "Sum T(n,k) of the entries in the k-th blocks of all set partitions of [n]; triangle T(n,k), n>=1, 1<=k<=n, read by rows.",
+  "id": "A285362",
+  "mentions": [
+    "A000027",
+    "A000110",
+    "A000217",
+    "A006000",
+    "A105488",
+    "A270236",
+    "A285363",
+    "A285364",
+    "A285365",
+    "A285366",
+    "A285367",
+    "A285368",
+    "A285369",
+    "A285370",
+    "A285371",
+    "A285372",
+    "A285410",
+    "A285439",
+    "A285595"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:57",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

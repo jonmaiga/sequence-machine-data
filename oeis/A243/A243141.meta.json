@@ -1,0 +1,24 @@
+{
+  "description": "Triangle T(n, k) = Numbers of inequivalent (mod D_3) ways to place k points on a triangular grid of side n so that no three of them are vertices of an equilateral triangle of any orientation. Triangle read by rows.",
+  "id": "A243141",
+  "mentions": [
+    "A001399",
+    "A227327",
+    "A240114",
+    "A240439",
+    "A243142",
+    "A243143",
+    "A243144"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

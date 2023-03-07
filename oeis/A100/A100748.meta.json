@@ -1,0 +1,17 @@
+{
+  "description": "Years of recorded appearances of Halley's Comet (negative years are B.C.).",
+  "id": "A100748",
+  "mentions": [
+    "A072235"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

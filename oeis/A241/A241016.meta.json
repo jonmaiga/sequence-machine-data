@@ -1,0 +1,29 @@
+{
+  "description": "Triangle read by rows: T(n, k) = sum of k-th row of n X n square filled with the numbers 1 through n^2 reading across rows left-to-right.",
+  "id": "A241016",
+  "mentions": [
+    "A000217",
+    "A005449",
+    "A005475",
+    "A022265",
+    "A022267",
+    "A022269",
+    "A037270",
+    "A059270",
+    "A081436",
+    "A251630"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:57",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

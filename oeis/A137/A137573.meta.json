@@ -1,0 +1,22 @@
+{
+  "description": "The first lower diagonal in square array A137570; equals the convolution of the main diagonal A137571 with the Catalan numbers (A000108) and with the square of A002293.",
+  "id": "A137573",
+  "mentions": [
+    "A000108",
+    "A002293",
+    "A137570",
+    "A137571",
+    "A137572"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

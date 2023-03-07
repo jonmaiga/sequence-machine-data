@@ -1,0 +1,26 @@
+{
+  "description": "Triangle of q-Bell number coefficients, read by rows that form polynomials in q, giving the eigensequence for the triangle of q-binomial coefficients.",
+  "id": "A125810",
+  "mentions": [
+    "A000110",
+    "A080107",
+    "A125811",
+    "A125812",
+    "A125813",
+    "A125814",
+    "A125815",
+    "A264082"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

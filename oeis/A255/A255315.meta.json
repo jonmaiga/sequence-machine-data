@@ -1,0 +1,27 @@
+{
+  "description": "Lower triangular matrix describing the shape of a half hyperbola in the Dirichlet divisor problem.",
+  "id": "A255315",
+  "mentions": [
+    "A000096",
+    "A000196",
+    "A004526",
+    "A005563",
+    "A006218",
+    "A079643",
+    "A094761",
+    "A094820",
+    "A152948"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

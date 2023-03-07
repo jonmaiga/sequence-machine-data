@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of 1 / (1 + Sum_{k>=1}(-x)^Lucas(k)).",
+  "id": "A357384",
+  "mentions": [
+    "A000204",
+    "A080889",
+    "A288039"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

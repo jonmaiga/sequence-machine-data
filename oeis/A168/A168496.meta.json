@@ -1,0 +1,20 @@
+{
+  "description": "The positions of non-single or nonisolated numbers in A001477.",
+  "id": "A168496",
+  "mentions": [
+    "A001477",
+    "A167707"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

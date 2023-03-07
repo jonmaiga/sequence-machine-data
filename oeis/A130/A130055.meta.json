@@ -1,0 +1,22 @@
+{
+  "description": "A129691 * A127093.",
+  "id": "A130055",
+  "mentions": [
+    "A000005",
+    "A127093",
+    "A129691",
+    "A130054"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

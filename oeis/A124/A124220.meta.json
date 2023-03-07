@@ -1,0 +1,24 @@
+{
+  "description": "Transpose table A123685 then subtract, term by term, from table A047969.",
+  "id": "A124220",
+  "mentions": [
+    "A047969",
+    "A047970",
+    "A123638",
+    "A123639",
+    "A123685"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

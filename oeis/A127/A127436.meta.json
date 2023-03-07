@@ -1,0 +1,19 @@
+{
+  "description": "Primes associated with A127435.",
+  "id": "A127436",
+  "mentions": [
+    "A045349",
+    "A127435"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Number of permutations of 1..n containing the relative rank sequence { 1234567 } at any spacing.",
+  "id": "A159175",
+  "mentions": [
+    "A000142",
+    "A052399",
+    "A056986",
+    "A158005",
+    "A158423",
+    "A214015",
+    "A214152"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 7,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

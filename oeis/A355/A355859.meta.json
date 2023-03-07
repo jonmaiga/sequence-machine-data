@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) = (n + k)/2 if (n + k) is congruent to 0 (mod 2), otherwise T(n,k) = 0; n >= 1, k >= 1.",
+  "id": "A355859",
+  "mentions": [
+    "A001318",
+    "A138099"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

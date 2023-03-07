@@ -1,0 +1,21 @@
+{
+  "description": "Number of rectangles with semiprime area and dimensions (p) X (p+q) such that n = p+q, p < q.",
+  "id": "A303337",
+  "mentions": [
+    "A000720",
+    "A001222",
+    "A303336"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways a number can be expressed as the difference of two palindromes, or -1 if this number if infinite.",
+  "id": "A109871",
+  "mentions": [
+    "A109870"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

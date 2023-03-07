@@ -1,0 +1,29 @@
+{
+  "description": "Number T(n,k) of permutations of [n] with exactly k distinct lengths of increasing runs; triangle T(n,k), n>=0, 0<=k<=A003056(n), read by rows.",
+  "id": "A317327",
+  "mentions": [
+    "A000007",
+    "A000142",
+    "A000217",
+    "A003056",
+    "A097591",
+    "A097592",
+    "A123125",
+    "A218868",
+    "A317273",
+    "A317328",
+    "A317329"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:36",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of isolated even numbers in Collatz (3x+1) trajectory of n.",
+  "id": "A213209",
+  "mentions": [
+    "A213181"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

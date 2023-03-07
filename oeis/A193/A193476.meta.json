@@ -1,0 +1,21 @@
+{
+  "description": "The denominators of the Bernoulli secant numbers at odd indices.",
+  "id": "A193476",
+  "mentions": [
+    "A000364",
+    "A160143",
+    "A160144",
+    "A193475"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Primes of the form 9n^2-8n+2.",
+  "id": "A154253",
+  "mentions": [
+    "A047270",
+    "A154254"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:19:43",
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

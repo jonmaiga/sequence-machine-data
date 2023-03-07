@@ -1,0 +1,22 @@
+{
+  "description": "Smallest prime of the form k^n + k^(n-1) - 1.",
+  "id": "A126017",
+  "mentions": [
+    "A000040",
+    "A045546",
+    "A125881",
+    "A125885",
+    "A125965",
+    "A125973"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

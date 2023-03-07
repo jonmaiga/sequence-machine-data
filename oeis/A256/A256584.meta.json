@@ -1,0 +1,17 @@
+{
+  "description": "Integer areas of integer-sided triangles where at least one of the three altitudes is of perfect square length.",
+  "id": "A256584",
+  "mentions": [
+    "A210643"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

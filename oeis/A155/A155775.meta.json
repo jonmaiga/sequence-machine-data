@@ -1,0 +1,22 @@
+{
+  "description": "Indices j in A000040 such that j is an odd composite and the distinct digits of the prime A000040(j) are in increasing order.",
+  "id": "A155775",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A028864",
+    "A071904",
+    "A155079"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Zero together with the prime numbers (A000040).",
+  "id": "A182986",
+  "mentions": [
+    "A000040",
+    "A018252",
+    "A054541",
+    "A141468",
+    "A158611"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

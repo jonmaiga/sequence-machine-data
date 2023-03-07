@@ -1,0 +1,22 @@
+{
+  "description": "The y-coordinates of prime numbers in an Ulam spiral oriented counterclockwise with first step west.",
+  "id": "A214667",
+  "mentions": [
+    "A000040",
+    "A063826",
+    "A214664",
+    "A214665",
+    "A214666"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

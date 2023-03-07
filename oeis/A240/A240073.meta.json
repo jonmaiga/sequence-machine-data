@@ -1,0 +1,19 @@
+{
+  "description": "Deficient numbers n for which sigma(n), the sum of divisors of n, reaches a new maximum.",
+  "id": "A240073",
+  "mentions": [
+    "A002093",
+    "A005100",
+    "A228450"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:57",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

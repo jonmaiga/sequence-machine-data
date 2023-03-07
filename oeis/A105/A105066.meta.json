@@ -1,0 +1,23 @@
+{
+  "description": "Positive integers n such that n^8 + 1 is semiprime.",
+  "id": "A105066",
+  "mentions": [
+    "A000040",
+    "A001538",
+    "A103854",
+    "A104238",
+    "A105041"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

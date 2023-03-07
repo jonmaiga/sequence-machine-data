@@ -1,0 +1,20 @@
+{
+  "description": "Matrix inverse of A179286.",
+  "id": "A179287",
+  "mentions": [
+    "A002321",
+    "A179285",
+    "A179286"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

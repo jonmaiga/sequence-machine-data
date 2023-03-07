@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. 1/(1 + x/(1 + x^2/(2 + x^3/(3 + x^4/(4 + x^5/(5 + x^6/(6 + x^7/(7 + ...)))))))), a continued fraction.",
+  "id": "A295945",
+  "mentions": [
+    "A007325",
+    "A295944"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

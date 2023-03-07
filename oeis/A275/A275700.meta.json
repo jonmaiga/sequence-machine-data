@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Product_{d|n} prime(d).",
+  "id": "A275700",
+  "mentions": [
+    "A007445"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

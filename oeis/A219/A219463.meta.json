@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,k) = 1 - A047999(n,k), 0 <= k <= n.",
+  "id": "A219463",
+  "mentions": [
+    "A000004",
+    "A001316",
+    "A047999",
+    "A048967",
+    "A057427",
+    "A219843"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-22 20:28:47",
+    "offset": 0,
+    "size": 86,
+    "source": "joeis"
+  }
+}

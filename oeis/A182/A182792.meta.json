@@ -1,0 +1,28 @@
+{
+  "description": "Number of n-colorings of the Triangle Graph of order 7.",
+  "id": "A182792",
+  "mentions": [
+    "A178435",
+    "A182788",
+    "A182789",
+    "A182790",
+    "A182791",
+    "A182793",
+    "A182794",
+    "A182795",
+    "A182796",
+    "A182797",
+    "A182798"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

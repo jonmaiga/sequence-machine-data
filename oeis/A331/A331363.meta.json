@@ -1,0 +1,20 @@
+{
+  "description": "Pairs of coordinates of the corners in a counterclockwise triangular spiral.",
+  "id": "A331363",
+  "mentions": [
+    "A329116",
+    "A329972"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:32:13",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

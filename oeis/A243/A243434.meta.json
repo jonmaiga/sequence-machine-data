@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of c*sqrt(e/2), a constant associated with Dawson's integral and the asymptotic evaluation of the ideal hyperbolic n-cube volume, where c is A243433, twice the maximum of Dawson's integral.",
+  "id": "A243434",
+  "mentions": [
+    "A133841",
+    "A133842",
+    "A243433"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

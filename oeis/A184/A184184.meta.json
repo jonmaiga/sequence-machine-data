@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of permutations of [n] having k adjacent cycles (0 <= k <= n). An adjacent cycle is a cycle of the form (i, i+1, i+2, ...) (including 1-element cycles).",
+  "id": "A184184",
+  "mentions": [
+    "A007489",
+    "A013999",
+    "A184185"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

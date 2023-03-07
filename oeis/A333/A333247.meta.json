@@ -1,0 +1,21 @@
+{
+  "description": "Number of self-avoiding closed paths on an n X n grid which pass through NW and SW corners.",
+  "id": "A333247",
+  "mentions": [
+    "A271507",
+    "A333246",
+    "A333323",
+    "A333466"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 2,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

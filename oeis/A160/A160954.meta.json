@@ -1,0 +1,23 @@
+{
+  "description": "a(n+1) is the smallest prime formed by appending a single digit to a(n); a(1)=18.",
+  "id": "A160954",
+  "mentions": [
+    "A000040",
+    "A160751",
+    "A160955"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

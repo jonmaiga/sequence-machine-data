@@ -1,0 +1,23 @@
+{
+  "description": "Magnetic Tower of Hanoi, total number of moves, optimally solving the [RED ; NEUTRAL ; NEUTRAL] or [NEUTRAL ; NEUTRAL ; BLUE] pre-colored puzzle.",
+  "id": "A183116",
+  "mentions": [
+    "A000244",
+    "A003462",
+    "A183111",
+    "A183112",
+    "A183115",
+    "A183125"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

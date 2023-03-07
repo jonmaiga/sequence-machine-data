@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) gives the independence number of the k X n knight graph.",
+  "id": "A287797",
+  "mentions": [
+    "A030978",
+    "A201629"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

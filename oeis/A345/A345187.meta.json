@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are the sum of five third powers in ten or more ways.",
+  "id": "A345187",
+  "mentions": [
+    "A341897",
+    "A344803",
+    "A345155",
+    "A345185",
+    "A345188",
+    "A345519"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Least k such that k*n!! +1 is a prime number.",
+  "id": "A202448",
+  "mentions": [
+    "A006882"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of 180*arccos(1-8/(Pi^2))/Pi.",
+  "id": "A120670",
+  "mentions": [
+    "A088538",
+    "A120669",
+    "A120671"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "changed",
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:38",
+    "offset": 2,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 0; a(n) = the least k such that ((n+1)(n+2)(n+3)...(n+k))/((n-1)(n-2)(n-3)...(n-k)) is an integer (see A092935).",
+  "id": "A103634",
+  "mentions": [
+    "A092935"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

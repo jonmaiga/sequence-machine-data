@@ -1,0 +1,25 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into distinct parts that do not divide n.",
+  "id": "A332001",
+  "mentions": [
+    "A018818",
+    "A032020",
+    "A033630",
+    "A098743",
+    "A100346",
+    "A200745",
+    "A300702",
+    "A331927",
+    "A331979"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

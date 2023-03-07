@@ -1,0 +1,21 @@
+{
+  "description": "\"Full Inside numbers\". Such numbers have the property that all their digits will be visited exactly once in a single closed circuit (see Comments).",
+  "id": "A284591",
+  "mentions": [
+    "A284515",
+    "A285471",
+    "A285695",
+    "A285696"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

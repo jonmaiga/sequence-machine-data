@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that there do not exist two ways of writing n = a+b with a<=b, gcd(n,a,b)=1, and the same value of N(a,b,n) = product of distinct prime divisors of a*b*n.",
+  "id": "A172248",
+  "mentions": [
+    "A023022",
+    "A172245",
+    "A172246",
+    "A172247"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 2,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

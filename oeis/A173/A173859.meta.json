@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of 6/5 in base phi.",
+  "id": "A173859",
+  "mentions": [
+    "A001175",
+    "A001622",
+    "A173856",
+    "A173861",
+    "A173864"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

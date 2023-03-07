@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k), n>=k>=1, is the number of obtuse isosceles triangles with integral coordinates that have a bounding box of size n X k.",
+  "id": "A280639",
+  "mentions": [
+    "A190318",
+    "A279413",
+    "A279415",
+    "A279418",
+    "A279432",
+    "A279433",
+    "A280652",
+    "A280653"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

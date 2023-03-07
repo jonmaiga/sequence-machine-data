@@ -1,0 +1,23 @@
+{
+  "description": "Largest k such that (k*n)! >= (k!)^(n+1).",
+  "id": "A230282",
+  "mentions": [
+    "A000142",
+    "A046968",
+    "A046969",
+    "A065027",
+    "A136432",
+    "A230319"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

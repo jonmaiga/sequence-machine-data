@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways to write n = p^2 + q - pi(q) with p prime and q among 1, ..., n, where pi(.) is given by A000720.",
+  "id": "A238402",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A000720",
+    "A232443",
+    "A232463",
+    "A238386"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

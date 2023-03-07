@@ -1,0 +1,20 @@
+{
+  "description": "Primes of the form k followed by k 9's.",
+  "id": "A145851",
+  "mentions": [
+    "A141311",
+    "A145852",
+    "A174352"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

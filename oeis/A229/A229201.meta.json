@@ -1,0 +1,19 @@
+{
+  "description": "Beginning position of n in the decimal expansion of Soldner's constant.",
+  "id": "A229201",
+  "mentions": [
+    "A070769"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

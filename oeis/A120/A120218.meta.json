@@ -1,0 +1,23 @@
+{
+  "description": "Start with 100103 and repeatedly reverse the digits and add 2 to get the next term.",
+  "id": "A120218",
+  "mentions": [
+    "A117521",
+    "A118514",
+    "A120214",
+    "A120215",
+    "A120216",
+    "A120217"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:31:03",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

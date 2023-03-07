@@ -1,0 +1,18 @@
+{
+  "description": "Equals one maps: number of n X 4 binary arrays indicating the locations of corresponding elements equal to exactly one of their horizontal and vertical neighbors in a random 0..3 n X 4 array.",
+  "id": "A220749",
+  "mentions": [
+    "A220751"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:12:10",
+    "offset": 1,
+    "size": 16,
+    "source": "joeis"
+  }
+}

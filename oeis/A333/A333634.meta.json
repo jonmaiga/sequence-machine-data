@@ -1,0 +1,21 @@
+{
+  "description": "Numbers with an even number of non-unitary prime divisors.",
+  "id": "A333634",
+  "mentions": [
+    "A056170",
+    "A065493",
+    "A190641",
+    "A327877"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:04",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

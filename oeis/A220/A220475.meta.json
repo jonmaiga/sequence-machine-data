@@ -1,0 +1,21 @@
+{
+  "description": "Chebyshev numbers C_v(n) for v=15/14: a(n) is the smallest number such that if x>=a(n), then theta(x)-theta(14*x/15)>=n*log(x), where theta(x)=sum_{prime p<=x} log p.",
+  "id": "A220475",
+  "mentions": [
+    "A220293",
+    "A220462",
+    "A220463",
+    "A220474"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

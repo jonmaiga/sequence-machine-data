@@ -1,0 +1,26 @@
+{
+  "description": "Denominator polynomials for continued fraction generating function for n!.",
+  "id": "A145118",
+  "mentions": [
+    "A000241",
+    "A002620",
+    "A008297",
+    "A021010",
+    "A056920",
+    "A066667",
+    "A105278"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

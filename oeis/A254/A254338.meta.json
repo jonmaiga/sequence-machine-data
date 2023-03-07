@@ -1,0 +1,30 @@
+{
+  "description": "Initial digits of A254143 in decimal representation.",
+  "id": "A254338",
+  "mentions": [
+    "A000030",
+    "A000217",
+    "A005993",
+    "A005994",
+    "A065033",
+    "A093137",
+    "A133384",
+    "A199682",
+    "A237424",
+    "A254143",
+    "A254323",
+    "A254339",
+    "A254397"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

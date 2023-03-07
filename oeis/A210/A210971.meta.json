@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows in which row n lists the region number of the parts of the k-th partition of n, with partitions reverse lexicographically ordered.",
+  "id": "A210971",
+  "mentions": [
+    "A000041",
+    "A026905",
+    "A135010",
+    "A138121",
+    "A182703",
+    "A194446",
+    "A206437",
+    "A210969",
+    "A210972"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Antidiagonal sums of the numerical array defined by M(n,k) = 1 + (k-1) mod n.",
+  "id": "A111490",
+  "mentions": [
+    "A000142",
+    "A004125",
+    "A033879"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

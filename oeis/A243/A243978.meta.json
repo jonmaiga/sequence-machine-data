@@ -1,0 +1,32 @@
+{
+  "description": "Triangle T(n,k), n>=0, 0<=k<=n, read by rows: T(n,k) is the number of partitions of n where the minimal multiplicity of any part is k.",
+  "id": "A243978",
+  "mentions": [
+    "A000007",
+    "A000041",
+    "A091602",
+    "A183558",
+    "A183568",
+    "A242451",
+    "A244515",
+    "A244516",
+    "A244517",
+    "A244518",
+    "A245037",
+    "A245038",
+    "A245039",
+    "A245040",
+    "A245041"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 0,
+    "size": 136,
+    "source": "oeis-bfile"
+  }
+}

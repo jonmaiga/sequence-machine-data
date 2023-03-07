@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive terms such that for any n > 0, the 2-adic valuation of a(n) equals the 3-adic valuation of a(n+1).",
+  "id": "A298196",
+  "mentions": [
+    "A007814",
+    "A007949",
+    "A304872",
+    "A304881"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

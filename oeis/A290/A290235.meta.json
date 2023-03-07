@@ -1,0 +1,21 @@
+{
+  "description": "Decimal representation of the diagonal from the origin to the corner of the n-th stage of growth of the two-dimensional cellular automaton defined by \"Rule 773\", based on the 5-celled von Neumann neighborhood.",
+  "id": "A290235",
+  "mentions": [
+    "A290232",
+    "A290233",
+    "A290234"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:39:46",
+    "offset": 0,
+    "size": 37,
+    "source": "joeis"
+  }
+}

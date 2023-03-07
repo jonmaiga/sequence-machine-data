@@ -1,0 +1,22 @@
+{
+  "description": "Subprimorials: inverse binomial transform of primorials (A002110).",
+  "id": "A121572",
+  "mentions": [
+    "A000166",
+    "A002110",
+    "A007318",
+    "A079266",
+    "A136104"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

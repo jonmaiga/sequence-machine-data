@@ -1,0 +1,20 @@
+{
+  "description": "Smallest m such that A116452(m) = n.",
+  "id": "A116454",
+  "mentions": [
+    "A116451",
+    "A116452",
+    "A116453"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:53:24",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

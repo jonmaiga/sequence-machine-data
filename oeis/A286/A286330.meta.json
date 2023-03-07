@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of n into a squarefree number of squarefree parts.",
+  "id": "A286330",
+  "mentions": [
+    "A005117",
+    "A073576",
+    "A085755",
+    "A286141"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

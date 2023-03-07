@@ -1,0 +1,21 @@
+{
+  "description": "Given n, sum all division remainders {n/k}, with k=1,...,n. The value a(n) is given by the floor of that sum. Note that {x}:=x-[x].",
+  "id": "A102722",
+  "mentions": [
+    "A000005",
+    "A006218",
+    "A052488"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:53",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

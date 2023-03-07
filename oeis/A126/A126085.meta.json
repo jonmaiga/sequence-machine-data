@@ -1,0 +1,18 @@
+{
+  "description": "Number of n-node rooted trees of height 9.",
+  "id": "A126085",
+  "mentions": [
+    "A000235",
+    "A034781"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:14",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that reach 1 under the iterations of the map k -> k/d(k) if d(k) | k, and k -> k otherwise, where d(k) is the number of divisors of k (A000005).",
+  "id": "A330816",
+  "mentions": [
+    "A000005",
+    "A002182",
+    "A033950",
+    "A174457",
+    "A274468"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

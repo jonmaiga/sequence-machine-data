@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that product of divisors of n ends with n and n is nonprime (A018252).",
+  "id": "A278473",
+  "mentions": [
+    "A007955",
+    "A010051",
+    "A011557",
+    "A018252",
+    "A055642"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

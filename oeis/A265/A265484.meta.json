@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that 36^n - 6^n - 1 is prime.",
+  "id": "A265484",
+  "mentions": [
+    "A265481"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

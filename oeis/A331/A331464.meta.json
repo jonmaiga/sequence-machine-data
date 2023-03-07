@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that k and k + 1 are both binary Smith numbers (A278909).",
+  "id": "A331464",
+  "mentions": [
+    "A006753",
+    "A050219",
+    "A050220",
+    "A278909",
+    "A331463",
+    "A331465"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

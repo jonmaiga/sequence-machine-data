@@ -1,0 +1,21 @@
+{
+  "description": "For any number n with binary expansion (b(1), b(2), ..., b(k)), the binary expansion of a(n) is (1-floor((b(k)+b(1)+b(2))/2), 1-floor((b(1)+b(2)+b(3))/2), ..., 1-floor((b(k-1)+b(k)+b(1))/2).",
+  "id": "A342700",
+  "mentions": [
+    "A003817",
+    "A020988",
+    "A342698"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

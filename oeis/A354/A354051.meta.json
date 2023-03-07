@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of Sum_{k>=0} 1 / (k^4 + 1).",
+  "id": "A354051",
+  "mentions": [
+    "A002523",
+    "A113319",
+    "A255434",
+    "A256920",
+    "A354004",
+    "A354052",
+    "A354053"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

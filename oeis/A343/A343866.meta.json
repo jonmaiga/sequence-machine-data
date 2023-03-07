@@ -1,0 +1,21 @@
+{
+  "description": "Number of inequivalent cyclic diagonal Latin squares of order 2n+1 up to rotations, reflections and permutation of symbols.",
+  "id": "A343866",
+  "mentions": [
+    "A123565",
+    "A287764",
+    "A338562",
+    "A341585"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

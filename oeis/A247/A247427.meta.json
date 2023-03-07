@@ -1,0 +1,20 @@
+{
+  "description": "2n - m, where m is the largest integer such that A003249(m) <= n.",
+  "id": "A247427",
+  "mentions": [
+    "A003247",
+    "A003249",
+    "A003254"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

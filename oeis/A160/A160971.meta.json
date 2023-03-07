@@ -1,0 +1,20 @@
+{
+  "description": "Numerators of constant terms of Fourier series of meromorphic modular forms E_k/Delta, where E_k is the normalized k th Eisenstein series [cf. Serre reference] and Delta is the normalized unique weight-twelve cusp form for the full modular group (the generating function of Ramanujan's tau function.)",
+  "id": "A160971",
+  "mentions": [
+    "A000594"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 2,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

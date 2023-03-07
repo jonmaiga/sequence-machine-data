@@ -1,0 +1,28 @@
+{
+  "description": "Array read by descending antidiagonals: T(n,m) is the number of sequences of length n >= 0 with elements in 1..m-1 such that no iterated difference is divisible by m >= 1.",
+  "id": "A353434",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A001477",
+    "A002378",
+    "A019590",
+    "A040000",
+    "A245996",
+    "A350529",
+    "A353433",
+    "A353436"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

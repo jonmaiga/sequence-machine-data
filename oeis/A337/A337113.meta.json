@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows in which row n lists all prime factors of A337112(n) in increasing order.",
+  "id": "A337113",
+  "mentions": [
+    "A056472",
+    "A337037",
+    "A337080",
+    "A337081",
+    "A337112"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

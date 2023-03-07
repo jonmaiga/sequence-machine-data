@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the angle (in degrees) between an edge and (the normal of) a face of the regular tetrahedron.",
+  "id": "A210974",
+  "mentions": [
+    "A072097",
+    "A195696"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:00",
+    "offset": 2,
+    "size": 75,
+    "source": "joeis"
+  }
+}

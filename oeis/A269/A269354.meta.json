@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that 10n - 3, 10n - 1, 10n + 1 and 10n + 3 are divisible only by primes congruent to 3 mod 4.",
+  "id": "A269354",
+  "mentions": [
+    "A004614"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:31",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

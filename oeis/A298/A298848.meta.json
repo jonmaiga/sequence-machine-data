@@ -1,0 +1,27 @@
+{
+  "description": "Number of partitions of n^3 into distinct cubes > 1.",
+  "id": "A298848",
+  "mentions": [
+    "A000578",
+    "A003108",
+    "A030272",
+    "A078128",
+    "A259792",
+    "A279329",
+    "A280130",
+    "A298641",
+    "A298671",
+    "A298672"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

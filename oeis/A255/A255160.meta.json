@@ -1,0 +1,19 @@
+{
+  "description": "Least positive integer m with A254885(m) = n.",
+  "id": "A255160",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A254885"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

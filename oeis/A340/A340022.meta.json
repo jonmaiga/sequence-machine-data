@@ -1,0 +1,21 @@
+{
+  "description": "Number of graphs with vertices labeled with positive integers summing to n.",
+  "id": "A340022",
+  "mentions": [
+    "A000088",
+    "A337716",
+    "A340023",
+    "A340024",
+    "A340025"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

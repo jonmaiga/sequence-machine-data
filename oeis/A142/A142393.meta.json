@@ -1,0 +1,19 @@
+{
+  "description": "Primes congruent to 42 mod 47.",
+  "id": "A142393",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:27:05",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

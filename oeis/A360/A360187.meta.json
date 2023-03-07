@@ -1,0 +1,18 @@
+{
+  "description": "Generalized Somos-5 sequence with a(n) = (-a(n-1)*a(n-4) + 42*a(n-2)*a(n-3))/a(n-5), a(-n) = a(n), a(0) = a(1) = 1, a(2) = 3.",
+  "id": "A360187",
+  "mentions": [
+    "A166929"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

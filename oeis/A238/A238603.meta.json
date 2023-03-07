@@ -1,0 +1,23 @@
+{
+  "description": "A sixth-order linear divisibility sequence related to A000225: a(n) := (1/105)*(2^(3*n) - 1)*(2^(4*n) - 1)/(2^n - 1).",
+  "id": "A238603",
+  "mentions": [
+    "A000225",
+    "A238536",
+    "A238600",
+    "A238601",
+    "A238602"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

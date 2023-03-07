@@ -1,0 +1,20 @@
+{
+  "description": "Number of (w,x,y,z) with all terms in {0,...,n} such that range{w,x,y,z} is not one of the numbers w,x,y,z.",
+  "id": "A212569",
+  "mentions": [
+    "A211795",
+    "A212746"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

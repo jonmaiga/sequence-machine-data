@@ -1,0 +1,17 @@
+{
+  "description": "Fibonacci's solution to x^3 + 2x^2 + 10x = 20.",
+  "id": "A243629",
+  "mentions": [
+    "A159990"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

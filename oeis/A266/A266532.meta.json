@@ -1,0 +1,26 @@
+{
+  "description": "Total number of Y-toothpicks after n-th stage in the \"outward\" version of the cellular automaton of A160120.",
+  "id": "A266532",
+  "mentions": [
+    "A139250",
+    "A147562",
+    "A159912",
+    "A160120",
+    "A160715",
+    "A160720",
+    "A266533",
+    "A267700",
+    "A267701"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

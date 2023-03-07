@@ -1,0 +1,35 @@
+{
+  "description": "Sum T(n,k) over all partitions lambda of n into k distinct parts of Product_{i:lambda} prime(i); triangle T(n,k), n>=0, 0<=k<=A003056(n), read by rows.",
+  "id": "A258323",
+  "mentions": [
+    "A000007",
+    "A000040",
+    "A000217",
+    "A002110",
+    "A003056",
+    "A025129",
+    "A145518",
+    "A147655",
+    "A246867",
+    "A258358",
+    "A258359",
+    "A258360",
+    "A258361",
+    "A258362",
+    "A258363",
+    "A258364",
+    "A258365",
+    "A321267"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of Motzkin paths of length n having k ascents (0<=k<=floor(n/2)); an ascent is a maximal string of upsteps.",
+  "id": "A114580",
+  "mentions": [
+    "A001006",
+    "A005774"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

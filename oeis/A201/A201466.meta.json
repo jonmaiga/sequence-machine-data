@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. satisfies: A(x) = (x + 3*exp(A(x)) - 3)/4.",
+  "id": "A201466",
+  "mentions": [
+    "A000311",
+    "A201465"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:54:45",
+    "offset": 1,
+    "size": 18,
+    "source": "joeis"
+  }
+}

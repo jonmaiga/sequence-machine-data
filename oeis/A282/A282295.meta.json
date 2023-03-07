@@ -1,0 +1,20 @@
+{
+  "description": "Binary representation of the x-axis, from the left edge to the origin, of the n-th stage of growth of the two-dimensional cellular automaton defined by \"Rule 451\", based on the 5-celled von Neumann neighborhood.",
+  "id": "A282295",
+  "mentions": [
+    "A282297",
+    "A282298",
+    "A282299"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

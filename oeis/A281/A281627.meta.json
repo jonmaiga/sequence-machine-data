@@ -1,0 +1,29 @@
+{
+  "description": "a(n) is the smallest number k such that sigma(phi(k)) = A062402(k) is the n-th Mersenne prime (A000668(n)), or 0 if no such k exists.",
+  "id": "A281627",
+  "mentions": [
+    "A000010",
+    "A000043",
+    "A000203",
+    "A000668",
+    "A002181",
+    "A002202",
+    "A023194",
+    "A053576",
+    "A062402",
+    "A062514",
+    "A275969",
+    "A276044"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

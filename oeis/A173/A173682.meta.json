@@ -1,0 +1,24 @@
+{
+  "description": "Number of ways of writing n as a sum of 9 nonnegative cubes.",
+  "id": "A173682",
+  "mentions": [
+    "A010057",
+    "A051343",
+    "A173676",
+    "A173677",
+    "A173678",
+    "A173679",
+    "A173680",
+    "A173681"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:57",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Successive sums of the successive rows of the \"diamond\" mentioned in A320143.",
+  "id": "A320145",
+  "mentions": [
+    "A320143"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

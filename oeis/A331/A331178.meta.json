@@ -1,0 +1,22 @@
+{
+  "description": "Number of values of k, 1 <= k <= n, with A023900(k) = A023900(n), where A023900 is Dirichlet inverse of Euler totient function phi.",
+  "id": "A331178",
+  "mentions": [
+    "A000010",
+    "A023900",
+    "A081373",
+    "A331175",
+    "A331179",
+    "A331180"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

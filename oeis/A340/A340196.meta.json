@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n - A340195(n).",
+  "id": "A340196",
+  "mentions": [
+    "A000010",
+    "A049559",
+    "A318830",
+    "A340193",
+    "A340195"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

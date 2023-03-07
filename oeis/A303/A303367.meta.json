@@ -1,0 +1,21 @@
+{
+  "description": "Numbers equal to the determinant of a circulant matrix based on the base-7 digits of n.",
+  "id": "A303367",
+  "mentions": [
+    "A219327",
+    "A303366",
+    "A303368",
+    "A303369"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Numbers that are congruent to {1, 12} mod 13.",
+  "id": "A175886",
+  "mentions": [
+    "A000217",
+    "A005408",
+    "A007310",
+    "A047209",
+    "A047336",
+    "A047522",
+    "A056020",
+    "A090771",
+    "A091998",
+    "A113801",
+    "A175885",
+    "A175887",
+    "A195045"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:00",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

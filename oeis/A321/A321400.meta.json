@@ -1,0 +1,25 @@
+{
+  "description": "A family of sequences converging to the exponential limit of sec + tan (A320956). Square array A(n, k) for n >= 0 and k >= 0, read by descending antidiagonals.",
+  "id": "A321400",
+  "mentions": [
+    "A000007",
+    "A000111",
+    "A000828",
+    "A320955",
+    "A320956",
+    "A320957",
+    "A321394",
+    "A321399"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

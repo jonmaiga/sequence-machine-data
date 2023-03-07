@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = a(2) = a(3) = 1, a(4) = 3; a(n) = n - a(n-a(n-1)) - a(n-a(n-2)) for n > 4.",
+  "id": "A289205",
+  "mentions": [
+    "A244477"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:20:19",
+    "offset": 1,
+    "size": 104,
+    "source": "joeis"
+  }
+}

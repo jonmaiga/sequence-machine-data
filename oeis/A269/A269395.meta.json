@@ -1,0 +1,21 @@
+{
+  "description": "Permutation of natural numbers: a(n) = A269171(A269393(n)) = A269171(A269171(3*n)/3).",
+  "id": "A269395",
+  "mentions": [
+    "A255407",
+    "A269171",
+    "A269393",
+    "A269396"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:31",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

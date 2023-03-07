@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that number of primes in the range (k-sqrt(k), k) is equal to number of primes in the range (k, k+sqrt(k)).",
+  "id": "A192360",
+  "mentions": [
+    "A188817",
+    "A192221"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

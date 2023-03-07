@@ -1,0 +1,35 @@
+{
+  "description": "Number of semi-lone-child-avoiding rooted semi-identity trees with n unlabeled vertices.",
+  "id": "A331993",
+  "mentions": [
+    "A000007",
+    "A000045",
+    "A001678",
+    "A004111",
+    "A300660",
+    "A306200",
+    "A316694",
+    "A324969",
+    "A331683",
+    "A331686",
+    "A331783",
+    "A331875",
+    "A331933",
+    "A331934",
+    "A331963",
+    "A331964",
+    "A331965",
+    "A331966",
+    "A331994"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

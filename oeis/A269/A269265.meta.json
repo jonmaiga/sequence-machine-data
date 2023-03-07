@@ -1,0 +1,20 @@
+{
+  "description": "a(0) = a(1) = 1; thereafter a(n) = a(n-1) + a(n-2) if n is even, otherwise a(n) = a(n-1)^2.",
+  "id": "A269265",
+  "mentions": [
+    "A007018",
+    "A174864",
+    "A238411"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

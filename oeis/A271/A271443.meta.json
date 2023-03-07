@@ -1,0 +1,32 @@
+{
+  "description": "Earliest start of a run of n numbers divisible by a cube larger than one.",
+  "id": "A271443",
+  "mentions": [
+    "A045882",
+    "A046099",
+    "A068140",
+    "A122692",
+    "A271444",
+    "A271445",
+    "A271446",
+    "A271447",
+    "A330480",
+    "A330481",
+    "A330482",
+    "A330483",
+    "A330484",
+    "A330485",
+    "A330486"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Number of integer partitions of n that are the vertex-degrees of some set system with no singletons.",
+  "id": "A321176",
+  "mentions": [
+    "A000070",
+    "A000569",
+    "A147878",
+    "A209816",
+    "A283877",
+    "A306005",
+    "A318361",
+    "A320922",
+    "A320923",
+    "A320924",
+    "A321177"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

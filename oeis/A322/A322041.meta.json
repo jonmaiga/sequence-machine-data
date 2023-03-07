@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: let E denote the standard triangular 6-valent grid in the plane, regarded as a graph with the Eisenstein integers as vertices; row n gives the coordination sequence of the quotient graph E/nE.",
+  "id": "A322041",
+  "mentions": [
+    "A008458",
+    "A322038",
+    "A322042"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

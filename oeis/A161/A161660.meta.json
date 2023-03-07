@@ -1,0 +1,17 @@
+{
+  "description": "a(1)=1; a(n) = largest multiple of {number of divisors of a(n-1)} that is <= n.",
+  "id": "A161660",
+  "mentions": [
+    "A161661"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

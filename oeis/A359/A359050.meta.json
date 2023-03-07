@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least k such that fusc(k) + fusc(k+1) = n, where \"fusc\" is Stern's diatomic series (A002487).",
+  "id": "A359050",
+  "mentions": [
+    "A002487"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = floor(Pi^(n*e)).",
+  "id": "A121904",
+  "mentions": [
+    "A121854",
+    "A121855",
+    "A121856",
+    "A121857",
+    "A121903"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

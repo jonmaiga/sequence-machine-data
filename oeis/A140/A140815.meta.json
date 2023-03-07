@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle read by rows: the n-th row gives the coefficients of Phi(n, 1-x), where Phi(n, x) is the n-th cyclotomic polynomial.",
+  "id": "A140815",
+  "mentions": [
+    "A136093",
+    "A136247"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

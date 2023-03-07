@@ -1,0 +1,21 @@
+{
+  "description": "Number of digits in the base-n representation of the last base-n narcissistic number.",
+  "id": "A299040",
+  "mentions": [
+    "A005188",
+    "A259347"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 2,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

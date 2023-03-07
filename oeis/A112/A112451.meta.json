@@ -1,0 +1,18 @@
+{
+  "description": "Strong pseudoprimes (base-2) equal to product of 4 primes not necessarily distinct.",
+  "id": "A112451",
+  "mentions": [
+    "A001262",
+    "A014613"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

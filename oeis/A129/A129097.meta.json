@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = A129095(2^n - 1) for n>=1.",
+  "id": "A129097",
+  "mentions": [
+    "A129095",
+    "A129096",
+    "A129098",
+    "A129099"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

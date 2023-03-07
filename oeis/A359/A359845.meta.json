@@ -1,0 +1,18 @@
+{
+  "description": "Centered triangular numbers which are products of four distinct primes.",
+  "id": "A359845",
+  "mentions": [
+    "A005448",
+    "A046386"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

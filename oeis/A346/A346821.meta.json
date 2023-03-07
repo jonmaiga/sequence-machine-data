@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of distinct terms > 0 such that the concatenation of three successive terms form a palindrome in base 10.",
+  "id": "A346821",
+  "mentions": [
+    "A000042"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

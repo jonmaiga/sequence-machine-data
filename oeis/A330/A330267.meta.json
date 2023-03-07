@@ -1,0 +1,26 @@
+{
+  "description": "Lexicographically earliest sequence of nonnegative terms such that for any n > 0 and k > 0, a(n+2*k) <> max(a(n), a(n+k)).",
+  "id": "A330267",
+  "mentions": [
+    "A003278",
+    "A229037",
+    "A268811",
+    "A276204",
+    "A309890",
+    "A317805",
+    "A330622",
+    "A330623",
+    "A330629"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

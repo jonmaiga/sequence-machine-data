@@ -1,0 +1,18 @@
+{
+  "description": "The number of syllables in each letter of the English alphabet.",
+  "id": "A179742",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

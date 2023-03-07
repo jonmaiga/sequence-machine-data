@@ -1,0 +1,24 @@
+{
+  "description": "Cubes c such that c + 1234567890 is prime where 1234567890 is the first pandigital number with digits in order.",
+  "id": "A241537",
+  "mentions": [
+    "A000040",
+    "A002496",
+    "A028871",
+    "A050289",
+    "A056899",
+    "A234812",
+    "A235640",
+    "A240587"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

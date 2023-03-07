@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that there exist n consecutive triangular numbers which sum to a square.",
+  "id": "A176541",
+  "mentions": [
+    "A000217",
+    "A000292",
+    "A001110",
+    "A077415",
+    "A116476",
+    "A143037",
+    "A165517",
+    "A176542",
+    "A202391"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

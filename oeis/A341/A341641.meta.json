@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the probability of two consecutive continued fraction coefficients being both even, when the continued fraction coefficients satisfy the Gauss-Kuzmin distribution.",
+  "id": "A341641",
+  "mentions": [
+    "A340533",
+    "A340543"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

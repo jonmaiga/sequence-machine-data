@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = the smallest multiple of {the sum of the prime-factorization exponents of n} that is >= n.",
+  "id": "A161659",
+  "mentions": [
+    "A161658"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:17:33",
+    "offset": 2,
+    "size": 72,
+    "source": "joeis"
+  }
+}

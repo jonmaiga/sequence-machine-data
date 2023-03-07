@@ -1,0 +1,19 @@
+{
+  "description": "Natural numbers arranged into triples a, b, c with no common factor.",
+  "id": "A171100",
+  "mentions": [
+    "A001622",
+    "A171101"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:54",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

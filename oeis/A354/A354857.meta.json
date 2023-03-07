@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Sum_{k,m>=1} (-1)^(k+m+1)/floor(sqrt(k+m))^3.",
+  "id": "A354857",
+  "mentions": [
+    "A002117",
+    "A002162",
+    "A072691",
+    "A197070"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

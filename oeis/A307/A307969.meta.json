@@ -1,0 +1,21 @@
+{
+  "description": "Coefficient of x^n in 1/(n+1) * (1 - 2*x - 2*x^2)^(n+1).",
+  "id": "A307969",
+  "mentions": [
+    "A000108",
+    "A071356",
+    "A116093",
+    "A307968"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

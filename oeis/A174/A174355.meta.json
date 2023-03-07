@@ -1,0 +1,23 @@
+{
+  "description": "Natural numbers n such that the concatenations n//1331 and 1331//n are prime numbers.",
+  "id": "A174355",
+  "mentions": [
+    "A168327",
+    "A168417",
+    "A173579",
+    "A173836",
+    "A174213",
+    "A174260"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

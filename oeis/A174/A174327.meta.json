@@ -1,0 +1,17 @@
+{
+  "description": "Conjecturally, even numbers n such that every even number greater than n has more decompositions as the sum of two primes.",
+  "id": "A174327",
+  "mentions": [
+    "A000954"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

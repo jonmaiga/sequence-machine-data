@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 1, a(n+1) = a(n)^2 + 2^(1+mu(a(n))), where mu is the Moebius function (A008683).",
+  "id": "A118366",
+  "mentions": [
+    "A008683"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

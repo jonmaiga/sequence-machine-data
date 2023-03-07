@@ -1,0 +1,22 @@
+{
+  "description": "Coreful abundant numbers (A308053) with an odd sum of coreful divisors.",
+  "id": "A339982",
+  "mentions": [
+    "A007947",
+    "A057723",
+    "A268335",
+    "A308053",
+    "A339936",
+    "A339979"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

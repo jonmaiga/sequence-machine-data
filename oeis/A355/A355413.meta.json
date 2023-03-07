@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest infinite sequence of positive numbers such that, for n>1, a(n) AND a(n-1) is distinct from all previous AND operations between adjacent terms, where AND is the binary AND operator.",
+  "id": "A355413",
+  "mentions": [
+    "A007088",
+    "A129760",
+    "A338824"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

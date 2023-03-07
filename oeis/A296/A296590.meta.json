@@ -1,0 +1,29 @@
+{
+  "description": "a(n) = Product_{k=0..n} binomial(2*n - k, k).",
+  "id": "A296590",
+  "mentions": [
+    "A001142",
+    "A007685",
+    "A074962",
+    "A086205",
+    "A098694",
+    "A110131",
+    "A112332",
+    "A203469",
+    "A268196",
+    "A296589",
+    "A296591"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:57:11",
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

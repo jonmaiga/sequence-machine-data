@@ -1,0 +1,20 @@
+{
+  "description": "Coefficients in the expansion of B(x) = 1 / Product_{n>=0} (1 - x^(13*n+2))*(1 - x^(13*n+5))*(1 - x^(13*n+6))*(1 - x^(13*n+7))*(1 - x^(13*n+8))*(1 - x^(13*n+11)).",
+  "id": "A355359",
+  "mentions": [
+    "A214157",
+    "A341714",
+    "A355358"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

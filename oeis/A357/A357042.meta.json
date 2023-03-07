@@ -1,0 +1,23 @@
+{
+  "description": "The sum of the numbers of the central diamond of the multiplication table [1..k] X [1..k] for k=2*n-1.",
+  "id": "A357042",
+  "mentions": [
+    "A000290",
+    "A000583",
+    "A001844",
+    "A003991",
+    "A015237"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:56",
+    "offset": 1,
+    "size": 37,
+    "source": "joeis"
+  }
+}

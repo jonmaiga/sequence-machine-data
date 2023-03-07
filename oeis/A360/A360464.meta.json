@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = a(n-1) + a(n-2) - a(n-3) + gcd(a(n-1), a(n-3)), with a(1) = a(2) = a(3) = 1.",
+  "id": "A360464",
+  "mentions": [
+    "A083658",
+    "A248098"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

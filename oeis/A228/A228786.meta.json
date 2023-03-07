@@ -1,0 +1,26 @@
+{
+  "description": "Table of coefficients of the minimal polynomials of 2*sin(Pi/n), n >= 1.",
+  "id": "A228786",
+  "mentions": [
+    "A055035",
+    "A178182",
+    "A181872",
+    "A181873",
+    "A187360",
+    "A228781",
+    "A228783",
+    "A228785"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 111,
+    "source": "oeis-entry"
+  }
+}

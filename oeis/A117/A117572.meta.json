@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of (1+2x^2)/((1-x^2)(1-x^3)).",
+  "id": "A117572",
+  "mentions": [
+    "A001045",
+    "A110128",
+    "A117573"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:27:37",
+    "offset": 0,
+    "size": 76,
+    "source": "joeis"
+  }
+}

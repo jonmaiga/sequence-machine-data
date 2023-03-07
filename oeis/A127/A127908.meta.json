@@ -1,0 +1,18 @@
+{
+  "description": "Primes of form (3^n + 2^n)/5.",
+  "id": "A127908",
+  "mentions": [
+    "A057469"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

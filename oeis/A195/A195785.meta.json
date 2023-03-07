@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of arctan(9).",
+  "id": "A195785",
+  "mentions": [
+    "A195786",
+    "A195787",
+    "A195788",
+    "A195797",
+    "A195798"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:55",
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

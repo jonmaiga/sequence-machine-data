@@ -1,0 +1,18 @@
+{
+  "description": "Those positive integers n such that n = (2^m +1)*k, each for some positive integer m, and k < 2^m.",
+  "id": "A175468",
+  "mentions": [
+    "A175469",
+    "A175470"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of fixed polypons with n cells (division into triangles is significant).",
+  "id": "A196993",
+  "mentions": [
+    "A057784",
+    "A151531",
+    "A151532",
+    "A151533"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) = sum of the k-th parts of all partitions of n with their parts written in nondecreasing order.",
+  "id": "A206283",
+  "mentions": [
+    "A014153",
+    "A046746",
+    "A066186",
+    "A181187",
+    "A194714"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

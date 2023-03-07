@@ -1,0 +1,19 @@
+{
+  "description": "1, 2 and all numbers >= 10.",
+  "id": "A171893",
+  "mentions": [
+    "A171891",
+    "A171892"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:15:23",
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

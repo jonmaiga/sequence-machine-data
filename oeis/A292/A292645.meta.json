@@ -1,0 +1,18 @@
+{
+  "description": "Rank of (6+r)*n when all the numbers (6-r)*j and (6+r)*k, where r = sqrt(2), j>=1, k>=1, are jointly ranked.",
+  "id": "A292645",
+  "mentions": [
+    "A292644"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

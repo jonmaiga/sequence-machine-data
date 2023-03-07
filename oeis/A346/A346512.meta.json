@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = bitwise XOR of decimal digits of primes.",
+  "id": "A346512",
+  "mentions": [
+    "A000040",
+    "A003987",
+    "A346408",
+    "A346511"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Composite numbers k that are Smith numbers in a record number of bases 1 < b <= k.",
+  "id": "A337294",
+  "mentions": [
+    "A002808",
+    "A006753",
+    "A060209",
+    "A107129",
+    "A330813"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

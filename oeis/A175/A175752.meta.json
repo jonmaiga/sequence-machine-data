@@ -1,0 +1,20 @@
+{
+  "description": "Numbers with 45 divisors.",
+  "id": "A175752",
+  "mentions": [
+    "A000005",
+    "A139574",
+    "A175751"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

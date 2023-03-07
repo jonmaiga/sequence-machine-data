@@ -1,0 +1,22 @@
+{
+  "description": "Number of solutions for a 10-digit number whose n-th power contains each digit (0-9) exactly n times.",
+  "id": "A357755",
+  "mentions": [
+    "A010784",
+    "A078255",
+    "A154532",
+    "A154566"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the number whose Pierce expansion has the sequence of factorial numbers (A000142) as coefficients.",
+  "id": "A137986",
+  "mentions": [
+    "A000142",
+    "A137987",
+    "A137988",
+    "A137989"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

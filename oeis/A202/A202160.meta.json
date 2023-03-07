@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = smallest k having at least five prime divisors d such that (d + n) | (k + n).",
+  "id": "A202160",
+  "mentions": [
+    "A006972",
+    "A029591",
+    "A202157",
+    "A202158",
+    "A202159"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

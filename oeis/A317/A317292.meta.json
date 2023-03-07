@@ -1,0 +1,42 @@
+{
+  "description": "a(n) is the total number of edges after n-th stage in the diagram of the symmetries of sigma in which the parts of width > 1 are dissected into subparts of width 1, with a(0) = 0.",
+  "id": "A317292",
+  "mentions": [
+    "A000203",
+    "A001227",
+    "A060831",
+    "A196020",
+    "A235791",
+    "A237048",
+    "A237270",
+    "A237271",
+    "A237590",
+    "A237591",
+    "A237593",
+    "A244050",
+    "A245092",
+    "A262626",
+    "A279387",
+    "A279388",
+    "A280850",
+    "A280851",
+    "A280940",
+    "A285901",
+    "A294723",
+    "A296508",
+    "A317109",
+    "A317293"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

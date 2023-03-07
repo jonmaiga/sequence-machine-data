@@ -1,0 +1,29 @@
+{
+  "description": "Smallest m such that 9 is at the n-th position of the decimal representation of the m-th Fibonacci number.",
+  "id": "A105719",
+  "mentions": [
+    "A000045",
+    "A072351",
+    "A105700",
+    "A105709",
+    "A105711",
+    "A105712",
+    "A105713",
+    "A105714",
+    "A105715",
+    "A105716",
+    "A105717",
+    "A105718"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

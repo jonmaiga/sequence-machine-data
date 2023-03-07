@@ -1,0 +1,20 @@
+{
+  "description": "Key-matrix of compressed nim-multiplication table (A223537) read by antidiagonals.",
+  "id": "A223538",
+  "mentions": [
+    "A223537",
+    "A223539"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:41",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

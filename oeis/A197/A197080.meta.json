@@ -1,0 +1,18 @@
+{
+  "description": "Continued fraction form of zeta(Pi).",
+  "id": "A197080",
+  "mentions": [
+    "A068469"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

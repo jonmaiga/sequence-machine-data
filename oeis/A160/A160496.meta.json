@@ -1,0 +1,18 @@
+{
+  "description": "Half the number of terms in row n of A160495.",
+  "id": "A160496",
+  "mentions": [
+    "A160495",
+    "A160497"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

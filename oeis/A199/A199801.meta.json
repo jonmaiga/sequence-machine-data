@@ -1,0 +1,18 @@
+{
+  "description": "Primitive elements of A060355: n such that n and n+1 are powerful but n is not of the form 4m(m+1) where m and m+1 are powerful.",
+  "id": "A199801",
+  "mentions": [
+    "A001694",
+    "A060355"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:20",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

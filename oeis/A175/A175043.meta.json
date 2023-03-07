@@ -1,0 +1,20 @@
+{
+  "description": "Apply the map n -> A169639(n) until a member of A169641 is obtained; sequence gives this member.",
+  "id": "A175043",
+  "mentions": [
+    "A167507",
+    "A169639",
+    "A169641"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

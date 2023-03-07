@@ -1,0 +1,32 @@
+{
+  "description": "Number A(n,k) of n-length words over a k-ary alphabet {a_1,a_2,...,a_k} avoiding consecutive letters a_i, a_{i+1}; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A277666",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000027",
+    "A001477",
+    "A002061",
+    "A095263",
+    "A096261",
+    "A277667",
+    "A277668",
+    "A277669",
+    "A277670",
+    "A277671",
+    "A277672",
+    "A277673"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

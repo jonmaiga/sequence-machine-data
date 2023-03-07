@@ -1,0 +1,20 @@
+{
+  "description": "Even refactorable numbers k such that the number of odd divisors of k and the number of even divisors of k are both even divisors of k.",
+  "id": "A120360",
+  "mentions": [
+    "A033950",
+    "A049439",
+    "A057265",
+    "A120350"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

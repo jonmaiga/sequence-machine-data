@@ -1,0 +1,18 @@
+{
+  "description": "Mode of maximal \"prime gaps\" in Cramer's model with n urns.",
+  "id": "A235402",
+  "mentions": [
+    "A235492"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

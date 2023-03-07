@@ -1,0 +1,20 @@
+{
+  "description": "Numbers m such that all numbers 10*m+(odd single-digit number) and 100*m+(any 2-digit, digits coprime to 10) are composite.",
+  "id": "A163398",
+  "mentions": [
+    "A002808",
+    "A136333"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

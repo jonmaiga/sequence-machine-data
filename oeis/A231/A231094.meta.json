@@ -1,0 +1,26 @@
+{
+  "description": "Smallest starting abundant number for n consecutive even abundant numbers.",
+  "id": "A231094",
+  "mentions": [
+    "A005101",
+    "A108926",
+    "A231086",
+    "A231088",
+    "A231089",
+    "A231090",
+    "A231092",
+    "A231093"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

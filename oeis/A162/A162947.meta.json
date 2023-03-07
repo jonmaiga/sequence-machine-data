@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that the product of all divisors of k equals k^3.",
+  "id": "A162947",
+  "mentions": [
+    "A000578",
+    "A007422",
+    "A007955",
+    "A008578",
+    "A030515",
+    "A030628",
+    "A054753",
+    "A111398"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

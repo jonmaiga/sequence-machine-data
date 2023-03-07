@@ -1,0 +1,20 @@
+{
+  "description": "G.f. B(x) satisfies: Sum_{n>=0} (-1)^n * n * (B(x) - (-1)^n*B(-x))^n = 0.",
+  "id": "A318641",
+  "mentions": [
+    "A318640",
+    "A318642",
+    "A318643"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

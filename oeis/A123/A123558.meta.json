@@ -1,0 +1,23 @@
+{
+  "description": "Multiplicative encoding of the (1,2)-Pascal triangle (or Lucas triangle) A029635.",
+  "id": "A123558",
+  "mentions": [
+    "A000040",
+    "A007188",
+    "A007318",
+    "A009766",
+    "A029635"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

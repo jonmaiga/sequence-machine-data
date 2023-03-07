@@ -1,0 +1,18 @@
+{
+  "description": "Number of odd primes p < 10^n such that p+2=product of 2 primes (no twin Chen primes).",
+  "id": "A111067",
+  "mentions": [
+    "A006880",
+    "A007508"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

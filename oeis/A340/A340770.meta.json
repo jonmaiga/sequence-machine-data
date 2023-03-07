@@ -1,0 +1,19 @@
+{
+  "description": "Indices k of prime numbers such that prime(k)-2 and prime(k)^2-2 are both prime numbers.",
+  "id": "A340770",
+  "mentions": [
+    "A107770",
+    "A292201"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

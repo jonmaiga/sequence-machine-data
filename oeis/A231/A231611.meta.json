@@ -1,0 +1,18 @@
+{
+  "description": "The least k such that the polynomial cyclotomic(k,x) has n different coefficients.",
+  "id": "A231611",
+  "mentions": [
+    "A230798"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

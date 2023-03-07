@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by antidiagonals: T[r+1,c] = T[r,c]+T[r,c+1], but only nonprime numbers may be used.",
+  "id": "A203071",
+  "mentions": [
+    "A203072"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

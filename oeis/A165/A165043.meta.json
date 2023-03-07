@@ -1,0 +1,31 @@
+{
+  "description": "Consider the base-5 Kaprekar map n->K(n) defined in A165032. Sequence gives least elements of each cycle of length > 1.",
+  "id": "A165043",
+  "mentions": [
+    "A164720",
+    "A165004",
+    "A165023",
+    "A165032",
+    "A165036",
+    "A165037",
+    "A165039",
+    "A165041",
+    "A165044",
+    "A165049",
+    "A165062",
+    "A165082",
+    "A165101",
+    "A165121"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:47",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

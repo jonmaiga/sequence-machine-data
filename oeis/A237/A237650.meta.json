@@ -1,0 +1,20 @@
+{
+  "description": "G.f. satisfies: A(x) = (1+x+x^2)^3 * A(x^2)^2.",
+  "id": "A237650",
+  "mentions": [
+    "A195586",
+    "A237647",
+    "A237651"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

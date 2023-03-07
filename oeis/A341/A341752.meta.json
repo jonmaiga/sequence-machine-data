@@ -1,0 +1,28 @@
+{
+  "description": "Successive approximations up to 2^n for the 2-adic integer 17^(1/4). This is the 3 (mod 4) case.",
+  "id": "A341752",
+  "mentions": [
+    "A324077",
+    "A324082",
+    "A324083",
+    "A324084",
+    "A325484",
+    "A325485",
+    "A325486",
+    "A325487",
+    "A341538",
+    "A341751",
+    "A341754"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 2,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

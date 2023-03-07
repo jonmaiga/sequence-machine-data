@@ -1,0 +1,20 @@
+{
+  "description": "Number of ordered set partitions of [n] where the maximal block size equals ten.",
+  "id": "A320766",
+  "mentions": [
+    "A276922",
+    "A276929",
+    "A276930"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 10,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

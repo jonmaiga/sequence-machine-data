@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k that are harmonic in Gaussian integers: k * A062327(k) is divisible by A103228(k) + i*A103229(k) (where i is the imaginary unit).",
+  "id": "A332317",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A001599",
+    "A062327",
+    "A103228",
+    "A103229",
+    "A103230"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

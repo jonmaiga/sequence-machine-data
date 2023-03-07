@@ -1,0 +1,23 @@
+{
+  "description": "Column 1 of triangle A117165 of Shift-Moebius coefficients and so equals the Shift-Moebius transform of [1,0,0,0,...].",
+  "id": "A117166",
+  "mentions": [
+    "A112682",
+    "A117160",
+    "A117161",
+    "A117165",
+    "A117167",
+    "A117168",
+    "A117169"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

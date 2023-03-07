@@ -1,0 +1,21 @@
+{
+  "description": "Odd numbers k such that the Mersenne number 2^k - 1 can be written in the form a^2 + 3*b^2.",
+  "id": "A215806",
+  "mentions": [
+    "A000043",
+    "A000225",
+    "A215798",
+    "A215799",
+    "A215807"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

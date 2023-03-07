@@ -1,0 +1,22 @@
+{
+  "description": "Primes of the form 8x^2+8xy+17y^2.",
+  "id": "A139858",
+  "mentions": [
+    "A106856",
+    "A139827",
+    "A140633",
+    "A244019"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:27",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

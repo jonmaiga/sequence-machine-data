@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n divided by the smallest divisor d of n for which A011772(d) = A011772(n), where A011772(n) is the smallest number m such that m(m+1)/2 is divisible by n.",
+  "id": "A344759",
+  "mentions": [
+    "A006516",
+    "A011772",
+    "A344758",
+    "A344881",
+    "A344882"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of well-formed formulas of length n in a formal propositional language with one unitary operator, one binary operator, and one propositional variable.",
+  "id": "A308616",
+  "mentions": [
+    "A000108",
+    "A001622"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:49:53",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

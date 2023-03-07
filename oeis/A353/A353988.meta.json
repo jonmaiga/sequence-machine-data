@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that Fibonacci(k) is a binary Niven number (A049445).",
+  "id": "A353988",
+  "mentions": [
+    "A000045",
+    "A000120",
+    "A011373",
+    "A049445",
+    "A117774",
+    "A337448"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Denominators in recursive bijection from positive integers to positive rationals (the bijection is f(1) = 1, f(2n) = 1/(f(n)+1), f(2n+1) = f(n)+1).",
+  "id": "A245328",
+  "mentions": [
+    "A002487",
+    "A020651",
+    "A093873",
+    "A245326",
+    "A245327",
+    "A273493",
+    "A284459"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows, based on the two-variable g.f. exp(x*t)*(x*(1 - 2*exp(x)) - 2*exp(x))/(1 - exp(t)) (the second of two parts).",
+  "id": "A176295",
+  "mentions": [
+    "A048998",
+    "A138133"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:00",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Decimal representation of the n-th iteration of the \"Rule 185\" elementary cellular automaton starting with a single ON (black) cell.",
+  "id": "A267614",
+  "mentions": [
+    "A198693",
+    "A267612",
+    "A267613"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:29",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

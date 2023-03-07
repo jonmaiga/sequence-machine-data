@@ -1,0 +1,23 @@
+{
+  "description": "Numbers found in the cycles of the iterated sum of deficient divisors function.",
+  "id": "A274549",
+  "mentions": [
+    "A125310",
+    "A187793",
+    "A274338",
+    "A274339",
+    "A274340",
+    "A274380"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "D-toothpick sequence of the third kind starting with a single toothpick.",
+  "id": "A220500",
+  "mentions": [
+    "A047999",
+    "A139250",
+    "A172310",
+    "A194270",
+    "A194276",
+    "A194432",
+    "A194434",
+    "A194440",
+    "A194442",
+    "A194444",
+    "A194700",
+    "A220501",
+    "A220520",
+    "A220522"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "changed",
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

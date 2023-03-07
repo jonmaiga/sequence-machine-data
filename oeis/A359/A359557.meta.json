@@ -1,0 +1,22 @@
+{
+  "description": "a(1) = 1, a(2) = 2; for n > 2, a(n) is the smallest positive number which has not appeared such that all the distinct prime factors of a(n-2) + a(n-1) are factors of a(n).",
+  "id": "A359557",
+  "mentions": [
+    "A007947",
+    "A027748",
+    "A064413",
+    "A352867",
+    "A359256"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

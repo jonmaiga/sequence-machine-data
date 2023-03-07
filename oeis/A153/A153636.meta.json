@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form 4x^3 + 27y^2, with x>0.",
+  "id": "A153636",
+  "mentions": [
+    "A153635",
+    "A154291"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

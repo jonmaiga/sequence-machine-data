@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = base-2 concatenation XYZ, where X = number of bits in binary expansion of n, Y = number of 0's, Z = number of 1's.",
+  "id": "A171823",
+  "mentions": [
+    "A171798",
+    "A171813",
+    "A171825"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

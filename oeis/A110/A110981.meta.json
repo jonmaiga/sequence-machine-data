@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = the number of aperiodic subsets S of the n-th roots of 1 with zero sum (i.e., there is no r different from 1 such that r*S=S).",
+  "id": "A110981",
+  "mentions": [
+    "A001037",
+    "A102466",
+    "A103314",
+    "A107847",
+    "A164896"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

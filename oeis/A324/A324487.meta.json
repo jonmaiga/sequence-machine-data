@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = A001350(n)^3.",
+  "id": "A324487",
+  "mentions": [
+    "A001350",
+    "A152152",
+    "A324488",
+    "A324489"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

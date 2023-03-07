@@ -1,0 +1,19 @@
+{
+  "description": "Partial sums of Sum_{k=1..n} n/gcd(n,k), or partial sums of Sum_{d|n} d*phi(d) (see A057660).",
+  "id": "A174405",
+  "mentions": [
+    "A000010",
+    "A057660"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

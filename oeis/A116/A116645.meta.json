@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of n having no doubletons. By a doubleton in a partition we mean an occurrence of a part exactly twice (the partition [4,(3,3),2,2,2,(1,1)] of 18 has two doubletons, shown between parentheses).",
+  "id": "A116645",
+  "mentions": [
+    "A000041",
+    "A007690",
+    "A116595",
+    "A116644",
+    "A183559",
+    "A183568"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:44",
+    "offset": 0,
+    "size": 49,
+    "source": "joeis"
+  }
+}

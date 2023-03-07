@@ -1,0 +1,26 @@
+{
+  "description": "Coefficients of polynomials related to the number of divisors, triangle read by rows, T(n,k) for 0 <= k <= n.",
+  "id": "A320019",
+  "mentions": [
+    "A000005",
+    "A000007",
+    "A055507",
+    "A129921",
+    "A191829",
+    "A319083",
+    "A340992",
+    "A357368"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

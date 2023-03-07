@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the number of positive integers k which are <= n and where k, k-1 and k+1 are each coprime to n.",
+  "id": "A123565",
+  "mentions": [
+    "A000010",
+    "A058026",
+    "A206256",
+    "A241663",
+    "A328873",
+    "A338562"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

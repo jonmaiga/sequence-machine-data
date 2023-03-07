@@ -1,0 +1,24 @@
+{
+  "description": "Number of functional patterns on n elements; or digraphs with maximum outdegree 1, n arrows and every point connected to an arrow.",
+  "id": "A116950",
+  "mentions": [
+    "A000041",
+    "A000081",
+    "A001372",
+    "A002861",
+    "A051491"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

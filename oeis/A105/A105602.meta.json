@@ -1,0 +1,22 @@
+{
+  "description": "Divide each Fibonacci number by its primitive part.",
+  "id": "A105602",
+  "mentions": [
+    "A000045",
+    "A046022",
+    "A061446",
+    "A126015"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:56",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

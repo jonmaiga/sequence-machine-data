@@ -1,0 +1,24 @@
+{
+  "description": "Number of partitions of 5*6^n into powers of 6, also equals column 1 of triangle A111825, which shifts columns left and up under matrix 6th power.",
+  "id": "A111826",
+  "mentions": [
+    "A002577",
+    "A078124",
+    "A111817",
+    "A111821",
+    "A111825",
+    "A111831",
+    "A111836"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

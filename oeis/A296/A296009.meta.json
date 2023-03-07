@@ -1,0 +1,21 @@
+{
+  "description": "Smallest number m such that (2n-1)*m has only odd digits.",
+  "id": "A296009",
+  "mentions": [
+    "A061808",
+    "A216473"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:14",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

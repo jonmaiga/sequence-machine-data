@@ -1,0 +1,22 @@
+{
+  "description": "G.f. A(x) satisfies: A(x) = x + 2*A(x^2) + 4*A(x^3) + 8*A(x^4) + ... + 2^(k-1)*A(x^k) + ...",
+  "id": "A308076",
+  "mentions": [
+    "A011782",
+    "A050354",
+    "A050369",
+    "A054599",
+    "A074206"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

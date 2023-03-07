@@ -1,0 +1,18 @@
+{
+  "description": "Number of rooted graceful labelings of the path P_n.",
+  "id": "A338988",
+  "mentions": [
+    "A338986",
+    "A338987"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

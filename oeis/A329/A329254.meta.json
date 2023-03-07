@@ -1,0 +1,18 @@
+{
+  "description": "Smallest palindrome k, not less than n, such that k is also a palindrome in base n.",
+  "id": "A329254",
+  "mentions": [
+    "A002113"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

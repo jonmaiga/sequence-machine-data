@@ -1,0 +1,17 @@
+{
+  "description": "Number of nX5 arrays of permutations of 0..n*5-1 with each element moved a city block distance of 0 or 2.",
+  "id": "A263423",
+  "mentions": [
+    "A263424"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

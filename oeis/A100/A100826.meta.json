@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 1; a(n+1) = gcd(n,a(n))-th smallest positive integer not already in the sequence.",
+  "id": "A100826",
+  "mentions": [
+    "A125628"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

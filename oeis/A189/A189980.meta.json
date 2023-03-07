@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the number of incongruent two-color bracelets of n beads, 10 from them are black (A005515), having a diameter of symmetry.",
+  "id": "A189980",
+  "mentions": [
+    "A005515",
+    "A008805",
+    "A032282",
+    "A058187",
+    "A189976",
+    "A194005"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:58:37",
+    "offset": 10,
+    "size": 38,
+    "source": "joeis"
+  }
+}

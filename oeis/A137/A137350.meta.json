@@ -1,0 +1,21 @@
+{
+  "description": "A triangular Sequence of coefficients of a three deep polynomial recursion based on a Chebyshev kind and a Padovan recursion: Chebyshev; p(x,n)=x*p(x,n-1)-p(x,n-2); Padovan: a(n)=a(n-2)+a(n-3); Q(x, n) = x*Q(x, n - 2) - Q(x, n - 3).",
+  "id": "A137350",
+  "mentions": [
+    "A000931",
+    "A137276"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

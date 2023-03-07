@@ -1,0 +1,20 @@
+{
+  "description": "The periodic part of the decimal expansion of n/(n+1). Any initial 0's are to be placed at end of cycle.",
+  "id": "A212720",
+  "mentions": [
+    "A036275",
+    "A051037",
+    "A158911"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

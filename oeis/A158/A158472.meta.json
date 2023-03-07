@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: n-th row is the expansion of the polynomial (x-F1)*(x-F2)*(x-F3)*...*(x-Fn).",
+  "id": "A158472",
+  "mentions": [
+    "A000045",
+    "A003266",
+    "A082480"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

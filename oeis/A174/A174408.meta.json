@@ -1,0 +1,22 @@
+{
+  "description": "Primes of the form A174335(i)-1 or A174335(i)+1.",
+  "id": "A174408",
+  "mentions": [
+    "A000040",
+    "A000142",
+    "A000578",
+    "A174335"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

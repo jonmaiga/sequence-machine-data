@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f.: A(x) = sin(-1) + Sum_{n>=0} sin(x^n) * real( (x^n + i)^n ) / n!, an even function, showing only the coefficients of x^(2*n)/(2*n)! in A(x) for n >= 1.",
+  "id": "A326429",
+  "mentions": [
+    "A326425"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

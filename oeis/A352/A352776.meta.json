@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that w(k + w(k)) = w(k), where w(k) is the binary weight of k, A000120(k).",
+  "id": "A352776",
+  "mentions": [
+    "A000120",
+    "A092391",
+    "A348367"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

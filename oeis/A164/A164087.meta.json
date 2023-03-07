@@ -1,0 +1,20 @@
+{
+  "description": "Beatty sequence for 4*Pi/(4*Pi-3) = 1.3135986... .",
+  "id": "A164087",
+  "mentions": [
+    "A109237",
+    "A164086",
+    "A164088"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:11:49",
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
+  }
+}

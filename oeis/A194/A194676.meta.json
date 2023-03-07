@@ -1,0 +1,19 @@
+{
+  "description": "Number of k in [1,n] for which + > 1, where < > = fractional part.",
+  "id": "A194676",
+  "mentions": [
+    "A194675",
+    "A194677",
+    "A194678"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

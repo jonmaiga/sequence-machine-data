@@ -1,0 +1,18 @@
+{
+  "description": "The cumulative sum of the first successive a(n) digits is always odd.",
+  "id": "A278376",
+  "mentions": [
+    "A278437"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

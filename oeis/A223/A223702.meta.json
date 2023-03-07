@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle of numbers k such that prime(n) is the largest prime factor of k^2 + 1.",
+  "id": "A223702",
+  "mentions": [
+    "A175607",
+    "A223701",
+    "A223707"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

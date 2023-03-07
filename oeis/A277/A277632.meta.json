@@ -1,0 +1,19 @@
+{
+  "description": "The ordered integer image of the 1-to-1 mapping of primitive Heronian triples (PHT) into the integers using Cantor's pairing function for triples (N^3 -> N).",
+  "id": "A277632",
+  "mentions": [
+    "A001477",
+    "A243808",
+    "A277557"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

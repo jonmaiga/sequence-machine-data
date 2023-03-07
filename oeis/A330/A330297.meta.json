@@ -1,0 +1,34 @@
+{
+  "description": "Number of labeled simple graphs covering n vertices with exactly two automorphisms, or with exactly n!/2 graphs obtainable by permuting the vertices.",
+  "id": "A330297",
+  "mentions": [
+    "A003400",
+    "A006125",
+    "A006129",
+    "A016031",
+    "A124059",
+    "A143543",
+    "A241454",
+    "A330098",
+    "A330229",
+    "A330230",
+    "A330231",
+    "A330233",
+    "A330343",
+    "A330344",
+    "A330345",
+    "A330346"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

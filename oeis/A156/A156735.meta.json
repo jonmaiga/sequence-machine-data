@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 57122*n^2 + 47320*n + 9801.",
+  "id": "A156735",
+  "mentions": [
+    "A156636",
+    "A156640",
+    "A156718"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

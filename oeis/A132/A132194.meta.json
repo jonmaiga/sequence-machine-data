@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 1 if n-th prime is 0 or 2 mod 3, otherwise 0.",
+  "id": "A132194",
+  "mentions": [
+    "A039701",
+    "A099618",
+    "A130198"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

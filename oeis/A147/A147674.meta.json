@@ -1,0 +1,23 @@
+{
+  "description": "Period 9:repeat 81,27,9,27,27,9,27,81,9.",
+  "id": "A147674",
+  "mentions": [
+    "A017162",
+    "A028560",
+    "A061039",
+    "A061040",
+    "A144454",
+    "A147650"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:33:17",
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

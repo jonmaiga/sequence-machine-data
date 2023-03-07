@@ -1,0 +1,32 @@
+{
+  "description": "Numbers m with the property that the symmetric representation of sigma(m) has three parts of width one.",
+  "id": "A247687",
+  "mentions": [
+    "A000203",
+    "A001248",
+    "A069262",
+    "A070552",
+    "A079704",
+    "A237270",
+    "A237271",
+    "A237593",
+    "A241008",
+    "A241010",
+    "A246955",
+    "A250068",
+    "A250070",
+    "A250071",
+    "A263951"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

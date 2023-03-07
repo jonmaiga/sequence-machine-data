@@ -1,0 +1,22 @@
+{
+  "description": "Numerator of A053818(n)/A023896(n) = antiharmonic mean of numbers k such that gcd(k,n) = 1, 1 <= k < n.",
+  "id": "A175505",
+  "mentions": [
+    "A007947",
+    "A023896",
+    "A053818",
+    "A175506"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of 128 * ((theta_3(q)^4 + theta_4(q)^4)/theta_2(q)^8 + (theta_4(q)^4 - theta_2(q)^4)/theta_3(q)^8) in powers of q = exp(Pi i t).",
+  "id": "A319294",
+  "mentions": [
+    "A000118",
+    "A008438",
+    "A096727",
+    "A281373"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": -2,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

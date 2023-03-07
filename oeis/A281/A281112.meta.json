@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of (conjectured) limit c(n+1)/c(n), where c = A078140.",
+  "id": "A281112",
+  "mentions": [
+    "A001622",
+    "A078140"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

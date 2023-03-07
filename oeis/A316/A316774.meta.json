@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = n for n < 2, a(n) = freq(a(n-1),n) + freq(a(n-2),n) for n >= 2, where freq(i,j) is the number of times i appears in [a(0),a(1),...,a(j-1)].",
+  "id": "A316774",
+  "mentions": [
+    "A001462",
+    "A306246",
+    "A316905",
+    "A316973",
+    "A316984",
+    "A329934",
+    "A330330",
+    "A330331",
+    "A330332",
+    "A330439"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:35",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

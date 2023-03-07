@@ -1,0 +1,32 @@
+{
+  "description": "Smallest BII-number of an antichain with n edges.",
+  "id": "A329626",
+  "mentions": [
+    "A006126",
+    "A048143",
+    "A048793",
+    "A070939",
+    "A303362",
+    "A319837",
+    "A326031",
+    "A326704",
+    "A326750",
+    "A329555",
+    "A329560",
+    "A329561",
+    "A329625",
+    "A329627",
+    "A329628"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

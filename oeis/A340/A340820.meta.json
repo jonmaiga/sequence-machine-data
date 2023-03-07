@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of (1 + Product_{p prime} (1 - 2/(p*(p+1)))/2.",
+  "id": "A340820",
+  "mentions": [
+    "A013661",
+    "A046660",
+    "A065472",
+    "A162644",
+    "A340818",
+    "A340819"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

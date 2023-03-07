@@ -1,0 +1,20 @@
+{
+  "description": "Denominators of fractions converging to square root 3 satisfying: a(n)=1/a(n-1)+1/a(n-2)+ 1/a(n-3) or numerators of reciprocal satisfying: a(n)=1/(a(n-1)+ a(n-2)+ a(n-3)) with a(1,2,3)= 1",
+  "id": "A162924",
+  "mentions": [
+    "A057677",
+    "A066932",
+    "A162926"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

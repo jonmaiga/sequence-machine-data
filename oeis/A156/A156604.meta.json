@@ -1,0 +1,22 @@
+{
+  "description": "a(1)=2; for n > 0, a(n+1) is the smallest prime of A046704 larger than a(n) such that the sequence of digit sums of a(n) is nondecreasing.",
+  "id": "A156604",
+  "mentions": [
+    "A000040",
+    "A007953",
+    "A028834",
+    "A046704",
+    "A067954"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

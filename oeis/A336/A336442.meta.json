@@ -1,0 +1,18 @@
+{
+  "description": "Numbers having 3 pairwise coprime divisors, {d_1, d_2, d_3}, such that d_1 < d_2 < d_3 < 2*d_1.",
+  "id": "A336442",
+  "mentions": [
+    "A005279",
+    "A336443"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

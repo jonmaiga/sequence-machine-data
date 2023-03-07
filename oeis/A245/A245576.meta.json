@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that p and p^2 lack the zero digit in their decimal expansions.",
+  "id": "A245576",
+  "mentions": [
+    "A052042",
+    "A052043"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of perfect matchings in the Triangle Graph of order n, reduced by the spire vertex if n mod 4 equals 1 or 2.",
+  "id": "A178446",
+  "mentions": [
+    "A000217",
+    "A039907",
+    "A071093",
+    "A182797"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "P(n,k) is an array read by rows, with n > 0 and k=1..5, where row n gives the chain of 5 consecutive primes {p(i), p(i+1), p(i+2), p(i+3), p(i+4)} having the symmetrical property p(i) + p(i+4) = p(i+1) + p(i+3) = 2*p(i+2) for some index i.",
+  "id": "A267028",
+  "mentions": [
+    "A051795",
+    "A055380",
+    "A055382"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

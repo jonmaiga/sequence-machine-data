@@ -1,0 +1,22 @@
+{
+  "description": "Number of iterations of A235600 to reach 1 when starting with n, or -1 if 1 is never reached. (A235600(x) = x/sum_of_digits(x) if this is an integer, otherwise A235600(x) = x.)",
+  "id": "A236338",
+  "mentions": [
+    "A005349",
+    "A007953",
+    "A114440",
+    "A235600",
+    "A235601"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Number of inequivalent 4 X 4 matrices with entries in {1,2,3,...,n} up to rotations.",
+  "id": "A283027",
+  "mentions": [
+    "A006528",
+    "A282612",
+    "A282613",
+    "A282614",
+    "A283026",
+    "A283028",
+    "A283029",
+    "A283030",
+    "A283031",
+    "A283032",
+    "A283033",
+    "A343095"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:47:47",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

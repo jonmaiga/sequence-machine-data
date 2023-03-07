@@ -1,0 +1,17 @@
+{
+  "description": "Number of binary arrays of length n+13 with no more than 7 ones in any length 14 subsequence (=50% duty cycle)",
+  "id": "A212401",
+  "mentions": [
+    "A212402"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

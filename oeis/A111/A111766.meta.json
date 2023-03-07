@@ -1,0 +1,22 @@
+{
+  "description": "Numbers occurring in three Pythagorean triples of the form: odd: a, (a^2-1)/2, (a^2+1)/2 or even: a, a^2/4-1, a^2/4+1.",
+  "id": "A111766",
+  "mentions": [
+    "A000129",
+    "A001333",
+    "A076218",
+    "A078522"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

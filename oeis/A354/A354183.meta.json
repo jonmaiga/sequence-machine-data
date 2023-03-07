@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that p divides 2^((p-1)/x) - 1, where x is the greatest prime factor of p - 1.",
+  "id": "A354183",
+  "mentions": [
+    "A023394"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Where records occur in A129308 and also in A195155.",
+  "id": "A195307",
+  "mentions": [
+    "A002378",
+    "A007862",
+    "A025487",
+    "A088726",
+    "A093687",
+    "A097212",
+    "A129308",
+    "A181826",
+    "A195155",
+    "A287142"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

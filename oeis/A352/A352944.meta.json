@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/2)} (n-2*k)^k.",
+  "id": "A352944",
+  "mentions": [
+    "A026898",
+    "A087811",
+    "A104872",
+    "A352946"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

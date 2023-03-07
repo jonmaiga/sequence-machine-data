@@ -1,0 +1,23 @@
+{
+  "description": "Numbers whose divisors are represented by an integer polynomial.",
+  "id": "A167857",
+  "mentions": [
+    "A002476",
+    "A073103",
+    "A073917",
+    "A108164",
+    "A108166",
+    "A112774",
+    "A132230"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:51",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

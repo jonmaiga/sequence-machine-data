@@ -1,0 +1,25 @@
+{
+  "description": "Numbers that are neither Colombian nor Brazilian.",
+  "id": "A336307",
+  "mentions": [
+    "A000027",
+    "A003052",
+    "A125134",
+    "A176995",
+    "A220570",
+    "A333858",
+    "A336143",
+    "A336144"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

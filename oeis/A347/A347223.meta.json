@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle whose n-th row lists the integers m such that Phi_n(x)-1 is divisible by Phi_m(x), where Phi_m(x) is the m-th cyclotomic polynomial, or 0 if not divisible by any cyclotomic polynomials.",
+  "id": "A347223",
+  "mentions": [
+    "A013595",
+    "A347224"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 2,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

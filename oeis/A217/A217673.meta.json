@@ -1,0 +1,20 @@
+{
+  "description": "Primes that produce primes twice in interbase translation to base 10 from both bases 2 and 3.",
+  "id": "A217673",
+  "mentions": [
+    "A217679",
+    "A217680"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

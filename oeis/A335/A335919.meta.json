@@ -1,0 +1,32 @@
+{
+  "description": "Number T(n,k) of binary search trees of height k having n internal nodes; triangle T(n,k), n>=0, max(0,floor(log_2(n))+1)<=k<=n, read by rows.",
+  "id": "A335919",
+  "mentions": [
+    "A000108",
+    "A000523",
+    "A001699",
+    "A011782",
+    "A014480",
+    "A073345",
+    "A073429",
+    "A076615",
+    "A195581",
+    "A244108",
+    "A328349",
+    "A335920",
+    "A335921",
+    "A335922"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = denominator of r_n, where r_0 =0, r_1 =1, r_{n+1} = the continued fraction (of rational terms) [r_0,r_1,r_2,r_3,...,r_n].",
+  "id": "A126580",
+  "mentions": [
+    "A064845",
+    "A064846",
+    "A126579"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

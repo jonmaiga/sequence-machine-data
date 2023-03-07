@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the number of tetrapods standing on the four edges of an n X n grid, so that no two feet are the same distance apart and no foot is on a corner. Tetrapods with congruent footprints are counted only once.",
+  "id": "A353447",
+  "mentions": [
+    "A193838",
+    "A271490",
+    "A335232",
+    "A351699",
+    "A351700",
+    "A353532",
+    "A354700",
+    "A354701"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 3,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

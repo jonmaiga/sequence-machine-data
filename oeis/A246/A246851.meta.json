@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = smallest number k such that sigma(k+n) - sigma(k) = k + n, or -1 if no solution exists.",
+  "id": "A246851",
+  "mentions": [
+    "A000203",
+    "A067816",
+    "A246852",
+    "A246853",
+    "A246854",
+    "A246855"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

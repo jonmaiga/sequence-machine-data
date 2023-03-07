@@ -1,0 +1,20 @@
+{
+  "description": "Prime-indexed primes as n runs through the integers congruent to 0 or 1 mod 3.",
+  "id": "A100567",
+  "mentions": [
+    "A006450",
+    "A032766",
+    "A100566"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:40:53",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

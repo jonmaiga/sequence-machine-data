@@ -1,0 +1,19 @@
+{
+  "description": "Fill the plane with the square spiral with cells numbered as in A275609; sequence gives the cells along the South spoke starting at the origin.",
+  "id": "A307199",
+  "mentions": [
+    "A275609",
+    "A307193",
+    "A307200"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n into distinct parts less than or equal to n/2.",
+  "id": "A258259",
+  "mentions": [
+    "A000009"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

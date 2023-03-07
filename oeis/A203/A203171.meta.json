@@ -1,0 +1,25 @@
+{
+  "description": "Alternating sum of the fourth powers of the first n even-indexed Fibonacci numbers.",
+  "id": "A203171",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A156088",
+    "A163201",
+    "A203169",
+    "A203170",
+    "A203172"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

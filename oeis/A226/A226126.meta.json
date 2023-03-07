@@ -1,0 +1,19 @@
+{
+  "description": "Denominators of signed Egyptian fractions 1/(2+a(n)) with sums converging to sqrt(2).",
+  "id": "A226126",
+  "mentions": [
+    "A226049",
+    "A226052",
+    "A226125"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

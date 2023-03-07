@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that 2^sigma(k) == 1 (mod k).",
+  "id": "A236693",
+  "mentions": [
+    "A000203",
+    "A015715",
+    "A020492",
+    "A051179",
+    "A276238"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

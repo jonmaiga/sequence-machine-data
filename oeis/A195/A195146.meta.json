@@ -1,0 +1,31 @@
+{
+  "description": "Concentric 16-gonal numbers.",
+  "id": "A195146",
+  "mentions": [
+    "A016802",
+    "A032528",
+    "A033996",
+    "A074377",
+    "A077221",
+    "A195040",
+    "A195142",
+    "A195143",
+    "A195145",
+    "A195147",
+    "A195148",
+    "A195149",
+    "A195315"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

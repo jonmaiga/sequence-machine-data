@@ -1,0 +1,17 @@
+{
+  "description": "Pierce Expansion of coth(1).",
+  "id": "A280093",
+  "mentions": [
+    "A073747"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:47",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

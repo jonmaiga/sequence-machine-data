@@ -1,0 +1,18 @@
+{
+  "description": "Smallest number m such that 2^n - m and 2^n + m are primes.",
+  "id": "A113213",
+  "mentions": [
+    "A013603",
+    "A092131"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

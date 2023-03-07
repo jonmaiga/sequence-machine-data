@@ -1,0 +1,25 @@
+{
+  "description": "The number of n-digit numbers requiring 2 nonzero squares in their representation as sum of squares.",
+  "id": "A180426",
+  "mentions": [
+    "A000404",
+    "A049415",
+    "A052268",
+    "A180347",
+    "A180416",
+    "A180429"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

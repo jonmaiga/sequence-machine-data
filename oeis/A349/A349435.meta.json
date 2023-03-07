@@ -1,0 +1,25 @@
+{
+  "description": "Dirichlet convolution of A230593 with A347084, which is Dirichlet inverse of {n + its arithmetic derivative}.",
+  "id": "A349435",
+  "mentions": [
+    "A003415",
+    "A129283",
+    "A230593",
+    "A347084",
+    "A348976",
+    "A349338",
+    "A349434",
+    "A349436"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

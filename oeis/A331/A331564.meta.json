@@ -1,0 +1,17 @@
+{
+  "description": "Number of twin primes p < A014574(n), such that p*A014574(n) is in A014574.",
+  "id": "A331564",
+  "mentions": [
+    "A014574"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

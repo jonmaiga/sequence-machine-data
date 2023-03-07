@@ -1,0 +1,24 @@
+{
+  "description": "Differences between successive indices of 1's in the ternary tribonacci sequence A305390.",
+  "id": "A107793",
+  "mentions": [
+    "A000045",
+    "A000213",
+    "A000931",
+    "A059832",
+    "A275925",
+    "A305389",
+    "A305390",
+    "A305391"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

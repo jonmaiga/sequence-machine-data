@@ -1,0 +1,30 @@
+{
+  "description": "Number of singular 2 X 2 matrices having all elements in {-n,...,n}.",
+  "id": "A209981",
+  "mentions": [
+    "A134506",
+    "A206258",
+    "A209982",
+    "A209983",
+    "A209984",
+    "A209985",
+    "A209986",
+    "A209987",
+    "A209988",
+    "A209989",
+    "A209990",
+    "A209997",
+    "A210000"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "List the length of chunks of letters different from 'e', when the sequence is spelled out in French: this is the lexicographically first such sequence of nonnegative integers.",
+  "id": "A261159",
+  "mentions": [
+    "A261158"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

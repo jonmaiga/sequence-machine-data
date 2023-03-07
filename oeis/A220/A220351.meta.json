@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of (3*sqrt(3)+sqrt(7))/10.",
+  "id": "A220351",
+  "mentions": [
+    "A010527"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 19:09:29",
+    "offset": 0,
+    "size": 119,
+    "source": "joeis"
+  }
+}

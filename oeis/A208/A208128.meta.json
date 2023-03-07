@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n for which A210255(n)=3.",
+  "id": "A208128",
+  "mentions": [
+    "A210255"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

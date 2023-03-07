@@ -1,0 +1,24 @@
+{
+  "description": "Let P(0,x) = -1, P(1,x) = 2*x, and P(n,x) = x*P(n-1,x) - P(n-2,x) for n > 1. This sequence is the triangle of polynomial coefficients in order of decreasing exponents.",
+  "id": "A192011",
+  "mentions": [
+    "A052472",
+    "A058373",
+    "A067998",
+    "A165747",
+    "A167387"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

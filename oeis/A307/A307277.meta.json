@@ -1,0 +1,19 @@
+{
+  "description": "Number of even, unimodular, positive definite lattices of dimension 4 over a real quadratic number field Q(sqrt(D)) of fundamental discriminant d = A306300(n).",
+  "id": "A307277",
+  "mentions": [
+    "A003658",
+    "A306300"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

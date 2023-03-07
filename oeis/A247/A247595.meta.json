@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 4*a(n-1) - 4*a(n-2) + 4*a(n-3) with a(0) = 1, a(1) = 3, a(2) = 10.",
+  "id": "A247595",
+  "mentions": [
+    "A061279",
+    "A247594"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "The slowest increasing sequence such that there is no common digit between any two integers from {a(n), a(n-1), a(n-2), c=a(n)+a(n-1)+a(n-2)}.",
+  "id": "A156068",
+  "mentions": [
+    "A166461"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

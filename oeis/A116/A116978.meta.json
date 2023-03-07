@@ -1,0 +1,24 @@
+{
+  "description": "Cubes whose multiplicative digital root is also a cube.",
+  "id": "A116978",
+  "mentions": [
+    "A000578",
+    "A007954",
+    "A031347",
+    "A052044",
+    "A117678"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

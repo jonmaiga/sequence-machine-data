@@ -1,0 +1,19 @@
+{
+  "description": "A golden mean based polynomials set that behaves like an even powered Pascal triangle: p(x,n) = (x - phi)^floor(n/2)*(x + phi)^floor(n/2).",
+  "id": "A147310",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "more",
+    "sign",
+    "tabf",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

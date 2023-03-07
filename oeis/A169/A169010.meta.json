@@ -1,0 +1,20 @@
+{
+  "description": "Number of reduced words of length n in Coxeter group on 45 generators S_i with relations (S_i)^2 = (S_i S_j)^23 = I.",
+  "id": "A169010",
+  "mentions": [
+    "A154638",
+    "A169452",
+    "A170764"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:21:48",
+    "offset": 0,
+    "size": 15,
+    "source": "joeis"
+  }
+}

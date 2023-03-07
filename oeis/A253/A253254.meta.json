@@ -1,0 +1,22 @@
+{
+  "description": "Largest prime factor of the n-th 11-gonal number.",
+  "id": "A253254",
+  "mentions": [
+    "A006530",
+    "A024907",
+    "A051682",
+    "A061238",
+    "A069902"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:11",
+    "offset": 2,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

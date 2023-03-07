@@ -1,0 +1,23 @@
+{
+  "description": "Even numbers with an odd number of partitions.",
+  "id": "A163097",
+  "mentions": [
+    "A000041",
+    "A005843",
+    "A052002",
+    "A127219",
+    "A154797",
+    "A163096",
+    "A163099"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:18:25",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

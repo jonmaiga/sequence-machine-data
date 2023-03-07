@@ -1,0 +1,21 @@
+{
+  "description": "The number of maximal antichains in the Kreweras lattice of non-crossing set partitions of an n-element set.",
+  "id": "A358390",
+  "mentions": [
+    "A000108",
+    "A302250",
+    "A326358"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that p + 1 or p - 1 is in A055462.",
+  "id": "A238265",
+  "mentions": [
+    "A000142",
+    "A055462",
+    "A193430"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

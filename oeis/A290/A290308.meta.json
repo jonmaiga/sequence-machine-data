@@ -1,0 +1,22 @@
+{
+  "description": "Decimal encoding of the prime factorization of n: for n > 0 with prime factorization Product_{i=1..k} prime(i)^e_i, let E_n = (e_k, ..., e_1), replace each nonzero e_i with A052382(e_i) and each zero e_i with \"\" in E_n to obtain F_n, concatenate the elements of F_n with a \"0\" inserted after every element except for the last, and interpret in decimal base.",
+  "id": "A290308",
+  "mentions": [
+    "A002110",
+    "A003961",
+    "A052382",
+    "A156552",
+    "A290389"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

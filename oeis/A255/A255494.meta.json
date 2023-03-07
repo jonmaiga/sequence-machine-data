@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: coefficients of numerator of generating functions for powers of Pell numbers.",
+  "id": "A255494",
+  "mentions": [
+    "A000129",
+    "A079291",
+    "A094706",
+    "A110272",
+    "A255495",
+    "A255496",
+    "A255497",
+    "A255498"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

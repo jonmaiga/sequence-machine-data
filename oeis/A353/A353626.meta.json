@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = 1 if n is a multiple of the square of an odd prime (equally: if the odd part of n is not squarefree), otherwise 0.",
+  "id": "A353626",
+  "mentions": [
+    "A000265",
+    "A008966",
+    "A038838",
+    "A107078",
+    "A166486",
+    "A209635",
+    "A347246",
+    "A353625",
+    "A353627"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 1,
+    "size": 125,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of n-permutations such that at least one cycle has size ceiling(n/2).",
+  "id": "A229244",
+  "mentions": [
+    "A110468"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

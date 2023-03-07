@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = the largest (n+2)-digit number ending in n+1 zeros that is divisible by n, else 0.",
+  "id": "A173486",
+  "mentions": [
+    "A173478"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

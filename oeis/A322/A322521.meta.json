@@ -1,0 +1,17 @@
+{
+  "description": "If A319303(k) = n for some k, then a(n) = k, else a(n) = -1.",
+  "id": "A322521",
+  "mentions": [
+    "A319303"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

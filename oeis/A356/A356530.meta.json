@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. Product_{k>0} 1/(1 - (k * x)^k)^(1/k^k).",
+  "id": "A356530",
+  "mentions": [
+    "A023882",
+    "A294462",
+    "A356487",
+    "A356529"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

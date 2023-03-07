@@ -1,0 +1,18 @@
+{
+  "description": "Number of weakly connected subgraphs of the transitive tournament on {1,...,n}.",
+  "id": "A350608",
+  "mentions": [
+    "A350609",
+    "A350610"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

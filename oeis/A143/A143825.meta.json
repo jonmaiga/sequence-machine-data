@@ -1,0 +1,18 @@
+{
+  "description": "This sequence displays every positive integer exactly three times; there is one number between the first and second 1's and one number between the second and third 1's; two numbers between the first and second 2's and two numbers between the second and third 2's; ... n numbers between the first and second n's and n numbers between the second and third n's.",
+  "id": "A143825",
+  "mentions": [
+    "A026272"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of simple connected graphs with n nodes that have no subgraph isomorphic to the bowtie graph or bull graph.",
+  "id": "A243552",
+  "mentions": [
+    "A242792",
+    "A244427"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

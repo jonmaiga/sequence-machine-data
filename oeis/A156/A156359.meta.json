@@ -1,0 +1,18 @@
+{
+  "description": "Denominator of Euler(n, 1/14).",
+  "id": "A156359",
+  "mentions": [
+    "A156358"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:36:42",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

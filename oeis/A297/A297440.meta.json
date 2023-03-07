@@ -1,0 +1,24 @@
+{
+  "description": "Rectangular array R by antidiagonals: row n shows the positive integers whose base-3 digits have total variation n, for n>=0. See Comments.",
+  "id": "A297440",
+  "mentions": [
+    "A007089",
+    "A297330",
+    "A297441",
+    "A297442",
+    "A297443"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

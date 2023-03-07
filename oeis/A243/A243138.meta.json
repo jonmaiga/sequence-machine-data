@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = n^2 + 15*n + 13.",
+  "id": "A243138",
+  "mentions": [
+    "A098847",
+    "A119412",
+    "A126719",
+    "A132759",
+    "A153422"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:35:49",
+    "offset": 0,
+    "size": 50,
+    "source": "joeis"
+  }
+}

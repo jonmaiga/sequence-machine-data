@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 2*A000124(A003056(n-1)) if A002262(n-1)=0, otherwise a(n-1)+1.",
+  "id": "A166021",
+  "mentions": [
+    "A000124",
+    "A002262",
+    "A003056",
+    "A136272"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

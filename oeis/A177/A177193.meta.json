@@ -1,0 +1,20 @@
+{
+  "description": "The twin primes p such that m and k are also twin primes where m*k=semiprime(p).",
+  "id": "A177193",
+  "mentions": [
+    "A001097",
+    "A001358",
+    "A084126",
+    "A084127"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

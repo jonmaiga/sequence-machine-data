@@ -1,0 +1,20 @@
+{
+  "description": "Column 3 of triangle A152406; also, column 0 of matrix 4th power of A152406.",
+  "id": "A152410",
+  "mentions": [
+    "A152406",
+    "A152407",
+    "A152408",
+    "A152409"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

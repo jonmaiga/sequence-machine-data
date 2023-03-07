@@ -1,0 +1,32 @@
+{
+  "description": "A(n,k) = k-th pi-based antiderivative of n; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A259016",
+  "mentions": [
+    "A000004",
+    "A000040",
+    "A000720",
+    "A001477",
+    "A010709",
+    "A258850",
+    "A258851",
+    "A258861",
+    "A258862",
+    "A258975",
+    "A258995",
+    "A259168",
+    "A259169",
+    "A259170"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

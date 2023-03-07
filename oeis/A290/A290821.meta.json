@@ -1,0 +1,26 @@
+{
+  "description": "Side length of largest equilateral triangle that can be made from n or fewer equilateral triangles with integer sides s_k, subject to gcd(s_1,s_2,...,s_n) = 1.",
+  "id": "A290821",
+  "mentions": [
+    "A000931",
+    "A001590",
+    "A014529",
+    "A089047",
+    "A167123",
+    "A290653",
+    "A290697",
+    "A290820"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

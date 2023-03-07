@@ -1,0 +1,18 @@
+{
+  "description": "The number of degree sequences of simple graphs with n vertices with all even degrees.",
+  "id": "A210345",
+  "mentions": [
+    "A049339",
+    "A210346"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

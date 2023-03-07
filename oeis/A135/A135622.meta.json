@@ -1,0 +1,21 @@
+{
+  "description": "16*Area^2 of integer triangles [A070080(n),A070081(n),A070082(n)].",
+  "id": "A135622",
+  "mentions": [
+    "A070080",
+    "A070081",
+    "A070082",
+    "A070086"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

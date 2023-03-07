@@ -1,0 +1,20 @@
+{
+  "description": "Nearest integer to the cube root of n.",
+  "id": "A105209",
+  "mentions": [
+    "A000194",
+    "A048766"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

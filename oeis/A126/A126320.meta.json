@@ -1,0 +1,20 @@
+{
+  "description": "Signature-permutation of a self-inverse Catalan automorphism: A057163 conjugated by A057164.",
+  "id": "A126320",
+  "mentions": [
+    "A057163",
+    "A057164",
+    "A069787",
+    "A125980"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

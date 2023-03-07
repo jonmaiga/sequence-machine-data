@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. exp(Sum_{k>=1} x^(k^2)*(1 + x^(k^2))/k^2).",
+  "id": "A306831",
+  "mentions": [
+    "A008836",
+    "A053866",
+    "A205801",
+    "A308381"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

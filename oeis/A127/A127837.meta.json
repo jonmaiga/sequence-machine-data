@@ -1,0 +1,28 @@
+{
+  "description": "Numbers n such that ((n+1)^n-1)/n^2 is a prime.",
+  "id": "A127837",
+  "mentions": [
+    "A037205",
+    "A058128",
+    "A060072",
+    "A060073",
+    "A127103",
+    "A127104",
+    "A127106",
+    "A128398",
+    "A128456",
+    "A128466"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

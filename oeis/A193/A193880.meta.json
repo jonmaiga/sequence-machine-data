@@ -1,0 +1,21 @@
+{
+  "description": "0.75-Ramanujan primes R_{0.75,n}: a(n) is the smallest number such that for all x >= a(n), we have pi(x) - pi(0.75x) >= n, where pi(x) is the number of primes <= x.",
+  "id": "A193880",
+  "mentions": [
+    "A104272",
+    "A164952",
+    "A193761",
+    "A290394"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

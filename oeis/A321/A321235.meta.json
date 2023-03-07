@@ -1,0 +1,18 @@
+{
+  "description": "Haiku numbers.",
+  "id": "A321235",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "fini",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

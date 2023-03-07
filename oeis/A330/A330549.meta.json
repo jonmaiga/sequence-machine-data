@@ -1,0 +1,22 @@
+{
+  "description": "Gasket based on primes: take array read by diagonals from Gilbreath conjecture (A036262) and replace all nonzero entries with 0's and all 0's with 1's.",
+  "id": "A330549",
+  "mentions": [
+    "A036261",
+    "A036262",
+    "A330548",
+    "A330550",
+    "A330551"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

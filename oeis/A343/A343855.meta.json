@@ -1,0 +1,19 @@
+{
+  "description": "Numbers whose second digit is not zero and such that removing either the first or last digit leaves a square number.",
+  "id": "A343855",
+  "mentions": [
+    "A244283",
+    "A344570"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

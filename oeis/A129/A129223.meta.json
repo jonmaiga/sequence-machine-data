@@ -1,0 +1,29 @@
+{
+  "description": "Residues of the Lucas - Lehmer primality test for M(19) = 524287.",
+  "id": "A129223",
+  "mentions": [
+    "A001348",
+    "A003010",
+    "A095847",
+    "A129219",
+    "A129220",
+    "A129221",
+    "A129222",
+    "A129224",
+    "A129225",
+    "A129226"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

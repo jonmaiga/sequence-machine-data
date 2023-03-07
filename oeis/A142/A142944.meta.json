@@ -1,0 +1,19 @@
+{
+  "description": "Primes congruent to 43 mod 64.",
+  "id": "A142944",
+  "mentions": [
+    "A142943",
+    "A142945"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:29:13",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

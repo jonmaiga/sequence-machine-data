@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of g.f. Product_{k>=1} (1 - x^k)^phi(k), where phi() is the Euler totient function (A000010).",
+  "id": "A346770",
+  "mentions": [
+    "A000010",
+    "A057660",
+    "A061255",
+    "A293116",
+    "A299069"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

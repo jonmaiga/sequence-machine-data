@@ -1,0 +1,29 @@
+{
+  "description": "Composite numbers k of the form 4u+1 for which the odd part of phi(k) divides k-1.",
+  "id": "A339870",
+  "mentions": [
+    "A000010",
+    "A000265",
+    "A005117",
+    "A016105",
+    "A053575",
+    "A091113",
+    "A125667",
+    "A137409",
+    "A167181",
+    "A336466",
+    "A339817",
+    "A339875",
+    "A339880"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

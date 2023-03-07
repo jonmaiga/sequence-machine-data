@@ -1,0 +1,19 @@
+{
+  "description": "Take Golomb's sequence A001462 and extend all the runs by 1; prepend an initial 0.",
+  "id": "A319951",
+  "mentions": [
+    "A001462",
+    "A318921",
+    "A319434"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

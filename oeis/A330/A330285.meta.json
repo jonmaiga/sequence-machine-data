@@ -1,0 +1,23 @@
+{
+  "description": "The maximum number of arithmetic progressions in a sequence of length n.",
+  "id": "A330285",
+  "mentions": [
+    "A002541",
+    "A049988",
+    "A065825",
+    "A092482",
+    "A104429",
+    "A130518"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:24",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

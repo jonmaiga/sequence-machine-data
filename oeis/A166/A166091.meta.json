@@ -1,0 +1,31 @@
+{
+  "description": "Square array A(row>=0, col>=0) = (A166092(row,col)-3)/4, listed antidiagonally as A(0,0), A(0,1), A(1,0), A(0,2), A(1,1), A(2,0), ...",
+  "id": "A166091",
+  "mentions": [
+    "A002262",
+    "A005408",
+    "A025581",
+    "A112060",
+    "A165468",
+    "A165602",
+    "A166040",
+    "A166052",
+    "A166054",
+    "A166056",
+    "A166058",
+    "A166086",
+    "A166092",
+    "A166094"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:49",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

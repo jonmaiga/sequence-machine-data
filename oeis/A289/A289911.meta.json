@@ -1,0 +1,21 @@
+{
+  "description": "Prime vampire numbers: semiprimes x*y such that x and y have the same number of digits and the union of the multisets of the digits of x and y is the same as the multiset of digits of x*y.",
+  "id": "A289911",
+  "mentions": [
+    "A001358",
+    "A001637",
+    "A014575",
+    "A055642"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:04",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

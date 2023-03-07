@@ -1,0 +1,32 @@
+{
+  "description": "First differences of the Beatty sequence A003151 for 1 + sqrt(2).",
+  "id": "A276862",
+  "mentions": [
+    "A001951",
+    "A001952",
+    "A003151",
+    "A003152",
+    "A006337",
+    "A014176",
+    "A080763",
+    "A082844",
+    "A097509",
+    "A115004",
+    "A159684",
+    "A188037",
+    "A245219",
+    "A276879"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:28:05",
+    "offset": 1,
+    "size": 85,
+    "source": "joeis"
+  }
+}

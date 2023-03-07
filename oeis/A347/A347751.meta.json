@@ -1,0 +1,20 @@
+{
+  "description": "Number of finite edges in the graph formed when every pair of vertices of a row of n adjacent congruent rectangles are joined by an infinite line.",
+  "id": "A347751",
+  "mentions": [
+    "A331757",
+    "A344993",
+    "A347750"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

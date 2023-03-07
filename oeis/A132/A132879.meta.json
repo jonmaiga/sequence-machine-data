@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = A132878(n)/[(n+1)*(n+2)/2] for n>=0, where A132878 is column 1 of triangle A132870.",
+  "id": "A132879",
+  "mentions": [
+    "A132870",
+    "A132875",
+    "A132876",
+    "A132877",
+    "A132878"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

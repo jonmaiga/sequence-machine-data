@@ -1,0 +1,29 @@
+{
+  "description": "Permutation of nonnegative integers obtained by traversing the tendrils (finite side-trees) of the binary beanstalk in depth-first order, with also each number in the infinite trunk visited, but only after its sister branch has been traversed first.",
+  "id": "A257676",
+  "mentions": [
+    "A011371",
+    "A055938",
+    "A179016",
+    "A213719",
+    "A213723",
+    "A213724",
+    "A213725",
+    "A213727",
+    "A213730",
+    "A218252",
+    "A257677",
+    "A257678"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

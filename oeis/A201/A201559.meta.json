@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of x_0 = sup{x: there exists y with Re(zeta(x+i*y)) = 0}, where zeta(z) = sum(n>0, 1/n^z) is the Riemann zeta function.",
+  "id": "A201559",
+  "mentions": [
+    "A002410"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

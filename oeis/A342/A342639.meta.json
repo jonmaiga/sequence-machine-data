@@ -1,0 +1,27 @@
+{
+  "description": "Square array T(n, k), n, k >= 0, read by antidiagonals; T(n, k) = g(f(n) + f(k)) where g maps the complement, say s, of a finite set of nonnegative integers to the value Sum_{e >= 0 not in s} 2^e, f is the inverse of g, and \"+\" denotes the Minkowski sum.",
+  "id": "A342639",
+  "mentions": [
+    "A001477",
+    "A038712",
+    "A067138",
+    "A133457",
+    "A135481",
+    "A342640",
+    "A342641",
+    "A342642"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

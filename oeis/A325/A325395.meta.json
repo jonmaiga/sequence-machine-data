@@ -1,0 +1,30 @@
+{
+  "description": "Heinz numbers of integer partitions whose augmented differences are strictly increasing.",
+  "id": "A325395",
+  "mentions": [
+    "A056239",
+    "A093641",
+    "A112798",
+    "A240027",
+    "A325325",
+    "A325351",
+    "A325357",
+    "A325366",
+    "A325389",
+    "A325394",
+    "A325396",
+    "A325398",
+    "A325456",
+    "A325460"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

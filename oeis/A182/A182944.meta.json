@@ -1,0 +1,38 @@
+{
+  "description": "Square array A(i,j), i >= 1, j >= 1, of prime powers prime(i)^j, by descending antidiagonals.",
+  "id": "A182944",
+  "mentions": [
+    "A000040",
+    "A000961",
+    "A001248",
+    "A006939",
+    "A030078",
+    "A030514",
+    "A030516",
+    "A030629",
+    "A050997",
+    "A062457",
+    "A092759",
+    "A179645",
+    "A179665",
+    "A182869",
+    "A182945",
+    "A242378",
+    "A284457",
+    "A319075",
+    "A329332",
+    "A332979"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Permutation of the positive integers: this permutation transforms the enumeration system of positive irreducible fractions A002487/A002487' (Calkin-Wilf) into the enumeration system A245327/A245328, and A162911/A162912 (Drib) into A020651/A020650 (Yu-Ting inverted).",
+  "id": "A284459",
+  "mentions": [
+    "A002487",
+    "A020650",
+    "A020651",
+    "A092569",
+    "A162911",
+    "A162912",
+    "A231551",
+    "A245327",
+    "A245328",
+    "A258996",
+    "A284460"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

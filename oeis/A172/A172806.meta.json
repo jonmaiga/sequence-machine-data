@@ -1,0 +1,25 @@
+{
+  "description": "Number of n X n of nonnegative integers with all row and column sums equal to 4.",
+  "id": "A172806",
+  "mentions": [
+    "A000681",
+    "A001496",
+    "A001500",
+    "A172862",
+    "A172894",
+    "A172919",
+    "A172944",
+    "A172958",
+    "A257493"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:57",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

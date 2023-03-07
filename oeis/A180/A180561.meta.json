@@ -1,0 +1,23 @@
+{
+  "description": "Primes that cannot become a different prime under any mapping of some single decimal digit <=> with some other single decimal digit.",
+  "id": "A180561",
+  "mentions": [
+    "A175789",
+    "A175791",
+    "A180517",
+    "A180559",
+    "A180560"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

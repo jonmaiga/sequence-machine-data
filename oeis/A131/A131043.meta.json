@@ -1,0 +1,18 @@
+{
+  "description": "Number of primes between 10^n and 10^n+10^(n-1).",
+  "id": "A131043",
+  "mentions": [
+    "A006880",
+    "A309329"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

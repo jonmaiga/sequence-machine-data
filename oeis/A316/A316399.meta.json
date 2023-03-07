@@ -1,0 +1,30 @@
+{
+  "description": "Number of strict integer partitions of n such that not every subset has a different average.",
+  "id": "A316399",
+  "mentions": [
+    "A000009",
+    "A108917",
+    "A275972",
+    "A276024",
+    "A284640",
+    "A299702",
+    "A301899",
+    "A301900",
+    "A316271",
+    "A316313",
+    "A316314",
+    "A316400",
+    "A316402"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Ordered products of the perimeter and the sides of primitive Pythagorean triangles.",
+  "id": "A223857",
+  "mentions": [
+    "A024364",
+    "A063011"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

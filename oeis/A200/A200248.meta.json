@@ -1,0 +1,18 @@
+{
+  "description": "The number of (simultaneously) fixed and isolated points in the digraph representation of all functions f:{1,2,...,n}->{1,2,...,n}.",
+  "id": "A200248",
+  "mentions": [
+    "A001865"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:21",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

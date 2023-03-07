@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of 4 copies of n into distinct parts.",
+  "id": "A258282",
+  "mentions": [
+    "A258280"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 7,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

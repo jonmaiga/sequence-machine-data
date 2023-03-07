@@ -1,0 +1,22 @@
+{
+  "description": "Inverse of coefficient array for orthogonal polynomials p(n,x)=(x-(2n-1))*p(n-1,x)-(2n-2)^2*p(n-2,x).",
+  "id": "A182824",
+  "mentions": [
+    "A182825",
+    "A182826",
+    "A256893"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Positive integers not congruent to 0 or 6 which cannot be written as x^2 + y^2 + z^2 + w^2 with x + y = 4^k for some positive integer k, where x, y, z, w are nonnegative integers.",
+  "id": "A338121",
+  "mentions": [
+    "A000118",
+    "A000290",
+    "A000302",
+    "A338094",
+    "A338095",
+    "A338096",
+    "A338103",
+    "A338119"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

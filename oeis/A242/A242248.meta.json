@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = |{0 < g < prime(n): g, 2^g - 1 and (g-1)! are all primitive roots modulo prime(n)}|.",
+  "id": "A242248",
+  "mentions": [
+    "A000040",
+    "A000142",
+    "A000225",
+    "A236966",
+    "A237112",
+    "A242242",
+    "A242250"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

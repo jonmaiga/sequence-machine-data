@@ -1,0 +1,25 @@
+{
+  "description": "Total number of distinct block sizes in all partitions of [n].",
+  "id": "A132963",
+  "mentions": [
+    "A005493",
+    "A132958",
+    "A132959",
+    "A132960",
+    "A132961",
+    "A132962",
+    "A350175"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers of pattern-matching permutations of (1234) for the permutations of {1, 2, ..., n} on n = 4, 5, 6, ... elements.",
+  "id": "A158005",
+  "mentions": [
+    "A000142",
+    "A005802",
+    "A214015",
+    "A214152"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 4,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

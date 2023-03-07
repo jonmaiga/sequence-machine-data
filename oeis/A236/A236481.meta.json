@@ -1,0 +1,29 @@
+{
+  "description": "Primes p with p + 2, prime(p) + 2 and prime(prime(p)) + 2 all prime.",
+  "id": "A236481",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A001359",
+    "A006512",
+    "A235925",
+    "A236066",
+    "A236457",
+    "A236458",
+    "A236468",
+    "A236470",
+    "A236480",
+    "A236482",
+    "A236484"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

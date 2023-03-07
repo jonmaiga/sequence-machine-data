@@ -1,0 +1,44 @@
+{
+  "description": "Triangle read by rows: row n is the first row of the matrix M[n]^(n-1), where M[n] is the n X n tridiagonal matrix with main diagonal (2,3,3,...) and super- and subdiagonals (1,1,1,...).",
+  "id": "A124733",
+  "mentions": [
+    "A002212",
+    "A007317",
+    "A007318",
+    "A026375",
+    "A038622",
+    "A039598",
+    "A039599",
+    "A052179",
+    "A053121",
+    "A061554",
+    "A064189",
+    "A089942",
+    "A091965",
+    "A110877",
+    "A111418",
+    "A124574",
+    "A124575",
+    "A124576",
+    "A125906",
+    "A126075",
+    "A126093",
+    "A126331",
+    "A126791",
+    "A126953",
+    "A126954",
+    "A126970"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 15:40:33",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "description": "Numbers n such that the decimal expansions of both n and n^2 have 2 as smallest digit and 7 as largest digit.",
+  "id": "A257123",
+  "mentions": [
+    "A137094",
+    "A249915",
+    "A256601",
+    "A256630",
+    "A256631",
+    "A256633",
+    "A256634",
+    "A256708",
+    "A256709",
+    "A256889",
+    "A257197",
+    "A257210",
+    "A257211",
+    "A257310",
+    "A257368",
+    "A257485",
+    "A257486",
+    "A257498",
+    "A257534"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Primes which are equal to the order of 2 modulo a prime q, sorted with respect to the value of q.",
+  "id": "A137332",
+  "mentions": [
+    "A000040",
+    "A001221",
+    "A002326",
+    "A007733",
+    "A122094"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:25",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k such that A122111(k) [conjugated prime factorization of k] is one of Ore's Harmonic numbers (in A001599).",
+  "id": "A336317",
+  "mentions": [
+    "A001599",
+    "A088902",
+    "A102750",
+    "A122111",
+    "A323173",
+    "A323174",
+    "A336314",
+    "A336315",
+    "A336353",
+    "A336397"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

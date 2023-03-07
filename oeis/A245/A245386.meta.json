@@ -1,0 +1,20 @@
+{
+  "description": "Numbers in A245385 where P, Q, R, and S are all distinct.",
+  "id": "A245386",
+  "mentions": [
+    "A245364",
+    "A245385",
+    "A262743"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

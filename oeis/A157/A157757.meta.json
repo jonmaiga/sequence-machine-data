@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 2809*n^2 - 4618*n + 1898.",
+  "id": "A157757",
+  "mentions": [
+    "A157758",
+    "A157759"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

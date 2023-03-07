@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k with a record number of divisors d < sqrt(k) such that d + k/d is prime.",
+  "id": "A331665",
+  "mentions": [
+    "A002110",
+    "A093890",
+    "A103787",
+    "A161510"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of permutations of n elements divided by the number of 9-ary heaps on n+1 elements.",
+  "id": "A273737",
+  "mentions": [
+    "A000142",
+    "A037124",
+    "A273696",
+    "A273730"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

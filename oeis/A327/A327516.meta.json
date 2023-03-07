@@ -1,0 +1,37 @@
+{
+  "description": "Number of integer partitions of n that are empty, (1), or have at least two parts and these parts are pairwise coprime.",
+  "id": "A327516",
+  "mentions": [
+    "A000837",
+    "A007360",
+    "A018783",
+    "A038348",
+    "A051424",
+    "A087087",
+    "A101268",
+    "A220377",
+    "A302569",
+    "A302696",
+    "A304709",
+    "A304711",
+    "A305713",
+    "A307719",
+    "A326675",
+    "A328673",
+    "A333227",
+    "A333228",
+    "A335238",
+    "A335241"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

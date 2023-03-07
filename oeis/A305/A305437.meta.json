@@ -1,0 +1,21 @@
+{
+  "description": "Running index for the lexicographically least irreducible factor when (0,1)-polynomial obtained from the binary expansion of n is factored over Q.",
+  "id": "A305437",
+  "mentions": [
+    "A055396",
+    "A206074",
+    "A302786",
+    "A305300",
+    "A305438"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n+1) is the smallest number not already used which can be written as the product of two numbers with the same difference as a(n) and a(n-1); a(1)=1 and a(2)=2.",
+  "id": "A359035",
+  "mentions": [
+    "A002378"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:29",
+    "offset": 1,
+    "size": 68,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the least triprime T for which the Mertens function M(T) = n.",
+  "id": "A123174",
+  "mentions": [
+    "A002321",
+    "A008683",
+    "A014612",
+    "A028442",
+    "A118684"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": -3,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

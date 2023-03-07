@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that cannot be written as 2^k + p with p prime < 2^k.",
+  "id": "A118956",
+  "mentions": [
+    "A118952",
+    "A118954",
+    "A118957"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

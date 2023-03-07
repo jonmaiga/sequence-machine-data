@@ -1,0 +1,21 @@
+{
+  "description": "The product of maximal run and minimal run lengths in the binary representation of n.",
+  "id": "A175665",
+  "mentions": [
+    "A043276",
+    "A175597",
+    "A175599"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(-1)=a(0)=1 and recursively a(n) = prime(n)*(a(n-1)+a(n-2)).",
+  "id": "A109365",
+  "mentions": [
+    "A109366"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

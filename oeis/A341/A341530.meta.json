@@ -1,0 +1,29 @@
+{
+  "description": "a(n) = gcd(n*sigma(A003961(n)), sigma(n)*A003961(n)), where A003961 shifts the prime factorization of n one step towards larger primes, and sigma is the sum of divisors of n.",
+  "id": "A341530",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A003973",
+    "A028982",
+    "A246278",
+    "A341512",
+    "A341526",
+    "A341527",
+    "A341528",
+    "A341529",
+    "A342670",
+    "A342674"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

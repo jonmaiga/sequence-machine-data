@@ -1,0 +1,19 @@
+{
+  "description": "Terms in A002182 sorted by their Omega values (their number of prime factors counted with multiplicity).",
+  "id": "A328519",
+  "mentions": [
+    "A001222",
+    "A002182",
+    "A112778"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

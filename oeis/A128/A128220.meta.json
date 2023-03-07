@@ -1,0 +1,22 @@
+{
+  "description": "Triangle, A127701 * A000012.",
+  "id": "A128220",
+  "mentions": [
+    "A000012",
+    "A028387",
+    "A127701",
+    "A128219"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 19:35:45",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

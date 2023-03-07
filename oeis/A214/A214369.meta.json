@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of Sum_{n>=1} 1/(3^n-1).",
+  "id": "A214369",
+  "mentions": [
+    "A000005",
+    "A024023",
+    "A065442",
+    "A073668",
+    "A248721",
+    "A248722",
+    "A248723",
+    "A248724",
+    "A248725",
+    "A248726"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that m=(n^2+1)/2, p=(m^2+1)/2, q=(p^2+1)/2, and r=(q^2+1)/2 are all prime.",
+  "id": "A188547",
+  "mentions": [
+    "A002731",
+    "A105318",
+    "A116945",
+    "A187431",
+    "A188546"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

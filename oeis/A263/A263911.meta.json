@@ -1,0 +1,18 @@
+{
+  "description": "Number of (2n+2)X(6+2) 0..1 arrays with each row and column modulo 3 equal to 1, read as a binary number with top and left being the most significant bits.",
+  "id": "A263911",
+  "mentions": [
+    "A263913"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

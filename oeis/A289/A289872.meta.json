@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of partial sums of the divisors of n that are the sum of divisors of some integer.",
+  "id": "A289872",
+  "mentions": [
+    "A000203",
+    "A002191",
+    "A027750",
+    "A240698"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:04",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers which occur in A105399 but not in A126990.",
+  "id": "A134240",
+  "mentions": [
+    "A105399",
+    "A126990",
+    "A134196",
+    "A134197"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Twos order in the tribonacci substitution of three symbols.",
+  "id": "A107791",
+  "mentions": [
+    "A000045",
+    "A000213"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

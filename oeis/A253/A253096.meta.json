@@ -1,0 +1,18 @@
+{
+  "description": "Moments of 5-step random walk in 4 dimensions.",
+  "id": "A253096",
+  "mentions": [
+    "A253095",
+    "A253097"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:12",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

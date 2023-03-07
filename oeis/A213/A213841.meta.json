@@ -1,0 +1,23 @@
+{
+  "description": "Rectangular array: (row n) = b**c, where b(h) = 2*h-1, c(h) = 4*n-7+4*h, n>=1, h>=1, and ** = convolution.",
+  "id": "A213841",
+  "mentions": [
+    "A100178",
+    "A212500",
+    "A213842",
+    "A213843"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-02 14:52:56",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

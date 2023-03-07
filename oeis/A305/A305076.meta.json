@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that prime(k)^k - primorial(k - 1) is prime.",
+  "id": "A305076",
+  "mentions": [
+    "A002110",
+    "A062457",
+    "A304917"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

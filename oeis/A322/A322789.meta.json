@@ -1,0 +1,33 @@
+{
+  "description": "Irregular triangle read by rows where if d|n then T(n,d) is the number of non-isomorphic uniform multiset partitions of a multiset with d copies of each integer from 1 to n/d.",
+  "id": "A322789",
+  "mentions": [
+    "A000005",
+    "A001055",
+    "A005176",
+    "A056239",
+    "A072774",
+    "A100778",
+    "A295193",
+    "A306017",
+    "A306018",
+    "A319056",
+    "A319190",
+    "A319612",
+    "A322784",
+    "A322785",
+    "A322787",
+    "A322792"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

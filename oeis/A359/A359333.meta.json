@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 0, and for any n > 1, a(n) is chosen among 0 and 1 so as to minimize the length of the longest sequence of distinct integers in arithmetic progression in the interval 1..n and containing n where the sequence is constant; in case of a tie, maximize the least common difference in those longest arithmetic progressions.",
+  "id": "A359333",
+  "mentions": [
+    "A038219"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

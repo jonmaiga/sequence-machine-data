@@ -1,0 +1,35 @@
+{
+  "description": "Square array read by antidiagonals upwards: T(n,1) = 1; for k > 1, T(n,k) = (n-1)*(n-2)^(A000120(k-1)-1) with n >= 1.",
+  "id": "A255740",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000120",
+    "A002378",
+    "A011477",
+    "A040000",
+    "A147582",
+    "A151779",
+    "A151782",
+    "A151787",
+    "A151789",
+    "A151791",
+    "A255738",
+    "A255741",
+    "A255743",
+    "A255744",
+    "A255745"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

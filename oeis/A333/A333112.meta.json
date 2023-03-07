@@ -1,0 +1,24 @@
+{
+  "description": "The number of edges inside a heptagon formed by the straight line segments mutually connecting all vertices and all points that divide the sides into n equal parts.",
+  "id": "A333112",
+  "mentions": [
+    "A274586",
+    "A329713",
+    "A329714",
+    "A330845",
+    "A331765",
+    "A332600",
+    "A333113"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

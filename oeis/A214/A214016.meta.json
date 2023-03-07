@@ -1,0 +1,19 @@
+{
+  "description": "Poulet numbers (2-pseudoprimes) of the form 7200*n^2 + 8820*n + 2701.",
+  "id": "A214016",
+  "mentions": [
+    "A001567",
+    "A214017"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

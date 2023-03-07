@@ -1,0 +1,20 @@
+{
+  "description": "Square array read by antidiagonals: a(1,m) = m mod 10; a(n,1) = a(n-1,2); a(n,m) = a(n-1, a(n,m-1)+1) mod 9.",
+  "id": "A131624",
+  "mentions": [
+    "A001695",
+    "A014221"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 119,
+    "source": "oeis-entry"
+  }
+}

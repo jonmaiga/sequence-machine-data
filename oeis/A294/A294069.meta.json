@@ -1,0 +1,21 @@
+{
+  "description": "The smallest digit of a(n+1) is strictly smaller than the largest digit of a(n)",
+  "id": "A294069",
+  "mentions": [
+    "A002283",
+    "A011540",
+    "A284062",
+    "A284069"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

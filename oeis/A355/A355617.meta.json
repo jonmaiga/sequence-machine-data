@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1; a(2) = 2; for n > 2, a(n) = R(a(n-1)) if a(n-1) != R(a(n-2)) and R(a(n-1)) has not yet been used, where R is the digit reversal function A004086, otherwise a(n) is the smallest positive integer > a(n-1) that has not yet been used.",
+  "id": "A355617",
+  "mentions": [
+    "A004086"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "easy",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

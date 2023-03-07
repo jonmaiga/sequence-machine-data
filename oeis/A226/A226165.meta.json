@@ -1,0 +1,21 @@
+{
+  "description": "Squarefree part of A077425(n) (numbers 4*k+1, k>=0, not a square).",
+  "id": "A226165",
+  "mentions": [
+    "A007913",
+    "A077425",
+    "A079896"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

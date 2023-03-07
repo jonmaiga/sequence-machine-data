@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n with property that in the factorization of sigma(n)/n into a product of prime powers, the largest prime power is found in the denominator (here sigma(n) is the sum of the divisors of n, A000203(n)).",
+  "id": "A274939",
+  "mentions": [
+    "A000203",
+    "A017665",
+    "A017666",
+    "A274940",
+    "A274941"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

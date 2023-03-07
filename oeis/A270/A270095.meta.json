@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n for which A269233(n) is a record.",
+  "id": "A270095",
+  "mentions": [
+    "A037053",
+    "A269233"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = floor(abs(b(n))), where b(1) = 2, b(n) = b(n-1) - 1/b(n-1).",
+  "id": "A125676",
+  "mentions": [
+    "A127814",
+    "A127815"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

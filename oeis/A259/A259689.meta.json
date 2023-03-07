@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of degree-n permutations without overlaps which furnish k new permutations without overlaps upon the addition of an (n+1)st element, 2 <= k <= 1 + floor(n/2).",
+  "id": "A259689",
+  "mentions": [
+    "A000108",
+    "A000682",
+    "A260785"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 2,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

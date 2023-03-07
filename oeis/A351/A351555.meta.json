@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of odd prime factors of sigma(n) that do not divide A003961(n) and the valuation(n, p) is different from valuation(sigma(n), p).",
+  "id": "A351555",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A351543",
+    "A351551",
+    "A351553",
+    "A351554"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

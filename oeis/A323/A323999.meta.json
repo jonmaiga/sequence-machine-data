@@ -1,0 +1,19 @@
+{
+  "description": "Start with 348, then successively apply /12, -11, *10, /9, -8, *7, /6, -5, *4, /3, -2, *1.",
+  "id": "A323999",
+  "mentions": [
+    "A306429"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

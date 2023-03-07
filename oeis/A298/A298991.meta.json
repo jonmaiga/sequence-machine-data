@@ -1,0 +1,21 @@
+{
+  "description": "Indices i in A112058 where records of 17*i - 3*A112058(i)/8 occur.",
+  "id": "A298991",
+  "mentions": [
+    "A112046",
+    "A112056",
+    "A112057",
+    "A112058"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

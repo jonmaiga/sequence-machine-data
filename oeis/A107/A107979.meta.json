@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 4*a(n-1) + 2*a(n-2) for n>1, with a(0)=2, a(1)=9.",
+  "id": "A107979",
+  "mentions": [
+    "A000129",
+    "A021001",
+    "A090017"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:20:18",
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

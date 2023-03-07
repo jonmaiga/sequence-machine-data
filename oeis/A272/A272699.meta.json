@@ -1,0 +1,18 @@
+{
+  "description": "Day of the week of Rosh Hashanah in Hebrew year n.",
+  "id": "A272699",
+  "mentions": [
+    "A057349",
+    "A057350"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

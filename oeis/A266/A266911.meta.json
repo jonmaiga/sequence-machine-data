@@ -1,0 +1,21 @@
+{
+  "description": "GCD of A002443(n) and A002444(n), numerator and denominator in Feinler's formula for the Bernoulli number B_{2n}.",
+  "id": "A266911",
+  "mentions": [
+    "A000367",
+    "A002443",
+    "A002444",
+    "A002445"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

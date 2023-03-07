@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: consider a figure made up of a row of n congruent rectangles and the diagonals of all possible rectangles; T(n,k) (1 <= k <= n) is the number of vertices inside the k-th rectangle.",
+  "id": "A335056",
+  "mentions": [
+    "A159065",
+    "A306302",
+    "A331755",
+    "A333288",
+    "A335074"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Inverse permutation to A263265: a(0) = 0; for n >= 1, a(n) = A263259(n) + A263260(A155043(n)-1) - 1.",
+  "id": "A263266",
+  "mentions": [
+    "A155043",
+    "A263259",
+    "A263260",
+    "A263265",
+    "A263268",
+    "A263281"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

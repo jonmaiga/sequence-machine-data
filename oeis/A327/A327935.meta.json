@@ -1,0 +1,22 @@
+{
+  "description": "Numbers for which the smallest prime factor of their arithmetic derivative is 5.",
+  "id": "A327935",
+  "mentions": [
+    "A003415",
+    "A086134",
+    "A235991",
+    "A235992",
+    "A327865",
+    "A327933"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

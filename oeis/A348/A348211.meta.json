@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows giving coefficients of polynomials arising as numerators of certain Hilbert series.",
+  "id": "A348211",
+  "mentions": [
+    "A012249",
+    "A013561",
+    "A348210"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 3,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

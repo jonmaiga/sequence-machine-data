@@ -1,0 +1,18 @@
+{
+  "description": "Smallest odd prime q such that pq+2 is prime, where p is the n-th odd prime.",
+  "id": "A126608",
+  "mentions": [
+    "A126609"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

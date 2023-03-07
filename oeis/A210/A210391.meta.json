@@ -1,0 +1,40 @@
+{
+  "description": "Number A(n,k) of semistandard Young tableaux over all partitions of n with maximal element <= k; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A210391",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000290",
+    "A001477",
+    "A002620",
+    "A005900",
+    "A038163",
+    "A054498",
+    "A138177",
+    "A139594",
+    "A181477",
+    "A181478",
+    "A181479",
+    "A181480",
+    "A191714",
+    "A209673",
+    "A210427",
+    "A210428",
+    "A210429",
+    "A210430",
+    "A210431",
+    "A210432"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

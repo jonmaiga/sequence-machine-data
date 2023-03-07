@@ -1,0 +1,24 @@
+{
+  "description": "Positions of the records of the negative integers in A179319; a(n) is the first position in A179319 equal to -n.",
+  "id": "A183556",
+  "mentions": [
+    "A000201",
+    "A001950",
+    "A059973",
+    "A179319",
+    "A183555",
+    "A183557"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers written in base 2 such that the concatenation of the terms equals the concatenation of the positive integers, and no term appears in its natural position.",
+  "id": "A229084",
+  "mentions": [
+    "A007088",
+    "A228595",
+    "A229085"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

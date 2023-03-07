@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: R(n,k) = 2^(composite(n)-composite(k)) mod composite(n), 1<=k<=n.",
+  "id": "A153661",
+  "mentions": [
+    "A000079",
+    "A002808",
+    "A175156"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "less",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

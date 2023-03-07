@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that 37*n^2 + 37*n + 1 is a square.",
+  "id": "A105844",
+  "mentions": [
+    "A105843"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:01:47",
+    "offset": 1,
+    "size": 18,
+    "source": "joeis"
+  }
+}

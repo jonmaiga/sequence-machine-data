@@ -1,0 +1,17 @@
+{
+  "description": "Primes of the form (44*10^n+1)/9.",
+  "id": "A177503",
+  "mentions": [
+    "A103000"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of 2n X 2n checkerboard into two congruent edgewise-connected sets, counting partitions equal under rotation or reflection only once.",
+  "id": "A113900",
+  "mentions": [
+    "A064941",
+    "A068392",
+    "A257952"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

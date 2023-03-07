@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n that are at least twice the size the largest Catalan number less than or equal to n.",
+  "id": "A244216",
+  "mentions": [
+    "A000108",
+    "A014418",
+    "A081290",
+    "A244215",
+    "A244217"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

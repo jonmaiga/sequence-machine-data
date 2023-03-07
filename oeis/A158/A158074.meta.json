@@ -1,0 +1,18 @@
+{
+  "description": "Number of (directed) Hamiltonian cycles on a 3 X (2n) knight's tour graph.",
+  "id": "A158074",
+  "mentions": [
+    "A070030"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

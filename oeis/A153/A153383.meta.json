@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that 12*n+1 is not prime.",
+  "id": "A153383",
+  "mentions": [
+    "A110801"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Exponents m such that the number of nonnegative k <= n, possessing the property that n + n*k - k is a square, is equal to 2^m.",
+  "id": "A332761",
+  "mentions": [
+    "A000290",
+    "A060594",
+    "A072273",
+    "A332802"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

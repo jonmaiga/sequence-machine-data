@@ -1,0 +1,22 @@
+{
+  "description": "Number of inequivalent 3 X 3 matrices with entries in {1,2,3,..,n} up to vertical and horizontal reflections.",
+  "id": "A282614",
+  "mentions": [
+    "A039623",
+    "A168555",
+    "A217331",
+    "A282613"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:35:35",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

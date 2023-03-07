@@ -1,0 +1,23 @@
+{
+  "description": "Smallest prime of the form ChebyshevT[2^n, x].",
+  "id": "A219280",
+  "mentions": [
+    "A066436",
+    "A144131",
+    "A144132",
+    "A219276",
+    "A219277",
+    "A219278",
+    "A219279"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

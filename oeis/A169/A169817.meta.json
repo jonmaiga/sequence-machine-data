@@ -1,0 +1,23 @@
+{
+  "description": "n-th prime with both a prime number of 0's and a prime number of 1's in binary representation minus n-th semiprime with both a prime number of 0's and a prime number of 1's in their binary representation.",
+  "id": "A169817",
+  "mentions": [
+    "A014499",
+    "A035103",
+    "A144214",
+    "A178064",
+    "A178065",
+    "A178350"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

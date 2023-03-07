@@ -1,0 +1,19 @@
+{
+  "description": "Start with n, successively subtract the next digit of the resulting sequence, stop when reaching zero or less: a(n) is the absolute value of the result.",
+  "id": "A207505",
+  "mentions": [
+    "A207506",
+    "A208059"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:27",
+    "offset": 0,
+    "size": 132,
+    "source": "oeis-bfile"
+  }
+}

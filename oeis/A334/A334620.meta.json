@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest multiple of n formed by the concatenation 1,2,3,...,k for some k.",
+  "id": "A334620",
+  "mentions": [
+    "A007908",
+    "A075002"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

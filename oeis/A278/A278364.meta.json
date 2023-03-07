@@ -1,0 +1,22 @@
+{
+  "description": "A sequence showing denominators in ratios tending to the constant Pi/4 = 0.785398163397448... .",
+  "id": "A278364",
+  "mentions": [
+    "A003881",
+    "A096954",
+    "A096955",
+    "A278924"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Coordination sequence for first kind of trivalent vertex in 1-skeleton of pentagonal icositetrahedron.",
+  "id": "A331065",
+  "mentions": [
+    "A298808",
+    "A331066",
+    "A331067"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

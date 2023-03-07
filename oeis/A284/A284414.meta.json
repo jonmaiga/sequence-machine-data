@@ -1,0 +1,30 @@
+{
+  "description": "Number T(n,k) of self-avoiding planar walks of length k starting at (0,0), ending at (n,0), remaining in the first quadrant and using steps (0,1), (1,0), (1,1), (-1,1), and (1,-1) with the restriction that (0,1) is never used below the diagonal and (1,0) is never used above the diagonal; triangle T(n,k), n>=0, n<=k<=n*(n+3)/2, read by rows.",
+  "id": "A284414",
+  "mentions": [
+    "A000096",
+    "A001006",
+    "A284230",
+    "A284231",
+    "A284415",
+    "A284416",
+    "A284418",
+    "A284428",
+    "A284461",
+    "A284652",
+    "A284778"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

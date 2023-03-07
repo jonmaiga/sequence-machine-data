@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f.: Sum_{n>=0} (1 + W(x)^n)^n * x^n / n!, where W(x) = exp(x*W(x)) = LambertW(-x)/(-x).",
+  "id": "A326268",
+  "mentions": [
+    "A326266",
+    "A326267"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

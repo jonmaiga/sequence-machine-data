@@ -1,0 +1,30 @@
+{
+  "description": "Smallest prime either of the form prime(n)*2^k - 1 or prime(n)*2^k + 1, k >= 0, or 0 if no such prime exists, where prime(n) denotes the n-th prime number.",
+  "id": "A194608",
+  "mentions": [
+    "A038699",
+    "A050921",
+    "A076335",
+    "A180247",
+    "A194591",
+    "A194600",
+    "A194603",
+    "A194606",
+    "A194607",
+    "A194635",
+    "A194636",
+    "A194637",
+    "A194638",
+    "A194639"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

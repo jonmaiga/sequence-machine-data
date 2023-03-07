@@ -1,0 +1,23 @@
+{
+  "description": "Primes with digital sum 70.",
+  "id": "A181321",
+  "mentions": [
+    "A073867",
+    "A107579",
+    "A111380",
+    "A181178",
+    "A181182",
+    "A244918"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:04",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

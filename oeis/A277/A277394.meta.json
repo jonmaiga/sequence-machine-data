@@ -1,0 +1,24 @@
+{
+  "description": "Lagrange inversion, or reversion, for divided power series with odd powers only",
+  "id": "A277394",
+  "mentions": [
+    "A133437",
+    "A133932",
+    "A134264",
+    "A134685",
+    "A145271",
+    "A176740"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

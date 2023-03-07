@@ -1,0 +1,18 @@
+{
+  "description": "Number of 2-element subsets of [n] whose sum is a triangular number.",
+  "id": "A320848",
+  "mentions": [
+    "A000217",
+    "A284249"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 2,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

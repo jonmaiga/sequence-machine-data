@@ -1,0 +1,30 @@
+{
+  "description": "Partial sums of triangle A206437.",
+  "id": "A220487",
+  "mentions": [
+    "A000041",
+    "A006128",
+    "A066186",
+    "A135010",
+    "A138137",
+    "A138879",
+    "A141285",
+    "A182181",
+    "A182244",
+    "A186412",
+    "A194446",
+    "A206437"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

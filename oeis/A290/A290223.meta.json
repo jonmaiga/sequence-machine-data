@@ -1,0 +1,19 @@
+{
+  "description": "Algorithm: s(k) = n. s(k+1) = s(k) - digitsum(s(k))^2 if s(k) >= 0 and s(k+1) = s(k)+digitsum(abs(s(k)))^2 if s(k) < 0. Below gives the end behavior for each number n.",
+  "id": "A290223",
+  "mentions": [
+    "A003132",
+    "A007953"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 109,
+    "source": "oeis-entry"
+  }
+}

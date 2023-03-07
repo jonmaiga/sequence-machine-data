@@ -1,0 +1,17 @@
+{
+  "description": "Number of Hamiltonian cycles on 2n X 2n grid with at least the symmetry of reflection in an axis.",
+  "id": "A238816",
+  "mentions": [
+    "A003763"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

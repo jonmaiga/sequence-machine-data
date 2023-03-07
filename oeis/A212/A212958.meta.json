@@ -1,0 +1,22 @@
+{
+  "description": "Array with a variable number of columns, where terms in the n-th row are the differences (computed in decimal base and divided by 9) between equal ratio permutations, found in the base n>=2, and the first (in ascending order of digits) minimal value permutation of {0,1,...,n}.",
+  "id": "A212958",
+  "mentions": [
+    "A039649",
+    "A215940",
+    "A221740",
+    "A221741"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

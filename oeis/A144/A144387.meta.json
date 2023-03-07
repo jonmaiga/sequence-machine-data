@@ -1,0 +1,30 @@
+{
+  "description": "Triangle read by rows: row n gives the coefficients in the expansion of Sum_{j=0..n} A000040(j+1)*x^j*(1 - x)^(n - j).",
+  "id": "A144387",
+  "mentions": [
+    "A000040",
+    "A122753",
+    "A123018",
+    "A123019",
+    "A123021",
+    "A123027",
+    "A123199",
+    "A123202",
+    "A123217",
+    "A123221",
+    "A141720",
+    "A144400",
+    "A174128"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

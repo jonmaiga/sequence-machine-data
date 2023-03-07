@@ -1,0 +1,25 @@
+{
+  "description": "The numbers A associated with the search for records in the ABC conjecture constrained as described in A147639.",
+  "id": "A147640",
+  "mentions": [
+    "A000027",
+    "A085152",
+    "A085153",
+    "A147298",
+    "A147307",
+    "A147638",
+    "A147639",
+    "A147643"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

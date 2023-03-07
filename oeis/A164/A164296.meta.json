@@ -1,0 +1,19 @@
+{
+  "description": "Let S(n) be the set of all positive integers that are <= n and are coprime to n. a(n) = the number of members of S(n) that are each coprime to every other member of S(n).",
+  "id": "A164296",
+  "mentions": [
+    "A000010",
+    "A038566",
+    "A164297"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:46",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

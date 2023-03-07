@@ -1,0 +1,17 @@
+{
+  "description": "Number of nX7 0..3 arrays with exactly floor(nX7/2) elements equal to at least one horizontal or antidiagonal neighbor, with new values introduced in row major 0..3 order",
+  "id": "A222746",
+  "mentions": [
+    "A222747"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

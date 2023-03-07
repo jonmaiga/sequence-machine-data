@@ -1,0 +1,29 @@
+{
+  "description": "Restricted growth sequence computed for primorial base related filter-sequence A278226.",
+  "id": "A286626",
+  "mentions": [
+    "A046523",
+    "A101296",
+    "A276086",
+    "A276150",
+    "A278226",
+    "A286378",
+    "A286603",
+    "A286605",
+    "A286610",
+    "A286619",
+    "A286621",
+    "A286622"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Number of numbers m <= n such that 5 equals the second digit after decimal point of square root of n in decimal representation.",
+  "id": "A111895",
+  "mentions": [
+    "A111855",
+    "A111862",
+    "A111890",
+    "A111891",
+    "A111892",
+    "A111893",
+    "A111894",
+    "A111896",
+    "A111897",
+    "A111898",
+    "A111899"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

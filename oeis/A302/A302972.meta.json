@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest integer r such that A002828(r*n) = 4.",
+  "id": "A302972",
+  "mentions": [
+    "A002828",
+    "A005117",
+    "A007913",
+    "A302690",
+    "A302694"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

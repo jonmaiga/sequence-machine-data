@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows. For row n, start with 1 but from the second term onwards always choose the largest positive integer between 1 and n inclusive that i) has not already appeared in the row ii) gives a prime when added to the previous term. Stop if no such integer can be found.",
+  "id": "A132163",
+  "mentions": [
+    "A051252",
+    "A088643",
+    "A132075"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Coefficient triangle for the square of the monic integer Chebyshev T-polynomials A127672.",
+  "id": "A217476",
+  "mentions": [
+    "A002415",
+    "A040977",
+    "A053347",
+    "A054334",
+    "A127672",
+    "A128495",
+    "A158454",
+    "A162395"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

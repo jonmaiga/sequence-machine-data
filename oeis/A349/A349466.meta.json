@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of 1/((1-12*x)*(1-16*x)*(1-18*x)*(1-24*x)).",
+  "id": "A349466",
+  "mentions": [
+    "A000079",
+    "A000225",
+    "A016765",
+    "A028212"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:45",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

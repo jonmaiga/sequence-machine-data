@@ -1,0 +1,21 @@
+{
+  "description": "Number of positive numbers that can be built with n ones using +, -, and *, and require at least n ones.",
+  "id": "A348083",
+  "mentions": [
+    "A005245",
+    "A005421",
+    "A091333",
+    "A348069"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:22",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

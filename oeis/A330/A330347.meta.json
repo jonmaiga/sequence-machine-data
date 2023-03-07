@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=1, a(2)=2; for n > 2, a(n) = (sum0 * sum1) mod n, where sum0 is the sum of all previous even terms, sum1 is the sum of all previous odd terms.",
+  "id": "A330347",
+  "mentions": [
+    "A329681",
+    "A332581"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

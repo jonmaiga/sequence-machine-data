@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the denominator of the median abundancy index of the first 2^n + 1 positive integers.",
+  "id": "A353616",
+  "mentions": [
+    "A000203",
+    "A017665",
+    "A017666",
+    "A353615",
+    "A353617"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "frac",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of eta(q) * eta(q^47) in powers of q.",
+  "id": "A256538",
+  "mentions": [
+    "A030199"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 2,
+    "size": 82,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Column 4 of triangle in A144633.",
+  "id": "A144639",
+  "mentions": [
+    "A144633",
+    "A144636"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

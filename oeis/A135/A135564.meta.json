@@ -1,0 +1,23 @@
+{
+  "description": "a(n) defined by a(2*n) = a(2*n-2) - (a(n) - 2*a(n-1) + a(n-2)) for n > 2, a(2*n+1) = a(2*n) - (a(n-2) - 2*a(n-3) + a(n-4)), for n > 3, with a(0)=0, a(1)=1, a(2)=3, a(3)=-1, a(4)=-2, a(5)=-3, a(6)=4, a(7)=2.",
+  "id": "A135564",
+  "mentions": [
+    "A122581",
+    "A135689",
+    "A135690",
+    "A135692"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 0,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

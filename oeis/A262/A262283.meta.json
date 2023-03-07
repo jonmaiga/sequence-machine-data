@@ -1,0 +1,21 @@
+{
+  "description": "a(1)=2. For n>1, let s denote the digit-string of a(n-1) with the first digit omitted. Then a(n) is the smallest prime not yet present which starts with s.",
+  "id": "A262283",
+  "mentions": [
+    "A080165",
+    "A089755",
+    "A262282",
+    "A262350"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

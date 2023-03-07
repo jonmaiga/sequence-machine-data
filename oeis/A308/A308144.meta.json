@@ -1,0 +1,21 @@
+{
+  "description": "Number of (undirected) Hamiltonian paths on the triangular grid with n vertices on each side.",
+  "id": "A308144",
+  "mentions": [
+    "A112675",
+    "A112676",
+    "A266513",
+    "A288148"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

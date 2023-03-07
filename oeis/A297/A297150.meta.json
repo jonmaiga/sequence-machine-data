@@ -1,0 +1,22 @@
+{
+  "description": "Let b(k) denote A292081(k); the sequence lists numbers b(2n) where for all m > n, b(2m) > b(2n).",
+  "id": "A297150",
+  "mentions": [
+    "A049591",
+    "A056240",
+    "A288313",
+    "A292081",
+    "A297925"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:33:35",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

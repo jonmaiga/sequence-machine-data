@@ -1,0 +1,18 @@
+{
+  "description": "Number of nonnegative integer arrays of length n+6 with new values 0 upwards introduced in order, no three adjacent elements equal, and containing the value n+1.",
+  "id": "A211839",
+  "mentions": [
+    "A211836"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:04:45",
+    "offset": 1,
+    "size": 25,
+    "source": "joeis"
+  }
+}

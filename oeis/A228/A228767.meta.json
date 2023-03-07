@@ -1,0 +1,21 @@
+{
+  "description": "Second bisection of the inverse binomial transform of the rational sequence with e.g.f. (x/2)*(exp(-x)+1)/(exp(x)-1).",
+  "id": "A228767",
+  "mentions": [
+    "A005408",
+    "A087289",
+    "A176328",
+    "A176591"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

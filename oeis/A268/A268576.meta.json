@@ -1,0 +1,19 @@
+{
+  "description": "Composite numbers c such that binomial(2*c-1, c-1)-1 is not squarefree.",
+  "id": "A268576",
+  "mentions": [
+    "A228562",
+    "A267824"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers for which A000695(p_n) are primes, where p_n is the n-th prime",
+  "id": "A152863",
+  "mentions": [
+    "A000695",
+    "A077718",
+    "A152078"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

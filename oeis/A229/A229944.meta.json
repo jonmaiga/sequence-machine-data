@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows in which T(2n-2,k) = n/k if k divides n and n/k > sqrt(n), otherwise 0, for n >= 2. Also T(2n-1,k) = k if k divides n, otherwise 0, for n >= 1. Row lengths are the same row lengths of A229940.",
+  "id": "A229944",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A229940",
+    "A229942",
+    "A229950",
+    "A229951"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n,k) is the number of partitions of an n-set into lists (cf. A000262) with k lists of size 1.",
+  "id": "A114329",
+  "mentions": [
+    "A000262",
+    "A006152",
+    "A052845",
+    "A052852"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

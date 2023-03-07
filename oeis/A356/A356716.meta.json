@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the integer w such that (c(n)^2, -d(n)^2, -w) is a primitive solution to the Diophantine equation 2*x^3 + 2*y^3 + z^3 = 11^3, where c(n) = F(n+2) + (-1)^n * F(n-3), d(n) = F(n+1) + (-1)^n * F(n-4) and F(n) is the n-th Fibonacci number (A000045).",
+  "id": "A356716",
+  "mentions": [
+    "A000045",
+    "A081016",
+    "A089270",
+    "A206351",
+    "A228208",
+    "A237132",
+    "A337928",
+    "A354336",
+    "A356717"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:56",
+    "offset": 1,
+    "size": 29,
+    "source": "joeis"
+  }
+}

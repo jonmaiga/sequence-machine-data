@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f.: S(x) satisfies: S(x) = Integral sqrt( (1 + S(x)^2)*(1 + 2*S(x)^2) ) dx.",
+  "id": "A289695",
+  "mentions": [
+    "A193543"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:04",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Where powers of 2 occur in A229037.",
+  "id": "A241673",
+  "mentions": [
+    "A209229",
+    "A229037",
+    "A236246"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

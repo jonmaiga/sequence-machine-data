@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 1 if n is a semiprime of the form p * q, where p and q are (not necessarily distinct) primes with p <= q < p^2, otherwise 0.",
+  "id": "A353476",
+  "mentions": [
+    "A064911",
+    "A251728",
+    "A353475"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

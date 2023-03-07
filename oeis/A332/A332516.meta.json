@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that phi(k) == 10 (mod 12), where phi is the Euler totient function (A000010).",
+  "id": "A332516",
+  "mentions": [
+    "A000010",
+    "A017641",
+    "A332511",
+    "A332512",
+    "A332513",
+    "A332514",
+    "A332515"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

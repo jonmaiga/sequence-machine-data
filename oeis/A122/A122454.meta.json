@@ -1,0 +1,23 @@
+{
+  "description": "A triangle with shape A000041 defined by sequence A098546 times sequence A036040.",
+  "id": "A122454",
+  "mentions": [
+    "A000041",
+    "A036040",
+    "A098546",
+    "A122455"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

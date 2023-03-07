@@ -1,0 +1,25 @@
+{
+  "description": "Number of permutations p of [n] such that min_{j=1..n} |p(j)-j| = 1.",
+  "id": "A296050",
+  "mentions": [
+    "A000142",
+    "A000166",
+    "A001883",
+    "A002467",
+    "A016933",
+    "A047252",
+    "A299789",
+    "A323671"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:14",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

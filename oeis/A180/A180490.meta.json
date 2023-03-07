@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that (A000120(n))^2 divides n.",
+  "id": "A180490",
+  "mentions": [
+    "A000120",
+    "A049445"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

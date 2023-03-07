@@ -1,0 +1,22 @@
+{
+  "description": "First differences of A115855.",
+  "id": "A115856",
+  "mentions": [
+    "A000040",
+    "A000041",
+    "A115855",
+    "A116085"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

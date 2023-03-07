@@ -1,0 +1,22 @@
+{
+  "description": "a(1) = 1, a(2) = 2, a(3) = 0, a(4) = 4, and for n > 4, if n is an even number, a(n) = a(n/2) - (1 if a(n/2) is not zero), otherwise if n is an odd semiprime p*q (with q >= p), then a(n) = p+q, otherwise 0.",
+  "id": "A104774",
+  "mentions": [
+    "A001358",
+    "A046315",
+    "A090967",
+    "A104772",
+    "A104773"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

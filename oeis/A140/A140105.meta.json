@@ -1,0 +1,19 @@
+{
+  "description": "Trailing zeros removed from n! in binary.",
+  "id": "A140105",
+  "mentions": [
+    "A007088",
+    "A049606"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:28",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

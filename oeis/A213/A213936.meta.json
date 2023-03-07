@@ -1,0 +1,22 @@
+{
+  "description": "Number triangle with entry a(n,k), n>=1, m=1, 2, ..., n, giving the number of representative necklaces with n beads (C_n symmetry) corresponding to the color multinomial c[1]^k*c[2]*...*c[n+1-k].",
+  "id": "A213936",
+  "mentions": [
+    "A173333",
+    "A212359",
+    "A213937"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

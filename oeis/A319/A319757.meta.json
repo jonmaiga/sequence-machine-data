@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of Product_{k>=1} (1 - x^k)^(k*(k+1)*(2*k+1)/6).",
+  "id": "A319757",
+  "mentions": [
+    "A000330",
+    "A001157",
+    "A001158",
+    "A001159",
+    "A279215",
+    "A281156",
+    "A283263",
+    "A292386",
+    "A292387"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:57:57",
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

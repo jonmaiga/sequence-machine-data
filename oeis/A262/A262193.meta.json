@@ -1,0 +1,19 @@
+{
+  "description": "Primes that are a concatenation of ten consecutive numbers.",
+  "id": "A262193",
+  "mentions": [
+    "A052077",
+    "A084551"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

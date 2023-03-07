@@ -1,0 +1,18 @@
+{
+  "description": "Integers that do not appear in the sequence (A102722) given by the floor of the sum of {n/k} while k=1,...,n. Here {x}:=x-[x].",
+  "id": "A102744",
+  "mentions": [
+    "A102722",
+    "A103504"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

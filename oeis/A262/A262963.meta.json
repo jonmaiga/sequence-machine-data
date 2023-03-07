@@ -1,0 +1,20 @@
+{
+  "description": "List of numbers n whose base-3 expansion contains only the digits 1 and 2 and whose base-4 expansion contains only the digits 2 and 3.",
+  "id": "A262963",
+  "mentions": [
+    "A258981",
+    "A261970",
+    "A262958"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

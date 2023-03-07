@@ -1,0 +1,22 @@
+{
+  "description": "Number of iterations of A268395 needed to reach zero from 2^n: a(n) = A268708(2^n).",
+  "id": "A268709",
+  "mentions": [
+    "A000079",
+    "A268395",
+    "A268708",
+    "A268710"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

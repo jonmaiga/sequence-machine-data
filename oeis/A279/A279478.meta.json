@@ -1,0 +1,21 @@
+{
+  "description": "A 3-dimensional variant of A269526 \"Infinite Sudoku\": expansion (read first by layer, then by row) of \"Type 2\" tetrahedron P(n,j,k). (See A269526 and Comments section below for definition.)",
+  "id": "A279478",
+  "mentions": [
+    "A000217",
+    "A269526",
+    "A279049",
+    "A279477"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

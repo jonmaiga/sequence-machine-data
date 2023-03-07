@@ -1,0 +1,22 @@
+{
+  "description": "Structured disdyakis dodecahedral numbers (vertex structure 7).",
+  "id": "A100162",
+  "mentions": [
+    "A100145",
+    "A100161",
+    "A100163",
+    "A260260"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:31:05",
+    "offset": 1,
+    "size": 32,
+    "source": "joeis"
+  }
+}

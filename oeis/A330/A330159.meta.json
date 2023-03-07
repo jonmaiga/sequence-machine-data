@@ -1,0 +1,25 @@
+{
+  "description": "The self-repeating start values of the iterative sequence A328680.",
+  "id": "A330159",
+  "mentions": [
+    "A040115",
+    "A053392",
+    "A328680",
+    "A328975",
+    "A329197",
+    "A329200",
+    "A329623",
+    "A329624"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

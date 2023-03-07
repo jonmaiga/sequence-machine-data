@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that p = 2kq + 1 for k a positive integer, q an odd prime and 2k <= q - 3.",
+  "id": "A259560",
+  "mentions": [
+    "A059756",
+    "A245664"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

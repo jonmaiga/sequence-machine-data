@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of ratio-sum for A296292; see Comments.",
+  "id": "A296434",
+  "mentions": [
+    "A001622",
+    "A296292",
+    "A296425",
+    "A296452",
+    "A296461"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

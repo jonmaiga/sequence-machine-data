@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of 2-regular 3-hypergraphs on 3n labeled vertices. (In a 3-hypergraph, each hyper-edge is a proper 3-set; 2-regular implies that each vertex is in exactly 2 hyperedges.)",
+  "id": "A110100",
+  "mentions": [
+    "A001205",
+    "A025035",
+    "A110101",
+    "A110103"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

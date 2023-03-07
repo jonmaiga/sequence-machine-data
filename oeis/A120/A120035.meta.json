@@ -1,0 +1,23 @@
+{
+  "description": "Number of 4-almost primes f such that 2^n < f <= 2^(n+1).",
+  "id": "A120035",
+  "mentions": [
+    "A014613",
+    "A036378",
+    "A082996",
+    "A114106",
+    "A120033",
+    "A120043",
+    "A334069"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

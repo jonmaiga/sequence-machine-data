@@ -1,0 +1,19 @@
+{
+  "description": "Primes of the form 3^m-2 where m are the terms of A123239.",
+  "id": "A180225",
+  "mentions": [
+    "A086214",
+    "A123239"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "bref",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

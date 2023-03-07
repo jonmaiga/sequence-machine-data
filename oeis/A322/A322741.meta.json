@@ -1,0 +1,21 @@
+{
+  "description": "Sorted list of 84 distinct triangle areas corresponding to the unique solution to the problem of placing 9 points on a grid rectangle of minimal area, such that all triangles formed by any 3 of the points have distinct areas > 0.",
+  "id": "A322741",
+  "mentions": [
+    "A303331",
+    "A322740",
+    "A322742"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

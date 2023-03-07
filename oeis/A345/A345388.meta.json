@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 0, 1, or 2 according to whether A065091(n), the n-th odd prime, is in A001122, A139035, or A268923, respectively.",
+  "id": "A345388",
+  "mentions": [
+    "A001122",
+    "A065091",
+    "A139035",
+    "A268923"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

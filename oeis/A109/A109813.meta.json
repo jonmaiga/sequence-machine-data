@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations of (the positive integers <= n and coprime to n), where each element of the permutations is coprime to its adjacent elements.",
+  "id": "A109813",
+  "mentions": [
+    "A076220"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

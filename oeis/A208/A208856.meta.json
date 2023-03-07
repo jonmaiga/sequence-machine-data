@@ -1,0 +1,26 @@
+{
+  "description": "Partitions of n into parts not congruent to 0, +-4, +-6, +-10, 16 (mod 32).",
+  "id": "A208856",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A080054",
+    "A115671",
+    "A121373",
+    "A187154",
+    "A208851"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:07:03",
+    "offset": 0,
+    "size": 50,
+    "source": "joeis"
+  }
+}

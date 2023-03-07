@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways to write n as the sum of two positive integers, s,t such that phi(s) is not equal to phi(t), where phi is the Euler totient function (A000010).",
+  "id": "A337931",
+  "mentions": [
+    "A000010",
+    "A337930"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

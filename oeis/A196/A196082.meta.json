@@ -1,0 +1,18 @@
+{
+  "description": "Greatest residue of x^n (mod n), x=0..n-1.",
+  "id": "A196082",
+  "mentions": [
+    "A072994",
+    "A195637"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

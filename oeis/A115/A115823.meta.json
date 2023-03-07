@@ -1,0 +1,20 @@
+{
+  "description": "Integers i such that 8*i XOR 13*i = 21*i.",
+  "id": "A115823",
+  "mentions": [
+    "A003987",
+    "A115805",
+    "A115824",
+    "A115825"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:52:33",
+    "offset": 0,
+    "size": 57,
+    "source": "joeis"
+  }
+}

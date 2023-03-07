@@ -1,0 +1,30 @@
+{
+  "description": "Smallest k such that the minimal factor in factorization of k! over distinct terms of A050376 is A050376(n), or a(n)=0 if there is no such k.",
+  "id": "A240905",
+  "mentions": [
+    "A050376",
+    "A240537",
+    "A240606",
+    "A240619",
+    "A240620",
+    "A240668",
+    "A240669",
+    "A240670",
+    "A240672",
+    "A240695",
+    "A240751",
+    "A240755",
+    "A240764"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

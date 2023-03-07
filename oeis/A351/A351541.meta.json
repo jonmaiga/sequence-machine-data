@@ -1,0 +1,22 @@
+{
+  "description": "Even numbers k that have an odd prime factor p such that p^(1+valuation(k,p)) divides sigma(k), but p does not divide A003961(k), where A003961 is fully multiplicative with a(p) = nextprime(p), and sigma is the sum of divisors function.",
+  "id": "A351541",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A286561",
+    "A351540",
+    "A351542",
+    "A351543"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Irregular triangle T(n,k), n >= 0, k = 1 .. A262507(n), read by rows, where each row n lists in ascending order all integers x for which A155043(x) = n.",
+  "id": "A263265",
+  "mentions": [
+    "A155043",
+    "A259934",
+    "A261089",
+    "A262503",
+    "A262507",
+    "A263255",
+    "A263256",
+    "A263259",
+    "A263266",
+    "A263267",
+    "A263268",
+    "A263270",
+    "A263279",
+    "A263280"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

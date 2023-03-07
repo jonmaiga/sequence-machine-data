@@ -1,0 +1,18 @@
+{
+  "description": "a(n) gives the length of A306211 after n generations.",
+  "id": "A306215",
+  "mentions": [
+    "A306211",
+    "A323475"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

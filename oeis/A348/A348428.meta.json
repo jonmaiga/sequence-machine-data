@@ -1,0 +1,22 @@
+{
+  "description": "Positive integers m that are equal to the determinant of the left circulant matrix formed by the decimal digits of m.",
+  "id": "A348428",
+  "mentions": [
+    "A177894",
+    "A219324",
+    "A219326",
+    "A219327"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triangular numbers composed of digits {3,4,5}.",
+  "id": "A119182",
+  "mentions": [
+    "A000217",
+    "A053937",
+    "A119033",
+    "A119183"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:04:01",
+    "offset": 1,
+    "size": 20,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows (n >= 0, 0 <= k <= n): T(n,k) = number of k-dimensional subperiodic groups in n-dimensional space, not counting enantiomorphs.",
+  "id": "A293060",
+  "mentions": [
+    "A004028",
+    "A004029",
+    "A006226",
+    "A293061",
+    "A293062",
+    "A293063"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

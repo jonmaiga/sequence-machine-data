@@ -1,0 +1,19 @@
+{
+  "description": "Triangle T(n,m) read by rows: T(n,m) = phi(n - m + 1) * phi(m + 1).",
+  "id": "A113793",
+  "mentions": [
+    "A000010"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

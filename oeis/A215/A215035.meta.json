@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that A215029(n) = 2.",
+  "id": "A215035",
+  "mentions": [
+    "A215029",
+    "A215031"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

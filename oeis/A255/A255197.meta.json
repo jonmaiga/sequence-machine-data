@@ -1,0 +1,19 @@
+{
+  "description": "Number of dissections of a convex polygon with n+3 sides that have exactly one triangle, and that triangle shares at least one side with the exterior polygon.",
+  "id": "A255197",
+  "mentions": [
+    "A253192"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

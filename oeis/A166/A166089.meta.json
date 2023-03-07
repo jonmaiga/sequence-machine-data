@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = First odd number 2k+1, for which Sum_{i=1..u} J(i,2k+1) obtains value zero exactly n times when u ranges from 1 to (2k+1). Here J(i,k) is the Jacobi symbol.",
+  "id": "A166089",
+  "mentions": [
+    "A005408",
+    "A166087",
+    "A166095",
+    "A166096",
+    "A166097",
+    "A166098"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

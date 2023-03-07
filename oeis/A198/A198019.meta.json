@@ -1,0 +1,23 @@
+{
+  "description": "Primes occurring in the decimal expansion of Pi (A000796), ordered by position of last digit, then by size.",
+  "id": "A198019",
+  "mentions": [
+    "A000796",
+    "A047777",
+    "A053013",
+    "A064467",
+    "A198018",
+    "A198187"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

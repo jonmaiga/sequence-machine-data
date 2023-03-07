@@ -1,0 +1,18 @@
+{
+  "description": "For any k, the cumulative sum of the terms a(1) + a(2) + a(3) + ... + a(k) and the cumulative sum of their digits so far are odd. This is the lexicographically earliest sequence of distinct terms > 0 with this property.",
+  "id": "A341869",
+  "mentions": [
+    "A179082"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Length of the largest left-truncatable prime (in base n).",
+  "id": "A103463",
+  "mentions": [
+    "A076623",
+    "A103443"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 2,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

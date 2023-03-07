@@ -1,0 +1,22 @@
+{
+  "description": "Array of indices N for which the minimal polynomial C(N,x) of 2*cos(Pi/N) has allowed degree A207335(n).",
+  "id": "A207334",
+  "mentions": [
+    "A032447",
+    "A207333",
+    "A207335"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

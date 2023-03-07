@@ -1,0 +1,25 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) = Porta-Stolarsky star product T(n,k) = n * k = nk + floor(phi n) floor(phi k) where phi = (1 + sqrt(5))/2.",
+  "id": "A101858",
+  "mentions": [
+    "A001950",
+    "A101330",
+    "A101385",
+    "A101633",
+    "A101863",
+    "A101864",
+    "A101865",
+    "A101866"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

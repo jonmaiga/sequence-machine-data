@@ -1,0 +1,19 @@
+{
+  "description": "Cogrowth sequence of the group Z ≀ Z where ≀ denotes the wreath product.",
+  "id": "A359798",
+  "mentions": [
+    "A294782",
+    "A359705",
+    "A359797"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

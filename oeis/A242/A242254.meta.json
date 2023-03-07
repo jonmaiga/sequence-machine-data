@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that the k-th prime is primes-greedy summable, as defined at A242252.",
+  "id": "A242254",
+  "mentions": [
+    "A000040",
+    "A241833",
+    "A242252",
+    "A242253",
+    "A242255",
+    "A242256"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

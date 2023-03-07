@@ -1,0 +1,19 @@
+{
+  "description": "Number of unordered partitions {k1, k2} of n such that k1 and k2 are nonnegative nonprimes A141468.",
+  "id": "A171691",
+  "mentions": [
+    "A062610",
+    "A141468",
+    "A224708"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:55",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

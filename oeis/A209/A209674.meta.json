@@ -1,0 +1,20 @@
+{
+  "description": "For each n, define a sequence of numbers by S(0)=n, S(i) = sum of last two digits of the concatenation S(0)S(1)S(2)...S(i-1); a(n) = smallest m such that S(m) = 5, or -1 if 5 is never reached.",
+  "id": "A209674",
+  "mentions": [
+    "A209685",
+    "A209686"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

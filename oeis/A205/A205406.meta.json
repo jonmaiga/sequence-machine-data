@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = s(k)-s(j), where (k,j) is the least pair for which n divides s(k)-s(j), and s(j) = floor((j+1)^2/2)/2.",
+  "id": "A205406",
+  "mentions": [
+    "A002620",
+    "A198293",
+    "A204892",
+    "A205402"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:25",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

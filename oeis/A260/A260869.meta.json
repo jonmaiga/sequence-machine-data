@@ -1,0 +1,17 @@
+{
+  "description": "Least k > 0 such that k^2 + (prime(n)-k)^2 is a prime, or 0 if no such k exists.",
+  "id": "A260869",
+  "mentions": [
+    "A260870"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

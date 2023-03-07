@@ -1,0 +1,22 @@
+{
+  "description": "Interspersion of the signature sequence of Pi (rectangular array by antidiagonals).",
+  "id": "A283944",
+  "mentions": [
+    "A000796",
+    "A022795",
+    "A022796",
+    "A023133"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

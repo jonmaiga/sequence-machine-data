@@ -1,0 +1,23 @@
+{
+  "description": "Array read by rows: row n lists n-th even superperfect number A061652(n), n-th Mersenne prime A000668(n) and n-th perfect number A000396(n).",
+  "id": "A138728",
+  "mentions": [
+    "A000396",
+    "A000668",
+    "A019279",
+    "A061652",
+    "A138818",
+    "A138819"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

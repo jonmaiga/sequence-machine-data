@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of limit of a power tower: t(2)^(t(3)^(t(4)^(t(5)^(...)))) where t(n)=n!^(1/n!) and n takes on consecutive integer values >=2.",
+  "id": "A100123",
+  "mentions": [
+    "A098454",
+    "A098584",
+    "A100120",
+    "A100121",
+    "A100122"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

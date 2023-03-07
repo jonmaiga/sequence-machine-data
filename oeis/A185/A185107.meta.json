@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the first digit of prime(n) minus the sum of the other digits.",
+  "id": "A185107",
+  "mentions": [
+    "A000040",
+    "A007605",
+    "A042939"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "less",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

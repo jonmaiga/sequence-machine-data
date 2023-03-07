@@ -1,0 +1,21 @@
+{
+  "description": "G.f.: K(4*sqrt(x)) / E(4*sqrt(x)), where E(), K() are complete elliptic integrals.",
+  "id": "A328128",
+  "mentions": [
+    "A002894",
+    "A188266",
+    "A261976",
+    "A328127"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

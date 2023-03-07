@@ -1,0 +1,32 @@
+{
+  "description": "Expansion of f(-x^2)^2 * f(x, x^2) / f(-x^3)^3 in powers of x where f(,) is a Ramanujan theta function.",
+  "id": "A132179",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A058487",
+    "A062242",
+    "A062244",
+    "A092848",
+    "A121373",
+    "A132180",
+    "A132301",
+    "A182036",
+    "A230256",
+    "A233037",
+    "A254525"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:47:45",
+    "offset": 0,
+    "size": 60,
+    "source": "joeis"
+  }
+}

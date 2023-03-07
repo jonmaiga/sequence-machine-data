@@ -1,0 +1,26 @@
+{
+  "description": "Leading digit of n in base 5.",
+  "id": "A339255",
+  "mentions": [
+    "A000030",
+    "A007091",
+    "A073851",
+    "A099563",
+    "A122586",
+    "A122587",
+    "A276153",
+    "A339256"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Bisection of Kolakoski sequence A000002.",
+  "id": "A100429",
+  "mentions": [
+    "A000002",
+    "A100428",
+    "A216345"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

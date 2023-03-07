@@ -1,0 +1,19 @@
+{
+  "description": "The length of the longest initial sequence of the form UHUH..., summed over all bargraphs having semiperimeter n (n>=2).",
+  "id": "A274495",
+  "mentions": [
+    "A082582",
+    "A274494"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:24",
+    "offset": 2,
+    "size": 28,
+    "source": "joeis"
+  }
+}

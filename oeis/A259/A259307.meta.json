@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that belong to at least one amicable multiset.",
+  "id": "A259307",
+  "mentions": [
+    "A007691",
+    "A255215",
+    "A259302",
+    "A259303",
+    "A259304",
+    "A259305",
+    "A259306"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

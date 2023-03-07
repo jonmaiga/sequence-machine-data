@@ -1,0 +1,18 @@
+{
+  "description": "Consecutive Pythagorean primes p = A002144(r) and q = A002144(r+1) such that q - p > log(p)^2. The number a(n) is the n-th value of p.",
+  "id": "A216924",
+  "mentions": [
+    "A002144",
+    "A182315"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

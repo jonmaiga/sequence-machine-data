@@ -1,0 +1,20 @@
+{
+  "description": "Binary representation of the x-axis, from the left edge to the origin, of the n-th stage of growth of the two-dimensional cellular automaton defined by \"Rule 873\", based on the 5-celled von Neumann neighborhood.",
+  "id": "A284347",
+  "mentions": [
+    "A284348",
+    "A284349",
+    "A284350"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

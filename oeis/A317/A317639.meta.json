@@ -1,0 +1,24 @@
+{
+  "description": "Number of equivalence classes of Dyck paths of semilength n for the consecutive pattern UDUDD, where U=(1,1) and D=(1,-1).",
+  "id": "A317639",
+  "mentions": [
+    "A000108",
+    "A001519",
+    "A177528",
+    "A244885",
+    "A244886",
+    "A274114",
+    "A274115",
+    "A274289"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:37",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

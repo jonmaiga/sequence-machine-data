@@ -1,0 +1,20 @@
+{
+  "description": "Sum_{k = 1..n-1 such that n == k (mod 2^k)} 2^(k-1).",
+  "id": "A103528",
+  "mentions": [
+    "A000523",
+    "A102371"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

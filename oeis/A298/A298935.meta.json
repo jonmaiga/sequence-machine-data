@@ -1,0 +1,27 @@
+{
+  "description": "Number of partitions of n^3 into distinct squares.",
+  "id": "A298935",
+  "mentions": [
+    "A000290",
+    "A000578",
+    "A030272",
+    "A030273",
+    "A033461",
+    "A037444",
+    "A218494",
+    "A298330",
+    "A298642",
+    "A298934"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:22",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

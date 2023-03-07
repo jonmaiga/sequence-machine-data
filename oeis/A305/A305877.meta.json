@@ -1,0 +1,22 @@
+{
+  "description": "Numbers in base 3 reversed.",
+  "id": "A305877",
+  "mentions": [
+    "A004086",
+    "A007089",
+    "A030102"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

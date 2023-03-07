@@ -1,0 +1,33 @@
+{
+  "description": "Heinz numbers of strict integer partitions with distinct differences (with the last part taken to be 0).",
+  "id": "A325388",
+  "mentions": [
+    "A005117",
+    "A056239",
+    "A112798",
+    "A320348",
+    "A325324",
+    "A325325",
+    "A325327",
+    "A325362",
+    "A325364",
+    "A325366",
+    "A325367",
+    "A325368",
+    "A325390",
+    "A325405",
+    "A325460",
+    "A325461",
+    "A325467"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

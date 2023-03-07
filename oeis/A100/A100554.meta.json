@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the fractional part of Sum_{n>=1} cos((n + 1)*Pi)*zeta(2*n) = zeta(2) - zeta(4) + zeta(6) - zeta(8) + ..., where Zeta is the Riemann zeta function.",
+  "id": "A100554",
+  "mentions": [
+    "A000796"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(1)=1. If a(n) is a novel term, a(n+1) = d(a(n)), where d is the divisor counting function A000005. If a(n) is a repeat term, a(n+1) = a(n)+m, where m is the least prior term (which once used in this way is not used again).",
+  "id": "A345147",
+  "mentions": [
+    "A000005",
+    "A002182",
+    "A002183",
+    "A005179",
+    "A343887"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

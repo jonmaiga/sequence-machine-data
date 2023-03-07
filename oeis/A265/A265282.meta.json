@@ -1,0 +1,30 @@
+{
+  "description": "Number of triangles in a certain geometric structure: see \"Illustration of initial terms\" link for precise definition.",
+  "id": "A265282",
+  "mentions": [
+    "A000217",
+    "A000292",
+    "A001477",
+    "A001859",
+    "A002620",
+    "A002717",
+    "A004006",
+    "A004526",
+    "A024206",
+    "A045947",
+    "A132337",
+    "A248851"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

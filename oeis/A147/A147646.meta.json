@@ -1,0 +1,25 @@
+{
+  "description": "If A139251 is written as a triangle with rows of lengths 1, 2, 4, 8, 16, ..., the n-th row begins with 2^n followed by the first 2^n-1 terms of the present sequence.",
+  "id": "A147646",
+  "mentions": [
+    "A000695",
+    "A139250",
+    "A139251",
+    "A151548",
+    "A151688",
+    "A152980",
+    "A153006",
+    "A159795"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:33:15",
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

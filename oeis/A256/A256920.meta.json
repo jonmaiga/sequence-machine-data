@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} (-1)^k*(zeta(4k)-1) (negated).",
+  "id": "A256920",
+  "mentions": [
+    "A013662",
+    "A013666",
+    "A013670",
+    "A256919"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

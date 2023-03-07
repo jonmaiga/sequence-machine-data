@@ -1,0 +1,23 @@
+{
+  "description": "Least number m > 1 such that A000203(x)*x = m has exactly n solutions.",
+  "id": "A212490",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A004394",
+    "A212327",
+    "A212373",
+    "A212489"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

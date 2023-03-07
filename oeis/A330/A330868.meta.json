@@ -1,0 +1,22 @@
+{
+  "description": "Number of proper divisors d of n such that n-d is squarefree.",
+  "id": "A330868",
+  "mentions": [
+    "A001222",
+    "A007947",
+    "A008683",
+    "A293227"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

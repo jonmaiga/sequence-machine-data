@@ -1,0 +1,23 @@
+{
+  "description": "Self-convolution 6th power equals A106224, which consists entirely of digits {0,1,2,3,4,5} after the initial terms {1,6}.",
+  "id": "A106225",
+  "mentions": [
+    "A106219",
+    "A106221",
+    "A106223",
+    "A106224",
+    "A106227"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

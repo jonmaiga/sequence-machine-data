@@ -1,0 +1,20 @@
+{
+  "description": "Primes of the form prime(n)^2 + n.",
+  "id": "A212304",
+  "mentions": [
+    "A000040",
+    "A184935",
+    "A188831",
+    "A229203"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

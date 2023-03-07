@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of wavelength of the red line of cadmium in dry air at 15 degrees Celsius and 760 mmHg under a gravity of 9.8067 m/sec^2 in angstrom, which defined the angstrom unit until 1960.",
+  "id": "A321786",
+  "mentions": [
+    "A248922"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "cons",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": -6,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

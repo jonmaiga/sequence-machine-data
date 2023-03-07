@@ -1,0 +1,18 @@
+{
+  "description": "Norm of coefficients in g.f. C(x) that satisfies: C(x) = 1 + x*C(I*x)^2.",
+  "id": "A193379",
+  "mentions": [
+    "A193377",
+    "A193378"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

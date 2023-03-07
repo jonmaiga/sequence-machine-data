@@ -1,0 +1,19 @@
+{
+  "description": "Number of strictly left-sided quantales on n elements, up to isomorphism. Also number of strictly right-sided quantales on n elements, up to isomorphism.",
+  "id": "A354497",
+  "mentions": [
+    "A354493",
+    "A354496"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

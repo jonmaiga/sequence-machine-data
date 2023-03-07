@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that prime(k) * prime(k+1) mod prime(k+2) is odd.",
+  "id": "A288209",
+  "mentions": [
+    "A001223",
+    "A006094",
+    "A031131",
+    "A182126"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

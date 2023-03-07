@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = the number of values of k <= 10^n such that sqrt(k*(k+1)*(k+2)*(k+3)+1)) is prime.",
+  "id": "A115366",
+  "mentions": [
+    "A006880"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

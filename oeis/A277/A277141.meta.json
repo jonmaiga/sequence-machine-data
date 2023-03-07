@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically least sequence of nonnegative integers that avoids a/b-powers for all a/b >= 4/3.",
+  "id": "A277141",
+  "mentions": [
+    "A277142"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 120,
+    "source": "oeis-entry"
+  }
+}

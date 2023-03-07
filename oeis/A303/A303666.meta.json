@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of 1/((1 - x)*(1 - Sum_{k>=0} x^(2^k))).",
+  "id": "A303666",
+  "mentions": [
+    "A000079",
+    "A000123",
+    "A023359",
+    "A209229"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:57:58",
+    "offset": 0,
+    "size": 39,
+    "source": "joeis"
+  }
+}

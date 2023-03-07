@@ -1,0 +1,22 @@
+{
+  "description": "Number of primes p in the range 9 < p <= prime(10^n) that have most significant and least significant decimal digit both equal to 9.",
+  "id": "A145712",
+  "mentions": [
+    "A145709",
+    "A145710",
+    "A145711",
+    "A145713"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

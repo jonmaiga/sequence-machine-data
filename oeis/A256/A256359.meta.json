@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that there is at least one base b in which n is a multiple-digit narcissistic number.",
+  "id": "A256359",
+  "mentions": [
+    "A005188",
+    "A256360",
+    "A256361",
+    "A256362",
+    "A256363",
+    "A256364",
+    "A256365",
+    "A256459"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

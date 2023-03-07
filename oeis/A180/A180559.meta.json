@@ -1,0 +1,23 @@
+{
+  "description": "Primes that become a different prime under the mapping 7 <=> 9.",
+  "id": "A180559",
+  "mentions": [
+    "A171056",
+    "A175789",
+    "A175791",
+    "A180517",
+    "A180560",
+    "A180561"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of H_2, the analog of Madelung's constant for the planar hexagonal lattice.",
+  "id": "A246966",
+  "mentions": [
+    "A085469",
+    "A088537",
+    "A090734",
+    "A247040"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

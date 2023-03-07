@@ -1,0 +1,22 @@
+{
+  "description": "Fourth diagonal of second-order Eulerian triangle A008517. Fourth column (m=3) of triangle A112007.",
+  "id": "A112008",
+  "mentions": [
+    "A002539",
+    "A008517",
+    "A112007",
+    "A163936"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

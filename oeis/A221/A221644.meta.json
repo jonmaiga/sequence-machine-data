@@ -1,0 +1,21 @@
+{
+  "description": "Let abcd... be the decimal expansion of k. Sequence lists numbers k such that 1/a + 2/b + 3/c + 4/d + ... is an integer.",
+  "id": "A221644",
+  "mentions": [
+    "A002275",
+    "A007908",
+    "A198375"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

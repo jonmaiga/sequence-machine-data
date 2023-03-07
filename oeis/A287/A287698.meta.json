@@ -1,0 +1,33 @@
+{
+  "description": "Square array A(n,k) = (n!)^3 [x^n] hypergeom([], [1, 1], z)^k read by antidiagonals.",
+  "id": "A287698",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000172",
+    "A001107",
+    "A001477",
+    "A003992",
+    "A055733",
+    "A141057",
+    "A245397",
+    "A287316",
+    "A287696",
+    "A287697",
+    "A287699",
+    "A287700",
+    "A287701",
+    "A287702"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

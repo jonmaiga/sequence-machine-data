@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n for n < 10, a(10*n) = a(n), and if the terms a(10), a(20), a(30), ... are deleted, one gets back the original sequence.",
+  "id": "A126616",
+  "mentions": [
+    "A117943",
+    "A178931",
+    "A255824",
+    "A255829"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 17:30:25",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

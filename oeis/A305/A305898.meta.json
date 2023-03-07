@@ -1,0 +1,24 @@
+{
+  "description": "Filter sequence combining prime signature of n (A046523) and similar signature (A284011) obtained when Stern polynomial B(n,x) is factored over Z.",
+  "id": "A305898",
+  "mentions": [
+    "A003961",
+    "A046523",
+    "A260443",
+    "A284010",
+    "A284011",
+    "A305790",
+    "A305892",
+    "A305899"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

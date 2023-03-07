@@ -1,0 +1,19 @@
+{
+  "description": "Size of the Hilbert basis of the cone { x in Z+^n : (a,x)=0 } where a=(-1,1,2,...,n-2,-(n-1)).",
+  "id": "A141347",
+  "mentions": [
+    "A141348",
+    "A141349"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 3,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

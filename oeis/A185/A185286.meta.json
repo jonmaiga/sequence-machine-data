@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n,k) is the number of nonnegative walks of n steps with step sizes 1 and 2, starting at 0 and ending at k",
+  "id": "A185286",
+  "mentions": [
+    "A005408",
+    "A047002",
+    "A055113",
+    "A187430",
+    "A296619"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabf",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

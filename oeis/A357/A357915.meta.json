@@ -1,0 +1,23 @@
+{
+  "description": "Concatenation of the decimal digits of {n, 1..n}.",
+  "id": "A357915",
+  "mentions": [
+    "A007908",
+    "A078257",
+    "A172495"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

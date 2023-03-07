@@ -1,0 +1,18 @@
+{
+  "description": "Orientable embedding number gamma_1 for bouquet B_n.",
+  "id": "A123828",
+  "mentions": [
+    "A123850"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 2,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

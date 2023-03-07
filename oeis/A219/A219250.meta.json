@@ -1,0 +1,24 @@
+{
+  "description": "Lexicographically earliest sequence of nonnegative integers such that the absolute difference of any two adjacent digits is prime.",
+  "id": "A219250",
+  "mentions": [
+    "A182175",
+    "A182177",
+    "A182178",
+    "A219110",
+    "A219248",
+    "A219249",
+    "A219251"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

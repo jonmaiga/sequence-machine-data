@@ -1,0 +1,27 @@
+{
+  "description": "Tetrahedron P(n,j,k) = T(j,k)*p(n-j), where T(j,k) = 0 if k divides j otherwise 0.",
+  "id": "A221650",
+  "mentions": [
+    "A000005",
+    "A000041",
+    "A006128",
+    "A027750",
+    "A051731",
+    "A066633",
+    "A127093",
+    "A221530",
+    "A221649"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Consecutive terms that appear more than once in A014237.",
+  "id": "A322155",
+  "mentions": [
+    "A000040",
+    "A014237",
+    "A018252"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

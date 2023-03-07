@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that n-1, n, and n+1 are all products of 7 distinct primes.",
+  "id": "A259350",
+  "mentions": [
+    "A093550",
+    "A169834",
+    "A248201",
+    "A248202",
+    "A248203",
+    "A248204",
+    "A248349",
+    "A259349",
+    "A259801"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

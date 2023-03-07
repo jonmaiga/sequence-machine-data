@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = a(n-2)*a(n-3) - a(n-1); a(0) = 3, a(1) = 5, a(2) = 7.",
+  "id": "A276693",
+  "mentions": [
+    "A060006"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Permanent of the n-th principal submatrix of A003057.",
+  "id": "A204249",
+  "mentions": [
+    "A000442",
+    "A003057",
+    "A085750",
+    "A085807",
+    "A278300",
+    "A278845",
+    "A278847",
+    "A278925",
+    "A278926"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:24",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

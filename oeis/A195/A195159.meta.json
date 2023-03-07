@@ -1,0 +1,31 @@
+{
+  "description": "Multiples of 7 and odd numbers interleaved.",
+  "id": "A195159",
+  "mentions": [
+    "A001477",
+    "A005408",
+    "A008589",
+    "A022998",
+    "A026741",
+    "A056020",
+    "A080512",
+    "A165998",
+    "A195140",
+    "A195151",
+    "A195160",
+    "A195161"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

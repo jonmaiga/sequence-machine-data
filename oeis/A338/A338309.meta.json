@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 4; thereafter a(n) is the least new semiprime such that a(n-1) + a(n) is a semiprime.",
+  "id": "A338309",
+  "mentions": [
+    "A001358"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

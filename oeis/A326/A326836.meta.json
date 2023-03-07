@@ -1,0 +1,30 @@
+{
+  "description": "Heinz numbers of integer partitions whose maximum part divides their sum.",
+  "id": "A326836",
+  "mentions": [
+    "A018818",
+    "A047993",
+    "A056239",
+    "A061395",
+    "A067538",
+    "A112798",
+    "A316413",
+    "A326837",
+    "A326838",
+    "A326839",
+    "A326840",
+    "A326841",
+    "A326843",
+    "A326850"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

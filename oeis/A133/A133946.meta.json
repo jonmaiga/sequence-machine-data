@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum phi(k), where the sum is over the integers k which are the \"non-isolated divisors\" of 2n and phi(k) is the Euler totient function (phi(k) = A000010(k)). A positive divisor k of n is non-isolated if k-1 and/ or k+1 also divides n.",
+  "id": "A133946",
+  "mentions": [
+    "A000010",
+    "A133945"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

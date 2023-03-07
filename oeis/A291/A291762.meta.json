@@ -1,0 +1,28 @@
+{
+  "description": "Restricted growth sequence transform of ((-1)^A000120(n))*A046523(n); filter combining the parity of binary weight with the prime signature of n.",
+  "id": "A291762",
+  "mentions": [
+    "A000120",
+    "A010060",
+    "A027697",
+    "A027699",
+    "A046523",
+    "A101296",
+    "A130593",
+    "A230095",
+    "A231431",
+    "A235001",
+    "A286163",
+    "A291761"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 1,
+    "size": 110,
+    "source": "oeis-bfile"
+  }
+}

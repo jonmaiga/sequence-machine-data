@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = sigma(n) + phi(n) + d(n).",
+  "id": "A233541",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A000203",
+    "A064840"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

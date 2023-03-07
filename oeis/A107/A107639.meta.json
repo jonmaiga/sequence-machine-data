@@ -1,0 +1,19 @@
+{
+  "description": "Smallest prime a such that (a*b)^2 + a*b -1 is prime with b prime = 2^(2*n) - 2^n - 1, see A098845 for n.",
+  "id": "A107639",
+  "mentions": [
+    "A098845"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

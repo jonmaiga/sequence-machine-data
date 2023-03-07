@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of F(q)*F(q^5) where F(q) = eta(q^2)*eta(q^3)^3 / (eta(q)*eta(q^6)).",
+  "id": "A122779",
+  "mentions": [
+    "A122777"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:17:17",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

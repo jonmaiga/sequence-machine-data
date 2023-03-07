@@ -1,0 +1,22 @@
+{
+  "description": "Position of the first occurrence of n-th noncomposite number, A008578(n), in A249337; positions of records in A249072.",
+  "id": "A249342",
+  "mentions": [
+    "A008578",
+    "A249072",
+    "A249337",
+    "A249340",
+    "A249341"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

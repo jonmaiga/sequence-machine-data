@@ -1,0 +1,26 @@
+{
+  "description": "Number of integer partitions of n whose LCM is greater than n.",
+  "id": "A327779",
+  "mentions": [
+    "A018818",
+    "A067538",
+    "A074761",
+    "A290103",
+    "A326842",
+    "A327778",
+    "A327780",
+    "A327781",
+    "A327783",
+    "A327784"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

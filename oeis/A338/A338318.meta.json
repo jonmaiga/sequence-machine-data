@@ -1,0 +1,40 @@
+{
+  "description": "Composite numbers whose prime indices are pairwise intersecting (non-coprime).",
+  "id": "A338318",
+  "mentions": [
+    "A002808",
+    "A008578",
+    "A051185",
+    "A056239",
+    "A101268",
+    "A112798",
+    "A200976",
+    "A284825",
+    "A302569",
+    "A302696",
+    "A305843",
+    "A318717",
+    "A319752",
+    "A322336",
+    "A327516",
+    "A327685",
+    "A328673",
+    "A328867",
+    "A335236",
+    "A337599",
+    "A337666",
+    "A337667",
+    "A337694"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

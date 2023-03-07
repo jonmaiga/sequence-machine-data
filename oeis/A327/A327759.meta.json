@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1; a(2) = 2; a(n) = n - max{k",
+  "id": "A327759",
+  "mentions": [
+    "A059100",
+    "A141044"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k for which phi(k) = phi(k''), where phi is the Euler totient function (A000010) and k'' the second arithmetic derivative of k (A068346).",
+  "id": "A352331",
+  "mentions": [
+    "A000010",
+    "A005383",
+    "A023208",
+    "A023221",
+    "A051674",
+    "A068346",
+    "A190402"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

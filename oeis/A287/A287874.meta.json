@@ -1,0 +1,24 @@
+{
+  "description": "Concatenate prime factorization as in A080670, but write everything in binary.",
+  "id": "A287874",
+  "mentions": [
+    "A007088",
+    "A080670",
+    "A230625",
+    "A230626",
+    "A230627",
+    "A287875"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:00",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

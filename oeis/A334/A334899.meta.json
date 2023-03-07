@@ -1,0 +1,21 @@
+{
+  "description": "Bi-unitary practical numbers (A334898) that are not exponentially odd numbers (A268335).",
+  "id": "A334899",
+  "mentions": [
+    "A005153",
+    "A268335",
+    "A287173",
+    "A334898",
+    "A334902"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

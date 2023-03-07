@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) (0<=k<=n) is the number of Schroeder paths of length 2n, having k (1,0)-steps on the lines y=0 and y=1 (a Schroeder path of length 2n is a path from (0,0) to (2n,0), consisting of steps U=(1,1), D=(1,-1) and H=(2,0) and never going below the x-axis).",
+  "id": "A110189",
+  "mentions": [
+    "A006318",
+    "A110190"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

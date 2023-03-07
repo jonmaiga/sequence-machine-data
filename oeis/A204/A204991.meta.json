@@ -1,0 +1,19 @@
+{
+  "description": "2^k-2^j, where (2^k,2^j) is the least pair of distinct positive powers of 2 for which n divides 2^k-2^j.",
+  "id": "A204991",
+  "mentions": [
+    "A204892",
+    "A204987",
+    "A204990"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 09:43:13",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

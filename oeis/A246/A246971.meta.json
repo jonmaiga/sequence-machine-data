@@ -1,0 +1,18 @@
+{
+  "description": "Triangular array read by rows, arising from enumeration of binary words containing n 0's and k 1's that avoid the pattern 0100010.",
+  "id": "A246971",
+  "mentions": [
+    "A239103"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

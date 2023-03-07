@@ -1,0 +1,25 @@
+{
+  "description": "Largest number which requires n iterations of the bi-unitary totient function (A116550) to reach 1.",
+  "id": "A225175",
+  "mentions": [
+    "A003271",
+    "A005424",
+    "A047994",
+    "A116550",
+    "A225172",
+    "A225173",
+    "A225174",
+    "A225176"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

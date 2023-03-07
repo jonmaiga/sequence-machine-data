@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of Product_{k>=1} (1-q^(2*k))/(1-q^k)^4.",
+  "id": "A350642",
+  "mentions": [
+    "A350643",
+    "A350644"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

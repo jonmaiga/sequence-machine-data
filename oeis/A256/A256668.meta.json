@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 3*B*C*(n mod A) + 5*A*C*(n mod B) + 2*A*B*(n mod C) with A=7, B=11, C=17.",
+  "id": "A256668",
+  "mentions": [
+    "A255818",
+    "A256496",
+    "A256643"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:18:27",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

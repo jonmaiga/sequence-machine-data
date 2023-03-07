@@ -1,0 +1,21 @@
+{
+  "description": "A permutation of the positive integers with a divisibility property (see Comments for precise definition).",
+  "id": "A340510",
+  "mentions": [
+    "A000045",
+    "A001622",
+    "A019444"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "hear",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

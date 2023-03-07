@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle read by rows: row n (n>=0) gives binomial(wt(n+k),k), k >= 0, up to the point where the terms are all zeros (wt() = A000120()).",
+  "id": "A151683",
+  "mentions": [
+    "A000120",
+    "A160573"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers m such that prime(m) is of the form k+floor(ks/r)+floor(kt/r), where r=log(2), s=log(3), t=log(5).",
+  "id": "A184874",
+  "mentions": [
+    "A184871",
+    "A184872",
+    "A184873",
+    "A184875",
+    "A184876"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

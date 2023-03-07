@@ -1,0 +1,19 @@
+{
+  "description": "Total volume of all rectangular prisms with dimensions r X s X t where r, s and t are the smallest, middle and largest parts in each partition of n into 3 parts.",
+  "id": "A307684",
+  "mentions": [
+    "A001399"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

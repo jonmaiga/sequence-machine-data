@@ -1,0 +1,17 @@
+{
+  "description": "Even numbers m having the property that for every odd prime divisor p of m there exists a positive integer k < p-1, such that p-k|m-k.",
+  "id": "A309780",
+  "mentions": [
+    "A309769"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

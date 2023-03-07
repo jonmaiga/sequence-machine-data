@@ -1,0 +1,24 @@
+{
+  "description": "Triangle of coefficients of polynomials providing the second term of the numerator for the generating function for odd powers (2*m+1) of Chebyshev S-polynomials. The present polynomials are called P(m;1,x^2).",
+  "id": "A217478",
+  "mentions": [
+    "A049310",
+    "A053122",
+    "A113187",
+    "A127672",
+    "A217479"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

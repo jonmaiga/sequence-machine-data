@@ -1,0 +1,28 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of Dyck paths of semilength n whose ascent lengths form the k-th partition of the integer n; the partitions of n are ordered in the \"Mathematica\" ordering.",
+  "id": "A125181",
+  "mentions": [
+    "A000041",
+    "A000108",
+    "A000110",
+    "A001263",
+    "A016098",
+    "A091867",
+    "A124794",
+    "A134264",
+    "A306438"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

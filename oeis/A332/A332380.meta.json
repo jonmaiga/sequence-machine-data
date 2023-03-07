@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the X-coordinate of the n-th point of the Peano curve. Sequence A332381 gives Y-coordinates.",
+  "id": "A332380",
+  "mentions": [
+    "A332246",
+    "A332381"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

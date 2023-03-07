@@ -1,0 +1,23 @@
+{
+  "description": "Product of next n prime numbers greater than n.",
+  "id": "A272899",
+  "mentions": [
+    "A000720",
+    "A002110",
+    "A007918",
+    "A034386",
+    "A084754"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

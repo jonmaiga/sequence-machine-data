@@ -1,0 +1,20 @@
+{
+  "description": "Number of zeros strictly inside the unit circle of the Bernoulli polynomial B(n,x).",
+  "id": "A284849",
+  "mentions": [
+    "A001898",
+    "A027641",
+    "A027642"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "G.f. satisfies: 24*A(x) = 23 + 64*x + A(x)^8, starting with [1,4,28].",
+  "id": "A120604",
+  "mentions": [
+    "A120588",
+    "A120603",
+    "A120605",
+    "A120607"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

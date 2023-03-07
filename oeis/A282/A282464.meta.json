@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{i=0..n} i*Fibonacci(i)^2.",
+  "id": "A282464",
+  "mentions": [
+    "A000045",
+    "A014286",
+    "A064831",
+    "A169630"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

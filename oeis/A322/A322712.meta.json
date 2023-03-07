@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Sum_{k = -infinity .. infinity} exp(-k^2/4) - Integral_{x = -infinity .. infinity} exp(-x^2/4) dx.",
+  "id": "A322712",
+  "mentions": [
+    "A019707",
+    "A073009",
+    "A083648"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": -16,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

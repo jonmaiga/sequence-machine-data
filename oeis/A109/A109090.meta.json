@@ -1,0 +1,23 @@
+{
+  "description": "Continued fraction expansion of a = f(1) = f(2) with constant a from A109089 and function f(x) from A109087.",
+  "id": "A109090",
+  "mentions": [
+    "A109086",
+    "A109087",
+    "A109088",
+    "A109089"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cofr",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

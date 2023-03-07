@@ -1,0 +1,38 @@
+{
+  "description": "Triangle read by rows: the unsigned Lah numbers T(n,k) = binomial(n-1, k-1)*n!/k! if n > 0 and k > 0, T(n,0) = 0^n and otherwise 0, for n >= 0 and 0 <= k <= n.",
+  "id": "A271703",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000142",
+    "A000262",
+    "A001286",
+    "A001754",
+    "A001755",
+    "A001777",
+    "A002378",
+    "A002868",
+    "A008297",
+    "A036039",
+    "A083374",
+    "A097805",
+    "A105278",
+    "A111596",
+    "A253285",
+    "A354795",
+    "A360177"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:36",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

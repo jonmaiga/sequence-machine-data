@@ -1,0 +1,26 @@
+{
+  "description": "Number of chiral pairs of colorings of the 30 triangular faces of a regular icosahedron or the 30 vertices of a regular dodecahedron using n or fewer colors.",
+  "id": "A337959",
+  "mentions": [
+    "A000332",
+    "A054472",
+    "A093566",
+    "A252704",
+    "A337896",
+    "A337960",
+    "A337961",
+    "A337964"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:47:11",
+    "offset": 1,
+    "size": 13,
+    "source": "joeis"
+  }
+}

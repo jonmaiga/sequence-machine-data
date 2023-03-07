@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{2^m divides n} 2^(3*m).",
+  "id": "A318935",
+  "mentions": [
+    "A007814",
+    "A023001"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

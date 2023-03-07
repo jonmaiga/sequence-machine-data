@@ -1,0 +1,21 @@
+{
+  "description": "Smallest multiple of 13 such that decimals digits 1, ..., k (k = 1, ..., 9) and 0 appear in any order.",
+  "id": "A178303",
+  "mentions": [
+    "A171744",
+    "A171768"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

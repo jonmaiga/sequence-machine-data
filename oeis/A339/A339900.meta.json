@@ -1,0 +1,31 @@
+{
+  "description": "Lexicographically earliest permutation of odd primes such that A007814(a(n)-1) = 1+A007814(n), where A007814 gives the 2-adic valuation of n.",
+  "id": "A339900",
+  "mentions": [
+    "A001511",
+    "A002145",
+    "A007521",
+    "A007814",
+    "A065091",
+    "A105126",
+    "A105127",
+    "A105128",
+    "A105129",
+    "A105130",
+    "A105131",
+    "A105132",
+    "A108546",
+    "A111745"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

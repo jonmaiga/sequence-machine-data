@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest prime p such that q = 2 * p + prime(n+2) is prime AND A007953(p) = A007953(q) where A007953 is sum of digits.",
+  "id": "A178548",
+  "mentions": [
+    "A000040",
+    "A007953",
+    "A100484",
+    "A178561"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

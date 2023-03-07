@@ -1,0 +1,24 @@
+{
+  "description": "Triangle of Dyck paths counted by number of long interior inclines.",
+  "id": "A108838",
+  "mentions": [
+    "A000108",
+    "A001263",
+    "A006470",
+    "A007290",
+    "A091894",
+    "A145596"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 2,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

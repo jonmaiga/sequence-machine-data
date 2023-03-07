@@ -1,0 +1,19 @@
+{
+  "description": "Supertotient numbers: numbers k such that the set of numbers less than k and relatively prime to k can be partitioned into two disjoint subsets of equal sum.",
+  "id": "A332556",
+  "mentions": [
+    "A023896",
+    "A332555"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:02",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

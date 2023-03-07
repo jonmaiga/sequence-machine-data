@@ -1,0 +1,18 @@
+{
+  "description": "Numbers representable in more than one way as x*y*(x+y), where x>=y>1.",
+  "id": "A255266",
+  "mentions": [
+    "A081779",
+    "A255265"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

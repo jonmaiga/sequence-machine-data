@@ -1,0 +1,25 @@
+{
+  "description": "Array T(n,k) (k >= 1, n >= k) read by antidiagonals (see definition in Comments lines).",
+  "id": "A105272",
+  "mentions": [
+    "A000012",
+    "A024222",
+    "A118960",
+    "A120280",
+    "A120363",
+    "A120654",
+    "A121514",
+    "A121526"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:56",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

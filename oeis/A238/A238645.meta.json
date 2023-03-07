@@ -1,0 +1,22 @@
+{
+  "description": "Number of odd primes p < 2*n such that the number of squarefree numbers among 1, ..., ((p-1)/2)*n is prime.",
+  "id": "A238645",
+  "mentions": [
+    "A000040",
+    "A005117",
+    "A013928",
+    "A237578",
+    "A237615",
+    "A238646"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

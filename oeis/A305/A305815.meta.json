@@ -1,0 +1,25 @@
+{
+  "description": "Restricted growth sequence transform of A305814, a filter sequence constructed from the GF(2)[X]-factorization signatures of the divisors of n.",
+  "id": "A305815",
+  "mentions": [
+    "A000005",
+    "A278233",
+    "A294883",
+    "A294884",
+    "A305788",
+    "A305795",
+    "A305813",
+    "A305814"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

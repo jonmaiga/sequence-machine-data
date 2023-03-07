@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that are equal to the number of their digits multiplied by the sum of the fifth powers of the digits.",
+  "id": "A270540",
+  "mentions": [
+    "A055014"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

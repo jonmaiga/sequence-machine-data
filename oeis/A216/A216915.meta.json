@@ -1,0 +1,23 @@
+{
+  "description": "T(n, k) = Product{1<=j<=n, gcd(j,k)=1 | j} / lcm{1<=j<=n, gcd(j,k)=1 | j} for n >= 0, k >= 1, square array read by antidiagonals.",
+  "id": "A216915",
+  "mentions": [
+    "A000034",
+    "A025527",
+    "A128247",
+    "A216917",
+    "A216919"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

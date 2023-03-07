@@ -1,0 +1,20 @@
+{
+  "description": "a(n) has exactly (a(n) - n) / 2 partitions with exactly (a(n) - n) / 2 prime parts.",
+  "id": "A299732",
+  "mentions": [
+    "A222656",
+    "A299730",
+    "A299731"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

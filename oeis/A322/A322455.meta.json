@@ -1,0 +1,22 @@
+{
+  "description": "Sum of n-th powers of the roots of x^3 - 20*x^2 - 9*x - 1.",
+  "id": "A322455",
+  "mentions": [
+    "A033304",
+    "A215076",
+    "A274032",
+    "A320918"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

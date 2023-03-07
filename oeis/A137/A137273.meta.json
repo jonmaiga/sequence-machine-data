@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of n-th Fibonacci number into Fibonacci parts obtained by iteratively dividing F(k) into F(n-1) and F(n-2); number of sub-Fibonacci sequences of length n starting with 1,0.",
+  "id": "A137273",
+  "mentions": [
+    "A002449",
+    "A008934",
+    "A098641"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

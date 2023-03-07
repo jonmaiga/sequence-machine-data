@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers such that for any n > 2, a(n) is a divisor or a multiple of a(n-1) + a(n-2).",
+  "id": "A360281",
+  "mentions": [
+    "A085947",
+    "A328444",
+    "A332301"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "Set m_0=0, and let m_n be the least positive integer that cannot be written in the form Sum_{k=1..oo} a_k k!, with a_k in {m_0,m_1, ..., m_{n-1}}.",
+  "id": "A141447",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of Product_{k>0} 1/(Sum_{m>=0} x^(k*m^2)).",
+  "id": "A320119",
+  "mentions": [
+    "A300446",
+    "A317665",
+    "A320120"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

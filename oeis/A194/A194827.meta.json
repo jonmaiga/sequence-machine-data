@@ -1,0 +1,22 @@
+{
+  "description": "2-adic valuation of the number of n X n Alternating Sign Matrices (A005130(n)).",
+  "id": "A194827",
+  "mentions": [
+    "A000120",
+    "A005130",
+    "A007814",
+    "A227833"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

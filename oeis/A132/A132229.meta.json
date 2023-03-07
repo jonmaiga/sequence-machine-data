@@ -1,0 +1,18 @@
+{
+  "description": "The set N such that each positive integer can be written in the form s^2 + n, s>=0, n in N, in an odd number of ways.",
+  "id": "A132229",
+  "mentions": [
+    "A108345"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

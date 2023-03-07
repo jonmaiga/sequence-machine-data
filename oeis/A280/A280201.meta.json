@@ -1,0 +1,18 @@
+{
+  "description": "Let the smallest of three successive primes p, p+d, p+2d be a so-called d-triple and b(n) the sequence of d-triples with d<>6. Then a(n) is the number of 6-triples between b(n) and b(n+1).",
+  "id": "A280201",
+  "mentions": [
+    "A047948",
+    "A122535"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:48",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

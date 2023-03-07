@@ -1,0 +1,20 @@
+{
+  "description": "Least triangular number representable as a sum of n consecutive triangular numbers, or -1 if no such triangular number exists.",
+  "id": "A238017",
+  "mentions": [
+    "A000217",
+    "A129803",
+    "A131557",
+    "A238018"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

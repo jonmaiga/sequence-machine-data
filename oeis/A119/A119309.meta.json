@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = binomial(2*n,n) * 6^n.",
+  "id": "A119309",
+  "mentions": [
+    "A000984",
+    "A013620",
+    "A038220",
+    "A059304",
+    "A092566",
+    "A098658"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

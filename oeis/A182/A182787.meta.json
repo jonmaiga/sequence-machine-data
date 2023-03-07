@@ -1,0 +1,20 @@
+{
+  "description": "Lower Beatty array of sqrt(3).",
+  "id": "A182787",
+  "mentions": [
+    "A003511",
+    "A181661",
+    "A182786"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

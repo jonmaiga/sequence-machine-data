@@ -1,0 +1,18 @@
+{
+  "description": "Number of length 6+1 0..2*n arrays with the sum of the absolute values of adjacent differences equal to 6*n.",
+  "id": "A249986",
+  "mentions": [
+    "A249982"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:08:55",
+    "offset": 1,
+    "size": 23,
+    "source": "joeis"
+  }
+}

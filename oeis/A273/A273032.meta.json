@@ -1,0 +1,22 @@
+{
+  "description": "E.g.f.: (sin(2*x) + sin(5*x)) / sin(7*x).",
+  "id": "A273032",
+  "mentions": [
+    "A156193",
+    "A272158",
+    "A272467",
+    "A273031",
+    "A273033"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 17:51:32",
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

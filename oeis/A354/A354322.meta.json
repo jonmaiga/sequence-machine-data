@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows where row n lists the distinct Matula-Goebel numbers of terminal subtrees occurring in the tree with Matula-Goebel number n.",
+  "id": "A354322",
+  "mentions": [
+    "A007097",
+    "A061395",
+    "A317713"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Length of A185120(n): number of subsequent digits in the decimal expansion of e which form the next longer prime.",
+  "id": "A181920",
+  "mentions": [
+    "A185120"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

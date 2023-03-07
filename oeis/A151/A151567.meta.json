@@ -1,0 +1,20 @@
+{
+  "description": "Another version of the toothpick sequence A139250 (see Comments for definition).",
+  "id": "A151567",
+  "mentions": [
+    "A000695",
+    "A139250",
+    "A151566"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

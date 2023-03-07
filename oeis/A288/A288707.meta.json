@@ -1,0 +1,21 @@
+{
+  "description": "0-limiting word of the mapping 00->1000, 10->00, starting with 00.",
+  "id": "A288707",
+  "mentions": [
+    "A000045",
+    "A288708",
+    "A288709",
+    "A288711"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:02",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

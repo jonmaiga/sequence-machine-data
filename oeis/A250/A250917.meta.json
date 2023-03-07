@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f.: exp( x*C(x)^3 ) where C(x) = (1 - sqrt(1-4*x))/(2*x) is the g.f. of the Catalan numbers, A000108.",
+  "id": "A250917",
+  "mentions": [
+    "A000108",
+    "A001517",
+    "A251568"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:24",
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Coefficients of the term by sqrt(2) in (1 + sqrt(2) + sqrt(3))^n sequence, denoted as C2(n).",
+  "id": "A188571",
+  "mentions": [
+    "A188570"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

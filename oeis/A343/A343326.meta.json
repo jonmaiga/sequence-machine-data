@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways to write n as the integral part of (a^3+b^3)/2 + (c^3+d^3)/6, where a,b,c,d are nonnegative integers with a >= max{b,1} and c >= max{d,1}.",
+  "id": "A343326",
+  "mentions": [
+    "A000578",
+    "A004999",
+    "A343368"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

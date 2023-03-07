@@ -1,0 +1,23 @@
+{
+  "description": "Orders k of cyclic groups C_k such that the map \"G -> Automorphism group of G\" eventually reaches the trivial group when started at C_k.",
+  "id": "A117729",
+  "mentions": [
+    "A000010",
+    "A003434",
+    "A033948",
+    "A185816",
+    "A258615",
+    "A331921"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

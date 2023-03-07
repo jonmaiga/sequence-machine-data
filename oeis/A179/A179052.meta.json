@@ -1,0 +1,19 @@
+{
+  "description": "Range and record values of number of partitions of n into powers of 10 (cf. A179051).",
+  "id": "A179052",
+  "mentions": [
+    "A008728",
+    "A145513",
+    "A179051"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

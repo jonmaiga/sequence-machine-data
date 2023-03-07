@@ -1,0 +1,20 @@
+{
+  "description": "Numbers encoded in an alternate, sometimes more compact, binary system with a third, dual-purpose, prefix/delimiter symbol not always required.",
+  "id": "A140116",
+  "mentions": [
+    "A007088",
+    "A072600",
+    "A140117"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Bases b in which the increasing concatenation of all primes smaller than b forms a prime number.",
+  "id": "A217040",
+  "mentions": [
+    "A019518",
+    "A046035"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

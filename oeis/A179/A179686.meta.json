@@ -1,0 +1,19 @@
+{
+  "description": "Let m > k > 0 be odd numbers and operations \"m<+>k\" and \"m<->k\" be defined as in A179382 and A179480. Then the sequence m<+>k, m<->(m<+>k), m<+>(m<->(m<+>k)), ... is periodic; a(n) is its smallest period starting from the seeds m=2*n-1 and k=1.",
+  "id": "A179686",
+  "mentions": [
+    "A000265",
+    "A179382",
+    "A179480"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 2,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

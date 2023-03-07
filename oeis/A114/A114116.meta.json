@@ -1,0 +1,21 @@
+{
+  "description": "1's-counting matrix: row sums give number of 1's in binary expansion of n+1.",
+  "id": "A114116",
+  "mentions": [
+    "A000120",
+    "A037861",
+    "A114115",
+    "A114117"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 110,
+    "source": "oeis-entry"
+  }
+}

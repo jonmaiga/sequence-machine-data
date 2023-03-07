@@ -1,0 +1,17 @@
+{
+  "description": "Records of A038804: (Smallest prime > 10^n) - (largest prime < 10^n).",
+  "id": "A331834",
+  "mentions": [
+    "A038804"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

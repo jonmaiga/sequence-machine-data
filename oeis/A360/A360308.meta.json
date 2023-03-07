@@ -1,0 +1,27 @@
+{
+  "description": "Number T(n,k) of permutations of [n] whose descent set is the k-th finite subset of positive integers in Gray order; triangle T(n,k), n>=0, 0<=k<=ceiling(2^(n-1))-1, read by rows.",
+  "id": "A360308",
+  "mentions": [
+    "A000142",
+    "A003188",
+    "A006068",
+    "A011782",
+    "A060351",
+    "A227738",
+    "A335845",
+    "A360287"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "changed",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

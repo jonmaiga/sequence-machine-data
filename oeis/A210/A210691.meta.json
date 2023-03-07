@@ -1,0 +1,17 @@
+{
+  "description": "Modified Golomb's sequence: a(n) is the number of times n occurs, starting with a(1)=2.",
+  "id": "A210691",
+  "mentions": [
+    "A001462"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

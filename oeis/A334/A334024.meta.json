@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that s(k) = s(k+1), where s(k) is the sum of unitary divisors of k that are larger than sqrt(k) (A334023).",
+  "id": "A334024",
+  "mentions": [
+    "A064125",
+    "A324367",
+    "A334020",
+    "A334023"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

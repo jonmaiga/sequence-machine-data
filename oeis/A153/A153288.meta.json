@@ -1,0 +1,18 @@
+{
+  "description": "A triangular sequence designed with row sums 2*3^n with first column A064263.",
+  "id": "A153288",
+  "mentions": [
+    "A064263"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

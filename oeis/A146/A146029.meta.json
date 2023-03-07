@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that can be written from base 2 to base 17 using only the digits 0 to 8 (conjectured to be complete).",
+  "id": "A146029",
+  "mentions": [
+    "A131646",
+    "A146025",
+    "A146026",
+    "A146027",
+    "A146028",
+    "A275600"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

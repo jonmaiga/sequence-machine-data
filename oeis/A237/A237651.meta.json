@@ -1,0 +1,20 @@
+{
+  "description": "G.f. satisfies: A(x) = (1+x+x^2) * A(x^2)^2.",
+  "id": "A237651",
+  "mentions": [
+    "A002487",
+    "A195586",
+    "A237650"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

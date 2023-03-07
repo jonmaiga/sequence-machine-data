@@ -1,0 +1,19 @@
+{
+  "description": "Composite squarefree numbers n such that p+10 divides n-10 for each prime p dividing n.",
+  "id": "A225720",
+  "mentions": [
+    "A208728",
+    "A225702",
+    "A225719"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

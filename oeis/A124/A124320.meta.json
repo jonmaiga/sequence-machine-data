@@ -1,0 +1,28 @@
+{
+  "description": "Triangle read by rows: T(n,k) = k!*binomial(n+k-1,k) (n >= 0, 0 <= k <= n), rising factorial power, Pochhammer symbol.",
+  "id": "A124320",
+  "mentions": [
+    "A000407",
+    "A001761",
+    "A001813",
+    "A006963",
+    "A068424",
+    "A093197",
+    "A102693",
+    "A123680",
+    "A203473",
+    "A352601"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that sequence A_n in this database does not contain a prime.",
+  "id": "A111157",
+  "mentions": [
+    "A000287",
+    "A111198"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "dumb",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

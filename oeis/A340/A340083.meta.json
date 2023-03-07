@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (n-1) / gcd(n-1, A003958(n)).",
+  "id": "A340083",
+  "mentions": [
+    "A003958",
+    "A160596",
+    "A340073",
+    "A340081",
+    "A340082"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

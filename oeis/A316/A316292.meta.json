@@ -1,0 +1,26 @@
+{
+  "description": "Number T(n,k) of permutations p of [n] such that k is the maximum of the partial sums of the signed up-down jump sequence of 0,p; triangle T(n,k), n>=0, ceiling((sqrt(1+8*n)-1)/2)<=k<=n, read by rows.",
+  "id": "A316292",
+  "mentions": [
+    "A000142",
+    "A000522",
+    "A002024",
+    "A123578",
+    "A258829",
+    "A291722",
+    "A303697",
+    "A316293",
+    "A316294"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations of an n X 7 array with each element moving exactly one horizontally or vertically and without 2-loops.",
+  "id": "A216799",
+  "mentions": [
+    "A216800"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers m such that a divisor, together with its quotient and remainder, are consecutive terms (in that order) in a geometric sequence.",
+  "id": "A127629",
+  "mentions": [
+    "A001093",
+    "A334185",
+    "A334186"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

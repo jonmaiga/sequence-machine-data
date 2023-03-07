@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = |{0 < k < n: prime(m)^3 + 2*m^3 and m^3 + 2*prime(m)^3 are both prime with m = 3*phi(k) + phi(n-k) - 1}|, where phi(.) is Euler's totient function.",
+  "id": "A236619",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A000578",
+    "A173587",
+    "A220413",
+    "A236192",
+    "A236574"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

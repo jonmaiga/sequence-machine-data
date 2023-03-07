@@ -1,0 +1,25 @@
+{
+  "description": "Number of arrangements of n 1's, n 2's, ..., n n's avoiding equal consecutive terms and introduced in ascending order.",
+  "id": "A321666",
+  "mentions": [
+    "A190826",
+    "A190830",
+    "A190833",
+    "A190835",
+    "A190836",
+    "A190837",
+    "A278990",
+    "A321634"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

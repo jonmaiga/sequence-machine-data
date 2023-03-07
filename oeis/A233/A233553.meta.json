@@ -1,0 +1,30 @@
+{
+  "description": "Amicable 5-tuples: (x1,...,x5) such that sigma(x1)=...=sigma(x5)=x1+...+x5. Groups of 5 subsequent terms list the five members in increasing size.",
+  "id": "A233553",
+  "mentions": [
+    "A036471",
+    "A036474",
+    "A116148",
+    "A125490",
+    "A125492",
+    "A137231",
+    "A273928",
+    "A273930",
+    "A273931",
+    "A273933",
+    "A273934",
+    "A273936"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

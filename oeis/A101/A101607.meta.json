@@ -1,0 +1,22 @@
+{
+  "description": "a(2n) = 7 - a(n), a(2n+1) = (n-1 mod 3) + 1.",
+  "id": "A101607",
+  "mentions": [
+    "A000225",
+    "A003842",
+    "A007814",
+    "A101608"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

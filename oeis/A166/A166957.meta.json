@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 841*n^3 + 261*n^2 + 28*n + 1.",
+  "id": "A166957",
+  "mentions": [
+    "A165806",
+    "A165808",
+    "A165809"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:42:35",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

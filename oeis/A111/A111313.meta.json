@@ -1,0 +1,25 @@
+{
+  "description": "Character codes of the string \"The On-Line Encyclopedia of Integer Sequences\".",
+  "id": "A111313",
+  "mentions": [
+    "A117845",
+    "A130764",
+    "A130765",
+    "A131603",
+    "A134456"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "dumb",
+    "fini",
+    "full",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n that yield a smaller number a(n) under the \"Look and Say\" function A045918.",
+  "id": "A121993",
+  "mentions": [
+    "A005150",
+    "A005341",
+    "A023989",
+    "A045918",
+    "A079475"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

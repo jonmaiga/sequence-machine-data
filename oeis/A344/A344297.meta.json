@@ -1,0 +1,36 @@
+{
+  "description": "Heinz numbers of integer partitions of even numbers with no part greater than 3.",
+  "id": "A344297",
+  "mentions": [
+    "A001358",
+    "A001399",
+    "A002620",
+    "A007980",
+    "A030229",
+    "A035363",
+    "A051037",
+    "A056239",
+    "A080193",
+    "A112798",
+    "A244990",
+    "A261144",
+    "A266755",
+    "A279622",
+    "A300061",
+    "A340387",
+    "A344291",
+    "A344293",
+    "A344294"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

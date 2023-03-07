@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number immediately below n in a clockwise square spiral of the positive integers with the first step to the right.",
+  "id": "A334752",
+  "mentions": [
+    "A068225",
+    "A068226",
+    "A174344",
+    "A268038",
+    "A334751"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

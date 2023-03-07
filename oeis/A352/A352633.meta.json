@@ -1,0 +1,21 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers such for any n > 0, a(n) and a(n+1) are coprime and have no common 1-bits in their binary expansions.",
+  "id": "A352633",
+  "mentions": [
+    "A000027",
+    "A052531",
+    "A109812",
+    "A353604"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

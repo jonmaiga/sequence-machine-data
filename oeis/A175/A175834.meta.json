@@ -1,0 +1,20 @@
+{
+  "description": "Number of real zeros of the polynomial whose coefficients are the decimal expansion of the golden ratio truncated to n places (A011551).",
+  "id": "A175834",
+  "mentions": [
+    "A011551",
+    "A173667"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

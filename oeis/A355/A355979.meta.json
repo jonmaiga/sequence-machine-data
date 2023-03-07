@@ -1,0 +1,20 @@
+{
+  "description": "Indices of primes in A001835.",
+  "id": "A355979",
+  "mentions": [
+    "A001835",
+    "A096147"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:56",
+    "offset": 1,
+    "size": 11,
+    "source": "joeis"
+  }
+}

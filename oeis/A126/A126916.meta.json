@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that 1 + n^2 + n^4 + n^6 + n^8 + n^10 + n^12 + n^14 + n^16 + n^18 + n^20 + n^22 + n^23 is prime.",
+  "id": "A126916",
+  "mentions": [
+    "A049407",
+    "A124175",
+    "A124176",
+    "A124177",
+    "A124178",
+    "A124179",
+    "A124180",
+    "A124181",
+    "A126908"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:39",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

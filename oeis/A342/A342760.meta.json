@@ -1,0 +1,17 @@
+{
+  "description": "Fold a square sheet of paper alternately vertically to the left and horizontally downwards; after each fold, draw a line along each inward crease; after n folds, we obtain a graph G(n); G(n) is contained with G(n+1); let H be the limit of G(n) as n tends to infinity; a(n) is the number of nodes of degree 1 or 3 that are at distance n from the origin in H; a(0) = 1.",
+  "id": "A342760",
+  "mentions": [
+    "A342759"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

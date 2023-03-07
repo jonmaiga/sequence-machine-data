@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (3*n+3)!/((4*(n+1)^2-1)*((n+1)!)^2*(n+2)!).",
+  "id": "A241958",
+  "mentions": [
+    "A005789",
+    "A006480",
+    "A007724",
+    "A217800"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

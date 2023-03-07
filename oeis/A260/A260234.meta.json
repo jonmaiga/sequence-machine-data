@@ -1,0 +1,23 @@
+{
+  "description": "Largest prime factor of the n-th hexagonal number (A000384).",
+  "id": "A260234",
+  "mentions": [
+    "A000384",
+    "A006530",
+    "A180045",
+    "A260233",
+    "A260235",
+    "A260236"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:49",
+    "offset": 2,
+    "size": 65,
+    "source": "joeis"
+  }
+}

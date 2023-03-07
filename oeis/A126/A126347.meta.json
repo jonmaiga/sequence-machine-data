@@ -1,0 +1,23 @@
+{
+  "description": "Triangle, read by rows, where row n lists coefficients of q in B(n,q) that satisfies: B(n,q) = Sum_{k=0..n-1} C(n-1,k)*B(k,q)*q^k for n>0, with B(0,q) = 1; row sums equal the Bell numbers: B(n,1) = A000110(n).",
+  "id": "A126347",
+  "mentions": [
+    "A000110",
+    "A126348",
+    "A126349",
+    "A126470",
+    "A346772"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:14",
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

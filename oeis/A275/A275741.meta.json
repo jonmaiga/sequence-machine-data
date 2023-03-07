@@ -1,0 +1,23 @@
+{
+  "description": "Sum of Wilson and Lerch remainders of n-th prime.",
+  "id": "A275741",
+  "mentions": [
+    "A002068",
+    "A007540",
+    "A027641",
+    "A027642",
+    "A197631",
+    "A197632"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 2,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

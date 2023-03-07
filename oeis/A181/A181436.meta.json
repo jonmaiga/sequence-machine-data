@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that the prime divisors of k^2 + 1 are of the form q^2 + 1.",
+  "id": "A181436",
+  "mentions": [
+    "A002144",
+    "A002522",
+    "A005574",
+    "A180252"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:04",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

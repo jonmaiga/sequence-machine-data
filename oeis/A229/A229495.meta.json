@@ -1,0 +1,21 @@
+{
+  "description": "Stirling's approximation constant e / sqrt(2*Pi).",
+  "id": "A229495",
+  "mentions": [
+    "A001113",
+    "A001142",
+    "A019727"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 1,
+    "size": 150,
+    "source": "oeis-bfile"
+  }
+}

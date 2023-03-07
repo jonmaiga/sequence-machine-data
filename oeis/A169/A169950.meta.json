@@ -1,0 +1,22 @@
+{
+  "description": "Consider the 2^n monic polynomials f(x) with coefficients 0 or 1 and degree n. Sequence gives triangle read by rows, in which T(n,k) (n>=0) is the number of such polynomials of thickness k (1 <= k <= n+1).",
+  "id": "A169950",
+  "mentions": [
+    "A061909",
+    "A169940",
+    "A169954",
+    "A274036"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:53",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

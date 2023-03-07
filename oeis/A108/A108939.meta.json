@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows in which row n lists all primes p such that p-1|n.",
+  "id": "A108939",
+  "mentions": [
+    "A027760",
+    "A067513",
+    "A085020",
+    "A108077"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

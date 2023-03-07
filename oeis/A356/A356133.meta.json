@@ -1,0 +1,26 @@
+{
+  "description": "Complement of A026430.",
+  "id": "A356133",
+  "mentions": [
+    "A001285",
+    "A007413",
+    "A026430",
+    "A036554",
+    "A036580",
+    "A091855",
+    "A354384"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

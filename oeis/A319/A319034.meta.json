@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the height that minimizes the total surface area of the four triangular faces of a square pyramid of unit volume.",
+  "id": "A319034",
+  "mentions": [
+    "A002580",
+    "A002581",
+    "A005486",
+    "A010584"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:18",
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

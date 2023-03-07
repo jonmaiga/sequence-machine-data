@@ -1,0 +1,21 @@
+{
+  "description": "n^5 - 2n.",
+  "id": "A242436",
+  "mentions": [
+    "A000584",
+    "A005843",
+    "A242135"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

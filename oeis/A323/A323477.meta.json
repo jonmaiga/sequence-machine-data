@@ -1,0 +1,20 @@
+{
+  "description": "Successive generations of A306211, in compressed notation.",
+  "id": "A323477",
+  "mentions": [
+    "A306211",
+    "A306215",
+    "A323478"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

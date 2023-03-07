@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that k^2 + 4 is a semiprime.",
+  "id": "A242332",
+  "mentions": [
+    "A005473",
+    "A007591",
+    "A085722",
+    "A242330",
+    "A242331",
+    "A242333"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

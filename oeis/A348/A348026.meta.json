@@ -1,0 +1,22 @@
+{
+  "description": "The numbers visited on a square spiral when stepping to the smallest unvisited number that does not differ by 1 from the current number, is visible from the current number, and does not share a divisor > 1 with the current number.",
+  "id": "A348026",
+  "mentions": [
+    "A063826",
+    "A331400",
+    "A332767",
+    "A335661",
+    "A347358",
+    "A348022"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

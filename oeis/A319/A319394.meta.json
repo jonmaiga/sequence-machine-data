@@ -1,0 +1,34 @@
+{
+  "description": "Number T(n,k) of partitions of n into exactly k positive Fibonacci numbers; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A319394",
+  "mentions": [
+    "A000007",
+    "A000045",
+    "A003107",
+    "A010056",
+    "A136343",
+    "A281689",
+    "A319395",
+    "A319396",
+    "A319397",
+    "A319398",
+    "A319399",
+    "A319400",
+    "A319401",
+    "A319402",
+    "A319403",
+    "A319503"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}
